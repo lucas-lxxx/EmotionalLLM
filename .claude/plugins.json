@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "lastUpdated": 1770484940833,
+  "plugins": [
+    {
+      "filename": "pdf-processing-pro",
+      "type": "skill",
+      "metadata": {
+        "sourcePath": "skills\\document-processing\\pdf-processing-pro",
+        "filename": "pdf-processing-pro",
+        "name": "PDF Processing Pro",
+        "description": "Production-ready PDF processing with forms, tables, OCR, validation, and batch operations. Use when working with complex PDF workflows in production environments, processing large volumes of PDFs, or requiring robust error handling and validation.",
+        "category": "skills",
+        "type": "skill",
+        "size": 47458,
+        "contentHash": "0e07e0c87b7189911b91f35da0b3aaad6678ff2b2781334bfc217a5432a3fe6f",
+        "installedAt": 1770484937387,
+        "updatedAt": 1770484937387
+      }
+    },
+    {
+      "filename": "pptx",
+      "type": "skill",
+      "metadata": {
+        "sourcePath": "skills\\document-processing\\pptx",
+        "filename": "pptx",
+        "name": "pptx",
+        "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks",
+        "category": "skills",
+        "type": "skill",
+        "size": 1230013,
+        "contentHash": "b6f25545bfb358739f1532f793458b5dbc87ee009933cb7c306b2d951ab6617f",
+        "installedAt": 1770484940832,
+        "updatedAt": 1770484940832
+      }
+    }
+  ]
+}

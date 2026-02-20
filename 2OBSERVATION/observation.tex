@@ -1,0 +1,222 @@
+% === 以下为正文内容，用 \input{observation.tex} 引入 ===
+
+\section{Observation}
+\label{sec:observation}
+
+In the following section, we investigate the internal dynamics of ALLMs when processing conflicting emotion cues. An in-depth analysis reveals that, within the audio modality, semantic content systematically overrides prosodic delivery in emotion decisions despite early-layer prosodic dominance (Section~\ref{subsec:prosody_semantic}), and across modalities, text instructions structurally suppress audio emotion signals through mid-layer causal dominance (Section~\ref{subsec:text_override}).
+
+%% ============================================================
+\subsection{Prosody--Semantic Conflict Resolution within Audio}
+\label{subsec:prosody_semantic}
+
+当语音的语义内容与韵律传递表达相互矛盾的情绪时（例如语义悲伤的句子以快乐的语调朗读），ALLM 必须在内部仲裁两种线索。为刻画这一仲裁过程，我们构建了包含 247 条音频样本的受控数据集，涵盖五种情绪类别（neutral、happy、sad、angry、surprised）。50 条基础文本（每类 10 条）经 TTS 合成为五种韵律变体，产生 197 条冲突样本与 50 条一致样本。Prompt 固定为中性情绪分类指令。对每条样本，通过单次前向传播提取 36 层隐状态（Layer~0--35），对 audio token span 做均值池化得到逐层表示向量。
+
+基于上述数据，我们发现以下三个性质：
+
+\subsubsection{表征层面的韵律-语义分离}
+\label{subsubsec:probe_results}
+
+在每一层 $\ell$ 训练两个独立线性探针，分别预测语义情绪标签与韵律情绪标签，并定义主导性指标：
+\begin{equation}
+D(\ell) = \mathrm{Acc}_{\text{prosody}}(\ell) - \mathrm{Acc}_{\text{semantic}}(\ell)
+\label{eq:dominance}
+\end{equation}
+
+Probe 结果呈现出清晰的三阶段结构（Fig.~\ref{fig:probe_accuracy},~\ref{fig:probe_dominance}）：
+
+\textbf{(1) 早层韵律主导（Layer 0--14）。} 韵律准确率在 Layer~0 达到 $0.842$，主导性指标均值约 $0.146$，峰值出现在 Layer~5（$D \approx 0.215$）。音频编码器的输出保留了强韵律特征，在早期 Transformer 层中可被轻易解码。
+
+\textbf{(2) 中层融合竞争（Layer 14--23）。} 主导性指标趋近于零，在 Layer~14--15 附近发生符号翻转。韵律与语义信息在此区间进行活跃的竞争与整合，两者均未明确主导表征。
+
+\textbf{(3) 晚层语义接管（Layer 23--35）。} 语义准确率在 Layer~27 达到峰值（$\mathrm{Acc}_{\text{semantic}} \approx 0.830$），主导性指标转负，Layer~26 最为显著（$D \approx -0.041$）。在冲突子集上，整体主导性为 $0.060$——韵律虽在全局表征层面仍保有优势，但晚层向语义的转变对模型输出行为具有决定性意义。
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.95\textwidth]{fig_probe_accuracy.png}
+    \caption{逐层 Probe 准确率（冲突样本）。蓝色实线为语义 Probe，红色实线为韵律 Probe。韵律在早层（0--14）主导，语义在晚层（23--35）追平并局部反超。}
+    \label{fig:probe_accuracy}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.95\textwidth]{fig_probe_dominance.png}
+    \caption{主导性指标 $D(\ell)$ 逐层变化。绿色填充区域表示韵律主导（$D>0$），橙色表示语义主导（$D<0$）。关键交叉点位于 Layer~14--15。}
+    \label{fig:probe_dominance}
+\end{figure}
+
+\textcolor{red}{【待补充：Layer 29--34 韵律回弹现象的 bootstrap 95\% CI 显著性检验 + 非冲突对照。】}
+
+\textcolor{red}{【待补充：Probe 稳健性验证——K-fold 交叉验证 + 随机标签对照 + 非冲突负对照。】}
+
+然而，表征可读性并不等同于决策采纳。韵律在早层"可读"是否意味着模型"依赖"韵律做出输出？为回答这一问题，我们进一步考察决策轨迹。
+
+\subsubsection{决策轨迹中的语义锁定}
+\label{subsubsec:logit_lens}
+
+我们采用 Logit Lens 将每层隐状态投影至词表空间，获得中间 logit 分布：
+\begin{equation}
+\mathrm{logits}_\ell = \mathrm{LMHead}\bigl(\mathrm{FinalNorm}(\mathbf{h}_\ell^{(T-1)})\bigr)
+\label{eq:logit_lens}
+\end{equation}
+在五个情绪 token 上定义边际值 $\mathrm{Margin}(\ell) = \mathrm{logit}_\ell(y_{\text{prosody}}) - \mathrm{logit}_\ell(y_{\text{semantic}})$，并计算逐层语义胜率。
+
+分析揭示了表征可读性与决策偏好之间的显著分离（Fig.~\ref{fig:logit_margin},~\ref{fig:logit_winrate}）：
+
+\textbf{(1) 早层-中层决策未成形（Layer 0--22）。} Margin 在零附近波动，大量样本的 argmax 为 "other"（既非韵律也非语义目标）。尽管 Probe 在此区间已检测到强韵律可读性，输出机制尚未做出承诺。
+
+\textbf{(2) 晚层语义决策固化（Layer 23--35）。} Margin 从 Layer~23 起持续转负，语义胜率稳步上升。早层韵律的表征优势\emph{并未转化为决策偏好}——模型的输出机制逐步锁定语义解释。
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.95\textwidth]{fig_logit_margin.png}
+    \caption{Logit Lens Margin 曲线（冲突样本）。Layer 0--22 margin 在零附近波动，Layer 23 起持续转负。}
+    \label{fig:logit_margin}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.95\textwidth]{fig_logit_winrate.png}
+    \caption{Logit Lens 逐层胜率。绿色为语义胜率，红色为韵律胜率，灰色为 "other"。Layer 23 起语义胜率快速上升。}
+    \label{fig:logit_winrate}
+\end{figure}
+
+值得注意的是，决策转折（Layer~23）明显晚于表征交叉（Layer~14--15），两者之间约 8 层的间隔表明表征变化与决策承诺之间存在结构性滞后。
+
+\textcolor{red}{【待补充：5 词 unigram 基线 + 校正后重绘 margin 曲线，排除词频先验对 Layer 23 转折点位置的干扰。】}
+
+\textcolor{red}{【待补充：所有指标的 bootstrap 95\% CI + 多重比较校正。】}
+
+Probe 与 Logit Lens 分别刻画了"编码了什么"与"决策偏向哪方"，但两者均为观测性工具。为建立因果性证据，我们进一步引入干预实验。
+
+\subsubsection{因果干预确认语义主导}
+\label{subsubsec:patching}
+
+对于每对冲突样本 $(A, B)$，在第 $\ell$ 层将 $A$ 的 audio span 隐状态替换为 $B$ 的对应表示，继续前向传播至输出。测量 Flip-to-Target（修补后输出匹配 $B$ 的目标标签的比例）与 Delta Logit（目标 token logit 变化量 $\Delta(\ell) = \mathrm{logit}_{\text{patch}}(y_{\text{target}}) - \mathrm{logit}_{\text{base}}(y_{\text{target}})$）。
+
+干预结果与观测性发现高度一致（Fig.~\ref{fig:patch_flip},~\ref{fig:patch_delta}）：
+
+\textbf{(1) 语义修补具有强因果控制力。} 在 Layer~0--12，语义修补的 Flip-to-Target 最高约 $0.65$，多层维持在 $0.50$ 以上，Delta Logit 约 $5$--$6$。语义内容对最终情绪输出具有强定向因果影响。
+
+\textbf{(2) 韵律修补仅具弱扰动效应。} 韵律修补的 Flip-to-Target 峰值仅 $0.14$--$0.26$（Layer~9 附近），Delta Logit 约 $2.2$--$2.3$。韵律的因果影响可测量但远弱于语义——语义的因果控制力约为韵律的 $2.5$ 倍。
+
+\textbf{(3) Layer 14--15 构成可控性边界。} 超过此边界后，无论语义还是韵律修补，仅替换 audio span 对输出的影响均变得微乎其微。情绪相关信息在中层已从局部 audio span 扩散至更广泛的位置表示，局部干预由此失效。
+
+\begin{figure}[htbp]
+    \centering
+    \begin{minipage}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig_patch_flip_semantic.png}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig_patch_flip_prosody.png}
+    \end{minipage}
+    \caption{Activation Patching 逐层 Flip Rate。左：语义修补（Flip-to-Target $\approx 0.65$），右：韵律修补（峰值仅 $\approx 0.26$）。两者均在 Layer~14--15 后急剧衰减。}
+    \label{fig:patch_flip}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \begin{minipage}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig_patch_delta_semantic.png}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig_patch_delta_prosody.png}
+    \end{minipage}
+    \caption{逐层 Delta Logit。左：语义修补（$\Delta \approx 5$--$6$），右：韵律修补（$\Delta \approx 2.2$--$2.3$）。}
+    \label{fig:patch_delta}
+\end{figure}
+
+\textcolor{red}{【待补充：position-level patching 实验，对比 audio/text/random span 在 Layer 15+ 的控制力变化。】}
+
+\subsubsection{小结}
+\label{subsubsec:obs1_summary}
+
+上述三层分析——表征探测、决策轨迹追踪、因果干预——共同确认 ALLM 内部存在\textbf{语义优先仲裁}策略。Probe 揭示\emph{编码了什么}：韵律主导早层，语义在晚层接管。Logit Lens 揭示\emph{什么驱动输出}：决策轨迹从 Layer~23 锁定语义。Activation Patching 揭示\emph{什么因果性地决定输出}：语义控制力（$\text{Flip} \approx 0.65$）远超韵律（$\text{Flip} \approx 0.14$--$0.26$）。两个关键边界浮现：表征交叉（Layer~14--15）与决策转折（Layer~23），两者的 $\sim$8 层间隔反映了表征变化与决策承诺之间的结构性滞后。
+
+\textcolor{red}{【待补充：三组对照并列（Audio-only / Conflict / Consistent）。】}
+
+\textcolor{red}{【待补充：Layer 14--15 vs 23 边界落差的归因实验。】}
+
+上述发现刻画了音频\emph{内部}的仲裁机制。但在实际应用中，ALLM 的情绪判断还受到外部文本指令的影响。这引出一个更关键的问题：当文本指令携带的情绪指向与音频情绪冲突时，模型内部的模态竞争如何展开？
+
+%% ============================================================
+\subsection{Text Instruction Override of Audio Emotion Signals}
+\label{subsec:text_override}
+
+为隔离文本指令情绪与音频情绪的纯冲突，我们使用 TTS 生成固定语义内容的音频（如 ``The package is scheduled to arrive...''），以五种情绪韵律朗读，确保冲突仅来自 prompt 中的指令情绪指向与音频韵律情绪之间的对立。实验设置三组条件（18 条基础音频 $\times$ 3 组）：\textbf{Audio-only}（仅判断音频情绪）、\textbf{Conflict}（文本指令指向与音频不同的情绪，$T \neq A$）、\textbf{Consistent}（$T = A$，正对照）。沿用 Logit Lens 差分与 Activation Patching 两种工具，分别定位仲裁发生的位置和因果主导的模态。
+
+基于上述实验，我们发现以下两个关键性质：
+
+\subsubsection{晚期层决策固化}
+\label{subsubsec:late_consolidation}
+
+Logit Lens 差分 $\Delta\mathrm{logit}_\ell = \mathrm{logit}_\ell(T) - \mathrm{logit}_\ell(A)$ 揭示，跨模态仲裁集中发生在一个狭窄的晚期层窗口（Fig.~\ref{fig:text_logit_lens}）。
+
+\textbf{(1) 前 20 层无分化。} 三组条件的 $\Delta\mathrm{logit}_\ell$ 在 Layer~0--20 均接近零，模型尚未开始解决跨模态冲突。
+
+\textbf{(2) Layer 26--28 决策不可逆固化。} Conflict 条件下 $\Delta\mathrm{logit}_\ell$ 在此窗口内急剧偏向文本指令情绪 $T$，Consistent 条件下两种模态相互增强。一旦决策在此 2--3 层内结晶，后续层不再出现逆转——决策窗口是有限且不可逆的。
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.85\textwidth]{fig_text_logit_lens.jpg}
+    \caption{跨模态 Logit Lens 差分。三组条件（Audio-only / Conflict / Consistent）在前 20 层无分化，Layer 26--28 出现决策结晶。阴影为 $\pm 1$ 标准差。}
+    \label{fig:text_logit_lens}
+\end{figure}
+
+\textcolor{red}{【待补充：Layer 26--28 之后 PatchAudio 无效性验证。】}
+
+\subsubsection{文本因果主导与音频结构性压制}
+\label{subsubsec:text_dominance}
+
+Activation Patching 进一步将观测性的"where"推进为因果性的"who"（Fig.~\ref{fig:text_patch}）。
+
+\textbf{(1) PatchText 在 Layer 5--20 持续有效。} 替换文本指令隐状态可显著改变最终情绪输出，文本模态在中层即已建立对决策的主导控制。
+
+\textbf{(2) PatchAudio 在相同层段无效或不稳定。} 替换音频隐状态对输出影响微弱。音频情绪信号在中层被结构性压制——不是两种模态的对等竞争，而是文本通路系统性地覆盖了音频信号的因果贡献。
+
+这一因果不对称性揭示了文本模态在 ALLM 情绪决策中的结构性主导地位：在决策形成的关键层段，文本指令具有强定向因果控制力，而音频信号被边缘化。
+
+\begin{figure}[htbp]
+    \centering
+    \begin{minipage}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig_text_patch_flip.jpg}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig_text_patch_delta.jpg}
+    \end{minipage}
+    \caption{跨模态 Activation Patching。左：Flip Rate（PatchText 红色 vs PatchAudio 蓝色），右：Logit Shift to Target Emotion。PatchText 在 Layer 5--20 持续有效，PatchAudio 无效或不稳定。}
+    \label{fig:text_patch}
+\end{figure}
+
+\textcolor{red}{【待补充：Text-Dominance Index 量化指标。】}
+
+\textcolor{red}{【待补充：压制机制归因（attention vs MLP）。】}
+
+\textcolor{red}{【待补充：指令复杂度影响（简单指令 vs CoT）。】}
+
+\subsubsection{两级模态优先级层级}
+\label{subsubsec:two_level_priority}
+
+综合 \S\ref{subsec:prosody_semantic} 与 \S\ref{subsec:text_override} 的发现，ALLM 的情绪决策呈现两级模态优先级层级：
+
+\textbf{第一级}（音频内部）：语义 $>$ 韵律。语义修补的因果控制力（$\text{Flip} \approx 0.65$）约为韵律（$\approx 0.14$--$0.26$）的 $2.5$ 倍，决策在 Layer~23 锁定语义。
+
+\textbf{第二级}（跨模态）：文本指令 $>$ 音频整体。文本的因果主导区间（Layer 5--20）比音频内语义的决策转折（Layer~23）更早介入、范围更广。文本指令不仅覆盖韵律，还覆盖音频语义——实现对整体音频信号的结构性压制。
+
+两级边界存在嵌套关系：\S\ref{subsec:prosody_semantic} 中的 audio span 可控性边界（Layer~14--15）落在文本主导区间（Layer 5--20）内，暗示一旦文本在中层建立控制，音频侧的任何扰动均难以穿越此区间影响最终决策。
+
+\textcolor{red}{【待补充：跨模型验证（Kimi-Audio 等）。】}
+
+\subsubsection{对攻击设计的启示}
+\label{subsubsec:transition}
+
+上述机理发现为理解音频对抗扰动的可行性边界提供了基础：(1)~音频内部遵循语义优先仲裁，韵律虽可读但不被采纳；(2)~文本指令在中层建立因果主导，结构性压制音频信号；(3)~两级优先级共同约束了对抗扰动的作用空间。在上述层级约束下，对抗扰动能否以及如何突破模型的仲裁机制实现定向情绪攻击，将在 Section~3 中予以回答。
+

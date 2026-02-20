@@ -1,0 +1,35 @@
+一、目前主流支持SER的大模型：
+
+首先需明确，目前主流明确支持SER的系统，主要集中在语音-语言大模型(Speech/Audio - LLM)，而非纯文本LLM。
+
+类型主要可分为研究型和工业型
+
+1. 研究型大模型：
+
+   * BLSP-Emo（2024，EMNLP）
+     * paper pdf：https://aclanthology.org/2024.emnlp-main.1070.pdf?utm_source=chatgpt.com
+     * github repository：https://github.com/cwang621/blsp-emo?tab=readme-ov-file
+   * C²SER（Context & Chain-of-Thought for SER）
+     * paper pdf：https://arxiv.org/pdf/2502.18186
+     * GitHub repository：https://github.com/zxzhao0/C2SER?utm_source=chatgpt.com
+   * Em-SLLM / EAA 等 “给 LLM 适配 SER 的方法”
+     * paper pdf：https://www.arxiv.org/pdf/2508.14130
+2. 工业型大模型：
+
+   * FunAudioLLM / SenseVoice（阿里）
+     * paper pdf：https://arxiv.org/pdf/2407.04051
+     * github repository：https://github.com/FunAudioLLM/SenseVoice?utm_source=chatgpt.com
+
+二、SER基础知识
+
+基础review：https://iris.uniroma1.it/retrieve/8ffd8812-ab17-4bba-9040-1c45131e751e/Wani_A-Comprehensive_2021.pdf?utm_source=chatgpt.com
+
+自然环境SER（由于涉及现实场景的噪音，可能与干扰有关）： https://pdf.sciencedirectassets.com/272384/1-s2.0-S1051200420X00133/1-s2.0-S1051200420302967/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLWVhc3QtMSJIMEYCIQCwWX%2BRKcrAEvshiiMkqK%2Fg5jBoYHILdBoD0HFlWsvKsAIhAPFKddjqD%2FUpOtSOSrXCANnXoI9cZAaaOWqXFmKeAv0hKrIFCAUQBRoMMDU5MDAzNTQ2ODY1Igwo5aIQZdNl%2FqBmx%2FQqjwVeicnFmWromgtObRKfTj6wggkhSQm3M3pecsijiUbutaxej1FuNIIYnMIe5VbcaNjeyNUJtnqoS7D%2FjKUrBuEHltZhEgaQ1OXKZIu0iEiloRxl99bXdGfAdqDJOoCyG5TToqZhpjn4wbGm9tA47qK906hraJ%2BVBOCnLXfOBMCYw396XxOfU4RiVO3yHfHWs63km0RPAp6a9jKr6GV1hEFxvAEQVvtCHfPNmPRpVZcrR7kc5mff8tANhtBRlVk5x5AGMJennx32ktcfXl%2FoYwtDO1C4%2BIqZHQATd8YIy4OreJuVn1ITBmrD56GI3nx7yt9B066U%2FLkcMFmxq3gGvJKYdrEvlCJx1C%2BZ94Mk36apVr2YS5fud9s0hjFmgla%2BIdW8wEsFetBDa76j9h1oeJq%2Bm%2Bbi7wLpZishQl6mjv16%2B6ezfEgNKfFF4wF04AQQZ0nDhUJ4abPCQoS2SomQqyW6LbLGlVBH8tVqeh4OI3Dwt4JoA7XObhSi3bKuZqYOxmUMysJalHSoss9cxwAiB1MB%2FhpCHZ73oY6atcwrdErHSK6HFoz%2BEwyjguxdl1CgQbdigoiNA7%2BPQS5TNKtRzMUANTSNAIUgiDjoB5eC83ksFJU2frkgm25t3Pnao4PsAZvBUh3g6pe0713tQLOsQ%2FI1IIBF3IiITvvGqGIIU1TylrMiqyONIjo2qjB1Gtq%2FjuvjWQ97%2FXY90zHdq62CKB%2Bo6sWXSLvRBX7gktx928HoTgJjKjjVnBhvrYnu4q1NlEeXPsLmGlDx178iiWLiShXYBVrMA7Y5%2FnFiBXfrOHgwi2qkOQjLNW%2BJ2xKYMSxJJ%2B21DQWz2B%2FV5lQh0%2BB%2BDoR9nnsyNdOUzK2CwFOLemabMKqnx8gGOrABgJGPQzjuzCzn6ezqJ9yyQI%2BmHgXKXGAAmfAHqPuV3MWRxkv658dzCrs2cfqmxrntCKuH8d5M8C2hJacz8xWbM%2FbYTPaHnu0rwJNe2ngHcTRK71DR1wPssY12rpLOcn6zb3AluacU1L6cMx64rQUaB7H3ofs%2B6O1LXu8ID%2BwGRdCAX2HG5qT%2BBhpK4Ku4hhEIzWTpeAG6jIRofzuVYzlUeXLJBgN8YaXZsEU7Y97vV88%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251110T133410Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY6W24J2UI%2F20251110%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=367a69bd1fc9861387fad4f169022c59d3d105bdd5a51e271d6cbfceedd9885d&hash=38c720cf62a79492b9140d7adc9927d14a14ead6ec36e21f68da7a2389d8bd37&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1051200420302967&tid=spdf-23ada4b7-94cf-4fc3-8308-85ff318b8d0b&sid=848953458806854b75183fc8c1934ee1f806gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=0f175c5a0c5b0a035350&rr=99c5ed02e80f5730&cc=us
+
+同样是噪音环境下：https://pdf.sciencedirectassets.com/271597/1-s2.0-S0925231223X00459/1-s2.0-S0925231223011384/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLWVhc3QtMSJGMEQCIEwhXdn14mb6Dgg%2Fq%2ByHe78iQgSqyjNE7UwhBJs%2FTH%2FVAiAq2o2p1lxL0%2BEurdN03sxYsL%2FqvCTyy2ypSWmpxS2UGSqzBQgFEAUaDDA1OTAwMzU0Njg2NSIMUjb%2BqH15mKxDqWmIKpAF14HfKoXKoyxJeTpzFL42fRF4qS4QKONXXXRq3WOZ5FZftz3CWYbrFNQSfy9S5N7fw3uYafDaKpBMZQ9MQFAKUjGTuwMaf9EJaxfCWsI4256dh%2BE6J7s%2BL0JyJUIm0EHqyenr%2B6MO8a1A4xuvAef5IqRVnIrc%2F3SUm4NVChqPSbtY1wl2OzzDh1KmiRHXYBsmYMo6qnkPE8Q6snTtcOHYYuVyGP9XDQVO4sM5MxQqru2%2FIa%2Fct10uIwg7wd%2Ft%2Fmo76H0zdZrrHJRXUoEsC6PSaI8MliN4ST%2FmhkRXKInUXinQDrj6jlPyg1SCwdk4Urq05LCZ9SPf6%2F%2Fm0XSeZiBgjKCsQaTx%2F%2BUm9WrnDXZX7B1ldOsq9aNTqvo9h4xpaIgpNhEYh%2F8A339ulEP9zAjzOtyV5rOTSobaUdIydnaTDBPf%2BZ3Rk5wX%2FglMzv%2BPVLeZCRi%2F0DzMjxtnXEjGqoL5Cl9brVnXuDDjc0eBPNRqW1al0GVjLiBUZzTRZ22qXoCBHz1Ihb%2BTW1sl8nCJfE2M6xBUchA4rAKASKIN1hu6A6Nu%2Fu4BHmaM9MTy1TpaGu7PxC4U5%2BSA0w6jsi74tsZPZXk5l67FvoX9gIgCzDkRf2tsSD%2BKE63zr976EvvLHvkRtRH%2FtJJgRrD0I0xjkhMKUenU%2BzhqGbpAeA79LDXEmzNIP2jOxS1RSnbiAxD%2FD71qNgocsDpHzr4KIQH8RhXMhcXCKue8IotynaAv1oNcEdUKA1ePl8zFgF2ajxMV8rJZ3iRqY6Dvx%2BrAP0xv8bv0qjP1%2Bjp2w6BvGEDHPX8dfU9qXixhCrBmC0JyC2P7pWCzblWqtcu9z0KhbjqeIxy5vt75lZHqXJgC9rPQdBIiHl8w56PHyAY6sgHLxWk8%2BhbOD9vRzmzVlE6oms%2FH5h%2BhlHb%2BhQsGdDcwLtPqg3Obak1fK27hLllCUeABjRtLJR2Yh41dp6Thzl8RT97nTq6gLxpKeRfxWlezv4OCgeZt8T0GNalmq40y5qAwTvp9w43IN%2BALBxJ7hppiAt3D0cJBJ2zyzoTPQqS%2BFoK%2B1KYPvMuqSodCkDjDWOtx2hzGe%2Bb7kJW57uec8pby9eLAScU84pbH1Qio2PfiwjGH&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251110T133544Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYV4SWGTUY%2F20251110%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=19e6b75109aaab4ecf3419134e248278455816d7ce9209c0f9eccdd33f993db0&hash=e4410eb89b754b533a693798de170f124e7b925c091a9b375b64dfbbb3fc7652&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0925231223011384&tid=spdf-9351c9af-fbd9-437e-9770-16d033515e34&sid=848953458806854b75183fc8c1934ee1f806gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=0f175c5a0c5b0a015707&rr=99c5ef4e7f562f04&cc=us
+
+三、目前已经存在的研究
+
+A systematic evaluation of adversarial attacks against speech emotion recognition models： https://arxiv.org/pdf/2404.18514
+
+DolphinAttack: Inaudible Voice Commands： https://arxiv.org/pdf/1708.09537 这篇是用超声波让设备听到人耳听不到的声音

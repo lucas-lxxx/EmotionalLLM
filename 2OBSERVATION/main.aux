@@ -1,0 +1,69 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Observation}{1}{section.1}\protected@file@percent }
+\newlabel{sec:observation}{{1}{1}{Observation}{section.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}ALLM 如何仲裁韵律-语义冲突}{1}{subsection.1.1}\protected@file@percent }
+\newlabel{subsec:prosody_semantic}{{1.1}{1}{ALLM 如何仲裁韵律-语义冲突}{subsection.1.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.1}实验设置}{1}{subsubsection.1.1.1}\protected@file@percent }
+\newlabel{subsubsec:probe_setup}{{1.1.1}{1}{实验设置}{subsubsection.1.1.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.2}逐层 Probe 分析}{2}{subsubsection.1.1.2}\protected@file@percent }
+\newlabel{subsubsec:probe_results}{{1.1.2}{2}{逐层 Probe 分析}{subsubsection.1.1.2}{}}
+\newlabel{eq:dominance}{{1}{2}{逐层 Probe 分析}{equation.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{早层（0--14）：韵律主导。}{2}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{中层（14--23）：融合区。}{2}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{晚层（23--35）：语义主导。}{2}{section*.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces 逐层 Probe 准确率（冲突样本）。蓝色实线为语义 Probe，红色实线为韵律 Probe。韵律在早层（0--14）主导，语义在晚层（23--35）追平并局部反超。}}{2}{figure.1}\protected@file@percent }
+\newlabel{fig:probe_accuracy}{{1}{2}{逐层 Probe 准确率（冲突样本）。蓝色实线为语义 Probe，红色实线为韵律 Probe。韵律在早层（0--14）主导，语义在晚层（23--35）追平并局部反超。}{figure.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces 模态主导性指标 $D(\ell ) = \mathrm  {Acc}_{\text  {prosody}} - \mathrm  {Acc}_{\text  {semantic}}$ 逐层变化。绿色填充区域表示韵律主导（$D>0$），橙色填充区域表示语义主导（$D<0$）。关键交叉点在 Layer\hspace  {0.25em plus 0.125em minus 0.08em}\ignorespaces 14--15。}}{3}{figure.2}\protected@file@percent }
+\newlabel{fig:probe_dominance}{{2}{3}{模态主导性指标 $D(\ell ) = \mathrm {Acc}_{\text {prosody}} - \mathrm {Acc}_{\text {semantic}}$ 逐层变化。绿色填充区域表示韵律主导（$D>0$），橙色填充区域表示语义主导（$D<0$）。关键交叉点在 Layer~14--15。}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.3}Logit Lens：决策轨迹}{3}{subsubsection.1.1.3}\protected@file@percent }
+\newlabel{subsubsec:logit_lens}{{1.1.3}{3}{Logit Lens：决策轨迹}{subsubsection.1.1.3}{}}
+\newlabel{eq:logit_lens}{{2}{3}{Logit Lens：决策轨迹}{equation.2}{}}
+\newlabel{eq:margin}{{3}{3}{Logit Lens：决策轨迹}{equation.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{Layer 0--22：决策未成形。}{3}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Layer 23--35：语义决策固化。}{4}{section*.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Logit Lens Margin 曲线（冲突样本）。Margin 定义为韵律目标与语义目标 token 的 logit 差。Layer 0--22 margin 在零附近波动（决策未成形），Layer 23 起持续转负（语义决策固化）。}}{4}{figure.3}\protected@file@percent }
+\newlabel{fig:logit_margin}{{3}{4}{Logit Lens Margin 曲线（冲突样本）。Margin 定义为韵律目标与语义目标 token 的 logit 差。Layer 0--22 margin 在零附近波动（决策未成形），Layer 23 起持续转负（语义决策固化）。}{figure.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.4}Activation Patching：因果确认}{4}{subsubsection.1.1.4}\protected@file@percent }
+\newlabel{subsubsec:patching}{{1.1.4}{4}{Activation Patching：因果确认}{subsubsection.1.1.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Logit Lens 逐层胜率（冲突样本）。绿色为语义胜率，红色为韵律胜率，灰色为"other"。Layer 0--22 "other" 占主导（$\sim $0.6），Layer 23 起语义胜率快速上升。}}{5}{figure.4}\protected@file@percent }
+\newlabel{fig:logit_winrate}{{4}{5}{Logit Lens 逐层胜率（冲突样本）。绿色为语义胜率，红色为韵律胜率，灰色为"other"。Layer 0--22 "other" 占主导（$\sim $0.6），Layer 23 起语义胜率快速上升。}{figure.4}{}}
+\@writefile{toc}{\contentsline {paragraph}{语义修补（替换语义内容）。}{5}{section*.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{韵律修补（替换韵律传递）。}{5}{section*.7}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Activation Patching 逐层 Flip Rate。左：语义修补（Flip-to-Target 在早层 $\approx 0.65$），右：韵律修补（Flip-to-Target 峰值仅 $\approx 0.26$）。两者均在 Layer\hspace  {0.25em plus 0.125em minus 0.08em}\ignorespaces 14--15 后急剧衰减。}}{5}{figure.5}\protected@file@percent }
+\newlabel{fig:patch_flip}{{5}{5}{Activation Patching 逐层 Flip Rate。左：语义修补（Flip-to-Target 在早层 $\approx 0.65$），右：韵律修补（Flip-to-Target 峰值仅 $\approx 0.26$）。两者均在 Layer~14--15 后急剧衰减。}{figure.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Activation Patching 逐层 Delta Logit。左：语义修补（早层 $\Delta \approx 5$--$6$），右：韵律修补（早层 $\Delta \approx 2.2$--$2.3$）。语义的因果控制力约为韵律的 2.5 倍。}}{6}{figure.6}\protected@file@percent }
+\newlabel{fig:patch_delta}{{6}{6}{Activation Patching 逐层 Delta Logit。左：语义修补（早层 $\Delta \approx 5$--$6$），右：韵律修补（早层 $\Delta \approx 2.2$--$2.3$）。语义的因果控制力约为韵律的 2.5 倍。}{figure.6}{}}
+\@writefile{toc}{\contentsline {paragraph}{Layer 14--15：可控性边界。}{6}{section*.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.5}小结}{6}{subsubsection.1.1.5}\protected@file@percent }
+\newlabel{subsubsec:obs1_summary}{{1.1.5}{6}{小结}{subsubsection.1.1.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}文本指令如何覆盖音频情绪信号}{6}{subsection.1.2}\protected@file@percent }
+\newlabel{subsec:text_override}{{1.2}{6}{文本指令如何覆盖音频情绪信号}{subsection.1.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.2.1}实验设计}{7}{subsubsection.1.2.1}\protected@file@percent }
+\newlabel{subsubsec:text_override_setup}{{1.2.1}{7}{实验设计}{subsubsection.1.2.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{数据构建。}{7}{section*.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{三组实验条件。}{7}{section*.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{分析方法。}{7}{section*.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.2.2}发现一：晚期层决策固化}{7}{subsubsection.1.2.2}\protected@file@percent }
+\newlabel{subsubsec:late_consolidation}{{1.2.2}{7}{发现一：晚期层决策固化}{subsubsection.1.2.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{Layer 0--20：无分化。}{7}{section*.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Layer 26--28：决策结晶。}{7}{section*.13}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces 跨模态 Logit Lens 差分（$\Delta \mathrm  {logit}_\ell = \mathrm  {logit}_\ell (T) - \mathrm  {logit}_\ell (A)$）。三组条件（Audio-only / Conflict / Consistent）在前 20 层无分化，Layer 26--28 出现决策结晶。阴影区域为 $\pm 1$ 标准差。}}{8}{figure.7}\protected@file@percent }
+\newlabel{fig:text_logit_lens}{{7}{8}{跨模态 Logit Lens 差分（$\Delta \mathrm {logit}_\ell = \mathrm {logit}_\ell (T) - \mathrm {logit}_\ell (A)$）。三组条件（Audio-only / Conflict / Consistent）在前 20 层无分化，Layer 26--28 出现决策结晶。阴影区域为 $\pm 1$ 标准差。}{figure.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.2.3}发现二：文本因果主导，音频中层被结构性压制}{8}{subsubsection.1.2.3}\protected@file@percent }
+\newlabel{subsubsec:text_dominance}{{1.2.3}{8}{发现二：文本因果主导，音频中层被结构性压制}{subsubsection.1.2.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{PatchText 在 Layer 5--20 有效。}{8}{section*.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{PatchAudio 在相同层段无效或不稳定。}{8}{section*.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{因果不对称性。}{8}{section*.16}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces 跨模态 Activation Patching 对比。左：Flip Rate（PatchText 红色 vs PatchAudio 蓝色）。右：Logit Shift to Target Emotion。PatchText 在 Layer 5--20 持续有效，PatchAudio 在相同区间无效或不稳定，揭示文本的因果不对称主导。}}{9}{figure.8}\protected@file@percent }
+\newlabel{fig:text_patch}{{8}{9}{跨模态 Activation Patching 对比。左：Flip Rate（PatchText 红色 vs PatchAudio 蓝色）。右：Logit Shift to Target Emotion。PatchText 在 Layer 5--20 持续有效，PatchAudio 在相同区间无效或不稳定，揭示文本的因果不对称主导。}{figure.8}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.2.4}与 \S  \ref {subsec:prosody_semantic} 的关系：两级模态优先级}{9}{subsubsection.1.2.4}\protected@file@percent }
+\newlabel{subsubsec:two_level_priority}{{1.2.4}{9}{与 \S \ref {subsec:prosody_semantic} 的关系：两级模态优先级}{subsubsection.1.2.4}{}}
+\@writefile{toc}{\contentsline {paragraph}{第一级：音频内语义 $>$ 音频内韵律（\S  \ref {subsec:prosody_semantic}）。}{9}{section*.17}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{第二级：文本指令 $>$ 音频整体信号（\S  \ref {subsec:text_override}）。}{9}{section*.18}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{层级边界的嵌套关系。}{9}{section*.19}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.2.5}过渡：从机理发现到攻击设计}{10}{subsubsection.1.2.5}\protected@file@percent }
+\newlabel{subsubsec:transition}{{1.2.5}{10}{过渡：从机理发现到攻击设计}{subsubsection.1.2.5}{}}
+\gdef \@abspage@last{10}
