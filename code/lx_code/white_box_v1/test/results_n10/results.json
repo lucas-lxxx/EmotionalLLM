@@ -1,0 +1,102 @@
+[
+  {
+    "sample_id": "sample_001",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/20683.wav",
+    "clean_text": "I'm sorry to hear that. Would you like to talk about it?",
+    "attack_text": "The emotion of the audio is sad.",
+    "attack_time": 3.8042657375335693,
+    "linf": 0.0020000003278255463,
+    "l2": 0.6759882569313049,
+    "snr_db": 11.167581504155166
+  },
+  {
+    "sample_id": "sample_002",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/24190.wav",
+    "clean_text": "The emotion of the audio is sad.",
+    "attack_text": "The emotion of this audio is sad.",
+    "attack_time": 3.4227046966552734,
+    "linf": 0.0020000003278255463,
+    "l2": 0.6587260961532593,
+    "snr_db": 16.967392457654977
+  },
+  {
+    "sample_id": "sample_003",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/15822.wav",
+    "clean_text": "The emotion of this audio is neutral.",
+    "attack_text": "The emotion of the audio is neutral.",
+    "attack_time": 3.4197521209716797,
+    "linf": 0.0020000040531158447,
+    "l2": 0.6558048725128174,
+    "snr_db": 37.89283272179651
+  },
+  {
+    "sample_id": "sample_004",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/22344.wav",
+    "clean_text": "The emotion of the speech is sad.",
+    "attack_text": "The emotion label is Sad.",
+    "attack_time": 3.47428297996521,
+    "linf": 0.0020000003278255463,
+    "l2": 0.6844560503959656,
+    "snr_db": 18.165381554253653
+  },
+  {
+    "sample_id": "sample_005",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/20495.wav",
+    "clean_text": "The emotion of this audio is neutral.",
+    "attack_text": " presentations can be scary. Try practicing deep breaths and remember, it’s okay to feel nervous. You’ll do great.\"",
+    "attack_time": 3.544525623321533,
+    "linf": 0.0020000040531158447,
+    "l2": 0.8519154787063599,
+    "snr_db": 24.807134766074668
+  },
+  {
+    "sample_id": "sample_006",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/22713.wav",
+    "clean_text": "The emotion of the audio is sad.",
+    "attack_text": "The emotion is sad.",
+    "attack_time": 3.5585057735443115,
+    "linf": 0.0020000040531158447,
+    "l2": 0.5943736433982849,
+    "snr_db": 26.615008248417723
+  },
+  {
+    "sample_id": "sample_007",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/38804.wav",
+    "clean_text": "The emotion is sad.",
+    "attack_text": "the emotion is sad",
+    "attack_time": 3.4153857231140137,
+    "linf": 0.0020000040531158447,
+    "l2": 0.7092532515525818,
+    "snr_db": 16.915703419420318
+  },
+  {
+    "sample_id": "sample_008",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/27476.wav",
+    "clean_text": "The emotion label is neutral.",
+    "attack_text": "Neutral.",
+    "attack_time": 3.4740936756134033,
+    "linf": 0.0020000040531158447,
+    "l2": 0.8031937479972839,
+    "snr_db": 37.53740358712843
+  },
+  {
+    "sample_id": "sample_009",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/48240.wav",
+    "clean_text": "The emotion of this audio is angry.",
+    "attack_text": "The emotion of the audio is neutral.",
+    "attack_time": 3.5980799198150635,
+    "linf": 0.0020000040531158447,
+    "l2": 0.5846025347709656,
+    "snr_db": 19.182914020976025
+  },
+  {
+    "sample_id": "sample_010",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/20827.wav",
+    "clean_text": "The emotion is sad.",
+    "attack_text": "Sad.",
+    "attack_time": 3.4692671298980713,
+    "linf": 0.0020000040531158447,
+    "l2": 0.7358261346817017,
+    "snr_db": 25.954315199816946
+  }
+]

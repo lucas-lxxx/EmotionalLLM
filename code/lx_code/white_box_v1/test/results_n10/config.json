@@ -1,0 +1,16 @@
+{
+  "omnispeech_path": "/data1/lixiang/Opens2s/OpenS2S/models/OpenS2S",
+  "checkpoint_path": "checkpoints/sad_happy_classifier.pt",
+  "num_samples": 10,
+  "epsilon": 0.002,
+  "steps": 30,
+  "lambda_emo": 1.0,
+  "lambda_sem": 0.01,
+  "lambda_per": 0.0001,
+  "prompt": "What is the emotion of this audio? Please answer with only one word: the emotion label (happy, sad, angry, or neutral).",
+  "device": "cuda:0",
+  "emotion_label_to_idx": {
+    "Sad": 0,
+    "Happy": 1
+  }
+}

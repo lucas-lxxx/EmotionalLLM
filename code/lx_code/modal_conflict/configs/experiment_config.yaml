@@ -1,0 +1,62 @@
+# OpenS2S 模态冲突实验配置
+
+# 数据配置
+data:
+  text_jsonl: /data1/lixiang/OpenS2S_dataset/TTS_modal_conflict/text.jsonl
+  audio_root: /data1/lixiang/OpenS2S_dataset/TTS_modal_conflict/
+  emotions:
+    - neutral
+    - happy
+    - sad
+    - angry
+    - surprised
+
+# 固定中性Prompt
+prompt: "What is the emotion of this audio? Answer with exactly one word: neutral, happy, sad, angry, surprised."
+system_prompt: "You are a helpful assistant."
+
+# 模型配置
+model:
+  model_path: /data1/lixiang/Opens2s/OpenS2S/models/OpenS2S/
+  src_path: /data1/lixiang/Opens2s/OpenS2S/src/
+  audio_token_index: -200
+  n_layers: 36
+  hidden_size: 4096
+  device: cuda
+  dtype: bfloat16
+
+# Hidden States 提取配置
+extraction:
+  cache_dir: outputs/hidden_states/
+  use_cache: true
+  batch_size: 1  # 单样本处理，避免OOM
+
+# Probe 配置
+probe:
+  type: linear  # linear 或 mlp
+  linear:
+    max_iter: 1000
+    C: 1.0
+    solver: lbfgs
+  hidden_dims:
+    - 512
+    - 128
+  dropout: 0.1
+  learning_rate: 0.001
+  weight_decay: 0.01
+  epochs: 100
+  patience: 10  # 早停耐心值
+  batch_size: 32
+
+# 评估配置
+evaluation:
+  n_splits: 5  # GroupKFold 折数
+  random_seed: 42
+  layers_to_evaluate: null  # null表示评估所有层
+
+# 输出配置
+output:
+  results_dir: outputs/results/
+  save_plots: true
+  save_csv: true
+  save_summary: true

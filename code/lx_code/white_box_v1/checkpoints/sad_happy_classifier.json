@@ -1,0 +1,11 @@
+{
+  "label_to_idx": {
+    "Sad": 0,
+    "Happy": 1
+  },
+  "svd_rank": 20,
+  "feature_dim": 20,
+  "num_emotions": 2,
+  "num_samples": 100,
+  "training_accuracy": 0.9300000071525574
+}

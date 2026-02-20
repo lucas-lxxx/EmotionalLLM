@@ -1,0 +1,140 @@
+/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torch/cuda/__init__.py:128: UserWarning: CUDA initialization: Unexpected error from cudaGetDeviceCount(). Did you run some cuda functions before calling NumCudaDevices() that might have already set an error? Error 304: OS call failed or operation not supported on this OS (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 13] Permission denied.  joblib will operate in serial mode
+  warnings.warn("%s.  joblib will operate in serial mode" % (e,))
+`torch_dtype` is deprecated! Use `dtype` instead!
+INFO:src.configuration_omnispeech:audio encoder config is None. Initializing with qwen2_audio_encoder
+INFO:src.configuration_omnispeech:llm config is None. Initializing with qwen3
+INFO:src.configuration_omnispeech:tts lm config is None. Initializing with qwen3
+================================================================================
+testN20 White-box Attack Experiment
+================================================================================
+Sample list: sample_list.part1.txt
+Results dir: results_part1
+Device: cuda:0
+Target emotion: happy
+Attack steps: 60
+Epsilon: 0.008
+================================================================================
+WARNING: CUDA not available, falling back to CPU
+
+Loading OpenS2S model from /data1/lixiang/Opens2s/OpenS2S/models/OpenS2S...
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:04<00:17,  4.37s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:07<00:01,  1.73s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:10<00:00,  2.05s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:10<00:00,  2.12s/it]
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+`generation_config` default values have been modified to match model-specific defaults: {'bos_token_id': 151643}. If this is not desired, please set these values explicitly.
+Enabled gradient checkpointing on llm_model
+Enabled gradient checkpointing on audio_encoder_model
+Model loaded successfully!
+Target token IDs for 'happy': [56521]
+
+Found 5 samples to process
+
+[1/5] Processing 00000_0010_000554
+  Source: /data1/lixiang/ESD/0010/Angry/0010_000554.wav
+  Decoding clean audio...
+  Clean emotion predictions: ['angry', 'angry', '']
+  Clean transcript: 你昨天才买的衣服，今天就弄脏了，这也太不讲究了！
+  Running attack (60 steps)...
+  Saved adversarial audio to results_part1/00000_0010_000554.wav
+  Decoding adversarial audio...
+  Adversarial emotion predictions: ['happy', 'happy', '']
+  Adversarial transcript: 你昨天卖的那件衣服真漂亮，颜色特别适合你！
+  Success: False, WER: 1.0000
+  L_inf: 0.008000, SNR: 23.43 dB
+
+[2/5] Processing 00001_0011_000598
+  Source: /data1/lixiang/ESD/0011/Angry/0011_000598.wav
+  Decoding clean audio...
+  Clean emotion predictions: ['angry', 'angry', 'the']
+  Clean transcript: In which Piglet meets an elephant.
+  Running attack (60 steps)...
+  Saved adversarial audio to results_part1/00001_0011_000598.wav
+  Decoding adversarial audio...
+  Adversarial emotion predictions: ['happy', 'happy', 'happy']
+  Adversarial transcript: In which Piglet meets an elephant.
+  Success: True, WER: 0.0000
+  L_inf: 0.008000, SNR: 17.52 dB
+
+[3/5] Processing 00002_0003_000699
+  Source: /data1/lixiang/ESD/0003/Angry/0003_000699.wav
+  Decoding clean audio...
+  Clean emotion predictions: ['angry', 'angry', '']
+  Clean transcript: 这简直太虚伪了
+  Running attack (60 steps)...
+  Saved adversarial audio to results_part1/00002_0003_000699.wav
+  Decoding adversarial audio...
+  Adversarial emotion predictions: ['happy', 'happy', 'happy']
+  Adversarial transcript: 这真是迷人的时刻。
+  Success: True, WER: 1.0000
+  L_inf: 0.008000, SNR: 11.36 dB
+
+[4/5] Processing 00003_0013_000649
+  Source: /data1/lixiang/ESD/0013/Angry/0013_000649.wav
+  Decoding clean audio...
+  Clean emotion predictions: ['angry', 'angry', 'angry']
+  Clean transcript: Hope will not cheat him.
+  Running attack (60 steps)...
+  Saved adversarial audio to results_part1/00003_0013_000649.wav
+  Decoding adversarial audio...
+  Adversarial emotion predictions: ['happy', 'happy', 'happy']
+  Adversarial transcript: His hunch will hold true.
+  Success: True, WER: 1.0000
+  L_inf: 0.008000, SNR: 17.28 dB
+
+[5/5] Processing 00004_0003_000452
+  Source: /data1/lixiang/ESD/0003/Angry/0003_000452.wav
+Traceback (most recent call last):
+  File "/data1/lixiang/lx_code/white_box_v2/codex/testN20/run_testN20.py", line 58, in load_audio
+    waveform, sr = torchaudio.load(str(path))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torchaudio/_backend/utils.py", line 205, in load
+  File "/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torchaudio/_backend/ffmpeg.py", line 297, in load
+  File "/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torchaudio/_backend/ffmpeg.py", line 88, in load_audio
+  File "/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torio/io/_streaming_media_decoder.py", line 526, in __init__
+RuntimeError: Failed to open the input "/data1/lixiang/ESD/0003/Angry/0003_000452.wav" (No such file or directory).
+Exception raised from get_input_format_context at /__w/audio/audio/pytorch/audio/src/libtorio/ffmpeg/stream_reader/stream_reader.cpp:42 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7c17ac7def86 in /data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x7c17ac78dd10 in /data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #2: <unknown function> + 0x41ff4 (0x7c16882caff4 in /data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torio/lib/libtorio_ffmpeg6.so)
+frame #3: torio::io::StreamingMediaDecoder::StreamingMediaDecoder(std::string const&, std::optional<std::string> const&, std::optional<std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > > > const&) + 0x14 (0x7c16882cd9f4 in /data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torio/lib/libtorio_ffmpeg6.so)
+frame #4: <unknown function> + 0x3a12e (0x7c164a9ea12e in /data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torio/lib/_torio_ffmpeg6.so)
+frame #5: <unknown function> + 0x32064 (0x7c164a9e2064 in /data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torio/lib/_torio_ffmpeg6.so)
+frame #6: python() [0x58208f]
+<omitting python frames>
+frame #8: python() [0x54cea7]
+frame #9: python() [0x59e231]
+frame #10: python() [0x599b63]
+frame #11: <unknown function> + 0xfaeb (0x7c169f212aeb in /data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torchaudio/lib/_torchaudio.so)
+frame #15: python() [0x59e09f]
+frame #16: python() [0x599b63]
+frame #20: python() [0x608b42]
+frame #21: python() [0x6b4e93]
+frame #26: <unknown function> + 0x2a1ca (0x7c17ada2a1ca in /lib/x86_64-linux-gnu/libc.so.6)
+frame #27: __libc_start_main + 0x8b (0x7c17ada2a28b in /lib/x86_64-linux-gnu/libc.so.6)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data1/lixiang/lx_code/white_box_v2/codex/testN20/run_testN20.py", line 69, in load_audio
+    data, sr = sf.read(str(path), dtype="float32")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/soundfile.py", line 305, in read
+  File "/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/soundfile.py", line 690, in __init__
+  File "/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/soundfile.py", line 1265, in _open
+soundfile.LibsndfileError: Error opening '/data1/lixiang/ESD/0003/Angry/0003_000452.wav': System error.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data1/lixiang/lx_code/white_box_v2/codex/testN20/run_testN20.py", line 340, in <module>
+    main()
+  File "/data1/lixiang/lx_code/white_box_v2/codex/testN20/run_testN20.py", line 195, in main
+    waveform, sr = load_audio(sample_path, target_sr)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v2/codex/testN20/run_testN20.py", line 94, in load_audio
+    proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['ffmpeg', '-v', 'error', '-i', '/data1/lixiang/ESD/0003/Angry/0003_000452.wav', '-ac', '1', '-ar', '16000', '-f', 'f32le', '-']' returned non-zero exit status 254.

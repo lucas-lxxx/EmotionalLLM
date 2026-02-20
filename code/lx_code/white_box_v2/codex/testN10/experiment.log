@@ -1,0 +1,186 @@
+==========================================
+testN10 White-box Attack Experiment
+==========================================
+Activating OpenS2S environment...
+Using GPU: cuda:6 (mapped to cuda:0)
+Working directory: /data1/lixiang/lx_code/white_box_v2/codex/testN10
+
+Starting attack experiment...
+`torch_dtype` is deprecated! Use `dtype` instead!
+INFO:src.configuration_omnispeech:audio encoder config is None. Initializing with qwen2_audio_encoder
+INFO:src.configuration_omnispeech:llm config is None. Initializing with qwen3
+INFO:src.configuration_omnispeech:tts lm config is None. Initializing with qwen3
+================================================================================
+testN10 White-box Attack Experiment
+================================================================================
+Sample list: /data1/lixiang/lx_code/white_box_v2/codex/testN10/sample_list.txt
+Results dir: /data1/lixiang/lx_code/white_box_v2/codex/testN10/results
+Device: cuda:0
+Target emotion: happy
+Attack steps: 60
+Epsilon: 0.008
+================================================================================
+
+Loading OpenS2S model from /data1/lixiang/Opens2s/OpenS2S/models/OpenS2S...
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 76.26it/s]
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+`generation_config` default values have been modified to match model-specific defaults: {'bos_token_id': 151643}. If this is not desired, please set these values explicitly.
+Enabled gradient checkpointing on llm_model
+Enabled gradient checkpointing on audio_encoder_model
+Model loaded successfully!
+Target token IDs for 'happy': [56521]
+
+Found 10 samples to process
+
+[1/10] Processing 00000_0001_000351
+  Source: /data1/lixiang/ESD/0001/Angry/0001_000351.wav
+  Decoding clean audio...
+  Clean emotion predictions: ['angry', 'angry', '']
+  Clean transcript: 打眼一看，它们确实很美。
+  Running attack (60 steps)...
+  Saved adversarial audio to /data1/lixiang/lx_code/white_box_v2/codex/testN10/results/00000_0001_000351.wav
+  Decoding adversarial audio...
+  Adversarial emotion predictions: ['happy', 'happy', 'happy']
+  Adversarial transcript: 他们确实很漂亮
+  Success: True, WER: 1.0000
+  L_inf: 0.008000, SNR: 17.05 dB
+
+[2/10] Processing 00001_0001_000352
+  Source: /data1/lixiang/ESD/0001/Angry/0001_000352.wav
+  Decoding clean audio...
+  Clean emotion predictions: ['angry', 'angry', '']
+  Clean transcript: “愤怒是内心燃烧的火焰，它既能焚毁理智，也能照亮
+  Running attack (60 steps)...
+  Saved adversarial audio to /data1/lixiang/lx_code/white_box_v2/codex/testN10/results/00001_0001_000352.wav
+  Decoding adversarial audio...
+  Adversarial emotion predictions: ['happy', 'happy', 'happy']
+  Adversarial transcript: 英国的标签加团队发布了新内容。
+  Success: True, WER: 1.0000
+  L_inf: 0.008000, SNR: 17.90 dB
+
+[3/10] Processing 00002_0002_000351
+  Source: /data1/lixiang/ESD/0002/Angry/0002_000351.wav
+  Decoding clean audio...
+  Clean emotion predictions: ['angry', 'angry', '']
+  Clean transcript: “打远一看，它们确实很美。”
+  Running attack (60 steps)...
+  Saved adversarial audio to /data1/lixiang/lx_code/white_box_v2/codex/testN10/results/00002_0002_000351.wav
+  Decoding adversarial audio...
+  Adversarial emotion predictions: ['happy', 'happy', 'happy']
+  Adversarial transcript: 他们确实很美丽。
+  Success: True, WER: 1.0000
+  L_inf: 0.008000, SNR: 16.06 dB
+
+[4/10] Processing 00003_0002_000352
+  Source: /data1/lixiang/ESD/0002/Angry/0002_000352.wav
+  Decoding clean audio...
+  Clean emotion predictions: ['angry', 'angry', '']
+  Clean transcript: 英国的哲学家曾经说过，愤怒是心灵的火焰，需要智慧来引导它。
+  Running attack (60 steps)...
+  Saved adversarial audio to /data1/lixiang/lx_code/white_box_v2/codex/testN10/results/00003_0002_000352.wav
+  Decoding adversarial audio...
+  Adversarial emotion predictions: ['neutral', 'neutral', '']
+  Adversarial transcript: 英国的哲学家说过的话呀，比如培根说过，知识就是力量。还有洛克
+</think>英国的哲学家说过的话呀，比如培根说过，知识就是力量。还有洛克
+</think>英国的哲学家说过的话呀，比如培根说过，知识就是力量。还有笛卡尔
+  Success: False, WER: 3.0000
+  L_inf: 0.008000, SNR: 19.27 dB
+
+[5/10] Processing 00004_0003_000351
+  Source: /data1/lixiang/ESD/0003/Angry/0003_000351.wav
+  Decoding clean audio...
+  Clean emotion predictions: ['angry', 'angry', '']
+  Clean transcript: 哇，它们确实很美丽呢。
+  Running attack (60 steps)...
+  Saved adversarial audio to /data1/lixiang/lx_code/white_box_v2/codex/testN10/results/00004_0003_000351.wav
+  Decoding adversarial audio...
+  Adversarial emotion predictions: ['happy', 'happy', 'happy']
+  Adversarial transcript: 哇，它们真的很漂亮！
+  Success: True, WER: 1.0000
+  L_inf: 0.008000, SNR: 21.99 dB
+
+[6/10] Processing 00005_0003_000352
+  Source: /data1/lixiang/ESD/0003/Angry/0003_000352.wav
+  Decoding clean audio...
+  Clean emotion predictions: ['angry', 'angry', '']
+  Clean transcript: “愤怒是光明的燃料，而非火焰本身。”——十七世纪英国哲学家霍尔巴赫男爵。
+  Running attack (60 steps)...
+  Saved adversarial audio to /data1/lixiang/lx_code/white_box_v2/codex/testN10/results/00005_0003_000352.wav
+  Decoding adversarial audio...
+  Adversarial emotion predictions: ['happy', 'happy', '']
+  Adversarial transcript: 英国的哲学家曾经说过，快乐是人生最重要的目标之一。
+  Success: False, WER: 1.0000
+  L_inf: 0.008000, SNR: 19.08 dB
+
+[7/10] Processing 00006_0004_000351
+  Source: /data1/lixiang/ESD/0004/Angry/0004_000351.wav
+  Decoding clean audio...
+  Clean emotion predictions: ['angry', 'angry', '']
+  Clean transcript: “她们确实很美，但我不该盯着看。”
+  Running attack (60 steps)...
+  Saved adversarial audio to /data1/lixiang/lx_code/white_box_v2/codex/testN10/results/00006_0004_000351.wav
+  Decoding adversarial audio...
+  Adversarial emotion predictions: ['happy', 'happy', 'happy']
+  Adversarial transcript: 哇，他们看起来好厉害呀！
+  Success: True, WER: 1.0000
+  L_inf: 0.008000, SNR: 15.88 dB
+
+[8/10] Processing 00007_0004_000352
+  Source: /data1/lixiang/ESD/0004/Angry/0004_000352.wav
+  Decoding clean audio...
+  Clean emotion predictions: ['angry', 'angry', '']
+  Clean transcript: 英国的哲学家曾经说过，愤怒是心灵的火焰，需要智慧来驾驭。
+  Running attack (60 steps)...
+  Saved adversarial audio to /data1/lixiang/lx_code/white_box_v2/codex/testN10/results/00007_0004_000352.wav
+  Decoding adversarial audio...
+  Adversarial emotion predictions: ['happy', 'happy', 'happy']
+  Adversarial transcript: 英国的艺术家们常常说艺术能让人快乐。
+  Success: True, WER: 1.0000
+  L_inf: 0.008000, SNR: 19.95 dB
+
+[9/10] Processing 00008_0005_000351
+  Source: /data1/lixiang/ESD/0005/Angry/0005_000351.wav
+  Decoding clean audio...
+  Clean emotion predictions: ['angry', 'angry', '']
+  Clean transcript: 那些花儿确实很美，不过你好像有点生气？
+  Running attack (60 steps)...
+  Saved adversarial audio to /data1/lixiang/lx_code/white_box_v2/codex/testN10/results/00008_0005_000351.wav
+  Decoding adversarial audio...
+  Adversarial emotion predictions: ['happy', 'happy', 'happy']
+  Adversarial transcript: 他们确实很美丽。
+  Success: True, WER: 1.0000
+  L_inf: 0.008000, SNR: 15.46 dB
+
+[10/10] Processing 00009_0005_000352
+  Source: /data1/lixiang/ESD/0005/Angry/0005_000352.wav
+  Decoding clean audio...
+  Clean emotion predictions: ['angry', 'angry', '']
+  Clean transcript: “愤怒是光明的燃料，而非火焰本身。”——十七世纪英国哲学家弗朗西斯·培根。
+  Running attack (60 steps)...
+  Saved adversarial audio to /data1/lixiang/lx_code/white_box_v2/codex/testN10/results/00009_0005_000352.wav
+  Decoding adversarial audio...
+  Adversarial emotion predictions: ['happy', 'happy', 'happy']
+  Adversarial transcript: 英国的旅游者都说过。
+  Success: True, WER: 1.0000
+  L_inf: 0.008000, SNR: 17.94 dB
+
+================================================================================
+Computing aggregate statistics...
+Saved summary to /data1/lixiang/lx_code/white_box_v2/codex/testN10/results/summary.json
+Saved summary CSV to /data1/lixiang/lx_code/white_box_v2/codex/testN10/results/summary.csv
+
+================================================================================
+EXPERIMENT SUMMARY
+================================================================================
+  emo_success_rate: 0.8
+  joint_success_le_0.0: 0.0
+  joint_success_le_0.05: 0.0
+  num_samples: 10
+  wer_le_0.0: 0.0
+  wer_le_0.05: 0.0
+================================================================================
+Experiment completed successfully!
+
+==========================================
+Experiment completed!
+==========================================

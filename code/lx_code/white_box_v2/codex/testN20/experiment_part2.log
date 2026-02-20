@@ -1,0 +1,112 @@
+/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torch/cuda/__init__.py:128: UserWarning: CUDA initialization: Unexpected error from cudaGetDeviceCount(). Did you run some cuda functions before calling NumCudaDevices() that might have already set an error? Error 304: OS call failed or operation not supported on this OS (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 13] Permission denied.  joblib will operate in serial mode
+  warnings.warn("%s.  joblib will operate in serial mode" % (e,))
+`torch_dtype` is deprecated! Use `dtype` instead!
+INFO:src.configuration_omnispeech:audio encoder config is None. Initializing with qwen2_audio_encoder
+INFO:src.configuration_omnispeech:llm config is None. Initializing with qwen3
+INFO:src.configuration_omnispeech:tts lm config is None. Initializing with qwen3
+================================================================================
+testN20 White-box Attack Experiment
+================================================================================
+Sample list: sample_list.part2.txt
+Results dir: results_part2
+Device: cuda:0
+Target emotion: happy
+Attack steps: 60
+Epsilon: 0.008
+================================================================================
+WARNING: CUDA not available, falling back to CPU
+
+Loading OpenS2S model from /data1/lixiang/Opens2s/OpenS2S/models/OpenS2S...
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:04<00:16,  4.15s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:06<00:01,  1.31s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:07<00:00,  1.38s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:07<00:00,  1.53s/it]
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+`generation_config` default values have been modified to match model-specific defaults: {'bos_token_id': 151643}. If this is not desired, please set these values explicitly.
+Enabled gradient checkpointing on llm_model
+Enabled gradient checkpointing on audio_encoder_model
+Model loaded successfully!
+Target token IDs for 'happy': [56521]
+
+Found 5 samples to process
+
+[1/5] Processing 00000_0006_000505
+  Source: /data1/lixiang/ESD/0006/Angry/0006_000505.wav
+  Decoding clean audio...
+  Clean emotion predictions: ['angry', 'angry', '']
+  Clean transcript: 好的，我理解了，您想放松一下。
+  Running attack (60 steps)...
+  Saved adversarial audio to results_part2/00000_0006_000505.wav
+  Decoding adversarial audio...
+  Adversarial emotion predictions: ['neutral', 'happy', 'happy']
+  Adversarial transcript: 我等下再告诉你那个地方的天气预报
+  Success: False, WER: 1.0000
+  L_inf: 0.008000, SNR: 11.63 dB
+
+[2/5] Processing 00001_0017_000396
+  Source: /data1/lixiang/ESD/0017/Angry/0017_000396.wav
+  Decoding clean audio...
+  Clean emotion predictions: ['angry', 'angry', 'angry']
+  Clean transcript: I'd never know you'd run away like this!
+  Running attack (60 steps)...
+  Saved adversarial audio to results_part2/00001_0017_000396.wav
+  Decoding adversarial audio...
+  Adversarial emotion predictions: ['happy', 'happy', 'happy']
+  Adversarial transcript: I'd never know if I were a regular animal.
+  Success: True, WER: 0.7500
+  L_inf: 0.008000, SNR: 11.32 dB
+
+[3/5] Processing 00002_0020_000500
+  Source: /data1/lixiang/ESD/0020/Angry/0020_000500.wav
+  Decoding clean audio...
+  Clean emotion predictions: ['happy', 'happy', 'enjoyed']
+  Clean transcript: "Did you enjoy yourself?"
+  Running attack (60 steps)...
+  Saved adversarial audio to results_part2/00002_0020_000500.wav
+  Decoding adversarial audio...
+  Adversarial emotion predictions: ['happy', 'happy', 'happy']
+  Adversarial transcript: I hope you enjoyed yourself.
+  Success: True, WER: 1.0000
+  L_inf: 0.008000, SNR: 19.00 dB
+
+[4/5] Processing 00003_0011_000407
+  Source: /data1/lixiang/ESD/0011/Angry/0011_000407.wav
+  Decoding clean audio...
+  Clean emotion predictions: ['angry', 'angry', 'angry']
+  Clean transcript: Hannibal came to see you.
+  Running attack (60 steps)...
+  Saved adversarial audio to results_part2/00003_0011_000407.wav
+  Decoding adversarial audio...
+  Adversarial emotion predictions: ['happy', 'happy', 'happy']
+  Adversarial transcript: "Animal came to see me!"
+  Success: True, WER: 0.4000
+  L_inf: 0.008000, SNR: 13.51 dB
+
+[5/5] Processing 00004_0007_000597
+  Source: /data1/lixiang/ESD/0007/Angry/0007_000597.wav
+  Decoding clean audio...
+  Clean emotion predictions: ['angry', 'angry', '']
+  Clean transcript: 我等你，是因为我相信你值得被等待。
+  Running attack (60 steps)...
+  Saved adversarial audio to results_part2/00004_0007_000597.wav
+  Decoding adversarial audio...
+  Adversarial emotion predictions: ['happy', 'happy', 'happy']
+  Adversarial transcript: My favorite vacation spot is the sunny beach with soft sand to dig in and sparkly waves to chase! I love building sandcastles and seeing seagulls swoop—they’re like flying friends! The warm breeze makes my hair fly too, and the ice cream there is the bestest ever!
+  Success: True, WER: 47.0000
+  L_inf: 0.008000, SNR: 11.15 dB
+
+================================================================================
+Computing aggregate statistics...
+Saved summary to results_part2/summary.json
+Saved summary CSV to results_part2/summary.csv
+
+================================================================================
+EXPERIMENT SUMMARY
+================================================================================
+  emo_success_rate: 0.8
+  joint_success_le_0.0: 0.0
+  joint_success_le_0.05: 0.0
+  num_samples: 5
+  wer_le_0.0: 0.0
+  wer_le_0.05: 0.0
+================================================================================
+Experiment completed successfully!

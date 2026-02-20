@@ -1,0 +1,186 @@
+INFO:src.configuration_omnispeech:audio encoder config is None. Initializing with qwen2_audio_encoder
+INFO:src.configuration_omnispeech:llm config is None. Initializing with qwen3
+INFO:src.configuration_omnispeech:tts lm config is None. Initializing with qwen3
+================================================================================
+OpenS2S White-Box Attack Test (N=10)
+================================================================================
+
+Loaded 10 audio samples
+Output directory: test/results_n10
+
+Attack parameters:
+  - epsilon: 0.002
+  - steps: 30
+  - lambda_emo: 1.0
+  - lambda_sem: 0.01
+  - lambda_per: 0.0001
+
+Prompt: What is the emotion of this audio? Please answer with only one word: the emotion label (happy, sad, angry, or neutral).
+================================================================================
+
+Loading OpenS2S model...
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.21it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.33it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.38it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:02<00:00,  1.41it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.74it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.55it/s]
+/data1/lixiang/lx_code/white_box_v1/test/run_test_n10_v2.py:73: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(CHECKPOINT_PATH, map_location=DEVICE)
+`generation_config` default values have been modified to match model-specific defaults: {'bos_token_id': 151643}. If this is not desired, please set these values explicitly.
+Loading emotion classifier from checkpoints/sad_happy_classifier.pt...
+  Emotion mapping: {'Sad': 0, 'Happy': 1}
+  Input dim: 20, Num emotions: 2
+
+================================================================================
+Running attacks...
+================================================================================
+
+[1/10] Processing: 20683.wav
+  [1/3] Clean inference...
+    Clean output: I'm sorry to hear that. Would you like to talk about it?...
+  [2/3] Running attack (epsilon=0.002, steps=30)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/30: loss=0.674934, emo_loss=0.674914, emo_prob_target=0.5092, sem_loss=0.000002, sem_sim=1.0000, per=0.204751, grad_norm=0.000053
+  Step 20/30: loss=0.674741, emo_loss=0.674721, emo_prob_target=0.5093, sem_loss=0.000003, sem_sim=1.0000, per=0.206427, grad_norm=0.000053
+  Step 30/30: loss=0.674741, emo_loss=0.674721, emo_prob_target=0.5093, sem_loss=0.000003, sem_sim=1.0000, per=0.206427, grad_norm=0.000053
+  [3/3] Attack inference...
+    Attack output: The emotion of the audio is sad....
+  ✓ Completed in 3.80s
+    Metrics: linf=0.002000, l2=0.68, snr=11.17dB
+
+[2/10] Processing: 24190.wav
+  [1/3] Clean inference...
+    Clean output: The emotion of the audio is sad....
+  [2/3] Running attack (epsilon=0.002, steps=30)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/30: loss=0.647384, emo_loss=0.647381, emo_prob_target=0.5234, sem_loss=0.000013, sem_sim=1.0000, per=0.023733, grad_norm=0.000033
+  Step 20/30: loss=0.648307, emo_loss=0.648304, emo_prob_target=0.5229, sem_loss=0.000013, sem_sim=1.0000, per=0.024740, grad_norm=0.000033
+  Step 30/30: loss=0.648307, emo_loss=0.648304, emo_prob_target=0.5229, sem_loss=0.000013, sem_sim=1.0000, per=0.024740, grad_norm=0.000033
+  [3/3] Attack inference...
+    Attack output: The emotion of this audio is sad....
+  ✓ Completed in 3.42s
+    Metrics: linf=0.002000, l2=0.66, snr=16.97dB
+
+[3/10] Processing: 15822.wav
+  [1/3] Clean inference...
+    Clean output: The emotion of this audio is neutral....
+  [2/3] Running attack (epsilon=0.002, steps=30)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/30: loss=0.584545, emo_loss=0.584572, emo_prob_target=0.5573, sem_loss=0.000001, sem_sim=1.0000, per=-0.270838, grad_norm=0.000012
+  Step 20/30: loss=0.580710, emo_loss=0.580737, emo_prob_target=0.5595, sem_loss=0.000002, sem_sim=1.0000, per=-0.270457, grad_norm=0.000012
+  Step 30/30: loss=0.580710, emo_loss=0.580737, emo_prob_target=0.5595, sem_loss=0.000002, sem_sim=1.0000, per=-0.270457, grad_norm=0.000012
+  [3/3] Attack inference...
+    Attack output: The emotion of the audio is neutral....
+  ✓ Completed in 3.42s
+    Metrics: linf=0.002000, l2=0.66, snr=37.89dB
+
+[4/10] Processing: 22344.wav
+  [1/3] Clean inference...
+    Clean output: The emotion of the speech is sad....
+  [2/3] Running attack (epsilon=0.002, steps=30)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/30: loss=0.649831, emo_loss=0.649831, emo_prob_target=0.5221, sem_loss=0.000005, sem_sim=1.0000, per=-0.004542, grad_norm=0.000029
+  Step 20/30: loss=0.652637, emo_loss=0.652637, emo_prob_target=0.5207, sem_loss=0.000004, sem_sim=1.0000, per=-0.003636, grad_norm=0.000029
+  Step 30/30: loss=0.652637, emo_loss=0.652637, emo_prob_target=0.5207, sem_loss=0.000004, sem_sim=1.0000, per=-0.003636, grad_norm=0.000029
+  [3/3] Attack inference...
+    Attack output: The emotion label is Sad....
+  ✓ Completed in 3.47s
+    Metrics: linf=0.002000, l2=0.68, snr=18.17dB
+
+[5/10] Processing: 20495.wav
+  [1/3] Clean inference...
+    Clean output: The emotion of this audio is neutral....
+  [2/3] Running attack (epsilon=0.002, steps=30)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/30: loss=0.628657, emo_loss=0.628669, emo_prob_target=0.5333, sem_loss=0.000014, sem_sim=1.0000, per=-0.125429, grad_norm=0.000015
+  Step 20/30: loss=0.620133, emo_loss=0.620146, emo_prob_target=0.5379, sem_loss=0.000005, sem_sim=1.0000, per=-0.124841, grad_norm=0.000015
+  Step 30/30: loss=0.620133, emo_loss=0.620146, emo_prob_target=0.5379, sem_loss=0.000005, sem_sim=1.0000, per=-0.124841, grad_norm=0.000015
+  [3/3] Attack inference...
+    Attack output:  presentations can be scary. Try practicing deep breaths and remember, it’s okay to feel nervous. Yo...
+  ✓ Completed in 3.54s
+    Metrics: linf=0.002000, l2=0.85, snr=24.81dB
+
+[6/10] Processing: 22713.wav
+  [1/3] Clean inference...
+    Clean output: The emotion of the audio is sad....
+  [2/3] Running attack (epsilon=0.002, steps=30)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/30: loss=0.590808, emo_loss=0.590823, emo_prob_target=0.5539, sem_loss=0.000005, sem_sim=1.0000, per=-0.151020, grad_norm=0.000019
+  Step 20/30: loss=0.592500, emo_loss=0.592515, emo_prob_target=0.5529, sem_loss=0.000005, sem_sim=1.0000, per=-0.150473, grad_norm=0.000019
+  Step 30/30: loss=0.592500, emo_loss=0.592515, emo_prob_target=0.5529, sem_loss=0.000005, sem_sim=1.0000, per=-0.150473, grad_norm=0.000019
+  [3/3] Attack inference...
+    Attack output: The emotion is sad....
+  ✓ Completed in 3.56s
+    Metrics: linf=0.002000, l2=0.59, snr=26.62dB
+
+[7/10] Processing: 38804.wav
+  [1/3] Clean inference...
+    Clean output: The emotion is sad....
+  [2/3] Running attack (epsilon=0.002, steps=30)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/30: loss=0.736215, emo_loss=0.736213, emo_prob_target=0.4789, sem_loss=0.000003, sem_sim=1.0000, per=0.022125, grad_norm=0.000171
+  Step 20/30: loss=0.737945, emo_loss=0.737942, emo_prob_target=0.4781, sem_loss=0.000003, sem_sim=1.0000, per=0.023134, grad_norm=0.000171
+  Step 30/30: loss=0.737945, emo_loss=0.737942, emo_prob_target=0.4781, sem_loss=0.000003, sem_sim=1.0000, per=0.023134, grad_norm=0.000171
+  [3/3] Attack inference...
+    Attack output: the emotion is sad...
+  ✓ Completed in 3.42s
+    Metrics: linf=0.002000, l2=0.71, snr=16.92dB
+
+[8/10] Processing: 27476.wav
+  [1/3] Clean inference...
+    Clean output: The emotion label is neutral....
+  [2/3] Running attack (epsilon=0.002, steps=30)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/30: loss=0.660342, emo_loss=0.660369, emo_prob_target=0.5167, sem_loss=0.000011, sem_sim=1.0000, per=-0.267637, grad_norm=0.000010
+  Step 20/30: loss=0.657351, emo_loss=0.657377, emo_prob_target=0.5182, sem_loss=0.000019, sem_sim=1.0000, per=-0.267259, grad_norm=0.000010
+  Step 30/30: loss=0.657351, emo_loss=0.657377, emo_prob_target=0.5182, sem_loss=0.000019, sem_sim=1.0000, per=-0.267259, grad_norm=0.000010
+  [3/3] Attack inference...
+    Attack output: Neutral....
+  ✓ Completed in 3.47s
+    Metrics: linf=0.002000, l2=0.80, snr=37.54dB
+
+[9/10] Processing: 48240.wav
+  [1/3] Clean inference...
+    Clean output: The emotion of this audio is angry....
+  [2/3] Running attack (epsilon=0.002, steps=30)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/30: loss=0.744875, emo_loss=0.744878, emo_prob_target=0.4748, sem_loss=0.000006, sem_sim=1.0000, per=-0.028245, grad_norm=0.000065
+  Step 20/30: loss=0.730155, emo_loss=0.730158, emo_prob_target=0.4818, sem_loss=0.000025, sem_sim=1.0000, per=-0.027398, grad_norm=0.000063
+  Step 30/30: loss=0.730155, emo_loss=0.730158, emo_prob_target=0.4818, sem_loss=0.000025, sem_sim=1.0000, per=-0.027398, grad_norm=0.000063
+  [3/3] Attack inference...
+    Attack output: The emotion of the audio is neutral....
+  ✓ Completed in 3.60s
+    Metrics: linf=0.002000, l2=0.58, snr=19.18dB
+
+[10/10] Processing: 20827.wav
+  [1/3] Clean inference...
+    Clean output: The emotion is sad....
+  [2/3] Running attack (epsilon=0.002, steps=30)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/30: loss=0.634313, emo_loss=0.634327, emo_prob_target=0.5303, sem_loss=0.000006, sem_sim=1.0000, per=-0.142465, grad_norm=0.000016
+  Step 20/30: loss=0.652654, emo_loss=0.652668, emo_prob_target=0.5207, sem_loss=0.000006, sem_sim=1.0000, per=-0.141899, grad_norm=0.000016
+  Step 30/30: loss=0.652654, emo_loss=0.652668, emo_prob_target=0.5207, sem_loss=0.000006, sem_sim=1.0000, per=-0.141899, grad_norm=0.000016
+  [3/3] Attack inference...
+    Attack output: Sad....
+  ✓ Completed in 3.47s
+    Metrics: linf=0.002000, l2=0.74, snr=25.95dB
+
+================================================================================
+Saving results...
+================================================================================
+Results saved to: test/results_n10/results.json
+
+Summary:
+  Total samples: 10
+  Successful: 10
+  Failed: 0
+
+================================================================================
+Test completed!
+================================================================================

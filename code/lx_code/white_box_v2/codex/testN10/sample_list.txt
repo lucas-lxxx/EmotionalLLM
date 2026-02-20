@@ -1,0 +1,12 @@
+# ESD Angry samples for testN10 experiment
+# Format: audio_path
+/data1/lixiang/ESD/0001/Angry/0001_000351.wav
+/data1/lixiang/ESD/0001/Angry/0001_000352.wav
+/data1/lixiang/ESD/0002/Angry/0002_000351.wav
+/data1/lixiang/ESD/0002/Angry/0002_000352.wav
+/data1/lixiang/ESD/0003/Angry/0003_000351.wav
+/data1/lixiang/ESD/0003/Angry/0003_000352.wav
+/data1/lixiang/ESD/0004/Angry/0004_000351.wav
+/data1/lixiang/ESD/0004/Angry/0004_000352.wav
+/data1/lixiang/ESD/0005/Angry/0005_000351.wav
+/data1/lixiang/ESD/0005/Angry/0005_000352.wav

@@ -1,0 +1,32 @@
+# Logit Lens 实验配置
+
+# 数据配置
+data:
+  text_jsonl: /data1/lixiang/OpenS2S_dataset/TTS_modal_conflict/text.jsonl
+  audio_root: /data1/lixiang/OpenS2S_dataset/TTS_modal_conflict/
+  dataset_module: /data1/lixiang/lx_code/modal_conflict/src/data/dataset.py
+  emotions:
+    - neutral
+    - happy
+    - sad
+    - angry
+    - surprised
+
+# 固定 Prompt（与 Probe 实验一致）
+prompt: "What is the emotion of this audio? Answer with exactly one word: neutral, happy, sad, angry, or surprised."
+system_prompt: "You are a helpful assistant."
+
+# 模型配置
+model:
+  model_path: /data1/lixiang/Opens2s/OpenS2S/models/OpenS2S/
+  src_path: /data1/lixiang/Opens2s/OpenS2S/src/
+  n_layers: 36
+  hidden_size: 4096
+  device: cuda
+  dtype: bfloat16
+
+# 输出配置
+output:
+  results_dir: /data1/lixiang/lx_code/logit_lens/outputs/
+  save_plots: true
+  save_csv: true

@@ -1,0 +1,40 @@
+{
+  "experiment": "test2_N20",
+  "based_on": "test_N10 results (0% success rate)",
+  "omnispeech_path": "/data1/lixiang/Opens2s/OpenS2S/models/OpenS2S",
+  "checkpoint_path": "checkpoints/sad_happy_classifier.pt",
+  "num_samples": 20,
+  "parameter_changes": {
+    "epsilon": {
+      "old": 0.002,
+      "new": 0.005,
+      "change": "+150%"
+    },
+    "steps": {
+      "old": 30,
+      "new": 50,
+      "change": "+67%"
+    },
+    "lambda_emo": {
+      "old": 1.0,
+      "new": 10.0,
+      "change": "+900%"
+    },
+    "lambda_sem": {
+      "old": 0.01,
+      "new": 0.005,
+      "change": "-50%"
+    },
+    "lambda_per": {
+      "old": 0.0001,
+      "new": 5e-05,
+      "change": "-50%"
+    }
+  },
+  "prompt": "What is the emotion of this audio? Please answer with only one word: the emotion label (happy, sad, angry, or neutral).",
+  "device": "cuda:0",
+  "emotion_label_to_idx": {
+    "Sad": 0,
+    "Happy": 1
+  }
+}

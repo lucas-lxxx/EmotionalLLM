@@ -1,0 +1,45 @@
+# Activation Patching experiment config
+
+data:
+  text_jsonl: /data1/lixiang/OpenS2S_dataset/TTS_modal_conflict/text.jsonl
+  audio_root: /data1/lixiang/OpenS2S_dataset/TTS_modal_conflict/
+  dataset_module: /data1/lixiang/lx_code/modal_conflict/src/data/dataset.py
+  emotions:
+    - neutral
+    - happy
+    - sad
+    - angry
+    - surprised
+  conflict_only: true
+
+prompt: "What is the emotion of this audio? Answer with exactly one word: neutral, happy, sad, angry, or surprised."
+system_prompt: "You are a helpful assistant."
+
+model:
+  model_path: /data1/lixiang/Opens2s/OpenS2S/models/OpenS2S/
+  opens2s_root: /data1/lixiang/Opens2s/OpenS2S/
+  opens2s_io_path: /data1/lixiang/lx_code/white_box_v2/codex/opens2s_io.py
+  device: cuda
+
+pairing:
+  max_pairs_prosody: 100
+  max_pairs_semantic: 100
+  pair_sampling_seed: 42
+
+patching:
+  align_strategy: truncate_to_min
+  patch_alpha: 1.0
+  cache_device: cpu
+  layers_to_patch: []
+
+output:
+  results_dir: /data1/lixiang/lx_code/activation_patching/outputs/
+  save_records: false
+  save_delta_logit: true
+
+quick_test:
+  enabled: false
+  max_pairs_prosody: 10
+  max_pairs_semantic: 10
+  layers: [0, 8, 16, 20, 22, 24, 26, 28, 32, 35]
+  save_records: false

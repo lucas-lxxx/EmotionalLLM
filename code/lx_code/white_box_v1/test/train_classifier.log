@@ -1,0 +1,9 @@
+usage: train_sad_happy_classifier.py [-h] --omnispeech-path OMNISPEECH_PATH
+                                     [--output OUTPUT]
+                                     [--emotions EMOTIONS [EMOTIONS ...]]
+                                     [--split {train,evaluation,test}]
+                                     [--max-samples-per-emotion MAX_SAMPLES_PER_EMOTION]
+                                     [--max-speakers MAX_SPEAKERS]
+                                     [--svd-rank SVD_RANK] [--epochs EPOCHS]
+                                     [--lr LR] [--device DEVICE]
+train_sad_happy_classifier.py: error: unrecognized arguments:        

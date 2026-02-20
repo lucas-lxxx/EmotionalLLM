@@ -1,0 +1,48 @@
+data:
+  audio_root: /data1/lixiang/OpenS2S_dataset/TTS_modal_conflict/
+  emotions:
+  - neutral
+  - happy
+  - sad
+  - angry
+  - surprised
+  text_jsonl: /data1/lixiang/OpenS2S_dataset/TTS_modal_conflict/text.jsonl
+evaluation:
+  layers_to_evaluate: null
+  n_splits: 5
+  random_seed: 42
+extraction:
+  batch_size: 1
+  cache_dir: outputs/hidden_states/
+  use_cache: true
+model:
+  audio_token_index: -200
+  device: cuda
+  dtype: bfloat16
+  hidden_size: 4096
+  model_path: /data1/lixiang/Opens2s/OpenS2S/models/OpenS2S/
+  n_layers: 36
+  src_path: /data1/lixiang/Opens2s/OpenS2S/src/
+output:
+  results_dir: outputs/results/
+  save_csv: true
+  save_plots: true
+  save_summary: true
+probe:
+  batch_size: 32
+  dropout: 0.1
+  epochs: 100
+  hidden_dims:
+  - 512
+  - 128
+  learning_rate: 0.001
+  linear:
+    C: 1.0
+    max_iter: 1000
+    solver: lbfgs
+  patience: 10
+  type: linear
+  weight_decay: 0.01
+prompt: 'What is the emotion of this audio? Answer with exactly one word: neutral,
+  happy, sad, angry, surprised.'
+system_prompt: You are a helpful assistant.

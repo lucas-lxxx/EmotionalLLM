@@ -1,0 +1,3 @@
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/20683.wav
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/24190.wav
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/15822.wav

@@ -1,0 +1,2251 @@
+INFO:src.configuration_omnispeech:audio encoder config is None. Initializing with qwen2_audio_encoder
+INFO:src.configuration_omnispeech:llm config is None. Initializing with qwen3
+INFO:src.configuration_omnispeech:tts lm config is None. Initializing with qwen3
+================================================================================
+OpenS2S White-Box Attack Test (N=100) - AGGRESSIVE Parameters
+================================================================================
+
+Loaded 100 audio samples
+Output directory: test3/results_n100
+
+🚀 Attack parameters (AGGRESSIVE - optimized from test2):
+  - epsilon: 0.008 (was 0.005 in test2, 0.002 in test1)
+  - steps: 80 (was 50 in test2, 30 in test1)
+  - lambda_emo: 30.0 (was 10.0 in test2, 1.0 in test1)
+  - lambda_sem: 0.001 (was 0.005 in test2, 0.01 in test1)
+  - lambda_per: 1e-05 (was 0.00005 in test2, 0.0001 in test1)
+
+Strategy: Based on test2 successful sample (SNR=2.41dB), use very strong perturbation
+Prompt: What is the emotion of this audio? Please answer with only one word: the emotion label (happy, sad, angry, or neutral).
+================================================================================
+
+Loading OpenS2S model...
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.12it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.18it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.23it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.25it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.56it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.38it/s]
+`generation_config` default values have been modified to match model-specific defaults: {'bos_token_id': 151643}. If this is not desired, please set these values explicitly.
+Loading emotion classifier from checkpoints/sad_happy_classifier.pt...
+  Emotion mapping: {'Sad': 0, 'Happy': 1}
+  Input dim: 20, Num emotions: 2
+
+================================================================================
+Running attacks on 100 samples...
+================================================================================
+
+[1/100] Processing: 10002.wav
+  [1/3] Clean inference...
+    Clean:  finding light in darkness might mirror what you’re seeking....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.262350, emo_loss=0.608745, emo_prob_target=0.5440, sem_loss=0.000012, sem_sim=1.0000, per=0.607387, grad_norm=0.000003
+  Step 20/80: loss=18.192879, emo_loss=0.606429, emo_prob_target=0.5453, sem_loss=0.000016, sem_sim=1.0000, per=0.610664, grad_norm=0.000003
+  Step 30/80: loss=18.192879, emo_loss=0.606429, emo_prob_target=0.5453, sem_loss=0.000016, sem_sim=1.0000, per=0.610664, grad_norm=0.000003
+  Step 40/80: loss=18.192879, emo_loss=0.606429, emo_prob_target=0.5453, sem_loss=0.000016, sem_sim=1.0000, per=0.610664, grad_norm=0.000003
+  Step 50/80: loss=18.192879, emo_loss=0.606429, emo_prob_target=0.5453, sem_loss=0.000016, sem_sim=1.0000, per=0.610664, grad_norm=0.000003
+  Step 60/80: loss=18.192879, emo_loss=0.606429, emo_prob_target=0.5453, sem_loss=0.000016, sem_sim=1.0000, per=0.610664, grad_norm=0.000003
+  Step 70/80: loss=18.192879, emo_loss=0.606429, emo_prob_target=0.5453, sem_loss=0.000016, sem_sim=1.0000, per=0.610664, grad_norm=0.000003
+  Step 80/80: loss=18.192879, emo_loss=0.606429, emo_prob_target=0.5453, sem_loss=0.000016, sem_sim=1.0000, per=0.610664, grad_norm=0.000003
+  [3/3] Attack inference...
+    Attack: The emotion label is sad....
+    ❌ Failed: The
+  ⏱ 8.40s | Metrics: linf=0.008000, l2=2.66, snr=4.26dB
+
+[2/100] Processing: 10012.wav
+  [1/3] Clean inference...
+    Clean: The emotion label is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.085676, emo_loss=0.602856, emo_prob_target=0.5472, sem_loss=0.000012, sem_sim=1.0000, per=0.246505, grad_norm=0.000001
+  Step 20/80: loss=18.190071, emo_loss=0.606336, emo_prob_target=0.5453, sem_loss=0.000008, sem_sim=1.0000, per=0.248310, grad_norm=0.000001
+  Step 30/80: loss=18.190071, emo_loss=0.606336, emo_prob_target=0.5453, sem_loss=0.000008, sem_sim=1.0000, per=0.248310, grad_norm=0.000001
+  Step 40/80: loss=18.190071, emo_loss=0.606336, emo_prob_target=0.5453, sem_loss=0.000008, sem_sim=1.0000, per=0.248310, grad_norm=0.000001
+  Step 50/80: loss=18.190071, emo_loss=0.606336, emo_prob_target=0.5453, sem_loss=0.000008, sem_sim=1.0000, per=0.248310, grad_norm=0.000001
+  Step 60/80: loss=18.190071, emo_loss=0.606336, emo_prob_target=0.5453, sem_loss=0.000008, sem_sim=1.0000, per=0.248310, grad_norm=0.000001
+  Step 70/80: loss=18.190071, emo_loss=0.606336, emo_prob_target=0.5453, sem_loss=0.000008, sem_sim=1.0000, per=0.248310, grad_norm=0.000001
+  Step 80/80: loss=18.190071, emo_loss=0.606336, emo_prob_target=0.5453, sem_loss=0.000008, sem_sim=1.0000, per=0.248310, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: Sad...
+    ❌ Failed: Sad
+  ⏱ 7.21s | Metrics: linf=0.008000, l2=3.26, snr=10.23dB
+
+[3/100] Processing: 10037.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=15.647147, emo_loss=0.521572, emo_prob_target=0.5936, sem_loss=0.000023, sem_sim=1.0000, per=-0.161909, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.850750e-07 is too small! Possible gradient break.
+  Step 20/80: loss=16.154617, emo_loss=0.538487, emo_prob_target=0.5836, sem_loss=0.000002, sem_sim=1.0000, per=-0.161398, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.832481e-07 is too small! Possible gradient break.
+  Step 30/80: loss=16.154617, emo_loss=0.538487, emo_prob_target=0.5836, sem_loss=0.000002, sem_sim=1.0000, per=-0.161398, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.832481e-07 is too small! Possible gradient break.
+  Step 40/80: loss=16.154617, emo_loss=0.538487, emo_prob_target=0.5836, sem_loss=0.000002, sem_sim=1.0000, per=-0.161398, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.832481e-07 is too small! Possible gradient break.
+  Step 50/80: loss=16.154617, emo_loss=0.538487, emo_prob_target=0.5836, sem_loss=0.000002, sem_sim=1.0000, per=-0.161398, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.832481e-07 is too small! Possible gradient break.
+  Step 60/80: loss=16.154617, emo_loss=0.538487, emo_prob_target=0.5836, sem_loss=0.000002, sem_sim=1.0000, per=-0.161398, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.832481e-07 is too small! Possible gradient break.
+  Step 70/80: loss=16.154617, emo_loss=0.538487, emo_prob_target=0.5836, sem_loss=0.000002, sem_sim=1.0000, per=-0.161398, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.832481e-07 is too small! Possible gradient break.
+  Step 80/80: loss=16.154617, emo_loss=0.538487, emo_prob_target=0.5836, sem_loss=0.000002, sem_sim=1.0000, per=-0.161398, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.832481e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: The emotion is sad....
+    ❌ Failed: The
+  ⏱ 7.39s | Metrics: linf=0.008000, l2=2.94, snr=27.61dB
+
+[4/100] Processing: 10046.wav
+  [1/3] Clean inference...
+    Clean: Sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=16.191734, emo_loss=0.539725, emo_prob_target=0.5829, sem_loss=0.000011, sem_sim=1.0000, per=-0.180119, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.390164e-07 is too small! Possible gradient break.
+  Step 20/80: loss=15.995142, emo_loss=0.533171, emo_prob_target=0.5867, sem_loss=0.000003, sem_sim=1.0000, per=-0.179624, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.375176e-07 is too small! Possible gradient break.
+  Step 30/80: loss=15.995142, emo_loss=0.533171, emo_prob_target=0.5867, sem_loss=0.000003, sem_sim=1.0000, per=-0.179624, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.375176e-07 is too small! Possible gradient break.
+  Step 40/80: loss=15.995142, emo_loss=0.533171, emo_prob_target=0.5867, sem_loss=0.000003, sem_sim=1.0000, per=-0.179624, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.375176e-07 is too small! Possible gradient break.
+  Step 50/80: loss=15.995142, emo_loss=0.533171, emo_prob_target=0.5867, sem_loss=0.000003, sem_sim=1.0000, per=-0.179624, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.375176e-07 is too small! Possible gradient break.
+  Step 60/80: loss=15.995142, emo_loss=0.533171, emo_prob_target=0.5867, sem_loss=0.000003, sem_sim=1.0000, per=-0.179624, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.375176e-07 is too small! Possible gradient break.
+  Step 70/80: loss=15.995142, emo_loss=0.533171, emo_prob_target=0.5867, sem_loss=0.000003, sem_sim=1.0000, per=-0.179624, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.375176e-07 is too small! Possible gradient break.
+  Step 80/80: loss=15.995142, emo_loss=0.533171, emo_prob_target=0.5867, sem_loss=0.000003, sem_sim=1.0000, per=-0.179624, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.375176e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: Sad....
+    ❌ Failed: Sad.
+  ⏱ 7.57s | Metrics: linf=0.008000, l2=3.12, snr=29.14dB
+
+[5/100] Processing: 10063.wav
+  [1/3] Clean inference...
+    Clean:  is Sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=15.933104, emo_loss=0.531103, emo_prob_target=0.5880, sem_loss=0.000013, sem_sim=1.0000, per=-0.110674, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.584884e-07 is too small! Possible gradient break.
+  Step 20/80: loss=16.034904, emo_loss=0.534497, emo_prob_target=0.5860, sem_loss=0.000018, sem_sim=1.0000, per=-0.110056, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.541245e-07 is too small! Possible gradient break.
+  Step 30/80: loss=16.034904, emo_loss=0.534497, emo_prob_target=0.5860, sem_loss=0.000018, sem_sim=1.0000, per=-0.110056, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.541245e-07 is too small! Possible gradient break.
+  Step 40/80: loss=16.034904, emo_loss=0.534497, emo_prob_target=0.5860, sem_loss=0.000018, sem_sim=1.0000, per=-0.110056, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.541245e-07 is too small! Possible gradient break.
+  Step 50/80: loss=16.034904, emo_loss=0.534497, emo_prob_target=0.5860, sem_loss=0.000018, sem_sim=1.0000, per=-0.110056, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.541245e-07 is too small! Possible gradient break.
+  Step 60/80: loss=16.034904, emo_loss=0.534497, emo_prob_target=0.5860, sem_loss=0.000018, sem_sim=1.0000, per=-0.110056, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.541245e-07 is too small! Possible gradient break.
+  Step 70/80: loss=16.034904, emo_loss=0.534497, emo_prob_target=0.5860, sem_loss=0.000018, sem_sim=1.0000, per=-0.110056, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.541245e-07 is too small! Possible gradient break.
+  Step 80/80: loss=16.034904, emo_loss=0.534497, emo_prob_target=0.5860, sem_loss=0.000018, sem_sim=1.0000, per=-0.110056, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.541245e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack:   
+
+The emotion of your request was labeled as **Neutral**, ...
+    ❌ Failed: The
+  ⏱ 7.73s | Metrics: linf=0.008000, l2=2.13, snr=23.84dB
+
+[6/100] Processing: 10066.wav
+  [1/3] Clean inference...
+    Clean:  is tomorrow’s promise. Emotion: Neutral....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.478436, emo_loss=0.615948, emo_prob_target=0.5401, sem_loss=0.000082, sem_sim=0.9999, per=0.828042, grad_norm=0.000004
+  Step 20/80: loss=18.410648, emo_loss=0.613688, emo_prob_target=0.5414, sem_loss=0.000076, sem_sim=0.9999, per=0.832093, grad_norm=0.000004
+  Step 30/80: loss=18.410648, emo_loss=0.613688, emo_prob_target=0.5414, sem_loss=0.000076, sem_sim=0.9999, per=0.832093, grad_norm=0.000004
+  Step 40/80: loss=18.410648, emo_loss=0.613688, emo_prob_target=0.5414, sem_loss=0.000076, sem_sim=0.9999, per=0.832093, grad_norm=0.000004
+  Step 50/80: loss=18.410648, emo_loss=0.613688, emo_prob_target=0.5414, sem_loss=0.000076, sem_sim=0.9999, per=0.832093, grad_norm=0.000004
+  Step 60/80: loss=18.410648, emo_loss=0.613688, emo_prob_target=0.5414, sem_loss=0.000076, sem_sim=0.9999, per=0.832093, grad_norm=0.000004
+  Step 70/80: loss=18.410648, emo_loss=0.613688, emo_prob_target=0.5414, sem_loss=0.000076, sem_sim=0.9999, per=0.832093, grad_norm=0.000004
+  Step 80/80: loss=18.410648, emo_loss=0.613688, emo_prob_target=0.5414, sem_loss=0.000076, sem_sim=0.9999, per=0.832093, grad_norm=0.000004
+  [3/3] Attack inference...
+    Attack: The emotion of this audio is neutral....
+    ❌ Failed: The
+  ⏱ 7.88s | Metrics: linf=0.008000, l2=2.26, snr=2.22dB
+
+[7/100] Processing: 10069.wav
+  [1/3] Clean inference...
+    Clean: The emotion of the speech is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.692654, emo_loss=0.589755, emo_prob_target=0.5545, sem_loss=0.000274, sem_sim=0.9997, per=0.530303, grad_norm=0.000002
+  Step 20/80: loss=17.543924, emo_loss=0.584797, emo_prob_target=0.5572, sem_loss=0.000250, sem_sim=0.9997, per=0.533186, grad_norm=0.000002
+  Step 30/80: loss=17.543924, emo_loss=0.584797, emo_prob_target=0.5572, sem_loss=0.000250, sem_sim=0.9997, per=0.533186, grad_norm=0.000002
+  Step 40/80: loss=17.543924, emo_loss=0.584797, emo_prob_target=0.5572, sem_loss=0.000250, sem_sim=0.9997, per=0.533186, grad_norm=0.000002
+  Step 50/80: loss=17.543924, emo_loss=0.584797, emo_prob_target=0.5572, sem_loss=0.000250, sem_sim=0.9997, per=0.533186, grad_norm=0.000002
+  Step 60/80: loss=17.543924, emo_loss=0.584797, emo_prob_target=0.5572, sem_loss=0.000250, sem_sim=0.9997, per=0.533186, grad_norm=0.000002
+  Step 70/80: loss=17.543924, emo_loss=0.584797, emo_prob_target=0.5572, sem_loss=0.000250, sem_sim=0.9997, per=0.533186, grad_norm=0.000002
+  Step 80/80: loss=17.543924, emo_loss=0.584797, emo_prob_target=0.5572, sem_loss=0.000250, sem_sim=0.9997, per=0.533186, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: The emotion of the speech is sad....
+    ❌ Failed: The
+  ⏱ 11.77s | Metrics: linf=0.008000, l2=2.62, snr=5.37dB
+
+[8/100] Processing: 10074.wav
+  [1/3] Clean inference...
+    Clean:  National Park provides shaded trails and towering trees for...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=16.802410, emo_loss=0.560080, emo_prob_target=0.5712, sem_loss=0.000086, sem_sim=0.9999, per=0.271177, grad_norm=0.000001
+  Step 20/80: loss=16.470465, emo_loss=0.549015, emo_prob_target=0.5775, sem_loss=0.000138, sem_sim=0.9999, per=0.273037, grad_norm=0.000001
+  Step 30/80: loss=16.470465, emo_loss=0.549015, emo_prob_target=0.5775, sem_loss=0.000138, sem_sim=0.9999, per=0.273037, grad_norm=0.000001
+  Step 40/80: loss=16.470465, emo_loss=0.549015, emo_prob_target=0.5775, sem_loss=0.000138, sem_sim=0.9999, per=0.273037, grad_norm=0.000001
+  Step 50/80: loss=16.470465, emo_loss=0.549015, emo_prob_target=0.5775, sem_loss=0.000138, sem_sim=0.9999, per=0.273037, grad_norm=0.000001
+  Step 60/80: loss=16.470465, emo_loss=0.549015, emo_prob_target=0.5775, sem_loss=0.000138, sem_sim=0.9999, per=0.273037, grad_norm=0.000001
+  Step 70/80: loss=16.470465, emo_loss=0.549015, emo_prob_target=0.5775, sem_loss=0.000138, sem_sim=0.9999, per=0.273037, grad_norm=0.000001
+  Step 80/80: loss=16.470465, emo_loss=0.549015, emo_prob_target=0.5775, sem_loss=0.000138, sem_sim=0.9999, per=0.273037, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: Neutral....
+    ❌ Failed: Neutral.
+  ⏱ 8.34s | Metrics: linf=0.008000, l2=2.89, snr=9.90dB
+
+[9/100] Processing: 10097.wav
+  [1/3] Clean inference...
+    Clean:  than words....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.567146, emo_loss=0.618905, emo_prob_target=0.5385, sem_loss=0.000040, sem_sim=1.0000, per=0.848630, grad_norm=0.000004
+  Step 20/80: loss=18.970293, emo_loss=0.632343, emo_prob_target=0.5313, sem_loss=0.000015, sem_sim=1.0000, per=0.852817, grad_norm=0.000004
+  Step 30/80: loss=18.970293, emo_loss=0.632343, emo_prob_target=0.5313, sem_loss=0.000015, sem_sim=1.0000, per=0.852817, grad_norm=0.000004
+  Step 40/80: loss=18.970293, emo_loss=0.632343, emo_prob_target=0.5313, sem_loss=0.000015, sem_sim=1.0000, per=0.852817, grad_norm=0.000004
+  Step 50/80: loss=18.970293, emo_loss=0.632343, emo_prob_target=0.5313, sem_loss=0.000015, sem_sim=1.0000, per=0.852817, grad_norm=0.000004
+  Step 60/80: loss=18.970293, emo_loss=0.632343, emo_prob_target=0.5313, sem_loss=0.000015, sem_sim=1.0000, per=0.852817, grad_norm=0.000004
+  Step 70/80: loss=18.970293, emo_loss=0.632343, emo_prob_target=0.5313, sem_loss=0.000015, sem_sim=1.0000, per=0.852817, grad_norm=0.000004
+  Step 80/80: loss=18.970293, emo_loss=0.632343, emo_prob_target=0.5313, sem_loss=0.000015, sem_sim=1.0000, per=0.852817, grad_norm=0.000004
+  [3/3] Attack inference...
+    Attack: Sad....
+    ❌ Failed: Sad.
+  ⏱ 7.24s | Metrics: linf=0.008000, l2=2.56, snr=1.92dB
+
+[10/100] Processing: 100.wav
+  [1/3] Clean inference...
+    Clean: Sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=19.270666, emo_loss=0.642356, emo_prob_target=0.5261, sem_loss=0.000009, sem_sim=1.0000, per=-0.101787, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.249134e-07 is too small! Possible gradient break.
+  Step 20/80: loss=18.933245, emo_loss=0.631108, emo_prob_target=0.5320, sem_loss=0.000027, sem_sim=1.0000, per=-0.101141, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.161812e-07 is too small! Possible gradient break.
+  Step 30/80: loss=18.933245, emo_loss=0.631108, emo_prob_target=0.5320, sem_loss=0.000027, sem_sim=1.0000, per=-0.101141, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.161812e-07 is too small! Possible gradient break.
+  Step 40/80: loss=18.933245, emo_loss=0.631108, emo_prob_target=0.5320, sem_loss=0.000027, sem_sim=1.0000, per=-0.101141, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.161812e-07 is too small! Possible gradient break.
+  Step 50/80: loss=18.933245, emo_loss=0.631108, emo_prob_target=0.5320, sem_loss=0.000027, sem_sim=1.0000, per=-0.101141, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.161812e-07 is too small! Possible gradient break.
+  Step 60/80: loss=18.933245, emo_loss=0.631108, emo_prob_target=0.5320, sem_loss=0.000027, sem_sim=1.0000, per=-0.101141, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.161812e-07 is too small! Possible gradient break.
+  Step 70/80: loss=18.933245, emo_loss=0.631108, emo_prob_target=0.5320, sem_loss=0.000027, sem_sim=1.0000, per=-0.101141, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.161812e-07 is too small! Possible gradient break.
+  Step 80/80: loss=18.933245, emo_loss=0.631108, emo_prob_target=0.5320, sem_loss=0.000027, sem_sim=1.0000, per=-0.101141, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.161812e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: Sad....
+    ❌ Failed: Sad.
+  ⏱ 7.23s | Metrics: linf=0.008000, l2=2.53, snr=23.25dB
+
+  📊 Progress: 10/100 | Success: 0 (0.0%) | ETA: 13.7min
+
+
+[11/100] Processing: 10125.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.334894, emo_loss=0.577830, emo_prob_target=0.5611, sem_loss=0.000016, sem_sim=1.0000, per=-0.146265, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.836714e-07 is too small! Possible gradient break.
+  Step 20/80: loss=16.825655, emo_loss=0.560855, emo_prob_target=0.5707, sem_loss=0.000002, sem_sim=1.0000, per=-0.145709, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.807402e-07 is too small! Possible gradient break.
+  Step 30/80: loss=16.825655, emo_loss=0.560855, emo_prob_target=0.5707, sem_loss=0.000002, sem_sim=1.0000, per=-0.145709, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.807402e-07 is too small! Possible gradient break.
+  Step 40/80: loss=16.825655, emo_loss=0.560855, emo_prob_target=0.5707, sem_loss=0.000002, sem_sim=1.0000, per=-0.145709, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.807402e-07 is too small! Possible gradient break.
+  Step 50/80: loss=16.825655, emo_loss=0.560855, emo_prob_target=0.5707, sem_loss=0.000002, sem_sim=1.0000, per=-0.145709, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.807402e-07 is too small! Possible gradient break.
+  Step 60/80: loss=16.825655, emo_loss=0.560855, emo_prob_target=0.5707, sem_loss=0.000002, sem_sim=1.0000, per=-0.145709, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.807402e-07 is too small! Possible gradient break.
+  Step 70/80: loss=16.825655, emo_loss=0.560855, emo_prob_target=0.5707, sem_loss=0.000002, sem_sim=1.0000, per=-0.145709, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.807402e-07 is too small! Possible gradient break.
+  Step 80/80: loss=16.825655, emo_loss=0.560855, emo_prob_target=0.5707, sem_loss=0.000002, sem_sim=1.0000, per=-0.145709, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.807402e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: The emotion of the audio is sad....
+    ❌ Failed: The
+  ⏱ 7.45s | Metrics: linf=0.008000, l2=2.52, snr=26.38dB
+
+[12/100] Processing: 10217.wav
+  [1/3] Clean inference...
+    Clean: Sad...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.077024, emo_loss=0.602567, emo_prob_target=0.5474, sem_loss=0.000015, sem_sim=1.0000, per=0.147621, grad_norm=0.000001
+  Step 20/80: loss=17.965347, emo_loss=0.598845, emo_prob_target=0.5494, sem_loss=0.000009, sem_sim=1.0000, per=0.149060, grad_norm=0.000001
+  Step 30/80: loss=17.965347, emo_loss=0.598845, emo_prob_target=0.5494, sem_loss=0.000009, sem_sim=1.0000, per=0.149060, grad_norm=0.000001
+  Step 40/80: loss=17.965347, emo_loss=0.598845, emo_prob_target=0.5494, sem_loss=0.000009, sem_sim=1.0000, per=0.149060, grad_norm=0.000001
+  Step 50/80: loss=17.965347, emo_loss=0.598845, emo_prob_target=0.5494, sem_loss=0.000009, sem_sim=1.0000, per=0.149060, grad_norm=0.000001
+  Step 60/80: loss=17.965347, emo_loss=0.598845, emo_prob_target=0.5494, sem_loss=0.000009, sem_sim=1.0000, per=0.149060, grad_norm=0.000001
+  Step 70/80: loss=17.965347, emo_loss=0.598845, emo_prob_target=0.5494, sem_loss=0.000009, sem_sim=1.0000, per=0.149060, grad_norm=0.000001
+  Step 80/80: loss=17.965347, emo_loss=0.598845, emo_prob_target=0.5494, sem_loss=0.000009, sem_sim=1.0000, per=0.149060, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: the emotion of this audio is sad...
+    ❌ Failed: the
+  ⏱ 7.28s | Metrics: linf=0.008000, l2=2.82, snr=12.65dB
+
+[13/100] Processing: 1022.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=15.889480, emo_loss=0.529649, emo_prob_target=0.5888, sem_loss=0.000134, sem_sim=0.9999, per=0.217680, grad_norm=0.000002
+  Step 20/80: loss=15.942137, emo_loss=0.531404, emo_prob_target=0.5878, sem_loss=0.000115, sem_sim=0.9999, per=0.219361, grad_norm=0.000002
+  Step 30/80: loss=15.942137, emo_loss=0.531404, emo_prob_target=0.5878, sem_loss=0.000115, sem_sim=0.9999, per=0.219361, grad_norm=0.000002
+  Step 40/80: loss=15.942137, emo_loss=0.531404, emo_prob_target=0.5878, sem_loss=0.000115, sem_sim=0.9999, per=0.219361, grad_norm=0.000002
+  Step 50/80: loss=15.942137, emo_loss=0.531404, emo_prob_target=0.5878, sem_loss=0.000115, sem_sim=0.9999, per=0.219361, grad_norm=0.000002
+  Step 60/80: loss=15.942137, emo_loss=0.531404, emo_prob_target=0.5878, sem_loss=0.000115, sem_sim=0.9999, per=0.219361, grad_norm=0.000002
+  Step 70/80: loss=15.942137, emo_loss=0.531404, emo_prob_target=0.5878, sem_loss=0.000115, sem_sim=0.9999, per=0.219361, grad_norm=0.000002
+  Step 80/80: loss=15.942137, emo_loss=0.531404, emo_prob_target=0.5878, sem_loss=0.000115, sem_sim=0.9999, per=0.219361, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: Sad...
+    ❌ Failed: Sad
+  ⏱ 7.98s | Metrics: linf=0.008000, l2=1.98, snr=10.91dB
+
+[14/100] Processing: 10249.wav
+  [1/3] Clean inference...
+    Clean: Sad. Let me help you relax....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=19.369143, emo_loss=0.645638, emo_prob_target=0.5243, sem_loss=0.000017, sem_sim=1.0000, per=0.096458, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.218530e-07 is too small! Possible gradient break.
+  Step 20/80: loss=19.610712, emo_loss=0.653690, emo_prob_target=0.5201, sem_loss=0.000007, sem_sim=1.0000, per=0.097715, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.204176e-07 is too small! Possible gradient break.
+  Step 30/80: loss=19.610712, emo_loss=0.653690, emo_prob_target=0.5201, sem_loss=0.000007, sem_sim=1.0000, per=0.097715, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.204176e-07 is too small! Possible gradient break.
+  Step 40/80: loss=19.610712, emo_loss=0.653690, emo_prob_target=0.5201, sem_loss=0.000007, sem_sim=1.0000, per=0.097715, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.204176e-07 is too small! Possible gradient break.
+  Step 50/80: loss=19.610712, emo_loss=0.653690, emo_prob_target=0.5201, sem_loss=0.000007, sem_sim=1.0000, per=0.097715, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.204176e-07 is too small! Possible gradient break.
+  Step 60/80: loss=19.610712, emo_loss=0.653690, emo_prob_target=0.5201, sem_loss=0.000007, sem_sim=1.0000, per=0.097715, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.204176e-07 is too small! Possible gradient break.
+  Step 70/80: loss=19.610712, emo_loss=0.653690, emo_prob_target=0.5201, sem_loss=0.000007, sem_sim=1.0000, per=0.097715, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.204176e-07 is too small! Possible gradient break.
+  Step 80/80: loss=19.610712, emo_loss=0.653690, emo_prob_target=0.5201, sem_loss=0.000007, sem_sim=1.0000, per=0.097715, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.204176e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: The emotion of this audio is sad....
+    ❌ Failed: The
+  ⏱ 7.28s | Metrics: linf=0.008000, l2=2.93, snr=14.24dB
+
+[15/100] Processing: 10259.wav
+  [1/3] Clean inference...
+    Clean:  some time together doing something they enjoy. Small gestur...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.565079, emo_loss=0.618836, emo_prob_target=0.5386, sem_loss=0.000058, sem_sim=0.9999, per=0.545342, grad_norm=0.000002
+  Step 20/80: loss=18.499489, emo_loss=0.616649, emo_prob_target=0.5397, sem_loss=0.000063, sem_sim=0.9999, per=0.548311, grad_norm=0.000002
+  Step 30/80: loss=18.499489, emo_loss=0.616649, emo_prob_target=0.5397, sem_loss=0.000063, sem_sim=0.9999, per=0.548311, grad_norm=0.000002
+  Step 40/80: loss=18.499489, emo_loss=0.616649, emo_prob_target=0.5397, sem_loss=0.000063, sem_sim=0.9999, per=0.548311, grad_norm=0.000002
+  Step 50/80: loss=18.499489, emo_loss=0.616649, emo_prob_target=0.5397, sem_loss=0.000063, sem_sim=0.9999, per=0.548311, grad_norm=0.000002
+  Step 60/80: loss=18.499489, emo_loss=0.616649, emo_prob_target=0.5397, sem_loss=0.000063, sem_sim=0.9999, per=0.548311, grad_norm=0.000002
+  Step 70/80: loss=18.499489, emo_loss=0.616649, emo_prob_target=0.5397, sem_loss=0.000063, sem_sim=0.9999, per=0.548311, grad_norm=0.000002
+  Step 80/80: loss=18.499489, emo_loss=0.616649, emo_prob_target=0.5397, sem_loss=0.000063, sem_sim=0.9999, per=0.548311, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: the emotion is sad...
+    ❌ Failed: the
+  ⏱ 7.33s | Metrics: linf=0.008000, l2=2.70, snr=5.30dB
+
+[16/100] Processing: 10269.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.165182, emo_loss=0.572173, emo_prob_target=0.5643, sem_loss=0.000020, sem_sim=1.0000, per=0.263219, grad_norm=0.000002
+  Step 20/80: loss=16.614374, emo_loss=0.553812, emo_prob_target=0.5748, sem_loss=0.000070, sem_sim=0.9999, per=0.265107, grad_norm=0.000002
+  Step 30/80: loss=16.614374, emo_loss=0.553812, emo_prob_target=0.5748, sem_loss=0.000070, sem_sim=0.9999, per=0.265107, grad_norm=0.000002
+  Step 40/80: loss=16.614374, emo_loss=0.553812, emo_prob_target=0.5748, sem_loss=0.000070, sem_sim=0.9999, per=0.265107, grad_norm=0.000002
+  Step 50/80: loss=16.614374, emo_loss=0.553812, emo_prob_target=0.5748, sem_loss=0.000070, sem_sim=0.9999, per=0.265107, grad_norm=0.000002
+  Step 60/80: loss=16.614374, emo_loss=0.553812, emo_prob_target=0.5748, sem_loss=0.000070, sem_sim=0.9999, per=0.265107, grad_norm=0.000002
+  Step 70/80: loss=16.614374, emo_loss=0.553812, emo_prob_target=0.5748, sem_loss=0.000070, sem_sim=0.9999, per=0.265107, grad_norm=0.000002
+  Step 80/80: loss=16.614374, emo_loss=0.553812, emo_prob_target=0.5748, sem_loss=0.000070, sem_sim=0.9999, per=0.265107, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: sad...
+    ❌ Failed: sad
+  ⏱ 7.39s | Metrics: linf=0.008000, l2=2.55, snr=9.89dB
+
+[17/100] Processing: 10292.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.727116, emo_loss=0.624237, emo_prob_target=0.5357, sem_loss=0.000070, sem_sim=0.9999, per=1.312576, grad_norm=0.000007
+  Step 20/80: loss=18.727591, emo_loss=0.624253, emo_prob_target=0.5357, sem_loss=0.000075, sem_sim=0.9999, per=1.318726, grad_norm=0.000007
+  Step 30/80: loss=18.727591, emo_loss=0.624253, emo_prob_target=0.5357, sem_loss=0.000075, sem_sim=0.9999, per=1.318726, grad_norm=0.000007
+  Step 40/80: loss=18.727591, emo_loss=0.624253, emo_prob_target=0.5357, sem_loss=0.000075, sem_sim=0.9999, per=1.318726, grad_norm=0.000007
+  Step 50/80: loss=18.727591, emo_loss=0.624253, emo_prob_target=0.5357, sem_loss=0.000075, sem_sim=0.9999, per=1.318726, grad_norm=0.000007
+  Step 60/80: loss=18.727591, emo_loss=0.624253, emo_prob_target=0.5357, sem_loss=0.000075, sem_sim=0.9999, per=1.318726, grad_norm=0.000007
+  Step 70/80: loss=18.727591, emo_loss=0.624253, emo_prob_target=0.5357, sem_loss=0.000075, sem_sim=0.9999, per=1.318726, grad_norm=0.000007
+  Step 80/80: loss=18.727591, emo_loss=0.624253, emo_prob_target=0.5357, sem_loss=0.000075, sem_sim=0.9999, per=1.318726, grad_norm=0.000007
+  [3/3] Attack inference...
+    Attack: The emotion of this audio is neutral....
+    ❌ Failed: The
+  ⏱ 7.19s | Metrics: linf=0.008000, l2=1.98, snr=-1.68dB
+
+[18/100] Processing: 10319.wav
+  [1/3] Clean inference...
+    Clean: Happy...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.309395, emo_loss=0.610313, emo_prob_target=0.5432, sem_loss=0.000083, sem_sim=0.9999, per=0.709278, grad_norm=0.000003
+  Step 20/80: loss=18.414183, emo_loss=0.613806, emo_prob_target=0.5413, sem_loss=0.000065, sem_sim=0.9999, per=0.712967, grad_norm=0.000003
+  Step 30/80: loss=18.414183, emo_loss=0.613806, emo_prob_target=0.5413, sem_loss=0.000065, sem_sim=0.9999, per=0.712967, grad_norm=0.000003
+  Step 40/80: loss=18.414183, emo_loss=0.613806, emo_prob_target=0.5413, sem_loss=0.000065, sem_sim=0.9999, per=0.712967, grad_norm=0.000003
+  Step 50/80: loss=18.414183, emo_loss=0.613806, emo_prob_target=0.5413, sem_loss=0.000065, sem_sim=0.9999, per=0.712967, grad_norm=0.000003
+  Step 60/80: loss=18.414183, emo_loss=0.613806, emo_prob_target=0.5413, sem_loss=0.000065, sem_sim=0.9999, per=0.712967, grad_norm=0.000003
+  Step 70/80: loss=18.414183, emo_loss=0.613806, emo_prob_target=0.5413, sem_loss=0.000065, sem_sim=0.9999, per=0.712967, grad_norm=0.000003
+  Step 80/80: loss=18.414183, emo_loss=0.613806, emo_prob_target=0.5413, sem_loss=0.000065, sem_sim=0.9999, per=0.712967, grad_norm=0.000003
+  [3/3] Attack inference...
+    Attack:  me know if you’d like another laugh....
+    ❌ Failed: me
+  ⏱ 7.45s | Metrics: linf=0.008000, l2=2.73, snr=3.18dB
+
+[19/100] Processing: 10349.wav
+  [1/3] Clean inference...
+    Clean: the emotion is sad...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.592093, emo_loss=0.586403, emo_prob_target=0.5563, sem_loss=0.000007, sem_sim=1.0000, per=-0.114204, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.296641e-07 is too small! Possible gradient break.
+  Step 20/80: loss=17.455084, emo_loss=0.581836, emo_prob_target=0.5589, sem_loss=0.000003, sem_sim=1.0000, per=-0.113583, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.237505e-07 is too small! Possible gradient break.
+  Step 30/80: loss=17.455084, emo_loss=0.581836, emo_prob_target=0.5589, sem_loss=0.000003, sem_sim=1.0000, per=-0.113583, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.237505e-07 is too small! Possible gradient break.
+  Step 40/80: loss=17.455084, emo_loss=0.581836, emo_prob_target=0.5589, sem_loss=0.000003, sem_sim=1.0000, per=-0.113583, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.237505e-07 is too small! Possible gradient break.
+  Step 50/80: loss=17.455084, emo_loss=0.581836, emo_prob_target=0.5589, sem_loss=0.000003, sem_sim=1.0000, per=-0.113583, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.237505e-07 is too small! Possible gradient break.
+  Step 60/80: loss=17.455084, emo_loss=0.581836, emo_prob_target=0.5589, sem_loss=0.000003, sem_sim=1.0000, per=-0.113583, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.237505e-07 is too small! Possible gradient break.
+  Step 70/80: loss=17.455084, emo_loss=0.581836, emo_prob_target=0.5589, sem_loss=0.000003, sem_sim=1.0000, per=-0.113583, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.237505e-07 is too small! Possible gradient break.
+  Step 80/80: loss=17.455084, emo_loss=0.581836, emo_prob_target=0.5589, sem_loss=0.000003, sem_sim=1.0000, per=-0.113583, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.237505e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: The emotion of this audio is sad....
+    ❌ Failed: The
+  ⏱ 7.25s | Metrics: linf=0.008000, l2=2.29, snr=24.08dB
+
+[20/100] Processing: 1034.wav
+  [1/3] Clean inference...
+    Clean: The emotion of the speaker is angry....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.358267, emo_loss=0.578609, emo_prob_target=0.5607, sem_loss=0.000017, sem_sim=1.0000, per=-0.169328, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.618001e-07 is too small! Possible gradient break.
+  Step 20/80: loss=17.465845, emo_loss=0.582195, emo_prob_target=0.5587, sem_loss=0.000011, sem_sim=1.0000, per=-0.168824, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.601942e-07 is too small! Possible gradient break.
+  Step 30/80: loss=17.465845, emo_loss=0.582195, emo_prob_target=0.5587, sem_loss=0.000011, sem_sim=1.0000, per=-0.168824, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.601942e-07 is too small! Possible gradient break.
+  Step 40/80: loss=17.465845, emo_loss=0.582195, emo_prob_target=0.5587, sem_loss=0.000011, sem_sim=1.0000, per=-0.168824, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.601942e-07 is too small! Possible gradient break.
+  Step 50/80: loss=17.465845, emo_loss=0.582195, emo_prob_target=0.5587, sem_loss=0.000011, sem_sim=1.0000, per=-0.168824, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.601942e-07 is too small! Possible gradient break.
+  Step 60/80: loss=17.465845, emo_loss=0.582195, emo_prob_target=0.5587, sem_loss=0.000011, sem_sim=1.0000, per=-0.168824, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.601942e-07 is too small! Possible gradient break.
+  Step 70/80: loss=17.465845, emo_loss=0.582195, emo_prob_target=0.5587, sem_loss=0.000011, sem_sim=1.0000, per=-0.168824, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.601942e-07 is too small! Possible gradient break.
+  Step 80/80: loss=17.465845, emo_loss=0.582195, emo_prob_target=0.5587, sem_loss=0.000011, sem_sim=1.0000, per=-0.168824, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.601942e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack:  share what feels overwhelming? I’m here to listen and help ...
+    ❌ Failed: share
+  ⏱ 7.24s | Metrics: linf=0.008000, l2=3.04, snr=28.22dB
+
+  📊 Progress: 20/100 | Success: 0 (0.0%) | ETA: 11.5min
+
+
+[21/100] Processing: 10384.wav
+  [1/3] Clean inference...
+    Clean: Neutral....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=16.365805, emo_loss=0.545527, emo_prob_target=0.5795, sem_loss=0.000022, sem_sim=1.0000, per=-0.161898, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.755465e-07 is too small! Possible gradient break.
+  Step 20/80: loss=16.473330, emo_loss=0.549111, emo_prob_target=0.5775, sem_loss=0.000016, sem_sim=1.0000, per=-0.161382, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.736973e-07 is too small! Possible gradient break.
+  Step 30/80: loss=16.473330, emo_loss=0.549111, emo_prob_target=0.5775, sem_loss=0.000016, sem_sim=1.0000, per=-0.161382, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.736973e-07 is too small! Possible gradient break.
+  Step 40/80: loss=16.473330, emo_loss=0.549111, emo_prob_target=0.5775, sem_loss=0.000016, sem_sim=1.0000, per=-0.161382, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.736973e-07 is too small! Possible gradient break.
+  Step 50/80: loss=16.473330, emo_loss=0.549111, emo_prob_target=0.5775, sem_loss=0.000016, sem_sim=1.0000, per=-0.161382, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.736973e-07 is too small! Possible gradient break.
+  Step 60/80: loss=16.473330, emo_loss=0.549111, emo_prob_target=0.5775, sem_loss=0.000016, sem_sim=1.0000, per=-0.161382, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.736973e-07 is too small! Possible gradient break.
+  Step 70/80: loss=16.473330, emo_loss=0.549111, emo_prob_target=0.5775, sem_loss=0.000016, sem_sim=1.0000, per=-0.161382, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.736973e-07 is too small! Possible gradient break.
+  Step 80/80: loss=16.473330, emo_loss=0.549111, emo_prob_target=0.5775, sem_loss=0.000016, sem_sim=1.0000, per=-0.161382, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.736973e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: Neutral...
+    ❌ Failed: Neutral
+  ⏱ 7.74s | Metrics: linf=0.008000, l2=3.02, snr=27.61dB
+
+[22/100] Processing: 10391.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=16.528677, emo_loss=0.550956, emo_prob_target=0.5764, sem_loss=0.000005, sem_sim=1.0000, per=0.207414, grad_norm=0.000001
+  Step 20/80: loss=16.437433, emo_loss=0.547914, emo_prob_target=0.5782, sem_loss=0.000004, sem_sim=1.0000, per=0.209031, grad_norm=0.000001
+  Step 30/80: loss=16.437433, emo_loss=0.547914, emo_prob_target=0.5782, sem_loss=0.000004, sem_sim=1.0000, per=0.209031, grad_norm=0.000001
+  Step 40/80: loss=16.437433, emo_loss=0.547914, emo_prob_target=0.5782, sem_loss=0.000004, sem_sim=1.0000, per=0.209031, grad_norm=0.000001
+  Step 50/80: loss=16.437433, emo_loss=0.547914, emo_prob_target=0.5782, sem_loss=0.000004, sem_sim=1.0000, per=0.209031, grad_norm=0.000001
+  Step 60/80: loss=16.437433, emo_loss=0.547914, emo_prob_target=0.5782, sem_loss=0.000004, sem_sim=1.0000, per=0.209031, grad_norm=0.000001
+  Step 70/80: loss=16.437433, emo_loss=0.547914, emo_prob_target=0.5782, sem_loss=0.000004, sem_sim=1.0000, per=0.209031, grad_norm=0.000001
+  Step 80/80: loss=16.437433, emo_loss=0.547914, emo_prob_target=0.5782, sem_loss=0.000004, sem_sim=1.0000, per=0.209031, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: The emotion of this audio is sad....
+    ❌ Failed: The
+  ⏱ 9.43s | Metrics: linf=0.008000, l2=2.84, snr=11.27dB
+
+[23/100] Processing: 10421.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.535782, emo_loss=0.584526, emo_prob_target=0.5574, sem_loss=0.000005, sem_sim=1.0000, per=-0.165367, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.869544e-07 is too small! Possible gradient break.
+  Step 20/80: loss=17.517334, emo_loss=0.583911, emo_prob_target=0.5577, sem_loss=0.000005, sem_sim=1.0000, per=-0.164858, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.845166e-07 is too small! Possible gradient break.
+  Step 30/80: loss=17.517334, emo_loss=0.583911, emo_prob_target=0.5577, sem_loss=0.000005, sem_sim=1.0000, per=-0.164858, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.845166e-07 is too small! Possible gradient break.
+  Step 40/80: loss=17.517334, emo_loss=0.583911, emo_prob_target=0.5577, sem_loss=0.000005, sem_sim=1.0000, per=-0.164858, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.845166e-07 is too small! Possible gradient break.
+  Step 50/80: loss=17.517334, emo_loss=0.583911, emo_prob_target=0.5577, sem_loss=0.000005, sem_sim=1.0000, per=-0.164858, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.845166e-07 is too small! Possible gradient break.
+  Step 60/80: loss=17.517334, emo_loss=0.583911, emo_prob_target=0.5577, sem_loss=0.000005, sem_sim=1.0000, per=-0.164858, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.845166e-07 is too small! Possible gradient break.
+  Step 70/80: loss=17.517334, emo_loss=0.583911, emo_prob_target=0.5577, sem_loss=0.000005, sem_sim=1.0000, per=-0.164858, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.845166e-07 is too small! Possible gradient break.
+  Step 80/80: loss=17.517334, emo_loss=0.583911, emo_prob_target=0.5577, sem_loss=0.000005, sem_sim=1.0000, per=-0.164858, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.845166e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: The emotion is sad....
+    ❌ Failed: The
+  ⏱ 7.79s | Metrics: linf=0.008000, l2=2.30, snr=27.89dB
+
+[24/100] Processing: 10435.wav
+  [1/3] Clean inference...
+    Clean: Sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=19.980553, emo_loss=0.666018, emo_prob_target=0.5138, sem_loss=0.000014, sem_sim=1.0000, per=0.137754, grad_norm=0.000001
+  Step 20/80: loss=19.981993, emo_loss=0.666066, emo_prob_target=0.5137, sem_loss=0.000016, sem_sim=1.0000, per=0.139126, grad_norm=0.000001
+  Step 30/80: loss=19.981993, emo_loss=0.666066, emo_prob_target=0.5137, sem_loss=0.000016, sem_sim=1.0000, per=0.139126, grad_norm=0.000001
+  Step 40/80: loss=19.981993, emo_loss=0.666066, emo_prob_target=0.5137, sem_loss=0.000016, sem_sim=1.0000, per=0.139126, grad_norm=0.000001
+  Step 50/80: loss=19.981993, emo_loss=0.666066, emo_prob_target=0.5137, sem_loss=0.000016, sem_sim=1.0000, per=0.139126, grad_norm=0.000001
+  Step 60/80: loss=19.981993, emo_loss=0.666066, emo_prob_target=0.5137, sem_loss=0.000016, sem_sim=1.0000, per=0.139126, grad_norm=0.000001
+  Step 70/80: loss=19.981993, emo_loss=0.666066, emo_prob_target=0.5137, sem_loss=0.000016, sem_sim=1.0000, per=0.139126, grad_norm=0.000001
+  Step 80/80: loss=19.981993, emo_loss=0.666066, emo_prob_target=0.5137, sem_loss=0.000016, sem_sim=1.0000, per=0.139126, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: The emotion of this audio is sad....
+    ❌ Failed: The
+  ⏱ 7.29s | Metrics: linf=0.008000, l2=2.89, snr=13.02dB
+
+[25/100] Processing: 10448.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=16.638468, emo_loss=0.554616, emo_prob_target=0.5743, sem_loss=0.000004, sem_sim=1.0000, per=-0.114304, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.590480e-07 is too small! Possible gradient break.
+  Step 20/80: loss=16.517017, emo_loss=0.550567, emo_prob_target=0.5766, sem_loss=0.000003, sem_sim=1.0000, per=-0.113692, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.559776e-07 is too small! Possible gradient break.
+  Step 30/80: loss=16.517017, emo_loss=0.550567, emo_prob_target=0.5766, sem_loss=0.000003, sem_sim=1.0000, per=-0.113692, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.559776e-07 is too small! Possible gradient break.
+  Step 40/80: loss=16.517017, emo_loss=0.550567, emo_prob_target=0.5766, sem_loss=0.000003, sem_sim=1.0000, per=-0.113692, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.559776e-07 is too small! Possible gradient break.
+  Step 50/80: loss=16.517017, emo_loss=0.550567, emo_prob_target=0.5766, sem_loss=0.000003, sem_sim=1.0000, per=-0.113692, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.559776e-07 is too small! Possible gradient break.
+  Step 60/80: loss=16.517017, emo_loss=0.550567, emo_prob_target=0.5766, sem_loss=0.000003, sem_sim=1.0000, per=-0.113692, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.559776e-07 is too small! Possible gradient break.
+  Step 70/80: loss=16.517017, emo_loss=0.550567, emo_prob_target=0.5766, sem_loss=0.000003, sem_sim=1.0000, per=-0.113692, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.559776e-07 is too small! Possible gradient break.
+  Step 80/80: loss=16.517017, emo_loss=0.550567, emo_prob_target=0.5766, sem_loss=0.000003, sem_sim=1.0000, per=-0.113692, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.559776e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: The emotion of the speech is sad....
+    ❌ Failed: The
+  ⏱ 7.68s | Metrics: linf=0.008000, l2=3.02, snr=24.06dB
+
+[26/100] Processing: 10449.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.660946, emo_loss=0.622031, emo_prob_target=0.5369, sem_loss=0.000069, sem_sim=0.9999, per=1.198786, grad_norm=0.000006
+  Step 20/80: loss=18.845535, emo_loss=0.628184, emo_prob_target=0.5336, sem_loss=0.000055, sem_sim=0.9999, per=1.204590, grad_norm=0.000006
+  Step 30/80: loss=18.845535, emo_loss=0.628184, emo_prob_target=0.5336, sem_loss=0.000055, sem_sim=0.9999, per=1.204590, grad_norm=0.000006
+  Step 40/80: loss=18.845535, emo_loss=0.628184, emo_prob_target=0.5336, sem_loss=0.000055, sem_sim=0.9999, per=1.204590, grad_norm=0.000006
+  Step 50/80: loss=18.845535, emo_loss=0.628184, emo_prob_target=0.5336, sem_loss=0.000055, sem_sim=0.9999, per=1.204590, grad_norm=0.000006
+  Step 60/80: loss=18.845535, emo_loss=0.628184, emo_prob_target=0.5336, sem_loss=0.000055, sem_sim=0.9999, per=1.204590, grad_norm=0.000006
+  Step 70/80: loss=18.845535, emo_loss=0.628184, emo_prob_target=0.5336, sem_loss=0.000055, sem_sim=0.9999, per=1.204590, grad_norm=0.000006
+  Step 80/80: loss=18.845535, emo_loss=0.628184, emo_prob_target=0.5336, sem_loss=0.000055, sem_sim=0.9999, per=1.204590, grad_norm=0.000006
+  [3/3] Attack inference...
+    Attack: The emotion of the speech is sad....
+    ❌ Failed: The
+  ⏱ 7.29s | Metrics: linf=0.008000, l2=2.10, snr=-1.14dB
+
+[27/100] Processing: 10469.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.126619, emo_loss=0.570887, emo_prob_target=0.5650, sem_loss=0.000008, sem_sim=1.0000, per=0.137510, grad_norm=0.000001
+  Step 20/80: loss=17.117680, emo_loss=0.570589, emo_prob_target=0.5652, sem_loss=0.000010, sem_sim=1.0000, per=0.138899, grad_norm=0.000001
+  Step 30/80: loss=17.117680, emo_loss=0.570589, emo_prob_target=0.5652, sem_loss=0.000010, sem_sim=1.0000, per=0.138899, grad_norm=0.000001
+  Step 40/80: loss=17.117680, emo_loss=0.570589, emo_prob_target=0.5652, sem_loss=0.000010, sem_sim=1.0000, per=0.138899, grad_norm=0.000001
+  Step 50/80: loss=17.117680, emo_loss=0.570589, emo_prob_target=0.5652, sem_loss=0.000010, sem_sim=1.0000, per=0.138899, grad_norm=0.000001
+  Step 60/80: loss=17.117680, emo_loss=0.570589, emo_prob_target=0.5652, sem_loss=0.000010, sem_sim=1.0000, per=0.138899, grad_norm=0.000001
+  Step 70/80: loss=17.117680, emo_loss=0.570589, emo_prob_target=0.5652, sem_loss=0.000010, sem_sim=1.0000, per=0.138899, grad_norm=0.000001
+  Step 80/80: loss=17.117680, emo_loss=0.570589, emo_prob_target=0.5652, sem_loss=0.000010, sem_sim=1.0000, per=0.138899, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: The emotion of this audio is sad....
+    ❌ Failed: The
+  ⏱ 7.41s | Metrics: linf=0.008000, l2=2.89, snr=13.11dB
+
+[28/100] Processing: 10509.wav
+  [1/3] Clean inference...
+    Clean: The emotion of the speech is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=19.567924, emo_loss=0.652264, emo_prob_target=0.5209, sem_loss=0.000025, sem_sim=1.0000, per=0.408444, grad_norm=0.000003
+  Step 20/80: loss=19.435829, emo_loss=0.647861, emo_prob_target=0.5232, sem_loss=0.000016, sem_sim=1.0000, per=0.410835, grad_norm=0.000003
+  Step 30/80: loss=19.435829, emo_loss=0.647861, emo_prob_target=0.5232, sem_loss=0.000016, sem_sim=1.0000, per=0.410835, grad_norm=0.000003
+  Step 40/80: loss=19.435829, emo_loss=0.647861, emo_prob_target=0.5232, sem_loss=0.000016, sem_sim=1.0000, per=0.410835, grad_norm=0.000003
+  Step 50/80: loss=19.435829, emo_loss=0.647861, emo_prob_target=0.5232, sem_loss=0.000016, sem_sim=1.0000, per=0.410835, grad_norm=0.000003
+  Step 60/80: loss=19.435829, emo_loss=0.647861, emo_prob_target=0.5232, sem_loss=0.000016, sem_sim=1.0000, per=0.410835, grad_norm=0.000003
+  Step 70/80: loss=19.435829, emo_loss=0.647861, emo_prob_target=0.5232, sem_loss=0.000016, sem_sim=1.0000, per=0.410835, grad_norm=0.000003
+  Step 80/80: loss=19.435829, emo_loss=0.647861, emo_prob_target=0.5232, sem_loss=0.000016, sem_sim=1.0000, per=0.410835, grad_norm=0.000003
+  [3/3] Attack inference...
+    Attack: The emotion of the audio is sad....
+    ❌ Failed: The
+  ⏱ 7.21s | Metrics: linf=0.008000, l2=2.09, snr=7.34dB
+
+[29/100] Processing: 1050.wav
+  [1/3] Clean inference...
+    Clean: the emotion label is sad. try taking slow deep breaths to ca...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=20.065292, emo_loss=0.668843, emo_prob_target=0.5123, sem_loss=0.000020, sem_sim=1.0000, per=0.467149, grad_norm=0.000003
+  Step 20/80: loss=19.739159, emo_loss=0.657972, emo_prob_target=0.5179, sem_loss=0.000009, sem_sim=1.0000, per=0.469769, grad_norm=0.000003
+  Step 30/80: loss=19.739159, emo_loss=0.657972, emo_prob_target=0.5179, sem_loss=0.000009, sem_sim=1.0000, per=0.469769, grad_norm=0.000003
+  Step 40/80: loss=19.739159, emo_loss=0.657972, emo_prob_target=0.5179, sem_loss=0.000009, sem_sim=1.0000, per=0.469769, grad_norm=0.000003
+  Step 50/80: loss=19.739159, emo_loss=0.657972, emo_prob_target=0.5179, sem_loss=0.000009, sem_sim=1.0000, per=0.469769, grad_norm=0.000003
+  Step 60/80: loss=19.739159, emo_loss=0.657972, emo_prob_target=0.5179, sem_loss=0.000009, sem_sim=1.0000, per=0.469769, grad_norm=0.000003
+  Step 70/80: loss=19.739159, emo_loss=0.657972, emo_prob_target=0.5179, sem_loss=0.000009, sem_sim=1.0000, per=0.469769, grad_norm=0.000003
+  Step 80/80: loss=19.739159, emo_loss=0.657972, emo_prob_target=0.5179, sem_loss=0.000009, sem_sim=1.0000, per=0.469769, grad_norm=0.000003
+  [3/3] Attack inference...
+    Attack:  the feel of your hands on your lap. This can help bring you...
+    ❌ Failed: the
+  ⏱ 7.61s | Metrics: linf=0.008000, l2=2.22, snr=6.35dB
+
+[30/100] Processing: 10520.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.204266, emo_loss=0.606809, emo_prob_target=0.5451, sem_loss=0.000019, sem_sim=1.0000, per=-0.092678, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.383556e-07 is too small! Possible gradient break.
+  Step 20/80: loss=17.861103, emo_loss=0.595370, emo_prob_target=0.5514, sem_loss=0.000005, sem_sim=1.0000, per=-0.092000, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.132605e-07 is too small! Possible gradient break.
+  Step 30/80: loss=17.861103, emo_loss=0.595370, emo_prob_target=0.5514, sem_loss=0.000005, sem_sim=1.0000, per=-0.092000, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.132605e-07 is too small! Possible gradient break.
+  Step 40/80: loss=17.861103, emo_loss=0.595370, emo_prob_target=0.5514, sem_loss=0.000005, sem_sim=1.0000, per=-0.092000, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.132605e-07 is too small! Possible gradient break.
+  Step 50/80: loss=17.861103, emo_loss=0.595370, emo_prob_target=0.5514, sem_loss=0.000005, sem_sim=1.0000, per=-0.092000, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.132605e-07 is too small! Possible gradient break.
+  Step 60/80: loss=17.861103, emo_loss=0.595370, emo_prob_target=0.5514, sem_loss=0.000005, sem_sim=1.0000, per=-0.092000, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.132605e-07 is too small! Possible gradient break.
+  Step 70/80: loss=17.861103, emo_loss=0.595370, emo_prob_target=0.5514, sem_loss=0.000005, sem_sim=1.0000, per=-0.092000, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.132605e-07 is too small! Possible gradient break.
+  Step 80/80: loss=17.861103, emo_loss=0.595370, emo_prob_target=0.5514, sem_loss=0.000005, sem_sim=1.0000, per=-0.092000, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.132605e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: The emotion is neutral....
+    ❌ Failed: The
+  ⏱ 7.37s | Metrics: linf=0.008000, l2=2.43, snr=22.71dB
+
+  📊 Progress: 30/100 | Success: 0 (0.0%) | ETA: 9.9min
+
+
+[31/100] Processing: 10541.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.749462, emo_loss=0.591649, emo_prob_target=0.5534, sem_loss=0.000013, sem_sim=1.0000, per=0.085398, grad_norm=0.000004
+  Step 20/80: loss=17.857317, emo_loss=0.595244, emo_prob_target=0.5514, sem_loss=0.000008, sem_sim=1.0000, per=0.086611, grad_norm=0.000004
+  Step 30/80: loss=17.857317, emo_loss=0.595244, emo_prob_target=0.5514, sem_loss=0.000008, sem_sim=1.0000, per=0.086611, grad_norm=0.000004
+  Step 40/80: loss=17.857317, emo_loss=0.595244, emo_prob_target=0.5514, sem_loss=0.000008, sem_sim=1.0000, per=0.086611, grad_norm=0.000004
+  Step 50/80: loss=17.857317, emo_loss=0.595244, emo_prob_target=0.5514, sem_loss=0.000008, sem_sim=1.0000, per=0.086611, grad_norm=0.000004
+  Step 60/80: loss=17.857317, emo_loss=0.595244, emo_prob_target=0.5514, sem_loss=0.000008, sem_sim=1.0000, per=0.086611, grad_norm=0.000004
+  Step 70/80: loss=17.857317, emo_loss=0.595244, emo_prob_target=0.5514, sem_loss=0.000008, sem_sim=1.0000, per=0.086611, grad_norm=0.000004
+  Step 80/80: loss=17.857317, emo_loss=0.595244, emo_prob_target=0.5514, sem_loss=0.000008, sem_sim=1.0000, per=0.086611, grad_norm=0.000004
+  [3/3] Attack inference...
+    Attack: the emotion is sad...
+    ❌ Failed: the
+  ⏱ 7.47s | Metrics: linf=0.008000, l2=2.62, snr=14.51dB
+
+[32/100] Processing: 1054.wav
+  [1/3] Clean inference...
+    Clean: The emotion is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=16.917280, emo_loss=0.563909, emo_prob_target=0.5690, sem_loss=0.000011, sem_sim=1.0000, per=0.167082, grad_norm=0.000001
+  Step 20/80: loss=16.925282, emo_loss=0.564176, emo_prob_target=0.5688, sem_loss=0.000011, sem_sim=1.0000, per=0.168598, grad_norm=0.000001
+  Step 30/80: loss=16.925282, emo_loss=0.564176, emo_prob_target=0.5688, sem_loss=0.000011, sem_sim=1.0000, per=0.168598, grad_norm=0.000001
+  Step 40/80: loss=16.925282, emo_loss=0.564176, emo_prob_target=0.5688, sem_loss=0.000011, sem_sim=1.0000, per=0.168598, grad_norm=0.000001
+  Step 50/80: loss=16.925282, emo_loss=0.564176, emo_prob_target=0.5688, sem_loss=0.000011, sem_sim=1.0000, per=0.168598, grad_norm=0.000001
+  Step 60/80: loss=16.925282, emo_loss=0.564176, emo_prob_target=0.5688, sem_loss=0.000011, sem_sim=1.0000, per=0.168598, grad_norm=0.000001
+  Step 70/80: loss=16.925282, emo_loss=0.564176, emo_prob_target=0.5688, sem_loss=0.000011, sem_sim=1.0000, per=0.168598, grad_norm=0.000001
+  Step 80/80: loss=16.925282, emo_loss=0.564176, emo_prob_target=0.5688, sem_loss=0.000011, sem_sim=1.0000, per=0.168598, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: The emotion of the audio is sad....
+    ❌ Failed: The
+  ⏱ 7.17s | Metrics: linf=0.008000, l2=2.69, snr=12.19dB
+
+[33/100] Processing: 10560.wav
+  [1/3] Clean inference...
+    Clean: the emotion is sad...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.814743, emo_loss=0.593825, emo_prob_target=0.5522, sem_loss=0.000032, sem_sim=1.0000, per=0.254106, grad_norm=0.000001
+  Step 20/80: loss=17.633953, emo_loss=0.587798, emo_prob_target=0.5555, sem_loss=0.000022, sem_sim=1.0000, per=0.255912, grad_norm=0.000001
+  Step 30/80: loss=17.633953, emo_loss=0.587798, emo_prob_target=0.5555, sem_loss=0.000022, sem_sim=1.0000, per=0.255912, grad_norm=0.000001
+  Step 40/80: loss=17.633953, emo_loss=0.587798, emo_prob_target=0.5555, sem_loss=0.000022, sem_sim=1.0000, per=0.255912, grad_norm=0.000001
+  Step 50/80: loss=17.633953, emo_loss=0.587798, emo_prob_target=0.5555, sem_loss=0.000022, sem_sim=1.0000, per=0.255912, grad_norm=0.000001
+  Step 60/80: loss=17.633953, emo_loss=0.587798, emo_prob_target=0.5555, sem_loss=0.000022, sem_sim=1.0000, per=0.255912, grad_norm=0.000001
+  Step 70/80: loss=17.633953, emo_loss=0.587798, emo_prob_target=0.5555, sem_loss=0.000022, sem_sim=1.0000, per=0.255912, grad_norm=0.000001
+  Step 80/80: loss=17.633953, emo_loss=0.587798, emo_prob_target=0.5555, sem_loss=0.000022, sem_sim=1.0000, per=0.255912, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: The emotion of the audio is sad....
+    ❌ Failed: The
+  ⏱ 7.60s | Metrics: linf=0.008000, l2=2.77, snr=10.17dB
+
+[34/100] Processing: 10591.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=22.619450, emo_loss=0.753982, emo_prob_target=0.4705, sem_loss=0.000042, sem_sim=1.0000, per=-0.043160, grad_norm=0.000002
+  Step 20/80: loss=22.235680, emo_loss=0.741189, emo_prob_target=0.4765, sem_loss=0.000074, sem_sim=0.9999, per=-0.042350, grad_norm=0.000001
+  Step 30/80: loss=22.235680, emo_loss=0.741189, emo_prob_target=0.4765, sem_loss=0.000074, sem_sim=0.9999, per=-0.042350, grad_norm=0.000001
+  Step 40/80: loss=22.235680, emo_loss=0.741189, emo_prob_target=0.4765, sem_loss=0.000074, sem_sim=0.9999, per=-0.042350, grad_norm=0.000001
+  Step 50/80: loss=22.235680, emo_loss=0.741189, emo_prob_target=0.4765, sem_loss=0.000074, sem_sim=0.9999, per=-0.042350, grad_norm=0.000001
+  Step 60/80: loss=22.235680, emo_loss=0.741189, emo_prob_target=0.4765, sem_loss=0.000074, sem_sim=0.9999, per=-0.042350, grad_norm=0.000001
+  Step 70/80: loss=22.235680, emo_loss=0.741189, emo_prob_target=0.4765, sem_loss=0.000074, sem_sim=0.9999, per=-0.042350, grad_norm=0.000001
+  Step 80/80: loss=22.235680, emo_loss=0.741189, emo_prob_target=0.4765, sem_loss=0.000074, sem_sim=0.9999, per=-0.042350, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: The emotion of the audio is sad....
+    ❌ Failed: The
+  ⏱ 7.83s | Metrics: linf=0.008000, l2=4.01, snr=19.94dB
+
+[35/100] Processing: 10671.wav
+  [1/3] Clean inference...
+    Clean: The emotion of the speech is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.946405, emo_loss=0.631547, emo_prob_target=0.5318, sem_loss=0.000053, sem_sim=0.9999, per=0.391511, grad_norm=0.000002
+  Step 20/80: loss=18.778048, emo_loss=0.625935, emo_prob_target=0.5348, sem_loss=0.000071, sem_sim=0.9999, per=0.393840, grad_norm=0.000002
+  Step 30/80: loss=18.778048, emo_loss=0.625935, emo_prob_target=0.5348, sem_loss=0.000071, sem_sim=0.9999, per=0.393840, grad_norm=0.000002
+  Step 40/80: loss=18.778048, emo_loss=0.625935, emo_prob_target=0.5348, sem_loss=0.000071, sem_sim=0.9999, per=0.393840, grad_norm=0.000002
+  Step 50/80: loss=18.778048, emo_loss=0.625935, emo_prob_target=0.5348, sem_loss=0.000071, sem_sim=0.9999, per=0.393840, grad_norm=0.000002
+  Step 60/80: loss=18.778048, emo_loss=0.625935, emo_prob_target=0.5348, sem_loss=0.000071, sem_sim=0.9999, per=0.393840, grad_norm=0.000002
+  Step 70/80: loss=18.778048, emo_loss=0.625935, emo_prob_target=0.5348, sem_loss=0.000071, sem_sim=0.9999, per=0.393840, grad_norm=0.000002
+  Step 80/80: loss=18.778048, emo_loss=0.625935, emo_prob_target=0.5348, sem_loss=0.000071, sem_sim=0.9999, per=0.393840, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: The emotion of this audio is sad....
+    ❌ Failed: The
+  ⏱ 7.41s | Metrics: linf=0.008000, l2=2.69, snr=7.62dB
+
+[36/100] Processing: 10674.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.662575, emo_loss=0.588753, emo_prob_target=0.5550, sem_loss=0.000002, sem_sim=1.0000, per=-0.147888, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.323026e-07 is too small! Possible gradient break.
+  Step 20/80: loss=17.742744, emo_loss=0.591425, emo_prob_target=0.5535, sem_loss=0.000002, sem_sim=1.0000, per=-0.147341, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.296968e-07 is too small! Possible gradient break.
+  Step 30/80: loss=17.742744, emo_loss=0.591425, emo_prob_target=0.5535, sem_loss=0.000002, sem_sim=1.0000, per=-0.147341, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.296968e-07 is too small! Possible gradient break.
+  Step 40/80: loss=17.742744, emo_loss=0.591425, emo_prob_target=0.5535, sem_loss=0.000002, sem_sim=1.0000, per=-0.147341, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.296968e-07 is too small! Possible gradient break.
+  Step 50/80: loss=17.742744, emo_loss=0.591425, emo_prob_target=0.5535, sem_loss=0.000002, sem_sim=1.0000, per=-0.147341, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.296968e-07 is too small! Possible gradient break.
+  Step 60/80: loss=17.742744, emo_loss=0.591425, emo_prob_target=0.5535, sem_loss=0.000002, sem_sim=1.0000, per=-0.147341, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.296968e-07 is too small! Possible gradient break.
+  Step 70/80: loss=17.742744, emo_loss=0.591425, emo_prob_target=0.5535, sem_loss=0.000002, sem_sim=1.0000, per=-0.147341, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.296968e-07 is too small! Possible gradient break.
+  Step 80/80: loss=17.742744, emo_loss=0.591425, emo_prob_target=0.5535, sem_loss=0.000002, sem_sim=1.0000, per=-0.147341, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.296968e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack:  a melody to match this moment?...
+    ❌ Failed: a
+  ⏱ 7.35s | Metrics: linf=0.008000, l2=2.24, snr=26.50dB
+
+[37/100] Processing: 10705.wav
+  [1/3] Clean inference...
+    Clean: the emotion of the speech is sad...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=19.081827, emo_loss=0.636061, emo_prob_target=0.5294, sem_loss=0.000012, sem_sim=1.0000, per=0.279655, grad_norm=0.000002
+  Step 20/80: loss=19.154474, emo_loss=0.638482, emo_prob_target=0.5281, sem_loss=0.000012, sem_sim=1.0000, per=0.281580, grad_norm=0.000002
+  Step 30/80: loss=19.154474, emo_loss=0.638482, emo_prob_target=0.5281, sem_loss=0.000012, sem_sim=1.0000, per=0.281580, grad_norm=0.000002
+  Step 40/80: loss=19.154474, emo_loss=0.638482, emo_prob_target=0.5281, sem_loss=0.000012, sem_sim=1.0000, per=0.281580, grad_norm=0.000002
+  Step 50/80: loss=19.154474, emo_loss=0.638482, emo_prob_target=0.5281, sem_loss=0.000012, sem_sim=1.0000, per=0.281580, grad_norm=0.000002
+  Step 60/80: loss=19.154474, emo_loss=0.638482, emo_prob_target=0.5281, sem_loss=0.000012, sem_sim=1.0000, per=0.281580, grad_norm=0.000002
+  Step 70/80: loss=19.154474, emo_loss=0.638482, emo_prob_target=0.5281, sem_loss=0.000012, sem_sim=1.0000, per=0.281580, grad_norm=0.000002
+  Step 80/80: loss=19.154474, emo_loss=0.638482, emo_prob_target=0.5281, sem_loss=0.000012, sem_sim=1.0000, per=0.281580, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: The emotion of this audio is sad....
+    ❌ Failed: The
+  ⏱ 7.25s | Metrics: linf=0.008000, l2=2.22, snr=9.61dB
+
+[38/100] Processing: 10741.wav
+  [1/3] Clean inference...
+    Clean: the emotion of this audio is sad...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.815861, emo_loss=0.627195, emo_prob_target=0.5341, sem_loss=0.000012, sem_sim=1.0000, per=0.446474, grad_norm=0.000002
+  Step 20/80: loss=18.846928, emo_loss=0.628231, emo_prob_target=0.5335, sem_loss=0.000012, sem_sim=1.0000, per=0.449091, grad_norm=0.000002
+  Step 30/80: loss=18.846928, emo_loss=0.628231, emo_prob_target=0.5335, sem_loss=0.000012, sem_sim=1.0000, per=0.449091, grad_norm=0.000002
+  Step 40/80: loss=18.846928, emo_loss=0.628231, emo_prob_target=0.5335, sem_loss=0.000012, sem_sim=1.0000, per=0.449091, grad_norm=0.000002
+  Step 50/80: loss=18.846928, emo_loss=0.628231, emo_prob_target=0.5335, sem_loss=0.000012, sem_sim=1.0000, per=0.449091, grad_norm=0.000002
+  Step 60/80: loss=18.846928, emo_loss=0.628231, emo_prob_target=0.5335, sem_loss=0.000012, sem_sim=1.0000, per=0.449091, grad_norm=0.000002
+  Step 70/80: loss=18.846928, emo_loss=0.628231, emo_prob_target=0.5335, sem_loss=0.000012, sem_sim=1.0000, per=0.449091, grad_norm=0.000002
+  Step 80/80: loss=18.846928, emo_loss=0.628231, emo_prob_target=0.5335, sem_loss=0.000012, sem_sim=1.0000, per=0.449091, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: The emotion of the audio is sad....
+    ❌ Failed: The
+  ⏱ 7.29s | Metrics: linf=0.008000, l2=2.68, snr=6.58dB
+
+[39/100] Processing: 10769.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.327475, emo_loss=0.577582, emo_prob_target=0.5613, sem_loss=0.000007, sem_sim=1.0000, per=0.207616, grad_norm=0.000002
+  Step 20/80: loss=17.179350, emo_loss=0.572645, emo_prob_target=0.5640, sem_loss=0.000009, sem_sim=1.0000, per=0.209274, grad_norm=0.000002
+  Step 30/80: loss=17.179350, emo_loss=0.572645, emo_prob_target=0.5640, sem_loss=0.000009, sem_sim=1.0000, per=0.209274, grad_norm=0.000002
+  Step 40/80: loss=17.179350, emo_loss=0.572645, emo_prob_target=0.5640, sem_loss=0.000009, sem_sim=1.0000, per=0.209274, grad_norm=0.000002
+  Step 50/80: loss=17.179350, emo_loss=0.572645, emo_prob_target=0.5640, sem_loss=0.000009, sem_sim=1.0000, per=0.209274, grad_norm=0.000002
+  Step 60/80: loss=17.179350, emo_loss=0.572645, emo_prob_target=0.5640, sem_loss=0.000009, sem_sim=1.0000, per=0.209274, grad_norm=0.000002
+  Step 70/80: loss=17.179350, emo_loss=0.572645, emo_prob_target=0.5640, sem_loss=0.000009, sem_sim=1.0000, per=0.209274, grad_norm=0.000002
+  Step 80/80: loss=17.179350, emo_loss=0.572645, emo_prob_target=0.5640, sem_loss=0.000009, sem_sim=1.0000, per=0.209274, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: The emotion of this audio is sad....
+    ❌ Failed: The
+  ⏱ 7.21s | Metrics: linf=0.008000, l2=2.30, snr=11.23dB
+
+[40/100] Processing: 10782.wav
+  [1/3] Clean inference...
+    Clean: the emotion of this audio is sad...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=16.329281, emo_loss=0.544309, emo_prob_target=0.5802, sem_loss=0.000092, sem_sim=0.9999, per=0.028835, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.793168e-07 is too small! Possible gradient break.
+  Step 20/80: loss=16.683741, emo_loss=0.556125, emo_prob_target=0.5734, sem_loss=0.000049, sem_sim=1.0000, per=0.029865, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.780728e-07 is too small! Possible gradient break.
+  Step 30/80: loss=16.683741, emo_loss=0.556125, emo_prob_target=0.5734, sem_loss=0.000049, sem_sim=1.0000, per=0.029865, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.780728e-07 is too small! Possible gradient break.
+  Step 40/80: loss=16.683741, emo_loss=0.556125, emo_prob_target=0.5734, sem_loss=0.000049, sem_sim=1.0000, per=0.029865, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.780728e-07 is too small! Possible gradient break.
+  Step 50/80: loss=16.683741, emo_loss=0.556125, emo_prob_target=0.5734, sem_loss=0.000049, sem_sim=1.0000, per=0.029865, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.780728e-07 is too small! Possible gradient break.
+  Step 60/80: loss=16.683741, emo_loss=0.556125, emo_prob_target=0.5734, sem_loss=0.000049, sem_sim=1.0000, per=0.029865, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.780728e-07 is too small! Possible gradient break.
+  Step 70/80: loss=16.683741, emo_loss=0.556125, emo_prob_target=0.5734, sem_loss=0.000049, sem_sim=1.0000, per=0.029865, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.780728e-07 is too small! Possible gradient break.
+  Step 80/80: loss=16.683741, emo_loss=0.556125, emo_prob_target=0.5734, sem_loss=0.000049, sem_sim=1.0000, per=0.029865, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.780728e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: The emotion detected in your voice is sad....
+    ❌ Failed: The
+  ⏱ 7.79s | Metrics: linf=0.008000, l2=3.25, snr=16.69dB
+
+  📊 Progress: 40/100 | Success: 0 (0.0%) | ETA: 8.4min
+
+
+[41/100] Processing: 10835.wav
+  [1/3] Clean inference...
+    Clean: Sadness lingers when betrayal wounds without loss of composu...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=20.324802, emo_loss=0.677493, emo_prob_target=0.5079, sem_loss=0.000028, sem_sim=1.0000, per=0.226221, grad_norm=0.000001
+  Step 20/80: loss=19.986046, emo_loss=0.666201, emo_prob_target=0.5137, sem_loss=0.000011, sem_sim=1.0000, per=0.227908, grad_norm=0.000001
+  Step 30/80: loss=19.986046, emo_loss=0.666201, emo_prob_target=0.5137, sem_loss=0.000011, sem_sim=1.0000, per=0.227908, grad_norm=0.000001
+  Step 40/80: loss=19.986046, emo_loss=0.666201, emo_prob_target=0.5137, sem_loss=0.000011, sem_sim=1.0000, per=0.227908, grad_norm=0.000001
+  Step 50/80: loss=19.986046, emo_loss=0.666201, emo_prob_target=0.5137, sem_loss=0.000011, sem_sim=1.0000, per=0.227908, grad_norm=0.000001
+  Step 60/80: loss=19.986046, emo_loss=0.666201, emo_prob_target=0.5137, sem_loss=0.000011, sem_sim=1.0000, per=0.227908, grad_norm=0.000001
+  Step 70/80: loss=19.986046, emo_loss=0.666201, emo_prob_target=0.5137, sem_loss=0.000011, sem_sim=1.0000, per=0.227908, grad_norm=0.000001
+  Step 80/80: loss=19.986046, emo_loss=0.666201, emo_prob_target=0.5137, sem_loss=0.000011, sem_sim=1.0000, per=0.227908, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: The emotion label is neutral....
+    ❌ Failed: The
+  ⏱ 7.83s | Metrics: linf=0.008000, l2=2.77, snr=10.80dB
+
+[42/100] Processing: 10856.wav
+  [1/3] Clean inference...
+    Clean:  are feeling down. it might help to talk to someone you trus...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.740065, emo_loss=0.591336, emo_prob_target=0.5536, sem_loss=0.000056, sem_sim=0.9999, per=-0.126264, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.293178e-07 is too small! Possible gradient break.
+  Step 20/80: loss=17.540773, emo_loss=0.584693, emo_prob_target=0.5573, sem_loss=0.000080, sem_sim=0.9999, per=-0.125672, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.254133e-07 is too small! Possible gradient break.
+  Step 30/80: loss=17.540773, emo_loss=0.584693, emo_prob_target=0.5573, sem_loss=0.000080, sem_sim=0.9999, per=-0.125672, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.254133e-07 is too small! Possible gradient break.
+  Step 40/80: loss=17.540773, emo_loss=0.584693, emo_prob_target=0.5573, sem_loss=0.000080, sem_sim=0.9999, per=-0.125672, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.254133e-07 is too small! Possible gradient break.
+  Step 50/80: loss=17.540773, emo_loss=0.584693, emo_prob_target=0.5573, sem_loss=0.000080, sem_sim=0.9999, per=-0.125672, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.254133e-07 is too small! Possible gradient break.
+  Step 60/80: loss=17.540773, emo_loss=0.584693, emo_prob_target=0.5573, sem_loss=0.000080, sem_sim=0.9999, per=-0.125672, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.254133e-07 is too small! Possible gradient break.
+  Step 70/80: loss=17.540773, emo_loss=0.584693, emo_prob_target=0.5573, sem_loss=0.000080, sem_sim=0.9999, per=-0.125672, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.254133e-07 is too small! Possible gradient break.
+  Step 80/80: loss=17.540773, emo_loss=0.584693, emo_prob_target=0.5573, sem_loss=0.000080, sem_sim=0.9999, per=-0.125672, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.254133e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: The emotion of the audio is sad....
+    ❌ Failed: The
+  ⏱ 10.80s | Metrics: linf=0.008000, l2=3.15, snr=24.89dB
+
+[43/100] Processing: 10885.wav
+  [1/3] Clean inference...
+    Clean: smile...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.649849, emo_loss=0.621661, emo_prob_target=0.5371, sem_loss=0.000007, sem_sim=1.0000, per=0.533816, grad_norm=0.000003
+  Step 20/80: loss=18.116558, emo_loss=0.603885, emo_prob_target=0.5467, sem_loss=0.000025, sem_sim=1.0000, per=0.536778, grad_norm=0.000003
+  Step 30/80: loss=18.116558, emo_loss=0.603885, emo_prob_target=0.5467, sem_loss=0.000025, sem_sim=1.0000, per=0.536778, grad_norm=0.000003
+  Step 40/80: loss=18.116558, emo_loss=0.603885, emo_prob_target=0.5467, sem_loss=0.000025, sem_sim=1.0000, per=0.536778, grad_norm=0.000003
+  Step 50/80: loss=18.116558, emo_loss=0.603885, emo_prob_target=0.5467, sem_loss=0.000025, sem_sim=1.0000, per=0.536778, grad_norm=0.000003
+  Step 60/80: loss=18.116558, emo_loss=0.603885, emo_prob_target=0.5467, sem_loss=0.000025, sem_sim=1.0000, per=0.536778, grad_norm=0.000003
+  Step 70/80: loss=18.116558, emo_loss=0.603885, emo_prob_target=0.5467, sem_loss=0.000025, sem_sim=1.0000, per=0.536778, grad_norm=0.000003
+  Step 80/80: loss=18.116558, emo_loss=0.603885, emo_prob_target=0.5467, sem_loss=0.000025, sem_sim=1.0000, per=0.536778, grad_norm=0.000003
+  [3/3] Attack inference...
+    Attack:  Well, I just spotted a cloud wearing a rainbow hat—how’s th...
+    ✅ SUCCESS #1: Flipped to Happy!
+  ⏱ 11.76s | Metrics: linf=0.008000, l2=2.40, snr=5.26dB
+
+[44/100] Processing: 10899.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.655090, emo_loss=0.621836, emo_prob_target=0.5370, sem_loss=0.000059, sem_sim=0.9999, per=0.069523, grad_norm=0.000001
+  Step 20/80: loss=18.485817, emo_loss=0.616194, emo_prob_target=0.5400, sem_loss=0.000045, sem_sim=1.0000, per=0.070687, grad_norm=0.000001
+  Step 30/80: loss=18.485817, emo_loss=0.616194, emo_prob_target=0.5400, sem_loss=0.000045, sem_sim=1.0000, per=0.070687, grad_norm=0.000001
+  Step 40/80: loss=18.485817, emo_loss=0.616194, emo_prob_target=0.5400, sem_loss=0.000045, sem_sim=1.0000, per=0.070687, grad_norm=0.000001
+  Step 50/80: loss=18.485817, emo_loss=0.616194, emo_prob_target=0.5400, sem_loss=0.000045, sem_sim=1.0000, per=0.070687, grad_norm=0.000001
+  Step 60/80: loss=18.485817, emo_loss=0.616194, emo_prob_target=0.5400, sem_loss=0.000045, sem_sim=1.0000, per=0.070687, grad_norm=0.000001
+  Step 70/80: loss=18.485817, emo_loss=0.616194, emo_prob_target=0.5400, sem_loss=0.000045, sem_sim=1.0000, per=0.070687, grad_norm=0.000001
+  Step 80/80: loss=18.485817, emo_loss=0.616194, emo_prob_target=0.5400, sem_loss=0.000045, sem_sim=1.0000, per=0.070687, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: The emotion of the speech is sad....
+    ❌ Failed: The
+  ⏱ 10.78s | Metrics: linf=0.008000, l2=2.29, snr=15.16dB
+
+[45/100] Processing: 10935.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.340563, emo_loss=0.611352, emo_prob_target=0.5426, sem_loss=0.000011, sem_sim=1.0000, per=0.151771, grad_norm=0.000001
+  Step 20/80: loss=18.167635, emo_loss=0.605588, emo_prob_target=0.5458, sem_loss=0.000006, sem_sim=1.0000, per=0.153219, grad_norm=0.000001
+  Step 30/80: loss=18.167635, emo_loss=0.605588, emo_prob_target=0.5458, sem_loss=0.000006, sem_sim=1.0000, per=0.153219, grad_norm=0.000001
+  Step 40/80: loss=18.167635, emo_loss=0.605588, emo_prob_target=0.5458, sem_loss=0.000006, sem_sim=1.0000, per=0.153219, grad_norm=0.000001
+  Step 50/80: loss=18.167635, emo_loss=0.605588, emo_prob_target=0.5458, sem_loss=0.000006, sem_sim=1.0000, per=0.153219, grad_norm=0.000001
+  Step 60/80: loss=18.167635, emo_loss=0.605588, emo_prob_target=0.5458, sem_loss=0.000006, sem_sim=1.0000, per=0.153219, grad_norm=0.000001
+  Step 70/80: loss=18.167635, emo_loss=0.605588, emo_prob_target=0.5458, sem_loss=0.000006, sem_sim=1.0000, per=0.153219, grad_norm=0.000001
+  Step 80/80: loss=18.167635, emo_loss=0.605588, emo_prob_target=0.5458, sem_loss=0.000006, sem_sim=1.0000, per=0.153219, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: The emotion is sad....
+    ❌ Failed: The
+  ⏱ 12.04s | Metrics: linf=0.008000, l2=3.07, snr=12.65dB
+
+[46/100] Processing: 10976.wav
+  [1/3] Clean inference...
+    Clean: The emotion is neutral....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=15.210935, emo_loss=0.507031, emo_prob_target=0.6023, sem_loss=0.000071, sem_sim=0.9999, per=0.233377, grad_norm=0.000002
+  Step 20/80: loss=15.245104, emo_loss=0.508170, emo_prob_target=0.6016, sem_loss=0.000067, sem_sim=0.9999, per=0.235113, grad_norm=0.000002
+  Step 30/80: loss=15.245104, emo_loss=0.508170, emo_prob_target=0.6016, sem_loss=0.000067, sem_sim=0.9999, per=0.235113, grad_norm=0.000002
+  Step 40/80: loss=15.245104, emo_loss=0.508170, emo_prob_target=0.6016, sem_loss=0.000067, sem_sim=0.9999, per=0.235113, grad_norm=0.000002
+  Step 50/80: loss=15.245104, emo_loss=0.508170, emo_prob_target=0.6016, sem_loss=0.000067, sem_sim=0.9999, per=0.235113, grad_norm=0.000002
+  Step 60/80: loss=15.245104, emo_loss=0.508170, emo_prob_target=0.6016, sem_loss=0.000067, sem_sim=0.9999, per=0.235113, grad_norm=0.000002
+  Step 70/80: loss=15.245104, emo_loss=0.508170, emo_prob_target=0.6016, sem_loss=0.000067, sem_sim=0.9999, per=0.235113, grad_norm=0.000002
+  Step 80/80: loss=15.245104, emo_loss=0.508170, emo_prob_target=0.6016, sem_loss=0.000067, sem_sim=0.9999, per=0.235113, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: The emotion of the speech is happy....
+    ✅ SUCCESS #2: Flipped to Happy!
+  ⏱ 10.89s | Metrics: linf=0.008000, l2=1.75, snr=10.72dB
+
+[47/100] Processing: 10985.wav
+  [1/3] Clean inference...
+    Clean: The emotion of the audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.174406, emo_loss=0.605813, emo_prob_target=0.5456, sem_loss=0.000024, sem_sim=1.0000, per=0.186360, grad_norm=0.000001
+  Step 20/80: loss=18.010998, emo_loss=0.600367, emo_prob_target=0.5486, sem_loss=0.000034, sem_sim=1.0000, per=0.187905, grad_norm=0.000001
+  Step 30/80: loss=18.010998, emo_loss=0.600367, emo_prob_target=0.5486, sem_loss=0.000034, sem_sim=1.0000, per=0.187905, grad_norm=0.000001
+  Step 40/80: loss=18.010998, emo_loss=0.600367, emo_prob_target=0.5486, sem_loss=0.000034, sem_sim=1.0000, per=0.187905, grad_norm=0.000001
+  Step 50/80: loss=18.010998, emo_loss=0.600367, emo_prob_target=0.5486, sem_loss=0.000034, sem_sim=1.0000, per=0.187905, grad_norm=0.000001
+  Step 60/80: loss=18.010998, emo_loss=0.600367, emo_prob_target=0.5486, sem_loss=0.000034, sem_sim=1.0000, per=0.187905, grad_norm=0.000001
+  Step 70/80: loss=18.010998, emo_loss=0.600367, emo_prob_target=0.5486, sem_loss=0.000034, sem_sim=1.0000, per=0.187905, grad_norm=0.000001
+  Step 80/80: loss=18.010998, emo_loss=0.600367, emo_prob_target=0.5486, sem_loss=0.000034, sem_sim=1.0000, per=0.187905, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: The emotion of the audio is sad....
+    ❌ Failed: The
+  ⏱ 11.39s | Metrics: linf=0.008000, l2=2.43, snr=11.93dB
+
+[48/100] Processing: 11026.wav
+  [1/3] Clean inference...
+    Clean: The emotion of the speech is angry....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=14.507650, emo_loss=0.483588, emo_prob_target=0.6166, sem_loss=0.000007, sem_sim=1.0000, per=-0.024631, grad_norm=0.000007
+  Step 20/80: loss=14.451741, emo_loss=0.481725, emo_prob_target=0.6177, sem_loss=0.000008, sem_sim=1.0000, per=-0.023797, grad_norm=0.000007
+  Step 30/80: loss=14.451741, emo_loss=0.481725, emo_prob_target=0.6177, sem_loss=0.000008, sem_sim=1.0000, per=-0.023797, grad_norm=0.000007
+  Step 40/80: loss=14.451741, emo_loss=0.481725, emo_prob_target=0.6177, sem_loss=0.000008, sem_sim=1.0000, per=-0.023797, grad_norm=0.000007
+  Step 50/80: loss=14.451741, emo_loss=0.481725, emo_prob_target=0.6177, sem_loss=0.000008, sem_sim=1.0000, per=-0.023797, grad_norm=0.000007
+  Step 60/80: loss=14.451741, emo_loss=0.481725, emo_prob_target=0.6177, sem_loss=0.000008, sem_sim=1.0000, per=-0.023797, grad_norm=0.000007
+  Step 70/80: loss=14.451741, emo_loss=0.481725, emo_prob_target=0.6177, sem_loss=0.000008, sem_sim=1.0000, per=-0.023797, grad_norm=0.000007
+  Step 80/80: loss=14.451741, emo_loss=0.481725, emo_prob_target=0.6177, sem_loss=0.000008, sem_sim=1.0000, per=-0.023797, grad_norm=0.000007
+  [3/3] Attack inference...
+    Attack: The emotion of this audio is sad....
+    ❌ Failed: The
+  ⏱ 14.16s | Metrics: linf=0.008000, l2=1.68, snr=19.04dB
+
+[49/100] Processing: 1103.wav
+  [1/3] Clean inference...
+    Clean: the emotion of this audio is sad...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.462797, emo_loss=0.615426, emo_prob_target=0.5404, sem_loss=0.000050, sem_sim=1.0000, per=1.108095, grad_norm=0.000005
+  Step 20/80: loss=18.769413, emo_loss=0.625647, emo_prob_target=0.5349, sem_loss=0.000019, sem_sim=1.0000, per=1.113464, grad_norm=0.000005
+  Step 30/80: loss=18.769413, emo_loss=0.625647, emo_prob_target=0.5349, sem_loss=0.000019, sem_sim=1.0000, per=1.113464, grad_norm=0.000005
+  Step 40/80: loss=18.769413, emo_loss=0.625647, emo_prob_target=0.5349, sem_loss=0.000019, sem_sim=1.0000, per=1.113464, grad_norm=0.000005
+  Step 50/80: loss=18.769413, emo_loss=0.625647, emo_prob_target=0.5349, sem_loss=0.000019, sem_sim=1.0000, per=1.113464, grad_norm=0.000005
+  Step 60/80: loss=18.769413, emo_loss=0.625647, emo_prob_target=0.5349, sem_loss=0.000019, sem_sim=1.0000, per=1.113464, grad_norm=0.000005
+  Step 70/80: loss=18.769413, emo_loss=0.625647, emo_prob_target=0.5349, sem_loss=0.000019, sem_sim=1.0000, per=1.113464, grad_norm=0.000005
+  Step 80/80: loss=18.769413, emo_loss=0.625647, emo_prob_target=0.5349, sem_loss=0.000019, sem_sim=1.0000, per=1.113464, grad_norm=0.000005
+  [3/3] Attack inference...
+    Attack: The emotion of the speech is neutral....
+    ❌ Failed: The
+  ⏱ 13.36s | Metrics: linf=0.008000, l2=2.27, snr=-0.25dB
+
+[50/100] Processing: 11073.wav
+  [1/3] Clean inference...
+    Clean: The emotion is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=20.607866, emo_loss=0.686929, emo_prob_target=0.5031, sem_loss=0.000007, sem_sim=1.0000, per=-0.023497, grad_norm=0.000007
+  Step 20/80: loss=20.648664, emo_loss=0.688289, emo_prob_target=0.5024, sem_loss=0.000006, sem_sim=1.0000, per=-0.022632, grad_norm=0.000005
+  Step 30/80: loss=20.648664, emo_loss=0.688289, emo_prob_target=0.5024, sem_loss=0.000006, sem_sim=1.0000, per=-0.022632, grad_norm=0.000005
+  Step 40/80: loss=20.648664, emo_loss=0.688289, emo_prob_target=0.5024, sem_loss=0.000006, sem_sim=1.0000, per=-0.022632, grad_norm=0.000005
+  Step 50/80: loss=20.648664, emo_loss=0.688289, emo_prob_target=0.5024, sem_loss=0.000006, sem_sim=1.0000, per=-0.022632, grad_norm=0.000005
+  Step 60/80: loss=20.648664, emo_loss=0.688289, emo_prob_target=0.5024, sem_loss=0.000006, sem_sim=1.0000, per=-0.022632, grad_norm=0.000005
+  Step 70/80: loss=20.648664, emo_loss=0.688289, emo_prob_target=0.5024, sem_loss=0.000006, sem_sim=1.0000, per=-0.022632, grad_norm=0.000005
+  Step 80/80: loss=20.648664, emo_loss=0.688289, emo_prob_target=0.5024, sem_loss=0.000006, sem_sim=1.0000, per=-0.022632, grad_norm=0.000005
+  [3/3] Attack inference...
+    Attack: The emotion is sad....
+    ❌ Failed: The
+  ⏱ 14.77s | Metrics: linf=0.008000, l2=2.26, snr=18.98dB
+
+  📊 Progress: 50/100 | Success: 2 (4.0%) | ETA: 7.7min
+
+
+[51/100] Processing: 11076.wav
+  [1/3] Clean inference...
+    Clean:  help. Would you like to try one now? The emotion of your vo...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=19.715048, emo_loss=0.657168, emo_prob_target=0.5183, sem_loss=0.000023, sem_sim=1.0000, per=0.089442, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.708865e-07 is too small! Possible gradient break.
+  Step 20/80: loss=19.991453, emo_loss=0.666382, emo_prob_target=0.5136, sem_loss=0.000012, sem_sim=1.0000, per=0.090691, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.696912e-07 is too small! Possible gradient break.
+  Step 30/80: loss=19.991453, emo_loss=0.666382, emo_prob_target=0.5136, sem_loss=0.000012, sem_sim=1.0000, per=0.090691, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.696912e-07 is too small! Possible gradient break.
+  Step 40/80: loss=19.991453, emo_loss=0.666382, emo_prob_target=0.5136, sem_loss=0.000012, sem_sim=1.0000, per=0.090691, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.696912e-07 is too small! Possible gradient break.
+  Step 50/80: loss=19.991453, emo_loss=0.666382, emo_prob_target=0.5136, sem_loss=0.000012, sem_sim=1.0000, per=0.090691, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.696912e-07 is too small! Possible gradient break.
+  Step 60/80: loss=19.991453, emo_loss=0.666382, emo_prob_target=0.5136, sem_loss=0.000012, sem_sim=1.0000, per=0.090691, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.696912e-07 is too small! Possible gradient break.
+  Step 70/80: loss=19.991453, emo_loss=0.666382, emo_prob_target=0.5136, sem_loss=0.000012, sem_sim=1.0000, per=0.090691, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.696912e-07 is too small! Possible gradient break.
+  Step 80/80: loss=19.991453, emo_loss=0.666382, emo_prob_target=0.5136, sem_loss=0.000012, sem_sim=1.0000, per=0.090691, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.696912e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: ...
+    ❌ Failed: unknown
+  ⏱ 15.49s | Metrics: linf=0.008000, l2=3.43, snr=14.44dB
+
+[52/100] Processing: 11125.wav
+  [1/3] Clean inference...
+    Clean:  joys....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=20.146416, emo_loss=0.671547, emo_prob_target=0.5109, sem_loss=0.000009, sem_sim=1.0000, per=0.597527, grad_norm=0.000002
+  Step 20/80: loss=20.110788, emo_loss=0.670359, emo_prob_target=0.5115, sem_loss=0.000006, sem_sim=1.0000, per=0.600661, grad_norm=0.000002
+  Step 30/80: loss=20.110788, emo_loss=0.670359, emo_prob_target=0.5115, sem_loss=0.000006, sem_sim=1.0000, per=0.600661, grad_norm=0.000002
+  Step 40/80: loss=20.110788, emo_loss=0.670359, emo_prob_target=0.5115, sem_loss=0.000006, sem_sim=1.0000, per=0.600661, grad_norm=0.000002
+  Step 50/80: loss=20.110788, emo_loss=0.670359, emo_prob_target=0.5115, sem_loss=0.000006, sem_sim=1.0000, per=0.600661, grad_norm=0.000002
+  Step 60/80: loss=20.110788, emo_loss=0.670359, emo_prob_target=0.5115, sem_loss=0.000006, sem_sim=1.0000, per=0.600661, grad_norm=0.000002
+  Step 70/80: loss=20.110788, emo_loss=0.670359, emo_prob_target=0.5115, sem_loss=0.000006, sem_sim=1.0000, per=0.600661, grad_norm=0.000002
+  Step 80/80: loss=20.110788, emo_loss=0.670359, emo_prob_target=0.5115, sem_loss=0.000006, sem_sim=1.0000, per=0.600661, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: ...
+    ❌ Failed: unknown
+  ⏱ 16.11s | Metrics: linf=0.008000, l2=2.90, snr=4.67dB
+
+[53/100] Processing: 11148.wav
+  [1/3] Clean inference...
+    Clean: The emotion is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=20.297716, emo_loss=0.676591, emo_prob_target=0.5083, sem_loss=0.000003, sem_sim=1.0000, per=-0.050200, grad_norm=0.000001
+  Step 20/80: loss=20.347752, emo_loss=0.678258, emo_prob_target=0.5075, sem_loss=0.000004, sem_sim=1.0000, per=-0.049418, grad_norm=0.000001
+  Step 30/80: loss=20.347752, emo_loss=0.678258, emo_prob_target=0.5075, sem_loss=0.000004, sem_sim=1.0000, per=-0.049418, grad_norm=0.000001
+  Step 40/80: loss=20.347752, emo_loss=0.678258, emo_prob_target=0.5075, sem_loss=0.000004, sem_sim=1.0000, per=-0.049418, grad_norm=0.000001
+  Step 50/80: loss=20.347752, emo_loss=0.678258, emo_prob_target=0.5075, sem_loss=0.000004, sem_sim=1.0000, per=-0.049418, grad_norm=0.000001
+  Step 60/80: loss=20.347752, emo_loss=0.678258, emo_prob_target=0.5075, sem_loss=0.000004, sem_sim=1.0000, per=-0.049418, grad_norm=0.000001
+  Step 70/80: loss=20.347752, emo_loss=0.678258, emo_prob_target=0.5075, sem_loss=0.000004, sem_sim=1.0000, per=-0.049418, grad_norm=0.000001
+  Step 80/80: loss=20.347752, emo_loss=0.678258, emo_prob_target=0.5075, sem_loss=0.000004, sem_sim=1.0000, per=-0.049418, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: The emotion is sad....
+    ❌ Failed: The
+  ⏱ 14.42s | Metrics: linf=0.008000, l2=3.21, snr=20.29dB
+
+[54/100] Processing: 1114.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.435173, emo_loss=0.581172, emo_prob_target=0.5592, sem_loss=0.000006, sem_sim=1.0000, per=0.168629, grad_norm=0.000001
+  Step 20/80: loss=17.410383, emo_loss=0.580346, emo_prob_target=0.5597, sem_loss=0.000006, sem_sim=1.0000, per=0.170119, grad_norm=0.000001
+  Step 30/80: loss=17.410383, emo_loss=0.580346, emo_prob_target=0.5597, sem_loss=0.000006, sem_sim=1.0000, per=0.170119, grad_norm=0.000001
+  Step 40/80: loss=17.410383, emo_loss=0.580346, emo_prob_target=0.5597, sem_loss=0.000006, sem_sim=1.0000, per=0.170119, grad_norm=0.000001
+  Step 50/80: loss=17.410383, emo_loss=0.580346, emo_prob_target=0.5597, sem_loss=0.000006, sem_sim=1.0000, per=0.170119, grad_norm=0.000001
+  Step 60/80: loss=17.410383, emo_loss=0.580346, emo_prob_target=0.5597, sem_loss=0.000006, sem_sim=1.0000, per=0.170119, grad_norm=0.000001
+  Step 70/80: loss=17.410383, emo_loss=0.580346, emo_prob_target=0.5597, sem_loss=0.000006, sem_sim=1.0000, per=0.170119, grad_norm=0.000001
+  Step 80/80: loss=17.410383, emo_loss=0.580346, emo_prob_target=0.5597, sem_loss=0.000006, sem_sim=1.0000, per=0.170119, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: The emotion of the audio is sad....
+    ❌ Failed: The
+  ⏱ 16.38s | Metrics: linf=0.008000, l2=2.36, snr=12.21dB
+
+[55/100] Processing: 11197.wav
+  [1/3] Clean inference...
+    Clean: The emotion of the speech is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.526896, emo_loss=0.617563, emo_prob_target=0.5393, sem_loss=0.000008, sem_sim=1.0000, per=0.826068, grad_norm=0.000004
+  Step 20/80: loss=18.641859, emo_loss=0.621395, emo_prob_target=0.5372, sem_loss=0.000007, sem_sim=1.0000, per=0.830204, grad_norm=0.000004
+  Step 30/80: loss=18.641859, emo_loss=0.621395, emo_prob_target=0.5372, sem_loss=0.000007, sem_sim=1.0000, per=0.830204, grad_norm=0.000004
+  Step 40/80: loss=18.641859, emo_loss=0.621395, emo_prob_target=0.5372, sem_loss=0.000007, sem_sim=1.0000, per=0.830204, grad_norm=0.000004
+  Step 50/80: loss=18.641859, emo_loss=0.621395, emo_prob_target=0.5372, sem_loss=0.000007, sem_sim=1.0000, per=0.830204, grad_norm=0.000004
+  Step 60/80: loss=18.641859, emo_loss=0.621395, emo_prob_target=0.5372, sem_loss=0.000007, sem_sim=1.0000, per=0.830204, grad_norm=0.000004
+  Step 70/80: loss=18.641859, emo_loss=0.621395, emo_prob_target=0.5372, sem_loss=0.000007, sem_sim=1.0000, per=0.830204, grad_norm=0.000004
+  Step 80/80: loss=18.641859, emo_loss=0.621395, emo_prob_target=0.5372, sem_loss=0.000007, sem_sim=1.0000, per=0.830204, grad_norm=0.000004
+  [3/3] Attack inference...
+    Attack: The emotion of the speech is sad....
+    ❌ Failed: The
+  ⏱ 15.34s | Metrics: linf=0.008000, l2=2.30, snr=2.09dB
+
+[56/100] Processing: 11212.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.044743, emo_loss=0.601491, emo_prob_target=0.5480, sem_loss=0.000041, sem_sim=1.0000, per=0.279841, grad_norm=0.000002
+  Step 20/80: loss=18.141897, emo_loss=0.604730, emo_prob_target=0.5462, sem_loss=0.000033, sem_sim=1.0000, per=0.281811, grad_norm=0.000002
+  Step 30/80: loss=18.141897, emo_loss=0.604730, emo_prob_target=0.5462, sem_loss=0.000033, sem_sim=1.0000, per=0.281811, grad_norm=0.000002
+  Step 40/80: loss=18.141897, emo_loss=0.604730, emo_prob_target=0.5462, sem_loss=0.000033, sem_sim=1.0000, per=0.281811, grad_norm=0.000002
+  Step 50/80: loss=18.141897, emo_loss=0.604730, emo_prob_target=0.5462, sem_loss=0.000033, sem_sim=1.0000, per=0.281811, grad_norm=0.000002
+  Step 60/80: loss=18.141897, emo_loss=0.604730, emo_prob_target=0.5462, sem_loss=0.000033, sem_sim=1.0000, per=0.281811, grad_norm=0.000002
+  Step 70/80: loss=18.141897, emo_loss=0.604730, emo_prob_target=0.5462, sem_loss=0.000033, sem_sim=1.0000, per=0.281811, grad_norm=0.000002
+  Step 80/80: loss=18.141897, emo_loss=0.604730, emo_prob_target=0.5462, sem_loss=0.000033, sem_sim=1.0000, per=0.281811, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: The emotion of this audio is sad....
+    ❌ Failed: The
+  ⏱ 14.79s | Metrics: linf=0.008000, l2=2.33, snr=9.52dB
+
+[57/100] Processing: 11215.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is happy....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.302919, emo_loss=0.610097, emo_prob_target=0.5433, sem_loss=0.000024, sem_sim=1.0000, per=0.295194, grad_norm=0.000002
+  Step 20/80: loss=18.289673, emo_loss=0.609656, emo_prob_target=0.5435, sem_loss=0.000023, sem_sim=1.0000, per=0.297109, grad_norm=0.000002
+  Step 30/80: loss=18.289673, emo_loss=0.609656, emo_prob_target=0.5435, sem_loss=0.000023, sem_sim=1.0000, per=0.297109, grad_norm=0.000002
+  Step 40/80: loss=18.289673, emo_loss=0.609656, emo_prob_target=0.5435, sem_loss=0.000023, sem_sim=1.0000, per=0.297109, grad_norm=0.000002
+  Step 50/80: loss=18.289673, emo_loss=0.609656, emo_prob_target=0.5435, sem_loss=0.000023, sem_sim=1.0000, per=0.297109, grad_norm=0.000002
+  Step 60/80: loss=18.289673, emo_loss=0.609656, emo_prob_target=0.5435, sem_loss=0.000023, sem_sim=1.0000, per=0.297109, grad_norm=0.000002
+  Step 70/80: loss=18.289673, emo_loss=0.609656, emo_prob_target=0.5435, sem_loss=0.000023, sem_sim=1.0000, per=0.297109, grad_norm=0.000002
+  Step 80/80: loss=18.289673, emo_loss=0.609656, emo_prob_target=0.5435, sem_loss=0.000023, sem_sim=1.0000, per=0.297109, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: The emotion label for this audio is sad....
+    ❌ Failed: The
+  ⏱ 15.32s | Metrics: linf=0.008000, l2=2.19, snr=9.47dB
+
+[58/100] Processing: 11222.wav
+  [1/3] Clean inference...
+    Clean: sad...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.432617, emo_loss=0.614421, emo_prob_target=0.5410, sem_loss=0.000010, sem_sim=1.0000, per=0.096029, grad_norm=0.000001
+  Step 20/80: loss=18.520445, emo_loss=0.617348, emo_prob_target=0.5394, sem_loss=0.000009, sem_sim=1.0000, per=0.097273, grad_norm=0.000001
+  Step 30/80: loss=18.520445, emo_loss=0.617348, emo_prob_target=0.5394, sem_loss=0.000009, sem_sim=1.0000, per=0.097273, grad_norm=0.000001
+  Step 40/80: loss=18.520445, emo_loss=0.617348, emo_prob_target=0.5394, sem_loss=0.000009, sem_sim=1.0000, per=0.097273, grad_norm=0.000001
+  Step 50/80: loss=18.520445, emo_loss=0.617348, emo_prob_target=0.5394, sem_loss=0.000009, sem_sim=1.0000, per=0.097273, grad_norm=0.000001
+  Step 60/80: loss=18.520445, emo_loss=0.617348, emo_prob_target=0.5394, sem_loss=0.000009, sem_sim=1.0000, per=0.097273, grad_norm=0.000001
+  Step 70/80: loss=18.520445, emo_loss=0.617348, emo_prob_target=0.5394, sem_loss=0.000009, sem_sim=1.0000, per=0.097273, grad_norm=0.000001
+  Step 80/80: loss=18.520445, emo_loss=0.617348, emo_prob_target=0.5394, sem_loss=0.000009, sem_sim=1.0000, per=0.097273, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: Sad...
+    ❌ Failed: Sad
+  ⏱ 13.97s | Metrics: linf=0.008000, l2=2.13, snr=14.30dB
+
+[59/100] Processing: 11226.wav
+  [1/3] Clean inference...
+    Clean: The emotion of the audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=20.072186, emo_loss=0.669073, emo_prob_target=0.5122, sem_loss=0.000001, sem_sim=1.0000, per=-0.089485, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.065317e-07 is too small! Possible gradient break.
+  Step 20/80: loss=20.030117, emo_loss=0.667671, emo_prob_target=0.5129, sem_loss=0.000001, sem_sim=1.0000, per=-0.088814, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.886903e-07 is too small! Possible gradient break.
+  Step 30/80: loss=20.030117, emo_loss=0.667671, emo_prob_target=0.5129, sem_loss=0.000001, sem_sim=1.0000, per=-0.088814, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.886903e-07 is too small! Possible gradient break.
+  Step 40/80: loss=20.030117, emo_loss=0.667671, emo_prob_target=0.5129, sem_loss=0.000001, sem_sim=1.0000, per=-0.088814, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.886903e-07 is too small! Possible gradient break.
+  Step 50/80: loss=20.030117, emo_loss=0.667671, emo_prob_target=0.5129, sem_loss=0.000001, sem_sim=1.0000, per=-0.088814, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.886903e-07 is too small! Possible gradient break.
+  Step 60/80: loss=20.030117, emo_loss=0.667671, emo_prob_target=0.5129, sem_loss=0.000001, sem_sim=1.0000, per=-0.088814, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.886903e-07 is too small! Possible gradient break.
+  Step 70/80: loss=20.030117, emo_loss=0.667671, emo_prob_target=0.5129, sem_loss=0.000001, sem_sim=1.0000, per=-0.088814, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.886903e-07 is too small! Possible gradient break.
+  Step 80/80: loss=20.030117, emo_loss=0.667671, emo_prob_target=0.5129, sem_loss=0.000001, sem_sim=1.0000, per=-0.088814, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.886903e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: The emotion is sad....
+    ❌ Failed: The
+  ⏱ 15.36s | Metrics: linf=0.008000, l2=2.31, snr=22.54dB
+
+[60/100] Processing: 11231.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.247404, emo_loss=0.574913, emo_prob_target=0.5628, sem_loss=0.000067, sem_sim=0.9999, per=0.007474, grad_norm=0.000002
+  Step 20/80: loss=17.562651, emo_loss=0.585422, emo_prob_target=0.5569, sem_loss=0.000033, sem_sim=1.0000, per=0.008436, grad_norm=0.000002
+  Step 30/80: loss=17.562651, emo_loss=0.585422, emo_prob_target=0.5569, sem_loss=0.000033, sem_sim=1.0000, per=0.008436, grad_norm=0.000002
+  Step 40/80: loss=17.562651, emo_loss=0.585422, emo_prob_target=0.5569, sem_loss=0.000033, sem_sim=1.0000, per=0.008436, grad_norm=0.000002
+  Step 50/80: loss=17.562651, emo_loss=0.585422, emo_prob_target=0.5569, sem_loss=0.000033, sem_sim=1.0000, per=0.008436, grad_norm=0.000002
+  Step 60/80: loss=17.562651, emo_loss=0.585422, emo_prob_target=0.5569, sem_loss=0.000033, sem_sim=1.0000, per=0.008436, grad_norm=0.000002
+  Step 70/80: loss=17.562651, emo_loss=0.585422, emo_prob_target=0.5569, sem_loss=0.000033, sem_sim=1.0000, per=0.008436, grad_norm=0.000002
+  Step 80/80: loss=17.562651, emo_loss=0.585422, emo_prob_target=0.5569, sem_loss=0.000033, sem_sim=1.0000, per=0.008436, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: The emotion of this audio is sad....
+    ❌ Failed: The
+  ⏱ 15.81s | Metrics: linf=0.008000, l2=2.77, snr=17.50dB
+
+  📊 Progress: 60/100 | Success: 2 (3.3%) | ETA: 7.0min
+
+
+[61/100] Processing: 11233.wav
+  [1/3] Clean inference...
+    Clean: The emotion label is neutral....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=16.305332, emo_loss=0.543511, emo_prob_target=0.5807, sem_loss=0.000016, sem_sim=1.0000, per=-0.160683, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.542943e-07 is too small! Possible gradient break.
+  Step 20/80: loss=16.088140, emo_loss=0.536271, emo_prob_target=0.5849, sem_loss=0.000006, sem_sim=1.0000, per=-0.160163, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.513218e-07 is too small! Possible gradient break.
+  Step 30/80: loss=16.088140, emo_loss=0.536271, emo_prob_target=0.5849, sem_loss=0.000006, sem_sim=1.0000, per=-0.160163, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.513218e-07 is too small! Possible gradient break.
+  Step 40/80: loss=16.088140, emo_loss=0.536271, emo_prob_target=0.5849, sem_loss=0.000006, sem_sim=1.0000, per=-0.160163, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.513218e-07 is too small! Possible gradient break.
+  Step 50/80: loss=16.088140, emo_loss=0.536271, emo_prob_target=0.5849, sem_loss=0.000006, sem_sim=1.0000, per=-0.160163, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.513218e-07 is too small! Possible gradient break.
+  Step 60/80: loss=16.088140, emo_loss=0.536271, emo_prob_target=0.5849, sem_loss=0.000006, sem_sim=1.0000, per=-0.160163, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.513218e-07 is too small! Possible gradient break.
+  Step 70/80: loss=16.088140, emo_loss=0.536271, emo_prob_target=0.5849, sem_loss=0.000006, sem_sim=1.0000, per=-0.160163, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.513218e-07 is too small! Possible gradient break.
+  Step 80/80: loss=16.088140, emo_loss=0.536271, emo_prob_target=0.5849, sem_loss=0.000006, sem_sim=1.0000, per=-0.160163, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.513218e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: neutral...
+    ❌ Failed: neutral
+  ⏱ 14.75s | Metrics: linf=0.008000, l2=1.74, snr=27.51dB
+
+[62/100] Processing: 1124.wav
+  [1/3] Clean inference...
+    Clean: the emotion of the audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=19.040966, emo_loss=0.634699, emo_prob_target=0.5301, sem_loss=0.000037, sem_sim=1.0000, per=0.640034, grad_norm=0.000003
+  Step 20/80: loss=19.065998, emo_loss=0.635533, emo_prob_target=0.5297, sem_loss=0.000035, sem_sim=1.0000, per=0.643409, grad_norm=0.000003
+  Step 30/80: loss=19.065998, emo_loss=0.635533, emo_prob_target=0.5297, sem_loss=0.000035, sem_sim=1.0000, per=0.643409, grad_norm=0.000003
+  Step 40/80: loss=19.065998, emo_loss=0.635533, emo_prob_target=0.5297, sem_loss=0.000035, sem_sim=1.0000, per=0.643409, grad_norm=0.000003
+  Step 50/80: loss=19.065998, emo_loss=0.635533, emo_prob_target=0.5297, sem_loss=0.000035, sem_sim=1.0000, per=0.643409, grad_norm=0.000003
+  Step 60/80: loss=19.065998, emo_loss=0.635533, emo_prob_target=0.5297, sem_loss=0.000035, sem_sim=1.0000, per=0.643409, grad_norm=0.000003
+  Step 70/80: loss=19.065998, emo_loss=0.635533, emo_prob_target=0.5297, sem_loss=0.000035, sem_sim=1.0000, per=0.643409, grad_norm=0.000003
+  Step 80/80: loss=19.065998, emo_loss=0.635533, emo_prob_target=0.5297, sem_loss=0.000035, sem_sim=1.0000, per=0.643409, grad_norm=0.000003
+  [3/3] Attack inference...
+    Attack: Sad...
+    ❌ Failed: Sad
+  ⏱ 15.16s | Metrics: linf=0.008000, l2=2.82, snr=3.84dB
+
+[63/100] Processing: 11284.wav
+  [1/3] Clean inference...
+    Clean:  one task at a time, take short walks to clear your mind, an...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.356365, emo_loss=0.611878, emo_prob_target=0.5423, sem_loss=0.000084, sem_sim=0.9999, per=1.814636, grad_norm=0.000006
+  Step 20/80: loss=18.090174, emo_loss=0.603005, emo_prob_target=0.5472, sem_loss=0.000122, sem_sim=0.9999, per=1.823137, grad_norm=0.000006
+  Step 30/80: loss=18.090174, emo_loss=0.603005, emo_prob_target=0.5472, sem_loss=0.000122, sem_sim=0.9999, per=1.823137, grad_norm=0.000006
+  Step 40/80: loss=18.090174, emo_loss=0.603005, emo_prob_target=0.5472, sem_loss=0.000122, sem_sim=0.9999, per=1.823137, grad_norm=0.000006
+  Step 50/80: loss=18.090174, emo_loss=0.603005, emo_prob_target=0.5472, sem_loss=0.000122, sem_sim=0.9999, per=1.823137, grad_norm=0.000006
+  Step 60/80: loss=18.090174, emo_loss=0.603005, emo_prob_target=0.5472, sem_loss=0.000122, sem_sim=0.9999, per=1.823137, grad_norm=0.000006
+  Step 70/80: loss=18.090174, emo_loss=0.603005, emo_prob_target=0.5472, sem_loss=0.000122, sem_sim=0.9999, per=1.823137, grad_norm=0.000006
+  Step 80/80: loss=18.090174, emo_loss=0.603005, emo_prob_target=0.5472, sem_loss=0.000122, sem_sim=0.9999, per=1.823137, grad_norm=0.000006
+  [3/3] Attack inference...
+    Attack: The emotion is neutral....
+    ❌ Failed: The
+  ⏱ 15.57s | Metrics: linf=0.008000, l2=3.11, snr=-4.60dB
+
+[64/100] Processing: 11292.wav
+  [1/3] Clean inference...
+    Clean:  and self discovery through a simple yet profound journey. i...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=15.771856, emo_loss=0.525729, emo_prob_target=0.5911, sem_loss=0.000138, sem_sim=0.9999, per=-0.093341, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.899219e-07 is too small! Possible gradient break.
+  Step 20/80: loss=15.931664, emo_loss=0.531056, emo_prob_target=0.5880, sem_loss=0.000108, sem_sim=0.9999, per=-0.092674, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.785495e-07 is too small! Possible gradient break.
+  Step 30/80: loss=15.931664, emo_loss=0.531056, emo_prob_target=0.5880, sem_loss=0.000108, sem_sim=0.9999, per=-0.092674, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.785495e-07 is too small! Possible gradient break.
+  Step 40/80: loss=15.931664, emo_loss=0.531056, emo_prob_target=0.5880, sem_loss=0.000108, sem_sim=0.9999, per=-0.092674, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.785495e-07 is too small! Possible gradient break.
+  Step 50/80: loss=15.931664, emo_loss=0.531056, emo_prob_target=0.5880, sem_loss=0.000108, sem_sim=0.9999, per=-0.092674, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.785495e-07 is too small! Possible gradient break.
+  Step 60/80: loss=15.931664, emo_loss=0.531056, emo_prob_target=0.5880, sem_loss=0.000108, sem_sim=0.9999, per=-0.092674, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.785495e-07 is too small! Possible gradient break.
+  Step 70/80: loss=15.931664, emo_loss=0.531056, emo_prob_target=0.5880, sem_loss=0.000108, sem_sim=0.9999, per=-0.092674, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.785495e-07 is too small! Possible gradient break.
+  Step 80/80: loss=15.931664, emo_loss=0.531056, emo_prob_target=0.5880, sem_loss=0.000108, sem_sim=0.9999, per=-0.092674, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=6.785495e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack:  discovery, offering quiet insight without overwhelming tone...
+    ❌ Failed: discovery,
+  ⏱ 17.42s | Metrics: linf=0.008000, l2=2.44, snr=22.77dB
+
+[65/100] Processing: 11301.wav
+  [1/3] Clean inference...
+    Clean: The emotion label is neutral....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=19.042387, emo_loss=0.634745, emo_prob_target=0.5301, sem_loss=0.000026, sem_sim=1.0000, per=2.589759, grad_norm=0.000015
+  Step 20/80: loss=19.070517, emo_loss=0.635683, emo_prob_target=0.5296, sem_loss=0.000029, sem_sim=1.0000, per=2.601648, grad_norm=0.000015
+  Step 30/80: loss=19.070517, emo_loss=0.635683, emo_prob_target=0.5296, sem_loss=0.000029, sem_sim=1.0000, per=2.601648, grad_norm=0.000015
+  Step 40/80: loss=19.070517, emo_loss=0.635683, emo_prob_target=0.5296, sem_loss=0.000029, sem_sim=1.0000, per=2.601648, grad_norm=0.000015
+  Step 50/80: loss=19.070517, emo_loss=0.635683, emo_prob_target=0.5296, sem_loss=0.000029, sem_sim=1.0000, per=2.601648, grad_norm=0.000015
+  Step 60/80: loss=19.070517, emo_loss=0.635683, emo_prob_target=0.5296, sem_loss=0.000029, sem_sim=1.0000, per=2.601648, grad_norm=0.000015
+  Step 70/80: loss=19.070517, emo_loss=0.635683, emo_prob_target=0.5296, sem_loss=0.000029, sem_sim=1.0000, per=2.601648, grad_norm=0.000015
+  Step 80/80: loss=19.070517, emo_loss=0.635683, emo_prob_target=0.5296, sem_loss=0.000029, sem_sim=1.0000, per=2.601648, grad_norm=0.000015
+  [3/3] Attack inference...
+    Attack: The emotion of the audio is sad....
+    ❌ Failed: The
+  ⏱ 15.93s | Metrics: linf=0.008000, l2=1.98, snr=-7.51dB
+
+[66/100] Processing: 11336.wav
+  [1/3] Clean inference...
+    Clean: Sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.904203, emo_loss=0.596807, emo_prob_target=0.5506, sem_loss=0.000004, sem_sim=1.0000, per=-0.127100, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.701589e-07 is too small! Possible gradient break.
+  Step 20/80: loss=17.814087, emo_loss=0.593803, emo_prob_target=0.5522, sem_loss=0.000005, sem_sim=1.0000, per=-0.126515, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.664012e-07 is too small! Possible gradient break.
+  Step 30/80: loss=17.814087, emo_loss=0.593803, emo_prob_target=0.5522, sem_loss=0.000005, sem_sim=1.0000, per=-0.126515, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.664012e-07 is too small! Possible gradient break.
+  Step 40/80: loss=17.814087, emo_loss=0.593803, emo_prob_target=0.5522, sem_loss=0.000005, sem_sim=1.0000, per=-0.126515, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.664012e-07 is too small! Possible gradient break.
+  Step 50/80: loss=17.814087, emo_loss=0.593803, emo_prob_target=0.5522, sem_loss=0.000005, sem_sim=1.0000, per=-0.126515, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.664012e-07 is too small! Possible gradient break.
+  Step 60/80: loss=17.814087, emo_loss=0.593803, emo_prob_target=0.5522, sem_loss=0.000005, sem_sim=1.0000, per=-0.126515, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.664012e-07 is too small! Possible gradient break.
+  Step 70/80: loss=17.814087, emo_loss=0.593803, emo_prob_target=0.5522, sem_loss=0.000005, sem_sim=1.0000, per=-0.126515, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.664012e-07 is too small! Possible gradient break.
+  Step 80/80: loss=17.814087, emo_loss=0.593803, emo_prob_target=0.5522, sem_loss=0.000005, sem_sim=1.0000, per=-0.126515, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.664012e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: Sad....
+    ❌ Failed: Sad.
+  ⏱ 16.07s | Metrics: linf=0.008000, l2=2.85, snr=24.95dB
+
+[67/100] Processing: 11347.wav
+  [1/3] Clean inference...
+    Clean: The emotion is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.151188, emo_loss=0.571706, emo_prob_target=0.5646, sem_loss=0.000056, sem_sim=0.9999, per=1.320666, grad_norm=0.000006
+  Step 20/80: loss=17.615255, emo_loss=0.587175, emo_prob_target=0.5559, sem_loss=0.000022, sem_sim=1.0000, per=1.327047, grad_norm=0.000006
+  Step 30/80: loss=17.615255, emo_loss=0.587175, emo_prob_target=0.5559, sem_loss=0.000022, sem_sim=1.0000, per=1.327047, grad_norm=0.000006
+  Step 40/80: loss=17.615255, emo_loss=0.587175, emo_prob_target=0.5559, sem_loss=0.000022, sem_sim=1.0000, per=1.327047, grad_norm=0.000006
+  Step 50/80: loss=17.615255, emo_loss=0.587175, emo_prob_target=0.5559, sem_loss=0.000022, sem_sim=1.0000, per=1.327047, grad_norm=0.000006
+  Step 60/80: loss=17.615255, emo_loss=0.587175, emo_prob_target=0.5559, sem_loss=0.000022, sem_sim=1.0000, per=1.327047, grad_norm=0.000006
+  Step 70/80: loss=17.615255, emo_loss=0.587175, emo_prob_target=0.5559, sem_loss=0.000022, sem_sim=1.0000, per=1.327047, grad_norm=0.000006
+  Step 80/80: loss=17.615255, emo_loss=0.587175, emo_prob_target=0.5559, sem_loss=0.000022, sem_sim=1.0000, per=1.327047, grad_norm=0.000006
+  [3/3] Attack inference...
+    Attack: The emotion is sad....
+    ❌ Failed: The
+  ⏱ 16.63s | Metrics: linf=0.008000, l2=2.49, snr=-1.90dB
+
+[68/100] Processing: 11349.wav
+  [1/3] Clean inference...
+    Clean:  offering quiet hope without being overly cheerful. sometime...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=15.946783, emo_loss=0.531559, emo_prob_target=0.5877, sem_loss=0.000057, sem_sim=0.9999, per=-0.112516, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.108130e-07 is too small! Possible gradient break.
+  Step 20/80: loss=15.794599, emo_loss=0.526487, emo_prob_target=0.5907, sem_loss=0.000038, sem_sim=1.0000, per=-0.111900, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.076658e-07 is too small! Possible gradient break.
+  Step 30/80: loss=15.794599, emo_loss=0.526487, emo_prob_target=0.5907, sem_loss=0.000038, sem_sim=1.0000, per=-0.111900, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.076658e-07 is too small! Possible gradient break.
+  Step 40/80: loss=15.794599, emo_loss=0.526487, emo_prob_target=0.5907, sem_loss=0.000038, sem_sim=1.0000, per=-0.111900, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.076658e-07 is too small! Possible gradient break.
+  Step 50/80: loss=15.794599, emo_loss=0.526487, emo_prob_target=0.5907, sem_loss=0.000038, sem_sim=1.0000, per=-0.111900, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.076658e-07 is too small! Possible gradient break.
+  Step 60/80: loss=15.794599, emo_loss=0.526487, emo_prob_target=0.5907, sem_loss=0.000038, sem_sim=1.0000, per=-0.111900, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.076658e-07 is too small! Possible gradient break.
+  Step 70/80: loss=15.794599, emo_loss=0.526487, emo_prob_target=0.5907, sem_loss=0.000038, sem_sim=1.0000, per=-0.111900, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.076658e-07 is too small! Possible gradient break.
+  Step 80/80: loss=15.794599, emo_loss=0.526487, emo_prob_target=0.5907, sem_loss=0.000038, sem_sim=1.0000, per=-0.111900, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.076658e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack:  journey. Let me know if you'd like another suggestion....
+    ❌ Failed: journey.
+  ⏱ 15.54s | Metrics: linf=0.008000, l2=2.72, snr=23.93dB
+
+[69/100] Processing: 11353.wav
+  [1/3] Clean inference...
+    Clean:  calm and supportive manner without overstepping. the parali...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=16.629107, emo_loss=0.554303, emo_prob_target=0.5745, sem_loss=0.000028, sem_sim=1.0000, per=0.557991, grad_norm=0.000002
+  Step 20/80: loss=16.767916, emo_loss=0.558930, emo_prob_target=0.5718, sem_loss=0.000038, sem_sim=1.0000, per=0.560942, grad_norm=0.000002
+  Step 30/80: loss=16.767916, emo_loss=0.558930, emo_prob_target=0.5718, sem_loss=0.000038, sem_sim=1.0000, per=0.560942, grad_norm=0.000002
+  Step 40/80: loss=16.767916, emo_loss=0.558930, emo_prob_target=0.5718, sem_loss=0.000038, sem_sim=1.0000, per=0.560942, grad_norm=0.000002
+  Step 50/80: loss=16.767916, emo_loss=0.558930, emo_prob_target=0.5718, sem_loss=0.000038, sem_sim=1.0000, per=0.560942, grad_norm=0.000002
+  Step 60/80: loss=16.767916, emo_loss=0.558930, emo_prob_target=0.5718, sem_loss=0.000038, sem_sim=1.0000, per=0.560942, grad_norm=0.000002
+  Step 70/80: loss=16.767916, emo_loss=0.558930, emo_prob_target=0.5718, sem_loss=0.000038, sem_sim=1.0000, per=0.560942, grad_norm=0.000002
+  Step 80/80: loss=16.767916, emo_loss=0.558930, emo_prob_target=0.5718, sem_loss=0.000038, sem_sim=1.0000, per=0.560942, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: The emotion label is neutral....
+    ❌ Failed: The
+  ⏱ 14.06s | Metrics: linf=0.008000, l2=2.96, snr=5.33dB
+
+[70/100] Processing: 11361.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.717892, emo_loss=0.623930, emo_prob_target=0.5358, sem_loss=0.000008, sem_sim=1.0000, per=0.319077, grad_norm=0.000002
+  Step 20/80: loss=18.630131, emo_loss=0.621004, emo_prob_target=0.5374, sem_loss=0.000006, sem_sim=1.0000, per=0.321133, grad_norm=0.000002
+  Step 30/80: loss=18.630131, emo_loss=0.621004, emo_prob_target=0.5374, sem_loss=0.000006, sem_sim=1.0000, per=0.321133, grad_norm=0.000002
+  Step 40/80: loss=18.630131, emo_loss=0.621004, emo_prob_target=0.5374, sem_loss=0.000006, sem_sim=1.0000, per=0.321133, grad_norm=0.000002
+  Step 50/80: loss=18.630131, emo_loss=0.621004, emo_prob_target=0.5374, sem_loss=0.000006, sem_sim=1.0000, per=0.321133, grad_norm=0.000002
+  Step 60/80: loss=18.630131, emo_loss=0.621004, emo_prob_target=0.5374, sem_loss=0.000006, sem_sim=1.0000, per=0.321133, grad_norm=0.000002
+  Step 70/80: loss=18.630131, emo_loss=0.621004, emo_prob_target=0.5374, sem_loss=0.000006, sem_sim=1.0000, per=0.321133, grad_norm=0.000002
+  Step 80/80: loss=18.630131, emo_loss=0.621004, emo_prob_target=0.5374, sem_loss=0.000006, sem_sim=1.0000, per=0.321133, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: The emotion of this audio is sad....
+    ❌ Failed: The
+  ⏱ 14.79s | Metrics: linf=0.008000, l2=2.00, snr=9.00dB
+
+  📊 Progress: 70/100 | Success: 2 (2.9%) | ETA: 5.7min
+
+
+[71/100] Processing: 11378.wav
+  [1/3] Clean inference...
+    Clean: the emotion is sad...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=16.940506, emo_loss=0.564683, emo_prob_target=0.5685, sem_loss=0.000010, sem_sim=1.0000, per=0.484312, grad_norm=0.000003
+  Step 20/80: loss=16.626472, emo_loss=0.554216, emo_prob_target=0.5745, sem_loss=0.000004, sem_sim=1.0000, per=0.486965, grad_norm=0.000002
+  Step 30/80: loss=16.626472, emo_loss=0.554216, emo_prob_target=0.5745, sem_loss=0.000004, sem_sim=1.0000, per=0.486965, grad_norm=0.000002
+  Step 40/80: loss=16.626472, emo_loss=0.554216, emo_prob_target=0.5745, sem_loss=0.000004, sem_sim=1.0000, per=0.486965, grad_norm=0.000002
+  Step 50/80: loss=16.626472, emo_loss=0.554216, emo_prob_target=0.5745, sem_loss=0.000004, sem_sim=1.0000, per=0.486965, grad_norm=0.000002
+  Step 60/80: loss=16.626472, emo_loss=0.554216, emo_prob_target=0.5745, sem_loss=0.000004, sem_sim=1.0000, per=0.486965, grad_norm=0.000002
+  Step 70/80: loss=16.626472, emo_loss=0.554216, emo_prob_target=0.5745, sem_loss=0.000004, sem_sim=1.0000, per=0.486965, grad_norm=0.000002
+  Step 80/80: loss=16.626472, emo_loss=0.554216, emo_prob_target=0.5745, sem_loss=0.000004, sem_sim=1.0000, per=0.486965, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: the emotion of this audio is sad....
+    ❌ Failed: the
+  ⏱ 15.01s | Metrics: linf=0.008000, l2=2.43, snr=6.41dB
+
+[72/100] Processing: 1140.wav
+  [1/3] Clean inference...
+    Clean: . You’ve got this....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=19.137241, emo_loss=0.637908, emo_prob_target=0.5284, sem_loss=0.000004, sem_sim=1.0000, per=0.107428, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.568134e-07 is too small! Possible gradient break.
+  Step 20/80: loss=19.056864, emo_loss=0.635229, emo_prob_target=0.5298, sem_loss=0.000006, sem_sim=1.0000, per=0.108707, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.551959e-07 is too small! Possible gradient break.
+  Step 30/80: loss=19.056864, emo_loss=0.635229, emo_prob_target=0.5298, sem_loss=0.000006, sem_sim=1.0000, per=0.108707, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.551959e-07 is too small! Possible gradient break.
+  Step 40/80: loss=19.056864, emo_loss=0.635229, emo_prob_target=0.5298, sem_loss=0.000006, sem_sim=1.0000, per=0.108707, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.551959e-07 is too small! Possible gradient break.
+  Step 50/80: loss=19.056864, emo_loss=0.635229, emo_prob_target=0.5298, sem_loss=0.000006, sem_sim=1.0000, per=0.108707, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.551959e-07 is too small! Possible gradient break.
+  Step 60/80: loss=19.056864, emo_loss=0.635229, emo_prob_target=0.5298, sem_loss=0.000006, sem_sim=1.0000, per=0.108707, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.551959e-07 is too small! Possible gradient break.
+  Step 70/80: loss=19.056864, emo_loss=0.635229, emo_prob_target=0.5298, sem_loss=0.000006, sem_sim=1.0000, per=0.108707, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.551959e-07 is too small! Possible gradient break.
+  Step 80/80: loss=19.056864, emo_loss=0.635229, emo_prob_target=0.5298, sem_loss=0.000006, sem_sim=1.0000, per=0.108707, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.551959e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: Sad. Take deep breaths. Break tasks into smaller steps. Youv...
+    ❌ Failed: Sad.
+  ⏱ 15.99s | Metrics: linf=0.008000, l2=2.92, snr=13.96dB
+
+[73/100] Processing: 11414.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.550291, emo_loss=0.585010, emo_prob_target=0.5571, sem_loss=0.000015, sem_sim=1.0000, per=0.090309, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.647680e-07 is too small! Possible gradient break.
+  Step 20/80: loss=17.593828, emo_loss=0.586461, emo_prob_target=0.5563, sem_loss=0.000020, sem_sim=1.0000, per=0.091532, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.632366e-07 is too small! Possible gradient break.
+  Step 30/80: loss=17.593828, emo_loss=0.586461, emo_prob_target=0.5563, sem_loss=0.000020, sem_sim=1.0000, per=0.091532, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.632366e-07 is too small! Possible gradient break.
+  Step 40/80: loss=17.593828, emo_loss=0.586461, emo_prob_target=0.5563, sem_loss=0.000020, sem_sim=1.0000, per=0.091532, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.632366e-07 is too small! Possible gradient break.
+  Step 50/80: loss=17.593828, emo_loss=0.586461, emo_prob_target=0.5563, sem_loss=0.000020, sem_sim=1.0000, per=0.091532, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.632366e-07 is too small! Possible gradient break.
+  Step 60/80: loss=17.593828, emo_loss=0.586461, emo_prob_target=0.5563, sem_loss=0.000020, sem_sim=1.0000, per=0.091532, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.632366e-07 is too small! Possible gradient break.
+  Step 70/80: loss=17.593828, emo_loss=0.586461, emo_prob_target=0.5563, sem_loss=0.000020, sem_sim=1.0000, per=0.091532, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.632366e-07 is too small! Possible gradient break.
+  Step 80/80: loss=17.593828, emo_loss=0.586461, emo_prob_target=0.5563, sem_loss=0.000020, sem_sim=1.0000, per=0.091532, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.632366e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: The emotion is sadness....
+    ❌ Failed: The
+  ⏱ 11.64s | Metrics: linf=0.008000, l2=3.09, snr=14.57dB
+
+[74/100] Processing: 11424.wav
+  [1/3] Clean inference...
+    Clean: The emotion of the audio is sad. A walk outside might help l...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.986681, emo_loss=0.599556, emo_prob_target=0.5491, sem_loss=0.000019, sem_sim=1.0000, per=0.228275, grad_norm=0.000002
+  Step 20/80: loss=17.861607, emo_loss=0.595387, emo_prob_target=0.5513, sem_loss=0.000014, sem_sim=1.0000, per=0.229973, grad_norm=0.000002
+  Step 30/80: loss=17.861607, emo_loss=0.595387, emo_prob_target=0.5513, sem_loss=0.000014, sem_sim=1.0000, per=0.229973, grad_norm=0.000002
+  Step 40/80: loss=17.861607, emo_loss=0.595387, emo_prob_target=0.5513, sem_loss=0.000014, sem_sim=1.0000, per=0.229973, grad_norm=0.000002
+  Step 50/80: loss=17.861607, emo_loss=0.595387, emo_prob_target=0.5513, sem_loss=0.000014, sem_sim=1.0000, per=0.229973, grad_norm=0.000002
+  Step 60/80: loss=17.861607, emo_loss=0.595387, emo_prob_target=0.5513, sem_loss=0.000014, sem_sim=1.0000, per=0.229973, grad_norm=0.000002
+  Step 70/80: loss=17.861607, emo_loss=0.595387, emo_prob_target=0.5513, sem_loss=0.000014, sem_sim=1.0000, per=0.229973, grad_norm=0.000002
+  Step 80/80: loss=17.861607, emo_loss=0.595387, emo_prob_target=0.5513, sem_loss=0.000014, sem_sim=1.0000, per=0.229973, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: Sad....
+    ❌ Failed: Sad.
+  ⏱ 16.05s | Metrics: linf=0.008000, l2=2.34, snr=10.97dB
+
+[75/100] Processing: 11427.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=19.463898, emo_loss=0.648796, emo_prob_target=0.5227, sem_loss=0.000085, sem_sim=0.9999, per=1.357110, grad_norm=0.000006
+  Step 20/80: loss=19.541462, emo_loss=0.651382, emo_prob_target=0.5213, sem_loss=0.000075, sem_sim=0.9999, per=1.363511, grad_norm=0.000006
+  Step 30/80: loss=19.541462, emo_loss=0.651382, emo_prob_target=0.5213, sem_loss=0.000075, sem_sim=0.9999, per=1.363511, grad_norm=0.000006
+  Step 40/80: loss=19.541462, emo_loss=0.651382, emo_prob_target=0.5213, sem_loss=0.000075, sem_sim=0.9999, per=1.363511, grad_norm=0.000006
+  Step 50/80: loss=19.541462, emo_loss=0.651382, emo_prob_target=0.5213, sem_loss=0.000075, sem_sim=0.9999, per=1.363511, grad_norm=0.000006
+  Step 60/80: loss=19.541462, emo_loss=0.651382, emo_prob_target=0.5213, sem_loss=0.000075, sem_sim=0.9999, per=1.363511, grad_norm=0.000006
+  Step 70/80: loss=19.541462, emo_loss=0.651382, emo_prob_target=0.5213, sem_loss=0.000075, sem_sim=0.9999, per=1.363511, grad_norm=0.000006
+  Step 80/80: loss=19.541462, emo_loss=0.651382, emo_prob_target=0.5213, sem_loss=0.000075, sem_sim=0.9999, per=1.363511, grad_norm=0.000006
+  [3/3] Attack inference...
+    Attack: The emotion of the speech is sad....
+    ❌ Failed: The
+  ⏱ 16.16s | Metrics: linf=0.008000, l2=2.54, snr=-2.00dB
+
+[76/100] Processing: 11450.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=19.384947, emo_loss=0.646165, emo_prob_target=0.5241, sem_loss=0.000041, sem_sim=1.0000, per=0.090814, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.537902e-07 is too small! Possible gradient break.
+  Step 20/80: loss=19.314493, emo_loss=0.643816, emo_prob_target=0.5253, sem_loss=0.000044, sem_sim=1.0000, per=0.092025, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.520732e-07 is too small! Possible gradient break.
+  Step 30/80: loss=19.314493, emo_loss=0.643816, emo_prob_target=0.5253, sem_loss=0.000044, sem_sim=1.0000, per=0.092025, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.520732e-07 is too small! Possible gradient break.
+  Step 40/80: loss=19.314493, emo_loss=0.643816, emo_prob_target=0.5253, sem_loss=0.000044, sem_sim=1.0000, per=0.092025, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.520732e-07 is too small! Possible gradient break.
+  Step 50/80: loss=19.314493, emo_loss=0.643816, emo_prob_target=0.5253, sem_loss=0.000044, sem_sim=1.0000, per=0.092025, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.520732e-07 is too small! Possible gradient break.
+  Step 60/80: loss=19.314493, emo_loss=0.643816, emo_prob_target=0.5253, sem_loss=0.000044, sem_sim=1.0000, per=0.092025, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.520732e-07 is too small! Possible gradient break.
+  Step 70/80: loss=19.314493, emo_loss=0.643816, emo_prob_target=0.5253, sem_loss=0.000044, sem_sim=1.0000, per=0.092025, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.520732e-07 is too small! Possible gradient break.
+  Step 80/80: loss=19.314493, emo_loss=0.643816, emo_prob_target=0.5253, sem_loss=0.000044, sem_sim=1.0000, per=0.092025, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.520732e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: The emotion of the audio is sad....
+    ❌ Failed: The
+  ⏱ 16.35s | Metrics: linf=0.008000, l2=2.80, snr=14.58dB
+
+[77/100] Processing: 11459.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.220297, emo_loss=0.574010, emo_prob_target=0.5633, sem_loss=0.000032, sem_sim=1.0000, per=-0.104597, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.494585e-07 is too small! Possible gradient break.
+  Step 20/80: loss=17.203585, emo_loss=0.573453, emo_prob_target=0.5636, sem_loss=0.000033, sem_sim=1.0000, per=-0.103954, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.462485e-07 is too small! Possible gradient break.
+  Step 30/80: loss=17.203585, emo_loss=0.573453, emo_prob_target=0.5636, sem_loss=0.000033, sem_sim=1.0000, per=-0.103954, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.462485e-07 is too small! Possible gradient break.
+  Step 40/80: loss=17.203585, emo_loss=0.573453, emo_prob_target=0.5636, sem_loss=0.000033, sem_sim=1.0000, per=-0.103954, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.462485e-07 is too small! Possible gradient break.
+  Step 50/80: loss=17.203585, emo_loss=0.573453, emo_prob_target=0.5636, sem_loss=0.000033, sem_sim=1.0000, per=-0.103954, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.462485e-07 is too small! Possible gradient break.
+  Step 60/80: loss=17.203585, emo_loss=0.573453, emo_prob_target=0.5636, sem_loss=0.000033, sem_sim=1.0000, per=-0.103954, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.462485e-07 is too small! Possible gradient break.
+  Step 70/80: loss=17.203585, emo_loss=0.573453, emo_prob_target=0.5636, sem_loss=0.000033, sem_sim=1.0000, per=-0.103954, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.462485e-07 is too small! Possible gradient break.
+  Step 80/80: loss=17.203585, emo_loss=0.573453, emo_prob_target=0.5636, sem_loss=0.000033, sem_sim=1.0000, per=-0.103954, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=4.462485e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: The emotion of this audio is sad....
+    ❌ Failed: The
+  ⏱ 13.84s | Metrics: linf=0.008000, l2=3.18, snr=23.41dB
+
+[78/100] Processing: 11475.wav
+  [1/3] Clean inference...
+    Clean: the emotion is sad...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=16.744219, emo_loss=0.558141, emo_prob_target=0.5723, sem_loss=0.000079, sem_sim=0.9999, per=0.405363, grad_norm=0.000002
+  Step 20/80: loss=16.942747, emo_loss=0.564758, emo_prob_target=0.5685, sem_loss=0.000055, sem_sim=0.9999, per=0.407768, grad_norm=0.000002
+  Step 30/80: loss=16.942747, emo_loss=0.564758, emo_prob_target=0.5685, sem_loss=0.000055, sem_sim=0.9999, per=0.407768, grad_norm=0.000002
+  Step 40/80: loss=16.942747, emo_loss=0.564758, emo_prob_target=0.5685, sem_loss=0.000055, sem_sim=0.9999, per=0.407768, grad_norm=0.000002
+  Step 50/80: loss=16.942747, emo_loss=0.564758, emo_prob_target=0.5685, sem_loss=0.000055, sem_sim=0.9999, per=0.407768, grad_norm=0.000002
+  Step 60/80: loss=16.942747, emo_loss=0.564758, emo_prob_target=0.5685, sem_loss=0.000055, sem_sim=0.9999, per=0.407768, grad_norm=0.000002
+  Step 70/80: loss=16.942747, emo_loss=0.564758, emo_prob_target=0.5685, sem_loss=0.000055, sem_sim=0.9999, per=0.407768, grad_norm=0.000002
+  Step 80/80: loss=16.942747, emo_loss=0.564758, emo_prob_target=0.5685, sem_loss=0.000055, sem_sim=0.9999, per=0.407768, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: The emotion of this audio is Sad....
+    ❌ Failed: The
+  ⏱ 12.75s | Metrics: linf=0.008000, l2=2.72, snr=7.52dB
+
+[79/100] Processing: 1147.wav
+  [1/3] Clean inference...
+    Clean: the emotion of the audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.778421, emo_loss=0.592614, emo_prob_target=0.5529, sem_loss=0.000004, sem_sim=1.0000, per=-0.156032, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.819478e-07 is too small! Possible gradient break.
+  Step 20/80: loss=17.857315, emo_loss=0.595244, emo_prob_target=0.5514, sem_loss=0.000003, sem_sim=1.0000, per=-0.155488, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.780042e-07 is too small! Possible gradient break.
+  Step 30/80: loss=17.857315, emo_loss=0.595244, emo_prob_target=0.5514, sem_loss=0.000003, sem_sim=1.0000, per=-0.155488, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.780042e-07 is too small! Possible gradient break.
+  Step 40/80: loss=17.857315, emo_loss=0.595244, emo_prob_target=0.5514, sem_loss=0.000003, sem_sim=1.0000, per=-0.155488, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.780042e-07 is too small! Possible gradient break.
+  Step 50/80: loss=17.857315, emo_loss=0.595244, emo_prob_target=0.5514, sem_loss=0.000003, sem_sim=1.0000, per=-0.155488, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.780042e-07 is too small! Possible gradient break.
+  Step 60/80: loss=17.857315, emo_loss=0.595244, emo_prob_target=0.5514, sem_loss=0.000003, sem_sim=1.0000, per=-0.155488, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.780042e-07 is too small! Possible gradient break.
+  Step 70/80: loss=17.857315, emo_loss=0.595244, emo_prob_target=0.5514, sem_loss=0.000003, sem_sim=1.0000, per=-0.155488, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.780042e-07 is too small! Possible gradient break.
+  Step 80/80: loss=17.857315, emo_loss=0.595244, emo_prob_target=0.5514, sem_loss=0.000003, sem_sim=1.0000, per=-0.155488, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=5.780042e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: the emotion is sad. a gentle read like the little prince mig...
+    ❌ Failed: the
+  ⏱ 16.53s | Metrics: linf=0.008000, l2=2.04, snr=27.19dB
+
+[80/100] Processing: 11485.wav
+  [1/3] Clean inference...
+    Clean: sad...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.152727, emo_loss=0.571757, emo_prob_target=0.5645, sem_loss=0.000008, sem_sim=1.0000, per=0.422587, grad_norm=0.000002
+  Step 20/80: loss=17.061489, emo_loss=0.568716, emo_prob_target=0.5663, sem_loss=0.000010, sem_sim=1.0000, per=0.425083, grad_norm=0.000002
+  Step 30/80: loss=17.061489, emo_loss=0.568716, emo_prob_target=0.5663, sem_loss=0.000010, sem_sim=1.0000, per=0.425083, grad_norm=0.000002
+  Step 40/80: loss=17.061489, emo_loss=0.568716, emo_prob_target=0.5663, sem_loss=0.000010, sem_sim=1.0000, per=0.425083, grad_norm=0.000002
+  Step 50/80: loss=17.061489, emo_loss=0.568716, emo_prob_target=0.5663, sem_loss=0.000010, sem_sim=1.0000, per=0.425083, grad_norm=0.000002
+  Step 60/80: loss=17.061489, emo_loss=0.568716, emo_prob_target=0.5663, sem_loss=0.000010, sem_sim=1.0000, per=0.425083, grad_norm=0.000002
+  Step 70/80: loss=17.061489, emo_loss=0.568716, emo_prob_target=0.5663, sem_loss=0.000010, sem_sim=1.0000, per=0.425083, grad_norm=0.000002
+  Step 80/80: loss=17.061489, emo_loss=0.568716, emo_prob_target=0.5663, sem_loss=0.000010, sem_sim=1.0000, per=0.425083, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: The emotion of this audio is sad....
+    ❌ Failed: The
+  ⏱ 13.87s | Metrics: linf=0.008000, l2=2.40, snr=6.81dB
+
+  📊 Progress: 80/100 | Success: 2 (2.5%) | ETA: 4.0min
+
+
+[81/100] Processing: 11498.wav
+  [1/3] Clean inference...
+    Clean: !...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.493692, emo_loss=0.616456, emo_prob_target=0.5399, sem_loss=0.000010, sem_sim=1.0000, per=1.132949, grad_norm=0.000005
+  Step 20/80: loss=18.126839, emo_loss=0.604228, emo_prob_target=0.5465, sem_loss=0.000023, sem_sim=1.0000, per=1.138388, grad_norm=0.000005
+  Step 30/80: loss=18.126839, emo_loss=0.604228, emo_prob_target=0.5465, sem_loss=0.000023, sem_sim=1.0000, per=1.138388, grad_norm=0.000005
+  Step 40/80: loss=18.126839, emo_loss=0.604228, emo_prob_target=0.5465, sem_loss=0.000023, sem_sim=1.0000, per=1.138388, grad_norm=0.000005
+  Step 50/80: loss=18.126839, emo_loss=0.604228, emo_prob_target=0.5465, sem_loss=0.000023, sem_sim=1.0000, per=1.138388, grad_norm=0.000005
+  Step 60/80: loss=18.126839, emo_loss=0.604228, emo_prob_target=0.5465, sem_loss=0.000023, sem_sim=1.0000, per=1.138388, grad_norm=0.000005
+  Step 70/80: loss=18.126839, emo_loss=0.604228, emo_prob_target=0.5465, sem_loss=0.000023, sem_sim=1.0000, per=1.138388, grad_norm=0.000005
+  Step 80/80: loss=18.126839, emo_loss=0.604228, emo_prob_target=0.5465, sem_loss=0.000023, sem_sim=1.0000, per=1.138388, grad_norm=0.000005
+  [3/3] Attack inference...
+    Attack: The emotion of this audio is sad....
+    ❌ Failed: The
+  ⏱ 15.83s | Metrics: linf=0.008000, l2=2.67, snr=-0.55dB
+
+[82/100] Processing: 11501.wav
+  [1/3] Clean inference...
+    Clean: The emotion is neutral....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=16.326296, emo_loss=0.544210, emo_prob_target=0.5803, sem_loss=0.000004, sem_sim=1.0000, per=-0.167045, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.948792e-07 is too small! Possible gradient break.
+  Step 20/80: loss=16.156044, emo_loss=0.538535, emo_prob_target=0.5836, sem_loss=0.000001, sem_sim=1.0000, per=-0.166545, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.931642e-07 is too small! Possible gradient break.
+  Step 30/80: loss=16.156044, emo_loss=0.538535, emo_prob_target=0.5836, sem_loss=0.000001, sem_sim=1.0000, per=-0.166545, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.931642e-07 is too small! Possible gradient break.
+  Step 40/80: loss=16.156044, emo_loss=0.538535, emo_prob_target=0.5836, sem_loss=0.000001, sem_sim=1.0000, per=-0.166545, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.931642e-07 is too small! Possible gradient break.
+  Step 50/80: loss=16.156044, emo_loss=0.538535, emo_prob_target=0.5836, sem_loss=0.000001, sem_sim=1.0000, per=-0.166545, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.931642e-07 is too small! Possible gradient break.
+  Step 60/80: loss=16.156044, emo_loss=0.538535, emo_prob_target=0.5836, sem_loss=0.000001, sem_sim=1.0000, per=-0.166545, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.931642e-07 is too small! Possible gradient break.
+  Step 70/80: loss=16.156044, emo_loss=0.538535, emo_prob_target=0.5836, sem_loss=0.000001, sem_sim=1.0000, per=-0.166545, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.931642e-07 is too small! Possible gradient break.
+  Step 80/80: loss=16.156044, emo_loss=0.538535, emo_prob_target=0.5836, sem_loss=0.000001, sem_sim=1.0000, per=-0.166545, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.931642e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: The emotion is neutral....
+    ❌ Failed: The
+  ⏱ 15.32s | Metrics: linf=0.008000, l2=2.80, snr=28.03dB
+
+[83/100] Processing: 11508.wav
+  [1/3] Clean inference...
+    Clean: Sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=15.801121, emo_loss=0.526704, emo_prob_target=0.5905, sem_loss=0.000185, sem_sim=0.9998, per=0.172977, grad_norm=0.000001
+  Step 20/80: loss=15.897217, emo_loss=0.529907, emo_prob_target=0.5887, sem_loss=0.000159, sem_sim=0.9998, per=0.174466, grad_norm=0.000001
+  Step 30/80: loss=15.897217, emo_loss=0.529907, emo_prob_target=0.5887, sem_loss=0.000159, sem_sim=0.9998, per=0.174466, grad_norm=0.000001
+  Step 40/80: loss=15.897217, emo_loss=0.529907, emo_prob_target=0.5887, sem_loss=0.000159, sem_sim=0.9998, per=0.174466, grad_norm=0.000001
+  Step 50/80: loss=15.897217, emo_loss=0.529907, emo_prob_target=0.5887, sem_loss=0.000159, sem_sim=0.9998, per=0.174466, grad_norm=0.000001
+  Step 60/80: loss=15.897217, emo_loss=0.529907, emo_prob_target=0.5887, sem_loss=0.000159, sem_sim=0.9998, per=0.174466, grad_norm=0.000001
+  Step 70/80: loss=15.897217, emo_loss=0.529907, emo_prob_target=0.5887, sem_loss=0.000159, sem_sim=0.9998, per=0.174466, grad_norm=0.000001
+  Step 80/80: loss=15.897217, emo_loss=0.529907, emo_prob_target=0.5887, sem_loss=0.000159, sem_sim=0.9998, per=0.174466, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: the emotion of this audio is sad....
+    ❌ Failed: the
+  ⏱ 12.83s | Metrics: linf=0.008000, l2=2.44, snr=12.32dB
+
+[84/100] Processing: 11510.wav
+  [1/3] Clean inference...
+    Clean: The emotion of the audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=19.838858, emo_loss=0.661295, emo_prob_target=0.5162, sem_loss=0.000004, sem_sim=1.0000, per=-0.045995, grad_norm=0.000004
+  Step 20/80: loss=19.884975, emo_loss=0.662832, emo_prob_target=0.5154, sem_loss=0.000004, sem_sim=1.0000, per=-0.045211, grad_norm=0.000004
+  Step 30/80: loss=19.884975, emo_loss=0.662832, emo_prob_target=0.5154, sem_loss=0.000004, sem_sim=1.0000, per=-0.045211, grad_norm=0.000004
+  Step 40/80: loss=19.884975, emo_loss=0.662832, emo_prob_target=0.5154, sem_loss=0.000004, sem_sim=1.0000, per=-0.045211, grad_norm=0.000004
+  Step 50/80: loss=19.884975, emo_loss=0.662832, emo_prob_target=0.5154, sem_loss=0.000004, sem_sim=1.0000, per=-0.045211, grad_norm=0.000004
+  Step 60/80: loss=19.884975, emo_loss=0.662832, emo_prob_target=0.5154, sem_loss=0.000004, sem_sim=1.0000, per=-0.045211, grad_norm=0.000004
+  Step 70/80: loss=19.884975, emo_loss=0.662832, emo_prob_target=0.5154, sem_loss=0.000004, sem_sim=1.0000, per=-0.045211, grad_norm=0.000004
+  Step 80/80: loss=19.884975, emo_loss=0.662832, emo_prob_target=0.5154, sem_loss=0.000004, sem_sim=1.0000, per=-0.045211, grad_norm=0.000004
+  [3/3] Attack inference...
+    Attack: the emotion is sad...
+    ❌ Failed: the
+  ⏱ 15.42s | Metrics: linf=0.008000, l2=2.43, snr=20.15dB
+
+[85/100] Processing: 11513.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.944321, emo_loss=0.598144, emo_prob_target=0.5498, sem_loss=0.000018, sem_sim=1.0000, per=0.271129, grad_norm=0.000002
+  Step 20/80: loss=17.839628, emo_loss=0.594654, emo_prob_target=0.5518, sem_loss=0.000019, sem_sim=1.0000, per=0.273020, grad_norm=0.000002
+  Step 30/80: loss=17.839628, emo_loss=0.594654, emo_prob_target=0.5518, sem_loss=0.000019, sem_sim=1.0000, per=0.273020, grad_norm=0.000002
+  Step 40/80: loss=17.839628, emo_loss=0.594654, emo_prob_target=0.5518, sem_loss=0.000019, sem_sim=1.0000, per=0.273020, grad_norm=0.000002
+  Step 50/80: loss=17.839628, emo_loss=0.594654, emo_prob_target=0.5518, sem_loss=0.000019, sem_sim=1.0000, per=0.273020, grad_norm=0.000002
+  Step 60/80: loss=17.839628, emo_loss=0.594654, emo_prob_target=0.5518, sem_loss=0.000019, sem_sim=1.0000, per=0.273020, grad_norm=0.000002
+  Step 70/80: loss=17.839628, emo_loss=0.594654, emo_prob_target=0.5518, sem_loss=0.000019, sem_sim=1.0000, per=0.273020, grad_norm=0.000002
+  Step 80/80: loss=17.839628, emo_loss=0.594654, emo_prob_target=0.5518, sem_loss=0.000019, sem_sim=1.0000, per=0.273020, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: The emotion of the audio is sad....
+    ❌ Failed: The
+  ⏱ 14.19s | Metrics: linf=0.008000, l2=2.19, snr=9.79dB
+
+[86/100] Processing: 11516.wav
+  [1/3] Clean inference...
+    Clean: Sad...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=19.646376, emo_loss=0.654879, emo_prob_target=0.5195, sem_loss=0.000059, sem_sim=0.9999, per=1.653797, grad_norm=0.000004
+  Step 20/80: loss=18.997265, emo_loss=0.633242, emo_prob_target=0.5309, sem_loss=0.000146, sem_sim=0.9999, per=1.661614, grad_norm=0.000004
+  Step 30/80: loss=18.997265, emo_loss=0.633242, emo_prob_target=0.5309, sem_loss=0.000146, sem_sim=0.9999, per=1.661614, grad_norm=0.000004
+  Step 40/80: loss=18.997265, emo_loss=0.633242, emo_prob_target=0.5309, sem_loss=0.000146, sem_sim=0.9999, per=1.661614, grad_norm=0.000004
+  Step 50/80: loss=18.997265, emo_loss=0.633242, emo_prob_target=0.5309, sem_loss=0.000146, sem_sim=0.9999, per=1.661614, grad_norm=0.000004
+  Step 60/80: loss=18.997265, emo_loss=0.633242, emo_prob_target=0.5309, sem_loss=0.000146, sem_sim=0.9999, per=1.661614, grad_norm=0.000004
+  Step 70/80: loss=18.997265, emo_loss=0.633242, emo_prob_target=0.5309, sem_loss=0.000146, sem_sim=0.9999, per=1.661614, grad_norm=0.000004
+  Step 80/80: loss=18.997265, emo_loss=0.633242, emo_prob_target=0.5309, sem_loss=0.000146, sem_sim=0.9999, per=1.661614, grad_norm=0.000004
+  [3/3] Attack inference...
+    Attack: The emotion of this audio is neutral....
+    ❌ Failed: The
+  ⏱ 14.70s | Metrics: linf=0.008000, l2=4.57, snr=-3.85dB
+
+[87/100] Processing: 1153.wav
+  [1/3] Clean inference...
+    Clean: I'm sorry to hear that. Would you like to talk about what ha...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.526854, emo_loss=0.617562, emo_prob_target=0.5393, sem_loss=0.000009, sem_sim=1.0000, per=0.266651, grad_norm=0.000001
+  Step 20/80: loss=18.819603, emo_loss=0.627320, emo_prob_target=0.5340, sem_loss=0.000005, sem_sim=1.0000, per=0.268523, grad_norm=0.000001
+  Step 30/80: loss=18.819603, emo_loss=0.627320, emo_prob_target=0.5340, sem_loss=0.000005, sem_sim=1.0000, per=0.268523, grad_norm=0.000001
+  Step 40/80: loss=18.819603, emo_loss=0.627320, emo_prob_target=0.5340, sem_loss=0.000005, sem_sim=1.0000, per=0.268523, grad_norm=0.000001
+  Step 50/80: loss=18.819603, emo_loss=0.627320, emo_prob_target=0.5340, sem_loss=0.000005, sem_sim=1.0000, per=0.268523, grad_norm=0.000001
+  Step 60/80: loss=18.819603, emo_loss=0.627320, emo_prob_target=0.5340, sem_loss=0.000005, sem_sim=1.0000, per=0.268523, grad_norm=0.000001
+  Step 70/80: loss=18.819603, emo_loss=0.627320, emo_prob_target=0.5340, sem_loss=0.000005, sem_sim=1.0000, per=0.268523, grad_norm=0.000001
+  Step 80/80: loss=18.819603, emo_loss=0.627320, emo_prob_target=0.5340, sem_loss=0.000005, sem_sim=1.0000, per=0.268523, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: sadness...
+    ❌ Failed: sadness
+  ⏱ 14.97s | Metrics: linf=0.008000, l2=3.06, snr=9.87dB
+
+[88/100] Processing: 11557.wav
+  [1/3] Clean inference...
+    Clean:  someone you trust, even if just to share how you feel. Focu...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.578968, emo_loss=0.619298, emo_prob_target=0.5383, sem_loss=0.000160, sem_sim=0.9998, per=2.544331, grad_norm=0.000011
+  Step 20/80: loss=18.426304, emo_loss=0.614209, emo_prob_target=0.5411, sem_loss=0.000174, sem_sim=0.9998, per=2.555921, grad_norm=0.000011
+  Step 30/80: loss=18.426304, emo_loss=0.614209, emo_prob_target=0.5411, sem_loss=0.000174, sem_sim=0.9998, per=2.555921, grad_norm=0.000011
+  Step 40/80: loss=18.426304, emo_loss=0.614209, emo_prob_target=0.5411, sem_loss=0.000174, sem_sim=0.9998, per=2.555921, grad_norm=0.000011
+  Step 50/80: loss=18.426304, emo_loss=0.614209, emo_prob_target=0.5411, sem_loss=0.000174, sem_sim=0.9998, per=2.555921, grad_norm=0.000011
+  Step 60/80: loss=18.426304, emo_loss=0.614209, emo_prob_target=0.5411, sem_loss=0.000174, sem_sim=0.9998, per=2.555921, grad_norm=0.000011
+  Step 70/80: loss=18.426304, emo_loss=0.614209, emo_prob_target=0.5411, sem_loss=0.000174, sem_sim=0.9998, per=2.555921, grad_norm=0.000011
+  Step 80/80: loss=18.426304, emo_loss=0.614209, emo_prob_target=0.5411, sem_loss=0.000174, sem_sim=0.9998, per=2.555921, grad_norm=0.000011
+  [3/3] Attack inference...
+    Attack: The emotion label is sad....
+    ❌ Failed: The
+  ⏱ 14.10s | Metrics: linf=0.008000, l2=2.43, snr=-7.45dB
+
+[89/100] Processing: 1155.wav
+  [1/3] Clean inference...
+    Clean:  best way to begin. Hope this helps....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=16.911716, emo_loss=0.563724, emo_prob_target=0.5691, sem_loss=0.000030, sem_sim=1.0000, per=0.152831, grad_norm=0.000001
+  Step 20/80: loss=16.491449, emo_loss=0.549715, emo_prob_target=0.5771, sem_loss=0.000006, sem_sim=1.0000, per=0.154283, grad_norm=0.000001
+  Step 30/80: loss=16.491449, emo_loss=0.549715, emo_prob_target=0.5771, sem_loss=0.000006, sem_sim=1.0000, per=0.154283, grad_norm=0.000001
+  Step 40/80: loss=16.491449, emo_loss=0.549715, emo_prob_target=0.5771, sem_loss=0.000006, sem_sim=1.0000, per=0.154283, grad_norm=0.000001
+  Step 50/80: loss=16.491449, emo_loss=0.549715, emo_prob_target=0.5771, sem_loss=0.000006, sem_sim=1.0000, per=0.154283, grad_norm=0.000001
+  Step 60/80: loss=16.491449, emo_loss=0.549715, emo_prob_target=0.5771, sem_loss=0.000006, sem_sim=1.0000, per=0.154283, grad_norm=0.000001
+  Step 70/80: loss=16.491449, emo_loss=0.549715, emo_prob_target=0.5771, sem_loss=0.000006, sem_sim=1.0000, per=0.154283, grad_norm=0.000001
+  Step 80/80: loss=16.491449, emo_loss=0.549715, emo_prob_target=0.5771, sem_loss=0.000006, sem_sim=1.0000, per=0.154283, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: Sad....
+    ❌ Failed: Sad.
+  ⏱ 13.91s | Metrics: linf=0.008000, l2=2.40, snr=12.63dB
+
+[90/100] Processing: 11600.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.131739, emo_loss=0.571058, emo_prob_target=0.5649, sem_loss=0.000012, sem_sim=1.0000, per=-0.133103, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.811274e-07 is too small! Possible gradient break.
+  Step 20/80: loss=17.168493, emo_loss=0.572283, emo_prob_target=0.5642, sem_loss=0.000009, sem_sim=1.0000, per=-0.132527, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.788641e-07 is too small! Possible gradient break.
+  Step 30/80: loss=17.168493, emo_loss=0.572283, emo_prob_target=0.5642, sem_loss=0.000009, sem_sim=1.0000, per=-0.132527, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.788641e-07 is too small! Possible gradient break.
+  Step 40/80: loss=17.168493, emo_loss=0.572283, emo_prob_target=0.5642, sem_loss=0.000009, sem_sim=1.0000, per=-0.132527, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.788641e-07 is too small! Possible gradient break.
+  Step 50/80: loss=17.168493, emo_loss=0.572283, emo_prob_target=0.5642, sem_loss=0.000009, sem_sim=1.0000, per=-0.132527, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.788641e-07 is too small! Possible gradient break.
+  Step 60/80: loss=17.168493, emo_loss=0.572283, emo_prob_target=0.5642, sem_loss=0.000009, sem_sim=1.0000, per=-0.132527, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.788641e-07 is too small! Possible gradient break.
+  Step 70/80: loss=17.168493, emo_loss=0.572283, emo_prob_target=0.5642, sem_loss=0.000009, sem_sim=1.0000, per=-0.132527, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.788641e-07 is too small! Possible gradient break.
+  Step 80/80: loss=17.168493, emo_loss=0.572283, emo_prob_target=0.5642, sem_loss=0.000009, sem_sim=1.0000, per=-0.132527, grad_norm=0.000000
+    ⚠️  WARNING: grad_norm=3.788641e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: The emotion of the speech is sad....
+    ❌ Failed: The
+  ⏱ 14.04s | Metrics: linf=0.008000, l2=3.35, snr=25.38dB
+
+  📊 Progress: 90/100 | Success: 2 (2.2%) | ETA: 2.1min
+
+
+[91/100] Processing: 11603.wav
+  [1/3] Clean inference...
+    Clean: the emotion of this audio is sad...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=16.831551, emo_loss=0.561052, emo_prob_target=0.5706, sem_loss=0.000099, sem_sim=0.9999, per=0.419805, grad_norm=0.000002
+  Step 20/80: loss=16.986923, emo_loss=0.566231, emo_prob_target=0.5677, sem_loss=0.000075, sem_sim=0.9999, per=0.422221, grad_norm=0.000002
+  Step 30/80: loss=16.986923, emo_loss=0.566231, emo_prob_target=0.5677, sem_loss=0.000075, sem_sim=0.9999, per=0.422221, grad_norm=0.000002
+  Step 40/80: loss=16.986923, emo_loss=0.566231, emo_prob_target=0.5677, sem_loss=0.000075, sem_sim=0.9999, per=0.422221, grad_norm=0.000002
+  Step 50/80: loss=16.986923, emo_loss=0.566231, emo_prob_target=0.5677, sem_loss=0.000075, sem_sim=0.9999, per=0.422221, grad_norm=0.000002
+  Step 60/80: loss=16.986923, emo_loss=0.566231, emo_prob_target=0.5677, sem_loss=0.000075, sem_sim=0.9999, per=0.422221, grad_norm=0.000002
+  Step 70/80: loss=16.986923, emo_loss=0.566231, emo_prob_target=0.5677, sem_loss=0.000075, sem_sim=0.9999, per=0.422221, grad_norm=0.000002
+  Step 80/80: loss=16.986923, emo_loss=0.566231, emo_prob_target=0.5677, sem_loss=0.000075, sem_sim=0.9999, per=0.422221, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: the emotion is sad...
+    ❌ Failed: the
+  ⏱ 12.69s | Metrics: linf=0.008000, l2=2.47, snr=6.95dB
+
+[92/100] Processing: 11605.wav
+  [1/3] Clean inference...
+    Clean:  but it’s okay to take time to process. Maybe start by shari...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.831612, emo_loss=0.594387, emo_prob_target=0.5519, sem_loss=0.000106, sem_sim=0.9999, per=0.708764, grad_norm=0.000003
+  Step 20/80: loss=17.920958, emo_loss=0.597365, emo_prob_target=0.5503, sem_loss=0.000087, sem_sim=0.9999, per=0.712401, grad_norm=0.000003
+  Step 30/80: loss=17.920958, emo_loss=0.597365, emo_prob_target=0.5503, sem_loss=0.000087, sem_sim=0.9999, per=0.712401, grad_norm=0.000003
+  Step 40/80: loss=17.920958, emo_loss=0.597365, emo_prob_target=0.5503, sem_loss=0.000087, sem_sim=0.9999, per=0.712401, grad_norm=0.000003
+  Step 50/80: loss=17.920958, emo_loss=0.597365, emo_prob_target=0.5503, sem_loss=0.000087, sem_sim=0.9999, per=0.712401, grad_norm=0.000003
+  Step 60/80: loss=17.920958, emo_loss=0.597365, emo_prob_target=0.5503, sem_loss=0.000087, sem_sim=0.9999, per=0.712401, grad_norm=0.000003
+  Step 70/80: loss=17.920958, emo_loss=0.597365, emo_prob_target=0.5503, sem_loss=0.000087, sem_sim=0.9999, per=0.712401, grad_norm=0.000003
+  Step 80/80: loss=17.920958, emo_loss=0.597365, emo_prob_target=0.5503, sem_loss=0.000087, sem_sim=0.9999, per=0.712401, grad_norm=0.000003
+  [3/3] Attack inference...
+    Attack: The emotion of the audio is neutral....
+    ❌ Failed: The
+  ⏱ 14.43s | Metrics: linf=0.008000, l2=2.98, snr=3.24dB
+
+[93/100] Processing: 11607.wav
+  [1/3] Clean inference...
+    Clean: Sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=16.524891, emo_loss=0.550830, emo_prob_target=0.5765, sem_loss=0.000018, sem_sim=1.0000, per=0.191136, grad_norm=0.000001
+  Step 20/80: loss=16.351732, emo_loss=0.545058, emo_prob_target=0.5798, sem_loss=0.000026, sem_sim=1.0000, per=0.192746, grad_norm=0.000001
+  Step 30/80: loss=16.351732, emo_loss=0.545058, emo_prob_target=0.5798, sem_loss=0.000026, sem_sim=1.0000, per=0.192746, grad_norm=0.000001
+  Step 40/80: loss=16.351732, emo_loss=0.545058, emo_prob_target=0.5798, sem_loss=0.000026, sem_sim=1.0000, per=0.192746, grad_norm=0.000001
+  Step 50/80: loss=16.351732, emo_loss=0.545058, emo_prob_target=0.5798, sem_loss=0.000026, sem_sim=1.0000, per=0.192746, grad_norm=0.000001
+  Step 60/80: loss=16.351732, emo_loss=0.545058, emo_prob_target=0.5798, sem_loss=0.000026, sem_sim=1.0000, per=0.192746, grad_norm=0.000001
+  Step 70/80: loss=16.351732, emo_loss=0.545058, emo_prob_target=0.5798, sem_loss=0.000026, sem_sim=1.0000, per=0.192746, grad_norm=0.000001
+  Step 80/80: loss=16.351732, emo_loss=0.545058, emo_prob_target=0.5798, sem_loss=0.000026, sem_sim=1.0000, per=0.192746, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: Sadness often makes nights harder. Try slow breathing or a w...
+    ❌ Failed: Sadness
+  ⏱ 12.43s | Metrics: linf=0.008000, l2=2.42, snr=11.73dB
+
+[94/100] Processing: 11616.wav
+  [1/3] Clean inference...
+    Clean:   
+
+The response must be concise, aligning with the somber t...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.775949, emo_loss=0.592532, emo_prob_target=0.5529, sem_loss=0.000028, sem_sim=1.0000, per=0.296518, grad_norm=0.000002
+  Step 20/80: loss=17.702051, emo_loss=0.590068, emo_prob_target=0.5543, sem_loss=0.000034, sem_sim=1.0000, per=0.298484, grad_norm=0.000002
+  Step 30/80: loss=17.702051, emo_loss=0.590068, emo_prob_target=0.5543, sem_loss=0.000034, sem_sim=1.0000, per=0.298484, grad_norm=0.000002
+  Step 40/80: loss=17.702051, emo_loss=0.590068, emo_prob_target=0.5543, sem_loss=0.000034, sem_sim=1.0000, per=0.298484, grad_norm=0.000002
+  Step 50/80: loss=17.702051, emo_loss=0.590068, emo_prob_target=0.5543, sem_loss=0.000034, sem_sim=1.0000, per=0.298484, grad_norm=0.000002
+  Step 60/80: loss=17.702051, emo_loss=0.590068, emo_prob_target=0.5543, sem_loss=0.000034, sem_sim=1.0000, per=0.298484, grad_norm=0.000002
+  Step 70/80: loss=17.702051, emo_loss=0.590068, emo_prob_target=0.5543, sem_loss=0.000034, sem_sim=1.0000, per=0.298484, grad_norm=0.000002
+  Step 80/80: loss=17.702051, emo_loss=0.590068, emo_prob_target=0.5543, sem_loss=0.000034, sem_sim=1.0000, per=0.298484, grad_norm=0.000002
+  [3/3] Attack inference...
+    Attack: The emotion of the audio is sad....
+    ❌ Failed: The
+  ⏱ 15.77s | Metrics: linf=0.008000, l2=2.55, snr=9.31dB
+
+[95/100] Processing: 11622.wav
+  [1/3] Clean inference...
+    Clean: The emotion of the speech is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=16.419455, emo_loss=0.547315, emo_prob_target=0.5785, sem_loss=0.000013, sem_sim=1.0000, per=0.068111, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.670531e-07 is too small! Possible gradient break.
+  Step 20/80: loss=16.482237, emo_loss=0.549408, emo_prob_target=0.5773, sem_loss=0.000009, sem_sim=1.0000, per=0.069272, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.656579e-07 is too small! Possible gradient break.
+  Step 30/80: loss=16.482237, emo_loss=0.549408, emo_prob_target=0.5773, sem_loss=0.000009, sem_sim=1.0000, per=0.069272, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.656579e-07 is too small! Possible gradient break.
+  Step 40/80: loss=16.482237, emo_loss=0.549408, emo_prob_target=0.5773, sem_loss=0.000009, sem_sim=1.0000, per=0.069272, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.656579e-07 is too small! Possible gradient break.
+  Step 50/80: loss=16.482237, emo_loss=0.549408, emo_prob_target=0.5773, sem_loss=0.000009, sem_sim=1.0000, per=0.069272, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.656579e-07 is too small! Possible gradient break.
+  Step 60/80: loss=16.482237, emo_loss=0.549408, emo_prob_target=0.5773, sem_loss=0.000009, sem_sim=1.0000, per=0.069272, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.656579e-07 is too small! Possible gradient break.
+  Step 70/80: loss=16.482237, emo_loss=0.549408, emo_prob_target=0.5773, sem_loss=0.000009, sem_sim=1.0000, per=0.069272, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.656579e-07 is too small! Possible gradient break.
+  Step 80/80: loss=16.482237, emo_loss=0.549408, emo_prob_target=0.5773, sem_loss=0.000009, sem_sim=1.0000, per=0.069272, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.656579e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: The emotion is sad....
+    ❌ Failed: The
+  ⏱ 16.30s | Metrics: linf=0.008000, l2=2.87, snr=15.16dB
+
+[96/100] Processing: 1164.wav
+  [1/3] Clean inference...
+    Clean: Angry. Take a breath. Let things cool down. Then talk when r...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=16.504652, emo_loss=0.550154, emo_prob_target=0.5769, sem_loss=0.000102, sem_sim=0.9999, per=2.298975, grad_norm=0.000007
+  Step 20/80: loss=16.764946, emo_loss=0.558831, emo_prob_target=0.5719, sem_loss=0.000065, sem_sim=0.9999, per=2.309829, grad_norm=0.000006
+  Step 30/80: loss=16.764946, emo_loss=0.558831, emo_prob_target=0.5719, sem_loss=0.000065, sem_sim=0.9999, per=2.309829, grad_norm=0.000006
+  Step 40/80: loss=16.764946, emo_loss=0.558831, emo_prob_target=0.5719, sem_loss=0.000065, sem_sim=0.9999, per=2.309829, grad_norm=0.000006
+  Step 50/80: loss=16.764946, emo_loss=0.558831, emo_prob_target=0.5719, sem_loss=0.000065, sem_sim=0.9999, per=2.309829, grad_norm=0.000006
+  Step 60/80: loss=16.764946, emo_loss=0.558831, emo_prob_target=0.5719, sem_loss=0.000065, sem_sim=0.9999, per=2.309829, grad_norm=0.000006
+  Step 70/80: loss=16.764946, emo_loss=0.558831, emo_prob_target=0.5719, sem_loss=0.000065, sem_sim=0.9999, per=2.309829, grad_norm=0.000006
+  Step 80/80: loss=16.764946, emo_loss=0.558831, emo_prob_target=0.5719, sem_loss=0.000065, sem_sim=0.9999, per=2.309829, grad_norm=0.000006
+  [3/3] Attack inference...
+    Attack: Sad....
+    ❌ Failed: Sad.
+  ⏱ 16.99s | Metrics: linf=0.008000, l2=3.63, snr=-6.84dB
+
+[97/100] Processing: 11667.wav
+  [1/3] Clean inference...
+    Clean: The emotion of this audio is sad. I recommend watching *The ...
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=18.903973, emo_loss=0.630132, emo_prob_target=0.5325, sem_loss=0.000005, sem_sim=1.0000, per=0.180568, grad_norm=0.000001
+  Step 20/80: loss=18.496838, emo_loss=0.616561, emo_prob_target=0.5398, sem_loss=0.000021, sem_sim=1.0000, per=0.182098, grad_norm=0.000001
+  Step 30/80: loss=18.496838, emo_loss=0.616561, emo_prob_target=0.5398, sem_loss=0.000021, sem_sim=1.0000, per=0.182098, grad_norm=0.000001
+  Step 40/80: loss=18.496838, emo_loss=0.616561, emo_prob_target=0.5398, sem_loss=0.000021, sem_sim=1.0000, per=0.182098, grad_norm=0.000001
+  Step 50/80: loss=18.496838, emo_loss=0.616561, emo_prob_target=0.5398, sem_loss=0.000021, sem_sim=1.0000, per=0.182098, grad_norm=0.000001
+  Step 60/80: loss=18.496838, emo_loss=0.616561, emo_prob_target=0.5398, sem_loss=0.000021, sem_sim=1.0000, per=0.182098, grad_norm=0.000001
+  Step 70/80: loss=18.496838, emo_loss=0.616561, emo_prob_target=0.5398, sem_loss=0.000021, sem_sim=1.0000, per=0.182098, grad_norm=0.000001
+  Step 80/80: loss=18.496838, emo_loss=0.616561, emo_prob_target=0.5398, sem_loss=0.000021, sem_sim=1.0000, per=0.182098, grad_norm=0.000001
+  [3/3] Attack inference...
+    Attack: ....
+    ❌ Failed: .
+  ⏱ 18.33s | Metrics: linf=0.008000, l2=3.22, snr=11.99dB
+
+[98/100] Processing: 11676.wav
+  [1/3] Clean inference...
+    Clean: The emotion of the speech is Neutral....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=15.343256, emo_loss=0.511442, emo_prob_target=0.5996, sem_loss=0.000002, sem_sim=1.0000, per=-0.150389, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.158441e-07 is too small! Possible gradient break.
+  Step 20/80: loss=15.480725, emo_loss=0.516024, emo_prob_target=0.5969, sem_loss=0.000001, sem_sim=1.0000, per=-0.149851, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.113007e-07 is too small! Possible gradient break.
+  Step 30/80: loss=15.480725, emo_loss=0.516024, emo_prob_target=0.5969, sem_loss=0.000001, sem_sim=1.0000, per=-0.149851, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.113007e-07 is too small! Possible gradient break.
+  Step 40/80: loss=15.480725, emo_loss=0.516024, emo_prob_target=0.5969, sem_loss=0.000001, sem_sim=1.0000, per=-0.149851, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.113007e-07 is too small! Possible gradient break.
+  Step 50/80: loss=15.480725, emo_loss=0.516024, emo_prob_target=0.5969, sem_loss=0.000001, sem_sim=1.0000, per=-0.149851, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.113007e-07 is too small! Possible gradient break.
+  Step 60/80: loss=15.480725, emo_loss=0.516024, emo_prob_target=0.5969, sem_loss=0.000001, sem_sim=1.0000, per=-0.149851, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.113007e-07 is too small! Possible gradient break.
+  Step 70/80: loss=15.480725, emo_loss=0.516024, emo_prob_target=0.5969, sem_loss=0.000001, sem_sim=1.0000, per=-0.149851, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.113007e-07 is too small! Possible gradient break.
+  Step 80/80: loss=15.480725, emo_loss=0.516024, emo_prob_target=0.5969, sem_loss=0.000001, sem_sim=1.0000, per=-0.149851, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=7.113007e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: Sad...
+    ❌ Failed: Sad
+  ⏱ 15.48s | Metrics: linf=0.008000, l2=1.70, snr=26.74dB
+
+[99/100] Processing: 11688.wav
+  [1/3] Clean inference...
+    Clean: Angry....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=16.637794, emo_loss=0.554593, emo_prob_target=0.5743, sem_loss=0.000058, sem_sim=0.9999, per=-0.051054, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=9.019562e-07 is too small! Possible gradient break.
+  Step 20/80: loss=16.787579, emo_loss=0.559586, emo_prob_target=0.5714, sem_loss=0.000045, sem_sim=1.0000, per=-0.050290, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.933646e-07 is too small! Possible gradient break.
+  Step 30/80: loss=16.787579, emo_loss=0.559586, emo_prob_target=0.5714, sem_loss=0.000045, sem_sim=1.0000, per=-0.050290, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.933646e-07 is too small! Possible gradient break.
+  Step 40/80: loss=16.787579, emo_loss=0.559586, emo_prob_target=0.5714, sem_loss=0.000045, sem_sim=1.0000, per=-0.050290, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.933646e-07 is too small! Possible gradient break.
+  Step 50/80: loss=16.787579, emo_loss=0.559586, emo_prob_target=0.5714, sem_loss=0.000045, sem_sim=1.0000, per=-0.050290, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.933646e-07 is too small! Possible gradient break.
+  Step 60/80: loss=16.787579, emo_loss=0.559586, emo_prob_target=0.5714, sem_loss=0.000045, sem_sim=1.0000, per=-0.050290, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.933646e-07 is too small! Possible gradient break.
+  Step 70/80: loss=16.787579, emo_loss=0.559586, emo_prob_target=0.5714, sem_loss=0.000045, sem_sim=1.0000, per=-0.050290, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.933646e-07 is too small! Possible gradient break.
+  Step 80/80: loss=16.787579, emo_loss=0.559586, emo_prob_target=0.5714, sem_loss=0.000045, sem_sim=1.0000, per=-0.050290, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.933646e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: The emotion of the audio is sad....
+    ❌ Failed: The
+  ⏱ 15.19s | Metrics: linf=0.008000, l2=2.09, snr=20.25dB
+
+[100/100] Processing: 11696.wav
+  [1/3] Clean inference...
+    Clean: The emotion label is sad....
+  [2/3] Attack (eps=0.008, steps=80)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  Step 10/80: loss=17.393410, emo_loss=0.579780, emo_prob_target=0.5600, sem_loss=0.000012, sem_sim=1.0000, per=0.077106, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.259831e-07 is too small! Possible gradient break.
+  Step 20/80: loss=17.536293, emo_loss=0.584543, emo_prob_target=0.5574, sem_loss=0.000005, sem_sim=1.0000, per=0.078301, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.246480e-07 is too small! Possible gradient break.
+  Step 30/80: loss=17.536293, emo_loss=0.584543, emo_prob_target=0.5574, sem_loss=0.000005, sem_sim=1.0000, per=0.078301, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.246480e-07 is too small! Possible gradient break.
+  Step 40/80: loss=17.536293, emo_loss=0.584543, emo_prob_target=0.5574, sem_loss=0.000005, sem_sim=1.0000, per=0.078301, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.246480e-07 is too small! Possible gradient break.
+  Step 50/80: loss=17.536293, emo_loss=0.584543, emo_prob_target=0.5574, sem_loss=0.000005, sem_sim=1.0000, per=0.078301, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.246480e-07 is too small! Possible gradient break.
+  Step 60/80: loss=17.536293, emo_loss=0.584543, emo_prob_target=0.5574, sem_loss=0.000005, sem_sim=1.0000, per=0.078301, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.246480e-07 is too small! Possible gradient break.
+  Step 70/80: loss=17.536293, emo_loss=0.584543, emo_prob_target=0.5574, sem_loss=0.000005, sem_sim=1.0000, per=0.078301, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.246480e-07 is too small! Possible gradient break.
+  Step 80/80: loss=17.536293, emo_loss=0.584543, emo_prob_target=0.5574, sem_loss=0.000005, sem_sim=1.0000, per=0.078301, grad_norm=0.000001
+    ⚠️  WARNING: grad_norm=8.246480e-07 is too small! Possible gradient break.
+  [3/3] Attack inference...
+    Attack: The emotion of this audio is sad....
+    ❌ Failed: The
+  ⏱ 15.87s | Metrics: linf=0.008000, l2=3.10, snr=14.88dB
+
+  📊 Progress: 100/100 | Success: 2 (2.0%) | ETA: 0.0min
+
+
+================================================================================
+Saving results...
+================================================================================
+Results saved to: test3/results_n100/results.json
+
+================================================================================
+FINAL SUMMARY - Test3 N=100
+================================================================================
+  Total samples: 100
+  Processed: 100
+  Failed (errors): 0
+  Emotion flip success: 2/100
+  🎯 SUCCESS RATE: 2.0%
+  ⏱ Total time: 21.4 minutes (12.84s per sample)
+
+  Average Metrics:
+    L∞: 0.008000
+    L2: 2.627
+    SNR: 12.61 dB
+    Attack time: 11.80s
+
+  📈 Success Rate Evolution:
+    test1 N=10:  0.0% (epsilon=0.002, lambda_emo=1.0)
+    test2 N=20:  5.0% (epsilon=0.005, lambda_emo=10.0)
+    test3 N=100: 2.0% (epsilon=0.008, lambda_emo=30.0)
+
+================================================================================
+Test completed!
+================================================================================

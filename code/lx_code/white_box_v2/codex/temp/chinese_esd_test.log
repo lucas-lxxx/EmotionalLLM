@@ -1,0 +1,242 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+INFO:src.configuration_omnispeech:audio encoder config is None. Initializing with qwen2_audio_encoder
+INFO:src.configuration_omnispeech:llm config is None. Initializing with qwen3
+INFO:src.configuration_omnispeech:tts lm config is None. Initializing with qwen3
+Loading model...
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:02,  1.39it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.45it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.50it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:02<00:00,  1.52it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:02<00:00,  1.89it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:02<00:00,  1.68it/s]
+/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torchaudio/functional/functional.py:584: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (128) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+`generation_config` default values have been modified to match model-specific defaults: {'bos_token_id': 151643}. If this is not desired, please set these values explicitly.
+Enabled gradient checkpointing on llm_model
+Enabled gradient checkpointing on audio_encoder_model
+
+################################################################################
+# Testing OpenS2S on Chinese ESD Dataset (Angry Emotion)
+# Speaker: 0001
+# Samples: 5
+# Config: sr=24000, n_fft=400, hop=160
+################################################################################
+
+================================================================================
+Testing: 0001_000351.wav
+================================================================================
+Ground Truth Text: 打远一看，它们的确很是美丽，
+Ground Truth Emotion: 生气 (Angry)
+
+Audio: sr=16000, duration=3.06s
+
+================================================================================
+TEST 1: NO PROMPT - Natural Response
+================================================================================
+Model Output: 好的，我来帮你分析一下。
+
+First 10 tokens:
+  Token 0: '好的'
+  Token 1: '，'
+  Token 2: '我'
+  Token 3: '来'
+  Token 4: '帮你'
+  Token 5: '分析'
+  Token 6: '一下'
+  Token 7: '。'
+  Token 8: '<|im_tts_end|>'
+  Token 9: '<|im_end|>'
+
+================================================================================
+TEST 2: ASR PROMPT
+================================================================================
+Prompt: 请转录这段语音的内容。
+Model Output: 好的，我来转录这段语音内容。
+
+================================================================================
+TEST 3: EMOTION PROMPT
+================================================================================
+Prompt: 这段语音的情绪是什么？请从以下选项中选择一个：高兴、生气、悲伤、中立。
+Model Output: 中立
+✗ Emotion INCORRECT
+
+================================================================================
+Testing: 0001_000352.wav
+================================================================================
+Ground Truth Text: 英国的哲学家曾经说过"
+Ground Truth Emotion: 生气 (Angry)
+
+Audio: sr=16000, duration=2.36s
+
+================================================================================
+TEST 1: NO PROMPT - Natural Response
+================================================================================
+Model Output: 好的，我来帮你分析一下。
+
+First 10 tokens:
+  Token 0: '好的'
+  Token 1: '，'
+  Token 2: '我'
+  Token 3: '来'
+  Token 4: '帮你'
+  Token 5: '分析'
+  Token 6: '一下'
+  Token 7: '。'
+  Token 8: '<|im_tts_end|>'
+  Token 9: '<|im_end|>'
+
+================================================================================
+TEST 2: ASR PROMPT
+================================================================================
+Prompt: 请转录这段语音的内容。
+Model Output: 好的，我来转录这段语音内容。
+
+================================================================================
+TEST 3: EMOTION PROMPT
+================================================================================
+Prompt: 这段语音的情绪是什么？请从以下选项中选择一个：高兴、生气、悲伤、中立。
+Model Output: 这段语音的情绪是中立。
+✗ Emotion INCORRECT
+
+================================================================================
+Testing: 0001_000353.wav
+================================================================================
+Ground Truth Text: 我老家在北京，哇塞！太精彩了。
+Ground Truth Emotion: 生气 (Angry)
+
+Audio: sr=16000, duration=1.77s
+
+================================================================================
+TEST 1: NO PROMPT - Natural Response
+================================================================================
+Model Output: 好呀，我们一起来跳绳吧，一二三，开始跳！
+
+First 10 tokens:
+  Token 0: '好'
+  Token 1: '呀'
+  Token 2: '，'
+  Token 3: '我们'
+  Token 4: '一起来'
+  Token 5: '跳'
+  Token 6: '绳'
+  Token 7: '吧'
+  Token 8: '，'
+  Token 9: '一二'
+
+================================================================================
+TEST 2: ASR PROMPT
+================================================================================
+Prompt: 请转录这段语音的内容。
+Model Output: 好的，我来转录这段语音内容。
+
+================================================================================
+TEST 3: EMOTION PROMPT
+================================================================================
+Prompt: 这段语音的情绪是什么？请从以下选项中选择一个：高兴、生气、悲伤、中立。
+Model Output: 中立
+✗ Emotion INCORRECT
+
+================================================================================
+Testing: 0001_000354.wav
+================================================================================
+Ground Truth Text: 不管怎么说主队好象是志在夺魁。
+Ground Truth Emotion: 生气 (Angry)
+
+Audio: sr=16000, duration=3.42s
+
+================================================================================
+TEST 1: NO PROMPT - Natural Response
+================================================================================
+Model Output: 好的，我来帮你分析一下。
+
+First 10 tokens:
+  Token 0: '好的'
+  Token 1: '，'
+  Token 2: '我'
+  Token 3: '来'
+  Token 4: '帮你'
+  Token 5: '分析'
+  Token 6: '一下'
+  Token 7: '。'
+  Token 8: '<|im_tts_end|>'
+  Token 9: '<|im_end|>'
+
+================================================================================
+TEST 2: ASR PROMPT
+================================================================================
+Prompt: 请转录这段语音的内容。
+Model Output: 好的，我来转录这段语音内容。
+
+================================================================================
+TEST 3: EMOTION PROMPT
+================================================================================
+Prompt: 这段语音的情绪是什么？请从以下选项中选择一个：高兴、生气、悲伤、中立。
+Model Output: 中立
+✗ Emotion INCORRECT
+
+================================================================================
+Testing: 0001_000355.wav
+================================================================================
+Ground Truth Text: 我们乘船漂游了三峡，真是刺激。
+Ground Truth Emotion: 生气 (Angry)
+
+Audio: sr=16000, duration=3.75s
+
+================================================================================
+TEST 1: NO PROMPT - Natural Response
+================================================================================
+Model Output: 好呀，我们一起来跳绳吧，一二三，开始！
+
+First 10 tokens:
+  Token 0: '好'
+  Token 1: '呀'
+  Token 2: '，'
+  Token 3: '我们'
+  Token 4: '一起来'
+  Token 5: '跳'
+  Token 6: '绳'
+  Token 7: '吧'
+  Token 8: '，'
+  Token 9: '一二'
+
+================================================================================
+TEST 2: ASR PROMPT
+================================================================================
+Prompt: 请转录这段语音的内容。
+Model Output: 好的，我来转录这段语音内容。
+
+================================================================================
+TEST 3: EMOTION PROMPT
+================================================================================
+Prompt: 这段语音的情绪是什么？请从以下选项中选择一个：高兴、生气、悲伤、中立。
+Model Output: 中立
+✗ Emotion INCORRECT
+
+################################################################################
+# SUMMARY
+################################################################################
+
+0001_000351.wav:
+  Ground Truth: 打远一看，它们的确很是美丽，
+  ASR Output:   好的，我来转录这段语音内容。...
+  Emotion:      中立...
+
+0001_000352.wav:
+  Ground Truth: 英国的哲学家曾经说过"
+  ASR Output:   好的，我来转录这段语音内容。...
+  Emotion:      这段语音的情绪是中立。...
+
+0001_000353.wav:
+  Ground Truth: 我老家在北京，哇塞！太精彩了。
+  ASR Output:   好的，我来转录这段语音内容。...
+  Emotion:      中立...
+
+0001_000354.wav:
+  Ground Truth: 不管怎么说主队好象是志在夺魁。
+  ASR Output:   好的，我来转录这段语音内容。...
+  Emotion:      中立...
+
+0001_000355.wav:
+  Ground Truth: 我们乘船漂游了三峡，真是刺激。
+  ASR Output:   好的，我来转录这段语音内容。...
+  Emotion:      中立...
+
+################################################################################
+# Test Complete
+################################################################################

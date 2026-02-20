@@ -1,0 +1,77 @@
+{
+  "emotions": [
+    "neutral",
+    "happy",
+    "sad",
+    "angry",
+    "surprised"
+  ],
+  "label_info": {
+    "neutral": {
+      "token_ids": [
+        59568
+      ],
+      "token_strs": [
+        "neutral"
+      ],
+      "is_single_token": true,
+      "first_token_id": 59568,
+      "first_token_str": "neutral"
+    },
+    "happy": {
+      "token_ids": [
+        56521
+      ],
+      "token_strs": [
+        "happy"
+      ],
+      "is_single_token": true,
+      "first_token_id": 56521,
+      "first_token_str": "happy"
+    },
+    "sad": {
+      "token_ids": [
+        82114
+      ],
+      "token_strs": [
+        "sad"
+      ],
+      "is_single_token": true,
+      "first_token_id": 82114,
+      "first_token_str": "sad"
+    },
+    "angry": {
+      "token_ids": [
+        524,
+        884
+      ],
+      "token_strs": [
+        "ang",
+        "ry"
+      ],
+      "is_single_token": false,
+      "first_token_id": 524,
+      "first_token_str": "ang"
+    },
+    "surprised": {
+      "token_ids": [
+        19784,
+        649,
+        4056
+      ],
+      "token_strs": [
+        "sur",
+        "pr",
+        "ised"
+      ],
+      "is_single_token": false,
+      "first_token_id": 19784,
+      "first_token_str": "sur"
+    }
+  },
+  "has_multi_token": true,
+  "warnings": [
+    "Warning: 'angry' tokenizes to multiple tokens: ['ang', 'ry']. Using first token: ang",
+    "Warning: 'surprised' tokenizes to multiple tokens: ['sur', 'pr', 'ised']. Using first token: sur"
+  ]
+}

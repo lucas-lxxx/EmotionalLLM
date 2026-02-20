@@ -1,0 +1,386 @@
+INFO:src.configuration_omnispeech:audio encoder config is None. Initializing with qwen2_audio_encoder
+INFO:src.configuration_omnispeech:llm config is None. Initializing with qwen3
+INFO:src.configuration_omnispeech:tts lm config is None. Initializing with qwen3
+================================================================================
+OpenS2S White-Box Attack Test (N=10)
+================================================================================
+
+Loaded 10 audio samples
+Output directory: test/results_n10
+
+Attack parameters:
+  - epsilon: 0.002
+  - steps: 30
+  - lambda_emo: 1.0
+  - lambda_sem: 0.01
+  - lambda_per: 0.0001
+
+Prompt: What is the emotion of this audio? Please answer with only one word: the emotion label (happy, sad, angry, or neutral).
+================================================================================
+
+Loading OpenS2S model...
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.15it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.30it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.36it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:02<00:00,  1.40it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.73it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.52it/s]
+/data1/lixiang/lx_code/white_box_v1/test/run_test_n10_v2.py:72: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(CHECKPOINT_PATH, map_location=DEVICE)
+`generation_config` default values have been modified to match model-specific defaults: {'bos_token_id': 151643}. If this is not desired, please set these values explicitly.
+Traceback (most recent call last):
+  File "/data1/lixiang/lx_code/white_box_v1/test/run_test_n10_v2.py", line 125, in main
+    waveform_adv, metrics, attack_time, sample_rate = run_attack(
+                                                      ^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/scripts/sad2happy_batch_experiment.py", line 186, in run_attack
+    waveform_adv, metrics_history = attacker.attack(
+                                    ^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/optimizers/pgd.py", line 112, in attack
+    loss, metrics = self.objective_fn(waveform_adv, waveform_orig, compute_grad=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/scripts/sad2happy_batch_experiment.py", line 175, in <lambda>
+    objective_fn=lambda w, w_orig, compute_grad=True: objective.compute_loss(w, w_orig, prompt, compute_grad),
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 195, in compute_loss
+    loss_emo_text, emo_text_metrics = self._compute_emotion_text_loss(
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 309, in _compute_emotion_text_loss
+    z = self._extract_hidden_states()  # [B, D] 或 None
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 162, in _extract_hidden_states
+    z = z @ self.svd_components.T
+        ~~^~~~~~~~~~~~~~~~~~~~~~~
+  File "/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torch/_tensor.py", line 1083, in __array__
+    return self.numpy()
+           ^^^^^^^^^^^^
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+Traceback (most recent call last):
+  File "/data1/lixiang/lx_code/white_box_v1/test/run_test_n10_v2.py", line 125, in main
+    waveform_adv, metrics, attack_time, sample_rate = run_attack(
+                                                      ^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/scripts/sad2happy_batch_experiment.py", line 186, in run_attack
+    waveform_adv, metrics_history = attacker.attack(
+                                    ^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/optimizers/pgd.py", line 112, in attack
+    loss, metrics = self.objective_fn(waveform_adv, waveform_orig, compute_grad=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/scripts/sad2happy_batch_experiment.py", line 175, in <lambda>
+    objective_fn=lambda w, w_orig, compute_grad=True: objective.compute_loss(w, w_orig, prompt, compute_grad),
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 195, in compute_loss
+    loss_emo_text, emo_text_metrics = self._compute_emotion_text_loss(
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 309, in _compute_emotion_text_loss
+    z = self._extract_hidden_states()  # [B, D] 或 None
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 162, in _extract_hidden_states
+    z = z @ self.svd_components.T
+        ~~^~~~~~~~~~~~~~~~~~~~~~~
+  File "/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torch/_tensor.py", line 1083, in __array__
+    return self.numpy()
+           ^^^^^^^^^^^^
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+Traceback (most recent call last):
+  File "/data1/lixiang/lx_code/white_box_v1/test/run_test_n10_v2.py", line 125, in main
+    waveform_adv, metrics, attack_time, sample_rate = run_attack(
+                                                      ^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/scripts/sad2happy_batch_experiment.py", line 186, in run_attack
+    waveform_adv, metrics_history = attacker.attack(
+                                    ^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/optimizers/pgd.py", line 112, in attack
+    loss, metrics = self.objective_fn(waveform_adv, waveform_orig, compute_grad=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/scripts/sad2happy_batch_experiment.py", line 175, in <lambda>
+    objective_fn=lambda w, w_orig, compute_grad=True: objective.compute_loss(w, w_orig, prompt, compute_grad),
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 195, in compute_loss
+    loss_emo_text, emo_text_metrics = self._compute_emotion_text_loss(
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 309, in _compute_emotion_text_loss
+    z = self._extract_hidden_states()  # [B, D] 或 None
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 162, in _extract_hidden_states
+    z = z @ self.svd_components.T
+        ~~^~~~~~~~~~~~~~~~~~~~~~~
+  File "/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torch/_tensor.py", line 1083, in __array__
+    return self.numpy()
+           ^^^^^^^^^^^^
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+Traceback (most recent call last):
+  File "/data1/lixiang/lx_code/white_box_v1/test/run_test_n10_v2.py", line 125, in main
+    waveform_adv, metrics, attack_time, sample_rate = run_attack(
+                                                      ^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/scripts/sad2happy_batch_experiment.py", line 186, in run_attack
+    waveform_adv, metrics_history = attacker.attack(
+                                    ^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/optimizers/pgd.py", line 112, in attack
+    loss, metrics = self.objective_fn(waveform_adv, waveform_orig, compute_grad=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/scripts/sad2happy_batch_experiment.py", line 175, in <lambda>
+    objective_fn=lambda w, w_orig, compute_grad=True: objective.compute_loss(w, w_orig, prompt, compute_grad),
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 195, in compute_loss
+    loss_emo_text, emo_text_metrics = self._compute_emotion_text_loss(
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 309, in _compute_emotion_text_loss
+    z = self._extract_hidden_states()  # [B, D] 或 None
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 162, in _extract_hidden_states
+    z = z @ self.svd_components.T
+        ~~^~~~~~~~~~~~~~~~~~~~~~~
+  File "/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torch/_tensor.py", line 1083, in __array__
+    return self.numpy()
+           ^^^^^^^^^^^^
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+Traceback (most recent call last):
+  File "/data1/lixiang/lx_code/white_box_v1/test/run_test_n10_v2.py", line 125, in main
+    waveform_adv, metrics, attack_time, sample_rate = run_attack(
+                                                      ^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/scripts/sad2happy_batch_experiment.py", line 186, in run_attack
+    waveform_adv, metrics_history = attacker.attack(
+                                    ^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/optimizers/pgd.py", line 112, in attack
+    loss, metrics = self.objective_fn(waveform_adv, waveform_orig, compute_grad=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/scripts/sad2happy_batch_experiment.py", line 175, in <lambda>
+    objective_fn=lambda w, w_orig, compute_grad=True: objective.compute_loss(w, w_orig, prompt, compute_grad),
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 195, in compute_loss
+    loss_emo_text, emo_text_metrics = self._compute_emotion_text_loss(
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 309, in _compute_emotion_text_loss
+    z = self._extract_hidden_states()  # [B, D] 或 None
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 162, in _extract_hidden_states
+    z = z @ self.svd_components.T
+        ~~^~~~~~~~~~~~~~~~~~~~~~~
+  File "/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torch/_tensor.py", line 1083, in __array__
+    return self.numpy()
+           ^^^^^^^^^^^^
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+Traceback (most recent call last):
+  File "/data1/lixiang/lx_code/white_box_v1/test/run_test_n10_v2.py", line 125, in main
+    waveform_adv, metrics, attack_time, sample_rate = run_attack(
+                                                      ^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/scripts/sad2happy_batch_experiment.py", line 186, in run_attack
+    waveform_adv, metrics_history = attacker.attack(
+                                    ^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/optimizers/pgd.py", line 112, in attack
+    loss, metrics = self.objective_fn(waveform_adv, waveform_orig, compute_grad=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/scripts/sad2happy_batch_experiment.py", line 175, in <lambda>
+    objective_fn=lambda w, w_orig, compute_grad=True: objective.compute_loss(w, w_orig, prompt, compute_grad),
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 195, in compute_loss
+    loss_emo_text, emo_text_metrics = self._compute_emotion_text_loss(
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 309, in _compute_emotion_text_loss
+    z = self._extract_hidden_states()  # [B, D] 或 None
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 162, in _extract_hidden_states
+    z = z @ self.svd_components.T
+        ~~^~~~~~~~~~~~~~~~~~~~~~~
+  File "/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torch/_tensor.py", line 1083, in __array__
+    return self.numpy()
+           ^^^^^^^^^^^^
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+Traceback (most recent call last):
+  File "/data1/lixiang/lx_code/white_box_v1/test/run_test_n10_v2.py", line 125, in main
+    waveform_adv, metrics, attack_time, sample_rate = run_attack(
+                                                      ^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/scripts/sad2happy_batch_experiment.py", line 186, in run_attack
+    waveform_adv, metrics_history = attacker.attack(
+                                    ^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/optimizers/pgd.py", line 112, in attack
+    loss, metrics = self.objective_fn(waveform_adv, waveform_orig, compute_grad=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/scripts/sad2happy_batch_experiment.py", line 175, in <lambda>
+    objective_fn=lambda w, w_orig, compute_grad=True: objective.compute_loss(w, w_orig, prompt, compute_grad),
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 195, in compute_loss
+    loss_emo_text, emo_text_metrics = self._compute_emotion_text_loss(
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 309, in _compute_emotion_text_loss
+    z = self._extract_hidden_states()  # [B, D] 或 None
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 162, in _extract_hidden_states
+    z = z @ self.svd_components.T
+        ~~^~~~~~~~~~~~~~~~~~~~~~~
+  File "/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torch/_tensor.py", line 1083, in __array__
+    return self.numpy()
+           ^^^^^^^^^^^^
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+Traceback (most recent call last):
+  File "/data1/lixiang/lx_code/white_box_v1/test/run_test_n10_v2.py", line 125, in main
+    waveform_adv, metrics, attack_time, sample_rate = run_attack(
+                                                      ^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/scripts/sad2happy_batch_experiment.py", line 186, in run_attack
+    waveform_adv, metrics_history = attacker.attack(
+                                    ^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/optimizers/pgd.py", line 112, in attack
+    loss, metrics = self.objective_fn(waveform_adv, waveform_orig, compute_grad=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/scripts/sad2happy_batch_experiment.py", line 175, in <lambda>
+    objective_fn=lambda w, w_orig, compute_grad=True: objective.compute_loss(w, w_orig, prompt, compute_grad),
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 195, in compute_loss
+    loss_emo_text, emo_text_metrics = self._compute_emotion_text_loss(
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 309, in _compute_emotion_text_loss
+    z = self._extract_hidden_states()  # [B, D] 或 None
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 162, in _extract_hidden_states
+    z = z @ self.svd_components.T
+        ~~^~~~~~~~~~~~~~~~~~~~~~~
+  File "/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torch/_tensor.py", line 1083, in __array__
+    return self.numpy()
+           ^^^^^^^^^^^^
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+Traceback (most recent call last):
+  File "/data1/lixiang/lx_code/white_box_v1/test/run_test_n10_v2.py", line 125, in main
+    waveform_adv, metrics, attack_time, sample_rate = run_attack(
+                                                      ^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/scripts/sad2happy_batch_experiment.py", line 186, in run_attack
+    waveform_adv, metrics_history = attacker.attack(
+                                    ^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/optimizers/pgd.py", line 112, in attack
+    loss, metrics = self.objective_fn(waveform_adv, waveform_orig, compute_grad=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/scripts/sad2happy_batch_experiment.py", line 175, in <lambda>
+    objective_fn=lambda w, w_orig, compute_grad=True: objective.compute_loss(w, w_orig, prompt, compute_grad),
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 195, in compute_loss
+    loss_emo_text, emo_text_metrics = self._compute_emotion_text_loss(
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 309, in _compute_emotion_text_loss
+    z = self._extract_hidden_states()  # [B, D] 或 None
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 162, in _extract_hidden_states
+    z = z @ self.svd_components.T
+        ~~^~~~~~~~~~~~~~~~~~~~~~~
+  File "/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torch/_tensor.py", line 1083, in __array__
+    return self.numpy()
+           ^^^^^^^^^^^^
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+Traceback (most recent call last):
+  File "/data1/lixiang/lx_code/white_box_v1/test/run_test_n10_v2.py", line 125, in main
+    waveform_adv, metrics, attack_time, sample_rate = run_attack(
+                                                      ^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/scripts/sad2happy_batch_experiment.py", line 186, in run_attack
+    waveform_adv, metrics_history = attacker.attack(
+                                    ^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/optimizers/pgd.py", line 112, in attack
+    loss, metrics = self.objective_fn(waveform_adv, waveform_orig, compute_grad=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/scripts/sad2happy_batch_experiment.py", line 175, in <lambda>
+    objective_fn=lambda w, w_orig, compute_grad=True: objective.compute_loss(w, w_orig, prompt, compute_grad),
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 195, in compute_loss
+    loss_emo_text, emo_text_metrics = self._compute_emotion_text_loss(
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 309, in _compute_emotion_text_loss
+    z = self._extract_hidden_states()  # [B, D] 或 None
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/lixiang/lx_code/white_box_v1/attack/objectives.py", line 162, in _extract_hidden_states
+    z = z @ self.svd_components.T
+        ~~^~~~~~~~~~~~~~~~~~~~~~~
+  File "/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torch/_tensor.py", line 1083, in __array__
+    return self.numpy()
+           ^^^^^^^^^^^^
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+Loading emotion classifier from checkpoints/sad_happy_classifier.pt...
+  Emotion mapping: {'Sad': 0, 'Happy': 1}
+  Input dim: 20, Num emotions: 2
+
+================================================================================
+Running attacks...
+================================================================================
+
+[1/10] Processing: 20683.wav
+  [1/3] Clean inference...
+    Clean output: "Angry."...
+  [2/3] Running attack (epsilon=0.002, steps=30)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  ✗ Error: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+
+[2/10] Processing: 24190.wav
+  [1/3] Clean inference...
+    Clean output: The emotion is sad....
+  [2/3] Running attack (epsilon=0.002, steps=30)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  ✗ Error: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+
+[3/10] Processing: 15822.wav
+  [1/3] Clean inference...
+    Clean output: Neutral....
+  [2/3] Running attack (epsilon=0.002, steps=30)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  ✗ Error: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+
+[4/10] Processing: 22344.wav
+  [1/3] Clean inference...
+    Clean output: The emotion of the speech is sad....
+  [2/3] Running attack (epsilon=0.002, steps=30)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  ✗ Error: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+
+[5/10] Processing: 20495.wav
+  [1/3] Clean inference...
+    Clean output: The emotion of this audio is neutral....
+  [2/3] Running attack (epsilon=0.002, steps=30)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  ✗ Error: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+
+[6/10] Processing: 22713.wav
+  [1/3] Clean inference...
+    Clean output: The emotion of this audio is sad....
+  [2/3] Running attack (epsilon=0.002, steps=30)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  ✗ Error: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+
+[7/10] Processing: 38804.wav
+  [1/3] Clean inference...
+    Clean output: sad...
+  [2/3] Running attack (epsilon=0.002, steps=30)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  ✗ Error: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+
+[8/10] Processing: 27476.wav
+  [1/3] Clean inference...
+    Clean output: Neutral....
+  [2/3] Running attack (epsilon=0.002, steps=30)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  ✗ Error: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+
+[9/10] Processing: 48240.wav
+  [1/3] Clean inference...
+    Clean output:  on your tasks and remember their behavior reflects their own issues, not your worth. Stay professio...
+  [2/3] Running attack (epsilon=0.002, steps=30)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  ✗ Error: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+
+[10/10] Processing: 20827.wav
+  [1/3] Clean inference...
+    Clean output: The emotion of the audio is sad....
+  [2/3] Running attack (epsilon=0.002, steps=30)...
+Using layers for emotion extraction: ['layer_06', 'layer_16', 'layer_25']
+Target emotion 'Happy' -> index 1
+  ✗ Error: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+
+================================================================================
+Saving results...
+================================================================================
+Results saved to: test/results_n10/results.json
+
+Summary:
+  Total samples: 10
+  Successful: 0
+  Failed: 10
+
+================================================================================
+Test completed!
+================================================================================

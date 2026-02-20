@@ -1,0 +1,10 @@
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/20683.wav
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/24190.wav
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/15822.wav
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/22344.wav
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/20495.wav
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/22713.wav
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/38804.wav
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/27476.wav
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/48240.wav
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/20827.wav

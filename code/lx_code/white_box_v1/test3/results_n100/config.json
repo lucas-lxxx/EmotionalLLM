@@ -1,0 +1,61 @@
+{
+  "experiment": "test3_N100",
+  "based_on": "test2_N20 results (5% success rate)",
+  "strategy": "Aggressive parameters to maximize success rate",
+  "omnispeech_path": "/data1/lixiang/Opens2s/OpenS2S/models/OpenS2S",
+  "checkpoint_path": "checkpoints/sad_happy_classifier.pt",
+  "num_samples": 100,
+  "parameter_evolution": {
+    "test1_N10": {
+      "epsilon": 0.002,
+      "steps": 30,
+      "lambda_emo": 1.0,
+      "success_rate": "0%"
+    },
+    "test2_N20": {
+      "epsilon": 0.005,
+      "steps": 50,
+      "lambda_emo": 10.0,
+      "success_rate": "5%"
+    },
+    "test3_N100": {
+      "epsilon": 0.008,
+      "steps": 80,
+      "lambda_emo": 30.0,
+      "success_rate": "TBD"
+    }
+  },
+  "parameter_changes_from_test2": {
+    "epsilon": {
+      "old": 0.005,
+      "new": 0.008,
+      "change": "+60%"
+    },
+    "steps": {
+      "old": 50,
+      "new": 80,
+      "change": "+60%"
+    },
+    "lambda_emo": {
+      "old": 10.0,
+      "new": 30.0,
+      "change": "+200%"
+    },
+    "lambda_sem": {
+      "old": 0.005,
+      "new": 0.001,
+      "change": "-80%"
+    },
+    "lambda_per": {
+      "old": 5e-05,
+      "new": 1e-05,
+      "change": "-80%"
+    }
+  },
+  "prompt": "What is the emotion of this audio? Please answer with only one word: the emotion label (happy, sad, angry, or neutral).",
+  "device": "cuda:0",
+  "emotion_label_to_idx": {
+    "Sad": 0,
+    "Happy": 1
+  }
+}

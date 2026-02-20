@@ -1,0 +1,73 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+INFO:src.configuration_omnispeech:audio encoder config is None. Initializing with qwen2_audio_encoder
+INFO:src.configuration_omnispeech:llm config is None. Initializing with qwen3
+INFO:src.configuration_omnispeech:tts lm config is None. Initializing with qwen3
+============================================================
+Testing OpenS2S Emotion Recognition on Sad Dataset
+============================================================
+Config: sample_rate=24000, n_fft=400, hop=160
+
+Loading model...
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.15it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.21it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.26it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.29it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.60it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.42it/s]
+/data1/lixiang/Opens2s/OpenS2S/venv/lib/python3.12/site-packages/torchaudio/functional/functional.py:584: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (128) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+`generation_config` default values have been modified to match model-specific defaults: {'bos_token_id': 151643}. If this is not desired, please set these values explicitly.
+Enabled gradient checkpointing on llm_model
+Enabled gradient checkpointing on audio_encoder_model
+Testing on 50 samples from Sad/
+  Processed 10/50...
+  Processed 20/50...
+  Processed 30/50...
+  Processed 40/50...
+  Processed 50/50...
+
+============================================================
+RESULTS
+============================================================
+Total samples: 50
+Total predictions (3 prompts × 50 samples): 150
+
+Emotion Distribution:
+  neutral        : 103 ( 68.7%)
+  the emotion label is:  21 ( 14.0%)
+  the emotion of the:  10 (  6.7%)
+  happy          :   5 (  3.3%)
+  the response should reflect:   4 (  2.7%)
+  the child's voice:   2 (  1.3%)
+  the speaker is a:   1 (  0.7%)
+  the speech request is:   1 (  0.7%)
+  the speaker is an:   1 (  0.7%)
+  the response should be:   1 (  0.7%)
+  the response to the:   1 (  0.7%)
+
+Expected: 'sad' should be dominant (ideally >80%)
+Actual 'sad' accuracy: 0.0%
+
+⚠️  WARNING: Model performs poorly on Sad emotion recognition!
+   This explains why attack baseline shows no 'sad' predictions.
+
+============================================================
+Sample Predictions (first 10):
+============================================================
+ 1. 20683.wav            -> ['the emotion of the', 'neutral', 'the speaker is a']
+ 2. 24190.wav            -> ['neutral', 'neutral', 'the emotion label is']
+ 3. 15822.wav            -> ['neutral', 'neutral', 'the speech request is']
+ 4. 22344.wav            -> ['neutral', 'neutral', 'the emotion label is']
+ 5. 20495.wav            -> ['neutral', 'neutral', 'happy']
+ 6. 22713.wav            -> ['neutral', 'neutral', 'the emotion label is']
+ 7. 38804.wav            -> ['neutral', 'neutral', 'the emotion label is']
+ 8. 27476.wav            -> ['the emotion of the', 'neutral', 'the emotion label is']
+ 9. 48240.wav            -> ['neutral', 'neutral', 'the emotion label is']
+10. 20827.wav            -> ['neutral', 'neutral', 'the emotion label is']
+
+⚠️  Invalid predictions found:
+   'the emotion of the': 10 times
+   'the speaker is a': 1 times
+   'the emotion label is': 21 times
+   'the speech request is': 1 times
+   'the speaker is an': 1 times
+   'the child's voice': 2 times
+   'the response should be': 1 times
+   'the response should reflect': 4 times
+   'the response to the': 1 times

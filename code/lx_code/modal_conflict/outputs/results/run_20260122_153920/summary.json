@@ -1,0 +1,30 @@
+{
+  "overall_dominant_modality": "prosody",
+  "average_dominance": 0.0526235827664399,
+  "max_semantic_acc": {
+    "layer": 27,
+    "accuracy": 0.8304489795918368
+  },
+  "max_prosody_acc": {
+    "layer": 0,
+    "accuracy": 0.8420408163265307
+  },
+  "max_prosody_dominance": {
+    "layer": 5,
+    "dominance": 0.21461224489795905
+  },
+  "max_semantic_dominance": {
+    "layer": 26,
+    "dominance": -0.041387755102040846
+  },
+  "layer_trends": {
+    "early_layers_dominance": 0.14589115646258502,
+    "middle_layers_dominance": 0.004829931972789118,
+    "late_layers_dominance": 0.007149659863945575
+  },
+  "conflict_subset": {
+    "avg_semantic_acc": 0.7298789173789174,
+    "avg_prosody_acc": 0.789494301994302,
+    "avg_dominance": 0.05961538461538461
+  }
+}

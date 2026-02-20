@@ -1,0 +1,20 @@
+{
+  "total_samples": 247,
+  "conflict_samples": 197,
+  "consistent_samples": 50,
+  "unique_texts": 50,
+  "semantic_distribution": {
+    "neutral": 50,
+    "happy": 49,
+    "sad": 50,
+    "angry": 49,
+    "surprised": 49
+  },
+  "prosody_distribution": {
+    "neutral": 49,
+    "happy": 50,
+    "sad": 48,
+    "angry": 50,
+    "surprised": 50
+  }
+}

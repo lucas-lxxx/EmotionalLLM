@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/data1/lixiang/lx_code/white_box_v2/codex/test_decode.py", line 13, in <module>
+    from opens2s_io import load_model_and_tokenizer, decode_text
+ImportError: cannot import name 'load_model_and_tokenizer' from 'opens2s_io' (/data1/lixiang/lx_code/white_box_v2/codex/opens2s_io.py)

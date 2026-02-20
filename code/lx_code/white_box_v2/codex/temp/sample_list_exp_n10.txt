@@ -1,0 +1,15 @@
+# Experiment: Sad → Happy Attack (N=20)
+# Date: 2026-01-07
+# Target Emotion: happy
+# Source Emotion: sad (random selection)
+
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/male/25851.wav
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/child/female/45097.wav
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/child/male/22891.wav
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/child/male/26870.wav
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/male/30219.wav
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/child/female/35348.wav
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/male/16043.wav
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/male/6757.wav
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/child/female/41910.wav
+/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/child/female/18077.wav

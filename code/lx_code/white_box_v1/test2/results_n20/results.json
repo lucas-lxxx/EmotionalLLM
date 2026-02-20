@@ -1,0 +1,222 @@
+[
+  {
+    "sample_id": "sample_001",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/10002.wav",
+    "clean_text": " may offer quiet comfort and reflection.",
+    "attack_text": " comfort.",
+    "success": false,
+    "attack_time": 4.506307125091553,
+    "linf": 0.005000002682209015,
+    "l2": 1.6613245010375977,
+    "snr_db": 8.338830357224616
+  },
+  {
+    "sample_id": "sample_002",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/10012.wav",
+    "clean_text": "The emotion of this audio is sad.",
+    "attack_text": "The emotion of the audio is sad.",
+    "success": false,
+    "attack_time": 4.368073225021362,
+    "linf": 0.005000002682209015,
+    "l2": 2.0376455783843994,
+    "snr_db": 14.311583380568898
+  },
+  {
+    "sample_id": "sample_003",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/10037.wav",
+    "clean_text": "The emotion of this audio is sad.",
+    "attack_text": "The emotion of the speech is sad.",
+    "success": false,
+    "attack_time": 4.8668434619903564,
+    "linf": 0.005000002682209015,
+    "l2": 1.8395646810531616,
+    "snr_db": 31.69123383894884
+  },
+  {
+    "sample_id": "sample_004",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/10046.wav",
+    "clean_text": "The emotion is sad.",
+    "attack_text": "The emotion is Sad.",
+    "success": false,
+    "attack_time": 4.480622291564941,
+    "linf": 0.005000002682209015,
+    "l2": 1.9473053216934204,
+    "snr_db": 33.22356689520632
+  },
+  {
+    "sample_id": "sample_005",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/10063.wav",
+    "clean_text": "Neutral. Here's a joke: Why did the scarecrow win an award? Because he was outstanding in his field.",
+    "attack_text": "Why did the tomato turn red? Because it saw the salad dressing!",
+    "success": false,
+    "attack_time": 5.168591022491455,
+    "linf": 0.005000002682209015,
+    "l2": 1.3326663970947266,
+    "snr_db": 27.918288734929586
+  },
+  {
+    "sample_id": "sample_006",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/10066.wav",
+    "clean_text": "The emotion of the audio is sad.",
+    "attack_text": "Neutral.",
+    "success": false,
+    "attack_time": 4.676450252532959,
+    "linf": 0.004999999888241291,
+    "l2": 1.4113824367523193,
+    "snr_db": 6.29818509699129
+  },
+  {
+    "sample_id": "sample_007",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/10069.wav",
+    "clean_text": "The emotion of the audio is Sad.",
+    "attack_text": "the emotion of the audio is sad",
+    "success": false,
+    "attack_time": 4.3481104373931885,
+    "linf": 0.005000002682209015,
+    "l2": 1.6395119428634644,
+    "snr_db": 9.451413669449352
+  },
+  {
+    "sample_id": "sample_008",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/10074.wav",
+    "clean_text": "Neutral",
+    "attack_text": "Neutral",
+    "success": false,
+    "attack_time": 4.893808841705322,
+    "linf": 0.005000002682209015,
+    "l2": 1.8066539764404297,
+    "snr_db": 13.98109702258842
+  },
+  {
+    "sample_id": "sample_009",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/10097.wav",
+    "clean_text": "The emotion label is sad. A warm cup of tea and a gentle walk under the trees might help lift the spirits.",
+    "attack_text": "The emotion of the audio is neutral.",
+    "success": false,
+    "attack_time": 5.451156139373779,
+    "linf": 0.005000002682209015,
+    "l2": 1.602497935295105,
+    "snr_db": 5.996760249424965
+  },
+  {
+    "sample_id": "sample_010",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/100.wav",
+    "clean_text": "The emotion of the audio is sad.",
+    "attack_text": "Sad.",
+    "success": false,
+    "attack_time": 6.242640495300293,
+    "linf": 0.005000002682209015,
+    "l2": 1.5798732042312622,
+    "snr_db": 27.333618987639774
+  },
+  {
+    "sample_id": "sample_011",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/10125.wav",
+    "clean_text": "The emotion is sad.",
+    "attack_text": "The emotion of this audio is sad.",
+    "success": false,
+    "attack_time": 4.443823337554932,
+    "linf": 0.005000002682209015,
+    "l2": 1.5722591876983643,
+    "snr_db": 30.4617265702788
+  },
+  {
+    "sample_id": "sample_012",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/10217.wav",
+    "clean_text": "The emotion of the audio is sad.",
+    "attack_text": "The emotion is sad.",
+    "success": false,
+    "attack_time": 4.343003034591675,
+    "linf": 0.005000002682209015,
+    "l2": 1.7595449686050415,
+    "snr_db": 16.732866538800465
+  },
+  {
+    "sample_id": "sample_013",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/1022.wav",
+    "clean_text": "The emotion of the audio is sad.",
+    "attack_text": "The emotion is sad.",
+    "success": false,
+    "attack_time": 4.492517471313477,
+    "linf": 0.005000002682209015,
+    "l2": 1.2393547296524048,
+    "snr_db": 14.993909122589153
+  },
+  {
+    "sample_id": "sample_014",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/10249.wav",
+    "clean_text": "The emotion is sad.",
+    "attack_text": "Sad. Let me help you relax.",
+    "success": false,
+    "attack_time": 4.986591339111328,
+    "linf": 0.005000002682209015,
+    "l2": 1.8330302238464355,
+    "snr_db": 18.321993137095433
+  },
+  {
+    "sample_id": "sample_015",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/10259.wav",
+    "clean_text": " encourage small steps forward like exploring new opportunities or simply resting, remind them their worth isn’t tied to a job, and share hope that this could be a chance to start fresh.",
+    "attack_text": " resume, encourage them to take small steps forward each day, remind them their worth isn't tied to a job title, and share light-hearted memories or jokes to lift their spirits. let them know you're there to listen whenever they need to talk.",
+    "success": false,
+    "attack_time": 4.52270245552063,
+    "linf": 0.005000002682209015,
+    "l2": 1.6899701356887817,
+    "snr_db": 9.385685261150696
+  },
+  {
+    "sample_id": "sample_016",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/10269.wav",
+    "clean_text": "'d like more ideas.",
+    "attack_text": " know if you'd like a different idea.",
+    "success": false,
+    "attack_time": 4.345661878585815,
+    "linf": 0.005000002682209015,
+    "l2": 1.5949920415878296,
+    "snr_db": 13.966529999278299
+  },
+  {
+    "sample_id": "sample_017",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/10292.wav",
+    "clean_text": "The emotion is sad.",
+    "attack_text": "The emotion of this audio is happy.",
+    "success": true,
+    "attack_time": 4.350353956222534,
+    "linf": 0.004999999888241291,
+    "l2": 1.2393547296524048,
+    "snr_db": 2.4052374617716517
+  },
+  {
+    "sample_id": "sample_018",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/10319.wav",
+    "clean_text": "\"Alright, here's a joke to brighten your day! Why don't skeletons fight each other? They don’t have the guts!\"",
+    "attack_text": "Sad. Here's a joke to lighten the mood: Why don't skeletons fight each other? Because they don't have the guts.",
+    "success": false,
+    "attack_time": 5.0898778438568115,
+    "linf": 0.005000002682209015,
+    "l2": 1.7041122913360596,
+    "snr_db": 7.264654088443654
+  },
+  {
+    "sample_id": "sample_019",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/10349.wav",
+    "clean_text": "Sadness feels heavy. Let’s find words to share the weight.",
+    "attack_text": "The emotion is sad.",
+    "success": false,
+    "attack_time": 4.633787393569946,
+    "linf": 0.005000002682209015,
+    "l2": 1.4282855987548828,
+    "snr_db": 28.158923729075063
+  },
+  {
+    "sample_id": "sample_020",
+    "audio_path": "/data1/lixiang/OpenS2S_dataset/data/en_query_wav/Sad/adult/female/1034.wav",
+    "clean_text": "The emotion of this audio is neutral.",
+    "attack_text": "The emotion of this audio is sad.",
+    "success": false,
+    "attack_time": 5.136193752288818,
+    "linf": 0.005000002682209015,
+    "l2": 1.8973660469055176,
+    "snr_db": 32.30357052639853
+  }
+]
