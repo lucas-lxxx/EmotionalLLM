@@ -162,24 +162,7 @@ def load_sample_list(args) -> dict[str, list[AudioSample]]:
     return {"default": samples}
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser()
-    # 新增：模式选择
-    parser.add_argument("--mode", type=str, default="esd", choices=["esd", "sample_list"],
-                       help="数据加载模式：esd 或 sample_list")
-    parser.add_argument("--esd_root", type=str, default=str(cfg.esd_dataset_root),
-                       help="ESD 数据集根目录")
-    parser.add_argument("--speaker_id", type=str, default=None,
-                       help="指定单个说话人ID，None表示处理所有说话人")
-    # 原有参数
-    parser.add_argument("--sample_list", type=str, default=str(cfg.sample_list_path))
-    parser.add_argument("--results_dir", type=str, default=str(cfg.results_dir))
-    parser.add_argument("--start_idx", type=int, default=None)
-    parser.add_argument("--end_idx", type=int, default=None)
-    parser.add_argument("--shard_id", type=int, default=None)
-    parser.add_argument("--num_shards", type=int, default=1)
-    args = parser.parse_args()
-
+def main(args) -> None:
     set_seed(cfg.seed)
 
     # 根据模式加载数据
@@ -345,9 +328,36 @@ def main() -> None:
         out_json.write_text(json.dumps(sample_result, ensure_ascii=True, indent=2), encoding="utf-8")
         per_sample_results.append(sample_result)
 
+    # Only write summary when NOT running as a shard (shards produce partial data).
+    # After all shards finish, run: python run_attack.py --aggregate_only --results_dir <path>
+    if args.shard_id is None:
+        write_summaries(results_dir, per_sample_results)
+    else:
+        print(f"Shard {args.shard_id} done ({len(per_sample_results)} samples). "
+              f"Run --aggregate_only after all shards finish to generate summaries.")
+
+
+def collect_results_from_disk(results_dir: Path) -> list[dict]:
+    """Scan all per-sample JSON files from results_dir (including speaker subdirs)."""
+    all_results = []
+    for json_path in sorted(results_dir.rglob("*.json")):
+        if json_path.name.startswith("summary"):
+            continue
+        try:
+            data = json.loads(json_path.read_text(encoding="utf-8"))
+            if "sample_id" in data:
+                all_results.append(data)
+        except Exception:
+            continue
+    return all_results
+
+
+def write_summaries(results_dir: Path, per_sample_results: list[dict]) -> None:
+    """Write all summary files."""
     summary = aggregate_results(per_sample_results, cfg.wer_thresholds, cfg.semantic_threshold)
-    summary_path = results_dir / "summary_all.json"
-    summary_path.write_text(json.dumps(summary, ensure_ascii=True, indent=2), encoding="utf-8")
+    (results_dir / "summary_all.json").write_text(
+        json.dumps(summary, ensure_ascii=True, indent=2), encoding="utf-8"
+    )
 
     summary_by_speaker = aggregate_results_by_speaker(per_sample_results, cfg.wer_thresholds, cfg.semantic_threshold)
     (results_dir / "summary_by_speaker.json").write_text(
@@ -358,7 +368,33 @@ def main() -> None:
     (results_dir / "summary_by_emotion.json").write_text(
         json.dumps(summary_by_emotion, ensure_ascii=True, indent=2), encoding="utf-8"
     )
+    print(f"Summaries written to {results_dir} ({summary.get('num_samples', 0)} samples)")
+
+
+def aggregate_only(args) -> None:
+    """Collect all per-sample JSONs from disk and write summaries."""
+    results_dir = Path(args.results_dir)
+    per_sample_results = collect_results_from_disk(results_dir)
+    print(f"Collected {len(per_sample_results)} sample results from {results_dir}")
+    write_summaries(results_dir, per_sample_results)
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--aggregate_only", action="store_true",
+                        help="Only aggregate existing JSON results into summaries (no attack)")
+    parser.add_argument("--mode", type=str, default="esd", choices=["esd", "sample_list"])
+    parser.add_argument("--esd_root", type=str, default=str(cfg.esd_dataset_root))
+    parser.add_argument("--speaker_id", type=str, default=None)
+    parser.add_argument("--sample_list", type=str, default=str(cfg.sample_list_path))
+    parser.add_argument("--results_dir", type=str, default=str(cfg.results_dir))
+    parser.add_argument("--start_idx", type=int, default=None)
+    parser.add_argument("--end_idx", type=int, default=None)
+    parser.add_argument("--shard_id", type=int, default=None)
+    parser.add_argument("--num_shards", type=int, default=1)
+    args = parser.parse_args()
+
+    if args.aggregate_only:
+        aggregate_only(args)
+    else:
+        main(args)

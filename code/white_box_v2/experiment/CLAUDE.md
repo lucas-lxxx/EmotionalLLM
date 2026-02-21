@@ -12,27 +12,69 @@
 - **模型**: OpenS2S 在 `/data1/lixiang/Opens2s/OpenS2S/models/OpenS2S`
 - **数据**: ESD/CN 在 `/data1/lixiang/ESD/CN`
 
-## 执行命令
+## 执行流程
 
-### 单 GPU 全量运行
+### Step 0: 探测可用 GPU
+
+**执行前必须先检查 GPU 状态**，这是公共服务器，需要找到空闲卡：
 
 ```bash
-CUDA_VISIBLE_DEVICES=6 python run_attack.py --mode esd
+nvidia-smi --query-gpu=index,name,memory.used,memory.total,memory.free,utilization.gpu --format=csv,noheader,nounits
 ```
 
-### 多 GPU 并行（4 分片示例）
+**选卡标准**：
+- 显存 >= 48GB（RTX 6000 Ada = 48GB，H100 = 80GB）
+- 空闲显存 >= 40GB（已用显存 < 8GB 视为空闲）
+- GPU 利用率低（< 10%）
 
-```bash
-CUDA_VISIBLE_DEVICES=4 python run_attack.py --mode esd --shard_id 0 --num_shards 4
-CUDA_VISIBLE_DEVICES=5 python run_attack.py --mode esd --shard_id 1 --num_shards 4
-CUDA_VISIBLE_DEVICES=6 python run_attack.py --mode esd --shard_id 2 --num_shards 4
-CUDA_VISIBLE_DEVICES=7 python run_attack.py --mode esd --shard_id 3 --num_shards 4
+**示例输出与判断**：
+```
+0, NVIDIA RTX 6000, 1200, 49140, 47940, 0     ← 空闲，可用
+1, NVIDIA RTX 6000, 45000, 49140, 4140, 95    ← 被占，跳过
+2, NVIDIA RTX 6000, 500, 49140, 48640, 0      ← 空闲，可用
+3, NVIDIA RTX 6000, 48000, 49140, 1140, 98    ← 被占，跳过
 ```
 
-### 单说话人测试
+→ 可用卡: GPU 0, 2 → `num_shards=2`
+
+### Step 1: 启动攻击（尽量多卡并行）
+
+根据 Step 0 探测到的空闲卡数量，**尽可能多卡并行**以加快速度。
+
+每张卡各自加载一份模型，处理不同的样本子集（按索引取模分配），互不干扰。
+
+**单卡运行**（只有 1 张空闲卡时）：
 
 ```bash
-CUDA_VISIBLE_DEVICES=6 python run_attack.py --mode esd --speaker_id 0001
+CUDA_VISIBLE_DEVICES=0 python run_attack.py --mode esd
+```
+
+**多卡并行**（假设 GPU 0,2,5,6 空闲，共 4 张）：
+
+```bash
+CUDA_VISIBLE_DEVICES=0 python run_attack.py --mode esd --shard_id 0 --num_shards 4 &
+CUDA_VISIBLE_DEVICES=2 python run_attack.py --mode esd --shard_id 1 --num_shards 4 &
+CUDA_VISIBLE_DEVICES=5 python run_attack.py --mode esd --shard_id 2 --num_shards 4 &
+CUDA_VISIBLE_DEVICES=6 python run_attack.py --mode esd --shard_id 3 --num_shards 4 &
+wait
+```
+
+**规则**：`num_shards` = 空闲卡总数，`shard_id` 从 0 递增，`CUDA_VISIBLE_DEVICES` 填实际空闲的物理 GPU 编号。
+
+### Step 2: 汇总结果
+
+分片模式下各进程只写每样本 JSON，不写汇总。全部跑完后统一生成：
+
+```bash
+python run_attack.py --aggregate_only
+```
+
+### 单说话人快速测试
+
+先跑一个说话人验证流程，再全量运行：
+
+```bash
+CUDA_VISIBLE_DEVICES=0 python run_attack.py --mode esd --speaker_id 0001
 ```
 
 ## 断点续跑
@@ -50,11 +92,13 @@ find result/ESDfinal/ -name "*.json" ! -name "summary_*" | wc -l
 for d in result/ESDfinal/*/; do echo "$(basename $d): $(ls $d/*.json 2>/dev/null | wc -l)"; done
 ```
 
-## 预期数据量
+## 预期数据量与耗时
 
 - 10 说话人 x 4 情绪（angry/neutral/sad/surprise）x ~350 条 ≈ 14,000 样本
 - 每样本产出：1 个 JSON（~17KB）+ 1 个 WAV（~100KB）
 - 预计总输出 ~1.6GB
+- 单卡耗时 ~1.5 分钟/样本 → 14,000 样本约 14 天
+- N 卡并行 → 约 14/N 天（4 卡 ≈ 3.5 天）
 
 ## 输出结构
 
