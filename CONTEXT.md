@@ -1,9 +1,10 @@
 # AI 协作指导文件
 
-> **最后更新**：2026-02-18
+> **最后更新**：2026-02-21
 > **研究人员**：徐振宇、李享
 
 ---
+
 
 # 第一部分：个性化要求（强制遵守）
 
@@ -121,6 +122,11 @@ $$\mathcal{L}(x') = \lambda_{\text{emo}} \mathcal{L}_{\text{emo}} + \lambda_{\te
 | `LATEST/白盒讲稿.md` | 汇报讲稿 |
 | `LATEST/情绪LLM白盒攻击研究.pptx` | 完整 PPT |
 | `LATEST/情绪LLM白盒攻击研究.pdf` | PPT 导出 PDF |
+| `code/modal_conflict/` | **Probe 实验**：音频内模态冲突机理（语义 vs 韵律），对应 2.1 节。250 样本 × 36 层 × 5-fold GroupKFold，输出 dominance 曲线 |
+| `code/logit_lens/` | **Logit Lens 实验**：逐层决策追踪，对应 2.1 节。197 冲突样本，输出 margin 曲线与 win-rate 曲线 |
+| `code/activation_patching/` | **Activation Patching 实验**：因果干预，对应 2.1–2.2 节。100 韵律对 + 100 语义对，输出 flip rate 与 delta logit 曲线 |
+| `code/white_box_v2/` | **白盒攻击代码（当前版本）**：PGD+EoT 对抗攻击框架。`codex/` 为通用实验模板，`experiment/` 为特定数据集实验版本 |
+| `code/white_box_v1/` | ~~已废弃，旧版方法论，请勿阅读~~ |
 | `PPT.pptx` | 演示文稿 |
 | `框架.png` | 论文大纲图 |
 | `paper/` | 参考文献（~20 篇） |
@@ -136,6 +142,7 @@ $$\mathcal{L}(x') = \lambda_{\text{emo}} \mathcal{L}_{\text{emo}} + \lambda_{\te
 | 2026-02-08 | 更新论文大纲，Observation 前置 |
 | 2026-02-14 | 精简第二部分（删公式推导、删早期探索、合并分块），聚焦第三部分至 Observation |
 | 2026-02-15 | Observation 从三节合并为两节（去掉 2.3）；2.2 重定位为纯机理（去除攻击数据）；更新文件索引与执行计划 |
+| 2026-02-21 | 新增实验代码文件索引（modal_conflict / logit_lens / activation_patching / white_box_v2） |
 
 ---
 
