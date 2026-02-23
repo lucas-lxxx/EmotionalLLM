@@ -174,6 +174,11 @@ def load_opens2s(model_path: Path, device: str, opens2s_root: Path) -> tuple[Any
     target_dtype = torch.bfloat16 if device.startswith("cuda") else torch.float32
     model = model.to(dtype=target_dtype)
     model.eval()
+
+    # Freeze model params: attack only needs grad w.r.t. input delta, not model weights.
+    # This avoids storing ~14GB of useless param gradients during backward.
+    model.requires_grad_(False)
+
     
     # Enable gradient checkpointing to save memory
     if hasattr(model, "gradient_checkpointing_enable"):

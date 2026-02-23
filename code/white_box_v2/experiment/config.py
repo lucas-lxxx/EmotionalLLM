@@ -13,7 +13,7 @@ class Config:
     results_dir: Path = Path(__file__).resolve().parent.parent / "result" / "ESDfinal"
 
     # ESD 数据集配置
-    esd_dataset_root: Path = Path("/data1/lixiang/ESD/CN")
+    esd_dataset_root: Path = Path("/data1/lixiang/OpenS2S_dataset/ESD/CN")
     esd_samples_per_emotion: int = 0  # 0 = 使用全部样本，不采样
     esd_exclude_emotion: str = "happy"
     results_by_speaker: bool = True
@@ -50,7 +50,7 @@ class Config:
     total_steps: int = 60  # 恢复为正式实验值
     stage_a_steps: int = 20  # 恢复为正式实验值
     lr: float = 0.003
-    optimizer: str = "adam"
+    optimizer: str = "sgd"
 
     lambda_emo: float = 1.0
     lambda_asr_stage_a: float = 1e-4
