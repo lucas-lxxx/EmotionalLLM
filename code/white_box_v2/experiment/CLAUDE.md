@@ -152,7 +152,12 @@ result/ESDfinal/
 
 ## 故障处理
 
-- **CUDA OOM**: 确认 GPU >= 48GB，或减少 `total_steps`
+- **CUDA OOM — 显存优化手段**（按优先级依次尝试）：
+  1. **SDPA 注意力**：在 `opens2s_io.py` 的 `from_pretrained()` 中添加 `attn_implementation="sdpa"`。PyTorch 2.0+ 内置，无需额外安装，省 3-5GB
+  2. **SGD 替代 Adam**：修改 `config.py` 中 `optimizer: str = "sgd"`。Adam 额外存储 2 倍参数量的动量/方差状态，SGD 无此开销，省约 5-8GB。注意 lr 可能需要调大（如 0.01）
+  3. **Flash Attention**：`from_pretrained()` 中添加 `attn_implementation="flash_attention_2"`，需 `pip install flash-attn`（编译安装，可能失败）
+  4. **8-bit 量化**：`pip install bitsandbytes`，然后 `from_pretrained()` 中添加 `load_in_8bit=True`，去掉 `torch_dtype` 参数。省约 50% 模型显存。注意：需验证梯度链是否仍然完整（8-bit 下梯度可能断裂）
+  5. 以上手段可叠加使用（如 SDPA + SGD）。模型已默认启用 bfloat16 + gradient checkpointing
 - **梯度链断裂**: 检查 OpenS2S 模型路径和依赖
 - **sentence-transformers 未安装**: `pip install sentence-transformers`
 - **断点续跑失败**: 检查 `config.py` 中 `skip_existing=True`

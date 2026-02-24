@@ -1,6 +1,6 @@
 # AI 协作指导文件
 
-> **最后更新**：2026-02-21
+> **最后更新**：2026-02-24
 > **研究人员**：徐振宇、李享
 
 ---
@@ -67,13 +67,13 @@ $$\mathcal{L}(x') = \lambda_{\text{emo}} \mathcal{L}_{\text{emo}} + \lambda_{\te
 
 机理分析揭示 ALLM 如何处理情绪相关的模态冲突，核心发现如下：
 
-**层级结构**（Probe 实验，247 条样本）：早层（0-14）韵律表征主导，中层（14-23）融合态，晚层（23-35）语义决策主导。关键边界在 14-15 层。
+**表征解耦与因果不对称**（Probe 实验，247 条样本）：早层（0-14）韵律表征优势（非因果主导），中层（14-23）融合态，晚层（23-35）语义表征接管。关键边界在 14-15 层。
 
-**决策追踪**（Logit Lens）：表征层面韵律更可读，但决策层面从第 23 层起语义逐步占主导——模型"听得出"韵律但"判断"时依赖语义。
+**决策轨迹**（Logit Lens）：早层 LM-head 投影产生低置信度弥散分布，Layer 23 起语义决策锁定。早层韵律表征优势未转化为决策偏好。
 
-**因果证据**（Activation Patching）：语义 patch 在早层（0-12）有强定向控制力（Flip to Target ~0.65），韵律 patch 效果弱（~0.14-0.26）。~14-15 层是 audio span 可控性边界，之后信息已扩散到全局位置。
+**因果证据**（Activation Patching）：语义 patch 在早层（0-12）有强定向因果控制力（Flip to Target ~0.65），韵律 patch 效果弱（~0.14-0.26）。~14-15 层是 audio span 可控性边界。中层后局部干预失效的原因标注为假说（待 position-level patching 验证）。
 
-**Prompt-Audio 冲突**（18 条音频 × 3 种条件）：当文本指令携带的情绪指向与音频情绪冲突时，文本指令在中层（5-20）保持强因果效应（PatchText 有效，PatchAudio 无效），冲突仲裁在 26-28 层固化为文本指向。即：ALLM 的情绪决策存在两级模态优先级——音频内语义 > 韵律（2.1），文本指令 > 音频整体信号（2.2）。
+**Prompt-Audio 冲突**（18 条音频 × 3 种条件，controlled pilot study）：文本指令在中层（5-20）建立因果主导（PatchText 有效，PatchAudio 无效），决策可读性在 26-28 层涌现。两级模态优先级（当前实验条件下）：音频内语义 > 韵律（2.1），文本指令 > 音频韵律（语义中性条件下，2.2）。
 
 ## D. 论文大纲与当前焦点
 
@@ -90,12 +90,13 @@ $$\mathcal{L}(x') = \lambda_{\text{emo}} \mathcal{L}_{\text{emo}} + \lambda_{\te
 附录
 ```
 
-**当前焦点**：Section 2 Observation LaTeX 初稿已完成（见 `2OBSERVATION/observation.tex`），写作风格参考 hallucinate\_yangming 论文 Section 3 的叙事技法优化。下一步需补充待验证实验（文中红色标注），并推进 Section 3 Threat Model 写作。
+**当前焦点**：Section 2 Observation LaTeX 已完成 P0+P1 级修订（见 `2OBSERVATION/observation.tex`）。下一步需补充待验证实验（文中红色标注，共 10 处），并推进 Section 3 Threat Model 写作。
 
-**Observation 写作状态**：
-- 2.1 音频内模态冲突机理：LaTeX 正文已完成，含 Probe/Logit Lens/Patching 三层分析 + 编号性质 (1)(2)(3) + 桥接句过渡
-- 2.2 跨模态冲突仲裁机理：LaTeX 正文已完成，含晚期层固化/文本因果主导两个发现 + 两级优先级总结 + 过渡至 Section 3
-- 待补充实验（共 8 处红色标注）：bootstrap CI、Probe 稳健性、unigram 基线、position-level patching、PatchAudio 不可逆性、Text-Dominance Index、压制机制归因、跨模型验证
+**Observation 写作状态**（已完成仲裁报告驱动的 P0+P1 修订）：
+- 2.1 表征解耦与因果不对称（音频内）：采用新框架表述，修正“早层韵律主导”为“早层韵律表征优势”，加 Probe/Logit Lens 方法论声明，小结采用分层证据语言（suggests/reveals/provides causal evidence），加 Patch 可比性讨论
+- 2.2 文本指令对音频韵律的主导：收缩 claim 边界（文本>音频韵律，语义中性条件），降格“结构性压制”为“因果贡献的跨模态不对称”，“不可逆固化”降为 consolidation phase，新增“决策完成与决策可读的区分”子节
+- 2.2.6 过渡段重写为三层递进：硬约束→ Vulnerability Window 假说→设计必然性
+- 待补充实验（共 10 处红色标注）：Probe 稳健性、bootstrap CI、verbalizer 敏感性、Patch 可比性定量数据、position-level patching、PatchAudio 不可逆性、桥句闭环实验、Text-Dominance Index、压制机制归因、跨模型验证
 
 **关键写作原则**：
 - Observation 中不出现攻击成功率等实验结果数据（属于 Section 5）
@@ -143,6 +144,7 @@ $$\mathcal{L}(x') = \lambda_{\text{emo}} \mathcal{L}_{\text{emo}} + \lambda_{\te
 | 2026-02-14 | 精简第二部分（删公式推导、删早期探索、合并分块），聚焦第三部分至 Observation |
 | 2026-02-15 | Observation 从三节合并为两节（去掉 2.3）；2.2 重定位为纯机理（去除攻击数据）；更新文件索引与执行计划 |
 | 2026-02-21 | 新增实验代码文件索引（modal_conflict / logit_lens / activation_patching / white_box_v2） |
+| 2026-02-24 | Observation 完成 P0+P1 修订：新叙事框架（表征解耦与因果不对称）、claim 收缩、过渡段重写、方法论声明、中英文统一 |
 
 ---
 
@@ -157,14 +159,12 @@ C 节发现与论文小节的映射：
 - C 节 Prompt-Audio 冲突实验 → 支撑 2.2（文本指令如何覆盖音频情绪信号）
 - 2.1–2.2 的机理发现 → 自然过渡至 Section 3 Threat Model 与 Section 4 方法论设计
 
-**2.1 音频内模态冲突机理（语义 vs 韵律）**
-- 已有数据：Probe 层级结构、Logit Lens 决策轨迹、Activation Patching 因果证据
-- 待办：Probe 稳健性验证（交叉验证、随机标签对照）、Logit Lens 词表敏感性测试、负对照实验（非冲突样本）、统计显著性（bootstrap CI）
-- 产出：可写入论文正文的图表与结论
+**2.1 表征解耦与因果不对称（音频内）**
+- 已完成：Probe/Logit Lens/Patching 三层分析正文 + 方法论声明 + 分层证据语言小结 + Patch 可比性讨论
+- 待补充：Probe 稳健性、bootstrap CI、verbalizer 敏感性、position-level patching、Layer 14-15 vs 23 边界归因
 
-**2.2 跨模态冲突仲裁机理（文本指令 vs 音频信号）**
-- 已有数据：Prompt-Audio 冲突实验（三组对照的 Logit Lens 差分 + Activation Patching）
-- 待办：文本主导性量化指标（Text-Dominance Index）、不同指令复杂度对中层主导性的影响、仲裁固化不可逆性验证、跨模型复现
-- 产出：两级模态优先级的因果证据链 + 过渡至 Section 3
+**2.2 文本指令对音频韵律的主导**
+- 已完成：决策可读性涌现 + 因果不对称 + 决策完成vs可读区分 + 两级优先级 + 三层递进过渡段
+- 待补充：Text-Dominance Index、压制机制归因、PatchAudio 不可逆性、桥句闭环实验、跨模型验证
 
 **完成判据**：两节内容形成递进（音频内→跨模态），每条结论有实验证据支撑，不包含攻击方法或攻击结果的引用，可直接写入论文正文。

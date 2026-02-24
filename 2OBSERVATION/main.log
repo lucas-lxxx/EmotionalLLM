@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.18)  18 FEB 2026 13:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.18)  24 FEB 2026 14:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -702,110 +702,111 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./observation.tex
-LaTeX Font Info:    Trying to load font information for C70+rm on input line 9.
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 6.
  (c:/texlive/2025/texmf-dist/tex/latex/ctex/fd/c70rm.fd
 File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
 )
-Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 9.
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 6.
  (c:/texlive/2025/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
 File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdfTeX and DVIPDFMx (CTEX)
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd}) [1
 
 {c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<figures/fig_probe_accuracy.png, id=232, 860.4948pt x 427.3566pt>
+Overfull \hbox (28.7893pt too wide) in paragraph at lines 33--34
+[]\OT1/cmr/bx/n/12 (3) \C70/rm/bx/n/12/66 Z \C70/rm/bx/n/12/5c B \C70/rm/bx/n/12/8b Ì \C70/rm/bx/n/12/4e I \C70/rm/bx/n/12/88 h \C70/rm/bx/n/12/5f Å \C70/rm/bx/n/12/63 • \C70/rm/bx/n/12/7b ° |\C70/rm/bx/n/12/ff ^^H|\OT1/cmr/bx/n/12 Layer 23--35|\C70/rm/bx/n/12/ff 	||\C70/rm/bx/n/12/30 ^^B|  \C70/rm/m/n/12/8b Ì \C70/rm/m/n/12/4e I \C70/rm/m/n/12/51 ∆ \C70/rm/m/n/12/78 n \C70/rm/m/n/12/73 á \C70/rm/m/n/12/57 ( \OT1/cmr/m/n/12 Layer 27 \C70/rm/m/n/12/8f æ \C70/rm/m/n/12/52 0 \C70/rm/m/n/12/5c  \C70/rm/m/n/12/50 < |\C70/rm/m/n/12/ff ^^H|$[][] \OMS/cmsy/m/n/12 ^^Y
+ []
+
+<figures/fig_probe_accuracy.png, id=216, 860.4948pt x 427.3566pt>
 File: figures/fig_probe_accuracy.png Graphic file (type png)
 <use figures/fig_probe_accuracy.png>
-Package pdftex.def Info: figures/fig_probe_accuracy.png  used on input line 51.
+Package pdftex.def Info: figures/fig_probe_accuracy.png  used on input line 37.
 (pdftex.def)             Requested size: 432.48051pt x 214.79285pt.
-<figures/fig_probe_dominance.png, id=234, 860.4948pt x 427.3566pt>
+<figures/fig_probe_dominance.png, id=218, 860.4948pt x 427.3566pt>
 File: figures/fig_probe_dominance.png Graphic file (type png)
 <use figures/fig_probe_dominance.png>
-Package pdftex.def Info: figures/fig_probe_dominance.png  used on input line 58.
+Package pdftex.def Info: figures/fig_probe_dominance.png  used on input line 44.
 (pdftex.def)             Requested size: 432.48051pt x 214.79285pt.
- [2 <./figures/fig_probe_accuracy.png>]
-Overfull \hbox (1.03772pt too wide) in paragraph at lines 85--86
- []\OT1/cmr/bx/n/12 Layer 0--22|\C70/rm/bx/n/12/ff ^^Z| \C70/rm/bx/n/12/51 ≥ \C70/rm/bx/n/12/7b V \C70/rm/bx/n/12/67 * \C70/rm/bx/n/12/62 ^^P \C70/rm/bx/n/12/5f b|\C70/rm/bx/n/12/30 ^^B| [] \OT1/cmr/m/n/12 Mar-gin \C70/rm/m/n/12/57 ( \C70/rm/m/n/12/96 ˆ D \C70/rm/m/n/12/8f — \C70/rm/m/n/12/6c ‚ \C70/rm/m/n/12/52 ®|\C70/rm/m/n/12/ff ^^L| \C70/rm/m/n/12/59 ' \C70/rm/m/n/12/91 œ \C70/rm/m/n/12/68 7 \C70/rm/m/n/12/67 , \C70/rm/m/n/12/76 Ñ \OT1/cmr/m/n/12 argmax \C70/rm/m/n/12/8f ì \C70/rm/m/n/12/51 ˙ \C70/rm/m/n/12/4e :\OT1/cmr/m/n/12 "other"
- []
+[2 <./figures/fig_probe_accuracy.png>]
 
-[3 <./figures/fig_probe_dominance.png>]
-<figures/fig_logit_margin.png, id=300, 858.5676pt x 423.984pt>
+LaTeX Warning: Citation `belrose2023tuned' on page 3 undefined on input line 65.
+
+<figures/fig_logit_margin.png, id=252, 858.5676pt x 423.984pt>
 File: figures/fig_logit_margin.png Graphic file (type png)
 <use figures/fig_logit_margin.png>
-Package pdftex.def Info: figures/fig_logit_margin.png  used on input line 92.
+Package pdftex.def Info: figures/fig_logit_margin.png  used on input line 75.
 (pdftex.def)             Requested size: 432.48051pt x 213.57pt.
-<figures/fig_logit_winrate.png, id=301, 858.5676pt x 423.984pt>
+<figures/fig_logit_winrate.png, id=253, 858.5676pt x 423.984pt>
 File: figures/fig_logit_winrate.png Graphic file (type png)
 <use figures/fig_logit_winrate.png>
-Package pdftex.def Info: figures/fig_logit_winrate.png  used on input line 99.
+Package pdftex.def Info: figures/fig_logit_winrate.png  used on input line 82.
 (pdftex.def)             Requested size: 432.48051pt x 213.57pt.
-
-Overfull \hbox (10.61852pt too wide) in paragraph at lines 116--117
-[]\OT1/cmr/bx/n/12 Delta Logit (Tar-get)|\C70/rm/m/n/12/ff ^^Z| \C70/rm/m/n/12/4f Ó \C70/rm/m/n/12/88 e \C70/rm/m/n/12/5f ^^U \C70/rm/m/n/12/8d w \C70/rm/m/n/12/76 Ñ Ó \C70/rm/m/n/12/68 ^^G \OT1/cmr/m/n/12 to-ken logit \C70/rm/m/n/12/53 ÿ ^^V|\C70/rm/m/n/12/ff ^^L| $\OT1/cmr/m/n/12 ^^A(\OML/cmm/m/it/12 `\OT1/cmr/m/n/12 ) = [][](\OML/cmm/m/it/12 y[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^@
- []
-
-[4 <./figures/fig_logit_margin.png>]
-<figures/fig_patch_flip_semantic.png, id=321, 858.5676pt x 423.984pt>
+[3 <./figures/fig_probe_dominance.png>] [4 <./figures/fig_logit_margin.png> <./figures/fig_logit_winrate.png>]
+<figures/fig_patch_flip_semantic.png, id=288, 858.5676pt x 423.984pt>
 File: figures/fig_patch_flip_semantic.png Graphic file (type png)
 <use figures/fig_patch_flip_semantic.png>
-Package pdftex.def Info: figures/fig_patch_flip_semantic.png  used on input line 131.
+Package pdftex.def Info: figures/fig_patch_flip_semantic.png  used on input line 114.
 (pdftex.def)             Requested size: 218.51521pt x 107.90422pt.
-<figures/fig_patch_flip_prosody.png, id=322, 858.5676pt x 423.984pt>
+<figures/fig_patch_flip_prosody.png, id=289, 858.5676pt x 423.984pt>
 File: figures/fig_patch_flip_prosody.png Graphic file (type png)
 <use figures/fig_patch_flip_prosody.png>
-Package pdftex.def Info: figures/fig_patch_flip_prosody.png  used on input line 136.
+Package pdftex.def Info: figures/fig_patch_flip_prosody.png  used on input line 119.
 (pdftex.def)             Requested size: 218.51521pt x 107.90422pt.
-<figures/fig_patch_delta_semantic.png, id=323, 858.5676pt x 423.984pt>
+<figures/fig_patch_delta_semantic.png, id=290, 858.5676pt x 423.984pt>
 File: figures/fig_patch_delta_semantic.png Graphic file (type png)
 <use figures/fig_patch_delta_semantic.png>
-Package pdftex.def Info: figures/fig_patch_delta_semantic.png  used on input line 146.
+Package pdftex.def Info: figures/fig_patch_delta_semantic.png  used on input line 129.
 (pdftex.def)             Requested size: 218.51521pt x 107.90422pt.
-<figures/fig_patch_delta_prosody.png, id=324, 858.5676pt x 423.984pt>
+<figures/fig_patch_delta_prosody.png, id=291, 858.5676pt x 423.984pt>
 File: figures/fig_patch_delta_prosody.png Graphic file (type png)
 <use figures/fig_patch_delta_prosody.png>
-Package pdftex.def Info: figures/fig_patch_delta_prosody.png  used on input line 151.
+Package pdftex.def Info: figures/fig_patch_delta_prosody.png  used on input line 134.
 (pdftex.def)             Requested size: 218.51521pt x 107.90422pt.
- [5 <./figures/fig_logit_winrate.png> <./figures/fig_patch_flip_semantic.png> <./figures/fig_patch_flip_prosody.png>] [6 <./figures/fig_patch_delta_semantic.png> <./figures/fig_patch_delta_prosody.png>]
-<figures/fig_text_logit_lens.jpg, id=355, 620.3175pt x 362.10281pt>
+ [5 <./figures/fig_patch_flip_semantic.png> <./figures/fig_patch_flip_prosody.png> <./figures/fig_patch_delta_semantic.png> <./figures/fig_patch_delta_prosody.png>] [6]
+<figures/fig_text_logit_lens.jpg, id=320, 620.3175pt x 362.10281pt>
 File: figures/fig_text_logit_lens.jpg Graphic file (type jpg)
 <use figures/fig_text_logit_lens.jpg>
-Package pdftex.def Info: figures/fig_text_logit_lens.jpg  used on input line 214.
+Package pdftex.def Info: figures/fig_text_logit_lens.jpg  used on input line 176.
 (pdftex.def)             Requested size: 386.96027pt x 225.88272pt.
- [7]
-Overfull \hbox (21.84863pt too wide) in paragraph at lines 224--225
-\C70/rm/m/n/12/97 b \C70/rm/m/n/12/4e ; \C70/rm/m/n/12/5b ¸ \C70/rm/m/n/12/8f Ÿ \C70/rm/m/n/12/4e ^^@ Ú \C70/rm/m/n/12/88 ¡|\C70/rm/m/n/12/30 ^^B| \C70/rm/m/n/12/62 ^^Q \C70/rm/m/n/12/4e Ï \C70/rm/m/n/12/52 ^^F + \C70/rm/m/n/12/57 ( \C70/rm/m/n/12/54 ^^D \C70/rm/m/n/12/5c B \C70/rm/m/n/12/4f Ó \C70/rm/m/n/12/88 e \C70/rm/m/n/12/65 á \C70/rm/m/n/12/67 , \OT1/cmr/m/n/12 to-ken |\C70/rm/m/n/12/ff ^^H|\OT1/cmr/m/n/12 PatchText|\C70/rm/m/n/12/ff 	| \C70/rm/m/n/12/54 å \C70/rm/m/n/12/97 Û \C70/rm/m/n/12/98 ë \OT1/cmr/m/n/12 to-ken |\C70/rm/m/n/12/ff ^^H|\OT1/cmr/m/n/12 PatchAudio|\C70/rm/m/n/12/ff 	|
+
+Overfull \hbox (27.3596pt too wide) in paragraph at lines 192--193
+|\C70/rm/m/n/12/ff ^^H|\OT1/cmr/m/n/12 Attention \C70/rm/m/n/12/67 C \C70/rm/m/n/12/91 Õ Õ \C70/rm/m/n/12/52 ^^F \C70/rm/m/n/12/91 M|\C70/rm/m/n/12/30 ^^A| \OT1/cmr/m/n/12 MLP \C70/rm/m/n/12/5c B \C70/rm/m/n/12/76 Ñ \C70/rm/m/n/12/97 ^ \C70/rm/m/n/12/7e ø \C70/rm/m/n/12/60 ' \C70/rm/m/n/12/6d à \C70/rm/m/n/12/89 „|\C70/rm/m/n/12/30 ^^A| \C70/rm/m/n/12/62 ë ^^V \C70/rm/m/n/12/88 h \C70/rm/m/n/12/5f Å \C70/rm/m/n/12/7a ﬁ \C70/rm/m/n/12/4e â|\C70/rm/m/n/12/ff 	| \C70/rm/m/n/12/4e Õ \C70/rm/m/n/12/66 / \C70/rm/m/n/12/5f ^^@ \C70/rm/m/n/12/65 > \C70/rm/m/n/12/95 Ó \C70/rm/m/n/12/98 ò |\C70/rm/m/n/12/ff ^^H|\OT1/cmr/m/it/12 hypothesis|\C70/rm/m/n/12/ff 	||^^L|
  []
 
-<figures/fig_text_patch_flip.jpg, id=375, 563.10374pt x 187.45032pt>
+<figures/fig_text_patch_flip.jpg, id=322, 563.10374pt x 187.45032pt>
 File: figures/fig_text_patch_flip.jpg Graphic file (type jpg)
 <use figures/fig_text_patch_flip.jpg>
-Package pdftex.def Info: figures/fig_text_patch_flip.jpg  used on input line 239.
+Package pdftex.def Info: figures/fig_text_patch_flip.jpg  used on input line 198.
 (pdftex.def)             Requested size: 218.51521pt x 72.74207pt.
-<figures/fig_text_patch_delta.jpg, id=376, 563.10374pt x 191.9672pt>
+<figures/fig_text_patch_delta.jpg, id=323, 563.10374pt x 191.9672pt>
 File: figures/fig_text_patch_delta.jpg Graphic file (type jpg)
 <use figures/fig_text_patch_delta.jpg>
-Package pdftex.def Info: figures/fig_text_patch_delta.jpg  used on input line 244.
+Package pdftex.def Info: figures/fig_text_patch_delta.jpg  used on input line 203.
 (pdftex.def)             Requested size: 218.51521pt x 74.49489pt.
-[8 <./figures/fig_text_logit_lens.jpg>] [9 <./figures/fig_text_patch_flip.jpg> <./figures/fig_text_patch_delta.jpg>]) [10] (./main.aux)
+[7 <./figures/fig_text_logit_lens.jpg>] [8 <./figures/fig_text_patch_flip.jpg> <./figures/fig_text_patch_delta.jpg>]) [9] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2022/07/14>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 95A6C17907CA2AE4F3B7DA3E2229F783;1990.
+(rerunfilecheck)             Checksum: C1A4183AB8452952D5B90F9E95DBFF0E;2117.
  ) 
 Here is how much of TeX's memory you used:
- 15626 strings out of 467533
- 255808 string characters out of 5423668
- 672129 words of memory out of 5000000
- 43907 multiletter control sequences out of 15000+600000
- 687840 words of font info for 260 fonts, out of 8000000 for 9000
+ 15388 strings out of 467533
+ 251977 string characters out of 5423668
+ 673616 words of memory out of 5000000
+ 43777 multiletter control sequences out of 15000+600000
+ 673999 words of font info for 209 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,8n,92p,864b,536s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (10 pages, 1446879 bytes).
+ 78i,8n,92p,832b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (9 pages, 1345199 bytes).
 PDF statistics:
- 973 PDF objects out of 1000 (max. 8388607)
- 675 compressed objects within 7 object streams
- 59 named destinations out of 1000 (max. 500000)
- 460 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 801 PDF objects out of 1000 (max. 8388607)
+ 542 compressed objects within 6 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 444 words of extra memory for PDF output out of 10000 (max. 10000000)
 
