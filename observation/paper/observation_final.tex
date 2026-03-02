@@ -1,0 +1,98 @@
+% Section: Observation
+% Rewritten in NDSS-style academic English following the writing style specification
+
+\section{Emotion Representation Hierarchy and Cross-Modal Dominance}
+\label{sec:observation}
+
+Before designing adversarial attacks against Audio Large Language Models (ALLMs), we need to understand how these models process emotional information internally. Using three progressively stronger analytical tools---representation probing, logit lens decoding, and activation patching---we examine the emotion judgment pipeline of the OpenS2S model. Our analysis reveals that ALLM emotion processing follows a predictable, layered architecture: different signal types exert influence within distinct layer intervals, and the causal basis for emotion decisions concentrates in localizable regions of the network. These structural characteristics provide the observational foundation for the threat model (Section~\ref{sec:threat_model}) and attack methodology (Section~\ref{sec:methodology}) developed later.
+
+\subsection{Hierarchical Processing of Intra-Audio Semantic-Prosodic Conflict}
+\label{sec:obs_intra}
+
+To isolate how the model resolves competing emotional cues within a single audio input, we constructed a semantic-prosodic conflict dataset comprising 247 audio samples (197 conflicting, 50 consistent) across five emotion categories (neutral, happy, sad, angry, surprised). All samples were synthesized using CosyVoice TTS, allowing independent manipulation of semantic content and prosodic style; inference employed a fixed neutral prompt (``What is the emotion of this audio?'') to eliminate task-conditioning variables. Three analytical tools were applied in order of increasing evidential strength: linear probes for representation readability (GroupKFold 5-fold cross-validation, grouped by text\_id to prevent data leakage), logit lens for decision trajectory tracking (projecting each layer's hidden state through the final layer norm onto the LM head to obtain a restricted 5-way emotion distribution at the last input token position), and activation patching for causal intervention. A critical distinction underpins the analysis: representation readability $\neq$ decision adoption $\neq$ causal control---evidence at these three levels differs in nature and must be interpreted separately.
+
+\textbf{(1) Emotion encoding follows a predictable three-phase layered structure.} We trained linear probe classifiers at each layer to predict semantic and prosodic emotion labels independently, defining a dominance index $D(\ell) = \text{Acc}_{\text{prosody}}(\ell) - \text{Acc}_{\text{semantic}}(\ell)$ where positive values indicate greater linear decodability of prosodic information. The resulting profile reveals three distinct processing phases, as shown in Fig.~\ref{fig:probe}.
+
+During acoustic encoding (Layers 0--14), prosodic probe accuracy substantially exceeds semantic accuracy ($D \approx +0.15$, peaking at $D = 0.215$ at Layer 5), reflecting the rich paralinguistic features preserved from the audio encoder output. The two signals then converge in an integration phase (Layers 14--23, $D \to 0$), with a sign reversal at Layers 14--15 marking the onset of competition for representational subspace. In the decision crystallization phase (Layers 23--35), semantic accuracy briefly dominates around Layers 26--28 ($D \approx -0.04$), though $D$ values remain close to zero overall. This predictable layered structure means the critical processing stages are localizable---a property with direct implications for targeted intervention.
+
+\textbf{(2) Prosodic representation advantage does not propagate to decision output.} Probe accuracy captures what is linearly readable from the hidden state but not whether the model relies on that information for its output. The logit lens addresses this gap by projecting each layer's hidden state onto the vocabulary space, yielding a decision trajectory over the restricted 5-way emotion labels. We define $\text{Margin}(\ell) = \text{logit}_{\text{prosody}}(\ell) - \text{logit}_{\text{semantic}}(\ell)$, where positive values indicate a decision leaning toward the prosodic label.
+
+Despite clear prosodic dominance in representation space during Layers 0--14, the Margin hovers near zero throughout this interval, as displayed in Fig.~\ref{fig:logit_lens}(a). The representation advantage fails to translate into decision preference. Starting from Layer 23, the Margin turns persistently negative (reaching $\approx -4$), indicating progressive semantic lock-in. Win-rate analysis (Fig.~\ref{fig:logit_lens}(b)) corroborates this pattern: early layers exhibit a high proportion of ``Other'' category dominance, reflecting an uncommitted decision state, while semantic win-rate surges between Layers 22--25, marking decision emergence.
+
+The structural disconnect carries a concrete security implication. The signal the model ``hears'' most strongly in its representations (prosody) and the signal it ultimately ``adopts'' for output (semantics) are systematically misaligned. Manipulating the decision-driving channel may therefore prove more efficient than targeting the perceptually dominant one.
+
+We further quantified the evolution of decision confidence through entropy trajectory analysis over the restricted 5-way distribution ($H(\ell) = -\sum_v p_v \log_2 p_v$), as depicted in Fig.~\ref{fig:entropy}. Entropy peaks at Layer 4 (1.64 bits), undergoes its steepest drop at Layer 12 ($\Delta H = -0.66$ bits), and reaches a local minimum at Layer 19 (0.13 bits). Between Layers 21--24, a notable entropy rebound ($\approx 1.0$ bits) suggests the model engages in active deliberation within this interval. This deliberation window aligns with the semantic decision emergence observed in the Margin trajectory beyond Layer 22.
+
+\textbf{(3) Semantic content exerts strong directional causal control within the audio span.} Activation patching provides the strongest form of evidence---direct causal intervention on internal representations. We define the \textit{audio span} as the contiguous hidden-state positions corresponding to the audio encoder output mapped into the Transformer's latent space. Two sets of paired samples were constructed: semantic pairs sharing prosody but differing in semantic content (100 pairs), and prosodic pairs sharing text but differing in prosody (100 pairs). At each layer, audio span hidden states from a source sample replaced those of a target, and the resulting output shift was measured.
+
+Semantic patching yields strong directional control (blue curve in Fig.~\ref{fig:patching}(a)): Flip-to-Target rate holds at $\approx 0.63$ across Layers 0--12 with Delta Logit values between $\approx 5$ and $6$, demonstrating that semantic replacement systematically redirects the model's output toward the source label. Prosodic patching produces a markedly weaker effect. Peak Flip-to-Target reaches merely $\approx 0.24$ (red curve) with Delta Logit $\approx 2.3$, and flip directions remain unstable across samples.
+
+A sharp architectural boundary appears at Layers 14--15. Beyond this point, both semantic and prosodic patching effects---Flip-to-Target and Delta Logit alike---decay rapidly to near zero. This boundary marks the limit of causal controllability within the audio span: information has diffused from local token positions into the global representation, rendering localized replacement ineffective. The causal evidence thus identifies a concrete attack surface: manipulating semantic representations at Layers 0--12 enables precise control over emotion output, with Layers 14--15 constituting the physical boundary of effective intervention.
+
+The three analytical tools yield a coherent evidence chain with increasing causal rigor: representation exhibits predictable layered structure, this representational advantage does not propagate to the decision output, and semantic content---not prosody---holds directional causal control over the model's emotion judgment. When external text instructions also carry emotional content, a natural question arises: how does this intra-audio hierarchy interact with cross-modal conflict?
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\linewidth]{fig_2_1_probe}
+    \caption{Probe analysis on conflict samples (5-fold CV). (a) Layer-by-layer semantic and prosodic probe accuracy; shading indicates $\pm 1$ SD. (b) Dominance curve $D(\ell)$; orange and blue regions mark prosody- and semantic-dominant intervals. Dashed lines denote three-phase boundaries (L14, L23).}
+    \label{fig:probe}
+\end{figure}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\linewidth]{fig_2_2_logit_lens}
+    \caption{Logit lens analysis on conflict samples. (a) Layer-by-layer Margin; shading indicates 95\% bootstrap CI. (b) Win-rate stacked plot; dashed lines mark the 95\% CI boundary for semantic win-rate.}
+    \label{fig:logit_lens}
+\end{figure}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.7\linewidth]{fig_2_2c_entropy}
+    \caption{Entropy trajectory over the 5-way restricted distribution. Dashed line marks the steepest drop (Layer 12). Gray dashed line indicates the uniform-distribution entropy upper bound ($\log_2 5 \approx 2.32$ bits). Shading indicates 95\% bootstrap CI.}
+    \label{fig:entropy}
+\end{figure}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\linewidth]{fig_2_3_patching}
+    \caption{Activation patching results over the audio span. (a) Flip-to-Target rate (semantic vs.\ prosodic patch). (b) Delta Logit shift. Shading indicates 95\% bootstrap CI. Both metrics decay to zero beyond Layers 14--15.}
+    \label{fig:patching}
+\end{figure}
+
+\subsection{Emergent Text Dominance in Cross-Modal Emotion Conflict}
+\label{sec:obs_cross}
+
+We next examine how text instructions interact with audio-borne emotional signals under controlled conflict. The experiment uses 18 semantically neutral audio samples (emotion conveyed solely through prosody) at 5 prosodic intensity levels under three conditions: Audio-only (neutral prompt), Conflict (prompt-specified emotion $T \neq$ audio prosody $A$), and Consistent ($T = A$). Fixing semantic content to neutral isolates the pure text-versus-prosody conflict. Analysis employed logit lens and activation patching. This experiment constitutes a \textbf{pilot study} (logit lens: $N=18$ per condition; patching: $N=3$), and all conclusions carry corresponding confidence limitations.
+
+\textbf{(1) Text instruction dominance emerges abruptly in late layers.} Logit lens analysis reveals that the text instruction's override of audio emotion is not a gradual suppression across all layers but an abrupt emergence concentrated in Layers 22--28. We define $\Delta\text{logit}(\ell) = \text{logit}_{\text{text\_emo}}(\ell) - \text{logit}_{\text{audio\_emo}}(\ell)$ to quantify the relative decision pull at each layer. Under Audio-only, $\Delta$logit drops to $\approx -5$ in late layers as the model favors the audio prosodic emotion. Under Conflict, $\Delta$logit surges to $\approx +10$ between Layers 22--28, indicating complete text override. Under the Consistent condition, $\Delta$logit stays near zero with no conflict to arbitrate. Across all three conditions, $\Delta$logit differences remain small through the first 22 layers; the decision divergence appears abruptly within the Layer 22--28 window.
+
+This decision emergence window overlaps substantially with the semantic lock-in interval identified in the intra-audio analysis (Section~\ref{sec:obs_intra}), suggesting that the model performs unified modality arbitration within a shared layer range. The concentration of text influence in a specific interval---rather than uniformly across all layers---implies that adversarial audio perturbations must inject sufficiently strong signals before this window to resist text-channel override.
+
+% TODO: Fig 2.4 pending cross-modal Logit Lens data processing
+
+\textbf{(2) Causal control is asymmetrically distributed across modalities.} Pilot-scale activation patching ($N=3$) offers preliminary causal evidence for cross-modal dominance. PatchText (replacing hidden states in the text token region) yields Flip Rates of $\approx 0.55$--$1.0$ across Layers 0--15 and maintains positive Logit Shift through Layers 5--20, indicating that text instructions establish causal dominance as early as the middle layers. PatchAudio (replacing hidden states in the audio token region) produces lower, less stable Flip Rates (0.2--0.4) with negative Logit Shift values persisting through Layers 10--15.
+
+These preliminary results suggest that text instructions establish causal dominance in the middle layers (Layers 5--20), while the audio signal's independent causal contribution weakens progressively. We term this pattern \textit{structural washout}. From a defensive standpoint, prompt design may serve as a powerful lever for emotion control and attack mitigation; from an offensive standpoint, audio-side adversarial perturbations must overcome the text channel's override, tying attack difficulty directly to prompt configuration. Given the limited sample size ($N=3$), these causal conclusions carry wide confidence intervals, and the structural washout hypothesis awaits validation at larger scale.
+
+% TODO: Fig 2.5 pending expanded-scale EXP-3 data
+
+The intra-audio and cross-modal findings converge on a two-tier modality priority structure governing ALLM emotion processing. Within the audio modality, semantic content causally dominates prosody; across modalities, text instructions override audio prosody through late-layer emergence and mid-layer causal establishment. Table~\ref{tab:arch_params} summarizes the key architectural parameters identified across both analyses.
+
+\begin{table}[t]
+\centering
+\caption{Key architectural parameters of ALLM emotion processing.}
+\label{tab:arch_params}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Parameter} & \textbf{Layer Interval} & \textbf{Evidence Source} \\
+\midrule
+Causal control window (intra-audio) & L0--12 & Patching \\
+Audio span diffusion boundary & L14--15 & Patching \\
+Decision emergence / lock-in window & L22--28 & Logit Lens, Entropy \\
+Text causal dominance interval & L5--20 & Cross-modal Patching$^\dagger$ \\
+\bottomrule
+\multicolumn{3}{l}{\small $^\dagger$Pilot study, $N=3$.}
+\end{tabular}
+\end{table}
+
+These observations point to an architectural property of the model: the audio representation $\mathbf{h} = f_{\text{audio}}(\mathbf{x})$ is shared across prompt conditions, and the causal determinants of emotion judgments concentrate in localizable layer intervals and signal types. These structural characteristics are not design flaws but inherent properties of multi-modal fusion architectures. The predictable, localizable manipulation space they expose motivates the formal threat model developed in Section~\ref{sec:threat_model}.

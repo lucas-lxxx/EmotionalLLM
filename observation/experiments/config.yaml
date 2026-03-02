@@ -1,0 +1,71 @@
+# OPUS 补充实验统一配置
+# 服务器路径版本 — 本地运行时需修改 base paths
+
+# === 基础路径 ===
+paths:
+  # 已有实验输出（只读）
+  logit_lens_outputs: /data1/lixiang/EmotionalLLM/code/logit_lens/outputs/
+  patching_outputs: /data1/lixiang/EmotionalLLM/code/activation_patching/outputs/
+  modal_conflict_outputs: /data1/lixiang/EmotionalLLM/code/modal_conflict/outputs/
+  # 已有代码（用于复用工具函数）
+  modal_conflict_src: /data1/lixiang/EmotionalLLM/code/modal_conflict/src/
+  opens2s_io_path: /data1/lixiang/EmotionalLLM/code/white_box_v2/ver2.0/opens2s_io.py
+  opens2s_root: /data1/lixiang/Opens2s/OpenS2S/
+  # 新实验输出
+  opus_results: /data1/lixiang/OPUS/results/
+  opus_figures: /data1/lixiang/OPUS/figures/
+
+# === 数据集 ===
+data:
+  text_jsonl: /data1/lixiang/OpenS2S_dataset/TTS_modal_conflict/text.jsonl
+  audio_root: /data1/lixiang/OpenS2S_dataset/TTS_modal_conflict/
+  dataset_module: /data1/lixiang/EmotionalLLM/code/modal_conflict/src/data/dataset.py
+  emotions:
+    - neutral
+    - happy
+    - sad
+    - angry
+    - surprised
+
+# === 模型 ===
+model:
+  model_path: /data1/lixiang/Opens2s/OpenS2S/models/OpenS2S/
+  src_path: /data1/lixiang/Opens2s/OpenS2S/src/
+  n_layers: 36
+  hidden_size: 4096
+  device: cuda
+  dtype: bfloat16
+
+# === Prompt（与已有实验一致）===
+prompt: "What is the emotion of this audio? Answer with exactly one word: neutral, happy, sad, angry, or surprised."
+system_prompt: "You are a helpful assistant."
+
+# === EXP-1: Bootstrap CI ===
+bootstrap:
+  n_bootstrap: 1000
+  ci_level: 0.95
+  seed: 42
+
+# === EXP-2: Entropy Trajectory ===
+entropy:
+  temperature: 1.0  # softmax temperature
+
+# === EXP-3: Cross-modal Patching Scale-up ===
+cross_modal_patching:
+  max_pairs: 20
+  align_strategy: truncate_to_min
+  patch_alpha: 1.0
+  cache_device: cpu
+  layers_to_patch: []  # empty = all layers
+  pairing_seed: 42
+
+# === EXP-4: MLP Probe ===
+mlp_probe:
+  hidden_dims: [512, 128]
+  dropout: 0.1
+  learning_rate: 0.001
+  weight_decay: 0.01
+  epochs: 100
+  patience: 10
+  batch_size: 32
+  n_splits: 5

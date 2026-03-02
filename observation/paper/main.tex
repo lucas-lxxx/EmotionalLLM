@@ -1,0 +1,34 @@
+\documentclass[a4paper, 10pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[margin=2.5cm]{geometry}
+
+% Figure/table search path
+\graphicspath{{../figures/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+% TODO marker
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+
+\begin{document}
+
+\title{Observation Section --- Draft}
+\author{}
+\date{}
+\maketitle
+
+% Phantom forward references (Sections 3/4 not yet written)
+\newcounter{phantomsec}
+\setcounter{phantomsec}{3}
+\label{sec:threat_model}
+\setcounter{phantomsec}{4}
+\label{sec:methodology}
+
+\input{observation_final}
+
+\end{document}

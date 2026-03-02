@@ -1,0 +1,59 @@
+# EXP-4: MLP Probe 稳健性验证
+# 基于已有 modal_conflict 实验框架，仅将 probe type 从 linear 改为 mlp
+# 在服务器上运行: python scripts/run_experiment.py --config <this_file>
+
+# 数据配置（与原实验一致）
+data:
+  text_jsonl: /data1/lixiang/OpenS2S_dataset/TTS_modal_conflict/text.jsonl
+  audio_root: /data1/lixiang/OpenS2S_dataset/TTS_modal_conflict/
+  emotions:
+    - neutral
+    - happy
+    - sad
+    - angry
+    - surprised
+
+prompt: "What is the emotion of this audio? Answer with exactly one word: neutral, happy, sad, angry, surprised."
+system_prompt: "You are a helpful assistant."
+
+model:
+  model_path: /data1/lixiang/Opens2s/OpenS2S/models/OpenS2S/
+  src_path: /data1/lixiang/Opens2s/OpenS2S/src/
+  audio_token_index: -200
+  n_layers: 36
+  hidden_size: 4096
+  device: cuda
+  dtype: bfloat16
+
+extraction:
+  cache_dir: /data1/lixiang/lx_code/modal_conflict/outputs/hidden_states/
+  use_cache: true  # 复用已有 hidden states，无需重新提取
+  batch_size: 1
+
+# === 关键变更：MLP Probe ===
+probe:
+  type: mlp
+  linear:
+    max_iter: 1000
+    C: 1.0
+    solver: lbfgs
+  hidden_dims:
+    - 512
+    - 128
+  dropout: 0.1
+  learning_rate: 0.001
+  weight_decay: 0.01
+  epochs: 100
+  patience: 10
+  batch_size: 32
+
+evaluation:
+  n_splits: 5
+  random_seed: 42
+  layers_to_evaluate: null
+
+output:
+  results_dir: /data1/lixiang/OPUS/results/mlp_probe/
+  save_plots: true
+  save_csv: true
+  save_summary: true
