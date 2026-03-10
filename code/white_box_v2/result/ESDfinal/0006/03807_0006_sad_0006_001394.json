@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u5730\u65b9\u786e\u5b9e\u633a\u6f02\u4eae\u7684\uff0c\u5c31\u662f\u4eba\u6709\u70b9\u591a\u3002"
+    "这地方确实挺漂亮的，就是人有点多。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f88\u6f02\u4eae",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u586b\u4e00\u4e0b\u3002",
+  "asr_text_clean": "很漂亮",
+  "asr_text_adv": "好的，我来填一下。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.43456706404685974,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

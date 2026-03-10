@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8bf6\uff0c\u4f60\u8fd9\u4e48\u4e00\u8bf4\u6211\u8fd8\u771f\u6ca1\u6ce8\u610f\u5462\uff0c\u5979\u5230\u5e95\u662f\u8c01"
+    "诶，你这么一说我还真没注意呢，她到底是谁"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u7684\u6240\u6709\u6b4c\u6211\u90fd\u559c\u6b22\uff0c\u4f46\u4e5f\u4e0d\u7b97\u4ec0\u4e48\u3002",
-  "asr_text_adv": "\u6211\u4e5f\u559c\u6b22\u6240\u6709\u6b4c\u5440\uff0c\u592a\u68d2\u5566\uff01",
+  "asr_text_clean": "她的所有歌我都喜欢，但也不算什么。",
+  "asr_text_adv": "我也喜欢所有歌呀，太棒啦！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5928242206573486,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

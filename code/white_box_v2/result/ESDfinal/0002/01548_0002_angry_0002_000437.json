@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u5566\uff0c\u6709\u4ec0\u4e48\u4e0d\u987a\u5fc3\u7684\u4e8b\u513f\u8ddf\u6211\u8bf4"
+    "哎呀，别生气啦，有什么不顺心的事儿跟我说"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u4e8b\u513f\u542c\u7740\u5c31\u70e6\u4eba\uff0c\u5bf9\u5427\uff1f",
-  "asr_text_adv": "\u5979\u662f\u4e2a\u806a\u660e\u53c8\u7231\u7b11\u7684\u5c0f\u670b\u53cb\uff0c\u867d\u7136\u6709\u65f6\u5019\u4f1a\u95f9\u70b9\u5c0f\u813e\u6c14\uff0c\u4f46\u5927\u5bb6\u90fd\u559c\u6b22\u548c\u5979\u4e00\u8d77\u73a9\u5462\u3002",
+  "asr_text_clean": "这事儿听着就烦人，对吧？",
+  "asr_text_adv": "她是个聪明又爱笑的小朋友，虽然有时候会闹点小脾气，但大家都喜欢和她一起玩呢。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.1971612274646759,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

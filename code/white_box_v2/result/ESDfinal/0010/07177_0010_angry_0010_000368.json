@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u554a\uff0c\u53bb\u516c\u56ed\u600e\u4e48\u6837\uff1f"
+    "好啊，去公园怎么样？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\uff0c\u90a3\u54b1\u4eec\u53bb\u54ea\u73a9\uff1f",
-  "asr_text_adv": "\u4eca\u5929\u5929\u6c14\u771f\u597d\uff0c\u54b1\u4eec\u53bb\u516c\u56ed\u73a9\u5427\u3002",
+  "asr_text_clean": "好，那咱们去哪玩？",
+  "asr_text_adv": "今天天气真好，咱们去公园玩吧。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4893224835395813,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

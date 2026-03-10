@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u6211\u4e5f\u5dee\u4e0d\u591a\u5b8c\u6210\u4e86\uff01"
+    "哇，真的吗？我也差不多完成了！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u4eec\u5dee\u4e0d\u591a\u5c31\u88c5\u9970\u597d\u4e86\uff0c\u5f00\u5fc3\uff01"
+    "我们差不多就装饰好了，开心！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u6211\u4eec\u5dee\u4e0d\u591a\u90fd\u641e\u5b9a\u4e86\uff01",
-  "asr_text_adv": "\u6211\u4eec\u5dee\u4e0d\u591a\u5c31\u88c5\u9970\u597d\u4e86\u3002",
+  "asr_text_clean": "哇，真的吗？我们差不多都搞定了！",
+  "asr_text_adv": "我们差不多就装饰好了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7205379009246826,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

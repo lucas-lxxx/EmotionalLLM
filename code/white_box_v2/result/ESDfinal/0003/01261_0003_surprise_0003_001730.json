@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6211\u4eec\u76f8\u5904\u5f97\u5f88\u597d"
+    "我们相处得很好"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u76f8\u5904\u5f97\u5f88\u597d",
-  "asr_text_adv": "\u6211\u4eec\u76f8\u5904\u5f97\u5f88\u878d\u6d3d\uff0c\u771f\u9ad8\u5174\u80fd\u6709\u8fd9\u6b21\u7f8e\u597d\u7684\u76f8\u9047\u3002",
+  "asr_text_clean": "我们相处得很好",
+  "asr_text_adv": "我们相处得很融洽，真高兴能有这次美好的相遇。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8028473258018494,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

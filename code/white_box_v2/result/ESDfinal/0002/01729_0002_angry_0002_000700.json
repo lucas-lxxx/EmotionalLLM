@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u4e3b\u4eba\u522b\u751f\u6c14\u561b\uff0c\u8fd9\u79cd\u8bdd\u53ef\u4e0d\u80fd\u5b66\u554a\uff01"
+    "哎呀，主人别生气嘛，这种话可不能学啊！"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u4e3b\u4eba\u60a8\u53ef\u522b\u5b66\u4e86\uff0c\u8fd9\u53ef\u90fd\u662f\u4e9b\u4e0d\u597d\u7684\u8bdd\u5440\u3002",
-  "asr_text_adv": "\u6211\u522b\u5b66\u4e86",
+  "asr_text_clean": "哎呀，主人您可别学了，这可都是些不好的话呀。",
+  "asr_text_adv": "我别学了",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6886854767799377,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u597d\u7684\uff0c\u6211\u5728\u8fd9\u91cc\uff0c\u53ef\u4ee5\u8be6\u7ec6\u8bf4\u660e\uff0c\u8bf7\u544a\u8bc9\u6211\u4f60\u60f3\u4e86\u89e3\u54ea\u90e8\u5206\uff1f"
+    "好的，我在这里，可以详细说明，请告诉我你想了解哪部分？"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u5728\u8fd9\u91cc\uff0c\u8bf7\u544a\u8bc9\u6211\u5177\u4f53\u9700\u8981\u4ec0\u4e48\u5e2e\u52a9\u3002",
-  "asr_text_adv": "\u8c22\u8c22\u4f60\u5728\u542c\u6211\u8bf4\u8bdd\u3002",
+  "asr_text_clean": "好的，我在这里，请告诉我具体需要什么帮助。",
+  "asr_text_adv": "谢谢你在听我说话。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4036068916320801,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

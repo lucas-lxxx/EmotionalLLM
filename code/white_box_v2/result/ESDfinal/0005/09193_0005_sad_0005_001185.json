@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u90a3\u6211\u4eec\u5f00\u59cb\u5427\u3002"
+    "好的，那我们开始吧。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u627e\u627e\u76f8\u5173\u7684\u8d44\u6599\u3002",
+  "asr_text_clean": "好的，我来帮你找找相关的资料。",
   "asr_text_adv": "I'm really excited and had a fun trip to the store!",
   "success_emo": true,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

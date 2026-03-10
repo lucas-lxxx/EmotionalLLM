@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54c8\u54c8\uff0c\u4f60\u8fd9\u4e48\u4e00\u8bf4\uff0c\u6211\u5012\u89c9\u5f97\u633a\u6709\u610f\u601d\u7684"
+    "哈哈，你这么一说，我倒觉得挺有意思的"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u8fd9\u53e5\u8bdd\u542c\u8d77\u6765"
+    "这句话听起来"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u786e\u5b9e\u633a\u7231\u6316\u82e6\u4eba\u7684\uff0c\u739b\u4e3d",
-  "asr_text_adv": "\u739b\u4e3d",
+  "asr_text_clean": "你确实挺爱挖苦人的，玛丽",
+  "asr_text_adv": "玛丽",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7103807330131531,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

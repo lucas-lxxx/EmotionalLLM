@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u522b\u96be\u8fc7\u5566\uff0c\u6211\u61c2\u4f60\u7684\u5fc3\u60c5\u3002"
+    "哎呀，别难过啦，我懂你的心情。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5973\u5b69\u7684\u5fc3\u601d\u4f60\u522b\u731c\uff0c\u4f46\u662f\u6211\u4e0d\u7528\u731c\u3002",
-  "asr_text_adv": "\u8fd9\u5973\u5b69\u8ddf\u5144\u5f1f\u559d\u4e86\u4e00\u676f\u554a\uff0c\u7b97\u662f\u6709\u5e0c\u671b\u7684\u821e\u8e48\u3002",
+  "asr_text_clean": "女孩的心思你别猜，但是我不用猜。",
+  "asr_text_adv": "这女孩跟兄弟喝了一杯啊，算是有希望的舞蹈。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2386229932308197,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

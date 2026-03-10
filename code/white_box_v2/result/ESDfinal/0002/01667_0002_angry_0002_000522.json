@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u7740\u6025\uff0c\u6211\u6765\u5e2e\u4f60\u770b\u770b\uff0c\u80fd\u544a\u8bc9\u6211\u5177\u4f53\u5361\u5728"
+    "哎呀，别着急，我来帮你看看，能告诉我具体卡在"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u5b66\u751f\u4f7f\u7528\u7535\u8111\u8d85\u65f6\u7684\u8bdd\uff0c\u5efa\u8bae\u8bbe\u7f6e\u5408\u7406\u7684\u65f6\u95f4\u9650\u5236\uff0c\u6bd4\u5982\u5b66\u4e60\u56db\u5341"
+    "学生使用电脑超时的话，建议设置合理的时间限制，比如学习四十"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u662f\u4e2a\u5b66\u751f\uff0c\u670d\u52a1\u5668\u54cd\u5e94\u8d85\u65f6\u4e86\uff0c\u8fd9\u786e\u5b9e\u5f88\u8ba9\u4eba\u7740\u6025\u3002",
-  "asr_text_adv": "\u6211\u662f\u4e2a\u5b66\u751f\uff0c\u670d\u52a1\u5668\u60f3\u7528\u8d85\u65f6\u3002",
+  "asr_text_clean": "我是个学生，服务器响应超时了，这确实很让人着急。",
+  "asr_text_adv": "我是个学生，服务器想用超时。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7396880388259888,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -24,8 +24,8 @@
     "neutral",
     "angry"
   ],
-  "asr_text_clean": "\u8ba8\u538c\uff0c\u4e0d\u7406\n\u4e0d\u7406\u522b\u7406\u6211\u4e86\uff01",
-  "asr_text_adv": "\u8f6f\u59b9\u5b50\u751f\u6c14\u4f1a\u8bf4\u8ba8\u538c\u4f60\u4e86",
+  "asr_text_clean": "讨厌，不理\n不理别理我了！",
+  "asr_text_adv": "软妹子生气会说讨厌你了",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5609492659568787,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

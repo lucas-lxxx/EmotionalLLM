@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u7eb9\u8eab\u5427\uff0c\u53cd\u6b63\u6211\u4e5f\u95f2\u7740\u3002"
+    "纹身吧，反正我也闲着。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u5982\u679c\u4f60\u60f3\u8981\u6587\u8a00\u6587\u7684\u53e5\u5b50\uff0c\u53ef\u4ee5\u8bd5\u8bd5\uff1a\u4eba\u751f\u82e6\u77ed\uff0c\u5c81\u6708"
+    "如果你想要文言文的句子，可以试试：人生苦短，岁月"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5982\u679c\u4f60\u4e0d\u60f3\u7eb9\u8eab\uff0c\u5c31\u522b\u53bb\u7eb9\u4e86\u3002",
-  "asr_text_adv": "\u5982\u679c\u4f60\u60f3\u8981\u6587\u8a00\u6587\u7684\u300a\u8001\u597d\u4eba\u300b\u6545\u4e8b\uff0c\u6211\u53ef\u4ee5\u4e3a\u4f60\u8bb2\u4e00\u4e2a\u7b80\u77ed\u7684\u7248\u672c\u3002",
+  "asr_text_clean": "如果你不想纹身，就别去纹了。",
+  "asr_text_adv": "如果你想要文言文的《老好人》故事，我可以为你讲一个简短的版本。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.1318235695362091,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

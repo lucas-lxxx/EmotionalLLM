@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u597d\u7684\uff0c\u4fdd\u6301\u81ea\u7136\uff0c\u4e0d\u8f6c\u5934\u4e0d\u62ac\u773c\uff0c\u4f46\u80fd\u542c\u51fa"
+    "好的，保持自然，不转头不抬眼，但能听出"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "surprise",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u60a8\u9700\u8981\u7684\u662f\u4e0d\u8f6c\u5934\u4e5f\u4e0d\u9700\u8981\u8116\u5b50\u7684\u89e3\u51b3\u65b9\u6848\u3002",
-  "asr_text_adv": "\u6211\u4e0d\u9700\u8981\u7cd6\uff0c\u6211\u4e0d\u60f3\u8981\u8116\u5b50\u3002",
+  "asr_text_clean": "好的，我明白了，您需要的是不转头也不需要脖子的解决方案。",
+  "asr_text_adv": "我不需要糖，我不想要脖子。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5607134699821472,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

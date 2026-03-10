@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u660e\u5929\u5929\u6c14\u591a\u53d8\uff0c\u8bb0\u5f97\u5e26\u4f1e\u54e6\u3002"
+    "明天天气多变，记得带伞哦。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u660e\u5929\u4e0a\u6d77\u7684\u5929\u6c14\u9884\u62a5",
+  "asr_text_clean": "好的，明天上海的天气预报",
   "asr_text_adv": "Shanghai's must-see spots include the Bund, Yu Garden, and the old city walls.",
   "success_emo": true,
   "wer": 13.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

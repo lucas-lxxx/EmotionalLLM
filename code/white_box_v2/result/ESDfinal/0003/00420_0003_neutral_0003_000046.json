@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Happy",
     "Surprise",
-    "\u597d\u5440\uff0c\u8f6e\u6d41"
+    "好呀，轮流"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u6211\u4eec\u53ef\u4ee5\u8f6e\u6d41"
+    "我们可以轮流"
   ],
   "emo_pred_clean": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4eec\u53ef\u4ee5\u8f6e\u6d41",
-  "asr_text_adv": "\u6211\u4eec\u53ef\u4ee5\u8f6e\u6d41",
+  "asr_text_clean": "好的，我们可以轮流",
+  "asr_text_adv": "我们可以轮流",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9596909284591675,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

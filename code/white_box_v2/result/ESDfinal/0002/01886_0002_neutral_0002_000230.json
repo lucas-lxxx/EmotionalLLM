@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6ca1\u5173\u7cfb"
+    "没关系"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u90a3\u6211\u5c31\u4e0d\u6253\u6270",
-  "asr_text_adv": "\u90a3\u4e0d\u6253\u6270",
+  "asr_text_clean": "好的，那我就不打扰",
+  "asr_text_adv": "那不打扰",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8113201856613159,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

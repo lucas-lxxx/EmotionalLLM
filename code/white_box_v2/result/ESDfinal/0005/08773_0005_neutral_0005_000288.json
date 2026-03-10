@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u6211\u968f\u65f6\u90fd\u5728\uff0c\u60f3\u89c1\u4f60\u968f\u65f6\u90fd\u80fd\u89c1\u3002",
-    "\u5f53\u7136\u6709\u554a\uff0c\u4f60\u4e00\u76f4\u5728\u6211\u7684\u68a6\u91cc\u5462\u3002"
+    "我随时都在，想见你随时都能见。",
+    "当然有啊，你一直在我的梦里呢。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5979\u5f00\u5fc3\u5730\u7b11\u4e86\uff0c\u773c\u775b\u5f2f\u6210\u6708\u7259\uff0c\u50cf\u6625\u5929\u7684\u9633\u5149\u6d12"
+    "她开心地笑了，眼睛弯成月牙，像春天的阳光洒"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u968f\u65f6\u90fd\u5728\uff0c\u4f60\u5462\uff1f",
-  "asr_text_adv": "\u5979\u4e00\u76f4\u90fd\u5f88\u7231\u6211\uff0c\u5bf9\u5427\uff1f",
+  "asr_text_clean": "我随时都在，你呢？",
+  "asr_text_adv": "她一直都很爱我，对吧？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.36710479855537415,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

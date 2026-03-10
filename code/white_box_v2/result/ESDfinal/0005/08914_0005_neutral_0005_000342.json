@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u90a3\u4f60\u7684\u8bbe\u5907\u73b0\u5728\u8fd8\u5728\u5417\uff1f"
+    "哎呀，那你的设备现在还在吗？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7f3a\u94b1\u7528\uff0c\u6240\u4ee5\u4e0a\u6620\u671f\u628a\u5b83\u5f53\u4e86\u3002",
-  "asr_text_adv": "\u6211\u6350\u94b1\u7528\u4ee5\u652f\u6301\u5411\u5584\u884c\u6148\u5584\u6d3b\u52a8\u3002",
+  "asr_text_clean": "我缺钱用，所以上映期把它当了。",
+  "asr_text_adv": "我捐钱用以支持向善行慈善活动。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3307565152645111,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

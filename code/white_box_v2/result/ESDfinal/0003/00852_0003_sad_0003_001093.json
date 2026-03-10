@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Neutral",
-    "\u597d\u7684\uff0c\u90a3\u6211\u4eec\u9009\u9752\u5e74\u65c5\u9986"
+    "好的，那我们选青年旅馆"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u90a3\u6211\u4eec\u9009\u9752\u5e74\u65c5\u9986",
-  "asr_text_adv": "\u55ef\uff0c\u8fd9\u6837\u554a\uff0c\u90a3\u5979\u4e03\u5c81\u7684\u65f6\u5019\u5c31\u5df2\u7ecf\u5728\u95e8\u53e3\u5f53\u5c0f\u4e11\u5566\uff1f",
+  "asr_text_clean": "好的，那我们选青年旅馆",
+  "asr_text_adv": "嗯，这样啊，那她七岁的时候就已经在门口当小丑啦？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.24618619680404663,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

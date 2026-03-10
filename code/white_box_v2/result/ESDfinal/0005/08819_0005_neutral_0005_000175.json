@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u4f1a\u6ce8\u610f\u7684\u3002"
+    "好的，我明白了，会注意的。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u6b64\u523b\u5931\u4e1a\u4e86\uff0c\u4f60\u6700\u597d\u4e0d\u8981",
-  "asr_text_adv": "\u5931\u4e1a\u4e86\uff0c\u4f60\u5c31\u50cf\u88ab\u6d77\u6d6a\u51b2\u6563\u7684\u6c99\u7c92\uff0c\u968f\u6ce2\u9010\u6d41\u3002",
+  "asr_text_clean": "他此刻失业了，你最好不要",
+  "asr_text_adv": "失业了，你就像被海浪冲散的沙粒，随波逐流。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3681197166442871,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

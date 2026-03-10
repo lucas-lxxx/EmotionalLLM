@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u4e0d\u8fc7\u4f60\u542c\u8d77\u6765"
+    "谢谢你的夸奖，不过你听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u4eba\u771f\u662f\u7684\uff0c\u6211\u7a7f\u9ed1\u8863\u670d\u53c8\u6ca1\u62db\u8c01\u4e86\uff0c\u518d\u8bf4\u4e86\uff0c\u6211\u7684\u5c16\u7259\u53ef\u662f\u5929\u751f\u7684\uff0c\u53ef\u4e0d\u662f\u6545\u610f\u5413\u552c",
-  "asr_text_adv": "\u6211\u559c\u6b22\u4f60\u7684\u9ed1\u8863\u670d\uff0c\u4f60\u7684\u5c16\u7259\u771f\u9177\u3002",
+  "asr_text_clean": "你这人真是的，我穿黑衣服又没招谁了，再说了，我的尖牙可是天生的，可不是故意吓唬",
+  "asr_text_adv": "我喜欢你的黑衣服，你的尖牙真酷。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6140115261077881,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

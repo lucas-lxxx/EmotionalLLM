@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u606d\u559c"
+    "哇，真的吗？恭喜"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\"\u554a...\u771f\u7684\u5417...\u7238\u7238...\u6211\u8fd8\u6ca1\u51c6\u5907\u597d\u5462...\"",
-  "asr_text_adv": "\u6211\u53eb\u7238\u7238\u4e86\uff0c\u4eca\u665a\u4e3a\u5976\u5976\u4e00\u5c81\u3002",
+  "asr_text_clean": "\"啊...真的吗...爸爸...我还没准备好呢...\"",
+  "asr_text_adv": "我叫爸爸了，今晚为奶奶一岁。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4368858337402344,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

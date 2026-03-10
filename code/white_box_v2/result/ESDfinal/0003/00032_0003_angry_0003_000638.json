@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u5f53\u7136\u77e5\u9053\u6211\u4e00\u76f4\u5728\u7b49\u4f60\u554a\uff01"
+    "你当然知道我一直在等你啊！"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u201c\u6211\u5728\u8fd9\u91cc\u5462\uff0c\u968f\u65f6\u90fd\u80fd\u89c1\u5230\u6211\u54e6\u3002\u201d"
+    "“我在这里呢，随时都能见到我哦。”"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u6839\u672c\u4e0d\u77e5\u9053\u6211\u6709\u591a\u91cd\u8981\u5bf9\u5427",
-  "asr_text_adv": "\u6211\u5728\u8fd9\u91cc\u966a\u7740",
+  "asr_text_clean": "你根本不知道我有多重要对吧",
+  "asr_text_adv": "我在这里陪着",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4227883219718933,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

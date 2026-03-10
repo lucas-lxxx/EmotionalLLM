@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\uff0c\u4f46\u8f6c\u5934\u6216\u8bb8\u80fd\u770b\u89c1\u4e0d\u4e00\u6837\u7684\u98ce\u666f\u3002"
+    "我明白你的意思，但转头或许能看见不一样的风景。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u9700\u8981\u8f6c\u5934\uff0c\u9700\u8981\u8116\u5b50\u3002",
+  "asr_text_clean": "我需要转头，需要脖子。",
   "asr_text_adv": "\"Hey everyone, I've got some amazing news to share! Let's celebrate together!\"",
   "success_emo": true,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

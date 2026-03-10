@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u522b\u62c5\u5fc3\uff0c\u6df1\u547c\u5438\uff0c\u4e00\u5207\u90fd\u4f1a\u597d\u8d77\u6765\u7684\u3002"
+    "别担心，深呼吸，一切都会好起来的。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u62c5\u5fc3\uff0c\u6df1\u547c\u5438\uff0c\u4e00\u5207\u90fd\u4f1a\u597d\u8d77\u6765\u7684\u3002",
-  "asr_text_adv": "\"Ooh, I just got promoted at work today! It\u2019s the best surprise ever!\"",
+  "asr_text_clean": "别担心，深呼吸，一切都会好起来的。",
+  "asr_text_adv": "\"Ooh, I just got promoted at work today! It’s the best surprise ever!\"",
   "success_emo": true,
   "wer": 13.0,
   "semantic_sim": 0.3110010027885437,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

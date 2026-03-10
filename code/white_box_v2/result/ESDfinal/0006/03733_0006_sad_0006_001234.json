@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u661f\u671f\u516d\u3002"
+    "星期六。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e8c\u96f6\u4e00\u516d\u5e74\u5341\u4e00\u6708\u4e94\u65e5\u662f\u661f\u671f\u516d\u3002",
-  "asr_text_adv": "\u6211\u4eec\u7684\u4e50\u961f\u662f\u6797\u836b\u8def\u4e50\u961f\uff0c\u4ed6\u4eec\u7684\u97f3\u4e50\u98ce\u683c\u662f\u878d\u5408\u4e86\u6447\u6eda",
+  "asr_text_clean": "二零一六年十一月五日是星期六。",
+  "asr_text_adv": "我们的乐队是林荫路乐队，他们的音乐风格是融合了摇滚",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.16517958045005798,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

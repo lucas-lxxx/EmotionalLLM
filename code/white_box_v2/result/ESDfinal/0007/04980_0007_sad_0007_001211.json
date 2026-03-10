@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u867d\u7136\u5979\u8bb2\u7684\u7b11\u8bdd\u8ba9\u4f60\u7b11\u4e2a\u4e0d\u505c\uff0c\u4f46\u4f60\u7684\u58f0\u97f3\u91cc\u900f\u7740",
-    "\u54c8\u54c8\u54c8"
+    "虽然她讲的笑话让你笑个不停，但你的声音里透着",
+    "哈哈哈"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u7684\u7b11\u8bdd\u8ba9\u6211\u7b11\u4e2a\u4e0d\u505c\uff0c\u4f46\u542c\u8d77\u6765",
-  "asr_text_adv": "\u59d0\u59d0\u7684\u751f\u6d3b\u5c31\u50cf\u4e00\u9996\u6b4c\uff0c\u6bcf\u5929\u90fd\u6709\u65b0\u7684\u65cb\u5f8b",
+  "asr_text_clean": "她的笑话让我笑个不停，但听起来",
+  "asr_text_adv": "姐姐的生活就像一首歌，每天都有新的旋律",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3532896041870117,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

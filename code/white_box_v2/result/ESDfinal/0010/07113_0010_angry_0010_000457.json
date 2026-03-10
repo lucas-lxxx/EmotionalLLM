@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4f60\u7684\u8868\u5feb\u4e86\uff0c\u9700\u8981\u8c03\u6574\u65f6\u95f4\u5417\uff1f"
+    "你的表快了，需要调整时间吗？"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "two"
   ],
-  "asr_text_clean": "\u4f60\u7684\u8868\u73b0\u5728\u56db\u5341\u4e8c\u79d2\uff0c\u4f46\u786e\u5b9e\u6709\u70b9\u5feb\u3002",
-  "asr_text_adv": "\u5979\u7684\u6b65\u8c03\u8868\u662f\u4e24\u6b65\u56db\u5341\u4e8c\u6b65\uff0c\u53ef\u662f\u5979\u8d70\u5f97\u592a\u5feb\u4e86\u3002",
+  "asr_text_clean": "你的表现在四十二秒，但确实有点快。",
+  "asr_text_adv": "她的步调表是两步四十二步，可是她走得太快了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5520358681678772,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u54ce\u5440\uff0c\u6ca1\u5173\u7cfb"
+    "哎呀，没关系"
   ],
   "emo_text_adv": [
     "Surprise.",
     "Surprise.",
-    "\"Oopsie! I\u2019ll help you clean it up!\" (Happy tone with"
+    "\"Oopsie! I’ll help you clean it up!\" (Happy tone with"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u771f\u62b1\u6b49",
-  "asr_text_adv": "\u5bf9\u4e0d\u8d77\uff0c\u6211\u628a\u5496\u5561\u6d12\u5728\u684c\u5e03\u4e0a\u4e86\u3002",
+  "asr_text_clean": "哎呀，真抱歉",
+  "asr_text_adv": "对不起，我把咖啡洒在桌布上了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5840314626693726,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

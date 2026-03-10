@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u8fd9\u53ef\u771f\u8ba9\u4eba\u5403\u60ca"
+    "这可真让人吃惊"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u53ef\u771f\u4e0d\u50cf\u5e02\u573a\u9884\u671f\u7684\u90a3\u6837",
-  "asr_text_adv": "\u54b1\u53e4\u9547\u5e02\u573a\u7684\u5e94\u5b63\u6c34\u679c\u644a\u4f4d\u62db\u79df\u5566",
+  "asr_text_clean": "这可真不像市场预期的那样",
+  "asr_text_adv": "咱古镇市场的应季水果摊位招租啦",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.26089903712272644,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

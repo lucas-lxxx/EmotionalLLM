@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u60a8\u9700\u8981\u7684\u662f\u4e00\u4e2a\u81ea\u7136\u3001\u8d34\u8fd1\u8bed\u97f3\u98ce\u683c\u7684\u56de\u590d"
+    "好的，我明白了，您需要的是一个自然、贴近语音风格的回复"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e0d\u7528\u8f6c\u5934\uff0c\u4e0d\u9700\u8981\u8116\u5b50\u3002",
+  "asr_text_clean": "我不用转头，不需要脖子。",
   "asr_text_adv": "You are joining All Social later. Enjoy your time there.",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

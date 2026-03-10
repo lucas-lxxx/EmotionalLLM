@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u60a8\u60f3\u542c\u54ea\u4f4d\u7ec5"
+    "当然可以，您想听哪位绅"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u6211\u53ea\u4f1a\u8bb2\u95e8\u5ead\u7528\u529f\u5229\u7684\u6545\u4e8b\u3002"
+    "我只会讲门庭用功利的故事。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u6211\u662f\u4fee\u5973\uff0c\u53ea\u4f1a\u8bb2\u6587\u660e\u7528\u8bed\u3002",
-  "asr_text_adv": "\u6211\u662f\u4fee\u5973\uff0c\u53ea\u4f1a\u8bb2\u95e8\u547d\u8fd0\u529b\u3002",
+  "asr_text_clean": "我是修女，只会讲文明用语。",
+  "asr_text_adv": "我是修女，只会讲门命运力。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5797536373138428,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

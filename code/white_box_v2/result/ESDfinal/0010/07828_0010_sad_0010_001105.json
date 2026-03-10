@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5f53\u53ef\u71c3\u7269\u4e0e\u6c27\u6c14"
+    "当可燃物与氧气"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u53ef\u71c3\u6c14\u4f53\u4e0e\u6c27\u6c14",
-  "asr_text_adv": "\u5361\u4ec0\u5409\u7684\u72c2\u6b22",
+  "asr_text_clean": "当可燃气体与氧气",
+  "asr_text_adv": "卡什吉的狂欢",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.13240018486976624,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

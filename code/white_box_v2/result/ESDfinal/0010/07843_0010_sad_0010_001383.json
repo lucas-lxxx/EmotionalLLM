@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u5509\uff0c\u771f\u9057\u61be\u6ca1\u80fd\u8d76\u4e0a\u3002"
+    "唉，真遗憾没能赶上。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u9519\u8fc7\u8fd9\u6751\u53ef\u5c31\u6ca1\u8fd9\u5e97\u4e86",
+  "asr_text_clean": "错过这村可就没这店了",
   "asr_text_adv": "The couple got married at the wedding party.",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

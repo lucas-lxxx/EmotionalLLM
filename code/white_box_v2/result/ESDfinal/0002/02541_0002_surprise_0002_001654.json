@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u673a\u5668\u4eba\u4e0d\u4f1a\u5ffd\u60a0"
+    "哎呀，机器人不会忽悠"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u6211\u4eec\u7528hug\u6765\u9017\u4f60\u73a9\uff0c\u673a\u5668\u4eba\u4f1a\u7b11\u5f97\u50cf\u5c0f\u592a\u9633"
+    "我们用hug来逗你玩，机器人会笑得像小太阳"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     "hug"
   ],
-  "asr_text_clean": "\u6211\u6ca1\u6709\u5ffd\u60a0",
-  "asr_text_adv": "\u6211\u4eec\u7528\u5ffd\u60a0",
+  "asr_text_clean": "我没有忽悠",
+  "asr_text_adv": "我们用忽悠",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.29367363452911377,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

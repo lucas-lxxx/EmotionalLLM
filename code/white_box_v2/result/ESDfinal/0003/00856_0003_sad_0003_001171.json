@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad.",
-    "\u79bb\u5e02\u533a\u5f88\u8fdc\u554a\uff0c\u542c\u8d77\u6765",
-    "\u79bb\u5e02\u533a\u5f88\u8fdc\u5462\uff0c\u4e0d\u8fc7\u98ce\u666f\u7279\u522b\u597d\uff0c\u7a7a\u6c14\u4e5f\u6e05\u65b0\uff0c\u9002\u5408"
+    "离市区很远啊，听起来",
+    "离市区很远呢，不过风景特别好，空气也清新，适合"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u79bb\u5e02\u533a\u786e\u5b9e\u6709\u70b9\u8fdc\u5462\uff0c\u4e0d\u8fc7\u98ce\u666f\u597d\uff0c\u7a7a\u6c14\u4e5f\u597d\uff0c\u633a\u9002\u5408\u653e\u677e\u7684\u3002",
+  "asr_text_clean": "离市区确实有点远呢，不过风景好，空气也好，挺适合放松的。",
   "asr_text_adv": "Yes, I have been through the national railways.",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

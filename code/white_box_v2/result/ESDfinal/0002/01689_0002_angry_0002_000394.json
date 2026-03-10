@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u55ef\uff0c\u6bd4\u5982\u300a\u534e\u5c14\u8857"
+    "嗯，比如《华尔街"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u6bd4\u5982\u8bf4\u300a\u534e\u5c14\u8857",
-  "asr_text_adv": "\u6bd4\u5982\u8bf4\u300a\u534e\u6c0f\u5ea6\u534e\u6c0f\u5ea6\u300b\u5c31\u5f88\u597d\u554a",
+  "asr_text_clean": "比如说《华尔街",
+  "asr_text_adv": "比如说《华氏度华氏度》就很好啊",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.31759244203567505,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\"\u6ca1\u60f3\u5230\u8fd8\u80fd\u8eba\u4e0b\u6b47\u4f1a\u513f\uff0c\u7b97\u4e0d\u7b97\u610f\u5916\u60ca\u559c\uff1f\""
+    "\"没想到还能躺下歇会儿，算不算意外惊喜？\""
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\"\u8fd8\u4e0d\u592a\u7cdf\u7cd5\uff0c\u4f46\u5f97\u8eba\u5728\u5e8a\u4e0a",
-  "asr_text_adv": "\u6c34\u4f4d\u8fd8\u6bd4\u8f83\u4f4e\uff0c\u6218\u58eb\u4eec\u6682\u65f6\u4e0d\u9700\u8981\u64a4\u79bb",
+  "asr_text_clean": "\"还不太糟糕，但得躺在床上",
+  "asr_text_adv": "水位还比较低，战士们暂时不需要撤离",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2626330852508545,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

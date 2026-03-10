@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u53ef\u80fd\u4e0d\u592a\u73b0\u5b9e\uff0c\u4f46\u63a8\u5e7f\u4e52\u4e53\u7403"
+    "这可能不太现实，但推广乒乓球"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u5176\u5b9e\u4e0d\u662f\u6bcf\u4e2a\u4eba\u90fd\u559c\u6b22\u6253\u4e52\u4e53\u7403",
+  "asr_text_clean": "嗯，其实不是每个人都喜欢打乒乓球",
   "asr_text_adv": "I think I liked the Rolling Stones' model and had a little home video of their concert.",
   "success_emo": true,
   "wer": 17.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

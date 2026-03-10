@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u62b1\u6b49",
-    "\u62b1\u6b49"
+    "抱歉",
+    "抱歉"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u597d\u5440\uff0c\u6211\u8fd9\u5c31\u63d0\u9192\u4f60\uff01"
+    "好呀，我这就提醒你！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u62b1\u6b49",
-  "asr_text_adv": "\u63d0\u9192\u4f60\u7684\u65f6\u95f4\u662f\u4e5d\u70b9\u3002",
+  "asr_text_clean": "抱歉",
+  "asr_text_adv": "提醒你的时间是九点。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2953847050666809,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

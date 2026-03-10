@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Neutral",
-    "\u9047\u5230\u559c\u6b22\u7684\u5973\u5b69\u8981\u4e3b\u52a8\u5440\uff0c\u522b\u8ba9\u72b9\u8c6b\u56f0\u4f4f\u81ea\u5df1\uff0c\u52c7\u6562\u8fc8\u51fa"
+    "遇到喜欢的女孩要主动呀，别让犹豫困住自己，勇敢迈出"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u9047\u5230\u559c\u6b22\u7684\u5973\u5b69\u8981\u4e3b\u52a8\u5440\uff0c\u522b\u8ba9\u72b9\u8c6b\u56f0\u4f4f\u81ea\u5df1\uff0c\u52c7\u6562\u8fc8\u51fa",
-  "asr_text_adv": "\u9047\u5230\u559c\u6b22\u7684\u5973\u5b69\u5b50\u8981\u81ea\u7136\u5927\u65b9\u5440\uff0c\u591a\u7b11\u7b11",
+  "asr_text_clean": "遇到喜欢的女孩要主动呀，别让犹豫困住自己，勇敢迈出",
+  "asr_text_adv": "遇到喜欢的女孩子要自然大方呀，多笑笑",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6616020202636719,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

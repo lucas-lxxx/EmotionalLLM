@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u662f\u4e2a\u5927\u5757\u5934\uff0c\u6211\u662f\u5b88\u95e8\u5458\uff0c\u5bf9\u5427\uff1f"
+    "你是个大块头，我是守门员，对吧？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u662f\u4e2a\u5927\u5757\u5934\uff0c\u6211\u662f\u5b88\u95e8\u5458\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u9700\u8981\u5c06\u60a8\u7684\u8bed\u97f3\u8bf7\u6c42\u8f6c\u5f55\u4e3a\u6587\u5b57\u3002\u60a8\u521a\u624d\u8bf4\u7684\u5185\u5bb9\u662f\u201c\u8fd9\u5468\u672b\u5929\u6c14\u5f88\u597d\uff0c\u9002\u5408\u53bb\u516c\u56ed\u6563\u6b65\u201d\uff0c\u5bf9\u5417\uff1f",
+  "asr_text_clean": "你是个大块头，我是守门员。",
+  "asr_text_adv": "好的，我需要将您的语音请求转录为文字。您刚才说的内容是“这周末天气很好，适合去公园散步”，对吗？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3208523690700531,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

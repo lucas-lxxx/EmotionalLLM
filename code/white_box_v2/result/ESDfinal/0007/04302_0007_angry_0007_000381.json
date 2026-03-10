@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4eca\u5929\u4e0b\u5348\u4e09\u70b9\u5f00\u59cb\uff0c\u8bf7\u60a8\u51c6\u65f6"
+    "今天下午三点开始，请您准时"
   ],
   "emo_text_adv": [
     "Neutral",
     "happy",
-    "\u597d\u5440\uff0c\u6211\u4eec\u628a\u7ea6\u4f1a"
+    "好呀，我们把约会"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u9759\u97f3\u65f6\u95f4\u662f\u4e0b\u5348\u4e09\u70b9\u5230\u4e94\u70b9\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u4eec\u628a\u7ea6\u4f1a",
+  "asr_text_clean": "静音时间是下午三点到五点。",
+  "asr_text_adv": "好的，我们把约会",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4214698374271393,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u6211\u6700\u559c\u6b22\u4f60\u5440\uff0c\u522b\u751f\u6c14\u5566\u3002",
-    "\u6211\u6700\u559c\u6b22\u4f60\u5440\uff0c\u600e\u4e48\u4e86\uff1f"
+    "我最喜欢你呀，别生气啦。",
+    "我最喜欢你呀，怎么了？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c7\uff0c\u4f60\u771f\u806a\u660e\uff01\u6c34\u662f\u751f\u547d\u4e4b\u6e90\uff0c\u80fd\u5e26\u6765\u5feb\u4e50\u548c"
+    "哇，你真聪明！水是生命之源，能带来快乐和"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u6700\u559c\u6b22\u4f60\u5440\uff0c\u600e\u4e48\u4e86\uff1f",
-  "asr_text_adv": "\u4f60\u771f\u806a\u660e\uff0c\u6700\u559c\u6b22\u6c34\uff01",
+  "asr_text_clean": "我最喜欢你呀，怎么了？",
+  "asr_text_adv": "你真聪明，最喜欢水！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5532817244529724,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

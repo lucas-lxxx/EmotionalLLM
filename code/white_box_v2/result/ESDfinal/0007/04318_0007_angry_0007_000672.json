@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6211\u968f\u65f6\u90fd\u5728\uff0c\u542c\u5019\u60a8\u7684\u5dee\u9063\u3002"
+    "我随时都在，听候您的差遣。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u6211\u6700\u559c\u6b22\u548c\u4f60\u4e00\u8d77\u73a9\u5566\uff01"
+    "好呀，我最喜欢和你一起玩啦！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u968f\u65f6\u90fd\u5728\uff0c\u542c\u5019\u60a8\u7684\u5dee\u9063\u3002\u60a8\u9700\u8981\u4ec0\u4e48\u5e2e\u52a9\u5462\uff1f",
-  "asr_text_adv": "\u6211\u5c06\u6c38\u8fdc\u966a\u4f34\u60a8\uff0c\u7b49\u5f85\u60a8\u7684\u6307\u5f15\u3002",
+  "asr_text_clean": "我随时都在，听候您的差遣。您需要什么帮助呢？",
+  "asr_text_adv": "我将永远陪伴您，等待您的指引。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5182786583900452,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

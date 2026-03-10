@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u786e\u5b9e\u633a\u70ed\u95f9\u7684\u3002"
+    "嗯，确实挺热闹的。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f88\u6f02\u4eae",
-  "asr_text_adv": "\u90a3\u91cc\u7684\u98ce\u666f\u771f\u6f02\u4eae\uff0c\u4e0d\u8fc7\u4eba\u592a\u591a\u5566\uff0c\u6211\u4eec\u53bb\u522b\u7684\u5730\u65b9\u73a9\u5427\u3002",
+  "asr_text_clean": "很漂亮",
+  "asr_text_adv": "那里的风景真漂亮，不过人太多啦，我们去别的地方玩吧。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.44616198539733887,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

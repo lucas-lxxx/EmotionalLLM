@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u5728\u8fd9\u91cc\u966a\u7740"
+    "我在这里陪着"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u6211\u5728\u8fd9\u91cc\uff0c\u968f\u65f6\u542c\u5019\u4f60\u7684\u5dee\u9063\u3002",
+  "asr_text_clean": "我在这里，随时听候你的差遣。",
   "asr_text_adv": "The response to the speech request is: \"I recommend visiting the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral. A stroll along the Seine River and a picnic at Luxembourg Gardens would also make for a delightful day.\"",
   "success_emo": false,
   "wer": 37.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

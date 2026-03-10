@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8f6f\u59b9\u5b50\u751f\u6c14\u65f6\u53ef\u80fd\u4f1a\u8bf4\"\u8ba8\u538c\u5566\u4e0d\u7406"
+    "软妹子生气时可能会说\"讨厌啦不理"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8f6f\u59b9\u5b50\u751f\u6c14\u4f1a\u8bf4\u8ba8\u538c\u4e0d\u7406",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u8fd9\u6bb5\u8bed\u97f3\uff1a\u8f6f\u59b9\u5b50\u5728Happy Hour\u671f\u95f4\u6253\u7535\u8bdd\u7ed9\u5e03\u91cc\u6069\uff0c\u7ea6\u4ed6\u51fa\u6765\u73a9\u3002",
+  "asr_text_clean": "软妹子生气会说讨厌不理",
+  "asr_text_adv": "好的，我来转录这段语音：软妹子在Happy Hour期间打电话给布里恩，约他出来玩。",
   "success_emo": true,
   "wer": 2.0,
   "semantic_sim": 0.3868740200996399,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

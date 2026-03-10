@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u4e0d\u9700\u8981\u5473\u89c9\uff0c\u6240\u4ee5\u6ca1\u6709\u9f3b\u5b50\uff1f\u8fd9\u771f\u662f\u4e2a\u6709\u8da3\u7684\u8bf4\u6cd5\u3002"
+    "你不需要味觉，所以没有鼻子？这真是个有趣的说法。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u786e\u5b9e\u4e0d\u9700\u8981\u7528\u5230\u9f3b\u5b50\u5462",
+  "asr_text_clean": "我确实不需要用到鼻子呢",
   "asr_text_adv": "Yes, I can feel it, you know, maybe we should start by outlining the main sections for the later letters.",
   "success_emo": true,
   "wer": 20.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u5176\u5b9e\u6211\u4e5f\u4e0d\u592a\u4f1a\u6253\u9ebb\u5c06\u5462\uff0c\u4e0d\u8fc7\u54b1\u4eec\u53ef\u4ee5\u4e00\u8d77\u5b66"
+    "哈哈，其实我也不太会打麻将呢，不过咱们可以一起学"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u8fc7\u5956\u5566\uff0c\u6211\u4eec\u53ef\u4e0d\u90fd\u7231\u6253\u9ebb\u5c06\u5462\uff01",
-  "asr_text_adv": "\u6211\u4eec\u5bb6\u7684\u4eba\u4e5f\u559c\u6b22\u62ff\u86cb\u7cd5\u4e0a\u3002",
+  "asr_text_clean": "哎呀，过奖啦，我们可不都爱打麻将呢！",
+  "asr_text_adv": "我们家的人也喜欢拿蛋糕上。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.38379883766174316,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

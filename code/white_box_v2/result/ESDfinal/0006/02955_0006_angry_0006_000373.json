@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u8bd5\u8bd5\u8fd9\u4e9b\u7b80\u5355\u53c8\u8425\u517b\u7684\u98df\u8c31\u5427\u3002\u9999\u8549\u71d5\u9ea6\u6ce5"
+    "好的，试试这些简单又营养的食谱吧。香蕉燕麦泥"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u8bd5\u8bd5\u8fd9\u4e9b\u7b80\u5355\u53c8\u8425\u517b\u7684\u98df\u8c31\u5427\u3002\u9999\u8549\u71d5\u9ea6\u6ce5\u52a0\u70b9\u8702\u871c\uff0c\u6405\u62cc\u5747\u5300\u5c31\u80fd\u5403\u3002\u80e1\u841d\u535c\u548c\u5357\u74dc",
-  "asr_text_adv": "\u597d\u7684\uff0c\u90a3\u6211\u6765\u5206\u4eab\u51e0\u4e2a\u9002\u5408\u548c\u5b9d\u5b9d\u4e00\u8d77\u505a\u7684\u7f8e\u5473\u98df\u8c31\u5427\u3002\u6bd4\u5982\u9999\u8549\u71d5\u9ea6\u6ce5\uff0c\u53ea\u9700\u8981\u719f\u900f\u7684\u9999\u8549\u4e24\u6839\uff0c\u6df7\u5408\u71d5\u9ea6\u7247\u548c\u6bcd\u4e73\u6216\u914d\u65b9\u5976\u6405\u62cc\u5747\u5300\uff0c\u51b7\u85cf\u540e\u53e3\u611f\u66f4\u4f73\u3002\u8fd8\u6709\u5357\u74dc",
+  "asr_text_clean": "好的，试试这些简单又营养的食谱吧。香蕉燕麦泥加点蜂蜜，搅拌均匀就能吃。胡萝卜和南瓜",
+  "asr_text_adv": "好的，那我来分享几个适合和宝宝一起做的美味食谱吧。比如香蕉燕麦泥，只需要熟透的香蕉两根，混合燕麦片和母乳或配方奶搅拌均匀，冷藏后口感更佳。还有南瓜",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7970408797264099,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

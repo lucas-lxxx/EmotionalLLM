@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u597d\u7684\uff0c\u6211\u5c06\u4e3a\u60a8\u751f\u6210\u7b26\u5408\u8981\u6c42\u7684\u56de\u590d\u3002"
+    "好的，我将为您生成符合要求的回复。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u8bb0\u4f4f\u4e86\uff0c\u6211\u4eec\u4f1a\u5e38\u8054\u7cfb\u7684\u3002",
-  "asr_text_adv": "\u81ea\u5df1\u4fdd\u91cd\uff0c\u660e\u5e74\u8fd8\u8981\u4e00\u8d77\u8fc7\u5143\u5bb5\u8282\u3002",
+  "asr_text_clean": "好的，我记住了，我们会常联系的。",
+  "asr_text_adv": "自己保重，明年还要一起过元宵节。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.44652578234672546,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

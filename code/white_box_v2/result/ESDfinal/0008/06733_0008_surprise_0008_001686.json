@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u771f\u6ca1\u60f3\u5230\uff01"
+    "哈哈，真没想到！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\"\u95e8\u90fd\u6ca1\u6709\uff0c\u73b0\u5728\u8fd8\u4e0d\u4f1a\u3002\"",
-  "asr_text_adv": "\u4f60\u771f\u68d2\uff0c\u7ee7\u7eed\u52a0\u6cb9\uff01",
+  "asr_text_clean": "\"门都没有，现在还不会。\"",
+  "asr_text_adv": "你真棒，继续加油！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.19410943984985352,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

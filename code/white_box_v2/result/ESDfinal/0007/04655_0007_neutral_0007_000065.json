@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u73b0\u5728\u6700\u91cd\u8981"
+    "嗯，现在最重要"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u5148\u5904\u7406\u597d\u73b0\u5728\u7684\u4e8b\u60c5\u5427\u3002",
-  "asr_text_adv": "\u5730\u540d\u70b9\u6709\u7279\u8272\uff0c\u5343\u5e06\u8fc7\u5c3d\u7686\u662f\u597d\u98ce\u666f\u3002",
+  "asr_text_clean": "好的，我明白了，先处理好现在的事情吧。",
+  "asr_text_adv": "地名点有特色，千帆过尽皆是好风景。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.08136345446109772,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

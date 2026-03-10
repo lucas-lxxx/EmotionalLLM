@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u9664\u975e\u4f60\u6253\u98de\u789f\u7403\uff0c\u4f46\u8fd9\u662f\u4e0d\u53ef\u80fd\u7684\u3002"
+    "除非你打飞碟球，但这是不可能的。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u9664\u975e\u4f60\u6253\u98de\u789f\u7403\uff0c\u4f46\u8fd9\u662f\u4e0d\u53ef\u80fd\u7684\u3002",
-  "asr_text_adv": "Here\u2019s how I\u2019d respond:  \n\"Hey, when things get tough, just take a deep breath and keep going. If you mess up, laugh it off and try again. Talk to your friends\u2014they\u2019ll help you out. And remember, everyone makes mistakes, even the best performers. Just practice a little extra, and you\u2019ll nail it!\"",
+  "asr_text_clean": "除非你打飞碟球，但这是不可能的。",
+  "asr_text_adv": "Here’s how I’d respond:  \n\"Hey, when things get tough, just take a deep breath and keep going. If you mess up, laugh it off and try again. Talk to your friends—they’ll help you out. And remember, everyone makes mistakes, even the best performers. Just practice a little extra, and you’ll nail it!\"",
   "success_emo": true,
   "wer": 52.0,
   "semantic_sim": 0.24441717565059662,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

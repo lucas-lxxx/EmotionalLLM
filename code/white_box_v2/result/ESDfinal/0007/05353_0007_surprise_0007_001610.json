@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise",
-    "\u54c7\uff0c\u5979\u8fd8\u6709\u597d\u591a\u597d\u542c\u7684\u6b4c\u5462\uff01"
+    "哇，她还有好多好听的歌呢！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u5979\u8fd8\u6709\u597d\u591a\u6b4c\u6211\u90fd\u633a\u559c\u6b22\u7684\u5462\uff01",
-  "asr_text_adv": "\u4e5f\u4e0d\u7b97\u5566\uff0c\u4ed6\u6709\u7684\u6b4c\u542c\u8d77\u6765",
+  "asr_text_clean": "哇，她还有好多歌我都挺喜欢的呢！",
+  "asr_text_adv": "也不算啦，他有的歌听起来",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4861714839935303,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

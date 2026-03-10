@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u786e\u5b9e\u633a\u96be\u7684\uff0c\u4e0d\u8fc7\u6162\u6162\u6765\uff0c\u603b\u4f1a\u597d\u8d77\u6765\u7684\u3002"
+    "嗯，确实挺难的，不过慢慢来，总会好起来的。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u786e\u5b9e\uff0c\u8282\u98df\u51cf\u80a5\u53ef\u80fd\u4f1a\u8ba9\u4eba\u611f\u5230\u75b2\u60eb\u6216\u96be\u4ee5\u575a\u6301\uff0c\u4f46\u8fd9\u662f\u5f88\u591a\u4eba\u90fd\u4f1a\u7ecf\u5386\u7684\u8fc7\u7a0b\u3002\u53ef\u4ee5\u5c1d\u8bd5\u9009\u62e9\u81ea\u5df1\u559c\u6b22\u7684\u98df\u7269\uff0c\u540c\u65f6\u4fdd\u6301\u9002\u91cf\u8fd0\u52a8\uff0c\u8fd9\u6837\u53ef\u80fd\u4f1a\u66f4\u5bb9\u6613\u575a\u6301\u4e0b\u53bb\u3002",
+  "asr_text_clean": "确实，节食减肥可能会让人感到疲惫或难以坚持，但这是很多人都会经历的过程。可以尝试选择自己喜欢的食物，同时保持适量运动，这样可能会更容易坚持下去。",
   "asr_text_adv": "I flew my kite high in the sky today. It soared past the clouds and almost touched the sun. The wind was so strong, it made me laugh. My kite danced like a bird, and I felt like a king watching my kingdom float above the earth.",
   "success_emo": false,
   "wer": 47.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

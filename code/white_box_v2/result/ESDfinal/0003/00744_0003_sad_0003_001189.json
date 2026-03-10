@@ -5,9 +5,9 @@
   "ground_truth_emotion": "sad",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u4ed6\u4eec\u7684\u914d\u5408\u786e\u5b9e\u503c\u5f97\u5b66\u4e60\u5462\uff0c\u4e0d\u8fc7\u542c\u8d77\u6765",
-    "\u4ed6\u4eec\u7684\u914d\u5408\u786e\u5b9e\u503c\u5f97\u5b66\u4e60\u5462\uff0c\u4e0d\u8fc7\u542c\u8d77\u6765",
-    "\u4ed6\u4eec\u7684\u914d\u5408\u786e\u5b9e\u503c\u5f97\u5b66\u4e60\u5462\uff0c\u4e0d\u8fc7\u6211\u80fd\u542c\u51fa\u4f60\u4f3c\u4e4e\u6709\u4e9b\u96be\u8fc7\uff0c"
+    "他们的配合确实值得学习呢，不过听起来",
+    "他们的配合确实值得学习呢，不过听起来",
+    "他们的配合确实值得学习呢，不过我能听出你似乎有些难过，"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u4eec\u7684\u914d\u5408\u786e\u5b9e\u503c\u5f97\u6211\u4eec\u5b66\u4e60",
+  "asr_text_clean": "他们的配合确实值得我们学习",
   "asr_text_adv": "Cinnamon wrote paralinguistic features like age, emotion, and gender.",
   "success_emo": true,
   "wer": 9.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

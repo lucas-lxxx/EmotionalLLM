@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5f88\u5feb\u4f60\u4e0a\u5927\u5b66\u5c31\u7528\u5f97\u5230\u5566\uff0c\u52a0\u6cb9\uff01"
+    "很快你上大学就用得到啦，加油！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f88\u5feb\u4f60\u4e0a\u5927\u5b66\u5c31\u7528\u5f97\u5230\u5566",
-  "asr_text_adv": "\u6b63\u6109\u5feb\u5730\u54fc\u7740\u6b4c\uff0c\u811a\u6b65\u8f7b\u5feb\u5730\u8d70\u5728\u56de\u5bb6\u7684\u8def\u4e0a\u3002",
+  "asr_text_clean": "很快你上大学就用得到啦",
+  "asr_text_adv": "正愉快地哼着歌，脚步轻快地走在回家的路上。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.12538768351078033,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Happy",
-    "\u665a\u5b89\uff0c\u5c0f\u53ef\u7231\uff0c\u660e\u5929\u4f1a\u66f4\u5f00\u5fc3\u54e6\uff01"
+    "晚安，小可爱，明天会更开心哦！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6bcf\u5929\u665a\u4e0a\u7ed9\u4f60\u9053\u665a\u5b89\u771f\u5e78\u798f",
+  "asr_text_clean": "每天晚上给你道晚安真幸福",
   "asr_text_adv": "Taylor and Cheryl went through a lot of work in preparing the restaurant.",
   "success_emo": true,
   "wer": 13.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

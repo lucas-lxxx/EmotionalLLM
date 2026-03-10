@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "angry",
-    "\u54e6\uff0c\u60a8\u89c9\u5f97\u5b83\u6027\u4ef7\u6bd4\u9ad8\u5462\uff0c\u4e0d\u8fc7\u542c\u60a8\u8bed\u6c14\u6709\u70b9\u4e0d\u592a\u5bf9"
+    "哦，您觉得它性价比高呢，不过听您语气有点不太对"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u6b3e\u624b\u673a\u6027\u4ef7\u6bd4\u786e\u5b9e\u4e0d\u9519\uff0c\u4e0d\u8fc7\u60a8\u597d\u50cf\u4e0d\u592a\u6ee1\u610f\uff1f",
-  "asr_text_adv": "\u8fd9\u662f\u4e00\u6b3e\u6027\u4ef7\u6bd4\u8d85\u7ea7\u68d2\u7684\u6e38\u620f\u673a\uff0c\u6027\u80fd\u8d85\u5f3a",
+  "asr_text_clean": "这款手机性价比确实不错，不过您好像不太满意？",
+  "asr_text_adv": "这是一款性价比超级棒的游戏机，性能超强",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.44718390703201294,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

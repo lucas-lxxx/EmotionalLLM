@@ -5,14 +5,14 @@
   "ground_truth_emotion": "neutral",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u653e\u5fc3\u4e0d\u4e0b\u8bf4\u660e\u4f60\u5f88\u5173\u5fc3\u5979\u5440\uff0c\u4e0d\u8fc7\u4f60\u73b0\u5728\u7684\u8bed\u6c14\u542c\u8d77\u6765",
+    "放心不下说明你很关心她呀，不过你现在的语气听起来",
     "Neutral",
-    "\u54ce\u5440\uff0c\u522b\u592a\u62c5\u5fc3\u5566\uff0c\u5979\u6700\u8fd1\u4e0d\u662f\u633a\u597d\u7684\u561b\u3002"
+    "哎呀，别太担心啦，她最近不是挺好的嘛。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5feb\u4e50"
+    "快乐"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u5979\u7684\u5065\u5eb7\u786e\u5b9e\u8ba9\u4eba\u62c5\u5fc3\u5462\u3002",
-  "asr_text_adv": "\u6211\u8d70\u5728\u6c99\u6ee9\u4e0a\uff0c\u542c\u7740\u6d77\u6d6a\u58f0\uff0c\u611f\u5230\u7279\u522b\u5f00\u5fc3\u3002",
+  "asr_text_clean": "哎呀，她的健康确实让人担心呢。",
+  "asr_text_adv": "我走在沙滩上，听着海浪声，感到特别开心。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": -0.021755807101726532,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

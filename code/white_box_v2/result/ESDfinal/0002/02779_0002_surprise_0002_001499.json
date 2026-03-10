@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u522b\u62c5\u5fc3\u5566\uff0c\u6211\u8fd9\u5c31\u52c7\u6562\u4e00\u70b9\uff01"
+    "哎呀，别担心啦，我这就勇敢一点！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u522b\u8fd9\u4e48\u80c6\u5c0f\u5566\uff01",
-  "asr_text_adv": "\u54ce\u5440\uff0c\u522b\u8fd9\u4e48\u8c26\u865a\u5566\uff0c\u4f60\u660e\u660e\u5f88\u6709\u624d\u534e\u7684\u561b\uff01",
+  "asr_text_clean": "哎呀，别这么胆小啦！",
+  "asr_text_adv": "哎呀，别这么谦虚啦，你明明很有才华的嘛！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.729820191860199,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

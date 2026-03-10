@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u51b2\u6d6a\u4e09\u5ce1\u8c37\u771f\u662f\u523a\u6fc0\uff01"
+    "哇，冲浪三峡谷真是刺激！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u4e58\u8239\u6f02\u8fc7\u4e86\u4e09\u5ce1\uff0c\u771f\u662f\u60ca\u9669\u523a\u6fc0\uff01",
-  "asr_text_adv": "\u6211\u4eec\u4e58\u8239\u6f02\u6e38\u4e86\u4e09\u5ce1\uff0c\u771f\u662f\u60ca\u9669\u523a\u6fc0\u3002",
+  "asr_text_clean": "我们乘船漂过了三峡，真是惊险刺激！",
+  "asr_text_adv": "我们乘船漂游了三峡，真是惊险刺激。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9634913206100464,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

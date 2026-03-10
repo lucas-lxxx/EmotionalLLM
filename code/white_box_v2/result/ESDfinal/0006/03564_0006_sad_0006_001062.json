@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u6bcf\u6b21\u90fd",
-  "asr_text_adv": "\u6bcf\u6b21\u5979\u5e94\u7b54\u90fd\u50cf\u73b0\u5728\u8fd9\u6837",
+  "asr_text_clean": "你每次都",
+  "asr_text_adv": "每次她应答都像现在这样",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.49092045426368713,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

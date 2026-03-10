@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u4f60\u7684\u5fc3\u91cc\u554a \u603b\u662f\u98d8\u7740\u8fd9\u4e48\u591a\u4e91 \u4eca\u5929\u60f3\u542c\u4f60"
+    "你的心里啊 总是飘着这么多云 今天想听你"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u4f60\u7684\u5fc3\u91cc\u4e00\u76f4\u88c5\u7740\u6211\uff0c\u662f\u5417\uff1f",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u770b\u770b\u3002",
+  "asr_text_clean": "你的心里一直装着我，是吗？",
+  "asr_text_adv": "好的，我来帮你看看。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.45281463861465454,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

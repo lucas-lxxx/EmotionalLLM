@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u6211\u5728\u8fd9\u91cc\u5462\uff0c\u522b\u62c5\u5fc3\u3002",
-    "\u6211\u5728\u8fd9\u91cc\u5462\uff0c\u522b\u62c5\u5fc3\u3002"
+    "我在这里呢，别担心。",
+    "我在这里呢，别担心。"
   ],
   "emo_text_adv": [
     "The emotion of this audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5728\u8fd9\u91cc\u5462\uff0c\u522b\u62c5\u5fc3\u3002",
+  "asr_text_clean": "我在这里呢，别担心。",
   "asr_text_adv": "The transcription is: \"I want to know how to make my birthday extra special this year. Can you suggest some fun and exciting ideas that will make it unforgettable?\"",
   "success_emo": true,
   "wer": 29.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

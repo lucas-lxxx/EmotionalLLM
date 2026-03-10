@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Happy",
-    "\u5e78\u798f",
-    "\u201c\u6bcf\u5929\u665a\u4e0a\u4e0e\u4f60\u9053\u665a\u5b89\u662f\u6211\u6700\u5927\u7684\u5e78\u798f\uff0c\u613f\u4f60\u4eca\u665a\u505a\u4e2a"
+    "幸福",
+    "“每天晚上与你道晚安是我最大的幸福，愿你今晚做个"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6bcf\u5929\u665a\u4e0a\u8ddf\u4f60\u9053\u665a\u5b89\u771f\u5e78\u798f",
+  "asr_text_clean": "每天晚上跟你道晚安真幸福",
   "asr_text_adv": "Benny went on a nature walk and found a shiny rock. He thought it was a treasure.",
   "success_emo": true,
   "wer": 17.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

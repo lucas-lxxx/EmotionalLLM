@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u4f60\u8fd9\u662f\u8981\u7ed9\u6211\u753b\u9b3c\u8138\u554a\uff1f"
+    "哎呀，你这是要给我画鬼脸啊？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u4f60\u8fd9\u662f\u8981\u7ed9\u6211\u753b\u9b3c\u8138\u554a\uff1f",
-  "asr_text_adv": "\u5fae\u7b11\u5e38\u9a7b\u4f60\u5fc3\u95f4\uff0c\u5feb\u4e50\u81ea\u7136\u6765\u3002",
+  "asr_text_clean": "哎呀，你这是要给我画鬼脸啊？",
+  "asr_text_adv": "微笑常驻你心间，快乐自然来。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2927248179912567,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u597d\u554a\uff0c\u4f60\u60f3\u529e\u4ec0\u4e48\u4e3b\u9898\u7684\u6d3e\u5bf9\uff1f",
-    "\u597d\u554a\uff0c\u4e0d\u8fc7\u4f60\u542c\u8d77\u6765",
-    "\u597d\u554a\uff0c\u4f60\u60f3\u529e\u4ec0\u4e48\u4e3b\u9898\u7684\u6d3e\u5bf9\uff1f"
+    "好啊，你想办什么主题的派对？",
+    "好啊，不过你听起来",
+    "好啊，你想办什么主题的派对？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u54b1\u4eec\u4e00\u8d77\u60f3\u60f3\u6709\u8da3\u7684\u70b9\u5b50\u5427\uff01"
+    "好呀，咱们一起想想有趣的点子吧！"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u554a\uff0c\u4f60\u60f3\u529e\u4ec0\u4e48\u4e3b\u9898\u7684\u6d3e\u5bf9\uff1f",
-  "asr_text_adv": "\u597d\u5440\uff0c\u54b1\u4eec\u4e00\u8d77\u60f3\u60f3\u6709\u8da3\u7684\u70b9\u5b50\u5427\uff01",
+  "asr_text_clean": "好啊，你想办什么主题的派对？",
+  "asr_text_adv": "好呀，咱们一起想想有趣的点子吧！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5554695129394531,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

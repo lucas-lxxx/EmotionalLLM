@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u90a3\u53ef\u4e0d\u884c\uff0c\u56de\u5934\u770b\u770b\u8fd8\u6709\u591a\u8fdc\u554a\u3002"
+    "哎呀，那可不行，回头看看还有多远啊。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u6eda\u8fdc\u4e86\u5c31\u56de\u4e0d\u6765\u4e86\uff1f",
-  "asr_text_adv": "\u5982\u679c\u6211\u6eda\u8fdc\u4e86\u5c31\u56de\u590d\u6765\u5566",
+  "asr_text_clean": "你滚远了就回不来了？",
+  "asr_text_adv": "如果我滚远了就回复来啦",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7446656227111816,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

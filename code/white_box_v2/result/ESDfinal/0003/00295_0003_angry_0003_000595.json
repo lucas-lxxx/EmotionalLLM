@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\"\u54c7\uff0c\u5bb6\u91cc\u7a81\u7136\u8fd9\u4e48\u70ed\u95f9\uff0c\u662f\u4e0d\u662f\u6709\u4ec0\u4e48\u60ca\u559c\u5440\uff1f\""
+    "\"哇，家里突然这么热闹，是不是有什么惊喜呀？\""
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u4f60\u5bb6\u7a81\u7136\u8fd9\u4e48\u751f\u6c14\u5927\u53eb\uff0c\u53d1\u751f\u4ec0\u4e48\u4e8b\u513f\u4e86\uff1f",
-  "asr_text_adv": "\u9e66",
+  "asr_text_clean": "哇，你家突然这么生气大叫，发生什么事儿了？",
+  "asr_text_adv": "鹦",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2933165431022644,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

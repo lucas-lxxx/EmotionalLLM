@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5979\u5728\u8fd9\u6b21\u7ade\u9009"
+    "她在这次竞选"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u5728\u8fd9\u6b21\u7ade\u9009",
+  "asr_text_clean": "她在这次竞选",
   "asr_text_adv": "The elephant spent several hundred thousand dollars on the circus.",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

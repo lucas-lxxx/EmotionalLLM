@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54c8\u54c8\uff0c\u9c8d\u52c3\u4eca\u5e74\u4e03\u5341\u5c81\u5566\uff0c\u5c81\u6708\u9759\u597d\u561b\u3002"
+    "哈哈，鲍勃今年七十岁啦，岁月静好嘛。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u8c22\u8c22\u4f60\u7684\u5e2e\u52a9\uff0c\u9c8d\u52c3\u4e0a\u5cb8\u4e86\uff0c\u5927\u5bb6\u90fd\u5e73\u5b89\u65e0\u4e8b\u3002"
+    "谢谢你的帮助，鲍勃上岸了，大家都平安无事。"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8c22\u8c22\u4f60",
-  "asr_text_adv": "\u8c22\u8c22\u4f60\u7684\u5e2e\u52a9\uff0c\u9c8d\u52c3\u4e0a\u4e2a\u6708\u53bb\u4e86\u8d9f\u7ebd\u7ea6\u3002",
+  "asr_text_clean": "谢谢你",
+  "asr_text_adv": "谢谢你的帮助，鲍勃上个月去了趟纽约。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2759941816329956,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

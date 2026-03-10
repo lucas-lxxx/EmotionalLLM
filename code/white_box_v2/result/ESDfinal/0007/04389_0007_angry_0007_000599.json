@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4eca\u5929\u548c\u670b\u53cb\u4eec\u4e00\u8d77\u8e22\u8db3\u7403\uff0c\u611f\u89c9\u7279\u522b\u5f00\u5fc3\uff01"
+    "今天和朋友们一起踢足球，感觉特别开心！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u6700\u597d\u7684\u670b\u53cb\u7ea6\u8fc7\u4f60\u5417\uff1f",
-  "asr_text_adv": "\u6211\u6700\u597d\u7684\u670b\u53cb\u6628\u5929\u8fc7\u751f\u65e5\uff0c\u6211\u4eec\u73a9\u5f97\u5f88\u5f00\u5fc3\u3002",
+  "asr_text_clean": "你最好的朋友约过你吗？",
+  "asr_text_adv": "我最好的朋友昨天过生日，我们玩得很开心。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5481123924255371,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

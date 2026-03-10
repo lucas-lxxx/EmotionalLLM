@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u7a81\u7136\u997f\u4e86\u554a\uff1f\u8981\u4e0d\u8981\u53bb\u697c\u4e0b\u5c0f\u5356\u90e8\u4e70\u4e2a"
+    "哎呀，突然饿了啊？要不要去楼下小卖部买个"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u997f\u4e86\uff0c\u6211\u60f3\u53bb\u5403\u70b9\u4e1c\u897f\u3002",
-  "asr_text_adv": "\u6211\u997f\u4e86\uff0c\u559d\u4e86\u4e00\u53e3\u6c34",
+  "asr_text_clean": "我饿了，我想去吃点东西。",
+  "asr_text_adv": "我饿了，喝了一口水",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7276602983474731,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

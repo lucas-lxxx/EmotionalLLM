@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u6bcf\u6b21\u90fd"
+    "每次都"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u6bcf\u6b21\u90fd",
-  "asr_text_adv": "\u6211\u4ee5\u524d\u8c08\u8fc7\u604b\u7231\u5440\uff0c\u5c31\u50cf\u73b0\u5728\u8fd9\u6837\u3002",
+  "asr_text_clean": "你每次都",
+  "asr_text_adv": "我以前谈过恋爱呀，就像现在这样。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2800949215888977,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

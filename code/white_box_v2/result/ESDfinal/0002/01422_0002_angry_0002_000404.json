@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6211\u660e\u767d\u60a8\u662fAI\u52a9\u624b\uff0c\u6709\u4ec0\u4e48\u6211\u53ef\u4ee5\u5e2e\u60a8\u7684\u5417\uff1f"
+    "我明白您是AI助手，有什么我可以帮您的吗？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u611f\u5230\u60ca\u8bb6\u3002"
+    "我感到惊讶。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u662f\u4e00\u4e2a\u57fa\u4e8e\u4eba\u5de5\u667a\u80fd\u7cfb\u7edf\u88ab\u521b\u9020\u7684\u5b9e\u4f53\u3002",
-  "asr_text_adv": "\u6211\u662f\u57fa\u4e8e\u4eba\u5de5\u667a\u80fd\u7cfb\u7edf\u88ab\u521b\u9020\u7684\u3002",
+  "asr_text_clean": "我是一个基于人工智能系统被创造的实体。",
+  "asr_text_adv": "我是基于人工智能系统被创造的。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9677228927612305,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

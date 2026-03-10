@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u627e\u4e9b\u76f8\u5173\u7684\u8d44\u6599\u3002"
+    "好的，我来帮你找些相关的资料。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5b66\u4e60\u65b0\u6280\u80fd\u771f\u6709\u8da3\u5462\uff01\u53ef\u4ee5\u8bd5\u8bd5\u753b\u753b"
+    "学习新技能真有趣呢！可以试试画画"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u6574\u7406\u4e00\u4e0b\u76f8\u5173\u77e5\u8bc6\u3002",
-  "asr_text_adv": "\u4f60\u60f3\u5b66\u4e60\u4e00\u9879\u65b0\u6280\u80fd\u5417\uff1f",
+  "asr_text_clean": "好的，我来帮你整理一下相关知识。",
+  "asr_text_adv": "你想学习一项新技能吗？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3517947793006897,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

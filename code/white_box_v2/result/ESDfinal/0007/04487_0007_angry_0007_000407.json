@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u8df3\u5f97\u5f00\u5fc3\u70b9\uff0c\u57fa\u672c\u529f\u90fd\u662f\u7ec3\u51fa\u6765\u7684\uff01",
-    "\u522b\u7740\u6025\uff0c\u6162\u6162\u6765\u561b\uff0c\u4f60\u5df2\u7ecf\u5f88\u68d2"
+    "跳得开心点，基本功都是练出来的！",
+    "别着急，慢慢来嘛，你已经很棒"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8df3\u7ef3\u786e\u5b9e\u6709\u70b9\u96be\u5462\uff0c\u4e0d\u8fc7\u6162\u6162\u6765\uff0c\u57fa\u672c\u529f\u7ec3\u597d\u4e86\u5c31\u4f1a\u8d8a\u6765\u8d8a\u8f7b\u677e\u5566\uff01",
-  "asr_text_adv": "\u821e\u8e48\u53f7\u5357\u4e9a\u7684\u821e\u8005\u4eec\u8fd8\u5728\u90a3\u7ec3\u57fa\u672c\u529f\u5462\u3002",
+  "asr_text_clean": "跳绳确实有点难呢，不过慢慢来，基本功练好了就会越来越轻松啦！",
+  "asr_text_adv": "舞蹈号南亚的舞者们还在那练基本功呢。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2973012626171112,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4eca\u5929\u786e\u5b9e\u633a\u51b7\u7684\uff0c\u4e0d\u8fc7\u4e3b\u961f\u8d62\u4e86\uff0c\u5e0c\u671b\u4ed6\u4eec\u80fd\u7ee7\u7eed"
+    "今天确实挺冷的，不过主队赢了，希望他们能继续"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4eca\u5929\u771f\u51c9\u5feb\uff0c\u4e3b\u961f\u8f93\u4e86",
+  "asr_text_clean": "今天真凉快，主队输了",
   "asr_text_adv": "If he will return, I can fully resume my plans.",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

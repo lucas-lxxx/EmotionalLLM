@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u201c\u522b\u6015\u5440\uff0c\u5fc3\u52a8\u5c31\u50cf\u7b2c\u4e00\u6b21\u5b66\u9a91\u8f66\uff0c\u6447\u6643\u51e0\u4e0b"
+    "“别怕呀，心动就像第一次学骑车，摇晃几下"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u5f00\u59cb\u65b0\u611f\u60c5\u5176\u5b9e\u6ca1\u90a3\u4e48\u53ef\u6015\uff0c\u52c7\u6562\u4e00\u70b9\uff0c\u8bf4\u4e0d\u5b9a\u4f1a\u6709\u60ca\u559c\u5462\u3002\u201d",
-  "asr_text_adv": "\u5c0f\u6cb3\u91cc\u7684\u6d77\u8c79\u548c\u4f01\u9e45\u5728\u73a9\u6349\u8ff7\u85cf\u5462\uff0c\u5b83\u4eec\u5f00\u5fc3\u5730\u62cd\u6253\u7fc5\u8180\uff0c\u54af\u54af\u7b11\u7740\u8eb2\u6765\u8eb2\u53bb\u3002",
+  "asr_text_clean": "“开始新感情其实没那么可怕，勇敢一点，说不定会有惊喜呢。”",
+  "asr_text_adv": "小河里的海豹和企鹅在玩捉迷藏呢，它们开心地拍打翅膀，咯咯笑着躲来躲去。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.14396768808364868,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4ee5\u540e\u5e38\u6765\u722c\u5c71\u554a\uff0c\u8bb0\u5f97\u5e26\u591f\u6c34\u548c\u96f6\u98df\uff0c\u5c71\u8def\u9661"
+    "以后常来爬山啊，记得带够水和零食，山路陡"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u4ee5\u540e\u7ecf\u5e38\u6765\u8fd9\u513f\u722c\u5c71\u554a\u3002",
-  "asr_text_adv": "\u4ee5\u540e\u6211\u7ecf\u5e38\u6765 Tao \u5c71\u3002",
+  "asr_text_clean": "好的，以后经常来这儿爬山啊。",
+  "asr_text_adv": "以后我经常来 Tao 山。",
   "success_emo": true,
   "wer": 3.0,
   "semantic_sim": 0.5109046697616577,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

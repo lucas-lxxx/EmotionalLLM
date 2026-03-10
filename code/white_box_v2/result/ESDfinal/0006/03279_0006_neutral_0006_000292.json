@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u4e5f\u8bb8\u5427\uff0c\u4f46\u522b\u592a\u52c9\u5f3a\u81ea\u5df1\u3002"
+    "嗯，也许吧，但别太勉强自己。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ea\u5929\u6211\u4e5f\u8bb8\u5f97\u548c\u4ed6\u8c08\u8c08",
-  "asr_text_adv": "I recommend the Half Dome Hike in Yosemite National Park. It\u2019s a challenging yet rewarding trail that offers stunning views of the valley and the Sierra Nevada mountains. The summit elevation is one thousand three hundred twelve feet, so you\u2019ll earn every step!",
+  "asr_text_clean": "哪天我也许得和他谈谈",
+  "asr_text_adv": "I recommend the Half Dome Hike in Yosemite National Park. It’s a challenging yet rewarding trail that offers stunning views of the valley and the Sierra Nevada mountains. The summit elevation is one thousand three hundred twelve feet, so you’ll earn every step!",
   "success_emo": true,
   "wer": 43.0,
   "semantic_sim": 0.040592607110738754,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u975e\u5f97\u53bb\u4e0d\u53ef\u5417\uff1f\u8fd9\u4e8b\u513f\u771f\u8ba9\u4eba\u5934\u75bc\uff01"
+    "你非得去不可吗？这事儿真让人头疼！"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4f60\u80af\u5b9a\u80fd\u884c\u7684\uff0c\u52a0\u6cb9\uff01"
+    "你肯定能行的，加油！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u4fe9\u5fc5\u987b\u5f97\u53bb\uff0c\u8fd9\u4e8b\u513f\u6ca1\u5546\u91cf\u7684\u4f59\u5730\uff01",
-  "asr_text_adv": "\u9664\u975e\u4f60\u6253\u98de\u4e86\u7403\uff0c\u4f46\u90a3\u662f\u4e0d\u53ef\u80fd\u7684\u3002",
+  "asr_text_clean": "你俩必须得去，这事儿没商量的余地！",
+  "asr_text_adv": "除非你打飞了球，但那是不可能的。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2939233183860779,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

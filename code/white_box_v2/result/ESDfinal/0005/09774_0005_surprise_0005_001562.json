@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u6ca1\u60f3\u5230\u4f60\u4e5f\u5728\u8fd9\u513f\uff01"
+    "哎呀，没想到你也在这儿！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u6211\u4e5f\u5728\u73a9\u8df3\u683c\u5b50\u5462\uff01"
+    "哈哈，我也在玩跳格子呢！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u6ca1\u60f3\u5230\u4f60\u4e5f\u5728\u8fd9\u513f\u5462\uff01",
-  "asr_text_adv": "\u539f\u6765\u4f60\u4e5f\u73a9\u8df3\u683c\u5b50\u554a\uff0c\u8fd9\u6e38\u620f\u786e\u5b9e\u6709\u610f\u601d",
+  "asr_text_clean": "哎呀，没想到你也在这儿呢！",
+  "asr_text_adv": "原来你也玩跳格子啊，这游戏确实有意思",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.464918851852417,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

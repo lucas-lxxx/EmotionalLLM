@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u5c0f\u660e\uff0c\u597d\u597d\u4f11\u606f\u4e00\u4e0b\u5427\u3002"
+    "好的，小明，好好休息一下吧。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u597d\u4f11\u606f\u4e86\u4e00\u5929\uff0c\u8fd9\u4e2a\u5c0f\u6728\u68cd\u53eb\u9640\u87ba\uff0c\u597d\u73a9\uff01"
+    "好休息了一天，这个小木棍叫陀螺，好玩！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u597d\u4f11\u606f\u4e00\u4e0b\uff0c\u5c0f\u660e\u3002",
-  "asr_text_adv": "\u597d\u4f11\u606f\u4e86\u4e00\u5bb6\uff0c\u8fd9\u4e2a\u5c0f\u6728\u68cd\u53ebTikTok\u597d\u3002",
+  "asr_text_clean": "好好休息一下，小明。",
+  "asr_text_adv": "好休息了一家，这个小木棍叫TikTok好。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5013170838356018,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

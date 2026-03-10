@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u554a\uff0c\u4e0d\u8fc7\u4f60\u542c\u8d77\u6765"
+    "好啊，不过你听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u597d\u554a\uff0c\u4f46\u4f60\u542c\u8d77\u6765",
-  "asr_text_adv": "\u6211\u4eec\u4e00\u8d77\u6765\u4e3a\u5979\u529e\u4e2a\u60ca\u559c\u6d3e\u5bf9\u5427\u3002",
+  "asr_text_clean": "好啊，但你听起来",
+  "asr_text_adv": "我们一起来为她办个惊喜派对吧。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3236582279205322,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

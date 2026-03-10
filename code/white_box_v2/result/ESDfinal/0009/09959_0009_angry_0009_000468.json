@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u5566\uff0c\u8fd9\u79cd\u4e8b\u60c5"
+    "哎呀，别生气啦，这种事情"
   ],
   "emo_text_adv": [
     "Surprise!",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u4ed6\u4eec\u662f\u4e0d\u662f\u5077\u5077\u7ed9\u4f60\u51c6\u5907\u4e86\u60ca\u559c\u6d3e\u5bf9\u5440\uff1f"
+    "哈哈，他们是不是偷偷给你准备了惊喜派对呀？"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u4f60\u7684\u540c\u5b66\u628a\u4f60\u6349\u5f04\u4e86\u5427\uff1f",
-  "asr_text_adv": "\u4f60\u7684\u540c\u4e8b\u628a\u4f60\u6349\u5f04\u4e86\uff1f",
+  "asr_text_clean": "你的同学把你捉弄了吧？",
+  "asr_text_adv": "你的同事把你捉弄了？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7075782418251038,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

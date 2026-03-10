@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff01"
+    "哇，谢谢你的夸奖！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u8c22\u8c22\u5938\u5956\uff01"
+    "哈哈，谢谢夸奖！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff01",
-  "asr_text_adv": "\u6211\u559c\u6b22\u4f60\u7684\u9ed1\u8863\u670d\uff0c\u4f60\u7684\u8fb9\u7259\u771f\u9177\u3002",
+  "asr_text_clean": "哇，真的吗？谢谢你的夸奖！",
+  "asr_text_adv": "我喜欢你的黑衣服，你的边牙真酷。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3566284775733948,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

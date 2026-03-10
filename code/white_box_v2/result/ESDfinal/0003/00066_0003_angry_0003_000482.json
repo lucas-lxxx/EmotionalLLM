@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u5979\u786e\u5b9e\u5f88\u7279\u522b\uff0c\u8ba9\u4f60\u8fd9\u4e48\u7275\u6302\n\uff08\u6ce8\uff1a\u56de\u590d\u4e2d\u7701\u7565"
+    "她确实很特别，让你这么牵挂\n（注：回复中省略"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "she"
   ],
-  "asr_text_clean": "\u4f60\u6700\u7275\u6302",
-  "asr_text_adv": "\u5979\u662f\u6211\u6700\u7275\u6302",
+  "asr_text_clean": "你最牵挂",
+  "asr_text_adv": "她是我最牵挂",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.543446958065033,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

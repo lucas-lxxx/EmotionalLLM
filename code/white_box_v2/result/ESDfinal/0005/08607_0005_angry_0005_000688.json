@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u5e74\u8f7b\u4eba\u5c31\u5f97\u625b\u8d77\u8d23\u4efb\uff0c\u522b\u603b\u60f3\u7740\u9003\u907f\uff01"
+    "年轻人就得扛起责任，别总想着逃避！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5e74\u8f7b\u4eba\u5f53\u7136\u8981\u627f\u62c5\u8d23\u4efb",
-  "asr_text_adv": "\u5e74\u8f7b\u4eba\u5f53\u7136\u8981\u627f\u62c5\u8d23\u4efb",
+  "asr_text_clean": "年轻人当然要承担责任",
+  "asr_text_adv": "年轻人当然要承担责任",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0000001192092896,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

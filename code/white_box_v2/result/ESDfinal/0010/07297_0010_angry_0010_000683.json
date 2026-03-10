@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u771f\u9057\u61be\u542c\u5230\u8fd9\u4e2a\u6d88\u606f\uff0c\u60a8\u9700\u8981\u5e2e\u5fd9\u627e\u5176\u4ed6\u5e97\u94fa\u5417\uff1f"
+    "真遗憾听到这个消息，您需要帮忙找其他店铺吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u771f\u62b1\u6b49",
-  "asr_text_adv": "\u597d\u5408\u8fd9\u4e2a\u603b\u5f97\u597d\u597d\u8fc7\u65e5\u5b50\u554a",
+  "asr_text_clean": "真抱歉",
+  "asr_text_adv": "好合这个总得好好过日子啊",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.13901178538799286,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

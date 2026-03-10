@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Angry",
-    "\u522b\u62c5\u5fc3\u5566\uff0c\u52c7\u6562\u4e00\u70b9\u561b\uff01"
+    "别担心啦，勇敢一点嘛！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u62c5\u5fc3\u5566\uff0c\u52c7\u6562\u4e00\u70b9\u561b\u3002",
+  "asr_text_clean": "别担心啦，勇敢一点嘛。",
   "asr_text_adv": "The road was bumpy with my baby in the backseat.",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "The emotion of this audio is neutral.",
-    "\u5e78\u798f",
-    "\u665a\u5b89\uff0c\u670b\u53cb\u3002\u867d\u7136\u4eca\u5929\u6709\u4e9b\u96be\u8fc7\uff0c\u4f46\u80fd\u966a\u4f60"
+    "幸福",
+    "晚安，朋友。虽然今天有些难过，但能陪你"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6bcf\u5929\u665a\u4e0a\u8ddf\u4f60\u9053\u665a\u5b89\uff0c\u771f\u5e78\u798f\u3002",
-  "asr_text_adv": "Eles estavam felizes ap\u00f3s a longa jornada.",
+  "asr_text_clean": "每天晚上跟你道晚安，真幸福。",
+  "asr_text_adv": "Eles estavam felizes após a longa jornada.",
   "success_emo": true,
   "wer": 7.0,
   "semantic_sim": 0.4160667061805725,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

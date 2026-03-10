@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6c99\u5c18\u66b4\u786e\u5b9e\u7ed9\u6bcf\u4e2a\u4eba\u5e26\u6765\u4e86\u9ebb\u70e6\u5462\u3002",
-  "asr_text_adv": "\u6c99\u4e18\u5821\u7ea2\u7ebf\u4e0a\u6bcf\u4e2a\u4eba\u90fd\u8c08\u8bba\u7740\u9a6c\u978d\u5cf0\u3002",
+  "asr_text_clean": "沙尘暴确实给每个人带来了麻烦呢。",
+  "asr_text_adv": "沙丘堡红线上每个人都谈论着马鞍峰。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.48015010356903076,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u53bb\u7eb9\u5427\uff0c\u53cd\u6b63\u6211\u4e5f\u95f2\u7740\u3002"
+    "去纹吧，反正我也闲着。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5982\u679c\u674e\u60f3\u5199\u4e00\u9996\u5173\u4e8e\u6587\u8eab\u7684\u8bd7\uff0c\u53ef\u4ee5\u8fd9\u6837\u8868\u8fbe\uff1a"
+    "如果李想写一首关于文身的诗，可以这样表达："
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5982\u679c\u4f60\u60f3\u8981\u7eb9\u8eab\uff0c\u4f60\u53bb\u7eb9\u597d\u4e86\u3002",
-  "asr_text_adv": "\u5982\u679c\u8389\u5a05\u60f3\u8981\u7eb9\u8eab\u56fe\u6848\u7684\u8bdd\uff0c\u53ef\u4ee5\u8003\u8651\u4e00\u4e9b\u7ecf\u5178\u7684\u8bbe\u8ba1\uff0c\u6bd4\u5982\u661f\u661f\u3001\u82b1\u6735\u6216\u8005\u5c0f\u52a8\u7269\u7684\u56fe\u6848\uff0c\u8fd9\u4e9b\u90fd\u5f88\u53d7\u6b22\u8fce\u54e6\u3002",
+  "asr_text_clean": "如果你想要纹身，你去纹好了。",
+  "asr_text_adv": "如果莉娅想要纹身图案的话，可以考虑一些经典的设计，比如星星、花朵或者小动物的图案，这些都很受欢迎哦。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6231389045715332,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

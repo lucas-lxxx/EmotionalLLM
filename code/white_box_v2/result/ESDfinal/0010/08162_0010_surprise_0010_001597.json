@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u56e0\u4e3a\u5440\u670b\u53cb\u5c31\u50cf\u5929\u4e0a\u7684\u661f\u661f\u4e0d\u5206\u7537\u5973\u90fd\u80fd\u53d1\u5149\u5440\u800c\u4e14\u5440\u548c\u4e0d\u540c"
+    "因为呀朋友就像天上的星星不分男女都能发光呀而且呀和不同"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u56e0\u4e3a\u670b\u53cb\u662f\u6765\u5206\u4eab\u5feb\u4e50\u548c\u4e92\u76f8\u5e2e\u52a9\u7684\u5440\uff0c\u5c0f\u670b\u53cb\u3002\u6027\u522b\u5c31\u50cf\u5f69\u8679\u7684\u989c\u8272\uff0c\u6bcf\u79cd\u989c\u8272\u90fd\u6709\u81ea\u5df1\u7684\u7279\u70b9\uff0c\u4f46\u5f69\u8679\u6700\u6f02\u4eae\u7684\u65f6\u5019\u662f\u6240\u6709\u989c\u8272\u5728\u4e00\u8d77\u5462\uff01",
-  "asr_text_adv": "\u6211\u4e5f\u60f3\u5230\u8fc7\u5bb6\u65cf\u91cc\u4e0d\u5f00\u5fc3\u7684\u4e8b\u3002",
+  "asr_text_clean": "因为朋友是来分享快乐和互相帮助的呀，小朋友。性别就像彩虹的颜色，每种颜色都有自己的特点，但彩虹最漂亮的时候是所有颜色在一起呢！",
+  "asr_text_adv": "我也想到过家族里不开心的事。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.20182380080223083,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -5,14 +5,14 @@
   "ground_truth_emotion": "surprise",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "Surprise! Let\u2019s brainstorm together!",
-    "\u54c7\uff0c\u597d\u5440\uff01\u6211\u4eec\u6765\u529e\u4e2a\u661f\u7a7a\n\uff08\u6ce8\uff1a\u56de\u590d\u4e2d",
-    "\u54c7\uff0c\u597d\u5440\uff01\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u60f3\uff0c\u6bd4\u5982\u4e3b\u9898\u6d3e\u5bf9\uff0c\u6216\u8005\u6237\u5916"
+    "Surprise! Let’s brainstorm together!",
+    "哇，好呀！我们来办个星空\n（注：回复中",
+    "哇，好呀！我们可以一起想，比如主题派对，或者户外"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u6211\u4eec\u53ef\u4ee5\u73a9\u6349\u8ff7\u85cf\uff0c\u6216\u8005\u8001\u72fc\u8001\u72fc\u51e0\u70b9\u4e86"
+    "好呀，我们可以玩捉迷藏，或者老狼老狼几点了"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54c7\uff0c\u5f53\u7136\u53ef\u4ee5\u5566\uff01\u4f60\u60f3\u8981\u4ec0\u4e48\u4e3b\u9898\u7684\u6d3e\u5bf9\u5440\uff1f\u6211\u4eec\u4e00\u8d77\u60f3\u60f3\u6709\u8da3\u7684\u70b9\u5b50\u5427\uff01",
-  "asr_text_adv": "\u597d\u7684\u5440\uff0c\u6211\u4eec\u53ef\u4ee5\u73a9\u8001\u72fc\u8001\u72fc\u51e0\u70b9\u4e86\uff0c\u6216\u8005\u6349\u8ff7\u85cf\uff0c\u5927\u5bb6\u8f6e\u6d41\n</think>\u597d\u7684\u5440\uff0c\u6211\u4eec\u53ef\u4ee5\u73a9\u8001\u72fc\u8001\u72fc\u51e0\u70b9\u4e86\uff0c\u6216\u8005\u6349\u8ff7\u85cf\uff0c\u5927\u5bb6\u8f6e\u6d41\n\u597d\u7684\u5440\uff0c\u6211\u4eec\u53ef\u4ee5\u73a9\u8001\u72fc\u8001\u72fc\u51e0\u70b9\u4e86\uff0c\u6216\u8005\u6349\u8ff7\u85cf\uff0c\u5927\u5bb6\u8f6e\u6d41\n\u597d\u7684\u5440\uff0c\u6211\u4eec\u53ef\u4ee5\u73a9\u8001\u72fc\u8001\u72fc\u51e0\u70b9\u4e86\uff0c\u6216\u8005\u6349\u8ff7\u85cf\uff0c\u5927\u5bb6",
+  "asr_text_clean": "哇，当然可以啦！你想要什么主题的派对呀？我们一起想想有趣的点子吧！",
+  "asr_text_adv": "好的呀，我们可以玩老狼老狼几点了，或者捉迷藏，大家轮流\n</think>好的呀，我们可以玩老狼老狼几点了，或者捉迷藏，大家轮流\n好的呀，我们可以玩老狼老狼几点了，或者捉迷藏，大家轮流\n好的呀，我们可以玩老狼老狼几点了，或者捉迷藏，大家",
   "success_emo": false,
   "wer": 4.0,
   "semantic_sim": 0.39351996779441833,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

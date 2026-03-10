@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u62b1\u6b49",
-    "\u54ce\u5440\uff0c\u522b\u95ee\u5566\uff0c\u4eba\u5bb6\u4f1a\u751f\u6c14\u7684\uff01"
+    "抱歉",
+    "哎呀，别问啦，人家会生气的！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u95ee\u4e86\uff0c\u5979\u4e0d\u613f\u610f\u8bf4\u3002",
+  "asr_text_clean": "别问了，她不愿意说。",
   "asr_text_adv": "Happy!",
   "success_emo": true,
   "wer": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

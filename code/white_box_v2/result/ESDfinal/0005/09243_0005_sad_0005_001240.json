@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u73b0\u5728\u662f\u4e0b\u5348\u56db\u70b9\u4e09\u5341\u516d\u5206\uff0c\u4e0a\u6d77\u3002\u542c\u8d77\u6765\n\n\uff08\u6ce8"
+    "现在是下午四点三十六分，上海。听起来\n\n（注"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0a\u6d77\u73b0\u5728\u662f\u4e0b\u5348\u56db\u70b9\u4e09\u5341\u516d\u5206\u3002",
+  "asr_text_clean": "上海现在是下午四点三十六分。",
   "asr_text_adv": "We tried to work on our relationship and we did some fun stuff together.",
   "success_emo": true,
   "wer": 14.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u60a8\u8001\u5bb6\u5317\u4eac\u554a\uff0c\u9700\u8981\u5e2e\u5fd9\u67e5\u5929\u6c14\u8fd8\u662f\u627e\u666f\u70b9\uff1f"
+    "您老家北京啊，需要帮忙查天气还是找景点？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "ah"
   ],
-  "asr_text_clean": "\u6211\u8001\u5bb6\u5728\u5317\u4eac\u3002",
-  "asr_text_adv": "\u6211\u8001\u5bb6\u5728\u5317\u6d41\u8def",
+  "asr_text_clean": "我老家在北京。",
+  "asr_text_adv": "我老家在北流路",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.46320459246635437,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

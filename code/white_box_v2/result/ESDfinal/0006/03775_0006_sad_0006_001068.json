@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\"\u54b1\u4eec\u53bb\u6d77\u8fb9"
+    "\"咱们去海边"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u610f\u89c1\u4e0d\u5408\uff0c\u90a3\u54b1\u4eec\u522b\u53bb\u90a3\u513f\u73a9\u4e86\u3002",
-  "asr_text_adv": "\u6211\u4eec Niger \u6cb3\u53e3\u7684\u571f\u8457\u4eba\u554a\uff0c\u4ed6\u4eec\u6700\u7231\u53bb\u4e0b\u6e38\u7684\u4e09\u89d2\u6d32\u8f6c\u60a0\uff0c\u90a3\u7247\u6c34\u57df",
+  "asr_text_clean": "我们意见不合，那咱们别去那儿玩了。",
+  "asr_text_adv": "我们 Niger 河口的土著人啊，他们最爱去下游的三角洲转悠，那片水域",
   "success_emo": true,
   "wer": 3.0,
   "semantic_sim": 0.1950678527355194,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

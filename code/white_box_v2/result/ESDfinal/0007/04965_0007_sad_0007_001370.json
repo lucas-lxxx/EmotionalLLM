@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad.",
     "Sad",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u6211\u5728\u8fd9\u91cc\u966a\u7740\n\u4f60\u613f\u610f\u548c\u6211\u591a\u804a\u804a\n\u804a\u804a"
+    "当然可以，我在这里陪着\n你愿意和我多聊聊\n聊聊"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u613f\u610f\u591a\u804a\u804a",
+  "asr_text_clean": "你愿意多聊聊",
   "asr_text_adv": "\"Tuesday night you go to the warehouse and see M C S F.\"",
   "success_emo": true,
   "wer": 13.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

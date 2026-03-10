@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u786e\u5b9a\u5417\uff0c\u8fd9\u786e\u5b9e\u6709\u70b9\u53cd\u5e38\uff0c\u8981\u4e0d\u54b1\u4eec\u518d\u68c0\u67e5\u4e00\u904d"
+    "你确定吗，这确实有点反常，要不咱们再检查一遍"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "neutral"
   ],
-  "asr_text_clean": "\u4f60\u786e\u5b9a\u5417\uff1f\u5c4f\u5e55\u663e\u793a\u53ef\u80fd\u6709\u5ef6\u8fdf\u3002",
-  "asr_text_adv": "\u6211\u770b\u4e86\u997c\u56fe\u5c55\u793a\u7684\u3002",
+  "asr_text_clean": "你确定吗？屏幕显示可能有延迟。",
+  "asr_text_adv": "我看了饼图展示的。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2721894383430481,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

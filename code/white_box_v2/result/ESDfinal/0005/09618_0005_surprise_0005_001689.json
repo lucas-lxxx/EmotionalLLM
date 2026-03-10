@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u4e0d\u4f1a\u5427\uff1f\u4e0d\u8fc7\u65e2\u7136\u4f60\u8fd9\u4e48\u559c\u6b22\uff0c\u4e0d\u5982\u8bd5\u8bd5\u770b\uff1f"
+    "哎呀，不会吧？不过既然你这么喜欢，不如试试看？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54e6\uff0c\u90a3\u4f60\u80af\u5b9a\u60f3\u4e0d\u5230\uff0c\u5355\u677f\u6ed1\u96ea\u5176\u5b9e\u7279\u522b\u8003\u9a8c\u5e73\u8861\u611f\uff0c\u4e0d\u8fc7\u53ea\u8981\u591a\u7ec3\u4e60\uff0c\u5f88\u5feb\u5c31\u80fd\u4e0a\u624b\u5566\uff01",
-  "asr_text_adv": "\u6211\u4eec\u4e00\u8d77\u53bb\u6253\u96ea\u4ed7\u5427\uff0c\u597d\u4e0d\u597d\uff1f",
+  "asr_text_clean": "哦，那你肯定想不到，单板滑雪其实特别考验平衡感，不过只要多练习，很快就能上手啦！",
+  "asr_text_adv": "我们一起去打雪仗吧，好不好？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5316661596298218,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

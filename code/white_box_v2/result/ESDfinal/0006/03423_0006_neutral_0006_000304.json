@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u521a\u4ece\u82cf\u683c\u5170\u56de\u6765\u554a\uff0c\u611f\u89c9\u600e\u4e48\u6837\uff1f"
+    "刚从苏格兰回来啊，感觉怎么样？"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u521a\u4ece\u82cf\u683c\u5170\u56de\u6765\u3002",
-  "asr_text_adv": "\u6211\u521a\u4ece\u6e56\u8fb9\u56de\u6765\u3002",
+  "asr_text_clean": "我刚从苏格兰回来。",
+  "asr_text_adv": "我刚从湖边回来。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5613147020339966,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

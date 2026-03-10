@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u4f60\u8fd9\u81ea\u5632\u7684\u8bed\u6c14\u542c\u7740\u633a\u96be\u53d7\u7684\u554a\uff0c\u8981\u4e0d\u54b1\u804a\u804a"
+    "你这自嘲的语气听着挺难受的啊，要不咱聊聊"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e5f\u6709\u8fc7\u8fd9\u6837\u7684\u65f6\u523b\uff0c\u4f46\u4f60\u613f\u610f\u6b63\u89c6\u5b83\u5c31\u5df2\u7ecf\u5f88\u68d2",
+  "asr_text_clean": "我也有过这样的时刻，但你愿意正视它就已经很棒",
   "asr_text_adv": "I will carry the rock to the top of the mountain.",
   "success_emo": false,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

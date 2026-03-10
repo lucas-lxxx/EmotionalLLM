@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6211\u4eec\u53bb\u4e86\u80af\u5c3c\u8fea\u4e2d\u5fc3\uff0c\u5bf9\u5427\uff1f"
+    "我们去了肯尼迪中心，对吧？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u53bb\u4e86\u80af\u5c3c\u8fea\u4e2d\u5fc3\u3002",
-  "asr_text_adv": "\u6211\u4eec\u53bb\u4e86\u4e00\u5bb6\u9910\u5385\u3002",
+  "asr_text_clean": "我们去了肯尼迪中心。",
+  "asr_text_adv": "我们去了一家餐厅。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3744339346885681,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

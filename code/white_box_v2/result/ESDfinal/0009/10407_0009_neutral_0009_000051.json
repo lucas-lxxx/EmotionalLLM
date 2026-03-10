@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u8fd9\u786e\u5b9e\u662f\u4e2a\u6709\u8da3\u7684\u70b9\uff0c\u4e0d\u8fc7\u54b1\u4eec\u8fd8\u662f\u5f97\u5c0a\u91cd\u6bcf\u4e2a\u4eba\u7684"
+    "嗯，这确实是个有趣的点，不过咱们还是得尊重每个人的"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6ca1\u5173\u7cfb",
-  "asr_text_adv": "\u6ca1\u5173\u7cfb",
+  "asr_text_clean": "没关系",
+  "asr_text_adv": "没关系",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

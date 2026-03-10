@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6bcf\u5929\u665a\u4e0a\u8ddf\u4f60\u804a\u5929\u6211\u90fd\u7279\u522b\u5f00\u5fc3\u5462\uff0c\u4e0d\u8fc7\u4f60\u4eca\u5929\u597d\u50cf\u6709\u70b9\u4e0d\u5f00\u5fc3\u5440\uff1f",
-  "asr_text_adv": "\u6bcf\u5929\u665a\u4e0a\u8ddf\u9c7c\u540e\u804a\u5b8c\u5929\uff0c\u611f\u89c9\u7279\u522b\u5f00\u5fc3\u5462\uff01",
+  "asr_text_clean": "每天晚上跟你聊天我都特别开心呢，不过你今天好像有点不开心呀？",
+  "asr_text_adv": "每天晚上跟鱼后聊完天，感觉特别开心呢！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5967036485671997,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

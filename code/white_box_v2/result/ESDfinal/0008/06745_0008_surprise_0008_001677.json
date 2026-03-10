@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u5979\u786e\u5b9e\u633a\u7279\u522b\u7684\uff0c\u8ddf\u522b\u4eba\u4e0d\u4e00\u6837\u3002"
+    "哈哈，她确实挺特别的，跟别人不一样。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6240\u4ee5\uff0c\u6211\u6c38\u4e0d\u559d\u5b83\u7684\u3002",
-  "asr_text_adv": "\u6240\u4ee5\u6211\u5c31\u4e00\u76f4\u559c\u6b22\u5979\u5440\u3002",
+  "asr_text_clean": "所以，我永不喝它的。",
+  "asr_text_adv": "所以我就一直喜欢她呀。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.09948708862066269,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

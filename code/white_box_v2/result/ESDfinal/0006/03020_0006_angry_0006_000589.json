@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8fd9\u83dc\u771f\u96be\u5403\uff0c\u4ef7\u683c\u8fd8\u8fd9\u4e48\u9ad8\uff01"
+    "这菜真难吃，价格还这么高！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u98df\u7269\u5f88\u7f8e\u5473\uff0c\u4f46\u4ef7\u683c\u592a\u8d35\u4e86\u3002",
-  "asr_text_adv": "\u5976\u5976\u771f\u597d\uff0c\u4e0d\u7528\u518d\u62c5\u5fc3\u4e0b\u96e8\u5929\u5566\u3002",
+  "asr_text_clean": "食物很美味，但价格太贵了。",
+  "asr_text_adv": "奶奶真好，不用再担心下雨天啦。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.04033438488841057,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u4f60\u8fd9\u8bed\u6c14\u542c\u7740\u5c31\u70e6,\u6211\u538b\u6839\u6ca1\u60f3\u5077\u7b11\u554a!",
-    "\u6211\u9519\u4e86\uff0c\u6211\u8fd9\u5c31\u6539\uff01"
+    "你这语气听着就烦,我压根没想偷笑啊!",
+    "我错了，我这就改！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u56e0\u4e3a\u5feb\u4e50\u50cf\u9633\u5149\uff0c\u7167\u5230\u54ea\u91cc\u54ea\u91cc\u5c31\u4eae\u5802\u5802\u7684\u5440\uff01"
+    "因为快乐像阳光，照到哪里哪里就亮堂堂的呀！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u9519\u4e86\uff0c\u6211\u8fd9\u5c31\u6539\uff01",
-  "asr_text_adv": "\u597d\u7b11\u61d2\u5c31\u662f\u8bf4\u4e00\u4e2a\u4eba\u7279\u522b\u7231\u7b11\uff0c\u800c\u4e14\u5f88\u61d2\u60f0",
+  "asr_text_clean": "我错了，我这就改！",
+  "asr_text_adv": "好笑懒就是说一个人特别爱笑，而且很懒惰",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.27177757024765015,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

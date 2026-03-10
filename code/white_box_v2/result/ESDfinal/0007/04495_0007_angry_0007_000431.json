@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u8fd9\u9547\u4e0a\u7684\u4eba\u4eec\u6700\u7231\u642c\u5f04\u662f\u975e\u4e86\uff0c\u542c\u5f97\u6211"
+    "哎呀，这镇上的人们最爱搬弄是非了，听得我"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u4e2a\u9547\u4e0a\u6240\u6709\u7684\u4eba\u90fd\u559c\u6b22\u95f2\u8bdd\u3002",
-  "asr_text_adv": "\u8fd9\u4e2a\u9547\u4e0a\u6240\u6709\u7684\u4eba\u90fd\u559c\u6b22\u753b\u753b",
+  "asr_text_clean": "这个镇上所有的人都喜欢闲话。",
+  "asr_text_adv": "这个镇上所有的人都喜欢画画",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6778981685638428,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

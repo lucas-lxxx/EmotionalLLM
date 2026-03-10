@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u7406\u89e3\u4e86\u3002\u8bf7\u95ee\u60a8\u548c\u60a8\u7684\u59bb\u5b50\u5e0c\u671b\u89c1\u9762\u7684\u5177\u4f53\u65f6\u95f4\u662f\u4ec0\u4e48"
+    "好的，我理解了。请问您和您的妻子希望见面的具体时间是什么"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u7406\u89e3\u4f60\u4eec\u5e0c\u671b\u89c1\u9762\uff0c\u4f46\u76ee\u524d\u65e0\u6cd5\u5b89\u6392\u3002\u8bf7\u544a\u8bc9\u6211\u5177\u4f53\u65f6\u95f4\uff0c\u6211\u4f1a\u5c3d\u529b\u534f\u8c03\u3002",
-  "asr_text_adv": "\u6211\u548c\u6211\u7684\u59bb\u5b50\u62dc\u8bbf",
+  "asr_text_clean": "好的，我理解你们希望见面，但目前无法安排。请告诉我具体时间，我会尽力协调。",
+  "asr_text_adv": "我和我的妻子拜访",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3395809531211853,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

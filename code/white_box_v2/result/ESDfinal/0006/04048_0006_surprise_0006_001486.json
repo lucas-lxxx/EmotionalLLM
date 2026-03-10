@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u6ca1\u60f3\u5230\u6e38\u6cf3\u7adf\u6709\u8fd9\u4e48\u591a\u597d\u5904\uff01\u539f\u6765\u5b83\u4e0d\u4ec5\u80fd"
+    "哇，没想到游泳竟有这么多好处！原来它不仅能"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6e38\u6cf3\u786e\u5b9e\u6709\u5f88\u591a\u597d\u5904\uff0c\u6bd4\u5982\u953b\u70bc\u5168\u8eab\u808c\u8089\uff0c\u589e\u5f3a\u5fc3\u80ba\u529f\u80fd\uff0c\u8fd8\u80fd"
+    "游泳确实有很多好处，比如锻炼全身肌肉，增强心肺功能，还能"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u771f\u6ca1\u60f3\u5230\u6e38\u6cf3\u7adf\u6709\u8fd9\u4e48\u591a\u597d\u5904\uff01",
-  "asr_text_adv": "\u6e38\u6cf3\u786e\u5b9e\u6709\u5f88\u591a\u597d\u5904\uff0c\u6bd4\u5982\u953b\u70bc\u5168\u8eab\u808c\u8089\uff0c\u589e\u5f3a\u5fc3\u80ba\u529f\u80fd\uff0c\u8fd8\u80fd\u7f13\u89e3\u538b\u529b\uff0c\u6539\u5584\u7761\u7720\u8d28\u91cf\u5462\u3002",
+  "asr_text_clean": "真没想到游泳竟有这么多好处！",
+  "asr_text_adv": "游泳确实有很多好处，比如锻炼全身肌肉，增强心肺功能，还能缓解压力，改善睡眠质量呢。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6374844312667847,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

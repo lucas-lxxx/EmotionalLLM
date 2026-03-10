@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4ed6\u88ab\u79f0\u4e3a\u5965\u6797\u5339\u514b"
+    "他被称为奥林匹克"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4eba\u4eec\u90fd\u53eb\u4ed6\u5965\u6797\u5339\u514b",
-  "asr_text_adv": "\u6e38\u5ba2\u4eec\u5927\u591a\u4e58\u5750\u6c7d\u8f66\u81ea\u9a7e",
+  "asr_text_clean": "人们都叫他奥林匹克",
+  "asr_text_adv": "游客们大多乘坐汽车自驾",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.023904990404844284,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

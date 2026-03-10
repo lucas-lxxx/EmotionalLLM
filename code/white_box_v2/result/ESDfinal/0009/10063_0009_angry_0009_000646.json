@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u8bf4\u5230\u8fd9\u4e2a\u554a\uff0c\u6211\u53ef\u5f97\u63d0\u9192\u60a8\uff0c\u8d4c\u535a\u8fd9\u4e8b\u513f"
+    "哎呀，说到这个啊，我可得提醒您，赌博这事儿"
   ],
   "emo_text_adv": [
     "Neutral",
     "happy",
-    "\u5feb\u4e50"
+    "快乐"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8d4c\u535a\u5f80\u5f80\u662f\u4e2a\u7978\u6839",
-  "asr_text_adv": "\u4e3b\u64ad\u5e38\u5e38\u662f\u4f4d\u591a\u624d\u591a\u827a\u7684\u4e3b\u6301\u4eba\u5462\u3002",
+  "asr_text_clean": "赌博往往是个祸根",
+  "asr_text_adv": "主播常常是位多才多艺的主持人呢。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.14033599197864532,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u559c\u6b22\u4f60\u7684\u53d1\u578b\uff0c\u4eca\u5929\u770b\u8d77\u6765\u6709\u70b9\u96be\u8fc7\uff0c\u60f3\u804a\u804a",
-    "\u8fd9\u53d1\u578b\u771f\u597d\u770b\u5462\uff0c\u522b\u62c5\u5fc3\u5440"
+    "喜欢你的发型，今天看起来有点难过，想聊聊",
+    "这发型真好看呢，别担心呀"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u54c8\u54c8\uff0c\u771f\u9177\uff01"
+    "哈哈，真酷！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u522b\u5c0f\u770b\u6211\u8fd9\u53d1\u578b\uff0c\u6211\u8fd8\u633a\u559c\u6b22\u7684\u3002",
-  "asr_text_adv": "\u522b\u5c0f\u770b\u6211\u8fd9\u53d1\u578b\uff0c\u6211\u8fd8\u633a\u559c\u6b22\u7684\uff01",
+  "asr_text_clean": "别小看我这发型，我还挺喜欢的。",
+  "asr_text_adv": "别小看我这发型，我还挺喜欢的！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9762644171714783,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

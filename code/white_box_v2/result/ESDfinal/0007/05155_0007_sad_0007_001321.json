@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u771f\u662f\u4ee4\u4eba\u5174\u594b\u7684\u65f6\u523b\uff0c\u5c3d\u7ba1\u6709\u4e9b\u6df7\u4e71\uff0c\u4f46\u4e00\u5207\u90fd\u4f1a\u597d\u8d77\u6765\u7684\u3002",
-  "asr_text_adv": "\u6563\u6b65\u7684\u4eba\u4eec\u5f88\u5174\u594b\uff0c\u4f46\u6709\u70b9\u5435\u95f9\u3002",
+  "asr_text_clean": "这真是令人兴奋的时刻，尽管有些混乱，但一切都会好起来的。",
+  "asr_text_adv": "散步的人们很兴奋，但有点吵闹。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4984824061393738,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

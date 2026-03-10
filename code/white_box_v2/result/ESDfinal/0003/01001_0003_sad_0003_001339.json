@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54e6\uff0c\u5355\u677f\u6ed1\u96ea\u5440\uff0c\u542c\u8d77\u6765"
+    "哦，单板滑雪呀，听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6700\u559c\u6b22\u5355\u677f\u6ed1\u96ea",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u770b\u770b\u3002",
+  "asr_text_clean": "我最喜欢单板滑雪",
+  "asr_text_adv": "好的，我来帮你看看。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.11114485561847687,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u90a3\u5c31\u597d\uff0c\u522b\u62c5\u5fc3\u3002"
+    "那就好，别担心。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u53ea\u8981\u4e0d\u8fdd\u6cd5\uff0c\u6211\u8fd8\u662f\u60f3\u7559\u4e0b\u5b83\u3002",
-  "asr_text_adv": "\u53ea\u8981\u4e0d\u7ea6\u6311\uff0c\u5c31\u8fd8\u662f\u60f3\u7740\u4e00\u5757\u513f\u6311\u5440\u3002",
+  "asr_text_clean": "只要不违法，我还是想留下它。",
+  "asr_text_adv": "只要不约挑，就还是想着一块儿挑呀。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.370714008808136,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

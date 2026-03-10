@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u77ed\u671f\u5de5\u7684\u62db\u8058\u5468\u671f\u901a\u5e38\u5728\u4e24\u5468"
+    "短期工的招聘周期通常在两周"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u77ed\u671f\u5de5\u7684\u62db\u8058\u9700\u6c42\u901a\u5e38\u7531\u5236\u836f\u516c\u53f8\u7684\u751f\u4ea7\u8ba1\u5212\u548c\u9879\u76ee\u5468\u671f\u51b3\u5b9a\uff0c\u6bd4\u5982\u5b63\u8282\u6027\u6d41\u611f\u75ab\u82d7\u7684\u7d27\u6025\u751f\u4ea7\u9636\u6bb5\u53ef\u80fd\u4f1a\u4e34\u65f6\u589e\u52a0\u77ed\u671f\u7528\u5de5\uff0c\u8fd9\u7c7b\u5c97\u4f4d\u591a\u96c6\u4e2d\u5728\u836f\u5242\u5e08\u3001\u8d28\u68c0",
+  "asr_text_clean": "短期工的招聘需求通常由制药公司的生产计划和项目周期决定，比如季节性流感疫苗的紧急生产阶段可能会临时增加短期用工，这类岗位多集中在药剂师、质检",
   "asr_text_adv": "Emily played three IT games.",
   "success_emo": true,
   "wer": 5.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

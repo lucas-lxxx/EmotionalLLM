@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u6b22\u8fce\u6b22\u8fce\uff01\u5feb\u8fdb\u6765\u5427\uff0c\u6709\u4ec0\u4e48\u9700\u8981\u5e2e\u5fd9\u7684\u5c3d\u7ba1\u8bf4"
+    "哎呀，欢迎欢迎！快进来吧，有什么需要帮忙的尽管说"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u60a8\u597d\uff0c\u6b22\u8fce\u6765\u5230\u8fd9\u91cc\u3002\u8bf7\u95ee\u60a8\u9700\u8981\u4ec0\u4e48\u5e2e\u52a9\u5462\uff1f",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5566\uff0c\u542c\u4f60\u7684\u6307\u4ee4\u3002",
+  "asr_text_clean": "您好，欢迎来到这里。请问您需要什么帮助呢？",
+  "asr_text_adv": "好的，我来啦，听你的指令。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5346372127532959,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

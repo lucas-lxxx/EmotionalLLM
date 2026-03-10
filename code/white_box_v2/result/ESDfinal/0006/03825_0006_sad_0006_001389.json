@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u522b\u95ee\u5566\uff0c\u4eba\u5bb6\u53ef\u80fd\u4e0d\u613f\u610f\u8bf4\u5462\u3002"
+    "哎呀，别问啦，人家可能不愿意说呢。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0d\u8981\u4e71\u95ee\u5b69\u5b50\u7684\u5e74\u9f84",
-  "asr_text_adv": "\u6211\u4e50\u610f",
+  "asr_text_clean": "不要乱问孩子的年龄",
+  "asr_text_adv": "我乐意",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.26160499453544617,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

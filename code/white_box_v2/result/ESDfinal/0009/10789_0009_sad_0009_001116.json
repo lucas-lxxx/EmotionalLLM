@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "The emotion of the audio is sad.",
     "Neutral",
-    "\u597d\u5440\uff0c\u6211\u4eec\u53bb\u9493\u9c7c\u5427\uff0c\u804a\u804a"
+    "好呀，我们去钓鱼吧，聊聊"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u554a\uff0c\u6211\u4eec\u53bb\u9493\u9c7c\u5427\uff0c\u804a\u804a",
+  "asr_text_clean": "好啊，我们去钓鱼吧，聊聊",
   "asr_text_adv": "The cruise routes to Belgium and the Netherlands include scenic destinations like Bruges, Amsterdam, and Antwerp. These voyages often feature charming canals, historic landmarks, and opportunities for shore excursions. Let me know if you'd like more details!",
   "success_emo": false,
   "wer": 37.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

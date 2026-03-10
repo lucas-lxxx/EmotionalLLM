@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Neutral",
-    "\u5c0f\u5fc3\u811a\u4e0b\uff0c\u4eba\u884c\u9053\u4e0a\u6709\u4e2a\u5751\u3002"
+    "小心脚下，人行道上有个坑。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5c0f\u5fc3\u811a\u4e0b\uff0c\u4eba\u884c\u9053\u4e0a\u6709\u4e2a\u5751\u3002",
+  "asr_text_clean": "小心脚下，人行道上有个坑。",
   "asr_text_adv": "\"Hey, I'm gonna be offline for a bit. I'll be back in a few hours. We'll catch up soon, right?\"",
   "success_emo": true,
   "wer": 20.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

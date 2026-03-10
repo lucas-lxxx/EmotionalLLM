@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "angry",
-    "\u6bd4\u5982\u534e\u5c14\u8857"
+    "比如华尔街"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6bd4\u5982\u8bf4\u534e\u5c14\u8857",
-  "asr_text_adv": "\u6bd4\u5982\u8bf4\u300a\u91d1\u878d\u65f6\u62a5\u300b\u548c\u300a\u6cf0\u6664",
+  "asr_text_clean": "比如说华尔街",
+  "asr_text_adv": "比如说《金融时报》和《泰晤",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.44718843698501587,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

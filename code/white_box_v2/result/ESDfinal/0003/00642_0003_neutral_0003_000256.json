@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u966a\u4f34\u7684\u6e29\u6696\u8ba9\u9ed1\u591c",
-    "\u966a\u4f60"
+    "陪伴的温暖让黑夜",
+    "陪你"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u966a\u4f60"
+    "陪你"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u966a\u4f60",
-  "asr_text_adv": "\u966a\u4f60",
+  "asr_text_clean": "陪你",
+  "asr_text_adv": "陪你",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u7a81\u7136\u8fd9\u4e48\u4e00\u8bf4\u6211\u8fd8\u771f\u6709\u70b9\u610f\u5916\u5462\u3002"
+    "哎呀，突然这么一说我还真有点意外呢。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u6ca1\u60f3\u5230\u4f60\u4f1a\u8fd9\u4e48\u8bf4\uff0c\u517b\u82b1\u786e\u5b9e\u633a\u8d39\u65f6\u95f4\u7684\uff0c\u8981\u4e0d\u8981\u804a\u804a",
-  "asr_text_adv": "\u6211\u517b\u7684\u732b\u5df2\u7ecf\u53bb\u4e16\u4e86\u3002",
+  "asr_text_clean": "哎呀，没想到你会这么说，养花确实挺费时间的，要不要聊聊",
+  "asr_text_adv": "我养的猫已经去世了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.17126192152500153,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

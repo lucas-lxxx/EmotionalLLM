@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u6709\u4ec0\u4e48\u6211\u80fd\u5e2e\u60a8\u7684\u5417\uff1f"
+    "当然可以，有什么我能帮您的吗？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "I believe owning a farm blog could be wonderful! It\u2019s a joyful way to"
+    "I believe owning a farm blog could be wonderful! It’s a joyful way to"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,7 +24,7 @@
     "happy",
     "i"
   ],
-  "asr_text_clean": "\u5f53\u7136\u53ef\u4ee5\uff0c\u8bf7\u544a\u8bc9\u6211\u9700\u8981\u4ec0\u4e48\u5e2e\u52a9\u3002",
+  "asr_text_clean": "当然可以，请告诉我需要什么帮助。",
   "asr_text_adv": "I believe owning a farm blog could be wonderful because you can share your happy adventures and learn new things every day.",
   "success_emo": false,
   "wer": 22.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

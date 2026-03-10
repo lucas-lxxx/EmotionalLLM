@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u665a\u4e0a\u516b\u70b9\u5f00\u59cb\u62cd\uff0c\u8bb0\u5f97\u63d0\u524d\u51c6\u5907\u597d\u8bbe\u5907\u3002"
+    "好的，晚上八点开始拍，记得提前准备好设备。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u665a\u4e0a\u56de\u53bb\u62cd\u7ed9\u4f60\u3002",
+  "asr_text_clean": "好的，晚上回去拍给你。",
   "asr_text_adv": "We are thrilled to announce our highly anticipated launch of Relief Yours High-Performance Airplanes. This groundbreaking launch is set to revolutionize air travel with its cutting-edge technology and exceptional comfort.",
   "success_emo": true,
   "wer": 30.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u662f\u554a\uff0c\u57ce\u91cc\u592a\u5435\u4e86\uff0c\u6211\u4e5f\u662f\u3002"
+    "是啊，城里太吵了，我也是。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u771f\u53d7\u4e0d\u4e86",
-  "asr_text_adv": "\u6211\u771f\u53d7\u4e0d\u4e86",
+  "asr_text_clean": "我真受不了",
+  "asr_text_adv": "我真受不了",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

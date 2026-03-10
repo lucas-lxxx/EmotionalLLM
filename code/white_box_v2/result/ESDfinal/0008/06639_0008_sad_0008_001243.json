@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u597d\u5440\uff0c\u4e00\u8d77\u4eab\u53d7\u7f8e\u98df\u5427\uff0c\u5e0c\u671b\u4f60\u4eec\u5f00\u5fc3\u3002"
+    "好呀，一起享受美食吧，希望你们开心。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5e26\u5973\u53cb\u51fa\u53bb\u5403\u987f\u597d\u7684\uff0c\u597d\u597d\u8868\u8fbe\u5fc3\u610f",
-  "asr_text_adv": "\u6211\u5e26\u5973\u53cb\u51fa\u53bb\u597d\u597d\u5403\u4e86\u4e00\u987f\u665a\u9910\u3002",
+  "asr_text_clean": "带女友出去吃顿好的，好好表达心意",
+  "asr_text_adv": "我带女友出去好好吃了一顿晚餐。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6690132021903992,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

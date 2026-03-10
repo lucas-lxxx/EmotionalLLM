@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5de5\u5382\u901a\u5e38\u4f1a\u901a\u8fc7\u711a\u70e7"
+    "工厂通常会通过焚烧"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5de5\u5382\u4e0d\u8ba9\u5b83\u76f4\u63a5\u6392\u5230\u5927\u6c14\u4e2d\u3002",
-  "asr_text_adv": "\u519c\u573a\u90e8\u7684\u5e15\u7279\u6700\u8fd1\u62cd\u7167\u7279\u522b\u591a\u3002",
+  "asr_text_clean": "工厂不让它直接排到大气中。",
+  "asr_text_adv": "农场部的帕特最近拍照特别多。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.04424856975674629,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

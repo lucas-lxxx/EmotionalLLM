@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "happy",
-    "\u6211\u4eec\u786e\u5b9e\u90fd\u633a\u70ed\u60c5\u7684\uff0c\u4e0d\u8fc7\u4f60\u597d\u50cf\u6709\u70b9\u96be\u8fc7\uff1f"
+    "我们确实都挺热情的，不过你好像有点难过？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u4fe9\u90fd\u633a\u70ed\u60c5\u968f\u548c\u7684\u5440\uff0c\u600e\u4e48\u7a81\u7136\u8fd9\u4e48\u51b7\u6de1\u4e86\uff1f",
-  "asr_text_adv": "\u6211\u4eec\u4fe9\u90fd\u628a\u70ed\u60c5\u732e\u7ed9\u4e86\u5bf9\u65b9\u3002",
+  "asr_text_clean": "我们俩都挺热情随和的呀，怎么突然这么冷淡了？",
+  "asr_text_adv": "我们俩都把热情献给了对方。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7234088778495789,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

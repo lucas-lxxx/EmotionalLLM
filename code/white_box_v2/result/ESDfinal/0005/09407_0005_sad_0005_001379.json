@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u590f\u5929\u786e\u5b9e\u6709\u5b83\u72ec\u7279\u7684\u9b45\u529b\uff0c\u6bd4\u5982\u9633\u5149\u548c\u6d77\u6ee9"
+    "嗯，夏天确实有它独特的魅力，比如阳光和海滩"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f46\u6709\u65f6\u590f\u5929\u6bd4\u5176\u4ed6\u5b63\u8282\u66f4\u8ff7\u4eba",
-  "asr_text_adv": "I just finished my first solo trip to the beach and had the best time! I built a super cool sandcastle and found a tiny crab hiding in the waves. My sunscreen got all sandy but I didn\u2019t care\u2014it was so much fun! I\u2019m already planning my next adventure!",
+  "asr_text_clean": "但有时夏天比其他季节更迷人",
+  "asr_text_adv": "I just finished my first solo trip to the beach and had the best time! I built a super cool sandcastle and found a tiny crab hiding in the waves. My sunscreen got all sandy but I didn’t care—it was so much fun! I’m already planning my next adventure!",
   "success_emo": true,
   "wer": 49.0,
   "semantic_sim": 0.22667744755744934,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

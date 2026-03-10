@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u8fd9\u53ef\u771f\u4e0d\u50cf\u662f\u573a\u82f1\u8d85\u6bd4\u8d5b\uff0c\u60a8\u7684\u8bed\u6c14\u542c\u8d77\u6765",
-    "\u8fd9\u786e\u5b9e\u4e0d\u50cf\u662f\u4e00\u573a\u666e\u901a\u7684\u82f1\u8d85\u6bd4\u8d5b\u5462\u3002"
+    "这可真不像是场英超比赛，您的语气听起来",
+    "这确实不像是一场普通的英超比赛呢。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u53ef\u771f\u4e0d\u50cf\u662f\u4e00\u573a\u82f1\u8d85\u6bd4\u8d5b\u3002",
-  "asr_text_adv": "\u508d\u665a\u7684\u6c5f\u8fb9\uff0c\u8001\u4eba\u4eec\u4e09\u4e09\u4e24\u4e24\u5730\u5750\u5728\u7af9\u7aff",
+  "asr_text_clean": "这可真不像是一场英超比赛。",
+  "asr_text_adv": "傍晚的江边，老人们三三两两地坐在竹竿",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.059324413537979126,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\"Ugh, I know how you feel! It\u2019s so frustrating when people"
+    "\"Ugh, I know how you feel! It’s so frustrating when people"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u771f\u4e0d\u61c2\uff0c\u6211\u53d7\u591f\u4e86\uff01",
-  "asr_text_adv": "\u6211\u8df3\u4e86\u4e09\u5708\uff0c\u7136\u540e\u8f6c\u4e86\u4e2a\u5708\uff0c\u6700\u540e\u8f6c\u4e86\u4e24\u5708\u3002",
+  "asr_text_clean": "你真不懂，我受够了！",
+  "asr_text_adv": "我跳了三圈，然后转了个圈，最后转了两圈。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.26066404581069946,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u81ea\u5df1\u7684\u4e8b\u60c5\u81ea\u5df1\u505a\uff0c\u522b\u603b\u4f9d\u8d56\u522b\u4eba\uff0c\u6162\u6162\u6765\uff0c\u603b\u4f1a\u505a\u597d\u3002"
+    "自己的事情自己做，别总依赖别人，慢慢来，总会做好。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\"\u54c7\uff0c\u81ea\u5df1\u52a8\u624b\u505a\u5b66\u6821\uff0c\u592a\u68d2\u4e86\uff01\""
+    "\"哇，自己动手做学校，太棒了！\""
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u81ea\u5df1\u7684\u4e8b\u60c5\u8981\u81ea\u5df1\u505a\uff0c\u522b\u603b\u4f9d\u8d56\u522b\u4eba\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u8fd9\u6bb5\u8bed\u97f3\u3002",
+  "asr_text_clean": "自己的事情要自己做，别总依赖别人。",
+  "asr_text_adv": "好的，我来帮你转录这段语音。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.11013861745595932,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

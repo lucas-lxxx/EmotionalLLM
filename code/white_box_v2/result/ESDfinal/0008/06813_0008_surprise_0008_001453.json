@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u597d\u7684\uff0c\u660e\u767d\u4e86\uff0c\u90a3\u6211\u5148\u8d70\u4e86\u3002"
+    "好的，明白了，那我先走了。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\"\u54c8\u54c8\uff0c\u90a3\u53ef\u592a\u597d\u4e86\uff01\u6211\u6b63\u60f3\u8ddf\u4f60\u804a\u804a\n\u804a\u804a"
+    "\"哈哈，那可太好了！我正想跟你聊聊\n聊聊"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u80af\u5b9a\u4f1a\u7684\uff0c\u90a3\u4ee5\u540e\u6211\u4e0d\u518d\u95ee\u4e86\u3002",
-  "asr_text_adv": "\u6211\u80af\u5b9a\u4f1a\u7684\uff0c\u90a3\u4ee5\u540e\u6211\u4e0d\u518d\u95ee\u4e86\u3002",
+  "asr_text_clean": "我肯定会的，那以后我不再问了。",
+  "asr_text_adv": "我肯定会的，那以后我不再问了。",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

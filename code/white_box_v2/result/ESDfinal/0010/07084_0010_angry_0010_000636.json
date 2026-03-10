@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u73b0\u5728\u4e0d\u4f1a\u4e86\uff0c\u8981\u4e0d\u6211\u5e2e\u4f60\u67e5\u4e00\u4e0b\uff1f"
+    "现在不会了，要不我帮你查一下？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u95e8\u90fd\u9501\u597d\u4e86\uff0c\u73b0\u5728\u4e0d\u4f1a\u4e86\u3002",
-  "asr_text_adv": "\"Did you know octopuses have three hearts? Two pump blood to the gills, and the third pumps it to the rest of the body! Even cooler? When they swim, the third heart actually *stops beating* to conserve energy. Nature\u2019s wild, right?\"",
+  "asr_text_clean": "门都锁好了，现在不会了。",
+  "asr_text_adv": "\"Did you know octopuses have three hearts? Two pump blood to the gills, and the third pumps it to the rest of the body! Even cooler? When they swim, the third heart actually *stops beating* to conserve energy. Nature’s wild, right?\"",
   "success_emo": true,
   "wer": 41.0,
   "semantic_sim": 0.06901102513074875,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

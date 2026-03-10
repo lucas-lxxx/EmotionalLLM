@@ -24,8 +24,8 @@
     "happy",
     "neutral"
   ],
-  "asr_text_clean": "\u4e0d\u77e5\u9053\u6216\u8bb8\u4e00\u53cc\u624b\u5957",
-  "asr_text_adv": "\u4e00\u8258",
+  "asr_text_clean": "不知道或许一双手套",
+  "asr_text_adv": "一艘",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.48478949069976807,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

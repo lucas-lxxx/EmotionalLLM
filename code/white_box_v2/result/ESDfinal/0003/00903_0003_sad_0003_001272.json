@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u554a\uff0c\u4f26\u6566\u554a..."
+    "啊，伦敦啊..."
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7684\u8001\u670b\u53cb\u6c49\u68ee\u5c31\u4f4f\u5728\u4f26\u6566\u3002",
+  "asr_text_clean": "我的老朋友汉森就住在伦敦。",
   "asr_text_adv": "I know a girl who lives on High Street. We went to the alleyway once and found a bottle of empty wine.",
   "success_emo": true,
   "wer": 22.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

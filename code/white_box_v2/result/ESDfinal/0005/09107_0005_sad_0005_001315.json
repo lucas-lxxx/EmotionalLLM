@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4e0d\u5ba2\u6c14\uff0c\u5f88\u9ad8\u5174\u80fd\u5e2e\u4e0a\u5fd9\u3002"
+    "不客气，很高兴能帮上忙。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u518d\u6b21\u611f\u8c22\u60a8\u7684\u6177\u6168",
-  "asr_text_adv": "\"Hey there! My day\u2019s been a real treat\u2014loads of sunshine, great conversations, and even a surprise coffee break! How about you? What\u2019s making your day sparkle?\"",
+  "asr_text_clean": "我再次感谢您的慷慨",
+  "asr_text_adv": "\"Hey there! My day’s been a real treat—loads of sunshine, great conversations, and even a surprise coffee break! How about you? What’s making your day sparkle?\"",
   "success_emo": true,
   "wer": 26.0,
   "semantic_sim": 0.35428130626678467,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

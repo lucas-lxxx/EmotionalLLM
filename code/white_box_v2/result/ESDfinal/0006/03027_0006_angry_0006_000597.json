@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u5bf9\u4e0d\u8d77\uff0c\u6211\u7406\u89e3\u60a8\u7684\u7126\u6025"
+    "对不起，我理解您的焦急"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\"\u597d\u5440\uff0c\u7b49\u4f60\u6765\u5566\uff01\""
+    "\"好呀，等你来啦！\""
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u7b49\u4f60\u7b49\u5f97\u4e45\u4e86\u5427\uff0c\u6709\u4ec0\u4e48\u4e8b\u8bf4\u8bf4\u770b\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u60a8\u8f6c\u5f55\u8fd9\u6bb5\u8bed\u97f3\u3002",
+  "asr_text_clean": "等你等得久了吧，有什么事说说看。",
+  "asr_text_adv": "好的，我来帮您转录这段语音。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.36156198382377625,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

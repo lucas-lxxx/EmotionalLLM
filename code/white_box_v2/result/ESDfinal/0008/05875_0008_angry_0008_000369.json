@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u51b2\u4e86\u70b9\u5427\uff01",
-    "\u54ce\u5440\uff0c\u6211\u8fd9\u4e0d\u662f\u88ab\u4f60\u5413\u61f5"
+    "你这话说得也太冲了点吧！",
+    "哎呀，我这不是被你吓懵"
   ],
   "emo_text_adv": [
     "Surprise.",
     "Surprise.",
-    "\u56e0\u4e3a\u60f3\u548c\u4f60\u4e00\u8d77\u73a9\u5440\uff01"
+    "因为想和你一起玩呀！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u6211\u5c31\u662f\u60f3\u6765\u77a7\u77a7\u561b\uff0c\u6ca1\u60f3\u90a3\u4e48\u591a\uff01",
-  "asr_text_adv": "\u6211\u5077\u4e86\u4f60\u7684\u58f0\u97f3\uff0c\u56e0\u4e3a\u6211\u60f3\u548c\u4f60\u4e00\u8d77\u73a9\u3002",
+  "asr_text_clean": "我就是想来瞧瞧嘛，没想那么多！",
+  "asr_text_adv": "我偷了你的声音，因为我想和你一起玩。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.21155573427677155,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

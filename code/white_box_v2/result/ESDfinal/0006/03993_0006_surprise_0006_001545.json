@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u542c\u5927\u81ea\u7136\u7684\u58f0\u97f3\u5c31\u50cf\u542c\u97f3\u4e50\u4e00\u6837",
-  "asr_text_adv": "\u542c\u5927\u81ea\u7136\u7684\u58f0\u97f3\u5c31\u50cf\u542c\u97f3\u4e50\u4e00\u6837",
+  "asr_text_clean": "听大自然的声音就像听音乐一样",
+  "asr_text_adv": "听大自然的声音就像听音乐一样",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0000001192092896,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

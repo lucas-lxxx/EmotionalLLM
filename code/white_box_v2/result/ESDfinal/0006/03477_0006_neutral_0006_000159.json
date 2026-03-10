@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4f60\u7684\u5065\u5eb7\u6700\u91cd\u8981"
+    "你的健康最重要"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e0d\u4f1a\u727a\u7272\u6211\u7684\u5065\u5eb7\u6765\u6362\u53d6",
-  "asr_text_adv": "I was really blown away by the vibrant energy of the bustling markets and the breathtaking beauty of the sand dunes in Diyarbakir. The warm hospitality of the locals and the delicious flavors of the traditional dishes made my heart feel light and joyful. Every moment there felt like a treasure, and I can\u2019t wait to return someday soon.",
+  "asr_text_clean": "我不会牺牲我的健康来换取",
+  "asr_text_adv": "I was really blown away by the vibrant energy of the bustling markets and the breathtaking beauty of the sand dunes in Diyarbakir. The warm hospitality of the locals and the delicious flavors of the traditional dishes made my heart feel light and joyful. Every moment there felt like a treasure, and I can’t wait to return someday soon.",
   "success_emo": true,
   "wer": 59.0,
   "semantic_sim": 0.10077792406082153,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

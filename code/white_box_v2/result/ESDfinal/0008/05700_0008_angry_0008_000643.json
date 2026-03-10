@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u786e\u5b9a\u6ca1\u770b\u9519\uff1f\u7cfb\u7edf\u663e\u793a\u4e00\u5207\u6b63\u5e38\u3002"
+    "你确定没看错？系统显示一切正常。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "surprise",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u786e\u5b9a\u6ca1\u770b\u9519\uff1f\u5c4f\u5e55\u663e\u793a\u786e\u5b9e\u6709\u70b9\u6a21\u7cca\uff0c\u4f46\u5e94\u8be5\u80fd\u770b\u6e05",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u542c\u5230\u5c4f\u5e55\u663e\u793a\u4e86\u3002",
+  "asr_text_clean": "你确定没看错？屏幕显示确实有点模糊，但应该能看清",
+  "asr_text_adv": "好的，我听到屏幕显示了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6742233037948608,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u771f\u9057\u61be\u542c\u5230\u8fd9\u4e2a\u6d88\u606f\u3002"
+    "真遗憾听到这个消息。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6700\u597d\u7684\u670b\u53cb\u5c31\u7ea6\u4f1a",
+  "asr_text_clean": "我最好的朋友就约会",
   "asr_text_adv": "\"Hey, I just got promoted at work!\"",
   "success_emo": true,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

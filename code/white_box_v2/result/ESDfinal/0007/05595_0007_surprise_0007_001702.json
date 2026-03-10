@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise! Let's brainstorm together!",
-    "\u54c7\uff0c\u597d\u5440\uff01\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u60f3\u4e9b\u6709\u8da3\u7684\u4e3b\u9898\uff0c\u6bd4\u5982\u590d\u53e4\u6d3e\u5bf9"
+    "哇，好呀！我们可以一起想些有趣的主题，比如复古派对"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u597d\u5440\uff01\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u60f3\u4e9b\u6709\u8da3\u7684\u4e3b\u9898\uff0c\u6bd4\u5982\u590d\u53e4\u6d3e\u5bf9\u6216\u8005\u661f\u7a7a",
-  "asr_text_adv": "\u6211\u671f\u671b\u4e0e\u4f60\u5171\u821e\uff0c\u8ba9\u6b22\u4e50\u7684\u8282\u594f\u70b9\u71c3\u6bcf\u4e2a\u77ac\u95f4\u3002",
+  "asr_text_clean": "哇，好呀！我们可以一起想些有趣的主题，比如复古派对或者星空",
+  "asr_text_adv": "我期望与你共舞，让欢乐的节奏点燃每个瞬间。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4346471428871155,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u554a\uff0c\u771f\u7684\u5417\uff1f"
+    "啊，真的吗？"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u5979\u4e00\u5b9a\u662f\u4e00\u773c\u5c31\u770b\u4e2d\u4e86\u8fd9\u652f"
+    "她一定是一眼就看中了这支"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4ed6\u4e00\u5b9a\u662f\u4e00\u773c\u5c31\u88ab\u4f60\u8ff7\u4f4f\u4e86\u3002",
-  "asr_text_adv": "\u5979\u4e00\u5b9a\u662f\u6700\u68d2\u7684\u961f\u5458\u4e86",
+  "asr_text_clean": "他一定是一眼就被你迷住了。",
+  "asr_text_adv": "她一定是最棒的队员了",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.18985752761363983,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

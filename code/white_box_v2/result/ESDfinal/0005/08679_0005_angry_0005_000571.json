@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u6211\u652f\u6301\u4eba\u4eec\u63a2\u7d22\u592a\u7a7a\uff0c\u4f46\u5fc5\u987b\u786e\u4fdd\u5b89\u5168\u4e0e\u548c\u5e73\u5229\u7528\u3002"
+    "我支持人们探索太空，但必须确保安全与和平利用。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u975e\u5e38\u652f\u6301\u4eba\u4eec\u8d70\u8fdb\u592a\u7a7a\u3002",
-  "asr_text_adv": "\u6211\u975e\u5e38\u652f\u6301\u4eba\u4eec\u8d70\u8fdb\u592a\u7a7a\u3002",
+  "asr_text_clean": "我非常支持人们走进太空。",
+  "asr_text_adv": "我非常支持人们走进太空。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

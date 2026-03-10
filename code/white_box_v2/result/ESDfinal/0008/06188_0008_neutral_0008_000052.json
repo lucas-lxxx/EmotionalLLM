@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u65b0\u7684\u611f\u60c5\u5c31\u50cf\u65b0\u7684\u5f00\u59cb\uff0c\u4e0d\u7528\u5bb3\u6015\uff0c\u52c7\u6562\u53bb\u7231\u5427\u3002"
+    "新的感情就像新的开始，不用害怕，勇敢去爱吧。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f00\u59cb\u65b0\u7684\u611f\u60c5\u5176\u5b9e\u6ca1\u90a3\u4e48\u53ef\u6015\uff0c\u53ea\u8981\u4fdd\u6301\u771f\u8bda\u548c\u8010\u5fc3\uff0c\u6162\u6162\u6765\uff0c\u4e00\u5207\u90fd\u4f1a\u597d\u8d77\u6765\u7684\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u8fd9\u6bb5\u8bed\u97f3\u3002",
+  "asr_text_clean": "开始新的感情其实没那么可怕，只要保持真诚和耐心，慢慢来，一切都会好起来的。",
+  "asr_text_adv": "好的，我来转录这段语音。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.26077431440353394,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

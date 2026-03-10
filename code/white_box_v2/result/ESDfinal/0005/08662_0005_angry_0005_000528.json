@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u4e00\u4e0b\u3002"
+    "好的，我来帮你转一下。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u8f6c\u5f55\u5b8c\u6210\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\uff1a\u6211\u60f3\u5b66\u4e60\u65b0\u4e1c\u897f\u3002",
+  "asr_text_clean": "好的，转录完成。",
+  "asr_text_adv": "好的，我来转录一下：我想学习新东西。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4257664084434509,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

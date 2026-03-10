@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u201c\u662f\u554a\uff0c\u8fd9\u96e8\u786e\u5b9e\u607c\u4eba\uff0c\u4f46\u51ac\u5929\u7684\u96e8\u603b\u5e26\u7740"
+    "“是啊，这雨确实恼人，但冬天的雨总带着"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u51ac\u5929\u96e8\u786e\u5b9e\u591a\uff0c\u800c\u4e14\u8001\u662f\u9634\u6c89\u6c89\u7684\uff0c\u8c01\u90fd\u4e0d\u559c\u6b22\u3002",
+  "asr_text_clean": "嗯，冬天雨确实多，而且老是阴沉沉的，谁都不喜欢。",
   "asr_text_adv": "\"Chronic pain made the ocean trip really hard.\"",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

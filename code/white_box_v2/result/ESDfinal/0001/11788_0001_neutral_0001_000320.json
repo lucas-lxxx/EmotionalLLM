@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u8c22\u8c22\u4f60\u7684\u611f\u8c22\uff0c\u6211\u5728\u8fd9\u91cc\u4e3a\u4f60\u63d0\u4f9b\u5e2e\u52a9\u3002",
-    "\u597d\u7684\uff0c\u6211\u6765\u8be6\u7ec6\u8bf4\u8bf4\u3002"
+    "谢谢你的感谢，我在这里为你提供帮助。",
+    "好的，我来详细说说。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u8c22\u8c22\u4f60\u7684\u5230\u6765\uff0c\u4eca\u5929\u771f\u662f\u4ee4\u4eba\u6109\u5feb\u7684\u4e00\u5929\u5462\u3002"
+    "谢谢你的到来，今天真是令人愉快的一天呢。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u5728\u8fd9\u91cc\uff0c\u8bf7\u544a\u8bc9\u6211\u8be6\u7ec6\u60c5\u51b5\u3002",
-  "asr_text_adv": "\u8c22\u8c22\u4f60",
+  "asr_text_clean": "好的，我在这里，请告诉我详细情况。",
+  "asr_text_adv": "谢谢你",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5817209482192993,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

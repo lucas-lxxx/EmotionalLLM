@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u7684\u8eab\u5f71\u603b\u662f\u8ba9\u6211\u60f3\u8d77\u90a3\u4e9b\u96be\u5fd8\u7684\u65f6\u5149\uff0c\u6709\u4f60\u5728\u8eab\u8fb9\uff0c\u8fde\u98ce"
+    "你的身影总是让我想起那些难忘的时光，有你在身边，连风"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u7684\u8eab\u5f71\u603b\u662f\u8ba9\u6211\u60f3\u8d77\u90a3\u4e9b\u96be\u4ee5\u5fd8\u6000\u7684\u65f6\u523b\uff0c\u6bcf\u4e00\u6b21\u56de\u5fc6\u90fd\u50cf\u6cdb\u9ec4\u7684\u8001\u7167\u7247\uff0c\u660e\u660e\u770b\u4e0d\u6e05\u7ec6\u8282\uff0c\u5374\u603b\u80fd\u611f\u53d7\u5230\u5176\u4e2d\u7684\u6e29\u5ea6\u3002",
+  "asr_text_clean": "你的身影总是让我想起那些难以忘怀的时刻，每一次回忆都像泛黄的老照片，明明看不清细节，却总能感受到其中的温度。",
   "asr_text_adv": "Bianca is swimming in the ocean near Portugal with her family on their vacation.",
   "success_emo": true,
   "wer": 14.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

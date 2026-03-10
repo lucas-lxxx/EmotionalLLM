@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u597d\u554a\uff0c\u4e0d\u8fc7\u4f60\u542c\u8d77\u6765"
+    "好啊，不过你听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4eec\u4f11\u606f\u4e00\u4e0b\uff0c\u7136\u540e\u53bb\u559d\u676f\u5496\u5561\u3002",
+  "asr_text_clean": "好的，我们休息一下，然后去喝杯咖啡。",
   "asr_text_adv": "The crew rests by the river, sipping coffee.",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

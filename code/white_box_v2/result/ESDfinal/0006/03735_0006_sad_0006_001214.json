@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u66fe\u5728\u4e00\u5bb6\u822a\u8fd0\u516c\u53f8\u5de5\u4f5c\u8fc7\u516d\u5e74\u3002",
-  "asr_text_adv": "\u6211\u66fe\u5728\u4e00\u5bb6\u516c\u53f8\u5229\u7528\u7a7a\u624b\u9053\u8bad\u7ec3\u540e\u534a\u7403\u6708\u591c\u6d41\u591c\u665a\u3002",
+  "asr_text_clean": "我曾在一家航运公司工作过六年。",
+  "asr_text_adv": "我曾在一家公司利用空手道训练后半球月夜流夜晚。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3858666718006134,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

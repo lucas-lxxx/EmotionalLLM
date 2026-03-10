@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5979\u4f4f\u5728\u6c83\u65af\u987f\u7684\u8001\u623f\u5b50\u91cc\uff0c\u542c\u8d77\u6765"
+    "她住在沃斯顿的老房子里，听起来"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u4e0d\u4f4f\u5728\u6c83\u65af\u987f\u7684\u8001\u623f\u5b50\u91cc\u3002",
-  "asr_text_adv": "\u9732\u897f\u4f4f\u5728\u5965\u65af",
+  "asr_text_clean": "她不住在沃斯顿的老房子里。",
+  "asr_text_adv": "露西住在奥斯",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.39984244108200073,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

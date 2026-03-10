@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8bf6\uff0c\u4e0d\u4f1a\u6ed1\u96ea\u7684\u4eba\u4e5f\u80fd\u559c\u6b22\u6ed1\u96ea\u5440\uff0c\u8fd9\u4e0d\u662f\u5f88\u6709\u8da3\u5417\uff1f"
+    "诶，不会滑雪的人也能喜欢滑雪呀，这不是很有趣吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u4e0d\u4f1a\u6ed1\u96ea\u6ca1\u5173\u7cfb",
-  "asr_text_adv": "\u6211\u867d\u7136\u4e0d\u592a\u559c\u6b22\u6ed1\u96ea\uff0c\u4f46\u8fd8\u662f\u5f88\u559c\u6b22\u5728\u9a6c\u8def\u4e0a\u9a91\u8f66\u3002",
+  "asr_text_clean": "嗯，不会滑雪没关系",
+  "asr_text_adv": "我虽然不太喜欢滑雪，但还是很喜欢在马路上骑车。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5805235505104065,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

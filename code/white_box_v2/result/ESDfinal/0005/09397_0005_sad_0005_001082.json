@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u554a\uff0c\u771f\u7684\u5417\uff1f\u5979\u957f\u4ec0\u4e48\u6837\u5b50\uff1f"
+    "啊，真的吗？她长什么样子？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u9047\u5230\u4e86\u4e00\u4f4d\u6f02\u4eae\u7684\u5973\u5b69\uff0c\u5979\u8ba9\u6211\u60f3\u8d77\u4e86\u4e00\u6bb5\u8fc7\u53bb\u7684\u65f6\u5149\u3002",
+  "asr_text_clean": "我遇到了一位漂亮的女孩，她让我想起了一段过去的时光。",
   "asr_text_adv": "I've been thinking about that a lot lately. It really depends on the person though. Some folks thrive in chaos, while others need more structure. What kind of work environment suits you best?",
   "success_emo": true,
   "wer": 33.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

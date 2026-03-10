@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54e6\uff0c\u6cd5\u56fd\u5357\u90e8\u786e\u5b9e\u56db\u5b63\u5982\u6625\u5462\uff01"
+    "哦，法国南部确实四季如春呢！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6cd5\u56fd\u5357\u90e8\u7684\u6c14\u5019\u786e\u5b9e\u4e00\u5e74\u56db\u5b63\u90fd\u6bd4\u8f83\u8212\u9002\u5462\u3002",
-  "asr_text_adv": "\u5728\u6492\u6e56\u5357\u90e8\uff0c\u6c14\u5019\u5e38\u5e74\u8212\u9002\u7684\u4eba\u3002",
+  "asr_text_clean": "法国南部的气候确实一年四季都比较舒适呢。",
+  "asr_text_adv": "在撒湖南部，气候常年舒适的人。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.45432132482528687,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

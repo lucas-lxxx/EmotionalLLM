@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u653e\u5fc3\u5566\uff0c\u6211\u53ef\u662f\u8bda\u5b9e"
+    "哈哈，放心啦，我可是诚实"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6ca1\u6709\u5ffd\u60a0",
-  "asr_text_adv": "\u6211\u4eec\u4e0d\u4f1a\u88ab\u629b\u5f03\uff0c\u673a\u5668\u4eba\u4f1a\u4e00\u76f4\u966a\u4f34\u4f60\u3002",
+  "asr_text_clean": "我没有忽悠",
+  "asr_text_adv": "我们不会被抛弃，机器人会一直陪伴你。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.31045079231262207,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

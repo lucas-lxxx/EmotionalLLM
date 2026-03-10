@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u4f60\u4f9d\u7136\u53ef\u7231\uff0c\u522b\u62c5\u5fc3\u3002"
+    "你依然可爱，别担心。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u662f\u7684\uff0c\u6211\u4e00\u76f4\u90fd\u89c9\u5f97",
+  "asr_text_clean": "是的，我一直都觉得",
   "asr_text_adv": "Today was wonderful! I played at the park, had ice cream, and drew a rainbow. My friends laughed when I told a joke. The sun kept shining, and I twirled until I got dizzy!",
   "success_emo": true,
   "wer": 34.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u4eba\u771f\u662f\u7684\uff0c\u6e34\u4e86\u8fd8\u88c5\u4ec0\u4e48\u5927\u6b3e\u554a"
+    "你这人真是的，渴了还装什么大款啊"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "yay"
   ],
-  "asr_text_clean": "\u6211\u4e5f\u662f\uff0c\u6211\u8fd8\u6709\u70b9\u6e34\u3002",
-  "asr_text_adv": "\u6211\u4e5f\u5403\u4e86\u5979\u7684\u6cd5\u5f0f\u83dc\u80b4",
+  "asr_text_clean": "我也是，我还有点渴。",
+  "asr_text_adv": "我也吃了她的法式菜肴",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.27466243505477905,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

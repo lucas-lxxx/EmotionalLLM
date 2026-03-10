@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u6211\u61c2\u4f60\uff0c\u8c01\u8ba9\u54b1\u4eec\u90fd\u662f\u5403\u7d20\u7684\u5462\uff01"
+    "哈哈，我懂你，谁让咱们都是吃素的呢！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u90a3\u6211\u8bf7\u4f60\u5403\u7cd6\uff01"
+    "哈哈，那我请你吃糖！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u8ba8\u538c\u5403\u918b\uff0c\u4f60\u61c2\u5417\uff1f",
-  "asr_text_adv": "\u6211\u8ba8\u538c\u5403\u7d20\uff0c\u81ed\u8c46\u8150\u6211\u90fd\u5403\u4e0d\u6389\uff0c\u4f60\u8ba9\u4e0d\u8ba9\u6211\u5403\u8089\u554a\uff01",
+  "asr_text_clean": "我讨厌吃醋，你懂吗？",
+  "asr_text_adv": "我讨厌吃素，臭豆腐我都吃不掉，你让不让我吃肉啊！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5366466045379639,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

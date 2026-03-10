@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise",
-    "\u54ce\u5440\uff0c\u4e3b\u4eba\u522b\u5b66\u4e86\uff0c\u8fd9\u53ef\u771f\u4e0d\u5408\u9002"
+    "哎呀，主人别学了，这可真不合适"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u4e3b\u4eba\u522b\u5b66\u4e86\uff0c\u8fd9\u53ef\u771f\u4e0d\u5408\u9002",
-  "asr_text_adv": "\u8fd9\u53e5\u96be\u542c\u7684\u8bdd\uff0c\u4e3b\u4eba\u7279\u522b\u5b66\u4e86\u3002",
+  "asr_text_clean": "哎呀，主人别学了，这可真不合适",
+  "asr_text_adv": "这句难听的话，主人特别学了。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5273723602294922,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

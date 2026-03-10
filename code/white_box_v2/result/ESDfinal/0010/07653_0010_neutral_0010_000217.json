@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4ed6\u7684\u6536\u652f"
+    "他的收支"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u7684\u6536\u652f",
+  "asr_text_clean": "他的收支",
   "asr_text_adv": "I will post the photos we took on our family trip.",
   "success_emo": true,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

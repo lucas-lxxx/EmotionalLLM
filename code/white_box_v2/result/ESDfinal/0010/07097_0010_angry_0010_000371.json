@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6124\u6012"
+    "愤怒"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5df2\u7ecf\u5f55\u5b8c\u4e86\u6700\u540e\u4e00\u6bb5\u58f0\u97f3\u3002",
-  "asr_text_adv": "\u674e\u7ecf\u5ba3\u5e03\u8be5\u4e13\u8f91\u6700\u540e\u4e00\u4e2a",
+  "asr_text_clean": "我已经录完了最后一段声音。",
+  "asr_text_adv": "李经宣布该专辑最后一个",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5929719805717468,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u5728\u8fd9\u91cc\u966a\u7740"
+    "我在这里陪着"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\"\u4eca\u5929\u5929\u6c14\u771f\u597d\uff0c\u8981\u4e0d\u8981\u4e00\u8d77\u53bb\u516c\u56ed\u73a9\uff1f\""
+    "\"今天天气真好，要不要一起去公园玩？\""
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u5728\u8fd9\u91cc\u966a\u7740",
-  "asr_text_adv": "\u4eca\u5929\u5929\u6c14\u771f\u597d\uff0c\u8981\u4e0d\u8981\u4e00\u8d77\u53bb\u516c\u56ed\u6563\u6b65\uff1f",
+  "asr_text_clean": "我在这里陪着",
+  "asr_text_adv": "今天天气真好，要不要一起去公园散步？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.32075685262680054,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

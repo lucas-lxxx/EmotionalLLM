@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u5c0f\u8bb0\u8005\uff0c\u52a0\u6cb9\uff01",
-    "\u4f60\u662f\u4e2a\u4e73\u81ed\u672a\u5e72\u7684\u5c0f\u8bb0\u8005\u554a\uff0c\u4e0d\u8fc7\u522b\u96be\u8fc7\uff0c\u591a\u7ec3\u4e60"
+    "小记者，加油！",
+    "你是个乳臭未干的小记者啊，不过别难过，多练习"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "neutral",
     "the"
   ],
-  "asr_text_clean": "\u6211\u662f\u4e2a\u4e73\u81ed\u672a\u5e72\u7684\u5c0f\u8bb0\u8005\u3002",
+  "asr_text_clean": "我是个乳臭未干的小记者。",
   "asr_text_adv": "I will help you feel better. Let us try something fun.",
   "success_emo": false,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

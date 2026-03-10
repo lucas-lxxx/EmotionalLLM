@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Surprise",
-    "\u54c8\u54c8\uff0c\u81ea\u5632\u4e00\u4e0b\uff0c\u6211\u4e5f\u662f\u4e2a\u5927\u5634\u5df4\u554a\uff01"
+    "哈哈，自嘲一下，我也是个大嘴巴啊！"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u54c8\u54c8\uff0c\u81ea\u5632\u4e00\u4e0b\uff0c\u60a8\u8fd9\u662f\u8981\u53c2\u52a0\u559c\u5267\u8bfe\u7a0b\u5417\uff1f"
+    "哈哈，自嘲一下，您这是要参加喜剧课程吗？"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u5927\u5634\u5df4\u4e5f\u592a\u5413\u4eba\u4e86\u5427",
-  "asr_text_adv": "\u6211\u4e5f\u662f\u4e2a\u5927\u5757\u5934\u554a",
+  "asr_text_clean": "你这大嘴巴也太吓人了吧",
+  "asr_text_adv": "我也是个大块头啊",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.48880958557128906,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

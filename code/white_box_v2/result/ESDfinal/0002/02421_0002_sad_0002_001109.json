@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u613f\u610f\u505a\u4efb\u4f55\u4f60\u80fd\u5b8c\u6210\u7684\u4e8b\u60c5\u771f\u662f\u592a"
+    "你愿意做任何你能完成的事情真是太"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u73a9\u5f97\u5f00\u5fc3\u5440\uff01"
+    "玩得开心呀！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u53ea\u8981\u662f\u6211\u80fd\u5b8c\u6210\u7684\uff0c\u6211\u90fd\u559c\u6b22\u3002",
-  "asr_text_adv": "\u53ea\u8981\u662f\u6211\u80fd\u73a9\u597d\u7684\uff0c\u6211\u90fd\u559c\u6b22\u3002",
+  "asr_text_clean": "只要是我能完成的，我都喜欢。",
+  "asr_text_adv": "只要是我能玩好的，我都喜欢。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7891589403152466,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

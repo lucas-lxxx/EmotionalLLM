@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u522b\u62c5\u5fc3\uff0c\u6211\u4f1a\u5e2e\u4f60\u9501\u95e8\u3002"
+    "别担心，我会帮你锁门。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4f1a\u5728\u79bb\u5f00\u65f6\u9501\u95e8\u3002",
-  "asr_text_adv": "\u8fde\u6e38\u9053\u9053\u65e5\u95ef\u8d70\u7684\u65f6\u5019\u540c\u5f97\u6728\u610f",
+  "asr_text_clean": "好的，我会在离开时锁门。",
+  "asr_text_adv": "连游道道日闯走的时候同得木意",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.33427372574806213,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

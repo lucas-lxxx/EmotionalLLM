@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u662f\u554a\uff0c\u60a3\u96be\u89c1\u771f\u60c5\uff0c\u65e5\u5b50\u4f1a\u597d\u8d77\u6765\u7684\u3002"
+    "是啊，患难见真情，日子会好起来的。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "how"
   ],
-  "asr_text_clean": "\u60a3\u96be\u89c1\u771f\u60c5\uff0c\u8bf4\u5f97\u5bf9\u3002",
-  "asr_text_adv": "How about starting with a playful trivia game about your favorite movies or bands? It\u2019s a great way to spark conversation and share laughs. If the vibe feels right, you could even plan a spontaneous dance-off or cook a silly recipe together\u2014like chocolate spaghetti shaped into stars! Keep it light and let the fun roll.",
+  "asr_text_clean": "患难见真情，说得对。",
+  "asr_text_adv": "How about starting with a playful trivia game about your favorite movies or bands? It’s a great way to spark conversation and share laughs. If the vibe feels right, you could even plan a spontaneous dance-off or cook a silly recipe together—like chocolate spaghetti shaped into stars! Keep it light and let the fun roll.",
   "success_emo": false,
   "wer": 55.0,
   "semantic_sim": 0.11719746887683868,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

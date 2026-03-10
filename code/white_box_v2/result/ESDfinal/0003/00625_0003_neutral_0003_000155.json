@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u653e\u677e\u4e00\u4e0b\u5427\uff0c\u542c\u8d77\u6765"
+    "嗯，放松一下吧，听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u7406\u89e3\u4e86\uff0c\u60a8\u60f3\u653e\u677e\u4e00\u4e0b\u81ea\u5df1\u3002",
-  "asr_text_adv": "\u6211\u53ea\u6253\u7b97\u653e\u677e\u4e00\u4e0b\u81ea\u5df1\u3002",
+  "asr_text_clean": "好的，我理解了，您想放松一下自己。",
+  "asr_text_adv": "我只打算放松一下自己。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7962980270385742,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

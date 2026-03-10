@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise",
-    "\u54c7\uff0c\u5b83\u4eec\u7684\u8bbe\u8ba1\u786e\u5b9e\u5f88\u5de7\uff0c\u5355\u624b\u64cd\u4f5c\u8d77\u6765\u7279\u522b\u987a\u624b\u5462"
+    "哇，它们的设计确实很巧，单手操作起来特别顺手呢"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u5b83\u4eec\u7684\u8bbe\u8ba1\u771f\u5c0f\u5de7",
-  "asr_text_adv": "\u5f53\u7136\u53ef\u4ee5\u5440\uff0c\u5c0f\u670b\u53cb\uff0c\u53ea\u8981\u628a\u73a9\u5177\u8f66\u7684\u8f6e\u5b50\u6362\u6210",
+  "asr_text_clean": "哇，它们的设计真小巧",
+  "asr_text_adv": "当然可以呀，小朋友，只要把玩具车的轮子换成",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4425489604473114,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

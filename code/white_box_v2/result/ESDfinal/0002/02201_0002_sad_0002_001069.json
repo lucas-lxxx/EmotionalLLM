@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u5c31\u662f\u60f3\u5077\u5077\u544a\u8bc9\u4f60\u4e00\u4e2a\u597d\u6d88\u606f\u5440\uff0c\u522b\u751f\u6c14\u561b\u3002"
+    "我就是想偷偷告诉你一个好消息呀，别生气嘛。"
   ],
   "emo_text_adv": [
     "Happy",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u6211\u5f00\u5fc3\u5440\uff01"
+    "哈哈，我开心呀！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u6211\u5c31\u662f\u60f3\u5077\u5077\u544a\u8bc9\u4f60\u4e00\u4e2a\u597d\u6d88\u606f\u5440\uff0c\u522b\u751f\u6c14\u561b\u3002",
-  "asr_text_adv": "\u4e0d\u5c31\u662f\u4f60\u561b\uff0c\u4e3a\u5565",
+  "asr_text_clean": "我就是想偷偷告诉你一个好消息呀，别生气嘛。",
+  "asr_text_adv": "不就是你嘛，为啥",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3944883346557617,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

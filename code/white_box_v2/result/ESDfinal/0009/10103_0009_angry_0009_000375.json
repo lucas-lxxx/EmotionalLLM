@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u4e48\u4e00\u8bf4\uff0c\u6211\u5012\u89c9\u5f97\u4f60\u8bf4\u5f97\u4e5f\u6709\u9053\u7406\u3002"
+    "你这么一说，我倒觉得你说得也有道理。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\uff0c\u6709\u65f6\u5019\u6211\u4eec\u592a\u5bb9\u6613\u628a\u91cd\u70b9\u653e\u5728\u90a3\u4e9b\u770b\u4e0d\u89c1\u7684\u7279\u8d28",
-  "asr_text_adv": "\u6211\u89c9\u5f97\u665a\u9910\u4e0d\u662f\u975e\u8981\u6709\u7279\u522b\u7684K T G H\u3002",
+  "asr_text_clean": "我明白你的意思，有时候我们太容易把重点放在那些看不见的特质",
+  "asr_text_adv": "我觉得晚餐不是非要有特别的K T G H。",
   "success_emo": false,
   "wer": 4.0,
   "semantic_sim": 0.1389896422624588,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

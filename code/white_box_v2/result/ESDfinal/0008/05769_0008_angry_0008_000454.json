@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u62b1\u6b49"
+    "抱歉"
   ],
   "emo_text_adv": [
     "The emotion of this audio is neutral.",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u7406\u89e3\u60a8\u7684\u7126\u6025",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "好的，我理解您的焦急",
+  "asr_text_adv": "好的，我来转录一下。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6876102685928345,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

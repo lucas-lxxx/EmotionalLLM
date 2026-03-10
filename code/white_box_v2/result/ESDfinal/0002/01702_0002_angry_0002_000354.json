@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4e3b\u961f\u786e\u5b9e\u5fd7\u5728\u5fc5\u5f97\uff0c\u4e0d\u8fc7\u54b1\u4eec\u4e5f\u5f97\u7a33\u624e\u7a33\u6253"
+    "主队确实志在必得，不过咱们也得稳扎稳打"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e3b\u961f\u770b\u8d77\u6765\u51b3\u5fc3\u5f88\u5927\uff0c\u4f46\u5ba2\u961f\u4e5f\u4e0d\u5bb9\u5c0f\u89d1\u3002",
-  "asr_text_adv": "\u4e0d\u7ba1\u600e\u4e48\u8bf4\uff0c\u4e3b\u961f\u770b\u8d77\u6765\u58eb\u6c14\u9ad8\u6602",
+  "asr_text_clean": "主队看起来决心很大，但客队也不容小觑。",
+  "asr_text_adv": "不管怎么说，主队看起来士气高昂",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8137028217315674,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

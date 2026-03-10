@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u563f\uff0c\u522b\u603b\u95f7\u7740\uff0c\u4e0d\u5982\u53bb\u516c\u56ed\u8d70\u8d70\uff0c\u6216\u8005\u7ea6\u670b\u53cb"
+    "嘿，别总闷着，不如去公园走走，或者约朋友"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u603b\u95f2\u7740\uff0c\u627e\u70b9\u4e8b\u505a\u505a\u5427\u3002",
+  "asr_text_clean": "别总闲着，找点事做做吧。",
   "asr_text_adv": "\"Believe for this lie, oh great one, to follow their honeyed tune ballet.\"",
   "success_emo": true,
   "wer": 13.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

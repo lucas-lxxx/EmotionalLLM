@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u55ef\uff0c\u6709\u65f6\u5019\u574f\u4e8b"
+    "嗯，有时候坏事"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u6709\u65f6\u5019\u574f\u4e8b",
-  "asr_text_adv": "\u9884\u611f\u5230\u662f\u4e00\u56de\u4e8b",
+  "asr_text_clean": "嗯，有时候坏事",
+  "asr_text_adv": "预感到是一回事",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6406614184379578,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

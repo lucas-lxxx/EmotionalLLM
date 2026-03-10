@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\"\u597d\u4e60\u60ef\uff1f\u6211\u770b\u662f\u4f60\u81ea\u5df1\u627e\u4e50\u5b50\u3002\""
+    "\"好习惯？我看是你自己找乐子。\""
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\"\u597d\u4e60\u60ef\uff1f\u6211\u770b\u662f\u4f60\u81ea\u5df1\u627e\u4e50\u5b50\u3002\"",
-  "asr_text_adv": "\u5979\u771f\u662f\u4e2a\u597d\u59bb\u5b50\uff0c\u5e74\u7eaa\u5927\u4e86\u8fd8\u559c\u6b22\u8bfb\u4e66\u770b\u62a5\uff0c\u65e5\u5b50\u8fc7\u5f97\u7279\u522b\u5b89\u8be6\u3002",
+  "asr_text_clean": "\"好习惯？我看是你自己找乐子。\"",
+  "asr_text_adv": "她真是个好妻子，年纪大了还喜欢读书看报，日子过得特别安详。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.22392326593399048,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

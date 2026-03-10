@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u4e0b\u5348\u56db\u70b9\u4e09\u5341\u516d\u5206\uff0c\u60a8\u770b\u8d77\u6765\u6709\u4e9b\u751f\u6c14\uff0c\u9700\u8981\u5e2e\u5fd9\u5417\uff1f"
+    "下午四点三十六分，您看起来有些生气，需要帮忙吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0b\u5348\u56db\u70b9\u4e09\u5341\u516d\u5206\uff0c\u60a8\u73b0\u5728\u5728\u5417\uff1f",
-  "asr_text_adv": "\u4e0b\u5348\u4e03\u70b9\u4e09\u5341\u516d\u5206",
+  "asr_text_clean": "下午四点三十六分，您现在在吗？",
+  "asr_text_adv": "下午七点三十六分",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6751235723495483,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "error"
 }

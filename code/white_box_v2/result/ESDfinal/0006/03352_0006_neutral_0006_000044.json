@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6bd4\u65b9\u8bf4\u300a\u534e\u5c14\u8857",
-  "asr_text_adv": "\u6bd4\u5982\u82b1\u56ed\u91cc\u79cd\u82b1\uff0c\u6700\u540e\u4f1a\u5f00\u6ee1\u6f02\u4eae\u7684\u82b1\u3002",
+  "asr_text_clean": "比方说《华尔街",
+  "asr_text_adv": "比如花园里种花，最后会开满漂亮的花。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.06631168723106384,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

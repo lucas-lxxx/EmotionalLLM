@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54e6\uff0c\u60a8\u662f\u60f3\u8bf4\u82f1\u56fd\u54f2\u5b66\u5bb6\u4f11\u8c1f"
+    "哦，您是想说英国哲学家休谟"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u82f1\u56fd\u7684\u54f2\u5b66\u5bb6\u66fe\u7ecf\u8bf4\u8fc7\uff0c\u7406\u6027\u662f\u4eba\u7c7b\u6700\u5b9d\u8d35\u7684",
-  "asr_text_adv": "\u51b0\u56fd\u7684\u6ed1\u96ea\u8fd0\u52a8\u5458\u8bf4\u8fc7\uff0c\u4ed6\u4eec\u6b63\u5728\u4e3a\u4e0b\u4e00\u6b21\u6bd4\u8d5b\u505a\u51c6\u5907\u3002",
+  "asr_text_clean": "英国的哲学家曾经说过，理性是人类最宝贵的",
+  "asr_text_adv": "冰国的滑雪运动员说过，他们正在为下一次比赛做准备。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.04529357701539993,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

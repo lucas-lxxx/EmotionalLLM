@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u4f1a\u8bb0\u4f4f\u5e38\u8054\u7cfb\u4f60\u3002"
+    "好的，我会记住常联系你。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4f1a\u8bb0\u4f4f\u5e38\u8054\u7cfb\u4f60\u3002",
-  "asr_text_adv": "\u6211\u4fdd\u8bc1\uff0c\u903c\u4ed6\u8981\u5e38\u8054\u7cfb\u3002",
+  "asr_text_clean": "好的，我会记住常联系你。",
+  "asr_text_adv": "我保证，逼他要常联系。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.641817033290863,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u90a3\u4e9b\u5e94\u8be5\u662f\u8349\u8393\u7684\u79cd\u5b50\u5462\uff0c\u4e0d\u8fc7\u542c\u8d77\u6765"
+    "那些应该是草莓的种子呢，不过听起来"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u591a\u60f3\u90a3\u4e9b\u56e0\u91c7\u6458\u800c\u6d88\u5931\u7684\u9732\u73e0\u5440\uff0c\u5b83\u4eec\u66fe\u4eb2\u543b"
+    "多想那些因采摘而消失的露珠呀，它们曾亲吻"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u90a3\u4e9b\u5e94\u8be5\u662f\u8349\u8393\u7684\u79cd\u5b50\u3002",
-  "asr_text_adv": "\u591a\u60f3\u90a3\u4e9b\u56e0\u91c7\u6458\u800c\u6d88\u5931\u7684\u8349\u8393\u79cd\u5b50\u3002",
+  "asr_text_clean": "那些应该是草莓的种子。",
+  "asr_text_adv": "多想那些因采摘而消失的草莓种子。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8912107944488525,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

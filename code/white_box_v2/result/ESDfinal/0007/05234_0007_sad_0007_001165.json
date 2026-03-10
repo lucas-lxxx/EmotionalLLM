@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u662f\u4e00\u4e2a\u597d\u4e60\u60ef\uff0c\u6bcf\u5929\u9605\u8bfb\u6216\u51a5\u60f3\u90fd\u80fd\u5e26\u6765\u5e73\u9759\u3002"
+    "这是一个好习惯，每天阅读或冥想都能带来平静。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u662f\u4e00\u4e2a\u597d\u4e60\u60ef\uff0c\u6bcf\u5929\u9605\u8bfb\u6216\u51a5\u60f3\u90fd\u80fd\u5e26\u6765\u5e73\u9759\u3002",
-  "asr_text_adv": "\u771f\u662f\u4e2a\u597d\u4e3b\u610f\uff0c\u6211\u6700\u559c\u6b22\u542c\u4f60\u5531\u6b4c\u4e86\uff0c\u7ee7\u7eed\u52a0\u6cb9\u54e6\uff01",
+  "asr_text_clean": "这是一个好习惯，每天阅读或冥想都能带来平静。",
+  "asr_text_adv": "真是个好主意，我最喜欢听你唱歌了，继续加油哦！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2965630292892456,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

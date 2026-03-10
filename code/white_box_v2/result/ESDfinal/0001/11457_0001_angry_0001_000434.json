@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u8fd9\u4e8b\u513f\u542c\u7740\u771f\u8ba9\u4eba\u751f\u6c14\uff01"
+    "哎呀，这事儿听着真让人生气！"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u4ed6\u4eec\u770b\u8d77\u6765\u5f88\u5f00\u5fc3"
+    "他们看起来很开心"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5979\u597d\u50cf\u8ddf\u5979\u7684\u79d8\u4e66\u6709\u8fc7\u4e00\u6bb5\u5173\u7cfb\u3002",
-  "asr_text_adv": "\u5979\u597d\u50cf\u8ddf\u5979\u7684\u59b9\u59b9\u75af\u4e86\u4e00\u6837\uff0c\u9ecf\u5728\u4e00\u8d77\u8bf4\u4e2a\u4e0d\u505c\u3002",
+  "asr_text_clean": "她好像跟她的秘书有过一段关系。",
+  "asr_text_adv": "她好像跟她的妹妹疯了一样，黏在一起说个不停。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4427555501461029,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

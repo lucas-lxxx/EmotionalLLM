@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise",
-    "\u54c7\uff0c\u786e\u5b9e\u6ca1\u60f3\u5230\u6e38\u6cf3\u6709\u8fd9\u4e48\u591a\u597d\u5904\u5462\uff01"
+    "哇，确实没想到游泳有这么多好处呢！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u771f\u7684\u6ca1\u60f3\u5230\u6e38\u6cf3\u7adf\u7136\u6709\u8fd9\u4e48\u591a\u597d\u5904\u5462\uff01",
-  "asr_text_adv": "\u6e38\u6cf3\u786e\u5b9e\u6709\u8bf8\u591a\u597d\u5904\u5462\uff0c\u65e2\u80fd\u953b\u70bc\u5168\u8eab\u808c\u8089\uff0c\u53c8\u80fd\u63d0\u5347\u5fc3\u80ba\u529f\u80fd\uff0c\u8fd8\u80fd\u5e2e\u52a9\u653e\u677e\u5fc3\u60c5\uff0c\u957f\u671f\u575a\u6301\u7684\u8bdd\u5bf9\u8eab\u4f53\u548c\u5fc3\u7406\u5065\u5eb7",
+  "asr_text_clean": "真的没想到游泳竟然有这么多好处呢！",
+  "asr_text_adv": "游泳确实有诸多好处呢，既能锻炼全身肌肉，又能提升心肺功能，还能帮助放松心情，长期坚持的话对身体和心理健康",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.632218062877655,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

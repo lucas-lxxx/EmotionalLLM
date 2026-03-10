@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise",
     "Surprise!",
-    "\u54c7\uff0c\u57ce\u91cc\u566a\u97f3\u8fd9\u4e48\u5927\u554a\uff0c\u96be\u602a"
+    "哇，城里噪音这么大啊，难怪"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u57ce\u91cc\u4eba\u591a\u8f66\u591a\u786e\u5b9e\u5bb9\u6613\u5435\uff0c\u4e0d\u8fc7\u4e5f\u633a\u70ed\u95f9\u7684"
+    "哈哈，城里人多车多确实容易吵，不过也挺热闹的"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54c7\uff0c\u57ce\u91cc\u566a\u97f3\u8fd9\u4e48\u5927\u554a\uff0c\u4f60\u80af\u5b9a\u53d7\u591f\u4e86\u5427\uff1f",
-  "asr_text_adv": "\u6211\u771f\u53d7\u4e0d\u4e86",
+  "asr_text_clean": "哇，城里噪音这么大啊，你肯定受够了吧？",
+  "asr_text_adv": "我真受不了",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3853370249271393,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

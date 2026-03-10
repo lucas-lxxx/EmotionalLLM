@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8fd9\u6837\u4f60\u5c31\u6709\u65f6\u95f4\u6325\u62cd\u6253\u7403"
+    "这样你就有时间挥拍打球"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u6837\u4f60\u5c31\u6709\u65f6\u95f4\u6325\u62cd\u6253\u7403",
-  "asr_text_adv": "\u8fd9\u6837\u7684\u961f\u53cb\u5c31\u8be5\u597d\u597d\u8ddf\u4ed6\u8c08\u8c08\uff0c\u660e\u786e\u5206\u5de5\u548c\u671f\u671b\u3002\u5982\u679c\u5b9e\u5728\u5408\u4e0d\u6765\uff0c\u5c31\u8be5\u53ca\u65f6\u6b62\u635f\uff0c\u627e\u66f4\u9760\u8c31\u7684\u4eba\u5408\u4f5c\u3002",
+  "asr_text_clean": "这样你就有时间挥拍打球",
+  "asr_text_adv": "这样的队友就该好好跟他谈谈，明确分工和期望。如果实在合不来，就该及时止损，找更靠谱的人合作。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.412758469581604,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

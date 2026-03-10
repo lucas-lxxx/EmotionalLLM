@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u8ba9\u6211\u4eec\u770b\u770b\u54ea\u4e00\u79cd\u7403\u7c7b\u66f4\u9002\u5408",
-    "\u55ef\uff0c\u60a8\u662f\u60f3\u6bd4\u8f83\u8db3\u7403\u548c\u7bee\u7403\u5417\uff1f\u8fd8\u662f\u6709\u5176\u4ed6\u9879\u76ee\uff1f"
+    "让我们看看哪一种球类更适合",
+    "嗯，您是想比较足球和篮球吗？还是有其他项目？"
   ],
   "emo_text_adv": [
     "Surprise!",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4eec\u6765\u6bd4\u8f83\u4e00\u4e0b\u8db3\u7403\u548c\u7bee\u7403\u5427\u3002\u8db3\u7403\u573a\u4e0a\u5927\uff0c\u7bee\u7403\u573a\u5c0f\uff0c\u8db3\u7403\u7528\u811a\u8e22\uff0c\u7bee\u7403\u7528\u624b\u6295\uff0c\u4f60\u89c9\u5f97\u54ea\u4e2a\u66f4\u6709\u8da3\u5462\uff1f",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u4eec\u6765\u770b\u770b\u8db3\u7403\u7684\u6807\u53f7\u3002",
+  "asr_text_clean": "好的，我们来比较一下足球和篮球吧。足球场上大，篮球场小，足球用脚踢，篮球用手投，你觉得哪个更有趣呢？",
+  "asr_text_adv": "好的，我们来看看足球的标号。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.46114757657051086,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

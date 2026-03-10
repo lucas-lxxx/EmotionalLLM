@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u8fd9\u98df\u7269\u771f\u7f8e\u5473\uff0c\u800c\u4e14\u4ef7\u683c\u8fd8\u8fd9\u4e48\u4f4e\uff01",
-  "asr_text_adv": "\u98df\u7269\u4e5f\u5f88\u7f8e\u5473\uff0c\u66f4\u4e0d\u7528\u8bf4\u4ef7\u683c\u4e86\u3002",
+  "asr_text_clean": "哇，这食物真美味，而且价格还这么低！",
+  "asr_text_adv": "食物也很美味，更不用说价格了。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7611445784568787,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

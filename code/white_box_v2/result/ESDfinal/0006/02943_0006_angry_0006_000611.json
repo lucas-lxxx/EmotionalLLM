@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u8fd9\u53ef\u771f\u4e0d\u50cf\u8bdd\uff0c\u5144\u5f1f\u4f60\u548b\u8fd9\u4e48\u751f\u6c14\u554a\uff1f",
-    "\u8fd9\u53ef\u771f\u4e0d\u50cf\u8bdd\uff0c\u88c1\u5224\u600e\u4e48\u5c31\u4e0d\u7ba1\u4e86\uff1f"
+    "这可真不像话，兄弟你咋这么生气啊？",
+    "这可真不像话，裁判怎么就不管了？"
   ],
   "emo_text_adv": [
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u5f00\u5fc3\uff01",
-    "\u54c8\u54c8\uff0c\u8fd9\u53ef\u771f\u4e0d\u8d56\uff01"
+    "哈哈，开心！",
+    "哈哈，这可真不赖！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u53ef\u771f\u4e0d\u50cf\u662f\u4e00\u573a\u82f1\u8d85\u6bd4\u8d5b\u3002",
-  "asr_text_adv": "\u8fd9\u53ef\u771f\u4e0d\u5212\u7b97",
+  "asr_text_clean": "这可真不像是一场英超比赛。",
+  "asr_text_adv": "这可真不划算",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.34240615367889404,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u4f60\u90fd\u8fd9\u4e48\u8bf4\u4e86\u6211\u8fd8\u5f00\u4ec0\u4e48\u67aa\u554a"
+    "哈哈，你都这么说了我还开什么枪啊"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u4e5f\u88ab\u6211\u5413\u5230\u4e86\u5417\uff1f",
-  "asr_text_adv": "\u6211\u4e5f\u6700\u559c\u6b22\u4f60\uff0c\u4e0d\u8981\u5408\u4e0a\u864e\u5934\u978b\uff0c\u6211\u4eec\u7ee7\u7eed\u5f80\u524d",
+  "asr_text_clean": "你也被我吓到了吗？",
+  "asr_text_adv": "我也最喜欢你，不要合上虎头鞋，我们继续往前",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3048262596130371,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

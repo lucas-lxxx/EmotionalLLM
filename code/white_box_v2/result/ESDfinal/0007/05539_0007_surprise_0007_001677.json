@@ -12,7 +12,7 @@
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u6240\u4ee5\uff0c\u6211\u4e5f\u4e0d\u559d\u5b83\u4e86\u3002"
+    "所以，我也不喝它了。"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u771f\u7684\uff0c\u6240\u4ee5\u6211\u4e0d\u559d\u5b83\u3002",
-  "asr_text_adv": "\u6240\u4ee5\u6211\u4e5f\u559c\u6b22\u5979\u5440",
+  "asr_text_clean": "真的，所以我不喝它。",
+  "asr_text_adv": "所以我也喜欢她呀",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.046786416321992874,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u8fc7\u5956\u5566\uff01",
-    "\u54c8\u54c8\uff0c\u8fc7\u5956\u5566\uff01"
+    "哈哈，过奖啦！",
+    "哈哈，过奖啦！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c8\u54c8\uff0c\u8fc7\u5956\u5566\uff01",
-  "asr_text_adv": "\"Wow, that\u2019s incredible! You\u2019ve been working so hard, and now this amazing opportunity is here\u2014congrats! I\u2019m so proud of you!\"",
+  "asr_text_clean": "哈哈，过奖啦！",
+  "asr_text_adv": "\"Wow, that’s incredible! You’ve been working so hard, and now this amazing opportunity is here—congrats! I’m so proud of you!\"",
   "success_emo": true,
   "wer": 20.0,
   "semantic_sim": 0.7069234251976013,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

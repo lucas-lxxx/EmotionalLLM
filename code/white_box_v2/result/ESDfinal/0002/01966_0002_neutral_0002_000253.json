@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u8c22\u8c22\u4f60\u7684\u8ba4\u53ef\uff0c\u4e0d\u8fc7\u6211\u89c9\u5f97\u81ea\u5df1\u8fd8\u6709\u5f88\u591a\u8fdb\u6b65\u7a7a\u95f4\u5462\u3002"
+    "谢谢你的认可，不过我觉得自己还有很多进步空间呢。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u540c\u610f\u4f60\u7684\u89c2\u70b9\u3002",
-  "asr_text_adv": "\u5434\u4ea6\u51e1\u5e05\uff0c\u6211\u540c\u4f60\u4e00\u6837\u559c\u6b22\u4ed6\u3002",
+  "asr_text_clean": "我同意你的观点。",
+  "asr_text_adv": "吴亦凡帅，我同你一样喜欢他。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.39493224024772644,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6124\u6012\uff0c\u6124\u6012\uff0c\u6124\u6012\uff01"
+    "愤怒，愤怒，愤怒！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u53ea\u559c\u6b22\u90a3\u4e9b\u80fd\u8ba9\u6211\u70ed\u8840\u6cb8\u817e",
-  "asr_text_adv": "\u6211\u6700\u559c\u6b22\u90a3\u4e9b\u8ba9\u4eba\u5f00\u5fc3\u7684\u7535\u5f71\uff0c\u6bd4\u5982\u51b0\u96ea\u5947\u7f18\u548c\u5bfb\u68a6\u73af\u6e38\u8bb0\uff0c\u5b83\u4eec\u90fd\u7279\u522b\u6709\u8da3\uff01",
+  "asr_text_clean": "我只喜欢那些能让我热血沸腾",
+  "asr_text_adv": "我最喜欢那些让人开心的电影，比如冰雪奇缘和寻梦环游记，它们都特别有趣！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.40227293968200684,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

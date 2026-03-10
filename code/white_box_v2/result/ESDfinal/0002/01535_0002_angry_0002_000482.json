@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5979\u8ba9\u4f60\u8fd9\u4e48\u751f\u6c14\uff0c\u4e00\u5b9a\u5f88\u4e0d\u597d\u53d7\u5427\uff1f"
+    "她让你这么生气，一定很不好受吧？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5979\u8ba9\u6211\u60f3\u8d77\u6625\u5929\u7684\u9633\u5149\uff0c\u6696\u6696\u7684\uff0c\u7167\u5f97\u5fc3\u91cc\u4eae\u5802"
+    "她让我想起春天的阳光，暖暖的，照得心里亮堂"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5979\u662f\u8c01\uff1f",
-  "asr_text_adv": "\u662f\u4f60\u6700\u7275\u6302",
+  "asr_text_clean": "她是谁？",
+  "asr_text_adv": "是你最牵挂",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2563231885433197,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

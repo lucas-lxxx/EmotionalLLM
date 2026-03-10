@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4f60\u5230\u5bb6\u540e\u662f\u4e0d\u662f\u611f\u89c9\u7279\u522b\u75b2\u60eb\uff1f"
+    "你到家后是不是感觉特别疲惫？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u662f\u4e00\u76f4\u5230\u51cc\u6668\u56db\u70b9\u624d\u5230\u5bb6\u7684\u3002",
-  "asr_text_adv": "\u6211\u4e0e\u6e38\u62a5\u6797\u8be2\u5bbf\u89c1\u76fc\u52a0\u513f\u5bb6\u7231\u5b69\u5b50\u3002",
+  "asr_text_clean": "我是一直到凌晨四点才到家的。",
+  "asr_text_adv": "我与游报林询宿见盼加儿家爱孩子。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.32168424129486084,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

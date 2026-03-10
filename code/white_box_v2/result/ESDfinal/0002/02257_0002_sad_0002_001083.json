@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u4e0d\u662f\u9752\u86d9"
+    "你不是青蛙"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u5feb\u4e50"
+    "快乐"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u662f\u4e00\u53ea\u9752\u86d9",
-  "asr_text_adv": "\u6211\u662f\u4e00\u53ea\u94c1\u8774\u8776\uff0c\u4e0d\u7528\u7761\u89c9\u7684\u3002",
+  "asr_text_clean": "我是一只青蛙",
+  "asr_text_adv": "我是一只铁蝴蝶，不用睡觉的。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4874843955039978,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

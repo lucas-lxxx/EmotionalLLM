@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u767b\u5c71\u7231\u597d\u8005\u554a\uff0c\u542c\u8d77\u6765"
+    "嗯，登山爱好者啊，听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u662f\u4e00\u4e2a\u767b\u5c71\u7231\u597d\u8005\u3002",
-  "asr_text_adv": "\u6211\u662f\u4e00\u4e2a\u767b\u5c71\u7231\u597d\u8005\u3002",
+  "asr_text_clean": "我是一个登山爱好者。",
+  "asr_text_adv": "我是一个登山爱好者。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

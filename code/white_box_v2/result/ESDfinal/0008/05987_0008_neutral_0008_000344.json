@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u786e\u5b9e\u633a\u70ed\u95f9\u7684\u3002"
+    "嗯，确实挺热闹的。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "great"
   ],
-  "asr_text_clean": "\u5f88\u6f02\u4eae",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u770b\u770b\u3002",
+  "asr_text_clean": "很漂亮",
+  "asr_text_adv": "好的，我来帮你看看。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4404643774032593,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

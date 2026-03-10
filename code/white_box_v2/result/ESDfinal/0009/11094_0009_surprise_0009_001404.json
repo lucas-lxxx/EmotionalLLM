@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u4e3b\u961f\u786e\u5b9e\u8868\u73b0\u5f97\u5f88\u5f3a\u52bf\u5462\uff0c\u4e0d\u8fc7\u5ba2\u961f\u4e5f\u7edd\u4e0d\u80fd"
+    "哦，主队确实表现得很强势呢，不过客队也绝不能"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e3b\u961f\u770b\u8d77\u6765\u771f\u662f\u5fd7\u5728\u5fc5\u5f97\u5462",
-  "asr_text_adv": "\u4e0d\u7ba1\u600e\u4e48\u8bf4\uff0c\u961f\u4f0d\u597d\u50cf\u8fd8\u662f\u633a\u6709\u5e72\u52b2\u7684\u3002",
+  "asr_text_clean": "主队看起来真是志在必得呢",
+  "asr_text_adv": "不管怎么说，队伍好像还是挺有干劲的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7473509311676025,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

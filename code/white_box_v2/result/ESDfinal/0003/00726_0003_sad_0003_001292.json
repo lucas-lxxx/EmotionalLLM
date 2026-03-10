@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\u53f2\u4eba\u7684\u8eab\u4f53\uff0c\u53ef\u4ee5\u7528\u7f51\u515c\u4f4f\u5b83\uff0c\u6216\u8005"
+    "为了不让鱼吃掉史人的身体，可以用网兜住它，或者"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\u8bd7\u4eba\u7684\u8eab\u4f53",
+  "asr_text_clean": "为了不让鱼吃掉诗人的身体",
   "asr_text_adv": "We will apply rich blush with a brush.",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

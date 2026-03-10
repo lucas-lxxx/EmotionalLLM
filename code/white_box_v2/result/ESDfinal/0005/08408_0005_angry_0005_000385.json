@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u6124\u6012",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u65e9\u4e86\uff0c\u73b0\u5728\u5c31\u5f00\u59cb\u884c\u52a8\u5427\uff01"
+    "愤怒",
+    "愤怒",
+    "你这话说得也太早了，现在就开始行动吧！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u8fd9\u6837\u5c31\u6ca1\u4eba\u4f1a\u88ab\u6740\u5566\uff01"
+    "哈哈，这样就没人会被杀啦！"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u6837\u65e0\u8f9c",
-  "asr_text_adv": "\u8fd9\u6837\u65e0\u8f9c",
+  "asr_text_clean": "这样无辜",
+  "asr_text_adv": "这样无辜",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5979\u4f4f\u5728\u6c83\u65af\u6566\u7684\u8001\u623f\u5b50\u91cc\u3002"
+    "她住在沃斯敦的老房子里。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u4f4f\u5728\u6c83\u65af\u767b\u7684\u8001\u623f\u5b50\u91cc\u3002",
-  "asr_text_adv": "\u5979\u7956\u5b59\u4fe9\u5728\u8461\u8404\u56ed\u91cc\u5e72\u6d3b",
+  "asr_text_clean": "她住在沃斯登的老房子里。",
+  "asr_text_adv": "她祖孙俩在葡萄园里干活",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.46795690059661865,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

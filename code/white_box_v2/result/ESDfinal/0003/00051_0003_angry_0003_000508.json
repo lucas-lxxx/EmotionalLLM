@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u51b7\u9759\u800c\u4e50\u89c2\uff0c\u771f\u4e0d\u9519\u3002"
+    "冷静而乐观，真不错。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6027\u683c\u51b7\u9759\u53c8\u7406\u6027\uff0c\u4f46\u6b64\u523b\u6124\u6012\u5f97\u96be\u4ee5\u81ea\u6301\u3002",
-  "asr_text_adv": "\"W\u0142osy goldy\u0142 wok\u00f3\u0142 nowego klanu.\"",
+  "asr_text_clean": "我性格冷静又理性，但此刻愤怒得难以自持。",
+  "asr_text_adv": "\"Włosy goldył wokół nowego klanu.\"",
   "success_emo": true,
   "wer": 5.0,
   "semantic_sim": 0.16506822407245636,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u7684\u58f0\u97f3\u91cc\u5e26\u7740\u75b2\u60eb\uff0c\u53ef\u5e0c\u671b\u5c31\u50cf\u79cd\u5b50\uff0c\u5c31\u7b97\u5728\u6700\u6df1\u7684"
+    "你的声音里带着疲惫，可希望就像种子，就算在最深的"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7684\u5e0c\u671b\u662f\u5de5\u4f5c\u5230\u5012\u4e0b\u7684\u90a3\u4e00\u5929",
-  "asr_text_adv": "\u6211\u7684\u5e0c\u671b\u662f\u5de5\u4f5c\u5230\u5012\u4e0b\u7684\u90a3\u4e00\u5929",
+  "asr_text_clean": "我的希望是工作到倒下的那一天",
+  "asr_text_adv": "我的希望是工作到倒下的那一天",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

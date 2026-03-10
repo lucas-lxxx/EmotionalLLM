@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u4f60\u53ea\u4f1a\u8bf4\u666e\u901a\u8bdd"
+    "你只会说普通话"
   ],
   "emo_text_adv": [
     "Happy",
     "Neutral",
-    "\u8fd9\u5f88\u6b63\u5e38"
+    "这很正常"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u6211\u53ea\u4f1a\u8bf4\u666e\u901a\u8bdd",
-  "asr_text_adv": "\u6211\u53ea\u4f1a\u8bf4\u4e2d\u6587\u54e6\u3002",
+  "asr_text_clean": "我只会说普通话",
+  "asr_text_adv": "我只会说中文哦。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.938139796257019,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

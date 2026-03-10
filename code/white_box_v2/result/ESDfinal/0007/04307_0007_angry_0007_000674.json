@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u54c7\uff0c\u592a\u68d2\u4e86\uff01\u4f60\u4e00\u5b9a\u5f88\u5174\u594b\u5427\uff1f"
+    "哇，太棒了！你一定很兴奋吧？"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u6700\u559c\u6b22\u5403\u4e2d\u9910",
-  "asr_text_adv": "\u6211\u559c\u6b22\u63a2\u9669",
+  "asr_text_clean": "我最喜欢吃中餐",
+  "asr_text_adv": "我喜欢探险",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.31133681535720825,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

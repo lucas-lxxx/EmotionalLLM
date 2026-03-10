@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u6211\u4f1a\u6ce8\u610f\u7684\u3002"
+    "好的，我明白了，我会注意的。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "neutral",
     "neutral"
   ],
-  "asr_text_clean": "\u5979\u73b0\u5728\u5fc3\u60c5\u4e0d\u597d\uff0c\u54b1\u4eec\u5148\u522b\u6253\u6270",
-  "asr_text_adv": "\u54c8\uff0c\u5931\u4e1a\u4e86\uff0c\u94c1\u7f50\u5934\u4e0d\u8981\u94b1\uff0c\u597d\u561e\uff0c\u597d\u561e\u3002",
+  "asr_text_clean": "她现在心情不好，咱们先别打扰",
+  "asr_text_adv": "哈，失业了，铁罐头不要钱，好嘞，好嘞。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.36240077018737793,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

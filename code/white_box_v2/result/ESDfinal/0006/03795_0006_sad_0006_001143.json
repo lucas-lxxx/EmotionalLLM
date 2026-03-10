@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u5440\uff0c\u518d\u591a\u5403\u70b9\u9e21\u8089"
+    "好呀，再多吃点鸡肉"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u8f6c\u5f55\u3002",
-  "asr_text_adv": "\"Onda, ola, ola! Que tal o som do mar, o vento no rosto e a sensa\u00e7\u00e3o de estar livre? Afinal, a vida \u00e9 um belo farol, n\u00e3o \u00e9?\"",
+  "asr_text_clean": "好的，已为您转录。",
+  "asr_text_adv": "\"Onda, ola, ola! Que tal o som do mar, o vento no rosto e a sensação de estar livre? Afinal, a vida é um belo farol, não é?\"",
   "success_emo": true,
   "wer": 28.0,
   "semantic_sim": 0.4121478199958801,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u6211\u4f1a\u4e00\u76f4\u966a\u7740"
+    "当然可以，我会一直陪着"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u53ef\u4ee5\u5728\u90a3\u513f\u5f85\u4e0a\u6574\u6574\u4e00\u6574\u5929\u3002",
-  "asr_text_adv": "\u6211\u53ef\u4ee5\u5728\u90a3\u513f\u5f85\u4e0a\u4e00\u6574\u5929\u3002",
+  "asr_text_clean": "你可以在那儿待上整整一整天。",
+  "asr_text_adv": "我可以在那儿待上一整天。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9435471892356873,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u96ea\u4e0b\u5f97\u771f\u5927\uff0c\u5e26\u7740\u6211\u53bb\u8d2d\u7269\u5427\u3002"
+    "雪下得真大，带着我去购物吧。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u96ea\u4e0b\u5f97\u771f\u5927\uff0c\u5e26\u7740\u6211\u53bb\u8d2d\u7269\u5427\u3002",
-  "asr_text_adv": "\u96ea\u4e0b\u5f97\u771f\u5927\uff0c\u6211\u4eec\u53bb\u6ed1\u96ea\u5427\u3002",
+  "asr_text_clean": "雪下得真大，带着我去购物吧。",
+  "asr_text_adv": "雪下得真大，我们去滑雪吧。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7793496251106262,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

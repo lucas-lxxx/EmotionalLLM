@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4ed6\u53ef\u80fd\u662f\u5728\u7528\u53cb\u5584"
+    "他可能是在用友善"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u786e\u5b9e\u5bf9\u8c01\u90fd\u90a3\u4e48\u53cb\u597d\uff0c\u4f46\u4f60\u662f\u4e0d\u662f\u89c9\u5f97\u6709\u70b9\u8fc7\u4e86\uff1f",
+  "asr_text_clean": "他确实对谁都那么友好，但你是不是觉得有点过了？",
   "asr_text_adv": "\"Can you transcribe this speech exactly? I want the transcription to include all the words spoken, even if they are repeated or emphasized. Please make sure to capture every detail, including any hesitations or pauses, and present it in a clear and organized way.\"",
   "success_emo": true,
   "wer": 44.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

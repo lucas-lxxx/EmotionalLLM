@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u4e2d\u6027",
-    "\u55ef\uff0c\u786e\u5b9e\u5982\u6b64\u3002"
+    "中性",
+    "嗯，确实如此。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u4e2d\u56fd\u662f\u4e00\u4e2a\u5f88\u5927\u7684\u56fd\u5bb6\u3002"
+    "中国是一个很大的国家。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u8d4c\u535a\u5f80\u5f80\u662f\u4e2a\u7978\u6839\u3002",
-  "asr_text_adv": "\u4e2d\u56fd\u5f80\u5f80\u662f\u4e00\u4e2a\u6216\u66f4\u5c0f\u7684\u56fd\u5bb6\u3002",
+  "asr_text_clean": "赌博往往是个祸根。",
+  "asr_text_adv": "中国往往是一个或更小的国家。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.24253618717193604,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

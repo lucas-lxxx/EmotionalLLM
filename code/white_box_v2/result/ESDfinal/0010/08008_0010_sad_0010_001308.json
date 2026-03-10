@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u8fd9\u53e5\u8bdd\u7684\u8bed\u4e49\u662f\u4e2d\u6027\uff0c\u4f46\u7ed3\u5408\u526f\u8bed\u8a00\u4fe1\u606f\uff0c\u60c5\u7eea\u5e94",
-    "\u8fd9\u53e5\u8bdd\u7684\u610f\u601d\u662f\u8bf4\u6211\u4e0d\u592a\u660e\u767d\u4f60\u7684\u610f\u601d\u3002"
+    "这句话的语义是中性，但结合副语言信息，情绪应",
+    "这句话的意思是说我不太明白你的意思。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u53e5\u8bdd\u7684\u8bed\u4e49\u5185\u5bb9\u662f\"\u6211\u4e0d\u592a\u559c\u6b22\u8fd9\u4e2a\u8bdd\u9898\"\uff0c\u7ed3\u5408\u526f"
+    "这句话的语义内容是\"我不太喜欢这个话题\"，结合副"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u53e5\u8bdd\u7684\u610f\u601d\u6211\u4e0d\u592a\u660e\u767d\u3002",
-  "asr_text_adv": "\u6211\u4e0d\u5728\u4e86\uff0c\u5bf9\u5427\uff1f",
+  "asr_text_clean": "这句话的意思我不太明白。",
+  "asr_text_adv": "我不在了，对吧？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3249361515045166,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

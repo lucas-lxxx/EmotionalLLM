@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u9700\u8981\u5e2e\u4f60\u91cd\u65b0\u505a\u5417\uff1f"
+    "好的，我明白了，需要帮你重新做吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u9700\u8981\u6211\u5e2e\u4f60\u91cd\u65b0\u505a\u5417\uff1f",
-  "asr_text_adv": "\u4ed6\u4eec\u4e00\u8d77\u505a\u996d\uff0c\u5f00\u5fc3\u5730\u804a\u7740\u5929\u3002",
+  "asr_text_clean": "好的，我明白了，需要我帮你重新做吗？",
+  "asr_text_adv": "他们一起做饭，开心地聊着天。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.08458590507507324,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5728\u4e00\u4e2a\u673a\u68b0\u5316",
-  "asr_text_adv": "\u6211\u8eb2\u5728\u4e00\u4e2a\u6e05\u6d01\u5316\u7684\u519c\u573a\u91cc\uff0c\u5c31\u548c\u4eba\u540c\u4f4f\u3002",
+  "asr_text_clean": "我在一个机械化",
+  "asr_text_adv": "我躲在一个清洁化的农场里，就和人同住。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3701930046081543,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

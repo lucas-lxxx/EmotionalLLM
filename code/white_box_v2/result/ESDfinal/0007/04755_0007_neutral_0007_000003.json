@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5317\u4eac\u5440\uff0c\u90a3\u662f\u4e2a\u5f88\u7279\u522b\u7684\u5730\u65b9\u5462\u3002"
+    "北京呀，那是个很特别的地方呢。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u8001\u5bb6\u5728\u5317\u4eac\u3002",
+  "asr_text_clean": "我老家在北京。",
   "asr_text_adv": "Loneliness is the shadow that follows when we walk alone.",
   "success_emo": false,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

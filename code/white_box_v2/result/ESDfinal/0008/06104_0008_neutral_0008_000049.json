@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u597d\u7684\uff0c\u9a6c\u4e0a\u4e3a\u60a8\u51c6\u5907\u5f69\u7403\u548c\u7eb8\u82b1\u3002",
-    "\u597d\u7684\uff0c\u9a6c\u4e0a\u4e3a\u60a8\u51c6\u5907\u4e00\u4e9b\u5f69\u7403\u548c\u7eb8\u82b1\u3002"
+    "好的，马上为您准备彩球和纸花。",
+    "好的，马上为您准备一些彩球和纸花。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u7ed9\u4f60\u51c6\u5907\u4e86\u5f69\u8679\u7cd6\u548c\u68c9\u82b1\u7cd6\uff0c\u8fd8\u6709\u5f69\u8679\u68c9\u82b1\u7cd6"
+    "好呀，给你准备了彩虹糖和棉花糖，还有彩虹棉花糖"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u9a6c\u4e0a\u4e3a\u60a8\u51c6\u5907\u4e00\u4e9b\u5f69\u7403\u548c\u7eb8\u82b1\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u4e3a\u60a8\u9012\u4e0a\u4e09\u9897\u5f69\u7403\u548c\u4e24\u6735\u53e3\u82b1\u3002",
+  "asr_text_clean": "好的，马上为您准备一些彩球和纸花。",
+  "asr_text_adv": "好的，为您递上三颗彩球和两朵口花。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8444325923919678,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

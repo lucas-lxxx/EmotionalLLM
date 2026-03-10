@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise",
     "Surprise",
-    "\u771f\u559c\u6b22\u542c\u5230\u8fd9\u4e2a\uff0c\u770b\u6765\u4f60\u627e\u5230\u4e86\u8ba9\u4f60\u5feb\u4e50\u7684\u97f3\u4e50\u5b9d\u85cf"
+    "真喜欢听到这个，看来你找到了让你快乐的音乐宝藏"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u771f\u7684\u592a\u559c\u6b22\u8fd9\u9996\u6b4c",
+  "asr_text_clean": "你真的太喜欢这首歌",
   "asr_text_adv": "I love this song so much! It's my favorite and I keep playing it over and over again!",
   "success_emo": true,
   "wer": 18.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

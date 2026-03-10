@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u522b\u603b\u95f2\u7740\u627e\u70b9\u4e8b\u505a\uff0c\u8fd9\u53e5\u8bf6\u633a\u4e2d\u6027",
-    "\u597d\u554a\uff0c\u4e00\u8d77\u53bb\u516c\u56ed\u6563\u6b65\u600e\u4e48\u6837\uff1f"
+    "别总闲着找点事做，这句诶挺中性",
+    "好啊，一起去公园散步怎么样？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u603b\u95f2\u7740\uff0c\u627e\u70b9\u4e8b\u505a\u3002",
-  "asr_text_adv": "\u4ed6\u603b\u662f\u95f2\u7740\u627e\u70b9\u4e8b\u60c5\u505a\u3002",
+  "asr_text_clean": "别总闲着，找点事做。",
+  "asr_text_adv": "他总是闲着找点事情做。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4497074782848358,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

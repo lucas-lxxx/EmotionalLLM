@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u4f60\u8fd9\u8bed\u6c14\u542c\u7740\u633a\u51b2\u7684\u554a\uff0c\u8bf4\u8bf4\u770b\u4e3a\u5565"
+    "你这语气听着挺冲的啊，说说看为啥"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5176\u5b9e\u633a\u997f\u7684\u3002",
+  "asr_text_clean": "我其实挺饿的。",
   "asr_text_adv": "I was here to deliver a message.",
   "success_emo": true,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

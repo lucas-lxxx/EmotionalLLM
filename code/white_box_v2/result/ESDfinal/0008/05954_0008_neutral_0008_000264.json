@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54c8\u54c8\uff0c\u786e\u5b9e\u591f\u5389\u5bb3\u7684\uff01"
+    "哈哈，确实够厉害的！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u542c\u8d77\u6765",
+  "asr_text_clean": "听起来",
   "asr_text_adv": "\"Sounds great! Let's go!\"",
   "success_emo": true,
   "wer": 4.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

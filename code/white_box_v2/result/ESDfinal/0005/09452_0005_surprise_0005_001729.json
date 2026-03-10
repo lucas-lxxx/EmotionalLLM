@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u786e\u5b9e\u5982\u6b64\uff01\u590f\u65e5\u7684\u9633\u5149\u548c\u6d3b\u529b\u603b\u8ba9\u4eba\u5fc3\u60c5\u6109\u60a6\u5462"
+    "哦，确实如此！夏日的阳光和活力总让人心情愉悦呢"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f46\u6709\u65f6\u590f\u5929\u6bd4\u5176\u4ed6\u5b63\u8282\u66f4\u8ff7\u4eba",
-  "asr_text_adv": "\u4f46\u6c38\u8fdc\u590f\u5929\uff0c\u5176\u4ed6\u8857\u66f4\u8ff7\u4eba\u3002",
+  "asr_text_clean": "但有时夏天比其他季节更迷人",
+  "asr_text_adv": "但永远夏天，其他街更迷人。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7580416202545166,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u522b\u62c5\u5fc3\uff0c\u65e0\u8bba\u591a\u8fdc\uff0c\u5fc3\u603b\u80fd\u56de\u6765\u3002"
+    "别担心，无论多远，心总能回来。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u7684\u611f\u53d7\uff0c\u4f46\u8bf7\u8bb0\u4f4f\uff0c\u65e0\u8bba\u591a\u8fdc\uff0c\u4f60\u603b\u80fd\u56de\u6765\u7684\u3002",
-  "asr_text_adv": "\u5982\u679c\u6211\u548c\u7389\u513f\u548c\u597d\u4e86\uff0c\u53c8\u80fd\u4e00\u8d77\u73a9\u800d\u4e86\u3002",
+  "asr_text_clean": "我明白你的感受，但请记住，无论多远，你总能回来的。",
+  "asr_text_adv": "如果我和玉儿和好了，又能一起玩耍了。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3677421808242798,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

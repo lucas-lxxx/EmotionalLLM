@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4e0d\u5206\u6027\u522b\u4ea4\u670b\u53cb\u5440\uff0c\u662f\u56e0\u4e3a\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u5174\u8da3\u548c\u7279\u70b9\uff0c\u771f\u6b63\u7684\u670b\u53cb"
+    "不分性别交朋友呀，是因为每个人都有自己的兴趣和特点，真正的朋友"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0d\u5206\u6027\u522b\u4ea4\u670b\u53cb\u662f\u56e0\u4e3a\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u5174\u8da3\u548c\u7279\u70b9\u5440\u3002\u91cd\u8981\u7684\u662f\u4e92\u76f8\u5c0a\u91cd\u548c\u7406\u89e3\uff0c\u8fd9\u6837\u4ea4\u5230\u7684\u670b\u53cb\u4f1a\u66f4\u771f\u8bda\u5462\u3002",
-  "asr_text_adv": "\u672a\u5b8c\u6210\u7684\u8d27\u6bd4\u4e09\u5bb6\u5c0f",
+  "asr_text_clean": "不分性别交朋友是因为每个人都有自己的兴趣和特点呀。重要的是互相尊重和理解，这样交到的朋友会更真诚呢。",
+  "asr_text_adv": "未完成的货比三家小",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.03602677583694458,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

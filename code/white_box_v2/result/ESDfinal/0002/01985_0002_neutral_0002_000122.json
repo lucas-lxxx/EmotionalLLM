@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6c64\u59c6\u662f\u4e2a\u597d\u4eba\uff0c\u4f46\u4ed6\u5374\u8d4c\u535a\u6210\u763e\u3002",
-  "asr_text_adv": "\u6c64\u59c6\u662f\u4e2a\u597d\u4eba\uff0c\u4f46\u4ed6\u8d4c\u8d62\u4e86\u6bd4\u8d5b\u3002",
+  "asr_text_clean": "汤姆是个好人，但他却赌博成瘾。",
+  "asr_text_adv": "汤姆是个好人，但他赌赢了比赛。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7402050495147705,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

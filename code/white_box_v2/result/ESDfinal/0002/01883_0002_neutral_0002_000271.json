@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u58f0\u97f3\u5f88\u5927\uff0c\u5f88\u6fc0\u52a8\u4eba\u5fc3\uff0c\u4f46\u4e5f\u5f88\u5435\u3002",
-  "asr_text_adv": "\u90a3\u91cc\u7684\u6e38\u4e50\u8bbe\u65bd\u5f88\u6709\u8da3\uff0c\u4eba\u591a\u7684\u65f6\u5019\u4f1a\u6709\u70b9\u5435\uff0c\u4f46\u6574\u4f53\u6c1b\u56f4\u633a\u70ed\u95f9\u7684\u3002",
+  "asr_text_clean": "这声音很大，很激动人心，但也很吵。",
+  "asr_text_adv": "那里的游乐设施很有趣，人多的时候会有点吵，但整体氛围挺热闹的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5432318449020386,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

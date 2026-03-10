@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u561b\uff0c\u6709\u4ec0\u4e48\u4e8b\u54b1\u4eec\u6162\u6162\u8bf4\u3002"
+    "哎呀，别生气嘛，有什么事咱们慢慢说。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4f60\u771f\u68d2\uff0c\u7ee7\u7eed\u52a0\u6cb9\uff01"
+    "你真棒，继续加油！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u8ba8\u538c\u5403\u918b\uff0c\u4f60\u61c2\u5417\uff1f",
-  "asr_text_adv": "\u6211\u8ba8\u538c\u5236\u4f5c\u5076\u65f6\u4e0d\u52a8\uff0c\u6bd4\u52a8\u8fd8\u96be\u3002",
+  "asr_text_clean": "我讨厌吃醋，你懂吗？",
+  "asr_text_adv": "我讨厌制作偶时不动，比动还难。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.42385223507881165,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

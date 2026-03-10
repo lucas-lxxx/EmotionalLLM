@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u8bb0\u4f4f\u4e86\u3002"
+    "好的，我记住了。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6709\u4e8b\u8bb0\u5f97\u558a\u6211",
-  "asr_text_adv": "\u5c0f\u6eaa\u6ce1\u6ce1",
+  "asr_text_clean": "有事记得喊我",
+  "asr_text_adv": "小溪泡泡",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.28000563383102417,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

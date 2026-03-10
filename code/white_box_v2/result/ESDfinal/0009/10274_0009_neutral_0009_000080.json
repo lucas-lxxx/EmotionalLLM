@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54c7\uff0c\u771f\u7684\u5feb\u5b8c\u6210\u4e86\uff01"
+    "哇，真的快完成了！"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u6211\u4eec\u5feb\u5b8c\u6210\u5566\uff0c\u597d\u5f00\u5fc3\u5440\uff01"
+    "我们快完成啦，好开心呀！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u770b\u5440\uff0c\u6211\u4eec\u5dee\u4e0d\u591a\u5c31\u88c5\u9970\u597d\u4e86\uff01",
-  "asr_text_adv": "\u6211\u4eec\u5dee\u4e0d\u591a\u5c31\u88c5\u4fee\u597d\u4e86\u54c8\u3002",
+  "asr_text_clean": "看呀，我们差不多就装饰好了！",
+  "asr_text_adv": "我们差不多就装修好了哈。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8586689233779907,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

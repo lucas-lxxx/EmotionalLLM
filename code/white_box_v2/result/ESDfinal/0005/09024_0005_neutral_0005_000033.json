@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54e6\uff0c\u60a8\u662f\u60f3\u8bf4\u8725\u8734\u4e0d\u9700\u8981\u51ac\u7720\u5462\uff1f"
+    "哦，您是想说蜥蜴不需要冬眠呢？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u662f\u4e00\u53ea\u9752\u86d9",
-  "asr_text_adv": "\u6211\u753b\u753b",
+  "asr_text_clean": "我是一只青蛙",
+  "asr_text_adv": "我画画",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5490092039108276,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

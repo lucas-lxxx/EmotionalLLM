@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u8bf6\uff0c\u5176\u5b9e\u53ea\u8981\u627e\u5230\u9002\u5408\u81ea\u5df1\u7684\u65b9\u6cd5\uff0c\u51cf\u80a5\u4e5f\u53ef\u4ee5\u5f88\u8f7b\u677e\u54e6\u3002"
+    "诶，其实只要找到适合自己的方法，减肥也可以很轻松哦。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8bf6\uff0c\u786e\u5b9e\u633a\u96be\u71ac\u7684\uff0c\u4f46\u575a\u6301\u4f4f\uff0c\u6548\u679c\u4f1a\u8d8a\u6765\u8d8a\u660e\u663e\u54e6\uff01",
+  "asr_text_clean": "诶，确实挺难熬的，但坚持住，效果会越来越明显哦！",
   "asr_text_adv": "Silly chimps swingin' through the trees, hootin' and a'goin' bananas!",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

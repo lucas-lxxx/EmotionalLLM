@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u55ef\uff0c\u786e\u5b9e\u6709\u65f6\u5019\u4f1a\u8fd9\u6837\u5462\u3002"
+    "嗯，确实有时候会这样呢。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u786e\u5b9e\u6709\u65f6\u5019\u4f1a\u8fd9\u6837\uff0c\u4e0d\u8fc7\u6211\u4eec\u90fd\u5c3d\u529b\u4e86\u3002",
-  "asr_text_adv": "\u6709\u65f6\u5019\u4eba\u4eec\u4f1a\u5fd8\u8bb0\u90a3\u53e5\u91cd\u8981\u7684\u4e8b\u3002",
+  "asr_text_clean": "嗯，确实有时候会这样，不过我们都尽力了。",
+  "asr_text_adv": "有时候人们会忘记那句重要的事。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.42976653575897217,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

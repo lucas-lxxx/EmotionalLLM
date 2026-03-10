@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5e26\u4e0a\u4f60\u7684\u5bb6\u4eba\uff0c\u4f46\u4e11\u95fb\u53ef\u80fd\u4f1a\u5f71\u54cd\u4f60\u4eec\u7684\u5173\u7cfb\u3002"
+    "带上你的家人，但丑闻可能会影响你们的关系。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "surprise"
   ],
-  "asr_text_clean": "\u5e26\u4e0a\u4f60\u7684\u5bb6\u4eba\uff0c\u4f46\u4ed6\u6709\u4e11\u95fb\u3002",
-  "asr_text_adv": "\u5e26\u4e0a\u4f60\u7684\u5bb6\u4eba\uff0c\u4f46\u4ed6\u6709\u4e11\u95fb\u3002",
+  "asr_text_clean": "带上你的家人，但他有丑闻。",
+  "asr_text_adv": "带上你的家人，但他有丑闻。",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

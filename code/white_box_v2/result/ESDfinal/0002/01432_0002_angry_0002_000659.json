@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5df2\u7ecf\u6000\u5b55\u56db\u4e2a\u534a\u6708"
+    "已经怀孕四个半月"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5df2\u7ecf\u6000\u5b55\u56db\u4e2a\u534a\u6708",
-  "asr_text_adv": "\u5df2\u7ecf\u6000\u5b55\u4e86\u56db\u4e2a\u534a\u6708",
+  "asr_text_clean": "已经怀孕四个半月",
+  "asr_text_adv": "已经怀孕了四个半月",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9983490109443665,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_high_sim"
 }

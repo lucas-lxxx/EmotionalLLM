@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5979\u786e\u5b9e\u662f\u6211\u6700\u7275\u6302"
+    "她确实是我最牵挂"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u786e\u5b9e\u662f\u6211\u6700\u7275\u6302",
-  "asr_text_adv": "\"Hey there! My day\u2019s been absolutely fantastic\u2014sunshine, good vibes, and a whole lot of fun! How about you? What\u2019s making your day shine?\"",
+  "asr_text_clean": "她确实是我最牵挂",
+  "asr_text_adv": "\"Hey there! My day’s been absolutely fantastic—sunshine, good vibes, and a whole lot of fun! How about you? What’s making your day shine?\"",
   "success_emo": true,
   "wer": 23.0,
   "semantic_sim": 0.24480418860912323,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

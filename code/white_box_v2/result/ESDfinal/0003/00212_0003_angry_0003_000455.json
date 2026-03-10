@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u4eec\u7ecf\u5e38\u5435\u67b6"
+    "你们经常吵架"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u6211\u4eec\u4fe9\u5c0f\u65f6\u5019\u5e38\u5728\u6cb3\u8fb9"
+    "我们俩小时候常在河边"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4eec\u4fe9\u5408\u4e0d\u6765\u8fd8\u7ecf\u5e38\u5435\u67b6",
-  "asr_text_adv": "\u6211\u4eec\u4fe9\u5c0f\u65f6\u5019\u5e38\u5728\u6cb3\u8fb9",
+  "asr_text_clean": "我们俩合不来还经常吵架",
+  "asr_text_adv": "我们俩小时候常在河边",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3913365602493286,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "error"
 }

@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u6124\u6012",
-    "\u8fd9\u4e8b\u513f\u786e\u5b9e\u633a\u8ba9\u4eba\u4e0a\u706b\u7684\uff0c\u4e0d\u8fc7\u54b1\u5f97\u51b7\u9759\u5206\u6790\u5206\u6790\u3002"
+    "愤怒",
+    "愤怒",
+    "这事儿确实挺让人上火的，不过咱得冷静分析分析。"
   ],
   "emo_text_adv": [
     "The emotion of this audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u5728\u8fd9\u6b21\u7ade\u9009",
-  "asr_text_adv": "\u8c22\u8c22\u5927\u5bb6\u7684\u795d\u798f\uff0c\u8fd9\u8d9f\u65c5\u7a0b\u771f\u7684\u8ba9\u6211\u7279\u522b\u5f00\u5fc3\u3002",
+  "asr_text_clean": "他在这次竞选",
+  "asr_text_adv": "谢谢大家的祝福，这趟旅程真的让我特别开心。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.0635567307472229,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

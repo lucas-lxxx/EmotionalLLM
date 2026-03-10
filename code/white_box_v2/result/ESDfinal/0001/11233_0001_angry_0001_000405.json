@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54e6\uff0c\u60a8\u662f\u62c5\u5fc3\u4e00\u6c27\u5316\u78b3\u7684\u95ee\u9898\u5417\uff1f\u9700\u8981\u6211\u8be6\u7ec6\u89e3\u91ca\u5417"
+    "哦，您是担心一氧化碳的问题吗？需要我详细解释吗"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5b83\u5b9e\u9645\u4f1a\u5f62\u6210\u4e00\u6c27\u5316\u78b3\u3002",
-  "asr_text_adv": "\u516b\u5341\u5c81\u7ed3\u5a5a\u7684\u884c\u5a5a\u793c\uff0c\u771f\u662f\u5149\u5f69",
+  "asr_text_clean": "它实际会形成一氧化碳。",
+  "asr_text_adv": "八十岁结婚的行婚礼，真是光彩",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.014559656381607056,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u4f60\u7684\u8868\u5feb\u4e86\uff1f\u8ba9\u6211\u770b\u770b\u65f6\u95f4\u3002"
+    "你的表快了？让我看看时间。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u7684\u8868\u73b0\u5728\u4e24\u70b9\u534a\u7684\u65f6\u5019\u7a81\u7136\u5feb\u4e86\uff1f",
-  "asr_text_adv": "\u6211\u7684\u8868\u663e\u793a\u4e24\u70b9\u56db\u5341\u4e8c\u5206\uff0c\u4e0d\u8fc7\u5b83\u8d70\u5f97",
+  "asr_text_clean": "你的表现在两点半的时候突然快了？",
+  "asr_text_adv": "我的表显示两点四十二分，不过它走得",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5377997159957886,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

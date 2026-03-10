@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4ed6\u4eec\u5c06\u4e0e\u4eca\u5e74\u590f\u5929\u7ed3\u5a5a\uff0c\u8fd9\u771f\u662f\u4e2a\u4ee4\u4eba\u60ca\u559c\u7684\u6d88\u606f\uff01"
+    "他们将与今年夏天结婚，这真是个令人惊喜的消息！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u4eec\u5c06\u4e8e\u4eca\u5e74\u590f\u5929\u7ed3\u5a5a\u3002",
-  "asr_text_adv": "\u4ed6\u4eec\u5c06\u4e8e\u4eca\u5e74\u590f\u5929\u7ed3\u5a5a\u3002",
+  "asr_text_clean": "他们将于今年夏天结婚。",
+  "asr_text_adv": "他们将于今年夏天结婚。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

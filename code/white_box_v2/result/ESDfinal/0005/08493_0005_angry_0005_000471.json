@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u4f60\u79bb\u5e02\u533a\u5f88\u8fdc\u554a\uff0c\u600e\u4e48\u4e86\uff1f",
-    "\u79bb\u5e02\u533a\u786e\u5b9e\u6709\u70b9\u8fdc\uff0c\u4e0d\u8fc7\u98ce\u666f\u597d\uff0c\u7a7a\u6c14\u6e05\u65b0\u3002"
+    "你离市区很远啊，怎么了？",
+    "离市区确实有点远，不过风景好，空气清新。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Surprise.",
-    "\u90a3\u6211\u4e22\u7ed9\u4f60\u4e00\u4e2a\u60ca\u559c\u5427\uff01"
+    "那我丢给你一个惊喜吧！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u90a3\u4f60\u5c31\u79bb\u5e02\u533a\u5f88\u8fdc\u4e86",
-  "asr_text_adv": "\u90a3\uff0c\u4f60\u4e22\u9c7c\u7684\u65f6\u5019\u5c31\u53bb\u5f88\u8fdc\u7684\u5730\u65b9\u5566\uff1f",
+  "asr_text_clean": "那你就离市区很远了",
+  "asr_text_adv": "那，你丢鱼的时候就去很远的地方啦？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6146793961524963,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

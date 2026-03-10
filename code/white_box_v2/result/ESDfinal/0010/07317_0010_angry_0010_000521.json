@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u6211\u660e\u660e\u5f88\u52aa\u529b\u4e86\u597d\u5417\uff01"
+    "哎呀，我明明很努力了好吗！"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u6211\u4eca\u5929\u8fc7\u5f97\u8fd8\u4e0d\u9519\u5462\uff0c\u8c22\u8c22\u5173\u5fc3\uff01"
+    "我今天过得还不错呢，谢谢关心！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u5c0f\u6c14\u9b3c\uff0c\u771f\u662f\u8ba9\u4eba\u706b\u5927\u5f97\u5f88\uff01",
-  "asr_text_adv": "\u4f60\u8fd9\u4e2a\u5c0f\u9b3c\u5934\uff0c\u4eca\u5929\u4f5c\u4e1a\u5199\u5b8c\u6ca1\uff1f",
+  "asr_text_clean": "你这小气鬼，真是让人火大得很！",
+  "asr_text_adv": "你这个小鬼头，今天作业写完没？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.553604245185852,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

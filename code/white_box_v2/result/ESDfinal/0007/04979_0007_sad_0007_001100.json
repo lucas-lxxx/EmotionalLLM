@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8bf6\u5440\u522b\u96be\u8fc7\u5566\uff0c\u5927\u5bb6\u53ef\u80fd\u53ea\u662f\u5fd8\u4e86\u5462\uff0c\u8981\u4e0d\u4f60"
+    "诶呀别难过啦，大家可能只是忘了呢，要不你"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6bcf\u6b21\u53eb\u6211\u90fd\u4e0d\u7ed9\u7ea2\u5305\uff0c\u771f\u4e0d\u5f00\u5fc3\u3002",
-  "asr_text_adv": "\u4eca\u5929\u4e70\u7c73\u5238\u5566\uff0c\u5927\u5bb6\u90fd\u8bf4\u6709\u5956\u54c1\uff0c\u53ef\u5f00\u5fc3\u4e86\uff01",
+  "asr_text_clean": "每次叫我都不给红包，真不开心。",
+  "asr_text_adv": "今天买米券啦，大家都说有奖品，可开心了！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.16752076148986816,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

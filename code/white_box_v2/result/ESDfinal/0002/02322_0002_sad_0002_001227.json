@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad.",
-    "\u4f60\u7684\u5fc3\u91cc\u88c5\u7740\u8fd9\u4e48\u591a\u6545\u4e8b\u5462\uff0csad\u3002",
-    "\u4f60\u7684\u5fc3\u91cc\u5440\uff0c\u6211\u662f\u4e00\u76f4\u90fd\u5728\u7684\u3002"
+    "你的心里装着这么多故事呢，sad。",
+    "你的心里呀，我是一直都在的。"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u4f60\u4e00\u76f4\u5728\u6211\u7684\u5fc3\u91cc\u5440\uff0c\u5c31\u50cf\u5c0f\u661f\u661f\u4e00\u6837\u4eae\u6676\u6676\u7684\u3002"
+    "你一直在我的心里呀，就像小星星一样亮晶晶的。"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u7684\u5fc3\u91cc\u554a\uff0c\u6211\u50cf\u7247\u843d\u53f6",
-  "asr_text_adv": "\u4f60\u5728\u6211\u5fc3\u91cc\u4f4f\u5f88\u4e45\u5566",
+  "asr_text_clean": "你的心里啊，我像片落叶",
+  "asr_text_adv": "你在我心里住很久啦",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6411451697349548,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

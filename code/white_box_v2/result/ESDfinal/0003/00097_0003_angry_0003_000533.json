@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u5df2\u7ecf\u6000\u4e86\u5b69\u5b50\uff0c\u4f60\u6839\u672c\u731c\u4e0d\u5230\u3002",
+  "asr_text_clean": "她已经怀了孩子，你根本猜不到。",
   "asr_text_adv": "\"Wow, this is so awesome! I love how it's tailored just for me!\"",
   "success_emo": true,
   "wer": 13.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

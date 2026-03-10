@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u6124\u6012",
-    "\u60a8\u7684\u76f4\u7cfb\u4eb2\u5c5e\u4eba\u6570\u786e\u5b9e\u4e0d\u5c11\u5462\u3002"
+    "愤怒",
+    "愤怒",
+    "您的直系亲属人数确实不少呢。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7684\u76f4\u7cfb\u4eb2\u5c5e\u4eba\u6570\u786e\u5b9e\u4e0d\u5c11\u3002",
-  "asr_text_adv": "\u6211\u7684\u76f4\u89c9\u91d1\u5c5e\u4eba\u96d5\u5851\u4f5c\u54c1",
+  "asr_text_clean": "我的直系亲属人数确实不少。",
+  "asr_text_adv": "我的直觉金属人雕塑作品",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.1276208758354187,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

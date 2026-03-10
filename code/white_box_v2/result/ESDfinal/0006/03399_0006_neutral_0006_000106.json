@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\u3002"
+    "嗯，我明白你的意思。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u901a\u5e38\u4f1a\u4fdd\u6301\u6c89\u9ed8\u3002",
-  "asr_text_adv": "\u6211\u9a91\u7740\u843d\u9a6c\u7a7f\u8fc7\u54b8\u6c34\u6e56\u7554",
+  "asr_text_clean": "我通常会保持沉默。",
+  "asr_text_adv": "我骑着落马穿过咸水湖畔",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.010699695907533169,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

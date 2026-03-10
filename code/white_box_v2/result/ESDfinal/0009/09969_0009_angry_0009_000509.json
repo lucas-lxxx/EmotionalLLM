@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "Angry",
-    "\u60a8\u7684\u5065\u5eb7\u6700\u91cd\u8981"
+    "您的健康最重要"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u6211\u4e0d\u4f1a\u6d17\u6211\u7684\u810f\u8863\u670d\uff0c\u56e0\u4e3a\u5b83\u4eec\u770b\u8d77\u6765\u5f88\u6709\u8da3\uff01"
+    "我不会洗我的脏衣服，因为它们看起来很有趣！"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u7684\u5065\u5eb7\u6bd4\u91d1\u94b1\u66f4\u91cd\u8981",
-  "asr_text_adv": "\u6211\u4e0d\u4f1a\u6d17\u6211\u7684\u773c\u5f71\u76d8\uff0c\u56e0\u4e3a\u5b83\u4eec\u5f88\u8d35\u91cd\u3002",
+  "asr_text_clean": "我的健康比金钱更重要",
+  "asr_text_adv": "我不会洗我的眼影盘，因为它们很贵重。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.19397178292274475,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

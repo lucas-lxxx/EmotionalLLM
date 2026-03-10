@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4ed6\u4eec\u7684\u8bbe\u8ba1\u786e\u5b9e\u5f88\u8d34\u5fc3\uff0c\u5c0f\u5de7"
+    "他们的设计确实很贴心，小巧"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4ed6\u4eec\u7684\u8bbe\u8ba1\u786e\u5b9e\u5f88\u9002\u5408\u5c0f\u670b\u53cb\u52a8\u624b\u505a\u5462\uff0c\u770b\u8d77\u6765\u5c31\u8ba9\u4eba\u89c9\u5f97\u5f00\u5fc3\uff01"
+    "他们的设计确实很适合小朋友动手做呢，看起来就让人觉得开心！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4ed6\u4eec\u7684\u8bbe\u8ba1\u5916\u5f62\u5c0f\u5de7",
-  "asr_text_adv": "\u4ed6\u4eec\u7684\u8bbe\u8ba1\u5916\u5f62\u5c0f\u5de7",
+  "asr_text_clean": "他们的设计外形小巧",
+  "asr_text_adv": "他们的设计外形小巧",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0000001192092896,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

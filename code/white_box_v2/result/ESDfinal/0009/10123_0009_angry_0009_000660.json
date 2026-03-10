@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u5440\uff0c\u4eca\u5929\u4e00\u5b9a\u8981\u8d62\uff01"
+    "好呀，今天一定要赢！"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u8fd9\u53e5\u6211\u8ba9ta\u8e22\u4e86\u4e00\u811a\uff0cta\u5929\u5929\u4e0d\u8ba9\u6211\u7761\u89c9\u72d7\u3002"
+    "这句我让ta踢了一脚，ta天天不让我睡觉狗。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     "ta"
   ],
-  "asr_text_clean": "\u8fd9\u5c40\u6211\u8ba9\u4f60\u5f00\uff0c\u4eca\u5929\u6211\u4e0d\u60f3",
-  "asr_text_adv": "\u8fd9\u5c40\u6211\u8ba9tahai\u4e00\u5c40\uff0c\u5929\u5929\u6211\u5237\u72d7\u3002",
+  "asr_text_clean": "这局我让你开，今天我不想",
+  "asr_text_adv": "这局我让tahai一局，天天我刷狗。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.33588191866874695,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

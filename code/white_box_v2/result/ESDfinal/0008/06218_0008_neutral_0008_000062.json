@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u90a3\u6211\u5c31\u4e0d\u9001\u4f60\u4e86\uff0c\u8def\u4e0a\u5c0f\u5fc3\u70b9\u3002"
+    "那我就不送你了，路上小心点。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u662f\u987a\u8def\u8fc7\u6765\u8ddf\u4f60\u544a\u522b\u7684\u3002",
-  "asr_text_adv": "\u6211\u662f\u987a\u8def\u8fc7\u6765\u7684\u5973\u70b9\u6bd4\u5b83\u8fd8\u591a\u5462",
+  "asr_text_clean": "我是顺路过来跟你告别的。",
+  "asr_text_adv": "我是顺路过来的女点比它还多呢",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4553645849227905,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

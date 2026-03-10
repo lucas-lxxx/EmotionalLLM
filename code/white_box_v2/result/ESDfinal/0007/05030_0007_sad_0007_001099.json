@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u5c06\u4e3a\u60a8\u51c6\u5907\u4e00\u4e9b\u83dc\u7403\u548c\u7eb8\u82b1\u3002"
+    "好的，我将为您准备一些菜球和纸花。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u5c06\u4e3a\u60a8\u51c6\u5907\u4e00\u4e9b\u83dc\u7403\u548c\u7eb8\u82b1\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u60f3\u60f3\u3002\u53ef\u4ee5\u8bd5\u8bd5\u300a\u5c0f\u738b\u5b50\u300b\uff0c\u5b83\u6709\u5192\u9669\u6545\u4e8b\u548c\u4eba\u751f\u54f2\u7406\uff0c\u8bfb\u8d77\u6765\u5f88\u6709\u8da3\u3002\u6216\u8005\u300a\u7eff\u5c71\u5899\u7684\u5b89\u59ae\u300b\uff0c\u8bb2\u7684\u662f\u5c0f\u5973\u5b69\u7684\u6210\u957f\u7ecf\u5386\uff0c\u7279\u522b\u6e29\u6696\u3002\u8fd8\u6709\u300a\u590f\u6d1b\u7684\u7f51\u300b\uff0c\u5173\u4e8e\u53cb\u8c0a\u548c\u751f\u547d\u7684\u611f\u4eba",
+  "asr_text_clean": "好的，我将为您准备一些菜球和纸花。",
+  "asr_text_adv": "好的，我来帮你想想。可以试试《小王子》，它有冒险故事和人生哲理，读起来很有趣。或者《绿山墙的安妮》，讲的是小女孩的成长经历，特别温暖。还有《夏洛的网》，关于友谊和生命的感人",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3324826955795288,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

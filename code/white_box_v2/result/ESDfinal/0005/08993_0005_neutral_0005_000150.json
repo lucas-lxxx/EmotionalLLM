@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u6837\u5b50\u6bd4\u8f83\u6709\u8da3\uff0c\u5bf9\u5427\uff1f"
+    "这样子比较有趣，对吧？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u6837\u5b50\u6bd4\u8f83\u6709\u8da3",
-  "asr_text_adv": "How are you today? We have exciting destinations and friendly guides ready for your next adventure. Let\u2019s explore together!",
+  "asr_text_clean": "这样子比较有趣",
+  "asr_text_adv": "How are you today? We have exciting destinations and friendly guides ready for your next adventure. Let’s explore together!",
   "success_emo": true,
   "wer": 19.0,
   "semantic_sim": 0.25685009360313416,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

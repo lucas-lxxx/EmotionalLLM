@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u60a8\u662f\u5b66\u751f\uff0c\u670d\u52a1\u5668\u54cd\u5e94\u8d85\u65f6\uff0c\u9700\u8981\u5e2e\u52a9\u5417\uff1f"
+    "您是学生，服务器响应超时，需要帮助吗？"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u8d85\u65f6\u5566\uff0c\u771f\u5f00\u5fc3\uff01"
+    "超时啦，真开心！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u662f\u4e2a\u5b66\u751f\uff0c\u670d\u52a1\u5668\u54cd\u5e94\u8d85\u65f6\u3002",
-  "asr_text_adv": "\u6211\u662f\u4e2a\u5b66\u751f\uff0c\u9910\u5385\u4eab\u53d7\u8d85\u65f6\u3002",
+  "asr_text_clean": "我是个学生，服务器响应超时。",
+  "asr_text_adv": "我是个学生，餐厅享受超时。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6610339283943176,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u5947\u602a\u4e86\uff0c\u6ca1\u6709\u9f3b\u5b50\u600e\u4e48\u95fb\u5473\u9053\u554a\uff1f"
+    "你这话说得也太奇怪了，没有鼻子怎么闻味道啊？"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e0d\u9700\u8981\u55c5",
+  "asr_text_clean": "我不需要嗅",
   "asr_text_adv": "\"Did you know octopuses have three hearts? Two pump blood to the gills, and one pumps it to the rest of the body! Even cooler, when they swim, the heart that feeds their body actually stops beating to conserve energy!\"",
   "success_emo": true,
   "wer": 40.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

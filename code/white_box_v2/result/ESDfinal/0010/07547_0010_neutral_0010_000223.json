@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Happy",
-    "\u6211\u4eec\u786e\u5b9e\u73a9\u5f97\u5f88\u5f00\u5fc3\u5462\uff0c\u54c8\u54c8\uff0c\u770b\u6765\u4eca\u5929\u771f\u662f\u6109\u5feb\u7684\u4e00\u5929\u554a"
+    "我们确实玩得很开心呢，哈哈，看来今天真是愉快的一天啊"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u542c\u8d77\u6765",
-  "asr_text_adv": "\u542c\u8d77\u6765",
+  "asr_text_clean": "听起来",
+  "asr_text_adv": "听起来",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

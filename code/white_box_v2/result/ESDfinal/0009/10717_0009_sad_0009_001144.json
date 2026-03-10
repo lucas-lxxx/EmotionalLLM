@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u8fd9\u786e\u5b9e\u6709\u70b9\u795e\u5947\u5462\uff0c\u4e0d\u8fc7\u522b\u62c5\u5fc3\uff0c\u6162\u6162\u6765\uff0c\u4e00\u5207"
+    "哦，这确实有点神奇呢，不过别担心，慢慢来，一切"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u771f\u7684\u5f88\u795e\u5947\u5462\uff0c\u6709\u65f6\u5019\u6211\u4e5f\u4e0d\u592a\u660e\u767d\uff0c\u4f46\u8fd9\u5c31\u662f\u751f\u6d3b\u7684\u4e00\u90e8\u5206\u5427\u3002\u201d",
-  "asr_text_adv": "\u4f60\u770b\u8d77\u6765\u771f\u68d2\uff0c\u5c31\u50cf\u5728\u5f69\u8679\u4e0a\u8df3\u821e\u4e00\u6837\uff01",
+  "asr_text_clean": "“真的很神奇呢，有时候我也不太明白，但这就是生活的一部分吧。”",
+  "asr_text_adv": "你看起来真棒，就像在彩虹上跳舞一样！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2775309085845947,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c8\u54c8\uff0c\u542c\u8d77\u6765"
+    "哈哈，听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u633a\u4e0d\u9519\u7684\uff0c\u5fc3\u60c5\u4e5f\u8ddf\u7740\u597d\u8d77\u6765\u4e86\u3002",
-  "asr_text_adv": "\u90a3\u6761\u72d7\u5176\u5b9e\u633a\u53ef\u7231\u7684\uff0c\u5b83\u8fd8\u662f\u4e00\u53ea\u5c0f\u82b1\u72d7\u5462\u3002",
+  "asr_text_clean": "那挺不错的，心情也跟着好起来了。",
+  "asr_text_adv": "那条狗其实挺可爱的，它还是一只小花狗呢。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2322622835636139,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

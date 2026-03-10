@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Surprise!",
-    "\u54c7\uff0c\u5317\u4eac\u6b22\u8fce\u4f60\uff01"
+    "哇，北京欢迎你！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6700\u559c\u6b22\u5317\u4eac\u7684\u51ac\u5929\uff0c\u5c24\u5176\u662f\u521d\u96ea\u7684\u65f6\u5019\uff0c\u6574\u4e2a\u57ce\u5e02\u90fd\u50cf\u88ab\u7ae5\u8bdd\u6545\u4e8b\u5305\u56f4\u4e86\u5462\uff01",
-  "asr_text_adv": "\u6211\u6700\u559c\u6b22\u300aBaby Shark\u300b\u5566\uff0c\u6e38\u6765\u6e38\u53bb\u771f\u6709\u8da3\uff01",
+  "asr_text_clean": "我最喜欢北京的冬天，尤其是初雪的时候，整个城市都像被童话故事包围了呢！",
+  "asr_text_adv": "我最喜欢《Baby Shark》啦，游来游去真有趣！",
   "success_emo": true,
   "wer": 2.0,
   "semantic_sim": 0.29597654938697815,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

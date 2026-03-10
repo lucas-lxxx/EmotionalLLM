@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u4e0d\u5206\u6027\u522b\u4ea4\u670b\u53cb\u5176\u5b9e\u633a\u81ea\u7136\u7684\u5440\uff0c\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u5174\u8da3\u548c\u7279\u70b9"
+    "不分性别交朋友其实挺自然的呀，每个人都有自己的兴趣和特点"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u670b\u53cb\u4e4b\u95f4\u4e0d\u5206\u5fc3\uff0c\u4e00\u8d77\u73a9\u5f97\u5f00\u5fc3\u5c31\u597d\u5440\uff01"
+    "朋友之间不分心，一起玩得开心就好呀！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4e0d\u5206\u6027\u522b\u4ea4\u670b\u53cb\u5176\u5b9e\u633a\u81ea\u7136\u7684\u5440\uff0c\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u5174\u8da3\u548c\u7279\u70b9\uff0c\u91cd\u8981\u7684\u662f\u4e92\u76f8\u5c0a\u91cd\u548c\u7406\u89e3\u3002",
-  "asr_text_adv": "\u670b\u53cb\u4e0d\u5206\u5fc3\uff0c\u4e00\u8d77\u73a9\u5f97\u5f00\u5fc3\u3002",
+  "asr_text_clean": "不分性别交朋友其实挺自然的呀，每个人都有自己的兴趣和特点，重要的是互相尊重和理解。",
+  "asr_text_adv": "朋友不分心，一起玩得开心。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.538632869720459,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u6211\u53ef\u4e0d\u6562\u5f53\u9ebb\u5c06\u9ad8\u624b\u5462\uff0c\u4e0d\u8fc7\u54b1\u4eec\u53ef\u4ee5\u4e00\u8d77\u73a9"
+    "哎呀，我可不敢当麻将高手呢，不过咱们可以一起玩"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u56fd\u5bb6\u7684\u4eba\u786e\u5b9e\u559c\u6b22\u6253\u9ebb\u5c06\uff0c\u4f46\u5e76\u4e0d\u662f\u6240\u6709\u4eba\u90fd\u64c5\u957f\u554a\u3002",
-  "asr_text_adv": "\u6211\u4eec\u56fd\u5bb6\u7684\u4eba\u90fd\u662f\u9ebb\u5c06\u9ad8\u624b\uff0c\u8001\u677f\u4eec\u4e5f\u4e00\u6837\u3002",
+  "asr_text_clean": "我们国家的人确实喜欢打麻将，但并不是所有人都擅长啊。",
+  "asr_text_adv": "我们国家的人都是麻将高手，老板们也一样。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.455833375453949,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u90a3\u6211\u5c31\u4e0d\u6253\u6270"
+    "好的，我明白了，那我就不打扰"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "好的，我来转录一下。",
+  "asr_text_adv": "好的，我来转录一下。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8fd9\u53d1\u578b\u771f\u597d\u770b\u5462\uff0c\u522b\u751f\u6c14\u5566"
+    "这发型真好看呢，别生气啦"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u522b\u60f3\u592a\u591a\u5566\uff0c\u6211\u89c9\u5f97\u633a\u597d\u770b\u7684"
+    "别想太多啦，我觉得挺好看的"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u522b\u5c0f\u770b\u6211\u8fd9\u53d1\u578b\uff0c\u6211\u8fd8\u633a\u559c\u6b22\u7684\uff01",
-  "asr_text_adv": "\u522b\u60f3\u770b\u6a58",
+  "asr_text_clean": "别小看我这发型，我还挺喜欢的！",
+  "asr_text_adv": "别想看橘",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.305223673582077,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

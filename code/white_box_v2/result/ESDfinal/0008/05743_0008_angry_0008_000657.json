@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5185\u5728\u7f8e\u786e\u5b9e\u66f4\u91cd\u8981"
+    "内在美确实更重要"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5feb\u4e50"
+    "快乐"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5185\u5728\u7f8e\u6bd4\u5916\u5728\u7f8e\u66f4\u91cd\u8981",
-  "asr_text_adv": "\u5185\u5728\u7f8e\u6bd4\u5916\u5728\u7f8e\u66f4\u91cd\u8981",
+  "asr_text_clean": "内在美比外在美更重要",
+  "asr_text_adv": "内在美比外在美更重要",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

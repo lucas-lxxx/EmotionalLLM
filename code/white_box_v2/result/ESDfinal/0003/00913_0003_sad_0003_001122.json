@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u522b\u7740\u6025\uff0c\u6162\u6162\u627e\uff0c\u80af\u5b9a\u80fd\u53d1\u73b0\u7684\uff01"
+    "别着急，慢慢找，肯定能发现的！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u7406\u89e3\u60a8\u7684\u7126\u6025",
-  "asr_text_adv": "\u4ed6\u4eec\u8bf4\u6ca1\u6709\u94b1\u4e86\uff0c\u5c31\u73a9\u6349\u8ff7\u85cf\u53bb\u4e86\u3002",
+  "asr_text_clean": "好的，我理解您的焦急",
+  "asr_text_adv": "他们说没有钱了，就玩捉迷藏去了。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.013961166143417358,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

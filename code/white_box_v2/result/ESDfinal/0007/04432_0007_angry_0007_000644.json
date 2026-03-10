@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u90fd\u8fd9\u4e48\u8bf4\u4e86\u6211\u8fd8\u600e\u4e48\u5f00\u5fc3\u5f97\u8d77\u6765"
+    "你都这么说了我还怎么开心得起来"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u4f60\u771f\u68d2\uff0c\u7ee7\u7eed\u52a0\u6cb9\u54e6\uff01"
+    "你真棒，继续加油哦！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u90fd\u8fd9\u4e48\u8bf4\u4e86\uff0c\u6211\u8fd8\u80fd\u600e\u4e48\u60f3\uff1f",
-  "asr_text_adv": "\u6211\u662f\u8d62\u89c4\u5219\u7684\uff0c\u6211\u90fd\u88ab\u4f60\u8bf4\u670d\u4e86\u3002",
+  "asr_text_clean": "你都这么说了，我还能怎么想？",
+  "asr_text_adv": "我是赢规则的，我都被你说服了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.526976466178894,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

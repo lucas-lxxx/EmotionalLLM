@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\"\u600e\u4e48\u4f1a\u8fd9\u4e48\u5de7\uff1f\u6211\u4e5f\u662f\u5341\u516d\u5c81\u554a\uff01\"  \n\uff08\u8bed\u8c03",
-    "\u4e0d\u4f1a\u554a\uff0c\u6211\u4e5f\u662f\u5341\u516d\uff0c\u600e\u4e48\u4e86\uff1f"
+    "\"怎么会这么巧？我也是十六岁啊！\"  \n（语调",
+    "不会啊，我也是十六，怎么了？"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u597d\u5440\uff0c\u54b1\u4eec\u4e00\u8d77\u5403\u6e9c\u6e9c\uff01"
+    "好呀，咱们一起吃溜溜！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4e0d\u4f1a\u8fd9\u4e48\u5de7\u5427\uff0c\u6211\u4e5f\u662f\u5341\u516d\u3002",
-  "asr_text_adv": "\u4e0d\u4f1a\u554a\uff0c\u6211\u4e5f\u662f\u5403\u7d20\u7684\u3002",
+  "asr_text_clean": "不会这么巧吧，我也是十六。",
+  "asr_text_adv": "不会啊，我也是吃素的。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.38849306106567383,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

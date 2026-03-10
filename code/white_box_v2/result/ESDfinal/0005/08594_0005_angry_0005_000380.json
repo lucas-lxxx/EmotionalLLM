@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u563f\uff0c\u522b\u751f\u6c14\u561b\uff0c\u6211\u53ef\u662f\u4f1a\u6253\u98de\u9556"
+    "嘿，别生气嘛，我可是会打飞镖"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u4f60\u6839\u672c\u4e0d\u61c2\uff01",
-  "asr_text_adv": "\u9664\u975e\u4f60\u6253\u98de\u9556",
+  "asr_text_clean": "你根本不懂！",
+  "asr_text_adv": "除非你打飞镖",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4147520363330841,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

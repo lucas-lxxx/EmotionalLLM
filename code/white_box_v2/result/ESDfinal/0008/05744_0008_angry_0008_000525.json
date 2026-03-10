@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u4ed6\u73b0\u5728\u5fc3\u60c5\u80af\u5b9a\u4e0d\u597d\uff0c\u54b1\u4eec\u8fd8\u662f\u522b\u6253\u6270"
+    "哎呀，他现在心情肯定不好，咱们还是别打扰"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5979\u548c\u597d\u670b\u53cb\u95f9\u522b\u626d\u4e86\uff0c\u60c5\u7eea\u662f\u60ca\u8bb6\u3002"
+    "她和好朋友闹别扭了，情绪是惊讶。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4ed6\u73b0\u5728\u5931\u4e1a\u4e86\uff0c\u4f60\u6700\u597d\u522b\u60f9\u4ed6\u3002",
-  "asr_text_adv": "\u5979\u6b64\u523b\u5931\u4e1a\u4e86\uff0c\u4e0e\u6700\u597d\u7684\u670b\u53cb\u7ea6\u4ed6\u3002",
+  "asr_text_clean": "他现在失业了，你最好别惹他。",
+  "asr_text_adv": "她此刻失业了，与最好的朋友约他。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4385378360748291,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

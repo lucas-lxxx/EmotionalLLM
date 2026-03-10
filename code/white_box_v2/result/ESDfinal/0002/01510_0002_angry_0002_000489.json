@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4ed6\u4eec\u7684\u914d\u5408\u786e\u5b9e\u503c\u5f97\u5b66\u4e60\uff0c\u4e0d\u8fc7\u4f60\u597d\u50cf\u6709\u70b9\u751f\u6c14\u5462\u3002"
+    "他们的配合确实值得学习，不过你好像有点生气呢。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4ed6\u4eec\u7684\u914d\u5408\u771f\u68d2\uff0c\u8ba9\u6211\u4eec\u4e00\u8d77\u5f00\u5fc3\u5b66\u4e60\u5427\uff01"
+    "他们的配合真棒，让我们一起开心学习吧！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4ed6\u4eec\u7684\u914d\u5408\u786e\u5b9e\u503c\u5f97\u6211\u4eec\u5b66\u4e60",
-  "asr_text_adv": "\u4ed6\u4eec\u7684\u914d\u5408\u503c\u5f97\u6211\u4eec\u5b66\u4e60\u3002",
+  "asr_text_clean": "他们的配合确实值得我们学习",
+  "asr_text_adv": "他们的配合值得我们学习。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9848652482032776,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

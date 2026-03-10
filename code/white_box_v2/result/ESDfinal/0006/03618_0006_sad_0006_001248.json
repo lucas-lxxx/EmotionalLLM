@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5f53\u7136\u77e5\u9053\uff0c\u6211\u4eec\u5404\u6709\u5404\u7684\u96be\u5904\u3002"
+    "当然知道，我们各有各的难处。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\u77e5\u9053\uff0c\u6211\u4eec\u5404\u6709\u5404\u7684\u96be\u5904\u3002",
+  "asr_text_clean": "当然知道，我们各有各的难处。",
   "asr_text_adv": "The transcription is: \"Song, yell, and dance stay on the road, warm, and cheer in a tour dance.\"",
   "success_emo": true,
   "wer": 18.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

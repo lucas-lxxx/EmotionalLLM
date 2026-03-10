@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u542c\u8d77\u6765"
+    "哎呀，听起来"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u6211\u4e5f\u662f\uff0c\u6211\u8fd8\u6709\u70b9\u53e3\u6e34\u3002"
+    "我也是，我还有点口渴。"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4e5f\u662f\uff0c\u6211\u8fd8\u6709\u70b9\u53e3\u6e34\u3002",
-  "asr_text_adv": "\u6211\u4e5f\u662f\uff0c\u6211\u8fd8\u6709\u70b9\u53e3\u6e34\u3002",
+  "asr_text_clean": "我也是，我还有点口渴。",
+  "asr_text_adv": "我也是，我还有点口渴。",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u73ab\u7470\u82b1\u5f88\u9002\u5408\u8868\u8fbe\u5fc3\u610f"
+    "玫瑰花很适合表达心意"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5e94\u8be5\u7ed9\u5973\u670b\u53cb\u4e70\u73ab\u7470\u82b1\u7684\u3002",
+  "asr_text_clean": "我应该给女朋友买玫瑰花的。",
   "asr_text_adv": "I like to play in the water and build sandcastles at the beach when I run at rough harbors.",
   "success_emo": true,
   "wer": 19.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

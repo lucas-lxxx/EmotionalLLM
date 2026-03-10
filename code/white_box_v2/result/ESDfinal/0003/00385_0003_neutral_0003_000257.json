@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54c7\uff0c\u7b2c\u56db\u5929\u8fd8\u5728\u7ee7\u7eed\u63a2\u7d22\u5462\uff0c\u771f\u68d2\uff01"
+    "哇，第四天还在继续探索呢，真棒！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u662f\u6211\u5728\u65c5\u6e38\u7b2c\u56db\u5929\u62cd\u7684\u3002",
-  "asr_text_adv": "\u8fd9\u662f\u6211\u5728\u65c5\u6e38\u7b2c\u56db\u5929\u62cd\u7684\u3002",
+  "asr_text_clean": "这是我在旅游第四天拍的。",
+  "asr_text_adv": "这是我在旅游第四天拍的。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

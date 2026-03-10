@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54fc\uff0c\u6211\u54ea\u6709\u65f6\u95f4\u53bb\u770b\u4ed6\uff01"
+    "哼，我哪有时间去看他！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "surprise",
     "happy"
   ],
-  "asr_text_clean": "\u542c\u8bf4\u4f60\u53bb\u9999\u6e2f\u770b\u53d4\u53d4\u4e86\uff0c\u600e\u4e48\u8fd9\u4e48\u751f\u6c14\uff1f",
+  "asr_text_clean": "听说你去香港看叔叔了，怎么这么生气？",
   "asr_text_adv": "\"Today was amazing! I went to the park, played on the swings, and had ice cream with my friends. We laughed so much!\"",
   "success_emo": false,
   "wer": 23.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

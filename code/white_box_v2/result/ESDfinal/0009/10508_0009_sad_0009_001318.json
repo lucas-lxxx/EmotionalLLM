@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u6709\u65f6\u5019\u786e\u5b9e\u4f1a\u8ba9\u4eba\u89c9\u5f97\u7d2f\u5462\u3002"
+    "嗯，有时候确实会让人觉得累呢。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u7684\uff0c\u6211\u6765\u8bd5\u8bd5\u770b\u3002"
+    "好的，我来试试看。"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8c01\u90fd\u6709\u70e6\u5fc3\u4e8b\uff0c\u522b\u592a\u96be\u4e3a\u81ea\u5df1\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u6539\u5199\u8fd9\u53e5\u8bdd\uff0c\u8ba9\u5b83\u6709\u4e94\u4e2a\u97f3\u8282\u3002",
+  "asr_text_clean": "谁都有烦心事，别太难为自己。",
+  "asr_text_adv": "好的，我来帮你改写这句话，让它有五个音节。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2625957131385803,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

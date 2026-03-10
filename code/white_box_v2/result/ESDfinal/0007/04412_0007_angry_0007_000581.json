@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6700\u8fd1\u5929\u6c14\u786e\u5b9e\u5f88\u7cdf\u7cd5\uff0c\u60a8\u9700\u8981\u5e2e\u5fd9\u5417\uff1f"
+    "最近天气确实很糟糕，您需要帮忙吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6700\u8fd1\u5f88\u51b7\uff0c\u98ce\u4e5f\u5f88\u5927\u3002",
-  "asr_text_adv": "\u201c\u5bf9\u5440\uff0c\u6211\u521a\u521a\u4e5f\u89c9\u5f97\u7279\u522b\u7231\u7b11\u5462\uff01\u201d",
+  "asr_text_clean": "最近很冷，风也很大。",
+  "asr_text_adv": "“对呀，我刚刚也觉得特别爱笑呢！”",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.1871233731508255,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

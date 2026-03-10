@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u786e\u5b9e\u8ba9\u4eba\u96be\u8fc7"
+    "这确实让人难过"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u5f88\u72e1",
-  "asr_text_adv": "\u6211\u4eec\u51e0\u53e3\u7b11\uff0c\u8e29\u7740\u8f6f\u8f6f\u7684\u6c99\u5b50\uff0c\u8dd1\u5411\u5927\u6d77\u3002",
+  "asr_text_clean": "他很狡",
+  "asr_text_adv": "我们几口笑，踩着软软的沙子，跑向大海。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.1842857301235199,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

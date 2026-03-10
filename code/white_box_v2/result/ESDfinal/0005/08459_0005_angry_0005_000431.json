@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u8fd9\u9547\u4e0a\u7684\u4eba\u4eec\u554a\uff0c\u95f2\u8bdd\u5012\u662f\u633a\u7231\u8bf4\u7684\u3002"
+    "这镇上的人们啊，闲话倒是挺爱说的。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u9547\u4e0a\u7684\u4eba\u4e2a\u4e2a\u7231\u8bf4\u95f2\u8bdd\uff0c\u70e6\u6b7b\u4e86\u3002",
-  "asr_text_adv": "\u5de5\u5382\u91cc\u7684\u4eba\u90fd\u7231\u8bf4\u95f2\u8bdd\u3002",
+  "asr_text_clean": "这镇上的人个个爱说闲话，烦死了。",
+  "asr_text_adv": "工厂里的人都爱说闲话。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3180696666240692,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

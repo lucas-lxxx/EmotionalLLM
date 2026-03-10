@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u542c\u8d77\u6765",
-  "asr_text_adv": "\u6211\u592a\u559c\u6b22\u300a\u9752\u94dc",
+  "asr_text_clean": "你听起来",
+  "asr_text_adv": "我太喜欢《青铜",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.26146307587623596,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

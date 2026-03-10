@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\uff0c\u5065\u5eb7\u6700\u91cd\u8981"
+    "我明白你的意思，健康最重要"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e0d\u4f1a\u727a\u7272\u6211\u7684\u5065\u5eb7\u6765\u6362\u53d6",
+  "asr_text_clean": "我不会牺牲我的健康来换取",
   "asr_text_adv": "I will not sacrifice my health for money.",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Neutral",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\"\u6211\u559c\u6b22\u8fd0\u52a8\uff0c\u6bd4\u5982\u6e38\u6cf3\u548c\u8dd1\u6b65\uff0c\u611f\u89c9\u5f88\u5f00\u5fc3"
+    "\"我喜欢运动，比如游泳和跑步，感觉很开心"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u559c\u6b22\u51e0\u4e4e\u6240\u6709\u7684\u8fd0\u52a8",
-  "asr_text_adv": "\u6211\u559c\u6b22\u51e0\u4e4e\u6240\u6709\u7684\u8fd0\u52a8\u3002",
+  "asr_text_clean": "我喜欢几乎所有的运动",
+  "asr_text_adv": "我喜欢几乎所有的运动。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9938254356384277,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_high_sim"
 }

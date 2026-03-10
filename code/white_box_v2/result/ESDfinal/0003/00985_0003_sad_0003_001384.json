@@ -5,9 +5,9 @@
   "ground_truth_emotion": "sad",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u867d\u7136\u60a8\u63d0\u5230\u517b\u8fc7\u5ba0\u7269\uff0c\u4f46\u6839\u636e\u8bed\u97f3\u4e2d\u7684\u60c5\u7eea\u5224\u65ad\uff0c\u8fd9\u53e5\u8bdd\u8868\u8fbe",
-    "\u867d\u7136\u60a8\u63d0\u5230\u517b\u8fc7\u5ba0\u7269\uff0c\u4f46\u6839\u636e\u60a8\u7684\u60c5\u7eea\u63cf\u8ff0\uff0c\u8fd9\u91cc\u53ef\u80fd\u662f\u6307",
-    "\u4f60\u542c\u8d77\u6765"
+    "虽然您提到养过宠物，但根据语音中的情绪判断，这句话表达",
+    "虽然您提到养过宠物，但根据您的情绪描述，这里可能是指",
+    "你听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u66fe\u7ecf\u517b\u8fc7\u4e00\u53ea\u5c0f\u732b\uff0c\u5b83\u8d70\u5931\u4e86\uff0c\u6211\u6bcf\u5929\u90fd\u5728\u627e\u5b83\uff0c\u867d\u7136\u5f88\u96be\u8fc7\uff0c\u4f46\u56de\u5fc6\u91cc\u603b\u662f\u6709\u5b83\u8e6d\u6211\u624b\u638c",
-  "asr_text_adv": "\u4e24\u56fd\u5143\u9996\u5728\u6cb3\u6d41\u4e0a\u5212\u7740\u5c0f\u8239\uff0c\u5f00\u5fc3\u5730\u4ea4\u8c08\u7740\u3002",
+  "asr_text_clean": "我曾经养过一只小猫，它走失了，我每天都在找它，虽然很难过，但回忆里总是有它蹭我手掌",
+  "asr_text_adv": "两国元首在河流上划着小船，开心地交谈着。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.08889620751142502,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u4f60\u7684\u58f0\u97f3\u542c\u8d77\u6765",
-    "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u4e0d\u8fc7\u4f60\u542c\u8d77\u6765"
+    "你的声音听起来",
+    "谢谢你的夸奖，不过你听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u559c\u6b22\u4f60\u7684\u5e72\u51c0\u6574\u6d01",
-  "asr_text_adv": "\u6211\u559c\u6b22\u90a3\u53f0\u6e38\u52a8\u7684\u9c7c\u706f\uff0c\u5b83\u50cf\u9633\u5149\u4e00\u6837\u6e29\u6696\uff0c\u8f7b\u8f7b\u6447\u6643\u7740\u6211\u7684\u773c\u775b\u3002",
+  "asr_text_clean": "我喜欢你的干净整洁",
+  "asr_text_adv": "我喜欢那台游动的鱼灯，它像阳光一样温暖，轻轻摇晃着我的眼睛。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3150307536125183,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

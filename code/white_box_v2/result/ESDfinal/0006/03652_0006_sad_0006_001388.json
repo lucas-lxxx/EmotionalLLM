@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5e74\u8f7b\u4eba\u786e\u5b9e\u8981\u627f\u62c5\u8d23\u4efb"
+    "年轻人确实要承担责任"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5e74\u8f7b\u4eba\u5f53\u7136\u8981\u627f\u62c5\u8d23\u4efb",
+  "asr_text_clean": "年轻人当然要承担责任",
   "asr_text_adv": "I just got back from a really long trip and I'm so happy to be home!",
   "success_emo": true,
   "wer": 16.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

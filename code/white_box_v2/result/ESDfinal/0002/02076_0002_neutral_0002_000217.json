@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6536\u652f"
+    "收支"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
     "Happy",
-    "\u5979\u7684\u6536\u652f"
+    "她的收支"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5979\u7684\u6536\u652f",
-  "asr_text_adv": "\u5979\u7684\u6536\u652f",
+  "asr_text_clean": "她的收支",
+  "asr_text_adv": "她的收支",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 0.9999997615814209,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

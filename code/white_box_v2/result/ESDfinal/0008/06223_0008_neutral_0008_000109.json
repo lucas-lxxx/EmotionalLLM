@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u8fd9\u53ef\u771f\u662f\u610f\u60f3\u4e0d\u5230"
+    "哎呀，这可真是意想不到"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5176\u5b9e\u633a\u997f\u7684\u3002",
+  "asr_text_clean": "我其实挺饿的。",
   "asr_text_adv": "\"Hey, can we add me to the log?\"",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

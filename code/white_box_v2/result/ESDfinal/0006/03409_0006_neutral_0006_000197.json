@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u56e0\u4e3a\u670b\u53cb\u4e0d\u5206\u6027\u522b\u5440\uff0c\u7537\u751f\u5973\u751f\u90fd\u80fd\u6210\u4e3a\u597d\u670b\u53cb\uff0c\u4e00\u8d77\u73a9\u5f97\u5f00\u5fc3"
+    "因为朋友不分性别呀，男生女生都能成为好朋友，一起玩得开心"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5c0f\u670b\u53cb\u5f00\u5fc3\u5730\u8e66\u8e66\u8df3\u8df3\u56de\u5bb6\u5566\uff01"
+    "小朋友开心地蹦蹦跳跳回家啦！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u56e0\u4e3a\u670b\u53cb\u4e4b\u95f4\u6700\u91cd\u8981",
-  "asr_text_adv": "\u6240\u4ee5\u822a\u5230\u8d39\u7528\u5c31\u5c0f\u670b\u53cb\u5c31\u5954\u6e05\u6d01\u53bb\u54af",
+  "asr_text_clean": "因为朋友之间最重要",
+  "asr_text_adv": "所以航到费用就小朋友就奔清洁去咯",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.11969811469316483,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

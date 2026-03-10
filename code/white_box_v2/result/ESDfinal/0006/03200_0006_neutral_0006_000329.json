@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u786e\u5b9e\u5982\u6b64\uff0c\u590f\u65e5\u7684\u9633\u5149\u548c\u6d3b\u529b\u603b\u8ba9\u4eba\u5fc3\u60c5\u6109\u60a6\u3002"
+    "确实如此，夏日的阳光和活力总让人心情愉悦。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u786e\u5b9e\u5982\u6b64\uff0c\u590f\u65e5\u7684\u9633\u5149\u548c\u5fae\u98ce\u603b\u8ba9\u4eba\u5fc3\u60c5\u6109\u60a6\u3002",
+  "asr_text_clean": "确实如此，夏日的阳光和微风总让人心情愉悦。",
   "asr_text_adv": "The team is doing well. We've been working hard and are excited about the progress we're making.",
   "success_emo": true,
   "wer": 17.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u597d\u7684\uff0c\u90a3\u6211\u91cd\u65b0\u505a\u4e00\u6b21\u3002"
+    "好的，那我重新做一次。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u706b\u652f\u6301\u4f60\uff0c\u8e0f\u4e0a\u8fd9\u8d9f\u65c5\u7a0b\u5427\uff0c\u795d\u4f60\u597d\u8fd0\uff01"
+    "火支持你，踏上这趟旅程吧，祝你好运！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u652f\u6301\u4f60\uff0c\u5b83\u662f\u9700\u8981\u91cd\u505a\u3002",
-  "asr_text_adv": "\u706b\u652f\u6301\u4f60\uff0c\u8e0f\u4e0a\u8fd9\u8d9f\u65c5\u7a0b\u5427\u3002",
+  "asr_text_clean": "我支持你，它是需要重做。",
+  "asr_text_adv": "火支持你，踏上这趟旅程吧。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3398958742618561,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

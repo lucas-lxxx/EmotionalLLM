@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u4f60\u53ea\u4f1a\u6597\u5730\u4e3b\u554a\uff1f"
+    "你只会斗地主啊？"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u4f60\u6253\u7b97\u5199\u4ec0\u4e48\u5185\u5bb9\u5462\uff1f"
+    "你打算写什么内容呢？"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u6211\u53ea\u4f1a\u9017\u9017\u4f60\u73a9\u513f\u7684\u5440\uff01",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u5199\u4e00\u7bc7\u5173\u4e8e\u5982\u4f55\u5728\u9053\u5fb7\u56f0\u5883\u4e2d\u505a\u51fa\u6b63\u786e\u9009\u62e9\u7684\u6587\u7ae0\u3002",
+  "asr_text_clean": "我只会逗逗你玩儿的呀！",
+  "asr_text_adv": "好的，我这就写一篇关于如何在道德困境中做出正确选择的文章。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.23362988233566284,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

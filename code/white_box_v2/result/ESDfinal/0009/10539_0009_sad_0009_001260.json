@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8bf6\uff0c\u4f60\u542c\u8d77\u6765"
+    "诶，你听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u7684\u6b4c\u6211\u90fd\u633a\u559c\u6b22\u7684",
-  "asr_text_adv": "\u6211\u6700\u559c\u6b22\u7684\u6b4c\u662f\u300a\u5c0f\u661f\u661f\u300b\u548c\u300a\u4e24\u53ea\u8001\u864e\u300b,\u5b83\u4eec\u7684\u65cb\u5f8b",
+  "asr_text_clean": "她的歌我都挺喜欢的",
+  "asr_text_adv": "我最喜欢的歌是《小星星》和《两只老虎》,它们的旋律",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5363210439682007,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

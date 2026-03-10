@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54c8\u54c8\uff0c\u60a8\u8fd9\u5e74\u7eaa\u53ef\u662f\u54b1\u4eec\u5e74\u8f7b\u4eba\u7684\u699c\u6837\u5462\uff01"
+    "哈哈，您这年纪可是咱们年轻人的榜样呢！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u4e0d\u8fc7\u6211\u5176\u5b9e\u8fd8\u6ca1\u6709\u4e0a\u8fc7\u5e74\u7eaa\u5462\u3002",
-  "asr_text_adv": "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u9c8d\u52c3\u9700\u8981\u66f4\u591a\u7ec3\u4e60\u3002",
+  "asr_text_clean": "谢谢你的夸奖，不过我其实还没有上过年纪呢。",
+  "asr_text_adv": "谢谢你的夸奖，鲍勃需要更多练习。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.22397291660308838,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

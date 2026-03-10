@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u6211\u53ef\u4e0d\u6562\u5f53\u5462\uff0c\u4e0d\u8fc7\u54b1\u4eec\u786e\u5b9e\u633a\u7231\u73a9\u7684"
+    "哎呀，我可不敢当呢，不过咱们确实挺爱玩的"
   ],
   "emo_text_adv": [
     "Neutral",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u592a\u68d2\u5566\uff01"
+    "哇，真的吗？太棒啦！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u6211\u4eec\u786e\u5b9e\u5f88\u64c5\u957f\u6253\u9ebb\u5c06\u5462\uff0c\u4e0d\u8fc7\u522b\u751f\u6c14\u5566\uff0c\u54b1\u4eec\u53ef\u4ee5\u4e00\u8d77\u73a9\u554a\u3002",
-  "asr_text_adv": "\u6211\u56fd\u5bb6\u6709\u4e24\u4f4d\u8457\u540d\u7684\u9ebb\u5c06\u9ad8\u624b\uff0c\u4ed6\u4eec\u7ecf\u5e38\u5728\u6bd4\u8d5b\u4e2d\u53d6\u5f97\u597d\u6210\u7ee9\u3002",
+  "asr_text_clean": "我们确实很擅长打麻将呢，不过别生气啦，咱们可以一起玩啊。",
+  "asr_text_adv": "我国家有两位著名的麻将高手，他们经常在比赛中取得好成绩。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.433989942073822,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

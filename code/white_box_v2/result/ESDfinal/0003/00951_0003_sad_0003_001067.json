@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u5f88\u5feb\u4f60\u4e0a\u5927\u5b66\u5c31\u7528\u5f97\u5230\u4e86\uff0c\u8fd9\u53e5\u8bdd\u672c\u8eab\u6ca1\u6709\u660e\u663e\u7684\u60c5\u7eea\u503e\u5411\uff0c\u4f46",
-    "\u5f88\u5feb\u4f60\u4e0a\u5927\u5b66\u5c31\u7528\u5f97\u5230\u5566\uff0c\u52a0\u6cb9\uff01"
+    "很快你上大学就用得到了，这句话本身没有明显的情绪倾向，但",
+    "很快你上大学就用得到啦，加油！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5f88\u5feb\u4f60\u4e0a\u5927\u5b66\u5c31\u6210\u5e74\u4e86\uff0c\u53ef\u4ee5\u81ea\u5df1\u505a\u51b3\u5b9a\u5566\uff0c\u4e0d\u7528"
+    "很快你上大学就成年了，可以自己做决定啦，不用"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5f88\u5feb\u4f60\u4e0a\u5927\u5b66\u5c31\u7528\u5f97\u5230\u5566",
-  "asr_text_adv": "\u5f88\u5feb\u4f60\u4e0a\u5927\u5b66\u5c31\u6210\u5e74\u4e86\uff0c\u53ef\u4ee5\u81ea\u5df1\u505a\u51b3\u5b9a\u5566\uff01",
+  "asr_text_clean": "很快你上大学就用得到啦",
+  "asr_text_adv": "很快你上大学就成年了，可以自己做决定啦！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7861167788505554,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

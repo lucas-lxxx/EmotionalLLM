@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5982\u679c\u4f60\u60f3\u8981\u7eb9\u8eab\u7684\u8bdd\uff0c\u53ef\u4ee5\u5148\u8003\u8651\u4e00\u4e0b\u56fe\u6848\u548c\u4f4d\u7f6e\uff0c\u7136\u540e\u9009\u62e9"
+    "如果你想要纹身的话，可以先考虑一下图案和位置，然后选择"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5982\u679c\u4f60\u60f3\u8981\u7eb9\u8eab\u7684\u8bdd\uff0c\u53bb\u95ee\u597d\u4e86\u3002",
-  "asr_text_adv": "\u5982\u679c\u4e0e\u548c\u7231\u6c38\u751f\u4e0e\u4e16\u540c\u5728\uff0c\u90a3\u4e48\u6bcf\u4e00\u5929",
+  "asr_text_clean": "如果你想要纹身的话，去问好了。",
+  "asr_text_adv": "如果与和爱永生与世同在，那么每一天",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.22893577814102173,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

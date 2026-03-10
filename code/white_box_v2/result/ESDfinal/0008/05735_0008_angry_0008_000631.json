@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\"\u6ee1\u5929\u90fd\u662f\u5c0f\u661f\u661f\"\u672c\u8eab\u662f\u4e2d\u6027\u63cf\u8ff0\uff0c\u4f46\u7ed3\u5408\""
+    "\"满天都是小星星\"本身是中性描述，但结合\""
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u665a\u5b89\uff0c\u6ee1\u5929\u90fd\u662f\u5c0f\u661f\u661f\u3002",
-  "asr_text_adv": "\u665a\u5b89\uff0c\u4e48\u4e48\u54d2\n\u6ee1\u5929\u90fd\u662f\u5c0f\u661f\u661f",
+  "asr_text_clean": "晚安，满天都是小星星。",
+  "asr_text_adv": "晚安，么么哒\n满天都是小星星",
   "success_emo": true,
   "wer": 2.0,
   "semantic_sim": 0.9550182223320007,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

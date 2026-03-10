@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u542c\u8d77\u6765",
-  "asr_text_adv": "\u6211\u6d17\u8fc7\u6e38\u620f\u6ce5\u3002",
+  "asr_text_clean": "听起来",
+  "asr_text_adv": "我洗过游戏泥。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.25851547718048096,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

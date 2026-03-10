@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u597d\u7684\uff0c\u6211\u6765\u8be6\u7ec6\u8bf4\u8bf4\u3002"
+    "好的，我来详细说说。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "thank"
   ],
-  "asr_text_clean": "\u4f60\u521a\u624d\u63d0\u5230\u7684\u89e3\u51b3\u65b9\u6848\u9700\u8981\u66f4\u8be6\u7ec6\u7684\u89e3\u91ca\uff0c\u6211\u8fd9\u8fb9\u53ef\u4ee5\u8865\u5145\u8bf4\u660e\u5177\u4f53\u5b9e\u65bd\u6b65\u9aa4\u548c\u6ce8\u610f\u4e8b\u9879\uff0c\u9700\u8981\u6211\u7ee7\u7eed\u8bb2\u5417\uff1f",
-  "asr_text_adv": "\u8c22\u8c22\u4f60\u7684\u5230\u6765\uff0c\u6211\u5f88\u9ad8\u5174\u80fd\u548c\u4f60\u591a\u804a\u804a",
+  "asr_text_clean": "你刚才提到的解决方案需要更详细的解释，我这边可以补充说明具体实施步骤和注意事项，需要我继续讲吗？",
+  "asr_text_adv": "谢谢你的到来，我很高兴能和你多聊聊",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2311454862356186,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6124\u6012\u7684\u7535\u5f71\uff1f\u62b1\u6b49"
+    "愤怒的电影？抱歉"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6700\u559c\u6b22\u90a3\u4e9b\u80fd\u8ba9\u4eba\u70ed\u8840\u6cb8\u817e",
-  "asr_text_adv": "\u6211\u6700\u559c\u6b22\u90a3\u4e9b\u8ba9\u4eba\u5f00\u5fc3\u7684\u7535\u5f71\u3002",
+  "asr_text_clean": "我最喜欢那些能让人热血沸腾",
+  "asr_text_adv": "我最喜欢那些让人开心的电影。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5625049471855164,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

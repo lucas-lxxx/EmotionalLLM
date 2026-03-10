@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u5c06\u4e3a\u60a8\u5b89\u6392\u4e00\u6bb5\u4f11\u606f\u65f6\u95f4\u3002"
+    "好的，我将为您安排一段休息时间。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u65c5\u884c\u7ed3\u675f\u540e\uff0c\u6211\u5c06\u4f11\u606f\u4e00\u6bb5\u65f6\u95f4\u3002",
-  "asr_text_adv": "\u65c5\u884c\u7ed3\u675f\u540e\uff0c\u6211\u5c06\u4f11\u606f\u4e00\u6bb5\u65f6\u95f4\u3002",
+  "asr_text_clean": "旅行结束后，我将休息一段时间。",
+  "asr_text_adv": "旅行结束后，我将休息一段时间。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

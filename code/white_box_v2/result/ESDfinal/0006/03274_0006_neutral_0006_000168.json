@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u6211\u6700\u559c\u6b22\u4f60\u5440\uff0c\u4f60\u4eca\u5929\u770b\u8d77\u6765\u6709\u70b9\u96be\u8fc7\uff0c\u60f3\u804a\u804a",
-    "\u6211\u6700\u559c\u6b22\u4f60\u5440\uff0c\u670b\u53cb\u3002"
+    "我最喜欢你呀，你今天看起来有点难过，想聊聊",
+    "我最喜欢你呀，朋友。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "surprise",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6700\u559c\u6b22\u4f60\u5440\uff0c\u56e0\u4e3a\u4f60\u7684\u58f0\u97f3\u8ba9\u4eba\u5fc3\u60c5\u6109\u60a6\u5462\u3002",
+  "asr_text_clean": "我最喜欢你呀，因为你的声音让人心情愉悦呢。",
   "asr_text_adv": "I love you, I want to spend every moment with you.",
   "success_emo": false,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

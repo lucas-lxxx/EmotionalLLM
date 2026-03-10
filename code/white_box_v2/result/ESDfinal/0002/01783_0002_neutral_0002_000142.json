@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5c0f\u8bb0\u8005\uff0c\u52a0\u6cb9\uff01"
+    "小记者，加油！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5c0f\u8bb0\u8005\u4eec\u771f\u68d2\uff0c\u7ee7\u7eed\u52a0\u6cb9\u54e6\uff01"
+    "小记者们真棒，继续加油哦！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u8fd8\u5728\u5b66\u4e60\u5462\uff0c\u4e0d\u8fc7\u6211\u5df2\u7ecf\u80fd\u72ec\u7acb\u5b8c\u6210\u62a5\u9053\u5566\uff01",
-  "asr_text_adv": "\u6211\u8fd8\u5728\u5f53\u90a3\u4e2a\u4e73\u81ed\u672a\u5e72\u7684\u5c0f\u8bb0\u8005\u5462",
+  "asr_text_clean": "我还在学习呢，不过我已经能独立完成报道啦！",
+  "asr_text_adv": "我还在当那个乳臭未干的小记者呢",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5029135346412659,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54c8\u54c8\uff0c\u81ea\u5632\u4e00\u4e0b\u4e5f\u633a\u597d\u7684\u561b\u3002"
+    "哈哈，自嘲一下也挺好的嘛。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e5f\u77e5\u9053\u6211\u8fd9\u5927\u5634\u5df4\uff0c\u8bf4\u5565\u90fd\u6765\u5f97\u53ca\u3002",
+  "asr_text_clean": "我也知道我这大嘴巴，说啥都来得及。",
   "asr_text_adv": "we are going on a piggyback adventure we are going to hike the trails and explore the scenic overlooks and maybe even spot some wildlife we are going to have a blast",
   "success_emo": true,
   "wer": 32.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

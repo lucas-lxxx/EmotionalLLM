@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5979\u597d\u50cf\u8ddf\u5979\u7684\u79d8\u4e66\u6709\u8fc7\u4e00\u6bb5\u4e0d\u6109\u5feb\u7684\u8fc7\u53bb\u3002"
+    "她好像跟她的秘书有过一段不愉快的过去。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
     "Happy",
-    "\"oh my gosh i just got promoted at work today and i\u2019m so"
+    "\"oh my gosh i just got promoted at work today and i’m so"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     "oh"
   ],
-  "asr_text_clean": "\u5979\u597d\u50cf\u8ddf\u4ed6\u79d8\u4e66\u6709\u8fc7\u4e00\u6bb5\u5173\u7cfb\u3002",
-  "asr_text_adv": "\u4eca\u5929\u8ddf\u540c\u4e8b\u95f9\u4e86\u70b9\u77db\u76fe\uff0c\u4e0d\u8fc7\u5df2\u7ecf\u89e3\u51b3\u5566\u3002",
+  "asr_text_clean": "她好像跟他秘书有过一段关系。",
+  "asr_text_adv": "今天跟同事闹了点矛盾，不过已经解决啦。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.35535240173339844,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

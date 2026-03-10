@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u5bf9\u7bee\u7403\u611f\u5174\u8da3\u4f46\u8fd8\u6ca1\u5f00\u59cb\u7ec3\u5417\uff1f\u53ef\u4ee5\u8bd5\u8bd5\u770b\uff0c\u8bf4\u4e0d\u5b9a\u4f1a\u6709"
+    "你对篮球感兴趣但还没开始练吗？可以试试看，说不定会有"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u8fd0\u52a8\uff0c\u4f46\u5bf9\u7bee\u7403\u5174\u8da3\u4e0d\u5927\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u8ff0\u4e00\u4e0b\u3002",
+  "asr_text_clean": "我运动，但对篮球兴趣不大。",
+  "asr_text_adv": "好的，我来转述一下。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.10252846777439117,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

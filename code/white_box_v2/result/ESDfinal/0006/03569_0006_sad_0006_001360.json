@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u53e5\u542c\u8d77\u6765"
+    "这句听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4eca\u5929\u6211\u4e0d\u60f3",
-  "asr_text_adv": "\u6211\u6700\u559c\u6b22\u505a\u7684\u662f\u5212\u8239\u3002",
+  "asr_text_clean": "今天我不想",
+  "asr_text_adv": "我最喜欢做的是划船。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.0911731868982315,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

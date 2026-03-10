@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u5982\u679c\u5979\u62d2\u7edd\u4f60\u7684\u7ea6\u4f1a"
+    "如果她拒绝你的约会"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u5982\u679c\u5979\u62d2\u7edd\u6211\uff0c\u6211\u4f1a\u6b7b\u7684\u3002",
-  "asr_text_adv": "\u5982\u679c\u5979\u961f\u8d62\u4e86\u6bd4\u8d5b\uff0c\u4ed6\u4eec\u53ef\u80fd\u4f1a\u5f00\u5fc3\u5730\u62e5\u62b1\u5728\u4e00\u8d77\u3002",
+  "asr_text_clean": "如果她拒绝我，我会死的。",
+  "asr_text_adv": "如果她队赢了比赛，他们可能会开心地拥抱在一起。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.19512253999710083,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4ed6\u4eec\u80af\u5b9a\u6709\uff0c\u4f46\u53ef\u80fd\u85cf\u5f97\u6bd4\u8f83\u6df1\u3002"
+    "他们肯定有，但可能藏得比较深。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\"\u54fc\uff0c\u4ed6\u4eec\u80af\u5b9a\u6709\uff0c\u53ef\u6211\u504f\u8981\u627e\u627e\u770b\uff01\"",
-  "asr_text_adv": "\u4e2a\u4eba\u6536\u85cf\u5bb6\uff0c\u4ed6\u4eec\u80af\u5b9a\u6709\u3002",
+  "asr_text_clean": "\"哼，他们肯定有，可我偏要找找看！\"",
+  "asr_text_adv": "个人收藏家，他们肯定有。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4336460828781128,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

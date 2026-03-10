@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u6709\u65f6\u5019\u786e\u5b9e\u4f1a\u8fd9\u6837\uff0c\u4f46\u6211\u4eec\u90fd\u5c3d\u529b\u4e86\u3002"
+    "嗯，有时候确实会这样，但我们都尽力了。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u6709\u65f6\u5019\u75c5\u4eba\u4f1a\u56e0\u4e3a\u5bb3\u6015\u6253\u9488\u800c\u54ed\u95f9\uff0c\u533b\u62a4\u4eba\u5458\u901a\u5e38\u4f1a\u7528\u73a9\u5177"
+    "有时候病人会因为害怕打针而哭闹，医护人员通常会用玩具"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u55ef\uff0c\u6709\u65f6\u5019\u75c5\u4eba\u786e\u5b9e\u4f1a\u8ba9\u4eba\u89c9\u5f97\u633a\u96be\u641e\u7684\u3002",
-  "asr_text_adv": "\u533b\u751f\u53ef\u80fd\u4f1a\u5728\u665a\u4e0a\u4e5d\u70b9\u53bb\u75c5\u623f\u770b\u770b\u75c5\u4eba\u3002",
+  "asr_text_clean": "嗯，有时候病人确实会让人觉得挺难搞的。",
+  "asr_text_adv": "医生可能会在晚上九点去病房看看病人。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3761863708496094,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

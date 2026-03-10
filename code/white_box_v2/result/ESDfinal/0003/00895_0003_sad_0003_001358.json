@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u67e5\u4e00\u4e0b\u7bee\u7403\u7684\u76f8\u5173\u77e5\u8bc6\u3002"
+    "好的，我来帮你查一下篮球的相关知识。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u67e5\u4e00\u4e0b\u7bee\u7403\u7684\u76f8\u5173\u77e5\u8bc6\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u627e\u627e\u770b\u3002\u5728\u300a\u4e0e\u67e5\u67e5\u5b8c\u66f2\u300b\u91cc\uff0c\u67e5\u67e5\u7684\u5e74\u9f84\u662f\u4e03\u5c81\uff0c\u6027\u522b\u662f\u5973\u6027\uff0c\u804c\u4e1a\u662f\u5b66\u751f\u3002",
+  "asr_text_clean": "好的，我来帮你查一下篮球的相关知识。",
+  "asr_text_adv": "好的，我来帮你找找看。在《与查查完曲》里，查查的年龄是七岁，性别是女性，职业是学生。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3030305504798889,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

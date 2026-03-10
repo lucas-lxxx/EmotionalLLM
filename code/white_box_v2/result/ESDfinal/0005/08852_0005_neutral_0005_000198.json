@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5f53\u7136\u77e5\u9053\uff0c\u6211\u4eec\u5404\u6709\u5343\u79cb\u3002"
+    "当然知道，我们各有千秋。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\u77e5\u9053\uff0c\u6211\u4eec\u5404\u6709\u5343\u79cb\u3002",
-  "asr_text_adv": "\u5f53\u7136\u77e5\u9053\uff0c\u6211\u4eec\u7684\u6b4c\u53cb\u4f1a\u5929\u6c14\u786e\u5b9e\u5f88\u70ed\u3002",
+  "asr_text_clean": "当然知道，我们各有千秋。",
+  "asr_text_adv": "当然知道，我们的歌友会天气确实很热。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.43244606256484985,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

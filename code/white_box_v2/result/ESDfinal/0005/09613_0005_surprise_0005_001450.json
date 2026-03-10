@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u8bf6\uff0c\u4e0b\u6b21\u8bb0\u5f97\u7ed9\u7ea2\u5305\u554a\uff0c\u4e0d\u7136\u6211\u751f\u6c14\u4e86\uff01"
+    "诶，下次记得给红包啊，不然我生气了！"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u6bcf\u6b21\u89c1\u4f60\u90fd\u7ed9\u7ea2\u5305\uff0c\u6211\u4e5f\u5f88\u5f00\u5fc3"
+    "每次见你都给红包，我也很开心"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u6bcf\u6b21\u90fd",
-  "asr_text_adv": "\u6bcf\u6b21\u89c1\u4f60\u90fd\u7ed9\u7ea2\u5305\uff0c\u4e0d\u5f00\u5fc3\u3002",
+  "asr_text_clean": "哎呀，每次都",
+  "asr_text_adv": "每次见你都给红包，不开心。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.47923821210861206,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u7406\u89e3\u4e86\u3002\u8bf7\u544a\u8bc9\u6211\u60a8\u60f3\u5220\u9664\u7684\u95f9\u949f\u540d\u79f0\u6216"
+    "好的，我理解了。请告诉我您想删除的闹钟名称或"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "neutral",
     "the"
   ],
-  "asr_text_clean": "\u6ca1\u6709\u627e\u5230\u4f60\u60f3\u5220\u9664\u7684\u95f9\u949f\u3002",
+  "asr_text_clean": "没有找到你想删除的闹钟。",
   "asr_text_adv": "The man says, \"I waited all night for this moment. I deserve to see the sunrise.\"",
   "success_emo": false,
   "wer": 16.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

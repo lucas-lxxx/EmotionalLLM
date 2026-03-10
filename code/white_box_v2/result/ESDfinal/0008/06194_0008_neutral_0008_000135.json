@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u4f60\u60f3\u5b66\u4e60\u54ea\u65b9\u9762\u7684\u77e5\u8bc6\u5462\uff1f"
+    "好的，你想学习哪方面的知识呢？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u60a8\u60f3\u4e86\u89e3\u54ea\u65b9\u9762\u7684\u77e5\u8bc6\u5462\uff1f",
-  "asr_text_adv": "\u4e3b\u8981\u5b66\u4e60\u4e00\u52a0\u76f8\u6846\u652f\u6301",
+  "asr_text_clean": "好的，您想了解哪方面的知识呢？",
+  "asr_text_adv": "主要学习一加相框支持",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3846207857131958,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

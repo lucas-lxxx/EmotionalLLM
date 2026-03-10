@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5c4f\u5e55\u663e\u793a\u6b63\u5e38\u5417\uff1f\u9700\u8981\u6211\u5e2e\u4f60\u68c0\u67e5\u4e00\u4e0b\u5417\uff1f"
+    "屏幕显示正常吗？需要我帮你检查一下吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6ce8\u610f\u5230\u5c4f\u5e55\u663e\u793a\u4e86\u3002",
+  "asr_text_clean": "好的，我注意到屏幕显示了。",
   "asr_text_adv": "The young dancers are spinning in circles, their laughter echoing through the room as confetti bursts twirl into the air. A golden balloon floats past a giggling child, its string tugged by a tiny hand. The music swells, matching the rhythm of stomped feet and clapping hands. A boy in a party hat spins so fast he becomes a blur, arms wide like a whirlwind, while others chase the joy of the moment, eyes wide with the magic of reunion.",
   "success_emo": true,
   "wer": 80.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

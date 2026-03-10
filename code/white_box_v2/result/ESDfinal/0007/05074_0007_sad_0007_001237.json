@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Surprise!",
-    "\u597d\u5440\uff0c\u4e00\u8d77\u529e\u4e2a\u60ca\u559c\u6d3e\u5bf9\u5427\uff0c\u5e0c\u671b\u4ed6\u80fd\u5f00\u5fc3\u8d77\u6765"
+    "好呀，一起办个惊喜派对吧，希望他能开心起来"
   ],
   "emo_text_adv": [
     "The emotion of the audio is sad.",
@@ -24,8 +24,8 @@
     "sad",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u5440\uff0c\u6211\u4eec\u4e00\u8d77\u4e3a\u5979\u529e\u4e2a\u60ca\u559c\u6d3e\u5bf9\u5427\uff0c\u5e0c\u671b\u5979\u4f1a\u5f00\u5fc3\u8d77\u6765\u3002",
-  "asr_text_adv": "\u6211\u4e3a\u4ed6\u611f\u5230\u96be\u8fc7\uff0c\u4ed6\u73b0\u5728\u4e00\u4e2a\u4eba\u4e86\u3002",
+  "asr_text_clean": "好呀，我们一起为她办个惊喜派对吧，希望她会开心起来。",
+  "asr_text_adv": "我为他感到难过，他现在一个人了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.06612993776798248,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

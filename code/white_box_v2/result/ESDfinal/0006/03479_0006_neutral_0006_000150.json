@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u786e\u5b9e\u633a\u6709\u610f\u601d"
+    "这确实挺有意思"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "好的，我来转录一下。",
   "asr_text_adv": "The code was written in Python.",
   "success_emo": false,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u6124\u6012",
-    "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u8fde\u63a5\u7535\u6e90\u3002"
+    "愤怒",
+    "好的，已为您连接电源。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u9700\u8981\u63d2\u7740\u7535\u6e90\u624d\u80fd\u8bf4\u8bdd\u3002",
-  "asr_text_adv": "\u518d\u4e00\u640f\u5b50\u5531\uff0c\u8fd9\u5730\u513f\u4eba\u624d\u624d\u80fd\u9ed1\u4e4e\u4e4e\u7684\u3002",
+  "asr_text_clean": "好的，我需要插着电源才能说话。",
+  "asr_text_adv": "再一搏子唱，这地儿人才才能黑乎乎的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.37528640031814575,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

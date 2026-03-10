@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u8fd9\u53d1\u578b\u771f\u7cbe\u795e\uff0c\u770b\u6765\u4f60\u5fc3\u60c5\u4e0d\u9519\u554a\uff01"
+    "这发型真精神，看来你心情不错啊！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u563f\uff0c\u522b\u5c0f\u770b\u6211\u7684\u53d1\u578b\uff0c\u6211\u8fd8\u633a\u559c\u6b22\u7684\uff01",
-  "asr_text_adv": "\u522b\u60f3\u592a\u591a\u5566\uff0c\u4f60\u770b\u8d77\u6765\u771f\u68d2\uff01",
+  "asr_text_clean": "嘿，别小看我的发型，我还挺喜欢的！",
+  "asr_text_adv": "别想太多啦，你看起来真棒！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6531943082809448,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

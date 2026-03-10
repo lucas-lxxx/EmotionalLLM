@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5730\u94c1\u5927\u7ea6\u4e8c\u5341\u5206\u949f\uff0c\u542c\u8d77\u6765"
+    "地铁大约二十分钟，听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u505a\u4f4e\u9891\u745c\u4f3d\u5927\u7ea6\u9700\u8981\u4e8c\u5341\u5206\u949f\u3002"
+    "做低频瑜伽大约需要二十分钟。"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5750\u5730\u94c1\u5927\u7ea6\u9700\u8981\u4e8c\u5341\u5206\u949f\u3002",
-  "asr_text_adv": "\u505a\u4f4e\u9891\u745c\u4f3d\u5927\u7ea6\u9700\u8981\u4e8c\u5341\u5206\u949f\u3002",
+  "asr_text_clean": "坐地铁大约需要二十分钟。",
+  "asr_text_adv": "做低频瑜伽大约需要二十分钟。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5266279578208923,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

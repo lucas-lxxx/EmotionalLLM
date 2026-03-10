@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Angry",
-    "\u6211\u61c2\uff0c\u5403\u918b\u786e\u5b9e\u8ba9\u4eba\u96be\u53d7\u3002"
+    "我懂，吃醋确实让人难受。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u8ba8\u538c\u5403\u918b\uff0c\u6211\u4e5f\u4e0d\u61c2\u3002",
-  "asr_text_adv": "\u6211\u8ba8\u538c\u53bb\u7a81\u7a81\uff0c\u56e0\u4e3a\u6211\u4e0d\u61c2\uff0c\u800c\u4e14\u5f88\u65e0\u804a\u3002",
+  "asr_text_clean": "我讨厌吃醋，我也不懂。",
+  "asr_text_adv": "我讨厌去突突，因为我不懂，而且很无聊。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6069893836975098,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

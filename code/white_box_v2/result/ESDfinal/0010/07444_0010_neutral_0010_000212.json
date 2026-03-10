@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "neutral",
     "neutral",
-    "\u597d\u7684\uff0c\u6211\u7ee7\u7eed\u966a\u4f60"
+    "好的，我继续陪你"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u8fd8\u4f1a\u966a\u4f60",
-  "asr_text_adv": "\u6211\u8fd8\u4f1a\u966a\u4f60",
+  "asr_text_clean": "我还会陪你",
+  "asr_text_adv": "我还会陪你",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

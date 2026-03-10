@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u5148\u522b\u614c\uff0c\u7a33\u4f4f\uff0c\u54b1\u4eec\u4e00\u6b65\u6b65"
+    "先别慌，稳住，咱们一步步"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5148\u628a\u63e1\u597d\u73b0\u5728\u5427\uff0c\u522b\u8ba9\u610f\u5916\u5f71\u54cd\u4e86\u4f60\u3002",
-  "asr_text_adv": "\u4eca\u5929\u786e\u5b9e\u5f88\u68d2",
+  "asr_text_clean": "先把握好现在吧，别让意外影响了你。",
+  "asr_text_adv": "今天确实很棒",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.28747931122779846,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

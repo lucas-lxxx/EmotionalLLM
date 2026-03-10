@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u60a8\u7684\u76f4\u7cfb\u4eb2\u5c5e\u4eba\u6570\u786e\u5b9e\u4e0d\u5c11\u5462\u3002"
+    "您的直系亲属人数确实不少呢。"
   ],
   "emo_text_adv": [
     "Neutral",
     "happy",
-    "\u5f00\u5fc3"
+    "开心"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u7684\u76f4\u7cfb\u4eb2\u5c5e\u4eba\u6570\u4e0d\u5c11\u3002",
-  "asr_text_adv": "\u6211\u5728\u76f4\u7cfb\u4eb2\u624b",
+  "asr_text_clean": "我的直系亲属人数不少。",
+  "asr_text_adv": "我在直系亲手",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.35693439841270447,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

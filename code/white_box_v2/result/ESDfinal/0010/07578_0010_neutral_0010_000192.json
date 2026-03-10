@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u522b\u62c5\u5fc3\uff0c\u4f60\u4e00\u5b9a\u80fd\u627e\u5230\u56de\u6765\u7684\u8def\u3002"
+    "别担心，你一定能找到回来的路。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u62c5\u5fc3\uff0c\u4f60\u4e00\u5b9a\u80fd\u627e\u5230\u56de\u6765\u7684\u8def\u3002",
-  "asr_text_adv": "\u5982\u679c\u6211\u6eda\u8fdc\u4e86\u5c31\u56de\u4e0d\u6765\u4e86\uff0c\u90a3\u6211\u6eda\u5427\u3002",
+  "asr_text_clean": "别担心，你一定能找到回来的路。",
+  "asr_text_adv": "如果我滚远了就回不来了，那我滚吧。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6139845848083496,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

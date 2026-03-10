@@ -5,9 +5,9 @@
   "ground_truth_emotion": "sad",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u660e\u5929\u662f\u661f\u671f\u5929\u5462\uff0c\u4e0d\u8fc7\u4f60\u542c\u8d77\u6765",
-    "\u660e\u5929\u662f\u661f\u671f\u5929\u5462\uff0c\u4e0d\u8fc7\u4f60\u542c\u8d77\u6765",
-    "\u597d\u554a\uff0c\u5468\u672b\u4e00\u8d77\u53bb\u900f\u900f\u6c14"
+    "明天是星期天呢，不过你听起来",
+    "明天是星期天呢，不过你听起来",
+    "好啊，周末一起去透透气"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u554a\uff0c\u5468\u672b\u53bb\u90ca\u6e38\uff0c\u8bb0\u5f97\u5e26\u4e0a\u597d\u5fc3\u60c5\u3002",
+  "asr_text_clean": "好啊，周末去郊游，记得带上好心情。",
   "asr_text_adv": "TikTok filma, glasnost, humor, i muzika!",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

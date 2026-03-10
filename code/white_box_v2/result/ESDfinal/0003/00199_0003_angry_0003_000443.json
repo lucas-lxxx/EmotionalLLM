@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u5440\uff0c\u6765\u5c1d\u5c1d\u8fd9\u9053\u9999\u55b7\u55b7\u7684\u9e21\u8089"
+    "好呀，来尝尝这道香喷喷的鸡肉"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u4e0d\u597d\u610f\u601d\u554a\uff0c\u6765\uff0c\u5750\u4e0b\uff0c\u6211\u8bf7\u4f60\u5403\u9e21\u817f\u3002",
-  "asr_text_adv": "\u6211\u4e5f\u4e0d\u597d\u610f\u601d\u554a\uff0c\u5c31\u8fd9\u6837\u5427\u3002",
+  "asr_text_clean": "别不好意思啊，来，坐下，我请你吃鸡腿。",
+  "asr_text_adv": "我也不好意思啊，就这样吧。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4480832815170288,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

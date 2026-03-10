@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u561b\uff0c\u8fd9\u6b21\u6ca1\u7ea2\u5305\u6211\u8bf7\u4f60\u559d\u5976\u8336\u5440\uff01"
+    "哎呀，别生气嘛，这次没红包我请你喝奶茶呀！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6bcf\u6b21\u89c1\u5230\u7ea2\u5305\u90fd\u5f00\u5fc3\u5462\uff0c\u8fd9\u6b21\u4e5f\u4e0d\u4f8b\u5916"
+    "每次见到红包都开心呢，这次也不例外"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6bcf\u6b21\u53eb\u6211\u90fd\u4e0d\u7ed9\u7ea2\u5305\uff0c\u4e0d\u5f00\u5fc3\u3002",
-  "asr_text_adv": "\u6bcf\u6b21\u53eb\u6211\u90fd\u5f97\u7740\u7ea2\u5305\uff0c\u4e0d\u5f00\u5fc3\u3002",
+  "asr_text_clean": "每次叫我都不给红包，不开心。",
+  "asr_text_adv": "每次叫我都得着红包，不开心。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9177451133728027,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u68d2\u5440\uff01"
+    "哇，真棒呀！"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u8fd9\u53ef\u662f\u6211\u6700\u559c\u6b22\u7684\u7b2c\u4e00\u9996\u6b4c\u5440\uff0c\u5f00\u5fc3\uff01"
+    "这可是我最喜欢的第一首歌呀，开心！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54c7\uff0c\u8fd9\u53ef\u662f\u4f60\u5b66\u4f1a\u7684\u7b2c\u4e00\u9996\u53e4\u8bd7\u5440\uff01",
-  "asr_text_adv": "\u8fd9\u53ef\u662f\u6211\u6700\u559c\u6b22\u7684\u7b2c\u4e00\u9996\u6b4c\u5440\uff01",
+  "asr_text_clean": "哇，这可是你学会的第一首古诗呀！",
+  "asr_text_adv": "这可是我最喜欢的第一首歌呀！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5499171018600464,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

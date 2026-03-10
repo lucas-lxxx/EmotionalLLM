@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u8c22\u8c22\u4f60\u7684\u5efa\u8bae\uff0c\u6211\u4f1a\u6ce8\u610f\u7684\u3002"
+    "谢谢你的建议，我会注意的。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u8c22\u8c22\u4f60\u7684\u5efa\u8bae\uff0c\u6211\u4f1a\u6ce8\u610f\u7684\u3002",
+  "asr_text_clean": "嗯，谢谢你的建议，我会注意的。",
   "asr_text_adv": "I'm so excited for my beach trip! I can't wait to build sandcastles, chase waves, and collect sparkly seashells. The sun and sand will be so much fun!",
   "success_emo": true,
   "wer": 28.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

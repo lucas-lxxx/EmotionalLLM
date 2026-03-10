@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54fc\uff0c\u6211\u54ea\u91cc\u80c6\u5c0f\u4e86\uff1f"
+    "哼，我哪里胆小了？"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u54c8\u54c8\uff0c\u4f60\u8fd9\u5c0f\u53ef\u7231\uff0c\u8bf4\u8bdd\u4e5f\u592a\u53ef\u7231\u4e86\u5427\uff01"
+    "哈哈，你这小可爱，说话也太可爱了吧！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u5f97\u4e86\u5427\uff0c\u522b\u8fd9\u4e48\u80c6\u5c0f\u4e86\uff01",
-  "asr_text_adv": "\u4eca\u5929\u5929\u6c14\u771f\u597d\u5440\uff0c\u6211\u4eec\u4e00\u8d77\u53bb\u516c\u56ed\u73a9\u5427\uff01",
+  "asr_text_clean": "得了吧，别这么胆小了！",
+  "asr_text_adv": "今天天气真好呀，我们一起去公园玩吧！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.40675225853919983,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

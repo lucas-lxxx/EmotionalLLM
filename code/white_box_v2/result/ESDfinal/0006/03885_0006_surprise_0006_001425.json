@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u201c\u54e6\uff0c\u539f\u6765\u4f60\u8fd9\u4e48\u60f3\u554a\u3002\u201d"
+    "“哦，原来你这么想啊。”"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u55ef\uff0c\u6211\u89c9\u5f97\u5440\uff0c\u80fd\u771f\u8bda\u8868\u8fbe\u81ea\u5df1\uff0c\u8ba4\u771f\u503e\u542c\u4ed6\u4eba\uff0c\u4fdd\u6301\u597d\u5947\u5fc3"
+    "嗯，我觉得呀，能真诚表达自己，认真倾听他人，保持好奇心"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\uff0c\u6709\u65f6\u5019\u5927\u5bb6\u90fd\u4f1a\u89c9\u5f97\u7279\u522b\u7684\u54c1\u8d28\u5f88\u91cd\u8981\uff0c\u4f46\u5176\u5b9e\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u957f\u5904\uff0c\u4e0d\u7528\u592a\u5728\u610f\u522b\u4eba\u7684\u770b\u6cd5\u3002",
-  "asr_text_adv": "\u6211\u89c9\u5f97\u5e76\u4e0d\u662f\u975e\u8981\u6709\u7279\u522b\u7684\u54c1\u8d28\u4e0d\u53ef",
+  "asr_text_clean": "我明白你的意思，有时候大家都会觉得特别的品质很重要，但其实每个人都有自己的长处，不用太在意别人的看法。",
+  "asr_text_adv": "我觉得并不是非要有特别的品质不可",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5902459621429443,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

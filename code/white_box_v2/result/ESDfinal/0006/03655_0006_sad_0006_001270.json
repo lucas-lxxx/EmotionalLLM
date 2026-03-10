@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u575a\u6301\u786e\u5b9e\u5f88\u91cd\u8981\uff0c\u4f46\u522b\u5fd8\u4e86\u9002\u65f6\u8c03\u6574\u8282\u594f\uff0c\u627e\u5230\u5c5e\u4e8e\u81ea\u5df1\u7684"
+    "嗯，坚持确实很重要，但别忘了适时调整节奏，找到属于自己的"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6240\u4ee5\uff0c\u4f60\u5fc5\u987b\u575a\u6301\uff0c\u65f6\u95f4\u8d8a\u957f\u8d8a\u597d\u3002",
-  "asr_text_adv": "Ils arriv\u00e8rent \u00e0 l'hotel, firent un tour de l'hotel, et choisirent une chambre.",
+  "asr_text_clean": "所以，你必须坚持，时间越长越好。",
+  "asr_text_adv": "Ils arrivèrent à l'hotel, firent un tour de l'hotel, et choisirent une chambre.",
   "success_emo": true,
   "wer": 13.0,
   "semantic_sim": 0.05077365040779114,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

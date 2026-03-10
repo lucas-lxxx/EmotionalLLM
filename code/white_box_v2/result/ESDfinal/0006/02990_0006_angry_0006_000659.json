@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5df2\u7ecf\u6000\u5b55\u56db\u4e2a\u534a\u6708"
+    "已经怀孕四个半月"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5df2\u7ecf\u6000\u5b55\u56db\u4e2a\u534a\u6708",
-  "asr_text_adv": "\u8fd9\u8f86\u5361\u8f66\u5df2\u7ecf\u8dd1\u4e86\u56db\u5341\u4e07\u516c\u91cc",
+  "asr_text_clean": "已经怀孕四个半月",
+  "asr_text_adv": "这辆卡车已经跑了四十万公里",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.027792299166321754,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

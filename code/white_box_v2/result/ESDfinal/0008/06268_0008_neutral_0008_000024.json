@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4f60\u7684\u58f0\u97f3\u8ba9\u6211\u60f3\u8d77\u4e86\u4e00\u6bb5\u6e29\u6696\u7684\u56de\u5fc6\uff0c\u50cf\u51ac\u65e5\u91cc\u7684\u9633\u5149\u4e00\u6837"
+    "你的声音让我想起了一段温暖的回忆，像冬日里的阳光一样"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u7684\u8eab\u5f71\u603b\u662f\u5728\u6211\u5fc3\u91cc\u6643\u6765\u6643\u53bb\u3002",
-  "asr_text_adv": "\u4f60\u7684\u8eab\u5f71\u603b\u662f\u5728\u6211\u5fc3\u91cc\u6643\u6765\u6643\u53bb\u3002",
+  "asr_text_clean": "你的身影总是在我心里晃来晃去。",
+  "asr_text_adv": "你的身影总是在我心里晃来晃去。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

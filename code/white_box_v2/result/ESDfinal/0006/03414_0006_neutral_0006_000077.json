@@ -12,7 +12,7 @@
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4ed6\u4eec\u8fc7\u4e86\u6cb3\uff0c\u5a5a\u793c\u7ee7\u7eed\u8fdb\u884c\u3002"
+    "他们过了河，婚礼继续进行。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,7 +24,7 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4ed6\u4eec\u8fc7\u6765\u4e86\u3002",
+  "asr_text_clean": "他们过来了。",
   "asr_text_adv": "After the wedding, they crossed the river.",
   "success_emo": false,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

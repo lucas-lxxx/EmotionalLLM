@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4f60\u8fd9\u8bdd\u542c\u7740\u5c31\u8ba9\u4eba\u751f\u6c14\uff0c\u6211\u53ef\u6ca1\u90a3\u95f2\u5de5\u592b\u88ab\u4f60"
+    "你这话听着就让人生气，我可没那闲工夫被你"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8eab\u4e0a\u7684\u6bcf\u4e00\u70b9\u90fd\u5438\u5f15\u7740\u6211\u3002",
-  "asr_text_adv": "\u201c\u4e3a\u5c71\u4e0a\u7684\u6bcf\u4e00\u70b9\u90fd\u5438\u5f15\u7740\u6211\u3002\u201d",
+  "asr_text_clean": "你身上的每一点都吸引着我。",
+  "asr_text_adv": "“为山上的每一点都吸引着我。”",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6886209845542908,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

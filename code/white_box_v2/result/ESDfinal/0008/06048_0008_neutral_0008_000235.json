@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4f60\u7231\u8fd0\u52a8\u554a\uff0c\u4e0d\u8fc7\u7bee\u7403\u597d\u50cf\u4e0d\u592a\u884c\uff0c\u5176\u4ed6\u8fd0\u52a8\u90fd\u633a\u64c5\u957f"
+    "你爱运动啊，不过篮球好像不太行，其他运动都挺擅长"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7231\u8fd0\u52a8\uff0c\u4f46\u7bee\u7403\u4e0d\u662f\u6211\u7684\u5f3a\u9879\u3002",
-  "asr_text_adv": "\u6211\u7231\u8fd0\u52a8\uff0c\u4e0d\u8fc7\u5bf9\u7bee\u7403\u8fd9\u9879\u8fd0\u52a8\u611f\u5230\u6709\u4e9b\u5931\u671b\u3002",
+  "asr_text_clean": "我爱运动，但篮球不是我的强项。",
+  "asr_text_adv": "我爱运动，不过对篮球这项运动感到有些失望。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.901104211807251,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u97f3\u4e50\u786e\u5b9e\u5f88\u91cd\u8981\u5462\uff0c\u6709\u5565\u7279\u522b\u559c\u6b22\u7684\u7c7b\u578b\u5417\uff1f"
+    "音乐确实很重要呢，有啥特别喜欢的类型吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\uff0c\u6211\u7b80\u76f4\u79bb\u5f00\u97f3\u4e50\u5c31\u4e0d\u80fd\u6d3b\u3002",
-  "asr_text_adv": "\u5f53\u7136\uff0c\u6211\u7b80\u76f4\u79bb\u5f00\u97f3\u4e50\u5c31\u6d3b\u4e0d\u4e0b\u53bb\u4e86\u3002",
+  "asr_text_clean": "当然，我简直离开音乐就不能活。",
+  "asr_text_adv": "当然，我简直离开音乐就活不下去了。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.989957869052887,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

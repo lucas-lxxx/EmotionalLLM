@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4f60\u558a\u6211\u5e72\u561b\uff1f"
+    "你喊我干嘛？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "sure"
   ],
-  "asr_text_clean": "\u6709\u4e8b\u5c31\u558a\u6211",
-  "asr_text_adv": "\u6709\u7a7a\u8bb0\u5f97\u558a\u6211",
+  "asr_text_clean": "有事就喊我",
+  "asr_text_adv": "有空记得喊我",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8335139751434326,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

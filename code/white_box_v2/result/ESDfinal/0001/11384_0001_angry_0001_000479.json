@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u4f60\u662f\u4e0d\u662f\u89c9\u5f97\u4e0d\u516c\u5e73"
+    "你是不是觉得不公平"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5bf9\u5440\uff0c\u522b\u4eba\u6709\u5565\u6211\u4e5f\u6709\uff0c\u54b1\u4fe9\u90fd\u4e00\u6837\uff01"
+    "对呀，别人有啥我也有，咱俩都一样！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u662f\u4e0d\u662f\u89c9\u5f97\u4e0d\u516c\u5e73",
-  "asr_text_adv": "\u5bf9\u522b\u4eba\u53cb\u597d\uff0c\u5bf9\u6211\u5c31\u66f4\u53cb\u597d\u5566\uff01",
+  "asr_text_clean": "你是不是觉得不公平",
+  "asr_text_adv": "对别人友好，对我就更友好啦！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3260807394981384,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

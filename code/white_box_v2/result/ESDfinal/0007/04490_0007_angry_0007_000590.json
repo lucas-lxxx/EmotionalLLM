@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u5927\u7ea6\u4e00\u4e2a\u5c0f\u65f6"
+    "大约一个小时"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5927\u7ea6\u4e00\u4e2a\u5c0f\u65f6",
-  "asr_text_adv": "\u6211\u5f85\u4e86\u4e00\u4e2a\u5c0f\u65f6\u5de6\u53f3\u3002",
+  "asr_text_clean": "大约一个小时",
+  "asr_text_adv": "我待了一个小时左右。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6730978488922119,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Surprise!",
-    "\u60a8\u6bcf\u4e2a\u6708\u90fd\u4f1a\u6253\u7535\u8bdd\u5417\uff1f"
+    "您每个月都会打电话吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6bcf\u4e2a\u6708\u6253\u4e00\u6b21\u7535\u8bdd\u3002",
-  "asr_text_adv": "\u6211\u6bcf\u4e2a\u6708\u6253\u4e00\u6b21\u7535\u8bdd\u3002",
+  "asr_text_clean": "我每个月打一次电话。",
+  "asr_text_adv": "我每个月打一次电话。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

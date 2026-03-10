@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u7684\uff0c\u6211\u542c\u7740\u5c31\u70e6\u3002",
-    "\u6211\u5c31\u662f\u60f3\u6765\u4e32\u95e8\u554a\uff0c\u600e\u4e48\u4e86\uff1f"
+    "你这话说的，我听着就烦。",
+    "我就是想来串门啊，怎么了？"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u56e0\u4e3a\u6211\u89c9\u5f97\u4f60\u5f88\u6709\u8da3\u5440\uff0c\u800c\u4e14\u4f60\u613f\u610f\u548c\u6211\u4e00\u8d77\u73a9\uff01"
+    "因为我觉得你很有趣呀，而且你愿意和我一起玩！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u5c31\u662f\u6765\u8fd8\u94b1\u7684\uff0c\u522b\u903c\u6211\uff01",
-  "asr_text_adv": "\u6211\u6551\u4e86\u4f60\u561b\uff0c\u5f53\u7136\u8981\u548c\u4f60\u4e00\u8d77\u5f00\u5fc3\u5440\uff01",
+  "asr_text_clean": "我就是来还钱的，别逼我！",
+  "asr_text_adv": "我救了你嘛，当然要和你一起开心呀！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5415791273117065,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

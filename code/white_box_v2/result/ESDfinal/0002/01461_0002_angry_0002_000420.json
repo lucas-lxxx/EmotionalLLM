@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u65e9\u5566\uff0c\u6211\u660e\u660e\u8fd8\u6ca1\u5230\u4e8c\u5341\u5c81\u5462"
+    "你这话说得也太早啦，我明明还没到二十岁呢"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u5fc3\u52a8\u4e0d\u5982\u884c\u52a8\uff0c\u6211\u76f4\u63a5\u8bf4\u91cd\u70b9\uff0c\u8fd9\u6b21\u673a\u4f1a\u4f60\u5fc5\u987b\u6293\u4f4f\u3002",
-  "asr_text_adv": "\u6211\u6709\u70b9\u60f3\u505a\u624b\u5de5\uff0c\u4f46\u4e0d\u592a\u4f1a\u505a\u3002",
+  "asr_text_clean": "心动不如行动，我直接说重点，这次机会你必须抓住。",
+  "asr_text_adv": "我有点想做手工，但不太会做。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.34121042490005493,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

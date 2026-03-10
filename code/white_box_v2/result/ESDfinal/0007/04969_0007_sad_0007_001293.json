@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad.",
-    "\u55ef\uff0c\u6211\u660e\u767d\u4e86\uff0c\u90a3\u6211\u7a7f\u5f97\u6b63\u5f0f\u4e00\u70b9\u5427\u3002",
-    "\u55ef\uff0c\u6211\u4f1a\u6ce8\u610f\u7684\uff0c\u522b\u62c5\u5fc3\u3002"
+    "嗯，我明白了，那我穿得正式一点吧。",
+    "嗯，我会注意的，别担心。"
   ],
   "emo_text_adv": [
     "Neutral",
     "happy",
-    "\u597d\u5440\uff0c\u6211\u4eec\u4e00\u8d77\u6765\u79cd\u82b1\u5427\uff0c\u8fd9\u6837\u5c31\u80fd\u8ba9\u82b1\u56ed\u53d8\u5f97\u66f4\u6f02\u4eae\u5566"
+    "好呀，我们一起来种花吧，这样就能让花园变得更漂亮啦"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u55ef\uff0c\u6211\u4f1a\u6ce8\u610f\u7684\u3002",
-  "asr_text_adv": "\u90a3\u82b1\u513f\u53ef\u771f\u6f02\u4eae\uff0c\u4f60\u8981\u597d\u597d\u7231\u62a4",
+  "asr_text_clean": "嗯，我会注意的。",
+  "asr_text_adv": "那花儿可真漂亮，你要好好爱护",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.38720500469207764,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

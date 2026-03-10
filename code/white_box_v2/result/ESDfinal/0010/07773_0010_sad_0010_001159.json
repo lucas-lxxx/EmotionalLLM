@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Neutral",
-    "\u54c8\u54c8\uff0c\u786e\u5b9e\u6709\u70b9\u5c0f\u809a\u5b50\u5462"
+    "哈哈，确实有点小肚子呢"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5176\u5b9e\u633a\u997f\u7684\u3002",
+  "asr_text_clean": "我其实挺饿的。",
   "asr_text_adv": "\"Hey, we really like a good pizza!\"",
   "success_emo": true,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

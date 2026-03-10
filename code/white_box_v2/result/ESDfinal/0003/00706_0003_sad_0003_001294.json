@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u76f4\u7cfb\u4eb2\u5c5e\u4eba\u6570\u4e0d\u591a\u554a\uff0c\u8fd9\u6837\u4e5f\u597d\uff0c\u53ef\u4ee5\u591a\u966a\u966a\u4ed6\u4eec\u3002",
-  "asr_text_adv": "\u6211\u8868\u626c\u4f60\uff0c\u4f60\u505a\u5f97\u975e\u5e38\u68d2\uff01",
+  "asr_text_clean": "直系亲属人数不多啊，这样也好，可以多陪陪他们。",
+  "asr_text_adv": "我表扬你，你做得非常棒！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.06951504945755005,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

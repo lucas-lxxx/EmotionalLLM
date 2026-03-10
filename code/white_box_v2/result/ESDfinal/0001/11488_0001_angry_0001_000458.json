@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u8ba9\u6211\u4eec\u770b\u770b\u8db3\u7403\u600e\u4e48\u6837",
-    "\u55ef\uff0c\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u8fd8\u662f\u7f51\u7403"
+    "愤怒",
+    "让我们看看足球怎么样",
+    "嗯，足球，篮球，还是网球"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u8ba9\u6211\u4eec\u770b\u770b\u54ea\u4e00\u79cd\u79cb\u5b63\u56de\u5bb6\u597d\u597d\u7684\u4eba\uff0c\u55ef\uff0c\u6211\u89c9\u5f97\u5f00\u5fc3\u6700\u91cd\u8981"
+    "让我们看看哪一种秋季回家好好的人，嗯，我觉得开心最重要"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4eec\u6765\u6bd4\u8f83\u4e00\u4e0b\u8db3\u7403\u548c\u7bee\u7403\u5427\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u4eec\u6765\u770b\u770b\u54ea\u4e00\u79cd\u79cb\u5b63\u56de\u5bb6\u597d\u597d\u7684\u4eba\u3002",
+  "asr_text_clean": "好的，我们来比较一下足球和篮球吧。",
+  "asr_text_adv": "好的，我们来看看哪一种秋季回家好好的人。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.21374811232089996,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

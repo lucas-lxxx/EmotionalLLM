@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u554a\uff0c\u771f\u7684\u5417\uff1f\u592a\u610f\u5916\u4e86\uff01"
+    "啊，真的吗？太意外了！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u8981\u5b69\u5b50\u4e86\uff1f\u771f\u662f\u8ba9\u4eba\u63aa\u624b\u4e0d\u53ca\u554a\u3002",
+  "asr_text_clean": "他要孩子了？真是让人措手不及啊。",
   "asr_text_adv": "The school with two hundred students partnered with a local business to host a career day for students.",
   "success_emo": true,
   "wer": 18.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

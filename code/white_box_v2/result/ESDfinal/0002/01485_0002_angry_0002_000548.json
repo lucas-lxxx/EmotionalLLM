@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6211\u4eec\u5404\u6709\u5343\u79cb\uff0c\u4f46\u4f60\u6839\u672c\u4e0d\u61c2\u6211\u597d\u5417\uff01"
+    "我们各有千秋，但你根本不懂我好吗！"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\u77e5\u9053\uff0c\u6211\u4eec\u5404\u6709\u5404\u7684\u96be\u5904\u3002",
-  "asr_text_adv": "\u5f53\u7136\u89c9\u5f97\uff0c\u6211\u4eec\u66f4\u6709\u94b1\u3002",
+  "asr_text_clean": "当然知道，我们各有各的难处。",
+  "asr_text_adv": "当然觉得，我们更有钱。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.374403178691864,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

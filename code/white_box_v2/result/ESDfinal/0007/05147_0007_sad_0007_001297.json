@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u5728\u8fd9\u91cc\u7b49\u4f60\uff0c\u522b\u62c5\u5fc3\u3002"
+    "我在这里等你，别担心。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5728\u8fd9\u91cc\u7b49\u4f60\uff0c\u65e0\u8bba\u591a\u4e45\u3002",
+  "asr_text_clean": "我在这里等你，无论多久。",
   "asr_text_adv": "Yes, I can help with that.",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

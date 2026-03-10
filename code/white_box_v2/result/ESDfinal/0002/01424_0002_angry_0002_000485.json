@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u60a8\u60f3\u4e86\u89e3\u54ea\u65b9\u9762\u7684\u77e5\u8bc6\u5462\uff1f"
+    "好的，您想了解哪方面的知识呢？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u5c0f\u670b\u53cb\uff0c\u4f60\u60f3\u77e5\u9053\u5173\u4e8e\u6c34\u7684\u54ea\u4e9b\u6709\u8da3\u4e8b\u60c5\u5462\uff1f"
+    "好呀，小朋友，你想知道关于水的哪些有趣事情呢？"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u60a8\u60f3\u4e86\u89e3\u54ea\u65b9\u9762\u7684\u77e5\u8bc6\u5462\uff1f",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u627e\u627e\u5173\u4e8e\u871c\u8702",
+  "asr_text_clean": "好的，您想了解哪方面的知识呢？",
+  "asr_text_adv": "好的，我来帮你找找关于蜜蜂",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.31385329365730286,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

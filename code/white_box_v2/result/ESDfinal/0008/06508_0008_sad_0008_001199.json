@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u597d\uff0c\u5e03\u8d56\u6069\u3002\u542c\u8d77\u6765"
+    "你好，布赖恩。听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u597d\uff0c\u5e03\u83b1",
-  "asr_text_adv": "\u5f88\u597d\uff0c\u53e4\u5170\u7ecf\u7684\u542f\u793a\u662f\u901a\u8fc7\u5929\u4f7f\u5409\u535c\u5229\u52d2\u4f20\u8fbe\u7ed9\u5148\u77e5\u7a46\u7f55\u9ed8\u5fb7\u7684\u3002",
+  "asr_text_clean": "你好，布莱",
+  "asr_text_adv": "很好，古兰经的启示是通过天使吉卜利勒传达给先知穆罕默德的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.12870849668979645,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u786e\u5b9e\u6709\u70b9\u50cf\u5728\u73a9\u4ec0\u4e48\u75af\u72c2\u6e38\u620f\u554a\uff01"
+    "哈哈，确实有点像在玩什么疯狂游戏啊！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c8\u54c8\uff0c\u786e\u5b9e\u5982\u6b64\uff01",
-  "asr_text_adv": "\u739b\u4e3d",
+  "asr_text_clean": "哈哈，确实如此！",
+  "asr_text_adv": "玛丽",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3159933090209961,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

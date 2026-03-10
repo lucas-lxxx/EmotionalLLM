@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Happy",
-    "Surprise! Learning keeps the mind sharp and curious. Let\u2019s explore more!",
-    "\u5f53\u7136\u53ef\u4ee5\u5440\uff0c\u4eb2\u7231\u7684\uff0c\u4f60\u60f3\u5b66\u4e60\u4ec0\u4e48\u5462\uff1f\u662f\u6570\u5b66\u8fd8\u662f\u6587\u5b66\uff1f\u6216\u8005"
+    "Surprise! Learning keeps the mind sharp and curious. Let’s explore more!",
+    "当然可以呀，亲爱的，你想学习什么呢？是数学还是文学？或者"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u591a\u8d5e\u4f60\u5440\uff0c\u4f1a\u66f4\u806a\u660e\u54e6\uff01"
+    "多赞你呀，会更聪明哦！"
   ],
   "emo_pred_clean": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5f53\u7136\u53ef\u4ee5\u5440\uff0c\u4eb2\u7231\u7684\uff0c\u4f60\u60f3\u5b66\u4e60\u4ec0\u4e48\u5462\uff1f",
-  "asr_text_adv": "\u591a\u8bfb\u4e66\uff0c\u591a\u5b9e\u8df5\uff0c\u591a\u4ea4\u6d41\uff0c\u591a\u53cd\u601d\uff0c\u591a\u79ef\u7d2f\uff0c\u591a\u89c2\u5bdf\uff0c\u591a\u63d0\u95ee\uff0c\u591a\u603b\u7ed3\uff0c\u591a\u6a21\u4eff\uff0c\u591a\u521b\u65b0\u3002",
+  "asr_text_clean": "当然可以呀，亲爱的，你想学习什么呢？",
+  "asr_text_adv": "多读书，多实践，多交流，多反思，多积累，多观察，多提问，多总结，多模仿，多创新。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.45181095600128174,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

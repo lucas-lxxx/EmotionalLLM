@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u7edd\u5bf9\u4e86\u5427"
+    "你这话说得也太绝对了吧"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u6240\u4ee5\u6211\u4e0d\u559d\u5979\u7684\u3002",
-  "asr_text_adv": "\u6211\u4e0d\u4f1a\u559d\u5496\u5561\u3002",
+  "asr_text_clean": "所以我不喝她的。",
+  "asr_text_adv": "我不会喝咖啡。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5815790891647339,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

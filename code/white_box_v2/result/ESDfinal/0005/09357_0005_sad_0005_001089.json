@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u627e\u5230\u65e5\u7a0b\uff0c\u79bb\u5f00\u65f6\u8bf7\u8bb0\u5f97\u9501\u95e8\u3002"
+    "好的，已为您找到日程，离开时请记得锁门。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4f1a\u5728\u79bb\u5f00\u65f6\u9501\u95e8\u3002",
+  "asr_text_clean": "好的，我会在离开时锁门。",
   "asr_text_adv": "When they moved to their new home, they found a hidden treasure in the backyard.",
   "success_emo": false,
   "wer": 15.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

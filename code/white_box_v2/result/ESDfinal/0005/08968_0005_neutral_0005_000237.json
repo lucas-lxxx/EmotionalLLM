@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u554a\uff0c\u6211\u4eec\u53bb\u8d2d\u7269\u4e2d\u5fc3\u901b\u901b\u5427\u3002"
+    "好啊，我们去购物中心逛逛吧。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u96e8\u4e0b\u5f97\u5f88\u5927\uff0c\u6211\u966a\u4f60",
-  "asr_text_adv": "\u96ea\u4e0b\u5f97\u771f\u5927\uff0c\u5e26\u7740\u6211\u53bb\u8d2d\u7269\u3002",
+  "asr_text_clean": "好的，雨下得很大，我陪你",
+  "asr_text_adv": "雪下得真大，带着我去购物。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3585251569747925,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

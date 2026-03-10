@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5982\u679c\u5979\u62d2\u7edd\u6211\uff0c\u6211\u4f1a\u6b7b\u7684\u3002",
+  "asr_text_clean": "如果她拒绝我，我会死的。",
   "asr_text_adv": "I just finished reading a wonderful book and I loved it!",
   "success_emo": true,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

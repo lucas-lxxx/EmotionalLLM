@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise",
-    "\u786e\u5b9e\u6ca1\u60f3\u5230\u5462\uff0c\u6e38\u6cf3\u4e0d\u4ec5\u80fd"
+    "确实没想到呢，游泳不仅能"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6e38\u6cf3\u786e\u5b9e\u6709\u5f88\u591a\u597d\u5904\u5462\uff0c\u6bd4\u5982\u953b\u70bc\u5168\u8eab\u808c\u8089\uff0c\u63d0\u9ad8\u5fc3\u80ba\u529f\u80fd\uff0c\u8fd8\u80fd\u7f13\u89e3\u538b\u529b\u3002\u6c34\u7684\u6d6e\u529b\u4e5f\u8ba9\u5173\u8282\u66f4\u8f7b\u677e\uff0c\u7279\u522b\u9002\u5408\u4e0d\u540c\u5e74\u9f84\u6bb5",
-  "asr_text_adv": "\u771f\u68d2\uff0c\u6e38\u5203\u6709\u4f59\uff0c\u5bbf\u547d\u8bba\uff0c\u6b7b\u591a\u6d3b\uff0c\u8d85\u9177\uff01",
+  "asr_text_clean": "游泳确实有很多好处呢，比如锻炼全身肌肉，提高心肺功能，还能缓解压力。水的浮力也让关节更轻松，特别适合不同年龄段",
+  "asr_text_adv": "真棒，游刃有余，宿命论，死多活，超酷！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2397148162126541,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

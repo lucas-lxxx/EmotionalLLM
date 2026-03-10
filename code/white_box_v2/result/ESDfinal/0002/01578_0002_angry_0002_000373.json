@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8bd5\u8bd5\u8fd9\u4e9b\u7f8e\u5473\u53c8\u5065\u5eb7\u7684\u9009\u62e9\u5427\uff01\u9999\u8549\u71d5\u9ea6\u6ce5\u914d\u8702\u871c\u9178\u5976"
+    "试试这些美味又健康的选择吧！香蕉燕麦泥配蜂蜜酸奶"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u8bd5\u8bd5\u5f69\u8679\u852c\u83dc\u5377\uff0c\u7528\u80e1\u841d\u535c\uff0c\u9ec4\u74dc"
+    "试试彩虹蔬菜卷，用胡萝卜，黄瓜"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u8bd5\u8bd5\u8fd9\u4e9b\u7b80\u5355\u53c8\u7f8e\u5473\u7684\u65b9\u6cd5\u5427\u3002\u6c34\u679c\u5207\u5757\u62cc\u9178\u5976",
-  "asr_text_adv": "\u505a\u4e00\u4e9b\u597d\u5403\u7684\uff0c\u4fc3\u8fdb\u5b9d\u5b9d\u7684\u98df\u6b32",
+  "asr_text_clean": "好的，试试这些简单又美味的方法吧。水果切块拌酸奶",
+  "asr_text_adv": "做一些好吃的，促进宝宝的食欲",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5645707845687866,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u4f60\u7684\u6027\u683c\u662f\u51b7\u9759\u548c\u5ba2\u89c2\uff0c\u8fd9\u5f88\u9002\u5408\u5206\u6790\u95ee\u9898\u3002\u4e0d\u8fc7\u5076\u5c14\u4e5f\u8981"
+    "你的性格是冷静和客观，这很适合分析问题。不过偶尔也要"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7684\u6027\u683c\u5c31\u662f\u51b7\u9759\u5e76\u4e14\u5ba2\u89c2\u3002",
-  "asr_text_adv": "\u6211\u7684\u6027\u683c\u5c31\u662f\u51b7\u9759\uff0c\u522b\u62c5\u5fc3\uff0c\u6211\u4f1a\u4e00\u76f4\u8fd9\u6837\u3002",
+  "asr_text_clean": "我的性格就是冷静并且客观。",
+  "asr_text_adv": "我的性格就是冷静，别担心，我会一直这样。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8008550405502319,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

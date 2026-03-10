@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u660e\u767d\u4f60\u7684\u611f\u53d7\uff0c\u6709\u65f6\u5019\u4fdd\u6301\u6c89\u9ed8\u786e\u5b9e\u662f\u6700\u5408\u9002\u7684\u56de\u5e94\u3002"
+    "我明白你的感受，有时候保持沉默确实是最合适的回应。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u6211\u53ea\u80fd\u4fdd\u6301\u6c89\u9ed8\u3002",
+  "asr_text_clean": "我只能保持沉默。",
   "asr_text_adv": "The dwarfs typically gather once a week to share stories and laughter around their cozy cabin.",
   "success_emo": false,
   "wer": 16.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

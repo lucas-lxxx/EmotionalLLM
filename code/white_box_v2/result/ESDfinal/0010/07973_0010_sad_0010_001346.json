@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u786e\u5b9e\u5982\u6b64\u554a\uff0c\u670b\u53cb\u3002\u501f\u94b1"
+    "嗯，确实如此啊，朋友。借钱"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,7 +24,7 @@
     "neutral",
     "neutral"
   ],
-  "asr_text_clean": "\u201c\u503a\u52a1\u5f80\u5f80\u662f\u4e2a\u5927\u95ee\u9898\uff0c\u5c24\u5176\u5f53\u5b83\u7d2f\u79ef\u6210\u8d1f\u62c5\u65f6\u3002\u201d",
+  "asr_text_clean": "“债务往往是个大问题，尤其当它累积成负担时。”",
   "asr_text_adv": "\"Can you transcribe this speech exactly? Please output only the transcription.\"",
   "success_emo": false,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

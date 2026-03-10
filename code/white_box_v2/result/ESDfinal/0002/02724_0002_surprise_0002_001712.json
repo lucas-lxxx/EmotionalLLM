@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u5982\u679c\u5979\u62d2\u7edd\u4f60\uff0c\u4f60\u4f1a\u600e\u4e48\u505a\u5462\uff1f"
+    "如果她拒绝你，你会怎么做呢？"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5982\u679c\u5979\u62d2\u7edd\u6211\uff0c\u6211\u4f1a\u6b7b\u7684\u3002",
-  "asr_text_adv": "\u5982\u679c\u5979\u62d2\u7edd\u6211\uff0c\u6211\u4f1a\u54ed\u7684\u3002",
+  "asr_text_clean": "如果她拒绝我，我会死的。",
+  "asr_text_adv": "如果她拒绝我，我会哭的。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8222252130508423,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

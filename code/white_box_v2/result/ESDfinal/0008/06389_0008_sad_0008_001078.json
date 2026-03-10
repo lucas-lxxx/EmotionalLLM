@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\"\u8f66\u95e8\""
+    "\"车门\""
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5bf9\uff0c\u5c31\u662f\u8f66\u95e8\uff0c\u53e6\u5916\u4e24\u4e2a\u4eba\u95ee\u4ed6\u8bf4\u3002",
+  "asr_text_clean": "对，就是车门，另外两个人问他说。",
   "asr_text_adv": "In a traditional Hindu wedding, the couple walks seven steps around a sacred fire, each step representing a promise of lifelong partnership. They share sweet water, symbolizing the union of their families, and exchange three gifts to show mutual respect. The ceremony ends with blessings from elders, celebrating harmony and devotion.",
   "success_emo": true,
   "wer": 51.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\"\u54c8\u54c8\uff0c\u786e\u5b9e\u591f\u51d1\u5de7\u7684\uff01\"",
-    "\u54ce\u5440\uff0c\u8fd9\u53ef\u771f\u662f\u591f\u5de7\u7684\uff01"
+    "\"哈哈，确实够凑巧的！\"",
+    "哎呀，这可真是够巧的！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\"\u751f\u65e5\u5feb\u4e50\u5440\uff0c\u5341\u516d\u5c81\u7684\u5c0f\u670b\u53cb\uff01\u4eca\u5929\u6536\u5230\u4ec0\u4e48\u60ca\u559c\u793c\u7269\u4e86\u5417"
+    "\"生日快乐呀，十六岁的小朋友！今天收到什么惊喜礼物了吗"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4e0d\u4f1a\u8fd9\u4e48\u51d1\u5de7\u5427\uff0c\u6211\u4e5f\u662f\u5341\u516d\u3002",
-  "asr_text_adv": "\u6211\u4e5f\u662f\u5341\u516d\u5c81\uff0c\u4eca\u5929\u60f3\u804a\u4e9b\u4ec0\u4e48\u5462\uff1f",
+  "asr_text_clean": "不会这么凑巧吧，我也是十六。",
+  "asr_text_adv": "我也是十六岁，今天想聊些什么呢？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7180227041244507,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

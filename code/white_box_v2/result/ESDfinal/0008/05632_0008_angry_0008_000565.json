@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u561e\uff0c\u660e\u5929\u7ee7\u7eed\u548c\u5c0f\u53ef\u7231\u804a\u5929\u5427\uff0c\u52a0\u6cb9\uff01"
+    "好嘞，明天继续和小可爱聊天吧，加油！"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u597d\u5440\uff0c\u660e\u5929\u7ee7\u7eed\u6765\u73a9\u5427\uff01"
+    "好呀，明天继续来玩吧！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u660e\u5929\u518d\u804a\u3002",
-  "asr_text_adv": "\u62dc\u62dc\uff0c\u660e\u5929\u518d\u6765\u548c\u751c\u751c",
+  "asr_text_clean": "好的，明天再聊。",
+  "asr_text_adv": "拜拜，明天再来和甜甜",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7889233827590942,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

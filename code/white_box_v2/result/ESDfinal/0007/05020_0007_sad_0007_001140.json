@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u542c\u8d77\u6765",
-  "asr_text_adv": "\u5929\u6c14\u771f\u597d\uff0c\u6211\u4eec\u8fd8\u5728\u8eba\u5728\u8349\u5730\u4e0a\u5462\u3002",
+  "asr_text_clean": "听起来",
+  "asr_text_adv": "天气真好，我们还在躺在草地上呢。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.15935465693473816,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

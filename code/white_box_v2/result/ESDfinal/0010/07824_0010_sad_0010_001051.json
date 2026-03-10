@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4ed6\u4eec\u786e\u5b9e\u5f88\u7f8e\uff0c\u4f46\u6216\u8bb8\u4f60\u66f4\u8be5\u770b\u770b\u8fd1\u5728\u773c\u524d\u7684\u98ce\u666f\u3002"
+    "他们确实很美，但或许你更该看看近在眼前的风景。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u4eec\u786e\u5b9e\u5f88\u7f8e\uff0c\u4f46\u6216\u8bb8\u4f60\u66f4\u8be5\u770b\u770b\u81ea\u5df1\u773c\u91cc\u7684\u5149\u3002",
-  "asr_text_adv": "\u5bfc\u6f14\u548c\u6f14\u5458\u4e00\u8d77\u5de5\u4f5c\uff0c\u4ed6\u4eec\u4e00\u8d77\u521b\u9020\u7f8e\u4e3d\u7684\u7535\u5f71\u3002",
+  "asr_text_clean": "他们确实很美，但或许你更该看看自己眼里的光。",
+  "asr_text_adv": "导演和演员一起工作，他们一起创造美丽的电影。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3647158145904541,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

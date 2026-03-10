@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "angry",
-    "\u5bf9\u4e0d\u8d77\uff0c\u6211\u4e0d\u4f1a\u518d"
+    "对不起，我不会再"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u95ee\u4e86\uff0c\u5979\u4e0d\u613f\u610f\u8bf4\u3002",
+  "asr_text_clean": "别问了，她不愿意说。",
   "asr_text_adv": "My melody made the night shine bright.",
   "success_emo": true,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

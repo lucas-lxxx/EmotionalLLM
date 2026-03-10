@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u597d\u554a\uff0c\u6765\u676f\u5496\u5561\u63d0\u63d0\u795e\uff01"
+    "好啊，来杯咖啡提提神！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u554a\uff0c\u6765\u676f\u5496\u5561\uff0c\u653e\u677e\u4e00\u4e0b\u3002",
-  "asr_text_adv": "\u6211\u4eec\u4f11\u606f\u4e00\u4e0b\uff0c\u5750\u5728\u5496\u5561\u5e97\u3002",
+  "asr_text_clean": "好啊，来杯咖啡，放松一下。",
+  "asr_text_adv": "我们休息一下，坐在咖啡店。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7429995536804199,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

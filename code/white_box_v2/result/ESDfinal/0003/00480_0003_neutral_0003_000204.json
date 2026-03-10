@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise",
-    "\u54c8\u54c8\uff0c\u6211\u6628\u5929\u521a\u4e70\u4e86\u4e00\u4ef6\u8863\u670d\uff0c\u770b\u6765\u4f60\u4e5f\u559c\u6b22\u901b\u8857"
+    "哈哈，我昨天刚买了一件衣服，看来你也喜欢逛街"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6628\u5929\u624d\u4e70\u8863\u670d\u554a\uff0c\u786e\u5b9e\u6709\u70b9\u51b2\u52a8\u5462\u3002",
-  "asr_text_adv": "\u7c73\u6628\u5929\u4e70\u8863\u670d\u4e86\uff0c\u5979\u53ef\u771f\u8d2d\u7269\u72c2\u3002",
+  "asr_text_clean": "昨天才买衣服啊，确实有点冲动呢。",
+  "asr_text_adv": "米昨天买衣服了，她可真购物狂。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.744284987449646,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

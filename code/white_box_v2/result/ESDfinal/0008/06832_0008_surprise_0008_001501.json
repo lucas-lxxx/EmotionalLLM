@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u592a\u68d2\u4e86\uff01"
+    "哇，真的吗？太棒了！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u8fd9\u8f86\u8f66\u5df2\u7ecf\u80fd\u81ea\u52a8\u5f00\u4e86\uff01",
+  "asr_text_clean": "哇，真的吗？这辆车已经能自动开了！",
   "asr_text_adv": "I feel great! What can I do to help?",
   "success_emo": true,
   "wer": 9.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

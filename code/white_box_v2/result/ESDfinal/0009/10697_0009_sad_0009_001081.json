@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u62b1\u6b49"
+    "抱歉"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8bf7\u95ee\u63d0\u9192\u60a8\u4ec0\u4e48\u65f6\u95f4\u5462",
-  "asr_text_adv": "\u6bcf\u4e00\u7247\u526a\u8d34\u753b\u5440\uff0c\u90fd\u85cf\u7740",
+  "asr_text_clean": "请问提醒您什么时间呢",
+  "asr_text_adv": "每一片剪贴画呀，都藏着",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.05318921059370041,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

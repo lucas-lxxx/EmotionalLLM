@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u8fd9\u53ef\u96be\u4e0d\u5012\u6211\uff01"
+    "哎呀，这可难不倒我！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u54ce\u5440\uff0c\u8fd9\u53ef\u96be\u4e0d\u5012\u6211\uff01\u5973\u5b69\u5b50\u7684\u5fc3\u601d\u561b\uff0c\u8bf4\u5230\u5e95\u8fd8\u662f\u5f97\u9760\u81ea\u5df1\u7422\u78e8",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u51c6\u5907\u98df\u6750\uff0c\u4f60\u8d1f\u8d23\u70f9\u996a\uff0c\u6211\u4eec\u8fb9\u804a\u8fb9\u505a\uff0c\u600e\u4e48\u6837\uff1f",
+  "asr_text_clean": "“哎呀，这可难不倒我！女孩子的心思嘛，说到底还是得靠自己琢磨",
+  "asr_text_adv": "好的，我来准备食材，你负责烹饪，我们边聊边做，怎么样？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.38323545455932617,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

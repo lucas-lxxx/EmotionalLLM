@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u53ef\u4ee5\u8bd5\u8bd5\u628a\u80e1\u841d\u535c\u5207\u6210\u5c0f\u661f\u661f\uff0c\u897f\u5170\u82b1"
+    "可以试试把胡萝卜切成小星星，西兰花"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u53ef\u4ee5\u8bd5\u8bd5\u628a\u80e1\u841d\u535c\u5207\u6210\u5c0f\u661f\u661f\uff0c\u897f\u5170\u82b1",
-  "asr_text_adv": "\u716e\u597d\u4e86\uff0c\u5b9d\u5b9d\u4f1a\u597d\u8d77\u6765\u7684\u3002",
+  "asr_text_clean": "可以试试把胡萝卜切成小星星，西兰花",
+  "asr_text_adv": "煮好了，宝宝会好起来的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.32322070002555847,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

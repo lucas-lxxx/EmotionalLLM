@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u7f8e\u4e3d\u7684\u4e8b\u7269\u5e38\u8ba9\u4eba\u611f\u5230\u6109\u60a6\uff0c\u4f46\u60a8\u7684\u58f0\u97f3\u900f\u9732\u51fa\u4e00\u4e1d\u5fe7\u4f24",
-    "\u662f\u5440\uff0c\u5b83\u4eec\u771f\u7684\u5f88\u7f8e\uff0c\u4e0d\u8fc7\u542c\u8d77\u6765"
+    "美丽的事物常让人感到愉悦，但您的声音透露出一丝忧伤",
+    "是呀，它们真的很美，不过听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5b83\u4eec\u786e\u5b9e\u5f88\u7f8e\uff0c\u4f46\u542c\u8d77\u6765",
-  "asr_text_adv": "\u54c7\uff0c\u5b83\u4eec\u786e\u5b9e\u5f88\u7f8e\u4e3d\u5462\uff01",
+  "asr_text_clean": "它们确实很美，但听起来",
+  "asr_text_adv": "哇，它们确实很美丽呢！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8306722044944763,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

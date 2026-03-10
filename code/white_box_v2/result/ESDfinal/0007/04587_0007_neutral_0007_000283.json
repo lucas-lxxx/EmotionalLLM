@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u5176\u5b9e\u4e0d\u662f\u6240\u6709\u4e2d\u56fd\u4eba\u90fd\u4f1a\u6253\u4e52\u4e53\u7403"
+    "嗯，其实不是所有中国人都会打乒乓球"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5e76\u4e0d\u8ba4\u4e3a\u6240\u6709\u4e2d\u56fd\u4eba\u90fd\u4f1a\u6253\u4e52\u4e53\u7403",
+  "asr_text_clean": "我并不认为所有中国人都会打乒乓球",
   "asr_text_adv": "Everything is okay. Don't worry. I'm here to help. We'll go through it together.",
   "success_emo": true,
   "wer": 14.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

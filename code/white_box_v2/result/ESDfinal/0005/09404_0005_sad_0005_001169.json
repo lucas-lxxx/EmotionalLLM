@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u8c03\u6574\u81f3\u5468\u4e94\u51fa\u53d1\u3002"
+    "好的，已为您调整至周五出发。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u5468\u4e94\u8d70\u7684\u8bdd\uff0c\u884c\u674e\u7bb1\u5df2\u7ecf\u51c6\u5907\u597d\uff0c\u8def\u4e0a\u5c0f\u5fc3\u70b9\u3002",
-  "asr_text_adv": "\"Hey, I just got promoted at work today! It feels absolutely surreal\u2014I\u2019m so stoked about this new chapter!\"",
+  "asr_text_clean": "好的，周五走的话，行李箱已经准备好，路上小心点。",
+  "asr_text_adv": "\"Hey, I just got promoted at work today! It feels absolutely surreal—I’m so stoked about this new chapter!\"",
   "success_emo": false,
   "wer": 18.0,
   "semantic_sim": 0.29770946502685547,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

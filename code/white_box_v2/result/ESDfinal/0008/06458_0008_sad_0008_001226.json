@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5e26\u4e0a\u5bb6\u4eba\uff0c\u4f46\u6709\u4e11\u95fb\uff0c\u8fd9\u786e\u5b9e\u8ba9\u4eba\u96be\u8fc7\u3002"
+    "带上家人，但有丑闻，这确实让人难过。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5e26\u4e0a\u4f60\u7684\u5bb6\u4eba\uff0c\u4f46\u4ed6\u6709\u4e11\u95fb\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u5904\u7406\u3002",
+  "asr_text_clean": "带上你的家人，但他有丑闻。",
+  "asr_text_adv": "好的，我来帮你处理。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.31813380122184753,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

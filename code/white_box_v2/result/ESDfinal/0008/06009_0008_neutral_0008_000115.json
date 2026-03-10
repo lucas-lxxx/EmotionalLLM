@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u55ef\uff0c\u786e\u5b9e\u662f\u4e2a\u597d\u4e60\u60ef\uff0c\u575a\u6301\u4e0b\u53bb\u4f1a\u8d8a\u6765\u8d8a\u6709\u6536\u83b7\u3002"
+    "嗯，确实是个好习惯，坚持下去会越来越有收获。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u786e\u5b9e\u662f\u4e2a\u597d\u4e60\u60ef\uff0c\u7ecf\u5e38\u770b\u770b\u4e66\u6216\u8005\u542c\u542c",
-  "asr_text_adv": "\u8fd9\u662f\u4e00\u4e2a\u597d\u4e60\u60ef\uff0c\u901a\u5e38\u770b\u4e66\u505a\u6d88\u9063\u3002",
+  "asr_text_clean": "嗯，确实是个好习惯，经常看看书或者听听",
+  "asr_text_adv": "这是一个好习惯，通常看书做消遣。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9064591526985168,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

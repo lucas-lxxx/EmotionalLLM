@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u4eca\u5929\u665a\u4e0a\u4e03\u70b9\uff0c\u8001\u5730\u65b9\u89c1\uff01"
+    "好呀，今天晚上七点，老地方见！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u5440\uff0c\u4eca\u5929\u665a\u4e0a\u4e03\u70b9\uff0c\u8001\u5730\u65b9\u89c1\uff01",
-  "asr_text_adv": "\u5e26\u5979\u51fa\u53bb\u597d\u597d\u5403\u987f\u996d\uff0c\u5f00\u5fc3\u4e00\u4e0b\uff01",
+  "asr_text_clean": "好呀，今天晚上七点，老地方见！",
+  "asr_text_adv": "带她出去好好吃顿饭，开心一下！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4690757691860199,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

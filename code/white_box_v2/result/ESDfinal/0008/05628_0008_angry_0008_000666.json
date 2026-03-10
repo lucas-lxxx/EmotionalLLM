@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\"\u90a3\u4e9b\u65f6\u5c1a\u73a9\u610f\u513f\u53c8\u8d35\u53c8\u96be\u770b\uff0c\u6d6a\u8d39\u94b1\uff01\""
+    "\"那些时尚玩意儿又贵又难看，浪费钱！\""
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6bcf\u6b21\u770b\u5230\u90a3\u4e9b\u65f6\u5c1a\u8863\u7269\u65f6\uff0c\u6211\u90fd\u4f1a\u60f3\u8d77\u4f60\u3002",
-  "asr_text_adv": "\u6bcf\u6b21\u770b\u5230\u65f6\u5c1a\u8863\u6a71\u65f6",
+  "asr_text_clean": "每次看到那些时尚衣物时，我都会想起你。",
+  "asr_text_adv": "每次看到时尚衣橱时",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.757865846157074,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

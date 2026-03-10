@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6ca1\u4e8b\u7684\uff0c\u6211\u5728\u8fd9\u513f\u5462\u3002"
+    "没事的，我在这儿呢。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0b\u5348\u597d\uff0c\u8482\u5a1c\u3002\u542c\u8d77\u6765",
-  "asr_text_adv": "\u6211\u6d17\u5b8c\u6fa1\u540e\uff0c\u53d1\u73b0\u8863\u670d\u90fd\u6ca1\u6536\u597d\uff0c\u6025\u5f97\u50cf\u706b\u70e7",
+  "asr_text_clean": "下午好，蒂娜。听起来",
+  "asr_text_adv": "我洗完澡后，发现衣服都没收好，急得像火烧",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.12330936640501022,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

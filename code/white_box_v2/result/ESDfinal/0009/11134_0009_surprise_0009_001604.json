@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u4f60\u6628\u5929\u4e70\u7684\u8863\u670d\u4e00\u5b9a\u5f88\u7279\u522b\u5427\uff01"
+    "哇，真的吗？你昨天买的衣服一定很特别吧！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u6628\u5929\u624d\u4e70\u7684\u8863\u670d\uff0c\u600e\u4e48\u4eca\u5929\u5c31\u7a7f\u51fa\u6765\u4e86\uff1f\u8fd9\u4e5f\u592a\u5938\u5f20\u4e86\u5427\uff01",
-  "asr_text_adv": "\u4eca\u5929\u548c\u670b\u53cb\u4eec\u4e00\u8d77\u73a9\u5f97\u5f88\u5f00\u5fc3\u5462\uff0c\u611f\u89c9\u771f\u68d2\uff01",
+  "asr_text_clean": "你昨天才买的衣服，怎么今天就穿出来了？这也太夸张了吧！",
+  "asr_text_adv": "今天和朋友们一起玩得很开心呢，感觉真棒！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.37860482931137085,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

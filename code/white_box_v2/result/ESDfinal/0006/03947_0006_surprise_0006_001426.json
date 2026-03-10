@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u8fd9\u4e8b\u513f\u786e\u5b9e\u591f\u8ba9\u4eba\u5403\u60ca"
+    "哦，这事儿确实够让人吃惊"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u662f\u7684\uff0c\u4ed6\u5f88\u72e1",
-  "asr_text_adv": "\u5979\u786e\u5b9e\u5f88\u72e1",
+  "asr_text_clean": "是的，他很狡",
+  "asr_text_adv": "她确实很狡",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5215753316879272,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

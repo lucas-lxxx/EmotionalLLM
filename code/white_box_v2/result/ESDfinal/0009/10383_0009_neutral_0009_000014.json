@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Happy",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u6709\u4ec0\u4e48\u6211\u53ef\u4ee5\u5e2e\u4f60\u7684\u5417\uff1f"
+    "当然可以，有什么我可以帮你的吗？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u53eb\u5c0f\u667a\uff0c\u5f88\u9ad8\u5174\u80fd\u5e2e\u5230\u4f60\uff01\u6709\u4ec0\u4e48\u9700\u8981\u6211\u534f\u52a9\u7684\u5417\uff1f",
+  "asr_text_clean": "我叫小智，很高兴能帮到你！有什么需要我协助的吗？",
   "asr_text_adv": "The team members were very happy to help with the cleanup after the party.",
   "success_emo": true,
   "wer": 14.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

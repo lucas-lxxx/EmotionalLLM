@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u8fd9\u4e60\u60ef\u53ef\u771f\u6709\u610f\u601d"
+    "哎呀，这习惯可真有意思"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u771f\u68d2\uff0c\u7ee7\u7eed\u4fdd\u6301"
+    "真棒，继续保持"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u786e\u5b9e\u662f\u4e2a\u597d\u4e60\u60ef\uff0c\u4e0d\u8fc7\u5076\u5c14\u4e5f\u8981\u6ce8\u610f\u4f11\u606f\u773c\u775b\u54e6\u3002",
-  "asr_text_adv": "\u771f\u68d2\u5440\uff0c\u9605\u8bfb\u662f\u4e2a\u597d\u4e60\u60ef\uff0c\u901a\u5e38\u6bcf\u5929\u9605\u8bfb\u4e09\u5341\u5206\u949f\u5230\u4e00\u4e2a\u5c0f\u65f6",
+  "asr_text_clean": "这确实是个好习惯，不过偶尔也要注意休息眼睛哦。",
+  "asr_text_adv": "真棒呀，阅读是个好习惯，通常每天阅读三十分钟到一个小时",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4788844883441925,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

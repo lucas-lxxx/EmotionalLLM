@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Happy",
-    "\u6f02\u6e38\u4e09\u5ce1\u786e\u5b9e\u5f88\u523a\u6fc0\u5462\uff0c\u4f60\u4eec\u73a9\u5f97\u5f00\u5fc3\u5417\uff1f"
+    "漂游三峡确实很刺激呢，你们玩得开心吗？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u4e58\u8239\u6f02\u8fc7\u4e86\u4e09\u5ce1",
+  "asr_text_clean": "我们乘船漂过了三峡",
   "asr_text_adv": "I followed some inspiring designers like Bees & Me for the spring summer collection.",
   "success_emo": true,
   "wer": 14.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

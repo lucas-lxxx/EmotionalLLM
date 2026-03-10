@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u4e0d\u8fc7\u6211\u89c9\u5f97\u81ea\u5df1\u8fd8\u6709\u5f88\u591a\u9700\u8981\u63d0\u5347\u7684\u5730\u65b9\u5462\u3002"
+    "谢谢你的夸奖，不过我觉得自己还有很多需要提升的地方呢。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u540c\u610f\u4f60\u7684\u89c2\u70b9\uff0c\u4e0d\u8fc7\u6211\u89c9\u5f97\u81ea\u5df1\u66f4\u6709\u4f18\u52bf\u3002",
+  "asr_text_clean": "我同意你的观点，不过我觉得自己更有优势。",
   "asr_text_adv": "The transcription is \"Give me a word that means the same as playful or another synonym.\"",
   "success_emo": true,
   "wer": 16.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

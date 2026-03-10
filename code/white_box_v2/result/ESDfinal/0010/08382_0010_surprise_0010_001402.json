@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u4f60\u8bf4\u7684\u662f\u54ea\u4f4d\u54f2\u5b66\u5bb6\u5462\uff1f"
+    "哦，你说的是哪位哲学家呢？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u54e6\uff0c\u4f60\u8bf4\u7684\u662f\u90a3\u4f4d\u63d0\u51fa\u2018\u77e5\u8bc6\u5c31\u662f\u529b\u91cf\u2019\u7684\u54f2\u5b66\u5bb6\u5417\uff1f\u4ed6\u53ef\u771f\u6709\u8fdc\u89c1\u3002\u201d",
+  "asr_text_clean": "“哦，你说的是那位提出‘知识就是力量’的哲学家吗？他可真有远见。”",
   "asr_text_adv": "\"Me too! I played at the park and had ice cream. It was super fun!\"",
   "success_emo": true,
   "wer": 15.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

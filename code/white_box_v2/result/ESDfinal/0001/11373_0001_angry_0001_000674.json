@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4e2d\u9910\u5f88\u7f8e\u5473\u5462\uff0c\u9700\u8981\u6211\u4e3a\u60a8\u63a8\u8350\u51e0\u5bb6\u9910\u5385\u5417\uff1f"
+    "中餐很美味呢，需要我为您推荐几家餐厅吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6700\u559c\u6b22\u5403\u4e2d\u9910",
-  "asr_text_adv": "\u6211\u559c\u6b22\u53bb\u4e2d\u5c71\u3002",
+  "asr_text_clean": "我最喜欢吃中餐",
+  "asr_text_adv": "我喜欢去中山。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5941863059997559,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

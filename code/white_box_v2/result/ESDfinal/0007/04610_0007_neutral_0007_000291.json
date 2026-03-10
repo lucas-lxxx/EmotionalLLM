@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Happy",
-    "\u662f\u5440\uff0c\u6cd5\u56fd\u5357\u90e8\u9633\u5149\u660e\u5a9a"
+    "是呀，法国南部阳光明媚"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5728\u6cd5\u56fd\u5357\u90e8\uff0c\u6c14\u5019\u5e38\u5e74\u8212\u9002\u5b9c\u4eba\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u8fd9\u6bb5\u8bed\u97f3\uff1a\u5728\u767e\u4ee3\u5357\u90e8\uff0c\u805a\u96c6\u7684\u597d\u5973\u4eba\u5145\u6ee1\u4e86\u9c7c\u7fa4\u3002",
+  "asr_text_clean": "在法国南部，气候常年舒适宜人。",
+  "asr_text_adv": "好的，我来转录这段语音：在百代南部，聚集的好女人充满了鱼群。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.09818379580974579,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

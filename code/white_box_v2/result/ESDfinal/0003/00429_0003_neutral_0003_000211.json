@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u517b\u82b1\u786e\u5b9e\u9700\u8981\u5f88\u591a\u8010\u5fc3\u5462\uff0c\u8981\u4e0d\u8981\u8bd5\u8bd5\u5176\u4ed6\u8f7b\u677e\u7684\u690d\u7269\uff1f",
-  "asr_text_adv": "\u6211\u5bf9\u517b\u82b1\u5df2\u7ecf\u4e0a\u763e\u4e86\u3002",
+  "asr_text_clean": "养花确实需要很多耐心呢，要不要试试其他轻松的植物？",
+  "asr_text_adv": "我对养花已经上瘾了。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5546331405639648,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

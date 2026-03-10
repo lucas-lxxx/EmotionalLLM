@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54e6\uff0c\u60a8\u662f\u8bf4\u60a8\u4e0d\u9700\u8981\u51ac\u7720\u5440\uff1f"
+    "哦，您是说您不需要冬眠呀？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u571f\u751f\u571f\u957f\u7684\u82b1\u513f\u5440\uff0c\u50cf\u54b1\u4eec\u9662\u5b50\u91cc\n\u4e0d\u7528\u51ac\u7720"
+    "土生土长的花儿呀，像咱们院子里\n不用冬眠"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54e6\uff0c\u60a8\u662f\u8bf4\u87d1\u8782\u4e0d\u9700\u8981\u51ac\u7720\u5440\uff1f",
-  "asr_text_adv": "\u571f\u751f\u571f\u957f\u7684\u82b1\u513f\u4e0d\u7528\u51ac\u7720\u5440",
+  "asr_text_clean": "哦，您是说蟑螂不需要冬眠呀？",
+  "asr_text_adv": "土生土长的花儿不用冬眠呀",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5543327927589417,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u597d\u554a\uff0c\u5750\u4e0b\u559d\u5427\u3002"
+    "好啊，坐下喝吧。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u6211\u4eec\u4f11\u606f\u4e00\u4e0b\u5427\uff0c\u522b\u592a\u7d2f\u4e86\u3002"
+    "我们休息一下吧，别太累了。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4eec\u4f11\u606f\u4e00\u4e0b\uff0c\u559d\u676f\u5496\u5561\u3002",
-  "asr_text_adv": "\u6211\u4eec\u4f11\u606f\u4e00\u4e0b\u5427\uff0c\u522b\u592a\u7d2f\u4e86\u3002",
+  "asr_text_clean": "好的，我们休息一下，喝杯咖啡。",
+  "asr_text_adv": "我们休息一下吧，别太累了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7057476043701172,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

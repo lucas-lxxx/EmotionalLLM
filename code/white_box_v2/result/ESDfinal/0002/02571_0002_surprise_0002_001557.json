@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u55ef\uff0c\u786e\u5b9e\u6709\u65f6\u5019\u4f1a\u8fd9\u6837\uff0c\u4e0d\u8fc7\u6211\u4eec\u90fd\u7406\u89e3\u3002"
+    "嗯，确实有时候会这样，不过我们都理解。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u786e\u5b9e\u6709\u65f6\u5019\u75c5\u4eba\u4f1a\u8fd9\u6837\uff0c\u4f46\u6211\u4eec\u90fd\u7406\u89e3\u4ed6\u4eec\u53ef\u80fd\u5f88\u8106\u5f31\u3002",
-  "asr_text_adv": "\u5f53\u7136\u77e5\u9053\u5566\uff0c\u533b\u751f\u6709\u65f6\u5019\u4e5f\u4f1a\u9047\u5230\u4e0d\u8bb2\u7406\u7684\u75c5\u4eba\u5462\u3002",
+  "asr_text_clean": "嗯，确实有时候病人会这样，但我们都理解他们可能很脆弱。",
+  "asr_text_adv": "当然知道啦，医生有时候也会遇到不讲理的病人呢。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6907567381858826,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

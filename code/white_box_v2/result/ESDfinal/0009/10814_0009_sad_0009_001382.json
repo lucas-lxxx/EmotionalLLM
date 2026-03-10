@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u4e3a\u60a8\u51c6\u5907\u65b0\u6b3e"
+    "好的，我这就为您准备新款"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u4e3a\u60a8\u51c6\u5907\u65b0\u6b3e",
-  "asr_text_adv": "\u6211\u8fd8\u4f1a\u5411\u7ebd\u7ea6\u7684\u6bcf\u4e00\u5bb6\u51b0\u6fc0\u51cc\u5e97\u6295\u4e0b\u6211\u7684\u4e00\u7f8e\u5143\u786c\u5e01\u3002",
+  "asr_text_clean": "好的，我这就为您准备新款",
+  "asr_text_adv": "我还会向纽约的每一家冰激凌店投下我的一美元硬币。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.36800259351730347,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u60a8\u7684\u8bf7\u6c42\u5df2\u53d7\u7406\uff0c\u6b63\u5728\u4e3a\u60a8\u5904\u7406\uff0c\u8bf7\u60a8\u7a0d\u7b49\u7247\u523b\u3002",
-    "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u5904\u7406\u9000\u6b3e"
+    "您的请求已受理，正在为您处理，请您稍等片刻。",
+    "好的，正在为您处理退款"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u5c06\u4e3a\u60a8\u5904\u7406\u9000\u6b3e",
+  "asr_text_clean": "好的，我将为您处理退款",
   "asr_text_adv": "The red rocks are cool because they have big cliffs and canyons made by nature over millions of years. They also have special places like the Grand Canyon where you can see amazing views and learn about Earths history.",
   "success_emo": false,
   "wer": 39.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u6765\u8be6\u7ec6\u8bf4\u660e\u3002"
+    "好的，我来详细说明。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u518d\u6b21\u76f8\u9047\u771f\u5f00\u5fc3\uff01"
+    "哈哈，再次相遇真开心！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u8bf7\u544a\u8bc9\u6211\u5177\u4f53\u9700\u8981\u8be6\u7ec6\u8bf4\u660e\u7684\u5185\u5bb9\u3002",
-  "asr_text_adv": "\u8c22\u8c22\uff0c\u5f88\u9ad8\u5174\u80fd\u5728\u8fd9\u91cc\u76f8\u9047\uff0c\u6211\u4eec\u4e0b\u6b21\u518d\u4f1a\u3002",
+  "asr_text_clean": "好的，请告诉我具体需要详细说明的内容。",
+  "asr_text_adv": "谢谢，很高兴能在这里相遇，我们下次再会。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.33064234256744385,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

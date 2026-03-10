@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6700\u521d\u6211\u7684\u5de5\u4f5c\u662f\u5f53\u4e00\u540d\u4f63\u4eba\uff0c\u751f\u6d3b\u5f88\u8f9b\u82e6\uff0c\u4f46\u540e\u6765\u6211"
+    "最初我的工作是当一名佣人，生活很辛苦，但后来我"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "neutral"
   ],
-  "asr_text_clean": "\u6700\u521d\u6211\u7684\u5de5\u4f5c\u662f\u5f53\u4e00\u540d\u4f63\u4eba\u3002",
-  "asr_text_adv": "\u6211\u7684\u5de5\u4f5c\u5ba4\u6709\u90a6\u5c3c\u732b\u548c\u5c24\u5170\u82b1",
+  "asr_text_clean": "最初我的工作是当一名佣人。",
+  "asr_text_adv": "我的工作室有邦尼猫和尤兰花",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2737709581851959,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

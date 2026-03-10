@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u55d3\u95e8\u542c\u7740\u6bd4\u97f3\u4e50\u8fd8\u6fc0\u52a8\u5462\uff01\u5f53\u7136\u5f97\u914d\u4e0a"
+    "你这嗓门听着比音乐还激动呢！当然得配上"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\uff0c\u6211\u7b80\u76f4\u79bb\u4e0d\u5f00\u97f3\u4e50\u3002",
-  "asr_text_adv": "\u5f53\u7136\u5566\uff0c\u97f3\u4e50\u4e00\u54cd\u8d77\u6765\u6211\u5c31\u5fcd\u4e0d\u4f4f\u8ddf\u7740\u54fc\u5531\uff0c\u6574\u4e2a\u4eba\u90fd\u8f7b\u677e\u4e86\u5462\u3002",
+  "asr_text_clean": "当然，我简直离不开音乐。",
+  "asr_text_adv": "当然啦，音乐一响起来我就忍不住跟着哼唱，整个人都轻松了呢。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7400398254394531,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

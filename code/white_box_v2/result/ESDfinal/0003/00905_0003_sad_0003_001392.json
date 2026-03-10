@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u522b\u96be\u8fc7\uff0c\u670b\u53cb\uff0c\u6211\u80fd\u7406\u89e3\u4f60\u7684\u5904\u5883"
+    "别难过，朋友，我能理解你的处境"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7f3a\u94b1\u7528\uff0c\u6240\u4ee5\u4e0a\u661f\u671f\u628a\u5b83\u5f53\u4e86\u3002",
-  "asr_text_adv": "\u968f\u5c71\u800c\u6765\u7684\u6eaa\u6d41\uff0c\u767e\u9053\u7011\u5e03\uff0c\u6f02\u6d41",
+  "asr_text_clean": "我缺钱用，所以上星期把它当了。",
+  "asr_text_adv": "随山而来的溪流，百道瀑布，漂流",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.0198289155960083,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

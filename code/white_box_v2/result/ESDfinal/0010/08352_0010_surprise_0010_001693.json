@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\"\u54c7\uff0c\u4f60\u5c45\u7136\u76ef\u7740\u5c4f\u5e55\u770b\u4e86\u8fd9\u4e48\u4e45"
+    "\"哇，你居然盯着屏幕看了这么久"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u4f60\u770b\u5230\u5c4f\u5e55\u663e\u793a\u4e86\uff1f",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u8f6c\u5f55\u8bed\u97f3\u3002",
+  "asr_text_clean": "哎呀，你看到屏幕显示了？",
+  "asr_text_adv": "好的，正在为您转录语音。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.43591877818107605,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\uff0c\u522b\u592a\u5f80\u5fc3\u91cc\u53bb\u3002"
+    "哎，别太往心里去。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,7 +24,7 @@
     "happy",
     "neutral"
   ],
-  "asr_text_clean": "\u542c\u8d77\u6765",
+  "asr_text_clean": "听起来",
   "asr_text_adv": "I enjoy dining on corn and milkshakes.",
   "success_emo": false,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

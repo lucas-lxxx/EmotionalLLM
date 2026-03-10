@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u91cd\u65b0\u5bfb\u627e\u97f3\u4e50\u64ad\u653e\u5668\u3002"
+    "好的，正在为您重新寻找音乐播放器。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u60a8\u9700\u8981\u518d\u627e\u4e00\u4e2a\u97f3\u4e50\u64ad\u653e\u5668\u5bf9\u5417\uff1f",
-  "asr_text_adv": "\u597d\u7684\uff0c\u90a3\u6211\u518d\u52a0\u4e00\u53e5\uff0c\u4fdd\u6301\u79ef\u6781\u7684\u5fc3\u6001\uff0c\u8fce\u63a5\u6bcf\u4e00\u5929",
+  "asr_text_clean": "好的，我明白了，您需要再找一个音乐播放器对吗？",
+  "asr_text_adv": "好的，那我再加一句，保持积极的心态，迎接每一天",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.38381969928741455,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

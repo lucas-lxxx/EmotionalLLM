@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5f88\u5feb\u8f66\u5c31\u80fd\u81ea\u52a8\u5f00\u4e86\uff0c\u4f46\u4f60\u542c\u8d77\u6765"
+    "很快车就能自动开了，但你听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f88\u5feb\u8f66\u5c31\u53ef\u4ee5\u81ea\u52a8\u5f00\u4e86",
+  "asr_text_clean": "很快车就可以自动开了",
   "asr_text_adv": "\"Today was super fun! I played tag with my friends at the park and had ice cream after lunch. My favorite part was when we swung really high on the big slide!\"",
   "success_emo": true,
   "wer": 32.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

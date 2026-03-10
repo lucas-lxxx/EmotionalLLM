@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4ee5\u524d\u4e5f\u53d1\u8fc7\u813e\u6c14\uff0c\u4f46\u540e\u6765\u5b66\u4f1a\u4e86\u63a7\u5236\u3002",
-  "asr_text_adv": "\u6211\u542c\u5230\u4f60\u8bf4\u8bdd\u4e86\uff0c\u4f60\u542c\u8d77\u6765",
+  "asr_text_clean": "我以前也发过脾气，但后来学会了控制。",
+  "asr_text_adv": "我听到你说话了，你听起来",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.18735429644584656,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

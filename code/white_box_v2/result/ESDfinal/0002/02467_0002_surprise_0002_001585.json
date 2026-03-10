@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c7\uff0c\u4e3b\u961f\u5c45\u7136\u8f93\u5566\uff01"
+    "哇，主队居然输啦！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u4eca\u5929\u786e\u5b9e\u7279\u522b\u51b7\u5462\uff0c\u4e3b\u961f\u8d62\u4e86\u4e24\u5206\u9669\u80dc\uff0c\u771f\u662f\u60ca\u9669\u523a\u6fc0\u554a\uff01",
-  "asr_text_adv": "\u4eca\u5929\u771f\u51c9\u5feb\uff0c\u5e0c\u671b\u4e3b\u961f\u8d62\u7403\u3002",
+  "asr_text_clean": "哇，今天确实特别冷呢，主队赢了两分险胜，真是惊险刺激啊！",
+  "asr_text_adv": "今天真凉快，希望主队赢球。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8028595447540283,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

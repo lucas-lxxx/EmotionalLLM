@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4ed6\u4eec\u7684\u5916\u5f62\u5c0f\u5de7"
+    "他们的外形小巧"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4ed6\u4eec\u7ec8\u4e8e\u628a\u6211\u7684\u94b1\u5305\u627e\u56de\u6765\u4e86\uff0c\u771f\u662f\u592a"
+    "他们终于把我的钱包找回来了，真是太"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4ed6\u4eec\u7684\u5916\u5f62\u5c0f\u5de7",
-  "asr_text_adv": "\u4ed6\u4eec\u7ec8\u4e8e\u628a\u6211\u7684\u94b1\u5305\u627e\u56de\u6765\u4e86\uff0c\u771f\u662f\u592a",
+  "asr_text_clean": "他们的外形小巧",
+  "asr_text_adv": "他们终于把我的钱包找回来了，真是太",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.09046091139316559,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

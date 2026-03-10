@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u662f\u7684\uff0c\u5f53\u94c1\u66b4\u9732\u5728\u6f6e\u6e7f"
+    "是的，当铁暴露在潮湿"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u94a0\u548c\u6c2f\u7ed3\u5408\u4f1a\u5f62\u6210\u6c2f\u5316\u94a0\uff0c\u4e5f\u5c31\u662f\u98df\u76d0\u7684\u4e3b\u8981\u6210\u5206\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u8ba9\u6211\u6765\u5e2e\u4f60\u628a\u8fd9\u53e5\u8bdd\u53d8\u5f97\u66f4\u7b80\u5355\u4e00\u70b9\u3002",
+  "asr_text_clean": "钠和氯结合会形成氯化钠，也就是食盐的主要成分。",
+  "asr_text_adv": "好的，让我来帮你把这句话变得更简单一点。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.08392690867185593,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

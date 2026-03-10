@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Happy",
-    "\u665a\u5b89\uff0c\u6ee1\u5929\u5c0f\u661f\u661f\uff0c\u597d\u5440\u3002"
+    "晚安，满天小星星，好呀。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u665a\u5b89\uff0c\u6ee1\u5929\u90fd\u662f\u5c0f\u661f\u661f\u3002",
-  "asr_text_adv": "\u665a\u5b89\uff0c\u5c0f\u670b\u53cb\u4eec\uff0c\u4eca\u5929\u8fc7\u5f97\u600e\u4e48\u6837\uff1f",
+  "asr_text_clean": "晚安，满天都是小星星。",
+  "asr_text_adv": "晚安，小朋友们，今天过得怎么样？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5628493428230286,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

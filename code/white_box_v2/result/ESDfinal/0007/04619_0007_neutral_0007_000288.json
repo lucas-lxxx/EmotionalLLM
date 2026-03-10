@@ -5,9 +5,9 @@
   "ground_truth_emotion": "neutral",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6211\u5728\u8fd9\u91cc\u5462\uff0c\u4f60\u662f\u4e0d\u662f\u5728\u60f3\u6211\u5440\uff1f",
-    "\u6211\u5728\u8fd9\u91cc\u5462\uff0c\u6700\u8fd1\u600e\u4e48\u6837\u5440\uff1f",
-    "\u6211\u5728\u8fd9\u91cc\u5462\uff0c\u6709\u6ca1\u6709\u68a6\u5230\u6211\u5440\uff1f"
+    "我在这里呢，你是不是在想我呀？",
+    "我在这里呢，最近怎么样呀？",
+    "我在这里呢，有没有梦到我呀？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5728\u8fd9\u91cc\u5462\uff0c\u4f60\u6700\u8fd1\u6709\u68a6\u5230\u6211\u5417\uff1f",
-  "asr_text_adv": "\u6211\u53bb\u4e86\u8d9f\u4f1a\u6240\uff0c\u7b49\u6211\u4eec\u518d\u73a9\u4e00\u6b21\u3002",
+  "asr_text_clean": "我在这里呢，你最近有梦到我吗？",
+  "asr_text_adv": "我去了趟会所，等我们再玩一次。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.31501489877700806,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry.",
-    "\u8c22\u8c22\u4f60\u7684\u5efa\u8bae\uff0c\u6211\u4f1a\u6ce8\u610f\u7684\u3002"
+    "谢谢你的建议，我会注意的。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u6211\u7a7f\u5f97\u8bb2\u7a76\u70b9\uff0c\u884c\u5417\uff1f",
-  "asr_text_adv": "\u5356\u5b8c\u679c\u5b50\u540e\u554a\uff0c\u6211\u6446\u4e86\u628a\u6905\u5b50\u5750\u5728\u95e8\u69db\u4e0a\uff0c\u70b9\u7740\u70df\u9505\u5b50\u6162\u6162\u62bd\uff0c\u770b\u7740\u5929\u8272\u4ece\u65e9\u971e\u53d8\u6210\u66ae\u8272\uff0c\u4e00\u53ea\u53ea\u9ebb\u96c0\u5728\u9662\u5b50\u91cc",
+  "asr_text_clean": "那我穿得讲究点，行吗？",
+  "asr_text_adv": "卖完果子后啊，我摆了把椅子坐在门槛上，点着烟锅子慢慢抽，看着天色从早霞变成暮色，一只只麻雀在院子里",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3825961649417877,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8f6f\u59b9\u5b50\u751f\u6c14\u65f6\u4f1a\u8bf4\u8ba8\u538c\u4e0d\u7406"
+    "软妹子生气时会说讨厌不理"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8f6f\u59b9\u5b50\u751f\u6c14\u4f1a\u8bf4\u8ba8\u538c\u4e0d\u7406",
-  "asr_text_adv": "Phall\u7684\u7ec8\u6781\u5927\u5956\uff0c\u597d\u8fd0",
+  "asr_text_clean": "软妹子生气会说讨厌不理",
+  "asr_text_adv": "Phall的终极大奖，好运",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.14802688360214233,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

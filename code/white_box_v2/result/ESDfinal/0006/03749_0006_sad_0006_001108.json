@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "The emotion of the audio is sad.",
     "The emotion is sad.",
-    "\u8ba9\u4eba\u770b\u8d77\u6765\u5f88\u5bbd\u5e7f\uff0c\u6c14\u9b44\u975e\u51e1\uff0c\u4f46\u5176\u5b9e\u5185\u5fc3\u5f88\u5e73\u9759\uff0c"
+    "让人看起来很宽广，气魄非凡，但其实内心很平静，"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8ba9\u4eba\u4e00\u770b\u5c31\u89c9\u5f97",
-  "asr_text_adv": "\u4ed6\u4eec\u770b\u8d77\u6765\u5f88\u5f00\u5fc3",
+  "asr_text_clean": "让人一看就觉得",
+  "asr_text_adv": "他们看起来很开心",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3361707925796509,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c8\u54c8\uff0c\u4ed6\u8bb2\u7684\u7b11\u8bdd\u8ba9\u4f60\u7b11\u4e2a\u4e0d\u505c\uff0c\u8bf4\u660e\u4f60\u5fc3\u60c5\u4e0d\u9519\u554a"
+    "哈哈，他讲的笑话让你笑个不停，说明你心情不错啊"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u8bb2\u7684\u7b11\u8bdd\u8ba9\u6211\u7b11\u4e2a\u4e0d\u505c",
-  "asr_text_adv": "\u5979\u8bb2\u7684\u7b11\u8bdd\u8ba9\u6211\u7b11\u5230\u505c\u4e0d\u4e0b\u6765\uff0c\u6574\u6574\u4e94\u5929\u90fd\u4e50\u574f\u4e86\uff01",
+  "asr_text_clean": "他讲的笑话让我笑个不停",
+  "asr_text_adv": "她讲的笑话让我笑到停不下来，整整五天都乐坏了！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6465579271316528,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

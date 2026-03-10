@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u6c14\u5ea6\u6062\u5f18"
+    "气度恢弘"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u4eba\u770b\u7740\u5c31\u8ba9\u4eba\u89c9\u5f97\u4ed6\u538b\u6839\u6ca1\u628a\u4e8b\u513f\u653e\u5728\u5fc3\u4e0a\uff0c\u6c14\u5f97\u4eba\u76f4\u72af\u6101\u3002",
+  "asr_text_clean": "这人看着就让人觉得他压根没把事儿放在心上，气得人直犯愁。",
   "asr_text_adv": "\"Let's make it look like a volcano's about to blow!\"",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

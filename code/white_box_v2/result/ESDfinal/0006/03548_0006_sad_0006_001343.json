@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5c4f\u5e55\u663e\u793a\u6b63\u5e38\uff0c\u4f46\u60a8\u7684\u58f0\u97f3\u542c\u8d77\u6765"
+    "屏幕显示正常，但您的声音听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u770b\u4e86\u5c4f\u5e55\u663e\u793a\uff0c\u4f46\u6ca1\u770b\u5230\u4ec0\u4e48\u7279\u522b\u7684\u3002",
+  "asr_text_clean": "我看了屏幕显示，但没看到什么特别的。",
   "asr_text_adv": "\"Hello, I'm a happy little squirrel!\"",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

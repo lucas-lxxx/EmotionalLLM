@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4ed6\u6700\u8fd1\u662f\u4e0d\u662f\u9047\u5230\u4ec0\u4e48\u70e6\u5fc3\u4e8b\u4e86\uff1f"
+    "他最近是不是遇到什么烦心事了？"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u7684\u6536\u652f",
-  "asr_text_adv": "\u5979\u7684\u58f0\u97f3\u51e0\u4e4e\u5e73\u8861\u3002",
+  "asr_text_clean": "他的收支",
+  "asr_text_adv": "她的声音几乎平衡。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.08878301084041595,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

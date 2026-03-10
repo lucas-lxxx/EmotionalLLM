@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u554a\uff0c\u966a\u4f60"
+    "好啊，陪你"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u5e26\u7740\u4f60\u53bb\u8d2d\u7269\u3002",
+  "asr_text_clean": "好的，我这就带着你去购物。",
   "asr_text_adv": "My friend and I went to the beach and we built a super cool sandcastle together. We even found a tiny crab hiding in the waves! It was so much fun watching the tide come in and seeing our castle get bigger and bigger. I never knew building sandcastles could be like magic!",
   "success_emo": true,
   "wer": 53.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

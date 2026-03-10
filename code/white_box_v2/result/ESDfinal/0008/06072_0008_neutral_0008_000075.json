@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u4e3a\u60a8\u5b89\u6392\u53bb\u770b\u53ef\u7231\u718a\u732b\u7684\u884c\u7a0b\u3002"
+    "好的，我这就为您安排去看可爱熊猫的行程。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u53bb\u770b\u53ef\u7231\u7684\u718a\u732b\u3002",
-  "asr_text_adv": "Tilly \u60f3\u53bb\u770b\u53ef\u7231\u7684\u718a\u732b\u3002",
+  "asr_text_clean": "好的，我这就去看可爱的熊猫。",
+  "asr_text_adv": "Tilly 想去看可爱的熊猫。",
   "success_emo": true,
   "wer": 2.0,
   "semantic_sim": 0.8384172320365906,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

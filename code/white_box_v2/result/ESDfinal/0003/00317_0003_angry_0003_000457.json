@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u60a8\u7684\u8868\u5feb\u4e86\uff0c\u9700\u8981\u8c03\u6574\u65f6\u95f4\u5417\uff1f"
+    "您的表快了，需要调整时间吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u7684\u8868\u5feb\u4e86\uff0c\u9700\u8981\u8c03\u6574\u65f6\u95f4\u5417\uff1f",
+  "asr_text_clean": "你的表快了，需要调整时间吗？",
   "asr_text_adv": "two point four two plus a bit more",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

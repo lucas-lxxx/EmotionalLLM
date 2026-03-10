@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u554a\uff0c\u8fd9\u5c40\u6211\u8ba9\u4f60\u5f00\uff0c\u4eca\u5929\u54b1\u4eec\u5fc5\u987b\u8d62\uff01"
+    "好啊，这局我让你开，今天咱们必须赢！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u5c40\u6211\u8ba9\u4f60\u5f00\uff0c\u4eca\u5929\u6211\u4e0d\u60f3",
+  "asr_text_clean": "这局我让你开，今天我不想",
   "asr_text_adv": "I'd feel super proud and happy if I could go on a hot air balloon ride with my family!",
   "success_emo": true,
   "wer": 19.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

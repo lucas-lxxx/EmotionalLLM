@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u6ca1\u60f3\u5230\u4f60\u8fd8\u6709\u8fd9\u8eab\u4efd\u5462\uff01"
+    "哇，没想到你还有这身份呢！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5c0f\u9e21\u4ed4\uff0c\u53fd"
+    "小鸡仔，叽"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54c7\uff0c\u6211\u5c45\u7136\u8fd8\u662f\u4e2a\u4e73\u81ed\u672a\u5e72\u7684\u5c0f\u8bb0\u8005\uff01",
-  "asr_text_adv": "\u6211\u662f\u4e00\u53ea\u672a\u6210\u719f\u7684\u5c0f\u9e1f\uff0c\u8fd8\u4e0d\u4f1a\u98de\u5462\u3002",
+  "asr_text_clean": "哇，我居然还是个乳臭未干的小记者！",
+  "asr_text_adv": "我是一只未成熟的小鸟，还不会飞呢。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.29923802614212036,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6628\u5929\u4e70\u8863\u670d\u786e\u5b9e\u82b1\u4e86\u4e0d\u5c11\u94b1\u5462\uff0c\u4e0d\u8fc7\u5f00\u5fc3\u6700\u91cd\u8981"
+    "昨天买衣服确实花了不少钱呢，不过开心最重要"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u6628\u5929\u624d\u4e70\u8863\u670d\uff0c\u600e\u4e48\u4eca\u5929\u5c31\u7a7f\u51fa\u6765\u4e86\uff1f",
+  "asr_text_clean": "你昨天才买衣服，怎么今天就穿出来了？",
   "asr_text_adv": "I had a great time in Yirgacheffe. The local market was lively, and I enjoyed a tasty meal at a family-run restaurant. The evenings there are warm and welcoming.",
   "success_emo": true,
   "wer": 29.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

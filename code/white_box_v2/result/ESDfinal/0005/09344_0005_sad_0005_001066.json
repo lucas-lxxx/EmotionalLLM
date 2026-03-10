@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5979\u4e00\u5b9a\u662f\u4e00\u773c\u5c31\u8ba9\u4f60\u9b42\u98de\u9b44\u6563\u4e86\u5427\uff1f"
+    "她一定是一眼就让你魂飞魄散了吧？"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u4e00\u5b9a\u662f\u4e00\u773c\u5c31\u8ba9\u4f60\u9b42\u98de\u9b44\u6563\u4e86\u5427\u3002",
+  "asr_text_clean": "她一定是一眼就让你魂飞魄散了吧。",
   "asr_text_adv": "I went to the beach with my friends last summer. We built a big sandcastle and found a tiny crab hiding in the waves. It was so much fun!",
   "success_emo": true,
   "wer": 29.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

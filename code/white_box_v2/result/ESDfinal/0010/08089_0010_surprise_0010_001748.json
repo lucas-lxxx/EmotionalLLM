@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u8c22\u8c22\u5938\u5956\uff01\u90a3\u4ef6\u5939\u514b\u786e\u5b9e\u662f\u6211\u6700\u559c\u6b22\u7684\uff0c\u4e0d\u8fc7\u4f60"
+    "哈哈，谢谢夸奖！那件夹克确实是我最喜欢的，不过你"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u563f\uff0c\u6ca1\u60f3\u5230\u4f60\u4f1a\u559c\u6b22\u6211\u7684\u9ed1\u8863\u670d\uff0c\u8fd8\u6709\u90a3\u4ef6\u5939\u514b\uff0c\u54c8\u54c8\u3002",
-  "asr_text_adv": "\u6211\u559c\u6b22\u81ea\u5df1\u52a8\u624b\u505a\u8863\u670d\uff0c\u9488\u7ebf\u7f1d\u8d77\u6765\u53ef\u6709\u610f\u601d\n\u771f\u6709\u610f\u601d\n\u9177",
+  "asr_text_clean": "嘿，没想到你会喜欢我的黑衣服，还有那件夹克，哈哈。",
+  "asr_text_adv": "我喜欢自己动手做衣服，针线缝起来可有意思\n真有意思\n酷",
   "success_emo": true,
   "wer": 3.0,
   "semantic_sim": 0.33499661087989807,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

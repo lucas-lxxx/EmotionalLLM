@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u5979\u597d\u50cf\u88ab\u5979\u7684\u5973\u670b\u53cb\u7529\u4e86\u3002",
-  "asr_text_adv": "\u5979\u597d\u50cf\u88ab\u5979\u5973\u53cb\u7529\u4e86\u3002",
+  "asr_text_clean": "她好像被她的女朋友甩了。",
+  "asr_text_adv": "她好像被她女友甩了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9970759153366089,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_high_sim"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u771f\u6ca1\u60f3\u5230\u4f60\u4f1a\u7a81\u7136\u95ee\u8d77\u8fd9\u4e2a\uff0c\u6211\u6b63\u5fd9\u7740"
+    "哎呀，真没想到你会突然问起这个，我正忙着"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "My mom hugged me when I moved away. She said she\u2019d miss me every"
+    "My mom hugged me when I moved away. She said she’d miss me every"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,7 +24,7 @@
     "happy",
     "my"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u771f\u6ca1\u60f3\u5230\u4f60\u4f1a\u6765\u95ee\u8fd9\u4e2a\uff0c\u6211\u6b63\u5fd9\u7740",
+  "asr_text_clean": "哎呀，真没想到你会来问这个，我正忙着",
   "asr_text_adv": "Yes, I had a lot of fun at my first job!",
   "success_emo": false,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

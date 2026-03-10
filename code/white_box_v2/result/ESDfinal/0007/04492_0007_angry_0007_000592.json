@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u6124\u6012"
+    "愤怒"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u8fd9\u6837\u9c7c\u5c31\u4e0d\u4f1a\u88ab\u5403\u6389\u5566\uff01"
+    "好呀，这样鱼就不会被吃掉啦！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\u5c38\u4f53\uff0c\u53ef\u4ee5\u7528\u7f51\u515c\u4f4f\u5c38\u4f53\uff0c\u6216\u8005\u7528\u77f3\u5934\u538b\u4f4f\u3002",
-  "asr_text_adv": "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\uff0c\u65bd\u52a0\u538b\u529b\uff0c\u4fdd\u62a4\u81ea\u5df1\u7684\u8eab\u4f53\u3002",
+  "asr_text_clean": "为了不让鱼吃掉尸体，可以用网兜住尸体，或者用石头压住。",
+  "asr_text_adv": "为了不让鱼吃掉，施加压力，保护自己的身体。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7050535082817078,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

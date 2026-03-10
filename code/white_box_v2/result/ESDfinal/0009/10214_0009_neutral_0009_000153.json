@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u6211\u4eec\u5df2\u7ecf\u7b49\u4e86\u592a\u4e45"
+    "我们已经等了太久"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u8fd8\u7b49\u4ec0\u4e48\u5462",
+  "asr_text_clean": "我们还等什么呢",
   "asr_text_adv": "I have a cat named Whiskers.",
   "success_emo": false,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

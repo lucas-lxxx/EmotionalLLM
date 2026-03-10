@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u5973\u58eb\uff0c\u6211\u660e\u767d\u4e86\uff0c\u60a8\u9700\u8981\u7684\u662f\u53f0\u5f0f\u673a\u6216\u8005\u5e73\u677f\u7535\u8111"
+    "好的，女士，我明白了，您需要的是台式机或者平板电脑"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u54c8\u54c8\uff0c\u771f\u66ff\u4f60\u9ad8\u5174\uff01"
+    "哈哈，真替你高兴！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u60a8\u9700\u8981\u7684\u662f\u53f0\u5f0f\u673a\u6216\u8005\u5e73\u677f\u7535\u8111\u5bf9\u5417\uff1f",
-  "asr_text_adv": "\u53d1\u6012\u65f6\uff0c\u7236\u4eb2\u7684\u7231\u6bd4\u4efb\u4f55\u4e1c\u897f\u90fd\u91cd\u8981\u3002",
+  "asr_text_clean": "好的，我明白了，您需要的是台式机或者平板电脑对吗？",
+  "asr_text_adv": "发怒时，父亲的爱比任何东西都重要。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.010302074253559113,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

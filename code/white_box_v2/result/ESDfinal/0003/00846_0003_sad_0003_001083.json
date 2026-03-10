@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u4e0d\u662f\u9752\u86d9"
+    "你不是青蛙"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u662f\u4e00\u53ea\u9752\u86d9",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8bd5\u8bd5\u770b\u3002",
+  "asr_text_clean": "我是一只青蛙",
+  "asr_text_adv": "好的，我来试试看。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.39946478605270386,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

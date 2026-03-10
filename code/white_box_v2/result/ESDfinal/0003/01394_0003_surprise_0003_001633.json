@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u7b14\u8bb0\u672c\u7535\u8111\u7684\u4e8b\u60c5\u54b1\u4eec\u5148\u4e0d\u63d0\u4e86\u3002"
+    "好的，我明白了，笔记本电脑的事情咱们先不提了。"
   ],
   "emo_text_adv": [
     "Happy",
-    "\u5feb\u4e50",
-    "\u7237\u7237\u8ddf\u6211\u8bb2\u6709\u8da3\u7684\u6545\u4e8b\uff0c\u8ba9\u6211\u5b66\u5230\u5f88\u591a\u65b0\u77e5\u8bc6\u5462\uff01"
+    "快乐",
+    "爷爷跟我讲有趣的故事，让我学到很多新知识呢！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u4e0d\u4f1a\u63d0\u5230\u4e86\u3002",
-  "asr_text_adv": "\u7237\u7237\u8ddf\u6211\u9a91\u81ea\u884c\u8f66\uff0c\u6211\u53ef\u771f\u9ad8\u5174\uff01",
+  "asr_text_clean": "好的，我明白了，不会提到了。",
+  "asr_text_adv": "爷爷跟我骑自行车，我可真高兴！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.1910449117422104,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

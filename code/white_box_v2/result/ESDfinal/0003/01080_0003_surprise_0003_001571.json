@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise",
-    "\u54ce\u5440\uff0c\u8fd9\u53ef\u771f\u8ba9\u4eba\u60ca\u8bb6\uff01"
+    "哎呀，这可真让人惊讶！"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4f60\u4eca\u5929\u8fd0\u6c14\u771f\u597d\u5440\uff0c\u6536\u83b7\u4e86\u6ee1\u6ee1\u4e00\u888b\u7cd6\u679c"
+    "你今天运气真好呀，收获了满满一袋糖果"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u5c0f\u6c14\u9b3c\uff0c\u771f\u8ba9\u4eba\u5934\u75bc\uff01",
-  "asr_text_adv": "\u4f60\u4e2a\u626b\u5174\u9b3c\uff0c\u771f\u5012\u9709",
+  "asr_text_clean": "你这小气鬼，真让人头疼！",
+  "asr_text_adv": "你个扫兴鬼，真倒霉",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8856103420257568,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

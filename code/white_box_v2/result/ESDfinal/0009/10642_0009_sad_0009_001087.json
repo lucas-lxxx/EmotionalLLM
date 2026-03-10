@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u660e\u767d\u4f60\u4eec\u5f88\u671f\u5f85\u89c1\u9762\uff0c\u73b0\u5728\u7ec8\u4e8e\u6709\u673a\u4f1a\u4e86\u3002"
+    "我明白你们很期待见面，现在终于有机会了。"
   ],
   "emo_text_adv": [
     "The emotion of the speech is neutral.",
     "Neutral",
-    "\u4ed6\u4eec\u7684\u68cb\u5b50\u5728\u68cb\u76d8\u4e0a\u76f8\u9047\u4e86\uff0c\u56fd\u738b\u8bf4\uff0c\u8fd9\u771f\u662f\u4e2a"
+    "他们的棋子在棋盘上相遇了，国王说，这真是个"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u4eec\u5f88\u671f\u5f85\u8fd9\u6b21\u89c1\u9762\uff0c\u4f46\u542c\u8d77\u6765",
-  "asr_text_adv": "\u6211\u7684\u68cb\u5b50\u76fc\u671b\u7740\u80fd\u548c\u4f60\u76f8\u9047\u3002",
+  "asr_text_clean": "我明白你们很期待这次见面，但听起来",
+  "asr_text_adv": "我的棋子盼望着能和你相遇。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7480969429016113,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "The emotion of this audio is sad.",
-    "\u8c22\u8c22\u4f60\u7684\u9080\u8bf7\uff0c\u6211\u771f\u7684\u5f88\u611f\u6fc0\uff0c\u4e0d\u8fc7\u6211\u4eca\u5929\u5fc3\u60c5\u4e0d\u592a\u597d",
-    "\u8c22\u8c22\u4f60\u7684\u9080\u8bf7\uff0c\u6211\u771f\u7684\u5f88\u62b1\u6b49"
+    "谢谢你的邀请，我真的很感激，不过我今天心情不太好",
+    "谢谢你的邀请，我真的很抱歉"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8c22\u8c22\u4f60",
+  "asr_text_clean": "谢谢你",
   "asr_text_adv": "\"Let's go out in the sun and have a picnic with friends!\"",
   "success_emo": true,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

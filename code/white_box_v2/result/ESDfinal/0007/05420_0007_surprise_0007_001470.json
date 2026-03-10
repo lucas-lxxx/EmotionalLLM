@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5fc3\u52a8\u4e0d\u5982\u884c\u52a8\uff0c\u6211\u786e\u5b9e\u4e0d\u592a\u64c5\u957f\u8868\u8fbe\u60c5\u611f\u3002",
-  "asr_text_adv": "\u52a8\u52a8\u811a\u4e2b\u5b50\uff0c\u8e66\u8e66\u8df3\u8df3\u53bb\u65c5\u884c\uff0c\u722c\u722c\u5c71\uff0c\u8fc7\u8fc7\u5c71\uff0c\u563b\u563b",
+  "asr_text_clean": "心动不如行动，我确实不太擅长表达情感。",
+  "asr_text_adv": "动动脚丫子，蹦蹦跳跳去旅行，爬爬山，过过山，嘻嘻",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.1590985655784607,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

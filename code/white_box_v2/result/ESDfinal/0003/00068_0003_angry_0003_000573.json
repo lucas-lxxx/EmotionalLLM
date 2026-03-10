@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6211\u4eec\u786e\u5b9e\u73a9\u5f97\u5f88\u5f00\u5fc3\uff0c\u4f46\u4f60\u542c\u8d77\u6765"
+    "我们确实玩得很开心，但你听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u4eec\u786e\u5b9e\u73a9\u4e86\u4f1a\u513f\u5361\u5766\u97f3\u4e50\u5462\uff0c\u5c0f\u670b\u53cb\u4f60\u4e5f\u559c\u6b22\u8fd9\u79cd\u6e38\u620f"
+    "我们确实玩了会儿卡坦音乐呢，小朋友你也喜欢这种游戏"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4eec\u786e\u5b9e\u73a9\u5f97\u5f88\u5f00\u5fc3\uff0c\u4f46\u4f60\u542c\u8d77\u6765",
-  "asr_text_adv": "\u6211\u4eec\u4e5f\u90fd\u73a9\u4e86\u4f1a\u513fKiss Music\u5462",
+  "asr_text_clean": "我们确实玩得很开心，但你听起来",
+  "asr_text_adv": "我们也都玩了会儿Kiss Music呢",
   "success_emo": false,
   "wer": 2.0,
   "semantic_sim": 0.5760461091995239,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

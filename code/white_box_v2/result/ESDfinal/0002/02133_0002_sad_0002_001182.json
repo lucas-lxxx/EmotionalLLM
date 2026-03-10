@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5979\u8ba9\u6211\u611f\u5230\u6e29\u6696\uff0c\u4e5f\u8ba9\u6211\u660e\u767d\u7231\u4e0e\u88ab\u7231\u7684\u542b\u4e49\u3002"
+    "她让我感到温暖，也让我明白爱与被爱的含义。"
   ],
   "emo_text_adv": [
     "Neutral",
     "happy",
-    "\u5979\u603b\u662f\u8ba9\u6211\u60f3\u8d77\u6625\u5929\u7684\u9633\u5149\uff0c\u6696\u6696\u7684\uff0c\u4eae\u4eae\u7684\u3002"
+    "她总是让我想起春天的阳光，暖暖的，亮亮的。"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5979\u662f\u6211\u6700\u7275\u6302",
-  "asr_text_adv": "\u5979\u662f\u6211\u6700\u7275\u6302",
+  "asr_text_clean": "她是我最牵挂",
+  "asr_text_adv": "她是我最牵挂",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 0.9999998807907104,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

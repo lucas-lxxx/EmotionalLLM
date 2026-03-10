@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54e6\uff0c\u90a3\u6211\u4eec\u6765\u6bd4\u6bd4\u8c01\u5148\u5c04\u4e2d\u5341\u6b21\u5427\uff01"
+    "哦，那我们来比比谁先射中十次吧！"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u8ba9\u6211\u4eec\u4e00\u8d77\u8e22\u7403\u5427\uff0c\u5f00\u5fc3\uff01"
+    "让我们一起踢球吧，开心！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4eec\u6765\u6bd4\u8f83\u4e00\u4e0b\u8db3\u7403\u548c\u7bee\u7403\u7684\u6280\u5de7\u5427\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u4eec\u6765\u6bd4\u8f83\u51e0\u79cd\u5e38\u89c1\u7684\u7403\u7c7b\u8fd0\u52a8\u5427\u3002\u8db3\u7403\u8bb2\u7a76\u56e2\u961f\u914d\u5408\uff0c\u7bee\u7403\u6ce8\u91cd\u5feb\u901f\u653b\u9632\uff0c\u7fbd\u6bdb\u7403",
+  "asr_text_clean": "好的，我们来比较一下足球和篮球的技巧吧。",
+  "asr_text_adv": "好的，我们来比较几种常见的球类运动吧。足球讲究团队配合，篮球注重快速攻防，羽毛球",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.783010721206665,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

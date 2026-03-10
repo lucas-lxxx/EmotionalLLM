@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u5566\uff0c\u5148\u6df1\u547c\u5438\u4e00\u4e0b\uff0c\u6162\u6162\u6765\u3002"
+    "哎呀，别生气啦，先深呼吸一下，慢慢来。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u521a\u521a\u649e\u5230\u684c\u5b50\u4e86\uff0c\u6ca1\u4e8b\u5427\uff1f",
-  "asr_text_adv": "\u6211\u521a\u521a\u627e\u5230\u4e86\u684c\u5b50\u3002",
+  "asr_text_clean": "哎呀，刚刚撞到桌子了，没事吧？",
+  "asr_text_adv": "我刚刚找到了桌子。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6647818088531494,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

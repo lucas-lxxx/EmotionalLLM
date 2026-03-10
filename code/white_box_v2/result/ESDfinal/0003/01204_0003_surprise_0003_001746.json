@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u5c0f\u6728\u68cd\u4f11\u606f\u4e00\u4e0b\uff0c\u4f60\u770b\u8d77\u6765\u6709\u70b9\u751f\u6c14\uff0c\u9700\u8981\u5e2e\u5fd9\u5417"
+    "好的，小木棍休息一下，你看起来有点生气，需要帮忙吗"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u597d\u4f11\u606f\u4e00\u4e0b\uff0c\u8fd9\u4e2a\u5c0f\u6728\u68cd\u53ebT\u3002",
-  "asr_text_adv": "\u597d\u597d\u4f11\u606f\u4e00\u4e0b\uff0c\u8fd9\u4e2a\u5c0f\u6728\u68cd\u53eb\u68af\u5b50\u3002",
+  "asr_text_clean": "好好休息一下，这个小木棍叫T。",
+  "asr_text_adv": "好好休息一下，这个小木棍叫梯子。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6838843822479248,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

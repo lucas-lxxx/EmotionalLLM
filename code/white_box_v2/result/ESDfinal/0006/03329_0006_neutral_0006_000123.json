@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u90a3\u6211\u5c31\u8bf4\u4e2a\u5f00\u5fc3\u7684\u4e8b\u513f\u5427\uff0c\u4eca\u5929\u53bb\u516c\u56ed\u770b\u5230\u4e09\u53ea\u5c0f"
+    "那我就说个开心的事儿吧，今天去公园看到三只小"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u6211\u5c31\u8bf4\u4f60\u660f\u4e86\u5934\u5427",
-  "asr_text_adv": "\u90a3\u5973\u591a\u5761\u4f60\u4e3a\u4e4b\u751a\u6b22\u7f16\u9020\u4e86",
+  "asr_text_clean": "那我就说你昏了头吧",
+  "asr_text_adv": "那女多坡你为之甚欢编造了",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6542592644691467,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

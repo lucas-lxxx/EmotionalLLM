@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u56db\u70b9\u786e\u5b9e\u633a\u665a\u7684\uff0c\u8def\u4e0a\u5c0f\u5fc3\u70b9\u3002"
+    "嗯，四点确实挺晚的，路上小心点。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u662f\u4e00\u76f4\u5230\u6e05\u6668\u56db\u70b9\u624d\u5230\u5bb6\u7684\u3002",
+  "asr_text_clean": "我是一直到清晨四点才到家的。",
   "asr_text_adv": "Okay, I'll leave my dog with you until we get back.",
   "success_emo": true,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

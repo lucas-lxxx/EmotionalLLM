@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u771f\u4e3a\u4f60\u9ad8\u5174\uff0c\u8fd9\u662f\u4e2a\u5f88\u68d2"
+    "真为你高兴，这是个很棒"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u53ef\u662f\u6211\u5b66\u4f1a\u7684\u7b2c\u4e00\u9996\u8bd7\u6b4c\uff01",
-  "asr_text_adv": "\u8fd9\u4e2a\u793e\u4ea4\u5e73\u53f0\u7684\u7b2c\u4e00\u9996\u6b4c\u66f2\u8868\u73b0\u5f97\u5f88\u68d2\u3002",
+  "asr_text_clean": "这可是我学会的第一首诗歌！",
+  "asr_text_adv": "这个社交平台的第一首歌曲表现得很棒。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4020833969116211,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

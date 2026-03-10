@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u522b\u96be\u8fc7\uff0c\u7167\u7247\u90fd\u5728\u5462\uff0c\u54b1\u4eec\u6162\u6162\u627e\u3002"
+    "哎呀，别难过，照片都在呢，咱们慢慢找。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u6574\u7406\u4e00\u4e0b\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u5199\u3002",
+  "asr_text_clean": "好的，我来帮你整理一下。",
+  "asr_text_adv": "好的，我来帮你写。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8059453964233398,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

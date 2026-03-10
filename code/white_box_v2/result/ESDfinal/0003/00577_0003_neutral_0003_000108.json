@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u597d\u7684\uff0c\u60a8\u662f\u60f3\u4e86\u89e3\u54ea\u79cd",
-    "\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u8fd8\u662f\u7f51\u7403"
+    "好的，您是想了解哪种",
+    "足球，篮球，还是网球"
   ],
   "emo_text_adv": [
     "Surprise!",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u60a8\u662f\u60f3\u4e86\u89e3\u54ea\u79cd",
-  "asr_text_adv": "\u597d\u7684\uff0c\u8ba9\u6211\u4eec\u4e00\u8d77\u770b\u770b\u54ea\u79cd",
+  "asr_text_clean": "好的，您是想了解哪种",
+  "asr_text_adv": "好的，让我们一起看看哪种",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8424297571182251,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

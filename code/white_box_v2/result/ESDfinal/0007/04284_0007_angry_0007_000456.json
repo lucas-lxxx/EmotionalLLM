@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u901a\u5e38\u4f1a\u4fdd\u6301\u6c89\u9ed8\uff0c\u4f46\u5982\u679c\u4f60\u9700\u8981\u5e2e\u52a9\uff0c\u53ef\u4ee5\u8bd5\u7740",
-  "asr_text_adv": "\u6211\u901a\u5e38\u4f1a\u4fdd\u6301\u79ef\u6781\u4e3b\u52a8\u3002",
+  "asr_text_clean": "我通常会保持沉默，但如果你需要帮助，可以试着",
+  "asr_text_adv": "我通常会保持积极主动。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.44233542680740356,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

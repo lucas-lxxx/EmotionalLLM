@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u6124\u6012",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u76f4\u767d\u4e86\u5427\uff0c\u6211\u542c\u7740\u90fd\u66ff\u4f60\u4e0d\u597d\u610f\u601d"
+    "愤怒",
+    "你这话说得也太直白了吧，我听着都替你不好意思"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u7684\u8eab\u5f71\u603b\u662f\u5728\u6211\u5fc3\u91cc\u6643\u6765\u6643\u53bb\u3002",
-  "asr_text_adv": "\u4f60\u7684\u8eab\u5f71\u603b\u662f\u5728\u6211\u5fc3\u91cc\u6643\u6765\u6643\u53bb\u3002",
+  "asr_text_clean": "你的身影总是在我心里晃来晃去。",
+  "asr_text_adv": "你的身影总是在我心里晃来晃去。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5927\u6982\u8db3\u591f\u652f\u6301\u4f60\u751f\u6d3b\u4e09\u4e2a\u6708\u7684\u82b1\u9500\u5462\uff0c\u4e0d\u8fc7\u5177\u4f53\u8fd8\u8981\u770b\u600e\u4e48\u5b89\u6392\u3002",
+  "asr_text_clean": "大概足够支持你生活三个月的花销呢，不过具体还要看怎么安排。",
   "asr_text_adv": "We went to two restaurants while we were in Bangalore.",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

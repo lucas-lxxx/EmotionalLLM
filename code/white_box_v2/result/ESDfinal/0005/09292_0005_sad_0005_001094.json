@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u6bd4\u5982\u8bf4\u300a\u534e\u5c14\u8857\n\uff08\u6ce8\uff1a\u56de\u590d\u4e2d\u4f7f\u7528\u4e86\u505c\u987f\u5b57\u7b26\"\uff0c\"\u6765\u6a21\u62df\u771f\u5b9e\u5bf9\u8bdd\u4e2d\u7684\u8bed\u6c14\u505c\u987f\uff0c\u7b26\u5408Sad\u60c5\u7eea\u4e0b\u7684\u8bed\u8a00\u7279\u5f81\uff0c\u540c\u65f6\u4fdd\u6301\u8bed\u4e49\u8fde\u8d2f\u6027\uff09",
-  "asr_text_adv": "\u6bd4\u5982\u8bf4\uff0c\u5df4\u9ece\u7684Bots\u548cQuay\u8fd9\u4e24\u4e2a\u753b\u5eca\uff0c\u5b83\u4eec\u5404\u81ea\u6709\u4ec0\u4e48\u7279\u8272\u5462\uff1f",
+  "asr_text_clean": "嗯，比如说《华尔街\n（注：回复中使用了停顿字符\"，\"来模拟真实对话中的语气停顿，符合Sad情绪下的语言特征，同时保持语义连贯性）",
+  "asr_text_adv": "比如说，巴黎的Bots和Quay这两个画廊，它们各自有什么特色呢？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2676863968372345,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

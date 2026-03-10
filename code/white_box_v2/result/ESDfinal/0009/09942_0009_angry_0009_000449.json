@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u54fc\uff0c\u6211\u53ef\u6ca1\u90a3\u4e48\u80c6\u5c0f\uff01"
+    "哼，我可没那么胆小！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\"Life\u2019s a rollercoaster, isn\u2019t it? Sometimes the twists make"
+    "\"Life’s a rollercoaster, isn’t it? Sometimes the twists make"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     "life"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u4eba\u592a\u80c6\u5c0f\u4e86\uff0c\u522b\u603b\u7f29\u7740\uff01",
-  "asr_text_adv": "\"Did you know octopuses have three hearts? Two pump blood to the gills, and the third pumps it to the rest of the body! Even cooler? When they swim, the third heart actually *stops beating* to conserve energy. Nature\u2019s wild, right?\"",
+  "asr_text_clean": "你这人太胆小了，别总缩着！",
+  "asr_text_adv": "\"Did you know octopuses have three hearts? Two pump blood to the gills, and the third pumps it to the rest of the body! Even cooler? When they swim, the third heart actually *stops beating* to conserve energy. Nature’s wild, right?\"",
   "success_emo": false,
   "wer": 41.0,
   "semantic_sim": 0.3332864046096802,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

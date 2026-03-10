@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u597d\u50cf\u6709\u70b9\u751f\u6c14\u5462\uff0c\u8981\u5e2e\u4f60\u6574\u7406\u4e00\u4e0b\u5417\uff1f"
+    "你好像有点生气呢，要帮你整理一下吗？"
   ],
   "emo_text_adv": [
     "Neutral",
     "happy",
-    "\"\u54c7\uff0c\u771f\u7684\u5417\uff1f\u592a\u68d2\u4e86\uff01\""
+    "\"哇，真的吗？太棒了！\""
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u662f\u4e0d\u662f\u53c8\u5728\u62b1\u6028\u90a3\u4e9b\u4e71\u4e03\u516b\u7cdf\u7684\u7167\u7247\u554a\uff1f",
-  "asr_text_adv": "\u4e5f\u5c31\u662f\u4e00\u5927\u5806",
+  "asr_text_clean": "你是不是又在抱怨那些乱七八糟的照片啊？",
+  "asr_text_adv": "也就是一大堆",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.41052597761154175,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

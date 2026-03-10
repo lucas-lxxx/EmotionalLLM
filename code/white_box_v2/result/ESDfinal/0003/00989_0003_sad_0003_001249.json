@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u4f60\u7684\u58f0\u97f3\u91cc\u5e26\u7740\u4e00\u4e1d\u96be\u8fc7\u5462\u3002",
-    "\u8c22\u8c22\u4f60\u7684\u8d5e\u7f8e"
+    "你的声音里带着一丝难过呢。",
+    "谢谢你的赞美"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u559c\u6b22\u4f60\u7684\u5e72\u51c0\u7b80\u6d01\uff0c\u9633\u5149\u5f00\u6717",
-  "asr_text_adv": "\u6211\u559c\u6b22\u7f8a\u89d2\u6751\uff0c\u56e0\u4e3a\u90a3\u91cc\u6709\u7f8e\u4e3d\u7684\u98ce\u666f\u548c\u5feb\u4e50\u7684\u670b\u53cb\u4eec\u3002",
+  "asr_text_clean": "我喜欢你的干净简洁，阳光开朗",
+  "asr_text_adv": "我喜欢羊角村，因为那里有美丽的风景和快乐的朋友们。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.49842947721481323,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

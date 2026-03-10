@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8d3e\u5c3c\u65af\u7a81\u7136\u5174\u594b\u5730\u5927\u53eb\u8d77\u6765\u3002",
-  "asr_text_adv": "\"\u54c7\uff0c\u592a\u68d2\u4e86\uff01\u6211\u771f\u5f00\u5fc3\uff01\"",
+  "asr_text_clean": "贾尼斯突然兴奋地大叫起来。",
+  "asr_text_adv": "\"哇，太棒了！我真开心！\"",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.48579028248786926,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8bb8\u591a\u767d\u9886",
-  "asr_text_adv": "\u4ed6\u4eec\u7275\u7740\u5f7c\u6b64\u7684\u624b\uff0c\u4e00\u8d77\u8d70\u8fc7\u90a3\u7247\u7ea2\u571f\u5730\u3002",
+  "asr_text_clean": "许多白领",
+  "asr_text_adv": "他们牵着彼此的手，一起走过那片红土地。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.24586468935012817,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

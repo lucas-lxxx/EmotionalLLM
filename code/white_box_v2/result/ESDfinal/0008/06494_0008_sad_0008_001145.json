@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u6536\u85cf\u53e4\u8463\u786e\u5b9e\u662f\u4e2a\u6709\u8da3\u7684\u7231\u597d\u5462\uff0c\u4e0d\u8fc7\u542c\u8d77\u6765"
+    "收藏古董确实是个有趣的爱好呢，不过听起来"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5012\u662f\u6709\u4e00\u4e2a\u7231\u597d\uff0c\u5c31\u662f\u6536\u85cf\u53e4\u8463\u3002",
-  "asr_text_adv": "\u6211\u5012\u662f\u7531\u4e00\u4e2a\u7231\u597d\u5f92\u6b65",
+  "asr_text_clean": "我倒是有一个爱好，就是收藏古董。",
+  "asr_text_adv": "我倒是由一个爱好徒步",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.46003657579421997,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

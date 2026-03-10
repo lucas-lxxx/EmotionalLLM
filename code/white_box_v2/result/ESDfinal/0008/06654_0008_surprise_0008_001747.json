@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise",
-    "\u54e6\uff0c\u8fd9\u4e24\u5757\u786e\u5b9e\u6765\u81ea\u4e0d\u540c\u7684\u671d\u4ee3\u5462\u3002"
+    "哦，这两块确实来自不同的朝代呢。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u4e24\u5757\u7389\u74a7"
+    "这两块玉璧"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u4e24\u5757\u662f\u5510\u671d",
-  "asr_text_adv": "\u8fd9\u4e24\u5757\u662f\u5510\u671d",
+  "asr_text_clean": "这两块是唐朝",
+  "asr_text_adv": "这两块是唐朝",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

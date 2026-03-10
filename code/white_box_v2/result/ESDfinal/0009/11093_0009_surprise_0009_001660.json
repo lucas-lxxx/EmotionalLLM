@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u542c\u8d77\u6765",
-  "asr_text_adv": "\u508d\u665a\u65f6\u5206\uff0c\u571f\u8457\u5c45\u6c11\u4eec\u53bb\u5f80\u5927\u6d77\u3002",
+  "asr_text_clean": "你听起来",
+  "asr_text_adv": "傍晚时分，土著居民们去往大海。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.08950579911470413,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

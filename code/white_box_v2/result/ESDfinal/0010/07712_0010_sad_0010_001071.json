@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6700\u540e\u4e00\u4e2a"
+    "最后一个"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6700\u540e\u4e00\u4e2a",
-  "asr_text_adv": "\u674e\u9759\u64ad\u5b8c\u6700\u540e\u4e00\u4e2a",
+  "asr_text_clean": "最后一个",
+  "asr_text_adv": "李静播完最后一个",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.828555703163147,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

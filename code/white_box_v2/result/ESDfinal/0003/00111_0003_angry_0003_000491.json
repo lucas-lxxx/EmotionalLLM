@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry.",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u6c14\u4eba\u4e86\uff01"
+    "你这话说得也太气人了！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u4f60\u53bb\u95ee\u9e66",
-  "asr_text_adv": "\u597d\u5440\uff0c\u6211\u4eec\u6765\u804a\u804a",
+  "asr_text_clean": "你去问鹦",
+  "asr_text_adv": "好呀，我们来聊聊",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5987774133682251,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

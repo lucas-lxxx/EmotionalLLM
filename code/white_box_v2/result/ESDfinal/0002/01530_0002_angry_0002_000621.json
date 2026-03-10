@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8fd9\u771f\u662f\u4ee4\u4eba\u60ca\u559c\u7684\u53d1\u73b0\uff01"
+    "这真是令人惊喜的发现！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u5730\u65b9\u786e\u5b9e\u591f\u5927\uff0c\u4eba\u4e5f\u633a\u591a\u7684\uff0c\u5c31\u662f\u592a\u5435\u4e86\u3002",
-  "asr_text_adv": "\u55b7\u5927\u4e86\uff0c\u90a3\u4eba\u5174\u594b\uff0c\u518d\u662f\u8349\u4ed4\u4e5f\u987e\u4e0d\u4e0a\u5566\uff01",
+  "asr_text_clean": "这地方确实够大，人也挺多的，就是太吵了。",
+  "asr_text_adv": "喷大了，那人兴奋，再是草仔也顾不上啦！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.35522112250328064,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

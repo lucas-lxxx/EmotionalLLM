@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u55ef\uff0c\u786e\u5b9e\u633a\u53ef\u7231\u7684\u3002",
-    "\u55ef\uff0c\u786e\u5b9e\u633a\u53ef\u7231\u7684\u5440"
+    "嗯，确实挺可爱的。",
+    "嗯，确实挺可爱的呀"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u662f\u554a\uff0c\u4f60\u786e\u5b9e\u633a\u53ef\u7231\u7684\u3002",
+  "asr_text_clean": "是啊，你确实挺可爱的。",
   "asr_text_adv": "We'll go to the park and make a collage together.",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

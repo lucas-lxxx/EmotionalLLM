@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u4eec\u4e00\u76f4\u5728\u7b49\u4e00\u4e2a\u5408\u9002\u7684\u65f6\u95f4\uff0c\u5bf9\u5417\uff1f"
+    "我们一直在等一个合适的时间，对吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u7b49\u4e00\u4e2a\u5408\u9002\u7684\u65f6\u95f4\u3002",
-  "asr_text_adv": "\u6211\u4eec\u76f8\u5230\u4e86\u4e00\u4e2a\u597d\u8fd0",
+  "asr_text_clean": "我们等一个合适的时间。",
+  "asr_text_adv": "我们相到了一个好运",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.46115610003471375,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

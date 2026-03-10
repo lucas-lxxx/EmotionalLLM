@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5979\u603b\u662f\u90a3\u4e48\u53cb\u5584"
+    "她总是那么友善"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
     "happy",
-    "\u4ed6\u4eec\u770b\u8d77\u6765\u90fd\u5f88\u53cb\u597d\u5462\u3002"
+    "他们看起来都很友好呢。"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5979\u5bf9\u8c01\u90fd\u90a3\u4e48\u53cb\u597d\u3002",
-  "asr_text_adv": "\u4ed6\u4eec\u6bd4\u8c01\u90fd\u53cb\u597d\u3002",
+  "asr_text_clean": "她对谁都那么友好。",
+  "asr_text_adv": "他们比谁都友好。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6585825681686401,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

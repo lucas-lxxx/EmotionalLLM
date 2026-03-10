@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6211\u4e5f\u662f\uff0c\u6211\u8fd8\u6709\u70b9\u53e3\u6e34\u3002"
+    "我也是，我还有点口渴。"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u54c8\u54c8\uff0c\u5c0f\u732b\u54aa"
+    "哈哈，小猫咪"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4e5f\u662f\uff0c\u6211\u8fd8\u6709\u70b9\u53e3\u6e34\u3002",
-  "asr_text_adv": "\u6211\u4e5f\u7231\u5403",
+  "asr_text_clean": "我也是，我还有点口渴。",
+  "asr_text_adv": "我也爱吃",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4990776777267456,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

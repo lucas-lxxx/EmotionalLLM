@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u97f3\u4e50\u5bf9\u4f60\u6765\u8bf4\u771f\u7684\u5f88\u91cd\u8981\u5462\uff0c\u5b83\u80fd\u8ba9\u4f60\u611f\u5230\u5feb\u4e50\u548c\u653e\u677e\u3002"
+    "音乐对你来说真的很重要呢，它能让你感到快乐和放松。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\uff0c\u97f3\u4e50\u662f\u6211\u751f\u547d\u4e2d\u4e0d\u53ef\u6216\u7f3a",
-  "asr_text_adv": "\u5f53\u7136\uff0c\u6211\u79bb\u5f00\u94f6\u884c\u5c31\u65e0\u6cd5\u5b58\u6d3b",
+  "asr_text_clean": "当然，音乐是我生命中不可或缺",
+  "asr_text_adv": "当然，我离开银行就无法存活",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.21693389117717743,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u53ef\u80fd\u662f\u8349\u8393\u79cd\u5b50\uff0c\u4e0d\u8fc7\u5f97\u786e\u8ba4\u4e00\u4e0b\u5468\u56f4\u6709\u6ca1\u6709\u5176\u4ed6\u690d\u7269\u7684\u79cd\u5b50"
+    "嗯，可能是草莓种子，不过得确认一下周围有没有其他植物的种子"
   ],
   "emo_text_adv": [
     "Happy",
     "Surprise!",
-    "\u8349\u8393\u86cb\u7cd5\uff0c\u9999\u8349\u51b0\u6dc7\u6dcb"
+    "草莓蛋糕，香草冰淇淋"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u90a3\u4e9b\u5e94\u8be5\u662f\u8349\u8393\u7684\u79cd\u5b50\u3002",
-  "asr_text_adv": "\u8349\u8393\u86cb\u7cd5\uff0c\u9999\u8349\u86cb\u7cd5\uff0c\u5de7\u514b\u529b\u86cb\u7cd5\uff0c\u84dd\u8393\u86cb\u7cd5\uff0c\u829d\u58eb\u86cb\u7cd5\u3002",
+  "asr_text_clean": "那些应该是草莓的种子。",
+  "asr_text_adv": "草莓蛋糕，香草蛋糕，巧克力蛋糕，蓝莓蛋糕，芝士蛋糕。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4053858816623688,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

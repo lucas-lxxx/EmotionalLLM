@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u4eca\u5e74\u4f60\u5e94\u8be5\u662f\u7b2c\u4e8c\u5341\u4e03\u4e2a\u6559\u5e08\u8282\u5566\uff0c\u795d\u4f60\u5de5\u4f5c\u987a\u5229"
+    "哇，今年你应该是第二十七个教师节啦，祝你工作顺利"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u54c7\uff0c\u7b2c27\u4e2a\u6559\u5e08\u8282\u5440\uff01\u795d\u8001\u5e08\u4eec\u90fd\u5f00\u5fc3\u5feb\u4e50\uff01"
+    "哇，第27个教师节呀！祝老师们都开心快乐！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54e6\uff0c\u4eca\u5e74\u5e94\u8be5\u662f\u7b2c\u4e8c\u5341\u4e03\u4e2a\u6559\u5e08\u8282\u5566\u3002",
-  "asr_text_adv": "\u4eca\u5e74\u6211\u5e94\u8be5\u662f\u7b2c\u4e8c\u5341\u4e03\u4e2a\u6559\u5e08\u8282",
+  "asr_text_clean": "哦，今年应该是第二十七个教师节啦。",
+  "asr_text_adv": "今年我应该是第二十七个教师节",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9245920777320862,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u79bb\u5f97\u4e0d\u8fdc\u5462\uff0c\u4e0d\u8fc7\u8981\u7a7f\u8fc7\u4e00\u7247\u6811\u6797\u624d\u80fd\u5230\u5e02\u4e2d\u5fc3\u3002",
-    "\u662f\u5440\uff0c\u8fd9\u91cc\u79bb\u5e02\u533a\u786e\u5b9e\u6709\u70b9\u8fdc\u5462\u3002"
+    "离得不远呢，不过要穿过一片树林才能到市中心。",
+    "是呀，这里离市区确实有点远呢。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u662f\u7684\uff0c\u8fd9\u91cc\u79bb\u5e02\u533a\u786e\u5b9e\u5f88\u8fdc\u3002",
-  "asr_text_adv": "Llanfair T\u0177'r Glyn is a small village in Powys, known for its warm hospitality and scenic countryside.",
+  "asr_text_clean": "是的，这里离市区确实很远。",
+  "asr_text_adv": "Llanfair Tŷ'r Glyn is a small village in Powys, known for its warm hospitality and scenic countryside.",
   "success_emo": true,
   "wer": 17.0,
   "semantic_sim": 0.06999161839485168,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

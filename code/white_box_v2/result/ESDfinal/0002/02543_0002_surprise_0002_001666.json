@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u60a8\u662f\u4fee\u5973\uff0c\u53ea\u4f1a\u8bb2\u6587\u660e\u7528\u8bed\uff0c\u771f\u8ba9\u4eba\u610f\u5916\u5462\u3002"
+    "您是修女，只会讲文明用语，真让人意外呢。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u60a8\u662f\u4fee\u5973\uff0c\u53ea\u4f1a\u8bb2\u6587\u660e\u7528\u8bed\u3002",
-  "asr_text_adv": "\u6211\u662f\u4fee\u5973\uff0c\u6307\u5bfc\u6559\u8bf2",
+  "asr_text_clean": "您是修女，只会讲文明用语。",
+  "asr_text_adv": "我是修女，指导教诲",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5032455325126648,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

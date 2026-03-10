@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u7684\u5e0c\u671b\u50cf\u706f\u5854\u4e00\u6837\u660e\u4eae\u5462\uff0c\u5373\u4f7f\u9047\u5230\u4e4c\u4e91\u4e5f\u4f1a\u7ee7\u7eed\u7167\u4eae"
+    "你的希望像灯塔一样明亮呢，即使遇到乌云也会继续照亮"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7684\u5e0c\u671b\u662f\u5de5\u4f5c\u5230\u5012\u4e0b\u7684\u90a3\u4e00\u5929",
-  "asr_text_adv": "\"J'ai un voyage de r\u00eave pour une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine",
+  "asr_text_clean": "我的希望是工作到倒下的那一天",
+  "asr_text_adv": "\"J'ai un voyage de rêve pour une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine de bain, une semaine",
   "success_emo": true,
   "wer": 172.0,
   "semantic_sim": 0.2818295955657959,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

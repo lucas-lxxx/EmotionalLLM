@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54e6\uff0c\u771f\u7684\u5417\uff1f"
+    "哦，真的吗？"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u5927\u96ea\u5c01\u8def\u4e86\uff0c\u4e0d\u8fc7\u5f88\u5feb\u5c31\u4f1a\u901a\u7684\uff0c\u522b\u7740\u6025\u3002"
+    "大雪封路了，不过很快就会通的，别着急。"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5f88\u5feb\uff0c\u4f60\u4e0a\u5927\u5b66\u5c31\u7528\u5f97\u5230\u5566\uff01",
-  "asr_text_adv": "\u5f88\u5feb\uff0c\u91cc\u6602\u5927\u96ea\u62ab\u4e0a\u4e86\u9053\u3002",
+  "asr_text_clean": "很快，你上大学就用得到啦！",
+  "asr_text_adv": "很快，里昂大雪披上了道。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.11282657086849213,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

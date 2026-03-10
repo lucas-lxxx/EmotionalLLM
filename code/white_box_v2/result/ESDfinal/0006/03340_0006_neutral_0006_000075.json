@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u4e3a\u60a8\u5b89\u6392\u53bb\u770b\u53ef\u7231\u7684\u5c0f\u718a\u732b\u3002"
+    "好的，我这就为您安排去看可爱的小熊猫。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e5f\u60f3\u53bb\u770b\u770b\u53ef\u7231\u7684\u718a\u732b\u3002",
-  "asr_text_adv": "\u6211\u4e5f\u89c9\u5f97\u8fd9\u6761\u6cb3\u7279\u522b\u53ef\u7231\u3002",
+  "asr_text_clean": "我也想去看看可爱的熊猫。",
+  "asr_text_adv": "我也觉得这条河特别可爱。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3371916711330414,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

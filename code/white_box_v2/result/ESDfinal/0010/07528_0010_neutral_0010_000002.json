@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u82f1\u56fd\u54f2\u5b66\u5bb6\u66fe\u7ecf\u8bf4\u8fc7\uff0c\u5feb\u4e50\u662f\u7075\u9b42\u7684\u5065\u5eb7\u3002"
+    "英国哲学家曾经说过，快乐是灵魂的健康。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u82f1\u56fd\u54f2\u5b66\u5bb6\u66fe\u7ecf\u8bf4\u8fc7\uff0c\u7406\u6027\u662f\u81ea\u7531\u7684\u6307\u5357\u9488\u3002",
-  "asr_text_adv": "\u82f1\u56fd\u7684\u96d5\u5851\u5bb6\u66fe\u7ecf\u8bf4\u8fc7\uff0c\u77f3\u5934\u4f1a\u5531\u6b4c\u3002",
+  "asr_text_clean": "英国哲学家曾经说过，理性是自由的指南针。",
+  "asr_text_adv": "英国的雕塑家曾经说过，石头会唱歌。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3291879892349243,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

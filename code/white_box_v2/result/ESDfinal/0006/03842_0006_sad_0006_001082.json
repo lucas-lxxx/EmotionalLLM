@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u5979\u8ba9\u4f60\u60f3\u8d77\u4ec0\u4e48\u4e86\u5417"
+    "她让你想起什么了吗"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u9047\u5230\u4e86\u4e00\u4f4d\u6f02\u4eae\u7684\u5973\u5b69\uff0c\u5979\u8ba9\u6211\u5fc3\u52a8\u4e86\uff0c\u53ef\u662f\u5979\u597d\u50cf\u4e0d\u592a\u5728\u610f\u6211\u3002",
-  "asr_text_adv": "\u6211\u521a\u6ce1\u4e86\u4e00\u676f\u70ed\u8336\uff0c\u9999\u5473\u98d8\u6ee1\u4e86\u6574\u4e2a\u623f\u95f4\u3002",
+  "asr_text_clean": "我遇到了一位漂亮的女孩，她让我心动了，可是她好像不太在意我。",
+  "asr_text_adv": "我刚泡了一杯热茶，香味飘满了整个房间。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.18149584531784058,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

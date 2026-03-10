@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u97f3\u4e50\u4f1a"
+    "好的，音乐会"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u65b0\u7684\u97f3\u4e50\u5385\u6709\u4e00\u573a\u97f3\u4e50\u4f1a",
+  "asr_text_clean": "好的，新的音乐厅有一场音乐会",
   "asr_text_adv": "\"Let's go on an adventure! We'll pack our bags and explore new places together!\"",
   "success_emo": true,
   "wer": 14.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u6211\u8fd9\u4e0d\u662f\u88ab\u4f60\u5413\u61f5"
+    "哎呀，我这不是被你吓懵"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u56e0\u4e3a\u60f3\u770b\u770b\u4f60\u5440\uff0c\u800c\u4e14\u5077\u7b11\u8d77\u6765\u7279\u522b\u6709\u610f\u601d"
+    "因为想看看你呀，而且偷笑起来特别有意思"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u6211\u8fd9\u4e0d\u662f\u88ab\u4f60\u5413\u61f5",
-  "asr_text_adv": "\u201c\u4e3a\u4ec0\u4e48\u8981\u5077\u7b11\u5462\uff1f\u8fd9\u4e0d\u592a\u597d",
+  "asr_text_clean": "哎呀，我这不是被你吓懵",
+  "asr_text_adv": "“为什么要偷笑呢？这不太好",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5338219404220581,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

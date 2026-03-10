@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6124\u6012\u7684\u81ea\u7136\u58f0\u97f3\u50cf\u66b4\u98ce\u96e8\u7684\u6012\u543c\u3002"
+    "愤怒的自然声音像暴风雨的怒吼。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5927\u81ea\u7136\u7684\u58f0\u97f3\u5c31\u50cf\u97f3\u4e50\u4e00\u6837",
-  "asr_text_adv": "\u55ef\uff0c\u81ea\u7136\u751f\u957f\u5c31\u50cf\u542c\u97f3\u4e50\u4e00\u6837\uff0c\u5bf9\u5427\uff1f",
+  "asr_text_clean": "大自然的声音就像音乐一样",
+  "asr_text_adv": "嗯，自然生长就像听音乐一样，对吧？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7574609518051147,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

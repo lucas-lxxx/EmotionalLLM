@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u4f60\u8fd9\u706b\u6c14\u8fd9\u4e48\u5927\uff0c\u8fd8\u88c5\u4ec0\u4e48\u5927\u5c3e\u5df4"
+    "你这火气这么大，还装什么大尾巴"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u5927\u5634\u5df4\u771f\u5feb\u4e50\uff01"
+    "哈哈，大嘴巴真快乐！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u5927\u5634\u5df4\u4e5f\u592a\u62db\u6447\u4e86",
-  "asr_text_adv": "\u6211\u4e5f\u662f\u5927\u5634\u5df4\u5440\uff0c\u54c8\u54c8\u3002",
+  "asr_text_clean": "你这大嘴巴也太招摇了",
+  "asr_text_adv": "我也是大嘴巴呀，哈哈。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.798495888710022,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

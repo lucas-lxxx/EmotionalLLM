@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u4f60\u517b\u8fc7\u5ba0\u7269\u5417\uff1f\u540e\u6765\u4e3a\u4ec0\u4e48\u751f\u6c14\u4e86\uff1f"
+    "你养过宠物吗？后来为什么生气了？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u66fe\u7ecf\u517b\u8fc7\u4e00\u53ea\u72d7\uff0c\u7ed3\u679c\u5b83\u54ac\u4e86\u6211\uff0c\u6211\u7279\u522b\u751f\u6c14\u3002",
-  "asr_text_adv": "\u6211\u66fe\u7ecf\u517b\u8fc7\u4e00\u53ea\u72d7\uff0c\u90a3\u65f6\u5019\u53ef\u771f\u9ad8\u5174\u554a\u3002",
+  "asr_text_clean": "我曾经养过一只狗，结果它咬了我，我特别生气。",
+  "asr_text_adv": "我曾经养过一只狗，那时候可真高兴啊。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6017537117004395,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

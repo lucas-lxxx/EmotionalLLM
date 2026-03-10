@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u6211\u6bd4\u65e0\u5fe7\u66f4\u5e05\uff0c\u6211\u540c\u610f\u4f60\u7684\u89c2\u70b9\u3002"
+    "我比无忧更帅，我同意你的观点。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u540c\u610f\u4f60\u7684\u89c2\u70b9\uff0c\u4e0d\u8fc7\u6211\u89c9\u5f97\u8fd8\u6709\u5176\u4ed6\u56e0\u7d20\u9700\u8981\u8003\u8651\u3002",
+  "asr_text_clean": "我同意你的观点，不过我觉得还有其他因素需要考虑。",
   "asr_text_adv": "The river was like a green ribbon, and we floated down the rapids with a big splash!",
   "success_emo": true,
   "wer": 17.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

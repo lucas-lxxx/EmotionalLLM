@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise",
     "Surprise.",
-    "\u8c22\u8c22\u5938\u5956\uff0c\u5f88\u9ad8\u5174\u4e3a\u60a8\u89e3\u7b54\u3002"
+    "谢谢夸奖，很高兴为您解答。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8c22\u8c22\u5938\u5956\uff0c\u5f88\u9ad8\u5174\u4e3a\u60a8\u89e3\u7b54\u3002",
-  "asr_text_adv": "\u6211\u662f\u4e00\u540d\u6559\u5e08\uff0c\u6211\u7684\u773c\u775b\u603b\u662f\u5145\u6ee1\u597d\u5947\u3002",
+  "asr_text_clean": "谢谢夸奖，很高兴为您解答。",
+  "asr_text_adv": "我是一名教师，我的眼睛总是充满好奇。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.20568439364433289,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

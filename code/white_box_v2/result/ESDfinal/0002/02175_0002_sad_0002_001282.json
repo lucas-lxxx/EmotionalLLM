@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u6700\u8fd1\u5728\u7ec3\u4e60\u68cb\u827a\u5417\uff1f\u542c\u8d77\u6765",
-  "asr_text_adv": "\u6211\u6700\u8fd1\u5728\u7ec3\u4e60\u6211\u7684\u82f1\u8bed\u53e3\u8bed",
+  "asr_text_clean": "你最近在练习棋艺吗？听起来",
+  "asr_text_adv": "我最近在练习我的英语口语",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.29668715596199036,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

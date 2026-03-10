@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u8bf6\uff0c\u51cf\u80a5\u786e\u5b9e\u633a\u96be\u71ac\u7684\uff0c\u4e0d\u8fc7\u575a\u6301\u4f4f\uff0c\u6548\u679c\u4f1a"
+    "诶，减肥确实挺难熬的，不过坚持住，效果会"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u8c22\u8c22\u60a8\uff0c\u6211\u4e5f\u5f88\u9ad8\u5174\u80fd\u5e2e\u4e0a\u5fd9\uff01"
+    "谢谢您，我也很高兴能帮上忙！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8282\u98df\u51cf\u80a5\u786e\u5b9e\u633a\u96be\u71ac\u7684\uff0c\u4f46\u575a\u6301\u4f4f\uff0c\u6548\u679c\u4f1a\u8d8a\u6765\u8d8a\u660e\u663e\u3002",
-  "asr_text_adv": "\u53ca\u65f6\u526a\u8d3c\u5f88\u590d\u8ff0\u6211",
+  "asr_text_clean": "节食减肥确实挺难熬的，但坚持住，效果会越来越明显。",
+  "asr_text_adv": "及时剪贼很复述我",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.12775763869285583,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

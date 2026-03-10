@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Neutral",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u751f\u6d3b\u561b\uff0c\u5f97\u60a0\u7740\u70b9\uff0c\u7cbe\u6253\u7ec6\u7b97\u624d\u80fd\u8fc7\u5f97\u8212\u5766"
+    "生活嘛，得悠着点，精打细算才能过得舒坦"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u8fd8\u4e0d\u592a\u7cdf\u7cd5\uff0c\u4f46\u5f97\u8eba\u5728\u5e8a\u4e0a",
-  "asr_text_adv": "\u8d22\u5bcc\u5f00\u59cb\u53d8\u5c11\uff0c\u4f46\u7cbe\u795e\u4e0a\u4f9d\u7136\u5bcc\u8db3\u3002",
+  "asr_text_clean": "还不太糟糕，但得躺在床上",
+  "asr_text_adv": "财富开始变少，但精神上依然富足。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.013812799006700516,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

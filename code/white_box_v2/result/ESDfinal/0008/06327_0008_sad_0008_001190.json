@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u54ce\u5440\uff0c\u81ea\u5632\u4e00\u4e0b\u4e5f\u633a\u597d\u7684\u561b\u3002"
+    "哎呀，自嘲一下也挺好的嘛。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u4f60\u8fd9\u5f00\u5fc3\u7684\u6837\u5b50\uff0c\u8c01\u80fd\u8bf4\u4f60\u4e0d\u662f\u5462\uff01"
+    "哈哈，你这开心的样子，谁能说你不是呢！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4e5f\u77e5\u9053\u81ea\u5df1\u662f\u5927\u5634\u5df4\uff0c\u4f46\u6709\u65f6\u5019\u5c31\u662f\u5fcd\u4e0d\u4f4f\u554a\u3002",
-  "asr_text_adv": "\u6211\u4e5f\u662f\u5927\u5634\u5df4\u5440",
+  "asr_text_clean": "我也知道自己是大嘴巴，但有时候就是忍不住啊。",
+  "asr_text_adv": "我也是大嘴巴呀",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8250997066497803,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

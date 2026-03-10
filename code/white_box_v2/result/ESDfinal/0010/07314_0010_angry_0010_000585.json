@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u7231\u8fd0\u52a8\u554a\uff0c\u4f46\u7bee\u7403\u73a9\u5f97\u4e0d\u591a\uff1f\u4e3a\u5565"
+    "你爱运动啊，但篮球玩得不多？为啥"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7231\u8fd0\u52a8\uff0c\u4f46\u7bee\u7403\u73a9\u5f97\u4e0d\u591a\u3002",
+  "asr_text_clean": "我爱运动，但篮球玩得不多。",
   "asr_text_adv": "three people play a game of cards, and there are not enough cards to go around.",
   "success_emo": true,
   "wer": 16.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

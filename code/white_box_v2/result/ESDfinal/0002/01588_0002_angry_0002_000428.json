@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4ed6\u4eec\u7684\u8bbe\u8ba1\u786e\u5b9e\u633a\u5c0f\u5de7"
+    "他们的设计确实挺小巧"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5b83\u4eec\u7684\u8bbe\u8ba1\u5f88\u53ef\u7231\uff0c\u64cd\u4f5c\u8d77\u6765\u4e5f\u5f88\u7b80\u5355\u54e6\uff01"
+    "它们的设计很可爱，操作起来也很简单哦！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4ed6\u4eec\u7684\u8bbe\u8ba1\u5916\u89c2\u5c0f\u800c\u7cbe\u81f4\uff0c\u5355\u624b\u64cd\u4f5c\u8d77\u6765\u5f88\u65b9\u4fbf",
-  "asr_text_adv": "\u5b83\u4eec\u7684\u5916\u5f62\u5c0f\u5de7",
+  "asr_text_clean": "他们的设计外观小而精致，单手操作起来很方便",
+  "asr_text_adv": "它们的外形小巧",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.556770920753479,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

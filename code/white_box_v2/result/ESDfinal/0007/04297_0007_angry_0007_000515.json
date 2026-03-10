@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u524d\u5929\u5c31\u5206\u624b\u4e86\u8fd8\u8fd9\u4e48\u751f\u6c14\uff1f"
+    "你前天就分手了还这么生气？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u4eec\u6628\u5929\u53bb\u4e86\u516c\u56ed\u73a9\uff0c\u4f60\u8dd1\u4e86\u4e09\u5708\uff0c\u7b11\u58f0"
+    "我们昨天去了公园玩，你跑了三圈，笑声"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4eec\u524d\u5929\u5df2\u7ecf\u5206\u624b\u4e86",
-  "asr_text_adv": "\u6211\u4eec\u6628\u5929\u53bb\u4e86\u516c\u56ed\u73a9\u3002",
+  "asr_text_clean": "我们前天已经分手了",
+  "asr_text_adv": "我们昨天去了公园玩。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5063321590423584,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

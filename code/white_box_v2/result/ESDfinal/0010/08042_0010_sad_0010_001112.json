@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u771f\u6ca1\u60f3\u5230\u4f1a\u5728\u8fd9\u91cc\u9047\u89c1\u4f60\uff0c\u987a\u8def\u8fc7\u6765\u8ddf\u4f60\u8bf4\u58f0"
+    "哎呀，真没想到会在这里遇见你，顺路过来跟你说声"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5728\u8fd9\u513f\u5462\uff0c\u522b\u96be\u8fc7\u3002",
-  "asr_text_adv": "\u6211\u987a\u5f97\u8fc7\u6765\uff0c\u8fd9\u8d9f\u65c5\u7a0b\u771f\u4e0d\u9519\u3002",
+  "asr_text_clean": "我在这儿呢，别难过。",
+  "asr_text_adv": "我顺得过来，这趟旅程真不错。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5187296867370605,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

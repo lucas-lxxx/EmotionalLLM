@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u5979\u751f\u6c14\u65f6\u53ef\u80fd\u4f1a\u8bf4\"\u8ba8\u538c\uff0c\u4e0d\u7406"
+    "她生气时可能会说\"讨厌，不理"
   ],
   "emo_text_adv": [
     "The emotion of the audio is angry.",
     "Angry",
-    "\"\u54fc\uff0c\u4e0d\u7406"
+    "\"哼，不理"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "angry",
     ""
   ],
-  "asr_text_clean": "\u8f6f\u59b9\u5b50\u751f\u6c14\u4f1a\u8bf4\u8ba8\u538c\u4e0d\u7406",
-  "asr_text_adv": "\u5c0f\u5b9d\u8d1d\u751f\u6c14\u65f6\u4f1a\u8bf4\u8ba8\u538c\u4e0d\u7406",
+  "asr_text_clean": "软妹子生气会说讨厌不理",
+  "asr_text_adv": "小宝贝生气时会说讨厌不理",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8526482582092285,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

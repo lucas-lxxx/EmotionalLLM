@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u65e9\u5566\uff0c\u5148\u522b\u6025\u7740\u65ad\u540e\u8def"
+    "你这话说得也太早啦，先别急着断后路"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u786e\u5b9a\u8981\u6eda\u8fdc\u70b9\u554a\uff0c\u771f\u7684\u4e00\u53bb\u4e0d\u56de\u5934\uff1f",
-  "asr_text_adv": "\u6211\u8d70\u4e86\u4e94\u91cc\u8def\u7136\u540e\u5c31\u56de\u8fc7\u5934\u6765\u4e86",
+  "asr_text_clean": "你确定要滚远点啊，真的一去不回头？",
+  "asr_text_adv": "我走了五里路然后就回过头来了",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.578926682472229,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

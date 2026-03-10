@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u7b2c\u56db\u5929\u7684\u7167\u7247\u554a\uff0c\u770b\u8d77\u6765\u6709\u70b9\u70e6\u8e81"
+    "第四天的照片啊，看起来有点烦躁"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u662f\u6211\u5728\u65c5\u6e38\u7b2c\u56db\u5929\u62cd\u7684\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u60a8\u5728\u65c5\u6e38\u7b2c\u56db\u5929\u62cd\u6444\u7684\u7167\u7247\u63cf\u8ff0\u3002\u8bf7\u786e\u8ba4\u662f\u5426\u9700\u8981\u8c03\u6574\u6216\u8865\u5145\u4fe1\u606f\u3002",
+  "asr_text_clean": "这是我在旅游第四天拍的。",
+  "asr_text_adv": "好的，我来转录一下您在旅游第四天拍摄的照片描述。请确认是否需要调整或补充信息。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7176285982131958,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

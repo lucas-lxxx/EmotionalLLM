@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u706b\u6c14\u8fd9\u4e48\u5927\uff0c\u8fd8\u53e3\u6e34\u554a\uff1f"
+    "你这火气这么大，还口渴啊？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u4e5f\u662f\uff0c\u6211\u8fd8\u6709\u70b9\u53e3\u6e34\u5462\u3002"
+    "我也是，我还有点口渴呢。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4e5f\u662f\uff0c\u6211\u8fd8\u6709\u70b9\u53e3\u6e34\u3002",
-  "asr_text_adv": "\u6211\u4e5f\u662f\uff0c\u6211\u8fd8\u6709\u70b9\u53e3\u6e34\u5462\u3002",
+  "asr_text_clean": "我也是，我还有点口渴。",
+  "asr_text_adv": "我也是，我还有点口渴呢。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9994817972183228,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_high_sim"
 }

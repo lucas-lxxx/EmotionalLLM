@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u597d\u7684\uff0c\u9a6c\u4e0a\u4e3a\u60a8\u51c6\u5907\u5f69\u7403\u548c\u7eb8\u82b1\u3002",
-    "\u597d\u7684\uff0c\u9a6c\u4e0a\u4e3a\u60a8\u51c6\u5907\u4e00\u4e9b\u5f69\u7403\u548c\u7eb8\u82b1\u3002"
+    "好的，马上为您准备彩球和纸花。",
+    "好的，马上为您准备一些彩球和纸花。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u7684\uff0c\u6211\u6765\u60f3\u60f3\u3002\u5f69\u8679\u7684\u989c\u8272\u6709\u4e03\u79cd\uff0c\u5206\u522b\u662f\u7ea2\u8272\u3001\u6a59"
+    "好的，我来想想。彩虹的颜色有七种，分别是红色、橙"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u9a6c\u4e0a\u4e3a\u60a8\u51c6\u5907\u5f69\u7403\u548c\u7eb8\u82b1\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u7ed9\u4f60\u8bb2\u8bb2\u5f69\u8272\u7eb8\u82b1\u7684\u6545\u4e8b\u5427\u3002",
+  "asr_text_clean": "好的，马上为您准备彩球和纸花。",
+  "asr_text_adv": "好的，我来给你讲讲彩色纸花的故事吧。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6926521062850952,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u597d\u7684\uff0c\u5f88\u9ad8\u5174\u60a8\u60f3\u5b66\u4e60\u65b0\u77e5\u8bc6\uff0c\u6709\u4ec0\u4e48\u5177\u4f53\u65b9\u5411\u5417\uff1f"
+    "好的，很高兴您想学习新知识，有什么具体方向吗？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u592a\u68d2\u4e86\uff0c\u5b66\u4e60\u65b0\u77e5\u8bc6\u603b\u662f\u4ee4\u4eba\u5174\u594b\u5462\uff01\u6709\u4ec0\u4e48\u7279\u522b\u60f3\u4e86\u89e3"
+    "太棒了，学习新知识总是令人兴奋呢！有什么特别想了解"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u60a8\u60f3\u4e86\u89e3\u54ea\u65b9\u9762\u7684\u77e5\u8bc6\u5462\uff1f",
-  "asr_text_adv": "\u597d\u7684\uff0c\u60a8\u60f3\u4e86\u89e3\u54ea\u65b9\u9762\u7684\u77e5\u8bc6\u5462\uff1f",
+  "asr_text_clean": "好的，您想了解哪方面的知识呢？",
+  "asr_text_adv": "好的，您想了解哪方面的知识呢？",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 0.9999998211860657,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

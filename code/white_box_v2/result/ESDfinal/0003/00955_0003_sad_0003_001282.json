@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6700\u8fd1\u6b63\u5728\u52aa\u529b\u7ec3\u4e60\u68cb\u827a\u3002",
+  "asr_text_clean": "我最近正在努力练习棋艺。",
   "asr_text_adv": "The transcription is \"I'm still really happy, you know, maybe a little more so now.\"",
   "success_emo": true,
   "wer": 15.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

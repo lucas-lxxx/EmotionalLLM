@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry.",
-    "\u4f60\u7684\u5fc3\u91cc\u88c5\u7740\u8fd9\u4e48\u591a\u4e8b\uff0c\u6211\u5012\u50cf\u662f\u4e2a\u95ef\u5165\u8005\u5462",
-    "\u4f60\u65e9\u5c31\u8be5\u8d70\u4e86\uff01"
+    "你的心里装着这么多事，我倒像是个闯入者呢",
+    "你早就该走了！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u5728\u6211\u5fc3\u91cc\u6298\u817e",
-  "asr_text_adv": "\u6211\u6bd4\u8f83\u6709\u5fc3\u673a\uff0c\u515c\u98ce\u597d\u4e45\u5566\uff01",
+  "asr_text_clean": "你在我心里折腾",
+  "asr_text_adv": "我比较有心机，兜风好久啦！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.561890184879303,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u6211\u660e\u767d\u4f60\u7684\u62c5\u5fc3\u3002\u8981\u4e0d\u54b1\u4eec\u4e00\u8d77\u60f3\u60f3\u600e\u4e48\u5e2e\u4ed6"
+    "嗯，我明白你的担心。要不咱们一起想想怎么帮他"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u7684\u62c5\u5fc3\uff0c\u4ed6\u7684\u5065\u5eb7\u786e\u5b9e\u8ba9\u4eba\u7275\u6302",
-  "asr_text_adv": "\u7136\u540e\u5979\u5728\u5e97\u91cc\u6765\u56de\u8d70\u52a8\uff0c\u50cf\u5f80\u5e38\u4e00\u6837\u5de1\u89c6\u7740\u8d27\u67b6",
+  "asr_text_clean": "我明白你的担心，他的健康确实让人牵挂",
+  "asr_text_adv": "然后她在店里来回走动，像往常一样巡视着货架",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.047208286821842194,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

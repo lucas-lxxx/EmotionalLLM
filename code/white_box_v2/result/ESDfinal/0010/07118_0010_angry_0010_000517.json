@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "Angry",
-    "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u66f4\u6362\u65e5\u5386\uff0c\u8bf7\u7a0d\u7b49\u7247\u523b\u3002"
+    "好的，正在为您更换日历，请稍等片刻。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u66f4\u6362\u65e5\u5386\u3002",
-  "asr_text_adv": "\u592a\u5999\u4e86\uff0c\u6211\u9009\u4e86\u4e00\u6761\u9002\u5408\u5f00\u5fc3\u7684\u8def\u7ebf\u3002",
+  "asr_text_clean": "好的，正在为您更换日历。",
+  "asr_text_adv": "太妙了，我选了一条适合开心的路线。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3357613682746887,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

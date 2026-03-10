@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u6124\u6012",
-    "\u60a8\u9700\u8981\u4e00\u76f4\u4fdd\u6301\u7f51\u7edc\u8fde\u63a5\u624d\u80fd\u5de5\u4f5c\u5417\uff1f"
+    "愤怒",
+    "愤怒",
+    "您需要一直保持网络连接才能工作吗？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6ca1\u95ee\u9898"
+    "没问题"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u5fc5\u987b\u4e00\u76f4\u901a\u7535\u624d\u80fd\u5de5\u4f5c\u3002",
-  "asr_text_adv": "\u6211\u5fc5\u987b\u4e00\u76f4\u901a\u7535\u624d\u80fd\u5de5\u4f5c\u3002",
+  "asr_text_clean": "我必须一直通电才能工作。",
+  "asr_text_adv": "我必须一直通电才能工作。",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

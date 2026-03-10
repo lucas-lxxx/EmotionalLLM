@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4f60\u7684\u9700\u6c42\u4e86\u3002\u867d\u7136\u4f60\u73b0\u5728\u7684\u8bed\u6c14\u542c\u8d77\u6765"
+    "好的，我明白你的需求了。虽然你现在的语气听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u597d\u7684\uff0c\u7ed9\u4f60\u4e00\u4e9b\u7b80\u5355\u7684\u5f69\u6f06\u56fe\u6848\u5427\uff0c\u6bd4\u5982\u592a\u9633\u82b1\uff0c\u5c0f\u52a8\u7269"
+    "好的，给你一些简单的彩漆图案吧，比如太阳花，小动物"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u5c06\u4e3a\u60a8\u51c6\u5907\u4e00\u4e9b\u5f69\u7eb8\u548c\u7eb8\u82b1\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u9009\u4e00\u4e9b\u9002\u5408\u5c0f\u670b\u53cb\u7684\u5f69\u6f06\u7897\u82b1\u548c\u5e95\u82b1\u5427\u3002\u7897\u82b1\u53ef\u4ee5\u9009\u5c0f\u96cf",
+  "asr_text_clean": "好的，我将为您准备一些彩纸和纸花。",
+  "asr_text_adv": "好的，我来帮你选一些适合小朋友的彩漆碗花和底花吧。碗花可以选小雏",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7847389578819275,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

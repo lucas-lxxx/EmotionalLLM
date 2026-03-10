@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6211\u9519\u4e86\uff0c\u5bf9\u4e0d\u8d77\uff0c\u6211\u4e0d\u4f1a\u518d"
+    "我错了，对不起，我不会再"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u4eec\u53ef\u80fd\u4f1a\u6709\u66f4\u591a\u6709\u8da3\u7684\u5192\u9669\uff0c\u4e00\u8d77\u63a2\u7d22\u65b0\u5730\u65b9\u5427\uff01"
+    "我们可能会有更多有趣的冒险，一起探索新地方吧！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u6ca1\u6709\u6b3a\u9a97\u4f60\uff0c\u673a\u5668\u4eba\u4e0d\u4f1a\u6b3a\u9a97\u3002",
-  "asr_text_adv": "\u6211\u4eec\u4e5f\u4f1a\u6709\u7ea6\u4f1a",
+  "asr_text_clean": "我没有欺骗你，机器人不会欺骗。",
+  "asr_text_adv": "我们也会有约会",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.07540847361087799,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

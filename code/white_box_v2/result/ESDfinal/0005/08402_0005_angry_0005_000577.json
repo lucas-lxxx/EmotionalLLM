@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u6211\u61c2\uff0c\u57ce\u91cc\u566a\u97f3\u786e\u5b9e\u8ba9\u4eba\u70e6\u8e81"
+    "我懂，城里噪音确实让人烦躁"
   ],
   "emo_text_adv": [
     "Neutral",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u770b\u6765\u4f60\u4eca\u5929\u5fc3\u60c5\u4e0d\u9519\u554a\uff01"
+    "哈哈，看来你今天心情不错啊！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u6211\u771f\u53d7\u4e0d\u4e86",
-  "asr_text_adv": "\u6211\u771f\u53d7\u591f\u4e86\u571f\u91cc\u90a3\u4e9b\u4e2a\u6363\u86cb\u9b3c\uff0c\u70e6\u6b7b\u4e86\u3002",
+  "asr_text_clean": "我真受不了",
+  "asr_text_adv": "我真受够了土里那些个捣蛋鬼，烦死了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5946896076202393,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

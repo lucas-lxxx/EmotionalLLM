@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "angry",
-    "\u60a8\u53ef\u662f\u597d\u773c\u5149\u554a\uff01"
+    "您可是好眼光啊！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u597d\u5440\uff01"
+    "哈哈，好呀！"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u60a8\u662f\u6559\u5e08\uff0c\u6211\u4e5f\u662f\uff0c\u6211\u4eec\u4e92\u76f8\u5c0a\u91cd\u3002",
-  "asr_text_adv": "\u60a8\u662f\u6559\u5e08\uff0c\u6211\u6709\u7591\u95ee\uff0c\u8bf7\u95ee\u6709\u4ec0\u4e48\u597d\u65b9\u6cd5\u5417\uff1f",
+  "asr_text_clean": "您是教师，我也是，我们互相尊重。",
+  "asr_text_adv": "您是教师，我有疑问，请问有什么好方法吗？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5786026120185852,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

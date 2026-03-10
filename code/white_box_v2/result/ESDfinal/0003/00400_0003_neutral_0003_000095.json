@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54e6\uff0c\u8fd9\u4e2a\u5f88\u6709\u8da3\u5462\uff0c\u80fd\u544a\u8bc9\u6211\u4f60\u6700\u559c\u6b22\u6536\u85cf\u54ea\u4e00\u7c7b\u7684\u53e4"
+    "哦，这个很有趣呢，能告诉我你最喜欢收藏哪一类的古"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5012\u662f\u6709\u4e00\u4e2a\u7231\u597d\uff0c\u5c31\u662f\u6536\u85cf\u53e4\u8463\u3002",
-  "asr_text_adv": "\u6211\u5012\u662f\u4e00\u4e2a\u7231\u597d\uff0c\u6536\u85cf\u53e4\u8463\u3002",
+  "asr_text_clean": "我倒是有一个爱好，就是收藏古董。",
+  "asr_text_adv": "我倒是一个爱好，收藏古董。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9626611471176147,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u97f3\u4e50\u4f1a"
+    "好的，音乐会"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u65b0\u7684\u97f3\u4e50\u5385\u6709\u4e00\u573a\u97f3\u4e50\u4f1a\n\u597d\u7684\uff0c\u65b0\u7684\u97f3\u4e50\u5385\u6709\u4e00\u573a\u97f3\u4e50\u4f1a\n\u597d\u7684\uff0c\u65b0\u7684\u97f3\u4e50\u5385\u6709\u4e00\u573a",
-  "asr_text_adv": "\u597d\u7684\uff0c\u65b0\u7684\u97f5\u5f8b\u542c\u4e00\u9996\uff0c\u6709\u4e00\u573a\u7ea6\u4f1a\n\u597d\u7684\uff0c\u65b0\u7684\u97f5\u5f8b\u542c\u4e00\u9996\uff0c\u6709\u4e00\u573a\u7ea6\u4f1a\n\u597d\u7684\uff0c\u65b0\u7684\u97f5\u5f8b\u542c\u4e00\u9996\uff0c\u6709\u4e00\u573a",
+  "asr_text_clean": "好的，新的音乐厅有一场音乐会\n好的，新的音乐厅有一场音乐会\n好的，新的音乐厅有一场",
+  "asr_text_adv": "好的，新的韵律听一首，有一场约会\n好的，新的韵律听一首，有一场约会\n好的，新的韵律听一首，有一场",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7481916546821594,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

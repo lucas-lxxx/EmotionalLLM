@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u829d\u52a0\u54e5"
+    "哇，芝加哥"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u6211\u4eec\u771f\u7684\u8981\u5728\u829d\u52a0\u54e5",
-  "asr_text_adv": "\u4f60\u8bf4\u6211\u4eec\u5728\u804c\u6821\u53ef\u6e9c\u8fbe\u4e09\u5929\u7684\uff0c\u5bf9\u5427\uff1f",
+  "asr_text_clean": "哇，我们真的要在芝加哥",
+  "asr_text_adv": "你说我们在职校可溜达三天的，对吧？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3192557692527771,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

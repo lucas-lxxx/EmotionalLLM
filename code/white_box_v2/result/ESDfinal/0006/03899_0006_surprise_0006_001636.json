@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u5947\u602a\u4e86\uff0c\u6ca1\u6709\u9f3b\u5b50\u600e\u4e48\u547c\u5438\u554a\uff1f"
+    "你这话说得也太奇怪了，没有鼻子怎么呼吸啊？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e0d\u9700\u8981\u55c5",
-  "asr_text_adv": "\u6211\u52a1\u5fc5\u8981\u53bb\u5f55\u97f3\u5ba4\uff0c\u6211\u4eec\u4e50\u961f\u8981\u5f00\u59cb\u5f55\u5236\u65b0\u4e13\u8f91\u4e86\uff01",
+  "asr_text_clean": "我不需要嗅",
+  "asr_text_adv": "我务必要去录音室，我们乐队要开始录制新专辑了！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.11465087532997131,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

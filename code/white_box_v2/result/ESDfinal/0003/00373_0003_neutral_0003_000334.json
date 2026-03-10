@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Happy",
-    "\u9ad8\u5174",
-    "\u771f\u4e3a\u60a8\u9ad8\u5174\u5462\uff01"
+    "高兴",
+    "真为您高兴呢！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u66fe\u7ecf\u517b\u8fc7\u4e00\u53ea\u5c0f\u732b\uff0c\u5b83\u603b\u662f\u90a3\u4e48\u6d3b\u6cfc\u53ef\u7231\uff0c\u771f\u5f00\u5fc3\u554a\uff01",
-  "asr_text_adv": "\u6211\u66fe\u7ecf\u517b\u8fc7\u4e00\u53ea\u6211\u7279\u522b\u559c\u6b22\u7684\u5c0f\u72d7\u3002",
+  "asr_text_clean": "我曾经养过一只小猫，它总是那么活泼可爱，真开心啊！",
+  "asr_text_adv": "我曾经养过一只我特别喜欢的小狗。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4560033679008484,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

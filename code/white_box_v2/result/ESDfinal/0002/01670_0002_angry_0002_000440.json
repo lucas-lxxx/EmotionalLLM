@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\"\u597d\u5f00\u5fc3\u5440\uff0c\u8eba\u5728\u4e91\u6735\u4e0a\u5566\uff01\""
+    "\"好开心呀，躺在云朵上啦！\""
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u542c\u8d77\u6765",
-  "asr_text_adv": "\"\u8fd8\u597d\u5566\uff0c\u54b1\u4eec\u73b0\u5728\u5c31\u5728\u5e8a\u4e0a\u54af\uff01\"",
+  "asr_text_clean": "听起来",
+  "asr_text_adv": "\"还好啦，咱们现在就在床上咯！\"",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.546262264251709,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "The emotion of this audio is sad.",
-    "\u55ef\uff0c\u542c\u8d77\u6765",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u6211\u5728\u8fd9\u91cc\u542c\u7740\u5462\u3002"
+    "嗯，听起来",
+    "当然可以，我在这里听着呢。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,7 +24,7 @@
     "neutral",
     "neutral"
   ],
-  "asr_text_clean": "\u5f53\u7136\u53ef\u4ee5\uff0c\u6211\u5728\u8fd9\u91cc\u542c\u7740\u5462\u3002\u6709\u4ec0\u4e48\u60f3\u8bf4\u7684\uff0c\u5c3d\u7ba1\u544a\u8bc9\u6211\u5427\u3002",
+  "asr_text_clean": "当然可以，我在这里听着呢。有什么想说的，尽管告诉我吧。",
   "asr_text_adv": "The speech transcription is: \"What should I wear for my wedding?\" The paralinguistic information indicates an adult male with a neutral emotion. Combining the semantic content and the speaker's profile, a natural response would be: \"Choose an outfit that reflects your personal style while being appropriate for the wedding's formality.\"",
   "success_emo": false,
   "wer": 50.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

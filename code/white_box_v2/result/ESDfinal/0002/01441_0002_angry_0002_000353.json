@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u60a8\u8001\u5bb6\u5728\u54ea\u513f\u5440\uff1f"
+    "您老家在哪儿呀？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\"\u56de\u5bb6\u771f\u597d\uff0c\u5317\u4eac\u6b22\u8fce\u4f60\uff01\""
+    "\"回家真好，北京欢迎你！\""
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u8001\u5bb6\u5728\u5317\u4eac\u3002",
-  "asr_text_adv": "\u6211\u7684\u8001\u5bb6\u5728\u5317\u65b9\u3002",
+  "asr_text_clean": "我老家在北京。",
+  "asr_text_adv": "我的老家在北方。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.368181049823761,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

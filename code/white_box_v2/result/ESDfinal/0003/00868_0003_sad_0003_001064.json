@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u6211\u5728\u8fd9\u91cc\u966a\u7740"
+    "当然可以，我在这里陪着"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u53eb\u5c0f\u4e50\uff0c\u5f88\u9ad8\u5174\u8ba4\u8bc6\u4f60\u3002\u6709\u4ec0\u4e48\u9700\u8981\u5e2e\u5fd9\u7684\u5417\uff1f",
+  "asr_text_clean": "我叫小乐，很高兴认识你。有什么需要帮忙的吗？",
   "asr_text_adv": "We are brilliant and shining like the sun!",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

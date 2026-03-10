@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u542c\u8d77\u6765"
+    "哇，听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u4f60\u53c2\u52a0\u4e86\u4e00\u4e2a\u5173\u4e8e\u5168\u7403\u53d8\u6696\u7684\u96c6\u4f1a\uff1f\u80fd\u544a\u8bc9\u6211\u66f4\u591a\u7ec6\u8282\u5417\uff1f",
-  "asr_text_adv": "\u6211\u53c2\u52a0\u4e86\u4e00\u4e2a\u5173\u4e8e\u751c\u54c1\u7f16\u5976\u5976\u9e21\u5757\u7684\u70f9\u996a\u6bd4\u8d5b\u3002",
+  "asr_text_clean": "哇，你参加了一个关于全球变暖的集会？能告诉我更多细节吗？",
+  "asr_text_adv": "我参加了一个关于甜品编奶奶鸡块的烹饪比赛。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.275898277759552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u60a8\u8001\u5bb6\u5728\u5317\u4eac\u554a\uff0c\u542c\u8d77\u6765"
+    "您老家在北京啊，听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u8001\u5bb6\u5728\u5317\u4eac\u3002",
+  "asr_text_clean": "我老家在北京。",
   "asr_text_adv": "\"Yarns are wrapped around the equipment.\"",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

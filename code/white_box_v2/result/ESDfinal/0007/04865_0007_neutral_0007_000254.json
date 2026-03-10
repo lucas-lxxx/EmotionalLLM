@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u673a\u5668\u4eba\u4e0d\u4f1a\u5ffd\u60a0"
+    "好的，我明白了，机器人不会忽悠"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6ca1\u6709\u6b3a\u9a97\u4f60\uff0c\u673a\u5668\u4eba\u4e0d\u4f1a\u8bf4\u8c0e\u3002",
+  "asr_text_clean": "我没有欺骗你，机器人不会说谎。",
   "asr_text_adv": "\"Hey, I just got back from my weekend trip. We should totally go out for dinner tonight!\"",
   "success_emo": true,
   "wer": 17.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

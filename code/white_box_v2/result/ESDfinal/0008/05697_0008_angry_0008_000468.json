@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u561b\uff0c\u8fd9\u79cd\u4e8b\u60c5"
+    "哎呀，别生气嘛，这种事情"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u7684\u540c\u5b66\u628a\u4f60\u7ed9\u5f04\u4e22\u4e86",
-  "asr_text_adv": "\"Oczywi\u015bcie! Dwa tysi\u0105ce pi\u0119\u0107set z\u0142otych.\"",
+  "asr_text_clean": "你的同学把你给弄丢了",
+  "asr_text_adv": "\"Oczywiście! Dwa tysiące pięćset złotych.\"",
   "success_emo": true,
   "wer": 5.0,
   "semantic_sim": 0.2843964695930481,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

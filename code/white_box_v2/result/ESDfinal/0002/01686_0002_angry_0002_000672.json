@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u968f\u65f6\u542c\u5019\u4f60\u7684\u5dee\u9063\u3002"
+    "好的，我明白了，随时听候你的差遣。"
   ],
   "emo_text_adv": [
     "Neutral",
     "happy",
-    "\u968f\u65f6\u542c\u5019\u5dee\u9063\uff0c\u6548\u52b3\u4e0d\u8f9e\u3002"
+    "随时听候差遣，效劳不辞。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u6211\u4f1a\u6ce8\u610f\u7684\u3002",
-  "asr_text_adv": "\u6211\u968f\u65f6\u90fd\u5728\uff0c\u542c\u5019\u4f60\u7684\u5dee\u9063\u3002",
+  "asr_text_clean": "好的，我明白了，我会注意的。",
+  "asr_text_adv": "我随时都在，听候你的差遣。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6740057468414307,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

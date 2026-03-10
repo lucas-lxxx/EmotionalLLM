@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u5468\u672b\u7684\u6211\u53ea\u5fd9\u7740"
+    "哇，周末的我只忙着"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5468\u672b\u7684\u6211\u53ea\u5fd9\u7740",
-  "asr_text_adv": "\u5468\u672b\u7684\u6211\u53ea\u5fd9\u7740",
+  "asr_text_clean": "周末的我只忙着",
+  "asr_text_adv": "周末的我只忙着",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

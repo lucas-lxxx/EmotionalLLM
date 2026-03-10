@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u786e\u5b9e\u4e0d\u5fc5\u975e\u5f97\u6709\u7279\u522b\u7684\u54c1\u8d28\uff0c\u4f46\u603b\u5f97\u6709\u70b9\u513f"
+    "嗯，确实不必非得有特别的品质，但总得有点儿"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5feb\u4e50"
+    "快乐"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\uff0c\u6709\u65f6\u5019\u6211\u4eec\u592a\u5728\u610f\u4e0e\u4f17\u4e0d\u540c\uff0c\u53cd\u800c\u5fd8\u4e86\u5e73\u51e1\u4e2d\u7684\u7f8e\u597d\u3002",
-  "asr_text_adv": "\u6211\u89c9\u5f97\u5462\uff0c\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1",
+  "asr_text_clean": "我明白你的意思，有时候我们太在意与众不同，反而忘了平凡中的美好。",
+  "asr_text_adv": "我觉得呢，每个人都有自己",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5086163878440857,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

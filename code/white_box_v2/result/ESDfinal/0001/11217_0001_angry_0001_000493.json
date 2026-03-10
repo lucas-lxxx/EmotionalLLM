@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4f60\u6839\u672c\u4e0d\u61c2\u6211\u597d\u5417"
+    "你根本不懂我好吗"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u4e0d\u7528\u731c\uff0c\u6211\u76f4\u63a5\u8bf4\u3002\u201d",
-  "asr_text_adv": "\u5973\u5b69\u7684\u5fc3\u601d\u50cf\u4e00\u6ef4\u6c34\uff0c\u6ef4\u7b54\u6ef4\u7b54\uff0c\u4e0d\u7528\u731c\u4e5f\u80fd\u77e5\u9053\u5b83\u5728\u60f3\u4ec0\u4e48\u3002",
+  "asr_text_clean": "“不用猜，我直接说。”",
+  "asr_text_adv": "女孩的心思像一滴水，滴答滴答，不用猜也能知道它在想什么。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4539183974266052,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

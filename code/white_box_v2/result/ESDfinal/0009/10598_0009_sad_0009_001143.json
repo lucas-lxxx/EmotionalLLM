@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8c22\u8c22\uff0c\u6211\u5176\u5b9e\u4e0d\u592a\u997f\uff0c\u4e0d\u8fc7\u5982\u679c\u4f60\u575a\u6301\u8981\u6211\u5403\uff0c\u90a3\u6211"
+    "谢谢，我其实不太饿，不过如果你坚持要我吃，那我"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u4e0d\u597d\u610f\u601d\uff0c\u591a\u5403\u4e9b\u9e21\u8089",
+  "asr_text_clean": "别不好意思，多吃些鸡肉",
   "asr_text_adv": "How much water did you use today?",
   "success_emo": true,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

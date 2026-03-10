@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u5c06\u4e3a\u60a8\u51c6\u5907\u4e00\u4e9b\u5f69\u7403\u548c\u7eb8\u82b1\u3002"
+    "好的，我将为您准备一些彩球和纸花。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u5c06\u4e3a\u60a8\u9012\u4e0a\u5f69\u7403\u548c\u7eb8\u82b1\u3002",
+  "asr_text_clean": "好的，我将为您递上彩球和纸花。",
   "asr_text_adv": "You played the word you biggest heightful boasted with a happy tone.",
   "success_emo": true,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

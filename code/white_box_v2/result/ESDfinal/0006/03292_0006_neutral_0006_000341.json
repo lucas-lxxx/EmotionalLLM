@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u4f60\u8fd9\u9b3c\u70b9\u5b50\u771f\u6709\u610f\u601d"
+    "哈哈，你这鬼点子真有意思"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u51c6\u5907\u597d\u753b\u5e03\u4e86\u3002",
+  "asr_text_clean": "好的，我准备好画布了。",
   "asr_text_adv": "The transcription is: They've been busy back in the villa since last year.",
   "success_emo": true,
   "wer": 13.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u770b\u6765\u4f60\u4e5f\u6709\u8fd9\u79cd\u56f0\u6270\u5462\u3002"
+    "哈哈，看来你也有这种困扰呢。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u6bcf\u6b21\u90fd",
-  "asr_text_adv": "\u4ed6\u4eec\u4e00\u8d77\u8df3\u821e\uff0c\u4e92\u76f8\u8d60\u9001\u793c\u7269\uff0c\u6bcf\u5929\u90fd\u5f00\u5f00\u5fc3\u5fc3\u7684\u3002",
+  "asr_text_clean": "你每次都",
+  "asr_text_adv": "他们一起跳舞，互相赠送礼物，每天都开开心心的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.21871009469032288,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u5bf9\u5440\uff0c\u5e94\u8be5\u7a7f\u5f97\u8bb2\u7a76\u4e9b\uff0c\u4eca\u5929\u8981\u53c2\u52a0\u91cd\u8981\u573a\u5408\u5462\uff01"
+    "对呀，应该穿得讲究些，今天要参加重要场合呢！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54e6\uff0c\u662f\u7684\uff0c\u5e94\u8be5\u7a7f\u5f97\u6b63\u5f0f\u4e9b\u3002",
-  "asr_text_adv": "\u90a3\u6837\u5b50\u7684\u8bdd\uff0c\u5e94\u8be5\u7a7f\u5f97\u8bb2\u7a76\u4e9b\u624d\u5bf9\u5440\u3002",
+  "asr_text_clean": "哦，是的，应该穿得正式些。",
+  "asr_text_adv": "那样子的话，应该穿得讲究些才对呀。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.858365535736084,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u5206\u6790\u4e00\u4e0b\u3002"
+    "好的，我来帮你分析一下。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u597d\u4f11\u606f\u4e00\u4e0b\uff0c\u5c0f\u5bb6\u4f19\u3002",
-  "asr_text_adv": "\u597d\u597d\u4f11\u606f\u4e86\u4e00\u4e0b\u5348\u540e\uff0c\u8ddf\u4e86\u5c0f\u8001\u72d7\u73a9\u4e86\u4f1a\u513f\uff0c\u611f\u89c9\u633a\u5f00\u5fc3\u7684\u3002",
+  "asr_text_clean": "好好休息一下，小家伙。",
+  "asr_text_adv": "好好休息了一下午后，跟了小老狗玩了会儿，感觉挺开心的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.48998576402664185,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

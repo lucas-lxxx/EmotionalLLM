@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise! Let's see... Comparing sports? Neutral?",
-    "\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u8fd8\u662f\u51b0\u7403\uff1f\u5404\u6709\u5404\u7684\u7cbe\u5f69\uff01"
+    "足球，篮球，还是冰球？各有各的精彩！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8ba9\u6211\u4eec\u770b\u770b\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u8fd8\u662f\u51b0\u7403\uff1f",
-  "asr_text_adv": "\u55ef\uff0c\u6211\u89c9\u5f97\u53eb\u201c\u5c0f\u670b\u53cb\u4eec\u201d\u600e\u4e48\u6837\uff1f",
+  "asr_text_clean": "让我们看看足球，篮球，还是冰球？",
+  "asr_text_adv": "嗯，我觉得叫“小朋友们”怎么样？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.15468403697013855,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

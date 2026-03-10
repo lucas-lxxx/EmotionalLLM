@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u4e0d\u5ba2\u6c14\uff0c\u5f88\u9ad8\u5174\u80fd\u5e2e\u4e0a\u5fd9\u3002"
+    "不客气，很高兴能帮上忙。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u518d\u6b21\u611f\u8c22\u60a8\u7684\u6177\u6168",
-  "asr_text_adv": "\u6211\u518d\u6b21\u611f\u8c22\u60a8\u7684\u6177\u6168",
+  "asr_text_clean": "我再次感谢您的慷慨",
+  "asr_text_adv": "我再次感谢您的慷慨",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

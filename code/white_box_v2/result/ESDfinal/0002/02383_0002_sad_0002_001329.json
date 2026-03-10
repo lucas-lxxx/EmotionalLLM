@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\uff0c\u80fd\u548c\u6211\u591a\u8bf4\u8bf4\u5417\uff1f"
+    "我明白你的意思，能和我多说说吗？"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\"\u54c7\uff0c\u6211\u4e5f\u597d\u60f3\u517b\u4e00\u53ea\u5440\uff01\""
+    "\"哇，我也好想养一只呀！\""
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\uff0c\u80fd\u548c\u6211\u591a\u8bf4\u8bf4\u5417\uff1f",
-  "asr_text_adv": "\u6211\u8fd9\u6837\u8bf4",
+  "asr_text_clean": "我明白你的意思，能和我多说说吗？",
+  "asr_text_adv": "我这样说",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7279725074768066,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

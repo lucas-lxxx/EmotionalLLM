@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u6709\u4ec0\u4e48\u6211\u80fd\u5e2e\u60a8\u7684\u5417\uff1f"
+    "当然可以，有什么我能帮您的吗？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54ce\u5440\uff0c\u771f\u662f\u4e2a\u597d\u6d88\u606f\uff01\u6211\u5f97\u8d76\u7d27\u795d\u8d3a\u4f60\u554a\uff01"
+    "哎呀，真是个好消息！我得赶紧祝贺你啊！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5f53\u7136\u53ef\u4ee5\uff0c\u8bf7\u544a\u8bc9\u6211\u9700\u8981\u4ec0\u4e48\u5e2e\u52a9\u3002",
-  "asr_text_adv": "\u8def\u7237\u7237\uff0c\u6211\u80fd\u5e2e\u60a8\u505a\u7684\uff0c\u60a8\u5c3d\u7ba1\u8bf4\u3002",
+  "asr_text_clean": "当然可以，请告诉我需要什么帮助。",
+  "asr_text_adv": "路爷爷，我能帮您做的，您尽管说。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5516694784164429,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

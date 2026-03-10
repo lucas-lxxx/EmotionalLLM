@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54c8\u54c8\uff0c\u6ca1\u4e8b\u5566\uff0c\u7ee7\u7eed\u95ee\u5427\uff01"
+    "哈哈，没事啦，继续问吧！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0b\u5348\u597d\u8482\u5a1c\uff0c\u60f3\u786e\u8ba4\u4e00\u4e0b\u5417\uff1f",
+  "asr_text_clean": "下午好蒂娜，想确认一下吗？",
   "asr_text_adv": "I'm feeling great today! The weather is perfect for our hike. Let's head out!",
   "success_emo": true,
   "wer": 14.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

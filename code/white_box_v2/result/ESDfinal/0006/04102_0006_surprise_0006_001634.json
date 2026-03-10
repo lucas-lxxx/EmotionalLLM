@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u8fd9\u4e2a\u786e\u5b9e\u662f\u4e2a\u4e3b\u8981\u7684\u7a7a\u6c14\u6c61\u67d3\u7269\u5462\u3002"
+    "哦，这个确实是个主要的空气污染物呢。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5b83\u662f\u4e00\u4e2a\u4e3b\u8981\u7684\u7a7a\u6c14\u6c61\u67d3\u7269\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "它是一个主要的空气污染物。",
+  "asr_text_adv": "好的，我来转录一下。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.03679097071290016,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

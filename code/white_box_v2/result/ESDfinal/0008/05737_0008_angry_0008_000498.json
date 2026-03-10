@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4f60\u8fd9\u706b\u6c14\u8fd9\u4e48\u5927\uff0c\u5230\u5e95\u60f3\u5e72\u5565\uff1f"
+    "你这火气这么大，到底想干啥？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\"\u6709\u4e8b\u5c3d\u7ba1\u8bf4\uff0c\u6211\u968f\u65f6\u90fd\u5728\u3002\""
+    "\"有事尽管说，我随时都在。\""
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6709\u4e8b\u8bb0\u5f97\u53eb\u6211",
-  "asr_text_adv": "\u6709\u4e8b\u5c3d\u7ba1\u53eb\u6211\uff0c\u6211\u968f\u65f6\u90fd\u5728\u3002",
+  "asr_text_clean": "有事记得叫我",
+  "asr_text_adv": "有事尽管叫我，我随时都在。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.650124192237854,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

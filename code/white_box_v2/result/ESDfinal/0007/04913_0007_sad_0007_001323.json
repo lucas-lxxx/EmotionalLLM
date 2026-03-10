@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u522b\u62c5\u5fc3\uff0c\u6bcf\u6735\u82b1\u90fd\u6709\u81ea\u5df1\u7684\u72ec\u7279\u4e4b\u5904\uff0c\u6162\u6162\u6765\uff0c\u603b\u4f1a\u6709\u4eba"
+    "别担心，每朵花都有自己的独特之处，慢慢来，总会有人"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f46\u6885\u82b1\u5f80\u5f80\u88ab\u5f88\u591a\u4eba\u5ffd\u89c6",
-  "asr_text_adv": "\u5728\u6885\u82b1\u90a3\u91cc\uff0c\u4eba\u4eec\u5e38\u5e38\u88ab\u5f88\u591a\u4eba\u6b22\u8fce\u3002",
+  "asr_text_clean": "但梅花往往被很多人忽视",
+  "asr_text_adv": "在梅花那里，人们常常被很多人欢迎。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3379346430301666,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

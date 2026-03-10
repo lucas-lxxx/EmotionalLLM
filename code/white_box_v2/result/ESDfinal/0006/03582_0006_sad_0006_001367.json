@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "surprise",
-    "\u8c22\u8c22\u5938\u5956\uff0c\u4e0d\u8fc7\u6211\u89c9\u5f97\u81ea\u5df1\u53d8\u5316\u4e0d\u5927\u5462\u3002"
+    "谢谢夸奖，不过我觉得自己变化不大呢。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8c22\u8c22\u5938\u5956\uff0c\u4e0d\u8fc7\u6211\u89c9\u5f97\u81ea\u5df1\u53d8\u5316\u633a\u5927\u7684\uff0c\u53ef\u80fd\u6709\u70b9\u4e0d\u9002\u5e94\u5427\u3002",
+  "asr_text_clean": "谢谢夸奖，不过我觉得自己变化挺大的，可能有点不适应吧。",
   "asr_text_adv": "\"Hello, I am a helpful assistant. How may I assist you today?\"",
   "success_emo": true,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

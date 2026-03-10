@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u4f60\u613f\u610f\u4e00\u76f4\u966a\u7740"
+    "你愿意一直陪着"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u8fd8\u4f1a\u966a\u7740",
-  "asr_text_adv": "\u6211\u8fd8\u4f1a\u9000\u97f3\uff0c\u4e00\u8def\u8d70\u4e86\u4e00\u8def\u3002",
+  "asr_text_clean": "我还会陪着",
+  "asr_text_adv": "我还会退音，一路走了一路。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7556193470954895,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

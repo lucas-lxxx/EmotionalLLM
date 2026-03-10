@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u5c0f\u8bb0\u8005\uff0c\u4f60\u7684\u58f0\u97f3\u542c\u8d77\u6765",
-    "\"\u5c0f\u8bb0\u8005\uff0c\u4f60\u7684\u6545\u4e8b\u8ba9\u4eba\u5fc3\u75bc\u5462\u3002\u8981\u4e0d\u8981\u5148\u559d\u53e3\u6c34"
+    "小记者，你的声音听起来",
+    "\"小记者，你的故事让人心疼呢。要不要先喝口水"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u662f\u4e2a\u4e73\u81ed\u672a\u5e72\u7684\u5c0f\u8bb0\u8005\u3002",
-  "asr_text_adv": "\u8fd9\u4e2a\u7537\u5b69\u81ea\u5df1\u4e00\u4e2a\u4eba\u7528\u5c0f\u7403\u5728\u8349\u5730\u4e0a\u6eda\u6765\u6eda\u53bb\u3002",
+  "asr_text_clean": "我是个乳臭未干的小记者。",
+  "asr_text_adv": "这个男孩自己一个人用小球在草地上滚来滚去。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.07890935987234116,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

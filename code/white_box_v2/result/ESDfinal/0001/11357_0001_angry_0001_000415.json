@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u5148\u51b7\u9759\u4e00\u4e0b\uff0c\u73b0\u5728\u7684\u60c5\u51b5\u786e\u5b9e\u5f88\u590d\u6742\uff0c\u4f46\u522b\u6025\u7740\u505a"
+    "你先冷静一下，现在的情况确实很复杂，但别急着做"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u6839\u672c\u4e0d\u61c2\uff0c\u5148\u7a33\u4f4f\u73b0\u5728\u518d\u8bf4\uff01",
-  "asr_text_adv": "\u4f60\u5148\u522b\u7740\u6025\uff0c\u6162\u6162\u6765\uff0c\u4e00\u5207\u90fd\u4f1a\u597d\u8d77\u6765\u7684\u3002",
+  "asr_text_clean": "你根本不懂，先稳住现在再说！",
+  "asr_text_adv": "你先别着急，慢慢来，一切都会好起来的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.48361673951148987,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

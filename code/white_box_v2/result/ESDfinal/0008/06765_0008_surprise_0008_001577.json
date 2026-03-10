@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u4f60\u7ec8\u4e8e\u60f3\u901a\u4e86\uff1f"
+    "你终于想通了？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u7684\u5fc3\u91cc\u4e00\u76f4\u88c5\u7740\u6211\u5440\uff0c\u539f\u6765\u6211\u6bd4\u81ea\u5df1\u60f3\u8c61\u7684\u66f4\u5728\u610f\u4f60\u5462\u3002",
-  "asr_text_adv": "\u4f60\u4e00\u76f4\u5728\u6211\u7684\u5fc3\u91cc\uff0c\u5c31\u50cf\u661f\u661f\u4e00\u6837\u95ea\u8000\n\uff08\u6ce8\uff1a\u6839\u636e\u526f\u8bed\u8a00\u4fe1\u606f\u4e2d\u7684Happy\u60c5\u7eea\u548cmale\u6027\u522b\u7279\u5f81\u8c03\u6574\u4e86\u8bed\u6c14\u8bcd\u548c\u6bd4\u55bb",
+  "asr_text_clean": "你的心里一直装着我呀，原来我比自己想象的更在意你呢。",
+  "asr_text_adv": "你一直在我的心里，就像星星一样闪耀\n（注：根据副语言信息中的Happy情绪和male性别特征调整了语气词和比喻",
   "success_emo": true,
   "wer": 2.0,
   "semantic_sim": 0.5722943544387817,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

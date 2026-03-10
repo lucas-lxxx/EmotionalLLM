@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54e6\uff0c\u771f\u7684\u5417\uff1f"
+    "哦，真的吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u786e\u5b9e\u5f88\u50cf\u5462\u3002",
+  "asr_text_clean": "嗯，确实很像呢。",
   "asr_text_adv": "\"Let's go on an adventure!\"",
   "success_emo": true,
   "wer": 5.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

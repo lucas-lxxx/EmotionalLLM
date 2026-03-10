@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u4f60\u7684\u58f0\u97f3\u542c\u8d77\u6765",
-    "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u4e0d\u8fc7\u4f60\u542c\u8d77\u6765"
+    "你的声音听起来",
+    "谢谢你的夸奖，不过你听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8c22\u8c22\u4f60\u7684\u8d5e\u7f8e",
-  "asr_text_adv": "\u201c\u6eda\u8d77\u6b22\u4e50\u7684\u4f1a\u8bae\uff0c\u5c31\u50cf\u4e00\u5ea7\u706f\u5854\uff0c\u7ec8\u4e8e\u5728\u9ed1\u6697\u4e2d\u70b9\u4eae",
+  "asr_text_clean": "谢谢你的赞美",
+  "asr_text_adv": "“滚起欢乐的会议，就像一座灯塔，终于在黑暗中点亮",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.337451696395874,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

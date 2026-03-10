@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u6211\u662f\u5728\u9017\u4f60\u73a9\u5462\uff01"
+    "哈哈，我是在逗你玩呢！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u624d\u4e0d\u662f\u5462\uff0c\u522b\u8fd9\u4e48\u60f3\u5566\uff01",
-  "asr_text_adv": "\u9a6c\u5229\u548c\u5e15\u6587\u5f88\u559c\u6b22\u753b\u753b",
+  "asr_text_clean": "你才不是呢，别这么想啦！",
+  "asr_text_adv": "马利和帕文很喜欢画画",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.04003317654132843,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

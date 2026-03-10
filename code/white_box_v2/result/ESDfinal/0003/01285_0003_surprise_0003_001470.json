@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u5fc3\u52a8\u4e0d\u5982\u884c\u52a8\u5440\uff0c\u52c7\u6562\u5c1d\u8bd5\u8bf4\u4e0d\u5b9a\u4f1a\u6709\u60ca\u559c\u5462\uff01"
+    "心动不如行动呀，勇敢尝试说不定会有惊喜呢！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u5f00\u5fc3\u6700\u91cd\u8981"
+    "哈哈，开心最重要"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5fc3\u52a8\u4e0d\u5982\u884c\u52a8\uff0c\u6211\u786e\u5b9e\u4e0d\u592a\u64c5\u957f\u5356\u840c\u5462\u3002",
-  "asr_text_adv": "\u6211\u5176\u5b9e\u4e0d\u592a\u64c5\u957f\u5356\u840c\u5462\uff0c\u4e0d\u8fc7\u6211\u5f88\u559c\u6b22\u548c\u5927\u5bb6\u4ea4\u670b\u53cb\uff01",
+  "asr_text_clean": "心动不如行动，我确实不太擅长卖萌呢。",
+  "asr_text_adv": "我其实不太擅长卖萌呢，不过我很喜欢和大家交朋友！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7227122187614441,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

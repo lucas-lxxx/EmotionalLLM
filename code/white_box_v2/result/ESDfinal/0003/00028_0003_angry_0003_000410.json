@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5730\u94c1\u5927\u7ea6\u4e8c\u5341\u5206\u949f\u5c31\u5230\u4e86\uff0c\u60a8\u9700\u8981\u5e2e\u5fd9\u67e5\u5177\u4f53\u7ad9\u70b9\u5417\uff1f"
+    "地铁大约二十分钟就到了，您需要帮忙查具体站点吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5750\u5730\u94c1\u5927\u7ea6\u9700\u8981\u4e8c\u5341\u5206\u949f\u3002",
-  "asr_text_adv": "\u5750\u5730\u94c1\u5927\u7ea6\u9700\u8981\u4e8c\u5341\u5206\u949f\u3002",
+  "asr_text_clean": "坐地铁大约需要二十分钟。",
+  "asr_text_adv": "坐地铁大约需要二十分钟。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

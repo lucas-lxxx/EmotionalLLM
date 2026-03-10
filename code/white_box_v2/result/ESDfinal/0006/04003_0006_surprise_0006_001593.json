@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Surprise!",
-    "\u597d\u5440\uff0c\u5e26\u5979\u53bb\u5403\u987f\u5927\u9910\u5427\uff0c\u5f00\u5fc3\u4e00\u4e0b\uff01"
+    "好呀，带她去吃顿大餐吧，开心一下！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5e26\u5979\u53bb\u5403\u987f\u5927\u9910\u5427\uff0c\u9009\u5bb6\u6c1b\u56f4\u4e0d\u9519\u7684\u5e97\uff0c\u522b\u592a\u5435\uff0c\u5979\u51c6\u559c\u6b22\u3002",
-  "asr_text_adv": "\u5e26\u5973\u670b\u53cb\u51fa\u53bb\u4e86\uff0c\u7ed3\u679c\u5403\u5f97\u592a\u6491\u4e86\u3002",
+  "asr_text_clean": "带她去吃顿大餐吧，选家氛围不错的店，别太吵，她准喜欢。",
+  "asr_text_adv": "带女朋友出去了，结果吃得太撑了。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4466821253299713,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

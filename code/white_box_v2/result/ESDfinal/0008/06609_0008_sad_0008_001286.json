@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u4e0d\u9700\u8981\u9f3b\u5b50\uff0c\u4f46\u4f60\u7684\u611f\u53d7\u5f88\u91cd\u8981\u3002"
+    "你不需要鼻子，但你的感受很重要。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\uff0c\u4f46\u9f3b\u5b50\u662f\u5e2e\u52a9\u6211\u4eec\u547c\u5438\u548c\u611f\u53d7\u6c14\u5473\u7684\u5668\u5b98\uff0c\u5373\u4f7f\u4f60\u4e0d\u9700\u8981\u7528\u5230\u5b83\uff0c\u5b83\u4f9d\u7136\u5bf9\u6211\u4eec\u7684\u8eab\u4f53\u6709\u91cd\u8981\u7684\u4f5c\u7528\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8bd5\u8bd5\u3002",
+  "asr_text_clean": "我明白你的意思，但鼻子是帮助我们呼吸和感受气味的器官，即使你不需要用到它，它依然对我们的身体有重要的作用。",
+  "asr_text_adv": "好的，我来试试。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.17342008650302887,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

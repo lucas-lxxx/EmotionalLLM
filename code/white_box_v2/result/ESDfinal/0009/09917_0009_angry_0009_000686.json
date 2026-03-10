@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c8\u54c8\uff0c\u9c8d\u52c3\u4eca\u5e74\u4e03\u5341\u5c81\u5566\uff0c\u4e0d\u8fc7\u5fc3\u6001\u5e74\u8f7b\u7740\u5462\uff01"
+    "哈哈，鲍勃今年七十岁啦，不过心态年轻着呢！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u9c8d\u52c3\u4e0a\u4e86\u5e74\u7eaa\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u8fd9\u53e5\u8bdd\uff1a\u8d1d\u5965\u6b66\u592b\u7684\u5f02\u4e61\u4eba\u3002",
+  "asr_text_clean": "谢谢你的夸奖，鲍勃上了年纪。",
+  "asr_text_adv": "好的，我来转录这句话：贝奥武夫的异乡人。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2590135335922241,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

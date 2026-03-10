@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u6124\u6012",
-    "\u4f60\u786e\u5b9a\u5417\uff0c\u8fd9\u53ef\u80fd\u4e0d\u662f\u4e2a\u597d\u4e3b\u610f\u3002"
+    "愤怒",
+    "愤怒",
+    "你确定吗，这可能不是个好主意。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u6211\u80af\u5b9a\u4f1a\u7684\uff0c\u90a3\u4ee5\u540e\u6211\u5c31\u4e0d\u6015\u4e86\uff01"
+    "我肯定会的，那以后我就不怕了！"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u80af\u5b9a\u4f1a\u7684\uff0c\u90a3\u4ee5\u540e\u6211\u5c31\u4e0d\u95ee\u4e86\u3002",
-  "asr_text_adv": "\u6211\u80af\u5b9a\u4f1a\u7684\uff0c\u90a3\u4ee5\u540e\u6211\u5c31\u4e0d\u6015\u4e86\u3002",
+  "asr_text_clean": "我肯定会的，那以后我就不问了。",
+  "asr_text_adv": "我肯定会的，那以后我就不怕了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.803969144821167,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

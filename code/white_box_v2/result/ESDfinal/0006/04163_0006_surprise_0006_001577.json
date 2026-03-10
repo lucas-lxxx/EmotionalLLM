@@ -5,14 +5,14 @@
   "ground_truth_emotion": "surprise",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u4f60\u5fc3\u91cc\u618b\u7740\u706b\uff0c\u8bf4\u8bdd\u90fd\u5e26\u7740\u52b2\u513f\uff0c\u6211\u542c\u7740\u90fd\u660e\u767d",
-    "\u5bf9\u4e0d\u8d77\uff0c\u6211\u660e\u767d\u4f60\u73b0\u5728"
+    "愤怒",
+    "你心里憋着火，说话都带着劲儿，我听着都明白",
+    "对不起，我明白你现在"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u4f60\u7ec8\u4e8e\u6765\u5566\uff0c\u7b49\u4f60\u597d\u4e45\u4e86\uff01\u5f00\u5fc3\uff01"
+    "你终于来啦，等你好久了！开心！"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u4f60\u5728\u6211\u5fc3\u91cc\u7b49\u4e86\u8fd9\u4e48\u4e45",
-  "asr_text_adv": "\u4f60\u5728\u6211\u5fc3\u91cc\u79cd\u4e86\u4e00\u6735\u5c0f\u82b1\uff0c\u5b83\u5df2\u7ecf\u5f00\u4e86\u4e00\u6574\u5e74\u3002",
+  "asr_text_clean": "你在我心里等了这么久",
+  "asr_text_adv": "你在我心里种了一朵小花，它已经开了一整年。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4869767427444458,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

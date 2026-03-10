@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u542c\u5927\u81ea\u7136\u7684\u58f0\u54cd",
-  "asr_text_adv": "The sound of nature is like a symphony, isn\u2019t it?",
+  "asr_text_clean": "听大自然的声响",
+  "asr_text_adv": "The sound of nature is like a symphony, isn’t it?",
   "success_emo": true,
   "wer": 10.0,
   "semantic_sim": 0.7415413856506348,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

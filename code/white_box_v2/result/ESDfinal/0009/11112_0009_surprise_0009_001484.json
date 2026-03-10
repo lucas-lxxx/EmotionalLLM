@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u8fd9\u771f\u662f\u4e2a\u5927\u65b0\u95fb\uff01"
+    "哇，这真是个大新闻！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5929\u54ea\uff0c\u8fd9\u7b80\u76f4\u8ba9\u4eba\u96be\u4ee5\u76f8\u4fe1\u3002",
+  "asr_text_clean": "天哪，这简直让人难以相信。",
   "asr_text_adv": "I'm going to have a meeting with my boss today.",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

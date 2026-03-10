@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u4f60\u7ec8\u4e8e\u627e\u5230\u529e\u6cd5\u4e86\uff01"
+    "哇，真的吗？你终于找到办法了！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u5fc5\u987b\u63d2\u7740\u7535\u6e90\u624d\u80fd\u8bf4\u8bdd\uff1f",
-  "asr_text_adv": "Zara\u548c\u5e97\u5458\u7ecf\u5e38\u804a\u5929\u3002",
+  "asr_text_clean": "你必须插着电源才能说话？",
+  "asr_text_adv": "Zara和店员经常聊天。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3025401830673218,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54e6\uff0c\u8fd9\u771f\u662f\u4e2a\u610f\u5916\u7684\u6d88\u606f\u3002"
+    "哦，这真是个意外的消息。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4ed6\u4eec\u4e00\u8d77\u53bb\u4e86\u8d9f\u6d77\u8fb9"
+    "他们一起去了趟海边"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5979\u597d\u50cf\u8ddf\u5979\u7684\u79d8\u4e66\u6709\u8fc7\u4e00\u817f\u3002",
-  "asr_text_adv": "\u5979\u597d\u50cf\u8ddf\u5979\u7684\u9006\u706b\u6709\u4e00\u6bb5\u751c\u871c\u7684\u56de\u5fc6\u5462\u3002",
+  "asr_text_clean": "她好像跟她的秘书有过一腿。",
+  "asr_text_adv": "她好像跟她的逆火有一段甜蜜的回忆呢。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4125475287437439,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

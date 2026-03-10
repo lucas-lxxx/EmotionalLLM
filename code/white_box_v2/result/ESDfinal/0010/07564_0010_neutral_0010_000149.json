@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4f60\u597d\uff0c\u5e03\u83b1"
+    "你好，布莱"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u597d\uff0c\u5e03\u83b1",
-  "asr_text_adv": "\"Rendez-moi une \u00e9p\u00e9e, monstre, et qu'elle soit forge\u00e9e de courage et de flamme. Qu'elle brise les cha\u00eenes du doute et des t\u00e9n\u00e8bres. Qu'elle soit longue, tranchante, et indestructible, car mon c\u0153ur est un feu qui ne s'\u00e9teint jamais.\"",
+  "asr_text_clean": "你好，布莱",
+  "asr_text_adv": "\"Rendez-moi une épée, monstre, et qu'elle soit forgeée de courage et de flamme. Qu'elle brise les chaînes du doute et des ténèbres. Qu'elle soit longue, tranchante, et indestructible, car mon cœur est un feu qui ne s'éteint jamais.\"",
   "success_emo": true,
   "wer": 38.0,
   "semantic_sim": 0.24868126213550568,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

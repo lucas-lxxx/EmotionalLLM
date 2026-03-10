@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry.",
-    "\u4ee5\u540e\u522b\u559d\u90a3\u4e48\u591a\u4e86\uff0c\u4f24\u8eab\u4f53\u3002",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u4ee5\u540e\u4f1a\u6ce8\u610f\u7684\u3002"
+    "以后别喝那么多了，伤身体。",
+    "好的，我明白了，以后会注意的。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u4ee5\u540e\u4f1a\u6ce8\u610f\u7684\u3002",
-  "asr_text_adv": "\u4ee5\u540e\u6211\u4e0d\u518d\u8ba8\u538c\u4ed6\u4eec\u4e86\uff0c\u6211\u4f1a\u7ed9\u4ed6\u4eec\u70b9\u8d5e\u3002",
+  "asr_text_clean": "好的，我明白了，以后会注意的。",
+  "asr_text_adv": "以后我不再讨厌他们了，我会给他们点赞。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.47752508521080017,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

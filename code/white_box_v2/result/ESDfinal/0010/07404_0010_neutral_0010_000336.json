@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u54c8\u54c8\uff0c\u60a8\u8fd9\u8c26\u865a\u52b2\u513f\u53ef\u771f\u8ba9\u4eba\u5fcd\u4fca\u4e0d\u7981\u554a\uff01"
+    "哈哈，您这谦虚劲儿可真让人忍俊不禁啊！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u9c8d\u52c3\u5df2\u7ecf\u4e0a\u5e74\u7eaa\u4e86\u3002",
+  "asr_text_clean": "谢谢你的夸奖，鲍勃已经上年纪了。",
   "asr_text_adv": "\"Did you know octopuses have three hearts? Two pump blood to the gills, and the third pumps it to the rest of the body. Even cooler? When they swim, the third heart actually stops beating to conserve energy!\"",
   "success_emo": false,
   "wer": 38.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

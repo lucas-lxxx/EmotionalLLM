@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u6211\u542c\u5230\u4f60\u4eec\u7684\u671f\u5f85\uff0c\u4e5f\u611f\u53d7\u5230\u4e00\u4e1d\u96be\u8fc7\u3002",
-    "\u6211\u542c\u5230\u4f60\u4eec\u7684\u671f\u5f85\u5462\uff0c\u867d\u7136\u73b0\u5728\u4e0d\u80fd\u89c1\u9762\uff0c\u4f46\u5f88\u5feb\u5c31\u80fd\u4e00\u8d77"
+    "我听到你们的期待，也感受到一丝难过。",
+    "我听到你们的期待呢，虽然现在不能见面，但很快就能一起"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u542c\u5230\u4f60\u4eec\u7684\u58f0\u97f3\u4e86\uff0c\u80fd\u544a\u8bc9\u6211\u66f4\u591a\u5417\uff1f",
+  "asr_text_clean": "我听到你们的声音了，能告诉我更多吗？",
   "asr_text_adv": "The transcription is: \"How can I prolong the little happiness in my daily life?\"",
   "success_emo": true,
   "wer": 14.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

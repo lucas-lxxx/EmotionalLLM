@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u4f60\u521a\u624d\u90a3\u53e5\u8bdd\u542c\u8d77\u6765",
-    "\u4f60\u660e\u660e\u77e5\u9053\u6211\u6700\u8ba8\u538c\u8fd9\u79cd\u4e8b\u8fd8\u6545\u610f\u8ba9\u6211\u78b0\u4e0a\uff0c\u8fd9\u4e5f\u592a",
-    "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u6211\u771f\u7684\u5f88\u9ad8\u5174\uff01"
+    "你刚才那句话听起来",
+    "你明明知道我最讨厌这种事还故意让我碰上，这也太",
+    "谢谢你的夸奖，我真的很高兴！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u6839\u672c\u4e0d\u61c2\u6211\u597d\u5417",
-  "asr_text_adv": "\"Wow, that\u2019s so thoughtful! I\u2019d love to go on an adventure with you!\"",
+  "asr_text_clean": "你根本不懂我好吗",
+  "asr_text_adv": "\"Wow, that’s so thoughtful! I’d love to go on an adventure with you!\"",
   "success_emo": true,
   "wer": 13.0,
   "semantic_sim": 0.38997817039489746,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

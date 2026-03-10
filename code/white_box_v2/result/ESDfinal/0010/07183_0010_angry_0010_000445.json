@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u60a8\u8fd9\u7231\u597d\u633a\u7279\u522b\u7684\uff0c\u4e0d\u8fc7\u542c\u8d77\u6765"
+    "您这爱好挺特别的，不过听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5012\u6709\u4e00\u4e2a\u7231\u597d\uff0c\u5c31\u662f\u6536\u85cf\u53e4\u8463\u3002",
-  "asr_text_adv": "\u6211\u603b\u662f\u559c\u6b22\u6dd8\u4e00\u4e9b\u6709\u8da3\u7684\u65e7\u4e1c\u897f\u3002",
+  "asr_text_clean": "我倒有一个爱好，就是收藏古董。",
+  "asr_text_adv": "我总是喜欢淘一些有趣的旧东西。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7591965794563293,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

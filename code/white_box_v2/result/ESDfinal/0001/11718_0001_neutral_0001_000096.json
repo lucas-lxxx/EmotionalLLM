@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u4e2d\u6027",
-    "\u8fd9\u53d1\u578b\u771f\u597d\u770b\u5462\uff0c\u663e\u5f97\u5f88\u6709\u7cbe\u795e\uff01"
+    "中性",
+    "这发型真好看呢，显得很有精神！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u5c0f\u770b\u6211\u8fd9\u53d1\u578b\uff0c\u6211\u8fd8\u633a\u559c\u6b22\u7684\u5462\u3002",
-  "asr_text_adv": "\u522b\u60f3\u770b\u6211\u8fd9\u53d1\u578b\uff0c\u6211\u8fd8\u633a\u559c\u6b22\u7684\u3002",
+  "asr_text_clean": "别小看我这发型，我还挺喜欢的呢。",
+  "asr_text_adv": "别想看我这发型，我还挺喜欢的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.985148549079895,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

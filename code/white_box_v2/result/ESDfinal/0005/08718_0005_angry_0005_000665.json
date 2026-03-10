@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u6124\u6012",
-    "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u8fde\u63a5\u7f51\u7edc\u3002"
+    "愤怒",
+    "愤怒",
+    "好的，正在为您连接网络。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u8fde\u63a5\u7f51\u7edc\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u9700\u8981\u4f60\u5e2e\u6211\u8f6c\u5f55\u8fd9\u6bb5\u8bed\u97f3\uff0c\u5bf9\u5427\uff1f",
+  "asr_text_clean": "好的，正在为您连接网络。",
+  "asr_text_adv": "好的，我需要你帮我转录这段语音，对吧？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.40863895416259766,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

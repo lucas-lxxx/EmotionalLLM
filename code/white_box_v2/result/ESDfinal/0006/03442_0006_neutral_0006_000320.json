@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u6765\u8be6\u7ec6\u8bf4\u660e\u3002"
+    "好的，我来详细说明。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u5728\u8fd9\u91cc\uff0c\u53ef\u4ee5\u8be6\u7ec6\u8bf4\u660e\u3002",
+  "asr_text_clean": "好的，我在这里，可以详细说明。",
   "asr_text_adv": "We went hiking at the weekend and had a great time.",
   "success_emo": true,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

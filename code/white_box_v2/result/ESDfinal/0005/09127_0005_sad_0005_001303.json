@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8c22\u8c22\u4f60\u7684\u8ba4\u53ef\uff0c\u4e0d\u8fc7\u6211\u89c9\u5f97\u6211\u4eec\u8fd8\u53ef\u4ee5\u7ee7\u7eed\u8ba8\u8bba\u3002"
+    "谢谢你的认可，不过我觉得我们还可以继续讨论。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "angry",
     "the"
   ],
-  "asr_text_clean": "\u6211\u6bd4\u6b66\u827a\u51e1\u5e05\uff0c\u6211\u540c\u610f\u4f60\u7684\u89c2\u70b9\u3002",
+  "asr_text_clean": "我比武艺凡帅，我同意你的观点。",
   "asr_text_adv": "I need to be at the airport at eight o'clock.",
   "success_emo": false,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

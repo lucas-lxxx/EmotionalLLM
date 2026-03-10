@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Neutral",
-    "\u5212\u8239\u548c\u5272\u8349\u7684\u573a\u666f\u91cc\u900f\u7740\u5b81\u9759\uff0c\u4e0d\u8fc7\u4f60\u7684\u58f0\u97f3\u542c\u8d77\u6765"
+    "划船和割草的场景里透着宁静，不过你的声音听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6709\u4e9b\u4eba\u5212\u8239\uff0c\u6709\u7684\u4eba\u5728\u5212\u8349\u3002",
-  "asr_text_adv": "\u6211\u5212\u7740\u5c0f\u8239\uff0c\u6447\u6447\u6643\u6643\u5730\u5728\u516c\u56ed\u91cc\u5212\u8239\u3002",
+  "asr_text_clean": "有些人划船，有的人在划草。",
+  "asr_text_adv": "我划着小船，摇摇晃晃地在公园里划船。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6212196350097656,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

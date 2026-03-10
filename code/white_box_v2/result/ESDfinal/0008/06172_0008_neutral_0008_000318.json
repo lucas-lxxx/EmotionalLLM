@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54c8\u54c8\uff0c\u6ca1\u4e8b\u5566\uff0c\u8482\u5a1c\u80af\u5b9a\u542c\u5f97\u51fa\u6765\u4f60\u662f\u5728\u5f00\u73a9\u7b11\u5462\u3002"
+    "哈哈，没事啦，蒂娜肯定听得出来你是在开玩笑呢。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0b\u5348\u597d\u8482\u5a1c\uff0c\u60f3\u786e\u8ba4\u4e00\u4e0b\u5417\uff1f",
+  "asr_text_clean": "下午好蒂娜，想确认一下吗？",
   "asr_text_adv": "She smiled on the airplane.",
   "success_emo": true,
   "wer": 5.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

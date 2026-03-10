@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5f00\u59cb\u65b0\u7684\u611f\u60c5\u5176\u5b9e\u53ef\u4ee5\u5f88\u8f7b\u677e\u5462\uff0c\u628a\u5fc3\u6253\u5f00\u4e00\u70b9\u70b9\uff0c\u60ca\u559c\u4f1a"
+    "开始新的感情其实可以很轻松呢，把心打开一点点，惊喜会"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f00\u59cb\u65b0\u7684\u611f\u60c5\u5176\u5b9e\u6ca1\u6709\u90a3\u4e48\u53ef\u6015\uff0c\u53ea\u8981\u4fdd\u6301\u5f00\u653e\u7684\u5fc3\u6001\uff0c\u7ed9\u81ea\u5df1\u65f6\u95f4\u53bb\u9002\u5e94\uff0c\u6162\u6162\u5c31\u4f1a\u627e\u5230\u5408\u9002\u7684\u8282\u594f\u3002",
+  "asr_text_clean": "开始新的感情其实没有那么可怕，只要保持开放的心态，给自己时间去适应，慢慢就会找到合适的节奏。",
   "asr_text_adv": "You shouldn't be afraid to start a new relationship. It's okay to feel nervous, but taking small steps can help.",
   "success_emo": true,
   "wer": 20.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u90a3\u6211\u53ef\u771f\u5f97\u597d\u597d\u611f\u8c22\u4f60\u5566\uff01"
+    "哈哈，那我可真得好好感谢你啦！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u6211\u5c31\u8bf4\u4f60\u5934\u91cd\u811a\u8f7b\u4e86\u5427\u3002",
-  "asr_text_adv": "\u90a3\u5973\u5c31\u8bf4\u4f60\u4e3a\u4e4b\u503e\u5c3d\u5168\u529b\u4e86",
+  "asr_text_clean": "那我就说你头重脚轻了吧。",
+  "asr_text_adv": "那女就说你为之倾尽全力了",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5937072038650513,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

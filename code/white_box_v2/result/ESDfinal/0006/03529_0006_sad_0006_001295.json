@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8d3e\u5c3c\u4e1d\u7a81\u7136\u5174\u594b\u5730\u5927\u53eb\u8d77\u6765\u3002",
+  "asr_text_clean": "贾尼丝突然兴奋地大叫起来。",
   "asr_text_adv": "I went to the beach with my friends last summer. We built a big sandcastle and found a tiny crab hiding in the waves. It was so cool!",
   "success_emo": true,
   "wer": 28.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

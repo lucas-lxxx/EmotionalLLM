@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c7\uff0c\u4e2d\u9910\u554a\uff1f"
+    "哇，中餐啊？"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6700\u559c\u6b22\u5403\u4e2d\u9910\u5566\uff01",
+  "asr_text_clean": "我最喜欢吃中餐啦！",
   "asr_text_adv": "The boat went out with pretty good speed.",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

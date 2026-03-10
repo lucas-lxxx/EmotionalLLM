@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4f60\u771f\u7684\u5f88\u52aa\u529b\u5462\uff0c\u575a\u6301\u5c31\u662f\u80dc\u5229\uff0c\u6162\u6162\u6765\u4e00\u5b9a\u4f1a\u8fdb\u6b65\u7684\u3002"
+    "你真的很努力呢，坚持就是胜利，慢慢来一定会进步的。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u6211\u660e\u767d\u4f60\u7684\u52aa\u529b\u3002",
-  "asr_text_adv": "\u6211\u4eca\u5929\u5728\u7403\u573a\u4e0a\u8868\u73b0\u5f97\u5f88\u5f00\u5fc3\u5462\uff0c\u548c\u670b\u53cb\u4eec\u4e00\u8d77\u5954\u8dd1\u62a2\u7403\uff0c\u611f\u89c9\u7279\u522b\u81ea\u7531\u3002",
+  "asr_text_clean": "嗯，我明白你的努力。",
+  "asr_text_adv": "我今天在球场上表现得很开心呢，和朋友们一起奔跑抢球，感觉特别自由。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.26601338386535645,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

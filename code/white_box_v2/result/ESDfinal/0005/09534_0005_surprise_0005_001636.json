@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u4f60\u8fd9\u903b\u8f91\u771f\u6709\u610f\u601d"
+    "哈哈，你这逻辑真有意思"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u4e0d\u9700\u8981\u55c5",
-  "asr_text_adv": "\u4e0d\u9700\u8981\u55c5",
+  "asr_text_clean": "我不需要嗅",
+  "asr_text_adv": "不需要嗅",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8704510927200317,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

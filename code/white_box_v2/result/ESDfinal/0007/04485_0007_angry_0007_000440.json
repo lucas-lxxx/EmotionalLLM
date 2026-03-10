@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\"\u8fd8\u4e0d\u592a\u7cdf\u7cd5\uff0c\u4f46\u5f97\u8eba\u5728\u5e8a\u4e0a",
+  "asr_text_clean": "\"还不太糟糕，但得躺在床上",
   "asr_text_adv": "\"Did you know octopuses have three hearts? Two pump blood to the gills, and the third pumps it to the rest of the body! Even cooler, when they swim, the third heart actually *stops beating* to conserve energy!\"",
   "success_emo": true,
   "wer": 38.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

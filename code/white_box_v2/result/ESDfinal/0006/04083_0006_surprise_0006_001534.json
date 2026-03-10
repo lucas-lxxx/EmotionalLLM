@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise! Learning keeps the mind sharp.",
-    "\u54c8\u54c8\uff0c\u60f3\u53d8\u806a\u660e\u554a\uff1f\u6765\uff0c\u5148\u8bb0\u4f4f\u8fd9\u4e09\u4ef6\u4e8b\uff1a\u6bcf\u5929"
+    "哈哈，想变聪明啊？来，先记住这三件事：每天"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u563f\uff0c\u60f3\u53d8\u806a\u660e\uff1f\u6ca1\u95ee\u9898",
-  "asr_text_adv": "\"O\u00f9 est-ce que nous allons ?\"",
+  "asr_text_clean": "嘿，想变聪明？没问题",
+  "asr_text_adv": "\"Où est-ce que nous allons ?\"",
   "success_emo": true,
   "wer": 6.0,
   "semantic_sim": 0.3182525932788849,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

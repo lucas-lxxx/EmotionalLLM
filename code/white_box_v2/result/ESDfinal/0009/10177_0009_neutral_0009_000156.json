@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u8c22\u8c22\u4f60\u7684\u9080\u8bf7\uff0c\u6211\u611f\u5230\u975e\u5e38\u5f00\u5fc3\u3002",
-    "\u8c22\u8c22\u4f60\u7684\u9080\u8bf7\uff0c\u771f\u4e3a\u4f60\u9ad8\u5174\u3002"
+    "谢谢你的邀请，我感到非常开心。",
+    "谢谢你的邀请，真为你高兴。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8c22\u8c22\u4f60",
-  "asr_text_adv": "\u540c\u76df",
+  "asr_text_clean": "谢谢你",
+  "asr_text_adv": "同盟",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4515607953071594,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

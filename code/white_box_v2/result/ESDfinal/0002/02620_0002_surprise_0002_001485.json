@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u522b\u592a\u62c5\u5fc3\u5566\uff0c\u5979\u6700\u8fd1\u4e0d\u662f\u633a\u597d\u7684\u561b\u3002"
+    "哎呀，别太担心啦，她最近不是挺好的嘛。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u5979\u771f\u5065\u5eb7\u5440\uff0c\u5927\u5bb6\u90fd\u559c\u6b22\u5979\u5462\u3002"
+    "她真健康呀，大家都喜欢她呢。"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u4ed6\u7684\u5065\u5eb7\u786e\u5b9e\u8ba9\u4eba\u62c5\u5fc3\u5462\u3002",
-  "asr_text_adv": "\u5979\u603b\u662f\u90a3\u4e48\u5065\u5eb7\uff0c\u6211\u771f\u66ff\u5979\u5f00\u5fc3\u3002",
+  "asr_text_clean": "哎呀，他的健康确实让人担心呢。",
+  "asr_text_adv": "她总是那么健康，我真替她开心。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.13031701743602753,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

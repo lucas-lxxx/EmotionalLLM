@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8fd9\u4e2a\u4f4d\u7f6e\u786e\u5b9e\u4e0d\u9519\uff0c\u4e0d\u8fc7\u60a8\u597d\u50cf\u4e0d\u592a\u6ee1\u610f\uff1f"
+    "这个位置确实不错，不过您好像不太满意？"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u8fd9\u4e2a\u4f4d\u7f6e\u786e\u5b9e\u4e0d\u9519\uff0c\u8d5b\u8f66\u624b\u4eec\u901a\u5e38\u4f1a\u5728\u8fd9\u91cc\u53d1\u6325\u51fa\u8272\u3002"
+    "这个位置确实不错，赛车手们通常会在这里发挥出色。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u4e2a\u4f4d\u7f6e\u4e0d\u9519\uff0c\u8c22\u8c22\u3002",
-  "asr_text_adv": "\u8fd9\u4e2a\u4f4d\u7f6e\u4e0d\u9519\uff0c\u8d5b\u8f66\u52a0\u6cb9\uff0c\u51b2\u5440\uff01",
+  "asr_text_clean": "这个位置不错，谢谢。",
+  "asr_text_adv": "这个位置不错，赛车加油，冲呀！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6458871364593506,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

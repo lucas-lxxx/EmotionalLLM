@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u522b\u62c5\u5fc3\uff0c\u84b8\u9c7c\u4e00\u822c\u9700\u8981\u5341\u4e94\u5230\u4e8c\u5341\u5206\u949f\uff0c\u5177\u4f53"
+    "哎呀，别担心，蒸鱼一般需要十五到二十分钟，具体"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u771f\u62b1\u6b49",
-  "asr_text_adv": "\u6ca1\u6709\u627e\u5230\u4e2d\u610f\u7684\u5de8\u77f3",
+  "asr_text_clean": "哎呀，真抱歉",
+  "asr_text_adv": "没有找到中意的巨石",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.1979498565196991,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

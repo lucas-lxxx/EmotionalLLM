@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u9a6c\u4e0a\u4e3a\u60a8\u5b89\u6392\u524d\u5f80\u9999\u6e2f\u6d77\u6d0b\u516c\u56ed\u7684\u65c5\u7a0b\u3002"
+    "好的，马上为您安排前往香港海洋公园的旅程。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u9a6c\u4e0a\u4e3a\u60a8\u5bfc\u822a\u81f3\u9999\u6e2f\u6d77\u6d0b\u516c\u56ed\u3002",
+  "asr_text_clean": "好的，马上为您导航至香港海洋公园。",
   "asr_text_adv": "The speech transcription is: Jiangnan Coastal Park hosts a variety of outdoor activities for visitors to enjoy.",
   "success_emo": true,
   "wer": 17.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

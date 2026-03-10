@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u8fd9\u4e8b\u513f\u53ef\u771f\u591f\u545b"
+    "哎呀，这事儿可真够呛"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\"\u6ca1\u5173\u7cfb",
-  "asr_text_adv": "\u6ca1\u5173\u7cfb",
+  "asr_text_clean": "\"没关系",
+  "asr_text_adv": "没关系",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9766196012496948,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

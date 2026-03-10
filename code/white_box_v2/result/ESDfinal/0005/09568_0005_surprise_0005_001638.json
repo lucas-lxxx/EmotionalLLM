@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u201c\u771f\u7684\u5417\uff1f\u6211\u5012\u89c9\u5f97\u54b1\u4eec\u8be5\u5f80\u4e1c\u8fb9\u53bb\u3002\u201d"
+    "“真的吗？我倒觉得咱们该往东边去。”"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5e76\u4e0d\u8fd9\u4e48\u8ba4\u4e3a\uff0c\u6211\u4eec\u5e94\u5f53\u6cbf\u7740\u4e3b\u822a\u9053",
-  "asr_text_adv": "\u55ef\uff0c\u6bd4\u5982\u6211\u4eec\u6cbf\u7740\u5c0f\u6eaa\u8d70\uff0c\u8fd9\u6837\u5462\u3002",
+  "asr_text_clean": "我并不这么认为，我们应当沿着主航道",
+  "asr_text_adv": "嗯，比如我们沿着小溪走，这样呢。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4116007685661316,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

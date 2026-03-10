@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5979\u548c\u7ef4\u514b\u5206\u624b\u4e86\uff0c\u6240\u4ee5\u7533\u8bf7\u8f6c\u5b66\u3002"
+    "她和维克分手了，所以申请转学。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u548c\u7ef4\u514b\u5206\u624b\u4e86\uff0c\u6240\u4ee5\u5979\u7533\u8bf7\u4e86\u8f6c\u5b66\u3002",
-  "asr_text_adv": "\u5979\u548c\u7ef4\u514b\u5206\u624b\u4e86\uff0c\u6240\u4ee5\u4ed6",
+  "asr_text_clean": "她和维克分手了，所以她申请了转学。",
+  "asr_text_adv": "她和维克分手了，所以他",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7294946908950806,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

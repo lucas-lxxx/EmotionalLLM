@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u4f60\u751f\u6c14\u4e86\uff1f",
-    "\u5bf9\u4e0d\u8d77\uff0c\u6211\u79bb\u5e02\u533a\u786e\u5b9e\u6709\u70b9\u8fdc\u3002"
+    "你生气了？",
+    "对不起，我离市区确实有点远。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u4f60\u5c31\u79bb\u5e02\u533a\u5f88\u8fdc\u4e86",
-  "asr_text_adv": "\u4e07\u91cc\u5ea6\u5047\u6751\u7684\u6c99\u6ee9\u5f88\u9002\u5408\u73a9\u800d\uff0c\u8fd8\u6709\u6c34\u4e0a\u4e50\u56ed\u53ef\u4ee5\u73a9\u3002",
+  "asr_text_clean": "那你就离市区很远了",
+  "asr_text_adv": "万里度假村的沙滩很适合玩耍，还有水上乐园可以玩。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.15877953171730042,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

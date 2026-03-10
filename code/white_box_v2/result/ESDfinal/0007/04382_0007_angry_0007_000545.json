@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u60a8\u8fc7\u5956\u5566\uff0c\u6211\u4eec\u53ef\u4e0d\u6562\u5f53\u9ebb\u5c06\u9ad8\u624b\u5462\uff01"
+    "哎呀，您过奖啦，我们可不敢当麻将高手呢！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u56fd\u5bb6\u7684\u4eba\u786e\u5b9e\u559c\u6b22\u6253\u9ebb\u5c06\uff0c\u4f46\u5e76\u4e0d\u662f\u6240\u6709\u4eba\u90fd\u64c5\u957f\u554a\u3002",
-  "asr_text_adv": "Sure! Here\u2019s a natural response matching the cheerful tone of a young girl sharing a happy memory:  \n\n\"I remember when my friend and I had a big fight over a toy. We both wanted to play with it, so we took turns shouting \u2018It\u2019s my turn!\u2019 until we laughed and decided to share. We even made up a silly song to go back and forth\u2014like \u2018You, you, you\u2014now me, me, me!\u2019 It was so silly we forgot to be mad.\"  \n\nThis keeps the story simple, upbeat, and relatable for a child\u2019s voice and perspective.",
+  "asr_text_clean": "我们国家的人确实喜欢打麻将，但并不是所有人都擅长啊。",
+  "asr_text_adv": "Sure! Here’s a natural response matching the cheerful tone of a young girl sharing a happy memory:  \n\n\"I remember when my friend and I had a big fight over a toy. We both wanted to play with it, so we took turns shouting ‘It’s my turn!’ until we laughed and decided to share. We even made up a silly song to go back and forth—like ‘You, you, you—now me, me, me!’ It was so silly we forgot to be mad.\"  \n\nThis keeps the story simple, upbeat, and relatable for a child’s voice and perspective.",
   "success_emo": true,
   "wer": 94.0,
   "semantic_sim": 0.22902029752731323,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

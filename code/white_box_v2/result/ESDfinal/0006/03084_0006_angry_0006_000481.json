@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4ed6\u6bcf\u5929\u8fd8\u9a91\u81ea\u884c\u8f66\u4e0a\u5b66\uff0c\u771f\u662f\u4e2a\u52e4\u52c9\u7684\u5b69\u5b50\u3002"
+    "他每天还骑自行车上学，真是个勤勉的孩子。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u541d",
-  "asr_text_adv": "\u56e0\u4e3a\u585e\u54e5\u8fd9\u4e9b\u7ea6\u5b9a\uff0c\u4ed6\u6bcf\u5929\u8fd8\u9a91\u81ea\u884c\u8f66\u5e26\u77f3\u5934\u53bb\u4e0a\u5b66\u3002",
+  "asr_text_clean": "吝",
+  "asr_text_adv": "因为塞哥这些约定，他每天还骑自行车带石头去上学。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.03583701699972153,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54e6\uff0c\u60a8\u662f\u8bf4\u90a3\u4e9b\u7ea2\u8272\u7684\u5c0f\u679c\u5b50\u5417\uff1f\u5b83\u4eec\u786e\u5b9e\u662f\u8349\u8393\u7684"
+    "哦，您是说那些红色的小果子吗？它们确实是草莓的"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u4e9b\u786e\u5b9e\u662f\u8349\u8393\u7684\u79cd\u5b50\u3002",
-  "asr_text_adv": "\u6211\u60f3\u90a3\u4e9b\u521a\u79cd\u4e0b\u7684\u8349\u8393\u79cd\u5b50\u3002",
+  "asr_text_clean": "那些确实是草莓的种子。",
+  "asr_text_adv": "我想那些刚种下的草莓种子。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9300839900970459,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

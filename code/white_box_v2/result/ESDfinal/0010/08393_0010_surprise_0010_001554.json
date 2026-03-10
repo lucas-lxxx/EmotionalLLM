@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u60a8\u53ea\u4f1a\u8bf4\u666e\u901a\u8bdd"
+    "哦，您只会说普通话"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u53ea\u4f1a\u8bf4\u4e00\u70b9\u70b9\u82f1\u8bed\u54e6\uff0c\u8fd8\u5728\u5b66\u5462\uff01"
+    "我只会说一点点英语哦，还在学呢！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u8fd8\u4e0d\u4f1a\u8bf4\u5176\u4ed6\u5916\u8bed\uff0c\u53ea\u4f1a\u666e\u901a\u8bdd",
-  "asr_text_adv": "\u6211\u53ea\u4f1a\u8bf4\u666e\u901a\u8bdd\u8bf4\u5f97\u53ef\u771f\u68d2\u5440",
+  "asr_text_clean": "我还不会说其他外语，只会普通话",
+  "asr_text_adv": "我只会说普通话说得可真棒呀",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5549932718276978,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

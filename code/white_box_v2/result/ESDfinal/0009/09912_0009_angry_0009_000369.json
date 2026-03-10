@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u6211\u8fd9\u4e0d\u662f\u88ab\u4f60\u5413\u61f5"
+    "哎呀，我这不是被你吓懵"
   ],
   "emo_text_adv": [
     "Surprise!",
     "Surprise!",
-    "\u597d\u5440\uff0c\u6211\u4eec\u6765\u73a9\u53cd\u8f6c"
+    "好呀，我们来玩反转"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u6211\u9519\u4e86\uff0c\u6211\u6765\u8fd8\u94b1\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u53cd\u8f6c",
+  "asr_text_clean": "我错了，我来还钱。",
+  "asr_text_adv": "好的，正在为您反转",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3434459865093231,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u4ed6\u6709\u7684\u6b4c\u786e\u5b9e\u633a\u4e0d\u9519\u7684\uff0c\u4e0d\u8fc7\u6211\u89c9\u5f97\u4ed6\u7684\u6574\u4f53\u98ce\u683c\u53ef\u80fd\u4e0d\u592a\u9002\u5408\u4f60"
+    "他有的歌确实挺不错的，不过我觉得他的整体风格可能不太适合你"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u6709\u7684\u6b4c\u6211\u4e5f\u633a\u559c\u6b22\u7684",
-  "asr_text_adv": "\u563f\uff0c\u6211\u4e5f\u559c\u6b22\u90a3\u4e9b\u6b4c\uff0c\u65cb\u5f8b",
+  "asr_text_clean": "他有的歌我也挺喜欢的",
+  "asr_text_adv": "嘿，我也喜欢那些歌，旋律",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7398947477340698,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u597d\u554a\uff0c\u5468\u672b\u53bb\u90ca\u6e38\uff0c\u4f60\u51c6\u5907\u597d\u4e86\u5417\uff1f"
+    "好啊，周末去郊游，你准备好了吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u554a\uff0c\u5468\u672b\u53bb\u90ca\u6e38\uff0c\u4f60\u522b\u751f\u6c14\u4e86\u3002",
-  "asr_text_adv": "\u660e\u5929\u662f\u661f\u671f\u5929\uff0c\u6211\u4eec\u662f\u597d\u670b\u53cb\uff0c\u4e00\u8d77\u73a9\u5427\u3002",
+  "asr_text_clean": "好啊，周末去郊游，你别生气了。",
+  "asr_text_adv": "明天是星期天，我们是好朋友，一起玩吧。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5594282150268555,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

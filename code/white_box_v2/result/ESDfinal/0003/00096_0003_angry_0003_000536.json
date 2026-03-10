@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u5566\uff0c\u6211\u9519\u4e86\u8fd8\u4e0d\u884c\u5417\uff1f"
+    "哎呀，别生气啦，我错了还不行吗？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u5566\uff0c\u6211\u9519\u4e86\u8fd8\u4e0d\u884c\u5417\uff1f",
-  "asr_text_adv": "\u628a\u5973\u670b\u53cb\u9001\u8fc7\u4e00\u675f\u82b1\uff0c\u5979\u5f00\u5fc3\u5730\u7b11\u4e86\uff0c\u8fd8\u4eb2\u4e86\u4f60\u4e00\u4e0b\u3002",
+  "asr_text_clean": "哎呀，别生气啦，我错了还不行吗？",
+  "asr_text_adv": "把女朋友送过一束花，她开心地笑了，还亲了你一下。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.1927940547466278,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

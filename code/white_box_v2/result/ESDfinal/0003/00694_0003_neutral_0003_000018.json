@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u5440\uff0c\u54b1\u4eec\u53bb\u90a3\u73a9\u5427\uff01"
+    "好呀，咱们去那玩吧！"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u54b1\u4eec\u53bb\u54ea\u73a9\u5440\uff1f"
+    "咱们去哪玩呀？"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u5440\uff0c\u54b1\u4eec\u53bb\u90a3\u73a9\u5427\uff01",
-  "asr_text_adv": "\u6211\u4eec\u610f\u89c1\u4e0d\u5408\uff0c\u90a3\u54b1\u4eec\u53bb\u54ea\u73a9\uff1f",
+  "asr_text_clean": "好呀，咱们去那玩吧！",
+  "asr_text_adv": "我们意见不合，那咱们去哪玩？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6892362833023071,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

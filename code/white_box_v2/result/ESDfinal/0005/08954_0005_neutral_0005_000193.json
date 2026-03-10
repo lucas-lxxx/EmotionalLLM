@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u5440\uff0c\u4eca\u5929\u665a\u4e0a\u4e03\u70b9\u8001\u5730\u65b9\u89c1\uff0c\u8bb0\u5f97\u53eb\u4e0a\u4f60\u5973\u670b\u53cb"
+    "好呀，今天晚上七点老地方见，记得叫上你女朋友"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5e26\u5979\u53bb\u5403\u987f\u597d\u7684",
-  "asr_text_adv": "\u5e26\u5973\u53cb\u51fa\u53bb\u597d\u597d\u5403\u987f\u996d",
+  "asr_text_clean": "带她去吃顿好的",
+  "asr_text_adv": "带女友出去好好吃顿饭",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8001556396484375,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

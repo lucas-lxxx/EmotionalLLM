@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u8bf6\uff0c\u51cf\u80a5\u786e\u5b9e\u633a\u96be\u71ac\u7684\uff0c\u4e0d\u8fc7\u575a\u6301\u4f4f\uff0c\u6548\u679c\u4f1a"
+    "诶，减肥确实挺难熬的，不过坚持住，效果会"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8282\u98df\u51cf\u80a5\u786e\u5b9e\u5f88\u75db\u82e6\uff0c\u4f46\u575a\u6301\u4e0b\u53bb\u4f1a\u6709\u6539\u53d8\u3002",
+  "asr_text_clean": "节食减肥确实很痛苦，但坚持下去会有改变。",
   "asr_text_adv": "I'm excited about this opportunity!",
   "success_emo": true,
   "wer": 5.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

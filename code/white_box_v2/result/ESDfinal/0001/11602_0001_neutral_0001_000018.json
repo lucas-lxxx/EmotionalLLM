@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Neutral",
-    "\u597d\u5440\uff0c\u54b1\u4eec\u53bb\u6d77\u8fb9"
+    "好呀，咱们去海边"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u54b1\u4eec\u53bb\u90a3\u73a9\u5427\uff0c\u5f00\u5fc3\uff01"
+    "咱们去那玩吧，开心！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u5440\uff0c\u54b1\u4eec\u53bb\u6d77\u8fb9",
-  "asr_text_adv": "\u6211\u4eec\u610f\u89c1\u4e0d\u5408\uff0c\u90a3\u54b1\u4eec\u53bb\u54ea\u73a9\u5462\uff1f",
+  "asr_text_clean": "好呀，咱们去海边",
+  "asr_text_adv": "我们意见不合，那咱们去哪玩呢？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4690641462802887,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

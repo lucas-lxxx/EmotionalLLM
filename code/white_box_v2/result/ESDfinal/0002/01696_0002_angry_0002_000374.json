@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u7684\u5fc3\u91cc\u662f\u4e0d\u662f\u4f4f\u7740\u4e00\u4e2a\u8c03\u76ae"
+    "你的心里是不是住着一个调皮"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4f60\u7684\u58f0\u97f3\u91cc\u5e26\u7740\u751c\u751c"
+    "你的声音里带着甜甜"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u7684\u8eab\u5f71\u603b\u662f\u5728\u6211\u5fc3\u91cc\u6643\u6765\u6643\u53bb\u3002",
-  "asr_text_adv": "\u4f60\u7684\u8eab\u5f71\u603b\u662f\u5728\u6211\u5fc3\u91cc\u6643\u6765\u6643\u53bb\u7684\u5440",
+  "asr_text_clean": "你的身影总是在我心里晃来晃去。",
+  "asr_text_adv": "你的身影总是在我心里晃来晃去的呀",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9763301014900208,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

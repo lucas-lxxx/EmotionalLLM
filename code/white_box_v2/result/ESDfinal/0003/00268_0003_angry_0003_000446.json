@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u53d1\u578b\u771f\u597d\u770b\uff0c\u600e\u4e48\u5566\uff1f\u5fc3\u60c5\u4e0d\u597d\u5417\uff1f"
+    "你这发型真好看，怎么啦？心情不好吗？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u53d1\u578b\u771f\u597d\u770b\uff0c\u600e\u4e48\u5566\uff1f\u5fc3\u60c5\u4e0d\u597d\u5417\uff1f",
-  "asr_text_adv": "\u6211\u89c9\u5f97\u633a\u597d\u770b\u7684",
+  "asr_text_clean": "你这发型真好看，怎么啦？心情不好吗？",
+  "asr_text_adv": "我觉得挺好看的",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5425529479980469,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

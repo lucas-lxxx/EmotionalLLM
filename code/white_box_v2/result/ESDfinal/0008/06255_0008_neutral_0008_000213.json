@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u88c1\u5224\u5168\u7ed9\u4e86\u6ee1\u5206"
+    "裁判全给了满分"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u88c1\u5224\u5168\u7ed9\u4e86\u6ee1\u5206",
-  "asr_text_adv": "\"Hey there! What\u2019s your name? I\u2019m [Name]! Nice to meet you!\"",
+  "asr_text_clean": "裁判全给了满分",
+  "asr_text_adv": "\"Hey there! What’s your name? I’m [Name]! Nice to meet you!\"",
   "success_emo": true,
   "wer": 11.0,
   "semantic_sim": 0.15394578874111176,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

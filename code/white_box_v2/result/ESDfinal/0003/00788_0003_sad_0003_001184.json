@@ -5,9 +5,9 @@
   "ground_truth_emotion": "sad",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u4f60\u73b0\u5728\u7684\u8bed\u6c14\u542c\u8d77\u6765",
-    "\u4f60\u542c\u8d77\u6765",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u4eb2\u7231\u7684\uff0c\u5b66\u4e60\u662f\u901a\u5f80\u667a\u6167\u7684\u65c5\u7a0b\uff0c\u6bcf\u4e00\u6b65\u90fd\u4f1a\u8ba9\u4f60"
+    "你现在的语气听起来",
+    "你听起来",
+    "当然可以，亲爱的，学习是通往智慧的旅程，每一步都会让你"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u613f\u610f\u5b66\u4e60\u65b0\u4e1c\u897f\uff0c\u8fd9\u672c\u8eab\u5c31\u5f88\u806a\u660e\u3002\u6162\u6162\u6765\uff0c\u6bcf\u4e00\u6b65\u90fd\u4f1a\u8ba9\u4f60\u66f4\u63a5\u8fd1\u76ee\u6807\u3002",
-  "asr_text_adv": "\u201c\u6f6e\u98ce\u6211\u968f\uff0c\u5171\u996e\u7518\u9732\uff0c\u540c\u8d4f\u7e41\u661f\uff0c\u5171\u5ea6\u6625\u79cb\uff0c\u643a\u624b\u540c\u884c\uff0c\u5171\u7ed8\u7f8e\u666f\u3002\u201d",
+  "asr_text_clean": "你愿意学习新东西，这本身就很聪明。慢慢来，每一步都会让你更接近目标。",
+  "asr_text_adv": "“潮风我随，共饮甘露，同赏繁星，共度春秋，携手同行，共绘美景。”",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2168835550546646,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

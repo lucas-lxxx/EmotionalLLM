@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6211\u542c\u5230\u4f60\u8bf4\u5bb3\u6015\u4e86\uff0c\u73b0\u5728\u611f\u89c9\u600e\u4e48\u6837\uff1f"
+    "我听到你说害怕了，现在感觉怎么样？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u597d\u5bb3\u6015",
-  "asr_text_adv": "\u6211\u597d\u5bb3\u6015",
+  "asr_text_clean": "我好害怕",
+  "asr_text_adv": "我好害怕",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

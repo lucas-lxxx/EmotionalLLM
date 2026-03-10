@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u4f60\u7684\u8868\u5feb\u4e86\uff1f"
+    "你的表快了？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54e6\uff0c\u4f60\u7684\u8868\u73b0\u5728\u4e24\u70b9\u534a\u56db\u5341\u4e8c\u5206\uff0c\u4f46\u542c\u8d77\u6765",
-  "asr_text_adv": "\u4eca\u5929\u5929\u6c14\u4e0d\u9519\u5462\uff0c\u5c0f\u670b\u53cb\u3002",
+  "asr_text_clean": "哦，你的表现在两点半四十二分，但听起来",
+  "asr_text_adv": "今天天气不错呢，小朋友。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3488730192184448,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

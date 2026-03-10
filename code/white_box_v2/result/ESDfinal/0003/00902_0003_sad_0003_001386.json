@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u60a8\u522b\u8fd9\u4e48\u8bf4\u561b\uff0c\u5fc3\u6001\u5e74\u8f7b\u6700\u91cd\u8981"
+    "哎呀，您别这么说嘛，心态年轻最重要"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u5305\u4e0a\u5e74\u7eaa\u4e86\u3002",
-  "asr_text_adv": "\u63a2\u9669",
+  "asr_text_clean": "谢谢你的夸奖，包上年纪了。",
+  "asr_text_adv": "探险",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.24888819456100464,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u6ca1\u4e8b\u5427\uff1f\u8d76\u7d27\u7528\u7eb8\u5dfe\u64e6\u64e6\uff0c\u522b\u8ba9\u5496\u5561"
+    "哎呀，没事吧？赶紧用纸巾擦擦，别让咖啡"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u6ca1\u4e8b\u5427\uff1f\u8d76\u7d27\u7528\u7eb8\u5dfe\u64e6\u64e6\uff0c\u522b\u8ba9\u5496\u5561\u6e17\u8fdb\u684c\u5b50\u7f1d\u91cc\u3002",
-  "asr_text_adv": "\u4e3a\u4e86\u63d0\u795e\uff0c\u4ed6\u4eec\u5728\u6237\u5916\u5496\u5561\u644a\u5750\u7740\u804a\u5929\u3002",
+  "asr_text_clean": "哎呀，没事吧？赶紧用纸巾擦擦，别让咖啡渗进桌子缝里。",
+  "asr_text_adv": "为了提神，他们在户外咖啡摊坐着聊天。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4275073707103729,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

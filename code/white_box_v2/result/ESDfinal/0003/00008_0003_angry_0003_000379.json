@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u6c14\u4eba\u4e86\uff01"
+    "你这话说得也太气人了！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u4f60\u5f88\u53ef\u7231\uff0c\u4f46\u522b\u50cf\u6211\u8fd9\u6837\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "你很可爱，但别像我这样。",
+  "asr_text_adv": "好的，我来帮你转录一下。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.40189969539642334,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

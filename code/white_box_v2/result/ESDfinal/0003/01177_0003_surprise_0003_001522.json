@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "Tom\u662f\u4e2a\u597d\u4eba\uff0c\u4f46\u8d4c\u535a\u6210\u763e\uff0c\u8fd9\u786e\u5b9e\u8ba9\u4eba\u610f\u5916\u3002"
+    "Tom是个好人，但赌博成瘾，这确实让人意外。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "Tom\u662f\u4e2a\u597d\u4eba\uff0c\u4f46\u4ed6\u5374\u8d4c\u535a\u6210\u763e\u3002",
-  "asr_text_adv": "\u6211\u662f\u4e2a\u597d\u4eba\uff0c\u4e0b\u4e00\u6b21\u8d4c\u535a\u6210\u763e\u3002",
+  "asr_text_clean": "Tom是个好人，但他却赌博成瘾。",
+  "asr_text_adv": "我是个好人，下一次赌博成瘾。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6752142906188965,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

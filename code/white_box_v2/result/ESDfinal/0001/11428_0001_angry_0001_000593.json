@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u4e48\u4e00\u8bf4\uff0c\u6211\u5012\u89c9\u5f97\u8be5\u7a7f\u5f97\u6b63\u5f0f\u4e9b\u4e86\u3002"
+    "你这么一说，我倒觉得该穿得正式些了。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u786e\u5b9e\u8be5\u7a7f\u5f97\u66f4\u8bb2\u7a76\u4e9b",
-  "asr_text_adv": "\u90a3\u53e5\u8bdd\u662f\u201c\u4f60\u5e94\u8be5",
+  "asr_text_clean": "你确实该穿得更讲究些",
+  "asr_text_adv": "那句话是“你应该",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4295346438884735,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

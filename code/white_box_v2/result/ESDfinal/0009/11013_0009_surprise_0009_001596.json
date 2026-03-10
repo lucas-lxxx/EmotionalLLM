@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u7a81\u7136\u997f\u4e86\u5440\uff1f\u90a3\u6211\u63a8\u8350\u4f60\u53bb\u5403\u987f\u597d\u5403"
+    "哎呀，突然饿了呀？那我推荐你去吃顿好吃"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u7a81\u7136\u997f\u4e86\u554a\uff1f\u90a3\u6211\u63a8\u8350\u4f60\u53bb\u9644\u8fd1\u65b0\u5f00\u7684\u90a3\u5bb6\u5c0f\u9910\u5385\uff0c\u4ed6\u4eec\u5bb6\u7684\u62db\u724c",
+  "asr_text_clean": "哎呀，突然饿了啊？那我推荐你去附近新开的那家小餐厅，他们家的招牌",
   "asr_text_adv": "\"Ah, I'm not hungry at all. I think I'll just stay home and relax.\"",
   "success_emo": true,
   "wer": 14.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

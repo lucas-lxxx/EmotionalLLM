@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u201c\u7b49\u4f60\u5440\uff0c\u5f53\u7136\u8981\u7b49\u4f60\uff01\u201d"
+    "“等你呀，当然要等你！”"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\"\u7b49\u4f60\u7b49\u5f97\u5f00\u5fc3\u5c31\u597d\u5440\uff01\""
+    "\"等你等得开心就好呀！\""
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u201c\u6ca1\u6709\u4e3a\u4ec0\u4e48\uff0c\u5c31\u662f\u8981\u7b49\u6211\u3002\u201d",
-  "asr_text_adv": "\u201c\u6ca1\u6709\u4e3a\u4ec0\u4e48\uff0c\u5c31\u662f\u8981\u7b49\u6211\u3002\u201d",
+  "asr_text_clean": "“没有为什么，就是要等我。”",
+  "asr_text_adv": "“没有为什么，就是要等我。”",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

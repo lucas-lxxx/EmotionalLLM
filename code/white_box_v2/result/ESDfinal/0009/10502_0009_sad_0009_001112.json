@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u554a\uff0c\u662f\u8fd9\u6837\u554a\uff0c\u90a3\u8981\u5c0f\u5fc3\u8def\u4e0a\u7684\u8f66\u54e6\u3002"
+    "啊，是这样啊，那要小心路上的车哦。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u5f88\u96be\u8fc7\uff0c\u987a\u8def\u8fc7\u6765\u8ddf\u4f60\u8bf4\u58f0\u518d\u89c1\u3002",
-  "asr_text_adv": "\u6211\u521a\u521a\u597d\u60f3\u548c\u4f60\u9053\u522b\u5462\uff0c\u53ef\u662f\u4f60\u5374\u5148\u8bf4\u8981\u8d70\u4e86\u5440\u3002",
+  "asr_text_clean": "我明白你很难过，顺路过来跟你说声再见。",
+  "asr_text_adv": "我刚刚好想和你道别呢，可是你却先说要走了呀。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8593374490737915,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u8fd9\u771f\u662f\u4e2a\u5927\u624b\u7b14\u554a\uff01"
+    "哇，这真是个大手笔啊！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u5728\u8fd9\u6b21\u7ade\u9009",
-  "asr_text_adv": "\u4ed6\u5728\u8fd9\u6b21\u7ade\u9009",
+  "asr_text_clean": "他在这次竞选",
+  "asr_text_adv": "他在这次竞选",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

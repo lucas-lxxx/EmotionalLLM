@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u517b\u8fc7\u4e00\u53ea\u732b\uff0c\u5b83\u7279\u522b\u8c03\u76ae",
-  "asr_text_adv": "\u6211\u592a\u9ad8\u5174\u5566\uff01",
+  "asr_text_clean": "我养过一只猫，它特别调皮",
+  "asr_text_adv": "我太高兴啦！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.23910927772521973,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

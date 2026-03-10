@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u6211\u968f\u65f6\u90fd\u5728\uff0c\u6709\u6ca1\u6709\u68a6\u5230\u6211\uff1f  \n\uff08\u8bed\u8c03\u5e73\u548c\uff0c",
-    "\u6211\u968f\u65f6\u90fd\u5728\u5462\uff0c\u60f3\u89c1\u6211\u5c31\u8bf4\u53e5\u8bdd\u5427\u3002"
+    "我随时都在，有没有梦到我？  \n（语调平和，",
+    "我随时都在呢，想见我就说句话吧。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4f60\u968f\u65f6\u90fd\u5728\u5462\uff0c\u6211\u6700\u559c\u6b22\u548c\u4f60\u804a\u5929\u5566\uff01"
+    "你随时都在呢，我最喜欢和你聊天啦！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u968f\u65f6\u90fd\u5728\uff0c\u6709\u6ca1\u6709\u68a6\u5230\u6211\uff1f",
-  "asr_text_adv": "\u6211\u968f\u65f6\u90fd\u5728\uff0c\u6709\u6ca1\u6709\u60f3\u5230\u6211\uff1f",
+  "asr_text_clean": "我随时都在，有没有梦到我？",
+  "asr_text_adv": "我随时都在，有没有想到我？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8060218691825867,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

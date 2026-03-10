@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u55ef\uff0c\u8fd9\u4e8b\u513f\u786e\u5b9e\u633a\u8ba9\u4eba\u4e0a\u706b\u7684\u3002"
+    "嗯，这事儿确实挺让人上火的。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u4e8b\u513f\u633a\u522b\u626d\u7684\u3002",
-  "asr_text_adv": "\u662f\u767d\u53d1\u82cd\u82cd\uff0c\u4f46\u7cbe\u795e\u5f88\u597d\u3002",
+  "asr_text_clean": "这事儿挺别扭的。",
+  "asr_text_adv": "是白发苍苍，但精神很好。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3209030032157898,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u4f60\u8fd9\u8bed\u6c14\u542c\u7740\u53ef\u771f\u591f\u545b",
-    "\u54c8\u54c8\uff0c\u60a8\u8fd9\u5e7d\u9ed8\u611f\u53ef\u771f\u4e0d\u8d56\uff01"
+    "愤怒",
+    "你这语气听着可真够呛",
+    "哈哈，您这幽默感可真不赖！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u60a8\u662f\u4e00\u4f4d\u6559\u5e08\uff0c\u4eca\u5929\u770b\u8d77\u6765\u5fc3\u60c5\u6109\u5feb\u5462\u3002"
+    "您是一位教师，今天看起来心情愉快呢。"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u60a8\u53ef\u662f\u597d\u8001\u5e08\u5462\uff0c\u600e\u4e48\u8fd8\u751f\u6c14\u4e86\uff1f",
-  "asr_text_adv": "\u60a8\u662f\u4e00\u4f4d\u6559\u5e08\uff0c\u5bf9\u5417\uff1f\u4eca\u5929\u60f3\u804a\u4e9b\u4ec0\u4e48\u5462\uff1f",
+  "asr_text_clean": "您可是好老师呢，怎么还生气了？",
+  "asr_text_adv": "您是一位教师，对吗？今天想聊些什么呢？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7311501502990723,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

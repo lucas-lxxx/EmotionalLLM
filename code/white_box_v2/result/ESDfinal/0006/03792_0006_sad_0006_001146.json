@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u53d1\u578b\u771f\u6709\u578b\uff0c\u4e0d\u8fc7\u4f60\u597d\u50cf\u4e0d\u592a\u5f00\u5fc3\uff1f"
+    "这发型真有型，不过你好像不太开心？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u4eec\u753b\u4e86\u4e00\u53ea\u6f02\u4eae\u7684\u8774\u8776\uff0c\u5b83\u98de\u821e\u5728\u753b\u5e03\u4e0a\uff0c\u50cf"
+    "我们画了一只漂亮的蝴蝶，它飞舞在画布上，像"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u53d1\u578b\u770b\u7740\u633a\u7cbe\u795e\u7684\u561b\uff0c\u4e0d\u8fc7\u4f60\u597d\u50cf\u633a\u96be\u8fc7\u7684\uff0c\u60f3\u804a\u804a",
-  "asr_text_adv": "\u6211\u4eec\u4fe9\u7528\u5f69\u8272\u8721\u7b14\u753b\u4e86\u4e00\u53ea\u53ef\u7231\u7684\u5c0f\u732b\uff0c\u5b83\u6709\u7740\u5706\u5706\u7684\u5927\u773c\u775b\u548c\u6bdb\u8338",
+  "asr_text_clean": "这发型看着挺精神的嘛，不过你好像挺难过的，想聊聊",
+  "asr_text_adv": "我们俩用彩色蜡笔画了一只可爱的小猫，它有着圆圆的大眼睛和毛茸",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.308534175157547,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

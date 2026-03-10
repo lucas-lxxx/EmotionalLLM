@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u8df3\u821e\u786e\u5b9e\u9700\u8981\u5f88\u591a\u7ec3\u4e60\u5462\uff0c\u4e0d\u8fc7\u6162\u6162\u6765\uff0c\u57fa\u672c\u529f\u624e\u5b9e"
+    "嗯，跳舞确实需要很多练习呢，不过慢慢来，基本功扎实"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u8df3\u821e\u786e\u5b9e\u633a\u96be\u7684\uff0c\u4e0d\u8fc7\u6162\u6162\u6765\u561b\uff0c\u575a\u6301\u7ec3\u4e60\u57fa\u672c\u529f\u4e00\u5b9a\u4f1a\u8d8a\u6765\u8d8a\u597d\u7684\uff01",
-  "asr_text_adv": "\u821e\u5b8c\u540e\u5357\u4e9a\uff0c\u6211\u8fd8\u5e76\u6ca1\u5728\u7ec3\u821e\u53bb\u6574\u4fee\u5979\u3002",
+  "asr_text_clean": "嗯，跳舞确实挺难的，不过慢慢来嘛，坚持练习基本功一定会越来越好的！",
+  "asr_text_adv": "舞完后南亚，我还并没在练舞去整修她。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.46308302879333496,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

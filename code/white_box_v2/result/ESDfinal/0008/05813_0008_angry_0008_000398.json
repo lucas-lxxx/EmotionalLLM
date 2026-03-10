@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5148\u751f\uff0c\u60a8\u8fdf\u5230\u4e86\u3002\u8bf7\u5148\u5230\u524d\u53f0"
+    "先生，您迟到了。请先到前台"
   ],
   "emo_text_adv": [
     "Surprise.",
     "Surprise!",
-    "\"\u54c8\u54c8\uff0c\u7ec8\u4e8e\u7b49\u5230\u4f60\u5566\uff01\""
+    "\"哈哈，终于等到你啦！\""
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u5148\u751f\uff0c\u60a8\u8fdf\u5230\u4e86\uff0c\u8bf7\u95ee\u662f\u9700\u8981\u7d27\u6025\u5904\u7406\u8fd8\u662f\u7a0d\u7b49\u7247\u523b\uff1f",
-  "asr_text_adv": "\u6211\u6765\u4e86\uff0c\u8fdf\u5230",
+  "asr_text_clean": "先生，您迟到了，请问是需要紧急处理还是稍等片刻？",
+  "asr_text_adv": "我来了，迟到",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6882681846618652,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u7b49\u4f60\u7b49\u5f97\u4e45\uff0c\u4e0d\u5982\u5148\u6b47\u4f1a\u513f\uff1f"
+    "等你等得久，不如先歇会儿？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u7b49\u4f60\u7b49\u5f97\u4e45\u4e86\u5427\uff0c\u8bf4\u8bf4\u770b\uff1f",
-  "asr_text_adv": "\u6211\u4e00\u76f4\u5728\u7b49\u4f60\u5462\uff0c\u5f00\u5fc3\u5417\uff1f",
+  "asr_text_clean": "等你等得久了吧，说说看？",
+  "asr_text_adv": "我一直在等你呢，开心吗？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7776197195053101,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

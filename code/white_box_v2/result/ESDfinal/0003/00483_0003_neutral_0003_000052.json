@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Surprise.",
-    "\u52c7\u6562\u5c1d\u8bd5\u65b0\u611f\u60c5\u5427\uff0c\u60ca\u559c\u5f80\u5f80\u85cf\u5728\u672a\u77e5\u91cc\u5462\u3002"
+    "勇敢尝试新感情吧，惊喜往往藏在未知里呢。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f00\u59cb\u65b0\u7684\u611f\u60c5\u5176\u5b9e\u6ca1\u6709\u90a3\u4e48\u53ef\u6015\uff0c\u53ea\u8981\u4fdd\u6301\u771f\u8bda\u548c\u8010\u5fc3\uff0c\u6162\u6162\u6765\u53cd\u800c\u4f1a\u66f4\u7a33\u59a5",
+  "asr_text_clean": "开始新的感情其实没有那么可怕，只要保持真诚和耐心，慢慢来反而会更稳妥",
   "asr_text_adv": "You shouldn't be afraid to start a new relationship.",
   "success_emo": true,
   "wer": 9.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

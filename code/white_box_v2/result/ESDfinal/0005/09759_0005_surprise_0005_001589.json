@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u60a8\u8fc7\u5956\u5566\uff0c\u4e0d\u8fc7\u786e\u5b9e\u633a\u6709\u773c\u5149\u7684\uff01"
+    "哈哈，您过奖啦，不过确实挺有眼光的！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u60a8\u662f\u6559\u5e08\uff0c\u6211\u5374\u662f\u4e2a\u5b66\u751f\uff0c\u8fd9\u8ba9\u6211\u6709\u70b9\u60ca\u8bb6\u3002",
-  "asr_text_adv": "\u6211\u662f\u97f3\u4e50\u6559\u5e08\uff0c\u4f60\u4e5f\u662f\u597d\u6559\u5e08\u3002",
+  "asr_text_clean": "您是教师，我却是个学生，这让我有点惊讶。",
+  "asr_text_adv": "我是音乐教师，你也是好教师。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.663550853729248,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

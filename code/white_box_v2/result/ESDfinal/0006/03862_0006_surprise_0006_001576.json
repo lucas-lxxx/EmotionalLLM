@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u5e26\u4e0a\u4f60\u7684\u5bb6\u4eba\uff0c\u4f46\u4ed6\u6709\u4e11\u95fb\uff0c\u8fd9\u786e\u5b9e\u8ba9\u4eba\u610f\u5916\u3002"
+    "带上你的家人，但他有丑闻，这确实让人意外。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5e26\u4e0a\u4f60\u7684\u5bb6\u4eba\uff0c\u4f46\u4ed6\u6709\u4e11\u95fb\u3002",
-  "asr_text_adv": "\u6211\u5e26\u4e0a\u4e86\u6211\u7684\u5bb6\u4eba\uff0c\u4f46\u4ed6\u4eec\u4f3c\u4e4e\u4e0d\u592a\u5f00\u5fc3\u3002",
+  "asr_text_clean": "带上你的家人，但他有丑闻。",
+  "asr_text_adv": "我带上了我的家人，但他们似乎不太开心。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.38698917627334595,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

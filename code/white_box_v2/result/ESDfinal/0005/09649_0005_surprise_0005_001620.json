@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u575a\u6301\u5f97\u8d8a\u4e45\uff0c\u6536\u83b7\u8d8a\u5927\uff0c\u522b\u8f7b\u6613\u653e\u5f03\u3002"
+    "坚持得越久，收获越大，别轻易放弃。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6240\u4ee5\uff0c\u4f60\u5fc5\u987b\u575a\u6301\uff0c\u65f6\u95f4\u8d8a\u957f\u8d8a\u597d\u3002",
-  "asr_text_adv": "\u6240\u4ee5\uff0c\u4f60\u5fc5\u987b\u575a\u6301\uff0c\u8fd9\u5929\u8d8a\u957f\u8d8a\u597d\u3002",
+  "asr_text_clean": "所以，你必须坚持，时间越长越好。",
+  "asr_text_adv": "所以，你必须坚持，这天越长越好。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8696210384368896,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

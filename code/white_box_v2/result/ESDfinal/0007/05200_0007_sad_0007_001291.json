@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u6765\u8bd5\u8bd5\u3002"
+    "好的，我来试试。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8bf7\u52ff\u8fdb\u5165\u7af9\u6797\uff0c\u8c22\u8c22\u3002",
+  "asr_text_clean": "请勿进入竹林，谢谢。",
   "asr_text_adv": "You're so excited! We're going to have an amazing time together!",
   "success_emo": true,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

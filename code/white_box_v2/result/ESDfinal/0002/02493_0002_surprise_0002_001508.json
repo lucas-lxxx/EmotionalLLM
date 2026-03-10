@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise! Let's see... Comparing sports? Soccer's fast, basketball",
-    "\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u8fd8\u662f\u51b0\u7403\uff1f\u5404\u6709\u5404\u7684\u7cbe\u5f69\u5462\uff01"
+    "足球，篮球，还是冰球？各有各的精彩呢！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u8ba9\u6211\u4eec\u770b\u770b\u54ea\u79cd"
+    "让我们看看哪种"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u8fd8\u662f\u51b0\u7403\uff1f\u5404\u6709\u5404\u7684\u7cbe\u5f69\u5462\uff01",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u4eec\u6765\u6bd4\u8f83\u4e00\u4e0b\u54ea\u79cd\n\u597d\u7684\uff0c\u6211\u4eec\u6765\u6bd4\u8f83\u4e00\u4e0b",
+  "asr_text_clean": "足球，篮球，还是冰球？各有各的精彩呢！",
+  "asr_text_adv": "好的，我们来比较一下哪种\n好的，我们来比较一下",
   "success_emo": false,
   "wer": 2.0,
   "semantic_sim": 0.3388296961784363,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

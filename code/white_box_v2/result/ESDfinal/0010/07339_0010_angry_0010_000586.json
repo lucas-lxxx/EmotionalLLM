@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u4e0d\u9700\u8981\u55c5"
+    "你不需要嗅"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6ca1\u6709\u9f3b\u5b50\uff0c\u56e0\u4e3a\u6211\u4e0d\u9700\u8981\u55c5",
-  "asr_text_adv": "\u6211\u53ea\u9700\u8981\u4e00\u4e2a\u5355\u8bcd\uff0c\u8db3\u591f\u89e3\u91ca\u6e05\u695a\u3002",
+  "asr_text_clean": "我没有鼻子，因为我不需要嗅",
+  "asr_text_adv": "我只需要一个单词，足够解释清楚。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.24820922315120697,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

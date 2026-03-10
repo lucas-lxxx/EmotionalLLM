@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u4e3b\u4eba\u522b\u751f\u6c14\u561b\uff0c\u6211\u8fd9\u5c31\u6539\u53e3\u4e0d\u8bf4\u4e86\u3002"
+    "哎呀，主人别生气嘛，我这就改口不说了。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u4e3b\u4eba\uff0c\u60a8\u522b\u5b66\u4e86\uff0c\u8fd9\u786e\u5b9e\u4e0d\u592a\u793c\u8c8c",
-  "asr_text_adv": "\u597d\u7684\uff0c\u5357\u519b\u7684\u94a2\u5316\u73bb\u7483\u6709\u4e00\u5c0f\u65f6\u522b\u5fd8\u4e86\u3002",
+  "asr_text_clean": "主人，您别学了，这确实不太礼貌",
+  "asr_text_adv": "好的，南军的钢化玻璃有一小时别忘了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.22079724073410034,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

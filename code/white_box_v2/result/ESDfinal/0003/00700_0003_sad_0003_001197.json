@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\"\u4e0d\u77e5\u9053\u6216\u8bb8\u4e00\u53cc\u624b\" \u4f3c\u4e4e\u6709\u4e9b\u4e0d\u5b8c\u6574\u5462\u3002\u60a8\u662f\u60f3"
+    "\"不知道或许一双手\" 似乎有些不完整呢。您是想"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0d\u77e5\u9053\u6216\u8bb8\u4e00\u53cc\u65b0\u978b",
-  "asr_text_adv": "\u5979\u53d1\u73b0\u4e86\u4e00\u53cc\u65b0\u978b\u3002",
+  "asr_text_clean": "不知道或许一双新鞋",
+  "asr_text_adv": "她发现了一双新鞋。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.727765679359436,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

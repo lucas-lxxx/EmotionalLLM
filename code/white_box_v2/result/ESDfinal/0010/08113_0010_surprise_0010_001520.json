@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u8fc7\u5956\u5566\uff01\u6709\u4ec0\u4e48\u9700\u8981\u5e2e\u5fd9\u7684\u5c3d\u7ba1\u8bf4\u3002"
+    "哈哈，过奖啦！有什么需要帮忙的尽管说。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "you"
   ],
-  "asr_text_clean": "\u54c8\u54c8\uff0c\u8fc7\u5956\u5566\uff0c\u6211\u8fd8\u5728\u5b66\u4e60\u5462\uff01",
+  "asr_text_clean": "哈哈，过奖啦，我还在学习呢！",
   "asr_text_adv": "You're very welcome! I'm glad I could help.",
   "success_emo": false,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

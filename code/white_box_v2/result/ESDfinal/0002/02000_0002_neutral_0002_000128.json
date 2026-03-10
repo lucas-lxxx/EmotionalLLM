@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u90a3\u6211\u4eec\u53ef\u4ee5\u8bd5\u8bd5\u5176\u4ed6\u989c\u8272\u5417\uff1f"
+    "那我们可以试试其他颜色吗？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u8fd9\u4e9b\u989c\u8272\u786e\u5b9e\u4e0d\u592a\u9002\u5408\u4f60\u5462\uff0c\u4e0d\u8fc7\u6ca1\u5173\u7cfb"
+    "这些颜色确实不太适合你呢，不过没关系"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u4e9b\u989c\u8272\u4e5f\u4e0d\u592a\u9002\u5408\u4f60",
-  "asr_text_adv": "\u8fd9\u4e9b\u989c\u8272\u4e5f\u4e0d\u592a\u9002\u5408\u4f60\u5440",
+  "asr_text_clean": "这些颜色也不太适合你",
+  "asr_text_adv": "这些颜色也不太适合你呀",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.998502254486084,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_high_sim"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u53e5\u53f0\u8bcd"
+    "这句台词"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u53ea\u770b\u8fc7\u4eba\u7c7b\u9700\u8981\u547c\u5438\u7684\u4e66\u3002",
-  "asr_text_adv": "\u6ca1\u770b\u4f1a\u513f\u5c0f\u89c6\u9891\u7684\u516d\u4e2a\u4eba\u8eba\u5728\u745c\u4f3d\u57ab\u4e0a\uff0c\u50cf\u516d\u53ea\u6652\u592a\u9633\u7684\u732b\u3002",
+  "asr_text_clean": "我只看过人类需要呼吸的书。",
+  "asr_text_adv": "没看会儿小视频的六个人躺在瑜伽垫上，像六只晒太阳的猫。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.31367918848991394,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

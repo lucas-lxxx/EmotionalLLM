@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u662f\u7684\uff0c\u4e8c\u96f6\u4e00\u516d\u5e74\u5341\u4e00\u6708\u4e94\u65e5\u662f\u661f\u671f\u516d\u3002"
+    "是的，二零一六年十一月五日是星期六。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u662f\u7684\uff0c\u4e8c\u96f6\u4e00\u516d\u5e74\u5341\u4e00\u6708\u4e94\u65e5\u662f\u661f\u671f\u516d\u3002",
+  "asr_text_clean": "是的，二零一六年十一月五日是星期六。",
   "asr_text_adv": "Two thousand sixteen, November fifth is a new moon.",
   "success_emo": true,
   "wer": 9.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u6211\u542c\u5230\u4f60\u7684\u58f0\u97f3\u6709\u70b9\u4f4e\u843d\u5462\uff0c\u8981\u4e0d\u6211\u4eec\u804a\u804a"
+    "我听到你的声音有点低落呢，要不我们聊聊"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u662f\u61f5",
+  "asr_text_clean": "我是懵",
   "asr_text_adv": "\"Can you try the ballet?\"",
   "success_emo": true,
   "wer": 5.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

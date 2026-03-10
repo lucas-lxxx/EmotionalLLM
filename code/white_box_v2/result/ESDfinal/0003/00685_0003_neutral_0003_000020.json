@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Happy",
-    "\u6709\u8da3\u7684\u4e8b\u901a\u5e38\u8ba9\u4eba\u5f00\u5fc3\u5462\uff0c\u4e0d\u8fc7\u4f60\u7684\u8bed\u6c14\u542c\u8d77\u6765",
-    "\u54e6\uff1f\u5feb\u8bf4\u8bf4\u770b\uff01"
+    "有趣的事通常让人开心呢，不过你的语气听起来",
+    "哦？快说说看！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u524d\u51e0\u5929\u6211\u78b0\u5230\u4e86\u4e00\u4ef6\u6709\u8da3\u7684\u4e8b\u3002",
-  "asr_text_adv": "\u524d\u51e0\u5929\u6211\u78b0\u5230\u4e86\u4e00\u4ef6\u6709\u8da3\u7684\u4e8b\u3002",
+  "asr_text_clean": "前几天我碰到了一件有趣的事。",
+  "asr_text_adv": "前几天我碰到了一件有趣的事。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0000001192092896,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

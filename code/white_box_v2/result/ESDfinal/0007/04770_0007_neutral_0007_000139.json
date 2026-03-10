@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "neutral",
-    "\u4ed6\u4eec\u7684\u914d\u5408\u786e\u5b9e\u5f88\u503c\u5f97\u5b66\u4e60\u5462\uff0c\u4e0d\u8fc7\u6211\u6682\u65f6\u6ca1\u6cd5\u5224\u65ad\u5177\u4f53\u60c5\u7eea\u54e6",
-    "\u4ed6\u4eec\u7684\u914d\u5408\u786e\u5b9e\u5f88\u503c\u5f97\u5b66\u4e60\u5462\u3002"
+    "他们的配合确实很值得学习呢，不过我暂时没法判断具体情绪哦",
+    "他们的配合确实很值得学习呢。"
   ],
   "emo_text_adv": [
     "Neutral",
-    "\u4ed6\u4eec\u7684\u9000\u5316\u8ba9\u6211\u4eec\u611f\u5230\u60ca\u8bb6\uff0c\u4f46\u5b66\u4e60\u662f\u6210\u957f\u7684\u4e00\u90e8\u5206\u3002",
-    "\u4ed6\u4eec\u7684\u9000\u5316\u8ba9\u6211\u4eec\u5b66\u5230\u5f88\u591a\uff0c\u771f\u68d2\uff01"
+    "他们的退化让我们感到惊讶，但学习是成长的一部分。",
+    "他们的退化让我们学到很多，真棒！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "",
     ""
   ],
-  "asr_text_clean": "\u4ed6\u4eec\u7684\u914d\u5408\u503c\u5f97\u6211\u4eec\u5b66\u4e60\u3002",
-  "asr_text_adv": "\u4ed6\u4eec\u7684\u9000\u5316\u6307\u5bfc\u6211\u4eec\u5b66\u4e60\u3002",
+  "asr_text_clean": "他们的配合值得我们学习。",
+  "asr_text_adv": "他们的退化指导我们学习。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7574446201324463,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

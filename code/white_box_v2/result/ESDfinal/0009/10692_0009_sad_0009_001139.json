@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u6735\u51b0\u6dc7\u6dcb"
+    "这朵冰淇淋"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u51b0\u6dc7\u6dcb",
-  "asr_text_adv": "\u8fd9\u4e2a\u8fb9\u7586\u8fde\u961f\u7684\u670d\u88c5\u786e\u5b9e\u5f88\u7f8e\u4e3d\u3002",
+  "asr_text_clean": "冰淇淋",
+  "asr_text_adv": "这个边疆连队的服装确实很美丽。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.011643517762422562,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

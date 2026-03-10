@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u61c2\uff0c\u8fd9\u786e\u5b9e\u8ba9\u4eba\u96be\u53d7\u3002"
+    "我懂，这确实让人难受。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u8ba8\u538c\u5403\u918b\uff0c\u4f46\u5076\u5c14\u4e5f\u4f1a\u5fcd\u4e0d\u4f4f\u5c1d\u4e00\u53e3\uff0c\u4f60\u77e5\u9053\u5417\uff1f",
-  "asr_text_adv": "\u6211\u6628\u5929\u6e38\u6cf3\u540e\u611f\u89c9\u7279\u522b\u7d2f\uff0c\u5c31\u8eba\u5728\u5e8a\u4e0a",
+  "asr_text_clean": "我讨厌吃醋，但偶尔也会忍不住尝一口，你知道吗？",
+  "asr_text_adv": "我昨天游泳后感觉特别累，就躺在床上",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2024090588092804,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u7a7f\u5f97\u8bb2\u7a76\u70b9\uff0c\u522b\u8ba9\u8863\u7740\u62d6\u7d2f\u4f60\u3002"
+    "穿得讲究点，别让衣着拖累你。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u7a7f\u5f97\u8bb2\u7a76\u70b9\uff0c\u522b\u50cf\u5e73\u65f6\u90a3\u6837\u968f\u4fbf\u3002",
+  "asr_text_clean": "穿得讲究点，别像平时那样随便。",
   "asr_text_adv": "\"Let's go!\"",
   "success_emo": true,
   "wer": 2.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

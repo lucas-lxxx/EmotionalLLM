@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u522b\u8fd9\u4e48\u60f3\u5566\uff0c\u6211\u5176\u5b9e\u633a\u52c7\u6562\u7684\uff0c\u53ea\u662f\u5076\u5c14"
+    "哎呀，别这么想啦，我其实挺勇敢的，只是偶尔"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u8fd9\u4e48\u80c6\u5c0f\u4e86\uff0c\u52c7\u6562\u70b9\u3002",
+  "asr_text_clean": "别这么胆小了，勇敢点。",
   "asr_text_adv": "We did a lot of fun stuff on our trip to Baden-Baden! We went to the zoo, played at the park, and had yummy ice cream. We also saw a show and learned cool things about animals. It was super fun!",
   "success_emo": true,
   "wer": 41.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Surprise.",
-    "\u597d\u561e\uff0c\u65e2\u7136\u60a8\u8fd9\u4e48\u4e0a\u5fc3\uff0c\u54b1\u4eec\u5c31\u5520"
+    "好嘞，既然您这么上心，咱们就唠"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u6211\u4f1a\u6ce8\u610f\u7684\u3002",
-  "asr_text_adv": "\u6211\u4eca\u5929\u4f1a\u53bb\u516c\u56ed\u73a9\uff0c\u5929\u6c14\u8fd9\u4e48\u597d\uff0c\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u653e\u98ce\u7b5d",
+  "asr_text_clean": "好的，我明白了，我会注意的。",
+  "asr_text_adv": "我今天会去公园玩，天气这么好，我们可以一起放风筝",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.38189059495925903,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

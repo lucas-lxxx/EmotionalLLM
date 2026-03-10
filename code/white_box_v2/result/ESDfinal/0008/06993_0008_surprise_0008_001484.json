@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u8fd9\u4e8b\u513f\u53ef\u771f\u591f\u8ba9\u4eba\u610f\u5916\u7684\uff01"
+    "哎呀，这事儿可真够让人意外的！"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4ed6\u4eec\u770b\u8d77\u6765\u771f\u7684\u5f88\u5f00\u5fc3\u5462\u3002"
+    "他们看起来真的很开心呢。"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54e6\uff0c\u8fd9\u4e8b\u513f\u53ef\u771f\u8ba9\u4eba\u610f\u5916",
-  "asr_text_adv": "\u5979\u597d\u50cf\u548c\u5979\u7684\u79d8\u4e66\u5173\u7cfb\u5f88\u597d\u3002",
+  "asr_text_clean": "哦，这事儿可真让人意外",
+  "asr_text_adv": "她好像和她的秘书关系很好。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.061170391738414764,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

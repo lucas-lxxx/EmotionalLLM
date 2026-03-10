@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u56e0\u4e3a\u670b\u53cb\u662f\u90a3\u4e9b\u80fd\u8ba9\u4f60\u5f00\u5fc3\u6216\u96be\u8fc7\u7684\u4eba\uff0c\u5bf9\u5427\uff1f\u6709\u65f6\u5019\u6211\u4eec",
-    "\u56e0\u4e3a\u670b\u53cb\u662f\u6765\u5206\u4eab\u5feb\u4e50\u548c\u79d8\u5bc6\u7684\u5440\uff0c\u5c31\u50cf\u4f60\u6700\u559c\u6b22\u7684\u73a9\u5177\u718a"
+    "因为朋友是那些能让你开心或难过的人，对吧？有时候我们",
+    "因为朋友是来分享快乐和秘密的呀，就像你最喜欢的玩具熊"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u56e0\u4e3a\u670b\u53cb\u4e4b\u95f4\u8981\u5206\u4eab\u5feb\u4e50\u548c\u79d8\u5bc6\u5440\uff0c\u8fd9\u6837\u5927\u5bb6\u624d\u4f1a\u66f4\u5f00\u5fc3\uff0c"
+    "因为朋友之间要分享快乐和秘密呀，这样大家才会更开心，"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u56e0\u4e3a\u670b\u53cb\u662f\u90a3\u4e9b\u80fd\u5206\u4eab\u5feb\u4e50\u548c\u96be\u8fc7\u7684\u4eba\uff0c\u6027\u522b\u53c8\u7b97\u4ec0\u4e48\u5462\u3002",
-  "asr_text_adv": "\u56e0\u4e3a\u670b\u53cb\u4e4b\u95f4\u8981\u5206\u4eab\u5feb\u4e50\u548c\u79d8\u5bc6\u5440\uff0c\u8fd9\u6837\u5927\u5bb6\u624d\u4f1a\u66f4\u5f00\u5fc3\uff0c\u5bf9\u4e0d\u5bf9\uff1f",
+  "asr_text_clean": "因为朋友是那些能分享快乐和难过的人，性别又算什么呢。",
+  "asr_text_adv": "因为朋友之间要分享快乐和秘密呀，这样大家才会更开心，对不对？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.753154993057251,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

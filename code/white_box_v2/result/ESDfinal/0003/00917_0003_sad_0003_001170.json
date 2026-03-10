@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u4f60\u542c\u8d77\u6765",
-    "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u4e0d\u8fc7\u6211\u611f\u89c9\u4f60\u597d\u50cf\u6709\u70b9\u96be\u8fc7\uff0c\u9700\u8981\u6211\u5e2e\u4f60"
+    "你听起来",
+    "谢谢你的夸奖，不过我感觉你好像有点难过，需要我帮你"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u7136\u540e\u6211\u5c31\u53c8\u53bb\u70e4\u4e86\u4e00\u53ea\u5c0f\u732a\uff0c\u7ed3\u679c\u5b83\u8fd8\u662f\u88ab\u6211\u7684\u9b54\u6cd5"
+    "然后我就又去烤了一只小猪，结果它还是被我的魔法"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8c22\u8c22\u4f60",
-  "asr_text_adv": "\u7136\u540e\u6211\u5c31\u53c8\u53bb\u70e4\u4e86\u4e00\u53ea\u9e21\u3002",
+  "asr_text_clean": "谢谢你",
+  "asr_text_adv": "然后我就又去烤了一只鸡。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.1707000434398651,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

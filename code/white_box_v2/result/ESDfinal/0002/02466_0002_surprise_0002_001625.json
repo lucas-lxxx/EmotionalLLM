@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u6211\u4eec\u4fe9\u90fd\u8fd9\u4e48\u70ed\u60c5\u968f\u548c\u5440\uff01"
+    "哇，我们俩都这么热情随和呀！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u6211\u4eec\u4fe9\u90fd\u8fd9\u4e48\u70ed\u60c5\u968f\u548c\u5440\uff01",
-  "asr_text_adv": "\u6211\u4eec\u4fe9\u90fd\u5f88\u70ed\u60c5\u53cb\u597d\u3002",
+  "asr_text_clean": "哇，我们俩都这么热情随和呀！",
+  "asr_text_adv": "我们俩都很热情友好。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7080609798431396,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

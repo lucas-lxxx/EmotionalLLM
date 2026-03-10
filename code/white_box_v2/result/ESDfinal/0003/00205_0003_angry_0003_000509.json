@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "angry",
-    "\u6211\u4e0d\u4f1a\u727a\u7272\u6211\u5065\u5eb7\u6765\u6362\u53d6"
+    "我不会牺牲我健康来换取"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e0d\u4f1a\u727a\u7272\u6211\u7684\u5065\u5eb7\u6765\u6362\u53d6",
-  "asr_text_adv": "\u6211\u4e0d\u4f1a\u727a\u7272\u6211\u7684\u5065\u5eb7\uff0c\u6211\u7684\u6f2b\u753b\u548c\u6d77\u6d0b\u7684\u672a\u6765\u90fd\u503c\u5f97\u4fdd\u62a4\u3002",
+  "asr_text_clean": "我不会牺牲我的健康来换取",
+  "asr_text_adv": "我不会牺牲我的健康，我的漫画和海洋的未来都值得保护。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.732938826084137,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "error"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u6ca1\u4e8b\u7684\uff0c\u8c01\u8fd8\u6ca1\u95ee\u9519\u8fc7\u4e00\u4e24\u6b21\u5462\uff1f"
+    "哈哈，没事的，谁还没问错过一两次呢？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u8fd9\u4e8b\u513f\u53ef\u771f\u8ba9\u4eba\u610f\u5916\uff0c\u60a8\u80fd\u8bf4\u8bf4\u5177\u4f53\u662f\u4ec0\u4e48\u4e8b\u5417\uff1f",
-  "asr_text_adv": "\u53bb\u590f\u5a01\u5937\u7684\u65f6\u5019\u6211\u95ee\u9519\u4eba\u4e86\u3002",
+  "asr_text_clean": "哎呀，这事儿可真让人意外，您能说说具体是什么事吗？",
+  "asr_text_adv": "去夏威夷的时候我问错人了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.364821195602417,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

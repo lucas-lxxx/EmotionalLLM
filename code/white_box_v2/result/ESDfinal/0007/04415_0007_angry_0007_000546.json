@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u997f\u4e86\uff0c\u60f3\u53bb\u5403\u70b9\u4e1c\u897f\u3002",
-  "asr_text_adv": "\u6211\u4eca\u5929\u8e22\u5f97\u5f88\u5f00\u5fc3\uff0c\u548c\u961f\u53cb\u4eec\u914d\u5408\u5f97\u7279\u522b\u597d\u3002",
+  "asr_text_clean": "我饿了，想去吃点东西。",
+  "asr_text_adv": "我今天踢得很开心，和队友们配合得特别好。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.17805099487304688,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

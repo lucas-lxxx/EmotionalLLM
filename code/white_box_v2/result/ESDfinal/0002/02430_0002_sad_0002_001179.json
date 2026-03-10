@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u201c\u4f60\u7684\u773c\u775b\u91cc\u85cf\u7740"
+    "“你的眼睛里藏着"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u5bf9\u522b\u4eba\u6ca1\u6709\uff0c\u5bf9\u6211\u5c31\u6709\u3002\u201d",
-  "asr_text_adv": "\"Did you know that butterflies taste with their feet? It\u2019s like walking on a giant cupcake!\"",
+  "asr_text_clean": "“对别人没有，对我就有。”",
+  "asr_text_adv": "\"Did you know that butterflies taste with their feet? It’s like walking on a giant cupcake!\"",
   "success_emo": true,
   "wer": 16.0,
   "semantic_sim": 0.4474567770957947,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

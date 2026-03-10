@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u786e\u5b9e\u6709\u65f6\u5019\u4f1a\u8fd9\u6837\uff0c\u4e0d\u8fc7\u6211\u4eec\u90fd\u7406\u89e3\u3002"
+    "嗯，确实有时候会这样，不过我们都理解。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u533b\u751f\u53ef\u80fd\u4f1a\u7528\u4e00\u4e9b\u6709\u8da3\u7684\u5c0f\u6545\u4e8b\u6216\u8005\u52a8\u753b\u6765\u5e2e\u52a9\u5c0f\u670b\u53cb\u7406\u89e3\u8eab\u4f53"
+    "嗯，医生可能会用一些有趣的小故事或者动画来帮助小朋友理解身体"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u55ef\uff0c\u786e\u5b9e\u6709\u65f6\u5019\u75c5\u4eba\u4f1a\u8fd9\u6837\uff0c\u53ef\u80fd\u56e0\u4e3a\u8eab\u4f53\u4e0d\u8212\u670d\u6216\u8005\u5fc3\u60c5\u4e0d\u597d\u3002",
-  "asr_text_adv": "\u55ef\uff0c\u5bf9\uff0c\u6709\u65f6\u5019\u75c5\u4eba\u4f1a\u4e0d\u8bb2\u7406\u3002",
+  "asr_text_clean": "嗯，确实有时候病人会这样，可能因为身体不舒服或者心情不好。",
+  "asr_text_adv": "嗯，对，有时候病人会不讲理。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8046154379844666,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

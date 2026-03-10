@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u561b\uff0c\u6211\u53ef\u662f\u4e2a\u5927\u5757\u5934\uff0c\u80fd\u5e2e\u4f60"
+    "哎呀，别生气嘛，我可是个大块头，能帮你"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u662f\u4e2a\u5927\u5757\u5934\uff0c\u6211\u662f\u5c0f\u4e2a\u5b50\u3002",
-  "asr_text_adv": "\u6211\u662f\u7eaf\u771f\u4e50\u56ed",
+  "asr_text_clean": "你是个大块头，我是小个子。",
+  "asr_text_adv": "我是纯真乐园",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5410434007644653,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

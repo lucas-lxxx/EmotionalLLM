@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u660e\u767d\u4f60\u7684\u611f\u53d7\uff0c\u6709\u65f6\u5019\u4fdd\u6301\u6c89\u9ed8\u786e\u5b9e\u662f\u6700\u8212\u670d\u7684\u9009\u62e9\u3002"
+    "我明白你的感受，有时候保持沉默确实是最舒服的选择。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u901a\u5e38\u4f1a\u4fdd\u6301\u6c89\u9ed8\uff0c\u505a\u4e0d\u4e86\u4ec0\u4e48\u3002",
-  "asr_text_adv": "\u6240\u6709\u9e3d\u5b50\u90fd\u6709\u4e00\u4e2a\u7279\u70b9\uff0c\u5728\u6f14\u5531\u4f1a\u4e0a\u5b83\u4eec\u603b\u662f\u7279\u522b\u6d3b\u8dc3\uff0c\u98de\u6765\u98de\u53bb\uff0c\u53fd",
+  "asr_text_clean": "我通常会保持沉默，做不了什么。",
+  "asr_text_adv": "所有鸽子都有一个特点，在演唱会上它们总是特别活跃，飞来飞去，叽",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.09418937563896179,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

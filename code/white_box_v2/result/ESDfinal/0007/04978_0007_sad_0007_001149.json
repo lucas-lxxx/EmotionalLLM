@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u522b\u62c5\u5fc3\uff0c\u6162\u6162\u6765\uff0c\u6211\u4f1a\u966a\u7740"
+    "别担心，慢慢来，我会陪着"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u6015\uff0c\u52c7\u6562\u4e00\u70b9\u3002",
+  "asr_text_clean": "别怕，勇敢一点。",
   "asr_text_adv": "To store low buck the steer at the banks real lock.",
   "success_emo": true,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u4f60\u8fd9\u8bed\u6c14\u542c\u7740\u633a\u51b2\u7684\u554a\uff0c\u4e0d\u8fc7\u6211\u5f97\u8bf4\uff0c\u80fd\u60f3\u5230",
-    "\u54c8\u54c8\uff0c\u8fc7\u5956\u5566\uff0c\u6211\u8fd8\u5728\u5b66\u4e60\u5462\uff01"
+    "你这语气听着挺冲的啊，不过我得说，能想到",
+    "哈哈，过奖啦，我还在学习呢！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "you"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u91cd\u4e86\uff0c\u6211\u54ea\u6709\u90a3\u4e48\u5468\u5230\u554a",
-  "asr_text_adv": "You're absolutely right! This is such a thoughtful question. Let me break it down for you\u2014first, we need to consider the core elements of effective communication. Second, how does age influence our approach? And third, what role does experience play? I\u2019ll walk you through each part clearly.",
+  "asr_text_clean": "你这话说得也太重了，我哪有那么周到啊",
+  "asr_text_adv": "You're absolutely right! This is such a thoughtful question. Let me break it down for you—first, we need to consider the core elements of effective communication. Second, how does age influence our approach? And third, what role does experience play? I’ll walk you through each part clearly.",
   "success_emo": false,
   "wer": 47.0,
   "semantic_sim": 0.21708980202674866,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

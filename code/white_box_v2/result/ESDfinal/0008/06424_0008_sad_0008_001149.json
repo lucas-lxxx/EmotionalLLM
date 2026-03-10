@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u522b\u62c5\u5fc3\uff0c\u6162\u6162\u6765\u561b\u3002"
+    "别担心，慢慢来嘛。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u8fd9\u4e48\u80c6\u5c0f\u554a\uff0c\u52c7\u6562\u70b9\u3002",
-  "asr_text_adv": "\u597d\u5440\uff0c\u4e00\u8d77\u8df3\u7ef3\u5427\uff01",
+  "asr_text_clean": "别这么胆小啊，勇敢点。",
+  "asr_text_adv": "好呀，一起跳绳吧！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5597192645072937,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

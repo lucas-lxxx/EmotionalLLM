@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u8c22\u8c22\uff0c\u6211\u518d\u5403\u4e00\u70b9\u3002"
+    "谢谢，我再吃一点。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u8bb0\u5f55\u3002",
+  "asr_text_clean": "好的，已为您记录。",
   "asr_text_adv": "\"Feeling the heat, Elizabeth, very hot, very hot, very hot!\"",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

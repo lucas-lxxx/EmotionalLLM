@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "sounds"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u7406\u89e3\u4e86\u3002\u60a8\u60f3\u542c\u4e00\u4e9b\u8f7b\u677e\u7684\u97f3\u4e50\u6765\u653e\u677e\u5417\uff1f",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u653e\u677e\u4e00\u4e0b\u3002",
+  "asr_text_clean": "好的，我理解了。您想听一些轻松的音乐来放松吗？",
+  "asr_text_adv": "好的，我来帮你放松一下。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6820517778396606,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

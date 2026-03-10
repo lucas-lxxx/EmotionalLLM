@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u90a3\u54b1\u4eec\u4e0b\u6b21\u518d\u63a5\u7740\u8bb2\uff01"
+    "哈哈，那咱们下次再接着讲！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u8fd9\u4e48\u591a\u7b11\u8bdd\uff0c\u4e00\u5929\u8bb2\u4e0d\u5b8c\u554a\uff01"
+    "哈哈，这么多笑话，一天讲不完啊！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u4e48\u591a\u7b11\u8bdd\uff0c\u4e00\u5929\u4e5f\u8bb2\u4e0d\u5b8c\u554a\uff01",
-  "asr_text_adv": "\u54c8\u54c8\uff0c\u8fd9\u4e48\u591a\u7b11\u8bdd\u4e00\u5929\u8bb2\u4e0d\u5b8c\u554a\uff01",
+  "asr_text_clean": "这么多笑话，一天也讲不完啊！",
+  "asr_text_adv": "哈哈，这么多笑话一天讲不完啊！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9842848777770996,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

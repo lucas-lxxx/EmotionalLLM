@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c7\uff0c\u5317\u4eac\u6b22\u8fce\u4f60\uff01"
+    "哇，北京欢迎你！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6700\u559c\u6b22\u5317\u4eac\u4e86\uff0c\u5c24\u5176\u662f\u79cb\u5929\u7684\u7ea2\u53f6\uff0c\u4f60\u77e5\u9053\u5417\uff1f",
+  "asr_text_clean": "我最喜欢北京了，尤其是秋天的红叶，你知道吗？",
   "asr_text_adv": "\"Ooh, I got promoted at work! Now I get to do even more fun stuff!\"",
   "success_emo": true,
   "wer": 15.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

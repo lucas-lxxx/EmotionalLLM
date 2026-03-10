@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4eca\u5929\u786e\u5b9e\u662f\u7b2c\u4e8c\u5341\u4e03\u4e2a\u6559\u5e08\u8282\uff0c\u795d\u8001\u5e08\u4eec"
+    "今天确实是第二十七个教师节，祝老师们"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4eca\u5929\u5e94\u8be5\u662f\u7b2c\u4e8c\u5341\u4e03\u4e2a\u6559\u5e08\u8282\u3002",
-  "asr_text_adv": "\u4eca\u5e74\u5e94\u5c4a\u6bd5\u4e1a\u751f",
+  "asr_text_clean": "今天应该是第二十七个教师节。",
+  "asr_text_adv": "今年应届毕业生",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.46535244584083557,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

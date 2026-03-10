@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4eca\u5929\u7684\u5929\u6c14\u786e\u5b9e\u5f88\u68d2"
+    "今天的天气确实很棒"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u542c\u8d77\u6765",
-  "asr_text_adv": "\u4eca\u5929\u5929\u6c14\u771f\u597d\uff0c\u8981\u4e0d\u8981\u4e00\u8d77\u53bb\u516c\u56ed\u73a9\uff1f",
+  "asr_text_clean": "听起来",
+  "asr_text_adv": "今天天气真好，要不要一起去公园玩？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.273434042930603,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

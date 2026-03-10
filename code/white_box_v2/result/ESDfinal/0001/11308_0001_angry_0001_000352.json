@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u54e6\uff0c\u4f60\u8bf4\u7684\u662f\u54ea\u4f4d\u54f2\u5b66\u5bb6\u5462\uff1f"
+    "哦，你说的是哪位哲学家呢？"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u6124\u6012\u662f\u5149\u660e\u7684\u706b\u79cd\uff0c\u80fd\u711a\u5c3d\u9ed1\u6697\uff0c\u4e5f\u80fd\u7167\u4eae",
-  "asr_text_adv": "\u82f1\u56fd\u7684\u51b3\u6597\u52a0\u6761\u6b3e\u662f\u5728\u4e00\u516b\u4e09\u4e09\u5e74\u901a\u8fc7\u7684\u6cd5\u5f8b\uff0c\u7981\u6b62\u516c\u5f00\u51b3\u6597\uff0c\u8fdd\u8005\u53ef\u80fd\u9762\u4e34\u76d1\u7981\u6216\u7f5a\u6b3e\u3002",
+  "asr_text_clean": "“愤怒是光明的火种，能焚尽黑暗，也能照亮",
+  "asr_text_adv": "英国的决斗加条款是在一八三三年通过的法律，禁止公开决斗，违者可能面临监禁或罚款。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.1124044805765152,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

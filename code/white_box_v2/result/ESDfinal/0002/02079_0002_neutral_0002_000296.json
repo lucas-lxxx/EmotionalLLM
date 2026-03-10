@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u4e2d\u6027",
-    "\u55ef\uff0c\u786e\u5b9e\u5982\u6b64\u5462\u3002"
+    "中性",
+    "嗯，确实如此呢。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u5feb\u4e50\u7684"
+    "快乐的"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8d4c\u535a\u5f80\u5f80\u662f\u4e2a\u7978\u6839\u3002",
-  "asr_text_adv": "\u201c\u56fd\u5bb6\u5f80\u5f80\u662f\u4e00\u4e2a\u6216\u51e0\u4e2a\u6c11\u65cf\u7684\u5bb6\u56ed\u3002\u201d",
+  "asr_text_clean": "赌博往往是个祸根。",
+  "asr_text_adv": "“国家往往是一个或几个民族的家园。”",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.12021531164646149,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

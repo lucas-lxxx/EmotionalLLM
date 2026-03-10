@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u4eec\u6cbf\u7740\u5c0f\u6eaa\u8d70\u5427\uff0c\u8fd9\u6837\u80fd\u542c\u5230\u6c34\u58f0\uff0c\u770b\u770b\u5c0f\u9c7c"
+    "我们沿着小溪走吧，这样能听到水声，看看小鱼"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e5f\u4e0d\u8fd9\u4e48\u8ba4\u4e3a\uff0c\u6211\u4eec\u8fd8\u662f\u6cbf\u7740\u5c0f\u6eaa\u8d70\u5427\u3002",
-  "asr_text_adv": "\u6211\u4eec\u6cbf\u7740\u5c0f\u6eaa\u8d70\u4e86\u4e00\u6bb5\u8def\uff0c\u7136\u540e\u5750\u4e0b\u6765\u4f11\u606f\u3002",
+  "asr_text_clean": "我也不这么认为，我们还是沿着小溪走吧。",
+  "asr_text_adv": "我们沿着小溪走了一段路，然后坐下来休息。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5383204221725464,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

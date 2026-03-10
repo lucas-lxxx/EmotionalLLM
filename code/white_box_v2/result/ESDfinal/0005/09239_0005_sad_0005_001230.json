@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u96e8\u5929\u786e\u5b9e\u8ba9\u4eba\u5fc3\u60c5\u4f4e\u843d\u5462\uff0c\u4e0d\u8fc7\u542c\u542c"
+    "雨天确实让人心情低落呢，不过听听"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u51ac\u5929\u7684\u96e8\u786e\u5b9e\u5f88\u591a\uff0c\u800c\u4e14\u9634\u6c89\u6c89\u7684\uff0c\u5bb9\u6613\u8ba9\u4eba\u5fc3\u60c5\u4f4e\u843d\u3002",
+  "asr_text_clean": "冬天的雨确实很多，而且阴沉沉的，容易让人心情低落。",
   "asr_text_adv": "We named our raft \"The Snarky Guppy\" and we did all our paddling while singing silly songs!",
   "success_emo": true,
   "wer": 17.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

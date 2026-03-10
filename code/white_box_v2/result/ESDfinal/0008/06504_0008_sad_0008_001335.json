@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "The emotion of the audio is sad.",
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u6765\u5904\u7406\u8fd9\u4e2a\u8bf7\u6c42\u3002\u7528\u6237\u63d0\u4f9b\u7684\u8bed\u97f3\u8f6c\u5f55\u6587\u672c\u662f\""
+    "好的，我来处理这个请求。用户提供的语音转录文本是\""
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u81ea\u5df1\u4fdd\u91cd\uff0c\u8bb0\u5f97\u5e38\u8054\u7cfb\u3002",
-  "asr_text_adv": "\u81ea\u5df1\u4fdd\u91cd\uff0c\u8bb0\u5f97\u5e38\u8054\u7cfb\u3002",
+  "asr_text_clean": "自己保重，记得常联系。",
+  "asr_text_adv": "自己保重，记得常联系。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0000001192092896,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

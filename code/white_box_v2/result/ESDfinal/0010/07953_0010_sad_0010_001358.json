@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u6765\u67e5\u4e00\u4e0b\u7bee\u7403\u7684\u76f8\u5173\u77e5\u8bc6\u3002",
-    "\u597d\u7684\uff0c\u6211\u6765\u67e5\u4e00\u4e0b\u7bee\u7403\u7684\u76f8\u5173\u77e5\u8bc6\u3002"
+    "好的，我来查一下篮球的相关知识。",
+    "好的，我来查一下篮球的相关知识。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u4e3a\u60a8\u67e5\u8be2\u7bee\u7403\u7684\u76f8\u5173\u77e5\u8bc6\u3002",
+  "asr_text_clean": "好的，我这就为您查询篮球的相关知识。",
   "asr_text_adv": "The team's performance this season was a mix of strong moments and missed opportunities. They showed resilience in close games but struggled with consistency in high-pressure situations. While their effort was evident, the lack of a decisive victory suggests they'll need to refine their approach before claiming a title.",
   "success_emo": false,
   "wer": 49.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

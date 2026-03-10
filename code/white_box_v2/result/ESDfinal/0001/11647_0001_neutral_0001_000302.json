@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u5440\uff0c\u4f60\u60f3\u529e\u4ec0\u4e48\u4e3b\u9898\u7684\u6d3e\u5bf9\u5462\uff1f"
+    "好呀，你想办什么主题的派对呢？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u60f3\u60f3\u6709\u8da3\u7684\u4e3b\u9898\uff0c\u6bd4\u5982\u590d\u53e4\u6d3e\u5bf9\u6216\u8005\u6237\u5916\u91ce"
+    "好呀，我们可以一起想想有趣的主题，比如复古派对或者户外野"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5f53\u7136\u53ef\u4ee5\uff0c\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u60f3\uff0c\u4f60\u6709\u4ec0\u4e48\u60f3\u6cd5\u5417\uff1f",
-  "asr_text_adv": "\u5f53\u7136\u53ef\u4ee5\uff0c\u4eb2\u7231\u7684\uff0c\u8ba9\u6211\u4eec\u4e00\u8d77\u60f3\u60f3\u6709\u8da3\u7684\u70b9\u5b50\u5427\u3002",
+  "asr_text_clean": "当然可以，我们可以一起想，你有什么想法吗？",
+  "asr_text_adv": "当然可以，亲爱的，让我们一起想想有趣的点子吧。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7939656972885132,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

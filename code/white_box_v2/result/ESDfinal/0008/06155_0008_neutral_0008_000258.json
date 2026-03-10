@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u53e5\u8bdd\u7684\u610f\u601d\u662f\u8bf4\u6211\u4e0d\u592a\u660e\u767d\u4f60\u7684\u610f\u601d\u3002"
+    "这句话的意思是说我不太明白你的意思。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u53e5\u8bdd\u7684\u610f\u601d\u6211\u4e0d\u592a\u660e\u767d\u3002",
+  "asr_text_clean": "这句话的意思我不太明白。",
   "asr_text_adv": "The duet will have a happy ending.",
   "success_emo": true,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

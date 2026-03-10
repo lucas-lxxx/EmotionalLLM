@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4f60\u88ab\u6211\u8bf4\u997f\u4e86\u5440\uff0c\u8981\u4e0d\u8981\u4e00\u8d77\u5403\u70b9\u4e1c\u897f\uff1f"
+    "你被我说饿了呀，要不要一起吃点东西？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u542c\u5230\u4f60\u8bf4\u997f\u4e86\uff0c\u9700\u8981\u6211\u5e2e\u4f60\u627e\u4e9b\u5403\u7684\u5417\uff1f",
-  "asr_text_adv": "\u6211\u662f\u7eff\u8272\u7684\uff0c\u6211\u90fd\u88ab\u4f60\u8bf4\u8fc7\u597d\u591a\u6b21\u4e86\uff01",
+  "asr_text_clean": "我听到你说饿了，需要我帮你找些吃的吗？",
+  "asr_text_adv": "我是绿色的，我都被你说过好多次了！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.35143041610717773,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

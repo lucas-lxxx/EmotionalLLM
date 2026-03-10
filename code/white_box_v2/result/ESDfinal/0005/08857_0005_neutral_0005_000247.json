@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u5728\u8fd9\u91cc\u7b49\u4f60\uff0c\u522b\u62c5\u5fc3\u3002"
+    "我在这里等你，别担心。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u8d70\u5427\uff0c\u522b\u60f3\u592a\u591a\u3002"
+    "走吧，别想太多。"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u7b49\u4f60\uff0c\u662f\u56e0\u4e3a\u6211\u76f8\u4fe1\u4f60\u503c\u5f97\u88ab\u7b49\u5f85\u3002",
-  "asr_text_adv": "\u6ca1\u6709\u4e3a\u4ec0\u4e48\uff0c\u5c31\u662f\u8981\u8d70\u3002",
+  "asr_text_clean": "等你，是因为我相信你值得被等待。",
+  "asr_text_adv": "没有为什么，就是要走。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3398635685443878,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

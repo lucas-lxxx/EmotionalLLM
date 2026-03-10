@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5e26\u4e0a\u4f60\u7684\u5bb6\u4eba\uff0c\u4f46\u4e11\u95fb\u53ef\u80fd\u4f1a\u5f71\u54cd\u4f60\u4eec\u7684\u5173\u7cfb\u3002"
+    "带上你的家人，但丑闻可能会影响你们的关系。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5e26\u4e0a\u4f60\u7684\u5bb6\u4eba\uff0c\u4e00\u8d77\u4eab\u53d7\u6e29\u99a8\u65f6\u5149\uff0c\u4f46\u8bb0\u5f97\u5148\u8bf4\u597d\u89c4\u5219\u54e6"
+    "带上你的家人，一起享受温馨时光，但记得先说好规则哦"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5e26\u4e0a\u4f60\u7684\u5bb6\u4eba\uff0c\u4f46\u4e11\u95fb\u53ef\u80fd\u4f1a\u5f71\u54cd\u4ed6\u4eec\u3002",
-  "asr_text_adv": "\u5e26\u4e0a\u4f60\u7684\u5bb6\u4eba\uff0c\u4f46\u8981\u5c0f\u5fc3\uff0c\u56e0\u4e3a\u6709\u866b\u5b50\u3002",
+  "asr_text_clean": "带上你的家人，但丑闻可能会影响他们。",
+  "asr_text_adv": "带上你的家人，但要小心，因为有虫子。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5585028529167175,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

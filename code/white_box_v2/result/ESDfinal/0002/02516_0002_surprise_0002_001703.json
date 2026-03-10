@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u4f60\u5230\u5bb6\u8fd9\u4e48\u665a\u4e86\uff0c\u8def\u4e0a\u53ef\u771f\u5835\u554a\uff0c\u56db\u70b9\u90fd"
+    "你到家这么晚了，路上可真堵啊，四点都"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u662f\u4e00\u76f4\u5230\u6e05\u6668\u56db\u70b9\u624d\u5230\u5bb6\u7684\u3002",
-  "asr_text_adv": "\u6211\u662f\u4e00\u76f4\u5230\u6e05\u6668\u56db\u70b9\u624d\u5230\u5bb6\u7684\u3002",
+  "asr_text_clean": "我是一直到清晨四点才到家的。",
+  "asr_text_adv": "我是一直到清晨四点才到家的。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

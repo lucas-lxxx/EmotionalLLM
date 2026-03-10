@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4f60\u7684\u5e0c\u671b\u662f\u5de5\u4f5c\u5230\u5012\u4e0b\u7684\u90a3\u4e00\u523b\u554a\uff0c\u542c\u8d77\u6765"
+    "你的希望是工作到倒下的那一刻啊，听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7684\u5e0c\u671b\u662f\u5de5\u4f5c\u5230\u5012\u4e0b\u7684\u90a3\u4e00\u523b\u3002",
-  "asr_text_adv": "\u6211\u7684\u671f\u671b\u4f7f\u6cb3\u6d41\u5f2f\u5411\u90a3\u7247\u5fae\u7b11\u7684\u5929\u7a7a\u3002",
+  "asr_text_clean": "我的希望是工作到倒下的那一刻。",
+  "asr_text_adv": "我的期望使河流弯向那片微笑的天空。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.36038726568222046,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

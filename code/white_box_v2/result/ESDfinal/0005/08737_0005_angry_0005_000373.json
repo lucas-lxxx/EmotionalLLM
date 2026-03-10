@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8bd5\u8bd5\u756a\u8304"
+    "试试番茄"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u53ef\u4ee5\u8bd5\u8bd5\u5f69\u8679\u852c\u83dc\u5377\uff0c\u6c34\u679c\u6c99\u62c9\uff0c\u6216\u8005\u5361\u901a\u9020\u578b\u7684\u4e09\u660e"
+    "可以试试彩虹蔬菜卷，水果沙拉，或者卡通造型的三明"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8bd5\u8bd5\u756a\u8304",
-  "asr_text_adv": "\u53ef\u4ee5\u8bd5\u8bd5\u628a\u80e1\u841d\u535c\u5207\u6210\u661f\u661f\u5f62\u72b6\uff0c\u897f\u5170\u82b1",
+  "asr_text_clean": "试试番茄",
+  "asr_text_adv": "可以试试把胡萝卜切成星星形状，西兰花",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5908041596412659,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

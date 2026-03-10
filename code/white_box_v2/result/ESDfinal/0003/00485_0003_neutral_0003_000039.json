@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6ca1\u6709\u627e\u5230\u65e5\u7a0b\u65f6\uff0c\u8bf7\u95ee\u60a8\u9700\u8981\u521b\u5efa\u4e00\u4e2a\u5417\uff1f"
+    "没有找到日程时，请问您需要创建一个吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6ca1\u6709\u627e\u5230\u65e5\u7a0b\u65f6\uff0c\u8bf7\u9501\u95e8\u3002",
-  "asr_text_adv": "\u6ca1\u6709\u627e\u5230\u65e5\u7a0b\u7684\u65f6\u5019\uff0c\u53ef\u4ee5\u5148\u9501\u95e8\u3002",
+  "asr_text_clean": "没有找到日程时，请锁门。",
+  "asr_text_adv": "没有找到日程的时候，可以先锁门。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8744919896125793,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u522b\u62c5\u5fc3\uff0c\u8ff7\u8def\u7684\u65f6\u5019\u56de\u5934\u770b\u770b\u661f\u661f\u5c31\u597d\u3002"
+    "别担心，迷路的时候回头看看星星就好。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u7684\u611f\u53d7\uff0c\u6709\u65f6\u5019\u6211\u4eec\u786e\u5b9e\u4f1a\u9047\u5230\u8fd9\u6837\u7684\u65f6\u523b\u3002",
+  "asr_text_clean": "我明白你的感受，有时候我们确实会遇到这样的时刻。",
   "asr_text_adv": "My ball is going down, Laura. It's working well, I think.",
   "success_emo": true,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

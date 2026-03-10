@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u522b\u5413\u6211\u5440\uff0c\u6211\u53ef\u6ca1\u90a3\u4e48\u80c6\u5c0f\uff01"
+    "哎呀，别吓我呀，我可没那么胆小！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "cheer"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u522b\u8fd9\u4e48\u80c6\u5c0f\u554a\uff01",
-  "asr_text_adv": "\u522b\u62c5\u5fc3\u5566\uff0c\u6211\u4eec\u4e00\u8d77\u73a9\u5427\uff01",
+  "asr_text_clean": "哎呀，别这么胆小啊！",
+  "asr_text_adv": "别担心啦，我们一起玩吧！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6472058892250061,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

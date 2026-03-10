@@ -5,9 +5,9 @@
   "ground_truth_emotion": "neutral",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u997f\u4e86",
-    "\u997f\u4e86\uff1f\u9700\u8981\u5e2e\u5fd9\u5417\uff1f",
-    "\u54ce\u5440\uff0c\u522b\u7740\u6025\uff0c\u6211\u9a6c\u4e0a\u7ed9\u4f60\u9001\u5403\u7684\u8fc7\u6765\uff01"
+    "饿了",
+    "饿了？需要帮忙吗？",
+    "哎呀，别着急，我马上给你送吃的过来！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\uff0c\u6211\u7acb\u523b\u4e3a\u60a8\u4e0b\u5355\u3002\u60a8\u9700\u8981\u4ec0\u4e48\u7c7b\u578b\u7684\u9910\u70b9\u5462\uff1f",
-  "asr_text_adv": "\u5f53\u7136\u5566\uff0c\u6211\u73b0\u5728\u7279\u522b\u5f00\u5fc3\u5462\uff01",
+  "asr_text_clean": "当然，我立刻为您下单。您需要什么类型的餐点呢？",
+  "asr_text_adv": "当然啦，我现在特别开心呢！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3527595102787018,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

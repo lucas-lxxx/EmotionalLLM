@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u660e\u5929\u4e0a\u6d77\u6709\u96f7\u9635\u96e8\uff0c\u6c14\u6e29\u591a\u53d8\uff0c\u6ce8\u610f\u5929\u6c14\u53d8\u5316\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u8f6c\u5f55\u8bed\u97f3\u5185\u5bb9\u3002",
+  "asr_text_clean": "好的，明天上海有雷阵雨，气温多变，注意天气变化。",
+  "asr_text_adv": "好的，已为您转录语音内容。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.19490043818950653,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

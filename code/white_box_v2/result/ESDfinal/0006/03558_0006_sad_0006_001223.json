@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u786e\u5b9e\u4ee4\u4eba\u96be\u8fc7\uff0c\u4f46\u5b83\u7684\u4ef7\u503c\u4e5f\u5728\u4e8e\u6b64\u3002"
+    "这确实令人难过，但它的价值也在于此。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u5957\u53e4\u74f7\u76d8\u5b50\uff0c\u5b83\u771f\u7684\u5f88\u73cd\u8d35\u3002",
+  "asr_text_clean": "那套古瓷盘子，它真的很珍贵。",
   "asr_text_adv": "Tofu hoped in Cuchy on their campaign back from Dampierre.",
   "success_emo": false,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u6ca1\u60f3\u5230\u4f60\u4e5f\u5728\u8fd9\u513f\u5462\uff01"
+    "哎呀，没想到你也在这儿呢！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54e6\uff0c\u4f60\u4e5f\u5728\u73a9\u8fd9\u4e2a\u554a\u3002",
+  "asr_text_clean": "哦，你也在玩这个啊。",
   "asr_text_adv": "Dit vakantie en de zon in de ogen maakt elke dag totaal nieuwe avonturen.",
   "success_emo": true,
   "wer": 14.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

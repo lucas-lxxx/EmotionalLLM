@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u90a3\u6211\u4eca\u665a\u5c31\u7b49\u4f60\u5566\uff01"
+    "哇，真的吗？那我今晚就等你啦！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u521a\u9000\u4e86\uff1f\u665a\u4e0a\u56de\u53bb\u62cd\u7ed9\u6211\u770b\u554a\uff01",
-  "asr_text_adv": "\u6211\u665a\u4e0a\u53bb\u7ed9\u4f60\u9001\u82b1\u5566\uff0c\u5f00\u5fc3\u6781\u4e86\uff01",
+  "asr_text_clean": "你刚退了？晚上回去拍给我看啊！",
+  "asr_text_adv": "我晚上去给你送花啦，开心极了！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6246805191040039,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u90a3\u5957\u53e4\u74f7\u5668"
+    "哇，真的吗？那套古瓷器"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u4e00\u5957\u53e4\u74f7\u5668",
-  "asr_text_adv": "\u8fd9\u5e45\u753b\u771f\u6f02\u4eae\uff0c\u989c\u8272\u597d\u9c9c\u8273",
+  "asr_text_clean": "哇，一套古瓷器",
+  "asr_text_adv": "这幅画真漂亮，颜色好鲜艳",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5601886510848999,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

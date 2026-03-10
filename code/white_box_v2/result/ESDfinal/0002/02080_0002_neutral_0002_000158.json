@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u60a8\u7684\u6027\u683c\u786e\u5b9e\u663e\u5f97\u5f88\u51b7\u9759\u5462\u3002"
+    "您的性格确实显得很冷静呢。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u4f60\u7684\u6027\u683c\u662f\u5feb\u4e50\u7684\u5417\uff1f"
+    "你的性格是快乐的吗？"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u6211\u7684\u6027\u683c\u5c31\u662f\u51b7\u9759\u800c\u4e14\u5ba2\u89c2\u3002",
-  "asr_text_adv": "\u6211\u7684\u6027\u683c\u5c31\u662f\u51b7\u9759\u53c8\u5ba2\u89c2\uff0c\u559c\u6b22\u5e2e\u52a9\u522b\u4eba\u89e3\u51b3\u95ee\u9898\u3002",
+  "asr_text_clean": "我的性格就是冷静而且客观。",
+  "asr_text_adv": "我的性格就是冷静又客观，喜欢帮助别人解决问题。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8615915775299072,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

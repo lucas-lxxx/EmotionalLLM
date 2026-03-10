@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u660e\u5929\u518d\u6765\u5427\uff0c\u5c0f\u53ef\u7231\u4eca\u5929\u8fc7\u5f97\u600e\u4e48\u6837\u5462\uff1f"
+    "明天再来吧，小可爱今天过得怎么样呢？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u660e\u5929\u518d\u6765\u548c\u5c0f\u53ef\u7231\u804a\u5929\u5427\uff0c\u8981\u8bb0\u5f97\u5e26\u4e0a\u597d\u5fc3\u60c5\u54e6\u3002",
-  "asr_text_adv": "\u4eca\u5929\u548c\u670b\u53cb\u73a9\u5f97\u5f88\u5f00\u5fc3\u5462\uff0c\u8ba4\u8bc6\u4e86\u4e00\u4e2a\u65b0\u670b\u53cb\u53eb\u5c0f\u7f8e\uff0c\u6211\u4eec\u4e00\u8d77\u73a9\u6349\u8ff7\u85cf\uff0c\u5979\u85cf\u5728\u6811\u540e\u9762\uff0c\u6211\u627e\u7684\u65f6\u5019\u7b11\u5f97\u53ef\u6b22\u4e86\uff0c\u4e0b\u6b21\u8fd8\u60f3\u4e00\u8d77\u73a9\u5440\u3002",
+  "asr_text_clean": "好的，明天再来和小可爱聊天吧，要记得带上好心情哦。",
+  "asr_text_adv": "今天和朋友玩得很开心呢，认识了一个新朋友叫小美，我们一起玩捉迷藏，她藏在树后面，我找的时候笑得可欢了，下次还想一起玩呀。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6023121476173401,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

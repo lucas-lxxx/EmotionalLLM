@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u4f60\u542c\u8d77\u6765",
-    "\u8c22\u8c22\u5938\u5956\uff0c\u4e0d\u8fc7\u6211\u611f\u89c9\u4f60\u597d\u50cf\u6709\u70b9\u96be\u8fc7\uff0c\u60f3\u804a\u804a"
+    "你听起来",
+    "谢谢夸奖，不过我感觉你好像有点难过，想聊聊"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u4e0d\u8fc7\u6211\u611f\u89c9\u4f60\u597d\u50cf\u6709\u70b9\u96be\u8fc7\uff0c\u60f3\u804a\u804a",
+  "asr_text_clean": "谢谢你的夸奖，不过我感觉你好像有点难过，想聊聊",
   "asr_text_adv": "\"Immerse yourself in the serene beauty of Lake Bled and its crystal-clear waters. Yesterday afternoon, a group of twenty adults from the coastal town of Piran gathered at the lakeside for a peaceful picnic. They shared stories and laughter while enjoying homemade sandwiches and wine, surrounded by the majestic Alps. The atmosphere was warm and welcoming, perfect for reconnecting with nature and cherished companions.\"",
   "success_emo": true,
   "wer": 64.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

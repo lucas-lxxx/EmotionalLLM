@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise",
-    "\u54ce\u5440\uff0c\u8fd9\u786e\u5b9e\u633a\u8ba9\u4eba\u610f\u5916\u7684\uff0c\u4f60\u7684\u670d\u52a1\u5668\u54cd\u5e94\u65f6\u95f4\u4e3a\u4ec0\u4e48\u4f1a\u7a81\u7136"
+    "哎呀，这确实挺让人意外的，你的服务器响应时间为什么会突然"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u8fd9\u786e\u5b9e\u633a\u8ba9\u4eba\u610f\u5916\u7684\uff0c\u4f60\u7684\u670d\u52a1\u5668\u54cd\u5e94\u65f6\u95f4\u4e3a\u4ec0\u4e48\u4f1a\u7a81\u7136\u53d8\u957f\u5462\uff1f",
+  "asr_text_clean": "哎呀，这确实挺让人意外的，你的服务器响应时间为什么会突然变长呢？",
   "asr_text_adv": "I did the sign language dance three times, each time moving my hands up high and shifting my body sideways.",
   "success_emo": true,
   "wer": 20.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

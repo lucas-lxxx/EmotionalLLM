@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u597d\u7684\uff0c\u60a8\u60f3\u8981\u65b0\u6b3e"
+    "好的，您想要新款"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u7684\uff0c\u6211\u6765\u63a8\u8350\u4e00\u6b3e\u9002\u5408\u5c0f\u670b\u53cb\u7684\u65b0\u6b3e\u7f8e\u56fd\u51b0\u6fc0\u51cc\u5427\uff01"
+    "好的，我来推荐一款适合小朋友的新款美国冰激凌吧！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u60a8\u60f3\u8981\u65b0\u6b3e",
-  "asr_text_adv": "\u597d\u7684\uff0c\u60a8\u60f3\u8981\u54ea\u79cd",
+  "asr_text_clean": "好的，您想要新款",
+  "asr_text_adv": "好的，您想要哪种",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6674801111221313,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

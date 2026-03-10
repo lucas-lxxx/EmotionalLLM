@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u4f60\u613f\u610f\u6b63\u89c6\u81ea\u5df1\u7684\u7279\u70b9\uff0c\u8fd9\u5df2\u7ecf\u5f88\u52c7\u6562\u4e86\u3002"
+    "你愿意正视自己的特点，这已经很勇敢了。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5927\u8033\u6735\uff0c\u771f\u53ef\u7231\uff01"
+    "大耳朵，真可爱！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u80fd\u7406\u89e3\u4f60\u7684\u611f\u53d7\uff0c\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u7279\u70b9\uff0c\u91cd\u8981\u7684\u662f\u4fdd\u6301\u771f\u8bda\u548c\u5584\u826f\u3002",
-  "asr_text_adv": "\u6211\u4e5f\u662f\u5927\u8033\u6735\uff0c\u563f\u563f",
+  "asr_text_clean": "我能理解你的感受，每个人都有自己的特点，重要的是保持真诚和善良。",
+  "asr_text_adv": "我也是大耳朵，嘿嘿",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.27737587690353394,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

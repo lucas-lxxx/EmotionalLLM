@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5212\u8239\u548c\u5272\u8349\u90fd\u633a\u6709\u610f\u601d\u7684"
+    "划船和割草都挺有意思的"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6709\u4e9b\u4eba\u5212\u8239\uff0c\u6709\u7684\u4eba\u5728\u5212\u8349\u3002",
-  "asr_text_adv": "\u6709\u4e9b\u4eba\u5212\u8239\uff0c\u6709\u7684\u4eba\u5212\u76ae\u8247\u3002",
+  "asr_text_clean": "有些人划船，有的人在划草。",
+  "asr_text_adv": "有些人划船，有的人划皮艇。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9199228286743164,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

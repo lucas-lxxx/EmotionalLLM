@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8f66\u95e8\uff0c\u6124\u6012\u3002"
+    "车门，愤怒。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\"\u8f66\u95e8\u5173\u597d\u4e86\uff0c\u4ed6\u4eec\u8fd8\u5728\u8f66\u4e0a\uff0c\u522b\u62c5\u5fc3\u3002\""
+    "\"车门关好了，他们还在车上，别担心。\""
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8f66\u95e8\uff0c\u53e6\u5916\u4e24\u4e2a\u4eba\u95ee\u5979\u3002",
-  "asr_text_adv": "\u8f66\u95e8\u5173\u597d\u4e86\uff0c\u53e6\u5916\u4e24\u4e2a\u4eba\u95ee\u5f97\u8fd8\u662f\u4e00\u6837\u3002",
+  "asr_text_clean": "车门，另外两个人问她。",
+  "asr_text_adv": "车门关好了，另外两个人问得还是一样。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7351874113082886,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

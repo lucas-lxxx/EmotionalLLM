@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise",
-    "\u6ca1\u60f3\u5230\u6e38\u6cf3\u7adf\u6709\u8fd9\u4e48\u591a\u597d\u5904\uff0c\u771f\u8ba9\u4eba\u60ca\u559c\u3002"
+    "没想到游泳竟有这么多好处，真让人惊喜。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6ca1\u60f3\u5230\u6e38\u6cf3\u7adf\u6709\u8fd9\u4e48\u591a\u597d\u5904\uff0c\u771f\u8ba9\u4eba\u60ca\u8bb6\u3002",
-  "asr_text_adv": "\u65b0\u751f\u56fd\u5ea6\u7684\u6e38\u6cf3\u7ecf\u5386\u8ba9\u6211\u6536\u83b7\u4e86\u5065\u5eb7\u4e0e\u5feb\u4e50\u3002",
+  "asr_text_clean": "没想到游泳竟有这么多好处，真让人惊讶。",
+  "asr_text_adv": "新生国度的游泳经历让我收获了健康与快乐。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6942193508148193,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

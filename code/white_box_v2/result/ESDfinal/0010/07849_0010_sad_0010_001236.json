@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u522b\u592a\u5f80\u5fc3\u91cc\u53bb\u5566\uff0c\u8f6f\u59b9\u5b50\u751f\u6c14\u561b\uff0c\u8fc7"
+    "哎呀，别太往心里去啦，软妹子生气嘛，过"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8f6f\u59b9\u5b50\u751f\u6c14\u4f1a\u8bf4\u8ba8\u538c\u4e0d\u7406",
+  "asr_text_clean": "软妹子生气会说讨厌不理",
   "asr_text_adv": "La recette est une bouillie de cinq oiseaux et de deux tasses de fleurs.",
   "success_emo": true,
   "wer": 14.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

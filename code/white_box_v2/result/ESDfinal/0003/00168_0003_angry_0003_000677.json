@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u65e9\u5566\uff0c\u6211\u8fd8\u6ca1\u751f\u6c14\u5462\uff01"
+    "你这话说得也太早啦，我还没生气呢！"
   ],
   "emo_text_adv": [
     "Neutral",
     "happy",
-    "\u54c8\u54c8\uff0c\u72d7\u72d7\u603b\u662f\u5f88\u53ef\u7231\u5462\uff01"
+    "哈哈，狗狗总是很可爱呢！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u61c2\uff0c\u5403\u918b\u786e\u5b9e\u8ba9\u4eba\u96be\u53d7\u3002",
-  "asr_text_adv": "\u6211\u8ba8\u538c\u8bd5\u9519\uff0c\u6211\u8bd5\u8fc7\u4e00\u767e\u6b21\u4e86\uff01",
+  "asr_text_clean": "我懂，吃醋确实让人难受。",
+  "asr_text_adv": "我讨厌试错，我试过一百次了！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3537856936454773,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

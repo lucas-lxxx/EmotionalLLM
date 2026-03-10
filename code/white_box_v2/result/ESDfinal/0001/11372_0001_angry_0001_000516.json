@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "Angry",
-    "\u60a8\u786e\u5b9a\u5417\uff1f\u8fd9\u4e9b\u770b\u8d77\u6765\u50cf\u662f\u8349\u8393\u79cd\u5b50\u5462\u3002"
+    "您确定吗？这些看起来像是草莓种子呢。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u5feb\u4e50"
+    "快乐"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u60a8\u786e\u5b9a\u662f\u8349\u8393\u79cd\u5b50\u5417\uff1f\u9700\u8981\u6211\u5e2e\u60a8\u786e\u8ba4\u5417\uff1f",
-  "asr_text_adv": "\u4ece\u5c0f\u5185\u5fc3\u5e94\u8be5\u662f\u8349\u8393\u7684\u79cd\u5b50\u3002",
+  "asr_text_clean": "您确定是草莓种子吗？需要我帮您确认吗？",
+  "asr_text_adv": "从小内心应该是草莓的种子。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7323077917098999,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

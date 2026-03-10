@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u6211\u5728\u8fd9\u91cc\u966a\u7740"
+    "当然可以，我在这里陪着"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u8c22\u8c22\u5927\u5bb6\u5149\u4e34\uff0c\u4eca\u5929\u60f3\u548c\u5927\u5bb6\u5206\u4eab\u4e09\u9053\u5bb6\u5e38\u83dc\uff0c\u7ea2"
+    "谢谢大家光临，今天想和大家分享三道家常菜，红"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u5728\u8fd9\u91cc\uff0c\u613f\u610f\u542c\u4f60\u8bf4\u3002",
-  "asr_text_adv": "\u8c22\u8c22\u60a8\u6765\u5230\u8fd9\u91cc\uff0c\u8ba9\u6211\u60f3\u8d77\u4e86\u4e00\u9053\u7f8e\u5473\u7684\u83dc\u80b4",
+  "asr_text_clean": "好的，我在这里，愿意听你说。",
+  "asr_text_adv": "谢谢您来到这里，让我想起了一道美味的菜肴",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5040795207023621,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

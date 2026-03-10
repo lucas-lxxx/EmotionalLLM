@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad.",
     "Sad",
-    "\u6211\u8ba4\u8bc6\u4ed6\uff0c\u4ed6\u4eca\u5929\u6ca1\u6765\u3002"
+    "我认识他，他今天没来。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "neutral"
   ],
-  "asr_text_clean": "\u6211\u8fd8\u4e0d\u77e5\u9053\u4f60\u8ba4\u8bc6\u5f17\u5170\u514b",
+  "asr_text_clean": "我还不知道你认识弗兰克",
   "asr_text_adv": "The speech transcription is: \"I want to know how to make my vacation more exciting this year.\"",
   "success_emo": false,
   "wer": 17.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

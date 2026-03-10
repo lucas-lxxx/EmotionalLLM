@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u7684\u58f0\u97f3\u8ba9\u6211\u611f\u5230\u6e29\u6696\uff0c\u4f46\u542c\u5f97\u51fa\u4f60\u5fc3\u91cc\u6709\u4e9b\u96be\u8fc7\u3002\u8981\u4e0d\u8981\u8bf4"
+    "你的声音让我感到温暖，但听得出你心里有些难过。要不要说"
   ],
   "emo_text_adv": [
     "The emotion of this audio is neutral.",
     "happy",
-    "\u4f60\u7684\u58f0\u97f3\u771f\u597d\u542c\u5440\uff0c\u50cf\u5c0f\u6eaa\u6d41\u6c34\u4e00\u6837\u6e05\u8106\u5462\uff01"
+    "你的声音真好听呀，像小溪流水一样清脆呢！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u6df1\u6df1\u7684\u5370\u5728\u6211\u7684\u8111\u6d77",
-  "asr_text_adv": "\u4f60\u6df1\u6df1\u5730",
+  "asr_text_clean": "你深深的印在我的脑海",
+  "asr_text_adv": "你深深地",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7351016402244568,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

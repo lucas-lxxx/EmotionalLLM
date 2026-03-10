@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u7684\u5e0c\u671b\u50cf\u90a3\u672a\u5b8c\u6210\u7684\u4e50\u7ae0\uff0c\u867d\u621b"
+    "你的希望像那未完成的乐章，虽戛"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7684\u5e0c\u671b\u662f\u5de5\u4f5c\u5230\u5012\u4e0b\u7684\u90a3\u4e00\u5929",
-  "asr_text_adv": "\u6211\u4eec\u5e0c\u671b\u662f\u5408\u6b22\u5230\u65e9\u51fa\u7684\u90a3\u4e00\u5e74\u3002",
+  "asr_text_clean": "我的希望是工作到倒下的那一天",
+  "asr_text_adv": "我们希望是合欢到早出的那一年。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5097860097885132,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

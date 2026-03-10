@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u90a3\u662f\u56e0\u4e3a\u4f60\u592a\u5728\u610f\u6211\u4e86\u561b\u3002"
+    "哈哈，那是因为你太在意我了嘛。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4f60\u7684\u8eab\u5f71\u603b\u662f\u8ba9\u6211\u5fc3\u91cc\u6696\u6d0b\u6d0b"
+    "你的身影总是让我心里暖洋洋"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u7684\u8eab\u5f71\u603b\u662f\u5728\u6211\u5fc3\u91cc\u6643\u6765\u6643\u53bb\u3002",
-  "asr_text_adv": "\u4f60\u7684\u8eab\u5f71\u603b\u662f\u5728\u6211\u5fc3\u91cc\u6643\u6765\u6643\u53bb\u3002",
+  "asr_text_clean": "你的身影总是在我心里晃来晃去。",
+  "asr_text_adv": "你的身影总是在我心里晃来晃去。",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

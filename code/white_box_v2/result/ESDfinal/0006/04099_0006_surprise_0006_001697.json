@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4e09\u4e2a\u5b69\u5b50\uff0c\u4e24\u4e2a\u513f\u5b50\uff0c\u4e00\u4e2a\u5973\u513f\u3002"
+    "三个孩子，两个儿子，一个女儿。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4e09\u4e2a\u5b69\u5b50\uff0c\u4e24\u4e2a\u7537\u5b69\u4e00\u4e2a\u5973\u5b69\uff0c\u5bf9\u5427\uff1f"
+    "三个孩子，两个男孩一个女孩，对吧？"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4e09\u4e2a\uff0c\u4e24\u4e2a\u513f\u5b50\uff0c\u4e00\u4e2a\u5973\u513f\u3002",
-  "asr_text_adv": "\u4e09\u4e2a\u5b69\u5b50\uff0c\u4e24\u4e2a\u7537\u5b69\u4e00\u4e2a\u5973\u5b69\u3002",
+  "asr_text_clean": "三个，两个儿子，一个女儿。",
+  "asr_text_adv": "三个孩子，两个男孩一个女孩。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.846867024898529,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

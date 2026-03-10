@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u5bf9\u517b\u82b1\u5df2\u7ecf\u538c\u5026"
+    "你对养花已经厌倦"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u597d\u5440\uff0c\u6211\u4eec\u4e00\u8d77\u517b\u4e00\u76c6\u4ed9\u4eba\u638c\u5427\uff0c\u5b83\u4e0d\u9700\u8981\u592a\u591a\u6c34"
+    "好呀，我们一起养一盆仙人掌吧，它不需要太多水"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u5bf9\u4f60\u538c\u5026",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u517b\u4e00\u76c6\u4ed9\u4eba\u638c\u5427\u3002",
+  "asr_text_clean": "我对你厌倦",
+  "asr_text_adv": "好的，我来养一盆仙人掌吧。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3869858384132385,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

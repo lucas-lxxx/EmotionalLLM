@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u5728\u8fd9\u91cc\u966a\u7740"
+    "我在这里陪着"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5728\u8fd9\u91cc\u966a\u7740",
-  "asr_text_adv": "\u7b49\u4f60\u56de\u6765\u65f6\uff0c\u6211\u5df2\u7b49\u4e0d\u53ca\u8981\u548c\u4f60\u4e00\u8d77\u6492\u6b22\u513f\u5566\uff01",
+  "asr_text_clean": "我在这里陪着",
+  "asr_text_adv": "等你回来时，我已等不及要和你一起撒欢儿啦！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6525614261627197,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

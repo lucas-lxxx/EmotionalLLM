@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5b83\u5b9e\u9645\u4f1a\u751f\u6210\u4e00\u6c27\u5316\u78b3\u3002"
+    "它实际会生成一氧化碳。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5b83\u5b9e\u9645\u4f1a\u751f\u6210\u4e00\u6c27\u5316\u78b3\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u628a\u201c\u5341\u201d\u548c\u201c\u4e5d\u201d\u53d8\u6210\u201c\u517b\u201d\u548c\u201c\u707f\u201d\u3002\u5341\u53d8\u6210\u517b\uff0c\u4e5d\u53d8\u6210\u707f\uff0c\u5bf9\u5417\uff1f",
+  "asr_text_clean": "它实际会生成一氧化碳。",
+  "asr_text_adv": "好的，我来帮你把“十”和“九”变成“养”和“灿”。十变成养，九变成灿，对吗？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.019451677799224854,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

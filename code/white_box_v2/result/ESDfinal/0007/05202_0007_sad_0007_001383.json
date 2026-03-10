@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u771f\u9057\u61be\u6ca1\u80fd\u5e2e\u5230\u60a8\uff0c\u5e0c\u671b\u60a8\u80fd\u627e\u5230"
+    "真遗憾没能帮到您，希望您能找到"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4f4f\u4e2a\u5b85\u5b50\uff0c\u771f\u597d\uff01"
+    "住个宅子，真好！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u771f\u9057\u61be\u6ca1\u80fd\u627e\u5230\u90a3\u5bb6\u5e97\uff0c\u5e0c\u671b\u4e0b\u6b21\u6709\u673a\u4f1a\u3002",
-  "asr_text_adv": "\u4f4f\u4e2a\u5b85\u5b50\uff0c\u50cf\u7740\u6ca1\u7528\u7684\u7269\u4ef6",
+  "asr_text_clean": "真遗憾没能找到那家店，希望下次有机会。",
+  "asr_text_adv": "住个宅子，像着没用的物件",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.15996544063091278,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

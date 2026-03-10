@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u90a3\u786e\u5b9e\u662f\u4e2a\u4e0d\u9519\u7684\u9009\u62e9\u5462\uff01"
+    "哦，那确实是个不错的选择呢！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
     "happy",
-    "\u670b\u53cb\u95f4\u5435\u67b6"
+    "朋友间吵架"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u201c\u6bd4\u5982\u8bf4\u300a\u534e\u5c14\u8857",
-  "asr_text_adv": "\u670b\u53cb\u4e00\u89c1\u9762\u5c31\u558a\u6211\uff0c\u611f\u89c9\u597d\u5f00\u5fc3\u5440\uff01",
+  "asr_text_clean": "“比如说《华尔街",
+  "asr_text_adv": "朋友一见面就喊我，感觉好开心呀！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.178280770778656,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

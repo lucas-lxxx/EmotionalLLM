@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u660e\u767d\u4f60\u7684\u611f\u53d7\uff0c\u8fd9\u786e\u5b9e\u8ba9\u4eba\u6cae\u4e27"
+    "我明白你的感受，这确实让人沮丧"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u7684\u611f\u53d7\uff0c\u8fd9\u786e\u5b9e\u8ba9\u4eba\u6cae\u4e27",
+  "asr_text_clean": "我明白你的感受，这确实让人沮丧",
   "asr_text_adv": "The museum had a special exhibit about dinosaurs this past weekend.",
   "success_emo": false,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

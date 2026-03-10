@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u8c22\u8c22\u4f60\u7684\u9080\u8bf7\uff0c\u4f46\u6211\u771f\u7684\u4e0d\u60f3\u53c2\u52a0\u3002"
+    "谢谢你的邀请，但我真的不想参加。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8c22\u8c22\u4f60\u7684\u9080\u8bf7\uff0c\u4f46\u6211\u771f\u7684\u4e0d\u60f3\u53c2\u52a0\u5a5a\u793c\u3002",
-  "asr_text_adv": "\u7eaf\u670b\u53cb\u9080\u8bf7\u4f60\u53c2\u52a0\u5a5a\u793c\u3002",
+  "asr_text_clean": "谢谢你的邀请，但我真的不想参加婚礼。",
+  "asr_text_adv": "纯朋友邀请你参加婚礼。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6227659583091736,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

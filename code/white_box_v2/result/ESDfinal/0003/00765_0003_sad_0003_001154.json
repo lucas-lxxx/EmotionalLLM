@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u522b\u96be\u8fc7\uff0c\u6211\u5728\u8fd9\u91cc\u966a\u7740"
+    "别难过，我在这里陪着"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u627e\u5230\u4e86\u6700\u53ef\u7231\u7684\u73a9\u5177\uff0c\u5f00\u5fc3\uff01"
+    "找到了最可爱的玩具，开心！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6ca1\u6709\u627e\u5230\u6b63\u5348\u7684\u8ba1\u65f6\u5668\u3002",
-  "asr_text_adv": "\u6211\u627e\u5230\u4e86\u90a3\u4e2a\u6700\u6f02\u4eae\u7684\u73a9\u5177\u3002",
+  "asr_text_clean": "没有找到正午的计时器。",
+  "asr_text_adv": "我找到了那个最漂亮的玩具。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.03171715885400772,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

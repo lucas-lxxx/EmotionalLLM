@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Neutral",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u542c\u8d77\u6765",
-  "asr_text_adv": "\u662f\u7684\uff0c\u548c\u670b\u53cb\u4e00\u8d77\u53bb\u91ce\u8425\u5f88\u6709\u8da3\u3002\u53ef\u4ee5\u642d\u5e10\u7bf7",
+  "asr_text_clean": "嗯，听起来",
+  "asr_text_adv": "是的，和朋友一起去野营很有趣。可以搭帐篷",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.29983043670654297,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

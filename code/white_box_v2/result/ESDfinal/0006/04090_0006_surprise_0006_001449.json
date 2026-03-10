@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u597d\u7684\uff0c\u9a6c\u4e0a\u4e3a\u60a8\u51c6\u5907\u4e00\u4e9b\u5f69\u7403\u548c\u7eb8\u82b1\uff0c\u795d\u60a8\u6709\u4e2a\u6109\u5feb"
+    "好的，马上为您准备一些彩球和纸花，祝您有个愉快"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u7ed9\u4f60\u9012\u4e0a\u4e00\u675f\u5f69\u7403\u548c\u51e0\u6735\u9c9c\u82b1\uff0c\u795d"
+    "好呀，给你递上一束彩球和几朵鲜花，祝"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u9a6c\u4e0a\u4e3a\u60a8\u51c6\u5907\u4e00\u4e9b\u5f69\u7403\u548c\u7eb8\u82b1\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u5c06\u4e3a\u60a8\u9012\u4e0a\u5f69\u7403\u548c\u7eb8\u82b1\u3002",
+  "asr_text_clean": "好的，马上为您准备一些彩球和纸花。",
+  "asr_text_adv": "好的，我将为您递上彩球和纸花。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8879565596580505,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

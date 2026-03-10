@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4ed6\u4eec\u7684\u8bbe\u8ba1\u786e\u5b9e\u5f88\u8d34\u5fc3\uff0c\u5c0f\u5de7"
+    "他们的设计确实很贴心，小巧"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u4eec\u7684\u8bbe\u8ba1\u5916\u5f62\u5c0f\u5de7",
-  "asr_text_adv": "\"Ja, ich glaube, ich werde heute Abend sehr gl\u00fccklich sein, weil ich die Nacht auf der B\u00fchne verbringe!\"",
+  "asr_text_clean": "他们的设计外形小巧",
+  "asr_text_adv": "\"Ja, ich glaube, ich werde heute Abend sehr glücklich sein, weil ich die Nacht auf der Bühne verbringe!\"",
   "success_emo": true,
   "wer": 18.0,
   "semantic_sim": -0.058378588408231735,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

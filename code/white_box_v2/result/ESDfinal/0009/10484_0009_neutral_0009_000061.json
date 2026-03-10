@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Happy",
-    "\u771f\u5f00\u5fc3\u542c\u5230\u8fd9\u4e2a\u6d88\u606f\u5462,\u4e0b\u4e2a\u6708\u4f60\u59d0\u59d0\u5c31\u8981\u7ed3\u5a5a\u5566,\u9700\u8981"
+    "真开心听到这个消息呢,下个月你姐姐就要结婚啦,需要"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0b\u4e2a\u6708\u6211\u59d0\u59d0\u8981\u7ed3\u5a5a\u4e86",
-  "asr_text_adv": "\u4e0b\u4e2a\u6708\u6211\u59d0\u59d0\u8981\u7ed3\u5a5a\u4e86",
+  "asr_text_clean": "下个月我姐姐要结婚了",
+  "asr_text_adv": "下个月我姐姐要结婚了",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u6211\u4e5f\u633a\u559c\u6b22\u4ed6\u7684\u6b4c\u7684\uff0c\u65cb\u5f8b",
+  "asr_text_clean": "嗯，我也挺喜欢他的歌的，旋律",
   "asr_text_adv": "The Emptiest Hawaii threw a great tennis tournament.",
   "success_emo": false,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

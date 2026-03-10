@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u771f\u53d7\u4e0d\u4e86",
+  "asr_text_clean": "我真受不了",
   "asr_text_adv": "I just finished a three mile hike on my favorite trail. The view from the top is absolutely stunning!",
   "success_emo": true,
   "wer": 19.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

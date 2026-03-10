@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u60a8\u4f3c\u4e4e\u6709\u4e9b\u751f\u6c14\uff0c\u9700\u8981\u6211\u5e2e\u60a8\u627e\u627e\u5176\u4ed6\u5e97\u94fa\u5417\uff1f"
+    "您似乎有些生气，需要我帮您找找其他店铺吗？"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e0d\u5728\u4e4e\u8fd9\u4e2a\u5e97\u6709\u6ca1\u6709\u540d\u3002",
-  "asr_text_adv": "\u6211\u7279\u522b\u559c\u6b22\u5728\u7530\u91ce",
+  "asr_text_clean": "我不在乎这个店有没有名。",
+  "asr_text_adv": "我特别喜欢在田野",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.04684949293732643,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

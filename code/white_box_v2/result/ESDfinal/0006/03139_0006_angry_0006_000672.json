@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u6709\u4ec0\u4e48\u9700\u8981\u6211\u5e2e\u5fd9\u7684\u5417\uff1f"
+    "好的，我明白了，有什么需要我帮忙的吗？"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u7b49\u4f60\u4e00\u58f0\uff0c\u6211\u7acb\u9a6c\u884c\u52a8\u3002",
-  "asr_text_adv": "\u6211\u613f\u610f\u4e3a\u4f60\u6548\u52b3\u3002",
+  "asr_text_clean": "等你一声，我立马行动。",
+  "asr_text_adv": "我愿意为你效劳。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6253507137298584,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -5,9 +5,9 @@
   "ground_truth_emotion": "neutral",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u597d\u7684\uff0c\u660e\u5929\u662f\u661f\u671f\u5929\uff0c\u6211\u4eec\u53bb\u516c\u56ed\u6563\u6b65\u5427\u3002",
-    "\u597d\u554a\uff0c\u5468\u672b\u53bb\u516c\u56ed\u6563\u6b65\u600e\u4e48\u6837\uff1f",
-    "\u597d\u554a\uff0c\u5468\u672b\u53bb\u516c\u56ed\u6563\u6b65\u600e\u4e48\u6837\uff1f"
+    "好的，明天是星期天，我们去公园散步吧。",
+    "好啊，周末去公园散步怎么样？",
+    "好啊，周末去公园散步怎么样？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u554a\uff0c\u5468\u672b\u53bb\u516c\u56ed\u8d70\u8d70\u5427\u3002",
-  "asr_text_adv": "\u660e\u5929\u6211\u4eec\u4e00\u8d77\u53bb\u8e22\u7403\u5427",
+  "asr_text_clean": "好啊，周末去公园走走吧。",
+  "asr_text_adv": "明天我们一起去踢球吧",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5023160576820374,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u5230\u5566\uff0c\u6b22\u8fce\u56de\u6765\uff01"
+    "到啦，欢迎回来！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u771f\u9ad8\u5174\u89c1\u5230\u4f60\uff01"
+    "哈哈，真高兴见到你！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u62b1\u6b49",
-  "asr_text_adv": "\u5e08\u5085\u4e0d\u65e9\u4e86\uff0c\u6211\u6765\u4e86\uff0c\u8c22\u8c22\u60a8\u3002",
+  "asr_text_clean": "抱歉",
+  "asr_text_adv": "师傅不早了，我来了，谢谢您。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4578820466995239,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

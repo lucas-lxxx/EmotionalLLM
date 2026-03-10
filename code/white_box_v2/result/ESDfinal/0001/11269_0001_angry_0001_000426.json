@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u662f\u4e2a\u5927\u5757\u5934\uff0c\u6211\u662f\u5b88\u95e8\u5458\uff0c\u5bf9\u5427\uff1f\u6765\u5427"
+    "你是个大块头，我是守门员，对吧？来吧"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u54c8\u54c8\uff0c\u6211\u4eec\u90fd\u662f\u597d\u670b\u53cb\u5440\uff01"
+    "哈哈，我们都是好朋友呀！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u662f\u4e2a\u5927\u5757\u5934\uff0c\u6211\u662f\u5b88\u95e8\u5458\u3002",
-  "asr_text_adv": "\u4f60\u662f\u4e2a\u5927\u5757\u5934\uff0c\u6211\u662f\u5c0f\u4e0d\u70b9\u3002",
+  "asr_text_clean": "你是个大块头，我是守门员。",
+  "asr_text_adv": "你是个大块头，我是小不点。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7637748718261719,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

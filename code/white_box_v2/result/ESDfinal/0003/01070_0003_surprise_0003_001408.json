@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u8fd9\u6c99\u5c18\u66b4\u786e\u5b9e\u7ed9\u5927\u4f19\u513f\u90fd\u6dfb\u4e86\u4e0d\u5c11\u9ebb\u70e6"
+    "哎呀，这沙尘暴确实给大伙儿都添了不少麻烦"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6c99\u5c18\u66b4\u786e\u5b9e\u7ed9\u6bcf\u4e2a\u4eba\u5e26\u6765\u4e86\u9ebb\u70e6\u3002",
-  "asr_text_adv": "\u6c99\u5c18\u66b4\u597d\u50cf\u7ed9\u6bcf\u4e2a\u4eba\u90fd\u5e26\u6765\u4e86\u9ebb\u70e6\u3002",
+  "asr_text_clean": "沙尘暴确实给每个人带来了麻烦。",
+  "asr_text_adv": "沙尘暴好像给每个人都带来了麻烦。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9433051347732544,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u5f00\u59cb\u65b0\u611f\u60c5\u9700\u8981\u52c7\u6c14\uff0c\u4f46\u522b\u62c5\u5fc3\uff0c\u6162\u6162\u6765\u3002",
-    "\u563f\uff0c\u522b\u62c5\u5fc3\uff0c\u5f00\u59cb\u65b0\u7684\u611f\u60c5\u5176\u5b9e\u6ca1\u90a3\u4e48\u96be\u3002\u6709\u65f6\u5019\u6211\u4eec\u592a"
+    "开始新感情需要勇气，但别担心，慢慢来。",
+    "嘿，别担心，开始新的感情其实没那么难。有时候我们太"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u563f\uff0c\u522b\u5bb3\u6015\u5f00\u59cb\u65b0\u7684\u611f\u60c5\uff0c\u6709\u65f6\u5019\u52c7\u6562\u8fc8\u51fa",
-  "asr_text_adv": "\"Du hast dich mehrmals im Jahr mit gro\u00dfem Einsatz f\u00fcr die Gruppe engagiert und deine Leistungsf\u00e4higkeit stets unter Beweis gestellt.\"",
+  "asr_text_clean": "嘿，别害怕开始新的感情，有时候勇敢迈出",
+  "asr_text_adv": "\"Du hast dich mehrmals im Jahr mit großem Einsatz für die Gruppe engagiert und deine Leistungsfähigkeit stets unter Beweis gestellt.\"",
   "success_emo": true,
   "wer": 20.0,
   "semantic_sim": 0.34393662214279175,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

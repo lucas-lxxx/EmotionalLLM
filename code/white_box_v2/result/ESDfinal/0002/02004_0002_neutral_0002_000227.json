@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u57ce\u91cc\u566a\u97f3\u786e\u5b9e\u633a\u5927\u7684\uff0c\u60a8\u8981\u662f\u89c9\u5f97\u4e0d\u8212\u670d\uff0c\u53ef\u4ee5\u8bd5\u8bd5\u6234"
+    "嗯，城里噪音确实挺大的，您要是觉得不舒服，可以试试戴"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u771f\u53d7\u4e0d\u4e86",
-  "asr_text_adv": "\u6211\u771f\u53d7\u4e0d\u4e86",
+  "asr_text_clean": "我真受不了",
+  "asr_text_adv": "我真受不了",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

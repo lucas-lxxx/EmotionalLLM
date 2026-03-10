@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u55ef\uff0c\u542c\u8d77\u6765",
-    "\u542c\u8d77\u6765"
+    "嗯，听起来",
+    "听起来"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\u3002",
+  "asr_text_clean": "好的，我明白你的意思。",
   "asr_text_adv": "Perhaps a moment of calm could help clarify things.",
   "success_emo": true,
   "wer": 9.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

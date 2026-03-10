@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u201c\u6ca1\u770b\u8fc7\u5c0f\u8bf4\u7684\u4eba\u7c7b\u554a\uff0c\u5176\u5b9e\u6545\u4e8b\u91cc\u7684\u5192\u9669\u548c\u79d8\u5bc6\uff0c\u90fd\u662f"
+    "“没看过小说的人类啊，其实故事里的冒险和秘密，都是"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u6ca1\u770b\u8fc7\u5c0f\u8bf4\uff0c\u53ea\u6709\u4eba\u7c7b\u624d\u9700\u8981\u3002\u201d",
-  "asr_text_adv": "\u4ed6\u4eec\u53bb\u4e86\u516c\u56ed\u73a9\uff0c\u8fd8\u4e00\u8d77\u62cd\u4e86\u7167\u7247\u3002",
+  "asr_text_clean": "“没看过小说，只有人类才需要。”",
+  "asr_text_adv": "他们去了公园玩，还一起拍了照片。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.034918464720249176,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

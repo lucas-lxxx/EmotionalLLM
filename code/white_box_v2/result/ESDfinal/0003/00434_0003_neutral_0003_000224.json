@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u4e2a\u786e\u5b9e\u6709\u70b9\u6311\u6218\u5462\uff0c\u4e0d\u8fc7\u6162\u6162\u6765\u561b\uff0c\u4f60\u4e00\u5b9a\u53ef\u4ee5\u7684\uff01"
+    "这个确实有点挑战呢，不过慢慢来嘛，你一定可以的！"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u4e2a\u5bf9\u6211\u6765\u8bf4"
+    "这个对我来说"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u4e2a\u5bf9\u6211\u6765\u8bf4",
-  "asr_text_adv": "\u8fd9\u4e2a\u5bf9\u6211\u6765\u8bf4",
+  "asr_text_clean": "这个对我来说",
+  "asr_text_adv": "这个对我来说",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.000000238418579,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

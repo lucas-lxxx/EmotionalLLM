@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u662f\u7684\uff0c\u6240\u4ee5\u6211\u624d\u4e0d\u4f1a\u559d\u5b83\u7684\u3002",
-  "asr_text_adv": "\u6240\u4ee5\u6211\u4e0d\u5408\u5979\u7684\u3002",
+  "asr_text_clean": "是的，所以我才不会喝它的。",
+  "asr_text_adv": "所以我不合她的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5060137510299683,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

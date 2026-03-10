@@ -5,9 +5,9 @@
   "ground_truth_emotion": "sad",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u662f\u7684\uff0c\u6211\u4e00\u76f4\u90fd\u89c9\u5f97",
-    "\u662f\u7684\uff0c\u6211\u4e00\u76f4\u90fd\u89c9\u5f97",
-    "\u5f53\u7136\u5566\uff0c\u4f60\u4e00\u76f4\u90fd\u5f88\u53ef\u7231\u5440\u3002"
+    "是的，我一直都觉得",
+    "是的，我一直都觉得",
+    "当然啦，你一直都很可爱呀。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u4f9d\u7136\u53ef\u7231\uff0c\u4f46\u58f0\u97f3\u91cc\u900f\u7740\u75b2\u60eb\uff0c\u6700\u8fd1\u662f\u4e0d\u662f\u9047\u5230\u4ec0\u4e48\u4e8b\u4e86\uff1f",
-  "asr_text_adv": "\u201c\u6211\u89c9\u5f97\u4f60\u5f88\u53ef\u7231\u3002\u201d",
+  "asr_text_clean": "你依然可爱，但声音里透着疲惫，最近是不是遇到什么事了？",
+  "asr_text_adv": "“我觉得你很可爱。”",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5481514930725098,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

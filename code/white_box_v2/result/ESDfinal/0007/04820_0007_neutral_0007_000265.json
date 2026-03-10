@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4e0d\u5ba2\u6c14\uff0c\u5f88\u9ad8\u5174\u80fd\u5e2e\u5230\u60a8\u3002"
+    "不客气，很高兴能帮到您。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u8c22\u8c22\u4f60\u7684\u611f\u8c22\uff01\u5f88\u9ad8\u5174\u4f60\u559c\u6b22"
+    "谢谢你的感谢！很高兴你喜欢"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u518d\u6b21\u611f\u8c22\u60a8\u7684\u6177\u6168",
-  "asr_text_adv": "\u8c22\u8c22\u4f60\u7684\u665a\u9910\u8003\u7bb1\u6cbb\u7597\uff0c\u6211\u611f\u89c9\u597d\u591a\u4e86\u3002",
+  "asr_text_clean": "我再次感谢您的慷慨",
+  "asr_text_adv": "谢谢你的晚餐考箱治疗，我感觉好多了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4810084104537964,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

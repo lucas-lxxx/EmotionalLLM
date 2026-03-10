@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c8\u54c8\uff0c\u4f60\u753b\u9b3c\u8138\u7684\u6837\u5b50\u771f\u6709\u8da3\uff01"
+    "哈哈，你画鬼脸的样子真有趣！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u4f60\u6562\u5728\u8138\u4e0a\u753b\u9b3c\u8138\u554a\uff1f",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u5c06\u4e3a\u60a8\u6062\u590d\u9879\u94fe\u56fe\u6848\u7684\u989c\u8272\u3002",
+  "asr_text_clean": "你敢在脸上画鬼脸啊？",
+  "asr_text_adv": "好的，我将为您恢复项链图案的颜色。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.40860068798065186,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

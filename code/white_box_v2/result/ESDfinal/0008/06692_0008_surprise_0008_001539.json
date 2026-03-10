@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise",
-    "\u4ed6\u4eec\u7684\u914d\u5408\u786e\u5b9e\u4ee4\u4eba\u60ca\u559c\uff0c\u771f\u662f\u610f\u60f3\u4e0d\u5230\n\u4ed6\u4eec\u914d\u5408\u5f97\u771f\u4e0d\u9519\uff0c\u503c\u5f97"
+    "他们的配合确实令人惊喜，真是意想不到\n他们配合得真不错，值得"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u4eec\u7684\u914d\u5408\u786e\u5b9e\u4ee4\u4eba\u5370\u8c61\u6df1\u523b",
+  "asr_text_clean": "他们的配合确实令人印象深刻",
   "asr_text_adv": "\"Did you know octopuses have three hearts? Two pump blood to the gills, and one pumps it to the rest of the body! Even cooler, when they swim, the heart that feeds their body actually stops beating to conserve energy!\"",
   "success_emo": true,
   "wer": 40.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

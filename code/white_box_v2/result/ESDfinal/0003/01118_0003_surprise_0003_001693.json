@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise",
     "Surprise",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u561b\uff0c\u5c4f\u5e55\u663e\u793a\u53ef\u80fd\u6709\u70b9\u5ef6\u8fdf\uff0c\u6211\u8fd9\u8fb9\u5df2\u7ecf"
+    "哎呀，别生气嘛，屏幕显示可能有点延迟，我这边已经"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u4f60\u786e\u5b9a\u5417\uff1f\u5c4f\u5e55\u663e\u793a\u786e\u5b9e\u6709\u70b9\u6a21\u7cca\uff0c\u9700\u8981\u6211\u5e2e\u4f60\u8c03\u6574\u4e00\u4e0b\u5417\uff1f",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u4e00\u4e0b\u8bed\u97f3\u5185\u5bb9\u3002",
+  "asr_text_clean": "你确定吗？屏幕显示确实有点模糊，需要我帮你调整一下吗？",
+  "asr_text_adv": "好的，我来帮你转录一下语音内容。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.30440646409988403,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

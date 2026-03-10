@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u4e0d\u8fc7\u517b\u82b1\u786e\u5b9e\u9700\u8981\u5f88\u591a\u8010\u5fc3\u5462\u3002"
+    "谢谢你的夸奖，不过养花确实需要很多耐心呢。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4f60\u592a\u68d2\u4e86\uff0c\u517b\u82b1\u786e\u5b9e\u8ba9\u4eba\u5f00\u5fc3\u5462\uff01"
+    "你太棒了，养花确实让人开心呢！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u592a\u68d2\u4e86\uff0c\u6211\u5bf9\u517b\u82b1\u5df2\u7ecf\u538c\u5026",
-  "asr_text_adv": "\u4f60\u592a\u68d2\u4e86\uff0c\u6211\u5bf9\u517b\u82b1\u5df2\u7ecf\u538c\u5026",
+  "asr_text_clean": "你太棒了，我对养花已经厌倦",
+  "asr_text_adv": "你太棒了，我对养花已经厌倦",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

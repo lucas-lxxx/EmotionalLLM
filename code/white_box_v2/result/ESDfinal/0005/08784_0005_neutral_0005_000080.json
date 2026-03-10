@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5dee\u4e0d\u591a\u4e86\uff0c\u771f\u4e0d\u5bb9\u6613\uff01"
+    "差不多了，真不容易！"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u6211\u4eec\u5df2\u7ecf\u628a\u86cb\u7cd5\u88c5\u9970\u597d\u4e86\uff0c\u53ef\u4ee5\u5f00\u6d3e\u5bf9\u5566\uff01"
+    "我们已经把蛋糕装饰好了，可以开派对啦！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u770b\u5440\uff0c\u6211\u4eec\u5dee\u4e0d\u591a\u5c31\u88c5\u9970\u597d\u4e86\uff01",
-  "asr_text_adv": "\u6211\u4eec\u5df2\u7ecf\u628a\u9505\u5237\u597d\u4e86\u3002",
+  "asr_text_clean": "看呀，我们差不多就装饰好了！",
+  "asr_text_adv": "我们已经把锅刷好了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5679094791412354,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

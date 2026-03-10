@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4f60\u88ab\u6211\u8bf4\u997f\u4e86\u5440\uff0c\u8981\u4e0d\u54b1\u4eec\u804a\u70b9\u522b\u7684\uff1f"
+    "你被我说饿了呀，要不咱们聊点别的？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u88ab\u6211\u8bf4\u8fc7\u997f\u4e86\uff1f",
-  "asr_text_adv": "\u6211\u7684\u989c\u8272\u662f\u94f6\u7070\u8272\u7684\uff0c\u4f60\u8bf4\u5f97\u5bf9\uff0c\u6211\u786e\u5b9e\u5f88\u997f\u3002",
+  "asr_text_clean": "你被我说过饿了？",
+  "asr_text_adv": "我的颜色是银灰色的，你说得对，我确实很饿。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6451947093009949,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u5f53\u7136\u559c\u6b22\uff0c\u4f46\u522b\u592a\u5728\u610f\u9762\u5b50\uff0c\u5f00\u5fc3\u6700\u91cd\u8981"
+    "你当然喜欢，但别太在意面子，开心最重要"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5f53\u7136\u559c\u6b22\uff0c\u6211\u5f88\u6ce8\u91cd\u989c\u9762\u3002",
-  "asr_text_adv": "\u6211\u5f53\u7136\u559c\u6b22\uff0c\u6211\u5f88\u77e5\u8db3\u3002",
+  "asr_text_clean": "我当然喜欢，我很注重颜面。",
+  "asr_text_adv": "我当然喜欢，我很知足。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.814507007598877,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

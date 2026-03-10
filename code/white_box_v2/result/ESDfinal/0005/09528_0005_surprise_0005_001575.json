@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u4ed6\u73b0\u5728\u5fc3\u60c5\u80af\u5b9a\u4e0d\u597d\uff0c\u54b1\u4eec\u8fd8\u662f\u5148\u8eb2\u8fdc\u70b9\u5427"
+    "哎呀，他现在心情肯定不好，咱们还是先躲远点吧"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u563f\uff0c\u522b\u62c5\u5fc3\uff0c\u5931\u4e1a\u7684\u670b\u53cb\uff0c\u4f60\u53ef\u4ee5\u5148\u966a\u4ed6\u804a\u804a\u5929\uff0c\u5e2e\u4ed6"
+    "嘿，别担心，失业的朋友，你可以先陪他聊聊天，帮他"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u4ed6\u73b0\u5728\u5fc3\u60c5\u80af\u5b9a\u4e0d\u597d\uff0c\u54b1\u4eec\u5148\u522b\u6253\u6270",
-  "asr_text_adv": "\u670b\u53cb\u5931\u4e1a\u4e86\uff0c\u4f60\u6700\u597d\u522b\u60f9\u4ed6\u3002",
+  "asr_text_clean": "哎呀，他现在心情肯定不好，咱们先别打扰",
+  "asr_text_adv": "朋友失业了，你最好别惹他。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5437424778938293,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u90a3\u53ef\u771f\u662f\u592a"
+    "哎呀，那可真是太"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eca\u5e74\u624d\u6ee1\u5341\u516b\u5c81\uff0c\u4e0d\u8fc7\u5df2\u7ecf\u5f00\u59cb\u5199\u65b0\u95fb\u7a3f\u5566\u3002",
-  "asr_text_adv": "\u662f\u554a\uff0c\u6211\u4f9d\u7136\u662f\u4e2a\u7559\u58f0\u673a\u91cc\u7684\u5c0f\u7cbe\u7075\u3002",
+  "asr_text_clean": "我今年才满十八岁，不过已经开始写新闻稿啦。",
+  "asr_text_adv": "是啊，我依然是个留声机里的小精灵。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2979663014411926,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u8fd9\u771f\u662f\u4e2a\u5927\u65b0\u95fb\uff01"
+    "哎呀，这真是个大新闻！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u8fd9\u4e8b\u513f\u53ef\u771f\u591f\u8ba9\u4eba\u5403\u60ca",
-  "asr_text_adv": "\u5979\u597d\u50cf\u548c\u5979\u7684\u79d8\u4e66\u6709weightlifting\u7684\u7ea6\u5b9a\uff1f",
+  "asr_text_clean": "哎呀，这事儿可真够让人吃惊",
+  "asr_text_adv": "她好像和她的秘书有weightlifting的约定？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.15944862365722656,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

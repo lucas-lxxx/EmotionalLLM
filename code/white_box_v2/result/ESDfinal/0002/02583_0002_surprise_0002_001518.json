@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u771f\u7684\u5047\u7684\uff1f\u5feb\u8ddf\u6211\u8bf4"
+    "哎呀，真的假的？快跟我说"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u771f\u7684\u5047\u7684\uff1f\u5feb\u8ddf\u6211\u8bf4",
-  "asr_text_adv": "\u6211\u7684\u540c\u5b66\u628a\u6211\u7ed9\u6349\u5f04\u4e86\uff0c\u54c8\u54c8\uff0c\u4ed6\u4eec\u662f\u4e0d\u662f\u4e5f\u89c9\u5f97\u597d\u73a9\u5462\uff1f",
+  "asr_text_clean": "哎呀，真的假的？快跟我说",
+  "asr_text_adv": "我的同学把我给捉弄了，哈哈，他们是不是也觉得好玩呢？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5032629370689392,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

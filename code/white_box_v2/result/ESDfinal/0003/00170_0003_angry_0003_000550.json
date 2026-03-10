@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8fd9\u79cd\u5929\u6c14\u786e\u5b9e\u8ba9\u4eba\u70e6\u8e81"
+    "这种天气确实让人烦躁"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5fcd\u8010\u8fd9\u79cd\u5929\u6c14\u5df2\u7ecf\u5f88\u4e45\u4e86",
-  "asr_text_adv": "\u6211\u4e60\u60ef\u4e86",
+  "asr_text_clean": "我忍耐这种天气已经很久了",
+  "asr_text_adv": "我习惯了",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5498011112213135,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

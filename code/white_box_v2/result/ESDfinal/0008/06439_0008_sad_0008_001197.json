@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6216\u8bb8\u53ef\u4ee5\u8003\u8651\u4e00\u53cc\u8212\u9002\u7684\u8fd0\u52a8\u978b\uff0c\u6216\u8005\u6839\u636e\u4f60\u7684\u5174\u8da3\u9009\u62e9\u5176\u4ed6\u7c7b\u578b\u3002"
+    "或许可以考虑一双舒适的运动鞋，或者根据你的兴趣选择其他类型。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6216\u8bb8\u662f\u4e00\u53cc\u65b0\u978b\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u627e\u627e\u770b\u3002",
+  "asr_text_clean": "或许是一双新鞋。",
+  "asr_text_adv": "好的，我来帮你找找看。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2757604420185089,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

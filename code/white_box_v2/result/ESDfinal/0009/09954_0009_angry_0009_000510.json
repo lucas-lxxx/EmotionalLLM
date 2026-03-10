@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5f53\u7136\u4ed6\u662f\u6211\u4eec\u5927\u5b66\u7684\u73ed\u957f"
+    "当然他是我们大学的班长"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\u4ed6\u662f\u6211\u4eec\u5927\u5b66\u7684\u73ed\u957f",
-  "asr_text_adv": "\u5f53\u7136\u53ef\u4ee5\uff0c\u6211\u4eec\u5927\u5b66\u7684\u73ed\u957f",
+  "asr_text_clean": "当然他是我们大学的班长",
+  "asr_text_adv": "当然可以，我们大学的班长",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8136950731277466,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

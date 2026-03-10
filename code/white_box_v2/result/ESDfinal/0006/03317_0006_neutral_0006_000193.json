@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u597d\u5440\uff0c\u54b1\u4eec\u53bb\u5403\u987f\u5927\u9910\u5427\uff0c\u6b63\u597d\u6211\u4e5f\u60f3\u5c1d\u5c1d"
+    "好呀，咱们去吃顿大餐吧，正好我也想尝尝"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5e26\u5979\u53bb\u5403\u987f\u5927\u9910\u5427\uff0c\u9009\u5bb6\u5979\u559c\u6b22\u7684\u5e97\uff0c\u5979\u51c6\u5f00\u5fc3\u3002",
+  "asr_text_clean": "带她去吃顿大餐吧，选家她喜欢的店，她准开心。",
   "asr_text_adv": "\"Two families stayed at their remote cabin here.\"",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

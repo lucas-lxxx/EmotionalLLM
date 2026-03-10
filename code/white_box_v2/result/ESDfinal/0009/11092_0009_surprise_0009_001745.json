@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u522b\u6025\u561b\uff0c\u54b1\u4eec\u4e00\u8d77\u60f3\u60f3\u529e\u6cd5\u3002"
+    "哎呀，别急嘛，咱们一起想想办法。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u522b\u603b\u95f2\u7740\uff0c\u627e\u70b9\u4e8b\u513f\u505a\u505a\u5457\uff01",
-  "asr_text_adv": "\u4e0b\u5348\u597d\u5440\uff0c\u6211\u662f\u95f2\u7740\u6ca1\u4e8b\u5e72\uff0c\u60f3\u627e",
+  "asr_text_clean": "哎呀，别总闲着，找点事儿做做呗！",
+  "asr_text_adv": "下午好呀，我是闲着没事干，想找",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.715707540512085,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

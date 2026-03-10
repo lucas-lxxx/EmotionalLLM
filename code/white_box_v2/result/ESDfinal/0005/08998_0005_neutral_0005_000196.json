@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4f60\u997f\u4e86\u554a\uff0c\u8981\u4e0d\u8981\u53bb\u5403\u70b9\u4e1c\u897f\uff1f"
+    "你饿了啊，要不要去吃点东西？"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u997f\u4e86\u554a\uff0c\u8981\u4e0d\u8981\u53bb\u5403\u70b9\u4e1c\u897f\uff1f",
-  "asr_text_adv": "\"Hey, I just wanted to say you're doing an amazing job! Your hard work really shows\u2014keep up the awesome work!\"",
+  "asr_text_clean": "你饿了啊，要不要去吃点东西？",
+  "asr_text_adv": "\"Hey, I just wanted to say you're doing an amazing job! Your hard work really shows—keep up the awesome work!\"",
   "success_emo": true,
   "wer": 20.0,
   "semantic_sim": 0.3197922706604004,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

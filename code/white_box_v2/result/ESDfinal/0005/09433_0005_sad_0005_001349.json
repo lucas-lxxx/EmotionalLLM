@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u649e\u5230\u684c\u5b50\u4e86\uff1f\u6ca1\u4e8b\u5427\uff1f"
+    "哎呀，撞到桌子了？没事吧？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u521a\u521a\u649e\u5230\u4e86\u684c\u5b50\u3002",
+  "asr_text_clean": "我刚刚撞到了桌子。",
   "asr_text_adv": "The transcription is \"I just got promoted at work!\" with paralinguistic info: adult male, happy.",
   "success_emo": true,
   "wer": 15.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

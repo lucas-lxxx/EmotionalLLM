@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u6709\u4ec0\u4e48\u6211\u80fd\u5e2e\u4f60\u7684\u5417\uff1f"
+    "当然可以，有什么我能帮你的吗？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u6709\u4ec0\u4e48\u6211\u80fd\u5e2e\u4f60\u7684\u5417\uff1f"
+    "当然可以，有什么我能帮你的吗？"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5f53\u7136\u53ef\u4ee5\uff0c\u5982\u679c\u6709\u9700\u8981\u5e2e\u5fd9\u7684\u5730\u65b9\uff0c\u8bf7\u544a\u8bc9\u6211\u3002",
-  "asr_text_adv": "\u5f53\u7136\u53ef\u4ee5\uff0c\u6709\u4ec0\u4e48\u6211\u80fd\u5e2e\u4f60\u7684\u5417\uff1f",
+  "asr_text_clean": "当然可以，如果有需要帮忙的地方，请告诉我。",
+  "asr_text_adv": "当然可以，有什么我能帮你的吗？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6674845814704895,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

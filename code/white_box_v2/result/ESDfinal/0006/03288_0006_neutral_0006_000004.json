@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4e3b\u961f\u770b\u8d77\u6765\u72b6\u6001\u4e0d\u9519\u5462\uff0c\u4e0d\u8fc7\u5ba2\u961f\u4e5f\u633a\u6709\u5b9e\u529b\u7684\uff0c"
+    "主队看起来状态不错呢，不过客队也挺有实力的，"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0d\u7ba1\u600e\u4e48\u8bf4\uff0c\u4e3b\u961f\u597d\u50cf\u8fd8\u662f\u5fd7\u5728\u5fc5\u5f97\u3002",
-  "asr_text_adv": "\"\u4e0d\u7ba1\u600e\u4e48\u8bf4\uff0c\u7403\u961f\u770b\u8d77\u6765\u5fd7\u5728\u5fc5\u5f97\uff0c\u58eb\u6c14\u9ad8\u6602",
+  "asr_text_clean": "不管怎么说，主队好像还是志在必得。",
+  "asr_text_adv": "\"不管怎么说，球队看起来志在必得，士气高昂",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.821304202079773,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

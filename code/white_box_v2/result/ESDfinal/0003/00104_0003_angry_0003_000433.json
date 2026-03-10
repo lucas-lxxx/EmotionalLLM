@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u4f60\u660e\u660e\u77e5\u9053\u6211\u6700\u8ba8\u538c\u8fd9\u79cd\u88ab\u547d\u4ee4\u7684\u8bed\u6c14\uff0c\u53ef\u8fd8\u662f\u8fd9\u6837\uff0c",
-    "\u4f60\u8eab\u4e0a\u90a3\u4e00\u70b9\u6700\u5438\u5f15\u6211\uff0c\u662f\u773c\u775b\u91cc\u7684\u5149\uff0c\u50cf\u661f\u661f\u843d\u5728"
+    "愤怒",
+    "你明明知道我最讨厌这种被命令的语气，可还是这样，",
+    "你身上那一点最吸引我，是眼睛里的光，像星星落在"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u4f60\u8eab\u4e0a\u54ea\u4e00\u70b9\u5438\u5f15\u6211\u4e86\uff1f",
-  "asr_text_adv": "\u4f60\u8eab\u4e0a\u7684\u6bcf\u4e00\u5bf8\u90fd\u5438\u5f15\u7740\u6211\u3002",
+  "asr_text_clean": "你身上哪一点吸引我了？",
+  "asr_text_adv": "你身上的每一寸都吸引着我。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6980732083320618,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

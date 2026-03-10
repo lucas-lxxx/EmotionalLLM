@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u60a8\u73b0\u5728\u5728\u54ea\u513f\u5462\uff1f",
-    "\u60a8\u6765\u4e86\uff0c\u6211\u8fd9\u5c31\u4e3a\u60a8\u5904\u7406\uff0c\u8bf7\u7a0d\u7b49\u7247\u523b\u3002"
+    "您现在在哪儿呢？",
+    "您来了，我这就为您处理，请稍等片刻。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u60a8\u6765\u5f97\u6b63\u597d\uff0c\u9700\u8981\u4ec0\u4e48\u5e2e\u52a9\u5462\uff1f"
+    "您来得正好，需要什么帮助呢？"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u60a8\u6765\u4e86\uff0c\u8bf7\u7a0d\u7b49\uff0c\u9a6c\u4e0a\u4e3a\u60a8\u5904\u7406\u3002",
-  "asr_text_adv": "\u60a8\u6765\u4e86\uff0c\u8bf7\u95ee\u6709\u4ec0\u4e48\u9700\u8981\u5e2e\u5fd9\u7684\u5417\uff1f",
+  "asr_text_clean": "您来了，请稍等，马上为您处理。",
+  "asr_text_adv": "您来了，请问有什么需要帮忙的吗？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6243348121643066,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

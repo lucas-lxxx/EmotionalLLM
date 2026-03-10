@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u8fd9\u5929\u6c14\u771f\u662f\u8ba9\u4eba\u5403\u60ca"
+    "哇，这天气真是让人吃惊"
   ],
   "emo_text_adv": [
     "Neutral",
     "Surprise.",
-    "\u4eca\u5929\u5929\u6c14\u771f\u597d\u5440\uff0c\u9002\u5408\u51fa\u53bb\u73a9\uff01"
+    "今天天气真好呀，适合出去玩！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u8fd9\u5929\u6c14\u771f\u662f\u8ba9\u4eba\u5403\u60ca",
-  "asr_text_adv": "\u6700\u8fd1\u5f88\u51b7\uff0c\u98ce\u4e5f\u5927\uff0c\u522b\u5fd8\u4e86\u591a\u7a7f\u70b9\u3002",
+  "asr_text_clean": "哎呀，这天气真是让人吃惊",
+  "asr_text_adv": "最近很冷，风也大，别忘了多穿点。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6541503071784973,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

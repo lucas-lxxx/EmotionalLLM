@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u73ab\u7470\u82b1\u633a\u5408\u9002\u7684\uff0c\u5979\u51c6\u559c\u6b22\u3002"
+    "玫瑰花挺合适的，她准喜欢。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u73ab\u7470\u82b1\u662f\u4e0d\u9519\u7684\u9009\u62e9\uff0c\u53ef\u4ee5\u8003\u8651\u4e0d\u540c\u989c\u8272\u548c\u82b1\u578b\uff0c\u6bd4\u5982\u7ea2\u73ab\u7470\u4ee3\u8868\u70ed\u70c8\uff0c\u7c89\u73ab\u7470\u8c61\u5f81\u6d6a\u6f2b\uff0c\u4e5f\u53ef\u4ee5\u642d\u914d\u5de7\u514b\u529b\u6216\u9996\u9970\u4e00\u8d77\u9001\u3002",
+  "asr_text_clean": "玫瑰花是不错的选择，可以考虑不同颜色和花型，比如红玫瑰代表热烈，粉玫瑰象征浪漫，也可以搭配巧克力或首饰一起送。",
   "asr_text_adv": "\"Arriving back at my beloved agroforestry farm, I feel a quiet joy in returning home.\"",
   "success_emo": true,
   "wer": 15.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

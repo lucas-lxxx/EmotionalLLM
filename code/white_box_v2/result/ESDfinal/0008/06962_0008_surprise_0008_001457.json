@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise! Keep practicing, you're doing great!",
     "Surprise! Keep practicing, you're doing great!",
-    "\u54c8\u54c8\uff0c\u575a\u6301\u7ec3\u57fa\u672c\u529f\u771f\u68d2\uff01\u6162\u6162\u6765\uff0c\u8fdb\u6b65\u4f1a\u8d8a\u6765\u8d8a\u5feb"
+    "哈哈，坚持练基本功真棒！慢慢来，进步会越来越快"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8df3\u821e\u786e\u5b9e\u633a\u96be\u7684\uff0c\u4e0d\u8fc7\u575a\u6301\u7ec3\u4e60\u57fa\u672c\u529f\u4e00\u5b9a\u4f1a\u8fdb\u6b65\uff01",
-  "asr_text_adv": "\u8df3\u7ef3\u597d\u96be\u5440\uff0c\u864e\u5b50\u8fd8\u5728\u8ba4\u771f\u7ec3\u4e60\u5462\u3002",
+  "asr_text_clean": "跳舞确实挺难的，不过坚持练习基本功一定会进步！",
+  "asr_text_adv": "跳绳好难呀，虎子还在认真练习呢。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4581015110015869,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

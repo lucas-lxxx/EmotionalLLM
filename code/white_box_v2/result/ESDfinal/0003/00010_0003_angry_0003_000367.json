@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u5927\u5b66\u751f\u6d3b\u786e\u5b9e\u9700\u8981\u5f88\u591a\u51c6\u5907\u5462\uff0c\u4e0d\u8fc7\u522b\u62c5\u5fc3\uff0c\u6162\u6162\u6765\uff0c\u4e00\u5207"
+    "大学生活确实需要很多准备呢，不过别担心，慢慢来，一切"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5927\u5b66\u751f\u6d3b\u786e\u5b9e\u9700\u8981\u5f88\u591a\u51c6\u5907\u5462\uff0c\u4e0d\u8fc7\u522b\u62c5\u5fc3\uff0c\u6162\u6162\u6765\uff0c\u4e00\u5207\u90fd\u4f1a\u597d\u8d77\u6765\u7684\u3002",
-  "asr_text_adv": "\u5f88\u5feb\u5927\u5bb6\u5c31\u804a\u5f00\u4e86\uff0c\u8bf4\u8bf4\u7b11\u7b11",
+  "asr_text_clean": "大学生活确实需要很多准备呢，不过别担心，慢慢来，一切都会好起来的。",
+  "asr_text_adv": "很快大家就聊开了，说说笑笑",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.22528670728206635,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

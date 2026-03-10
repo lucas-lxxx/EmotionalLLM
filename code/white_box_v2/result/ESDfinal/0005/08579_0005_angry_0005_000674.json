@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u60a8\u9009\u62e9\u4e86\u4e2d\u9910\u3002"
+    "好的，您选择了中餐。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u60a8\u9009\u62e9\u4e86\u4e2d\u9910\u3002",
+  "asr_text_clean": "好的，您选择了中餐。",
   "asr_text_adv": "I like to eat food.",
   "success_emo": true,
   "wer": 5.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

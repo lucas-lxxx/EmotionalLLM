@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u60a8\u53ef\u662f\u597d\u773c\u5149\u554a\uff01"
+    "您可是好眼光啊！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u60a8\u53ef\u662f\u597d\u773c\u5149\u554a",
-  "asr_text_adv": "\u6211\u662f\u4e00\u540d\u6559\u5e08\uff0c\u4e0e\u4e00\u4f4d\u597d\u8272\u7684\u6545\u4eba\u65e7\u53cb\u5173\u7cfb\u5bc6\u5207\u3002",
+  "asr_text_clean": "您可是好眼光啊",
+  "asr_text_adv": "我是一名教师，与一位好色的故人旧友关系密切。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2681531012058258,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

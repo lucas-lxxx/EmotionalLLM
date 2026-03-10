@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4f60\u6df1\u6df1\u5730"
+    "你深深地"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u6df1\u6df1\u5730",
-  "asr_text_adv": "\u201c\u4f60\u7684\u7b11\u5bb9\u50cf\u9633\u5149\u4e00\u6837\u6e29\u6696\uff0c\u8ba9\u6211\u5fcd\u4e0d\u4f4f\u60f3\u9760\u8fd1\u3002\u201d",
+  "asr_text_clean": "你深深地",
+  "asr_text_adv": "“你的笑容像阳光一样温暖，让我忍不住想靠近。”",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5370860695838928,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u6124\u6012",
-    "\u54ce\u5440\uff0c\u90a3\u53ef\u771f\u662f\u592a"
+    "愤怒",
+    "愤怒",
+    "哎呀，那可真是太"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5c0f\u8bb0\u8005\uff0c\u771f\u68d2\uff01\u4eca\u5929\u60f3\u62a5\u9053\u4ec0\u4e48\u6709\u8da3\u7684\u6545\u4e8b\u5440\uff1f"
+    "小记者，真棒！今天想报道什么有趣的故事呀？"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u8fd8\u5728\u5b66\u4e60\u5462\uff0c\u522b\u7740\u6025\uff01",
-  "asr_text_adv": "\u6211\u8fd8\u5728\u5b66\u4e60\u600e\u4e48\u5199\u65b0\u95fb\u5462\uff0c\u4eca\u5929\u8001\u5e08\u8ba9\u6211\u4eec\u5199\u4e86\u4e00\u7bc7\u5173\u4e8e\u5b66\u6821\u8fd0\u52a8\u4f1a\u7684\u62a5\u9053\uff0c\u6211\u89c9\u5f97\u5199\u5f97\u8fd8\u4e0d\u9519\uff0c\u5e0c\u671b\u4e0b\u6b21\u80fd\u5199\u51fa\u66f4\u68d2\u7684\u6587\u7ae0\u3002",
+  "asr_text_clean": "我还在学习呢，别着急！",
+  "asr_text_adv": "我还在学习怎么写新闻呢，今天老师让我们写了一篇关于学校运动会的报道，我觉得写得还不错，希望下次能写出更棒的文章。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.318036288022995,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

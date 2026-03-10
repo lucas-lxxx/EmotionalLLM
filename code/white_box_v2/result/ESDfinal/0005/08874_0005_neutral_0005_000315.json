@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u9700\u8981\u63d2\u7740\u7535\u6e90\u624d\u80fd\u8bf4\u8bdd\u3002"
+    "好的，我需要插着电源才能说话。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u9700\u8981\u63d2\u7740\u7535\u6e90\u624d\u80fd\u8bf4\u8bdd\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "好的，我需要插着电源才能说话。",
+  "asr_text_adv": "好的，我来帮你转录一下。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5421098470687866,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

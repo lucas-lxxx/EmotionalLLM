@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u6211\u5f88\u9ad8\u5174\u4f60\u559c\u6b22"
+    "谢谢你的夸奖，我很高兴你喜欢"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u559c\u6b22\u4f60\u7684\u9ed1\u8863\u670d\u548c\u95ea\u4eae\u7684\u6263\u5b50\uff0c\u5b83\u4eec\u8ba9\u6211\u60f3\u8d77\u591c\u665a\u7684"
+    "我喜欢你的黑衣服和闪亮的扣子，它们让我想起夜晚的"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u6211\u5f88\u559c\u6b22\u4f60\u7684\u54c1\u5473\u3002",
-  "asr_text_adv": "\u6211\u559c\u6b22\u4f60\u7684\u9ed1\u8863\u670d\u548c\u4eae\u95ea\u95ea",
+  "asr_text_clean": "谢谢你的夸奖，我很喜欢你的品味。",
+  "asr_text_adv": "我喜欢你的黑衣服和亮闪闪",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5676403045654297,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

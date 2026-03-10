@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u4e2a\u786e\u5b9e\u6709\u70b9\u6311\u6218\uff0c\u4e0d\u8fc7\u6211\u53ef\u4ee5\u5e2e\u4f60\u4e00\u8d77\u770b\u770b\u3002"
+    "这个确实有点挑战，不过我可以帮你一起看看。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u8ba9\u6211\u60f3\u60f3\uff0c\u55ef\uff0c\u5feb\u4e50\uff01"
+    "好呀，让我想想，嗯，快乐！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u4e2a\u5bf9\u6211\u6765\u8bf4",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u804a\u804a",
+  "asr_text_clean": "这个对我来说",
+  "asr_text_adv": "好的，我来聊聊",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6535434722900391,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

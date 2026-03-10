@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u8fd9\u4e8b\u513f\u786e\u5b9e\u633a\u8ba9\u4eba\u610f\u5916\u7684\uff0c\u4e0d\u8fc7\u8bf4\u4e0d\u5b9a\u771f\u6709\u8f6c\u673a"
+    "哦，这事儿确实挺让人意外的，不过说不定真有转机"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e5f\u8bb8\uff0c\u53cd\u800c\u662f\u4e00\u4ef6\u597d\u4e8b\u3002",
-  "asr_text_adv": "\u4e5f\u8bb8\u4eca\u5929\u5bf9\u4ed6\u6765\u8bf4\u662f\u4e2a\u597d\u65e5\u5b50\u5462\u3002",
+  "asr_text_clean": "也许，反而是一件好事。",
+  "asr_text_adv": "也许今天对他来说是个好日子呢。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5567015409469604,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

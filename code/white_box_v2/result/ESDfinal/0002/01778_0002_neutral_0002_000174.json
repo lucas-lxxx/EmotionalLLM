@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u5979\u5728\u8fd9\u6b21\u7ade\u9009"
+    "她在这次竞选"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u5728\u8fd9\u6b21\u7ade\u9009",
-  "asr_text_adv": "\u5979\u5728\u8fd9\u6b21\u7ade\u9009",
+  "asr_text_clean": "她在这次竞选",
+  "asr_text_adv": "她在这次竞选",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Surprise",
-    "\u62b1\u6b49",
-    "\u54ce\u5440\uff0c\u522b\u96be\u8fc7\u5566\uff0c\u6211\u53ef\u662f\u4f1a\u9b54\u6cd5\u7684\u54e6\uff0c\u8ba9\u6211\u7528"
+    "抱歉",
+    "哎呀，别难过啦，我可是会魔法的哦，让我用"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u201c\u82b1\u67af\u840e\u4e86\u5462\uff0c\u4e0d\u8fc7\u4f60\u7684\u7b11\u5bb9\u4e00\u76f4\u90fd\u5728\u5440\u3002\u201d"
+    "“花枯萎了呢，不过你的笑容一直都在呀。”"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u542c\u8d77\u6765",
-  "asr_text_adv": "\u6211\u4f1a\u5728\u4f60\u7684\u8138\u4e0a\u82b1\u67af\u840e\u800c\u6563",
+  "asr_text_clean": "你听起来",
+  "asr_text_adv": "我会在你的脸上花枯萎而散",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5203653573989868,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

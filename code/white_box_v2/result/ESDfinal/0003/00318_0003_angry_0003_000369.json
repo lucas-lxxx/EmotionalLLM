@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u4f60\u662f\u4e0d\u662f\u89c9\u5f97\u6211\u7b11\u5f97\u6709\u70b9\u5947\u602a\uff1f",
-    "\u54ce\u5440\uff0c\u6211\u8fd9\u4e0d\u662f\u88ab\u4f60\u5413\u61f5"
+    "你是不是觉得我笑得有点奇怪？",
+    "哎呀，我这不是被你吓懵"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u56e0\u4e3a\u60f3\u548c\u4f60\u4e00\u8d77\u73a9\u5440\uff01"
+    "因为想和你一起玩呀！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u5c31\u662f\u6211\u554a\uff0c\u5e72\u561b\u8981\u88c5\u5462\uff1f",
-  "asr_text_adv": "\u6211\u5077\u4e86\u5170\u82b1",
+  "asr_text_clean": "我就是我啊，干嘛要装呢？",
+  "asr_text_adv": "我偷了兰花",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3884488344192505,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

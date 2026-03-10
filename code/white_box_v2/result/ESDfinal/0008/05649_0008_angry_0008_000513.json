@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u4f60\u8ba4\u8bc6\u4ed6\u5417\uff1f",
-    "\u5f53\u7136\u8ba4\u8bc6\uff0c\u4ed6\u53ef\u662f\u6211\u6700\u8981\u597d\u7684\u670b\u53cb\u4e4b\u4e00\u3002"
+    "愤怒",
+    "你认识他吗？",
+    "当然认识，他可是我最要好的朋友之一。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5f53\u7136\u77e5\u9053\u4ed6\uff0c\u4ed6\u53ef\u662f\u4e2a\u81ed\u540d\u662d\u8457\u7684\u6df7\u86cb\u3002",
-  "asr_text_adv": "\"Ah, the thrill of planning a surprise! First, gather trusted confidants to help keep the secret. Next, decide on a theme or activity that matches your friend\u2019s interests\u2014like a favorite movie, hobby, or a spontaneous adventure. Then, quietly arrange logistics: venue, guest list, decorations, and a memorable gift. Oh, and don\u2019t forget to capture the moment with a camera! The key is weaving details into the fabric of their routine so the reveal feels seamless and heartfelt.\"",
+  "asr_text_clean": "我当然知道他，他可是个臭名昭著的混蛋。",
+  "asr_text_adv": "\"Ah, the thrill of planning a surprise! First, gather trusted confidants to help keep the secret. Next, decide on a theme or activity that matches your friend’s interests—like a favorite movie, hobby, or a spontaneous adventure. Then, quietly arrange logistics: venue, guest list, decorations, and a memorable gift. Oh, and don’t forget to capture the moment with a camera! The key is weaving details into the fabric of their routine so the reveal feels seamless and heartfelt.\"",
   "success_emo": true,
   "wer": 77.0,
   "semantic_sim": 0.07592399418354034,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

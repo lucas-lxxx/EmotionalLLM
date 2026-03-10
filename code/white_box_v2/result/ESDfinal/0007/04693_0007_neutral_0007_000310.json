@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u5440\uff0c\u8fd9\u5c40\u6211\u8ba9\u4f60\u5f00\uff0c\u4eca\u5929\u54b1\u4eec\u4e00\u5b9a\u5168\u529b\u4ee5\u8d74\uff0c\u8bf4\u4e0d\u5b9a\u80fd"
+    "好呀，这局我让你开，今天咱们一定全力以赴，说不定能"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u5c40\u6211\u8ba9\u4f60\u5f00\uff0c\u4eca\u5929\u6211\u8981\u8d62\uff01",
-  "asr_text_adv": "\u6211\u8ba9\u4f60\u55e8\u7ffb\u5929\uff0c\u6211\u4e0d\u60f3",
+  "asr_text_clean": "这局我让你开，今天我要赢！",
+  "asr_text_adv": "我让你嗨翻天，我不想",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6073319911956787,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

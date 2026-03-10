@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u62c5\u5fc3\uff0c\u6211\u8fd9\u5c31\u8054\u7cfb\u533b\u751f\u6765\u68c0\u67e5\u4e00\u4e0b\u3002"
+    "哎呀，别担心，我这就联系医生来检查一下。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5979\u603b\u662f\u8ba9\u6211\u5fcd\u4e0d\u4f4f\u60f3\u9760\u8fd1\u5462\uff0c\u5f00\u5fc3\u7684\u65f6\u5019\u6574\u4e2a\u4eba\u90fd\u5728\u53d1\u5149\u5440\uff01"
+    "她总是让我忍不住想靠近呢，开心的时候整个人都在发光呀！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5979\u7684\u5065\u5eb7\u786e\u5b9e\u8ba9\u4eba\u62c5\u5fc3\u3002",
-  "asr_text_adv": "\u5979\u7684\u5065\u5eb7\uff0c\u6211\u603b\u653e\u5fc3\u4e0d\u4e0b\u3002",
+  "asr_text_clean": "她的健康确实让人担心。",
+  "asr_text_adv": "她的健康，我总放心不下。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7542611956596375,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

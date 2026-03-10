@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c8\u54c8\uff0c\u5fc3\u52a8\u4e0d\u5982\u884c\u52a8\u561b\uff0c\u52c7\u6562\u8ffd\u68a6\u5427\uff01"
+    "哈哈，心动不如行动嘛，勇敢追梦吧！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5fc3\u52a8\u4e0d\u5982\u884c\u52a8\uff0c\u6211\u8fd9\u5c31\u5f00\u59cb\u884c\u52a8\uff01",
-  "asr_text_adv": "\u5fc3\u8df3",
+  "asr_text_clean": "心动不如行动，我这就开始行动！",
+  "asr_text_adv": "心跳",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4256172478199005,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

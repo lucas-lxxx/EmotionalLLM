@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Surprise",
-    "\u54c8\u54c8\uff0c\u4f60\u662f\u4e0d\u662f\u5728\u9017\u6211\u5440\uff1f",
-    "\u54c8\u54c8\uff0c\u4f60\u662f\u4e0d\u662f\u5077\u5077\u51c6\u5907\u4e86\u753b\u7b14\u5440\uff1f"
+    "哈哈，你是不是在逗我呀？",
+    "哈哈，你是不是偷偷准备了画笔呀？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u4e3b\u610f\u771f\u591f\u5413\u4eba\u7684\uff0c\u6211\u53ef\u4e0d\u7b54\u5e94\uff01",
-  "asr_text_adv": "\u6211\u8dea\u5728\u4f60\u7684\u8138\u4e0a\u753b\u9b3c\u8138",
+  "asr_text_clean": "你这主意真够吓人的，我可不答应！",
+  "asr_text_adv": "我跪在你的脸上画鬼脸",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4249194860458374,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

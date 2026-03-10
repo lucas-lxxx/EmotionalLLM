@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u5bf9\u517b\u82b1\u5df2\u7ecf\u538c\u5026"
+    "你对养花已经厌倦"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u517b\u82b1\u5df2\u7ecf\u517b\u4e86\u4e94\u5e74\u4e86\uff0c\u8fd9\u5468\u5c31\u6b7b\u4e86\u4e09\u76c6\uff0c\u70e6\u6b7b\u4e86\u3002",
-  "asr_text_adv": "\u6211\u5bf9\u4f60\u4ea7\u751f\u4e86\u4f9d\u8d56\uff0c\u8fd9\u79cd\u611f\u89c9\u8ba9\u6211\u5f88\u56f0\u6270\u3002",
+  "asr_text_clean": "我养花已经养了五年了，这周就死了三盆，烦死了。",
+  "asr_text_adv": "我对你产生了依赖，这种感觉让我很困扰。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.255047470331192,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

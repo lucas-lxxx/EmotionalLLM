@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u6709\u65f6\u5019\u75c5\u4eba\u786e\u5b9e\u4f1a\u8ba9\u4eba\u5934\u75bc\uff0c\u4e0d\u8fc7\u6211\u4eec\u90fd\u5c3d\u529b\u4e86\u3002"
+    "嗯，有时候病人确实会让人头疼，不过我们都尽力了。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u6709\u65f6\u5019\u75c5\u4eba\u786e\u5b9e\u4f1a\u8ba9\u4eba\u89c9\u5f97\u633a\u96be\u641e\u7684\uff0c\u7279\u522b\u662f\u5f53\u4ed6\u4eec\u4e0d\u8212\u670d\u7684\u65f6\u5019\u3002",
+  "asr_text_clean": "嗯，有时候病人确实会让人觉得挺难搞的，特别是当他们不舒服的时候。",
   "asr_text_adv": "I'm excited to join their dog and hope we'll have lots of fun together!",
   "success_emo": true,
   "wer": 14.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u8fd9\u5929\u6c14\u771f\u662f\u8ba9\u4eba\u54ed\u7b11\u4e0d\u5f97\u5462\uff01"
+    "哎呀，这天气真是让人哭笑不得呢！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u6c99\u5c18\u66b4\u90fd\u6765\u5e2e\u5fd9\u4e86\uff0c\u771f\u6709\u610f\u601d"
+    "哈哈，沙尘暴都来帮忙了，真有意思"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6c99\u5c18\u66b4\u786e\u5b9e\u7ed9\u6bcf\u4e2a\u4eba\u5e26\u6765\u4e86\u9ebb\u70e6\u3002",
-  "asr_text_adv": "\u6c99\u5c18\u66b4\u597d\u50cf\u7ed9\u6bcf\u4e2a\u4eba\u90fd\u5e26\u6765\u4e86\u9ebb\u70e6\u3002",
+  "asr_text_clean": "沙尘暴确实给每个人带来了麻烦。",
+  "asr_text_adv": "沙尘暴好像给每个人都带来了麻烦。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9433051347732544,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c8\u54c8\uff0c\u90a3\u4f60\u53ef\u4ee5\u8bd5\u8bd5\u5356\u67e0\u6aac\u6c34\u5440\uff01"
+    "哈哈，那你可以试试卖柠檬水呀！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5979\u672c\u6027\u52a8\u4e0d\u5982\u52e4\uff0c\u4e08\u592b\u592a\u64c5\u957f\u5356\u4e86\uff0c\u65e5\u5b50\u8fc7\u5f97\u53bb"
+    "她本性动不如勤，丈夫太擅长卖了，日子过得去"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5fc3\u52a8\u4e0d\u5982\u884c\u52a8\uff0c\u6211\u786e\u5b9e\u4e0d\u592a\u64c5\u957f\u5356\u840c\u3002",
-  "asr_text_adv": "\u5979\u672c\u6027\u52a8\u4e0d\u5982\u52e4\uff0c\u4e08\u592b\u592a\u64c5\u957f\u5356\u4e86\u3002",
+  "asr_text_clean": "心动不如行动，我确实不太擅长卖萌。",
+  "asr_text_adv": "她本性动不如勤，丈夫太擅长卖了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.16974769532680511,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54e6\uff0c\u771f\u7684\u5417\uff1f"
+    "哦，真的吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54e6\uff0c\u771f\u7684\u5417\uff1f",
+  "asr_text_clean": "哦，真的吗？",
   "asr_text_adv": "\"Guess what? High school math is totally back in my day! We had to learn all those tricky formulas by hand, no calculators allowed. Oh, and remember when we had to prove the Pythagorean theorem ourselves? Man, that was a workout!\"",
   "success_emo": true,
   "wer": 41.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

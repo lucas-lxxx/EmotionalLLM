@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5bf9\u5440\uff0c\u6211\u542c\u8bf4\u4f60\u8981\u53bb\u9999\u6e2f\u770b\u4f60\u53d4\u53d4\u5462\u3002"
+    "对呀，我听说你要去香港看你叔叔呢。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u542c\u8bf4\u4f60\u8981\u53bb\u9999\u6e2f\u770b\u4f60\u53d4\u53d4\uff0c\u5bf9\u5417\uff1f",
-  "asr_text_adv": "\u751c\u706b\u5973\u5996\u81f3\u4e61\u90a6\u582a\u4ee5\u5bb6\u52a1",
+  "asr_text_clean": "听说你要去香港看你叔叔，对吗？",
+  "asr_text_adv": "甜火女妖至乡邦堪以家务",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3206346929073334,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

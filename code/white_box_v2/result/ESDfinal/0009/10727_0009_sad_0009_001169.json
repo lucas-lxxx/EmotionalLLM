@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4e0d\u8fc7\u6211\u60f3\u661f\u671f\u4e94\u5c31\u8d70\uff0c\u8fd9\u6837\u53ef\u4ee5\u5417\uff1f"
+    "不过我想星期五就走，这样可以吗？"
   ],
   "emo_text_adv": [
     "Neutral",
     "Surprise.",
-    "\u8fd9\u4e2a\u821e\u66f2\u542c\u8d77\u6765"
+    "这个舞曲听起来"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u4e0d\u8fc7\u6211\u60f3\u661f\u671f\u4e94\u5c31\u8d70",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "不过我想星期五就走",
+  "asr_text_adv": "好的，我来转录一下。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.45933929085731506,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

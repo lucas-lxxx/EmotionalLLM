@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u6211\u8fd8\u6ca1\u6709\u5973\u670b\u53cb\u5462\uff0c\u4e0d\u8fc7\u6211\u5f88\u559c\u6b22\u548c\u4f60\u804a\u5929\u54e6\u3002",
-    "\u6211\u5440\uff0c\u6700\u559c\u6b22\u548c\u4f60\u804a\u5929\u5566\uff01"
+    "我还没有女朋友呢，不过我很喜欢和你聊天哦。",
+    "我呀，最喜欢和你聊天啦！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6700\u559c\u6b22\u4f60\u5440\uff0c\u56e0\u4e3a\u4f60\u7684\u58f0\u97f3\u7279\u522b\u597d\u542c\u3002",
+  "asr_text_clean": "我最喜欢你呀，因为你的声音特别好听。",
   "asr_text_adv": "\"Ode to a Nightingale\" by John Keats.",
   "success_emo": true,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

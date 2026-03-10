@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f"
+    "哇，真的吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u521a\u4ece\u82cf\u683c\u5170\u56de\u6765\uff0c\u90a3\u8fb9\u5929\u6c14\u771f\u51b7\uff0c\u4f60\u5462\uff1f",
-  "asr_text_adv": "\u6211\u521a\u4ece\u5f92\u6b65",
+  "asr_text_clean": "我刚从苏格兰回来，那边天气真冷，你呢？",
+  "asr_text_adv": "我刚从徒步",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4580978751182556,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

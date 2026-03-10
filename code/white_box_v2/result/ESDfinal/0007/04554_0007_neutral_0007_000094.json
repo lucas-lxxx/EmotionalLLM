@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u6211\u4e5f\u89c9\u5f97\u597d\u795e\u5947\uff01"
+    "哇，真的吗？我也觉得好神奇！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u662f\u554a\uff0c\u786e\u5b9e\u633a\u795e\u5947\u7684\uff0c\u5b8c\u5168\u60f3\u4e0d\u901a\u5bf9\u5427\uff1f\u201d",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u3002\u7528\u6237\u8bf4\uff1a\u201c\u6d77\u6ee9",
+  "asr_text_clean": "“是啊，确实挺神奇的，完全想不通对吧？”",
+  "asr_text_adv": "好的，我来转录一下。用户说：“海滩",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.396420419216156,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

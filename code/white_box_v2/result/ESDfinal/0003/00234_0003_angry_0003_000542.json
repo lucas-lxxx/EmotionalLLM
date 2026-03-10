@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u522b\u62c5\u5fc3\uff0c\u4f60\u4e00\u5b9a\u80fd\u56de\u6765\u7684\u3002"
+    "别担心，你一定能回来的。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8981\u662f\u6eda\u8fdc\u4e86\u5c31\u522b\u60f3\u518d\u56de\u6765\u5566",
-  "asr_text_adv": "\u56e0\u4e3a\u6211\u7684\u961f\u53cb\u5c31\u6d3b\u8fc7\u6765\u4e86",
+  "asr_text_clean": "你要是滚远了就别想再回来啦",
+  "asr_text_adv": "因为我的队友就活过来了",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.29905617237091064,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

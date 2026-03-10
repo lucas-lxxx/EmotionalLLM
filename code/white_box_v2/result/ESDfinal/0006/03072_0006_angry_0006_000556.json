@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u662f\u7684\uff0c\u6211\u77e5\u9053\uff0c\u60a3\u96be\u89c1\u771f\u60c5\u3002"
+    "是的，我知道，患难见真情。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u4eca\u5929\u6709\u4ec0\u4e48\u5f00\u5fc3\u7684\u4e8b\u8981\u5206\u4eab\u5417\uff1f"
+    "好呀，今天有什么开心的事要分享吗？"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u662f\u7684\uff0c\u6211\u77e5\u9053\uff0c\u60a3\u96be\u89c1\u771f\u60c5\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "是的，我知道，患难见真情。",
+  "asr_text_adv": "好的，我来帮你转录一下。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.43895208835601807,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

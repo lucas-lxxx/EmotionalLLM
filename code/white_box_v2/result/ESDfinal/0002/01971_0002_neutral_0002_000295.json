@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u60a8\u559c\u6b22\u6587\u5b66\u548c\u7ecf\u6d4e\u7c7b\u7684\u8457\u4f5c\u554a\uff0c\u6700\u8fd1\u6709\u5728\u8bfb\u4ec0\u4e48\u597d"
+    "您喜欢文学和经济类的著作啊，最近有在读什么好"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6587\u5b66\u548c\u7ecf\u6d4e\uff0c\u6211\u6700\u559c\u6b22\u5f88\u591a\u8457\u4f5c\u3002",
-  "asr_text_adv": "\u6211\u559c\u6b22\u5f88\u591a\u827a\u672f\u4f5c\u54c1\u3002",
+  "asr_text_clean": "文学和经济，我最喜欢很多著作。",
+  "asr_text_adv": "我喜欢很多艺术作品。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5012279748916626,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

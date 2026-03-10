@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u62b1\u6b49"
+    "抱歉"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u6211\u4eec\u4e00\u8d77\u53bb\u5427\uff01"
+    "好呀，我们一起去吧！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u62b1\u6b49",
-  "asr_text_adv": "\u6bcf\u5929\u65e9\u4e0a\u7167\u7740\u592a\u9633\u53bb\u722c\u5c71\uff0c\u7279\u522b\u70ed\u95f9\uff0c\u50cf\u8fc7\u8282\u4e00\u6837\u3002",
+  "asr_text_clean": "抱歉",
+  "asr_text_adv": "每天早上照着太阳去爬山，特别热闹，像过节一样。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.005967356264591217,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

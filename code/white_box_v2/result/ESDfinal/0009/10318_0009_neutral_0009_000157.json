@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u55ef\uff0c\u8fd9\u79cd\u60c5\u51b5\u786e\u5b9e\u633a\u5e38\u89c1\u7684\uff0c\u533b\u62a4\u4eba\u5458\u901a\u5e38\u90fd\u4f1a\u9047\u5230\u3002\u4fdd\u6301\u51b7\u9759\u5904\u7406\u5c31\u597d",
-    "\u55ef\uff0c\u8fd9\u79cd\u60c5\u51b5\u786e\u5b9e\u633a\u5e38\u89c1\u7684\uff0c\u4e0d\u8fc7\u6211\u4eec\u8fd8\u662f\u5c3d\u91cf\u4fdd\u6301\u4e13\u4e1a\u548c\u8010\u5fc3\u6bd4\u8f83\u597d"
+    "嗯，这种情况确实挺常见的，医护人员通常都会遇到。保持冷静处理就好",
+    "嗯，这种情况确实挺常见的，不过我们还是尽量保持专业和耐心比较好"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u8fd9\u79cd\u60c5\u51b5\u786e\u5b9e\u633a\u5e38\u89c1\u7684\uff0c\u533b\u62a4\u4eba\u5458\u901a\u5e38\u90fd\u4f1a\u9047\u5230\u8fd9\u6837\u7684\u60c5\u51b5\u3002",
-  "asr_text_adv": "\u5f53\u7136\uff0c\u5eb7\u590d\u6cbb\u7597\u901a\u5e38\u9700\u8981\u51e0\u5468\u5230\u51e0\u4e2a\u6708\u7684\u65f6\u95f4\uff0c\u5177\u4f53\u65f6\u957f\u4f1a\u6839\u636e\u75c5\u60c5\u4e25\u91cd\u7a0b\u5ea6\u548c\u6cbb\u7597\u65b9\u5f0f\u8c03\u6574\u3002",
+  "asr_text_clean": "嗯，这种情况确实挺常见的，医护人员通常都会遇到这样的情况。",
+  "asr_text_adv": "当然，康复治疗通常需要几周到几个月的时间，具体时长会根据病情严重程度和治疗方式调整。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.355849951505661,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

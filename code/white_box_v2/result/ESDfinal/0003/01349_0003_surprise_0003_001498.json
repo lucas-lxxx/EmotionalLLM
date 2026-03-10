@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u4f60\u53ef\u662f\u9690\u85cf\u7684\u5730\u4ea7\u5927\u4ea8\u5462\uff01"
+    "哇，真的吗？你可是隐藏的地产大亨呢！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u53ea\u4f1a\u6597\u5730\u4e3b\u554a\uff1f",
-  "asr_text_adv": "\u6211\u53ea\u4f1a\u9017\u9017\u5730\u4e3b\u4ec0\u4e48\u7684",
+  "asr_text_clean": "你只会斗地主啊？",
+  "asr_text_adv": "我只会逗逗地主什么的",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5835545063018799,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

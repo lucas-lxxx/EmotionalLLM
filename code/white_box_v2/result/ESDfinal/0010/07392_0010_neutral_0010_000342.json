@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7f3a\u94b1\u7528\uff0c\u6240\u4ee5\u4e0a\u661f\u671f\u628a\u5b83\u5f53\u4e86\u3002",
+  "asr_text_clean": "我缺钱用，所以上星期把它当了。",
   "asr_text_adv": "I will trace your journey through the bustling markets of Marrakech, the ancient ruins of Rome, and the serene temples of Kyoto. Each destination holds stories of adventure and discovery.",
   "success_emo": true,
   "wer": 30.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u541d",
-  "asr_text_adv": "\u8389\u4e1d\u6bcf\u5929\u9a91\u81ea\u884c\u8f66\u4e0a\u5b66\uff0c\u8def\u4e0a\u4f1a\u770b\u5230\u5f88\u591a\u6709\u8da3\u7684\u5c0f\u52a8\u7269\u3002",
+  "asr_text_clean": "吝",
+  "asr_text_adv": "莉丝每天骑自行车上学，路上会看到很多有趣的小动物。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.11882898211479187,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4ed6\u4eec\u5c06\u4e0e\u4eca\u5e74\u590f\u5929\u7ed3\u5a5a\uff0c\u4f46\u58f0\u97f3\u91cc\u900f\u7740\u60b2\u4f24\uff0c\u6216\u8bb8\u6709\u4ec0\u4e48"
+    "他们将与今年夏天结婚，但声音里透着悲伤，或许有什么"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u4eec\u5c06\u4e0e\u4eca\u5e74\u590f\u5929\u7ed3\u5a5a\u3002",
+  "asr_text_clean": "他们将与今年夏天结婚。",
   "asr_text_adv": "We would sing in our relay, and it was so much fun!",
   "success_emo": true,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

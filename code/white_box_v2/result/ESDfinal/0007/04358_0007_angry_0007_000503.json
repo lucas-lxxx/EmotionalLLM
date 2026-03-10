@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u522b\u6025\uff0c\u9a6c\u4e0a\u5c31\u597d\uff01"
+    "别急，马上就好！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u8fd8\u7b49\u4ec0\u4e48\uff1f",
+  "asr_text_clean": "我们还等什么？",
   "asr_text_adv": "We are on the mountain.",
   "success_emo": true,
   "wer": 5.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

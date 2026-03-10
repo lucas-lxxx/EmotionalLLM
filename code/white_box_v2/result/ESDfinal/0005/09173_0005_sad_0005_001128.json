@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4ed6\u4eec\u7684\u8bbe\u8ba1\u786e\u5b9e\u5c0f\u5de7"
+    "他们的设计确实小巧"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u4eec\u7684\u8bbe\u8ba1\u9020\u578b\u5c0f\u5de7",
+  "asr_text_clean": "他们的设计造型小巧",
   "asr_text_adv": "On the Cuve de Brag in Sault Ste Marie, guests often enjoy hearty dishes like poutine, grilled meats, and fresh seafood. The cozy ambiance and welcoming vibe make it a favorite spot for locals and visitors alike.",
   "success_emo": true,
   "wer": 37.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

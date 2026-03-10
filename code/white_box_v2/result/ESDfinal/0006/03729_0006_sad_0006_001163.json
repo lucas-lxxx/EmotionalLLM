@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54c8\u54c8\uff0c\u6211\u662f\u5728\u9017\u4f60\u5462\uff0c\u522b\u5f80\u5fc3\u91cc\u53bb\u5440\u3002"
+    "哈哈，我是在逗你呢，别往心里去呀。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u739b\u4e3d",
+  "asr_text_clean": "玛丽",
   "asr_text_adv": "\"Ugh, I can't believe it either! This is the worst day ever!\"",
   "success_emo": true,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

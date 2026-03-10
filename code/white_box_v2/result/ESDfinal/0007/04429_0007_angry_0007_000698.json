@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8c22\u8c22\u4f60\u7684\u8d5e\u7f8e"
+    "谢谢你的赞美"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u559c\u6b22\u4f60\u7684\u9ed1\u8863\u670d\uff0c\u8fd8\u6709\u4f60\u7684\u5c16\u7259\u771f\u9177\u3002",
-  "asr_text_adv": "\u6211\u559c\u6b22\u53c8\u5728\u914d\u8863\u670d\uff0c\u53c8\u5728\u624e\u53e3\u888b\u3002",
+  "asr_text_clean": "我喜欢你的黑衣服，还有你的尖牙真酷。",
+  "asr_text_adv": "我喜欢又在配衣服，又在扎口袋。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4738781452178955,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

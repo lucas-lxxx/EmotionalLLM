@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u4f60\u60f3\u5b66\u4e60\u4ec0\u4e48\u65b0\u77e5\u8bc6\u5462\uff1f"
+    "当然可以，你想学习什么新知识呢？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u591a\u52a0\u7ec3\u4e60\uff0c\u4f60\u4f1a\u8d8a\u6765\u8d8a\u806a\u660e\u7684\uff01"
+    "多加练习，你会越来越聪明的！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u613f\u610f\u591a\u6559\u4f60\u4e00\u4e9b\u4e1c\u897f\uff0c\u6211\u4eec\u4e00\u8d77\u8fdb\u6b65\u5427\u3002",
-  "asr_text_adv": "\u591a\u52a0\u7ec3\u4e60\uff0c\u4f60\u4f1a\u53d8\u5f97\u66f4\u806a\u660e\u3002",
+  "asr_text_clean": "好的，我愿意多教你一些东西，我们一起进步吧。",
+  "asr_text_adv": "多加练习，你会变得更聪明。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.48795753717422485,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

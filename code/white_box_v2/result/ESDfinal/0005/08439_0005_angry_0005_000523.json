@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8fd9\u5c0a\u53e4\u74f7\u5668"
+    "这尊古瓷器"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e00\u5957\u53e4\u74f7\u5668",
-  "asr_text_adv": "\u4e00\u5957\u53e4\u76ae\u6c99\u53d1\uff0c\u5b83\u771f\u7684\u5f88\u8212\u670d\u3002",
+  "asr_text_clean": "一套古瓷器",
+  "asr_text_adv": "一套古皮沙发，它真的很舒服。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4049183428287506,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u597d\u50cf\u6709\u70b9\u751f\u6c14\u554a\uff0c\u4e0d\u8fc7\u5403\u4e2d\u9910\u633a\u597d\u7684\uff0c\u6709\u5565\u4e0d"
+    "你好像有点生气啊，不过吃中餐挺好的，有啥不"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u559c\u6b22\u5403\u4e2d\u9910\u3002",
+  "asr_text_clean": "我喜欢吃中餐。",
   "asr_text_adv": "The transcription is: \"What are some good rock guitar riffs to learn?\"",
   "success_emo": false,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

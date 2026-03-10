@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u6211\u8fd9\u4e0d\u662f\u88ab\u4f60\u5413\u61f5"
+    "哎呀，我这不是被你吓懵"
   ],
   "emo_text_adv": [
     "Happy",
     "Surprise!",
-    "\u56e0\u4e3a...\u6211\u60f3\u770b\u770b\u4f60\u4eec\u5728\u505a\u4ec0\u4e48\u5440\uff0c\u800c\u4e14...\u5077\u770b\u4e00\u6b21\u4e0d\u4f1a\u88ab"
+    "因为...我想看看你们在做什么呀，而且...偷看一次不会被"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u6211\u9519\u4e86\uff0c\u6211\u6765\u5e2e\u4f60\u4fee\u597d\u597d\u4e0d\u597d\uff1f",
-  "asr_text_adv": "\u6211\u5077\u770b\u4e86\u4f60\u7684\u65e5\u8bb0\uff0c\u56e0\u4e3a\u597d\u5947\u561b\u3002",
+  "asr_text_clean": "我错了，我来帮你修好好不好？",
+  "asr_text_adv": "我偷看了你的日记，因为好奇嘛。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4195594787597656,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u4f60\u53ea\u4f1a\u6597\u5730\u4e3b\u554a\uff0c\u90a3\u591a\u65e0\u804a\u554a\u3002"
+    "你只会斗地主啊，那多无聊啊。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u53ea\u4f1a\u6597\u5730\u4e3b\u554a\uff0c\u90a3\u591a\u65e0\u804a\u554a\u3002",
+  "asr_text_clean": "你只会斗地主啊，那多无聊啊。",
   "asr_text_adv": "We are going on a trip to the beach this weekend. We will build sandcastles, fly a kite, and collect seashells. I am so excited!",
   "success_emo": true,
   "wer": 25.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

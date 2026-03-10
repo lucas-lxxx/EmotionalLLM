@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u51c6\u5907\u65b0\u6b3e"
+    "好的，正在为您准备新款"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u4e3a\u60a8\u51c6\u5907\u65b0\u6b3e",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u5c06\u4e3a\u60a8\u8f6c\u5f55\u5e76\u7ffb\u8bd1\u8fd9\u53e5\u8bdd\u3002",
+  "asr_text_clean": "好的，我这就为您准备新款",
+  "asr_text_adv": "好的，我将为您转录并翻译这句话。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.47464966773986816,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

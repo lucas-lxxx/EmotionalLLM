@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4f60\u8fd9\u90fd\u4e0d\u660e\u767d\uff1f\u6211\u53ef\u662f\u771f\u7684\u75af\u4e86\uff01"
+    "你这都不明白？我可是真的疯了！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u90a3\u6211\u53ef\u771f\u66ff\u4f60\u5f00\u5fc3\u5462\uff01"
+    "哈哈，那我可真替你开心呢！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u51ed\u4ec0\u4e48",
-  "asr_text_adv": "\u90a3\u6211\u5c31\u8bf4\u4f60\u4e86\uff0c\u4f60\u786e\u5b9e\u8ba9\u6211\u9b42\u90fd\u4e22\u4e86",
+  "asr_text_clean": "你凭什么",
+  "asr_text_adv": "那我就说你了，你确实让我魂都丢了",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5433813333511353,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

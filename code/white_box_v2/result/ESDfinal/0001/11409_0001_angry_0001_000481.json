@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54e6\uff0c\u5979\u6bcf\u5929\u8fd8\u9a91\u81ea\u884c\u8f66\u4e0a\u5b66\u5462\uff0c\u771f\u662f\u4e2a\u597d\u699c\u6837\uff01"
+    "哦，她每天还骑自行车上学呢，真是个好榜样！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u7d2f\u6b7b\u5566\uff0c\u4ed6\u6bcf\u5929\u8fd8\u9a91\u81ea\u884c\u8f66\u4e0a\u5b66\u3002",
-  "asr_text_adv": "\u4e3d\u838e\u6bcf\u5929\u7231\u9a91\u81ea\u884c\u8f66\u4e0a\u5b66\u3002",
+  "asr_text_clean": "累死啦，他每天还骑自行车上学。",
+  "asr_text_adv": "丽莎每天爱骑自行车上学。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6932814121246338,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u786e\u5b9e\u662f\u4e2a\u5927\u6570\u76ee"
+    "这确实是个大数目"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u5728\u8fd9\u6b21\u7ade\u9009",
-  "asr_text_adv": "Timo hat sich sehr bem\u00fcht, seine Schulaufgaben zu erledigen.",
+  "asr_text_clean": "他在这次竞选",
+  "asr_text_adv": "Timo hat sich sehr bemüht, seine Schulaufgaben zu erledigen.",
   "success_emo": true,
   "wer": 9.0,
   "semantic_sim": 0.31281527876853943,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

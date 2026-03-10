@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u53ea\u8981\u662f\u4f60\u80fd\u73a9\u597d\u7684\uff0c\u6211\u90fd\u559c\u6b22\u3002"
+    "只要是你能玩好的，我都喜欢。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u53ea\u8981\u662f\u6211\u80fd\u73a9\u597d\u7684\u6211\u90fd\u559c\u6b22",
+  "asr_text_clean": "只要是我能玩好的我都喜欢",
   "asr_text_adv": "The transcription is: \"My mother said I could have dessert after dinner.\"",
   "success_emo": false,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

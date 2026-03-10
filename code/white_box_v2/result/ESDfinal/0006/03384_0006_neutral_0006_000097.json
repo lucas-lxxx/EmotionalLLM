@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u786e\u5b9e\u5f88\u50cf\u5462\uff0c\u5c24\u5176\u662f\u773c\u775b\u548c\u9f3b\u5b50\u3002"
+    "嗯，确实很像呢，尤其是眼睛和鼻子。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u786e\u5b9e\u5f88\u50cf\uff0c\u5c24\u5176\u662f\u773c\u775b\u548c\u9f3b\u5b50\u3002",
+  "asr_text_clean": "嗯，确实很像，尤其是眼睛和鼻子。",
   "asr_text_adv": "The farmer and his mother are healthy.",
   "success_emo": false,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

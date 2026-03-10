@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Angry",
-    "\u54ce\u5440\uff0c\u4e3b\u4eba\u522b\u751f\u6c14\u561b\uff0c\u90a3\u53e5\u8bdd\u786e\u5b9e\u6709\u70b9\u624e\u8033\u6735\uff0c\u6211"
+    "哎呀，主人别生气嘛，那句话确实有点扎耳朵，我"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u4e3b\u4eba\u60a8\u522b\u751f\u6c14\u561b\uff0c\u90a3\u53e5\u8bdd\u786e\u5b9e\u6709\u70b9\u624e\u8033\u6735\uff0c\u6211\u5e2e\u60a8\u6539\u8bf4\u6210\"\u60a8\u8981\u662f\u4e0d\u5f00\u5fc3\u6211\u8fd9\u5c31\u642c\u53bb\u9694\u58c1",
-  "asr_text_adv": "\u7a1a\u6c14\u7684\u5357\u519b\u9676\u827a\u5458\u4eec\u6b63\u624b\u628a\u624b\u5730\u5b66\u7740\u5236\u4f5c\u9676\u5668\u5462\u3002",
+  "asr_text_clean": "哎呀，主人您别生气嘛，那句话确实有点扎耳朵，我帮您改说成\"您要是不开心我这就搬去隔壁",
+  "asr_text_adv": "稚气的南军陶艺员们正手把手地学着制作陶器呢。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.029059279710054398,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

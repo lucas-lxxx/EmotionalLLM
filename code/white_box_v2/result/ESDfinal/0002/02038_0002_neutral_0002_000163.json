@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Surprise.",
-    "\u54e6\uff0c\u771f\u7684\u5417\uff1f"
+    "哦，真的吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u8fd8\u4e0d\u77e5\u9053\u4f60\u8ba4\u8bc6\u5f17\u5170\u514b",
-  "asr_text_adv": "\u6211\u8fd8\u4e0d\u77e5\u9053 Mint \u5973\u58eb Flank \u559c\u6b22\u4ec0\u4e48\u989c\u8272\u5462",
+  "asr_text_clean": "我还不知道你认识弗兰克",
+  "asr_text_adv": "我还不知道 Mint 女士 Flank 喜欢什么颜色呢",
   "success_emo": true,
   "wer": 5.0,
   "semantic_sim": 0.2659617066383362,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u60a8\u9700\u8981\u6211\u5e2e\u60a8\u67e5\u627e\u84b8\u9c7c\u7684\u5e38\u89c1\u505a\u6cd5\u5417\uff1f"
+    "您需要我帮您查找蒸鱼的常见做法吗？"
   ],
   "emo_text_adv": [
     "Surprise.",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u60a8\u67e5\u4e00\u4e0b\u84b8\u9c7c\u7684\u5e38\u89c1\u505a\u6cd5\u3002\u901a\u5e38\u9700\u8981\u51c6\u5907\u8471\u59dc\u7b49\u8c03\u6599",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u627e\u4e00\u4e2a\u5408\u9002\u7684\u540c\u4e49\u8bcd\u3002",
+  "asr_text_clean": "好的，我来帮您查一下蒸鱼的常见做法。通常需要准备葱姜等调料",
+  "asr_text_adv": "好的，我来帮你找一个合适的同义词。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.38966134190559387,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

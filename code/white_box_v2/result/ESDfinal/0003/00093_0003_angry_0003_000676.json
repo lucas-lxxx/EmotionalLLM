@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry.",
-    "\u54c8\u54c8\uff0c\u54ea\u5929\u80fd\u8bb2\u5b8c\u5440\uff0c\u8fd8\u6709\u597d\u591a\u5462\uff01"
+    "哈哈，哪天能讲完呀，还有好多呢！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u706b\u6c14\u8fd9\u4e48\u5927\uff0c\u6211\u53ef\u4e0d\u6562\u4fdd\u8bc1\u7b11\u8bdd\u80fd\u8bb2\u5b8c\u534a\u53e5\u554a\uff01",
+  "asr_text_clean": "你这火气这么大，我可不敢保证笑话能讲完半句啊！",
   "asr_text_adv": "You tell so many jokes every day!",
   "success_emo": true,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

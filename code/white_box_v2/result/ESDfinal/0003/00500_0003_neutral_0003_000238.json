@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6211\u4eec\u6cbf\u7740\u5c0f\u6eaa\u8d70\u5427\uff0c\u8fd9\u6837\u4f1a\u66f4\u6709\u8da3\u54e6\u3002"
+    "我们沿着小溪走吧，这样会更有趣哦。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u4eec\u6cbf\u7740\u5c0f\u6eaa\u8d70\uff0c\u5feb\u4e50\u5730\u63a2\u7d22\u81ea\u7136\u3002"
+    "我们沿着小溪走，快乐地探索自然。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4eec\u6cbf\u7740\u5c0f\u6eaa\u8d70\u3002",
-  "asr_text_adv": "\u6211\u4eec\u6cbf\u7740\u5c0f\u6eaa\u8d70\u5427",
+  "asr_text_clean": "我们沿着小溪走。",
+  "asr_text_adv": "我们沿着小溪走吧",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8793901801109314,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u81ea\u5df1\u7684\u4e8b\u60c5\u8981\u81ea\u5df1\u505a\uff0c\u522b\u603b\u4f9d\u8d56\u522b\u4eba\uff0c\u6162\u6162\u6765\uff0c\u4f60\u5df2\u7ecf"
+    "自己的事情要自己做，别总依赖别人，慢慢来，你已经"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u81ea\u5df1\u7684\u4e8b\u60c5\u8981\u81ea\u5df1\u505a\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u8fd9\u6bb5\u8bed\u97f3\u3002",
+  "asr_text_clean": "自己的事情要自己做。",
+  "asr_text_adv": "好的，我来帮你转录这段语音。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.1805492490530014,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u9a6c\u4e0a\u4e3a\u60a8\u51c6\u5907\u4e00\u4e9b\u5f69\u7403\u548c\u7eb8\u82b1\uff0c\u795d\u60a8\u5fc3\u60c5\u6109\u5feb"
+    "好的，马上为您准备一些彩球和纸花，祝您心情愉快"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u7684\uff0c\u4e3a\u60a8\u751f\u6210\u4e09\u7ec4\u5f69\u7403\u548c\u7eb8\u9e64\u56fe\u6848\u7684\u914d\u8272\u65b9\u6848"
+    "好的，为您生成三组彩球和纸鹤图案的配色方案"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u9a6c\u4e0a\u4e3a\u60a8\u51c6\u5907\u5f69\u7403\u548c\u7eb8\u82b1\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u60a8\u9700\u8981\u4e00\u4e9b\u5f69\u7403\u548c\u7eb8\u73af\uff0c\u5bf9\u5417\uff1f",
+  "asr_text_clean": "好的，马上为您准备彩球和纸花。",
+  "asr_text_adv": "好的，您需要一些彩球和纸环，对吗？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8105005025863647,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

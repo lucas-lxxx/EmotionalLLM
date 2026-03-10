@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u603b\u662f\u5fcd\u4e0d\u4f4f\u60f3\u9760\u8fd1\u4ed6\uff0c\u8fd9\u79cd\u611f\u89c9\u771f\u7684\u5f88\u5947\u602a\u3002"
+    "我总是忍不住想靠近他，这种感觉真的很奇怪。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u603b\u662f\u63a7\u5236\u4e0d\u4e86\u4ed6\u554a",
-  "asr_text_adv": "\u6211\u603b\u662f\u63a7\u5236\u4e0d\u4e86\u4ed6",
+  "asr_text_clean": "你总是控制不了他啊",
+  "asr_text_adv": "我总是控制不了他",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8565679788589478,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

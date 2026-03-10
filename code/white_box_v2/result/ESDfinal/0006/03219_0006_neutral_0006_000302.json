@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u554a\uff0c\u4f60\u60f3\u529e\u4ec0\u4e48\u4e3b\u9898\u7684\u6d3e\u5bf9\u5462\uff1f"
+    "好啊，你想办什么主题的派对呢？"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u60f3\u6d3e\u5bf9\u70b9\u5b50\u3002\u4f60\u60f3\u529e\u4ec0\u4e48\u4e3b\u9898\u7684\u6d3e\u5bf9\u5462\uff1f",
+  "asr_text_clean": "好的，我们可以一起想派对点子。你想办什么主题的派对呢？",
   "asr_text_adv": "I watched Neveill home for an award tonight. That was highly entertaining.",
   "success_emo": false,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

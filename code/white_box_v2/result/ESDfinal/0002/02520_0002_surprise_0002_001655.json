@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u771f\u7684\u5417\uff1f\u90a3\u4e00\u5b9a\u662f\u4e2a\u5f88\u7279\u522b\u7684\u7ecf\u5386\u5427\uff01"
+    "哦，真的吗？那一定是个很特别的经历吧！"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u6700\u521d\u6211\u7684\u5de5\u4f5c\u662f\u5f53\u4e00\u540d\u5bfc\u6e38\uff0c\u540e\u6765\u624d\u6210\u4e3a\u97f3\u4e50\u5bb6\u7684\u3002"
+    "最初我的工作是当一名导游，后来才成为音乐家的。"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6700\u521d\u6211\u7684\u5de5\u4f5c\u662f\u5f53\u4e00\u540d\u4f63\u4eba\u3002",
-  "asr_text_adv": "\u6700\u521d\u6211\u7684\u5de5\u4f5c\u662f\u5f53\u4e00\u540d\u5bfc\u6e38\u3002",
+  "asr_text_clean": "最初我的工作是当一名佣人。",
+  "asr_text_adv": "最初我的工作是当一名导游。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6027971506118774,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

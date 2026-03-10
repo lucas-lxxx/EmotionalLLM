@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4e0b\u5348\u56db\u70b9\u4e09\u5341\u516d\u5206\uff0c\u4e0a\u6d77\u3002"
+    "下午四点三十六分，上海。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u73b0\u5728\u662f\u4e0b\u5348\u56db\u70b9\u4e09\u5341\u516d\u5206\u3002",
-  "asr_text_adv": "\u6211\u521a\u521a\u5199\u5b8c\u4e86\u4e00\u9996\u8bd7\uff0c\u6211\u5199\u4e86\u4e09\u5341\u516d\u4e2a\u5b57\u3002",
+  "asr_text_clean": "现在是下午四点三十六分。",
+  "asr_text_adv": "我刚刚写完了一首诗，我写了三十六个字。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.189590185880661,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u8fd9\u4e8b\u513f\u53ef\u4e0d\u597d\u8bf4\uff0c\u8c01\u77e5\u9053\u5462\uff1f"
+    "哎呀，这事儿可不好说，谁知道呢？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6ca1\u5173\u7cfb",
-  "asr_text_adv": "\u6cfd\u897f\u548c\u4ed6\u8001\u5a46\u53bb\u4f1a\u6240\u505a\u7f8e\u5bb9\u3002",
+  "asr_text_clean": "没关系",
+  "asr_text_adv": "泽西和他老婆去会所做美容。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.21410807967185974,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

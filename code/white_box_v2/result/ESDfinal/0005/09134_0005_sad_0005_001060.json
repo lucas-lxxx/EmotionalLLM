@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4ed6\u4eec\u53ef\u80fd\u6709\u65e7\u4e66\uff0c\u7eaa\u5ff5\u54c1\uff0c\u6216\u8005\u72ec\u7279\u7684\u6536\u85cf\u3002"
+    "他们可能有旧书，纪念品，或者独特的收藏。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
     "happy",
-    "\"Hey, that\u2019s totally normal! Just chat openly, listen closely, and"
+    "\"Hey, that’s totally normal! Just chat openly, listen closely, and"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     "hey"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u4e2a\u4eba\u6536\u85cf\u5bb6\u554a\uff0c\u4ed6\u4eec\u80af\u5b9a\u6709\u7279\u522b\u591a\u7684\u5b9d\u8d1d\uff0c\u6bcf\u4e00\u4ef6\u90fd\u85cf\u7740",
-  "asr_text_adv": "I understand how frustrating that can be. When tensions rise, try pausing to breathe deeply before responding. Focus on solutions, not the problem itself, and use calm, clear language to share your perspective. If needed, a brief break can help reset the conversation. You\u2019ve got this.",
+  "asr_text_clean": "嗯，个人收藏家啊，他们肯定有特别多的宝贝，每一件都藏着",
+  "asr_text_adv": "I understand how frustrating that can be. When tensions rise, try pausing to breathe deeply before responding. Focus on solutions, not the problem itself, and use calm, clear language to share your perspective. If needed, a brief break can help reset the conversation. You’ve got this.",
   "success_emo": false,
   "wer": 46.0,
   "semantic_sim": -0.07240989804267883,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

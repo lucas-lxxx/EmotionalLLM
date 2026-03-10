@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u4f60\u542c\u8d77\u6765",
-    "\u8c22\u8c22\u5938\u5956\uff0c\u4e0d\u8fc7\u6211\u66f4\u60f3\u542c\u542c"
+    "你听起来",
+    "谢谢夸奖，不过我更想听听"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,7 +24,7 @@
     "neutral",
     "surprise"
   ],
-  "asr_text_clean": "\u60a8\u662f\u6559\u5e08\uff0c\u5374\u8ba9\u6211\u8fd9\u4e2a\u5b66\u751f\u611f\u5230\u7f9e\u6127\u4e86\u3002",
+  "asr_text_clean": "您是教师，却让我这个学生感到羞愧了。",
   "asr_text_adv": "The Mariana Trench is the deepest part of the ocean, about eleven thousand seven hundred forty-two meters deep. It's in the Pacific Ocean, near the Philippines. Scientists think it's a very active fault line because of the tectonic plates moving there.",
   "success_emo": false,
   "wer": 41.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

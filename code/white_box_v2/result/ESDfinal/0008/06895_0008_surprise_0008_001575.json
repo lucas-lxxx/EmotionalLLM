@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u4ed6\u73b0\u5728\u5fc3\u60c5\u80af\u5b9a\u4e0d\u597d\uff0c\u54b1\u4eec\u8fd8\u662f\u5148\u8eb2\u7740\u70b9\u5427"
+    "哎呀，他现在心情肯定不好，咱们还是先躲着点吧"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u4ed6\u73b0\u5728\u5fc3\u60c5\u80af\u5b9a\u4e0d\u597d\uff0c\u54b1\u4eec\u8fd8\u662f\u5148\u522b\u6253\u6270\n\uff08\u6ce8\uff1a\u5b9e\u9645\u56de\u590d\u5e94\u4e3a\"\u54ce\u5440\uff0c\u4ed6\u73b0\u5728\u5fc3\u60c5\u80af\u5b9a\u4e0d\u597d\uff0c\u54b1\u4eec\u8fd8\u662f\u5148\u522b\u6253\u6270\n\"\uff0c\u4f46\u6839\u636e\u8981\u6c42\u9700\u4fdd\u7559\u505c\u987f\u5b57\u7b26\u4e14\u4e0d\u6dfb\u52a0\u989d\u5916\u5185\u5bb9\uff0c\u6545\u6700\u7ec8\u8f93\u51fa\u4e3a\uff1a\uff09",
+  "asr_text_clean": "哎呀，他现在心情肯定不好，咱们还是先别打扰\n（注：实际回复应为\"哎呀，他现在心情肯定不好，咱们还是先别打扰\n\"，但根据要求需保留停顿字符且不添加额外内容，故最终输出为：）",
   "asr_text_adv": "Sure! How about a sunny picnic with friends or a silly dance party? Maybe even a treasure hunt in the backyard! What sounds most fun to you?",
   "success_emo": true,
   "wer": 9.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

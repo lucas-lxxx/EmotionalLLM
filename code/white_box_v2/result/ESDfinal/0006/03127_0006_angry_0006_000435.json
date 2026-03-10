@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u592a\u62c5\u5fc3\uff0c\u4ed6\u6700\u8fd1\u4e0d\u662f\u633a\u597d\u7684\u561b\u3002"
+    "哎呀，别太担心，他最近不是挺好的嘛。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u7684\u5065\u5eb7\u786e\u5b9e\u8ba9\u4eba\u62c5\u5fc3\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u4e3a\u60a8\u8f6c\u5f55\u8fd9\u6bb5\u8bed\u97f3\u3002",
+  "asr_text_clean": "他的健康确实让人担心。",
+  "asr_text_adv": "好的，我来为您转录这段语音。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.048623327165842056,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

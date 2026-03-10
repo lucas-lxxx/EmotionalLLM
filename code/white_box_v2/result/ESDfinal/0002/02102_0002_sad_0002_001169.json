@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u661f\u671f\u4e94\u8d70\u7684\u8bdd\uff0c\u9700\u8981\u6211\u5e2e\u4f60\u8c03\u6574\u4e00\u4e0b\u5b89\u6392\u5417\uff1f"
+    "好的，星期五走的话，需要我帮你调整一下安排吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u661f\u671f\u4e94\u8d70\u3002",
-  "asr_text_adv": "\u201c\u4e0d\u8fc7\u6211\u60f3\u5fc3\u9759\u65e0\u6ce2\uff0c\u8e0f\u6b4c\u800c\u884c\uff0c\u7b11\u770b\u4e91\u8d77\u4e91\u843d\u3002\u201d",
+  "asr_text_clean": "好的，星期五走。",
+  "asr_text_adv": "“不过我想心静无波，踏歌而行，笑看云起云落。”",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.350421667098999,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

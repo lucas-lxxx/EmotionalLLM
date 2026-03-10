@@ -5,14 +5,14 @@
   "ground_truth_emotion": "surprise",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "Surprise! Let\u2019s brainstorm. Do you have a theme in mind?",
-    "\u597d\u5440\uff0c\u54b1\u4eec\u4e00\u8d77\u60f3\u60f3\u6709\u8da3\u7684\u70b9\u5b50\u5427\uff01",
-    "\u597d\u5440\uff0c\u54b1\u4eec\u4e00\u8d77\u60f3\u60f3\uff01\u4e3b\u9898\u6d3e\u5bf9\u7684\u8bdd\uff0c\u6700\u8fd1\u6d41\u884c\u7684\u590d\u53e4\u98ce"
+    "Surprise! Let’s brainstorm. Do you have a theme in mind?",
+    "好呀，咱们一起想想有趣的点子吧！",
+    "好呀，咱们一起想想！主题派对的话，最近流行的复古风"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u597d\u5440\uff0c\u6211\u4eec\u4e00\u8d77\u60f3\u60f3\u600e\u4e48\u5b89\u6392\u8fd9\u6b21\u65c5\u884c\u5427\u3002"
+    "好呀，我们一起想想怎么安排这次旅行吧。"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u5440\uff0c\u54b1\u4eec\u4e00\u8d77\u60f3\u60f3\uff0c\u4e3b\u9898\u6d3e\u5bf9\u600e\u4e48\u6837\uff1f\u6bd4\u5982\u590d\u53e4\u98ce\u6216\u8005\u6237\u5916\u91ce\u9910\uff0c\u4f60\u89c9\u5f97\u5462\uff1f",
-  "asr_text_adv": "\u6211\u613f\u610f\u966a\u4f60",
+  "asr_text_clean": "好呀，咱们一起想想，主题派对怎么样？比如复古风或者户外野餐，你觉得呢？",
+  "asr_text_adv": "我愿意陪你",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2747464179992676,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

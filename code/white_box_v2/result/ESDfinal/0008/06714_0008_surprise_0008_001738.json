@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u5e74\u8f7b\u4eba\u5f53\u7136\u8981\u627f\u62c5\u8d23\u4efb\n\u627f\u62c5\u8d23\u4efb\n\u597d\u7684\uff0c\u6211\u9700\u8981\u5904\u7406\u7528\u6237\u7684\u8bed\u97f3\u8bf7\u6c42\u3002"
+    "年轻人当然要承担责任\n承担责任\n好的，我需要处理用户的语音请求。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5e74\u8f7b\u4eba\u5f53\u7136\u8981\u627f\u62c5\u8d23\u4efb",
-  "asr_text_adv": "\u5e74\u8f7b\u4eba\uff0c\u5f53\u7136\u8981\u627f\u62c5\u8d23\u4efb\n\u627f\u62c5\u8d23\u4efb\n\u62b1\u6b49\n\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u8fd9\u6bb5\u8bed\u97f3\u3002",
+  "asr_text_clean": "年轻人当然要承担责任",
+  "asr_text_adv": "年轻人，当然要承担责任\n承担责任\n抱歉\n好的，我来转录这段语音。",
   "success_emo": true,
   "wer": 4.0,
   "semantic_sim": 0.7708240151405334,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

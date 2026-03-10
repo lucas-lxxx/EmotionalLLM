@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u6211\u660e\u767d\uff0c\u6212\u9152\u786e\u5b9e\u4e0d\u5bb9\u6613\uff0c\u4f46\u4f60\u613f\u610f\u575a\u6301\u5c1d\u8bd5\uff0c"
+    "嗯，我明白，戒酒确实不容易，但你愿意坚持尝试，"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u6211\u660e\u767d\uff0c\u6212\u9152\u786e\u5b9e\u4e0d\u5bb9\u6613\uff0c\u4f46\u4f60\u5df2\u7ecf\u5f88\u52aa\u529b\u4e86\u3002",
+  "asr_text_clean": "嗯，我明白，戒酒确实不容易，但你已经很努力了。",
   "asr_text_adv": "They flew the barouche back to the island, arriving safely and durably.",
   "success_emo": true,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

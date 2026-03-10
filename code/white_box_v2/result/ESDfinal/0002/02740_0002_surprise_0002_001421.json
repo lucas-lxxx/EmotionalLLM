@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\"\u54c7\uff0c\u771f\u7684\u5417\uff1f\u6211\u5df2\u7ecf\u64ad\u5230\u4e86\u6700\u540e\u4e00\u4e2a",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u770b\u770b\u3002",
+  "asr_text_clean": "\"哇，真的吗？我已经播到了最后一个",
+  "asr_text_adv": "好的，我来帮你看看。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.40784794092178345,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

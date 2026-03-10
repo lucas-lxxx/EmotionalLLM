@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u6cd5\u56fd\u5357\u90e8\u786e\u5b9e\u7ecf\u5e38\u9633\u5149\u660e\u5a9a"
+    "法国南部确实经常阳光明媚"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5728\u6cd5\u56fd\u5357\u90e8\uff0c\u590f\u5b63\u786e\u5b9e\u7ecf\u5e38\u708e\u70ed",
-  "asr_text_adv": "\u6cd5\u5b98\u53f0\u7684\u6728\u5c4b\uff0c\u6bcf\u5e74\u79cb\u5929\u90fd\u5f88\u6f02\u4eae\u3002",
+  "asr_text_clean": "在法国南部，夏季确实经常炎热",
+  "asr_text_adv": "法官台的木屋，每年秋天都很漂亮。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.21641308069229126,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

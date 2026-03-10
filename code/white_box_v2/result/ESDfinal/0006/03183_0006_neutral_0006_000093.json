@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u518d\u52a0\u4e9b\u9e21\u8089"
+    "好的，再加些鸡肉"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u518d\u52a0\u4e9b\u9e21\u8089",
+  "asr_text_clean": "好的，再加些鸡肉",
   "asr_text_adv": "\"Hope we're in a pretty good mood after this.\"",
   "success_emo": true,
   "wer": 9.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

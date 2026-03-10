@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u5440\uff0c\u518d\u591a\u5403\u70b9\u9e21\u8089"
+    "好呀，再多吃点鸡肉"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u8f6c\u5f55\u8bed\u97f3\u5185\u5bb9\u3002",
+  "asr_text_clean": "好的，已为您转录语音内容。",
   "asr_text_adv": "\"Brilliant minds thrive on curiosity and determination. They turn challenges into opportunities, shaping the future with creativity and resilience.\"",
   "success_emo": true,
   "wer": 19.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

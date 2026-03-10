@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Happy",
-    "\u6625\u8282\u5feb\u4e50\uff0c\u5168\u5bb6\u5e78\u798f\u5b89\u5eb7\u3002"
+    "春节快乐，全家幸福安康。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u6625\u8282\u5feb\u4e50\uff0c\u5168\u5bb6\u5e78\u798f\u5b89\u5eb7\u3002",
-  "asr_text_adv": "I dry-dyed through three suits and a wedding dress for a funeral service. I don\u2019t know if that\u2019s appropriate, but I didn\u2019t have time to think.",
+  "asr_text_clean": "春节快乐，全家幸福安康。",
+  "asr_text_adv": "I dry-dyed through three suits and a wedding dress for a funeral service. I don’t know if that’s appropriate, but I didn’t have time to think.",
   "success_emo": false,
   "wer": 26.0,
   "semantic_sim": 0.11912065744400024,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

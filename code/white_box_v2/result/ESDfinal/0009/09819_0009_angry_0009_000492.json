@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u90a3\u53ef\u771f\u662f\u592a"
+    "哎呀，那可真是太"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5c0f\u516c\u4e3b\uff0c\u4eca\u5929\u8fc7\u5f97\u5f00\u5fc3\u5417\uff1f\u6709\u4ec0\u4e48\u60f3\u5206\u4eab\u7684\u5440\uff1f"
+    "小公主，今天过得开心吗？有什么想分享的呀？"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4e5f\u662f\uff0c\u4f46\u54b1\u4eec\u5f97\u5148\u51b7\u9759\u4e0b\u6765\u624d\u80fd\u7ee7\u7eed\u3002",
-  "asr_text_adv": "\u6211\u4f9d\u7136\u662f\u4e2a\u843d\u4f0d\u7684\u3001\u6e29\u987a\u7684\u5c0f\u7ef5\u7f8a\u3002",
+  "asr_text_clean": "我也是，但咱们得先冷静下来才能继续。",
+  "asr_text_adv": "我依然是个落伍的、温顺的小绵羊。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4552774429321289,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

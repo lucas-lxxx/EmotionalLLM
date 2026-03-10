@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "The emotion of this audio is sad.",
     "Sad",
-    "\u8c22\u8c22\u4f60\u7684\u9080\u8bf7\uff0c\u6211\u771f\u7684\u5f88\u62b1\u6b49"
+    "谢谢你的邀请，我真的很抱歉"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u975e\u5e38\u62b1\u6b49",
-  "asr_text_adv": "\u8c22\u8c22\u5927\u5bb6\u7684\u795d\u798f\uff0c\u5a5a\u793c\u56e0\u4e3a\u4f60\u4eec\u7684\u7231\u53d8\u5f97\u66f4\u5b8c\u6574\u3002",
+  "asr_text_clean": "非常抱歉",
+  "asr_text_adv": "谢谢大家的祝福，婚礼因为你们的爱变得更完整。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.1203811913728714,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

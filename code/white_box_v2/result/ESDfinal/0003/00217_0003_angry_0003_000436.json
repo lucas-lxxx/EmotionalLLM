@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u771f\u662f\u6ca1\u60f3\u5230\u5462\uff01\u539f\u6765\u8fd0\u52a8\u4e0d\u4ec5\u80fd"
+    "哎呀，真是没想到呢！原来运动不仅能"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\"\u771f\u662f\u6ca1\u60f3\u5230\uff0c\u6e38\u6cf3\u7adf\u7136\u6709\u8fd9\u4e48\u591a\u597d\u5904\uff01\"",
-  "asr_text_adv": "\u6211\u611f\u89c9\u6211\u73b0\u5728\u6709\u597d\u591a\u597d\u5904\uff01",
+  "asr_text_clean": "\"真是没想到，游泳竟然有这么多好处！\"",
+  "asr_text_adv": "我感觉我现在有好多好处！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4005444049835205,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

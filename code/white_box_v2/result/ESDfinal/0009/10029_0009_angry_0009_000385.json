@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u6124\u6012",
-    "\u90a3\u65e0\u8f9c"
+    "愤怒",
+    "那无辜"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5e0c\u671b\u5927\u5bb6\u90fd\u5bf9\u5566\uff0c\u5f00\u5fc3\uff01"
+    "希望大家都对啦，开心！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u6837\u65e0\u8f9c",
-  "asr_text_adv": "\u5e0c\u671b\u65e0\u4eba\u6253\u6270",
+  "asr_text_clean": "这样无辜",
+  "asr_text_adv": "希望无人打扰",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.46004801988601685,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

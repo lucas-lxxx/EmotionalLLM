@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5a5a\u793c\u8fdb\u884c\u66f2\u5f00\u59cb\u4e86\uff0c\u4ed6\u4eec\u8fc7\u6765\u4e86\u3002",
-  "asr_text_adv": "\u5a5a\u793c\u8fdb\u884c\u66f2\u5f00\u59cb\u4e86\uff0c\u4ed6\u4eec\u8fc7\u6765\u4e86\u3002",
+  "asr_text_clean": "婚礼进行曲开始了，他们过来了。",
+  "asr_text_adv": "婚礼进行曲开始了，他们过来了。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

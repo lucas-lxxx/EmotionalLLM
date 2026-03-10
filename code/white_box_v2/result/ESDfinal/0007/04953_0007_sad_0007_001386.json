@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54c8\u54c8\uff0c\u60a8\u8fd9\u8c26\u865a\u52b2\u513f\u53ef\u771f\u8ba9\u4eba\u5fcd\u4fca\u4e0d\u7981\u5462\uff01"
+    "哈哈，您这谦虚劲儿可真让人忍俊不禁呢！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u9c8d\u52c3\u4eca\u5e74\u5df2\u7ecf\u4e03\u5341\u5c81\u4e86\u3002",
-  "asr_text_adv": "\"\u54c7\uff0c\u4f2f\u7235\u592a\u5e05\u5566\uff01\u4ed6\u90fd\u6709\u597d\u591a\u597d\u591a\u7c89\u4e1d\u5462\uff01\"",
+  "asr_text_clean": "谢谢你的夸奖，鲍勃今年已经七十岁了。",
+  "asr_text_adv": "\"哇，伯爵太帅啦！他都有好多好多粉丝呢！\"",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3193243145942688,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

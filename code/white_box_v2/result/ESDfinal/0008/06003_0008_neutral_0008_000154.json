@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6211\u4f1a\u8bf4\u82f1\u8bed\u548c\u6cd5\u8bed\uff0c\u60a8\u60f3\u5b66\u54ea\u79cd"
+    "我会说英语和法语，您想学哪种"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u53ea\u4f1a\u8bf4\u666e\u901a\u8bdd",
-  "asr_text_adv": "\u6211\u4e0d\u4f1a\u8bf4\u5176\u4ed6\u8bed\u8a00\u3002",
+  "asr_text_clean": "我只会说普通话",
+  "asr_text_adv": "我不会说其他语言。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6090812087059021,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

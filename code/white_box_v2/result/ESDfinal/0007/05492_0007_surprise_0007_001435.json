@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u8fd9\u771f\u662f\u4e2a\u597d\u6d88\u606f\uff01"
+    "哇，这真是个好消息！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u6837\u65e0\u8f9c",
-  "asr_text_adv": "\u8fd9\u6837\u6e56\u91cc\u7684\u5c0f\u52a8\u7269\u4eec\u5c31\u4e0d\u4f1a\u6e34\u5566",
+  "asr_text_clean": "这样无辜",
+  "asr_text_adv": "这样湖里的小动物们就不会渴啦",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.27038174867630005,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

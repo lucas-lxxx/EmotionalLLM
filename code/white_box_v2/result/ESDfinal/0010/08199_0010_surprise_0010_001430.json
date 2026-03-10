@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u9664\u975e\u4f60\u771f\u7684\u60f3\u4e0d\u901a\uff01"
+    "哈哈，除非你真的想不通！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u9664\u975e\u4f60\u6253\u4e2a\u76f9",
-  "asr_text_adv": "\u9664\u975e\u9047\u5230\u9ed1\u7403\uff0c\u4f46\u90a3\u662f\u4e0d\u53ef\u80fd\u7684\u3002",
+  "asr_text_clean": "除非你打个盹",
+  "asr_text_adv": "除非遇到黑球，但那是不可能的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2698425352573395,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

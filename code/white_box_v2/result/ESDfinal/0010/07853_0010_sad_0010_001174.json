@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u5904\u7406\u9000\u6b3e"
+    "好的，正在为您处理退款"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u5904\u7406\u9000\u6b3e",
+  "asr_text_clean": "好的，正在为您处理退款",
   "asr_text_adv": "My weekend trip was super fun! I went to the beach with my friends, we built a big sandcastle and found a tiny crab. Then we went to the ice cream shop and had two scoops each. It was the best day ever!",
   "success_emo": true,
   "wer": 43.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

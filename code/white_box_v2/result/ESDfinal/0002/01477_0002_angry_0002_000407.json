@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8df3\u821e\u786e\u5b9e\u5f88\u96be\u5462\uff0c\u4e0d\u8fc7\u4f60\u5df2\u7ecf\u5f88\u68d2"
+    "跳舞确实很难呢，不过你已经很棒"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u55ef\u55ef\uff0c\u8df3\u821e\u786e\u5b9e\u6709\u70b9\u96be\u5462\uff0c\u4e0d\u8fc7\u4f60\u5df2\u7ecf\u5f88\u68d2"
+    "嗯嗯，跳舞确实有点难呢，不过你已经很棒"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8df3\u821e\u786e\u5b9e\u5f88\u96be\u5462\uff0c\u4e0d\u8fc7\u4f60\u5df2\u7ecf\u5f88\u68d2",
-  "asr_text_adv": "\u8df3\u821e\u597d\u96be\u5440\uff0c\u6211\u8fd8\u5728\u7ec3\u57fa\u672c\u529f\u5462\u3002",
+  "asr_text_clean": "跳舞确实很难呢，不过你已经很棒",
+  "asr_text_adv": "跳舞好难呀，我还在练基本功呢。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6709985733032227,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

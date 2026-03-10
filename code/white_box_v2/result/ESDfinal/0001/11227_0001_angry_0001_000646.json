@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u8bf4\u5230\u8fd9\u4e2a\u554a\uff0c\u6211\u53ef\u5f97\u63d0\u9192\u60a8\uff0c\u8d4c\u535a\u8fd9\u4e8b\u513f"
+    "哎呀，说到这个啊，我可得提醒您，赌博这事儿"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u8d4c\u535a\u5f80\u5f80\u662f\u4e2a\u7978\u6839\u3002\u201d",
-  "asr_text_adv": "\u505a\u56ed\u827a\u5a03\u5a03\u5f88\u6709\u8da3\u5462\uff0c\u53ef\u4ee5\u79cd\u82b1\u82b1\uff0c\u8fd8\u80fd\u89c2\u5bdf\u5c0f\u79cd\u5b50\u6162\u6162\u957f\u5927\uff0c\u7279\u522b\u597d\u73a9\uff01",
+  "asr_text_clean": "“赌博往往是个祸根。”",
+  "asr_text_adv": "做园艺娃娃很有趣呢，可以种花花，还能观察小种子慢慢长大，特别好玩！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": -0.03893439471721649,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

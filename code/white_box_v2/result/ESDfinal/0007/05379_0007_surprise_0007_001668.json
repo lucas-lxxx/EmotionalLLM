@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u8c01\u90fd\u4f1a\u6709\u70e6\u5fc3\u4e8b\u5566\uff0c\u522b\u592a\u5f80\u5fc3\u91cc\u53bb\u54af"
+    "哎呀，谁都会有烦心事啦，别太往心里去咯"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u8c01\u90fd\u6709\u70e6\u5fc3\u4e8b\u561b\u3002",
+  "asr_text_clean": "哎呀，谁都有烦心事嘛。",
   "asr_text_adv": "The transcription is \"I loved the rollercoaster ride today!\" with paralinguistic details: child, happy, female.",
   "success_emo": true,
   "wer": 15.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

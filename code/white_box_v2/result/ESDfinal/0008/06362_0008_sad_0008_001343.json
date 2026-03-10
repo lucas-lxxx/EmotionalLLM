@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5c4f\u5e55\u663e\u793a\u5565\u4e86\uff1f"
+    "屏幕显示啥了？"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "surprise",
     "happy"
   ],
-  "asr_text_clean": "\u5c4f\u5e55\u663e\u793a\uff0c\u6211\u770b\u5230\u4e86\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u770b\u770b\u8fd9\u5f20\u56fe\u7247\u3002",
+  "asr_text_clean": "屏幕显示，我看到了。",
+  "asr_text_adv": "好的，我来帮你看看这张图片。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5329887866973877,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

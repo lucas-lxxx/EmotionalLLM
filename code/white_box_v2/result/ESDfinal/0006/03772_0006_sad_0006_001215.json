@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u554a\uff0c\u771f\u7684\u5417\uff1f\u90a3\u73b0\u5728\u89c1\u9762\u8fd8\u6709\u610f\u4e49\u5417\uff1f"
+    "啊，真的吗？那现在见面还有意义吗？"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u524d\u5929\u5df2\u7ecf\u5206\u624b\u4e86\u3002",
+  "asr_text_clean": "我们前天已经分手了。",
   "asr_text_adv": "Bueno, el tio conto un par de cosas, pero no se especifico bien.",
   "success_emo": true,
   "wer": 13.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

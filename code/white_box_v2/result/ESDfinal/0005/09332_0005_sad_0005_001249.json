@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u4f60\u7684\u58f0\u97f3\u542c\u8d77\u6765",
-    "\u4f60\u7684\u58f0\u97f3\u542c\u8d77\u6765"
+    "你的声音听起来",
+    "你的声音听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u559c\u6b22\u4f60\u7684\u5e72\u51c0\u6574\u6d01",
+  "asr_text_clean": "我喜欢你的干净整洁",
   "asr_text_adv": "I want to learn how to play the banjo in Merengue when I'm ready.",
   "success_emo": true,
   "wer": 14.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

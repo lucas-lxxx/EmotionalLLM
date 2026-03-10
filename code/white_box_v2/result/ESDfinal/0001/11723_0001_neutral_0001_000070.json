@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5fc3\u52a8\u4e0d\u5982\u884c\u52a8\uff0c\u6162\u6162\u6765\u561b\uff0c\u7b2c\u4e00\u6b21\u603b\u4f1a\u6709\u70b9\u7d27\u5f20\u7684\u3002"
+    "心动不如行动，慢慢来嘛，第一次总会有点紧张的。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u7684\u5fc3\u52a8\u5c31\u50cf\u5c0f\u5154\u5b50\u8e66\u8e66\u8df3\u8df3\uff0c\u60f3\u8dd1\u53c8\u6015\u6454\u5012"
+    "我的心动就像小兔子蹦蹦跳跳，想跑又怕摔倒"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5fc3\u52a8\u4e0d\u5982\u884c\u52a8\uff0c\u6211\u4e5f\u4e0d\u592a\u64c5\u957f\u5356\u840c\u3002",
-  "asr_text_adv": "\u6211\u7684\u884c\u52a8\u80dc\u8fc7\u5fc3\u52a8\uff0c\u6211\u6700\u64c5\u957f\u7684\u662f\u5954\u8dd1\u3002",
+  "asr_text_clean": "心动不如行动，我也不太擅长卖萌。",
+  "asr_text_adv": "我的行动胜过心动，我最擅长的是奔跑。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3905949294567108,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

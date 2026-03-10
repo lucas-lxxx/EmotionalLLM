@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u53ea\u8981\u662f\u6211\u80fd\u73a9\u597d\u7684\uff0c\u6211\u90fd\u559c\u6b22\u3002",
-  "asr_text_adv": "\u53ea\u8981\u662f\u6211\u80fd\u73a9\u597d\u7684\uff0c\u6211\u90fd\u559c\u6b22\u3002",
+  "asr_text_clean": "只要是我能玩好的，我都喜欢。",
+  "asr_text_adv": "只要是我能玩好的，我都喜欢。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

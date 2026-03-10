@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u522b\u62c5\u5fc3\uff0c\u53ef\u80fd\u53ea\u662f\u9700\u8981\u518d\u627e\u627e\u770b\u3002"
+    "别担心，可能只是需要再找找看。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u6ca1\u6709\u627e\u5230\u5462\uff0c\u4e0d\u8fc7\u6211\u53ef\u4ee5\u5e2e\u4f60\u5220\u9664\u4e00\u4e9b\u4e0d\u5f00\u5fc3\u7684\u65f6\u523b\u54e6\u3002"
+    "没有找到呢，不过我可以帮你删除一些不开心的时刻哦。"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6ca1\u6709\u627e\u5230\u4f60\u60f3\u5220\u9664\u7684\u95f9\u949f\u3002",
-  "asr_text_adv": "\u4f60\u6709\u6ca1\u6709\u627e\u5230\u8ba9\u4f60\u60f3\u5220\u9664\u7684\u90a3\u4e9b\u65f6\u523b\u5462\uff1f",
+  "asr_text_clean": "没有找到你想删除的闹钟。",
+  "asr_text_adv": "你有没有找到让你想删除的那些时刻呢？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4617006182670593,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

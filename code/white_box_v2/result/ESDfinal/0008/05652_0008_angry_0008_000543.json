@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5e26\u5979\u53bb\u5403\u987f\u597d\u7684\uff0c\u597d\u597d\u5e86\u795d\u4e00\u4e0b\u3002",
-  "asr_text_adv": "\u5e26\u5973\u53cb\u51fa\u53bb\u597d\u597d\u5403\u987f\u996d",
+  "asr_text_clean": "带她去吃顿好的，好好庆祝一下。",
+  "asr_text_adv": "带女友出去好好吃顿饭",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7811643481254578,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

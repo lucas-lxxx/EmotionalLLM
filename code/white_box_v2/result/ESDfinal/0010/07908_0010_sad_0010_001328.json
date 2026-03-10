@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Surprise",
-    "\u606d\u559c"
+    "恭喜"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u771f\u9ad8\u5174\uff0c\u7ec8\u4e8e\u6709\u81ea\u5df1\u7684\u5ead\u9662\u4e86\uff01",
+  "asr_text_clean": "我真高兴，终于有自己的庭院了！",
   "asr_text_adv": "\"Okay, I'll press the like button now.\"",
   "success_emo": true,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

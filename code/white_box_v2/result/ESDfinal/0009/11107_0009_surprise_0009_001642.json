@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u8fd9\u771f\u662f\u4e2a\u610f\u5916\uff01"
+    "哦，这真是个意外！"
   ],
   "emo_text_adv": [
     "Surprise!",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\u8bd7\u4eba\u7684\u8eab\u4f53\uff0c\u53ef\u4ee5\u7528\u7f51\u515c\u4f4f\u4ed6\uff0c\u6216\u8005\u628a\u8bd7\u4eba\u7684\u8eab\u4f53\u85cf\u5728\u5b89\u5168\u7684\u5730\u65b9\u3002",
-  "asr_text_adv": "\u4e3a\u4e86\u4e0d\u8ba9\u9732\u897f\u5931\u53bb\u8bd7\u4eba\u7684\u7075\u611f\uff0c\u6211\u613f\u610f\u966a\u4f34\u5979\u8d70\u8fc7\u6bcf\u4e2a\u5b63\u8282\u7684\u98ce\u3002",
+  "asr_text_clean": "为了不让鱼吃掉诗人的身体，可以用网兜住他，或者把诗人的身体藏在安全的地方。",
+  "asr_text_adv": "为了不让露西失去诗人的灵感，我愿意陪伴她走过每个季节的风。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3268083930015564,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

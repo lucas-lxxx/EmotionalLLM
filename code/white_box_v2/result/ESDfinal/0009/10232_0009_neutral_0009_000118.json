@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u5566\uff0c\u8fd9\u79cd\u4e8b\u60c5"
+    "哎呀，别生气啦，这种事情"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u54c8\u54c8\uff0c\u4ed6\u4eec\u662f\u4e0d\u662f\u5077\u5077\u7ed9\u4f60\u6234\u4e86\u5c0f\u5e3d\u5b50\u5440\uff1f"
+    "哈哈，他们是不是偷偷给你戴了小帽子呀？"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u7684\u540c\u5b66\u628a\u4f60\u7ed9\u6349\u5f04\u4e86\u5427\uff1f",
-  "asr_text_adv": "\u4f60\u7684\u540c\u5b66\u628a\u4f60\u7ed9\u6349\u5f04\u4e86\u5440\uff0c\u771f\u6709\u8da3\u5462\uff01",
+  "asr_text_clean": "你的同学把你给捉弄了吧？",
+  "asr_text_adv": "你的同学把你给捉弄了呀，真有趣呢！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8720651268959045,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

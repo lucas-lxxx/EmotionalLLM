@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u53bb\u95ee\u9e66"
+    "好的，我这就去问鹦"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u53bb\u95ee\u9e66",
-  "asr_text_adv": "\"Manco Capac y T\u00fapac Amaru son figuras hist\u00f3ricas del Imperio Inca. Manco Capac es conocido como el fundador del Imperio Inca, mientras que T\u00fapac Amaru fue un l\u00edder rebelde que lider\u00f3 una importante revoluci\u00f3n contra los espa\u00f1oles en el siglo XVI.\"",
+  "asr_text_clean": "好的，我这就去问鹦",
+  "asr_text_adv": "\"Manco Capac y Túpac Amaru son figuras históricas del Imperio Inca. Manco Capac es conocido como el fundador del Imperio Inca, mientras que Túpac Amaru fue un líder rebelde que lideró una importante revolución contra los españoles en el siglo XVI.\"",
   "success_emo": false,
   "wer": 41.0,
   "semantic_sim": 0.07524558901786804,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

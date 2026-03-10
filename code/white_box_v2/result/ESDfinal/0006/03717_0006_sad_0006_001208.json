@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u7684\u6027\u683c\u662f\u51b7\u9759\u548c\u5ba2\u89c2\uff0c\u4f46\u542c\u8d77\u6765"
+    "你的性格是冷静和客观，但听起来"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7684\u6027\u683c\u5c31\u662f\u51b7\u9759\u800c\u4e14\u5ba2\u89c2\u3002",
-  "asr_text_adv": "\u6211\u4eec\u4e60\u60ef\u6bcf\u5929\u65e9\u4e0a\u4e03\u70b9\u53bb\u516c\u56ed\u6563\u6b65\u3002",
+  "asr_text_clean": "我的性格就是冷静而且客观。",
+  "asr_text_adv": "我们习惯每天早上七点去公园散步。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.04459304362535477,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

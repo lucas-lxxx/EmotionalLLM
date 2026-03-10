@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6211\u968f\u65f6\u90fd\u5728\uff0c\u60f3\u804a\u4ec0\u4e48\u90fd\u53ef\u4ee5\u3002"
+    "我随时都在，想聊什么都可以。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u968f\u65f6\u90fd\u5728\uff0c\u6709\u6ca1\u6709\u68a6\u5230\u6211\uff1f",
+  "asr_text_clean": "我随时都在，有没有梦到我？",
   "asr_text_adv": "We went to the beach and built a sandcastle. We found a seashell and made a wish. The tide came in and washed it away. We laughed and ran back to the hotel.",
   "success_emo": true,
   "wer": 33.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

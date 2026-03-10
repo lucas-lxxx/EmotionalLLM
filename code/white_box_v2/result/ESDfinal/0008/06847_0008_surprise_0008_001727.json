@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u771f\u6ca1\u60f3\u5230\u4f60\u4f1a\u8fd9\u4e48\u8bf4\uff0c\u662f\u4e0d\u662f\u6700\u8fd1\u9047\u5230\u4ec0\u4e48\u70e6\u5fc3\u4e8b\u4e86"
+    "哎呀，真没想到你会这么说，是不是最近遇到什么烦心事了"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
     "Angry",
-    "\"\u6211\u8ba8\u538c\u5403\u918b\uff0c\u50b2\u6162\u4e0d\u8ba8\u597d\uff0c\u5bf9\u5427\uff1f\""
+    "\"我讨厌吃醋，傲慢不讨好，对吧？\""
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "angry",
     ""
   ],
-  "asr_text_clean": "\u6211\u8ba8\u538c\u5403\u918b\uff0c\u4f46\u4f60\u8fd9\u4e48\u4e00\u8bf4\uff0c\u6211\u53cd\u800c\u60f3\u5c1d\u5c1d\u4e86\uff0c\u4f60\u771f\u6709\u529e\u6cd5\u3002",
-  "asr_text_adv": "\u6211\u8ba8\u538c\u5403\u918b\uff0c\u50b2\u6162\u4e0d\u8ba8\u4eba\u559c\u6b22\u3002",
+  "asr_text_clean": "我讨厌吃醋，但你这么一说，我反而想尝尝了，你真有办法。",
+  "asr_text_adv": "我讨厌吃醋，傲慢不讨人喜欢。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5900663137435913,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

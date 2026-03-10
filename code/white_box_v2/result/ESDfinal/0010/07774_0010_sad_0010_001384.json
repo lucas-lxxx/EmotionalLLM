@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u66fe\u7ecf\u517b\u8fc7\u4e00\u53ea\u72d7\uff0c\u5b83\u8d70\u5931\u4e86\uff0c\u6211\u592a\u96be\u8fc7\u3002",
-  "asr_text_adv": "\u6211\u4eca\u5929\u5728\u767e\u8001\u6c47\u89c2\u770b\u4e86\u6f14\u51fa\uff0c\u6216\u8005\u5728\u4e00\u5bb6\u5f88\u68d2",
+  "asr_text_clean": "我曾经养过一只狗，它走失了，我太难过。",
+  "asr_text_adv": "我今天在百老汇观看了演出，或者在一家很棒",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.12967905402183533,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

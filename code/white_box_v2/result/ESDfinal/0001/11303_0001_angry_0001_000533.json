@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f"
+    "哇，真的吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u4f60\u7edd\u5bf9\u731c\u4e0d\u5230\u5979\u51c6\u5907\u8981\u5b69\u5b50\u4e86",
-  "asr_text_adv": "\u5979\u51c6\u5907\u8981\u5b69\u5b50\u4e86",
+  "asr_text_clean": "你绝对猜不到她准备要孩子了",
+  "asr_text_adv": "她准备要孩子了",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6357700824737549,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

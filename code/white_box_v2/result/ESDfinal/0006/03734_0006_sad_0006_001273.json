@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u542c\u8d77\u6765",
-    "\u6211\u4eec\u73a9\u5f97\u5f88\u5f00\u5fc3\uff0c\u4f46\u4f60\u542c\u8d77\u6765"
+    "听起来",
+    "我们玩得很开心，但你听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u542c\u8d77\u6765",
+  "asr_text_clean": "听起来",
   "asr_text_adv": "we went on a super fun date and then we went to the park and we ate ice cream and it was so awesome and then we went to the zoo and we saw all the animals and we laughed a lot and then we went home and we had pizza and it was really nice and we talked about our favorite games and stuff and we had a really good time",
   "success_emo": true,
   "wer": 72.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

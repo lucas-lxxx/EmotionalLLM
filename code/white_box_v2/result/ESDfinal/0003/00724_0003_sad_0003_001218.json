@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u6211\u6700\u559c\u6b22\u4f60\u5440\uff0c\u80fd\u544a\u8bc9\u6211\u4f60\u6700\u559c\u6b22\u8c01\u5417\uff1f",
-    "\u6211\u6700\u559c\u6b22\u4f60\u5440\uff0c\u4f60\u4eca\u5929\u770b\u8d77\u6765\u6709\u70b9\u96be\u8fc7\uff0c\u60f3\u548c\u6211\u804a\u804a"
+    "我最喜欢你呀，能告诉我你最喜欢谁吗？",
+    "我最喜欢你呀，你今天看起来有点难过，想和我聊聊"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6700\u559c\u6b22\u4f60\u5440\uff0c\u4f60\u4eca\u5929\u770b\u8d77\u6765\u6709\u70b9\u96be\u8fc7\uff0c\u60f3\u548c\u6211\u804a\u804a",
+  "asr_text_clean": "我最喜欢你呀，你今天看起来有点难过，想和我聊聊",
   "asr_text_adv": "I'm going to the beach to collect seashells and build a sandcastle.",
   "success_emo": true,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

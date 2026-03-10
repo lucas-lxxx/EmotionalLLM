@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u4e2d\u6027",
-    "\u55ef\uff0c\u542c\u8d77\u6765"
+    "中性",
+    "嗯，听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u559c\u6b22\u51e0\u4e4e\u6240\u6709\u7684\u8fd0\u52a8\u3002",
-  "asr_text_adv": "\u6211\u559c\u6b22\u51e0\u4e4e\u6240\u6709\u7684\u8fd0\u52a8\u3002",
+  "asr_text_clean": "我喜欢几乎所有的运动。",
+  "asr_text_adv": "我喜欢几乎所有的运动。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

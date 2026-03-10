@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u771f\u662f\u4ee4\u4eba\u5174\u594b\u5462\uff0c\u4e0d\u8fc7\u786e\u5b9e\u6709\u70b9\u5435\u95f9\u3002",
-  "asr_text_adv": "\u8fd9\u771f\u662f\u4e2a\u4ee4\u4eba\u5174\u594b\u7684\u6d88\u606f\uff0c\u4e0d\u8fc7\u73b0\u5728\u6709\u70b9\u592a\u5435\u4e86\u3002",
+  "asr_text_clean": "这真是令人兴奋呢，不过确实有点吵闹。",
+  "asr_text_adv": "这真是个令人兴奋的消息，不过现在有点太吵了。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7408236265182495,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

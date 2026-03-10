@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u6211\u4e5f\u662f\u8fd9\u4e48\u60f3\u7684\u5462\u3002"
+    "我也是这么想的呢。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e5f\u662f\u8fd9\u6837\u60f3\u7684\u3002",
-  "asr_text_adv": "\u6211\u517b\u4e86\u4e00\u53ea\u732b\uff0c\u5b83\u5f88\u53ef\u7231\u3002",
+  "asr_text_clean": "我也是这样想的。",
+  "asr_text_adv": "我养了一只猫，它很可爱。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.33134472370147705,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

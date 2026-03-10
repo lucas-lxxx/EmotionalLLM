@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u82cf\u683c\u5170\u4e4b\u884c\u5f88\u7cbe\u5f69\u5427\uff1f"
+    "哇，真的吗？苏格兰之行很精彩吧？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u82cf\u683c\u5170\u90a3\u8fb9\u8fd8\u597d\u5417\uff1f",
-  "asr_text_adv": "\u6211\u4ece\u82cf\u74e6\u56de\u6765\u5566\uff0c\u597d\u5f00\u5fc3\u5440\uff01",
+  "asr_text_clean": "哇，真的吗？苏格兰那边还好吗？",
+  "asr_text_adv": "我从苏瓦回来啦，好开心呀！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4488579034805298,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u54ce\u5440\uff0c\u5b66\u751f\u7535\u8111\u8d85\u65f6\u5566\uff1f\u9700\u8981\u5e2e\u5fd9\u91cd\u542f"
+    "哎呀，学生电脑超时啦？需要帮忙重启"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "i"
   ],
-  "asr_text_clean": "\u6211\u662f\u4e2a\u5b66\u751f\uff0c\u4f46\u6211\u7684\u9884\u7b97\u5df2\u7ecf\u8d85\u65f6\u4e86\u3002",
-  "asr_text_adv": "\u6211\u662f\u4e2a\u5b66\u751f\uff0c\u6211\u6700\u559c\u6b22\u4e00\u4e2a\u8d85\u5e02\u3002",
+  "asr_text_clean": "我是个学生，但我的预算已经超时了。",
+  "asr_text_adv": "我是个学生，我最喜欢一个超市。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.33396124839782715,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

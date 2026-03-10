@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u5566\uff0c\u8fd9\u79cd\u4e8b\u60c5"
+    "哎呀，别生气啦，这种事情"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u7684\u540c\u5b66\u628a\u4f60\u7ed9\u6349\u5f04\u4e86\u5427\uff1f",
-  "asr_text_adv": "\u6211\u7684\u540c\u9f84\u4eba\u628a\u6211\u7684\u4e94\u684c\u8d56\u8d26\u3002",
+  "asr_text_clean": "你的同学把你给捉弄了吧？",
+  "asr_text_adv": "我的同龄人把我的五桌赖账。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.37691402435302734,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

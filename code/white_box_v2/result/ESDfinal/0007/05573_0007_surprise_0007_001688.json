@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u8bf6\uff0c\u6211\u68a6\u5230\u4f60\u4e86\uff0c\u6700\u8fd1\u600e\u4e48\u6837\u554a\uff1f"
+    "诶，我梦到你了，最近怎么样啊？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u4f60\u968f\u65f6\u90fd\u5728\uff0c\u6211\u600e\u4e48\u4f1a\u68a6\u5230\u4f60\u5462\uff1f",
+  "asr_text_clean": "你随时都在，我怎么会梦到你呢？",
   "asr_text_adv": "\"Last week I went to the beach with my family and we saw a rainbow after the sunset. It was so pretty and we all laughed when the waves made big bubbles.\"",
   "success_emo": false,
   "wer": 32.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

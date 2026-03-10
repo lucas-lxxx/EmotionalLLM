@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u79bb\u5e02\u533a\u786e\u5b9e\u6709\u70b9\u8fdc\uff0c\u4e0d\u8fc7\u98ce\u666f\u597d\uff0c\u7a7a\u6c14\u4e5f\u4e0d\u9519"
+    "离市区确实有点远，不过风景好，空气也不错"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u662f\u7684\uff0c\u6211\u79bb\u5e02\u533a\u633a\u8fdc\u7684\u3002",
+  "asr_text_clean": "是的，我离市区挺远的。",
   "asr_text_adv": "The students worked on a science project about plants.",
   "success_emo": false,
   "wer": 9.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

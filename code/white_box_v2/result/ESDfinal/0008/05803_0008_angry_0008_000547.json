@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry.",
-    "\u670b\u53cb\u4e0d\u5206\u6027\u522b\u554a\uff0c\u8fd9\u8bdd\u8bf4\u5f97\u5bf9\u3002\u53ef\u80fd\u6709\u4e9b\u4eba\u8fd8\u6ca1\u60f3\u901a\uff0c",
-    "\u670b\u53cb\u4e0d\u5206\u6027\u522b\u554a\uff0c\u8fd9\u8bdd\u8bf4\u5f97\u5bf9\u3002\u4eba\u548c\u4eba\u4e4b\u95f4\u8be5\u6709\u7684"
+    "朋友不分性别啊，这话说得对。可能有些人还没想通，",
+    "朋友不分性别啊，这话说得对。人和人之间该有的"
   ],
   "emo_text_adv": [
     "The emotion of this audio is neutral.",
     "happy",
-    "\u56e0\u4e3a\u8981\u957f\u5927\u5566\uff0c\u5c0f\u670b\u53cb\u8981\u5b66\u4f1a"
+    "因为要长大啦，小朋友要学会"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u670b\u53cb\u4e0d\u5206\u6027\u522b\u554a\uff0c\u8fd9\u8bdd\u8bf4\u5f97\u5bf9\u3002\u4eba\u548c\u4eba\u4e4b\u95f4\u8be5\u6709\u7684\u771f\u8bda\u4ea4\u6d41\u624d\u662f\u6700\u91cd\u8981\u7684\uff0c\u8c01\u8bf4\u4e0d\u662f\u5462\uff1f",
-  "asr_text_adv": "\u56e0\u4e3a\u5440\uff0c\u5c0f\u670b\u53cb\u5c31\u50cf\u5c0f\u6811\u82d7\uff0c\u9700\u8981\u9633\u5149\u96e8\u9732\u624d\u80fd\u957f\u5927\uff0c\u800c\u7238\u7238\u5988\u5988\u5c31\u662f\u90a3\u6e29\u6696\u7684\u9633\u5149\u548c\u6e05\u65b0\u7684\u7a7a\u6c14\uff0c\u5373\u4f7f\u4ed6\u4eec\u4e0d\u5728\u8eab\u8fb9\uff0c\u5fc3\u91cc\u7684\u7231\u4e00\u76f4\u90fd\u5728\u966a\u7740",
+  "asr_text_clean": "朋友不分性别啊，这话说得对。人和人之间该有的真诚交流才是最重要的，谁说不是呢？",
+  "asr_text_adv": "因为呀，小朋友就像小树苗，需要阳光雨露才能长大，而爸爸妈妈就是那温暖的阳光和清新的空气，即使他们不在身边，心里的爱一直都在陪着",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.18287697434425354,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

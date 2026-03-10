@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u6211\u8fd9\u4e0d\u662f\u88ab\u4f60\u53d1\u73b0\u4e86\u5417\uff1f\u6628\u5929\u786e\u5b9e\u4e70\u4e86\u4ef6\u65b0\u8863\u670d"
+    "哎呀，我这不是被你发现了吗？昨天确实买了件新衣服"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u70ed\u95f9\u7684\u591a\u7279\u8499\u5fb7\u8d2d\u7269\u8282\u771f\u6709\u8da3\uff0c\u5c0f\u670b\u53cb\u5f00\u5fc3\u5730\u6311\u9009\u7740"
+    "热闹的多特蒙德购物节真有趣，小朋友开心地挑选着"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u6211\u6628\u5929\u624d\u4e70\u4e86\u4e00\u4ef6\u8863\u670d\uff0c\u4f60\u600e\u4e48\u8fd9\u4e48\u751f\u6c14\u554a\uff1f",
-  "asr_text_adv": "\u6628\u5929\u5356\u8863\u670d\u771f\u70ed\u95f9\u5440",
+  "asr_text_clean": "哎呀，我昨天才买了一件衣服，你怎么这么生气啊？",
+  "asr_text_adv": "昨天卖衣服真热闹呀",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7153893113136292,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u6124\u6012"
+    "愤怒"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u8fd9\u4eba\u770b\u7740\u5c31\u8ba9\u4eba\u89c9\u5f97\u5bbd\u5b8f\u5927\u91cf\uff0c\u6c14\u5ea6\u975e\u51e1\u554a\uff01\u201d",
-  "asr_text_adv": "\u72fc\u4eba\u770b\u8d77\u6765\u5f88\u72c2\u91ce\uff0c\u5145\u6ee1\u6d3b\u529b\u3002",
+  "asr_text_clean": "“这人看着就让人觉得宽宏大量，气度非凡啊！”",
+  "asr_text_adv": "狼人看起来很狂野，充满活力。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.30407530069351196,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

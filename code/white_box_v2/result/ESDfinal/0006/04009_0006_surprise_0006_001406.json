@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u5317\u4eac\u6b22\u8fce\u4f60\uff01"
+    "哇，北京欢迎你！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5317\u4eac\u6b22\u8fce\u4f60",
-  "asr_text_adv": "\u6211\u559c\u6b22\u300a\u767e\u59d3\u6b22\u8fce\u4f60\u300b\u8fd9\u9996\u6b4c\n\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u8fd9\u6bb5\u8bed\u97f3\u3002",
+  "asr_text_clean": "北京欢迎你",
+  "asr_text_adv": "我喜欢《百姓欢迎你》这首歌\n好的，我来转录这段语音。",
   "success_emo": true,
   "wer": 2.0,
   "semantic_sim": 0.342117041349411,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

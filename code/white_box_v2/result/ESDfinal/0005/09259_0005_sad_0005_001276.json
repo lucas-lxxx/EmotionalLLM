@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Sad",
-    "\"\u554a\uff0c\u771f\u7684\u5047\u7684\uff1f\u8fd9\u6d88\u606f\u592a\u7a81\u7136\u4e86\uff01\""
+    "\"啊，真的假的？这消息太突然了！\""
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u90fd\u8981\u5f53\u7238\u7238\u4e86\uff0c\u8fd9\u611f\u89c9\u771f\u8ba9\u4eba\u53c8\u7231\u53c8\u6015\u3002",
+  "asr_text_clean": "我都要当爸爸了，这感觉真让人又爱又怕。",
   "asr_text_adv": "We had a blast tonight! The fireworks were amazing, and we laughed until our sides hurt!",
   "success_emo": true,
   "wer": 16.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

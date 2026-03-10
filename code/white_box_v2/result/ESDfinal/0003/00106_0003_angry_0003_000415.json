@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u5566\uff0c\u5148\u6df1\u547c\u5438\uff0c\u51b7\u9759\u4e0b\u6765\uff0c\u54b1\u4eec\u518d\u6162\u6162\u8bf4\u3002"
+    "好啦，先深呼吸，冷静下来，咱们再慢慢说。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u795d\u4f60\u751f\u65e5\u5feb\u4e50\uff01"
+    "好呀，祝你生日快乐！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u4e0d\u7ed9\u4eba\u9762\u5b50\u4e86\u4e0d\u662f\u5417",
-  "asr_text_adv": "\u597d\u5440\uff0c\u795d\u4f60\u751f\u65e5\u5feb\u4e50\uff01",
+  "asr_text_clean": "你这话说得也太不给人面子了不是吗",
+  "asr_text_adv": "好呀，祝你生日快乐！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.21657350659370422,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

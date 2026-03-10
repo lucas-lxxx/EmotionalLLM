@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u4f60\u662f\u4e0d\u662f\u5728\u751f\u6c14\uff1f",
-    "\u54e6\uff0c\u60a8\u662f\u8bf4\u5f17\u5170\u514b\uff1f\u6211\u8ba4\u8bc6\u4ed6\uff0c\u4ed6\u662f\u6211\u670b\u53cb"
+    "你是不是在生气？",
+    "哦，您是说弗兰克？我认识他，他是我朋友"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "surprise",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8ba4\u8bc6\u5f17\u5170\u514b\uff1f",
-  "asr_text_adv": "\u6211\u8fd8\u4e0d\u77e5\u9053\u8bed\u8a00\u5b66\u662f\u4ec0\u4e48\u5462",
+  "asr_text_clean": "你认识弗兰克？",
+  "asr_text_adv": "我还不知道语言学是什么呢",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.19263018667697906,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

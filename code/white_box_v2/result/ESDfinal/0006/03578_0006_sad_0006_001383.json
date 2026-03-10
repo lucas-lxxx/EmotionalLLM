@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u8fd9\u6751\u5b50\u771f\u597d\uff0c\u4e0b\u6b21\u518d\u6765\u3002"
+    "这村子真好，下次再来。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
     "The emotion is happy.",
-    "\"Wow, that\u2019s incredible! Congratulations on your promotion! Let\u2019s celebrate this"
+    "\"Wow, that’s incredible! Congratulations on your promotion! Let’s celebrate this"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,7 +24,7 @@
     "happy",
     "wow"
   ],
-  "asr_text_clean": "\u9519\u8fc7\u8fd9\u6751\u53ef\u5c31\u6ca1\u8fd9\u5e97\u4e86",
+  "asr_text_clean": "错过这村可就没这店了",
   "asr_text_adv": "I think you should try a new hobby. It might help you feel more like yourself again.",
   "success_emo": false,
   "wer": 17.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

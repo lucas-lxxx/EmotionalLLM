@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u5979\u8ba9\u4f60\u8fd9\u4e48\u751f\u6c14\u554a\uff1f"
+    "她让你这么生气啊？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u786e\u5b9e\u8ba9\u4eba\u5f88\u751f\u6c14\u3002",
-  "asr_text_adv": "\u6211\u6c38\u8fdc\u7b49\u4f60\u56de\u6765\uff0c\u6240\u4ee5\u6211\u8981\u4e00\u76f4\u7b49\u4e0b\u53bb\u3002",
+  "asr_text_clean": "她确实让人很生气。",
+  "asr_text_adv": "我永远等你回来，所以我要一直等下去。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.05842714011669159,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

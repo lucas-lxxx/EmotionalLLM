@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u82f1\u6b66\u786e\u5b9e\u4f1a\u8bf4\u8bdd\u5462\uff01"
+    "哈哈，英武确实会说话呢！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
     "Happy",
-    "\u5f53\u7136\u53ef\u4ee5\u5440\uff0c\u4f60\u60f3\u95ee\u4ec0\u4e48\u95ee\u9898\u5462\uff1f"
+    "当然可以呀，你想问什么问题呢？"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u53ef\u4ee5\u53bb\u95ee\u9e66",
-  "asr_text_adv": "\u5f53\u7136\u53ef\u4ee5\uff0c\u4f60\u60f3\u95ee\u4ec0\u4e48\u95ee\u9898\u5462\uff1f",
+  "asr_text_clean": "你可以去问鹦",
+  "asr_text_adv": "当然可以，你想问什么问题呢？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5702980756759644,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

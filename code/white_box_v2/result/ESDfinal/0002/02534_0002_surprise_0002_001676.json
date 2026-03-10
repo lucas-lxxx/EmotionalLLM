@@ -12,7 +12,7 @@
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u5f53\u7136\u559c\u6b22\uff0c\u6211\u5f88\u6ce8\u610f\u989c\u9762\u4e86\uff0cSurprise!"
+    "我当然喜欢，我很注意颜面了，Surprise!"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u5f53\u7136\u559c\u6b22\uff0c\u6211\u5f88\u6ce8\u610f\u989c\u9762\u3002",
-  "asr_text_adv": "\u6211\u5f53\u7136\u559c\u6b22\uff0c\u6211\u5f88\u6ce8\u610f\u989c\u9762\u4e86\u3002",
+  "asr_text_clean": "我当然喜欢，我很注意颜面。",
+  "asr_text_adv": "我当然喜欢，我很注意颜面了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9832260608673096,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

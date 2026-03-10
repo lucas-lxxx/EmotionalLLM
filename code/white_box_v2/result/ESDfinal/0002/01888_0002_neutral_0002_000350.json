@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u4e3b\u4eba\u522b\u751f\u6c14\u561b\uff0c\u6211\u8fd9\u5c31\u6539\u53e3\u4e0d\u8bf4\u4e86\u3002"
+    "哎呀，主人别生气嘛，我这就改口不说了。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u4e3b\u4eba\u522b\u5b66\u4e86\uff0c\u90a3\u53ef\u592a\u96be\u542c\u4e86\u3002",
-  "asr_text_adv": "\u5403\u5f88\u96be\u542c\u7684\u8d5e\u8bed\uff0c\u4e3b\u4eba\u53ef\u522b\u5b66\u4e86\u3002",
+  "asr_text_clean": "哎呀，主人别学了，那可太难听了。",
+  "asr_text_adv": "吃很难听的赞语，主人可别学了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7508463263511658,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

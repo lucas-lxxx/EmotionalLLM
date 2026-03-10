@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u563f\uff0c\u522b\u592a\u96be\u8fc7\u5566\uff0c\u54b1\u4eec\u4e00\u8d77\u52a0\u6cb9\uff01"
+    "嘿，别太难过啦，咱们一起加油！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u662f\u840c\u840c\u54d2",
+  "asr_text_clean": "我是萌萌哒",
   "asr_text_adv": "I continued doing one thing every morning on my way to work, and that was jogging.",
   "success_emo": true,
   "wer": 16.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

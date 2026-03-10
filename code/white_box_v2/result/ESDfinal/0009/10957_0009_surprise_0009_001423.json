@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u8bd5\u8bd5\u5f69\u8679\u852c\u83dc\u5377\uff0c\u7528\u80e1\u841d\u535c\uff0c\u9ec4\u74dc"
+    "试试彩虹蔬菜卷，用胡萝卜，黄瓜"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u53ef\u4ee5\u8bd5\u8bd5\u628a\u80e1\u841d\u535c\u5207\u6210\u661f\u661f\u5f62\u72b6\uff0c\u897f\u5170\u82b1",
-  "asr_text_adv": "\u559d\u4e86\u4e00\u4e9b\u597d\u5403\u7684\uff0c\u9760\u8fd1\u5b9d\u5ca9\u7684\u98df\u6e90\uff0c\u7136\u540e...",
+  "asr_text_clean": "可以试试把胡萝卜切成星星形状，西兰花",
+  "asr_text_adv": "喝了一些好吃的，靠近宝岩的食源，然后...",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3848138451576233,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u542c\u4f60\u8fd9\u4e48\u8bf4\u6211\u4e5f\u633a\u62c5\u5fc3\u7684\uff0c\u8981\u4e0d\u54b1\u4eec\u4e00\u8d77\u5c11"
+    "哎呀，听你这么说我也挺担心的，要不咱们一起少"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u597d\u5440\uff0c\u4ee5\u540e\u5c11\u559d\u70b9\u51b0\u7684\uff0c\u591a\u559d\u6e29\u6c34\uff0c\u8eab\u4f53"
+    "好呀，以后少喝点冰的，多喝温水，身体"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u6211\u6700\u8fd1\u786e\u5b9e\u559d\u5f97\u6709\u70b9\u591a\uff0c\u5bf9\u8eab\u4f53\u4e0d\u592a\u597d",
-  "asr_text_adv": "\u4ee5\u540e\u522b\u559d\u90a3\u4e48\u591a\u5566\uff0c\u4f24\u8eab\u4f53\u3002",
+  "asr_text_clean": "哎呀，我最近确实喝得有点多，对身体不太好",
+  "asr_text_adv": "以后别喝那么多啦，伤身体。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.711775541305542,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u542c\u4f60\u8fd9\u4e48\u8bf4\u6709\u70b9\u62c5\u5fc3\u5462\uff0c\u6700\u8fd1\u662f\u4e0d\u662f\u9047\u5230\u4ec0\u4e48\u70e6\u5fc3\u4e8b"
+    "嗯，听你这么说有点担心呢，最近是不是遇到什么烦心事"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u662f\u4e00\u4e2a\u597d\u4e60\u60ef\uff0c\u901a\u5e38\u770b\u4e66\u6216\u6d88\u9063\u3002",
-  "asr_text_adv": "\u8fd9\u91cc\u662f\u4e00\u4e2a\u597d\u620f\u8001\u4eba\u56ed\uff0c\u901a\u5e38\u5927\u5bb6\u5750\u5728\u4e00\u8d77\u804a\u5929\u3002",
+  "asr_text_clean": "这是一个好习惯，通常看书或消遣。",
+  "asr_text_adv": "这里是一个好戏老人园，通常大家坐在一起聊天。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.33462852239608765,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

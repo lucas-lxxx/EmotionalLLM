@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f"
+    "哇，真的吗？"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "surprise",
     "happy"
   ],
-  "asr_text_clean": "\u54e6\uff0c\u4f60\u8fd8\u4e0d\u77e5\u9053\u6211\u8ba4\u8bc6\u5f17\u5170\u514b\u5417\uff1f",
-  "asr_text_adv": "\u6211\u8fd8\u4e0d\u77e5\u9053\u8ff7\u4eba\u7684\u5e03\u5170\u8d6b\u5c14\u662f\u4ec0\u4e48\u610f\u601d\u5462",
+  "asr_text_clean": "哦，你还不知道我认识弗兰克吗？",
+  "asr_text_adv": "我还不知道迷人的布兰赫尔是什么意思呢",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4339703321456909,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u8fd9\u786e\u5b9e\u662f\u4e2a\u53ef\u80fd\uff0c\u4f46\u54b1\u4eec\u8fd8\u662f\u5f97\u5148\u638c\u63e1\u786e\u51ff"
+    "嗯，这确实是个可能，但咱们还是得先掌握确凿"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6ca1\u5173\u7cfb",
+  "asr_text_clean": "没关系",
   "asr_text_adv": "You're welcome! Glad I could help.",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

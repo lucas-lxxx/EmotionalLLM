@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u4e0d\u7528\u51ac\u7720\u5440\uff0c\u4e0d\u8fc7\u542c\u8d77\u6765"
+    "你不用冬眠呀，不过听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u662f\u4e00\u53ea\u9752\u86d9",
-  "asr_text_adv": "\u6211\u662f\u4e00\u53ea\u9752\u86d9",
+  "asr_text_clean": "我是一只青蛙",
+  "asr_text_adv": "我是一只青蛙",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

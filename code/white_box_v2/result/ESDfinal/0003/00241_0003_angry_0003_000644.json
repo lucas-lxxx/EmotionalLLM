@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4f60\u88ab\u6211\u8bf4\u9519\u4e86\uff0c\u6211\u9053\u6b49\u3002"
+    "你被我说错了，我道歉。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u4f60\u6839\u672c\u4e0d\u61c2\u6211\u597d\u5417",
-  "asr_text_adv": "\u6211\u6dcb\u7070\u8272\u7684\u8884",
+  "asr_text_clean": "你根本不懂我好吗",
+  "asr_text_adv": "我淋灰色的袄",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3519967794418335,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

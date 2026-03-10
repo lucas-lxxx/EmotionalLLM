@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u6df1\u6df1\u7684\u5370\u5728\u6211\u7684\u8111\u6d77\n\uff08\u505c\u987f\u534a\u79d2\uff09\n...\u8bb0\u5fc6\u91cc\u5462"
+    "你深深的印在我的脑海\n（停顿半秒）\n...记忆里呢"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u6df1\u6df1\u7684\u5370\u5728\u6211\u7684\u8111\u6d77",
+  "asr_text_clean": "你深深的印在我的脑海",
   "asr_text_adv": "I did a painting and it ended up winning the art contest at the community center last weekend.",
   "success_emo": true,
   "wer": 18.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

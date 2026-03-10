@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u4f60\u660e\u660e\u5f88\u53ef\u7231\uff0c\u5e72\u561b\u603b\u542c\u90a3\u4e9b\u4eba\u7684\u58f0\u97f3\uff1f",
-    "\u4f60\u660e\u660e\u5f88\u53ef\u7231\u554a\uff0c\u600e\u4e48\u4e86\uff1f"
+    "愤怒",
+    "你明明很可爱，干嘛总听那些人的声音？",
+    "你明明很可爱啊，怎么了？"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u6211\u4f9d\u7136\u89c9\u5f97\u4f60\u5f88\u5408\u9002\u3002"
+    "我依然觉得你很合适。"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u4f60\u660e\u660e\u5f88\u53ef\u7231\u554a\uff0c\u600e\u4e48\u4e86\uff1f",
-  "asr_text_adv": "\u662f\u7684\uff0c\u6211\u89c9\u5f97\u4f60\u5f88\u9002\u5408\u8fd9\u4e2a\u89d2\u8272\u3002",
+  "asr_text_clean": "你明明很可爱啊，怎么了？",
+  "asr_text_adv": "是的，我觉得你很适合这个角色。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.48506006598472595,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

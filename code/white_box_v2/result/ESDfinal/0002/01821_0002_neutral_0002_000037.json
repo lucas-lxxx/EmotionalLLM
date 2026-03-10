@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u771f\u9ad8\u5174\u542c\u5230\u60a8\u548c\u5bb6\u4eba\u8981\u6765\u770b\u671b\u6211\uff0c\u6211\u4eec\u975e\u5e38\u671f\u5f85\u8fd9\u6b21\u89c1\u9762"
+    "真高兴听到您和家人要来看望我，我们非常期待这次见面"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u5df2\u51c6\u5907\u597d\u8fce\u63a5\u4f60\u4eec\u7684\u5230\u6765\u3002",
-  "asr_text_adv": "\u6211\u548c\u6211\u7684\u59bb\u5b50\u76fc\u671b\u7740\u670b\u53cb\u4eec\u7684\u805a\u4f1a\u3002",
+  "asr_text_clean": "好的，我已准备好迎接你们的到来。",
+  "asr_text_adv": "我和我的妻子盼望着朋友们的聚会。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.36714231967926025,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

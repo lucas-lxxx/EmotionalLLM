@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u662f\u554a\uff0c\u6885\u82b1\u5e38\u88ab\u5ffd\u89c6\uff0c\u4f46\u5b83\u7684\u7f8e\u5f88\u72ec\u7279\u3002"
+    "是啊，梅花常被忽视，但它的美很独特。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f46\u6885\u82b1\u5f80\u5f80\u88ab\u5f88\u591a\u4eba\u5ffd\u89c6",
+  "asr_text_clean": "但梅花往往被很多人忽视",
   "asr_text_adv": "\"Hey everyone! I had such a blast at the party! They were all so happy to see me. I really loved dancing and chatting with my friends. It was the best day ever!\"",
   "success_emo": true,
   "wer": 33.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

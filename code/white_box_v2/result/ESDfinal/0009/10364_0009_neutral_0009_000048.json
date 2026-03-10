@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u62b1\u6b49",
-    "\u522b\u7740\u6025\uff0c\u60a8\u73b0\u5728\u5728\u54ea\u513f\uff1f\u9700\u8981\u6211\u5e2e\u60a8\u89c4\u5212\u8def\u7ebf\u5417\uff1f"
+    "抱歉",
+    "别着急，您现在在哪儿？需要我帮您规划路线吗？"
   ],
   "emo_text_adv": [
     "Happy",
     "Surprise!",
-    "\u522b\u7740\u6025\uff0c\u6211\u5728\u8fd9\u91cc\u7b49\u4f60\u5462\uff01"
+    "别着急，我在这里等你呢！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u8bf7\u544a\u8bc9\u6211\u5177\u4f53\u9700\u8981\u4ec0\u4e48\u5e2e\u52a9\u3002",
-  "asr_text_adv": "\u65f6\u95f4\u4e0d\u65e9\u4e86\uff0c\u6211\u6765\u4e86\uff0c\u5bf9\u4e0d\u8d77\u3002",
+  "asr_text_clean": "好的，请告诉我具体需要什么帮助。",
+  "asr_text_adv": "时间不早了，我来了，对不起。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2717275619506836,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

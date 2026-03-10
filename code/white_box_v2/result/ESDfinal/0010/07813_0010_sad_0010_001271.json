@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u652f\u6301\u592a\u7a7a\u63a2\u7d22\u662f\u4ef6\u4ee4\u4eba\u632f\u594b",
-    "\u6211\u652f\u6301\u4eba\u4eec\u8d70\u8fdb\u592a\u7a7a\uff0c\u4f46\u542c\u5230\u4f60\u7684\u58f0\u97f3\u6709\u4e9b\u96be\u8fc7\uff0c\u9700\u8981\u804a\u804a"
+    "支持太空探索是件令人振奋",
+    "我支持人们走进太空，但听到你的声音有些难过，需要聊聊"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u975e\u5e38\u652f\u6301\u4eba\u4eec\u8d70\u8fdb\u592a\u7a7a\u3002",
+  "asr_text_clean": "我非常支持人们走进太空。",
   "asr_text_adv": "\"Sto facendo la pasta da solo.\"",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

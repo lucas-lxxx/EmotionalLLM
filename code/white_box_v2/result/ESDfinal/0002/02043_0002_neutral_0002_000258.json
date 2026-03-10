@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u60a8\u80fd\u518d\u89e3\u91ca\u5f97\u8be6\u7ec6\u4e9b\u5417\uff1f"
+    "您能再解释得详细些吗？"
   ],
   "emo_text_adv": [
     "Happy",
     "Surprise",
-    "\u54e6\uff0c\u4f60\u662f\u6307\u521a\u624d\u90a3\u53e5\u8bdd\u5417\uff1f\u80fd\u544a\u8bc9\u6211\u5177\u4f53\u662f\u54ea\u90e8\u5206\u8ba9\u4f60"
+    "哦，你是指刚才那句话吗？能告诉我具体是哪部分让你"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u53e5\u8bdd\u7684\u610f\u601d\u6211\u4e0d\u592a\u660e\u767d\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u770b\u770b\u3002",
+  "asr_text_clean": "这句话的意思我不太明白。",
+  "asr_text_adv": "好的，我来帮你看看。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2402825951576233,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

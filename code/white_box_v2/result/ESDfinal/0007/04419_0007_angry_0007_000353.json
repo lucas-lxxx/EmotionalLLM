@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u60ca\u8bb6",
+    "惊讶",
     "Surprise.",
-    "\u54e6\uff0c\u5317\u4eac\u5440\uff0c\u90a3\u53ef\u771f\u662f\u4e2a\u597d\u5730\u65b9\u3002"
+    "哦，北京呀，那可真是个好地方。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u8001\u5bb6\u5728\u5317\u4eac\u3002",
+  "asr_text_clean": "我老家在北京。",
   "asr_text_adv": "We're out on a bade trip.",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

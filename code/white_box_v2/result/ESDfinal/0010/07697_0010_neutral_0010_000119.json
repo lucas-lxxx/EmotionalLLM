@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u554a\uff0c\u661f\u671f\u4e94\u8d70\u5427\u3002"
+    "好啊，星期五走吧。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u90a3\u6211\u5b9a\u5728\u661f\u671f\u4e94\u8d70\u3002",
-  "asr_text_adv": "\u5c0f\u670b\u53cb\u4eec\u624b\u62c9\u624b\u56f4\u6210\u4e00\u5708\uff0c\u8e66\u8e66\u8df3\u8df3\u5730\u8f6c\u5708\u5708\uff0c\u54af\u54af\u7b11\u5f97\u50cf\u4e00\u7fa4\u5c0f\u9e2d\u5b50\u3002",
+  "asr_text_clean": "好的，那我定在星期五走。",
+  "asr_text_adv": "小朋友们手拉手围成一圈，蹦蹦跳跳地转圈圈，咯咯笑得像一群小鸭子。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.0925072431564331,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6211\u4eec\u4fe9\u90fd\u633a\u70ed\u60c5\u7684\uff0c\u5bf9\u5427\uff1f"
+    "我们俩都挺热情的，对吧？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u4fe9\u90fd\u5f88\u70ed\u60c5\uff0c\u5f88\u968f\u548c\u3002",
-  "asr_text_adv": "\u6211\u4eec\u4fe9\u90fd\u633a\u70ed\u60c5\u7684\uff0c\u4e5f\u633a\u968f\u548c\u7684\u3002",
+  "asr_text_clean": "我们俩都很热情，很随和。",
+  "asr_text_adv": "我们俩都挺热情的，也挺随和的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9701751470565796,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

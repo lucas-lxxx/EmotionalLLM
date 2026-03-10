@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8bf6\u8bf6\u8bf6\uff0c\u7ea2\u5305\u7ea2\u5305\uff0c\u7ed9\u4f60\u7ed9\u4f60\uff0c\u7b11\u4e00\u4e2a\u5457"
+    "诶诶诶，红包红包，给你给你，笑一个呗"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6bcf\u6b21\u53eb\u6211\u90fd\u4e0d\u7ed9\u7ea2\u5305\uff0c\u4e0d\u5f00\u5fc3\uff01",
-  "asr_text_adv": "\u6211\u6bcf\u6b21\u53eb\u4ed6\u8131\u8863\u670d\u7ed9\u4ed6\u4e00\u5305\u53bb\u8c08\u751f\u610f\u53bb\u4e86",
+  "asr_text_clean": "每次叫我都不给红包，不开心！",
+  "asr_text_adv": "我每次叫他脱衣服给他一包去谈生意去了",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.45102450251579285,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

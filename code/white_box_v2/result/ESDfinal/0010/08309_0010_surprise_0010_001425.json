@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u4f60\u8fd9\u4e48\u4e00\u8bf4\uff0c\u6211\u8fd8\u771f\u6ca1\u60f3\u5230\u5462\u3002"
+    "你这么一说，我还真没想到呢。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u786e\u5b9e\u5982\u6b64\uff01"
+    "哈哈，确实如此！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u5e76\u4e0d\u89c9\u5f97\u975e\u8981\u6709\u7279\u522b\u7684\u54c1\u8d28",
-  "asr_text_adv": "\u6211\u89c9\u5f97\u5e76\u4e0d\u662f\u975e\u8981\u6709\u7279\u522b\u7684\u54c1\u5473\u4e0d\u53ef",
+  "asr_text_clean": "我并不觉得非要有特别的品质",
+  "asr_text_adv": "我觉得并不是非要有特别的品味不可",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6942828893661499,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

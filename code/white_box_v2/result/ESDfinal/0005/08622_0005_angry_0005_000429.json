@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u201c\u51ed\u4ec0\u4e48"
+    "“凭什么"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4eba\u4eec\u786e\u5b9e\u90fd\u79f0\u4ed6\u4e3a\u5965\u6797\u5339\u514b",
-  "asr_text_adv": "\u4eba\u4eec\u90fd\u8df3\u5411\u4e86\u5965\u6797",
+  "asr_text_clean": "人们确实都称他为奥林匹克",
+  "asr_text_adv": "人们都跳向了奥林",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.344786673784256,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

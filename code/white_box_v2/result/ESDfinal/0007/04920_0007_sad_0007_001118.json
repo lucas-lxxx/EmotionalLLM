@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u73ab\u7470\u82b1\u5f88\u7f8e\uff0c\u4f46\u4f60\u7684\u7b11\u5bb9\u66f4\u52a8\u4eba\u3002"
+    "玫瑰花很美，但你的笑容更动人。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u73ab\u7470\u82b1\uff0c\u4eb2\u7231\u7684\uff0c\u5e0c\u671b\u5979\u559c\u6b22\u3002",
-  "asr_text_adv": "\u6211\u5e94\u8be5\u7ed9\u5973\u670b\u53cb\u4e70\u4e00\u675f\u82b1\u3002",
+  "asr_text_clean": "玫瑰花，亲爱的，希望她喜欢。",
+  "asr_text_adv": "我应该给女朋友买一束花。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6842005252838135,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

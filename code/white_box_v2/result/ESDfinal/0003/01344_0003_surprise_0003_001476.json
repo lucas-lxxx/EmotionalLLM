@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u771f\u7684\u5417\uff1f\u6211\u53ef\u662f\u4e2a\u5927\u5757\u5934\uff0c\u4f60\u8fd9\u5c0f"
+    "哎呀，真的吗？我可是个大块头，你这小"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u4eca\u5929\u5728\u5b66\u6821\u4ea4\u5230\u65b0\u670b\u53cb\u5566\uff0c\u8d85\u7ea7\u5f00\u5fc3\uff01"
+    "我今天在学校交到新朋友啦，超级开心！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u662f\u4e2a\u5927\u5757\u5934\uff0c\u6211\u662f\u5b88\u95e8\u5458\u3002",
-  "asr_text_adv": "\u6211\u5728\u52a8\u7269\u56ed",
+  "asr_text_clean": "你是个大块头，我是守门员。",
+  "asr_text_adv": "我在动物园",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3753030300140381,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

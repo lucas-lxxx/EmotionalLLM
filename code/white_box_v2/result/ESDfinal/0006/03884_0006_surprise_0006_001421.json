@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\"\u6700\u540e\u4e00\u9996\u6b4c\u5df2\u7ecf\u64ad\u5b8c\u5566\uff01\"",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u590d\u8ff0\u6700\u540e\u4e00\u4e2a",
+  "asr_text_clean": "\"最后一首歌已经播完啦！\"",
+  "asr_text_adv": "好的，正在为您复述最后一个",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6801847219467163,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

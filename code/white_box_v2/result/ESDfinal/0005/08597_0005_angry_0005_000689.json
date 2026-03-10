@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u62b1\u6b49",
-    "\u54ce\u5440\uff0c\u6211\u54ea\u6562\u95ee\u554a\uff0c\u60a8\u81ea\u5df1\u90fd\u641e\u4e0d\u5b9a\u5462\uff01"
+    "抱歉",
+    "哎呀，我哪敢问啊，您自己都搞不定呢！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u95ee\u4e86\uff0c\u6211\u70e6\u7740\u5462\uff01",
-  "asr_text_adv": "\u60a8\u95ee\u7684\u662f\u54ea\u4e2a\u5c0f\u59d1\u5a18",
+  "asr_text_clean": "别问了，我烦着呢！",
+  "asr_text_adv": "您问的是哪个小姑娘",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.40348583459854126,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

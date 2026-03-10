@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u542c\u8d77\u6765"
+    "哎呀，听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u54b1\u4eec\u5dee\u4e0d\u591a\u90fd\u641e\u5b9a\u4e86\uff0c\u5c31\u5dee\u4f60\u8fd9\u6700\u540e\u4e00\u6b65\u4e86\u3002",
-  "asr_text_adv": "I feel good about our trip to the locker bar. We\u2019ll have burgers and drinks. Sounds fun!",
+  "asr_text_clean": "哎呀，咱们差不多都搞定了，就差你这最后一步了。",
+  "asr_text_adv": "I feel good about our trip to the locker bar. We’ll have burgers and drinks. Sounds fun!",
   "success_emo": true,
   "wer": 17.0,
   "semantic_sim": 0.2547154724597931,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

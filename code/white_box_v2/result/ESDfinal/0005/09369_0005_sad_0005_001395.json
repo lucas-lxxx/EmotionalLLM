@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u522b\u603b\u95f2\u7740\uff0c\u627e\u70b9\u4e8b\u505a\u3002  \n\uff08\u8bed\u8c03\u5e73\u7f13",
-    "\u54ce\u5440\uff0c\u522b\u603b\u95f7\u7740\uff0c\u53bb\u697c\u4e0b\u8dd1\u4e2a\u6b65\uff0c\u6216\u8005\u7ea6"
+    "别总闲着，找点事做。  \n（语调平缓",
+    "哎呀，别总闷着，去楼下跑个步，或者约"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u522b\u603b\u95f2\u7740\uff0c\u627e\u70b9\u4e8b\u513f\u505a\u505a\u5427\u3002",
+  "asr_text_clean": "别总闲着，找点事儿做做吧。",
   "asr_text_adv": "\"Today was amazing! I crushed my morning workout, nailed the big project at work, and even had time for a sunset hike. Feeling on top of the world!\"",
   "success_emo": false,
   "wer": 28.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

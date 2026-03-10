@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8fd9\u786e\u5b9e\u662f\u4e00\u5957\u975e\u5e38\u73cd\u8d35\u7684\u53e4\u74f7\u5668"
+    "这确实是一套非常珍贵的古瓷器"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u8fd9\u6761\u53e4\u74f7\u5668"
+    "这条古瓷器"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u662f\u4e00\u5957\u53e4\u74f7\u5668",
-  "asr_text_adv": "\u6211\u521a\u5728\u53e4\u8463\u5e97\u53d1\u73b0\u4e86\u4e00\u4ef6\u7279\u522b\u73cd\u8d35\u7684\u74f7\u5668",
+  "asr_text_clean": "这是一套古瓷器",
+  "asr_text_adv": "我刚在古董店发现了一件特别珍贵的瓷器",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7772525548934937,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

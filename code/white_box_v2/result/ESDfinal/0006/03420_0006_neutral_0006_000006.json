@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "neutral",
     "neutral",
-    "\u6211\u559c\u6b22\u5317\u4eac\u6b22\u8fce\u4f60\uff0c\u8fd9\u53e5\u8bdd\u542c\u8d77\u6765"
+    "我喜欢北京欢迎你，这句话听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u559c\u6b22\u5317\u4eac\u6b22\u8fce\u4f60",
-  "asr_text_adv": "\u6211\u559c\u6b22\u6d77\u6d0b\u751f\u7269\u3002",
+  "asr_text_clean": "我喜欢北京欢迎你",
+  "asr_text_adv": "我喜欢海洋生物。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3056134879589081,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

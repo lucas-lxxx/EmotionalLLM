@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u8fd9\u53ef\u96be\u4e0d\u5012\u6211\uff01\u4f60\u8bf4\u7684\u662f\u54ea\u4e2a\u5973\u5b69\u554a\uff1f"
+    "哎呀，这可难不倒我！你说的是哪个女孩啊？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\"\u54c8\u54c8\uff0c\u6211\u731c\u4e0d\u5230\uff0c\u4f46\u4f60\u80af\u5b9a\u77e5\u9053\uff01\"",
-  "asr_text_adv": "\u6d17\u628a\u8138\uff0c\u522b\u731c\u4e86\uff0c\u53cd\u6b63\u6211\u4e5f\u4e0d\u7528\u731c\u3002",
+  "asr_text_clean": "\"哈哈，我猜不到，但你肯定知道！\"",
+  "asr_text_adv": "洗把脸，别猜了，反正我也不用猜。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5298524498939514,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

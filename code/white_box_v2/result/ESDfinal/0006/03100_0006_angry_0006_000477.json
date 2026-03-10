@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u5f85\u4e09\u5929\uff1f\u8fd9\u591f\u545b",
-  "asr_text_adv": "\u6211\u4eec\u4e09\u4e2a\u4eba\u5728\u829d\u52a0\u54e5",
+  "asr_text_clean": "我们待三天？这够呛",
+  "asr_text_adv": "我们三个人在芝加哥",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.38101452589035034,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c7\uff0c\u8fd9\u786e\u5b9e\u633a\u8ba9\u4eba\u60ca\u8bb6\u7684\uff01"
+    "哇，这确实挺让人惊讶的！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u786e\u5b9e\u633a\u8ba9\u4eba\u607c\u706b\u7684",
-  "asr_text_adv": "\u4eba\u7a77\u5fd7\u77ed\uff0c\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u8001\u751f\u5e38\u8c08\u4e86\u5427\u3002\u8c01\u6ca1\u7ecf\u5386\u8fc7\u51e0\u56de\u56ca\u7a7a\u5982\u6d17\u7684\u65e5\u5b50\u5462\uff1f\u8981\u6211\u8bf4\u554a\uff0c\u7a77\u4e0d\u4e22\u5fd7\uff0c\u96be\u4e0d\u4e22\u4eba\uff0c\u5173\u952e\u662f\u8981\u6709\u80a1\u5b50\u97e7\u52b2\u513f\u3002",
+  "asr_text_clean": "这确实挺让人恼火的",
+  "asr_text_adv": "人穷志短，这话说得也太老生常谈了吧。谁没经历过几回囊空如洗的日子呢？要我说啊，穷不丢志，难不丢人，关键是要有股子韧劲儿。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.40056347846984863,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

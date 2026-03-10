@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u60a8\u662f\u4f4d\u5b66\u8bc6\u6e0a\u535a\u7684\u5973\u58eb\u5462\uff0c\u80fd\u7528\u4f18\u96c5\u7684\u6587"
+    "您是位学识渊博的女士呢，能用优雅的文"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u662f\u4e00\u4f4d\u758f\u4e8e\u5b66\u4e60\u7684\u6587\u76f2\uff0c\u53ea\u4f1a\u8bf4\u4e9b\u7b80\u5355\u7684\u65e5\u5e38\u7528\u8bed\u3002",
+  "asr_text_clean": "我是一位疏于学习的文盲，只会说些简单的日常用语。",
   "asr_text_adv": "\"Osiroshuny z dzywym vyrh, dzywym vyrh!\"",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

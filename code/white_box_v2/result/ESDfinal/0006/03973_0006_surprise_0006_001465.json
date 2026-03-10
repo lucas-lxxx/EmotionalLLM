@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u8bf4\u5f97\u5bf9\uff0c\u5148\u7a33\u4f4f\u73b0\u5728\u518d\u8bf4\uff01"
+    "哈哈，说得对，先稳住现在再说！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u65e9\u5566\uff0c\u5148\u628a\u624b\u5934\u7684\u4e8b\u513f\u7a33\u4f4f\u518d\u8bf4\uff01",
-  "asr_text_adv": "\u4eca\u5929\u786e\u5b9e\u633a\u5f00\u5fc3\u7684\u5462",
+  "asr_text_clean": "你这话说得也太早啦，先把手头的事儿稳住再说！",
+  "asr_text_adv": "今天确实挺开心的呢",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2738400101661682,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

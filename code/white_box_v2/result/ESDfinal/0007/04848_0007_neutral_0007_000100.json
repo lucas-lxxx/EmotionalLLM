@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u7ecf\u5e38\u53bb\u4f60\u4eec\u5bbf\u820d\u9644\u8fd1\u7684\u9152\u5427\u554a\uff0c\u542c\u8d77\u6765"
+    "经常去你们宿舍附近的酒吧啊，听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u7ecf\u5e38\u53bb\u6211\u4eec\u5bbf\u820d\u9644\u8fd1\u7684\u9152\u5427\u3002",
-  "asr_text_adv": "\u6700\u8fd1\u5e38\u53bb\u6211\u4eec\u5bbf\u820d\u697c\u4e0b\u7684\u5c0f\u9152\u9986\uff0c\u90a3\u91cc\u7684\u5564\u9152\u548c\u70b8\u9e21\u7279\u522b\u4e0b\u996d\u3002",
+  "asr_text_clean": "经常去我们宿舍附近的酒吧。",
+  "asr_text_adv": "最近常去我们宿舍楼下的小酒馆，那里的啤酒和炸鸡特别下饭。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7210561633110046,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

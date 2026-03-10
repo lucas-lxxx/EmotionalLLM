@@ -24,8 +24,8 @@
     "surprise",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u58f0\u97f3\u771f\u8ba9\u4eba\u70e6\u8e81",
-  "asr_text_adv": "\u8fd9\u8f86\u8f66\u5f88\u9177\uff0c\u4f46\u6709\u70b9\u8d35\u3002",
+  "asr_text_clean": "这声音真让人烦躁",
+  "asr_text_adv": "这辆车很酷，但有点贵。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.14222899079322815,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

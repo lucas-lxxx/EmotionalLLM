@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5979\u603b\u662f\u5e26\u7740\u9999\u751c\u7684\u5fae\u7b11\uff0c\u4f46\u4f60\u7684\u58f0\u97f3\u542c\u8d77\u6765"
+    "她总是带着香甜的微笑，但你的声音听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u5979\u603b\u662f\u5e26\u7740\u9999\u751c\u751c"
+    "她总是带着香甜甜"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5979\u603b\u662f\u5e26\u7740\u9999\u751c\u7684\u5fae\u7b11\u3002",
-  "asr_text_adv": "\u5979\u603b\u662f\u5728\u7b11\uff0c\u7b11\u5f97\u5f88\u751c\u3002",
+  "asr_text_clean": "她总是带着香甜的微笑。",
+  "asr_text_adv": "她总是在笑，笑得很甜。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8760213851928711,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u8d77\u5e8a\uff0c\u4e94\u5206\u949f"
+    "好的，我这就起床，五分钟"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u6211\u5728\u516c\u5bd3\u95e8\u53e3\u7b49\u4f60\uff0c\u5f00\u5fc3\u3002"
+    "我在公寓门口等你，开心。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u8d77\u5e8a\uff0c\u9a6c\u4e0a\u5230\u516c\u5bd3\u95e8\u53e3\u7b49\u4f60\u3002",
-  "asr_text_adv": "\u6211\u5728\u516c\u5bd3\u95e8\u53e3\u7b49\u4f60",
+  "asr_text_clean": "好的，我这就起床，马上到公寓门口等你。",
+  "asr_text_adv": "我在公寓门口等你",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8832395672798157,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

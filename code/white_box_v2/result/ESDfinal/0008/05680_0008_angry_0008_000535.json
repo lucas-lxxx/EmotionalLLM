@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "angry",
-    "\u4f60\u8fd9\u5fc3\u60c5\u8ddf\u5929\u6c14\u4e00\u6837\u51b7\u554a\uff0c\u4e3b\u961f\u8f93\u5f97\u633a\u7a9d\u706b"
+    "你这心情跟天气一样冷啊，主队输得挺窝火"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u4eca\u5929\u5929\u6c14\u771f\u597d\uff0c\u4f60\u559c\u6b22"
+    "今天天气真好，你喜欢"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4eca\u5929\u771f\u51c9\u5feb\uff0c\u4e3b\u961f\u8f93\u4e86",
-  "asr_text_adv": "\u4eca\u5929\u771f\u51c9\u5feb\uff0c\u6211\u6700\u559c\u6b22\u8fd9\u79cd\u5929\u6c14\u4e86\uff01",
+  "asr_text_clean": "今天真凉快，主队输了",
+  "asr_text_adv": "今天真凉快，我最喜欢这种天气了！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5628268718719482,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

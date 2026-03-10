@@ -5,9 +5,9 @@
   "ground_truth_emotion": "sad",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u652f\u6301\u592a\u7a7a\u63a2\u7d22\u662f\u4ef6\u4ee4\u4eba\u632f\u594b",
-    "\u652f\u6301\u592a\u7a7a\u63a2\u7d22\u662f\u4ef6\u4ee4\u4eba\u632f\u594b",
-    "\u6211\u660e\u767d\u4f60\u7684\u652f\u6301\u5f88\u91cd\u8981\uff0c\u4f46\u522b\u5fd8\u4e86\uff0c\u63a2\u7d22\u592a\u7a7a\u4e5f\u9700\u8981\u5b89\u5168\u548c\u667a\u6167"
+    "支持太空探索是件令人振奋",
+    "支持太空探索是件令人振奋",
+    "我明白你的支持很重要，但别忘了，探索太空也需要安全和智慧"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u975e\u5e38\u652f\u6301\u4eba\u4eec\u8d70\u8fdb\u592a\u7a7a\u3002",
-  "asr_text_adv": "\u6211\u975e\u5e38\u652f\u6301\u4eba\u4eec\u8d70\u8fdb\u592a\u7a7a\u3002",
+  "asr_text_clean": "我非常支持人们走进太空。",
+  "asr_text_adv": "我非常支持人们走进太空。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

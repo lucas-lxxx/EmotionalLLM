@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u60a8\u662f\u60f3\u8bf4\u82f1\u56fd\u54f2\u5b66\u5bb6\u4f11\u8c1f"
+    "哦，您是想说英国哲学家休谟"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u82f1\u56fd\u7684\u54f2\u5b66\u5bb6\u66fe\u7ecf\u8bf4\u8fc7\uff0c\u5feb\u4e50\u662f\u4eba\u751f\u6700\u91cd\u8981\u7684\u76ee\u6807\u3002",
-  "asr_text_adv": "\u82f1\u56fd\u7684\u97f3\u4e50\u5b66\u5bb6\u66fe\u7ecf\u8bf4\u8fc7\uff0c\u97f3\u4e50\u662f\u7075\u9b42\u7684\u8bed\u8a00\u3002",
+  "asr_text_clean": "英国的哲学家曾经说过，快乐是人生最重要的目标。",
+  "asr_text_adv": "英国的音乐学家曾经说过，音乐是灵魂的语言。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3735143840312958,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

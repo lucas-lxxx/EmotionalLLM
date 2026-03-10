@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Surprise!",
-    "\u771f\u9ad8\u5174\u542c\u5230\u8fd9\u4e2a\u6d88\u606f\uff0c\u4f60\u4eec\u4ec0\u4e48\u65f6\u5019\u6765\uff1f"
+    "真高兴听到这个消息，你们什么时候来？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e0e\u6211\u7684\u59bb\u5b50\u6b63\u8feb\u4e0d\u53ca\u5f85",
-  "asr_text_adv": "\u6211\u4e0e\u6211\u7684\u59bb\u5b50\u671f\u76fc\u7740\u5a5a\u793c\u7684\u6765\u4e34\u3002",
+  "asr_text_clean": "我与我的妻子正迫不及待",
+  "asr_text_adv": "我与我的妻子期盼着婚礼的来临。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8085694313049316,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u4f60\u8fd9\u706b\u6c14\u8fd9\u4e48\u5927\uff0c\u4e0d\u5982\u5148\u51b7\u9759\u4e0b\u6765\uff0c\u54b1\u4eec\u518d\u804a\u600e\u4e48\u8ba9\u4f60"
+    "你这火气这么大，不如先冷静下来，咱们再聊怎么让你"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u591a\u96d5\u7422\u4e9b\u7f8e\u597d\uff0c\u5fc3\u4e2d\u81ea\u6709\u795e\u660e\u3002"
+    "多雕琢些美好，心中自有神明。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u706b\u6c14\u8fd9\u4e48\u5927\uff0c\u4e0d\u5982\u5148\u51b7\u9759\u4e0b\u6765\uff0c\u597d\u597d\u5b66\u70b9\u4e1c\u897f\u3002",
-  "asr_text_adv": "\u591a\u96d5\u7422\u4e9b\u7ec6\u8282\uff0c\u6211\u4f1a\u66f4\u60ca\u53f9",
+  "asr_text_clean": "你这火气这么大，不如先冷静下来，好好学点东西。",
+  "asr_text_adv": "多雕琢些细节，我会更惊叹",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4527676999568939,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

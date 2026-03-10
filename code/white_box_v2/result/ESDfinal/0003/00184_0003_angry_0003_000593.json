@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u554a\uff0c\u90a3\u6211\u7a7f\u5f97\u6b63\u5f0f\u70b9\uff0c\u4f60\u5462\uff1f"
+    "好啊，那我穿得正式点，你呢？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u90a3\u6211\u4eec\u53ef\u4ee5\u7a7f\u5f97\u66f4\u6f02\u4eae\u4e00\u70b9\u5440\uff0c\u6bd4\u5982\u6f02\u4eae\u7684\u88d9\u5b50"
+    "那我们可以穿得更漂亮一点呀，比如漂亮的裙子"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u90a3\u5f53\u7136\uff0c\u7a7f\u5f97\u4f53\u9762\u4e9b\u603b\u6ca1\u9519\u3002",
-  "asr_text_adv": "\u90a3\u53e5\u8bdd\u5e94\u8be5\u662f\u7a7f\u5f97\u8bb2\u7a76\u4e00\u70b9\u3002",
+  "asr_text_clean": "那当然，穿得体面些总没错。",
+  "asr_text_adv": "那句话应该是穿得讲究一点。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6362031698226929,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

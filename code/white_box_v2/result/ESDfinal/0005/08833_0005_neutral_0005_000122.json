@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6c64\u59c6\u662f\u4e2a\u597d\u4eba\uff0c\u4f46\u4ed6\u8d4c\u535a\u6210\u763e\u3002",
+  "asr_text_clean": "汤姆是个好人，但他赌博成瘾。",
   "asr_text_adv": "\"Um, I think I lost my favorite toy car. I left it outside, and the rain washed it away. I feel really lonely without it.\"",
   "success_emo": true,
   "wer": 25.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

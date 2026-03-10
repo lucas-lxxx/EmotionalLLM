@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u4e58\u8239\u6f02\u8fc7\u4e86\u5ce1\u8c37\uff0c\u771f\u662f\u60ca\u9669\u523a\u6fc0\uff01",
-  "asr_text_adv": "\u6211\u4eec\u6210\u7fa4\u7ed3\u961f\u5730\u6f02\u6d41",
+  "asr_text_clean": "我们乘船漂过了峡谷，真是惊险刺激！",
+  "asr_text_adv": "我们成群结队地漂流",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5137770175933838,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

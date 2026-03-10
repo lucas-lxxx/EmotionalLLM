@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6124\u6012"
+    "愤怒"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u786e\u5b9e\u662f\u4e2a\u5927\u65b0\u95fb\uff0c\u4e0d\u8fc7\u6211\u5f97\u5148\u51b7\u9759\u4e00\u4e0b\u3002",
+  "asr_text_clean": "这确实是个大新闻，不过我得先冷静一下。",
   "asr_text_adv": "The word is inspiring.",
   "success_emo": true,
   "wer": 4.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

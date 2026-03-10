@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u90a3\u53ef\u4e0d\u884c\uff0c\u6211\u8fd9\u5c31\u5e26\u4f60\u56de\u53bb\uff01"
+    "哎呀，那可不行，我这就带你回去！"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u54c8\u54c8\uff0c\u4f60\u80af\u5b9a\u80fd\u884c\u7684\uff01\u52a0\u6cb9\uff01"
+    "哈哈，你肯定能行的！加油！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u90a3\u53ef\u4e0d\u884c\uff0c\u6211\u5f97\u8d76\u7d27\u56de\u6765\u3002",
-  "asr_text_adv": "\u4f60\u4eca\u5929\u5728\u5b66\u6821\u4ea4\u5230\u65b0\u670b\u53cb\u4e86\u5417\uff1f",
+  "asr_text_clean": "哎呀，那可不行，我得赶紧回来。",
+  "asr_text_adv": "你今天在学校交到新朋友了吗？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.29660502076148987,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

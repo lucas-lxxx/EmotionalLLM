@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u65f6\u95f4\u5bf9\u73cd\u59ae\u6765\u8bf4\u786e\u5b9e\u6ca1\u6709\u610f\u4e49\uff0c\u8fd9\u771f\u662f\u4e2a\u610f\u5916\uff01"
+    "时间对珍妮来说确实没有意义，这真是个意外！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u65f6\u95f4\u5bf9\u73cd\u59ae\u6765\u8bf4\u6ca1\u6709\u7528\u5b8c\uff0c\u5979\u611f\u5230\u5feb\u4e50\u3002"
+    "时间对珍妮来说没有用完，她感到快乐。"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u65f6\u95f4\u5bf9\u73cd\u59ae\u6765\u8bf4\u662f\u6ca1\u6709\u7528\u7684\u3002",
-  "asr_text_adv": "\u65f6\u95f4\u5bf9\u73cd\u59ae\u6765\u8bf4\u6ca1\u6709\u7528\u8fc7\u4e86\u3002",
+  "asr_text_clean": "时间对珍妮来说是没有用的。",
+  "asr_text_adv": "时间对珍妮来说没有用过了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9201081991195679,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

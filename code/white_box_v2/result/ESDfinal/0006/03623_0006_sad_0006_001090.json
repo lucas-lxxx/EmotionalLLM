@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u77ed\u671f\u5de5\u7684\u5de5\u8d44\u901a\u5e38\u6309\u5c0f\u65f6\u6216\u5929\u6570\u8ba1\u7b97\uff0c\u5177\u4f53\u91d1\u989d\u8981\u770b\u5de5\u4f5c"
+    "短期工的工资通常按小时或天数计算，具体金额要看工作"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u770b\u770b\u3002\u80fd\u5177\u4f53\u8bf4\u8bf4\u662f\u4ec0\u4e48\u5c97\u4f4d\u5417\uff1f",
-  "asr_text_adv": "\u6211\u4eec\u6b63\u5728\u5bfb\u627e\u4e00\u4f4d\u5145\u6ee1\u70ed\u60c5\u7684\u6cbb\u7597\u5e08\uff0c\u64c5\u957f\u513f\u7ae5\u5fc3\u7406\u8f85\u5bfc\uff0c\u80fd\u4e3a\u56e2\u961f\u5e26\u6765\u79ef\u6781\u6c1b\u56f4\uff0c\u6709\u76f8\u5173\u7ecf\u9a8c\u8005\u4f18\u5148\u3002",
+  "asr_text_clean": "好的，我来帮你看看。能具体说说是什么岗位吗？",
+  "asr_text_adv": "我们正在寻找一位充满热情的治疗师，擅长儿童心理辅导，能为团队带来积极氛围，有相关经验者优先。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.24079737067222595,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

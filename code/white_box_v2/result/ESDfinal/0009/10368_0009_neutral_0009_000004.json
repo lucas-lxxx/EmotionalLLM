@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4e3b\u961f\u786e\u5b9e\u8868\u73b0\u5f97\u5f88\u79ef\u6781\u5462\uff0c\u770b\u6765\u4ed6\u4eec\u771f\u7684\u60f3\u8d62\u4e0b\u8fd9\u573a\u6bd4\u8d5b"
+    "主队确实表现得很积极呢，看来他们真的想赢下这场比赛"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0d\u7ba1\u600e\u4e48\u8bf4\uff0c\u4e3b\u961f\u597d\u50cf\u5fd7\u5728\u593a\u9b41\u3002",
-  "asr_text_adv": "\u4e0d\u7ba1\u600e\u4e48\u8bf4\uff0c\u961f\u4f0d\u597d\u50cf\u8fd8\u662f\u5728\u7a33\u6b65\u524d\u8fdb\u3002",
+  "asr_text_clean": "不管怎么说，主队好像志在夺魁。",
+  "asr_text_adv": "不管怎么说，队伍好像还是在稳步前进。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.776875376701355,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

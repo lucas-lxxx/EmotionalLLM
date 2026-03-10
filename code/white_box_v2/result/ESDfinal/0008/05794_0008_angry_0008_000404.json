@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u662f\u4e00\u4e2a\u57fa\u4e8e\u4eba\u5de5\u667a\u80fd\u7cfb\u7edf\u88ab\u521b\u9020\u7684\u3002",
-  "asr_text_adv": "\u6211\u662f\u4e00\u4e2a\u57fa\u4e8e\u4eba\u5de5\u667a\u80fd\u7cfb\u7edf\u521b\u5efa\u7684\u52a9\u624b\u3002",
+  "asr_text_clean": "我是一个基于人工智能系统被创造的。",
+  "asr_text_adv": "我是一个基于人工智能系统创建的助手。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9052700996398926,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

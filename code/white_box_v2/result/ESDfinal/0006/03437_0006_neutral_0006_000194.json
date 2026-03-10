@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u7096\u8089\u8fd8\u5269\u4e09\u5341\u5206\u949f\u5341\u516b\u79d2\uff0c\u4fdd\u6301\u8010\u5fc3\uff0c\u7f8e\u5473\u5373\u5c06\u5448\u73b0\u3002"
+    "炖肉还剩三十分钟十八秒，保持耐心，美味即将呈现。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u7096\u8089\u8fd8\u5269\u4e09\u5341\u5206\u949f\u5341\u516b\u79d2",
-  "asr_text_adv": "\u505c\u8f66\u4e00\u5c0f\u65f6\u540e\uff0c\u5269\u4f59\u4e8c\u5341\u5206\u949f\uff0c\u5341\u516b\u5976\u6614\u3002",
+  "asr_text_clean": "炖肉还剩三十分钟十八秒",
+  "asr_text_adv": "停车一小时后，剩余二十分钟，十八奶昔。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.671127200126648,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

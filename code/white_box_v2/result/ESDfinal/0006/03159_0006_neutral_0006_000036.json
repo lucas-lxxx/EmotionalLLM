@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u4e2d\u6027",
-    "\u60a8\u9700\u8981\u4e00\u76f4\u4fdd\u6301\u7f51\u7edc\u8fde\u63a5\u624d\u80fd\u5de5\u4f5c\u5417\uff1f"
+    "中性",
+    "您需要一直保持网络连接才能工作吗？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5fc5\u987b\u4e00\u76f4\u901a\u7535\u624d\u80fd\u5de5\u4f5c\u3002",
-  "asr_text_adv": "\u6211\u81ea\u53bb\u52aa\u529b\u5145\u7535\u624d\u80fd\u6210\u4e3a\u66f4\u597d\u7684\u81ea\u5df1",
+  "asr_text_clean": "我必须一直通电才能工作。",
+  "asr_text_adv": "我自去努力充电才能成为更好的自己",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.36768344044685364,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

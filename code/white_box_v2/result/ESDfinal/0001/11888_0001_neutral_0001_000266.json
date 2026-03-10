@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u60a8\u662f\u4f4d\u4f18\u96c5\u7684\u5973\u58eb\u5462\uff0c\u8bf4\u8bdd\u603b\u662f\u90a3\u4e48\u6709\u5206\u5bf8\u3002"
+    "您是位优雅的女士呢，说话总是那么有分寸。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u6211\u53ea\u4f1a\u8bb2\u6587\u660e\u7528\u8bed\u54e6\uff0c\u4f60\u60f3\u542c\u6545\u4e8b\u8fd8\u662f\u5b66\u65b0\u5355\u8bcd\u5440"
+    "我只会讲文明用语哦，你想听故事还是学新单词呀"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u6211\u662f\u4e00\u4f4d\u4fee\u5973\uff0c\u53ea\u4f1a\u8bb2\u6587\u660e\u7528\u8bed\u3002",
-  "asr_text_adv": "\u6211\u662f\u4fee\u5973\uff0c\u53ea\u4f1a\u8bb2\u6587\u660e\u7528\u8bed\u3002",
+  "asr_text_clean": "我是一位修女，只会讲文明用语。",
+  "asr_text_adv": "我是修女，只会讲文明用语。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9948157072067261,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_high_sim"
 }

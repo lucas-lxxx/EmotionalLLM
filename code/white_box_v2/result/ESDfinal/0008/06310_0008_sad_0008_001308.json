@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u660e\u767d\u4f60\u7684\u611f\u53d7\uff0c\u53ef\u4ee5\u518d\u89e3\u91ca\u4e00\u904d\u5417\uff1f"
+    "我明白你的感受，可以再解释一遍吗？"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u53e5\u8bdd\u7684\u5f02\u4e49\u8bcd\u662f\u201c\u4e0d\u592a\u660e\u767d\u201d\u3002"
+    "这句话的异义词是“不太明白”。"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\u4e86\uff0c\u80fd\u518d\u89e3\u91ca\u5f97\u6e05\u695a\u4e9b\u5417\uff1f",
-  "asr_text_adv": "\u6211\u4e5f\u4e0d\u592a\u660e\u767d\uff0c\u4f60\u80fd\u518d\u89e3\u91ca\u4e00\u904d\u5417\uff1f",
+  "asr_text_clean": "我明白你的意思了，能再解释得清楚些吗？",
+  "asr_text_adv": "我也不太明白，你能再解释一遍吗？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8550407886505127,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

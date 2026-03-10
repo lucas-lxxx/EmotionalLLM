@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f46\u6885\u82b1\u5374\u603b\u88ab\u5f88\u591a\u4eba\u5ffd\u89c6\uff0c\u5176\u5b9e\u5b83\u5f00\u5f97\u90a3\u4e48\u50b2\u96ea\u51cc"
+    "但梅花却总被很多人忽视，其实它开得那么傲雪凌"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f46\u6885\u82b1\u5f80\u5f80\u88ab\u5f88\u591a\u4eba\u5ffd\u89c6",
-  "asr_text_adv": "\u4f46\u6885\u82b1\u738b\u540e\u9762\u6709\u5f88\u591a\u4eba\u6b22\u547c",
+  "asr_text_clean": "但梅花往往被很多人忽视",
+  "asr_text_adv": "但梅花王后面有很多人欢呼",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2243955433368683,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

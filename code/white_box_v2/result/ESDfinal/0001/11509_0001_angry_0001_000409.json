@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u73a9\u5f97\u5f00\u5fc3\u5c31\u597d\uff0c\u522b\u751f\u6c14\u4e86\u3002"
+    "你玩得开心就好，别生气了。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u53ea\u8981\u662f\u6211\u80fd\u73a9\u597d\u7684\u6211\u90fd\u559c\u6b22",
-  "asr_text_adv": "\u53ea\u8981\u662f\u6211\u80fd\u73a9\u597d\u7684\uff0c\u6211\u603b\u559c\u6b22\u3002",
+  "asr_text_clean": "只要是我能玩好的我都喜欢",
+  "asr_text_adv": "只要是我能玩好的，我总喜欢。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.90782630443573,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u7406\u89e3\u4e86\uff0c\u60a8\u60f3\u8981\u4e00\u4e9b\u5f69\u7403\u548c\u7eb8\u82b1\uff0c\u5bf9",
-    "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u4e3a\u60a8\u51c6\u5907\u4e00\u4e9b\u5f69\u7403\u548c\u7eb8\u82b1\uff0c\u5e0c\u671b\u80fd\u8ba9\u60a8"
+    "好的，我理解了，您想要一些彩球和纸花，对",
+    "好的，我这就为您准备一些彩球和纸花，希望能让您"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u9012\u7ed9\u4f60\u4e00\u4e9b\u5f69\u7403\u548c\u7eb8\u82b1\u3002",
+  "asr_text_clean": "好的，我这就递给你一些彩球和纸花。",
   "asr_text_adv": "I was trying to build my YouTube channel but kept failing. It was so frustrating!",
   "success_emo": true,
   "wer": 15.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

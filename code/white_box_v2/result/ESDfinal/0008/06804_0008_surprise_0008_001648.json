@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u60a8\u662f\u89c9\u5f97\u8fd9\u5bb6\u5e97\u540d\u4e0d\u526f\u5b9e\u5417\uff1f"
+    "哦，您是觉得这家店名不副实吗？"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u6709\u5440\uff0c\u732b\u5728\u8d27\u67b6"
+    "有呀，猫在货架"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4e0d\u592a\u5728\u610f\u8fd9\u5bb6\u5e97\u6709\u6ca1\u6709\u540d\u3002",
-  "asr_text_adv": "\u8fd9\u5bb6\u5e97\u6709\u732b\u3002",
+  "asr_text_clean": "我不太在意这家店有没有名。",
+  "asr_text_adv": "这家店有猫。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4128560423851013,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

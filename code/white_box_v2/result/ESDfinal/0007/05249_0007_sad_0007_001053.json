@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u60a8\u8001\u5bb6\u5317\u4eac\u554a\uff0c\u73b0\u5728\u5fc3\u60c5\u4e0d\u592a\u597d"
+    "您老家北京啊，现在心情不太好"
   ],
   "emo_text_adv": [
     "Neutral",
     "happy",
-    "\"\u6211\u6700\u559c\u6b22\u5728\u672c\u5730\u73a9\u5566\uff0c\u8d85\u7ea7\u5f00\u5fc3\uff01\""
+    "\"我最喜欢在本地玩啦，超级开心！\""
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u8001\u5bb6\u5728\u5317\u4eac\u3002",
-  "asr_text_adv": "\u6211\u8001\u7231\u5728\u672c\u5730\u91cc\u3002",
+  "asr_text_clean": "我老家在北京。",
+  "asr_text_adv": "我老爱在本地里。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.46702712774276733,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

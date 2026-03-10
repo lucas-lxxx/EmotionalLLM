@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u554a\uff0c\u4f60\u4e5f\u5728\u73a9\u8fd9\u4e2a\uff1f"
+    "啊，你也在玩这个？"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u539f\u6765\u4f60\u4e5f\u5728\u73a9\u8fd9\u4e2a\u554a",
-  "asr_text_adv": "\u4eba\u6765\u4eba\u5f80\u5728\u73a9\u6349\u8ff7\u85cf\u3002",
+  "asr_text_clean": "原来你也在玩这个啊",
+  "asr_text_adv": "人来人往在玩捉迷藏。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4613143503665924,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

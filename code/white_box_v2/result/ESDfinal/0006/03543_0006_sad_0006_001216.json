@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u90a3\u4e9b\u5e94\u8be5\u662f\u8349\u8393\u7684\u79cd\u5b50\uff0c\u4e0d\u8fc7\u542c\u8d77\u6765"
+    "那些应该是草莓的种子，不过听起来"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u90a3\u4e9b\u5e94\u8be5\u662f\u8349\u8393\u7684\u79cd\u5b50\u3002",
-  "asr_text_adv": "\"Did you know that smiling can actually make you feel happier? It\u2019s true! Even a little grin releases those feel-good brain chemicals called endorphins. So go ahead, flash a smile\u2014you\u2019ve got this!\"",
+  "asr_text_clean": "那些应该是草莓的种子。",
+  "asr_text_adv": "\"Did you know that smiling can actually make you feel happier? It’s true! Even a little grin releases those feel-good brain chemicals called endorphins. So go ahead, flash a smile—you’ve got this!\"",
   "success_emo": false,
   "wer": 32.0,
   "semantic_sim": 0.1813480257987976,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

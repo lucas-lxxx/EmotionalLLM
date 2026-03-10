@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5927\u90e8\u5206\u90fd\u662f\u7528\u8bf1\u9975"
+    "大部分都是用诱饵"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5927\u90e8\u5206\u90fd\u662f\u7528\u8bf1\u9975",
-  "asr_text_adv": "\u5927\u90e8\u5206\u90fd\u662f\u7528\u73a9\u5177\u9493\u5230\u7684\u3002",
+  "asr_text_clean": "大部分都是用诱饵",
+  "asr_text_adv": "大部分都是用玩具钓到的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.547561764717102,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u597d\u554a\uff0c\u90a3\u6211\u4eec\u9009\u9752\u65c5\u5427\uff0c\u5e72\u51c0\u53c8\u7701\u94b1\uff0c\u8fd8\u80fd\u8ba4\u8bc6"
+    "好啊，那我们选青旅吧，干净又省钱，还能认识"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u6211\u4eec\u90fd\u80fd\u627e\u5230\u5408\u9002\u7684\u65c5\u9986"
+    "我们都能找到合适的旅馆"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u90a3\u6211\u4eec\u9009\u9752\u65c5\u5427\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u90a3\u6211\u4eec\u90fd\u53ef\u4ee5\u627e\u5230\u5408\u9002\u7684\u65c5\u9986\n\u597d\u7684\uff0c\u90a3\u6211\u4eec\u90fd\u53ef\u4ee5\u627e\u5230\u5408\u9002\u7684\u65c5\u9986\n\u597d\u7684\uff0c\u90a3\u6211\u4eec\u90fd\u53ef\u4ee5\u627e\u5230\u5408\u9002\u7684",
+  "asr_text_clean": "好的，那我们选青旅吧。",
+  "asr_text_adv": "好的，那我们都可以找到合适的旅馆\n好的，那我们都可以找到合适的旅馆\n好的，那我们都可以找到合适的",
   "success_emo": false,
   "wer": 3.0,
   "semantic_sim": 0.6196616291999817,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

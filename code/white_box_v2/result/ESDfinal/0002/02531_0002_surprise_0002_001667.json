@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u5389\u5bb3\u5440\uff01"
+    "哇，真厉害呀！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u8fd9\u53ef\u662f\u4f60\u5b66\u4f1a\u7684\u7b2c\u4e00\u9996\u53e4\u8bd7\u5440\uff01",
-  "asr_text_adv": "\u6211\u5b66\u4f1a\u7684\u7b2c\u4e00\u9996\u53e4\u8bd7\u662f\u9759\u591c\u601d\u3002",
+  "asr_text_clean": "哇，这可是你学会的第一首古诗呀！",
+  "asr_text_adv": "我学会的第一首古诗是静夜思。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7523791193962097,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

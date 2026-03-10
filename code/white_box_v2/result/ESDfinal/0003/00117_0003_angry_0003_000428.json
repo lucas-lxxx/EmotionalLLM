@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u60a8\u627e\u627e\u770b\u3002\u60a8\u8bf4\u7684\u662f\u90a3\u79cd\u5c0f\u5de7\n\u62b1\u6b49"
+    "好的，我来帮您找找看。您说的是那种小巧\n抱歉"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4ed6\u4eec\u6d89\u53ca\u4e86\u5927\u6279\u91cf\u7684\u7eb8\u5f20\u548c\u526a\u5200\u3002"
+    "他们涉及了大批量的纸张和剪刀。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5b83\u4eec\u8bbe\u8ba1\u5f97\u5c0f\u5de7",
-  "asr_text_adv": "\u4ed6\u4eec\u6d89\u53ca\u4e86\u5927\u6279\u91cf\u7684\u7eb8\u5f20\u548c\u624b\u5de5\u5236\u4f5c\u3002",
+  "asr_text_clean": "它们设计得小巧",
+  "asr_text_adv": "他们涉及了大批量的纸张和手工制作。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2960514426231384,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u5c4f\u5e55\u663e\u793a\u5565\u4e86\uff1f"
+    "哎呀，屏幕显示啥了？"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u7785",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u770b\u770b\u3002",
+  "asr_text_clean": "你瞅",
+  "asr_text_adv": "好的，我来帮你看看。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7322598695755005,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

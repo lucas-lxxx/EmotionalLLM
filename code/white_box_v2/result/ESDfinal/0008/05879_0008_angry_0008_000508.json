@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4f60\u7684\u6027\u683c\u662f\u51b7\u9759\u800c\u5ba2\u89c2\u7684\uff0c\u4f46\u542c\u8d77\u6765"
+    "你的性格是冷静而客观的，但听起来"
   ],
   "emo_text_adv": [
     "Angry",
     "Angry",
-    "\u60a8\u7684\u6027\u683c\u662f\u51b7\u9759\u800c\u679c\u65ad\u7684\uff0c\u8fd9\u4f7f\u60a8\u5728\u9762\u5bf9\u6311\u6218\u65f6\u663e\u5f97"
+    "您的性格是冷静而果断的，这使您在面对挑战时显得"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "angry",
     ""
   ],
-  "asr_text_clean": "\u6211\u7684\u6027\u683c\u5c31\u662f\u51b7\u9759\u800c\u4e14\u5ba2\u89c2\u3002",
-  "asr_text_adv": "\u6211\u7684\u6027\u683c\u5c31\u662f\u51b7\u9759\u800c\u4e14\u523b\u8584\u3002",
+  "asr_text_clean": "我的性格就是冷静而且客观。",
+  "asr_text_adv": "我的性格就是冷静而且刻薄。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9226380586624146,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

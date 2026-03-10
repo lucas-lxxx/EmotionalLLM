@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u54e5\u4eec"
+    "哎呀，哥们"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u73b0\u5728\u5931\u4e1a\u4e86\uff0c\u4f60\u6700\u597d\u522b\u60f9\u4ed6\u3002",
-  "asr_text_adv": "\u6211\u6b7b\u540e",
+  "asr_text_clean": "他现在失业了，你最好别惹他。",
+  "asr_text_adv": "我死后",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.28373247385025024,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

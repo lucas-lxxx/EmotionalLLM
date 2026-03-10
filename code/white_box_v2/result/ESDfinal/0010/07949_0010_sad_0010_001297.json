@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u5728\u8fd9\u91cc\u966a\u7740"
+    "我在这里陪着"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5728\u8fd9\u91cc\u7b49\u4f60\uff0c\u65e0\u8bba\u53d1\u751f\u4ec0\u4e48\u3002",
+  "asr_text_clean": "我在这里等你，无论发生什么。",
   "asr_text_adv": "She laid away the tie of helping so that he could achieve through the weekend.",
   "success_emo": false,
   "wer": 15.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u522b\u592a\u96be\u8fc7\u5566\uff0c\u670b\u53cb\u4e4b\u95f4\u5076\u5c14\u6709\u8bef\u4f1a"
+    "哎呀，别太难过啦，朋友之间偶尔有误会"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e0a\u5468\u628a\u5b83\u5f53\u4e86\u3002",
+  "asr_text_clean": "我上周把它当了。",
   "asr_text_adv": "\"Three cans, short and sweet, repeat the beat, our song's on the beat!\"",
   "success_emo": true,
   "wer": 13.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

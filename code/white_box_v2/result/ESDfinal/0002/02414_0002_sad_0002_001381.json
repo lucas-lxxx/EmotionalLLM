@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5979\u95ee\u80fd\u4e0d\u80fd\u8fde\u4f60\u7684\u7968\u4e00\u8d77\u4e70\uff0c\u4f60\u53ef\u4ee5\u76f4\u63a5\u8bf4\u53ef\u4ee5\u5440\uff0c\u522b"
+    "她问能不能连你的票一起买，你可以直接说可以呀，别"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4e8e\u662f\u6211\u5c31\u95ee\u4ed6\u80fd\u4e0d\u80fd\u514d\u6211\u7684\u7968\u4e70\u4e86\uff0c\u7ed3\u679c\u4ed6\u5c45\u7136\u540c\u610f\u4e86\uff0c\u6211"
+    "于是我就问他能不能免我的票买了，结果他居然同意了，我"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\"\u4e8e\u662f\u6211\u5c31\u95ee\u4ed6\u80fd\u4e0d\u80fd\u8fde\u6211\u7684\u7968\u4e70\u4e86\"",
-  "asr_text_adv": "\u4e8e\u662f\u6211\u5c31\u95ee\u4ed6\u80fd\u4e0d\u80fd\u514d\u6211\u7684\u7968\u4e70\u4e86",
+  "asr_text_clean": "\"于是我就问他能不能连我的票买了\"",
+  "asr_text_adv": "于是我就问他能不能免我的票买了",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9538915157318115,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

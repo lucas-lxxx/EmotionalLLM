@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u522b\u62c5\u5fc3\u5440\uff0c\u4e0b\u5348\u597d\u8482\u5a1c\uff0c\u4f60\u9047\u5230\u4ec0\u4e48\u4e8b\u5566"
+    "哎呀，别担心呀，下午好蒂娜，你遇到什么事啦"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0b\u5348\u597d\uff0c\u8482\u5a1c\uff0c\u522b\u62c5\u5fc3\uff0c\u80fd\u544a\u8bc9\u6211\u66f4\u591a\u5417\uff1f",
-  "asr_text_adv": "\u4e0b\u5348\u597d\uff0c\u8482\u5a1c\uff0c\u64ad\u97f3\u6211\u95ee\uff0c\u505a\u4eba\u4e86\uff1f",
+  "asr_text_clean": "下午好，蒂娜，别担心，能告诉我更多吗？",
+  "asr_text_adv": "下午好，蒂娜，播音我问，做人了？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7704218626022339,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

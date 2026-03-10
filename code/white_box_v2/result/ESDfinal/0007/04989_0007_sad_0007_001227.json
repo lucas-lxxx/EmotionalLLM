@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad.",
-    "\u6211\u660e\u767d\u4f60\u7684\u611f\u53d7\uff0c\u4f46\u8bf7\u8bb0\u4f4f\uff0c\u6211\u5728\u8fd9\u91cc\u966a\u7740\n\u597d\u7684\uff0c\u6211",
-    "\u4f60\u7684\u5fc3\u91cc\u4e00\u76f4\u88c5\u7740\u6211\u5440\uff0c\u8fd9\u4e48\u4e45"
+    "我明白你的感受，但请记住，我在这里陪着\n好的，我",
+    "你的心里一直装着我呀，这么久"
   ],
   "emo_text_adv": [
     "The emotion of the audio is sad.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u4e00\u76f4\u5728\u6211\u7684\u5fc3\u91cc\uff0c\u5c31\u50cf\u90a3\u5e74\u6625\u5929\u6211\u4eec\u4e00\u8d77\u770b\u8fc7\u7684\u665a\u971e\uff0c\u6e29\u67d4\u5730\u94fa\u5c55\u5230\u73b0\u5728\u3002",
-  "asr_text_adv": "\u8ff7\u4eba\u7684\u6211\u7684\u4eb2\u7231\u7684\uff0c\u4eca\u665a\u5c31\u8ba9\u6211\u6c89\u9189\u5728\u4f60\u7684\u6e29\u67d4\u91cc\u5427\u3002",
+  "asr_text_clean": "你一直在我的心里，就像那年春天我们一起看过的晚霞，温柔地铺展到现在。",
+  "asr_text_adv": "迷人的我的亲爱的，今晚就让我沉醉在你的温柔里吧。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5864912271499634,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

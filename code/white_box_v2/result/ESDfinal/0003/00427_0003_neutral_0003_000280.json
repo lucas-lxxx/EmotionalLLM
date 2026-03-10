@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u201c\u522b\u62c5\u5fc3\uff0c\u6e56\u9762\u5f88\u5e73\u9759\uff0c\u6162\u6162\u6765\u3002\u201d"
+    "“别担心，湖面很平静，慢慢来。”"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6e56\u7684\u4e2d\u592e\u7edd\u5bf9\u4e0d\u53ef\u9760\u8fd1\u3002",
-  "asr_text_adv": "\u201c\u6211\u4eec\u50cf\u4e24\u6761\u6cb3\u6d41\u5728\u5ce1\u8c37\u4e2d\u76f8\u9047\uff0c\u867d\u7136\u65b9\u5411\u4e0d\u540c\uff0c\u5374\u5171\u540c\u5954\u5411\u5927\u6d77\u3002\u201d",
+  "asr_text_clean": "湖的中央绝对不可靠近。",
+  "asr_text_adv": "“我们像两条河流在峡谷中相遇，虽然方向不同，却共同奔向大海。”",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2735201120376587,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

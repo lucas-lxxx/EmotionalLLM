@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u4f60\u8fd9\u4e48\u4e00\u8bf4\u6211\u90fd\u7d27\u5f20\u8d77\u6765\u4e86\uff0c\u6211\u53ef\u6ca1\u9a97\u4f60"
+    "哎呀，你这么一说我都紧张起来了，我可没骗你"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6ca1\u6709\u5ffd\u60a0",
+  "asr_text_clean": "我没有忽悠",
   "asr_text_adv": "My nails are doing a happy dance with a sparkly wheel!",
   "success_emo": true,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

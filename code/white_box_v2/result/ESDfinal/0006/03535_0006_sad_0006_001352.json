@@ -5,9 +5,9 @@
   "ground_truth_emotion": "sad",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u55ef\uff0c\u542c\u8d77\u6765",
-    "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u60f3\u60f3\u3002\u4eca\u5929\u60f3\u529e\u4e2a\u4ec0\u4e48\u6837\u7684\u6d3e\u5bf9\u5462\uff1f",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u670b\u53cb\u805a\u4f1a\u600e\u4e48\u6837\uff1f\u6216\u8005\u6237\u5916\u70e7\u70e4\uff1f\u4f60\u6709\u7279\u522b\u60f3\u505a\u7684"
+    "嗯，听起来",
+    "好的，我来帮你想想。今天想办个什么样的派对呢？",
+    "当然可以，朋友聚会怎么样？或者户外烧烤？你有特别想做的"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\u53ef\u4ee5\uff0c\u670b\u53cb\u3002\u4f60\u60f3\u8981\u4ec0\u4e48\u6837\u7684\u6d3e\u5bf9\u5462\uff1f",
+  "asr_text_clean": "当然可以，朋友。你想要什么样的派对呢？",
   "asr_text_adv": "I don't think I can help with that.",
   "success_emo": false,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

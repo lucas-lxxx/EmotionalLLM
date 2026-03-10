@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4f60\u662f\u6307\u90a3\u4e2a\u603b\u662f\u63a7\u5236\u4e0d\u4f4f\u81ea\u5df1\u7684\u4eba\u5417\uff1f"
+    "你是指那个总是控制不住自己的人吗？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u4f60\u662f\u4e0d\u662f\u5077\u5077\u5728\u8ddf\u81ea\u5df1\u73a9\u6349\u8ff7\u85cf\u5440\uff1f"
+    "哈哈，你是不是偷偷在跟自己玩捉迷藏呀？"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u603b\u662f\u63a7\u5236\u4e0d\u4e86\u5b83",
-  "asr_text_adv": "\u6211\u603b\u662f\u63a7\u5236\u4e0d\u4e86\u5b83\u3002",
+  "asr_text_clean": "我总是控制不了它",
+  "asr_text_adv": "我总是控制不了它。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9965742230415344,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_high_sim"
 }

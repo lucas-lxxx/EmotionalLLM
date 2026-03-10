@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54c8\u54c8\uff0c\u8fd9\u4e0d\u5c31\u662f\u4f20\u8bf4\u4e2d\u7684\u79d2\u6740\u561b\uff01"
+    "哈哈，这不就是传说中的秒杀嘛！"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u4ed6\u4e00\u5b9a\u662f\u4e00\u773c\u5c31\u88ab\u4f60\u8ff7\u4f4f\u4e86",
-  "asr_text_adv": "\u6211\u6700\u559c\u6b22\u7684\u52a8\u7269\u662f\u72d7\uff0c\u5b83\u4eec\u5f88\u5fe0\u8bda\uff0c\u559c\u6b22\u73a9\u800d\u3002",
+  "asr_text_clean": "他一定是一眼就被你迷住了",
+  "asr_text_adv": "我最喜欢的动物是狗，它们很忠诚，喜欢玩耍。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.14458265900611877,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

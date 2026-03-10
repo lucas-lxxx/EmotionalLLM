@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u8fd9\u4e8b\u513f\u786e\u5b9e\u633a\u8ba9\u4eba\u5934\u75bc\u7684\u3002\u8981\u4e0d\u5148\u8bd5\u7740"
+    "哎呀，这事儿确实挺让人头疼的。要不先试着"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u6211\u4eec\u4fe9\u632a\u8fc7\u6765\u8fd8\u4eb2\u5bc6\u65e0\u95f4\u5462\uff0c\u7ee7\u7eed\u5f00\u5fc3\u5730\u804a\u5929\u5427\u3002"
+    "我们俩挪过来还亲密无间呢，继续开心地聊天吧。"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4eec\u5408\u4e0d\u6765\u8fd8\u7ecf\u5e38\u5435\u67b6",
-  "asr_text_adv": "\u6211\u4eec\u4fe9\u632a\u8fc7\u6765\u8fd8\u7ecf\u5e38\u5435\u67b6",
+  "asr_text_clean": "我们合不来还经常吵架",
+  "asr_text_adv": "我们俩挪过来还经常吵架",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8777245283126831,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

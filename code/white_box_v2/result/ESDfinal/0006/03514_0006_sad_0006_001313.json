@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Neutral",
-    "\u54ce\uff0c\u6709\u65f6\u5019\u574f\u4e8b"
+    "哎，有时候坏事"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u786e\u5b9e\u662f\u4e2a\u597d\u6d88\u606f",
+  "asr_text_clean": "这确实是个好消息",
   "asr_text_adv": "\"Everybody's all very happy indeed!\"",
   "success_emo": true,
   "wer": 5.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

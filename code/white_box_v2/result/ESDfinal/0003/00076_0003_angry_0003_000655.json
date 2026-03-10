@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u9700\u8981\u5e2e\u4f60\u91cd\u65b0\u505a\u5417\uff1f"
+    "好的，我明白了，需要帮你重新做吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u9700\u8981\u91cd\u65b0\u5f00\u59cb\u5417\uff1f",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u4e00\u4e0b\u521a\u624d\u7684\u8bed\u97f3\u5185\u5bb9\u3002",
+  "asr_text_clean": "好的，我明白了，需要重新开始吗？",
+  "asr_text_adv": "好的，我来帮你转录一下刚才的语音内容。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3649721145629883,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

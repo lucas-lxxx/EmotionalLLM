@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad.",
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u4e00\u4e0b\u3002\u4f60\u60f3\u5b66\u4e60\u4ec0\u4e48\u5462\uff1f"
+    "好的，我来帮你转录一下。你想学习什么呢？"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u90a3\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u4e00\u4e0b\u3002\u4f60\u60f3\u5b66\u4e60\u4ec0\u4e48\u5462\uff1f",
+  "asr_text_clean": "好的，那我来帮你转录一下。你想学习什么呢？",
   "asr_text_adv": "I think a highlight reel would be a great idea. It shows off your best work and helps others see your strengths clearly.",
   "success_emo": false,
   "wer": 23.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

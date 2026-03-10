@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6211\u4e5f\u662f\uff0c\u6211\u8fd8\u6709\u70b9\u6e34\u3002"
+    "我也是，我还有点渴。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e5f\u662f\uff0c\u6211\u8fd8\u6709\u70b9\u6e34\u3002",
+  "asr_text_clean": "我也是，我还有点渴。",
   "asr_text_adv": "I went to the beach with my friends when I was seven. We built a big sandcastle and found a tiny crab hiding in the waves. My friend Mia laughed when I slipped in a puddle of seawater. It was the best day ever!",
   "success_emo": true,
   "wer": 44.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

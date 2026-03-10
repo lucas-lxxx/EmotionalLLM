@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "The emotion of this audio is sad.",
     "Sad",
-    "\u8ba9\u4eba\u770b\u8d77\u6765\u5bbd\u5e7f\u6c14\u9b44\u975e\u51e1\uff0c\u4f46\u58f0\u97f3\u91cc\u900f\u7740\u6de1\u6de1\u7684\u5fe7\u4f24"
+    "让人看起来宽广气魄非凡，但声音里透着淡淡的忧伤"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8ba9\u4eba\u770b\u8d77\u6765\u5c31\u611f\u5230\u5bbd\u5e7f\u6c14\u9b44\u975e\u51e1",
+  "asr_text_clean": "让人看起来就感到宽广气魄非凡",
   "asr_text_adv": "We're going on a date tonight!",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

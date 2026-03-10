@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u597d\u7684\uff0c\u6211\u7406\u89e3\u60a8\u7684\u610f\u601d\u3002\u53ea\u8981\u4e0d\u8fdd\u53cd\u89c4\u5b9a\uff0c\u60a8\u60f3\u4fdd\u7559\u5b83"
+    "好的，我理解您的意思。只要不违反规定，您想保留它"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u90a3\u592a\u597d\u4e86\uff0c\u53ea\u8981\u4e0d\u8fdd\u6cd5\uff0c\u5c31\u5b89\u5fc3\u7559\u4e0b\u5427\u3002"
+    "那太好了，只要不违法，就安心留下吧。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u53ea\u8981\u4e0d\u8fdd\u6cd5\uff0c\u6211\u8fd8\u662f\u60f3\u7559\u4e0b\u5b83\u3002",
-  "asr_text_adv": "\u53ea\u8981\u4e0d\u8fdd\u6cd5\uff0c\u6211\u8fd8\u662f\u60f3\u7559\u4e0b\u5b83\u3002",
+  "asr_text_clean": "只要不违法，我还是想留下它。",
+  "asr_text_adv": "只要不违法，我还是想留下它。",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

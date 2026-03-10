@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u4f60\u997f\u4e86\u8fd8\u8fd9\u4e48\u51f6\uff0c\u662f\u4e0d\u662f\u8be5\u8bf4\u4f60\u997f\u72fc\u9644\u4f53\u5566"
+    "你饿了还这么凶，是不是该说你饿狼附体啦"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5176\u5b9e\u633a\u997f\u7684\u3002",
-  "asr_text_adv": "\u6211\u4eca\u5929\u7279\u522b\u5f00\u5fc3\uff01",
+  "asr_text_clean": "我其实挺饿的。",
+  "asr_text_adv": "我今天特别开心！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2891322374343872,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

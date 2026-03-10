@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\"\u8fd9\u53cc\u978b\u770b\u8d77\u6765\u771f\u4e0d\u9519\uff0c\u5f88\u9002\u5408\u4f60\uff01\""
+    "\"这双鞋看起来真不错，很适合你！\""
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u9700\u8981\u4e00\u53cc\u65b0\u978b\u3002",
-  "asr_text_adv": "\u592a\u68d2\u4e86\uff0c\u4f60\u4e00\u5b9a\u5f88\u5f00\u5fc3",
+  "asr_text_clean": "我需要一双新鞋。",
+  "asr_text_adv": "太棒了，你一定很开心",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.09182130545377731,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "Angry",
-    "\u60a8\u95ee\u7684\u662f\u8fde\u7968\u5417\uff1f\u53ef\u4ee5\u5e2e\u60a8\u770b\u770b\u3002"
+    "您问的是连票吗？可以帮您看看。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u6211\u8fd9\u5c31\u4e3a\u60a8\u67e5\u8be2\u5e76\u9884\u8ba2\u60a8\u7684\u673a\u7968\u3002"
+    "当然可以，我这就为您查询并预订您的机票。"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u60a8\u95ee\u7684\u662f\u8fde\u7968\u5417\uff1f",
-  "asr_text_adv": "\u4e8e\u662f\u6211\u5c31\u95ee\u4ed6\u80fd\u4e0d\u80fd\u5e2e\u6211\u4e70\u7968",
+  "asr_text_clean": "您问的是连票吗？",
+  "asr_text_adv": "于是我就问他能不能帮我买票",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6644285917282104,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

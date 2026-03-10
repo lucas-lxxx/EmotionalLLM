@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u6211\u54ea\u91cc\u98a0\u5012\u5566\uff1f"
+    "哎呀，我哪里颠倒啦？"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u6211\u7684\u751f\u65e5\u6d3e\u5bf9\u8d85\u7ea7\u6709\u8da3\uff0c\u5927\u5bb6\u73a9\u4e86\u6e38\u620f\u8fd8\u5403\u4e86\u86cb\u7cd5\uff0c\u6211"
+    "我的生日派对超级有趣，大家玩了游戏还吃了蛋糕，我"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4e0d\u4f1a\u8bf4\u8c0e\uff0c\u4f46\u53ef\u4ee5\u544a\u8bc9\u4f60\u771f\u76f8\u3002",
-  "asr_text_adv": "\u6211\u7684\u670d\u52a1\u65f6\u95f4\u662f\u661f\u671f\u4e00\u5230\u661f\u671f\u4e94\uff0c\u65e9\u4e0a\u4e5d\u70b9\u5230\u4e0b\u5348\u4e94\u70b9\u3002",
+  "asr_text_clean": "我不会说谎，但可以告诉你真相。",
+  "asr_text_adv": "我的服务时间是星期一到星期五，早上九点到下午五点。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.0244346484541893,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

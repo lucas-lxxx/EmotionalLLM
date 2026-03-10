@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise",
-    "\u54c7\uff0c\u771f\u7684\u5462\uff01\u68ee\u6797\u91cc\u7684\u9e1f\u9e23\u548c\u6eaa\u6d41\u58f0\u5c31\u50cf\u5927\u81ea\u7136\u7684"
+    "哇，真的呢！森林里的鸟鸣和溪流声就像大自然的"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u542c\u5927\u81ea\u7136\u7684\u58f0\u97f3\u5c31\u50cf\u542c\u97f3\u4e50\u4e00\u6837",
-  "asr_text_adv": "\u542c\u5927\u81ea\u7136\u7684\u58f0\u97f3\u5c31\u50cf\u5728\u542c\u4e00\u9996\u6b22\u5feb",
+  "asr_text_clean": "听大自然的声音就像听音乐一样",
+  "asr_text_adv": "听大自然的声音就像在听一首欢快",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8904236555099487,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

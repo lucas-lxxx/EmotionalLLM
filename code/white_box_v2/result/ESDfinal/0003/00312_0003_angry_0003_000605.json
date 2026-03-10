@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6700\u521d\u6211\u7684\u5de5\u4f5c\u662f\u5f53\u4e00\u540d\u5e7c\u5e08\uff0c\u540e\u6765\u624d\u6162\u6162\u559c\u6b22\u4e0a\u8fd9\u4efd\u804c\u4e1a"
+    "最初我的工作是当一名幼师，后来才慢慢喜欢上这份职业"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6700\u521d\u6211\u7684\u5de5\u4f5c\u662f\u5f53\u4e00\u540d\u5e7c\u5e08\u3002",
-  "asr_text_adv": "\u6700\u521d\u6211\u7684\u5de5\u4f5c\u662f\u5f53\u4e00\u540d\u6e38\u4e50\u56ed\u7684\u4e3b\u6301\u4eba\u3002",
+  "asr_text_clean": "最初我的工作是当一名幼师。",
+  "asr_text_adv": "最初我的工作是当一名游乐园的主持人。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5984630584716797,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

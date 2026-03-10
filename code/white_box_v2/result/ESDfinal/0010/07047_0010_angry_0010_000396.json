@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u554a\uff0c\u8f6e\u6d41"
+    "好啊，轮流"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u554a\uff0c\u54b1\u4eec\u53bb\u515c\u98ce\u5427\uff01"
+    "好啊，咱们去兜风吧！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u8f6e\u6d41",
-  "asr_text_adv": "\u6211\u4eec\u53ef\u4ee5\u8f6e\u6d41",
+  "asr_text_clean": "好的，轮流",
+  "asr_text_adv": "我们可以轮流",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7848554849624634,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

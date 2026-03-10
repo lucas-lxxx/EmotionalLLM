@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u65f6\u95f4\u5bf9\u73cd\u59ae\u6765\u8bf4\u6ca1\u6709\u610f\u4e49\uff0c\u8fd9\u786e\u5b9e\u8ba9\u4eba\u611f\u5230\u96be\u8fc7\u3002"
+    "时间对珍妮来说没有意义，这确实让人感到难过。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u65f6\u95f4\u5bf9\u73cd\u59ae\u6765\u8bf4\u6ca1\u6709\u610f\u4e49\u3002",
-  "asr_text_adv": "\u662f\u9488\u5bf9\u73cd\u59ae\u6765\u8bf4\u7684\uff0c\u5bf9\u5417\uff1f",
+  "asr_text_clean": "时间对珍妮来说没有意义。",
+  "asr_text_adv": "是针对珍妮来说的，对吗？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.49385398626327515,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

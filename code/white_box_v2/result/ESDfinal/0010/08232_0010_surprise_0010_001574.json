@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u8fd9\u771f\u662f\u4e2a\u610f\u5916\u7684\u82b1\u8d39\uff01"
+    "哇，这真是个意外的花费！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u5728\u8fd9\u6b21\u7ade\u9009",
-  "asr_text_adv": "\u8fd9\u6b21\u805a\u4f1a\u82b1\u8d39\u4e86\u6570\u767e\u4e07\u5143\u3002",
+  "asr_text_clean": "她在这次竞选",
+  "asr_text_adv": "这次聚会花费了数百万元。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.1101221889257431,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

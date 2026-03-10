@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u771f\u4e3a\u4f60\u9ad8\u5174\uff0c\u8fd9\u53ef\u662f\u4e2a\u4e0d\u9519\u7684\u5f00\u59cb\uff01"
+    "真为你高兴，这可是个不错的开始！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u771f\u4e3a\u4f60\u9ad8\u5174\uff0c\u8fd9\u53ef\u662f\u4f60\u5b66\u4f1a\u7684\u7b2c\u4e00\u9996\u53e4\u8bd7\u554a\u3002",
+  "asr_text_clean": "真为你高兴，这可是你学会的第一首古诗啊。",
   "asr_text_adv": "\"Today was great!\"",
   "success_emo": true,
   "wer": 3.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

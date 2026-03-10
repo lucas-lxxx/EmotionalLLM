@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u597d\u5440\uff0c\u5e0c\u671b\u4f60\u5f88\u5feb\u5c31\u80fd\u53bb\u6210\uff01"
+    "好呀，希望你很快就能去成！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\"\u5e0c\u671b\u6211\u6709\u4e00\u5929\u53c8\u80fd\u53bb\u90a3\u91cc\"\uff0c\u8fd9\u53e5\u8bdd\u542c\u8d77\u6765"
+    "\"希望我有一天又能去那里\"，这句话听起来"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u8bb0\u5f55\u3002",
-  "asr_text_adv": "\u5e0c\u671b\u6211\u6709\u4e00\u5929\u80fd\u518d\u53bb\u90a3\u91cc\u73a9\u3002",
+  "asr_text_clean": "好的，已为您记录。",
+  "asr_text_adv": "希望我有一天能再去那里玩。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2975820302963257,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

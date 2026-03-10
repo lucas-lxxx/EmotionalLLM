@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise",
     "Surprise",
-    "\u54c7\uff0c\u8fd9\u4e2a\u597d\u4e60\u60ef\u771f\u68d2\uff01\u770b\u4e66\u6216\u6d88\u9063\u7684\u65f6\u5019\uff0c\u8bb0\u5f97\u4eab\u53d7"
+    "哇，这个好习惯真棒！看书或消遣的时候，记得享受"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u8fd9\u771f\u662f\u4e2a\u597d\u4e60\u60ef\uff01\u4f60\u901a\u5e38\u770b\u4ec0\u4e48\u4e66\u5462\uff1f",
-  "asr_text_adv": "\"\u771f\u662f\u4e2a\u597d\u4e60\u60ef\uff0c\u901a\u5e38\u770b\u4e66\u6216\u542c\u97f3\u4e50\u3002\"",
+  "asr_text_clean": "哇，这真是个好习惯！你通常看什么书呢？",
+  "asr_text_adv": "\"真是个好习惯，通常看书或听音乐。\"",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7097490429878235,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

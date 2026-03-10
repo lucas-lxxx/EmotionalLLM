@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u597d\u5440\uff0c\u7b49\u4e2a\u60ca\u559c\u65f6\u523b\u5427\uff01"
+    "好呀，等个惊喜时刻吧！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u60f3\u7b49\u4e00\u4e2a\u5408\u9002\u7684\u65f6\u95f4\u3002",
-  "asr_text_adv": "\u6211\u4eec\u60f3\u7b49\u4e00\u4e2a\u5408\u9002\u7684\u65f6\u95f4\u3002",
+  "asr_text_clean": "我们想等一个合适的时间。",
+  "asr_text_adv": "我们想等一个合适的时间。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

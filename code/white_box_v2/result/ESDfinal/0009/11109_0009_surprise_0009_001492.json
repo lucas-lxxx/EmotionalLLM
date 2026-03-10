@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u8fd9\u4e5f\u592a\u5de7\u4e86\u5427\uff01"
+    "哇，真的吗？这也太巧了吧！"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u771f\u7684\u5417\uff0c\u6211\u4e5f\u5341\u516d\u5c81\u4e86\uff0c\u592a\u5de7\u4e86\uff01",
-  "asr_text_adv": "\u6c64\u5c0f\u767d\uff0c\u6211\u4e5f\u662f\u5341\u516d\u5c81\u3002",
+  "asr_text_clean": "真的吗，我也十六岁了，太巧了！",
+  "asr_text_adv": "汤小白，我也是十六岁。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5899640321731567,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

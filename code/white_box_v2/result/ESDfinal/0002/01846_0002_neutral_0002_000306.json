@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u5728\u4e00\u4e2a\u673a\u68b0\u5316",
-  "asr_text_adv": "\u6211\u5728\u4e00\u4e2a\u673a\u68b0\u5316",
+  "asr_text_clean": "我在一个机械化",
+  "asr_text_adv": "我在一个机械化",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

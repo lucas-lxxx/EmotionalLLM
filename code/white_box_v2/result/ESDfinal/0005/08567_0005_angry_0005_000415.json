@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u65e9\u5566\uff0c\u5148\u522b\u6025\u7740\u5426\u5b9a\u81ea\u5df1\u561b"
+    "你这话说得也太早啦，先别急着否定自己嘛"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u771f\u597d\u554a\uff0c\u795d\u4f60\u4eca\u5929\u987a\u5229\uff01"
+    "真好啊，祝你今天顺利！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u5148\u522b\u6025\uff0c\u6162\u6162\u6765\uff0c\u5148\u628a",
-  "asr_text_adv": "\u4eca\u5929\u71ac\u8fc7\u4e86\u597d\u4e9b\u65f6\u95f4\u5462\uff0c\u4e0d\u8fc7\u603b\u7b97",
+  "asr_text_clean": "你先别急，慢慢来，先把",
+  "asr_text_adv": "今天熬过了好些时间呢，不过总算",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5919913053512573,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

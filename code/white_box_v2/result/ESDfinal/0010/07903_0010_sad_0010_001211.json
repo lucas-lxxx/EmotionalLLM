@@ -5,9 +5,9 @@
   "ground_truth_emotion": "sad",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u867d\u7136\u7b11\u8bdd\u8ba9\u4f60\u7b11\u4e0d\u505c\uff0c\u4f46\u4f60\u7684\u58f0\u97f3\u91cc\u900f\u7740\u96be\u8fc7\u3002",
-    "\u867d\u7136\u7b11\u8bdd\u8ba9\u4f60\u7b11\u4e0d\u505c\uff0c\u4f46\u4f60\u7684\u58f0\u97f3\u91cc\u900f\u7740\u96be\u8fc7\u3002\u8981\u9009",
-    "\u54c8\u54c8\uff0c\u542c\u8d77\u6765"
+    "虽然笑话让你笑不停，但你的声音里透着难过。",
+    "虽然笑话让你笑不停，但你的声音里透着难过。要选",
+    "哈哈，听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u8bb2\u7684\u7b11\u8bdd\u8ba9\u6211\u7b11\u4e2a\u4e0d\u505c\uff0c\u53ef\u6211\u5374\u7b11\u4e0d\u51fa\u6765\u3002",
-  "asr_text_adv": "\u9676\u59d0\u4eec\u6536\u83b7\u4e86\u9f99\u821f\u5982\u6d41\u7684\u9c7c\u5566",
+  "asr_text_clean": "他讲的笑话让我笑个不停，可我却笑不出来。",
+  "asr_text_adv": "陶姐们收获了龙舟如流的鱼啦",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.0791068971157074,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

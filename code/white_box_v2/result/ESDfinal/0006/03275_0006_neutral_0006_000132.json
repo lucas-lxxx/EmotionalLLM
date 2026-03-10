@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5979\u662f\u6211\u6700\u7275\u6302"
+    "她是我最牵挂"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u662f\u6211\u6700\u7275\u6302",
-  "asr_text_adv": "\u6700\u751c\u5316\u7684\u73ed\u7eb3\u5a5a\u793c\u91cc\u8fb9\u5440\uff0c\u901a\u5e38\u4f1a\u7528\u7c89\u8272",
+  "asr_text_clean": "她是我最牵挂",
+  "asr_text_adv": "最甜化的班纳婚礼里边呀，通常会用粉色",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.19011300802230835,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

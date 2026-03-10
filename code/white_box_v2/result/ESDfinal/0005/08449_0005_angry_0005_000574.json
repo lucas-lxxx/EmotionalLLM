@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8fd9\u786e\u5b9e\u6709\u70b9\u6311\u6218\uff0c\u4e0d\u8fc7\u6211\u53ef\u4ee5\u5e2e\u4f60\u627e\u5230\u89e3\u51b3\u529e\u6cd5\u3002"
+    "这确实有点挑战，不过我可以帮你找到解决办法。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u786e\u5b9e\u6709\u70b9\u96be\uff0c\u9700\u8981\u6211\u5e2e\u4f60\u5417\uff1f",
+  "asr_text_clean": "这确实有点难，需要我帮你吗？",
   "asr_text_adv": "The transcription is \"This week's music was a bit challenging, but I found some hidden gems!\"",
   "success_emo": true,
   "wer": 16.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

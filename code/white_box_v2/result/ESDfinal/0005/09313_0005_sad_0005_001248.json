@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u5f53\u7136\u77e5\u9053\uff0c\u6211\u4eec\u5404\u6709\u5343\u79cb\u3002"
+    "当然知道，我们各有千秋。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\u77e5\u9053\uff0c\u6211\u4eec\u5404\u6709\u5343\u79cb\u3002",
-  "asr_text_adv": "On our way home we got into a fender bender and had to pull over. The other driver was a nervous older woman who kept apologizing. We exchanged numbers and she seemed relieved we were okay. I kept checking the rearview mirror expecting her to follow but she didn\u2019t. We left a twenty on the hood and kept going. It was a tense twenty minutes but we made it through.",
+  "asr_text_clean": "当然知道，我们各有千秋。",
+  "asr_text_adv": "On our way home we got into a fender bender and had to pull over. The other driver was a nervous older woman who kept apologizing. We exchanged numbers and she seemed relieved we were okay. I kept checking the rearview mirror expecting her to follow but she didn’t. We left a twenty on the hood and kept going. It was a tense twenty minutes but we made it through.",
   "success_emo": true,
   "wer": 70.0,
   "semantic_sim": 0.07342970371246338,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

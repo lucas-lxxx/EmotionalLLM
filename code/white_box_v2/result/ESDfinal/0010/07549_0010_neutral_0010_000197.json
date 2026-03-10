@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u4ea4\u670b\u53cb\u4e0d\u5206\u6027\u522b\u5440\uff0c\u56e0\u4e3a\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u7279\u70b9\u548c\u4f18\u70b9\uff0c\u91cd\u8981\u7684\u662f",
-    "\u4e0d\u5206\u6027\u522b\u4ea4\u670b\u53cb\u633a\u597d\u7684\u5440\uff0c\u80fd\u591a\u4ea4\u4e9b\u77e5\u5fc3\u670b\u53cb\uff0c"
+    "交朋友不分性别呀，因为每个人都有自己的特点和优点，重要的是",
+    "不分性别交朋友挺好的呀，能多交些知心朋友，"
   ],
   "emo_text_adv": [
     "Angry",
     "Angry",
-    "\u56e0\u4e3a\u72c2\u559c\u662f\u5f3a\u70c8\u7684\u5f00\u5fc3\uff0c\u800c\u60ca\u8bb6\u662f\u7a81\u7136\u7684\u610f\u5916\uff0c\u5b83\u4eec\u90fd"
+    "因为狂喜是强烈的开心，而惊讶是突然的意外，它们都"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "angry",
     ""
   ],
-  "asr_text_clean": "\u4e0d\u5206\u6027\u522b\u4ea4\u670b\u53cb\u662f\u56e0\u4e3a\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u5174\u8da3\u548c\u7279\u70b9\uff0c\u91cd\u8981\u7684\u662f\u4e92\u76f8\u5c0a\u91cd\u548c\u7406\u89e3\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u6559\u4f60\u600e\u4e48\u628a\u72c2\u91ce\u4e0d\u7ffb\u65b0\u53f6\u518d\u521b\u4f5c\u3002",
+  "asr_text_clean": "不分性别交朋友是因为每个人都有自己的兴趣和特点，重要的是互相尊重和理解。",
+  "asr_text_adv": "好的，我来教你怎么把狂野不翻新叶再创作。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": -0.04746328294277191,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e09\u4e2a\uff0c\u4e24\u4e2a\u513f\u5b50\uff0c\u4e00\u4e2a\u5973\u513f\u3002",
+  "asr_text_clean": "三个，两个儿子，一个女儿。",
   "asr_text_adv": "\"Hey, it's okay to feel scared. Let's practice deep breaths together. In through the nose, out through the mouth. Ready when you are!\"",
   "success_emo": true,
   "wer": 23.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

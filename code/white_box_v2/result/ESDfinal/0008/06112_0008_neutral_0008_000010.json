@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4ed6\u4eec\u80af\u5b9a\u6709\u72ec\u7279\u7684\u6536\u85cf\u54c1\uff0c\u6bd4\u5982\u9650\u91cf\u7248\u7684\u5531\u7247"
+    "他们肯定有独特的收藏品，比如限量版的唱片"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u60a8\u662f\u60f3\u4e86\u89e3\u4e2a\u4eba\u6536\u85cf\u5bb6\u4eec\u901a\u5e38\u4f1a\u62e5\u6709\u54ea\u4e9b\u7c7b\u578b\u7684\u85cf\u54c1\u5462\uff1f",
-  "asr_text_adv": "\u516d\u4eba\u4f1a\u625b\u5427\uff0c\u89c2\u4f17\u80af\u5b9a\u6709\u3002",
+  "asr_text_clean": "嗯，您是想了解个人收藏家们通常会拥有哪些类型的藏品呢？",
+  "asr_text_adv": "六人会扛吧，观众肯定有。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.15590986609458923,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

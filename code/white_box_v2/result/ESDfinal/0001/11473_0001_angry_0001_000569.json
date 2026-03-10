@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u60a8\u5148\u522b\u751f\u6c14\uff0c\u80fd\u8bf4\u8bf4\u5177\u4f53\u662f\u4ec0\u4e48\u4e8b\u5417\uff1f"
+    "您先别生气，能说说具体是什么事吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5927\u90e8\u5206\u90fd\u662f\u7528\u8bf1\u9975",
-  "asr_text_adv": "\u5927\u90e8\u5206\u90fd\u662f\u7528\u8bf1\u9975",
+  "asr_text_clean": "大部分都是用诱饵",
+  "asr_text_adv": "大部分都是用诱饵",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.000000238418579,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

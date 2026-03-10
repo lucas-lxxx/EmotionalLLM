@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u4f60\u7684\u58f0\u97f3\u8ba9\u6211\u6709\u70b9\u60ca\u8bb6\u5462\u3002",
-    "\u4f60\u662f\u4e0d\u662f\u5728\u8bf4\u6211\u5fc3\u91cc\u6709\u5c0f\u9e7f\u4e71\u649e\u5440\uff1f"
+    "你的声音让我有点惊讶呢。",
+    "你是不是在说我心里有小鹿乱撞呀？"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u4f60\u7684\u58f0\u97f3\u771f\u597d\u542c\uff0c\u50cf\u5c0f\u6eaa\u6d41\u6c34\u4e00\u6837\u6b22\u5feb"
+    "你的声音真好听，像小溪流水一样欢快"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u7684\u58f0\u97f3\u603b\u662f\u5728\u6211\u5fc3\u91cc\u6643\u6765\u6643\u53bb\u3002",
-  "asr_text_adv": "\u4f60\u7684\u58f0\u97f3\u603b\u662f\u5728\u6211\u5fc3\u91cc\u6643\u6765\u6643\u53bb\u3002",
+  "asr_text_clean": "你的声音总是在我心里晃来晃去。",
+  "asr_text_adv": "你的声音总是在我心里晃来晃去。",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

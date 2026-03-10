@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u52c7\u6562\u8fc8\u51fa"
+    "勇敢迈出"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5f00\u59cb\u65b0\u604b\u60c5"
+    "开始新恋情"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u5f53\u7136\u53ef\u4ee5\u5f00\u59cb\u65b0\u7684\u611f\u60c5\uff0c\u522b\u8ba9\u8fc7\u53bb\u7684\u7ecf\u5386\u963b\u788d\u4f60\uff0c\u52c7\u6562\u8fc8\u51fa",
-  "asr_text_adv": "\u522b\u62c5\u5fc3\u5440\uff0c\u5f00\u59cb\u65b0\u7684\u604b\u60c5",
+  "asr_text_clean": "你当然可以开始新的感情，别让过去的经历阻碍你，勇敢迈出",
+  "asr_text_adv": "别担心呀，开始新的恋情",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6616721153259277,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

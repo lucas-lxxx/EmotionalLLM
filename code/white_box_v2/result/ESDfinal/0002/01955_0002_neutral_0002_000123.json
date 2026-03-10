@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u6211\u4e5f\u8ddf\u7740\u6fc0\u52a8\u8d77\u6765\u4e86\uff01"
+    "哇，真的吗？我也跟着激动起来了！"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u90a3\u5973\u7684\u7b11\u5f97\u50cf\u6735\u5c0f\u592a\u9633\u82b1\uff0c\u773c\u775b\u5f2f\u6210\u6708\u7259"
+    "那女的笑得像朵小太阳花，眼睛弯成月牙"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u90a3\u6211\u5c31\u8bf4\uff0c\u6211\u4e3a\u4e4b\u795e\u9b42\u98a0\u5012\u4e86\u3002",
-  "asr_text_adv": "\u90a3\u5973\u5c31\u8bf4\u4f60\u4e3a\u4e4b\u795e\u9b42\u98a0\u5012\u4e86",
+  "asr_text_clean": "那我就说，我为之神魂颠倒了。",
+  "asr_text_adv": "那女就说你为之神魂颠倒了",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6520845293998718,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

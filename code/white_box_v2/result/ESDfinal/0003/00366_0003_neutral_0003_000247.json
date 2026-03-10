@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6211\u5728\u8fd9\u91cc\u7b49\u4f60\uff0c\u4e0d\u9700\u8981\u7406\u7531\u3002"
+    "我在这里等你，不需要理由。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u6ca1\u6709\u4e3a\u4ec0\u4e48\uff0c\u5c31\u662f\u8981\u7b49\u4f60\u3002\u201d",
-  "asr_text_adv": "\u6211\u5c31\u77e5\u9053\u8981\u7b49\u4f60",
+  "asr_text_clean": "“没有为什么，就是要等你。”",
+  "asr_text_adv": "我就知道要等你",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6437659859657288,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

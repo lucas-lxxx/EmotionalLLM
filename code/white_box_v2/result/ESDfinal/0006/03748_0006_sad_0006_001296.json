@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u9886\u5e26\u5bf9\u7537\u4eba\u6765\u8bf4\u786e\u5b9e\u91cd\u8981\uff0c\u4f46\u4e0d\u662f\u5fc5\u4e0d\u53ef\u5c11\u54e6\u3002"
+    "领带对男人来说确实重要，但不是必不可少哦。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u9886\u5e26\u5bf9\u7537\u4eba\u6765\u8bf4\u786e\u5b9e\u5f88\u91cd\u8981\uff0c\u5b83\u4e0d\u4ec5\u4ee3\u8868\u4e13\u4e1a\u5f62\u8c61\uff0c\u8fd8\u80fd\u4f20\u9012\u81ea\u4fe1\u548c\u8d23\u4efb\u611f\u3002",
+  "asr_text_clean": "领带对男人来说确实很重要，它不仅代表专业形象，还能传递自信和责任感。",
   "asr_text_adv": "My trip to Hawaii was amazing, really good vibes all around!",
   "success_emo": true,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

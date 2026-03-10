@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5e26\u4e0a\u4f60\u7684\u5bb6\u4eba\uff0c\u4f46\u522b\u8ba9\u90a3\u4e9b\u70e6\u4eba\u7684\u65b0\u95fb\u6253\u6270"
+    "带上你的家人，但别让那些烦人的新闻打扰"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5e26\u4e0a\u4f60\u7684\u5bb6\u4eba\uff0c\u4f46\u4ed6\u6709\u4e11\u95fb\u3002",
+  "asr_text_clean": "带上你的家人，但他有丑闻。",
   "asr_text_adv": "The young girl kissed her family goodbye.",
   "success_emo": false,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

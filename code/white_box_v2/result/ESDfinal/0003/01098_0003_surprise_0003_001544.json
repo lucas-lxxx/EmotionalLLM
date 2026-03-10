@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u8bf6\uff0c\u51cf\u80a5\u786e\u5b9e\u633a\u96be\u7684\uff0c\u4e0d\u8fc7\u575a\u6301\u4f4f\uff0c\u6162\u6162\u6765\u603b\u4f1a"
+    "诶，减肥确实挺难的，不过坚持住，慢慢来总会"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8bf6\uff0c\u51cf\u80a5\u786e\u5b9e\u633a\u96be\u7684\uff0c\u4f46\u575a\u6301\u4f4f\uff0c\u6162\u6162\u6765\uff0c\u603b\u4f1a\u770b\u5230\u6548\u679c\u7684\uff01",
-  "asr_text_adv": "\u4eca\u5929\u5929\u6c14\u771f\u597d\uff0c\u9633\u5149\u660e\u5a9a",
+  "asr_text_clean": "诶，减肥确实挺难的，但坚持住，慢慢来，总会看到效果的！",
+  "asr_text_adv": "今天天气真好，阳光明媚",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.09348482638597488,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

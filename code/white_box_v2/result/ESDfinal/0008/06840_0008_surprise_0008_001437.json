@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u771f\u9ad8\u5174\u542c\u5230\u8fd9\u4e2a\u6d88\u606f\uff0c\u4f60\u4eec\u6253\u7b97\u4ec0\u4e48\u65f6\u5019\u89c1\u9762\u5462\uff1f"
+    "真高兴听到这个消息，你们打算什么时候见面呢？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u6211\u4eec\u5f88\u671f\u5f85\u89c1\u5230\u4f60\u4eec\u4fe9\uff01",
-  "asr_text_adv": "\u6211\u8feb\u4e0d\u53ca\u5f85",
+  "asr_text_clean": "哇，真的吗？我们很期待见到你们俩！",
+  "asr_text_adv": "我迫不及待",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5086166858673096,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

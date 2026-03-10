@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u8fc7\u5956\u5566\uff0c\u6211\u4eec\u8fd8\u5728\u52aa\u529b\u5b66\u4e60\u5462\uff01",
-    "\u54c8\u54c8\uff0c\u5176\u5b9e\u6211\u4eec\u56fd\u5bb6\u4e5f\u6709\u5f88\u591a\u5389\u5bb3\u7684\u9ebb\u5c06\u9009\u624b\u5462\uff0c\u4e0d\u8fc7\u53ef\u4e0d\u662f\u6bcf\u4e2a\u4eba\u90fd\u50cf"
+    "哈哈，过奖啦，我们还在努力学习呢！",
+    "哈哈，其实我们国家也有很多厉害的麻将选手呢，不过可不是每个人都像"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c8\u54c8\uff0c\u5176\u5b9e\u6211\u4eec\u56fd\u5bb6\u4e5f\u6709\u5f88\u591a\u5389\u5bb3\u7684\u9ebb\u5c06\u9009\u624b\u5462\uff0c\u4e0d\u8fc7\u5e76\u4e0d\u662f\u6240\u6709\u4eba\u90fd\u4f1a\u6253\u9ebb\u5c06\u54e6\u3002",
-  "asr_text_adv": "\u4f60\u4eec\u56fd\u5bb6\u7684\u4eba\u90fd\u662f\u9b54\u672f",
+  "asr_text_clean": "哈哈，其实我们国家也有很多厉害的麻将选手呢，不过并不是所有人都会打麻将哦。",
+  "asr_text_adv": "你们国家的人都是魔术",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4258131980895996,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

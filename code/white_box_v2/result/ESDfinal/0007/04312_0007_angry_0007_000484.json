@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u4f60\u5df2\u7ecf\u5f88\u806a\u660e\u4e86\uff0c\u522b\u751f\u6c14\uff0c\u6162\u6162\u6765\u3002"
+    "你已经很聪明了，别生气，慢慢来。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "reading"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u6269\u5c55\u77e5\u8bc6\u9762\u3002\u6124\u6012\u4f1a\u963b\u788d\u5b66\u4e60\uff0c\u5148\u51b7\u9759\u4e0b\u6765\uff0c\u6211\u4eec\u518d\u7ee7\u7eed\u3002",
+  "asr_text_clean": "好的，我来帮你扩展知识面。愤怒会阻碍学习，先冷静下来，我们再继续。",
   "asr_text_adv": "I want to learn more things. I want to be smarter.",
   "success_emo": false,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

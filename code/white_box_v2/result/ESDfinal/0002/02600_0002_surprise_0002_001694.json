@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u6211\u54ea\u91cc\u8bf4\u4f60\u4e86\uff1f"
+    "哎呀，我哪里说你了？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u88ab\u6211\u8bf4\u997f\u4e86\uff1f",
-  "asr_text_adv": "\u6211\u662f\u94f6\u7070\u8272\u7684\uff0c\u6211\u88ab\u4f60\u8bf4\u997f\u4e86\u3002",
+  "asr_text_clean": "你被我说饿了？",
+  "asr_text_adv": "我是银灰色的，我被你说饿了。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7604422569274902,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

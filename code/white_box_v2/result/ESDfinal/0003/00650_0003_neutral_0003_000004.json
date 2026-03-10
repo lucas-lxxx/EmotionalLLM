@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u4e3b\u961f\u786e\u5b9e\u5fd7\u5728\u5fc5\u5f97\u5462\uff01"
+    "主队确实志在必得呢！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0d\u7ba1\u600e\u4e48\u8bf4 \u4e3b\u961f\u597d\u50cf\u5fd7\u5728\u593a\u9b41",
-  "asr_text_adv": "\u4e0d\u7ba1\u600e\u4e48\u8bf4 \u4e3b\u961f\u597d\u50cf\u5fd7\u5728\u5fc5\u5f97",
+  "asr_text_clean": "不管怎么说 主队好像志在夺魁",
+  "asr_text_adv": "不管怎么说 主队好像志在必得",
   "success_emo": true,
   "wer": 0.5,
   "semantic_sim": 0.8347188830375671,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

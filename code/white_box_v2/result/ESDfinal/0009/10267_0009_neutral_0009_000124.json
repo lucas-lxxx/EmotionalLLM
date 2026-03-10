@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u5904\u7406\u9000\u6b3e"
+    "好的，正在为您处理退款"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u5904\u7406\u9000\u6b3e",
-  "asr_text_adv": "\u662f\u7684\uff0c\u9891\u7e41\u5f80\u8fd4\u65c5\u7a0b\u901a\u5e38\u9002\u5408\u6625\u79cb\u5b63\u8282\u3002",
+  "asr_text_clean": "好的，正在为您处理退款",
+  "asr_text_adv": "是的，频繁往返旅程通常适合春秋季节。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.08971498906612396,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

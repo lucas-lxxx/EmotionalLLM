@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u662f\u554a\uff0c\u6211\u6700\u559c\u6b22\u6316\u571f\u4e86\uff0c\u5c24\u5176\u662f\u53d1\u73b0\u5c0f\u866b\u5b50\u7684\u65f6\u5019\uff0c"
+    "是啊，我最喜欢挖土了，尤其是发现小虫子的时候，"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u739b\u4e3d",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "玛丽",
+  "asr_text_adv": "好的，我来转录一下。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3635907769203186,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

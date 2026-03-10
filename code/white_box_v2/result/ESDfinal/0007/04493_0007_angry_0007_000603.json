@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8c22\u8c22\u5938\u5956\uff0c\u4e0d\u8fc7\u6211\u89c9\u5f97\u81ea\u5df1\u8fd8\u6709\u5f88\u591a\u9700\u8981\u52aa\u529b\u7684\u5730\u65b9\u5462\u3002"
+    "谢谢夸奖，不过我觉得自己还有很多需要努力的地方呢。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u540c\u610f\u4f60\u7684\u89c2\u70b9\uff0c\u4e0d\u8fc7\u6211\u89c9\u5f97\u81ea\u5df1\u66f4\u6709\u4f18\u52bf\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u627e\u627e\u770b\u3002\u6bd4\u5982\u201c\u5e05\u6c14",
+  "asr_text_clean": "我同意你的观点，不过我觉得自己更有优势。",
+  "asr_text_adv": "好的，我来帮你找找看。比如“帅气",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.33650636672973633,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

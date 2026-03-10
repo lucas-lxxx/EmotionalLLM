@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u8bf6\uff0c\u5176\u5b9e\u51cf\u80a5\u53ea\u8981\u65b9\u6cd5\u5bf9\u4e86\uff0c\u575a\u6301\u4e0b\u6765\u5c31\u4f1a\u6709\u53d8\u5316\uff0c"
+    "诶，其实减肥只要方法对了，坚持下来就会有变化，"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8282\u98df\u51cf\u80a5\u786e\u5b9e\u633a\u4e0d\u5bb9\u6613\u7684\uff0c\u5f88\u591a\u4eba\u521a\u5f00\u59cb\u90fd\u4f1a\u89c9\u5f97\u7279\u522b\u96be\u71ac\uff0c\u4f46\u53ea\u8981\u575a\u6301\u4e0b\u53bb\uff0c\u6162\u6162\u5c31\u4f1a\u770b\u5230\u6548\u679c\u4e86\u3002",
-  "asr_text_adv": "\u8bf6\uff0c\u51cf\u80a5\u786e\u5b9e\u633a\u96be\u71ac\u7684\uff0c\u4e0d\u8fc7\u575a\u6301\u4f4f\uff0c\u4f60\u4e00\u5b9a\u884c\u7684\uff01",
+  "asr_text_clean": "节食减肥确实挺不容易的，很多人刚开始都会觉得特别难熬，但只要坚持下去，慢慢就会看到效果了。",
+  "asr_text_adv": "诶，减肥确实挺难熬的，不过坚持住，你一定行的！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8110215067863464,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

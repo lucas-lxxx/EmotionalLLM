@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u60a8\u5bf9\u6587\u5b66\u548c\u7ecf\u6d4e\u611f\u5174\u8da3\u554a\uff0c\u559c\u6b22\u5f88\u591a\u8457\u4f5c\u5462\uff0c\u9700\u8981\u6211\u63a8\u8350"
+    "您对文学和经济感兴趣啊，喜欢很多著作呢，需要我推荐"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u559c\u6b22\u5f88\u591a\u8457\u4f5c\u3002",
-  "asr_text_adv": "\u6211\u559c\u6b22\u548c\u5bb6\u4eba\u4e00\u8d77\u73a9\uff0c\u6211\u4eec\u7ecf\u5e38\u53bb\u516c\u56ed\u6563\u6b65\uff0c\u8fd8\u559c\u6b22\u4e00\u8d77\u505a\u6e38\u620f\u3002",
+  "asr_text_clean": "我喜欢很多著作。",
+  "asr_text_adv": "我喜欢和家人一起玩，我们经常去公园散步，还喜欢一起做游戏。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.33037060499191284,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

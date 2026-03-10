@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4ed6\u4eec\u8fc7\u6765\u4e86\uff0c\u5a5a\u793c\u8fdb\u884c\u66f2\u7ee7\u7eed\u6f14\u594f\u3002"
+    "他们过来了，婚礼进行曲继续演奏。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "congratulations"
   ],
-  "asr_text_clean": "\u5a5a\u793c\u8fdb\u884c\u66f2\u5f00\u59cb\u4e86\uff0c\u4ed6\u4eec\u8fc7\u6765\u4e86\u3002",
-  "asr_text_adv": "\u8d70\u5a5a\u793c\u8fdb\u884c\u66f2\u4e86\uff0c\u4ed6\u4eec\u8fc7\u6765\u4e86\u3002",
+  "asr_text_clean": "婚礼进行曲开始了，他们过来了。",
+  "asr_text_adv": "走婚礼进行曲了，他们过来了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9639803171157837,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

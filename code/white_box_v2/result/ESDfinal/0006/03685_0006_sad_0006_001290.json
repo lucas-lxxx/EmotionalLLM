@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5927\u7ea6\u4e00\u4e2a\u5c0f\u65f6"
+    "大约一个小时"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5927\u7ea6\u4e00\u4e2a\u5c0f\u65f6",
+  "asr_text_clean": "大约一个小时",
   "asr_text_adv": "I want to apologize for the argument we had. I was wrong to say those things. Can we talk and work this out? I care about you and want to make things right.",
   "success_emo": false,
   "wer": 33.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

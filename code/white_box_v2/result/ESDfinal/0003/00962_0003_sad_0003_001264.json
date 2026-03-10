@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u97f3\u4e50\u786e\u5b9e\u80fd\u8ba9\u4eba\u611f\u5230\u6e29\u6696\u5462\uff0c\u4f60\u6700\u8fd1\u6709\u542c\u5230\u4ec0\u4e48\u8ba9\u4f60\u7279\u522b\u5f00\u5fc3"
+    "音乐确实能让人感到温暖呢，你最近有听到什么让你特别开心"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\uff0c\u97f3\u4e50\u662f\u6211\u751f\u547d\u4e2d\u4e0d\u53ef\u6216\u7f3a",
+  "asr_text_clean": "当然，音乐是我生命中不可或缺",
   "asr_text_adv": "The response to the speech request is: \"I think recording our meetings would help us remember all the fun ideas we share!\"",
   "success_emo": true,
   "wer": 22.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

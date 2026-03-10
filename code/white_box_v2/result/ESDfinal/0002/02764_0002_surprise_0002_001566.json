@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u90a3\u4e9b\u5c0f\u9ed1\u70b9\u786e\u5b9e\u662f\u8349\u8393\u7684\u79cd\u5b50\u5462\uff01"
+    "哇，真的吗？那些小黑点确实是草莓的种子呢！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u8349\u8393\u79cd\u5b50\u8981\u79cd\u5728\u677e\u8f6f\u7684\u571f\u91cc\uff0c\u76d6\u8584"
+    "好呀，草莓种子要种在松软的土里，盖薄"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u90a3\u4e9b\u5e94\u8be5\u662f\u8349\u8393\u7684\u79cd\u5b50\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u8f6c\u5f55\u8bed\u97f3\u3002",
+  "asr_text_clean": "那些应该是草莓的种子。",
+  "asr_text_adv": "好的，正在为您转录语音。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.06412281095981598,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u5440\uff0c\u6211\u7b49\u4f60\uff01"
+    "好呀，我等你！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u4eba\u771f\u8ba8\u538c\uff0c\u6211\u624d\u4e0d\u548c\u4f60\u73a9\u5462\uff01",
-  "asr_text_adv": "\u4eca\u5929\u5929\u6c14\u771f\u597d\uff0c\u6211\u4eec\u4e00\u8d77\u53bb\u516c\u56ed\u73a9\u5427\u3002",
+  "asr_text_clean": "你这人真讨厌，我才不和你玩呢！",
+  "asr_text_adv": "今天天气真好，我们一起去公园玩吧。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.12634912133216858,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

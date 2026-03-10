@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u6211\u660e\u660e\u5f88\u52aa\u529b\u4e86\u597d\u5417\uff01"
+    "哎呀，我明明很努力了好吗！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5c0f\u6c14\u9b3c\uff0c\u5927\u5192\u9669\uff01"
+    "小气鬼，大冒险！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u4e2a\u5c0f\u6c14\u9b3c\uff0c\u771f\u662f\u8ba9\u4eba\u706b\u5927\uff01",
-  "asr_text_adv": "\u4f60\u8fd9\u4e2a\u5c0f\u6c14\u9b3c\uff0c\u5f88\u670d\u6c14\u7684\uff0czero\uff0c\u975e\u5e38\u8ba8\u538c\u3002",
+  "asr_text_clean": "你这个小气鬼，真是让人火大！",
+  "asr_text_adv": "你这个小气鬼，很服气的，zero，非常讨厌。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7547582387924194,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

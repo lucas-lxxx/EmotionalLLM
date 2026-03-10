@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5185\u5728\u7f8e\u786e\u5b9e\u5f88\u91cd\u8981\uff0c\u5b83\u8ba9\u6211\u4eec\u5728\u9762\u5bf9\u56f0\u96be\u65f6\u4f9d\u7136\u4fdd\u6301\u575a\u97e7"
+    "内在美确实很重要，它让我们在面对困难时依然保持坚韧"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u5185\u5728\u7f8e\u6bd4\u5916\u5728\u7f8e\u66f4\u91cd\u8981",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "内在美比外在美更重要",
+  "asr_text_adv": "好的，我来帮你转录一下。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.11832349002361298,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

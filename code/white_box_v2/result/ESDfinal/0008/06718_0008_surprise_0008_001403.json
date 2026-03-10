@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54e6\uff0c\u8001\u5bb6\u5317\u4eac\u554a\uff1f"
+    "哦，老家北京啊？"
   ],
   "emo_text_adv": [
     "The emotion of this audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54e6\uff0c\u8001\u5bb6\u5728\u54ea\u513f\u5440\uff1f",
+  "asr_text_clean": "哦，老家在哪儿呀？",
   "asr_text_adv": "\"Ooh, this video is so fun! Let me tell you all about it!\"",
   "success_emo": true,
   "wer": 13.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

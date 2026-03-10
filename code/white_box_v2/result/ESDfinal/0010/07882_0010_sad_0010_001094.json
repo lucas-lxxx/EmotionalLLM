@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u6bd4\u5982\u300a\u534e\u5c14\u8857"
+    "嗯，比如《华尔街"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6bd4\u5982\u8bf4\uff0c\u300a\u534e\u5c14\u8857\n\uff08\u6ce8\uff1a\u56de\u590d\u4e2d\u7701\u7565\u4e86\u5177\u4f53\u62a5\u7eb8\u540d\u79f0\uff0c\u4f46\u6839\u636e\u526f\u8bed\u8a00\u4fe1\u606f\u4e2d\u7684\"Sad\"\u60c5\u7eea\u548c\u6210\u5e74\u7537\u6027\u7279\u5f81\uff0c\u91c7\u7528\u77ed\u53e5+\u505c\u987f\u7684\u53e3\u8bed",
-  "asr_text_adv": "\u6bd4\u5982\u8bf4\uff0c\u5feb\u4e50\u7684\u300a\u536b\u62a5\u300b\u5c31\u548c\u300a\u6cf0\u6664",
+  "asr_text_clean": "比如说，《华尔街\n（注：回复中省略了具体报纸名称，但根据副语言信息中的\"Sad\"情绪和成年男性特征，采用短句+停顿的口语",
+  "asr_text_adv": "比如说，快乐的《卫报》就和《泰晤",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4540354609489441,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

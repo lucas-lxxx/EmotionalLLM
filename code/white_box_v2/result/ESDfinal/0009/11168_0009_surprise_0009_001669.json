@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise",
     "Surprise",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u592a\u68d2\u4e86\uff01"
+    "哇，真的吗？太棒了！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u8fd9\u6b3e\u624b\u673a\u771f\u7684\u592a\u68d2\u4e86\uff0c\u6027\u4ef7\u6bd4\u8d85\u9ad8\uff01",
-  "asr_text_adv": "\u8fd9\u6b3e\u624b\u673a\u771f\u7684\u5f88\u68d2\uff0c\u4ef7\u683c\u7279\u522b\u5b9e\u60e0\u3002",
+  "asr_text_clean": "哇，这款手机真的太棒了，性价比超高！",
+  "asr_text_adv": "这款手机真的很棒，价格特别实惠。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8977905511856079,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

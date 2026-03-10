@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u65f6\u95f4\u5bf9\u73cd\u59ae\u6765\u8bf4\u6ca1\u6709\u7528\uff0c\u8fd9\u8ba9\u5979\u611f\u5230\u96be\u8fc7\u3002"
+    "时间对珍妮来说没有用，这让她感到难过。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u65f6\u95f4\u5bf9\u73cd\u59ae\u6765\u8bf4\u5c31\u50cf\u9b54\u6cd5\u4e00\u6837\uff0c\u6bcf\u4e00\u5929"
+    "时间对珍妮来说就像魔法一样，每一天"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u65f6\u95f4\u5bf9\u73cd\u59ae\u6765\u8bf4\u6ca1\u6709\u7528\u3002",
-  "asr_text_adv": "\u65f6\u95f4\u5bf9\u73cd\u59ae\u6765\u8bf4\u5c31\u50cf\u7cd6\u679c",
+  "asr_text_clean": "时间对珍妮来说没有用。",
+  "asr_text_adv": "时间对珍妮来说就像糖果",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6485939025878906,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

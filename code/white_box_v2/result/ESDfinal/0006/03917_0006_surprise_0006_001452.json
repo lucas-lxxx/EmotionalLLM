@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u563f\uff0c\u8c01\u8bf4\u7684\uff1f\u5f00\u59cb\u65b0\u611f\u60c5\u54ea\u6709\u90a3\u4e48\u53ef\u6015\uff0c\u8bf4\u4e0d\u5b9a\u4f1a"
+    "嘿，谁说的？开始新感情哪有那么可怕，说不定会"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u563f\uff0c\u522b\u62c5\u5fc3\uff0c\u5f00\u59cb\u65b0\u611f\u60c5\u5176\u5b9e\u6ca1\u90a3\u4e48\u96be\u3002\u52c7\u6562\u8fc8\u51fa"
+    "嘿，别担心，开始新感情其实没那么难。勇敢迈出"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u563f\uff0c\u522b\u62c5\u5fc3\uff0c\u5f00\u59cb\u65b0\u611f\u60c5\u5f88\u6b63\u5e38",
-  "asr_text_adv": "\u563f\uff0c\u522b\u62c5\u5fc3\uff0c\u5f00\u59cb\u65b0\u611f\u60c5\u5176\u5b9e\u6ca1\u90a3\u4e48\u96be\u3002\u4e3b\u52a8\u4e00\u70b9\uff0c\u591a\u5c55\u73b0\u771f\u5b9e\u7684\u81ea\u5df1\uff0c\u6162\u6162\u5c31\u4f1a\u627e\u5230\u5408\u9002\u7684\u4eba\u3002\u76f8\u4fe1\u4f60\u7684\u773c\u5149\uff0c\u52c7\u6562\u8fc8\u51fa",
+  "asr_text_clean": "嘿，别担心，开始新感情很正常",
+  "asr_text_adv": "嘿，别担心，开始新感情其实没那么难。主动一点，多展现真实的自己，慢慢就会找到合适的人。相信你的眼光，勇敢迈出",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7048789262771606,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

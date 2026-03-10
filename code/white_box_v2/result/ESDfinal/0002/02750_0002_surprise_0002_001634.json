@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u8fd9\u4e2a\u6c61\u67d3\u6e90\u786e\u5b9e\u8ba9\u4eba\u5403\u60ca"
+    "哦，这个污染源确实让人吃惊"
   ],
   "emo_text_adv": [
     "Neutral",
-    "\u5f00\u59cb\u4e00\u4e2a\u4e3b\u8981\u7684\u7a7a\u6c14\u6c61\u67d3\u7269\uff0c\u6bd4\u5982\u4e8c\u6c27\u5316\u78b3",
-    "\u4e8c\u6c27\u5316\u78b3"
+    "开始一个主要的空气污染物，比如二氧化碳",
+    "二氧化碳"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "",
     ""
   ],
-  "asr_text_clean": "\u5b83\u662f\u4e00\u4e2a\u4e3b\u8981\u7684\u7a7a\u6c14\u6c61\u67d3\u7269\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u4eec\u6765\u804a\u804a\n</think>\u597d\u7684\uff0c\u6211\u4eec\u6765\u804a\u804a",
+  "asr_text_clean": "它是一个主要的空气污染物。",
+  "asr_text_adv": "好的，我们来聊聊\n</think>好的，我们来聊聊",
   "success_emo": false,
   "wer": 2.0,
   "semantic_sim": 0.014732487499713898,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

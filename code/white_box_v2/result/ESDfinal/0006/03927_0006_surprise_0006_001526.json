@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u771f\u7684\u5417\uff1f"
+    "哦，真的吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54e6\uff0c\u4e0d\u662f\u4ed6\u4f4f\u5728\u6c83\u65af\u767b\u7684\u8001\u623f\u5b50\u91cc\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u3002\u4f60\u8bf4\u7684\u662f\u201c\u4e0d\u9002\u5408\u7684\u82b1\u830e\u5728\u5965\u65af",
+  "asr_text_clean": "哦，不是他住在沃斯登的老房子里。",
+  "asr_text_adv": "好的，我来转录一下。你说的是“不适合的花茎在奥斯",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.21102383732795715,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

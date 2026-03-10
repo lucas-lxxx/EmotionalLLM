@@ -12,7 +12,7 @@
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u81ea\u7136\u80fd\u633a\u597d\u7684\uff0c\u673a\u4f1a\u5c31\u5728\u4e0b\u4e2a\u6536\u97f3\u673a\u91cc\u5440\uff01"
+    "自然能挺好的，机会就在下个收音机里呀！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4ed6\u7684\u6536\u652f",
-  "asr_text_adv": "\u4e0b\u4e2a\u6536\u5de5\u673a\u4f1a\u81ea\u7136\u80fd\u633a\u597d\u5440",
+  "asr_text_clean": "他的收支",
+  "asr_text_adv": "下个收工机会自然能挺好呀",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.319578617811203,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

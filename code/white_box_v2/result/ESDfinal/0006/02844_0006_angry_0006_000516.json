@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5bf9\uff0c\u90a3\u4e9b\u80af\u5b9a\u662f\u8349\u8393\u79cd\u5b50\u3002"
+    "对，那些肯定是草莓种子。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u4e9b\u786e\u5b9e\u662f\u8349\u8393\u79cd\u5b50\u3002",
-  "asr_text_adv": "\u5c0f\u8682\u8681\u4eec\u4e00\u822c\u662f\u52e4\u52b3\u7684\uff0c\u5b83\u4eec\u4f1a\u6392\u6210\u961f\u5217\u5bfb\u627e\u98df\u7269\u3002",
+  "asr_text_clean": "那些确实是草莓种子。",
+  "asr_text_adv": "小蚂蚁们一般是勤劳的，它们会排成队列寻找食物。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2617805004119873,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u8fd9\u7b14\u94b1\u5927\u6982\u80fd\u652f\u6301\u4f60\u751f\u6d3b\u4e09\u4e2a\u6708\u5427",
-  "asr_text_adv": "\u961f\u4f0d\u6e38\u4e86\u6cb3\uff0c\u73a9\u5f97\u5f88\u5f00\u5fc3\u3002",
+  "asr_text_clean": "那这笔钱大概能支持你生活三个月吧",
+  "asr_text_adv": "队伍游了河，玩得很开心。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.009443612769246101,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

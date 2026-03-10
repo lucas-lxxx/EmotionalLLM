@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u542c\u8d77\u6765"
+    "嗯，听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u5929\u6211\u4e5f\u8bb8\u5f97\u548c\u4ed6\u8c08\u8c08\u3002",
+  "asr_text_clean": "那天我也许得和他谈谈。",
   "asr_text_adv": "I'm glad I could help! Two weeks was enough time to make new friends and learn lots of cool things. My favorite part was when we went to the park and built a big sandcastle together. It made me feel really happy and excited to share my ideas. I can't wait to go back someday!",
   "success_emo": true,
   "wer": 55.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u5f53\u4f63\u4eba\u786e\u5b9e\u633a\u8f9b\u82e6\u7684\uff0c\u4f46\u4f60\u4e00\u76f4\u90fd\u5f88\u52aa\u529b\u3002"
+    "嗯，当佣人确实挺辛苦的，但你一直都很努力。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6700\u521d\u6211\u7684\u5de5\u4f5c\u662f\u5f53\u4e00\u540d\u4f63\u4eba\u3002",
+  "asr_text_clean": "最初我的工作是当一名佣人。",
   "asr_text_adv": "I did a cartwheel at the park this morning while on my walk.",
   "success_emo": true,
   "wer": 13.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

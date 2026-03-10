@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u4f60\u542c\u8d77\u6765",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u5b66\u4e60\u603b\u80fd\u5e26\u6765\u65b0\u7684\u89c6\u89d2\u3002\u4eca\u5929\u60f3\u4e86\u89e3\u4ec0\u4e48\u5462\uff1f"
+    "你听起来",
+    "当然可以，学习总能带来新的视角。今天想了解什么呢？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u613f\u610f\u5b66\u4e60\u662f\u4ef6\u597d\u4e8b\uff0c\u4f46\u522b\u5fd8\u4e86\uff0c\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u8282\u594f\u3002\u6162\u6162\u6765\uff0c\u6bcf\u4e00\u6b65\u90fd\u7b97\u6570\u3002",
+  "asr_text_clean": "你愿意学习是件好事，但别忘了，每个人都有自己的节奏。慢慢来，每一步都算数。",
   "asr_text_adv": "\"Hey, I just got promoted at work!\"",
   "success_emo": true,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

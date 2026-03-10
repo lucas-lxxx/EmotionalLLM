@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u522b\u62c5\u5fc3\u5440\uff0c\u6162\u6162\u6765\uff0c\u603b\u4f1a\u597d\u8d77\u6765\u7684\u3002"
+    "别担心呀，慢慢来，总会好起来的。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd8\u8981\u53eb\u5979\u8d77\u5e8a\uff0c\u771f\u662f\u591f\u545b",
-  "asr_text_adv": "\u4eca\u5929\u5728\u5b66\u6821\u4ea4\u5230\u65b0\u670b\u53cb\u5566\uff0c\u4e00\u8d77\u73a9\u5f97\u5f88\u5f00\u5fc3\u5462\uff01",
+  "asr_text_clean": "还要叫她起床，真是够呛",
+  "asr_text_adv": "今天在学校交到新朋友啦，一起玩得很开心呢！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.259865939617157,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

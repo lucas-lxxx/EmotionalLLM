@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u8fd9\u786e\u5b9e\u633a\u8ba9\u4eba\u96be\u8fc7\u7684\u3002"
+    "哎呀，这确实挺让人难过的。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u597d\u50cf\u88ab\u5979\u7684\u5973\u53cb\u7529\u4e86\u3002",
+  "asr_text_clean": "她好像被她的女友甩了。",
   "asr_text_adv": "I'm doing really well in school! My teacher said I did an amazing job on my math test. I feel so proud when I finish my homework early too.",
   "success_emo": true,
   "wer": 29.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

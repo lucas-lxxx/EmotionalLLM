@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise! Learning new things is the best way to grow smarter. Want to",
-    "\u563f\uff0c\u8bd5\u8bd5\u6bcf\u5929\u5b66\u4e09\u4e2a\u65b0\u5355\u8bcd\uff0c\u8bfb\u4e94\u9875\u4e66\uff0c\u8fd8\u80fd\u548c"
+    "嘿，试试每天学三个新单词，读五页书，还能和"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u563f\uff0c\u60f3\u53d8\u806a\u660e\uff1f\u8bd5\u8bd5\u5b66\u65b0\u6280\u80fd\uff0c\u8bfb\u70b9\u6709\u610f\u601d\u7684",
-  "asr_text_adv": "\u5c0f\u670b\u53cb\u4eec\uff0c\u6c34\u6559\u4f1a\u6211\u4eec\u5f88\u591a\u6709\u8da3\u7684\u4e8b\u60c5\uff0c\u8ba9\u6211\u4eec\u53d8\u5f97\u66f4\u806a\u660e\u5462\u3002",
+  "asr_text_clean": "嘿，想变聪明？试试学新技能，读点有意思的",
+  "asr_text_adv": "小朋友们，水教会我们很多有趣的事情，让我们变得更聪明呢。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5453366041183472,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

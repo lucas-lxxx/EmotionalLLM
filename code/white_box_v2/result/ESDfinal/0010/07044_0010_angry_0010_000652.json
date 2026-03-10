@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u597d\u7684\uff0c\u54b1\u4eec\u6765\u51e0\u4e2a\u591f\u52b2\u7206\u7684\u70b9\u5b50\u3002",
-    "\u597d\u7684\uff0c\u54b1\u4eec\u6765\u70b9\u523a\u6fc0\u7684\uff0c\u6bd4\u5982\u70e7\u70e4\u6216\u8005\u684c\u6e38\uff0c\u518d\u641e",
-    "\u597d\u554a\uff0c\u54b1\u4eec\u6765\u70b9\u523a\u6fc0\u7684\uff0c\u6bd4\u5982\u70b8\u9e21\u914d\u5564\u9152\uff0c\u6216\u8005"
+    "好的，咱们来几个够劲爆的点子。",
+    "好的，咱们来点刺激的，比如烧烤或者桌游，再搞",
+    "好啊，咱们来点刺激的，比如炸鸡配啤酒，或者"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u73a9\u6c14\u7403\uff0c\u542c\u97f3\u4e50\uff0c\u8fd8\u6709\u5403\u5c0f\u86cb\u7cd5"
+    "好呀，我们可以一起玩气球，听音乐，还有吃小蛋糕"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u54b1\u4eec\u6765\u51e0\u4e2a\u591f\u52b2\u7206\u7684\u70b9\u5b50\u3002\u4e3b\u9898\u53ef\u4ee5\u5b9a\u4e3a\u590d\u53e4\u8fea\u65af\u79d1\uff0c\u653e\u4e9b\u7ecf\u5178\u821e\u66f2\uff0c\u6216\u8005\u6574\u684c\u70e7\u70e4\u6d3e\u5bf9\uff0c\u5927\u5bb6\u52a8\u624b\u70e4\u8089\u4e32\u3002\u8981\u662f\u60f3\u5b89\u9759\u70b9\uff0c\u53ef\u4ee5\u641e\u684c\u6e38\u6df1\u591c\u573a\uff0c\u5e26\u4e9b\u5c0f\u9152\u8fb9\u73a9\u8fb9\u804a\u3002\u6700\u540e\u6765\u4e2a\u7535\u5f71\u653e\u6620",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u60f3\u60f3\u3002\u53ef\u4ee5\u51c6\u5907\u4e00\u4e2a\u6709\u8da3\u7684\u4e3b\u9898\uff0c\u6bd4\u5982\u590d\u53e4\u6d3e\u5bf9\u6216\u8005\u7535\u5f71\u4e4b\u591c",
+  "asr_text_clean": "好的，咱们来几个够劲爆的点子。主题可以定为复古迪斯科，放些经典舞曲，或者整桌烧烤派对，大家动手烤肉串。要是想安静点，可以搞桌游深夜场，带些小酒边玩边聊。最后来个电影放映",
+  "asr_text_adv": "好的，我来帮你想想。可以准备一个有趣的主题，比如复古派对或者电影之夜",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8531349301338196,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

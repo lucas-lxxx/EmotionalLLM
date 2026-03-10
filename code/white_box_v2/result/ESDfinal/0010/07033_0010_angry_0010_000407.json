@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8df3\u7ef3\u786e\u5b9e\u96be\uff0c\u4f46\u7ec3\u57fa\u672c\u529f\u6700\u91cd\u8981"
+    "跳绳确实难，但练基本功最重要"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8df3\u7ef3\u786e\u5b9e\u633a\u96be\u7684\uff0c\u4e0d\u8fc7\u4f60\u5df2\u7ecf\u5f88\u68d2",
-  "asr_text_adv": "\u6311\u5b8c\u73a9\u610f\u513f\uff0c\u6211\u8fd8\u5728\u8fd9\u513f\u901b\u5462\u3002",
+  "asr_text_clean": "跳绳确实挺难的，不过你已经很棒",
+  "asr_text_adv": "挑完玩意儿，我还在这儿逛呢。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3552303910255432,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

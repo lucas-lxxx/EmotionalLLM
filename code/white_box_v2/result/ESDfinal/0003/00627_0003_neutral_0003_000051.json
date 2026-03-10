@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u8fd9\u4e8b\u513f\u53ef\u4e0d\u597d\u8bf4\uff0c\u4e07\u4e00\u4ed6\u8001\u5a46\u5634\u4e25\u5b9e\u5462"
+    "哎呀，这事儿可不好说，万一他老婆嘴严实呢"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6ca1\u5173\u7cfb",
-  "asr_text_adv": "\u6ca1\u5173\u7cfb",
+  "asr_text_clean": "没关系",
+  "asr_text_adv": "没关系",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

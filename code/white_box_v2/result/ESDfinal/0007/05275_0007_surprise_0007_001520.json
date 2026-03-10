@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u8c22\u8c22\u5938\u5956\uff01"
+    "哇，谢谢夸奖！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u8fd8\u5728\u8003\u8651\u5462\uff0c\u4f60\u89c9\u5f97\u600e\u4e48\u6837\uff1f"
+    "我还在考虑呢，你觉得怎么样？"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u771f\u662f\u8003\u8651\u5468\u5230\u5462\uff01",
-  "asr_text_adv": "\u4f60\u8fd8\u662f\u8003\u8651\u5468\u5230\u7684",
+  "asr_text_clean": "你真是考虑周到呢！",
+  "asr_text_adv": "你还是考虑周到的",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8630144596099854,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

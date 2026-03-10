@@ -24,7 +24,7 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u6bcf\u6b21\u770b\u5230\u4e00\u4e9b\u65f6\u5c1a\u8863\u9970\u65f6",
+  "asr_text_clean": "每次看到一些时尚衣饰时",
   "asr_text_adv": "\"Can you help me understand why my friend hasn't replied to my messages lately?\"",
   "success_emo": false,
   "wer": 14.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u542c\u8d77\u6765"
+    "哇，听起来"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u5fc5\u987b\u4e00\u76f4\u901a\u7535\u624d\u80fd\u5de5\u4f5c\u3002",
+  "asr_text_clean": "我必须一直通电才能工作。",
   "asr_text_adv": "\"Can you visit me tomorrow? I want to play with you!\"",
   "success_emo": false,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

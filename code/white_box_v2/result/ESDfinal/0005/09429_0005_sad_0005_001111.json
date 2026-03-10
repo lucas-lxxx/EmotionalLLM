@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u771f\u4e3a\u4f60\u9ad8\u5174\uff0c\u4e0b\u4e2a\u6708\u4f60\u59d0\u59d0\u8981\u7ed3\u5a5a\u4e86\u3002"
+    "真为你高兴，下个月你姐姐要结婚了。"
   ],
   "emo_text_adv": [
     "Surprise.",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u4e0b\u4e2a\u6708\u6211\u59d0\u59d0\u8981\u7ed3\u5a5a\u4e86\uff0c\u597d\u96be\u8fc7\u554a\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u4e00\u4e0b\u3002\u4eca\u5929\u665a\u4e0a\u516b\u70b9\uff0c\u4ed6\u4eec\u6253\u7b97\u53bb\u6d77\u8fb9",
+  "asr_text_clean": "下个月我姐姐要结婚了，好难过啊。",
+  "asr_text_adv": "好的，我来帮你转录一下。今天晚上八点，他们打算去海边",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.172066330909729,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

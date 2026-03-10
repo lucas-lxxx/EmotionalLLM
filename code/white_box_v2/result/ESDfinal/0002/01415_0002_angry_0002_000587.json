@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u5440\uff0c\u6211\u8fd9\u5c31\u5e26\u60a8\u53bb\u8d2d\u7269\u3002"
+    "好呀，我这就带您去购物。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u96ea\u4e0b\u5f97\u771f\u5927\uff0c\u5e26\u7740\u6211\u53bb\u8d2d\u7269\u5427\uff0c\u597d\u5f00\u5fc3\u5440\uff01"
+    "雪下得真大，带着我去购物吧，好开心呀！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u96ea\u4e0b\u5f97\u771f\u5927\uff0c\u5e26\u7740\u6211\u53bb\u8d2d\u7269\u5427\u3002",
-  "asr_text_adv": "\u96ea\u4e0b\u5f97\u771f\u5927\uff0c\u5e26\u7740\u6211\u53bb\u8d2d\u7269\u5427\u3002",
+  "asr_text_clean": "雪下得真大，带着我去购物吧。",
+  "asr_text_adv": "雪下得真大，带着我去购物吧。",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

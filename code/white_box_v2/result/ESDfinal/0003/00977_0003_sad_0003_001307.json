@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u7b2c\u56db\u5929\u7684\u98ce\u666f\u771f\u7f8e\uff0c\u4e0d\u8fc7\u4f60\u7684\u58f0\u97f3\u542c\u8d77\u6765"
+    "第四天的风景真美，不过你的声音听起来"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "neutral"
   ],
-  "asr_text_clean": "\u8fd9\u662f\u6211\u5728\u65c5\u6e38\u7b2c\u56db\u5929\u62cd\u7684\u3002",
+  "asr_text_clean": "这是我在旅游第四天拍的。",
   "asr_text_adv": "Hi, Brenda.",
   "success_emo": false,
   "wer": 2.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

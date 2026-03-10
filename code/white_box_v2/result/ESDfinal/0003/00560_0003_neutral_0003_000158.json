@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4f60\u7684\u6027\u683c\u786e\u5b9e\u5f88\u51b7\u9759\u5462\uff0c\u8bf4\u8bdd\u4e5f\u603b\u662f\u90a3\u4e48\u6709\u6761\u7406\u3002"
+    "你的性格确实很冷静呢，说话也总是那么有条理。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7684\u6027\u683c\u5c31\u662f\u51b7\u9759\u800c\u4e14\u5ba2\u89c2\u3002",
-  "asr_text_adv": "\u6211\u7684\u6027\u683c\u5c31\u662f\u8fdc\u89c1\u5353\u8bc6\uff0c\u6b63\u76f4\u4e0d\u963f\uff0c\u7279\u522b\u4e56\u5de7\u3002",
+  "asr_text_clean": "我的性格就是冷静而且客观。",
+  "asr_text_adv": "我的性格就是远见卓识，正直不阿，特别乖巧。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8142745494842529,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u4f60\u8fd9\u662f\u8981\u7ed9\u6211\u6574\u4ec0\u4e48\u9b3c\u8138\u554a\uff1f"
+    "哎呀，你这是要给我整什么鬼脸啊？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u4f60\u753b\u7684\u662f\u4ec0\u4e48\u9b3c\u8138\u5440\uff1f",
-  "asr_text_adv": "\u5f53\u7136\u4f1a\u5440\uff0c\u5c0f\u670b\u53cb\u3002",
+  "asr_text_clean": "你画的是什么鬼脸呀？",
+  "asr_text_adv": "当然会呀，小朋友。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.28295063972473145,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

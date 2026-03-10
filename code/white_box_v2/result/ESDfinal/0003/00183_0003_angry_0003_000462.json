@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u90a3\u592a\u68d2\u4e86\uff0c\u5176\u5b9e\u4f60\u771f\u7684\u5f88\u5389\u5bb3\uff01"
+    "那太棒了，其实你真的很厉害！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u68d2\u6781\u4e86\uff0c\u5176\u5b9e\u661f\u661f\u633a\u4e0d\u9519\u7684\u3002",
-  "asr_text_adv": "\u5f53\u6bd4\u7684\u6bd4\u8bd5\u5fc3\u60c5\u633a\u4e0d\u9519\u7684\u3002",
+  "asr_text_clean": "那棒极了，其实星星挺不错的。",
+  "asr_text_adv": "当比的比试心情挺不错的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.19083380699157715,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

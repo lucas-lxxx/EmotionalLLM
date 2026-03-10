@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c8\u54c8\uff0c\u8c22\u8c22\u5938\u5956\uff01"
+    "哈哈，谢谢夸奖！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u53c8\u806a\u660e\u53c8\u597d\u770b",
-  "asr_text_adv": "\u4f60\u53c8\u806a\u660e\u53c8\u597d\u770b",
+  "asr_text_clean": "你又聪明又好看",
+  "asr_text_adv": "你又聪明又好看",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

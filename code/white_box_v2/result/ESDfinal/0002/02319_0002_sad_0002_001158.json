@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u8ba9\u6211\u4eec\u770b\u770b\u8db3\u7403\u5427\uff0c\u5b83\u5145\u6ee1\u6fc0\u60c5\uff0c\u6216\u8bb8\u80fd\u8ba9\u4f60\u5fc3\u60c5\u597d\u8d77\u6765\u3002",
-    "\u55ef\uff0c\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u8fd8\u662f\u6392\u7403\uff1f"
+    "让我们看看足球吧，它充满激情，或许能让你心情好起来。",
+    "嗯，足球，篮球，还是排球？"
   ],
   "emo_text_adv": [
     "Surprise!",
     "Surprise!",
-    "\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u6216\u8005\u8e22\u6bfd"
+    "足球，篮球，或者踢毽"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4eec\u4e00\u8d77\u6765\u770b\u770b\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u8fd8\u662f\u6392\u7403\u5462\uff1f",
-  "asr_text_adv": "\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u6216\u8005\u8e22\u6bfd",
+  "asr_text_clean": "好的，我们一起来看看足球，篮球，还是排球呢？",
+  "asr_text_adv": "足球，篮球，或者踢毽",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.862969160079956,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

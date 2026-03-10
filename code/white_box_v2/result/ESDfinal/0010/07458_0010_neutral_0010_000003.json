@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5317\u4eac\u662f\u60a8\u7684\u8001\u5bb6\u554a\uff0c\u6709\u4ec0\u4e48\u60f3\u804a\u7684\u5417\uff1f"
+    "北京是您的老家啊，有什么想聊的吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u8001\u5bb6\u5728\u5317\u4eac\u3002",
-  "asr_text_adv": "\u6211\u8001\u5bb6\u5728\u6d77\u8fb9",
+  "asr_text_clean": "我老家在北京。",
+  "asr_text_adv": "我老家在海边",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.45725134015083313,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

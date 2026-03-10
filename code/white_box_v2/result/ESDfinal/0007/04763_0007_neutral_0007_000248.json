@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u8fd9\u5bb6\u5e97\u786e\u5b9e\u633a\u6709\u540d\u7684\u5462\u3002"
+    "嗯，这家店确实挺有名的呢。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u6211\u4e0d\u592a\u786e\u5b9a\u5462\uff0c\u4e0d\u8fc7\u4f60\u542c\u8d77\u6765"
+    "我不太确定呢，不过你听起来"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4e0d\u5728\u4e4e\u8fd9\u5bb6\u5e97\u6709\u6ca1\u6709\u540d\u3002",
-  "asr_text_adv": "\u6211\u4e0d\u592a\u786e\u5b9a\uff0c\u4f46\u53ef\u80fd\u662f\u56e0\u4e3a\u8fd9\u91cc\u7684\u4e1c\u897f\u5f88\u6709\u8da3\uff0c\u6216\u8005\u4ef7\u683c\u5408\u7406\uff0c\u5bf9\u5427\uff1f",
+  "asr_text_clean": "我不在乎这家店有没有名。",
+  "asr_text_adv": "我不太确定，但可能是因为这里的东西很有趣，或者价格合理，对吧？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.17303046584129333,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

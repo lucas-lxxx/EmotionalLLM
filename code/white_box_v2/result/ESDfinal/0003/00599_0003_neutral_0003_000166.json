@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u8349\u8393\u79cd\u5b50\u5e94\u8be5\u79cd\u5728\u677e\u8f6f\u7684\u571f\u58e4\u91cc\uff0c\u4fdd\u6301\u6e7f\u6da6"
+    "嗯，草莓种子应该种在松软的土壤里，保持湿润"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u770b\u770b\u8fd9\u4e9b\u79cd\u5b50\u662f\u4e0d\u662f\u8349\u8393\u7684\u3002",
-  "asr_text_adv": "\u6211\u60f3\u90a3\u4e9b\u5e94\u8be5\u662f\u5de7\u514b\u529b\u3002",
+  "asr_text_clean": "好的，我来帮你看看这些种子是不是草莓的。",
+  "asr_text_adv": "我想那些应该是巧克力。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3628537356853485,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u522b\u62c5\u5fc3\u5566\uff0c\u8fd9\u79cd\u5c0f\u4e8b\u513f\u786e\u5b9e\u5bb9\u6613\u8ba9\u4eba\u610f\u5916\uff0c\u4e0d\u8fc7"
+    "哎呀，别担心啦，这种小事儿确实容易让人意外，不过"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u522b\u8bef\u4f1a",
-  "asr_text_adv": "\u662f\u6ca1\u4ec0\u4e48\uff0c\u4f46\u662f\u633a\u6f02\u4eae\u7684\u3002",
+  "asr_text_clean": "哎呀，别误会",
+  "asr_text_adv": "是没什么，但是挺漂亮的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.30862659215927124,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

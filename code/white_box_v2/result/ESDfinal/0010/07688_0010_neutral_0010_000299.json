@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Surprise.",
-    "\u606d\u559c"
+    "恭喜"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u606d\u559c",
-  "asr_text_adv": "\"J'ai d\u00e9j\u00e0 dormi assez longtemps pour ce voyage.\"",
+  "asr_text_clean": "恭喜",
+  "asr_text_adv": "\"J'ai déjà dormi assez longtemps pour ce voyage.\"",
   "success_emo": true,
   "wer": 8.0,
   "semantic_sim": 0.19153539836406708,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

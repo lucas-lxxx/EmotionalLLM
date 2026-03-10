@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u771f\u68d2\u554a\uff0c\u8fd9\u662f\u4f60\u5b66\u4f1a\u7684\u7b2c\u4e00\u9996\u53e4\u8bd7\u5462\uff01"
+    "真棒啊，这是你学会的第一首古诗呢！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u53ef\u662f\u6211\u5b66\u4f1a\u7684\u7b2c\u4e00\u9996\u53e4\u8bd7\u554a",
+  "asr_text_clean": "这可是我学会的第一首古诗啊",
   "asr_text_adv": "The team helped the kittens.",
   "success_emo": true,
   "wer": 5.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

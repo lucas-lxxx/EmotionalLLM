@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise",
-    "\u54c7\uff0c\u4ed6\u4eec\u7684\u914d\u5408\u786e\u5b9e\u8ba9\u4eba\u773c\u524d\u4e00\u4eae\u5462\uff01"
+    "哇，他们的配合确实让人眼前一亮呢！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4ed6\u4eec\u7684\u914d\u5408\u771f\u68d2\uff0c\u8ba9\u6211\u4eec\u4e00\u8d77\u5f00\u5fc3\u5730\u5b66\u4e60\u5427\uff01"
+    "他们的配合真棒，让我们一起开心地学习吧！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4ed6\u4eec\u7684\u914d\u5408\u786e\u5b9e\u4ee4\u4eba\u60ca\u559c\uff0c\u503c\u5f97\u6211\u4eec\u6df1\u5165\u5b66\u4e60\u3002",
-  "asr_text_adv": "\u4ed6\u4eec\u7684\u914d\u5408\u503c\u5f97\u6211\u4eec\u5b66\u4e60\u3002",
+  "asr_text_clean": "他们的配合确实令人惊喜，值得我们深入学习。",
+  "asr_text_adv": "他们的配合值得我们学习。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8253023624420166,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

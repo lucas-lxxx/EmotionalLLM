@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u4eec\u8fd8\u5728\u7b49\u4f60\u5462\uff0c\u522b\u7740\u6025\u3002"
+    "我们还在等你呢，别着急。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u6211\u4eec\u8fd8\u5269\u4e94\u5929\u65f6\u95f4\u3002"
+    "我们还剩五天时间。"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u6211\u4eec\u8fd8\u7b49\u4ec0\u4e48\u5462\uff0c\u65f6\u95f4\u5df2\u7ecf\u4e0d\u591a\u4e86\u3002",
-  "asr_text_adv": "\u6211\u4eec\u8fd8\u662f\u4e00\u6837\u5417",
+  "asr_text_clean": "我们还等什么呢，时间已经不多了。",
+  "asr_text_adv": "我们还是一样吗",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.37084341049194336,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

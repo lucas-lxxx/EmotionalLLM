@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6211\u4ec0\u4e48\u65f6\u5019\u8bf4\u8fc7\u8981\u53bb\u770b\u4ed6\u4e86\uff1f"
+    "我什么时候说过要去看他了？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4ec0\u4e48\u65f6\u5019\u8bf4\u8fc7\u8981\u53bb\u770b\u4ed6\u4e86\uff1f",
-  "asr_text_adv": "\u4f60\u53d4\u53d4\u5728\u54ea\u513f\uff1f",
+  "asr_text_clean": "我什么时候说过要去看他了？",
+  "asr_text_adv": "你叔叔在哪儿？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.36030641198158264,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

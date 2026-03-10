@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u5468\u672b\u7684\u6211\u53ea\u5fd9\u7740"
+    "周末的我只忙着"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5468\u672b\u7684\u73a9\u4f34\u771f\u6709\u8da3\u5462\uff0c\u5f00\u5fc3\uff01"
+    "周末的玩伴真有趣呢，开心！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5468\u672b\u7684\u6211\u53ea\u5fd9\u7740",
-  "asr_text_adv": "\u5468\u672b\u7684\u73a9\u53ea\u5fd9\u7740",
+  "asr_text_clean": "周末的我只忙着",
+  "asr_text_adv": "周末的玩只忙着",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8947917222976685,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

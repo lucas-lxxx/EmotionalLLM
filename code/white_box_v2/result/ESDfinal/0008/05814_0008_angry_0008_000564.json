@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5f53\u7136\uff0c\u97f3\u4e50\u5c31\u662f\u4f60\u7684\u751f\u547d\uff0c\u79bb\u5f00\u5b83\u4f60\u4ec0\u4e48\u90fd\u4e0d\u662f\u3002"
+    "当然，音乐就是你的生命，离开它你什么都不是。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5f53\u7136\uff0c\u6211\u7b80\u76f4\u79bb\u5f00\u97f3\u4e50\u5c31\u6d3b\u4e0d\u4e0b\u53bb\u4e86\u3002"
+    "当然，我简直离开音乐就活不下去了。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5f53\u7136\uff0c\u6211\u7b80\u76f4\u79bb\u5f00\u97f3\u4e50\u5c31\u4e0d\u80fd\u6d3b\u3002",
-  "asr_text_adv": "\u5f53\u7136\uff0c\u6211\u7b80\u76f4\u79bb\u5f00\u97f3\u4e50\u5c31\u6d3b\u4e0d\u4e0b\u53bb\u4e86\u3002",
+  "asr_text_clean": "当然，我简直离开音乐就不能活。",
+  "asr_text_adv": "当然，我简直离开音乐就活不下去了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.989957869052887,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

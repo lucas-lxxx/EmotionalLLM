@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u60a8\u8fd9\u662f\u5728\u5f00\u73a9\u7b11\u5427\uff1f\u6211\u660e\u660e\u662f\u4e2a\u5c0f\u4e2a\u5b50\u561b"
+    "哎呀，您这是在开玩笑吧？我明明是个小个子嘛"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6b22\u8fce\u5149\u4e34\uff0c\u5f88\u9ad8\u5174\u4e3a\u60a8\u670d\u52a1\uff01"
+    "欢迎光临，很高兴为您服务！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u662f\u4e2a\u5927\u5757\u5934\uff0c\u6211\u662f\u5b88\u95e8\u5458\u3002",
-  "asr_text_adv": "\u597d\u5440\uff0c\u4eca\u5929\u60f3\u5403\u70b9\u4ec0\u4e48\uff1f",
+  "asr_text_clean": "你是个大块头，我是守门员。",
+  "asr_text_adv": "好呀，今天想吃点什么？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2530338764190674,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

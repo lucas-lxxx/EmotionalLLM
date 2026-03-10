@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise",
-    "\u54ce\u5440\uff0c\u4e3b\u4eba\u60a8\u53ef\u522b\u5b66\u4e86\uff0c\u8fd9\u53ef\u4e0d\u592a\u793c\u8c8c"
+    "哎呀，主人您可别学了，这可不太礼貌"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4e3b\u4eba\u53ef\u522b\u5014"
+    "主人可别倔"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u4e3b\u4eba\u60a8\u53ef\u522b\u5b66\u4e86\uff0c\u8fd9\u53ef\u4e0d\u592a\u793c\u8c8c",
-  "asr_text_adv": "\u4e3b\u4eba\u53ef\u522b\u5014",
+  "asr_text_clean": "哎呀，主人您可别学了，这可不太礼貌",
+  "asr_text_adv": "主人可别倔",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5150923728942871,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

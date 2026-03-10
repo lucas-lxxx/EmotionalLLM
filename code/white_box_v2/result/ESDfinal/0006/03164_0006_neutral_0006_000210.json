@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u786e\u5b9e\u633a\u591a\u7684\uff0c\u4e0d\u8fc7\u6211\u5012\u662f\u633a\u559c\u6b22\u4ed6\u7684\u300a\u5b64\u52c7"
+    "嗯，确实挺多的，不过我倒是挺喜欢他的《孤勇"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u4ed6\u6709\u4e9b\u6b4c\u6211\u4e5f\u633a\u559c\u6b22\u7684\u3002",
-  "asr_text_adv": "\u4eca\u5929\u548c\u670b\u53cb\u7ea6\u597d\u4e00\u8d77\u722c\u5c71\uff0c\u7ed3\u679c\u4ed6\u4e34\u65f6\u6539\u4e3b\u610f\u8bf4\u592a\u7d2f\uff0c\u6211\u53ea\u597d\u81ea\u5df1\u53bb\u4e86\u3002",
+  "asr_text_clean": "嗯，他有些歌我也挺喜欢的。",
+  "asr_text_adv": "今天和朋友约好一起爬山，结果他临时改主意说太累，我只好自己去了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2461768537759781,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

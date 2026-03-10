@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u6211\u660e\u660e\u5f88\u52aa\u529b\u4e86\u597d\u5417\uff01"
+    "哎呀，我明明很努力了好吗！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u4e2a\u5c0f\u6c14\u9b3c\uff0c\u771f\u8ba9\u4eba\u5934\u75bc\u3002",
+  "asr_text_clean": "你这个小气鬼，真让人头疼。",
   "asr_text_adv": "He does his homework every night.",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

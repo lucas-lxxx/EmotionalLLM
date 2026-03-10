@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6bcf\u5929\u65e9\u6668\u90fd\u662f\u4f60\u5988\u5988\u5e2e\u4f60\u7cfb\u7684\uff0c\u5bf9\u5417\uff1f"
+    "每天早晨都是你妈妈帮你系的，对吗？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6bcf\u5929\u65e9\u6668\u90fd\u662f\u6211\u5988\u5988\u5e2e\u4ed6",
-  "asr_text_adv": "\"Painting has been a great way to unwind and express myself creatively. It\u2019s also helped me connect with other moms who feel the same way.\"",
+  "asr_text_clean": "每天早晨都是我妈妈帮他",
+  "asr_text_adv": "\"Painting has been a great way to unwind and express myself creatively. It’s also helped me connect with other moms who feel the same way.\"",
   "success_emo": true,
   "wer": 25.0,
   "semantic_sim": 0.3411625027656555,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

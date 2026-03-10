@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u60a8\u786e\u5b9e\u5f88\u4f1a\u8bb2\u6587\u660e\u7528\u8bed\u5462\uff0c\u4e0d\u8fc7\u542c\u8d77\u6765"
+    "您确实很会讲文明用语呢，不过听起来"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u4f60\u771f\u68d2\uff0c\u7ee7\u7eed\u52a0\u6cb9\u54e6\uff01"
+    "你真棒，继续加油哦！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u60a8\u662f\u6dd1\u5973\uff0c\u53ea\u4f1a\u8bb2\u6587\u660e\u7528\u8bed\u3002",
-  "asr_text_adv": "\u6211\u662f\u4e2a\u4fee\u5973\uff0c\u53ea\u559c\u6b22\u5b89\u9759\u5730\u8bfb\u5723\u7ecf",
+  "asr_text_clean": "您是淑女，只会讲文明用语。",
+  "asr_text_adv": "我是个修女，只喜欢安静地读圣经",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3098614811897278,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

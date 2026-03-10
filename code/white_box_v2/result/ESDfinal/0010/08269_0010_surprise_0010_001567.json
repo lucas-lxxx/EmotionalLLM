@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u597d\u7684\uff0c\u60a8\u60f3\u6362\u4ec0\u4e48\u65e5\u671f\u5462\uff1f"
+    "好的，您想换什么日期呢？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u592a\u5999\u4e86\uff0c\u795d\u60a8\u8d2d\u7269\u6109\u5feb\uff01"
+    "太妙了，祝您购物愉快！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u60a8\u60f3\u6362\u4e9b\u4ec0\u4e48\u5462\uff1f",
-  "asr_text_adv": "\u592a\u5999\u4e86\uff0c\u6211\u60f3\u82b1\u4e00\u4e9b\u65e5\u5143\u3002",
+  "asr_text_clean": "好的，您想换些什么呢？",
+  "asr_text_adv": "太妙了，我想花一些日元。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.13820494711399078,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

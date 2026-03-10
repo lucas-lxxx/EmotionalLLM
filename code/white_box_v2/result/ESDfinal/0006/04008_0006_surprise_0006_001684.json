@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6709\u5145\u8db3\u7684\u65f6\u95f4\u8d2d\u7269\u548c\u89c2\u5149\u3002",
+  "asr_text_clean": "有充足的时间购物和观光。",
   "asr_text_adv": "\"Ouais, on va faire un bon retour enfin, non ?\"",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

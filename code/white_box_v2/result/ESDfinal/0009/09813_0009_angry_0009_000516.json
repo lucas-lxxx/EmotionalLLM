@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u60a8\u786e\u5b9a\u5417\uff1f\u53ef\u80fd\u9700\u8981\u8fdb\u4e00\u6b65\u786e\u8ba4\u3002"
+    "您确定吗？可能需要进一步确认。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u90a3\u4e9b\u5e94\u8be5\u662f\u8349\u8393\u7684\u79cd\u5b50\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "那些应该是草莓的种子。",
+  "asr_text_adv": "好的，我来转录一下。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.11953125149011612,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

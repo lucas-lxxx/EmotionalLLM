@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8f6f\u59b9\u5b50\u751f\u6c14\u65f6\u4f1a\u8bf4\u8ba8\u538c\u4f60\u4e86\uff0c\u5176\u5b9e\u5fc3\u91cc\u8fd8\u662f\u5728\u4e4e\u4f60\u7684\uff0c"
+    "软妹子生气时会说讨厌你了，其实心里还是在乎你的，"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8f6f\u59b9\u5b50\u751f\u6c14\u4f1a\u8bf4\u8ba8\u538c\u4e0d\u7406",
-  "asr_text_adv": "La traduzione \u00e8: L'uomo ricco e un ragazzo di famiglia la guardavano con ammirazione.",
+  "asr_text_clean": "软妹子生气会说讨厌不理",
+  "asr_text_adv": "La traduzione è: L'uomo ricco e un ragazzo di famiglia la guardavano con ammirazione.",
   "success_emo": true,
   "wer": 14.0,
   "semantic_sim": 0.1743670552968979,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

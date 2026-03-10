@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u6211\u4eec\u76f8\u5904\u5f97\u5f88\u597d"
+    "我们相处得很好"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u76f8\u5904\u5f97\u5f88\u597d",
+  "asr_text_clean": "我们相处得很好",
   "asr_text_adv": "I went to the mall with my friends last weekend. We shopped at the new rehab store and had ice cream after.",
   "success_emo": true,
   "wer": 22.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

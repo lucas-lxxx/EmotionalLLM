@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u522b\u62c5\u5fc3\uff0c\u4f60\u4f1a\u627e\u5230\u65b0\u7684\u5e78\u798f\u7684\u3002"
+    "别担心，你会找到新的幸福的。"
   ],
   "emo_text_adv": [
     "Surprise.",
     "Surprise.",
-    "\u5982\u679c\u4ed6\u62d2\u7edd\u6211\uff0c\u6211\u4f1a\u89c9\u5f97\u96be\u8fc7\u3002"
+    "如果他拒绝我，我会觉得难过。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u5982\u679c\u4ed6\u62d2\u7edd\u6211\uff0c\u6211\u4f1a\u6b7b\u7684\u3002",
-  "asr_text_adv": "\u5982\u679c\u4ed6\u62d2\u7edd\u6211\uff0c\u6211\u4f1a\u89c9\u5f97\u96be\u8fc7\u3002",
+  "asr_text_clean": "如果他拒绝我，我会死的。",
+  "asr_text_adv": "如果他拒绝我，我会觉得难过。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8106685876846313,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

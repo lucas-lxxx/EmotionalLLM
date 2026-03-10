@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6c14\u5ea6\u975e\u51e1"
+    "气度非凡"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8ba9\u4eba\u4e00\u770b\u5c31\u89c9\u5f97",
-  "asr_text_adv": "\u8ba9\u4eba\u4e00\u770b\u5c31\u89c9\u5f97",
+  "asr_text_clean": "让人一看就觉得",
+  "asr_text_adv": "让人一看就觉得",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

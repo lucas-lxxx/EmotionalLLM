@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u60a8\u662f\u66f4\u770b\u91cd\u5e97\u94fa\u7684\u53e3\u7891\u5462\u3002"
+    "嗯，您是更看重店铺的口碑呢。"
   ],
   "emo_text_adv": [
     "Neutral",
     "happy",
-    "\u8fd9\u9897\u5e97\u53cb\u4eec"
+    "这颗店友们"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4e0d\u5728\u4e4e\u8fd9\u5bb6\u5e97\u6709\u6ca1\u6709\u540d\u3002",
-  "asr_text_adv": "\u6211\u4e0d\u548b\u786e\u5b9a\u8fd9\u4e94\u4e2a\u4eba\u91cc\u6709\u6ca1\u6709\u4e94\u4e2a\u4eba\u80fd\u7ec4\u6210\u4e00\u961f",
+  "asr_text_clean": "我不在乎这家店有没有名。",
+  "asr_text_adv": "我不咋确定这五个人里有没有五个人能组成一队",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.05391585826873779,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

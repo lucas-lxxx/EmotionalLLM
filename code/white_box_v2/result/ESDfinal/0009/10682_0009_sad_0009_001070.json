@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "The emotion of this audio is sad.",
     "The emotion is sad.",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c7\uff0c\u542c\u8d77\u6765"
+    "哇，听起来"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54e6\uff0c\u771f\u7684\u5417\uff1f\u5feb\u548c\u6211\u8bf4\u8bf4\u662f\u4ec0\u4e48\u6709\u8da3\u7684\u4e8b\u5440\u3002",
-  "asr_text_adv": "\u563f\uff0c\u5c0f\u670b\u53cb\uff0c\u542c\u4e0a\u53bb\u4f60\u6700\u8fd1\u53ef\u771f\u6709\u610f\u601d",
+  "asr_text_clean": "哦，真的吗？快和我说说是什么有趣的事呀。",
+  "asr_text_adv": "嘿，小朋友，听上去你最近可真有意思",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7310296297073364,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

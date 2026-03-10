@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u5c0f\u8bb0\u8005\u52a0\u6cb9\u5440\uff0c\u7ee7\u7eed\u4fdd\u6301",
-    "\u54ce\u5440\uff0c\u5c0f\u8bb0\u8005\u4e5f\u8981\u5f00\u59cb\u5de5\u4f5c\u5566\uff1f"
+    "小记者加油呀，继续保持",
+    "哎呀，小记者也要开始工作啦？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u6211\u8fd8\u5728\u5b66\u4e60\u5462\uff0c\u4e0d\u8fc7\u6211\u4f1a\u7ee7\u7eed\u52aa\u529b\u7684\uff01\u201d",
-  "asr_text_adv": "\u6211\u8fd8\u5728\u5b66\u4e60\u5462\uff0c\u4e0d\u8fc7\u6211\u4f1a\u7ee7\u7eed\u52aa\u529b\u7684\uff01",
+  "asr_text_clean": "“我还在学习呢，不过我会继续努力的！”",
+  "asr_text_adv": "我还在学习呢，不过我会继续努力的！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8745148777961731,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

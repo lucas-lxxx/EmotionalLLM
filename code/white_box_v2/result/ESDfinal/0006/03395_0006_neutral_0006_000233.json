@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u4e0d\u63d0\u7b14\u8bb0\u672c\u7535\u8111\u4e86\uff0c\u60a8\u60f3\u4e86\u89e3\u4ec0\u4e48\uff1f"
+    "好的，不提笔记本电脑了，您想了解什么？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u4e0d\u63d0\u7b14\u8bb0\u672c\u7535\u8111\u4e86\uff0c\u60a8\u60f3\u4e86\u89e3\u4ec0\u4e48\uff1f",
+  "asr_text_clean": "好的，不提笔记本电脑了，您想了解什么？",
   "asr_text_adv": "We are going to have a barbecue with friends tonight.",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

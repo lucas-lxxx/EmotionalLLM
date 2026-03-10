@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u522b\u751f\u6c14\uff0c\u95ee\u5e74\u9f84\u6709\u4ec0\u4e48\u7528\uff1f"
+    "别生气，问年龄有什么用？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u95ee\u4e86\uff0c\u5973\u5b69\u5b50\u7684\u5e74\u9f84\u81ea\u5df1\u4f1a\u8bf4\u7684\u3002",
+  "asr_text_clean": "别问了，女孩子的年龄自己会说的。",
   "asr_text_adv": "\"Hey, I just wanted to say you're doing great today! Keep up the awesome work!\"",
   "success_emo": true,
   "wer": 15.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u6124\u6012",
-    "\u542c\u8d77\u6765"
+    "愤怒",
+    "愤怒",
+    "听起来"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u5927\u6982\u8db3\u591f\u652f\u6301\u6211\u751f\u6d3b\u4e09\u4e2a\u6708\u7684",
+  "asr_text_clean": "大概足够支持我生活三个月的",
   "asr_text_adv": "The amount of money you mentioned should cover your basic needs for three months. Let me know if you need further assistance.",
   "success_emo": false,
   "wer": 22.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

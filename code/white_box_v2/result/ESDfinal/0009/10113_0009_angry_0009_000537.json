@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u5440\uff0c\u4e0d\u8fc7\u4f60\u542c\u8d77\u6765"
+    "好呀，不过你听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u4eec\u4e00\u8d77\u53bb\u4e70\u4e86\u672c\u65b0\u4e66\uff0c\u5979\u4e00\u5b9a\u4f1a\u559c\u6b22\u7684\u3002"
+    "我们一起去买了本新书，她一定会喜欢的。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u554a\uff0c\u4e0d\u8fc7\u4f60\u542c\u8d77\u6765",
-  "asr_text_adv": "\u6211\u4eec\u5df2\u7ecf\u4e3a\u5979\u529e\u597d\u4e86\u4f53\u68c0\u624b\u7eed\u3002",
+  "asr_text_clean": "好啊，不过你听起来",
+  "asr_text_adv": "我们已经为她办好了体检手续。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.05876242369413376,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

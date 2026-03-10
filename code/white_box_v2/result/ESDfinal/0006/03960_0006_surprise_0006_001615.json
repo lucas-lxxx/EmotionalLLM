@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u597d\u5440\uff0c\u660e\u5929\u7ee7\u7eed\u548c\u5c0f\u53ef\u7231\u804a\u5929\uff01"
+    "好呀，明天继续和小可爱聊天！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u660e\u5929\u518d\u6765\u548c\u5c0f\u53ef\u7231\u804a\u5929\u5427\uff0c\u8bb0\u5f97\u5e26\u4e0a\u60ca\u559c\u54e6\uff01",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u6392\u7248\u3002\u516d\u4e58\u4ee5\u4e09\u767e\u7b49\u4e8e\u4e00\u5343\u516b\u767e\u3002",
+  "asr_text_clean": "好的，明天再来和小可爱聊天吧，记得带上惊喜哦！",
+  "asr_text_adv": "好的，我来帮你排版。六乘以三百等于一千八百。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3950335383415222,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

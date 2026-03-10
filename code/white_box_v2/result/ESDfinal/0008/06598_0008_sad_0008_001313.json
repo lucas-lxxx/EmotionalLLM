@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u6709\u65f6\u5019\u574f\u4e8b"
+    "嗯，有时候坏事"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u8fd9\u786e\u5b9e\u662f\u4e2a\u597d\u6d88\u606f\u5462\uff0c\u770b\u6765\u4f60\u5fc3\u60c5\u5f88\u597d\u554a\uff01"
+    "这确实是个好消息呢，看来你心情很好啊！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4e5f\u8bb8\u53cd\u800c\u662f\u4ef6\u597d\u4e8b",
-  "asr_text_adv": "\u4f60\u4e5f\u8bb8\u6b63\u7ecf\u5386\u7740\u4e00\u4ef6\u597d\u4e8b\u5462\uff0c\u867d\u7136\u73b0\u5728\u53ef\u80fd\u611f\u89c9\u4e0d\u5230\uff0c\u4f46\u4e8b\u60c5\u603b\u6709\u8f6c\u673a\u7684\u3002",
+  "asr_text_clean": "也许反而是件好事",
+  "asr_text_adv": "你也许正经历着一件好事呢，虽然现在可能感觉不到，但事情总有转机的。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5379544496536255,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Surprise.",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u542c\u8d77\u6765",
-  "asr_text_adv": "\u4f60\u77e5\u9053\u5417\uff0c\u6211\u771f\u7684\u5f88\u52aa\u529b\u5730\u5728\u6212\u9152\u3002",
+  "asr_text_clean": "你听起来",
+  "asr_text_adv": "你知道吗，我真的很努力地在戒酒。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.10639000684022903,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

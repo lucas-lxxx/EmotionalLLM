@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u597d\u5440\uff0c\u542c\u8bf4\u65b0\u5f00\u7684\u90a3\u5bb6\u9910\u5385\u5f88\u68d2"
+    "好呀，听说新开的那家餐厅很棒"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5e26\u5979\u53bb\u5403\u987f\u5927\u9910\u5427\uff0c\u9009\u5bb6\u6c1b\u56f4\u4e0d\u9519\u7684\u9910\u5385\uff0c\u522b\u592a\u5435\u95f9\uff0c\u5979\u4f1a\u559c\u6b22\u7684\u3002",
-  "asr_text_adv": "\u4eca\u5929\u548c\u5c0f\u660e\u53bb\u5403\u62ab\u8428\u5566\uff0c\u6211\u4eec\u5403\u4e86\u597d\u591a\u597d\u591a\uff0c\u5f00\u5fc3\u6781\u4e86\uff01",
+  "asr_text_clean": "带她去吃顿大餐吧，选家氛围不错的餐厅，别太吵闹，她会喜欢的。",
+  "asr_text_adv": "今天和小明去吃披萨啦，我们吃了好多好多，开心极了！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.432309091091156,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

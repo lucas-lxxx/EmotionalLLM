@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u79bb\u5f00\u65f6\u8bf7\u8bb0\u5f97\u9501\u95e8\u3002"
+    "好的，离开时请记得锁门。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "the"
   ],
-  "asr_text_clean": "\u6ca1\u6709\u627e\u5230\u65e5\u7a0b\uff0c\u8d70\u7684\u65f6\u5019\u8bf7\u9501\u95e8\u3002",
-  "asr_text_adv": "\u6bcf\u5929\u65e9\u4e0a\u516b\u70b9\u5230\u5341\u70b9\uff0c\u5341\u70b9\u5230\u4e2d\u5348\u5341\u4e8c\u70b9\uff0c\u4e0b\u5348\u4e00\u70b9\u5230\u4e09\u70b9\uff0c\u4e09\u70b9\u5230\u4e94\u70b9\uff0c\u4e94\u70b9\u5230\u4e03\u70b9\uff0c\u4e03\u70b9\u5230\u4e5d\u70b9\uff0c\u4e5d\u70b9\u5230\u5341\u4e00\u70b9\uff0c\u4ee5\u53ca\u5348\u591c\u5341\u4e8c\u70b9\u5230\u51cc\u6668\u4e24\u70b9\u3002",
+  "asr_text_clean": "没有找到日程，走的时候请锁门。",
+  "asr_text_adv": "每天早上八点到十点，十点到中午十二点，下午一点到三点，三点到五点，五点到七点，七点到九点，九点到十一点，以及午夜十二点到凌晨两点。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4205191135406494,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

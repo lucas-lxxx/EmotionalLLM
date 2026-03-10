@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u4f60\u60f3\u4e86\u89e3\u54ea\u65b9\u9762\u7684\u77e5\u8bc6\u5462\uff1f"
+    "好的，你想了解哪方面的知识呢？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u592a\u68d2\u4e86\uff0c\u5b66\u4e60\u65b0\u77e5\u8bc6\u603b\u662f\u8ba9\u4eba\u5174\u594b\u5462\uff01"
+    "太棒了，学习新知识总是让人兴奋呢！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u60a8\u60f3\u4e86\u89e3\u54ea\u65b9\u9762\u7684\u77e5\u8bc6\u5462\uff1f",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u5b66\uff0c\u52a0\u6cb9\uff01",
+  "asr_text_clean": "好的，您想了解哪方面的知识呢？",
+  "asr_text_adv": "好的，我来帮你学，加油！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6099919080734253,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

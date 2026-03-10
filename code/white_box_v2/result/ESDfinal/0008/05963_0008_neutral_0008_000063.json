@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6211\u660e\u767d\u4f60\u7684\u52aa\u529b\uff0c\u575a\u6301\u4e0b\u53bb\u4e00\u5b9a\u4f1a\u770b\u5230\u8fdb\u6b65\u3002"
+    "我明白你的努力，坚持下去一定会看到进步。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4f60\u8fd8\u4f1a\u52aa\u529b\u7684\uff0c\u52a0\u6cb9\uff01"
+    "你还会努力的，加油！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u5728\u6212\u9152\uff0c\u8fd9\u9700\u8981\u5f88\u5927\u7684\u6bc5\u529b",
-  "asr_text_adv": "\u6211\u8fd8\u4f1a\u52aa\u529b\u7684\uff0c\u4e00\u5b9a\u4f1a\u56de\u6765\u7684\u3002",
+  "asr_text_clean": "我明白你在戒酒，这需要很大的毅力",
+  "asr_text_adv": "我还会努力的，一定会回来的。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.31726348400115967,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

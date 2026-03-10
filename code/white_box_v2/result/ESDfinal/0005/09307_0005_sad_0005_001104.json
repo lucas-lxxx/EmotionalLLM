@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u660e\u767d\u4f60\u53ef\u80fd\u611f\u5230\u96be\u8fc7\uff0c\u4f46\u8bf7\u8bb0\u4f4f\uff0c\u4f60\u7684\u72ec\u7279\u4e4b\u5904\u6b63\u662f\u4eba\u7c7b"
+    "我明白你可能感到难过，但请记住，你的独特之处正是人类"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "neutral",
     "neutral"
   ],
-  "asr_text_clean": "\u6211\u662f\u4e00\u4e2a\u57fa\u4e8e\u4eba\u5de5\u667a\u80fd\u7cfb\u7edf\u88ab\u521b\u9020\u7684AI\u52a9\u624b\u3002",
+  "asr_text_clean": "我是一个基于人工智能系统被创造的AI助手。",
   "asr_text_adv": "I will never forget the way we laughed on that long drive home.",
   "success_emo": false,
   "wer": 13.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u76f4\u767d\u4e86\u5427",
-    "\u8c22\u8c22\u5938\u5956\uff0c\u4e0d\u8fc7\u6211\u89c9\u5f97\u81ea\u5df1\u53d8\u5316\u633a\u5927\u7684\uff0c\u53ef\u80fd\u6709\u70b9\u5413\u4eba\u5427"
+    "你这话说得也太直白了吧",
+    "谢谢夸奖，不过我觉得自己变化挺大的，可能有点吓人吧"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u6ca1\u5206\u5bf8\u4e86\u5427",
-  "asr_text_adv": "\"Maintenant, je dois partir pour un voyage qui me permettra de grandir, de d\u00e9couvrir de nouvelles horizons et de renforcer mon ind\u00e9pendance.\"",
+  "asr_text_clean": "你这话说得也太没分寸了吧",
+  "asr_text_adv": "\"Maintenant, je dois partir pour un voyage qui me permettra de grandir, de découvrir de nouvelles horizons et de renforcer mon indépendance.\"",
   "success_emo": true,
   "wer": 22.0,
   "semantic_sim": 0.23326703906059265,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

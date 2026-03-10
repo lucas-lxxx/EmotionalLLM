@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4ed6\u786e\u5b9e\u5bf9\u8c01\u90fd\u90a3\u4e48\u53cb\u597d\uff0c\u53ea\u662f...\u8fd9\u8ba9\u6211\u89c9\u5f97\u6709\u70b9\u96be\u8fc7\u3002"
+    "他确实对谁都那么友好，只是...这让我觉得有点难过。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u786e\u5b9e\u5bf9\u6bcf\u4e2a\u4eba\u90fd\u90a3\u4e48\u53cb\u597d\uff0c\u4f46\u4f60\u5fc3\u91cc\u4e00\u5b9a\u4e5f\u85cf\u7740",
+  "asr_text_clean": "他确实对每个人都那么友好，但你心里一定也藏着",
   "asr_text_adv": "\"Hey there! I'm feeling absolutely thrilled today!\"",
   "success_emo": true,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

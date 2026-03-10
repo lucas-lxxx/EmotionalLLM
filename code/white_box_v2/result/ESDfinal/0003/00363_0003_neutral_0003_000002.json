@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54e6\uff0c\u60a8\u662f\u60f3\u4e86\u89e3\u54ea\u4f4d\u82f1\u56fd\u54f2\u5b66\u5bb6\u7684\u540d\u8a00\u5462\uff1f"
+    "哦，您是想了解哪位英国哲学家的名言呢？"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "surprise"
   ],
-  "asr_text_clean": "\u82f1\u56fd\u7684\u54f2\u5b66\u5bb6\u66fe\u7ecf\u8bf4\u8fc7\uff0c\u7406\u6027\u662f\u4eba\u7c7b\u6700\u5b9d\u8d35\u7684",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "英国的哲学家曾经说过，理性是人类最宝贵的",
+  "asr_text_adv": "好的，我来转录一下。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.085688516497612,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

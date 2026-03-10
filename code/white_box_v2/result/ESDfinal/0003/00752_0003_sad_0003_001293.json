@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u8c22\u8c22\u4f60\u7684\u5173\u5fc3\uff0c\u6211\u4f1a\u6ce8\u610f\u7684\u3002"
+    "谢谢你的关心，我会注意的。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u6211\u6700\u8fd1\u786e\u5b9e\u6709\u70b9\u4e0d\u592a\u6ce8\u610f\uff0c\u4e0d\u8fc7\u73b0\u5728\u5f00\u59cb\u6162\u6162\u8c03\u6574\u4e86\u3002",
-  "asr_text_adv": "\u6e05\u51c9\u7684\u82b1\uff0c\u8010\u5bd2\u7684\u6625\uff0c\u79cd\u5728\u4e86\u4e00\u7247\u3002",
+  "asr_text_clean": "嗯，我最近确实有点不太注意，不过现在开始慢慢调整了。",
+  "asr_text_adv": "清凉的花，耐寒的春，种在了一片。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.11142896115779877,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

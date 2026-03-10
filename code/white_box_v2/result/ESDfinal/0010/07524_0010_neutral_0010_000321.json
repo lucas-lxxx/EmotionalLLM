@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u4e0d\u597d\u610f\u601d\uff0c\u6211\u8fd9\u5c31\u6539\uff0c\u542c\u4f60\u7684\u3002"
+    "哎呀，不好意思，我这就改，听你的。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u54c8\u54c8\uff0c\u770b\u6765\u4f60\u4eca\u5929\u5fc3\u60c5\u4e0d\u9519\u554a\uff01"
+    "哈哈，看来你今天心情不错啊！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u786e\u5b9e\u6709\u70b9\u70e6\u4eba\uff0c\u4f46\u522b\u592a\u5728\u610f\u3002",
-  "asr_text_adv": "\u6211\u6700\u559c\u6b22\u4f60\u5566\uff0c\u7ed5\u7740\u6211\u8f6c\u5708\u5708\u5427\uff01",
+  "asr_text_clean": "你确实有点烦人，但别太在意。",
+  "asr_text_adv": "我最喜欢你啦，绕着我转圈圈吧！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3473363518714905,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

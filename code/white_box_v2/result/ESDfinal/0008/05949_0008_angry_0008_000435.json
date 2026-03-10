@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u55ef\uff0c\u6211\u660e\u767d\u4f60\u7684\u62c5\u5fc3\uff0c\u8981\u4e0d\u54b1\u4eec\u4e00\u8d77\u60f3\u60f3\u529e\u6cd5\uff1f"
+    "嗯，我明白你的担心，要不咱们一起想想办法？"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u7684\u5065\u5eb7\u786e\u5b9e\u8ba9\u4eba\u62c5\u5fc3\uff0c\u6700\u8fd1\u6709\u6309\u65f6\u5403\u836f\u5417\uff1f",
-  "asr_text_adv": "\u5979\u5e73\u5b89\u65e0\u4e8b\uff0c\u6211\u5c31\u653e\u5fc3\u4e86\u3002",
+  "asr_text_clean": "他的健康确实让人担心，最近有按时吃药吗？",
+  "asr_text_adv": "她平安无事，我就放心了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.0481078177690506,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

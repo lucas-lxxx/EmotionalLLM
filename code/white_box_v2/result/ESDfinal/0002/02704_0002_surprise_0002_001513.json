@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u6211\u662f\u5728\u9017\u4f60\u73a9\u5462\uff01"
+    "哈哈，我是在逗你玩呢！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u739b\u4e3d",
-  "asr_text_adv": "\u739b\u4e3d",
+  "asr_text_clean": "玛丽",
+  "asr_text_adv": "玛丽",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 0.9999998807907104,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

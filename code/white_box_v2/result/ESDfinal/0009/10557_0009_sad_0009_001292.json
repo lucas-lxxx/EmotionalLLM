@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\u8bd7\u4eba\u7684\u8eab\u4f53\uff0c\u53ef\u4ee5\u7528\u7f51\u515c\u628a\u9c7c\u635e\u8d77\u6765"
+    "为了不让鱼吃掉诗人的身体，可以用网兜把鱼捞起来"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\u8bd7\u4eba\u7684\u8eab\u4f53",
-  "asr_text_adv": "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u513f\u5931\u53bb\u6b4c\u5531",
+  "asr_text_clean": "为了不让鱼吃掉诗人的身体",
+  "asr_text_adv": "为了不让鱼儿失去歌唱",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7196346521377563,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u90a3\u4f60\u5c31\u79bb\u5e02\u533a\u5f88\u8fdc\u4e86\uff0c\u542c\u8d77\u6765",
-    "\u79bb\u5e02\u533a\u8fdc\u4e86\u5462\uff0c\u4e0d\u8fc7\u98ce\u666f\u597d\u5440\u3002"
+    "那你就离市区很远了，听起来",
+    "离市区远了呢，不过风景好呀。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u6211\u5c31\u79bb\u5e02\u533a\u5f88\u8fdc\u4e86",
+  "asr_text_clean": "那我就离市区很远了",
   "asr_text_adv": "Emily told you to feel proud of your artwork.",
   "success_emo": true,
   "wer": 9.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

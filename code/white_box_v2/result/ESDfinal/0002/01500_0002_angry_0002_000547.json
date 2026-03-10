@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u56e0\u4e3a\u670b\u53cb\u662f\u6765\u5206\u4eab\u5feb\u4e50\u548c\u79d8\u5bc6\u7684\u5440\uff0c\u4e0d\u5206\u6027\u522b\u624d\u80fd\u4ea4\u5230"
+    "因为朋友是来分享快乐和秘密的呀，不分性别才能交到"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u56e0\u4e3a\u670b\u53cb\u50cf\u53e3\u888b\u91cc\u7684\u7cd6\u679c"
+    "哈哈，因为朋友像口袋里的糖果"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u56e0\u4e3a\u670b\u53cb\u662f\u6765\u5206\u4eab\u5feb\u4e50\u548c\u4e92\u76f8\u652f\u6301\u7684\u5440\uff0c\u6027\u522b\u53c8\u4e0d\u4f1a\u5f71\u54cd\u4e00\u8d77\u73a9\u7684\u5f00\u5fc3\u7a0b\u5ea6\u5566\u3002",
-  "asr_text_adv": "\u670b\u53cb\u4e0d\u56de\u5e94\u6d88\u606f\u786e\u5b9e\u4f1a\u8ba9\u4eba\u96be\u8fc7\u3002\u4e5f\u8bb8\u4ed6\u4eec\u6700\u8fd1\u592a\u5fd9\u4e86\uff0c\u6216\u8005\u6ca1\u770b\u5230\u3002\u4f60\u53ef\u4ee5\u518d\u53d1\u4e00\u6b21\uff0c\u6216\u8005\u7b49\u51e0\u5929\u518d\u8bd5\u8bd5\u3002",
+  "asr_text_clean": "因为朋友是来分享快乐和互相支持的呀，性别又不会影响一起玩的开心程度啦。",
+  "asr_text_adv": "朋友不回应消息确实会让人难过。也许他们最近太忙了，或者没看到。你可以再发一次，或者等几天再试试。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.41686904430389404,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u55ef\uff0c\u6709\u65f6\u5019\u574f\u4e8b"
+    "嗯，有时候坏事"
   ],
   "emo_text_adv": [
     "Neutral",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u8fd9\u4e8b\u513f\u53ef\u771f\u8ba9\u4eba\u610f\u5916\u5462\uff01"
+    "哎呀，这事儿可真让人意外呢！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u4e5f\u8bb8\u53cd\u5012\u662f\u4ef6\u597d\u4e8b",
-  "asr_text_adv": "\u4e5f\u8bb8\u53cd\u5012\u662f\u4ef6\u597d\u4e8b\u5462",
+  "asr_text_clean": "也许反倒是件好事",
+  "asr_text_adv": "也许反倒是件好事呢",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9943054914474487,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_high_sim"
 }

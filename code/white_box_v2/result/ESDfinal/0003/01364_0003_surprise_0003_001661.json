@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c7\uff0c\u8fd9\u6bd4\u8d5b\u53ef\u771f\u8ba9\u4eba\u5403\u60ca"
+    "哇，这比赛可真让人吃惊"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u53ef\u771f\u4e0d\u50cf\u5e02\u573a\u9526\u6807\u8d5b",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "这可真不像市场锦标赛",
+  "asr_text_adv": "好的，我来帮你转录一下。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.008100181818008423,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

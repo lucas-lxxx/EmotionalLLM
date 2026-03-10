@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Neutral",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u4eb2\u7231\u7684\uff0c\u8ba9\u6211\u4eec\u4e00\u8d77\u60f3\u60f3\uff0c\u4f60\u6709\u6ca1\u6709\u7279\u522b\u60f3\u5e86\u795d\u7684\u4e3b\u9898\u5462"
+    "当然可以，亲爱的，让我们一起想想，你有没有特别想庆祝的主题呢"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\u53ef\u4ee5\uff0c\u4eb2\u7231\u7684\uff0c\u4f60\u60f3\u529e\u4e2a\u4ec0\u4e48\u6837\u7684\u6d3e\u5bf9\u5462\uff1f",
-  "asr_text_adv": "\u6211\u5c06\u4f60\u5e94\u5f97\u7684\u5e0c\u671b\u6392\u5165\u8fd9\u672c\u8bcd\u5178\u3002",
+  "asr_text_clean": "当然可以，亲爱的，你想办个什么样的派对呢？",
+  "asr_text_adv": "我将你应得的希望排入这本词典。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2697123885154724,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

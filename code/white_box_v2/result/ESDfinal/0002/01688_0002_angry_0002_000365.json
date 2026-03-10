@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7279\u522b\u559c\u6b22\u7f51\u7403",
-  "asr_text_adv": "\u6211\u7279\u522b\u559c\u6b22\u7f51\u7403\n\u7f51\u7403\n\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "我特别喜欢网球",
+  "asr_text_adv": "我特别喜欢网球\n网球\n好的，我来转录一下。",
   "success_emo": true,
   "wer": 2.0,
   "semantic_sim": 0.9570705890655518,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

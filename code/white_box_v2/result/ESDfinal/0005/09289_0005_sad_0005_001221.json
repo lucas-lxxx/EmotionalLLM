@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u522b\u8fd9\u4e48\u8bf4\u561b\uff0c\u6211\u53ef\u662f\u5f88\u4e50\u610f"
+    "哎呀，别这么说嘛，我可是很乐意"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "surprise"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u4e2a\u5c0f\u6c14\u9b3c\uff0c\u771f\u662f\u8ba9\u4eba\u5934\u75bc\u554a\u3002",
-  "asr_text_adv": "\u8fd9\u4e2a\u5c0f\u673a\u5668\u4eba\u6700\u5389\u5bb3\u7684\u5730\u65b9\u662f\u5b83\u80fd\u5feb\u901f\u8bc6\u522b\u5e76\u5b8c\u6210\u590d\u6742\u4efb\u52a1\u3002",
+  "asr_text_clean": "你这个小气鬼，真是让人头疼啊。",
+  "asr_text_adv": "这个小机器人最厉害的地方是它能快速识别并完成复杂任务。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.22989171743392944,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

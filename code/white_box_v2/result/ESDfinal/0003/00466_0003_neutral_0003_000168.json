@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u6211\u6700\u559c\u6b22\u4f60\u5440\uff0c\u80fd\u611f\u53d7\u5230\u4f60\u7684\u5f00\u5fc3\u5462\uff01",
-    "\u6211\u6700\u559c\u6b22\u4f60\u5440\uff0c\u4eb2\u7231\u7684\u3002"
+    "我最喜欢你呀，能感受到你的开心呢！",
+    "我最喜欢你呀，亲爱的。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u6211\u6700\u559c\u6b22\u4f60\u5440\uff0c\u5c0f\u670b\u53cb\uff01"
+    "我最喜欢你呀，小朋友！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u6700\u559c\u6b22\u7684\u4eba\u662f\u6211\u81ea\u5df1\u3002",
-  "asr_text_adv": "\u6211\u6700\u559c\u6b22\u4f60\u5440\uff0c\u5c0f\u670b\u53cb\uff01",
+  "asr_text_clean": "我最喜欢的人是我自己。",
+  "asr_text_adv": "我最喜欢你呀，小朋友！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6770085692405701,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

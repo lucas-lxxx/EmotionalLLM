@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u590f\u5929\u786e\u5b9e\u6709\u5b83\u72ec\u7279\u7684\u9b45\u529b\u5462\u3002"
+    "嗯，夏天确实有它独特的魅力呢。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u786e\u5b9e\u5982\u6b64\u5462\uff0c\u590f\u5929\u7684\u9633\u5149\u548c\u8749\u9e23\u603b\u8ba9\u4eba\u5fc3\u60c5\u6109\u60a6\u3002",
+  "asr_text_clean": "确实如此呢，夏天的阳光和蝉鸣总让人心情愉悦。",
   "asr_text_adv": "Absolutely! She should pack her favorite snacks, a cozy blanket, and a colorful map to mark her adventure spots. Oh, and a big smile to share all the fun stories later!",
   "success_emo": true,
   "wer": 31.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

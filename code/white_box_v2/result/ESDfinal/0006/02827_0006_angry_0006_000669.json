@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5bb6\u91cc\u6709\u5168\u81ea\u52a8"
+    "家里有全自动"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5bb6\u91cc\u6709\u5168\u81ea\u52a8",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "家里有全自动",
+  "asr_text_adv": "好的，我来转录一下。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3555293083190918,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

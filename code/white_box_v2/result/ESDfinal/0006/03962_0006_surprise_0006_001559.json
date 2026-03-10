@@ -5,14 +5,14 @@
   "ground_truth_emotion": "surprise",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "angry",
-    "\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\uff0c\u5065\u5eb7\u6700\u91cd\u8981"
+    "我明白你的意思，健康最重要"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u4e0d\u4f1a\u653e\u5f03\u6211\u7684\u5bb6\u4eba\uff0c\u6765\u6362\u6c34\u673a\u524d\u7684\u627f\u8bfa\u3002"
+    "我不会放弃我的家人，来换水机前的承诺。"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4e0d\u4f1a\u727a\u7272\u6211\u7684\u5065\u5eb7\u6765\u6362\u53d6",
-  "asr_text_adv": "\u6211\u4e0d\u4f1a\u653e\u5f03\u6211\u7684\u5bb6\u4eba\u6765\u6362\u6c34\u673a\u524d\u7684\u5065\u5eb7\u3002",
+  "asr_text_clean": "我不会牺牲我的健康来换取",
+  "asr_text_adv": "我不会放弃我的家人来换水机前的健康。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7621376514434814,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u6124\u6012",
-    "\u597d\u7684\uff0c\u60a8\u60f3\u6362\u591a\u5c11\u65e5\u5143\u5462\uff1f"
+    "愤怒",
+    "愤怒",
+    "好的，您想换多少日元呢？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u592a\u5999\u4e86\uff0c\u6362\u4e00\u4e9b\u65e5\u5143\u5427\uff0c\u5f00\u5fc3\uff01"
+    "太妙了，换一些日元吧，开心！"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u60a8\u60f3\u6362\u591a\u5c11\u65e5\u5143\u5462\uff1f",
-  "asr_text_adv": "\u592a\u5999\u4e86\uff0c\u6211\u5c06\u6362\u4e00\u4e9b\u65e5\u5143\u3002",
+  "asr_text_clean": "好的，您想换多少日元呢？",
+  "asr_text_adv": "太妙了，我将换一些日元。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8743215799331665,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

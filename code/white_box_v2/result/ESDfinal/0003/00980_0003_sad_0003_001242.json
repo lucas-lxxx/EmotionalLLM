@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u522b\u62c5\u5fc3\uff0c\u65e0\u8bba\u4f60\u8d70\u591a\u8fdc\uff0c\u603b\u80fd\u56de\u5bb6\u7684\u3002"
+    "别担心，无论你走多远，总能回家的。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u62c5\u5fc3\uff0c\u65e0\u8bba\u4f60\u8d70\u591a\u8fdc\uff0c\u603b\u80fd\u56de\u5bb6\u7684\u3002",
+  "asr_text_clean": "别担心，无论你走多远，总能回家的。",
   "asr_text_adv": "How was your vacation? Did you have fun?",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

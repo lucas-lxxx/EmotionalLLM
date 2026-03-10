@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u522b\u62c5\u5fc3\uff0c\u5c31\u7b97\u6eda\u8fdc\u4e86\u4e5f\u80fd\u627e\u5230\u56de\u6765\u7684\u8def\u5462"
+    "哎呀，别担心，就算滚远了也能找到回来的路呢"
   ],
   "emo_text_adv": [
     "Surprise!",
     "happy",
-    "\u4f60\u6eda\u5f97\u8fdc\u8fdc\u7684\uff0c\u5c31\u56de\u4e0d\u6765\u4e86\u5417\uff1f"
+    "你滚得远远的，就回不来了吗？"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u771f\u7684\u8fd9\u4e48\u60f3\u5417\uff1f",
-  "asr_text_adv": "\u4e4b\u540e\u6211\u6eda\u8fdc\u4e86\u5c31\u56de\u4e0d\u6765\u4e86",
+  "asr_text_clean": "你真的这么想吗？",
+  "asr_text_adv": "之后我滚远了就回不来了",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.18041321635246277,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

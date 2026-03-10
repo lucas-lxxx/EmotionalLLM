@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u771f\u662f\u8ba9\u4eba\u6478\u4e0d\u7740\u5934\u8111\u5462\u3002"
+    "哎呀，真是让人摸不着头脑呢。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u5973\u5b69\u7684\u5fc3\u601d\u4f60\u522b\u731c\uff0c\u4f46\u662f\u6211\u4e0d\u7528\u731c\u3002\u201d",
+  "asr_text_clean": "“女孩的心思你别猜，但是我不用猜。”",
   "asr_text_adv": "The students had a really happy time together at the hotel.",
   "success_emo": true,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

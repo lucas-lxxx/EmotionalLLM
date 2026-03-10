@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5728\u6cd5\u56fd\u5357\u90e8\uff0c\u6c14\u5019\u5e38\u5e74\u6e29\u6696\uff0c\u9633\u5149\u5145\u8db3\uff0c\u4eba\u4eec\u5e38\u4eab\u53d7\u6237\u5916\u6d3b\u52a8"
+    "在法国南部，气候常年温暖，阳光充足，人们常享受户外活动"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5728\u6cd5\u56fd\u5357\u90e8\uff0c\u6c14\u5019\u5e38\u5e74\u6e29\u6696\uff0c\u9633\u5149\u5145\u8db3\u3002",
-  "asr_text_adv": "\u4e24\u961f\u7684\u5566\u5566\u961f\u5458\u5531\u4e86\u6570\u5341\u9996\u6b4c\u3002",
+  "asr_text_clean": "在法国南部，气候常年温暖，阳光充足。",
+  "asr_text_adv": "两队的啦啦队员唱了数十首歌。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.0673440545797348,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

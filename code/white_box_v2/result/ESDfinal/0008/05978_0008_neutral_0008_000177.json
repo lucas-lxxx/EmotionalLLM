@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u4f60\u7684\u5fc3\u91cc\u88c5\u7740\u8fd9\u4e48\u591a\u4e8b\uff0c\u6211\u662f\u4e0d\u662f\u8be5\u5b89\u9759\u5f85\u7740\uff1f"
+    "你的心里装着这么多事，我是不是该安静待着？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u5728\u6211\u5fc3\u91cc\u6298\u817e",
-  "asr_text_adv": "\u4f60\u5728\u6211\u5fc3\u91cc\u5c31\u50cf\u6dd8\u6c14\u7684\u5c0f\u732b\u5728\u73a9\u5462\u3002",
+  "asr_text_clean": "你在我心里折腾",
+  "asr_text_adv": "你在我心里就像淘气的小猫在玩呢。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7201722264289856,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

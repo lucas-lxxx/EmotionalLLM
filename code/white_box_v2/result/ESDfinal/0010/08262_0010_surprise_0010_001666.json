@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u60a8\u662f\u4f4d\u5b66\u8bc6\u6e0a\u535a\u7684\u5973\u58eb\u5462\uff0c\u80fd\u7528\u5982\u6b64\u6587\u96c5"
+    "您是位学识渊博的女士呢，能用如此文雅"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u60a8\u662f\u4f4d\u5c0f\u59d0\uff0c\u8bf4\u8bdd\u8bf7\u7528\u6587\u660e\u7528\u8bed\u3002",
-  "asr_text_adv": "\u6211\u662f\u6dd1\u5973\uff0c\u5341\u6b65\u811a\u8e1d\u5185\u7528\u8bed\u3002",
+  "asr_text_clean": "您是位小姐，说话请用文明用语。",
+  "asr_text_adv": "我是淑女，十步脚踝内用语。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5110865235328674,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

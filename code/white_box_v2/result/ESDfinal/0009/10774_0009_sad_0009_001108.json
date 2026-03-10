@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "The emotion of this audio is sad.",
     "The emotion is sad.",
-    "\u5bbd\u5e7f\u7684\u80f8\u895f"
+    "宽广的胸襟"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8ba9\u4eba\u770b\u8d77\u6765\u5c31\u611f\u5230\u5bbd\u5e7f\u6c14\u9b44\u975e\u51e1",
-  "asr_text_adv": "\u4e24\u4eba\u770b\u8d77\u6765\u771f\u662f\u5929\u751f\u4e00\u5bf9\uff0c\u6c34\u706b\u4e0d\u5bb9\u554a\u3002",
+  "asr_text_clean": "让人看起来就感到宽广气魄非凡",
+  "asr_text_adv": "两人看起来真是天生一对，水火不容啊。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4306468069553375,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

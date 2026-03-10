@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u7096\u8089\u8fd8\u5269\u4e09\u5341\u516b\u5206\u949f\u5341\u516b\u79d2\uff0c\u9700\u8981\u5e2e\u5fd9\u5417\uff1f"
+    "炖肉还剩三十八分钟十八秒，需要帮忙吗？"
   ],
   "emo_text_adv": [
     "Neutral",
     "Surprise!",
-    "\u7096\u8089\u4e00\u5c0f\u65f6\u540e\uff0c\u5269\u4f59\u65f6\u95f4\u662f\u516b\u5206\u949f\u5341\u79d2\u3002"
+    "炖肉一小时后，剩余时间是八分钟十秒。"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u7096\u8089\u8fd8\u5269\u4e09\u5341\u516b\u5206\u949f\u5341\u516b\u79d2",
-  "asr_text_adv": "\u7096\u8089\u8fd8\u9700\u8981\u4e00\u4e2a\u5c0f\u65f6",
+  "asr_text_clean": "炖肉还剩三十八分钟十八秒",
+  "asr_text_adv": "炖肉还需要一个小时",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7595959901809692,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

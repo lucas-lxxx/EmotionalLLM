@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Surprise!",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u73b0\u5728",
-  "asr_text_adv": "\u4f60\u53eb\u4ec0\u4e48\u540d\u5b57\u5440",
+  "asr_text_clean": "我明白你现在",
+  "asr_text_adv": "你叫什么名字呀",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.42394253611564636,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

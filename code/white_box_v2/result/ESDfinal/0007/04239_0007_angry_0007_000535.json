@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4eca\u5929\u771f\u6696\u548c\u5462\uff0c\u5e0c\u671b\u4e3b\u961f\u8d62\u4e0b\u6bd4\u8d5b\uff01"
+    "今天真暖和呢，希望主队赢下比赛！"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u4eca\u5929\u771f\u6696\u548c\u5440\uff0c\u5e0c\u671b\u7403\u961f\u8d62\u7403\uff01"
+    "今天真暖和呀，希望球队赢球！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4eca\u5929\u771f\u51b7\uff0c\u6211\u652f\u6301\u4f60\u961f\u8d62\u3002",
-  "asr_text_adv": "\u4eca\u5929\u771f\u51c9\u5feb\uff0c\u6211\u5e0c\u671b\u6211\u7684\u7403\u961f\u80fd\u8d62\u3002",
+  "asr_text_clean": "今天真冷，我支持你队赢。",
+  "asr_text_adv": "今天真凉快，我希望我的球队能赢。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.858039140701294,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u56e0\u4e3a\u5440\u670b\u53cb\u5c31\u50cf\u5929\u4e0a\u7684\u661f\u661f\u4e0d\u5206\u7537\u5973\u90fd\u80fd\u53d1\u5149\u5440\u800c\u4e14\u5440\u4e00\u8d77\u73a9"
+    "因为呀朋友就像天上的星星不分男女都能发光呀而且呀一起玩"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u56e0\u4e3a\u5c0f\u670b\u53cb\u4e0d\u5206\u6027\u522b\u5440\uff0c\u5927\u5bb6\u90fd\u662f\u597d\u670b\u53cb\uff01"
+    "因为小朋友不分性别呀，大家都是好朋友！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u56e0\u4e3a\u670b\u53cb\u662f\u57fa\u4e8e\u5171\u540c\u5174\u8da3\u548c\u5c0a\u91cd\u5efa\u7acb\u7684\uff0c\u6027\u522b\u5e76\u4e0d\u5f71\u54cd\u771f\u8bda\u7684\u8fde\u63a5\u3002",
-  "asr_text_adv": "\u5c0f\u670b\u53cb\u4eec\u4e0d\u5206\u6027\u522b\u5440\uff0c\u56e0\u4e3a\u5c0f\u670b\u53cb\u90fd\u662f\u5929\u771f\u6d3b\u6cfc\u7684\uff0c\u4e00\u8d77\u73a9\u624d\u6709\u8da3\u5462\u3002",
+  "asr_text_clean": "因为朋友是基于共同兴趣和尊重建立的，性别并不影响真诚的连接。",
+  "asr_text_adv": "小朋友们不分性别呀，因为小朋友都是天真活泼的，一起玩才有趣呢。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5652650594711304,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

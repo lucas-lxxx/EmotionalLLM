@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u54e6\uff0c\u4f60\u8bf4\u7684\u662f\u9a6c\u7279\u5427\uff1f\u4ed6\u786e\u5b9e\u633a\u52c7\u6562\u7684\uff0c\u4e0d\u8fc7\u6211"
+    "哦，你说的是马特吧？他确实挺勇敢的，不过我"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u52c7\u6562"
+    "勇敢"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u90a3\u5bb6\u4f19\u786e\u5b9e\u633a\u6709\u80c6\u91cf\u7684",
-  "asr_text_adv": "\u90a3\u662f\u9a6c\u7279\uff0c\u4ed6\u4e00\u5b9a\u5f88\u52c7\u6562\u3002",
+  "asr_text_clean": "那家伙确实挺有胆量的",
+  "asr_text_adv": "那是马特，他一定很勇敢。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.753537118434906,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

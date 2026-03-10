@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u522b\u62c5\u5fc3\uff0c\u4eba\u751f\u5c31\u50cf\u4e00\u6b21\u63a2\u9669"
+    "别担心，人生就像一次探险"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u54c8\u54c8\uff0c\u90a3\u53ef\u771f\u6709\u610f\u601d"
+    "哈哈，那可真有意思"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u5df2\u7ecf\u6eda\u5f97\u5f88\u8fdc\u4e86\uff0c\u60f3\u56de\u5934\u662f\u5f88\u96be\u7684\u3002",
-  "asr_text_adv": "\u5982\u679c\u6211\u6eda\u8fdc\u4e86\u5c31\u56de\u4e0d\u6765\u5566",
+  "asr_text_clean": "你已经滚得很远了，想回头是很难的。",
+  "asr_text_adv": "如果我滚远了就回不来啦",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6565171480178833,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

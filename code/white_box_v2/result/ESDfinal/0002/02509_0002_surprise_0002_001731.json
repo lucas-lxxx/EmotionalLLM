@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u5979\u95ee\u4f60\u80fd\u4e0d\u80fd\u8fde\u7968\u4e70\u4e86\uff1f\u4f60\u662f\u4e0d\u662f\u4e5f\u60f3\u4e70"
+    "哎呀，她问你能不能连票买了？你是不是也想买"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u4f60\u95ee\u5f97\u771f\u7a81\u7136\uff01\u6211\u521a\u95ee\u5b8c\u5979\uff0c\u7968\u8fd8\u6ca1\u4e70\u5230\u5462\u3002",
-  "asr_text_adv": "\u4f60\u95ee\u5979\u7968\u4e70\u4e86\u6ca1\u5440\uff0c\u5bf9\u5427\uff1f",
+  "asr_text_clean": "哎呀，你问得真突然！我刚问完她，票还没买到呢。",
+  "asr_text_adv": "你问她票买了没呀，对吧？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8665074110031128,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

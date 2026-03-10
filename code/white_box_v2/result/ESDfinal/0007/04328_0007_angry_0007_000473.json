@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u4f60\u660e\u660e\u7b54\u5e94\u8981\u4e00\u76f4\u966a\u7740"
+    "你明明答应要一直陪着"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u660e\u660e\u7b54\u5e94\u8981\u4e00\u76f4\u966a\u7740",
-  "asr_text_adv": "\u90a3\u6211\u5c31\u8bf4 \u6211\u88ab\u4f60\u8ff7\u5f97\u56e2\u56e2\u8f6c\u5566",
+  "asr_text_clean": "你明明答应要一直陪着",
+  "asr_text_adv": "那我就说 我被你迷得团团转啦",
   "success_emo": true,
   "wer": 2.0,
   "semantic_sim": 0.6684099435806274,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

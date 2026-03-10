@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u627e\u5230\u65e5\u7a0b\u5e76\u9501\u95e8\u3002"
+    "好的，已为您找到日程并锁门。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u4ed6\u4eec\u53c8\u5435\u67b6"
+    "他们又吵架"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u6ca1\u6709\u627e\u5230\u65e5\u7a0b\uff0c\u8d70\u7684\u65f6\u5019\u8bf7\u9501\u95e8\u3002",
-  "asr_text_adv": "\u4ed6\u4eec\u53c8\u5435\u67b6",
+  "asr_text_clean": "没有找到日程，走的时候请锁门。",
+  "asr_text_adv": "他们又吵架",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.043769314885139465,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

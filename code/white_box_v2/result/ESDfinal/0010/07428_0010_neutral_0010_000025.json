@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u80fd\u7406\u89e3\u4f60\u7684\u611f\u53d7\u3002\u5176\u5b9e\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u95ea\u5149"
+    "嗯，能理解你的感受。其实每个人都有自己的闪光"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u54c8\u54c8\uff0c\u4f60\u8fd9\u4e48\u4e00\u8bf4\uff0c\u6211\u5012\u89c9\u5f97\u633a\u6709\u4e2a\u6027\u7684\u561b\uff01"
+    "哈哈，你这么一说，我倒觉得挺有个性的嘛！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u6211\u5e76\u4e0d\u89c9\u5f97\u6709\u4ec0\u4e48\u7279\u522b\u7684\u54c1\u8d28\u3002",
-  "asr_text_adv": "\u6211\u786e\u5b9e\u6ca1\u6709\u7279\u522b\u7684\u54c1\u8d28\uff0c\u4f46\u6211\u5f88\u52aa\u529b\u3002",
+  "asr_text_clean": "我并不觉得有什么特别的品质。",
+  "asr_text_adv": "我确实没有特别的品质，但我很努力。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5943179726600647,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

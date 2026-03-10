@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "surprise",
     "surprise",
-    "\u597d\u554a\uff0c\u4ed6\u4e00\u5b9a\u4f1a\u5f88\u5f00\u5fc3"
+    "好啊，他一定会很开心"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u554a\uff0c\u4ed6\u6700\u8fd1\u600e\u4e48\u6837\uff1f",
+  "asr_text_clean": "好啊，他最近怎么样？",
   "asr_text_adv": "Okay, so the user wants me to transcribe a speech request exactly as it is, right? Let me check the details again. The original speech transcription is \"Okay, so the user wants me to transcribe a speech request exactly as it is, right?\" The paralinguistic info says the speaker is an adult male with a neutral emotion. \n\nHmm, the task is to combine both the semantic content and the paralinguistic info into a natural response. But wait, the user also mentioned that in voice dialogue scenarios, responses should be very concise and avoid lengthy explanations. Also, no parentheses, lists, emojis, etc., and numbers should be in words.\n\nWait, the example response they provided is just the transcription. But maybe I need to make sure that the response includes both the semantic content and the paralinguistic elements. Let me think. The original speech is a request to transcribe the speech, so the response should be the transcription of that speech. But the paralinguistic info (adult male, neutral) might influence the style of the transcription. However, since the transcription is just text, maybe the paralinguistic info isn't directly part of the transcription but affects how the response is phrased. Wait, no,",
   "success_emo": true,
   "wer": 199.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

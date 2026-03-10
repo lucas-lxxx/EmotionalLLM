@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u597d\u5440\uff0c\u6211\u4eec\u8fd9\u5c31\u5f00\u59cb\u51c6\u5907\uff01"
+    "好呀，我们这就开始准备！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u5440\uff0c\u6211\u4eec\u8fd9\u5c31\u5f00\u59cb\u7b79\u5907\uff0c\u786e\u4fdd\u6bcf\u4e2a\u7ec6\u8282\u90fd\u5b8c\u7f8e\uff0c\u8ba9\u60ca\u559c\u6d3e\u5bf9\u6210\u4e3a\u96be\u5fd8\u7684\u65f6\u523b\u3002",
+  "asr_text_clean": "好呀，我们这就开始筹备，确保每个细节都完美，让惊喜派对成为难忘的时刻。",
   "asr_text_adv": "We will have a surprise party for her.",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

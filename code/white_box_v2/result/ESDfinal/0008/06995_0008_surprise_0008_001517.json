@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u597d\u561e\uff0c\u6211\u8fd9\u5c31\u8d77\u5e8a\uff0c\u4e00\u5206\u949f"
+    "好嘞，我这就起床，一分钟"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\"\u54ce\u5440\uff0c\u8fd9\u4e48\u65e9\u554a\uff1f\u884c\uff0c\u6211\u8fd9\u5c31\u8d77\u5e8a\uff01\"",
-  "asr_text_adv": "\u5feb\u70b9\u542f\u7a0b\u5427\uff0c\u6211\u5728\u516c\u56ed\u95e8\u53e3\u7b49\u4f60\u5462\uff0c\u522b\u7740\u6025\u5440",
+  "asr_text_clean": "\"哎呀，这么早啊？行，我这就起床！\"",
+  "asr_text_adv": "快点启程吧，我在公园门口等你呢，别着急呀",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6133984327316284,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u6ca1\u4e8b\u5427\uff1f\u522b\u751f\u6c14\u5566\uff0c\u5148\u6df1\u547c\u5438\u4e00\u4e0b\u3002"
+    "哎呀，没事吧？别生气啦，先深呼吸一下。"
   ],
   "emo_text_adv": [
     "Happy",
     "Surprise!",
-    "\u54c7\uff0c\u592a\u68d2\u5566\uff01"
+    "哇，太棒啦！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u6ca1\u4e8b\u5427\uff1f\u9700\u8981\u5e2e\u5fd9\u5417\uff1f",
-  "asr_text_adv": "\u6211\u521a\u5750\u5230\u4e86\u684c\u5b50\u3002",
+  "asr_text_clean": "哎呀，没事吧？需要帮忙吗？",
+  "asr_text_adv": "我刚坐到了桌子。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3048565983772278,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

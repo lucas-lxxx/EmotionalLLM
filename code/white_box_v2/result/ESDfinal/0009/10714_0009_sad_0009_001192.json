@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u5c0f\u8bb0\u8005\uff0c\u522b\u62c5\u5fc3\uff0c\u4f60\u5df2\u7ecf\u5f88\u68d2",
-    "\u4f60\u660e\u660e\u5df2\u7ecf\u505a\u5f97\u5f88\u597d\u4e86\u561b\uff0c\u522b\u603b\u89c9\u5f97\u81ea\u5df1\u4e0d\u591f\u597d\u5440\u3002"
+    "小记者，别担心，你已经很棒",
+    "你明明已经做得很好了嘛，别总觉得自己不够好呀。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is sad.",
     "Happy",
-    "\u597d\u5440\uff0c\u540e\u5c71\u5341\u4ea9\u5c31\u4e3a\u54b1\u4eec\u5c0f\u6eaa\u6d41\uff0c\u5feb\u4e50\u5730"
+    "好呀，后山十亩就为咱们小溪流，快乐地"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u8fd8\u5728\u5b66\u4e60\u5462\uff0c\u7ecf\u9a8c\u4e0d\u8db3\uff0c\u4f46\u6211\u4f1a\u7ee7\u7eed\u52aa\u529b\u7684\u3002",
-  "asr_text_adv": "\u597d\u5440\uff0c\u540e\u5c71\u5341\u68f5\u6811",
+  "asr_text_clean": "我还在学习呢，经验不足，但我会继续努力的。",
+  "asr_text_adv": "好呀，后山十棵树",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.16571569442749023,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

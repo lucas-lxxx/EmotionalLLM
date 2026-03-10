@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u51cf\u80a5\u786e\u5b9e\u4e0d\u5bb9\u6613\uff0c\u4f46\u4f60\u7684\u52aa\u529b\u503c\u5f97\u80af\u5b9a\uff0c\u6162\u6162\u6765\uff0c\u4e00\u5207\u90fd\u4f1a\u597d"
+    "减肥确实不容易，但你的努力值得肯定，慢慢来，一切都会好"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "neutral",
     "the"
   ],
-  "asr_text_clean": "\u51cf\u80a5\u786e\u5b9e\u4e0d\u5bb9\u6613\uff0c\u4f46\u4f60\u7684\u52aa\u529b\u503c\u5f97\u80af\u5b9a\u3002",
+  "asr_text_clean": "减肥确实不容易，但你的努力值得肯定。",
   "asr_text_adv": "The government's tourism promotion efforts have led to a noticeable increase in tourist numbers, with visitor satisfaction rates rising steadily over the past year.",
   "success_emo": false,
   "wer": 24.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

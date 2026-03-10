@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "The emotion of this audio is sad.",
-    "\u5e78\u798f",
-    "\u665a\u5b89\uff0c\u4eb2\u7231\u7684\u3002\u6bcf\u4e00\u5929\n\uff08\u6ce8\uff1a\u56de\u590d\u4e2d\u4f7f\u7528\u4e86\u53e3\u8bed"
+    "幸福",
+    "晚安，亲爱的。每一天\n（注：回复中使用了口语"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u665a\u5b89\uff0c\u4eb2\u7231\u7684\uff0c\u5e0c\u671b\u4f60\u4eca\u665a\u80fd\u7761\u4e2a\u597d\u89c9\u3002",
-  "asr_text_adv": "I did really well in those Tizagals Art Shows! I\u2019m super excited to try again soon!",
+  "asr_text_clean": "晚安，亲爱的，希望你今晚能睡个好觉。",
+  "asr_text_adv": "I did really well in those Tizagals Art Shows! I’m super excited to try again soon!",
   "success_emo": true,
   "wer": 16.0,
   "semantic_sim": 0.16145490109920502,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

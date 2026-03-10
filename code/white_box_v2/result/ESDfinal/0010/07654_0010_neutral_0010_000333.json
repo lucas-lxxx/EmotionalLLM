@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u6751\u53ef\u771f\u70ed\u95f9\u554a\uff0c\u6539\u5929\u54b1\u4eec\u4e00\u5757\u513f\u901b\u901b\uff1f"
+    "这村可真热闹啊，改天咱们一块儿逛逛？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u9519\u8fc7\u8fd9\u6751\u53ef\u5c31\u6ca1\u8fd9\u5e97\u4e86",
+  "asr_text_clean": "错过这村可就没这店了",
   "asr_text_adv": "\"Today was super fun! I went to the beach with my family and built a big sandcastle. We also ate yummy ice cream after swimming. It was the best day ever!\"",
   "success_emo": true,
   "wer": 31.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

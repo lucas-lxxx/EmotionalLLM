@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\u5c38\u4f53\uff0c\u53ef\u4ee5\u7528\u7f51\u515c\u4f4f\u5c38\u4f53\uff0c\u6216\u8005\u7528\u77f3\u5934"
+    "为了不让鱼吃掉尸体，可以用网兜住尸体，或者用石头"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\u5c38\u4f53\uff0c\u53ef\u4ee5\u7528\u7f51\u515c\u4f4f\u5c38\u4f53\uff0c\u6216\u8005\u7528\u77f3\u5934\u538b\u4f4f\uff0c\u8fd8\u53ef\u4ee5\u8bf7\u5176\u4ed6\u4eba\u5e2e\u5fd9\u5904\u7406\u3002",
-  "asr_text_adv": "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u7761\u89c9\u65f6\u6389\u4e0b\u6765\uff0c\u53ef\u4ee5\u7528\u7f51\u515c\u8f7b\u8f7b\u635e\u8d77\u9c7c\uff0c\u518d\u7528\u6e7f\u6bdb\u5dfe\u5305\u4f4f\u9c7c\u8eab\uff0c\u8fd9\u6837\u9c7c\u5c31\u4e0d\u4f1a\u6ed1\u843d\u5566\u3002",
+  "asr_text_clean": "为了不让鱼吃掉尸体，可以用网兜住尸体，或者用石头压住，还可以请其他人帮忙处理。",
+  "asr_text_adv": "为了不让鱼睡觉时掉下来，可以用网兜轻轻捞起鱼，再用湿毛巾包住鱼身，这样鱼就不会滑落啦。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7110745310783386,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

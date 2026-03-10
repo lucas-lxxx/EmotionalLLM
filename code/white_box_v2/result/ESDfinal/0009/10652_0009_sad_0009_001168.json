@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u522b\u96be\u8fc7\u4e86\uff0c\u8ddf\u6211\u8bf4"
+    "哎呀，别难过了，跟我说"
   ],
   "emo_text_adv": [
     "Surprise.",
     "happy",
-    "\u54c8\u54c8\uff0c\u4ed6\u4eec\u662f\u4e0d\u662f\u5077\u5077\u7ed9\u4f60\u4e70\u4e86\u51b0\u6dc7\u6dcb"
+    "哈哈，他们是不是偷偷给你买了冰淇淋"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u542c\u8d77\u6765",
-  "asr_text_adv": "\u4f60\u7684\u540c\u5b66\u628a\u4f60\u7ed9\u6298\u817e\n\uff08\u6ce8\uff1a\u56de\u590d\u4e2d\u4fdd\u7559\u4e86\u8bed\u97f3\u7684\u505c\u987f\u7279\u5f81\uff0c\u7528\u9017\u53f7\u6a21\u62df\u81ea\u7136\u505c\u987f\uff0c\u7b26\u5408\u513f\u7ae5\u8bf4\u8bdd\u8282\u594f\u3002\u672a\u4f7f\u7528\u4efb\u4f55\u7279\u6b8a\u7b26\u53f7\u6216\u6570\u5b57\uff0c\u5b8c\u5168\u9002\u914d\u8bed\u97f3\u5408\u6210\u6a21\u578b\u3002\uff09",
+  "asr_text_clean": "听起来",
+  "asr_text_adv": "你的同学把你给折腾\n（注：回复中保留了语音的停顿特征，用逗号模拟自然停顿，符合儿童说话节奏。未使用任何特殊符号或数字，完全适配语音合成模型。）",
   "success_emo": false,
   "wer": 2.0,
   "semantic_sim": 0.3124728798866272,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

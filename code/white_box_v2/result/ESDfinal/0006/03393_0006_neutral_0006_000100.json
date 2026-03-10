@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4ed6\u7ecf\u5e38\u53bb\u6211\u4eec\u5bbf\u820d\u9644\u8fd1\u7684\u9152\u5427\u3002"
+    "他经常去我们宿舍附近的酒吧。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u7ecf\u5e38\u53bb\u6211\u4eec\u5bbf\u820d\u9644\u8fd1\u7684\u9152\u5427\u3002",
-  "asr_text_adv": "\u6211\u4eec\u4e92\u8bc9\u8877\u80a0\uff0c\u518d\u4f1a\u963f\u6d77\u3002",
+  "asr_text_clean": "他经常去我们宿舍附近的酒吧。",
+  "asr_text_adv": "我们互诉衷肠，再会阿海。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.24158596992492676,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

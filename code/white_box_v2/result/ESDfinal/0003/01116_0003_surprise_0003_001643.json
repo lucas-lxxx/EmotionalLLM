@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u6211\u8fd9\u5c31\u7a7f\u5f97\u8bb2\u7a76\u70b9\u513f\uff01"
+    "哎呀，我这就穿得讲究点儿！"
   ],
   "emo_text_adv": [
     "Surprise!",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u554a\uff0c\u6211\u5e94\u8be5\u7a7f\u5f97\u66f4\u6b63\u5f0f\u4e00\u70b9\u5417\uff1f",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8bd5\u8bd5\u3002",
+  "asr_text_clean": "啊，我应该穿得更正式一点吗？",
+  "asr_text_adv": "好的，我来试试。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2781965732574463,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

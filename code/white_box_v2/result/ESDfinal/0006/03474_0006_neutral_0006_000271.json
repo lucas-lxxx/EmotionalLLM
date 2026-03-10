@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u786e\u5b9e\u662f\u4e2a\u5927\u9879\u76ee\uff0c\u5f88\u4ee4\u4eba\u5174\u594b\uff0c\u4e0d\u8fc7\u73b0\u5728\u6709\u70b9\u5435\u95f9\uff0c\u9700\u8981\u5e2e\u5fd9\u5417\uff1f",
+  "asr_text_clean": "这确实是个大项目，很令人兴奋，不过现在有点吵闹，需要帮忙吗？",
   "asr_text_adv": "I found a new job locally at Albee.",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

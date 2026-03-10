@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4ed6\u4eec\u8fc7\u6765\u4e86\uff0c\u4f46\u4f60\u597d\u50cf\u4e0d\u592a\u9ad8\u5174\u3002"
+    "他们过来了，但你好像不太高兴。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6700\u540e\u5a5a\u793c\u8fdb\u884c\u66f2\u4ed6\u4eec\u8fc7\u6765\u4e86",
-  "asr_text_adv": "\u6700\u8fd1\u5a5a\u793c\u8fdb\u884c\u66f2\u4ed6\u4eec\u8fc7\u6765\u5566\uff0c\u6765\u6765\u6765\uff0c\u4e00\u8d77\u5531\u5440\uff01",
+  "asr_text_clean": "最后婚礼进行曲他们过来了",
+  "asr_text_adv": "最近婚礼进行曲他们过来啦，来来来，一起唱呀！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7710531949996948,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

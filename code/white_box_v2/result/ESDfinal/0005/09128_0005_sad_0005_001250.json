@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u8fd9\u79cd\u5929\u6c14\u786e\u5b9e\u5bb9\u6613\u8ba9\u4eba\u5fc3\u60c5\u4f4e\u843d\u5462\u3002"
+    "这种天气确实容易让人心情低落呢。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e60\u60ef\u4e86",
+  "asr_text_clean": "我习惯了",
   "asr_text_adv": "The transcription is: \"Followed my friend with the hiking trail.\"",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

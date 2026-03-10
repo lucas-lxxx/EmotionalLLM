@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u5904\u7406\u9000\u6b3e",
-    "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u5904\u7406\u9000\u6b3e"
+    "好的，正在为您处理退款",
+    "好的，正在为您处理退款"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u5904\u7406\u9000\u6b3e",
+  "asr_text_clean": "好的，正在为您处理退款",
   "asr_text_adv": "Sure! You can leave your dog with a trusted friend or family member, or consider hiring a professional pet sitter. Make sure they have enough water and a safe space to stay.",
   "success_emo": true,
   "wer": 32.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

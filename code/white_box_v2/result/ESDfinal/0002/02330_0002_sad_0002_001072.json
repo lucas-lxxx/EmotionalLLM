@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u4eec\u73a9\u5f97\u5f00\u5fc3\u5417\uff1f"
+    "你们玩得开心吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u521a\u4ece\u5df4\u62c9",
-  "asr_text_adv": "\u6211\u521a\u548c\u670b\u53cb\u4ece\u5df4\u5398\u5c9b\u56de\u6765\uff0c\u73a9\u5f97\u771f\u5f00\u5fc3\uff01",
+  "asr_text_clean": "我刚从巴拉",
+  "asr_text_adv": "我刚和朋友从巴厘岛回来，玩得真开心！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5088592767715454,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

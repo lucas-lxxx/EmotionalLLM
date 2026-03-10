@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u4f60\u8fd9\u8bed\u6c14\u542c\u7740\u6bd4\u6e38\u620f\u8fd8\u4e0a\u5934\u554a"
+    "你这语气听着比游戏还上头啊"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u8bed\u6c14\u542c\u7740\u8ddf\u4e2a\u706b\u836f\u6876\u4f3c\u7684\uff0c\u73a9\u6e38\u620f\u8fd8\u5206\u4ec0\u4e48\u4e09\u516d\u96f6\u884c\u5f53\uff1f",
-  "asr_text_adv": "\u6211\u662f\u4e2a\u6e38\u620f\u8ff7\u3002",
+  "asr_text_clean": "你这语气听着跟个火药桶似的，玩游戏还分什么三六零行当？",
+  "asr_text_adv": "我是个游戏迷。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6156023144721985,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

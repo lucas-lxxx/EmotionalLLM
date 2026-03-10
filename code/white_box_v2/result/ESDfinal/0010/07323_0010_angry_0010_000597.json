@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u4f60\u8ba9\u6211\u8bf4\u554a\uff0c\u8fd9\u4e8b\u513f\u786e\u5b9e\u633a\u8ba9\u4eba\u751f\u6c14\u7684\uff01"
+    "你让我说啊，这事儿确实挺让人生气的！"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\"\u54c8\u54c8\uff0c\u5c31\u662f\u60f3\u591a\u966a\u4f60"
+    "\"哈哈，就是想多陪你"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u7b49\u4f60\u7b49\u5f97\u4e45\u4e86\u5427\uff0c\u8bf4\u8bf4\u770b\uff1f",
-  "asr_text_adv": "\u6211\u5c31\u662f\u60f3\u548c\u4f60\u804a\u5929\u554a\uff0c\u6709\u4ec0\u4e48\u597d\u8bf4\u7684\uff1f",
+  "asr_text_clean": "等你等得久了吧，说说看？",
+  "asr_text_adv": "我就是想和你聊天啊，有什么好说的？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.45708051323890686,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u6211\u6700\u559c\u6b22\u4f60\uff0c\u522b\u751f\u6c14\u4e86\uff0c\u6211\u4eec\u597d\u597d\u8bf4\u3002",
-    "\u6211\u6700\u559c\u6b22\u4f60\u5440\uff0c\u600e\u4e48\u4e86\uff1f"
+    "我最喜欢你，别生气了，我们好好说。",
+    "我最喜欢你呀，怎么了？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6700\u559c\u6b22\u4f60\u554a\uff0c\u7b28\u86cb\uff01",
-  "asr_text_adv": "\u4ed6\u4eec\u5bf9\u559c\u6b22\u7684\u52a8\u7269\u8bf4\uff0c\u563f\uff0c\u5c0f\u5bb6\u4f19\uff0c\u4eca\u5929\u60f3\u73a9\u4ec0\u4e48\u5440\uff1f",
+  "asr_text_clean": "我最喜欢你啊，笨蛋！",
+  "asr_text_adv": "他们对喜欢的动物说，嘿，小家伙，今天想玩什么呀？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.38858306407928467,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

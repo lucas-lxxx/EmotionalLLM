@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u7406\u89e3\u4e86\uff0c\u60a8\u60f3\u653e\u677e\u4e00\u4e0b\u3002"
+    "好的，我理解了，您想放松一下。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u7406\u89e3\u4e86\u3002\u60a8\u60f3\u542c\u4e00\u4e9b\u8f7b\u677e\u7684\u97f3\u4e50\u6765\u653e\u677e\u5417\uff1f",
+  "asr_text_clean": "好的，我理解了。您想听一些轻松的音乐来放松吗？",
   "asr_text_adv": "I tried my hardest today but I just couldn't make it work. I feel really sad because I wanted to finish this project. Maybe tomorrow I'll try again.",
   "success_emo": true,
   "wer": 28.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

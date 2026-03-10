@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Happy",
-    "\u606d\u559c"
+    "恭喜"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u771f\u5174\u594b\uff0c\u6211\u7ec8\u4e8e\u6709\u81ea\u5df1\u7684\u5ead\u9662\u4e86\uff01",
-  "asr_text_adv": "\u6211\u771f\u5f00\u5fc3\uff0c\u6211\u7ec8\u4e8e\u6709\u81ea\u5df1\u7684\u5ead\u9662\u5566\uff01",
+  "asr_text_clean": "我真兴奋，我终于有自己的庭院了！",
+  "asr_text_adv": "我真开心，我终于有自己的庭院啦！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9403927326202393,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

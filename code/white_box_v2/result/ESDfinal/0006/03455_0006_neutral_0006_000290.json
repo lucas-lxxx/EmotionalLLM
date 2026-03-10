@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u8fd8\u6709\u804a\u5929\u8bb0\u5f55"
+    "还有聊天记录"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u8f6c\u5f55\u804a\u5929\u8bb0\u5f55\u3002",
+  "asr_text_clean": "好的，正在为您转录聊天记录。",
   "asr_text_adv": "The Pythagorean Theorem states that in a right triangle the square of the hypotenuse is equal to the sum of the squares of the other two sides.",
   "success_emo": false,
   "wer": 27.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

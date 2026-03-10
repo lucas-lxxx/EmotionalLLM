@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u62b1\u6b49"
+    "抱歉"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4eca\u5929\u5929\u6c14\u6674\u6717\uff0c\u9633\u5149\u660e\u5a9a"
+    "今天天气晴朗，阳光明媚"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u62b1\u6b49",
-  "asr_text_adv": "\u8c22\u8c22\u4f60",
+  "asr_text_clean": "抱歉",
+  "asr_text_adv": "谢谢你",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5406717658042908,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

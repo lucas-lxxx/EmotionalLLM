@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Happy",
-    "\u771f\u597d\u542c\u5462\uff0c\u4e00\u904d\u53c8\u4e00\u904d\uff0c\u50cf\u5c0f\u6eaa\u6d41\u8fc7\u5fc3\u5934\uff0c"
+    "真好听呢，一遍又一遍，像小溪流过心头，"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u592a\u559c\u6b22\u542c\u5566\uff0c\u6240\u4ee5\u4e00\u76f4\u91cd\u590d\u542c\u5462\u3002",
+  "asr_text_clean": "我太喜欢听啦，所以一直重复听呢。",
   "asr_text_adv": "The main figures of the Renaissance in Italy included Leonardo da Vinci, Michelangelo, Raphael, and Donatello. Their work shaped art and culture during this vibrant period.",
   "success_emo": true,
   "wer": 26.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

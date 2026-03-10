@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6ee1\u5929\u90fd\u662f\u5c0f\u661f\u661f\uff0c\u54c7\uff0c\u597d\u6f02\u4eae\u5440\uff01"
+    "满天都是小星星，哇，好漂亮呀！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6ee1\u5929\u90fd\u662f\u5c0f\u661f\u661f",
-  "asr_text_adv": "\u6211\u4eecmo mo\u54d2",
+  "asr_text_clean": "满天都是小星星",
+  "asr_text_adv": "我们mo mo哒",
   "success_emo": true,
   "wer": 2.0,
   "semantic_sim": 0.29114294052124023,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

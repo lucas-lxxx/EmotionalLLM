@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "angry",
-    "\u4f60\u5230\u5bb6\u8fd9\u4e48\u665a\uff0c\u80af\u5b9a\u5f88\u7d2f\u5427\u3002"
+    "你到家这么晚，肯定很累吧。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5230\u5bb6\u7684\u65f6\u5019\u5df2\u7ecf\u662f\u51cc\u6668\u56db\u70b9\u4e86\u3002",
-  "asr_text_adv": "\u6211\u662f\u4e00\u76f4\u5230\u51cc\u6668\u56db\u70b9\u624d\u5230\u5bb6\u7684\u3002",
+  "asr_text_clean": "我到家的时候已经是凌晨四点了。",
+  "asr_text_adv": "我是一直到凌晨四点才到家的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9035137891769409,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

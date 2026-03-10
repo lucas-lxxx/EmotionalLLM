@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\"\u54e6\uff0c\u90a3\u8fd8\u884c\u5427\uff0c\u8eba\u7740\n\u8eba\u5e8a\u4e0a\u6b47\u4f1a\u513f\u5457"
+    "\"哦，那还行吧，躺着\n躺床上歇会儿呗"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u8fd9\u60c5\u51b5\u4e0d\u7b97\u592a\u7cdf\uff0c\u4e0d\u8fc7\u5f97\u8eba\u7740",
+  "asr_text_clean": "哎呀，这情况不算太糟，不过得躺着",
   "asr_text_adv": "\"Finally got that promotion, huh? Took you long enough!\"",
   "success_emo": true,
   "wer": 9.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

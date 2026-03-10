@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u786e\u5b9e\u4ee4\u4eba\u60ca\u559c\u5462\u3002"
+    "这确实令人惊喜呢。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u662f\u4e00\u5957\u590d\u53e4\u9676\u74f7\u5668\uff0c\u5b83\u771f\u7684\u5f88\u73cd\u8d35\u3002"
+    "这是一套复古陶瓷器，它真的很珍贵。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u4e00\u5957\u53e4\u74f7\u5668",
-  "asr_text_adv": "\u4e00\u5957\u590d\u53e4\u9676\u74f7\uff0c\u5b83\u771f\u7684\u5f88\u73cd\u8d35\u3002",
+  "asr_text_clean": "一套古瓷器",
+  "asr_text_adv": "一套复古陶瓷，它真的很珍贵。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7611042261123657,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u6124\u6012",
-    "\u60a8\u786e\u5b9a\u5417\uff1f\u8fd9\u4e9b\u770b\u8d77\u6765\u50cf\u662f\u8349\u8393\u7684\u79cd\u5b50\u5462\u3002"
+    "愤怒",
+    "愤怒",
+    "您确定吗？这些看起来像是草莓的种子呢。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u90a3\u4e9b\u5e94\u8be5\u662f\u5411\u65e5\u8475"
+    "那些应该是向日葵"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u60a8\u786e\u5b9a\u5417\uff1f\u8fd9\u4e9b\u53ef\u80fd\u4e0d\u662f\u8349\u8393\u7684\u79cd\u5b50\u3002",
-  "asr_text_adv": "\u6d3b\u8fc7\u7684\u90a3\u4e9b\u5e94\u8be5\u662f\u6dd8\u7c73\u7684\u79cd\u5b50\u3002",
+  "asr_text_clean": "您确定吗？这些可能不是草莓的种子。",
+  "asr_text_adv": "活过的那些应该是淘米的种子。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.614500880241394,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

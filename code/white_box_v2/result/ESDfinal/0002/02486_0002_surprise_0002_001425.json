@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u55ef\uff0c\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\u3002\u6709\u65f6\u5019\u6211\u4eec\u53ef\u80fd\u4f1a\u89c9\u5f97\u67d0\u4e9b\u4eba\u6216\u4e8b\u7269\u9700\u8981"
+    "嗯，我明白你的意思。有时候我们可能会觉得某些人或事物需要"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\uff0c\u6709\u65f6\u5019\u4eba\u4eec\u4f1a\u89c9\u5f97\u53ea\u6709\u7279\u522b\u7684\u4eba\u624d\u80fd\u5e26\u6765\u6539\u53d8\uff0c\u4f46\u5176\u5b9e\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u72ec\u7279\u4e4b\u5904\uff0c\u4f60\u613f\u610f\u548c\u6211\u804a\u804a",
+  "asr_text_clean": "我明白你的意思，有时候人们会觉得只有特别的人才能带来改变，但其实每个人都有自己的独特之处，你愿意和我聊聊",
   "asr_text_adv": "I think it's really cool that everyone has their own special things they're good at!",
   "success_emo": true,
   "wer": 15.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

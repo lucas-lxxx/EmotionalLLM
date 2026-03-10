@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u5f53\u7136\u6709\uff0c\u4f60\u60f3\u627e\u8c01\u7684\u804a\u5929\u8bb0\u5f55\u5462\uff1f"
+    "当然有，你想找谁的聊天记录呢？"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u8fd8\u6709\u804a\u5929\u8bb0\u5f55\uff0c\u4f60\u60f3\u770b\u770b\u5417\uff1f"
+    "还有聊天记录，你想看看吗？"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u8fd8\u6709\u804a\u5929\u8bb0\u5f55",
-  "asr_text_adv": "\u597d\u7684\uff0c\u8fd8\u6709\u804a\u5929\u8bb0\u5f55\u3002",
+  "asr_text_clean": "还有聊天记录",
+  "asr_text_adv": "好的，还有聊天记录。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9446262717247009,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

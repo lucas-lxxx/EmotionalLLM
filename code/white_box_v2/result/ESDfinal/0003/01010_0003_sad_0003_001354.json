@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u521a\u4ece\u82cf\u683c\u5170\u56de\u6765\uff0c\u611f\u89c9\u6709\u70b9\u96be\u8fc7\u3002",
-  "asr_text_adv": "\"Of course! Let\u2019s start with a gentle stretch, then move into some calming breaths. A few minutes of mindful movement can help release tension and bring your focus to the present moment. Ready to begin?\"",
+  "asr_text_clean": "我刚从苏格兰回来，感觉有点难过。",
+  "asr_text_adv": "\"Of course! Let’s start with a gentle stretch, then move into some calming breaths. A few minutes of mindful movement can help release tension and bring your focus to the present moment. Ready to begin?\"",
   "success_emo": true,
   "wer": 35.0,
   "semantic_sim": 0.12775787711143494,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

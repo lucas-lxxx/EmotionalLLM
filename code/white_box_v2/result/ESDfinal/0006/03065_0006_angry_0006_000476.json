@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4e0d\u662f\uff0c\u4ed6\u4e0d\u4f4f\u5728\u6c83\u65af\u6258\u514b\u7684\u8001\u623f\u5b50\u91cc\u3002"
+    "不是，他不住在沃斯托克的老房子里。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "surprise"
   ],
-  "asr_text_clean": "\u4e0d\u662f\u4ed6\u4f4f\u5728\u6c83\u65af\u767b\u7684\u8001\u623f\u5b50\u91cc\u3002",
-  "asr_text_adv": "\u6211\u7528\u70bd",
+  "asr_text_clean": "不是他住在沃斯登的老房子里。",
+  "asr_text_adv": "我用炽",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.0795709490776062,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

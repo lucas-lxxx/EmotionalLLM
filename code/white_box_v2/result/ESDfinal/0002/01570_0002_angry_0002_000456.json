@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6211\u660e\u767d\u4f60\u7684\u611f\u53d7\uff0c\u4fdd\u6301\u6c89\u9ed8\u786e\u5b9e\u662f\u4e00\u79cd\u9009\u62e9\u3002"
+    "我明白你的感受，保持沉默确实是一种选择。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u901a\u5e38\u4f1a\u4fdd\u6301\u6c89\u9ed8\uff0c\u4f46\u4eca\u5929\u60f3\u804a\u804a"
+    "我通常会保持沉默，但今天想聊聊"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u7684\u611f\u53d7\uff0c\u4fdd\u6301\u6c89\u9ed8\u786e\u5b9e\u662f\u4e00\u79cd\u9009\u62e9\u3002",
-  "asr_text_adv": "\u6211\u901a\u5e38\u4f1a\u4fdd\u6301\u6c89\u9ed8\u3002",
+  "asr_text_clean": "我明白你的感受，保持沉默确实是一种选择。",
+  "asr_text_adv": "我通常会保持沉默。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6359912157058716,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

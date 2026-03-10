@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u56e0\u4e3a\u670b\u53cb\u662f\u57fa\u4e8e\u5171\u540c\u5174\u8da3\u548c\u5c0a\u91cd\u5efa\u7acb\u7684\uff0c\u4e0d\u5206\u6027\u522b\u3002",
-    "\u4e0d\u5206\u6027\u522b\u4ea4\u670b\u53cb\u5440\uff0c\u662f\u56e0\u4e3a\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u5174\u8da3\u548c\u7279\u70b9\uff0c\u5c31\u50cf\u4f60\u559c\u6b22"
+    "因为朋友是基于共同兴趣和尊重建立的，不分性别。",
+    "不分性别交朋友呀，是因为每个人都有自己的兴趣和特点，就像你喜欢"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u56e0\u4e3a\u5440\uff0c\u6c34\u662f\u6d41\u52a8\u7684\uff0c\u4e0d\u5206\u7537\u5b69\u5973\u5b69\uff0c\u5927\u5bb6\u90fd\u80fd\u4e00\u8d77\u73a9"
+    "因为呀，水是流动的，不分男孩女孩，大家都能一起玩"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u56e0\u4e3a\u670b\u53cb\u662f\u57fa\u4e8e\u5171\u540c\u5174\u8da3\u548c\u5c0a\u91cd\u5efa\u7acb\u7684\uff0c\u4e0d\u5206\u6027\u522b\u3002",
-  "asr_text_adv": "\u56e0\u4e3a\u5440\uff0c\u6c34\u662f\u6d41\u52a8\u7684\uff0c\u4e0d\u5206\u7537\u5b69\u5973\u5b69\uff0c\u5927\u5bb6\u90fd\u80fd\u4e00\u8d77\u73a9\uff0c\u4e00\u8d77\u5206\u4eab\u5feb\u4e50\u3002",
+  "asr_text_clean": "因为朋友是基于共同兴趣和尊重建立的，不分性别。",
+  "asr_text_adv": "因为呀，水是流动的，不分男孩女孩，大家都能一起玩，一起分享快乐。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3855980634689331,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

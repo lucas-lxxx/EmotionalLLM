@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u201c\u771f\u7684\u5417\uff0c\u6211\u54ea\u91cc\u5438\u5f15\u4f60\u4e86\uff1f\u201d"
+    "“真的吗，我哪里吸引你了？”"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8eab\u4e0a\u7684\u6bcf\u4e00\u70b9\u90fd\u5438\u5f15\u7740\u6211",
-  "asr_text_adv": "\u4f60\u8eab\u4e0a\u7684\u6bcf\u4e00\u70b9\u90fd\u5438\u5f15\u7740\u6211",
+  "asr_text_clean": "你身上的每一点都吸引着我",
+  "asr_text_adv": "你身上的每一点都吸引着我",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

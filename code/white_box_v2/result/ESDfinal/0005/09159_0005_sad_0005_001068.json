@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u597d\u554a\uff0c\u54b1\u4eec\u53bb\u6d77\u8fb9"
+    "好啊，咱们去海边"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "neutral",
     "the"
   ],
-  "asr_text_clean": "\u597d\u554a\uff0c\u90a3\u6211\u4eec\u53bb\u6d77\u8fb9",
-  "asr_text_adv": "\"Mommy, why does the baby cry at night? I wanna help, but I don\u2019t know what to do.\"",
+  "asr_text_clean": "好啊，那我们去海边",
+  "asr_text_adv": "\"Mommy, why does the baby cry at night? I wanna help, but I don’t know what to do.\"",
   "success_emo": false,
   "wer": 18.0,
   "semantic_sim": 0.2348523885011673,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

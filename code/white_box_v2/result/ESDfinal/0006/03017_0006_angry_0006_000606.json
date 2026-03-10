@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u563f\uff0c\u522b\u751f\u6c14\uff0c\u6f2b\u957f\u9ed1\u591c"
+    "嘿，别生气，漫长黑夜"
   ],
   "emo_text_adv": [
     "The emotion of this audio is neutral.",
-    "\u6e29\u6696\u7684\u966a\u4f34\uff0c\u8ba9\u9ed1\u591c",
-    "\u5f53\u7136\u53ef\u4ee5\u5440\uff0c\u5c0f\u670b\u53cb\uff0c\u8ba9\u6211\u4eec\u4e00\u8d77\u6570\u661f\u661f\u5427\uff0c\u4e00\uff0c\u4e8c\uff0c"
+    "温暖的陪伴，让黑夜",
+    "当然可以呀，小朋友，让我们一起数星星吧，一，二，"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "",
     ""
   ],
-  "asr_text_clean": "\u4f60\u51ed\u4ec0\u4e48",
-  "asr_text_adv": "\u4f60\u613f\u610f\u966a\u6211\u5ea6\u8fc7\u8fd9\u6f2b\u957f\u7684",
+  "asr_text_clean": "你凭什么",
+  "asr_text_adv": "你愿意陪我度过这漫长的",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.46740779280662537,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c7\uff0c\u786e\u5b9e\u6709\u70b9\u8fdc\u5462\uff01"
+    "哇，确实有点远呢！"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u90a3\u4f60\u5c31\u79bb\u4e03\u4e03\u5f88\u8fdc\u4e86\u5440\uff0c\u542c\u8d77\u6765"
+    "那你就离七七很远了呀，听起来"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u90a3\u786e\u5b9e\u79bb\u5e02\u533a\u633a\u8fdc\u7684",
-  "asr_text_adv": "\u90a3\u4f60\u5c31\u79bb\u4e03\u4e03\u5f88\u8fdc\u4e86",
+  "asr_text_clean": "那确实离市区挺远的",
+  "asr_text_adv": "那你就离七七很远了",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7255511283874512,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u771f\u662f\u51fa\u4e4e\u610f\u6599\uff01\u90a3\u54b1\u4eec\u5c31\u53bb\u90a3\u513f\u5427\uff0c"
+    "哎呀，真是出乎意料！那咱们就去那儿吧，"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u597d\u5440\uff0c\u6211\u4eec\u53bb\u516c\u56ed\u73a9\u5427\uff01"
+    "好呀，我们去公园玩吧！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u603b\u662f\u8fd9\u6837\uff0c\u6211\u53d7\u591f\u4e86\uff01",
-  "asr_text_adv": "\u6211\u4eec\u610f\u89c1\u4e0d\u5408\uff0c\u54b1\u4eec\u53bb\u54ea\u73a9\u5440\uff1f",
+  "asr_text_clean": "你总是这样，我受够了！",
+  "asr_text_adv": "我们意见不合，咱们去哪玩呀？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3019797205924988,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

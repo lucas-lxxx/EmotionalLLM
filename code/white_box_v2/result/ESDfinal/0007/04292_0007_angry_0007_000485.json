@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u597d\u7684\uff0c\u90a3\u6211\u4eec\u5f00\u59cb\u5427\u3002"
+    "好的，那我们开始吧。"
   ],
   "emo_text_adv": [
     "Surprise!",
     "Surprise!",
-    "\u5b66\u4e60\u65b0\u6280\u80fd\uff0c\u6bd4\u5982\u7f16\u7a0b\uff0c\u70f9\u996a\uff0c\u6216\u8005\u4e00\u95e8\u65b0\u8bed\u8a00\uff0c\u600e\u4e48\u6837\uff1f"
+    "学习新技能，比如编程，烹饪，或者一门新语言，怎么样？"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u627e\u627e\u76f8\u5173\u7684\u8d44\u6599\u3002",
-  "asr_text_adv": "\u6211\u9700\u8981\u5b66\u4e60\u66f4\u591a\u5173\u4e8e\u4eba\u5de5\u667a\u80fd\u7684\u77e5\u8bc6\uff0c\u7279\u522b\u662f\u673a\u5668\u5b66\u4e60\u548c\u81ea\u7136\u8bed\u8a00\u5904\u7406\u65b9\u9762\u7684\u5185\u5bb9\u3002",
+  "asr_text_clean": "好的，我来帮你找找相关的资料。",
+  "asr_text_adv": "我需要学习更多关于人工智能的知识，特别是机器学习和自然语言处理方面的内容。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.25705254077911377,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

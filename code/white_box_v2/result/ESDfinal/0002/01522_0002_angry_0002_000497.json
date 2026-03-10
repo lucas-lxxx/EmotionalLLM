@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\"Ah, perhaps a new pair of shoes would help. Let\u2019s go.\""
+    "\"Ah, perhaps a new pair of shoes would help. Let’s go.\""
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\"\u4e0d\u77e5\u9053\uff0c\u6216\u8bb8\u662f\u4e00\u53cc\u65b0\u978b\u3002\"",
+  "asr_text_clean": "\"不知道，或许是一双新鞋。\"",
   "asr_text_adv": "\"Maybe a new pair of shoes?\"",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

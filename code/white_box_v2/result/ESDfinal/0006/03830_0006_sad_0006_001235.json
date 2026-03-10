@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4eca\u5929\u786e\u5b9e\u633a\u96be\u71ac\u7684\uff0c\u4f46\u5e0c\u671b\u4e3b\u961f\u8d62\u4e0b\u6bd4\u8d5b\u5427\u3002"
+    "今天确实挺难熬的，但希望主队赢下比赛吧。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4eca\u5929\u771f\u7cdf\u7cd5\uff0c\u4e3b\u961f\u8f93\u4e86",
+  "asr_text_clean": "今天真糟糕，主队输了",
   "asr_text_adv": "The transcription is: \"Playground where people are happy.\"",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

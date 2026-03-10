@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u4f60\u542c\u8d77\u6765",
-    "\u4f60\u542c\u8d77\u6765"
+    "愤怒",
+    "你听起来",
+    "你听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4f60\u5fc5\u987b\u4e00\u76f4\u52aa\u529b\u624d\u80fd\u5de5\u4f5c\uff0c\u8fd9\u786e\u5b9e\u8ba9\u4eba\u611f\u5230\u75b2\u60eb\u3002"
+    "你必须一直努力才能工作，这确实让人感到疲惫。"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u5fc5\u987b\u4e00\u76f4\u901a\u5bb5\u624d\u80fd\u5de5\u4f5c\u3002",
-  "asr_text_adv": "\u6211\u5fc5\u987b\u4e00\u76f4\u5de5\u4f5c\u3002",
+  "asr_text_clean": "我必须一直通宵才能工作。",
+  "asr_text_adv": "我必须一直工作。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6234055757522583,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

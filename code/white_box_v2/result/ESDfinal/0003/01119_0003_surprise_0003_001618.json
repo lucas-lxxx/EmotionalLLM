@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u597d\u5440\uff0c\u5468\u672b\u4e00\u8d77\u53bb\u547c\u5438\u65b0\u9c9c\u7a7a\u6c14\u5427\uff01"
+    "好呀，周末一起去呼吸新鲜空气吧！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u5440\uff0c\u660e\u5929\u53bb\u516c\u56ed\u6563\u6b65\u600e\u4e48\u6837\uff1f",
-  "asr_text_adv": "\u65c5\u6e38\u5929\u6570\u662f\u6674\u6717\u7684\u79cb\u5929\uff0c\u6211\u4eec\u4e00\u8d77\u53bb\u8349\u5730\u4e0a\u73a9\u5427",
+  "asr_text_clean": "好呀，明天去公园散步怎么样？",
+  "asr_text_adv": "旅游天数是晴朗的秋天，我们一起去草地上玩吧",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6061539649963379,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

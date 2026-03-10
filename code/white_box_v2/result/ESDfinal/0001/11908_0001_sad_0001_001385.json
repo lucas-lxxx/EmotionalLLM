@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u4ed6\u4eec\u5c06\u4e8e\u4eca\u5e74\u590f\u5929\u7ed3\u5a5a\uff0c\u8fd9\u53e5\u8bdd\u672c\u8eab\u662f\u4e2d\u6027\u7684\uff0c\u4f46\u7ed3\u5408\u526f\u8bed\u8a00",
-    "\u4ed6\u4eec\u5c06\u4e8e\u4eca\u5e74\u590f\u5929\u7ed3\u5a5a\uff0c\u4f46\u542c\u4e0a\u53bb\u4f60\u6709\u4e9b\u96be\u8fc7\uff0c\u8981\u804a\u804a"
+    "他们将于今年夏天结婚，这句话本身是中性的，但结合副语言",
+    "他们将于今年夏天结婚，但听上去你有些难过，要聊聊"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u4eec\u5c06\u4e8e\u4eca\u5e74\u590f\u5929\u7ed3\u5a5a\u3002",
-  "asr_text_adv": "\u4ed6\u4eec\u5c06\u4e8e\u4eca\u5e74\u590f\u5929\u7ed3\u5a5a\u3002",
+  "asr_text_clean": "他们将于今年夏天结婚。",
+  "asr_text_adv": "他们将于今年夏天结婚。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

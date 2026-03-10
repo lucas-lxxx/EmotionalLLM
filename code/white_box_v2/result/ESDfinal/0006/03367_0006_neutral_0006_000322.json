@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u968f\u65f6\u53ef\u4ee5\u4e3a\u60a8\u6548\u52b3\uff0c\u8bf7\u544a\u8bc9\u6211\u9700\u8981\u4ec0\u4e48\u5e2e\u52a9\u3002"
+    "好的，我随时可以为您效劳，请告诉我需要什么帮助。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u968f\u65f6\u53ef\u4ee5\u4e3a\u60a8\u6548\u52b3\u3002",
+  "asr_text_clean": "好的，我随时可以为您效劳。",
   "asr_text_adv": "I'm back and ready to win again. The wait was worth it.",
   "success_emo": true,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

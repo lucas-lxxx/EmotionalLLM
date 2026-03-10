@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u554a\uff0c\u8fd9\u5c40\u6211\u8ba9\u4f60\u5f00\uff0c\u4eca\u5929\u54b1\u4eec\u5fc5\u987b\u8d62\uff01"
+    "好啊，这局我让你开，今天咱们必须赢！"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u90a3\u5929\u6211\u4eec\u4e00\u8d77\u5728\u590d\u6e56\u8fb9\u73a9\u5f97\u5f88\u5f00\u5fc3\u5462\uff0c\u4f60\u60f3\u8d77\u6765\u4ec0\u4e48\u6709\u8da3\u7684\u4e8b"
+    "那天我们一起在复湖边玩得很开心呢，你想起来什么有趣的事"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u5c40\u6211\u8ba9\u4f60\u5f00\uff0c\u4eca\u5929\u6211\u4e0d\u60f3",
-  "asr_text_adv": "\u90a3\u5929\u6211\u4e0d\u60f3",
+  "asr_text_clean": "这局我让你开，今天我不想",
+  "asr_text_adv": "那天我不想",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6711151003837585,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

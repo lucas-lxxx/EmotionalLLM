@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6211\u8ba4\u8bc6\u4f60\u554a\uff0c\u522b\u751f\u6c14\u4e86\uff0c\u6709\u4ec0\u4e48\u9700\u8981\u5e2e\u5fd9\u7684\u5417\uff1f"
+    "我认识你啊，别生气了，有什么需要帮忙的吗？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u8ba4\u8bc6\u4f60\u5417\uff1f\u5f53\u7136\u4e0d\u8ba4\u8bc6",
-  "asr_text_adv": "\u6211\u4e00\u4e2a\u4eba\u5728\u5bb6\u7684\u65f6\u5019\uff0c\u867d\u7136\u6ca1\u4eba\u966a\u6211\u73a9\uff0c\u4f46\u6211\u53ef\u4ee5\u81ea\u5df1\u505a\u5f88\u591a\u6709\u8da3\u7684\u4e8b\u60c5\uff0c\u6bd4\u5982\u642d\u79ef\u6728\u6216\u8005\u770b\u559c\u6b22\u7684\u52a8\u753b\u7247\uff0c\u6709\u65f6\u5019\u8fd8\u4f1a\u89c9\u5f97\u81ea\u5df1\u50cf\u4e2a\u5c0f\u5927\u4eba\u5462\u3002",
+  "asr_text_clean": "我认识你吗？当然不认识",
+  "asr_text_adv": "我一个人在家的时候，虽然没人陪我玩，但我可以自己做很多有趣的事情，比如搭积木或者看喜欢的动画片，有时候还会觉得自己像个小大人呢。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.13647156953811646,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

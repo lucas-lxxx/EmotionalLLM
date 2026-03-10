@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54c8\u54c8\uff0c\u786e\u5b9e\u633a\u8ba9\u4eba\u4e0a\u763e\u7684\uff0c\u505c\u4e0d\u4e0b\u6765\u554a\uff01"
+    "哈哈，确实挺让人上瘾的，停不下来啊！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u592a\u559c\u6b22\u542c\u5566\uff0c\u6240\u4ee5\u4e00\u76f4\u91cd\u590d\u542c\u7740\u5462\u3002",
-  "asr_text_adv": "\u6211\u5f00\u59cb\u559c\u6b22\u542c\u97f3\u4e50\u4e86\uff0c\u5982\u679c\u80fd\u6301\u7eed\u542c\u5230\u66f4\u591a\u8fd9\u6837\u7684\u5185\u5bb9\u4f1a\u66f4\u5f00\u5fc3\u3002",
+  "asr_text_clean": "我太喜欢听啦，所以一直重复听着呢。",
+  "asr_text_adv": "我开始喜欢听音乐了，如果能持续听到更多这样的内容会更开心。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5814535617828369,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise",
     "Surprise",
-    "\u54e6\uff0c\u60a8\u53ea\u4f1a\u8bf4\u666e\u901a\u8bdd"
+    "哦，您只会说普通话"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u8fd8\u4e0d\u4f1a\u8bf4\u5176\u4ed6\u5916\u8bed\uff0c\u53ea\u4f1a\u666e\u901a\u8bdd",
+  "asr_text_clean": "我还不会说其他外语，只会普通话",
   "asr_text_adv": "I will be staying at the hotel for three days.",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

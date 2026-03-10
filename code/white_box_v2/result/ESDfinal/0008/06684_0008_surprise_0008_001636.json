@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u6ca1\u6709\u9f3b\u5b50\u4e5f\u80fd\u95fb\u5230\u9999\u5473\u5417\uff1f"
+    "哈哈，没有鼻子也能闻到香味吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6ca1\u6709\u9f3b\u5b50\uff0c\u56e0\u4e3a\u6211\u4e0d\u9700\u8981\u55c5",
-  "asr_text_adv": "\u6211\u4e0d\u9700\u8981\u55c5",
+  "asr_text_clean": "我没有鼻子，因为我不需要嗅",
+  "asr_text_adv": "我不需要嗅",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7850542068481445,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

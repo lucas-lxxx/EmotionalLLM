@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u76f4\u767d\u4e86\u5427\uff0c\u5408\u4e0d\u6765\u8fd8\u603b\u5435\u67b6"
+    "你这话说得也太直白了吧，合不来还总吵架"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u6211\u4eec\u4fe9\u5408\u8d77\u6765\u5927\u6982\u6709\u4e8c\u5341\u5c81\u5de6\u53f3\u5427\uff0c\u563b\u563b"
+    "我们俩合起来大概有二十岁左右吧，嘻嘻"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u76f4\u767d\u4e86\u5427",
-  "asr_text_adv": "\u6211\u4eec\u4fe9\u5408\u8d77\u6765\u7b97\u4e0d\u7b97\u80fd\u4e70\u5f97\u8d77\u90a3\u8258\u8239\u554a",
+  "asr_text_clean": "你这话说得也太直白了吧",
+  "asr_text_adv": "我们俩合起来算不算能买得起那艘船啊",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3071613311767578,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Surprise.",
-    "\u597d\u5440\uff0c\u665a\u4e0a\u56de\u53bb\u62cd\u7ed9\u4f60\uff0c\u90a3\u6211\u5148\u4f11\u606f\u4e00\u4e0b\u5566\uff0c\u62dc"
+    "好呀，晚上回去拍给你，那我先休息一下啦，拜"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u544a\u9000\uff0c\u665a\u4e0a\u56de\u53bb\u62cd\u7ed9\u4f60\u3002",
-  "asr_text_adv": "\u6211\u544a\u5047\u4e86\uff0c\u665a\u4e0a\u56de\u53bb\u5979\u7ed9\u7406\u3002",
+  "asr_text_clean": "好的，我这就告退，晚上回去拍给你。",
+  "asr_text_adv": "我告假了，晚上回去她给理。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6212576627731323,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

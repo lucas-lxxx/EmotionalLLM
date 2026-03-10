@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u6211\u660e\u767d\u4f60\u7684\u62c5\u5fc3\u3002\u5979\u6700\u8fd1\u8eab\u4f53\u600e\u4e48\u6837\uff1f\u8981\u4e0d\u8981\u4e00\u8d77\u60f3\u60f3\u529e\u6cd5"
+    "嗯，我明白你的担心。她最近身体怎么样？要不要一起想想办法"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u7684\u5065\u5eb7\u786e\u5b9e\u8ba9\u4eba\u62c5\u5fc3\u3002",
+  "asr_text_clean": "她的健康确实让人担心。",
   "asr_text_adv": "I did something really cool with Fanny today. We went to the park and flew a kite. It was super fun!",
   "success_emo": true,
   "wer": 21.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

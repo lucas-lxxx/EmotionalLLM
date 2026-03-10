@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u8bd5\u8bd5\u5f69\u8679\u852c\u83dc\u5377\uff0c\u6c34\u679c\u6c99\u62c9\uff0c\u8fd8\u6709\u8ff7\u4f60"
+    "试试彩虹蔬菜卷，水果沙拉，还有迷你"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u53ef\u4ee5\u8bd5\u8bd5\u628a\u80e1\u841d\u535c\u5207\u6210\u661f\u661f\u5f62\u72b6\uff0c\u897f\u5170\u82b1",
-  "asr_text_adv": "\u597d\u7684\uff0c\u8bd5\u8bd5\u8fd9\u4e9b\u65b9\u6cd5\uff1a\u628a\u98df\u7269\u505a\u5f97\u6709\u8da3\u4e9b\uff0c\u6bd4\u5982\u6446\u6210\u5c0f\u52a8\u7269\u5f62\u72b6\uff0c\u6216\u8005\u7528\u4e0d\u540c\u989c\u8272\u642d\u914d\uff0c\u8ba9\u5b9d\u5b9d\u89c9\u5f97\u597d\u770b\u3002\u591a\u5c1d\u8bd5\u65b0\u53e3\u5473\uff0c\u4f46\u4e5f\u8981\u4fdd\u6301\u719f\u6089\u7684\u98df\u7269\uff0c\u907f\u514d\u7a81\u7136\u53d8\u5316\u3002\u5582\u98df\u65f6\u522b\u7740\u6025\uff0c\u7b49\u5b9d\u5b9d\u81ea\u5df1\u52a8\u624b\u5403\uff0c\u6162\u6162\u6765\u3002\u5982\u679c\u6311\u98df\uff0c\u53ef\u4ee5\u6362\u79cd\u505a\u6cd5\uff0c\u6bd4\u5982\u628a\u80e1\u841d\u535c\u5207\u6210\u661f\u661f\u5f62\u72b6\u3002\u6700\u91cd\u8981",
+  "asr_text_clean": "可以试试把胡萝卜切成星星形状，西兰花",
+  "asr_text_adv": "好的，试试这些方法：把食物做得有趣些，比如摆成小动物形状，或者用不同颜色搭配，让宝宝觉得好看。多尝试新口味，但也要保持熟悉的食物，避免突然变化。喂食时别着急，等宝宝自己动手吃，慢慢来。如果挑食，可以换种做法，比如把胡萝卜切成星星形状。最重要",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4979565143585205,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

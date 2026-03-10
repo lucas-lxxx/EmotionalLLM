@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54c8\u54c8\uff0c\u770b\u6765\u8fd9\u573a\u6c99\u5c18\u66b4\u771f\u662f\u591f\u545b"
+    "哈哈，看来这场沙尘暴真是够呛"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6c99\u5c18\u66b4\u786e\u5b9e\u7ed9\u5f88\u591a\u4eba\u5e26\u6765\u4e86\u9ebb\u70e6\u3002",
-  "asr_text_adv": "\u6bcf\u6b21\u62c9\u57ce\u7684ROUT\uff0c\u90fd\u5e0c\u671b\u7ed9\u4eba\u7f8e\u7684\u4eab\u53d7\uff0c\u8ba9\u4eba\u4eba\u90fd\u518d\u6765\u6d6a\u6a21\u8303\u3002",
+  "asr_text_clean": "沙尘暴确实给很多人带来了麻烦。",
+  "asr_text_adv": "每次拉城的ROUT，都希望给人美的享受，让人人都再来浪模范。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.07622204720973969,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

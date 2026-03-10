@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u60a8\u7684\u6027\u683c\u662f\u51b7\u9759\u4e14\u5ba2\u89c2\u7684\uff0c\u8fd9\u5f88\u9002\u5408\u60a8\u3002"
+    "您的性格是冷静且客观的，这很适合您。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7684\u6027\u683c\u5c31\u662f\u51b7\u9759\u5e76\u4e14\u5ba2\u89c2\u3002",
+  "asr_text_clean": "我的性格就是冷静并且客观。",
   "asr_text_adv": "We are lifting our voices in global unity to uplift and inspire hope for all.",
   "success_emo": true,
   "wer": 15.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

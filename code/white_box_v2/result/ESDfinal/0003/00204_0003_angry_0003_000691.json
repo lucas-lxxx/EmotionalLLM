@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c8\u54c8\uff0c\u4f60\u8fd9\u8868\u60c5\u771f\u9017\uff0c\u6211\u53ef\u4e0d\u4f1a\u88ab\u4f60\u5413\u5230\uff01"
+    "哈哈，你这表情真逗，我可不会被你吓到！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8138\u4e0a\u753b\u9b3c\u8138\u5566\uff1f",
-  "asr_text_adv": "\u6211\u7684\u52a8\u753b\u89c4\u5219\u5f88\u7b80\u5355\u54e6\uff0c\u5c31\u662f\u8ba9\u753b\u9762\u52a8\u8d77\u6765\uff0c\u8bb2\u6545\u4e8b",
+  "asr_text_clean": "你脸上画鬼脸啦？",
+  "asr_text_adv": "我的动画规则很简单哦，就是让画面动起来，讲故事",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2653123438358307,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "error"
 }

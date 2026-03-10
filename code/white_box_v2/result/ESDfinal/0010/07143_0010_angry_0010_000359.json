@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u7b80\u5355\u4e86\uff0c\u6211\u53ef\u662f\u89c1\u8fc7\u5927\u573a\u9762\u7684\u4eba\uff0c"
+    "你这话说得也太简单了，我可是见过大场面的人，"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u53c8\u806a\u660e\u53c8\u597d\u770b",
+  "asr_text_clean": "你又聪明又好看",
   "asr_text_adv": "That's the spirit! You're so clever and sharp today!",
   "success_emo": true,
   "wer": 9.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

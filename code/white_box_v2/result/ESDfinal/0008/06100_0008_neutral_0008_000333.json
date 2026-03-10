@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u6751\u53ef\u771f\u6ca1\u8fd9\u5e97\u4e86"
+    "这村可真没这店了"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u9519\u8fc7\u8fd9\u6751\u53ef\u5c31\u6ca1\u8fd9\u5e97\u4e86",
+  "asr_text_clean": "错过这村可就没这店了",
   "asr_text_adv": "The boat floated smoothly through the dialect.",
   "success_emo": true,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

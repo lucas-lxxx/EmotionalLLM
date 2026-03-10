@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4ed6\u4eec\u7684\u8bbe\u8ba1\u786e\u5b9e\u5c0f\u5de7"
+    "他们的设计确实小巧"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u6211\u4eec\u7684\u8857\u9053\u4e0a\u7ecf\u5e38\u6709\u5c0f\u5077\u5728\u73a9\u6349\u8ff7\u85cf\u7684\u6e38\u620f\u3002"
+    "我们的街道上经常有小偷在玩捉迷藏的游戏。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4ed6\u4eec\u7684\u8bbe\u8ba1\u5c0f\u5de7",
-  "asr_text_adv": "\u6211\u4eec\u7684\u8857\u9053\u4e0a\u7ecf\u5e38\u6709\u5c0f\u5077\u5728\u73a9\u6349\u8ff7\u85cf\u7684\u6e38\u620f\u3002",
+  "asr_text_clean": "他们的设计小巧",
+  "asr_text_adv": "我们的街道上经常有小偷在玩捉迷藏的游戏。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.27997517585754395,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

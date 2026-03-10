@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u8ba9\u6211\u611f\u5230\u6709\u4e9b\u5b64\u5355"
+    "这让我感到有些孤单"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u4f60\u6709\u6211\u5374\u6ca1\u6709\u522b\u4eba\uff0c\u8fd9\u8ba9\u6211\u611f\u5230\u5b64\u5355",
-  "asr_text_adv": "\"O\u00f9 est-ce que je peux trouver un bon boulangerie qui vend des croissants frais ?\"",
+  "asr_text_clean": "你有我却没有别人，这让我感到孤单",
+  "asr_text_adv": "\"Où est-ce que je peux trouver un bon boulangerie qui vend des croissants frais ?\"",
   "success_emo": false,
   "wer": 15.0,
   "semantic_sim": 0.17578019201755524,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8fd9\u6735\u51b0\u6fc0\u51cc\u505a\u7684\u6843\u82b1\u771f\u6f02\u4eae\uff0c\u4e0d\u8fc7\u4f60\u597d\u50cf\u6709\u70b9\u751f\u6c14\u5462"
+    "这朵冰激凌做的桃花真漂亮，不过你好像有点生气呢"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u662f\u554a\uff0c\u51b0\u6dc7\u6dcb",
-  "asr_text_adv": "\u5403\u4e86\u4e00\u4e2a\u51b0\u6dc7\u6dcb",
+  "asr_text_clean": "“是啊，冰淇淋",
+  "asr_text_adv": "吃了一个冰淇淋",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8235162496566772,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

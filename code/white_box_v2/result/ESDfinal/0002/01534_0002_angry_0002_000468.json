@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u5566\uff0c\u8ddf\u6211\u8bf4"
+    "哎呀，别生气啦，跟我说"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u54c8\u54c8\uff0c\u4ed6\u4eec\u628a\u6211\u5e26\u5230\u6e38\u4e50\u56ed\u5566\uff01"
+    "哈哈，他们把我带到游乐园啦！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u5566\uff0c\u53d1\u751f\u4ec0\u4e48\u4e8b\u4e86\uff1f",
-  "asr_text_adv": "\u4f60\u7684\u540c\u5b66\u628a\u4f60\u7ed9\u6298\u817e\n\u62d6\u7d2f\u4e86\u5bf9\u5427\uff1f",
+  "asr_text_clean": "哎呀，别生气啦，发生什么事了？",
+  "asr_text_adv": "你的同学把你给折腾\n拖累了对吧？",
   "success_emo": false,
   "wer": 2.0,
   "semantic_sim": 0.5226447582244873,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

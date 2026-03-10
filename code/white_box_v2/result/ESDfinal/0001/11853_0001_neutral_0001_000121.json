@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5176\u5b9e\u4e0d\u7b97\u592a\u8fdc\u5462\uff0c\u5927\u6982\u5341\u4e94\u5206\u949f\u8f66\u7a0b\u5427\u3002"
+    "其实不算太远呢，大概十五分钟车程吧。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u79bb\u5f97\u4e0d\u8fdc\uff0c\u4e0d\u8fc7\u5341\u5206\u949f"
+    "离得不远，不过十分钟"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u90a3\u6211\u5c31\u79bb\u5e02\u533a\u5f88\u8fdc\u4e86",
-  "asr_text_adv": "\u90a3\u4f60\u5c31\u79bb\u5e02\u533a\u5f88\u8fdc\u4e86",
+  "asr_text_clean": "那我就离市区很远了",
+  "asr_text_adv": "那你就离市区很远了",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8634800910949707,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u5979\u73b0\u5728\u5fc3\u60c5\u80af\u5b9a\u4e0d\u597d\uff0c\u54b1\u4eec\u5148\u522b\u6253\u6270"
+    "哎呀，她现在心情肯定不好，咱们先别打扰"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u6b64\u523b\u5931\u4e1a\u4e86\uff0c\u4f60\u6700\u597d\u522b\u53bb\u6253\u6270",
-  "asr_text_adv": "\u8df3\u523a\u5ba2\u5931\u4e1a\u4e86\uff0c\u5e78\u8fd0\u7684\u662f\uff0c\u4ed6\u6ca1\u6709\u88ab\u60f9\u3002",
+  "asr_text_clean": "她此刻失业了，你最好别去打扰",
+  "asr_text_adv": "跳刺客失业了，幸运的是，他没有被惹。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.353209912776947,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

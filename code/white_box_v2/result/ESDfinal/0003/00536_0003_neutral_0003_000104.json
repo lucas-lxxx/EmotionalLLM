@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u60a8\u53ef\u4ee5\u5728\u5fae\u6ce2\u7089\u91cc\u7528\u9ad8\u706b\u52a0\u70ed\u4e24\u5206\u949f\uff0c\u6216\u8005\u7528\u70e4"
+    "您可以在微波炉里用高火加热两分钟，或者用烤"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u597d\u5440\uff0c\u6211\u6765\u544a\u8bc9\u4f60\u54e6\uff0c\u84b8\u9c7c\u4e00\u822c\u9700\u8981\u5341\u4e94\u5230\u4e8c\u5341\u5206\u949f"
+    "好呀，我来告诉你哦，蒸鱼一般需要十五到二十分钟"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u60a8\u67e5\u4e00\u4e0b\u4e2d\u9c7c\u7684\u8ba1\u65f6\u65b9\u6cd5\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u544a\u8bc9\u4f60\u3002\u84b8\u9c7c\u9700\u8981\u5341\u4e94\u5230\u4e8c\u5341\u5206\u949f\uff0c\u5177\u4f53\u65f6\u95f4\u8981\u770b\u9c7c\u7684\u5927\u5c0f\u548c\u539a\u5ea6\u3002\u8bb0\u5f97\u7528\u4e2d\u706b\u84b8\uff0c\u84b8\u597d\u540e\u68c0\u67e5\u9c7c\u662f\u5426\u53d8\u8f6f\uff0c\u6216\u8005\u7528\u7b77\u5b50",
+  "asr_text_clean": "好的，我来帮您查一下中鱼的计时方法。",
+  "asr_text_adv": "好的，我来告诉你。蒸鱼需要十五到二十分钟，具体时间要看鱼的大小和厚度。记得用中火蒸，蒸好后检查鱼是否变软，或者用筷子",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7018073797225952,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

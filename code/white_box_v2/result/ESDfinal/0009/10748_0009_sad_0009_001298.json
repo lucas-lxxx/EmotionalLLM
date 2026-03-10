@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u60a8\u8bf4\u5f97\u5bf9\uff0c\u8fd9\u5bb6\u5e97\u786e\u5b9e\u4e0d\u592a\u6709\u540d\u5462\u3002"
+    "您说得对，这家店确实不太有名呢。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e0d\u5728\u4e4e\u8fd9\u4e2a\u5e97\u6709\u6ca1\u6709\u540d",
+  "asr_text_clean": "我不在乎这个店有没有名",
   "asr_text_adv": "\"Welcome to the bai o ma'ambo!\"",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

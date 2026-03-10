@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u90a3\u6211\u5c31\u8bf4\uff0c\u56e0\u4e3a\u592a\u7231\u8df3\u821e\u4e86\uff0c\u7ed3\u679c\u626d\u5230\u8170\u4e86\u3002"
+    "那我就说，因为太爱跳舞了，结果扭到腰了。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u56e0\u4e3a\u6709\u4f60\u5440\uff0c\u5c0f\u670b\u53cb\uff01\u548c\u670b\u53cb\u4eec\u4e00\u8d77\u73a9\u800d\uff0c\u6bcf\u5929\u90fd\u6709\u65b0\u60ca\u559c"
+    "因为有你呀，小朋友！和朋友们一起玩耍，每天都有新惊喜"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u90a3\u6211\u5c31\u8bf4\uff0c\u56e0\u4e3a\u592a\u60f3\u505a\u597d\u4e86\u53cd\u800c\u5bb9\u6613\u51fa\u9519\uff0c\u5bf9\u5427\uff1f",
-  "asr_text_adv": "\u56e0\u4e3a\u6709\u4f60\u5440\uff0c\u5c0f\u5bb6\u4f19\uff01",
+  "asr_text_clean": "那我就说，因为太想做好了反而容易出错，对吧？",
+  "asr_text_adv": "因为有你呀，小家伙！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.48939603567123413,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

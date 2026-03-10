@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u9a6c\u4e0a\u5e26\u60a8\u53bb\u9999\u6e2f\u6d77\u6d0b\u516c\u56ed\u3002"
+    "好的，马上带您去香港海洋公园。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u524d\u5f80\u9999\u6e2f\u6d77\u6d0b\u516c\u56ed\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u8f6c\u5f55\u8bed\u97f3\u3002",
+  "asr_text_clean": "好的，正在为您前往香港海洋公园。",
+  "asr_text_adv": "好的，正在为您转录语音。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.32852861285209656,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

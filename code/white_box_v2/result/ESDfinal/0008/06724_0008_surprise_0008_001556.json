@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u8c22\u8c22\u9080\u8bf7\uff0c\u771f\u5f00\u5fc3\uff01"
+    "谢谢邀请，真开心！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u606d\u559c",
-  "asr_text_adv": "\u975e\u5e38\u611f\u8c22\u9080\u8bf7\uff0c\u5f88\u9ad8\u5174\u53c2\u52a0\u5a5a\u793c\u3002",
+  "asr_text_clean": "恭喜",
+  "asr_text_adv": "非常感谢邀请，很高兴参加婚礼。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5287984609603882,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

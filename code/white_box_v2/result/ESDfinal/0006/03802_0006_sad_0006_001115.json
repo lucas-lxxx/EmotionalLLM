@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u4f60\u8bf4\u5f97\u5bf9\uff0c\u5148\u628a\u63e1\u597d\u73b0\u5728\u5427\u3002"
+    "嗯，你说得对，先把握好现在吧。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e00\u5929\u4e5f\u4e0d\u5dee\uff0c\u5148\u628a\u63e1\u597d\u73b0\u5728\u5427\u3002",
-  "asr_text_adv": "\u4e00\u7fa4\u827a\u672f\u5bb6\u5de5\u4f5c\uff0c\u504f\u7231\u73b0\u5728\u571f\u8457\u97f3\u4e50\u3002",
+  "asr_text_clean": "一天也不差，先把握好现在吧。",
+  "asr_text_adv": "一群艺术家工作，偏爱现在土著音乐。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.07270008325576782,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

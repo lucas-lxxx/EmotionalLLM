@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u771f\u76f8\u5df2\u7ecf\u4e0a\u4f20\u3002"
+    "好的，真相已经上传。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u90a3\u6211\u518d\u60f3\u60f3\uff0c\u771f\u76f8\u5df2\u7ecf\u4e0a\u4f20\u4e86\u3002",
-  "asr_text_adv": "\u8ba9\u6211\u4eec\u4e00\u8d77\u56de\u60f3",
+  "asr_text_clean": "好的，我明白了，那我再想想，真相已经上传了。",
+  "asr_text_adv": "让我们一起回想",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5850403308868408,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

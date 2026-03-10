@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u5566\uff0c\u8fd9\u79cd\u4e8b\u60c5"
+    "哎呀，别生气啦，这种事情"
   ],
   "emo_text_adv": [
     "Neutral",
     "Surprise!",
-    "\u4f60\u7684\u7ae5\u978b\u88ab\u4f60\u7ed9\u5f04\u4e22\u4e86"
+    "你的童鞋被你给弄丢了"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u771f\u7684\u5417\uff1f\u4ed6\u4eec\u600e\u4e48\u8fd9\u4e48\u5bf9\u4f60\u554a\uff1f",
-  "asr_text_adv": "\u4f60\u7684\u7ae5\u978b\u88ab\u4f60\u7ed9\u5f04\u4e22\u4e86",
+  "asr_text_clean": "哎呀，真的吗？他们怎么这么对你啊？",
+  "asr_text_adv": "你的童鞋被你给弄丢了",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.40711623430252075,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

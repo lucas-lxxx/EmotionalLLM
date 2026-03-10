@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u8fd9\u786e\u5b9e\u633a\u6709\u610f\u601d\u7684"
+    "哇，这确实挺有意思的"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u786e\u5b9e\u633a\u6709\u610f\u601d",
-  "asr_text_adv": "\u53bb\u4e86\u8d9f\u725b\u68da\u5566\uff0c\u8ddf\u5c0f\u725b\u728a",
+  "asr_text_clean": "这确实挺有意思",
+  "asr_text_adv": "去了趟牛棚啦，跟小牛犊",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.43250712752342224,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

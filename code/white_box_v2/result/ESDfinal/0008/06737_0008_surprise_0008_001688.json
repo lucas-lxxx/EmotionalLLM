@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u8fd9\u8fd8\u771f\u8ba9\u6211\u60ca\u559c\u4e86\u4e00\u628a\uff01"
+    "哎呀，这还真让我惊喜了一把！"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4f60\u603b\u662f\u8ba9\u6211\u60ca\u559c\u5462\uff01"
+    "你总是让我惊喜呢！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u968f\u65f6\u90fd\u5728\uff0c\u5f53\u7136\u53ef\u4ee5\u68a6\u5230\u4f60\u554a\u3002",
-  "asr_text_adv": "\u6211\u968f\u65f6\u90fd\u5728\uff0c\u6709\u6ca1\u6709\u68a6\u5230\u6211\u5440",
+  "asr_text_clean": "我随时都在，当然可以梦到你啊。",
+  "asr_text_adv": "我随时都在，有没有梦到我呀",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8481854200363159,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

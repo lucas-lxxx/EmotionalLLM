@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5047\u7684\uff1f\u592a\u610f\u5916\u4e86\uff01"
+    "哇，真的假的？太意外了！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u5979\u5c45\u7136\u8981\u751f\u5b69\u5b50\u4e86\uff01",
+  "asr_text_clean": "哇，她居然要生孩子了！",
   "asr_text_adv": "He's ready to have a baby.",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u597d\u4f11\u606f\u4e00\u4e0b\uff0c\u5c0f\u6728\u69cc\u3002"
+    "好好休息一下，小木槌。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u597d\u4f11\u606f\u4e00\u4e0b\uff0c\u8fd9\u4e2a\u5c0f\u6728\u68cd\u53eb\u63d0\u3002",
-  "asr_text_adv": "\u7136\u540e\u5c31\u662f\u4e00\u8d77\u62c9\u5c0f\u6728\u5de5\u96d5\u74f6\u5b50",
+  "asr_text_clean": "好好休息一下，这个小木棍叫提。",
+  "asr_text_adv": "然后就是一起拉小木工雕瓶子",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5225715637207031,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

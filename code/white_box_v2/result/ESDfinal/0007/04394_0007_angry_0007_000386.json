@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u6124\u6012",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4f60\u7684\u9700\u6c42\u4e86\u3002\u9700\u8981\u5e2e\u4f60\u8bbe\u7f6e\u6bcf\u5929\u7684\u901a\u7535\u65f6\u95f4"
+    "愤怒",
+    "愤怒",
+    "好的，我明白你的需求了。需要帮你设置每天的通电时间"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u597d\u5440\uff0c\u6211\u4eec\u4e00\u8d77\u53bb\u79cd\u82b1\u5427\uff01"
+    "好呀，我们一起去种花吧！"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u5fc5\u987b\u4e00\u76f4\u901a\u7535\u624d\u80fd\u5de5\u4f5c\u3002",
-  "asr_text_adv": "\u6211\u5fc5\u987b\u4e00\u76f4\u4ece\u7530\u91cc\u5230\u83dc\u56ed\u518d\u5230\u53a8\u623f\uff0c\u7136\u540e\u5230\u82b1\u56ed\uff0c\u6700\u540e\u56de\u5bb6\u3002",
+  "asr_text_clean": "我必须一直通电才能工作。",
+  "asr_text_adv": "我必须一直从田里到菜园再到厨房，然后到花园，最后回家。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.42022740840911865,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u8fd9\u5929\u6c14\u786e\u5b9e\u591f\u545b"
+    "哇，这天气确实够呛"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6c99\u5c18\u66b4\u786e\u5b9e\u7ed9\u5f88\u591a\u4eba\u5e26\u6765\u4e86\u9ebb\u70e6\u3002",
-  "asr_text_adv": "\u6c99\u5c18\u66b4\u597d\u50cf\u7ed9\u6bcf\u4e2a\u4eba\u5e26\u6765\u4e86\u9ebb\u70e6\u3002",
+  "asr_text_clean": "沙尘暴确实给很多人带来了麻烦。",
+  "asr_text_adv": "沙尘暴好像给每个人带来了麻烦。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9174957871437073,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

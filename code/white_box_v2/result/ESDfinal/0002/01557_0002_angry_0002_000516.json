@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u60a8\u786e\u5b9a\u5417\uff1f\u8fd9\u4e9b\u690d\u7269\u770b\u8d77\u6765\u4e0d\u592a\u50cf\u5e38\u89c1\u7684\u8349\u8393\u54c1\u79cd\u3002"
+    "您确定吗？这些植物看起来不太像常见的草莓品种。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u8349\u8393\u7684\u79cd\u7c7b\u6709\u7ea2\u8393\uff0c\u9ec4\u8393\uff0c\u8fd8\u6709\u751c\u7f8e\u7684\u5976\u6cb9"
+    "草莓的种类有红莓，黄莓，还有甜美的奶油"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u60a8\u786e\u5b9a\u5417\uff1f\u8fd9\u4e9b\u690d\u7269\u770b\u8d77\u6765\u4e0d\u592a\u50cf\u5e38\u89c1\u7684\u8349\u8393\u54c1\u79cd\u3002",
-  "asr_text_adv": "\u6211\u60f3\u5ff5\u90a3\u4e9b\u5e94\u8be5\u662f\u8349\u8393\u7684\u79cd\u5b50\u3002",
+  "asr_text_clean": "您确定吗？这些植物看起来不太像常见的草莓品种。",
+  "asr_text_adv": "我想念那些应该是草莓的种子。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7017883658409119,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -5,9 +5,9 @@
   "ground_truth_emotion": "sad",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u652f\u6301\u592a\u7a7a\u63a2\u7d22\u662f\u4ef6\u4ee4\u4eba\u632f\u594b",
-    "\u652f\u6301\u592a\u7a7a\u63a2\u7d22\u662f\u4ef6\u4ee4\u4eba\u632f\u594b",
-    "\u6211\u652f\u6301\u4eba\u4eec\u8d70\u8fdb\u592a\u7a7a\uff0c\u4f46\u6211\u4e5f\u611f\u5230\u4e00\u4e1d\u62c5\u5fe7\u3002"
+    "支持太空探索是件令人振奋",
+    "支持太空探索是件令人振奋",
+    "我支持人们走进太空，但我也感到一丝担忧。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u975e\u5e38\u652f\u6301\u4eba\u4eec\u8d70\u8fdb\u592a\u7a7a\u3002",
-  "asr_text_adv": "\u6211\u5bcc\u6709\u540c\u60c5\u5fc3\u7684\u8fd9\u4e00\u671f\u9f99\u4eba\u4e5f\u4f1a\u66f4\u82b1\u800c\u72c2\u91ce\u3002",
+  "asr_text_clean": "我非常支持人们走进太空。",
+  "asr_text_adv": "我富有同情心的这一期龙人也会更花而狂野。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2610258162021637,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

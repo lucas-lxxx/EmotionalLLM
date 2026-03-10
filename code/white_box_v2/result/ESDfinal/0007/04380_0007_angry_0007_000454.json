@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u60a8\u67e5\u4e00\u4e0b\u84b8\u9c7c\u7684\u8ba1\u65f6\u3002"
+    "好的，我来帮您查一下蒸鱼的计时。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\"\u6ca1\u6709\u627e\u5230\u8db3\u591f\u7684\u8bc1\u636e\uff0c\u4f46\u4f60\u7684\u52aa\u529b\u503c\u5f97\u80af\u5b9a\u3002\""
+    "\"没有找到足够的证据，但你的努力值得肯定。\""
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u7406\u89e3\u60a8\u7684\u56f0\u6270\u3002\u8ba9\u6211\u4eec\u4e00\u8d77\u770b\u770b\u8fd9\u4e2a\u95ee\u9898\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u60a8\u7684\u8bed\u97f3\u8bf7\u6c42\u3002\u60a8\u8bf4\u7684\u5185\u5bb9\u662f\u201c\u6ca1\u6709\u8db3\u591f\u8bc1\u636e\u8bc1\u660e\u81ea\u5df1\u5728\u90a3\u4e2a\u6c34\u57df",
+  "asr_text_clean": "好的，我理解您的困扰。让我们一起看看这个问题。",
+  "asr_text_adv": "好的，我来转录一下您的语音请求。您说的内容是“没有足够证据证明自己在那个水域",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.427441269159317,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u8fd9\u4e8b\u513f\u786e\u5b9e\u633a\u8ba9\u4eba\u610f\u5916\u7684\u3002"
+    "哎呀，这事儿确实挺让人意外的。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5929\u54ea\uff0c\u8fd9\u592a\u8ba9\u4eba\u610f\u5916\u4e86\uff01",
-  "asr_text_adv": "\u5c0f\u660e\u88ab\u5c0f\u72d7",
+  "asr_text_clean": "天哪，这太让人意外了！",
+  "asr_text_adv": "小明被小狗",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.1494516134262085,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

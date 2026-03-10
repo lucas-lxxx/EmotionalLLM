@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u8ba9\u6211\u4eec\u770b\u770b\u8db3\u7403\u5427\uff0c\u5b83\u5145\u6ee1\u6fc0\u60c5\uff0c\u6216\u8bb8\u80fd\u8ba9\u4f60\u5fc3\u60c5\u597d\u8d77\u6765\u3002",
-    "\u55ef\uff0c\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u8fd8\u662f\u6392\u7403\uff1f"
+    "让我们看看足球吧，它充满激情，或许能让你心情好起来。",
+    "嗯，足球，篮球，还是排球？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u8fd8\u662f\u6392\u7403\uff1f",
-  "asr_text_adv": "\u770b\u6211\u4eec\u770b\u5979\u6253\u7bee\u7403\uff0c\u7403\u8e22\u5f97\u771f\u597d\u3002",
+  "asr_text_clean": "嗯，足球，篮球，还是排球？",
+  "asr_text_adv": "看我们看她打篮球，球踢得真好。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2443511188030243,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

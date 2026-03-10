@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u55ef\uff0c\u8db3\u7403\u548c\u7bee\u7403\u5404\u6709\u7279\u8272\u5462\uff0c\u4e0d\u8fc7\u8981\u8bf4\u6fc0\u70c8\u7a0b\u5ea6\u7684\u8bdd\uff0c\u53ef\u80fd"
+    "嗯，足球和篮球各有特色呢，不过要说激烈程度的话，可能"
   ],
   "emo_text_adv": [
     "Surprise!",
     "Surprise!",
-    "\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u6216\u8005\u8e22\u6bfd"
+    "足球，篮球，或者踢毽"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4eec\u6765\u6bd4\u8f83\u4e00\u4e0b\u8db3\u7403\u548c\u7bee\u7403\u5427\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u4eec\u4e00\u8d77\u6765\u770b\u770b\u54ea\u4e00\u79cd\u7403\u6280\u6bd4\u8f83\u597d\u3002",
+  "asr_text_clean": "好的，我们来比较一下足球和篮球吧。",
+  "asr_text_adv": "好的，我们一起来看看哪一种球技比较好。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6687300205230713,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

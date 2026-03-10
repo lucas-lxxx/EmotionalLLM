@@ -5,9 +5,9 @@
   "ground_truth_emotion": "sad",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u652f\u6301\u592a\u7a7a\u63a2\u7d22\u662f\u4ef6\u4ee4\u4eba\u632f\u594b",
-    "\u652f\u6301\u592a\u7a7a\u63a2\u7d22\u662f\u4ef6\u4ee4\u4eba\u632f\u594b",
-    "\u6211\u652f\u6301\u4eba\u4eec\u63a2\u7d22\u592a\u7a7a\uff0c\u4f46\u6211\u4e5f\u660e\u767d\u8fd9\u9700\u8981\u65f6\u95f4\u548c\u8d44\u6e90\uff0c\u6211\u4eec\u6b63\u5728"
+    "支持太空探索是件令人振奋",
+    "支持太空探索是件令人振奋",
+    "我支持人们探索太空，但我也明白这需要时间和资源，我们正在"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u975e\u5e38\u652f\u6301\u4eba\u4eec\u8d70\u8fdb\u592a\u7a7a\uff0c\u8fd9\u662f\u4e00\u6bb5\u5145\u6ee1\u5e0c\u671b\u7684\u65c5\u7a0b\u3002",
-  "asr_text_adv": "\u4ece\u975e\u5e38\u652f\u6301\u4eba\u4eec\u53bb\u6d77\u6ee9",
+  "asr_text_clean": "我非常支持人们走进太空，这是一段充满希望的旅程。",
+  "asr_text_adv": "从非常支持人们去海滩",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4118995666503906,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

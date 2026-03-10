@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5e26\u4e0a\u4f60\u7684\u5bb6\u4eba\uff0c\u4f46\u5148\u5904\u7406\u597d\u4e11\u95fb\u3002"
+    "带上你的家人，但先处理好丑闻。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5e26\u4e0a\u4f60\u7684\u5bb6\u4eba\uff0c\u4f46\u4ed6\u6709\u4e11\u95fb\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u9009\u3002",
+  "asr_text_clean": "带上你的家人，但他有丑闻。",
+  "asr_text_adv": "好的，我来帮你选。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.26834636926651,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

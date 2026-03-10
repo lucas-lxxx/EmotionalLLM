@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5f53\u7136\uff0c\u6211\u8ba4\u8bc6\u4ed6\u3002"
+    "当然，我认识他。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5f53\u7136\u8ba4\u8bc6\u4ed6\uff0c\u4ed6\u53ef\u662f\u4e2a\u540d\u4eba\u3002",
+  "asr_text_clean": "我当然认识他，他可是个名人。",
   "asr_text_adv": "I'm going to be out of town for a few days. My parents are going to pick me up.",
   "success_emo": true,
   "wer": 19.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Neutral",
-    "\u90a3\u6211\u5c31\u8bf4\u4f60\u88ab\u65bd\u4e86\u9b54\u6cd5\u5566\uff01"
+    "那我就说你被施了魔法啦！"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u6211\u5c31\u8bf4\u4f60\u88ab\u795e\u9b42\u98a0\u5012\u4e86\u3002",
-  "asr_text_adv": "\u90a3\u4f60\u8bf4\u4ee5\u592a\u574a\u540c\u5c42\u7f16\u8bd1\u5668\u5440\uff0c\u5c31\u662f\u8ba9\u667a\u80fd\u5408\u7ea6\u5728\u533a\u5757\u94fe\u4e0a\u8dd1\u5f97\u66f4\u5feb\u66f4\u7701\u8d44\u6e90\u7684\u5de5\u5177\uff0c\u5c31\u50cf\u7ed9\u7a0b\u5e8f\u88c5\u4e86\u4e2a\u52a0\u901f\u5668\u3002",
+  "asr_text_clean": "那我就说你被神魂颠倒了。",
+  "asr_text_adv": "那你说以太坊同层编译器呀，就是让智能合约在区块链上跑得更快更省资源的工具，就像给程序装了个加速器。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.11593535542488098,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

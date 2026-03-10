@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u90a3\u53ef\u80fd\u5f97\u518d\u67e5\u67e5\u5177\u4f53\u65f6\u95f4\u5462\u3002"
+    "哦，那可能得再查查具体时间呢。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6ca1\u6709\u627e\u5230\u9884\u8ba2\u7684\u622a\u6b62\u65e5\u671f\u3002",
-  "asr_text_adv": "\u7f8e\u4eba\u8fdf\u66ae",
+  "asr_text_clean": "没有找到预订的截止日期。",
+  "asr_text_adv": "美人迟暮",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.21572144329547882,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

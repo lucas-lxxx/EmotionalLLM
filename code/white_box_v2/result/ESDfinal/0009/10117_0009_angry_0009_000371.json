@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6700\u540e\u4e00\u4e2a"
+    "最后一个"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5df2\u7ecf\u64ad\u5b8c\u6700\u540e\u4e00\u4e2a",
+  "asr_text_clean": "已经播完最后一个",
   "asr_text_adv": "The tour guide says they do three rounds each day with their happy customers.",
   "success_emo": true,
   "wer": 14.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

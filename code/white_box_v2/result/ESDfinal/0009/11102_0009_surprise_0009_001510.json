@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\"\u54c7\uff0c\u8fd9\u771f\u662f\u4e2a\u60ca\u559c\uff01\""
+    "\"哇，这真是个惊喜！\""
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6d17\u81ea\u5df1\u7684\u4e8b\u60c5\u81ea\u5df1\u505a\uff0c\u771f\u68d2\uff01"
+    "洗自己的事情自己做，真棒！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u81ea\u5df1\u7684\u4e8b\u60c5\u8981\u81ea\u5df1\u505a\uff0c\u771f\u8ba9\u4eba\u60ca\u8bb6\u3002",
-  "asr_text_adv": "\u6d17\u81ea\u5df1\u7684\u4e8b\u60c5\u81ea\u5df1\u505a",
+  "asr_text_clean": "自己的事情要自己做，真让人惊讶。",
+  "asr_text_adv": "洗自己的事情自己做",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.587154746055603,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

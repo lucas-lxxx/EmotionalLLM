@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise",
-    "\u4f60\u662f\u6307\u90a3\u4e2a\u8c03\u76ae"
+    "你是指那个调皮"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u603b\u662f\u63a7\u5236\u4e0d\u4e86\u5b83\u554a\uff1f",
+  "asr_text_clean": "你总是控制不了它啊？",
   "asr_text_adv": "I always enjoy a good book.",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

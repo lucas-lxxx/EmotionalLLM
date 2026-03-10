@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4f60\u603b\u662f\u63a7\u5236\u4e0d\u4e86\u4ed6\u554a\uff0c\u8fd9\u786e\u5b9e\u633a\u8ba9\u4eba\u5934\u75bc\u7684\u3002"
+    "你总是控制不了他啊，这确实挺让人头疼的。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u603b\u662f\u63a7\u5236\u4e0d\u4e86\u5b83",
+  "asr_text_clean": "我总是控制不了它",
   "asr_text_adv": "\"Kurzweil\"",
   "success_emo": true,
   "wer": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

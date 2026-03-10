@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u4f60\u8fd9\u8bed\u6c14\u542c\u7740\u6bd4\u6ca1\u540d\u8fd8\u607c\u706b\u5462"
+    "你这语气听着比没名还恼火呢"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u8fd9\u5bb6\u5e97\u6709\u514d\u8d39\u7684\u513f\u7ae5\u9910\u6905\u548c\u5c0f\u73a9\u5177\uff0c\u8fd8\u4f1a\u8d60\u9001\u8d34\u7eb8"
+    "这家店有免费的儿童餐椅和小玩具，还会赠送贴纸"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4e0d\u5728\u4e4e\u8fd9\u4e2a\u5e97\u6709\u6ca1\u6709\u540d\u3002",
-  "asr_text_adv": "\u6211\u600e\u4e48\u5728\u4e4e\u8fd9\u4e2a\u5e97\u6709\u6ca1\u6709\u7a7a\u8c03\uff1f",
+  "asr_text_clean": "我不在乎这个店有没有名。",
+  "asr_text_adv": "我怎么在乎这个店有没有空调？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3710980713367462,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

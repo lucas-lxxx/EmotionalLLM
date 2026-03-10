@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\"\u54fc\uff0c\u6210\u5e74\u4eba"
+    "\"哼，成年人"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "reading"
   ],
-  "asr_text_clean": "\"\u8fd9\u786e\u5b9e\u662f\u4e2a\u597d\u4e60\u60ef\uff0c\u4e0d\u8fc7\u4f60\u597d\u50cf\u6709\u70b9\u751f\u6c14\uff1f\"",
+  "asr_text_clean": "\"这确实是个好习惯，不过你好像有点生气？\"",
   "asr_text_adv": "\"Reading books or tending to plants is a lovely way to unwind. It brings such joy to learn new things or simply relax with a good story.\"",
   "success_emo": false,
   "wer": 27.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

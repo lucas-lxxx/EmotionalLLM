@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u4f1a\u4e00\u76f4\u575a\u6301\u4e0b\u53bb\u3002"
+    "好的，我会一直坚持下去。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6240\u4ee5\uff0c\u4f60\u5fc5\u987b\u575a\u6301\u65f6\u95f4\u8d8a\u957f\u8d8a\u597d\u3002",
+  "asr_text_clean": "所以，你必须坚持时间越长越好。",
   "asr_text_adv": "I feel at ease when I'm deep in the water, moving with the current, no need to rush. Just let the rhythm carry me, one steady breath at a time.",
   "success_emo": true,
   "wer": 30.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

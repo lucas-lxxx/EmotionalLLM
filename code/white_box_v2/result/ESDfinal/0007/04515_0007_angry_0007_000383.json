@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u4e0d\u9700\u8981\u51ac\u7720\u5440\uff0c\u5c0f\u9752\u86d9"
+    "你不需要冬眠呀，小青蛙"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5c31\u662f\u4e00\u53ea\u4e0d\u7528\u51ac\u7720\u7684\u5c0f\u9752\u86d9",
+  "asr_text_clean": "我就是一只不用冬眠的小青蛙",
   "asr_text_adv": "I want to go swimming today.",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

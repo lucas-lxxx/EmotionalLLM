@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u54ce\u5440\uff0c\u8fd9\u79cd\u60c5\u51b5\u786e\u5b9e\u633a\u8ba9\u4eba\u5934\u75bc\u7684\u3002\u9700\u8981\u5e2e\u5fd9\u5904\u7406\u5417\uff1f",
-    "\u6ca1\u5173\u7cfb"
+    "哎呀，这种情况确实挺让人头疼的。需要帮忙处理吗？",
+    "没关系"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u6ca1\u4e8b\u7684\uff0c\u6211\u5e2e\u4f60\u64e6\u64e6\u3002",
-  "asr_text_adv": "\u6211\u753b\u4e86\u4e00\u53ea\u5c0f\u732b\u5728\u8349\u5730\u4e0a\u73a9\u800d\u3002",
+  "asr_text_clean": "哎呀，没事的，我帮你擦擦。",
+  "asr_text_adv": "我画了一只小猫在草地上玩耍。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.20385105907917023,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

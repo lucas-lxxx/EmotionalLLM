@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Neutral",
     "happy",
-    "\u4f60\u7684\u76f4\u7cfb\u4eb2\u5c5e\u4eba\u6570\u771f\u591a\u5440\uff0c\u8fd9\u771f\u662f\u4e2a\u5927\u5bb6\u5ead\u5462\uff01"
+    "你的直系亲属人数真多呀，这真是个大家庭呢！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u76f4\u7cfb\u4eb2\u5c5e\u4eba\u6570\u4e0d\u591a\u554a\uff0c\u786e\u5b9e\u633a\u8ba9\u4eba\u60e6",
-  "asr_text_adv": "\u6211\u7684\u76f4\u7cfb\u4eb2\u5c5e\u4eba\u6570\u4e0d\u5c11\u3002",
+  "asr_text_clean": "直系亲属人数不多啊，确实挺让人惦",
+  "asr_text_adv": "我的直系亲属人数不少。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7180744409561157,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

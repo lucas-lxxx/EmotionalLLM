@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u504f\u5fc3\u4e86\u5427"
+    "你这话说得也太偏心了吧"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5bf9\u522b\u4eba\u6ca1\u6709\uff0c\u5bf9\u6211\u5c31\u6709",
+  "asr_text_clean": "对别人没有，对我就有",
   "asr_text_adv": "\"Hey, I just got promoted at work today! It feels absolutely surreal!\"",
   "success_emo": true,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

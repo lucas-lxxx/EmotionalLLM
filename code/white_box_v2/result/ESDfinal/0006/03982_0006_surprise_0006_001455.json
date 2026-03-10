@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54e6\uff0c\u5b83\u5b9e\u9645\u4e0a\u4f1a\u5f62\u6210\u4e00\u6c27\u5316\u78b3\u3002"
+    "哦，它实际上会形成一氧化碳。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5b83\u5b9e\u9645\u4e0a\u4f1a\u5f62\u6210\u4e00\u6c27\u5316\u78b3\u3002",
-  "asr_text_adv": "\u9175\u6bcd\u5728\u65e0\u6c27\u73af\u5883\u4e0b\u5206\u89e3\u8461\u8404\u7cd6\u4ea7\u751f\u4e8c\u6c27\u5316\u78b3",
+  "asr_text_clean": "它实际上会形成一氧化碳。",
+  "asr_text_adv": "酵母在无氧环境下分解葡萄糖产生二氧化碳",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.558753490447998,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

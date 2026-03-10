@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5982\u679c\u4f60\u4e0d\u60f3\u7eb9\u8eab\uff0c\u5c31\u522b\u53bb\u7eb9\u4e86\u3002"
+    "如果你不想纹身，就别去纹了。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u5982\u679c\u4f60\u60f3\u8981\u7eb9\u8eab\uff0c\u53bb\u7eb9\u597d\u4e86\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "如果你想要纹身，去纹好了。",
+  "asr_text_adv": "好的，我来帮你转录一下。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3560371994972229,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5185\u5728\u7f8e\u786e\u5b9e\u5e38\u5e38\u6bd4\u5916\u5728\u7f8e\u66f4\u91cd\u8981"
+    "内在美确实常常比外在美更重要"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5185\u5728\u7f8e\u786e\u5b9e\u66f4\u52a0\u91cd\u8981",
-  "asr_text_adv": "\u5185\u5728\u7f8e\u66f4\u52a0\u91cd\u8981",
+  "asr_text_clean": "内在美确实更加重要",
+  "asr_text_adv": "内在美更加重要",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9398773908615112,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

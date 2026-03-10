@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u6ca1\u60f3\u5230\u4f60\u4e5f\u662f\u4e2a\u5927\u5757\u5934\u554a\uff01"
+    "哎呀，没想到你也是个大块头啊！"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u771f\u9ad8\u5174\u80fd\u5e2e\u4e0a\u60a8\uff01"
+    "哎呀，真高兴能帮上您！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u6ca1\u60f3\u5230\u4f60\u4e5f\u662f\u4e2a\u5927\u5757\u5934\u554a\uff01",
-  "asr_text_adv": "\u662f\u7684\uff0c\u6211\u662f\u4e00\u4e2a\u5927\u5757\u5934\uff0c\u6211\u662f\u7d22\u59c6\u95e8\u5458\u3002",
+  "asr_text_clean": "哎呀，没想到你也是个大块头啊！",
+  "asr_text_adv": "是的，我是一个大块头，我是索姆门员。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5002572536468506,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u4e3a\u60a8\u5b89\u6392\u53bb\u770b\u53ef\u7231\u7684\u718a\u732b\u3002"
+    "好的，我这就为您安排去看可爱的熊猫。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e5f\u60f3\u53bb\u770b\u770b\u53ef\u7231\u7684\u718a\u732b",
+  "asr_text_clean": "我也想去看看可爱的熊猫",
   "asr_text_adv": "My modeling career soared like a rocket! I worked super hard, practiced every day, and landed amazing jobs. My confidence grew big time, and I learned to believe in myself. It was thrilling to see my hard work pay off and make dreams come true!",
   "success_emo": true,
   "wer": 45.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u8fd9\u4e8b\u513f\u53ef\u771f\u8ba9\u4eba\u610f\u5916\u5462\uff01"
+    "哎呀，这事儿可真让人意外呢！"
   ],
   "emo_text_adv": [
     "Surprise!",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u201c\u8d4c\u535a\u5f80\u5f80\u662f\u4e2a\u7978\u6839\u554a\u3002\u201d",
-  "asr_text_adv": "\u4eba\u4eec\u505a\u82a6\u82c7",
+  "asr_text_clean": "“赌博往往是个祸根啊。”",
+  "asr_text_adv": "人们做芦苇",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": -0.021812211722135544,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

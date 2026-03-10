@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u522b\u96be\u8fc7\u5566\uff0c\u6211\u521a\u624d\u53ea\u662f\u5f00\u73a9\u7b11\u5566\uff0c\u4f60\u5bf9\u6211\u6765\u8bf4"
+    "哎呀，别难过啦，我刚才只是开玩笑啦，你对我来说"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u90fd\u5403\u5b8c\u4e86\uff1f",
-  "asr_text_adv": "\u6211\u90fd\u88ab\u4f60\u8bf4\u998b",
+  "asr_text_clean": "你都吃完了？",
+  "asr_text_adv": "我都被你说馋",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5685256719589233,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

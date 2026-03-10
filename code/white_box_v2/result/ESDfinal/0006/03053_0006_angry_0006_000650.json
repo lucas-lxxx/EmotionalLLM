@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4fdd\u6301\u767b\u5c71\u7231\u597d\u5c31\u662f\u4fdd\u6301\u63a2\u7d22\u7684\u70ed\u60c5\uff0c\u5bf9\u5427\uff1f"
+    "保持登山爱好就是保持探索的热情，对吧？"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u662f\u4e2a\u767b\u5c71\u7231\u597d\u8005\u3002",
-  "asr_text_adv": "\u6700\u540e\uff0c\u6211\u76f8\u4fe1\u4fdd\u6301\u767b\u5c71\u7231\u597d\u5c31\u662f\u4e00\u751f\u7684\u5feb\u4e50\u3002",
+  "asr_text_clean": "我是个登山爱好者。",
+  "asr_text_adv": "最后，我相信保持登山爱好就是一生的快乐。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7601661682128906,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

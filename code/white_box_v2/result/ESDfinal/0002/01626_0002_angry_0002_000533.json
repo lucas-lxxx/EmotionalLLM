@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c7\uff0c\u5979\u5c45\u7136\u8981\u5b69\u5b50\u4e86\uff01"
+    "哇，她居然要孩子了！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u90fd\u5feb\u751f\u4e86\uff0c\u4f60\u600e\u4e48\u8fd8\u8fd9\u4e48\u60ca\u8bb6\u554a\uff1f",
-  "asr_text_adv": "\u6bd4\u7edd\u5bf9\u62c6\u4e0d\u5230\uff0c\u4ed6\u51c6\u5907\u8981\u5b69\u5b50\u3002",
+  "asr_text_clean": "她都快生了，你怎么还这么惊讶啊？",
+  "asr_text_adv": "比绝对拆不到，他准备要孩子。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2661927044391632,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u4f60\u60f3\u5728\u90a3\u91cc\u5f85\u591a\u4e45\u5462\uff1f"
+    "当然可以，你想在那里待多久呢？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u53ef\u4ee5\u5728\u90a3\u91cc\u5f85\u4e0a\u6574\u6574\u4e00\u6574\u5929\u3002",
-  "asr_text_adv": "My friend and I went camping in the backyard. We built a fire, roasted marshmallows, and told spooky stories until we couldn\u2019t stay awake. The end.",
+  "asr_text_clean": "你可以在那里待上整整一整天。",
+  "asr_text_adv": "My friend and I went camping in the backyard. We built a fire, roasted marshmallows, and told spooky stories until we couldn’t stay awake. The end.",
   "success_emo": true,
   "wer": 26.0,
   "semantic_sim": 0.042753152549266815,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

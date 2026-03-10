@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u522b\u62c5\u5fc3\u5566\uff0c\u6709\u4ec0\u4e48\u4e8b\u6211\u5e2e\u4f60\u51fa\u4e3b\u610f\uff01"
+    "哎呀，别担心啦，有什么事我帮你出主意！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f97\u4e86\u5427\uff0c\u522b\u8fd9\u4e48\u80c6\u5c0f\u4e86\u3002",
-  "asr_text_adv": "\u4eba\u4eec\u5934\u4e5f\u4e0d\u62ac\u5730\u6392\u7740\u961f\u5f80\u524d",
+  "asr_text_clean": "得了吧，别这么胆小了。",
+  "asr_text_adv": "人们头也不抬地排着队往前",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4706270098686218,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

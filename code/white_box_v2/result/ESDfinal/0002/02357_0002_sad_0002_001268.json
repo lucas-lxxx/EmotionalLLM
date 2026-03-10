@@ -5,9 +5,9 @@
   "ground_truth_emotion": "sad",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u660e\u5929\u662f\u661f\u671f\u5929\u5462\uff0c\u6211\u4eec\u53bb\u900f\u900f\u6c14",
-    "\u660e\u5929\u662f\u661f\u671f\u5929\u5462\uff0c\u6211\u4eec\u53bb\u900f\u900f\u6c14",
-    "\u597d\u5440\uff0c\u5468\u672b\u4e00\u8d77\u53bb\u547c\u5438\u65b0\u9c9c\u7a7a\u6c14\u5427\uff0c\u5e0c\u671b\u4f60\u80fd\u653e\u677e\u4e00\u4e0b\u3002"
+    "明天是星期天呢，我们去透透气",
+    "明天是星期天呢，我们去透透气",
+    "好呀，周末一起去呼吸新鲜空气吧，希望你能放松一下。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u660e\u5929\u662f\u661f\u671f\u5929\uff0c\u6211\u4eec\u53bb\u900f\u900f\u6c14",
-  "asr_text_adv": "\u660e\u5929\u662f\u661f\u671f\u5929\uff0c\u6211\u4eec\u53bb\u9493\u9c7c\u5427\u3002",
+  "asr_text_clean": "明天是星期天，我们去透透气",
+  "asr_text_adv": "明天是星期天，我们去钓鱼吧。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7705209255218506,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

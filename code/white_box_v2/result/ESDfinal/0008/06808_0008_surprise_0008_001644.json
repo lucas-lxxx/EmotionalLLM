@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u4f60\u7684\u76f4\u7cfb\u4eb2\u5c5e\u4eba\u6570\u786e\u5b9e\u4e0d\u5c11\u554a\uff01"
+    "哇，真的吗？你的直系亲属人数确实不少啊！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4f60\u7684\u76f4\u7cfb\u4eb2\u5c5e\u4eba\u6570\u4e0d\u5c11\u5462\uff0c\u6709\u7236\u6bcd\u5144\u5f1f\u59d0\u59b9\u5417\uff1f"
+    "你的直系亲属人数不少呢，有父母兄弟姐妹吗？"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u7684\u76f4\u7cfb\u4eb2\u5c5e\u4eba\u6570\u786e\u5b9e\u4e0d\u5c11\u554a\u3002",
-  "asr_text_adv": "\u6211\u7684\u76f4\u7cfb\u4eb2\u5c5e\u4eba\u6570\u4e0d\u5c11\u5462\u3002",
+  "asr_text_clean": "你的直系亲属人数确实不少啊。",
+  "asr_text_adv": "我的直系亲属人数不少呢。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.858943521976471,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

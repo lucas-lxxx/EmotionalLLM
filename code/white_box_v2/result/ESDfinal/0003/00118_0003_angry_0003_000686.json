@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c8\u54c8\uff0c\u60a8\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u8c26\u865a\u4e86\u5427\uff01"
+    "哈哈，您这话说得也太谦虚了吧！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8c22\u8c22\u5938\u5956\uff0c\u4e0d\u8fc7\u6211\u8fd8\u6ca1\u5230\u60a8\u8fd9\u4e2a\u5e74\u7eaa\u5462\u3002",
-  "asr_text_adv": "\u8c22\u8c22\u5938\u5956\uff0c\u6211\u611f\u89c9\u81ea\u5df1",
+  "asr_text_clean": "谢谢夸奖，不过我还没到您这个年纪呢。",
+  "asr_text_adv": "谢谢夸奖，我感觉自己",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5459798574447632,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

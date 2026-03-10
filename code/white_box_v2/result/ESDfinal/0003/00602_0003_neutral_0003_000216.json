@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "happy",
-    "\u5bf9\u5440\uff0c\u9047\u5230\u559c\u6b22\u7684\u5973\u5b69\u8981\u4e3b\u52a8\uff0c\u4f46\u4e5f\u8981\u6ce8\u610f\u65b9\u5f0f\u65b9\u6cd5\u54e6\u3002"
+    "对呀，遇到喜欢的女孩要主动，但也要注意方式方法哦。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u9047\u5230\u559c\u6b22\u7684\u5973\u5b69\u8981\u4e3b\u52a8\u51fa\u51fb\u54e6",
-  "asr_text_adv": "\u78b0\u5230\u559c\u6b22\u7684\u5973\u5b69\u5b50\u8981\u4e3b\u52a8\u5440",
+  "asr_text_clean": "遇到喜欢的女孩要主动出击哦",
+  "asr_text_adv": "碰到喜欢的女孩子要主动呀",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8719422817230225,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u591a\u4e91\u8f6c\u6674\uff0c\u6c14\u6e29\u5728\u4e8c\u5341\u5ea6\u5de6\u53f3\uff0c\u9002\u5408\u5916\u51fa\u3002"
+    "多云转晴，气温在二十度左右，适合外出。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u660e\u5929\u6c88\u9633\u4f1a\u6709\u96f7\u9635\u96e8\uff0c\u591a\u4e91\u8f6c\u6674\u3002",
+  "asr_text_clean": "好的，明天沈阳会有雷阵雨，多云转晴。",
   "asr_text_adv": "They were united in their purpose.",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

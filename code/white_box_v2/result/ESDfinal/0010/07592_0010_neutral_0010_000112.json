@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u90a3\u68d2\u6781\u4e86\uff0c\u5fc3\u60c5\u4e5f\u8ddf\u7740\u660e\u6717"
+    "那棒极了，心情也跟着明朗"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u68d2\u6781\u4e86\uff0c\u5176\u5b9e\u5fc3\u60c5\u633a\u4e0d\u9519\u7684\u3002",
-  "asr_text_adv": "\u90a3\u9738\u5e02\u7acb\u5fc3\u6cc9\u6bd2\u4f5c\u8868\u6f14\u3002",
+  "asr_text_clean": "那棒极了，其实心情挺不错的。",
+  "asr_text_adv": "那霸市立心泉毒作表演。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.07589492201805115,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

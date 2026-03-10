@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8fd9\u53ef\u771f\u6709\u70b9\u6311\u6218\uff0c\u4e0d\u8fc7\u6211\u53ef\u4ee5\u8bd5\u8bd5\u770b\uff01"
+    "这可真有点挑战，不过我可以试试看！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u53ef\u5bf9\u6211\u6765\u8bf4",
+  "asr_text_clean": "这可对我来说",
   "asr_text_adv": "I did a hot air balloon ride last week. It was absolutely amazing!",
   "success_emo": true,
   "wer": 13.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

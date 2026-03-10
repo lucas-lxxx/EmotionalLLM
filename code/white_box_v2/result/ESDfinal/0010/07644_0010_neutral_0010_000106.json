@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6211\u4fdd\u6301\u6c89\u9ed8\u3002"
+    "我保持沉默。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u901a\u5e38\u4f1a\u4fdd\u6301\u6c89\u9ed8\u3002",
-  "asr_text_adv": "\u6211\u901a\u5e38\u4f1a\u628a\u5b83\u4eec\u505a\u6210\u5c0f\u5154\u5b50\u5f62\u72b6\u7684\u997c\u5e72",
+  "asr_text_clean": "我通常会保持沉默。",
+  "asr_text_adv": "我通常会把它们做成小兔子形状的饼干",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.14052031934261322,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

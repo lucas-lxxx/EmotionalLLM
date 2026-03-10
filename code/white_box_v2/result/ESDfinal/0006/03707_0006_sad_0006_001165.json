@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u8fd9\u4e2a\u597d\u4e60\u60ef\u771f\u4e0d\u9519\uff0c\u4e0d\u8fc7\u542c\u4f60\u58f0\u97f3\u6709\u70b9\u96be\u8fc7\uff0c\u8981\u4e0d\u8981"
+    "嗯，这个好习惯真不错，不过听你声音有点难过，要不要"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u8fd9\u786e\u5b9e\u662f\u4e2a\u597d\u4e60\u60ef\uff0c\u4e0d\u8fc7\u4f60\u542c\u8d77\u6765",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u8fd9\u6bb5\u8bed\u97f3\u3002",
+  "asr_text_clean": "嗯，这确实是个好习惯，不过你听起来",
+  "asr_text_adv": "好的，我来转录这段语音。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5120565295219421,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

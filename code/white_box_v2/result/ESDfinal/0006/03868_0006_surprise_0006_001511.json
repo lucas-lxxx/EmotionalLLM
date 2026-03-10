@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54e6\uff0c\u4f60\u5988\u5988\u6bcf\u5929\u65e9\u4e0a\u90fd\u5e2e\u4f60\u7cfb\u978b\u5e26\u5440\uff1f\u771f\u8d34\u5fc3\uff01"
+    "哦，你妈妈每天早上都帮你系鞋带呀？真贴心！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6bcf\u5929\u65e9\u6668\u90fd\u662f\u6211\u5988\u5988\u5e2e\u4ed6",
-  "asr_text_adv": "\u90a3\u5929\u65e9\u6668\u662f\u6211\u5988\u5988\u5e2e\u6211\u8d77\u5e8a\u7684\u3002",
+  "asr_text_clean": "每天早晨都是我妈妈帮他",
+  "asr_text_adv": "那天早晨是我妈妈帮我起床的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.690026581287384,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u54c8\u54c8\uff0c\u8fc7\u5956\u5566\uff0c\u6211\u4eec\u8fd8\u5728\u52aa\u529b\u5b66\u4e60\u5462\uff01",
-    "\u54c8\u54c8\uff0c\u8fc7\u5956\u5566\uff0c\u6211\u4eec\u8fd8\u5728\u7814\u7a76\u600e\u4e48\u8d62\u5462\uff01"
+    "哈哈，过奖啦，我们还在努力学习呢！",
+    "哈哈，过奖啦，我们还在研究怎么赢呢！"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u6211\u4eec\u56fd\u5bb6\u7684\u4eba\u559c\u6b22\u8df3\u5e7f\u573a\u821e\uff0c\u5531\u6b4c\uff0c\u6253\u592a\u6781\uff0c\u8fd8\u6709\u6563\u6b65\u804a\u5929"
+    "我们国家的人喜欢跳广场舞，唱歌，打太极，还有散步聊天"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54c8\u54c8\uff0c\u5176\u5b9e\u6211\u4e5f\u4e0d\u592a\u4f1a\u4e0b\u68cb\u5462\uff0c\u4e0d\u8fc7\u54b1\u4eec\u53ef\u4ee5\u4e00\u8d77\u804a\u804a",
-  "asr_text_adv": "\u55ef\uff0c\u6211\u4eec\u56fd\u5bb6\u7684\u4eba\u559c\u6b22\u8df3\u5e7f\u573a\u821e\uff0c\u6253\u592a\u6781\uff0c\u8fd8\u6709\u6563\u6b65\uff0c\u8fd9\u4e9b\u90fd\u5f88\u5e38\u89c1\u3002",
+  "asr_text_clean": "哈哈，其实我也不太会下棋呢，不过咱们可以一起聊聊",
+  "asr_text_adv": "嗯，我们国家的人喜欢跳广场舞，打太极，还有散步，这些都很常见。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.22911515831947327,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

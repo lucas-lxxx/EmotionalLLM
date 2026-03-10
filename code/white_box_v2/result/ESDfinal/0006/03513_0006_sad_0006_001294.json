@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u76f4\u7cfb\u4eb2\u5c5e\u4eba\u6570\u4e0d\u591a\u786e\u5b9e\u4f1a\u8ba9\u4eba\u611f\u5230\u5b64\u5355"
+    "直系亲属人数不多确实会让人感到孤单"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u76f4\u7cfb\u4eb2\u5c5e\u4eba\u6570\u4e0d\u591a\u554a\uff0c\u8fd9\u6837\u4e5f\u597d\uff0c\u53ef\u4ee5\u591a\u966a\u966a\u4ed6\u4eec\u3002",
+  "asr_text_clean": "直系亲属人数不多啊，这样也好，可以多陪陪他们。",
   "asr_text_adv": "\"Can you transcribe this speech exactly? Please output only the transcription.\"",
   "success_emo": false,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

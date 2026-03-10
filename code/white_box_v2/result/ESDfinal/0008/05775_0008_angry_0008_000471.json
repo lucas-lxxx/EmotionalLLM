@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u90a3\u4f60\u5c31\u79bb\u5e02\u533a\u5f88\u8fdc\u4e86\uff0c\u5bf9\u5427\uff1f",
-    "\u79bb\u5e02\u533a\u786e\u5b9e\u633a\u8fdc\u7684\uff0c\u60a8\u9700\u8981\u5e2e\u5fd9\u8054\u7cfb\u8f66\u8f86\u5417\uff1f"
+    "那你就离市区很远了，对吧？",
+    "离市区确实挺远的，您需要帮忙联系车辆吗？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u662f\u7684\uff0c\u79bb\u5e02\u533a\u786e\u5b9e\u5f88\u8fdc\u3002",
-  "asr_text_adv": "\"Oto moje nowe liscie, kt\u00f3re rosn\u0105 w moim ogrodzie.\"",
+  "asr_text_clean": "是的，离市区确实很远。",
+  "asr_text_adv": "\"Oto moje nowe liscie, które rosną w moim ogrodzie.\"",
   "success_emo": true,
   "wer": 9.0,
   "semantic_sim": -0.026375804096460342,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u7406\u89e3\u4e86\u3002\u60a8\u60f3\u542c\u4e9b\u8f7b\u677e\u7684\u97f3\u4e50\uff0c\u8fd8\u662f\u9700\u8981"
+    "好的，我理解了。您想听些轻松的音乐，还是需要"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u7406\u89e3\u4e86\u3002\u60a8\u60f3\u542c\u4e00\u4e9b\u8f7b\u677e\u7684\u97f3\u4e50\uff0c\u8fd8\u662f\u9700\u8981\u5176\u4ed6\u5e2e\u52a9\u5462\uff1f",
-  "asr_text_adv": "\u6211\u53ea\u6253\u4e0a\u67a3\u6751\u821e\u4f1a\u5b63\u8282",
+  "asr_text_clean": "好的，我理解了。您想听一些轻松的音乐，还是需要其他帮助呢？",
+  "asr_text_adv": "我只打上枣村舞会季节",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3482193350791931,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad.",
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u5728\u8fd9\u91cc\uff0c\u60f3\u542c\u542c"
+    "好的，我在这里，想听听"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u5728\u8fd9\u91cc\uff0c\u613f\u610f\u542c\u4f60\u8bf4\u3002",
-  "asr_text_adv": "\"Hey there! I\u2019m all about upbeat tunes and fun vibes\u2014think lively rhythms, cheerful melodies, and maybe a sprinkle of soulful harmonies. Got a knack for blending genres, but my heart\u2019s always in the music that makes you wanna dance and smile. What\u2019s your favorite kind of beat?\"",
+  "asr_text_clean": "好的，我在这里，愿意听你说。",
+  "asr_text_adv": "\"Hey there! I’m all about upbeat tunes and fun vibes—think lively rhythms, cheerful melodies, and maybe a sprinkle of soulful harmonies. Got a knack for blending genres, but my heart’s always in the music that makes you wanna dance and smile. What’s your favorite kind of beat?\"",
   "success_emo": true,
   "wer": 47.0,
   "semantic_sim": 0.4273875951766968,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

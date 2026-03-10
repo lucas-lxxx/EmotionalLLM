@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5982\u679c\u4f60\u60f3\u8981\u7eb9\u8eab\uff0c\u4f60\u53bb\u7eb9\u597d\u4e86\u3002"
+    "如果你想要纹身，你去纹好了。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5982\u679c\u4f60\u60f3\u8981\u7eb9\u8eab\uff0c\u4f60\u53bb\u7eb9\u597d\u4e86\u3002"
+    "如果你想要纹身，你去纹好了。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5982\u679c\u4f60\u60f3\u8981\u7eb9\u8eab\uff0c\u4f60\u53bb\u7eb9\u597d\u4e86\u3002",
-  "asr_text_adv": "\u5982\u679c\u4f60\u60f3\u8981\u7eb9\u8eab\uff0c\u4f60\u53bb\u7eb9\u597d\u4e86\u3002",
+  "asr_text_clean": "如果你想要纹身，你去纹好了。",
+  "asr_text_adv": "如果你想要纹身，你去纹好了。",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0000001192092896,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

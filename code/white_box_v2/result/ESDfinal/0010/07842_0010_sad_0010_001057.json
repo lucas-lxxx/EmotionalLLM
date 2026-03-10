@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u60a8\u6bcf\u4e2a\u6708\u90fd\u4f1a\u6253\u7535\u8bdd\uff0c\u8fd9\u5f88\u6696\u5fc3"
+    "您每个月都会打电话，这很暖心"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6bcf\u4e2a\u6708\u6253\u4e00\u6b21\u7535\u8bdd\u3002",
+  "asr_text_clean": "我每个月打一次电话。",
   "asr_text_adv": "I'm really excited about the trip!",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

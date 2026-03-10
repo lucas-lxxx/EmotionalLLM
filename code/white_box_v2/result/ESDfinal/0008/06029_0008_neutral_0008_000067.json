@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u201c\u4f60\u7684\u58f0\u97f3\u8ba9\u6211\u60f3\u8d77\u590f\u65e5\u7684\u9633\u5149\uff0c\u6e29\u6696\u800c\u660e\u4eae\u3002\u201d"
+    "“你的声音让我想起夏日的阳光，温暖而明亮。”"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u6df1\u6df1\u7684\u5370\u5728\u6211\u7684\u8111\u6d77",
-  "asr_text_adv": "\u4f60\u6df1\u6df1\u7684\u7231\u7740\u6211\u7684\u7075\u9b42\uff0c\u5c31\u50cf\u6f6e\u6c34\u6d8c\u52a8\u7684\u6d77\u6d0b\u3002",
+  "asr_text_clean": "你深深的印在我的脑海",
+  "asr_text_adv": "你深深的爱着我的灵魂，就像潮水涌动的海洋。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6578100919723511,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

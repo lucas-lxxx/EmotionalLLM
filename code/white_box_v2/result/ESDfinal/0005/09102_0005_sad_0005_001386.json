@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54c8\u54c8\uff0c\u60a8\u8fd9\u5e74\u7eaa\u8fd8\u8c26\u865a\u5462\uff1f"
+    "哈哈，您这年纪还谦虚呢？"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u4f46\u6211\u5df2\u7ecf\u4e0a\u5e74\u7eaa\u4e86\u3002",
+  "asr_text_clean": "谢谢你的夸奖，但我已经上年纪了。",
   "asr_text_adv": "The team focused on refining their costume design and rehearsing their performance to ensure they stood out during the competition.",
   "success_emo": true,
   "wer": 20.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

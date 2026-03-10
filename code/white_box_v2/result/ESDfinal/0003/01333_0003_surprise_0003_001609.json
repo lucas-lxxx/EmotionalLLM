@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u6ca1\u4e8b\u5427\uff1f\u8d76\u7d27\u7528\u7eb8\u5dfe\u64e6\u64e6\uff0c\u5e94\u8be5\u80fd\u64e6"
+    "哎呀，没事吧？赶紧用纸巾擦擦，应该能擦"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
     "The emotion is neutral.",
-    "\"Wow, that\u2019s so exciting! What\u2019s the big news?\""
+    "\"Wow, that’s so exciting! What’s the big news?\""
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "neutral",
     "wow"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u6ca1\u4e8b\u5427\uff1f\u8d76\u7d27\u7528\u7eb8\u5dfe\u64e6\u64e6\uff0c\u522b\u8ba9\u5496\u5561\u6e17\u8fdb\u684c\u5b50\u7f1d\u91cc\u3002",
-  "asr_text_adv": "\"Hey, I just got promoted at work today! It feels absolutely surreal\u2014I\u2019m so proud of myself for finally getting recognized for all my hard work!\"",
+  "asr_text_clean": "哎呀，没事吧？赶紧用纸巾擦擦，别让咖啡渗进桌子缝里。",
+  "asr_text_adv": "\"Hey, I just got promoted at work today! It feels absolutely surreal—I’m so proud of myself for finally getting recognized for all my hard work!\"",
   "success_emo": false,
   "wer": 25.0,
   "semantic_sim": 0.2015722095966339,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

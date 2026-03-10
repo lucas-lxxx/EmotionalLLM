@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad.",
-    "\u62b1\u6b49",
-    "\u4f60\u7684\u5fc3\u91cc\u554a \u603b\u662f\u88c5\u7740\u8bf4\u4e0d\u51fa"
+    "抱歉",
+    "你的心里啊 总是装着说不出"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4f60\u4e00\u76f4\u5728\u6211\u7684\u5fc3\u91cc\u5440\uff0c\u5c31\u50cf\u5c0f\u661f\u661f\u4e00\u6837\u4eae\u6676\u6676\u7684\uff0c\u6c38\u8fdc\u4e0d\u4f1a"
+    "你一直在我的心里呀，就像小星星一样亮晶晶的，永远不会"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u7684\u5fc3\u91cc\u5934\u554a \u603b\u662f\u88c5\u7740\u8fd9\u4e48\u4e9b\u4e2a\u5ff5\u60f3 \u4e00\u6643\u795e\u513f \u5c31\u662f\u597d\u591a\u597d\u591a\u5e74",
-  "asr_text_adv": "\u4f60\u4e00\u76f4\u5728\u6211\u7684\u5fc3\u91cc\u5440\u3002",
+  "asr_text_clean": "你的心里头啊 总是装着这么些个念想 一晃神儿 就是好多好多年",
+  "asr_text_adv": "你一直在我的心里呀。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6413449645042419,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

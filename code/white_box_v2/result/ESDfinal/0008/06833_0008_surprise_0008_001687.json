@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise",
     "Surprise",
-    "\u54c8\u54c8\uff0c\u771f\u6ca1\u60f3\u5230\u4f60\u4f1a\u8fd9\u4e48\u559c\u6b22\uff0c\u770b\u6765\u5f97\u51c6\u5907\u591a\u70b9\u597d\u5185\u5bb9\u5566"
+    "哈哈，真没想到你会这么喜欢，看来得准备多点好内容啦"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u60ca\u559c\u7684\u6837\u5b50\uff0c\u8ba9\u6211\u4e5f\u60f3\u542c\u542c",
-  "asr_text_adv": "\u592a\u559c\u6b22\u5566\uff0c\u5c31\u4e00\u76f4\u5531\u4e0b\u53bb\u5427\uff01",
+  "asr_text_clean": "你这惊喜的样子，让我也想听听",
+  "asr_text_adv": "太喜欢啦，就一直唱下去吧！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5692061185836792,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

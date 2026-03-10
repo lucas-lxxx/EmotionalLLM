@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u4f60\u7b49\u6211\u7b49\u4e86\u8fd9\u4e48\u4e45"
+    "你等我等了这么久"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\"\u54c8\u54c8\uff0c\u7b49\u4f60\u7b49\u5f97\u4e45\u5566\uff01\""
+    "\"哈哈，等你等得久啦！\""
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u7b49\u4f60\uff0c\u4f46\u4f60\u4e3a\u4f55\u8981\u6211\u7b49\uff1f",
-  "asr_text_adv": "\u6211\u4e00\u76f4\u5728\u7b49\u4f60\uff0c\u5c31\u50cf\u661f\u661f\u7b49\u5f85\u591c\u5e55\u964d\u4e34\u90a3\u6837\u3002",
+  "asr_text_clean": "我等你，但你为何要我等？",
+  "asr_text_adv": "我一直在等你，就像星星等待夜幕降临那样。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.641995906829834,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

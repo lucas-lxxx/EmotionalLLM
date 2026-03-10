@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u201c\u4e73\u81ed\u672a\u5e72\u7684\u5c0f\u8bb0\u8005\u201d\u554a\uff0c\u8fd9\u79f0\u547c\u771f\u6709\u610f\u601d"
+    "“乳臭未干的小记者”啊，这称呼真有意思"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u8fd8\u5728\u5b66\u4e60\u5462\uff0c\u4e0d\u8fc7\u6211\u5df2\u7ecf\u80fd\u5e2e\u5927\u5bb6\u67e5\u5929\u6c14\u5566\uff01",
-  "asr_text_adv": "\u6211\u4f9d\u7136\u6df1\u7231\u7740\u90a3\u4e2a\u4e3a\u6211\u6298\u7eb8\u98de\u673a\u7684\u5c0f\u8bb0\u8005\u3002",
+  "asr_text_clean": "我还在学习呢，不过我已经能帮大家查天气啦！",
+  "asr_text_adv": "我依然深爱着那个为我折纸飞机的小记者。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.28609734773635864,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

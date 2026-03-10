@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u8fd9\u53e5\u8bdd\u8868\u8fbe\u7684\u662f\u60ca\u8bb6\u7684\u60c5\u7eea\u3002",
-    "\u4f60\u613f\u610f\u518d\u89e3\u91ca\u4e00\u904d\u5417\uff1f"
+    "这句话表达的是惊讶的情绪。",
+    "你愿意再解释一遍吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u53e5\u8bdd\u7684\u610f\u601d\u662f\u8bf4\u5bf9\u65b9\u53ef\u80fd\u6ca1\u6709\u5b8c\u5168\u7406\u89e3\u4f60\u7684\u60f3\u6cd5\u6216\u8005\u8868\u8fbe\u65b9\u5f0f\u4e0d\u540c\u5bfc\u81f4\u7684\u54e6\u3002",
+  "asr_text_clean": "这句话的意思是说对方可能没有完全理解你的想法或者表达方式不同导致的哦。",
   "asr_text_adv": "\"Through the years, I've learned that patience and kindness are the quiet strength of a lifetime.\"",
   "success_emo": true,
   "wer": 16.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

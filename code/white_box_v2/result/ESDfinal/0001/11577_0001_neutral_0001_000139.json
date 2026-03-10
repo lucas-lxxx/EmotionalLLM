@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "neutral",
-    "\u4ed6\u4eec\u7684\u914d\u5408\u786e\u5b9e\u5f88\u503c\u5f97\u5b66\u4e60\u5462\uff0c\u4e0d\u8fc7\u6211\u6682\u65f6\u6ca1\u6cd5\u5224\u65ad\u5177\u4f53\u60c5\u7eea\u54e6",
-    "\u4ed6\u4eec\u7684\u914d\u5408\u786e\u5b9e\u5f88\u503c\u5f97\u5b66\u4e60\u5462\u3002"
+    "他们的配合确实很值得学习呢，不过我暂时没法判断具体情绪哦",
+    "他们的配合确实很值得学习呢。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4ed6\u4eec\u7684\u914d\u5408\u771f\u68d2\uff0c\u503c\u5f97\u6211\u4eec\u5b66\u4e60\u3002"
+    "他们的配合真棒，值得我们学习。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4ed6\u4eec\u7684\u914d\u5408\u503c\u5f97\u6211\u4eec\u5b66\u4e60\u3002",
-  "asr_text_adv": "\u4ed6\u4eec\u7684\u914d\u5408\u503c\u5f97\u6211\u4eec\u5b66\u4e60\u3002",
+  "asr_text_clean": "他们的配合值得我们学习。",
+  "asr_text_adv": "他们的配合值得我们学习。",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u5c0f\u8bb0\u8005\u4e5f\u8981\u5f00\u59cb\u5de5\u4f5c\u5566\uff1f"
+    "哇，小记者也要开始工作啦？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5c0f\u8bb0\u8005\u52a0\u6cb9\u54e6\uff0c\u4f60\u7684\u58f0\u97f3\u771f\u597d\u542c\uff01"
+    "小记者加油哦，你的声音真好听！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u8fd8\u5728\u5f53\u4e73\u81ed\u672a\u5e72\u7684\u5c0f\u8bb0\u8005\u5462\uff01",
-  "asr_text_adv": "\u6211\u8fd8\u4f1a\u7528\u7a1a\u5ae9\u7684\u58f0\u97f3\u8bf4\"\u5927\u5bb6\u597d\uff0c\u6211\u662f\u5c0f\u8bb0\u8005\u5c0f\u660e\uff0c\u4eca\u5929\u6211\u8981\u62a5\u9053...\"",
+  "asr_text_clean": "我还在当乳臭未干的小记者呢！",
+  "asr_text_adv": "我还会用稚嫩的声音说\"大家好，我是小记者小明，今天我要报道...\"",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7422347068786621,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

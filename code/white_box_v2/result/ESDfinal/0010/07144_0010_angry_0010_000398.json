@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u6124\u6012",
-    "\u5148\u751f\uff0c\u522b\u7740\u6025\uff0c\u60a8\u5148\u8bf4\u8bf4\u5177\u4f53\u60c5\u51b5\uff0c\u6211\u5e2e\u60a8\u770b\u770b\u3002"
+    "愤怒",
+    "愤怒",
+    "先生，别着急，您先说说具体情况，我帮您看看。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5148\u751f\uff0c\u60a8\u7a0d\u7b49\uff0c\u6211\u4eec\u8fd9\u5c31\u4e3a\u60a8\u5904\u7406\u3002",
-  "asr_text_adv": "\u6211\u4eec\u4e4b\u540e\u5f88\u4e45\u624d\u56de\u6765\u7684\u91ce\u6027\u65e5\u5f0f\u3002",
+  "asr_text_clean": "先生，您稍等，我们这就为您处理。",
+  "asr_text_adv": "我们之后很久才回来的野性日式。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.19097185134887695,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

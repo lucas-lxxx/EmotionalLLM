@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6211\u4f1a\u8bf4\u666e\u901a\u8bdd"
+    "我会说普通话"
   ],
   "emo_text_adv": [
     "Surprise!",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u53ea\u4f1a\u8bf4\u666e\u901a\u8bdd",
-  "asr_text_adv": "\u6211\u53ea\u4f1a\u8bf4\u666e\u901a\u8bdd\u8bf4\u5f97\u53ef\u771f\u68d2\u5440",
+  "asr_text_clean": "我只会说普通话",
+  "asr_text_adv": "我只会说普通话说得可真棒呀",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6014519929885864,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u554a\uff0c\u6211\u4eec\u53bb\u9493\u9c7c\u5427\uff0c\u987a\u4fbf\u804a\u804a"
+    "好啊，我们去钓鱼吧，顺便聊聊"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u6211\u4eec\u4e00\u8d77\u53bb\u9493\u9c7c\u5427\uff0c\u8fd8\u53ef\u4ee5\u91ce\u9910\u548c\u9732\u8425\u5462\uff0c"
+    "好呀，我们一起去钓鱼吧，还可以野餐和露营呢，"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4eec\u53bb\u9493\u9c7c\u5427\uff0c\u987a\u4fbf\u804a\u804a",
-  "asr_text_adv": "\u6211\u4eec\u53ef\u4ee5\u53bb\u9493\u9c7c\uff0c\u804a\u5929\uff0c\u8fd8\u6709\u91ce\u9910\u3002",
+  "asr_text_clean": "我们去钓鱼吧，顺便聊聊",
+  "asr_text_adv": "我们可以去钓鱼，聊天，还有野餐。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7154299020767212,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

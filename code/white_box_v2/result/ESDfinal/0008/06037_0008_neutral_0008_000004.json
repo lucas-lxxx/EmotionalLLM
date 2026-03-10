@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4e3b\u961f\u786e\u5b9e\u8868\u73b0\u5f97\u5f88\u5f3a\u52bf\u5462\uff0c\u4e0d\u8fc7\u5ba2\u961f\u4e5f\u672a\u5fc5\u6ca1\u6709\u673a\u4f1a\u3002"
+    "主队确实表现得很强势呢，不过客队也未必没有机会。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e3b\u961f\u770b\u8d77\u6765\u72b6\u6001\u4e0d\u9519\u5462",
-  "asr_text_adv": "\u5458\u5de5\u4eec\u56f4\u6210\u4e00\u5708\uff0c\u5f00\u5fc3\u5730\u8ba8\u8bba\u7740\u4ec0\u4e48\uff0c\u8fdc\u5904\u7684\u7403\u95e8\u8fd8\u5728\u9633\u5149\u4e0b\u95ea\u95ea",
+  "asr_text_clean": "主队看起来状态不错呢",
+  "asr_text_adv": "员工们围成一圈，开心地讨论着什么，远处的球门还在阳光下闪闪",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3946206271648407,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

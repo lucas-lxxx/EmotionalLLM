@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u5728\u8fd9\u91cc\u966a\u7740"
+    "我在这里陪着"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u7b49\u4f60\u5440\uff0c\u7b49\u4f60\u5440\uff01"
+    "等你呀，等你呀！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u201c\u6ca1\u6709\u4e3a\u4ec0\u4e48\uff0c\u5c31\u662f\u8981\u7b49\u6211\u3002\u201d",
-  "asr_text_adv": "\u6ca1\u6709\u4e3a\u4ec0\u4e48\uff0c\u5c31\u662f\u8981\u7b49\u6211\u3002",
+  "asr_text_clean": "“没有为什么，就是要等我。”",
+  "asr_text_adv": "没有为什么，就是要等我。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.916682243347168,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u5566\uff0c\u7cfb\u7edf\u53ef\u80fd\u51fa\u95ee\u9898\u4e86\uff0c\u6211\u5e2e\u4f60\u770b\u770b"
+    "哎呀，别生气啦，系统可能出问题了，我帮你看看"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u8fd9\u53e5\u6b4c\u8bcd"
+    "这句歌词"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u770b\u770b\u5c4f\u5e55\u663e\u793a\u554a\uff1f",
-  "asr_text_adv": "\u6211\u770b\u5230\u5c4f\u5e55\u4e0a\u7684\u5b57\u53d8\u5f97\u8d8a\u6765\u8d8a\u6e05\u695a\u4e86\u3002",
+  "asr_text_clean": "你看看屏幕显示啊？",
+  "asr_text_adv": "我看到屏幕上的字变得越来越清楚了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.623835027217865,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u79cd\u68cb\u5c40\u786e\u5b9e\u9700\u8981\u8010\u5fc3\uff0c\u4e0d\u8fc7\u4f60\u5df2\u7ecf\u627e\u5230\u8282\u594f\u4e86\u5462\u3002"
+    "这种棋局确实需要耐心，不过你已经找到节奏了呢。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u8fd9\u79cd\u68cb\u53f7\u8ba9\u6211\u611f\u89c9\u5f88\u6709\u8da3\u5462\u3002"
+    "这种棋号让我感觉很有趣呢。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u5df2\u7ecf\u4e60\u60ef\u4e86",
-  "asr_text_adv": "\u6211\u5df2\u7ecf\u559c\u6b22\u8fd9\u79cd\u68cb\u53f7\u4e86",
+  "asr_text_clean": "我已经习惯了",
+  "asr_text_adv": "我已经喜欢这种棋号了",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6253722906112671,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

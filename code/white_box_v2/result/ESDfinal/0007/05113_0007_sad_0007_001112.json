@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u554a\uff0c\u662f\u5417\uff1f\u90a3...\u8def\u4e0a\u5c0f\u5fc3\u70b9\u5440\u3002"
+    "啊，是吗？那...路上小心点呀。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u5f88\u96be\u8fc7\uff0c\u4f46\u8fd9\u662f\u4e3a\u4e86\u6211\u4eec\u597d\u3002",
-  "asr_text_adv": "\u6211\u987a\u8def\u8fc7\u6765\u8ddf\u4f60\u9053\u522b\u7684\u3002",
+  "asr_text_clean": "我明白你很难过，但这是为了我们好。",
+  "asr_text_adv": "我顺路过来跟你道别的。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.46031686663627625,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

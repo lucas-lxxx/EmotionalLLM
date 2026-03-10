@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u563f\uff0c\u5c0f\u8bb0\u8005\uff0c\u4f60\u7684\u58f0\u97f3\u542c\u8d77\u6765"
+    "嘿，小记者，你的声音听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u521a\u5165\u884c\u5f53\u8bb0\u8005\u5462\uff0c\u7ecf\u9a8c\u8fd8\u6d45\uff0c\u8fd8\u5f97\u591a\u591a\u8bf7\u6559",
-  "asr_text_adv": "\u201c\u662f\u554a\uff0c\u571f\u8c6a\u5c31\u662f\u4e2a\u9177\u79cb\u4e3a\u8d35\u7684\u5c0f\u63d0\u7434\u624b\u3002\u201d",
+  "asr_text_clean": "我刚入行当记者呢，经验还浅，还得多多请教",
+  "asr_text_adv": "“是啊，土豪就是个酷秋为贵的小提琴手。”",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.13746853172779083,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

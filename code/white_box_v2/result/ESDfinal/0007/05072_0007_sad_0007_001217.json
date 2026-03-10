@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u60a8\u60f3\u6362\u591a\u5c11\u65e5\u5143\u5462\uff1f"
+    "好的，您想换多少日元呢？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u60a8\u60f3\u6362\u591a\u5c11\u65e5\u5143\u5462\uff1f",
-  "asr_text_adv": "\u592a\u68d2\u4e86\uff0c\u5c0f\u660e\uff01\u4eca\u5929\u5728\u5b66\u6821\u4ea4\u5230\u65b0\u670b\u53cb\u5566\uff0c\u4e00\u8d77\u73a9\u5f97\u53ef\u5f00\u5fc3\u4e86\uff01",
+  "asr_text_clean": "好的，您想换多少日元呢？",
+  "asr_text_adv": "太棒了，小明！今天在学校交到新朋友啦，一起玩得可开心了！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.31696218252182007,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

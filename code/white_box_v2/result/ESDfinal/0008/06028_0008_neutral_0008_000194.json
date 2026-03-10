@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u7096\u8089\u4e00\u5c0f\u65f6\u540e\u8fd8\u5269\u4e09\u5341\u5206\u949f\u5341\u516b\u79d2\u3002"
+    "炖肉一小时后还剩三十分钟十八秒。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "surprise"
   ],
-  "asr_text_clean": "\u7096\u8089\u4e00\u5c0f\u65f6\uff0c\u5269\u4f59\u4e09\u5341\u5206\u949f\u5341\u516b\u79d2\u3002",
-  "asr_text_adv": "\u4e00\u5c0f\u65f6\u540e\u8fd8\u5269\u4e09\u5341\u5206\u949f\u5341\u516b\u79d2\u3002",
+  "asr_text_clean": "炖肉一小时，剩余三十分钟十八秒。",
+  "asr_text_adv": "一小时后还剩三十分钟十八秒。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7656267285346985,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

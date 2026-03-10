@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u548c\u597d\u670b\u53cb\u7ea6\u4f1a"
+    "和好朋友约会"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u6700\u597d\u7684\u670b\u53cb\u5c31\u7ea6\u4f1a",
-  "asr_text_adv": "\u6211\u6628\u5929\u548c\u6700\u597d\u7684\u670b\u53cb\u7ea6\u4e86\u5348\u4f11\uff0c\u6211\u4eec\u73a9\u5f97\u5f88\u5f00\u5fc3\u3002",
+  "asr_text_clean": "我最好的朋友就约会",
+  "asr_text_adv": "我昨天和最好的朋友约了午休，我们玩得很开心。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6205415725708008,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

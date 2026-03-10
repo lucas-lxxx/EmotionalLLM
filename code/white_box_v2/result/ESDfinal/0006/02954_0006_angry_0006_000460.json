@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\"\u81ea\u5df1\u52a8\u624b\uff0c\u4e30\u8863\u8db3\u98df\u561b\u3002\""
+    "\"自己动手，丰衣足食嘛。\""
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u4eca\u5929\u60f3\u81ea\u5df1\u505a\u996d\u5417\uff1f\u6211\u53ef\u4ee5\u5e2e\u4f60\u627e\u98df\u8c31\u54e6\uff01"
+    "今天想自己做饭吗？我可以帮你找食谱哦！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u81ea\u5df1\u7684\u4e8b\u60c5\u8981\u81ea\u5df1\u505a\u3002",
-  "asr_text_adv": "\u6211\u5f97\u81ea\u5df1\u505a\u3002",
+  "asr_text_clean": "自己的事情要自己做。",
+  "asr_text_adv": "我得自己做。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8410868644714355,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

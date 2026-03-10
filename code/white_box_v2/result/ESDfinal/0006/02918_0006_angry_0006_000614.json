@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u8bed\u6c14\u542c\u7740\u53ef\u771f\u591f\u545b"
+    "你这语气听着可真够呛"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u8fd9\u9053\u83dc\u542c\u8d77\u6765"
+    "这道菜听起来"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u4e8b\u513f\u542c\u7740\u5c31\u8ba9\u4eba\u4e0a\u706b\uff01",
-  "asr_text_adv": "\u8fd9\u8f86\u53c9\u8f66\u542c\u8d77\u6765",
+  "asr_text_clean": "这事儿听着就让人上火！",
+  "asr_text_adv": "这辆叉车听起来",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5075842142105103,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

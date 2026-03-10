@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u522b\u6025\uff0c\u6211\u8fd9\u5c31\u627e\u70b9\u4e8b\u513f\u505a\u3002"
+    "别急，我这就找点事儿做。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "let"
   ],
-  "asr_text_clean": "\u522b\u603b\u95f2\u7740\uff0c\u627e\u70b9\u4e8b\u513f\u5e72\uff01",
-  "asr_text_adv": "\u7237\u7237\u6700\u8fd1\u603b\u662f\u95f2\u7740\uff0c\u60f3\u627e",
+  "asr_text_clean": "别总闲着，找点事儿干！",
+  "asr_text_adv": "爷爷最近总是闲着，想找",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4433576464653015,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

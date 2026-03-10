@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c8\u54c8\uff0c\u6211\u6628\u5929\u521a\u4e70\u4e86\u4e00\u4ef6\u65b0\u8863\u670d\uff0c\u7ed3\u679c\u4f60\u731c\u600e\u4e48\u7740"
+    "哈哈，我昨天刚买了一件新衣服，结果你猜怎么着"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\"\u975e\u5e38\u6ee1\u610f\""
+    "\"非常满意\""
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u6628\u5929\u4e70\u8863\u670d\uff0c\u771f\u662f\u591f\u4e94\u72c2\u554a\uff01",
-  "asr_text_adv": "\u6211\u6628\u5929\u592a\u6ee1\u610f\u4e86\uff0c\u771f\u662f\u4e00\u6b21\u8d2d\u7269\u5929\u5802\uff01",
+  "asr_text_clean": "你昨天买衣服，真是够五狂啊！",
+  "asr_text_adv": "我昨天太满意了，真是一次购物天堂！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6655298471450806,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

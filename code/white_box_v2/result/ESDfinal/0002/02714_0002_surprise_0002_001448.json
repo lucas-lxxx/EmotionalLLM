@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u522b\u7740\u6025\uff0c\u5feb\u8fdb\u6765\u5427\uff01"
+    "别着急，快进来吧！"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u60a8\u597d\uff0c\u6b22\u8fce\u6765\u5230\uff0c\u5f88\u9ad8\u5174\u4e3a\u60a8\u670d\u52a1\u3002"
+    "您好，欢迎来到，很高兴为您服务。"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u522b\u7740\u6025\uff0c\u60a8\u5df2\u7ecf\u5230\u95e8\u53e3\u4e86\uff0c\u9700\u8981\u6211\u5e2e\u60a8\u5f00\u95e8\u5417\uff1f",
-  "asr_text_adv": "\u60a8\u597d\uff0c\u6b22\u8fce\u6765\u5230\uff0c\u6211\u662f\u5c0f\u667a\uff0c\u5f88\u9ad8\u5174\u4e3a\u60a8\u670d\u52a1\u3002",
+  "asr_text_clean": "别着急，您已经到门口了，需要我帮您开门吗？",
+  "asr_text_adv": "您好，欢迎来到，我是小智，很高兴为您服务。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6295918226242065,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

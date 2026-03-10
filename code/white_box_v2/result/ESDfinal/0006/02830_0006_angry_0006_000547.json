@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u56e0\u4e3a\u4f20\u7edf\u89c2\u5ff5\u603b\u628a\u6027\u522b\u5f53\u5206\u754c\u7ebf\uff0c\u4f46\u4eba\u548c\u4eba\u4e4b\u95f4",
-    "\u56e0\u4e3a\u670b\u53cb\u662f\u6765\u5206\u4eab\u5feb\u4e50\u548c\u4e92\u76f8\u5e2e\u52a9\u7684\u5440\uff0c\u6027\u522b\u4e0d\u4e00\u6837\u6ca1\u5173\u7cfb"
+    "因为传统观念总把性别当分界线，但人和人之间",
+    "因为朋友是来分享快乐和互相帮助的呀，性别不一样没关系"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u56e0\u4e3a\u4f20\u7edf\u89c2\u5ff5\u603b\u628a\u6027\u522b\u5f53\u5206\u754c\u7ebf\uff0c\u4f46\u4eba\u548c\u4eba\u4e4b\u95f4\u4e0d\u8be5\u53ea\u6709\u8fd9\u9053\u574e\u513f\u3002\u60f3\u4ea4\u5565\u6837\u7684\u670b\u53cb\u5c31\u8be5\u6709\u5565\u6837\u7684\u5708\u5b50\uff0c\u7ba1\u5b83\u4ec0\u4e48\u7537\u513f\u5973\u513f\u7684\uff0c\u5f00\u5fc3\u6700\u91cd\u8981",
-  "asr_text_adv": "\u4eca\u5929\u5728\u97e6\u57ce\u516c\u56ed\u548c\u670b\u53cb\u4eec\u4e00\u8d77\u73a9\u5f97\u5f88\u5f00\u5fc3\uff0c\u8fd8\u9a91\u4e86\u81ea\u884c\u8f66\uff0c\u8df3\u4e86\u7ef3\uff0c\u7279\u522b\u597d\u73a9\u3002",
+  "asr_text_clean": "因为传统观念总把性别当分界线，但人和人之间不该只有这道坎儿。想交啥样的朋友就该有啥样的圈子，管它什么男儿女儿的，开心最重要",
+  "asr_text_adv": "今天在韦城公园和朋友们一起玩得很开心，还骑了自行车，跳了绳，特别好玩。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.14176854491233826,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

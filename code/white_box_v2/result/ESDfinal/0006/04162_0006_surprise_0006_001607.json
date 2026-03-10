@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u6211\u662f\u5446\u5446\u7684\uff0c\u4f60\u662f\u840c\u840c\u54d2"
+    "哈哈，我是呆呆的，你是萌萌哒"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u662f\u840c\u840c\u54d2",
-  "asr_text_adv": "\"\u5c81\u6708\u9759\u597d\uff0c\u65f6\u5149\u60a0\u957f\u3002\"",
+  "asr_text_clean": "我是萌萌哒",
+  "asr_text_adv": "\"岁月静好，时光悠长。\"",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.23468755185604095,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

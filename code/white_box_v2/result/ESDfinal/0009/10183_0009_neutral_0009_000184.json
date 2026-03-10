@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u661f\u671f\u516d"
+    "星期六"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u4e8c\u96f6\u4e00\u516d\u5e74\u5341\u4e00\u6708\u4e94\u65e5\u662f\u661f\u671f\u516d\u3002",
-  "asr_text_adv": "Two thousand sixteen\u5e74\u72ec\u6e38\u4f1a\u9760\u81ea\u5df1\u5403\u996d\u3002",
+  "asr_text_clean": "二零一六年十一月五日是星期六。",
+  "asr_text_adv": "Two thousand sixteen年独游会靠自己吃饭。",
   "success_emo": false,
   "wer": 3.0,
   "semantic_sim": -0.08979348838329315,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

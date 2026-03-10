@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "angry",
-    "\u55ef\uff0c\u590f\u5929\u786e\u5b9e\u6709\u5b83\u72ec\u7279\u7684\u9b45\u529b\u5462\u3002"
+    "嗯，夏天确实有它独特的魅力呢。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f46\u6709\u65f6\u590f\u5929\u6bd4\u5176\u4ed6\u5b63\u8282\u66f4\u8ff7\u4eba\u3002",
-  "asr_text_adv": "\u4e09\u5341\u516d\u5ea6\u7684\u590f\u5929\uff0c\u5947\u62c9\u5b63\u8282\u7684\u5e03\u4f9d\u65cf\u91ce\u9910\uff0c\u597d\u70ed\u95f9\u5440\uff01",
+  "asr_text_clean": "但有时夏天比其他季节更迷人。",
+  "asr_text_adv": "三十六度的夏天，奇拉季节的布依族野餐，好热闹呀！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5840897560119629,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

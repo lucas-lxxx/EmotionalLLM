@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u6709\uff0c\u522b\u4eba\u6ca1\u6709\uff0c\u8fd9\u6709\u4ec0\u4e48\u597d\u751f\u6c14\u7684\uff1f"
+    "你有，别人没有，这有什么好生气的？"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u8fd9\u53e5\u542c\u8d77\u6765"
+    "这句听起来"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5bf9\u522b\u4eba\u6ca1\u6709\uff0c\u5bf9\u6211\u5c31\u6709\uff01",
-  "asr_text_adv": "\u8fd9\u522b\u4eba\u6ca1\u6709\uff0c\u5bf9\u6211\u5c31\u6709\u3002",
+  "asr_text_clean": "对别人没有，对我就有！",
+  "asr_text_adv": "这别人没有，对我就有。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8990851640701294,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

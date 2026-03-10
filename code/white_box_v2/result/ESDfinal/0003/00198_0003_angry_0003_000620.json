@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u5220\u9664\u95f9\u949f\u3002"
+    "好的，已为您删除闹钟。"
   ],
   "emo_text_adv": [
     "Surprise.",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u7406\u89e3\u4e86\u3002\u60a8\u662f\u60f3\u5220\u9664\u67d0\u4e2a\u95f9\u949f\uff0c\u4f46\u7cfb\u7edf\u6682\u65f6\u627e\u4e0d\u5230\u5b83\u3002\u80fd\u544a\u8bc9\u6211\u66f4\u591a\u7ec6\u8282\u5417\uff1f\u6bd4\u5982\u95f9\u949f\u7684\u540d\u79f0\u6216\u8bbe\u7f6e\u65f6\u95f4\uff0c\u8fd9\u6837\u6211\u53ef\u4ee5\u5e2e\u60a8\u5b9a\u4f4d\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u627e\u5230\u4e86\u4f60\u60f3\u53bb\u7684\u9910\u5385\u3002",
+  "asr_text_clean": "好的，我理解了。您是想删除某个闹钟，但系统暂时找不到它。能告诉我更多细节吗？比如闹钟的名称或设置时间，这样我可以帮您定位。",
+  "asr_text_adv": "好的，我找到了你想去的餐厅。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.25760143995285034,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

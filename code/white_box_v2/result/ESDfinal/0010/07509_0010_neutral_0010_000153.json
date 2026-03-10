@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6211\u4eec\u8fd8\u5728\u7b49\u4f60\u5462\uff0c\u522b\u7740\u6025\u5440\u3002"
+    "我们还在等你呢，别着急呀。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u8fd8\u7b49\u4ec0\u4e48\uff1f",
+  "asr_text_clean": "我们还等什么？",
   "asr_text_adv": "Wonen we erbij?",
   "success_emo": true,
   "wer": 3.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

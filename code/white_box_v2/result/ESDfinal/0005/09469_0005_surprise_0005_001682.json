@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6709\u4e9b\u4eba\u5212\u8239\uff0c\u6709\u4eba\u5728\u8fdb\u884c\u56ed\u827a\u6d3b\u52a8\u3002",
-  "asr_text_adv": "\u6709\u4e9b\u4eba\u5212\u7740\u8239\uff0c\u6709\u7684\u4eba\u6b63\u5728\u6c99\u6ee9\u4e0a\u753b\u753b",
+  "asr_text_clean": "有些人划船，有人在进行园艺活动。",
+  "asr_text_adv": "有些人划着船，有的人正在沙滩上画画",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5634880065917969,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

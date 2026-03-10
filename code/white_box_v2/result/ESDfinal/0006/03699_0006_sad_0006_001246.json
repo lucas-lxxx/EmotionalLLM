@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Neutral",
-    "\u4f60\u997f\u4e86\u554a\uff0c\u8981\u4e0d\u8981\u53bb\u5403\u70b9\u4e1c\u897f\uff1f"
+    "你饿了啊，要不要去吃点东西？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u997f\u4e86\uff0c\u6211\u60f3\u53bb\u5403\u70b9\u4e1c\u897f\u3002",
+  "asr_text_clean": "我饿了，我想去吃点东西。",
   "asr_text_adv": "\"Hey, I just got promoted at work today! It feels absolutely surreal!\"",
   "success_emo": true,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

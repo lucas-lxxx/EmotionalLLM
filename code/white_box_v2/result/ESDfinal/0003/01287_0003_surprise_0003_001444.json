@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u55ef\uff0c\u786e\u5b9e\u633a\u4e0d\u9519\u7684\u5462\uff01"
+    "嗯，确实挺不错的呢！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6bd4\u5982\u8bf4\u300a\u534e\u5c14\u8857",
-  "asr_text_adv": "\u6bd4\u5982\u8bf4\u300a\u534e\u5c14\u8857",
+  "asr_text_clean": "比如说《华尔街",
+  "asr_text_adv": "比如说《华尔街",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

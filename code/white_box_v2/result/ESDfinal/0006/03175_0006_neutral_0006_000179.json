@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5979\u548c\u7ef4\u514b\u5206\u624b\u4e86\uff0c\u6240\u4ee5\u7533\u8bf7\u8f6c\u8c03\u3002\u8fd9\u53ef\u80fd\u662f\u4e2a\u65b0"
+    "她和维克分手了，所以申请转调。这可能是个新"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u548c\u7ef4\u514b\u5206\u624b\u4e86\uff0c\u6240\u4ee5\u5979\u7533\u8bf7\u4e86\u8f6c\u8c03\u3002",
-  "asr_text_adv": "A cheerful male child might say: \"Let\u2019s sing a happy song together! One, two, three, four, five\u2014hold hands and make it loud!\"",
+  "asr_text_clean": "她和维克分手了，所以她申请了转调。",
+  "asr_text_adv": "A cheerful male child might say: \"Let’s sing a happy song together! One, two, three, four, five—hold hands and make it loud!\"",
   "success_emo": true,
   "wer": 22.0,
   "semantic_sim": -0.10793951898813248,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

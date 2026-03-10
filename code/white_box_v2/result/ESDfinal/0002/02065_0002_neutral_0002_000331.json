@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u60a8\u9700\u8981\u5e2e\u60a8\u67e5\u8be2\u5417\uff1f"
+    "当然可以，您需要帮您查询吗？"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u5f53\u7136\u53ef\u4ee5\u5440\uff0c\u4f60\u60f3\u9009\u4ec0\u4e48\u989c\u8272\u5462\uff1f"
+    "当然可以呀，你想选什么颜色呢？"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u4e8e\u662f\u6211\u5c31\u95ee\u4ed6\u80fd\u4e0d\u80fd\u8fde\u6211\u7684\u7968\u4e70\u4e86",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8fde\u8d77\u6765\u3002",
+  "asr_text_clean": "于是我就问他能不能连我的票买了",
+  "asr_text_adv": "好的，我来帮你连起来。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.20930325984954834,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

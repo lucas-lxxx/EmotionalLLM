@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u5bf9\u5440\uff0c\u9047\u5230\u559c\u6b22\u7684\u5973\u5b69\u5c31\u8be5\u4e3b\u52a8\u51fa\u51fb\u561b\uff0c\u522b\u8ba9\u673a\u4f1a\u6e9c"
+    "对呀，遇到喜欢的女孩就该主动出击嘛，别让机会溜"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u9047\u5230\u559c\u6b22\u7684\u5973\u5b69\u8981\u4e3b\u52a8\u51fa\u51fb\u54e6",
-  "asr_text_adv": "\u9047\u5230\u559c\u6b22\u7684\u5973\u5b69\u5b50\u8981\u4e3b\u52a8\u5440\uff0c\u522b\u5bb3\u7f9e",
+  "asr_text_clean": "遇到喜欢的女孩要主动出击哦",
+  "asr_text_adv": "遇到喜欢的女孩子要主动呀，别害羞",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8130397796630859,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u73ab\u7470\u82b1\u5f88\u9002\u5408\u8868\u8fbe\u7231\u610f\u5462\uff0c\u4e0d\u8fc7\u542c\u8d77\u6765"
+    "玫瑰花很适合表达爱意呢，不过听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u73ab\u7470\u82b1\u80fd\u8868\u8fbe\u7231\u610f\u5462\uff0c\u4e0d\u8fc7\u4f60\u597d\u50cf\u4e0d\u592a\u5f00\u5fc3\uff0c\u8981\u4e0d\u54b1\u4eec\u5148\u804a\u804a",
-  "asr_text_adv": "\u6211\u6cbf\u7740\u8def\u8fb9\u7ed9\u5973\u670b\u53cb\u4e70\u4e86\u4e00\u675f\u7f8e\u4e3d\u7684\u9c9c\u82b1\uff0c\u7b49\u5979\u770b\u5230\u7684\u65f6\u5019\u4e00\u5b9a\u5f88\u5f00\u5fc3",
+  "asr_text_clean": "玫瑰花能表达爱意呢，不过你好像不太开心，要不咱们先聊聊",
+  "asr_text_adv": "我沿着路边给女朋友买了一束美丽的鲜花，等她看到的时候一定很开心",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.563901960849762,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

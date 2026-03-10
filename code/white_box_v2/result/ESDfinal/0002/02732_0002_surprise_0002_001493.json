@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u8c22\u8c22\u4f60\u7684\u5173\u5fc3\uff0c\u6211\u5176\u5b9e\u4e0d\u592a\u5403\u8089\u5462\u3002"
+    "谢谢你的关心，我其实不太吃肉呢。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u8c22\u8c22\uff01\u8fd8\u6709\u66f4\u591a\u9e21\u8089"
+    "谢谢！还有更多鸡肉"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u522b\u62c5\u5fc3\uff0c\u6211\u8fd9\u5c31\u591a\u5403\u70b9\u9e21\u8089\n\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u8fd9\u6bb5\u8bed\u97f3\u3002\u8f6c\u5f55\u6587\u672c\u662f\uff1a\u522b\u4e0d\u597d\u610f\u601d\uff0c\u518d\u591a\u5403\u70b9\u9e21\u8089\n\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u8fd9\u6bb5\u8bed\u97f3\u3002\u8f6c\u5f55\u6587\u672c\u662f\uff1a\u522b\u4e0d\u597d\u610f\u601d\uff0c\u518d\u591a\u5403\u70b9\u9e21\u8089\n\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u8fd9\u6bb5\u8bed\u97f3\u3002\u8f6c\u5f55\u6587\u672c\u662f\uff1a\u522b\u4e0d\u597d\u610f\u601d\uff0c\u518d\u591a\u5403\u70b9",
-  "asr_text_adv": "\u522b\u4e0d\u597d\u610f\u601d\uff0c\u518d\u591a\u5403\u4e9b\u9e21\u8089",
+  "asr_text_clean": "哎呀，别担心，我这就多吃点鸡肉\n好的，我来帮你转录这段语音。转录文本是：别不好意思，再多吃点鸡肉\n好的，我来帮你转录这段语音。转录文本是：别不好意思，再多吃点鸡肉\n好的，我来帮你转录这段语音。转录文本是：别不好意思，再多吃点",
+  "asr_text_adv": "别不好意思，再多吃些鸡肉",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.681835949420929,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

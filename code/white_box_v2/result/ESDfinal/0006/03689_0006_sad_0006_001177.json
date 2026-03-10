@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u4eec\u5f85\u5728\u829d\u52a0\u54e5"
+    "我们待在芝加哥"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u5f85\u5728\u829d\u52a0\u54e5",
+  "asr_text_clean": "我们待在芝加哥",
   "asr_text_adv": "He is doing what we want because we are still at a club.",
   "success_emo": true,
   "wer": 13.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

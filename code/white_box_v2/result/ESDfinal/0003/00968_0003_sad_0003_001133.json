@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u6211\u611f\u53d7\u5230\u4f60\u7684\u60b2\u4f24\uff0c\u4f46\u8bf7\u8bb0\u4f4f\uff0c\u4f60\u5e76\u4e0d\u5b64\u5355",
-    "\u4f60\u7684\u58f0\u97f3\u542c\u8d77\u6765"
+    "我感受到你的悲伤，但请记住，你并不孤单",
+    "你的声音听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8eab\u4e0a\u7684\u6bcf\u4e00\u70b9\u90fd\u5438\u5f15\u7740\u6211\u3002",
+  "asr_text_clean": "你身上的每一点都吸引着我。",
   "asr_text_adv": "Okay, so I need to plan a surprise birthday party for my friend Michel. Let me think... First, I should check when his birthday is. Oh right, it's on the fifteenth of October. He loves outdoor activities, so maybe a picnic or a hike? But wait, he mentioned wanting something special. Maybe combine both?  \n\nI can start by inviting his closest friends and family. Should I ask his parents to help with the planning? They might have ideas. Also, Michel likes to play guitar, so maybe a small music performance? Or a DIY craft station where everyone makes something unique.  \n\nWait, the weather in October can be chilly. Maybe set up a cozy area with blankets and hot cocoa? That way, even if it's a bit cold, it'll be comfortable. And for the cake, he loves chocolate, so a big chocolate cake with sparklers would be perfect.  \n\nI should make sure to keep it a secret. Maybe send out the invitations without telling him. Oh, and a surprise video message from friends who can't make it? That would add a nice touch.  \n\nLet me put this all together. Invite his family, plan a picnic with his favorite snacks, set up a craft station, have a cake ready, and",
   "success_emo": true,
   "wer": 208.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

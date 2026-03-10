@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8fd9\u4e8b\u513f\u542c\u7740\u5c31\u8ba9\u4eba\u751f\u6c14\uff0c\u4f60\u5148\u522b\u592a\u6fc0\u52a8\u3002"
+    "这事儿听着就让人生气，你先别太激动。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4ed6\u4eec\u4f3c\u4e4e\u76f8\u5904\u5f97\u5f88\u878d\u6d3d\u5462\u3002"
+    "他们似乎相处得很融洽呢。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4ed6\u597d\u50cf\u8ddf\u4ed6\u7684\u79d8\u4e66\u6709\u8fc7\u4e00\u817f\u3002",
-  "asr_text_adv": "\u4ed6\u4eec\u597d\u50cf\u8ddf\u4ed6\u4eec\u7684\u79d8\u4e66\u6709\u8fc7\u4e00\u56de\u8c08\u8bdd\u3002",
+  "asr_text_clean": "他好像跟他的秘书有过一腿。",
+  "asr_text_adv": "他们好像跟他们的秘书有过一回谈话。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7233074903488159,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

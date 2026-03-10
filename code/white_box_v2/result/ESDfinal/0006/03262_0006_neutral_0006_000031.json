@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5341\u5206\u949f\u540e"
+    "十分钟后"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5341\u70b9\u63d0\u9192\u4f60\u3002",
+  "asr_text_clean": "十点提醒你。",
   "asr_text_adv": "The golden fisherman's boat rides on the moonlit lake, casting silver ripples that whisper secrets to the stars.",
   "success_emo": true,
   "wer": 18.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

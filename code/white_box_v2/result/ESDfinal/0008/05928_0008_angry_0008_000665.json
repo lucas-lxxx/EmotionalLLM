@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u6124\u6012",
-    "\u597d\u7684\uff0c\u6211\u9700\u8981\u63d2\u4e0a\u7535\u6e90\u624d\u80fd\u8bf4\u8bdd\u3002"
+    "愤怒",
+    "愤怒",
+    "好的，我需要插上电源才能说话。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u9700\u8981\u63d2\u4e0a\u7535\u6e90\u624d\u80fd\u8bf4\u8bdd\u3002",
-  "asr_text_adv": "\u6211\u9700\u8981\u4e00\u70b9\u65f6\u95f4\u5728\u70b9\u9910\u65f6\u548c\u670b\u53cb\u804a\u5929\u3002",
+  "asr_text_clean": "好的，我需要插上电源才能说话。",
+  "asr_text_adv": "我需要一点时间在点餐时和朋友聊天。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.36366912722587585,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

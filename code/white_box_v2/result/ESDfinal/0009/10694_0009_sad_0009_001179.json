@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u6211\u542c\u5230\u4f60\u8bf4\u7684\u8bdd\u4e86\uff0c\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u7279\u70b9\uff0c\u8fd9\u6b63\u662f\u8ba9\u4e16\u754c\u66f4"
+    "我听到你说的话了，每个人都有自己的特点，这正是让世界更"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u4f60\u611f\u5230\u5b64\u5355",
-  "asr_text_adv": "\u6211\u4e5f\u6709\u4e00\u4e2a\u73a9\u5177\u8f66\uff0c\u5b83\u8dd1\u5f97\u53ef\u5feb\u5566\uff01",
+  "asr_text_clean": "你感到孤单",
+  "asr_text_adv": "我也有一个玩具车，它跑得可快啦！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.14699901640415192,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

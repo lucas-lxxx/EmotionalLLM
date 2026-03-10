@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4f60\u8fd9\u706b\u6c14\u8fd9\u4e48\u5927\uff0c\u5148\u6df1\u547c\u5438\uff0c\u522b\u8ba9\u6012\u706b\u70e7"
+    "你这火气这么大，先深呼吸，别让怒火烧"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u73b0\u5728\u6700\u91cd\u8981",
-  "asr_text_adv": "\u8fd9\u628a\u68cb\u73b0\u5728\u5c31\u7a33\u4e86",
+  "asr_text_clean": "现在最重要",
+  "asr_text_adv": "这把棋现在就稳了",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5711723566055298,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

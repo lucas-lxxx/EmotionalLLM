@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8bd5\u8bd5\u80e1\u841d\u535c\u6ce5\u62cc\u9178\u5976"
+    "试试胡萝卜泥拌酸奶"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8bd5\u8bd5\u8fd9\u4e9b\u7f8e\u5473\u53c8\u5065\u5eb7\u7684\u9009\u62e9\u5427\uff01\u82f9\u679c\u6ce5\u62cc\u71d5\u9ea6\u7ca5\uff0c\u80e1\u841d\u535c\u6761\u914d\u5976\u916a",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u4e3a\u60a8\u8f6c\u5f55\u8fd9\u6bb5\u8bed\u97f3\u3002\u60a8\u8bf4\u7684\u5185\u5bb9\u662f\"\u56e4",
+  "asr_text_clean": "试试这些美味又健康的选择吧！苹果泥拌燕麦粥，胡萝卜条配奶酪",
+  "asr_text_adv": "好的，我来为您转录这段语音。您说的内容是\"囤",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.22570839524269104,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

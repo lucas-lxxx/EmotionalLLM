@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f"
+    "哇，真的吗？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5927\u5b66\u751f\u6d3b\u5f88\u7cbe\u5f69\u5462\uff0c\u4f60\u4f1a\u5b66\u5230\u5f88\u591a\u6709\u8da3\u7684\u4e1c\u897f\uff0c\u8ba4\u8bc6\u65b0\u670b\u53cb\uff0c"
+    "大学生活很精彩呢，你会学到很多有趣的东西，认识新朋友，"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54e6\uff0c\u771f\u7684\u5417\uff1f",
-  "asr_text_adv": "\u5927\u5b66\u751f\u6d3b\u786e\u5b9e\u9700\u8981\u5f88\u591a\u72ec\u7acb\u5904\u7406\u4e8b\u60c5\u7684\u80fd\u529b\u5462",
+  "asr_text_clean": "哦，真的吗？",
+  "asr_text_adv": "大学生活确实需要很多独立处理事情的能力呢",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.14217925071716309,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

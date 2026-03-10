@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u517b\u82b1\u786e\u5b9e\u9700\u8981\u8010\u5fc3\uff0c\u8981\u4e0d\u8981\u8bd5\u8bd5\u5176\u4ed6\u7231\u597d\uff1f"
+    "养花确实需要耐心，要不要试试其他爱好？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5bf9\u517b\u82b1\u5df2\u7ecf\u538c\u5026",
-  "asr_text_adv": "\u6211\u5bf9\u90a3\u4e2a\u82b1\u7530\u7279\u522b\u559c\u6b22\u3002",
+  "asr_text_clean": "我对养花已经厌倦",
+  "asr_text_adv": "我对那个花田特别喜欢。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2675758898258209,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

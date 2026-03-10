@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Neutral",
-    "\u54ce\u5440\uff0c\u8fd9\u786e\u5b9e\u662f\u4e2a\u91cd\u8981\u7684\u65f6\u523b\u5462\u3002"
+    "哎呀，这确实是个重要的时刻呢。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u5df2\u7ecf\u6000\u5b55\u56db\u4e2a\u534a\u6708",
-  "asr_text_adv": "\u5979\u5df2\u7ecf\u7528\u543b\u613f\u7ea6\u56db\u4e2a\u670b\u53cb\u4e3a\u4e86\u8c08\u604b\u7231",
+  "asr_text_clean": "已经怀孕四个半月",
+  "asr_text_adv": "她已经用吻愿约四个朋友为了谈恋爱",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.38992130756378174,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u5df2\u9884\u7ea6\u60a8\u548c\u59bb\u5b50\u89c1\u9762\uff0c\u8bf7\u95ee\u5177\u4f53\u65f6\u95f4\u65b9\u4fbf\u5417\uff1f"
+    "好的，我已预约您和妻子见面，请问具体时间方便吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u5df2\u9884\u7ea6\u4f60\u4eec\u7684\u4f1a\u9762\u3002",
-  "asr_text_adv": "\u6211\u4e0e\u6211\u7684\u59bb\u5b50\u6b63\u671f\u5f85\u7740\u4eca\u665a\u7684\u89c1\u9762\u5462\u3002",
+  "asr_text_clean": "好的，我已预约你们的会面。",
+  "asr_text_adv": "我与我的妻子正期待着今晚的见面呢。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.50652676820755,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

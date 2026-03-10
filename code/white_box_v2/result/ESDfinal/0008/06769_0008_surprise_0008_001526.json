@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u771f\u7684\u5417\uff1f"
+    "哦，真的吗？"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54e6\uff0c\u771f\u7684\u5417\uff1f\u4ed6\u4f4f\u5728\u6c83\u65af\u767b\u7684\u8001\u623f\u5b50\u91cc\uff1f",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u5c06\u4e3a\u60a8\u8f6c\u5f55\u5e76\u8f93\u51fa\u8bed\u97f3\u5185\u5bb9\u3002",
+  "asr_text_clean": "哦，真的吗？他住在沃斯登的老房子里？",
+  "asr_text_adv": "好的，我将为您转录并输出语音内容。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.0756896361708641,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

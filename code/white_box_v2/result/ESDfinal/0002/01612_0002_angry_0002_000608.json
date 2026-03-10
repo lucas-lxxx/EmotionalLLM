@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u662f\u4e0d\u662f\u89c9\u5f97\u54ea\u91cc\u4e0d\u592a\u5bf9\u52b2\uff1f"
+    "你是不是觉得哪里不太对劲？"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "neutral"
   ],
-  "asr_text_clean": "\u6211\u6709\u70b9\u4e0d\u592a\u660e\u767d\u4f60\u7684\u610f\u601d\u3002",
-  "asr_text_adv": "\u6211\u6765\u5566\uff0c\u6700\u540e\u4e00\u53e5\u8bdd\uff0c\u54b1\u4eec\u4e00\u8d77\u73a9\u4e2a\u6e38\u620f\u5427\uff01",
+  "asr_text_clean": "我有点不太明白你的意思。",
+  "asr_text_adv": "我来啦，最后一句话，咱们一起玩个游戏吧！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3128320574760437,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

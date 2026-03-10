@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u4f1a\u4e00\u76f4\u575a\u6301\u4e0b\u53bb\u7684\u3002"
+    "好的，我明白了，会一直坚持下去的。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u575a\u6301\u5c31\u662f\u80dc\u5229\uff0c\u65f6\u95f4\u4f1a\u8bc1\u660e\u4e00\u5207\u3002"
+    "坚持就是胜利，时间会证明一切。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6240\u4ee5\u4f60\u5fc5\u987b\u575a\u6301\uff0c\u65f6\u95f4\u8d8a\u957f\u8d8a\u597d\u3002",
-  "asr_text_adv": "\u6240\u4ee5\uff0c\u4f60\u5fc5\u987b\u575a\u6301\uff0c\u65f6\u95f4\u8d8a\u957f\u8d8a\u597d\u3002",
+  "asr_text_clean": "所以你必须坚持，时间越长越好。",
+  "asr_text_adv": "所以，你必须坚持，时间越长越好。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9990584254264832,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_high_sim"
 }

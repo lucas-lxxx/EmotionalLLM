@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u6211\u80fd\u7406\u89e3\u4f60\u7684\u611f\u53d7\uff0c\u57ce\u5e02\u91cc\u7684\u566a\u97f3\u786e\u5b9e\u8ba9\u4eba\u5f88\u56f0\u6270\u3002"
+    "我能理解你的感受，城市里的噪音确实让人很困扰。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u771f\u53d7\u4e0d\u4e86",
-  "asr_text_adv": "\u505a\u56ed\u827a\u65f6\uff0c\u6211\u603b\u662f\u5fcd\u4e0d\u4f4f\u60f3\u5e2e\u52a9\u5c0f\u52a8\u7269\u4eec\u3002",
+  "asr_text_clean": "我真受不了",
+  "asr_text_adv": "做园艺时，我总是忍不住想帮助小动物们。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.31926798820495605,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

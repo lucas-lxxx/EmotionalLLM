@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Surprise!",
-    "\u771f\u9ad8\u5174\u542c\u5230\u60a8\u548c\u5bb6\u4eba\u8981\u6765\u770b\u671b\u6211\u5462\uff0c\u6211\u4eec\u4e00\u5b9a\u4f1a\u597d\u597d\u6b22\u8fce"
+    "真高兴听到您和家人要来看望我呢，我们一定会好好欢迎"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u771f\u9ad8\u5174\u542c\u5230\u60a8\u548c\u5bb6\u4eba\u8981\u6765\u770b\u671b\u6211\u5462\uff0c\u54b1\u4eec\u53ef\u4ee5\u597d\u597d\u804a\u804a",
-  "asr_text_adv": "\u6211\u548c\u6211\u7684\u670b\u53cb\u4eec\u5e0c\u671b\u6709\u4e2a\u7279\u522b\u7684\u751f\u65e5\u6d3e\u5bf9\u3002",
+  "asr_text_clean": "真高兴听到您和家人要来看望我呢，咱们可以好好聊聊",
+  "asr_text_adv": "我和我的朋友们希望有个特别的生日派对。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.37344497442245483,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

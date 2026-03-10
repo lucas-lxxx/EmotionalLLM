@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u554a\uff0c\u771f\u7684\u5417\uff1f\u90a3\u4e3a\u4ec0\u4e48\u4f60\u8fd8\u8fd9\u4e48\u96be\u8fc7\uff1f"
+    "啊，真的吗？那为什么你还这么难过？"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u6211\u4eec\u5df2\u7ecf\u5206\u624b\u4e86\u5440\uff0c\u90a3\u73b0\u5728\u4e3a\u4ec0\u4e48\u8fd8\u8981\u8bf4\u8fd9\u53e5\u8bdd\u5462\uff1f"
+    "我们已经分手了呀，那现在为什么还要说这句话呢？"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u554a\uff0c\u771f\u7684\u5417\uff1f\u90a3\u4e3a\u4ec0\u4e48\u4f60\u8fd8\u5728\u8fd9\u91cc\uff1f",
-  "asr_text_adv": "\u5373\u4f7f\u6211\u4eec\u524d\u5929\u5df2\u7ecf\u5206\u624b\u4e86",
+  "asr_text_clean": "啊，真的吗？那为什么你还在这里？",
+  "asr_text_adv": "即使我们前天已经分手了",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3725055456161499,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

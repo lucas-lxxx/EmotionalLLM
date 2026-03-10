@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u771f\u9057\u61be\uff0c\u53ef\u80fd\u5f97\u518d\u7b49\u7b49\u770b\u3002"
+    "哎呀，真遗憾，可能得再等等看。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6ca1\u6709\u627e\u5230\u6b63\u786e\u7684\u8ba1\u65f6\u5668\u3002",
-  "asr_text_adv": "\u7ec8\u4e8e\u627e\u5230\u5c5e\u4e8e\u81ea\u5df1\u7684\u5feb\u4e50\uff0c\u771f\u597d\u3002",
+  "asr_text_clean": "没有找到正确的计时器。",
+  "asr_text_adv": "终于找到属于自己的快乐，真好。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.08791333436965942,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

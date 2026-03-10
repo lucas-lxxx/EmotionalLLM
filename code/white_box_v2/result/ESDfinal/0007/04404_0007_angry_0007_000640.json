@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8fd8\u6709\u804a\u5929\u8bb0\u5f55\uff0c\u6124\u6012\u3002"
+    "还有聊天记录，愤怒。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd8\u6709\u804a\u5929\u8bb0\u5f55",
+  "asr_text_clean": "还有聊天记录",
   "asr_text_adv": "I will be doing a lot of lifting.",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

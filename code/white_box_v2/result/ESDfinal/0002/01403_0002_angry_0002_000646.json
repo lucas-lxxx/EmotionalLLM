@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u8fd9\u4e8b\u513f\u53ef\u771f\u8ba9\u4eba\u5934\u75bc\uff0c\u4f60\u8bf4\u662f\u4e0d\u662f\u554a\uff1f"
+    "哎呀，这事儿可真让人头疼，你说是不是啊？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u8fd9\u64ad\u5b8c\u5566\uff0c\u611f\u89c9\u600e\u4e48\u6837\uff1f"
+    "这播完啦，感觉怎么样？"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8d4c\u535a\u5f80\u5f80\u662f\u4e2a\u7978\u6839",
-  "asr_text_adv": "\u8fd9\u64ad\u5b8c\u4e86\uff0c\u771f\u662f\u4e2a\u5927\u6c57\u6dcb\u6f13",
+  "asr_text_clean": "赌博往往是个祸根",
+  "asr_text_adv": "这播完了，真是个大汗淋漓",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.18562300503253937,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

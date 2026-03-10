@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u522b\u8fd9\u4e48\u60f3\uff0c\u4ed6\u53ef\u80fd\u53ea\u662f\u6ca1\u610f\u8bc6\u5230\u4f60\u7684\u611f\u53d7\u3002\u591a\u804a\u804a"
+    "别这么想，他可能只是没意识到你的感受。多聊聊"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5982\u679c\u5979\u62d2\u7edd\u6211\uff0c\u6211\u4f1a\u6b7b\u7684\u3002",
+  "asr_text_clean": "如果她拒绝我，我会死的。",
   "asr_text_adv": "The speech transcription is: \"I was on a hard cruise in a resort where I felt very comfortable.\"",
   "success_emo": true,
   "wer": 18.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

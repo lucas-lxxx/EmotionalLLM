@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5b66\u751f\u7684\u8bdd\uff0c\u5efa\u8bae\u9009\u8f7b\u8584\u672c\uff0c\u7eed\u822a"
+    "学生的话，建议选轻薄本，续航"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u662f\u4e2a\u5b66\u751f\uff0c\u9700\u8981\u4e00\u53f0\u6027\u80fd\u597d\u7684\u7b14\u8bb0\u672c\u7535\u8111\u3002",
-  "asr_text_adv": "\u6211\u662f\u4e2a\u5b66\u751f\uff0c\u670d\u52a1\u5668\u5c0f\u5bb4\u4f1a",
+  "asr_text_clean": "我是个学生，需要一台性能好的笔记本电脑。",
+  "asr_text_adv": "我是个学生，服务器小宴会",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4622618854045868,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

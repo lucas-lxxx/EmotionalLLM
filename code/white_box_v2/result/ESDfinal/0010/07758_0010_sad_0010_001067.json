@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5f88\u5feb\u4f60\u4e0a\u5927\u5b66\u5c31\u7528\u5f97\u5230\u5566\uff0c\u4e0d\u8fc7\u542c\u8d77\u6765"
+    "很快你上大学就用得到啦，不过听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u5f88\u5feb\u4f60\u4e0a\u5927\u5b66\u5c31\u7528\u5f97\u5230\u5566",
-  "asr_text_adv": "\u6211\u7528\u5956\u5b66\u91d1\u4e70\u4e86\u8f86\u81ea\u884c\u8f66\uff0c\u8fd8\u5269\u4e9b\u94b1\u5b58\u7740\u3002",
+  "asr_text_clean": "很快你上大学就用得到啦",
+  "asr_text_adv": "我用奖学金买了辆自行车，还剩些钱存着。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3467038869857788,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

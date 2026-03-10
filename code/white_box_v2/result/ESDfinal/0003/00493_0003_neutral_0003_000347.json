@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u8fd9\u4e24\u5757\u662f\u5510\u671d"
+    "这两块是唐朝"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u4e24\u5757\u662f\u5510\u671d",
-  "asr_text_adv": "\u8fd9\u4fe9\u6b22\u8131\u7684\u5bb6\u4f19\u4e0d\u540c\u65f6\u671f\u505a\u9676\u7f50\u3002",
+  "asr_text_clean": "这两块是唐朝",
+  "asr_text_adv": "这俩欢脱的家伙不同时期做陶罐。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.547927975654602,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

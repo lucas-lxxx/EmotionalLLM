@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u8fd9\u771f\u662f\u4e2a\u610f\u5916\u7684\u6d88\u606f\u3002"
+    "哦，这真是个意外的消息。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u597d\u50cf\u8ddf\u5979\u7684\u95fa\u871c",
-  "asr_text_adv": "\u5e15\u970d\u5c06\u548c\u5979\u7684\u59b9\u59b9\u6709\u8fc7\u4e00\u6bb5\u5f00\u5fc3\u7684\u65f6\u5149\u3002",
+  "asr_text_clean": "她好像跟她的闺蜜",
+  "asr_text_adv": "帕霍将和她的妹妹有过一段开心的时光。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5032470226287842,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

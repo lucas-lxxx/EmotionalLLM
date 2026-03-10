@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Happy",
-    "\u8c22\u8c22\u5938\u5956\u5440\uff0c\u4e0d\u8fc7\u6211\u89c9\u5f97\u81ea\u5df1\u66f4\u591a\u662f\u5e73\u51e1\u53ef\u7231\u5462\u3002"
+    "谢谢夸奖呀，不过我觉得自己更多是平凡可爱呢。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u53c8\u806a\u660e\u53c8\u597d\u770b",
-  "asr_text_adv": "\u8fd9\u4e2a\u5f62\u5bb9\u8bcd\u662f\u8ff7\u4eba\u7684\u3002",
+  "asr_text_clean": "你又聪明又好看",
+  "asr_text_adv": "这个形容词是迷人的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4523356854915619,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

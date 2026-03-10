@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u4e3b\u4eba\u522b\u751f\u6c14\u561b\uff0c\u6211\u8fd9\u5c31\u7ed9\u60a8\u91cd\u65b0\u8bf4\u4e00\u904d\uff01"
+    "哎呀，主人别生气嘛，我这就给您重新说一遍！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u4e3b\u4eba\u522b\u751f\u6c14\u561b\uff0c\u6211\u8fd9\u5c31\u7ed9\u60a8\u91cd\u65b0\u8bf4\u4e00\u904d\u3002",
+  "asr_text_clean": "哎呀，主人别生气嘛，我这就给您重新说一遍。",
   "asr_text_adv": "I went hiking with my friends on Saturday. We walked up Mount Tai and had lunch at the top. Then we went swimming in the lake nearby. It was fun!",
   "success_emo": true,
   "wer": 30.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u95ee\u5566\uff0c\u4eba\u5bb6\u4f1a\u751f\u6c14\u7684\uff01"
+    "哎呀，别问啦，人家会生气的！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u95ee\u4e86\uff0c\u6211\u70e6\u7740\u5462\uff01",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u628a\u8bba\u575b\u4f1a\u7684\u5e74\u91d1\u597d\u7ffb\u8bd1\u6210\u82f1\u6587\u3002",
+  "asr_text_clean": "别问了，我烦着呢！",
+  "asr_text_adv": "好的，我来把论坛会的年金好翻译成英文。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2081317901611328,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

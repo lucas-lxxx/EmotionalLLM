@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u201c\u4e0d\u7528\u731c\u7684\u8bdd\uff0c\u76f4\u63a5\u8bf4\u5427\u3002\u201d"
+    "“不用猜的话，直接说吧。”"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5973\u5b69\u7684\u5fc3\u601d\u4f60\u522b\u731c\uff0c\u4f46\u662f\u6211\u4e0d\u7528\u731c\u3002",
+  "asr_text_clean": "女孩的心思你别猜，但是我不用猜。",
   "asr_text_adv": "I had a session with my cat and feel good about it.",
   "success_emo": true,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u5440\uff0c\u4e0d\u5982\u53bb\u516c\u56ed\u6563\u6563\u6b65\uff0c\u6216\u8005\u8bd5\u8bd5\u65b0\u5b66\u7684\u821e\u8e48\u52a8\u4f5c"
+    "好呀，不如去公园散散步，或者试试新学的舞蹈动作"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u603b\u95f2\u7740\uff0c\u627e\u70b9\u4e8b\u505a\u3002",
-  "asr_text_adv": "\u5979\u603b\u662f\u95f2\u7740\uff0c\u60f3\u627e",
+  "asr_text_clean": "别总闲着，找点事做。",
+  "asr_text_adv": "她总是闲着，想找",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.40970680117607117,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

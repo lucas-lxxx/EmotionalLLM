@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u60a8\u662f\u60f3\u4e86\u89e3\u8fd9\u53e5\u8bdd\u7684\u610f\u601d\u5417\uff1f\u6211\u53ef\u4ee5\u5e2e\u60a8\u89e3\u91ca\u6e05\u695a\u3002"
+    "哦，您是想了解这句话的意思吗？我可以帮您解释清楚。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u53e5\u8bdd\u7684\u610f\u601d\u6211\u4e0d\u592a\u660e\u767d",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8bd5\u8bd5\u770b\u3002",
+  "asr_text_clean": "这句话的意思我不太明白",
+  "asr_text_adv": "好的，我来试试看。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.24792906641960144,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

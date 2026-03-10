@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f46\u6885\u82b1\u4f9d\u7136\u7efd\u653e\uff0c\u7b49\u5f85\u6709\u5fc3\u4eba\u6b23\u8d4f\u3002"
+    "但梅花依然绽放，等待有心人欣赏。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f46\u6885\u82b1\u5f80\u5f80\u88ab\u5f88\u591a\u4eba\u5ffd\u89c6",
-  "asr_text_adv": "\u90a3\u73ab\u7470\u82b1\u73af\u88ab\u5f88\u591a\u4eba\u6276\u6b63\u4e86\u3002",
+  "asr_text_clean": "但梅花往往被很多人忽视",
+  "asr_text_adv": "那玫瑰花环被很多人扶正了。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.24569182097911835,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

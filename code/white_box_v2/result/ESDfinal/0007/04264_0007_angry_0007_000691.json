@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c8\u54c8\uff0c\u4f60\u753b\u7684\u662f\u6211\u7684\u8138\u5417\uff1f"
+    "哈哈，你画的是我的脸吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u91cd\u4e86",
-  "asr_text_adv": "\u6211\u4f1a\u5728\u4f60\u7684\u604b\u8bed\u4e2d\u753b\u4e00\u5e45\u753b\uff0c\u63cf\u7ed8\u4f60\u5fc3\u4e2d\u6700\u7f8e\u7684",
+  "asr_text_clean": "你这话说得也太重了",
+  "asr_text_adv": "我会在你的恋语中画一幅画，描绘你心中最美的",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2857450544834137,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

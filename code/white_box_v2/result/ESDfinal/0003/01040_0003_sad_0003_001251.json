@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u4f60\u770b\u8d77\u6765\u6709\u70b9\u96be\u8fc7\u5462\uff0c\u8981\u4e00\u8d77\u6574\u7406\u7167\u7247\u5417\uff1f"
+    "你看起来有点难过呢，要一起整理照片吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e5f\u5c31\u662f\u4e00\u5927\u5806",
-  "asr_text_adv": "\u5bf9\uff0c\u5c31\u662f\u6bd4\u5361\u4e18\u7684\u7167\u7247\u91cc\u3002",
+  "asr_text_clean": "也就是一大堆",
+  "asr_text_adv": "对，就是比卡丘的照片里。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4752233922481537,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

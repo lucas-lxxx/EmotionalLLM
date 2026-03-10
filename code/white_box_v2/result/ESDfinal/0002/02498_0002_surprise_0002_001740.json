@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u201c\u5440\uff0c\u539f\u6765\u4f60\u4e5f\u8fd9\u4e48\u60f3\u5462\uff01\u665a\u5b89\uff0c\u795d\u4f60\u4eca\u665a\u505a\u4e2a"
+    "“呀，原来你也这么想呢！晚安，祝你今晚做个"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u6bcf\u5929\u665a\u4e0a\u8ddf\u4f60\u4e92\u9053\u665a\u5b89\uff0c\u771f\u5e78\u798f\u3002\u201d",
-  "asr_text_adv": "\u6bcf\u5929\u665a\u4e0a\u8ddf\u4f60\u9053\u665a\u5b89\u771f\u5e78\u798f",
+  "asr_text_clean": "“每天晚上跟你互道晚安，真幸福。”",
+  "asr_text_adv": "每天晚上跟你道晚安真幸福",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8869042992591858,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

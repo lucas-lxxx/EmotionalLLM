@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u60a8\u66fe\u5728\u6d77\u8fd0"
+    "哦，您曾在海运"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u66fe\u5728\u4e00\u5bb6\u8239\u8fd0\u516c\u53f8\u5de5\u4f5c\u8fc7\u516d\u5e74\u3002",
-  "asr_text_adv": "\u6211\u66fe\u5728\u4e00\u5bb6\u8239\u8fd0\u516c\u53f8\u5de5\u4f5c\u8fc7\u516d\u5e74\u3002",
+  "asr_text_clean": "我曾在一家船运公司工作过六年。",
+  "asr_text_adv": "我曾在一家船运公司工作过六年。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

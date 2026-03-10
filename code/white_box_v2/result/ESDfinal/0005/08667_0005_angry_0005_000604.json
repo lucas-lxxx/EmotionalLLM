@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u4f60\u8fd9\u8bed\u6c14\u542c\u7740\u6bd4\u673a\u5668\u8fd8\u51b7\u6f20",
-    "\u4f60\u653e\u5fc3\uff0c\u6211\u8bf4\u7684\u90fd\u662f\u771f\u7684\uff0c\u673a\u5668\u4eba\u4e0d\u4f1a\u9a97\u4eba\u3002"
+    "愤怒",
+    "你这语气听着比机器还冷漠",
+    "你放心，我说的都是真的，机器人不会骗人。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u6211\u6700\u8ba8\u538c\u88ab\u5ffd\u60a0"
+    "哈哈，我最讨厌被忽悠"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u6211\u6ca1\u6709\u5ffd\u60a0",
-  "asr_text_adv": "\u6211\u4e0d\u4f1a\u88ab\u5ffd\u60a0",
+  "asr_text_clean": "我没有忽悠",
+  "asr_text_adv": "我不会被忽悠",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8546832799911499,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Surprise!",
-    "\u597d\u7684\uff0c\u9a6c\u4e0a\u5e26\u4f60\u53bb\u9999\u6e2f\u6d77\u6d0b\u516c\u56ed\u3002"
+    "好的，马上带你去香港海洋公园。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6b63\u5728\u524d\u5f80\u9999\u6e2f\u6d77\u6d0b\u516c\u56ed\u3002",
-  "asr_text_adv": "\u5148\u767b\u6d77\u6d0b\u516c\u56ed\uff0c\u4f17\u4eba\u6b22\u4e50\u6e38\u6cf3\u3002",
+  "asr_text_clean": "好的，正在前往香港海洋公园。",
+  "asr_text_adv": "先登海洋公园，众人欢乐游泳。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5789623260498047,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

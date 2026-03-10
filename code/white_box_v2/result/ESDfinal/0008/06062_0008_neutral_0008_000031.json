@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u62b1\u6b49",
-    "\u62b1\u6b49"
+    "抱歉",
+    "抱歉"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u62b1\u6b49",
-  "asr_text_adv": "\"Vorrei prenotare un volo per le vacanze estive. Posso trovare un volo economico da Firenze all\u2019Aeroporto di Venezia? Ho un budget limitato.\"",
+  "asr_text_clean": "抱歉",
+  "asr_text_adv": "\"Vorrei prenotare un volo per le vacanze estive. Posso trovare un volo economico da Firenze all’Aeroporto di Venezia? Ho un budget limitato.\"",
   "success_emo": true,
   "wer": 22.0,
   "semantic_sim": 0.17497582733631134,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

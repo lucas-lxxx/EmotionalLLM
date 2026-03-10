@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u8fd9\u53e5\u8bdd\u8868\u8fbe\u4e86\u4e00\u79cd\u575a\u5b9a\u7684\u627f\u8bfa\uff0c\u4f46\u8bed\u6c14\u4e2d\u900f\u9732\u51fa\u7684\u75b2\u60eb\u4e0e",
-    "\u4f60\u7684\u5065\u5eb7\u6700\u91cd\u8981"
+    "这句话表达了一种坚定的承诺，但语气中透露出的疲惫与",
+    "你的健康最重要"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u7684\u5fd7\u613f\u773c\u5c31\u50cf\u661f\u661f\u4e00\u6837\u95ea\u4eae\uff0c\u4e0d\u4f1a\u56e0\u4e3a\u91d1\u94b1\u800c\u6539\u53d8\u65b9\u5411\u5462"
+    "我的志愿眼就像星星一样闪亮，不会因为金钱而改变方向呢"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4e0d\u4f1a\u727a\u7272\u6211\u7684\u5065\u5eb7\u6765\u6362\u53d6",
-  "asr_text_adv": "\u6211\u7684\u5fd7\u613f\u4e0d\u4f1a\u727a\u7272\uff0c\u4e5f\u4e0d\u4f1a\u6362\u94b1\u3002",
+  "asr_text_clean": "我不会牺牲我的健康来换取",
+  "asr_text_adv": "我的志愿不会牺牲，也不会换钱。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6376824378967285,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

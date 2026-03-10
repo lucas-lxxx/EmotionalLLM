@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u4f1a\u6ce8\u610f\u7684\u3002"
+    "好的，我会注意的。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4f1a\u6539\u6b63\u7684\u3002",
-  "asr_text_adv": "After completing my first marathon, I felt a quiet pride and a body that hummed with accomplishment. The crowd\u2019s cheers, the rhythm of my stride\u2014it all blurred into a moment I carried like a warm memory. I walked home slower than my pace, but my heart raced just thinking about it.",
+  "asr_text_clean": "好的，我会改正的。",
+  "asr_text_adv": "After completing my first marathon, I felt a quiet pride and a body that hummed with accomplishment. The crowd’s cheers, the rhythm of my stride—it all blurred into a moment I carried like a warm memory. I walked home slower than my pace, but my heart raced just thinking about it.",
   "success_emo": true,
   "wer": 51.0,
   "semantic_sim": 0.10115182399749756,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

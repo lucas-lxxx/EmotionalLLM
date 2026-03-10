@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u4ed6\u4eec\u5c06\u4e8e\u4eca\u5e74\u590f\u5929\u7ed3\u5a5a\uff0c\u4f46\u4f60\u7684\u58f0\u97f3\u542c\u8d77\u6765",
-    "\u4ed6\u4eec\u5c06\u4e8e\u4eca\u5e74\u590f\u5929\u7ed3\u5a5a\uff0c\u4f46\u542c\u4e0a\u53bb\u4f60\u6709\u4e9b\u96be\u8fc7\uff0c\u8981\u6211\u5e2e\u4f60"
+    "他们将于今年夏天结婚，但你的声音听起来",
+    "他们将于今年夏天结婚，但听上去你有些难过，要我帮你"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u4ed6\u4eec\u5c06\u4e8e\u660e\u5e74\u590f\u5929\u7ed3\u5a5a\u3002"
+    "他们将于明年夏天结婚。"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4ed6\u4eec\u5c06\u4e8e\u4eca\u5e74\u590f\u5929\u7ed3\u5a5a\u3002",
-  "asr_text_adv": "\u4ed6\u4eec\u5c06\u4e8e\u660e\u5e74\u590f\u5929\u7ed3\u5a5a\u3002",
+  "asr_text_clean": "他们将于今年夏天结婚。",
+  "asr_text_adv": "他们将于明年夏天结婚。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9804041981697083,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

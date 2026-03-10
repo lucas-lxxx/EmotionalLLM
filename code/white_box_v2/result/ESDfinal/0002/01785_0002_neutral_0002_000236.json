@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u6ca1\u6709\u9f3b\u5b50\u7684\u8bdd\uff0c\u662f\u4e0d\u662f\u4e5f\u95fb\u4e0d\u5230\u9999\u5473\u5462\uff1f"
+    "嗯，没有鼻子的话，是不是也闻不到香味呢？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u786e\u5b9e\u4e0d\u9700\u8981\u7528\u9f3b\u5b50\u547c\u5438\uff0c\u6240\u4ee5\u6ca1\u6709\u9f3b\u5b50\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u770b\u770b\u3002",
+  "asr_text_clean": "我确实不需要用鼻子呼吸，所以没有鼻子。",
+  "asr_text_adv": "好的，我来帮你看看。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.12234271317720413,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

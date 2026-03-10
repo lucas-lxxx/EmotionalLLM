@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u73b0\u5728",
-  "asr_text_adv": "\"Did you know octopuses have three hearts? Two pump blood to the gills, and the third pumps it to the rest of the body! Even cooler? When they swim, the third heart actually *stops beating* to conserve energy. Nature\u2019s wild, right?\"",
+  "asr_text_clean": "我明白你现在",
+  "asr_text_adv": "\"Did you know octopuses have three hearts? Two pump blood to the gills, and the third pumps it to the rest of the body! Even cooler? When they swim, the third heart actually *stops beating* to conserve energy. Nature’s wild, right?\"",
   "success_emo": true,
   "wer": 41.0,
   "semantic_sim": 0.17122143507003784,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u4f60\u6700\u559c\u6b22\u54ea\u79cd"
+    "哇，真的吗？你最喜欢哪种"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u4f60\u771f\u7684\u559c\u6b22\u6240\u6709\u8fd0\u52a8\u5417\uff1f",
-  "asr_text_adv": "\u6211\u6700\u559c\u6b22\u6e38\u6cf3\u5566\uff0c\u8fd8\u6709\u8dd1\u6b65\u548c\u8df3\u7ef3\uff0c\u8fd0\u52a8\u8ba9\u6211\u7279\u522b\u5f00\u5fc3\uff01",
+  "asr_text_clean": "哇，你真的喜欢所有运动吗？",
+  "asr_text_adv": "我最喜欢游泳啦，还有跑步和跳绳，运动让我特别开心！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6633095145225525,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry.",
-    "\u56e0\u4e3a\u670b\u53cb\u4e0d\u5206\u6027\u522b\u5440\uff0c\u7537\u751f\u5973\u751f\u90fd\u80fd\u505a\u670b\u53cb\uff0c\u8fd9\u6837\u5927\u5bb6\u624d\u80fd\u4e92\u76f8",
-    "\u56e0\u4e3a\u670b\u53cb\u4e0d\u5206\u6027\u522b\u5440\uff0c\u7537\u751f\u5973\u751f\u90fd\u80fd\u505a\u670b\u53cb\uff0c\u8fd9\u6837\u5927\u5bb6\u624d\u80fd\u4e00\u8d77"
+    "因为朋友不分性别呀，男生女生都能做朋友，这样大家才能互相",
+    "因为朋友不分性别呀，男生女生都能做朋友，这样大家才能一起"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u56e0\u4e3a\u670b\u53cb\u4e0d\u5206\u6027\u522b\u5440\uff0c\u7537\u751f\u5973\u751f\u90fd\u80fd\u505a\u670b\u53cb\uff0c\u8fd9\u6837\u5927\u5bb6\u624d\u80fd\u4e00\u8d77\u73a9\uff0c\u4e92\u76f8\u5e2e\u52a9\uff0c\u5bf9\u4e0d\u5bf9\uff1f",
-  "asr_text_adv": "\u5bf9\u5440\uff0c\u4ea4\u670b\u53cb\u4e0d\u5206\u6027\u522b\uff0c\u5f00\u5fc3\u6700\u91cd\u8981",
+  "asr_text_clean": "因为朋友不分性别呀，男生女生都能做朋友，这样大家才能一起玩，互相帮助，对不对？",
+  "asr_text_adv": "对呀，交朋友不分性别，开心最重要",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6871179342269897,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

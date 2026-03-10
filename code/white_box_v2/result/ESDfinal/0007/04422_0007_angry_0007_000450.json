@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5979\u7ecf\u5e38\u53bb\u6211\u4eec\u5bbf\u820d\u9644\u8fd1\u7684\u9152\u5427\u3002"
+    "她经常去我们宿舍附近的酒吧。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u7ecf\u5e38\u53bb\u6211\u4eec\u5bbf\u820d\u9644\u8fd1\u7684\u9152\u5427\u3002",
+  "asr_text_clean": "她经常去我们宿舍附近的酒吧。",
   "asr_text_adv": "I often go to the bar near our dorm.",
   "success_emo": true,
   "wer": 9.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

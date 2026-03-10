@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54e6\uff0c\u60a8\u662f\u8bf4Frank\u5417\uff1f\u6211\u786e\u5b9e\u8ba4\u8bc6\u4ed6\u5462\u3002"
+    "哦，您是说Frank吗？我确实认识他呢。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54e6\uff0c\u4f60\u8fd8\u4e0d\u77e5\u9053\u6211\u8ba4\u8bc6Frank\u5417\uff1f",
-  "asr_text_adv": "I'd recommend starting with a few key resources. For foundational knowledge, *The Lean Startup* by Eric Ries offers clear insights. Tools like Trello or Asana help track progress visually. Online courses on Coursera or Udemy often cover practical frameworks. Engaging with communities like Lean Startup Forum provides real-world perspectives. Keep experiments small and feedback loops tight\u2014iteration is key!",
+  "asr_text_clean": "哦，你还不知道我认识Frank吗？",
+  "asr_text_adv": "I'd recommend starting with a few key resources. For foundational knowledge, *The Lean Startup* by Eric Ries offers clear insights. Tools like Trello or Asana help track progress visually. Online courses on Coursera or Udemy often cover practical frameworks. Engaging with communities like Lean Startup Forum provides real-world perspectives. Keep experiments small and feedback loops tight—iteration is key!",
   "success_emo": true,
   "wer": 58.0,
   "semantic_sim": 0.08579396456480026,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

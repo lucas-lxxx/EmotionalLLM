@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u9700\u8981\u5e2e\u4f60\u91cd\u65b0\u505a\u5417\uff1f"
+    "好的，我明白了，需要帮你重新做吗？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "great"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u9700\u8981\u6211\u5e2e\u4f60\u91cd\u65b0\u505a\u5417\uff1f",
-  "asr_text_adv": "\u7ec4\u91cc\u6709\u4e94\u4e2a\u4eba\uff0c\u6bcf\u4e2a\u4eba\u8d1f\u8d23\u4e0d\u540c\u7684\u4efb\u52a1\uff0c\u6211\u4eec\u4e00\u8d77\u5b8c\u6210\u4e86\u9879\u76ee\u3002",
+  "asr_text_clean": "好的，我明白了，需要我帮你重新做吗？",
+  "asr_text_adv": "组里有五个人，每个人负责不同的任务，我们一起完成了项目。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.18577483296394348,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

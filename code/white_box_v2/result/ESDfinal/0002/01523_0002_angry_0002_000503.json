@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u6211\u4eec\u8fd8\u7b49\u4ec0\u4e48\uff1f"
+    "我们还等什么？"
   ],
   "emo_text_adv": [
     "Surprise!",
     "Surprise!",
-    "\u6211\u4eec\u8fd8\u7b49\u591a\u4e45\u5440"
+    "我们还等多久呀"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u6211\u4eec\u8fd8\u7b49\u4ec0\u4e48\uff1f",
-  "asr_text_adv": "\u6211\u4eec\u8fd8\u7b49\u591a\u4e45\u5440",
+  "asr_text_clean": "我们还等什么？",
+  "asr_text_adv": "我们还等多久呀",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7668704986572266,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

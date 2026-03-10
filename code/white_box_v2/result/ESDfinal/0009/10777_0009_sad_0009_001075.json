@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\u3002\u5176\u5b9e\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u72ec\u7279\u4e4b\u5904\uff0c\u4e0d\u7528\u592a"
+    "嗯，我明白你的意思。其实每个人都有自己的独特之处，不用太"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
     "The emotion is happy.",
-    "The police officer smiled and said, \"You did great! Let\u2019s go play"
+    "The police officer smiled and said, \"You did great! Let’s go play"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,7 +24,7 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\uff0c\u6709\u65f6\u5019\u6211\u4eec\u592a\u5bb9\u6613\u770b\u5230\u522b\u4eba\u7684\u4f18\u70b9\u800c\u5ffd\u7565\u4e86",
+  "asr_text_clean": "我明白你的意思，有时候我们太容易看到别人的优点而忽略了",
   "asr_text_adv": "The hillbilly's best friend was a scruffy old dog named Biscuit.",
   "success_emo": false,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

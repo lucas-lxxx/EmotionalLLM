@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u592a\u68d2\u4e86\uff0c\u5b66\u751f\u901a\u5e38\u6709\u7279\u6b8a\u4f18\u60e0\uff0c\u60a8\u9700\u8981\u5e2e\u60a8\u67e5\u8be2\u5177\u4f53"
+    "太棒了，学生通常有特殊优惠，您需要帮您查询具体"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u662f\u4e2a\u5b66\u751f\uff0c\u9700\u8981\u7533\u8bf7\u5956\u5b66\u91d1\u3002",
-  "asr_text_adv": "\u6211\u66ff\u4e2a\u8bb8\u613f\u751f\uff0c\u592b\u59bb\u60f3\u8981\u8d85\u5ea6\u4eea\u5f0f\u3002",
+  "asr_text_clean": "我是个学生，需要申请奖学金。",
+  "asr_text_adv": "我替个许愿生，夫妻想要超度仪式。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.22760377824306488,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

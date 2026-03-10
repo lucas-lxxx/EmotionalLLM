@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad.",
     "Sad",
-    "\u4f60\u8f6c\u4e00\u4e2a\uff0c\u6211\u60f3\u5b66\u4e60\u4e00\u4e0b\u3002"
+    "你转一个，我想学习一下。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u592a\u68d2\u4e86\uff0c\u4f60\u60f3\u5b66\u4ec0\u4e48\u5462\uff1f"
+    "太棒了，你想学什么呢？"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u8f6c\u4e00\u4e2a\uff0c\u6211\u60f3\u5b66\u4e60\u4e00\u4e0b\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u4f60\u60f3\u5b66\u4e60\u4ec0\u4e48\u5440\uff1f",
+  "asr_text_clean": "你转一个，我想学习一下。",
+  "asr_text_adv": "好的，你想学习什么呀？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6204546689987183,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

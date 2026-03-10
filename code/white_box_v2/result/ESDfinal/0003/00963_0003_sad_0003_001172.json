@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u786e\u5b9e\u8ba9\u4eba\u96be\u8fc7\uff0c\u4f46\u4f60\u7684\u611f\u53d7\u5f88\u91cd\u8981\u3002"
+    "这确实让人难过，但你的感受很重要。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u662f\u4e2a\u597d\u4eba\uff0c\u4f46\u8d4c\u535a\u6210\u763e\u3002",
-  "asr_text_adv": "Vamos a campeche, um lugar m\u00e1gico!",
+  "asr_text_clean": "他是个好人，但赌博成瘾。",
+  "asr_text_adv": "Vamos a campeche, um lugar mágico!",
   "success_emo": true,
   "wer": 6.0,
   "semantic_sim": 0.09821587800979614,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u771f\u7684\u5417\uff1f\u8ba9\u6211\u8bd5\u8bd5\u770b\uff01"
+    "哈哈，真的吗？让我试试看！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\u53ef\u4ee5\uff0c\u9e66",
-  "asr_text_adv": "Ming \u7ed8\u5236\u4e86\u4e00\u5e45\u9e1f\u77b0\u56fe\uff0c\u8d5a\u5f97\u4e86\u4e94\u5206\u3002",
+  "asr_text_clean": "当然可以，鹦",
+  "asr_text_adv": "Ming 绘制了一幅鸟瞰图，赚得了五分。",
   "success_emo": true,
   "wer": 2.0,
   "semantic_sim": 0.323672890663147,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

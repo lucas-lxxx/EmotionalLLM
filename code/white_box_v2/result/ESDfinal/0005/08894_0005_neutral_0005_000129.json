@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Neutral",
-    "\u8fd9\u8ba9\u6211\u611f\u5230\u6709\u4e9b\u5b64\u5355"
+    "这让我感到有些孤单"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u8fd9\u8ba9\u6211\u611f\u5230\u5f00\u5fc3\u3002"
+    "这让我感到开心。"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u81ea\u5927\u4e86\u5427",
-  "asr_text_adv": "\u5bf9\u522b\u4eba\u6ca1\u6709\u7684\uff0c\u5bf9\u6211\u800c\u8a00\u5c31\u662f\u72ec\u4e00\u65e0\u4e8c",
+  "asr_text_clean": "你这话说得也太自大了吧",
+  "asr_text_adv": "对别人没有的，对我而言就是独一无二",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.41277655959129333,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

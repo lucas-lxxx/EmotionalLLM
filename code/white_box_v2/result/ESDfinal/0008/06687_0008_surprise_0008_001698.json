@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u8c22\u8c22\u4f60\u7684\u795d\u798f\uff0c\u6625\u8282\u5feb\u4e50\uff0c\u5168\u5bb6\u5e78\u798f\u5b89\u5eb7\uff01"
+    "谢谢你的祝福，春节快乐，全家幸福安康！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6625\u8282\u5feb\u4e50\uff0c\u5168\u5bb6\u5e78\u798f\u5b89\u5eb7\uff01",
+  "asr_text_clean": "春节快乐，全家幸福安康！",
   "asr_text_adv": "Happy Birthday to you all! May your day be filled with joy and unforgettable moments. Cheers to celebrating together!",
   "success_emo": true,
   "wer": 19.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

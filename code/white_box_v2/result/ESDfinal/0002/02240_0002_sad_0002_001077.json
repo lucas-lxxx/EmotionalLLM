@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5de5\u5382\u53ef\u80fd\u56e0\u4e3a\u73af\u4fdd\u89c4\u5b9a\u6216\u5904\u7406\u6d41\u7a0b\u9700\u8981\u5c06\u5e9f\u6c14"
+    "工厂可能因为环保规定或处理流程需要将废气"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5de5\u5382\u4e0d\u628a\u5b83\u76f4\u63a5\u6392\u5230\u5927\u6c14\u4e2d\u3002",
-  "asr_text_adv": "\u5de5\u5382\u4e0d\u628a\u5b83\u76f4\u63a5\u6392\u5230\u5927\u6c14\u4e2d\u3002",
+  "asr_text_clean": "工厂不把它直接排到大气中。",
+  "asr_text_adv": "工厂不把它直接排到大气中。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

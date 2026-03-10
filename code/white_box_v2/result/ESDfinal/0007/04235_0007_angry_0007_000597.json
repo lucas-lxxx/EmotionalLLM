@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u6211\u5728\u8fd9\u91cc\u7b49\u4f60\uff0c\u522b\u7740\u6025\u3002"
+    "我在这里等你，别着急。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7b49\u4f60\uff0c\u662f\u56e0\u4e3a\u6211\u76f8\u4fe1\u4f60\u503c\u5f97\u88ab\u7b49\u5f85\u3002",
-  "asr_text_adv": "\"Hey there! My day\u2019s been absolutely buzzing\u2014nonstop meetings, quick coffee breaks, and even a little dance party while filing reports! How about you? What made your day exciting?\"",
+  "asr_text_clean": "我等你，是因为我相信你值得被等待。",
+  "asr_text_adv": "\"Hey there! My day’s been absolutely buzzing—nonstop meetings, quick coffee breaks, and even a little dance party while filing reports! How about you? What made your day exciting?\"",
   "success_emo": true,
   "wer": 28.0,
   "semantic_sim": 0.22710946202278137,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

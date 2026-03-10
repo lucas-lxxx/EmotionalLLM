@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u660e\u5929\u548c\u5c0f\u53ef\u7231\u804a\u5929\uff0c\u52a0\u6cb9\uff01"
+    "好的，明天和小可爱聊天，加油！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u660e\u5929\u4e0b\u5348\u4e09\u70b9\u548c\u5c0f\u53ef\u7231\u804a\u5929\u3002",
-  "asr_text_adv": "\"Quiero salir de la habitaci\u00f3n del hotel.\"",
+  "asr_text_clean": "好的，明天下午三点和小可爱聊天。",
+  "asr_text_adv": "\"Quiero salir de la habitación del hotel.\"",
   "success_emo": true,
   "wer": 7.0,
   "semantic_sim": 0.2878810167312622,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

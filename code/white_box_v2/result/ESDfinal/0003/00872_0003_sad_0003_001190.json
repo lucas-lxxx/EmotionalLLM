@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u4f60\u613f\u610f\u627f\u8ba4\u8fd9\u4e00\u70b9\u5df2\u7ecf\u5f88\u68d2"
+    "你愿意承认这一点已经很棒"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e5f\u6709\u8fc7\u8fd9\u6837\u7684\u65f6\u523b\u5462",
-  "asr_text_adv": "I want to thank everyone for the amazing three week long journey. It\u2019s been absolutely thrilling and I\u2019m so grateful to have shared this experience with all of you. Let\u2019s keep that momentum going!",
+  "asr_text_clean": "我也有过这样的时刻呢",
+  "asr_text_adv": "I want to thank everyone for the amazing three week long journey. It’s been absolutely thrilling and I’m so grateful to have shared this experience with all of you. Let’s keep that momentum going!",
   "success_emo": true,
   "wer": 34.0,
   "semantic_sim": 0.24533501267433167,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

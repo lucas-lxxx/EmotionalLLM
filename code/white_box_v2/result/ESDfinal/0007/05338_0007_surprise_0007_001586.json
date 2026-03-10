@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise",
-    "\u54ce\u5440\uff0c\u5979\u7a81\u7136\u4e0d\u7406"
+    "哎呀，她突然不理"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u5979\u7a81\u7136\u4e0d\u7406",
-  "asr_text_adv": "\u201c\u64cd\u7ec3\u771f\u6709\u8da3\uff0c\u6211\u4eec\u73a9\u5f97\u53ef\u5f00\u5fc3\u5566\uff01\u201d",
+  "asr_text_clean": "哎呀，她突然不理",
+  "asr_text_adv": "“操练真有趣，我们玩得可开心啦！”",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.15562161803245544,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

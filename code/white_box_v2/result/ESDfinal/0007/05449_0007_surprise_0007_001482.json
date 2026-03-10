@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u6211\u4e5f\u597d\u60f3\u53bb\u770b\u4f60\u53d4\u53d4\u5462\uff01"
+    "哇，真的吗？我也好想去看你叔叔呢！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u6211\u4e5f\u542c\u8bf4\u4f60\u8981\u53bb\u9999\u6e2f\u770b\u53d4\u53d4\u5462\uff01",
-  "asr_text_adv": "\u542c\u8bf4\u4f60\u8981\u53bb\u4e61\u4e0b\u5916\u5a46",
+  "asr_text_clean": "哇，真的吗？我也听说你要去香港看叔叔呢！",
+  "asr_text_adv": "听说你要去乡下外婆",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5828543901443481,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

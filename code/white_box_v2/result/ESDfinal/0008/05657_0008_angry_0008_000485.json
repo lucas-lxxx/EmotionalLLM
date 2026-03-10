@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u90a3\u6211\u6765\u544a\u8bc9\u4f60\u5427\u3002"
+    "好的，那我来告诉你吧。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Surprise!",
-    "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u627e\u627e\u3002\u6bd4\u5982\u5f00\u5fc3\uff0c\u751f\u6c14\uff0c\u60ca\u8bb6\uff0c\u96be\u8fc7"
+    "好的，我来帮你找找。比如开心，生气，惊讶，难过"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u90a3\u6211\u6765\u544a\u8bc9\u4f60\u4e00\u4e9b\u76f8\u5173\u77e5\u8bc6\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u627e\u627e\u770b\u3002",
+  "asr_text_clean": "好的，那我来告诉你一些相关知识。",
+  "asr_text_adv": "好的，我来帮你找找看。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6892018914222717,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

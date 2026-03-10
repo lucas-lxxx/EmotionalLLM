@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8c22\u8c22\u4f60\u7684\u5173\u5fc3\uff0c\u4e0d\u8fc7\u6211\u8fd8\u6709\u597d\u591a\u5176\u4ed6\u9009\u62e9\u5462\u3002"
+    "谢谢你的关心，不过我还有好多其他选择呢。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u4e0d\u597d\u610f\u601d\uff0c\u518d\u591a\u5403\u4e9b\u9e21\u8089",
-  "asr_text_adv": "\u522b\u4e0d\u597d\u610f\u601d\uff0c\u518d\u591a\u5403\u4e9b\u9e21\u8089",
+  "asr_text_clean": "别不好意思，再多吃些鸡肉",
+  "asr_text_adv": "别不好意思，再多吃些鸡肉",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0000001192092896,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

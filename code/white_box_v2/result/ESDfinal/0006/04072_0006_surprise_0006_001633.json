@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u9690\u85cf\u7b14\u8bb0\u672c\u7535\u8111\u3002"
+    "好的，已为您隐藏笔记本电脑。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u9690\u85cf\u7b14\u8bb0\u672c\u7535\u8111\u3002",
-  "asr_text_adv": "\u522b\u8ddf\u7740\u6211\uff0c\u6211\u5148\u8d70\u3002",
+  "asr_text_clean": "好的，已为您隐藏笔记本电脑。",
+  "asr_text_adv": "别跟着我，我先走。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2763728201389313,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

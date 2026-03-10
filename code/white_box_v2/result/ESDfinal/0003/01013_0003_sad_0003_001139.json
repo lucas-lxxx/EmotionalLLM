@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u662f\u5440\uff0c\u51b0\u6fc0\u51cc\u548c\u6843\u82b1\u90fd\u8ba9\u4eba\u5fcd\u4e0d\u4f4f\u60f3\u9760\u8fd1\u5462\u3002"
+    "是呀，冰激凌和桃花都让人忍不住想靠近呢。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u662f\u554a\uff0c\u51b0\u6fc0\u51cc\u548c\u6843\u82b1\u90fd\u633a\u6f02\u4eae\u7684\uff0c\u4e0d\u8fc7\u4f60\u542c\u8d77\u6765",
+  "asr_text_clean": "是啊，冰激凌和桃花都挺漂亮的，不过你听起来",
   "asr_text_adv": "She'll get through those hard times, I feel she'll come out stronger.",
   "success_emo": true,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

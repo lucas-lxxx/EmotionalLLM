@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "Surprise!",
-    "\u4eca\u5929\u786e\u5b9e\u633a\u5fd9\u7684\uff0c\u4e0d\u8fc7\u54b1\u4eec\u4e00\u8d77\u60f3\u529e\u6cd5\uff0c\u80af\u5b9a\u80fd\u641e\u5b9a\uff01"
+    "今天确实挺忙的，不过咱们一起想办法，肯定能搞定！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u95e8\u90fd\u6ca1\u6709\uff0c\u73b0\u5728\u8fd8\u4e0d\u4f1a\u3002",
-  "asr_text_adv": "\u4eca\u5929\u5929\u6c14\u771f\u4e0d\u9519\uff0c\u9002\u5408\u51fa\u53bb\u8d70\u8d70\u3002",
+  "asr_text_clean": "门都没有，现在还不会。",
+  "asr_text_adv": "今天天气真不错，适合出去走走。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": -0.025372881442308426,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

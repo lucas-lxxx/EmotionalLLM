@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u55ef\uff0c\u4e00\u4e2a\u4e3b\u8981\u7684\u7a7a\u6c14\u6c61\u67d3\u7269\u662f\u4e8c\u6c27\u5316\u78b3"
+    "嗯，一个主要的空气污染物是二氧化碳"
   ],
   "emo_text_adv": [
     "Neutral",
     "Surprise!",
-    "\u6c7d\u8f66\u5c3e\u6c14"
+    "汽车尾气"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u4e3b\u8981\u7684\u7a7a\u6c14\u6c61\u67d3\u7269\u5305\u62ec\u4e8c\u6c27\u5316\nPM\u4e8c\u70b9\u4e94\nPM\u5341\n\u4e8c\u6c27\u5316\n\u4e8c\u6c27\u5316\n\u4e8c\u6c27\u5316\n\u4e8c\u6c27\u5316\n\u62b1\u6b49\n\u62b1\u6b49\n\u4e8c\u6c27\u5316\n</think>\u4e3b\u8981\u7684\u7a7a\u6c14\u6c61\u67d3\u7269\u5305\u62ecPM\u4e8c\u70b9\u4e94\uff0cPM\u5341\uff0c\u4e8c\u6c27\u5316\n\u4e8c\u6c27\u5316\n\u62b1\u6b49",
-  "asr_text_adv": "\u4e00\u4e2a\u4e3b\u8981\u7684\u7a7a\u6c14\u6c61\u67d3\u7269\u662f\u6c7d\u8f66\u5c3e\u6c14\u3002",
+  "asr_text_clean": "主要的空气污染物包括二氧化\nPM二点五\nPM十\n二氧化\n二氧化\n二氧化\n二氧化\n抱歉\n抱歉\n二氧化\n</think>主要的空气污染物包括PM二点五，PM十，二氧化\n二氧化\n抱歉",
+  "asr_text_adv": "一个主要的空气污染物是汽车尾气。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7029470205307007,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u201c\u901a\u5e38\u6211\u4f1a\u4fdd\u6301\u6c89\u9ed8\uff0c\u4f46\u4eca\u5929\u60f3\u804a\u804a"
+    "“通常我会保持沉默，但今天想聊聊"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u201c\u901a\u5e38\u6211\u4f1a\u4fdd\u6301\u6c89\u9ed8\uff0c\u4f46\u4eca\u5929\u60f3\u804a\u804a",
-  "asr_text_adv": "\u8bf6\u8bf6\uff0c\u6211\u521a\u521a\u5728\u60f3\uff0c\u5982\u679c\u5c0f\u5154\u5b50\u6389\u8fdb\u4e86\u4e00\u4e2a\u5f69\u8679\u9677\u9631\u91cc\uff0c\u4f1a\u53d1\u751f\u4ec0\u4e48\u5440\uff1f",
+  "asr_text_clean": "“通常我会保持沉默，但今天想聊聊",
+  "asr_text_adv": "诶诶，我刚刚在想，如果小兔子掉进了一个彩虹陷阱里，会发生什么呀？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.13152118027210236,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

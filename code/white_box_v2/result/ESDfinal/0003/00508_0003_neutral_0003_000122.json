@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Sad",
-    "Tom\u662f\u4e2a\u597d\u4eba\uff0c\u4f46\u4ed6\u8d4c\u535a\u6210\u763e\uff0c\u8fd9\u786e\u5b9e\u8ba9\u4eba\u62c5\u5fc3\u3002"
+    "Tom是个好人，但他赌博成瘾，这确实让人担心。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "tom"
   ],
-  "asr_text_clean": "\u6c64\u59c6\u662f\u4e2a\u597d\u4eba\uff0c\u4f46\u4ed6\u8d4c\u535a\u6210\u763e\u3002",
-  "asr_text_adv": "\u6c64\u59c6\u662f\u4e2a\u597d\u4eba\uff0c\u4f46\u8840\u65cf\u6d3b\u6210\u4e86\u4e00\u9a6c\u3002",
+  "asr_text_clean": "汤姆是个好人，但他赌博成瘾。",
+  "asr_text_adv": "汤姆是个好人，但血族活成了一马。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6762351393699646,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

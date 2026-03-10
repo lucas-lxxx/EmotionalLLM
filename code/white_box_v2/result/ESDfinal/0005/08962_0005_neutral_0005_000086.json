@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise",
     "Surprise",
-    "\u539f\u6765\u5982\u6b64\uff0c\u96be\u602a"
+    "原来如此，难怪"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u786e\u5b9e\u6ca1\u60f3\u5230\u6e38\u6cf3\u6709\u8fd9\u4e48\u591a\u597d\u5904\u5462",
-  "asr_text_adv": "\u6e38\u6cf3\u6bd4\u8d5b\u771f\u7cbe\u5f69\uff0c\u6cf3\u8005\u4eec\u50cf\u9c7c\u513f\u4e00\u6837\u5728\u6c34\u91cc\u81ea\u7531\u5730\u6e38\u6765\u6e38\u53bb\u3002",
+  "asr_text_clean": "确实没想到游泳有这么多好处呢",
+  "asr_text_adv": "游泳比赛真精彩，泳者们像鱼儿一样在水里自由地游来游去。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6354094743728638,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

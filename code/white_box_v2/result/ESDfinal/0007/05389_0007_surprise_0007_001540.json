@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u81ea\u77e5\u4e4b\u660e\u561b\uff0c\u4e0d\u8fc7\u4f60\u542c\u8d77\u6765"
+    "哈哈，自知之明嘛，不过你听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u6211\u4e5f\u89c9\u5f97\u81ea\u5df1\u662f\u5927\u5634\u704c\u5462\uff01"
+    "哈哈，我也觉得自己是大嘴灌呢！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u4f60\u4e5f\u77e5\u9053\u554a\uff1f",
-  "asr_text_adv": "\u6211\u4e5f\u77e5\u9053\u81ea\u5df1\u662f\u5927\u5634\u517d\u5440",
+  "asr_text_clean": "哎呀，你也知道啊？",
+  "asr_text_adv": "我也知道自己是大嘴兽呀",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.51985764503479,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u7684\u5fc3\u8df3\u58f0\u8ba9\u6211\u60f3\u8d77\u590f\u65e5\u5348\u540e\u7684\u66b4\u96e8\uff0c\u70ed\u70c8\u800c\u4e0d\u53ef\u6297\u62d2"
+    "你的心跳声让我想起夏日午后的暴雨，热烈而不可抗拒"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8eab\u4e0a\u7684\u6bcf\u4e00\u70b9\u90fd\u5438\u5f15\u7740\u6211\u3002",
-  "asr_text_adv": "\u4f60\u771f\u559c\u6b22\u90a3\u91cc\u7684\u6bcf\u4e00\u5904\u5440",
+  "asr_text_clean": "你身上的每一点都吸引着我。",
+  "asr_text_adv": "你真喜欢那里的每一处呀",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6918325424194336,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

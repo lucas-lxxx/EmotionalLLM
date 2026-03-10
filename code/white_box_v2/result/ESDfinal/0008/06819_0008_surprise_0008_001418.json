@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u597d\u554a\uff0c\u54b1\u4eec\u53bb\u90a3\u73a9\u5427\uff01"
+    "好啊，咱们去那玩吧！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u90a3\u54b1\u4eec\u53bb\u54ea\u73a9\uff1f",
-  "asr_text_adv": "\u6211\u4eec\u76f8\u9047\u5728\u5df4\u9ece\uff0c\u4e00\u8d77\u8df3\u821e\u5427\uff01",
+  "asr_text_clean": "哎呀，那咱们去哪玩？",
+  "asr_text_adv": "我们相遇在巴黎，一起跳舞吧！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3573070168495178,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

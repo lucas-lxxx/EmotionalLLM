@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u88ab\u8bf4\u997f\u5566\uff1f\u90a3\u8981\u4e0d\u6211\u8bf7\u4f60\u5403\u5757\u5c0f"
+    "哎呀，被说饿啦？那要不我请你吃块小"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u88ab\u8bf4\u997f\u4e86\u5440\uff0c\u9700\u8981\u6211\u5e2e\u4f60\u51c6\u5907\u70b9\u4ec0\u4e48\u5417\uff1f",
-  "asr_text_adv": "\u6211\u662f\u4e00\u53ea\u7070\u9e3d\u5b50\uff0c\u6211\u88ab\u997f\u574f\u4e86\u3002",
+  "asr_text_clean": "你被说饿了呀，需要我帮你准备点什么吗？",
+  "asr_text_adv": "我是一只灰鸽子，我被饿坏了。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6249078512191772,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u5f88\u5feb\u4f60\u4e0a\u5927\u5b66\u5c31\u7528\u5f97\u7740\u4e86\uff0c\u522b\u6025\uff01"
+    "很快你上大学就用得着了，别急！"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f88\u5feb\u4f60\u4e0a\u5927\u5b66\u5c31\u7528\u5f97\u7740\u4e86",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "很快你上大学就用得着了",
+  "asr_text_adv": "好的，我来帮你转录一下。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4398903548717499,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4eca\u5929\u771f\u51c9\u5feb\uff0c\u5e0c\u671b\u4e3b\u961f\u8d62\u554a\u3002"
+    "今天真凉快，希望主队赢啊。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4eca\u5929\u771f\u51c9\u5feb\uff0c\u5e0c\u671b\u4e3b\u961f\u8f93\u6389\u3002",
-  "asr_text_adv": "\u6b4c\u66f2\u771f\u597d\u542c\uff0c\u6211\u5e0c\u671b\u4f60\u80fd\u559c\u6b22\u3002",
+  "asr_text_clean": "今天真凉快，希望主队输掉。",
+  "asr_text_adv": "歌曲真好听，我希望你能喜欢。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.18447476625442505,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

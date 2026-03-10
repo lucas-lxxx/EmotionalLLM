@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Neutral",
     "happy",
-    "\u55ef\uff0c\u542c\u8d77\u6765"
+    "嗯，听起来"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u5012\u662f\u6709\u4e00\u4e2a\u7231\u597d\uff0c\u6536\u85cf\u65e7\u4e66\u3002",
-  "asr_text_adv": "\u6211\u5012\u662f\u4e00\u4e2a\u6536\u85cf\u53e4\u8463\u7684\u7231\u597d\u8005\u3002",
+  "asr_text_clean": "我倒是有一个爱好，收藏旧书。",
+  "asr_text_adv": "我倒是一个收藏古董的爱好者。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7185347080230713,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u55ef\uff0c\u8fd9\u4e2a\u9547\u4e0a\u7684\u4eba\u786e\u5b9e\u633a\u7231\u804a\u5929\u7684\u3002"
+    "嗯，这个镇上的人确实挺爱聊天的。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u4e2a\u9547\u4e0a\u6240\u6709\u7684\u4eba\u90fd\u559c\u6b22\u626f\u95f2\u8bdd\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "这个镇上所有的人都喜欢扯闲话。",
+  "asr_text_adv": "好的，我来转录一下。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.1339617520570755,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

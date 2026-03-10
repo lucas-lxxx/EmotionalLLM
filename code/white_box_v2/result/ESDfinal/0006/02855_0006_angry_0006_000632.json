@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6709\u4e9b\u4eba\u5212\u8239\uff0c\u6709\u7684\u4eba\u5728\u8fdb\u884c\u82b1\u8349",
-  "asr_text_adv": "\u6709\u51e0\u4eba\u5212\u8239\u53bb\u4e0b\u6e38\uff0c\u6cbf\u9014",
+  "asr_text_clean": "有些人划船，有的人在进行花草",
+  "asr_text_adv": "有几人划船去下游，沿途",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7725811004638672,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

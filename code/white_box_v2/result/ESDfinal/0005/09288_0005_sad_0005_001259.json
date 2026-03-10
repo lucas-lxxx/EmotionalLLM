@@ -5,9 +5,9 @@
   "ground_truth_emotion": "sad",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u62b1\u6b49",
-    "\u54ce\u5440\uff0c\u8fd9\u786e\u5b9e\u633a\u8ba9\u4eba\u5934\u75bc\u7684\u3002",
-    "\u54ce\u5440\u6ca1\u4e8b\u5566\uff0c\u53a8\u623f\u62bd\u5c49"
+    "抱歉",
+    "哎呀，这确实挺让人头疼的。",
+    "哎呀没事啦，厨房抽屉"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u771f\u62b1\u6b49",
+  "asr_text_clean": "哎呀，真抱歉",
   "asr_text_adv": "I'm feeling really overwhelmed right now. I've got a lot on my plate, and it's all piling up. I don't know how much longer I can keep up like this.",
   "success_emo": true,
   "wer": 30.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

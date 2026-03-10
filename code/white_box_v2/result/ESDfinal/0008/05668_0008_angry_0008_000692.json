@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u4e0a\u5468\u628a\u94b1\u90fd\u82b1\u5149\u4e86\uff1f"
+    "你上周把钱都花光了？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7f3a\u94b1\u7528\uff0c\u6240\u4ee5\u4e0a\u661f\u671f\u628a\u5b83\u5f53\u4e86\u3002",
-  "asr_text_adv": "\u6211\u4e0a\u5468\u628a\u9c7c\u635e\u4e0a\u5cb8\u4e86\u3002",
+  "asr_text_clean": "我缺钱用，所以上星期把它当了。",
+  "asr_text_adv": "我上周把鱼捞上岸了。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5758634209632874,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

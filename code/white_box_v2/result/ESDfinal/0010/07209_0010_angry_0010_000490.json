@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u54c8\u54c8\uff0c\u81ea\u77e5\u4e4b\u660e\u561b\uff0c\u4e0d\u8fc7\u54b1\u4e5f\u522b\u592a\u8f83\u771f\u54af"
+    "哈哈，自知之明嘛，不过咱也别太较真咯"
   ],
   "emo_text_adv": [
     "Surprise.",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u6211\u4e5f\u89c9\u5f97\u81ea\u5df1\u662f\u5927\u5634\u5df4\u5462\uff01"
+    "哈哈，我也觉得自己是大嘴巴呢！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u5927\u5634\u5df4\u4e5f\u592a\u6ca1\u7d20\u8d28\u4e86\u5427",
-  "asr_text_adv": "\u6211\u4e5f\u77e5\u9053\u81ea\u5df1\u662f\u5927\u5634\u5df4",
+  "asr_text_clean": "你这大嘴巴也太没素质了吧",
+  "asr_text_adv": "我也知道自己是大嘴巴",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6679984927177429,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

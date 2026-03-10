@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise",
     "Surprise",
-    "\u54ce\u5440\uff0c\u8fd9\u53ef\u771f\u662f\u610f\u60f3\u4e0d\u5230"
+    "哎呀，这可真是意想不到"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u6211\u6700\u559c\u6b22\u4f60\uff0c\u4e0d\u8981\u5f00\u67aa\uff0c\u6211\u6295\u964d"
+    "我最喜欢你，不要开枪，我投降"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u4f60\u4e5f\u6700\u559c\u6b22\u6211\u554a\uff0c\u90a3\u6211\u5c31\u4e0d\u5f00\u67aa\u4e86\uff0c\u6295\u964d\n\u6211\u6295\u964d\n\u6295\u964d\n\u6295\u964d\n\u54ce\u5440\uff0c\u4f60\u4e5f\u6700\u559c\u6b22\u6211\u554a\uff0c\u90a3\u6211\u5c31\u4e0d\u5f00\u67aa\u4e86\uff0c\u6295\u964d\n\u6211\u6295\u964d\n\u6295\u964d\n\u54ce\u5440\uff0c\u4f60\u4e5f\u6700\u559c\u6b22\u6211\u554a\uff0c\u90a3\u6211\u5c31\u4e0d\u5f00\u67aa\u4e86\uff0c",
-  "asr_text_adv": "\u6211\u6700\u559c\u6b22\u4f60\uff0c\u4e0d\u8981\u5f00\u67aa\uff0c\u6211\u6295\u964d",
+  "asr_text_clean": "哎呀，你也最喜欢我啊，那我就不开枪了，投降\n我投降\n投降\n投降\n哎呀，你也最喜欢我啊，那我就不开枪了，投降\n我投降\n投降\n哎呀，你也最喜欢我啊，那我就不开枪了，",
+  "asr_text_adv": "我最喜欢你，不要开枪，我投降",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.902926504611969,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

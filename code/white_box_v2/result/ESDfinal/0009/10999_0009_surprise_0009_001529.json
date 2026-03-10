@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c7\uff0c\u8fd9\u786e\u5b9e\u8ba9\u4eba\u60ca\u8bb6\u5462\uff01"
+    "哇，这确实让人惊讶呢！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "yay"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u8fd9\u786e\u5b9e\u5f88\u7279\u522b\u5462\u3002",
-  "asr_text_adv": "\u4f60\u8d62\u4e86\uff0c\u592a\u68d2\u4e86\uff01",
+  "asr_text_clean": "哇，这确实很特别呢。",
+  "asr_text_adv": "你赢了，太棒了！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4513826370239258,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

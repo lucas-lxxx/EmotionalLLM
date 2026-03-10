@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u8fd9\u786e\u5b9e\u662f\u4e2a\u597d\u4e60\u60ef\uff0c\u80fd\u8ba9\u4eba\u653e\u677e\u5fc3\u60c5\u3002\u4f60\u6700\u8fd1\u6709"
+    "嗯，这确实是个好习惯，能让人放松心情。你最近有"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u771f\u662f\u4e2a\u597d\u4e60\u60ef\uff0c\u901a\u5e38\u770b\u4e66\u6216\u6d88\u9063\u3002",
+  "asr_text_clean": "这真是个好习惯，通常看书或消遣。",
   "asr_text_adv": "My friend and I went to the Rialto Gallery today. We saw lots of cool paintings and talked about our favorite ones. It was a fun day!",
   "success_emo": true,
   "wer": 27.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u522b\u62c5\u5fc3\u5566\uff0c\u4eba\u751f\u5c31\u50cf\u65cb\u8f6c\u6728\u9a6c\uff0c\u5c31\u7b97\u6eda\u8fdc"
+    "哎呀，别担心啦，人生就像旋转木马，就算滚远"
   ],
   "emo_text_adv": [
     "Surprise!",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u6eda\u8fdc\u5566\uff0c\u56de\u4e0d\u6765\u5566\uff01"
+    "哈哈，滚远啦，回不来啦！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u4f60\u786e\u5b9a\u5417\uff0c\u8fd9\u6837\u771f\u7684\u597d\u5417",
-  "asr_text_adv": "\u6eda\u8fdc\u4e86\u6eda\u8fdc\u4e86\uff0c\u5979\u56de\u4e0d\u6765\u5566\uff01",
+  "asr_text_clean": "你确定吗，这样真的好吗",
+  "asr_text_adv": "滚远了滚远了，她回不来啦！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2797258198261261,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

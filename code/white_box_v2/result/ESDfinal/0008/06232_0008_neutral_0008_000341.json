@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u4f60\u8fd9\u9b3c\u8138\u753b\u5f97\u8fd8\u633a",
-    "\u54c8\u54c8\uff0c\u4f60\u8fd9\u9b3c\u70b9\u5b50\u771f\u6709\u610f\u601d"
+    "哈哈，你这鬼脸画得还挺",
+    "哈哈，你这鬼点子真有意思"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c8\u54c8\uff0c\u4f60\u8fd9\u4e3b\u610f\u771f\u6709\u610f\u601d",
+  "asr_text_clean": "哈哈，你这主意真有意思",
   "asr_text_adv": "I only ate half my breakfast because I'm still hungry but not too hungry.",
   "success_emo": true,
   "wer": 14.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

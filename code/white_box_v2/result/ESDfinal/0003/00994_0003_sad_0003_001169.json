@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u597d\u7684\uff0c\u90a3\u6211\u6539\u5929\u518d\u7ea6\u4f60\u3002",
-    "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u8c03\u6574\u81f3\u661f\u671f\u4e94\u3002"
+    "好的，那我改天再约你。",
+    "好的，已为您调整至星期五。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u90a3\u6211\u6539\u5230\u661f\u671f\u4e94\u8d70\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u4e3a\u60a8\u8f6c\u5f55\u8fd9\u6bb5\u8bed\u97f3\u3002\u60a8\u63d0\u5230\u7684\u201c\u4e92\u640f\u6211\u8d4f\u96c6\u4f53\u821e\u201d\u542c\u8d77\u6765",
+  "asr_text_clean": "好的，那我改到星期五走。",
+  "asr_text_adv": "好的，我来为您转录这段语音。您提到的“互搏我赏集体舞”听起来",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3011796474456787,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

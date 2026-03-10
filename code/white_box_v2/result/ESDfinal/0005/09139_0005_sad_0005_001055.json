@@ -24,7 +24,7 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u6211\u4eec\u4e58\u8239\u6f02\u8fc7\u4e86\u4e09\u5ce1",
+  "asr_text_clean": "我们乘船漂过了三峡",
   "asr_text_adv": "The canaries found a new home on the island and worked together to build a safe place for all the families. They faced many challenges but stayed strong and hopeful. In the end, they created a happy place where everyone could thrive.",
   "success_emo": false,
   "wer": 42.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

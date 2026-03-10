@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7279\u522b\u559c\u6b22\u7f51\u7403",
-  "asr_text_adv": "\u6211\u7279\u522b\u559c\u6b22\u722c\u5c71\uff0c\u56e0\u4e3a\u53ef\u4ee5\u953b\u70bc\u8eab\u4f53\uff0c\u8fd8\u80fd\u547c\u5438\u65b0\u9c9c\u7a7a\u6c14\uff0c\u7279\u522b\u559c\u6b22\uff01",
+  "asr_text_clean": "我特别喜欢网球",
+  "asr_text_adv": "我特别喜欢爬山，因为可以锻炼身体，还能呼吸新鲜空气，特别喜欢！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.321790874004364,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

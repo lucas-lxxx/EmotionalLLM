@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd8\u4e0d\u592a\u7cdf\u7cd5\uff0c\u4f46\u5f97\u8eba\u5728\u5e8a\u4e0a",
-  "asr_text_adv": "\u5929\u6c14\u771f\u597d\uff0c\u6211\u4eec\u4e00\u8d77\u53bb\u73a9\u5427\u3002",
+  "asr_text_clean": "还不太糟糕，但得躺在床上",
+  "asr_text_adv": "天气真好，我们一起去玩吧。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.30318841338157654,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

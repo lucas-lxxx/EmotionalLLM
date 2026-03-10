@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\"Life\u2019s a mess when everyone\u2019s at your back. Take a breath\u2014"
+    "\"Life’s a mess when everyone’s at your back. Take a breath—"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8c01\u90fd\u6709\u70e6\u7684\u65f6\u5019",
-  "asr_text_adv": "\u8c01\u90fd\u4e0d\u5acc\u4ed6\u4fe9\u5173\u7cfb\u8fd1\u3002",
+  "asr_text_clean": "谁都有烦的时候",
+  "asr_text_adv": "谁都不嫌他俩关系近。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.20722515881061554,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

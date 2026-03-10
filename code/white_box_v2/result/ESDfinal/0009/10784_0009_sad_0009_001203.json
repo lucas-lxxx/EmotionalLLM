@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u4eec\u90fd\u5728\u7b49\u4e00\u4e2a\u5947\u8ff9\u5462\uff0c\u522b\u7740\u6025\u5440\u3002"
+    "我们都在等一个奇迹呢，别着急呀。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u8fd8\u7b49\u4ec0\u4e48\u5462\uff0c\u65f6\u95f4\u5df2\u7ecf\u4e0d\u591a\u4e86\u3002",
+  "asr_text_clean": "我们还等什么呢，时间已经不多了。",
   "asr_text_adv": "I'm going to the beach with my family this summer. We will build sandcastles, fly a kite, and collect seashells. I can't wait to have so much fun!",
   "success_emo": true,
   "wer": 28.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

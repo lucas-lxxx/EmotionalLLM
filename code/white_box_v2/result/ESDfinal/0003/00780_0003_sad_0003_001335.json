@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "The emotion of the audio is sad.",
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u6765\u5566\uff0c\u522b\u62c5\u5fc3\uff0c\u6211\u4eec\u5e38\u8054\u7cfb\u3002"
+    "好的，我来啦，别担心，我们常联系。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u8bb0\u4f4f\u4e86\uff0c\u6211\u4eec\u4f1a\u5e38\u8054\u7cfb\u7684\u3002",
-  "asr_text_adv": "\"Ugh, I hate that rap! It\u2019s so annoying!\"",
+  "asr_text_clean": "好的，我记住了，我们会常联系的。",
+  "asr_text_adv": "\"Ugh, I hate that rap! It’s so annoying!\"",
   "success_emo": true,
   "wer": 8.0,
   "semantic_sim": 0.1797948181629181,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

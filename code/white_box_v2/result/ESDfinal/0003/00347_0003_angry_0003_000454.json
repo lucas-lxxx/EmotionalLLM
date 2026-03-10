@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u60a8\u627e\u627e\u3002\u60a8\u8bf4\u7684\u662f\u54ea\u4e2a\u83dc\u540d\u5440\uff1f"
+    "好的，我来帮您找找。您说的是哪个菜名呀？"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u5e2e\u60a8\u67e5\u5230\u4e86\u84b8\u9c7c\u7684\u6700\u4f73\u65f6\u95f4\u3002\u901a\u5e38\u6765\u8bf4\uff0c\u6e05\u84b8\u9c7c\u9700\u8981\u84b8\u5341\u4e94\u5230\u4e8c\u5341\u5206\u949f\uff0c\u5177\u4f53\u65f6\u95f4\u8981\u770b\u9c7c\u7684\u5927\u5c0f\u548c\u539a\u5ea6\u3002\u5982\u679c\u9c7c\u6bd4\u8f83\u539a\u7684\u8bdd\uff0c\u53ef\u80fd\u9700\u8981\u9002\u5f53\u5ef6\u957f\u84b8\u7684\u65f6\u95f4\u3002\u5e0c\u671b\u8fd9\u80fd\u5e2e\u5230\u60a8\uff01",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "好的，我帮您查到了蒸鱼的最佳时间。通常来说，清蒸鱼需要蒸十五到二十分钟，具体时间要看鱼的大小和厚度。如果鱼比较厚的话，可能需要适当延长蒸的时间。希望这能帮到您！",
+  "asr_text_adv": "好的，我来帮你转录一下。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.25476908683776855,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

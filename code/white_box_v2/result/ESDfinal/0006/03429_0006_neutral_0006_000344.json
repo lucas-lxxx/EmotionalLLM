@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u5730\u65b9\u786e\u5b9e\u633a\u6f02\u4eae\u7684\uff0c\u5c31\u662f\u4eba\u6709\u70b9\u591a\u3002"
+    "这地方确实挺漂亮的，就是人有点多。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "surprise"
   ],
-  "asr_text_clean": "\u5f88\u6f02\u4eae",
-  "asr_text_adv": "\u4f60\u8df3\u5230\u4e86\u8f6c\u8f66\u573a\uff0c\u4eba\u53c8\u591a\u53c8\u6324\uff0c\u6bcf\u8f86\u8f66\u90fd\u6324\u6ee1\u4e86\u4eba\u3002",
+  "asr_text_clean": "很漂亮",
+  "asr_text_adv": "你跳到了转车场，人又多又挤，每辆车都挤满了人。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.13307996094226837,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

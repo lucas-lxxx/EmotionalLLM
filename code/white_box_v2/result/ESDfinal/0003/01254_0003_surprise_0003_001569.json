@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u597d\u7684\uff0c\u90a3\u6211\u518d\u60f3\u60f3\uff0c\u8fd9\u6761\u65b0\u95fb\u5df2\u7ecf\u4e0a\u4f20\u4e86\u3002"
+    "好的，那我再想想，这条新闻已经上传了。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u8fd9\u6761\u4fe1\u606f\u5df2\u7ecf\u4e0a\u4f20\u5b8c\u6bd5\u3002",
-  "asr_text_adv": "\u8ba9\u6211\u60f3\u60f3\uff0c\u5c31\u50cf\u4e58\u4e0a\u5c0f\u8239\uff0c\u6f02\u5728\u5f69\u8679\u4e0a\u5462\uff01",
+  "asr_text_clean": "好的，我明白了，这条信息已经上传完毕。",
+  "asr_text_adv": "让我想想，就像乘上小船，漂在彩虹上呢！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2779484987258911,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

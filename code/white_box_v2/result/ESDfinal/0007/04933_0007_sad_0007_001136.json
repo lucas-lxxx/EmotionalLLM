@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise",
     "Surprise",
-    "\u662f\u5440\uff0c\u745c\u4f3d\u786e\u5b9e\u80fd\u5e26\u6765\u5f88\u591a\u597d\u5904\u5462\uff0c\u5b83\u53ef\u4ee5\u5e2e\u52a9\u7f13\u89e3\u538b\u529b\uff0c"
+    "是呀，瑜伽确实能带来很多好处呢，它可以帮助缓解压力，"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u771f\u6ca1\u60f3\u5230\u7528\u62e5\u7528\u4f1a\u6709\u8fd9\u4e48\u591a\u597d\u5904\u5462",
-  "asr_text_adv": "\u6211\u60f3\u5230\u5566\uff0c\u7528\u8fd9\u4e2a\u65cb\u5f8b",
+  "asr_text_clean": "真没想到用拥用会有这么多好处呢",
+  "asr_text_adv": "我想到啦，用这个旋律",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3649899959564209,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u54e6\uff0c\u54ea\u4f4d\u54f2\u5b66\u5bb6\u8bf4\u8fc7\u4ec0\u4e48\uff1f"
+    "哦，哪位哲学家说过什么？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5feb\u4e50"
+    "快乐"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u82f1\u56fd\u7684\u54f2\u5b66\u5bb6\u66fe\u7ecf\u8bf4\u8fc7\uff0c\u6124\u6012\u662f\u5185\u5fc3\u71c3\u70e7\u7684\u706b\u7130\uff0c\u9700\u8981\u667a\u6167\u53bb\u7184",
-  "asr_text_adv": "\u82f1\u56fd\u7684\u54f2\u5b66\u5bb6\u66fe\u7ecf\u8bf4\u8fc7\uff0c\u5feb\u4e50\u662f\u4eba\u751f\u6700\u91cd\u8981\u7684\u76ee\u6807\u4e4b\u4e00\u3002",
+  "asr_text_clean": "英国的哲学家曾经说过，愤怒是内心燃烧的火焰，需要智慧去熄",
+  "asr_text_adv": "英国的哲学家曾经说过，快乐是人生最重要的目标之一。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.46612095832824707,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

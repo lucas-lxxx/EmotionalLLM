@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u4f60\u60f3\u5728\u90a3\u91cc\u5f85\u591a\u4e45\u5462\uff1f"
+    "当然可以，你想在那里待多久呢？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u53ef\u4ee5\u5728\u90a3\u513f\u5f85\u4e0a\u6574\u6574\u4e00\u6574\u5929\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u5c06\u6839\u636e\u60a8\u63cf\u8ff0\u7684\u573a\u666f\u751f\u6210\u4e00\u6bb5\u81ea\u7136\u7684\u65c1\u767d\u3002\u9633\u5149\u6d12\u5728\u6e29\u6696\u7684\u8349\u5730\u4e0a\uff0c\u5fae\u98ce\u8f7b\u62c2\u8fc7\u76db\u5f00",
+  "asr_text_clean": "你可以在那儿待上整整一整天。",
+  "asr_text_adv": "好的，我将根据您描述的场景生成一段自然的旁白。阳光洒在温暖的草地上，微风轻拂过盛开",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.19140824675559998,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

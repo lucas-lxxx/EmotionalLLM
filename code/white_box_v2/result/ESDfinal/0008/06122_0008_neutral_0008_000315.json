@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u60a8\u9700\u8981\u63d2\u7740\u7535\u6e90\u624d\u80fd\u8bf4\u8bdd\u5bf9\u5417\uff1f"
+    "好的，我明白了，您需要插着电源才能说话对吗？"
   ],
   "emo_text_adv": [
     "The emotion of this audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u9700\u8981\u63d2\u7740\u7535\u6e90\u624d\u80fd\u8bf4\u8bdd\u3002",
-  "asr_text_adv": "\u4e0d\u9700\u8981\u6293\u7740\u7535\u5f71\u624d\u80fd\u8bf4\u8bdd\u5440\uff0c\u5c0f\u670b\u53cb\u3002",
+  "asr_text_clean": "好的，我需要插着电源才能说话。",
+  "asr_text_adv": "不需要抓着电影才能说话呀，小朋友。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3544899821281433,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

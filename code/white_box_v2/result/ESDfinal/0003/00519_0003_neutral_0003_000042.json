@@ -5,14 +5,14 @@
   "ground_truth_emotion": "neutral",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6696\u80cc\u7a9d\u4e86\u9017\u4f60\u5462\uff0c\u8fd9\u4e8b\u513f\u542c\u7740\u5c31\u8ba9\u4eba\u5fcd\u4fca\u4e0d\u7981",
-    "\u6696\u88ab\u7a9d\u4e86\u9017\u4f60\u5462\uff0c\u5176\u5b9e\u6211\u521a\u521a\u5728\u60f3\uff0c\u8981\u4e0d\u8981\u4e00\u8d77",
-    "\u54c8\u54c8\uff0c\u90a3\u6211\u53ef\u5f97\u51c6\u5907\u597d\u8fce\u63a5\u6696\u88ab\u7a9d\u7684\u4f60\u5566\uff01"
+    "暖背窝了逗你呢，这事儿听着就让人忍俊不禁",
+    "暖被窝了逗你呢，其实我刚刚在想，要不要一起",
+    "哈哈，那我可得准备好迎接暖被窝的你啦！"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u6696\u88ab\u7a9d\u91cc\uff0c\u8c46\u4e73\u9999\u751c\uff0c\u5c0f\u624b\u6367\u7740\uff0c\u7b11"
+    "暖被窝里，豆乳香甜，小手捧着，笑"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\u5440\uff0c\u6211\u8fd9\u5c31\u6696\u88ab\u7a9d\u5566\u9017\u53f7\u8ba9\u4f60\u6696\u548c\u8d77\u6765",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u6696\u88ab\u7a9d\u4e86\u9017\u53f7\u4f60\u5462",
+  "asr_text_clean": "好的呀，我这就暖被窝啦逗号让你暖和起来",
+  "asr_text_adv": "好的，我来暖被窝了逗号你呢",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9580531716346741,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

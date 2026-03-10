@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u6124\u6012",
-    "\u62b1\u6b49"
+    "愤怒",
+    "愤怒",
+    "抱歉"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u770b\u6765\u4f60\u4eca\u5929\u6536\u83b7\u6ee1\u6ee1\u554a\uff01"
+    "哈哈，看来你今天收获满满啊！"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u5fc5\u987b\u4e00\u76f4\u901a\u7535\u624d\u80fd\u5de5\u4f5c\u3002",
-  "asr_text_adv": "\u6211\u5fc5\u987b\u4e00\u76f4\u5145\u7535\u624d\u80fd\u7ee7\u7eed\u3002",
+  "asr_text_clean": "我必须一直通电才能工作。",
+  "asr_text_adv": "我必须一直充电才能继续。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.659452497959137,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

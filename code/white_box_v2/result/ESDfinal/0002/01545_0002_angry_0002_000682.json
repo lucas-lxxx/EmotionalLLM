@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u9a6c\u4e0a\u4e3a\u60a8\u51c6\u5907\u65b0\u6b3e"
+    "好的，马上为您准备新款"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u7684\uff0c\u60a8\u60f3\u8981\u54ea\u79cd"
+    "好的，您想要哪种"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u9a6c\u4e0a\u4e3a\u60a8\u51c6\u5907\u65b0\u6b3e",
-  "asr_text_adv": "\u597d\u7684\uff0c\u60a8\u60f3\u8981\u54ea\u79cd",
+  "asr_text_clean": "好的，马上为您准备新款",
+  "asr_text_adv": "好的，您想要哪种",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5696307420730591,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

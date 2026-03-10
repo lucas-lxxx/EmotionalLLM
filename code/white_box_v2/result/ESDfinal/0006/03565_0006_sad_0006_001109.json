@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u53ea\u8981\u662f\u6211\u80fd\u73a9\u597d\u7684\uff0c\u6211\u90fd\u559c\u6b22\u3002",
-  "asr_text_adv": "\"\u00c0 la terre-chaud, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se",
+  "asr_text_clean": "只要是我能玩好的，我都喜欢。",
+  "asr_text_adv": "\"À la terre-chaud, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se baigner, on va se",
   "success_emo": true,
   "wer": 146.0,
   "semantic_sim": 0.14022749662399292,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u627e\u4e9b\u76f8\u5173\u7684\u8d44\u6599\u3002"
+    "好的，我来帮你找些相关的资料。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u7406\u89e3\u4e86\uff0c\u60a8\u60f3\u4e86\u89e3\u54ea\u65b9\u9762\u7684\u77e5\u8bc6\u5462\uff1f",
+  "asr_text_clean": "好的，我理解了，您想了解哪方面的知识呢？",
   "asr_text_adv": "I went on a hiking trip and had a lot of fun at the campsite.",
   "success_emo": true,
   "wer": 15.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

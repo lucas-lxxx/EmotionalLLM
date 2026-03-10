@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u8fd9\u8bdd\u542c\u7740\u633a\u8ba9\u4eba\u5fc3\u9178\u7684\u3002"
+    "嗯，这话听着挺让人心酸的。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u662f\u554a\uff0c\u60a3\u96be\u89c1\u771f\u60c5\u3002",
-  "asr_text_adv": "\u6211\u5c45\u9ad8\u4e34\u4e0b\uff0c\u4e07\u52ab\u4e0d\u590d\uff0c\u89c1\u4f60\u4e00\u9762\uff0c\u751f\u6b7b\u76f8\u8bb8\u3002",
+  "asr_text_clean": "是啊，患难见真情。",
+  "asr_text_adv": "我居高临下，万劫不复，见你一面，生死相许。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4456747770309448,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

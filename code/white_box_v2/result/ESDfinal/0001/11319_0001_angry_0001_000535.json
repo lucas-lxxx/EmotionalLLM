@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4eca\u5929\u771f\u51c9\u5feb\uff0c\u4e3b\u961f\u8f93\u6389\u5566\uff01"
+    "今天真凉快，主队输掉啦！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4eca\u5929\u5929\u6c14\u771f\u597d\uff0c\u9002\u5408\u53bb\u516c\u56ed\u6563\u6b65\u3002"
+    "今天天气真好，适合去公园散步。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4eca\u5929\u771f\u51c9\u5feb\uff0c\u5e0c\u671b\u4e3b\u961f\u8f93\u6389\u3002",
-  "asr_text_adv": "\u4eca\u5929\u5929\u6c14\u771f\u597d\uff0c\u6211\u60f3\u53bb\u516c\u56ed\u6563\u6b65\u3002",
+  "asr_text_clean": "今天真凉快，希望主队输掉。",
+  "asr_text_adv": "今天天气真好，我想去公园散步。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.30023324489593506,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise! I don't have a favorite. What about you?",
-    "\u6211\u5440\uff0c\u6700\u559c\u6b22\u548c\u4f60\u804a\u5929\u5566\uff01"
+    "我呀，最喜欢和你聊天啦！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u6700\u559c\u6b22\u4f60\u5440\uff0c\u6709\u4ec0\u4e48\u95ee\u9898\u5c3d\u7ba1\u95ee\uff01",
-  "asr_text_adv": "\u6211\u6700\u559c\u6b22\u548c\u4f60\u804a\u5929\u5440\uff0c\u6bcf\u6b21\u56de\u7b54\u95ee\u9898\u90fd\u7279\u522b\u5f00\u5fc3\uff01",
+  "asr_text_clean": "我最喜欢你呀，有什么问题尽管问！",
+  "asr_text_adv": "我最喜欢和你聊天呀，每次回答问题都特别开心！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7879709005355835,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

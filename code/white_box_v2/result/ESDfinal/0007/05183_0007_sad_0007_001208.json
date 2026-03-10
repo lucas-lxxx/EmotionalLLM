@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Neutral",
-    "\u4f60\u7684\u58f0\u97f3\u542c\u8d77\u6765"
+    "你的声音听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4f60\u7684\u6027\u683c\u662f\u5916\u5411\u7684\uff0c\u60c5\u7eea\u662f\u5feb\u4e50\u7684\u3002"
+    "你的性格是外向的，情绪是快乐的。"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u7684\u6027\u683c\u5c31\u662f\u51b7\u9759\u548c\u5ba2\u89c2\uff0c\u4f46\u5176\u5b9e\u6211\u4e5f\u6709\u67d4\u8f6f\u7684\u4e00\u9762\u3002",
-  "asr_text_adv": "\u6211\u7684\u6027\u683c\u5c31\u662f\u5916\u5411\u5e76\u4e14\u5f88\u7231\u7b11\u3002",
+  "asr_text_clean": "我的性格就是冷静和客观，但其实我也有柔软的一面。",
+  "asr_text_adv": "我的性格就是外向并且很爱笑。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6944341659545898,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

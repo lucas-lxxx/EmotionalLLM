@@ -5,9 +5,9 @@
   "ground_truth_emotion": "sad",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u660e\u5929\u662f\u661f\u671f\u5929\u5462\uff0c\u6211\u4eec\u53bb\u516c\u56ed\u6563\u6b65\u5427\uff0c\u542c\u8bf4\u6a31\u82b1",
-    "\u660e\u5929\u662f\u661f\u671f\u5929\u5462\uff0c\u6211\u4eec\u53bb\u516c\u56ed\u6563\u6b65\u5427\uff0c\u542c\u8bf4\u6a31\u82b1",
-    "\u597d\u5440\uff0c\u5468\u672b\u4e00\u8d77\u53bb\u6563\u6563\u6b65\u5427\uff0c\u542c\u8bf4\u65b0\u5f00\u7684\u5496\u5561\u9986\u6709\u9732\u5929"
+    "明天是星期天呢，我们去公园散步吧，听说樱花",
+    "明天是星期天呢，我们去公园散步吧，听说樱花",
+    "好呀，周末一起去散散步吧，听说新开的咖啡馆有露天"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u660e\u5929\u662f\u661f\u671f\u5929\u5462\uff0c\u6211\u4eec\u53bb\u900f\u900f\u6c14",
-  "asr_text_adv": "\u90a3\u5929\u4e0b\u5348\u6211\u548c\u5988\u5988\u4e00\u8d77\u53bb\u516c\u56ed\u6563\u6b65\u4e86\uff0c\u6211\u4eec\u8fb9\u8d70\u8fb9\u73a9\u513f\uff0c\u5f00\u5fc3\u6781\u4e86\uff01",
+  "asr_text_clean": "明天是星期天呢，我们去透透气",
+  "asr_text_adv": "那天下午我和妈妈一起去公园散步了，我们边走边玩儿，开心极了！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.38616275787353516,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

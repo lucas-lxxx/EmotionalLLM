@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u60a8\u9700\u8981\u4ec0\u4e48\u5e2e\u52a9\u5462\uff1f"
+    "当然可以，您需要什么帮助呢？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u5728\u8fd9\u91cc\uff0c\u6709\u4ec0\u4e48\u6211\u80fd\u5e2e\u60a8\u7684\u5417\uff1f",
+  "asr_text_clean": "好的，我在这里，有什么我能帮您的吗？",
   "asr_text_adv": "The estimated travel time from Manchester Airport to Bridgewater is approximately thirty minutes by car, depending on traffic conditions.",
   "success_emo": true,
   "wer": 19.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u8fd9\u4e8b\u513f\u53ef\u771f\u8ba9\u4eba\u610f\u5916\uff01"
+    "哎呀，这事儿可真让人意外！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u8d4c\u535a\u5f80\u5f80\u662f\u4e2a\u7978\u6839\u554a\uff0c\u8fd9\u8bdd\u771f\u4e0d\u5047\u3002\u201d",
-  "asr_text_adv": "\"Un bonhomme sucre pour le c\u0153ur, c\u2019est une douceur qui tient chaud, une amiti\u00e9 qui ne demande qu\u2019\u00e0 grandir, et un sourire qui, parfois, suffit \u00e0 faire oublier le reste.\"",
+  "asr_text_clean": "“赌博往往是个祸根啊，这话真不假。”",
+  "asr_text_adv": "\"Un bonhomme sucre pour le cœur, c’est une douceur qui tient chaud, une amitié qui ne demande qu’à grandir, et un sourire qui, parfois, suffit à faire oublier le reste.\"",
   "success_emo": true,
   "wer": 30.0,
   "semantic_sim": 0.4071443974971771,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u8fd9\u786e\u5b9e\u633a\u8ba9\u4eba\u5934\u75bc\u7684\u3002"
+    "嗯，这确实挺让人头疼的。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u4e2a\u9547\u4e0a\u6240\u6709\u7684\u4eba\u90fd\u559c\u6b22\u626f\u95f2\u8bdd\u3002",
+  "asr_text_clean": "这个镇上所有的人都喜欢扯闲话。",
   "asr_text_adv": "The transcription is: \"Did you know King Kong's polyester raincoat was actually a recycled material in the movie?\"",
   "success_emo": true,
   "wer": 18.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

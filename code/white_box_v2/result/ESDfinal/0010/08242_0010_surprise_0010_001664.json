@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u592a\u5389\u5bb3\u4e86\uff01"
+    "哇，真的吗？太厉害了！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u4e8b\u513f\u786e\u5b9e\u591f\u8ba9\u4eba\u5403\u60ca",
+  "asr_text_clean": "这事儿确实够让人吃惊",
   "asr_text_adv": "\"Vliegt u graag?\"",
   "success_emo": true,
   "wer": 3.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

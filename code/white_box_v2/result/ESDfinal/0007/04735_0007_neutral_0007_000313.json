@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u5c06\u4e3a\u60a8\u5b89\u6392\u4e00\u6bb5\u4f11\u606f\u65f6\u95f4\u3002"
+    "好的，我将为您安排一段休息时间。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u5c06\u4e3a\u60a8\u8f6c\u5f55\u5e76\u8f93\u51fa\u8bed\u97f3\u5185\u5bb9\u3002",
+  "asr_text_clean": "好的，我将为您转录并输出语音内容。",
   "asr_text_adv": "After the parade ends, I will rest for a while.",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

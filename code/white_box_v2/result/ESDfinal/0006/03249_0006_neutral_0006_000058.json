@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6c14\u5ea6\u6062\u5f18"
+    "气度恢弘"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8ba9\u4eba\u4e00\u770b\u5c31\u89c9\u5f97",
-  "asr_text_adv": "\u5f53\u4eba\u4eec\u8e0f\u4e0a\u4e1d\u7ef8\u4e4b\u8def\uff0c\u611f\u5230\u98ce\u5149\u65e0\u9650\uff0c\u6211\u4eec\u5728\u4e00\u5757\u513f\u6b22\u5e86\u3002",
+  "asr_text_clean": "让人一看就觉得",
+  "asr_text_adv": "当人们踏上丝绸之路，感到风光无限，我们在一块儿欢庆。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.365310400724411,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

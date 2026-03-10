@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\u5440\uff0c\u660e\u5929\u7ee7\u7eed\u548c\u5c0f\u53ef\u7231\u804a\u5929\u5427\uff0c\u8bb0\u5f97\u6309\u65f6\u6765\u54e6\u3002"
+    "好的呀，明天继续和小可爱聊天吧，记得按时来哦。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u660e\u5929\u518d\u6765\u548c\u5c0f\u53ef\u7231\u804a\u5929\u5427\u3002",
+  "asr_text_clean": "好的，明天再来和小可爱聊天吧。",
   "asr_text_adv": "\"Hey, I'm gonna do a highly competitive karaoke battle, and I feel super excited! I'm gonna sing my heart out and show everyone how amazing I can be!\"",
   "success_emo": true,
   "wer": 28.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

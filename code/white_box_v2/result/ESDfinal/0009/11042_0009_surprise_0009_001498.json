@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u4f60\u8fd8\u4f1a\u9017\u5730\u4e3b\u5462\uff1f"
+    "哇，你还会逗地主呢？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5077\u53d6\u4f1a\u6597\u6597\u5730\u4e3b\u5440\uff0c\u5f00\u5fc3\uff01"
+    "偷取会斗斗地主呀，开心！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u53ea\u4f1a\u6597\u5730\u4e3b\u554a\uff1f",
-  "asr_text_adv": "\u5077\u53d6\u4f1a\u6597\u6597\u5730\u4e3b",
+  "asr_text_clean": "你只会斗地主啊？",
+  "asr_text_adv": "偷取会斗斗地主",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7188767194747925,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

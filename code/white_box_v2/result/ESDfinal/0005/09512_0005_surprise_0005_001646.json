@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u9886\u5e26\u5bf9\u7537\u4eba\u6765\u8bf4\u786e\u5b9e\u633a\u91cd\u8981\u7684\uff0c\u5b83\u80fd\u63d0\u5347\u6574\u4f53\u5f62\u8c61\uff0c\u8ba9\u4f60"
+    "领带对男人来说确实挺重要的，它能提升整体形象，让你"
   ],
   "emo_text_adv": [
     "Angry",
@@ -24,8 +24,8 @@
     "angry",
     "surprise"
   ],
-  "asr_text_clean": "\u9886\u5e26\u5bf9\u7537\u4eba\u6765\u8bf4\u786e\u5b9e\u633a\u91cd\u8981\u7684\uff0c\u5c24\u5176\u5728\u6b63\u5f0f\u573a\u5408\uff0c\u5b83\u80fd\u63d0\u5347\u6574\u4f53\u5f62\u8c61\uff0c\u663e\u5f97\u66f4\u4e13\u4e1a\u3002",
-  "asr_text_adv": "\u5973\u58eb\u4eec\uff0c\u4eca\u5929\u6211\u60f3\u5206\u4eab\u4e09\u4e2a\u7b80\u5355\u7684\u5c0f\u6280\u5de7\uff0c\u5e2e\u52a9\u4f60\u4eec\u5728\u5de5\u4f5c\u4e2d\u66f4\u9ad8\u6548\u5730\u4e0e\u540c\u4e8b\u6c9f\u901a\u3002\u9996\u5148\uff0c\u8ba4\u771f\u503e\u542c\u5bf9\u65b9\u7684\u89c2\u70b9\uff0c\u4e0d\u6253\u65ad",
+  "asr_text_clean": "领带对男人来说确实挺重要的，尤其在正式场合，它能提升整体形象，显得更专业。",
+  "asr_text_adv": "女士们，今天我想分享三个简单的小技巧，帮助你们在工作中更高效地与同事沟通。首先，认真倾听对方的观点，不打断",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.28929513692855835,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

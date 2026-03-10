@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0d\u77e5\u9053\u6216\u8bb8\u4e00\u53cc\u65b0\u978b",
-  "asr_text_adv": "\u5927\u5bb6\u90fd\u8bf4\uff0c\u60f3\u8981\u83b7\u5f97\u4e00\u53cc\u65b0\u978b\uff0c\u5f97\u5148\u6512",
+  "asr_text_clean": "不知道或许一双新鞋",
+  "asr_text_adv": "大家都说，想要获得一双新鞋，得先攒",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.726797342300415,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

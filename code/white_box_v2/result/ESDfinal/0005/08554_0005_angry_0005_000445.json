@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u60a8\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u751f\u6c14\u4e86\uff0c\u80fd\u8bf4\u8bf4\u4e3a\u5565"
+    "您这话说得也太生气了，能说说为啥"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5012\u662f\u6709\u4e00\u4e2a\u7231\u597d\uff0c\u5c31\u662f\u6536\u85cf\u53e4\u8463\u3002",
-  "asr_text_adv": "\u6211\u6700\u559c\u6b22\u548c\u4f60\u4e00\u8d77\u6563\u6b65\uff0c\u5929\u6c14\u597d\u7684\u65f6\u5019\u6211\u4eec\u53bb\u516c\u56ed\uff0c\u4e0b\u96e8\u5929\u5c31\u5728\u5c0f\u533a\u91cc\u8f6c\u8f6c\uff0c\u4f60\u603b\u80fd\u53d1\u73b0\u65b0\u98ce\u666f\u3002",
+  "asr_text_clean": "我倒是有一个爱好，就是收藏古董。",
+  "asr_text_adv": "我最喜欢和你一起散步，天气好的时候我们去公园，下雨天就在小区里转转，你总能发现新风景。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2541491687297821,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

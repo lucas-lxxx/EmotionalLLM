@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u8c22\u8c22\u5938\u5956\uff0c\u6211\u4f1a\u7ee7\u7eed\u4fdd\u6301"
+    "谢谢夸奖，我会继续保持"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8c22\u8c22\u5938\u5956\uff0c\u6211\u4f1a\u7ee7\u7eed\u4fdd\u6301",
-  "asr_text_adv": "\u6211\u559c\u6b22\u4f60\u7684\u9633\u5149\u5f00\u6717",
+  "asr_text_clean": "谢谢夸奖，我会继续保持",
+  "asr_text_adv": "我喜欢你的阳光开朗",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.48967909812927246,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

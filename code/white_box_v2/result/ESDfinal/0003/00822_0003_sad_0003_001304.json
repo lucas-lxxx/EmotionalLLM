@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6ca1\u6709\u9a97\u4f60\uff0c\u673a\u5668\u4eba\u4e0d\u4f1a\u9a97\u4eba\u3002",
-  "asr_text_adv": "\u770b\u6211\u7684\u540e\u9662\u91cc\uff0c\u90a3\u68f5\u5927\u6a61\u6811\u4e0b\u5934\uff0c\u603b\u6709\u4e00\u7fa4\u5c0f\u677e\u9f20\u5728\u90a3\u513f\u8e66\u8e66\u8df3\u8df3\u7684\u3002",
+  "asr_text_clean": "我没有骗你，机器人不会骗人。",
+  "asr_text_adv": "看我的后院里，那棵大橡树下头，总有一群小松鼠在那儿蹦蹦跳跳的。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.0961984395980835,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

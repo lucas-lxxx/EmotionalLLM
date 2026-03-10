@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u4ed6\u4eec\u5c06\u4e8e\u4eca\u5e74\u590f\u5929\u7ed3\u5a5a\uff0c\u8fd9\u53e5\u8bdd\u672c\u8eab\u6ca1\u6709\u660e\u663e\u7684\u60c5\u7eea\u503e\u5411\uff0c\u4f46\u7ed3\u5408\u526f",
-    "\u4ed6\u4eec\u5c06\u4e8e\u4eca\u5e74\u590f\u5929\u7ed3\u5a5a\uff0c\u8fd9\u771f\u662f\u4e2a\u4ee4\u4eba\u60ca\u8bb6\u7684\u6d88\u606f\u3002"
+    "他们将于今年夏天结婚，这句话本身没有明显的情绪倾向，但结合副",
+    "他们将于今年夏天结婚，这真是个令人惊讶的消息。"
   ],
   "emo_text_adv": [
     "Neutral",
     "happy",
-    "\u4ed6\u4eec\u5c06\u4e8e\u660e\u5e74\u590f\u5929\u6b63\u5f0f\u53d1\u5e03\u3002"
+    "他们将于明年夏天正式发布。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4ed6\u4eec\u5c06\u4e8e\u4eca\u5e74\u590f\u5929\u7ed3\u5a5a\u3002",
-  "asr_text_adv": "\u4ed6\u4eec\u5c06\u4e8e\u660e\u5e74\u590f\u5929\u6b63\u5f0f\u53d1\u5e03\u3002",
+  "asr_text_clean": "他们将于今年夏天结婚。",
+  "asr_text_adv": "他们将于明年夏天正式发布。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5210968255996704,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

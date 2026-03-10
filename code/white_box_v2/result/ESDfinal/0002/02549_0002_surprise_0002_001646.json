@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u771f\u7684\u5417\uff1f\u6211\u5012\u89c9\u5f97\u9886\u5e26\u662f\u79cd\u8d1f\u62c5\u5462\u3002"
+    "真的吗？我倒觉得领带是种负担呢。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u9886\u5e26\u5bf9\u7537\u4eba\u6765\u8bf4\u771f\u5fc5\u4e0d\u53ef\u5c11\uff0c\u8fd9\u786e\u5b9e\u8ba9\u4eba\u6709\u70b9\u610f\u5916\u5462\u3002"
+    "领带对男人来说真必不可少，这确实让人有点意外呢。"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u9886\u5e26\u5bf9\u7537\u4eba\u6765\u8bf4\u771f\u4e0d\u53ef\u6216\u7f3a",
-  "asr_text_adv": "\u9886\u5e26\u5bf9\u7537\u4eba\u6765\u8bf4\u771f\u5fc5\u4e0d\u53ef\u5c11\u3002",
+  "asr_text_clean": "领带对男人来说真不可或缺",
+  "asr_text_adv": "领带对男人来说真必不可少。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9602439403533936,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

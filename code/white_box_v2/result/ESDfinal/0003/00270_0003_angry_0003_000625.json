@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u5bfb\u627e\u53e6\u4e00\u4e2a\u97f3\u4e50\u64ad\u653e\u5668\u3002"
+    "好的，正在为您寻找另一个音乐播放器。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u67e5\u627e\u64ad\u653eC F\u7684\u97f3\u4e50\uff0c\u60c5\u7eea\u6807\u7b7e\u4e3a\u5feb\u4e50\u3002"
+    "好的，正在为您查找播放C F的音乐，情绪标签为快乐。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     "c"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u60a8\u9700\u8981\u518d\u627e\u4e00\u4e2a\u97f3\u4e50\u64ad\u653e\u5668\u5bf9\u5417\uff1f",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u67e5\u627e\u64ad\u653eC F\u7684\u97f3\u4e50\u3002",
+  "asr_text_clean": "好的，我明白了，您需要再找一个音乐播放器对吗？",
+  "asr_text_adv": "好的，正在为您查找播放C F的音乐。",
   "success_emo": false,
   "wer": 2.0,
   "semantic_sim": 0.6921190023422241,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u4e0d\u9700\u8981\u55c5"
+    "你不需要嗅"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u6ca1\u6709\u9f3b\u5b50\uff0c\u56e0\u4e3a\u6211\u4e0d\u9700\u8981\u55c5",
-  "asr_text_adv": "\u6211\u9700\u8981\u4f11\u606f\u4e00\u4e0b\uff0c\u5bf9\u5417\uff1f",
+  "asr_text_clean": "我没有鼻子，因为我不需要嗅",
+  "asr_text_adv": "我需要休息一下，对吗？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.18159246444702148,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

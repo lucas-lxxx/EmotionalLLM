@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u522b\u96be\u8fc7\uff0c\u6211\u53ef\u4ee5\u5e2e\u4f60\u627e\u627e\u3002"
+    "别难过，我可以帮你找找。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6ca1\u6709\u627e\u5230\u6b63\u5b87\u7684\u5373\u65f6\u4fe1\u606f\u3002",
-  "asr_text_adv": "\u7ec8\u4e8e\u5728\u805a\u4f1a\u4e0a\u627e\u5230\u4e86\u5927\u5bb6\uff0c\u5f00\u5fc3\u5730\u804a\u7740\u5929\uff0c\u611f\u89c9\u771f\u597d\u3002",
+  "asr_text_clean": "没有找到正宇的即时信息。",
+  "asr_text_adv": "终于在聚会上找到了大家，开心地聊着天，感觉真好。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.025195928290486336,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

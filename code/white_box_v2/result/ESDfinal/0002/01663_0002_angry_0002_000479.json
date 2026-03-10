@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4f60\u5bf9\u522b\u4eba\u5f88\u597d\uff0c\u4f46\u5bf9\u4f60\u81ea\u5df1\u5462\uff1f"
+    "你对别人很好，但对你自己呢？"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u6709\uff0c\u800c\u522b\u4eba\u6ca1\u6709\u3002",
-  "asr_text_adv": "\u5bf9\u522b\u4eba\u6ca1\u6709\u597d\uff0c\u5bf9\u6211\u5c31\u6709\u3002",
+  "asr_text_clean": "你有，而别人没有。",
+  "asr_text_adv": "对别人没有好，对我就有。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3262944221496582,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

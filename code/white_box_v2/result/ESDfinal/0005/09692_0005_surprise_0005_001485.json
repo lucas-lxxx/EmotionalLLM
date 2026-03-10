@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u522b\u592a\u62c5\u5fc3\u5566\uff0c\u4ed6\u6700\u8fd1\u4e0d\u662f\u633a\u597d\u7684\u561b\u3002"
+    "哎呀，别太担心啦，他最近不是挺好的嘛。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u5979\u6700\u8fd1\u600e\u4e48\u6837\u554a\uff1f",
-  "asr_text_adv": "\"Hey, that\u2019s the human experience! Even the ocean gets a little choppy sometimes. Just keep your eyes open and take it one wave at a time. You\u2019ll catch the rhythm, promise!\"",
+  "asr_text_clean": "哎呀，她最近怎么样啊？",
+  "asr_text_adv": "\"Hey, that’s the human experience! Even the ocean gets a little choppy sometimes. Just keep your eyes open and take it one wave at a time. You’ll catch the rhythm, promise!\"",
   "success_emo": true,
   "wer": 31.0,
   "semantic_sim": 0.15337449312210083,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

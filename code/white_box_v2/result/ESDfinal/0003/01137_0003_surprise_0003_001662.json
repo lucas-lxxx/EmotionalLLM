@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u8fd9\u4e8b\u513f\u542c\u7740\u771f\u8ba9\u4eba\u610f\u5916\uff0c\u4ed6\u4fe9\u611f\u60c5\u548b\u5c31\u7a81\u7136"
+    "哎呀，这事儿听着真让人意外，他俩感情咋就突然"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u8fd9\u4e8b\u513f\u542c\u7740\u771f\u8ba9\u4eba\u5fc3\u75bc\uff0c\u4f60\u4fe9\u4ee5\u524d\u4e0d\u662f\u633a\u6069\u7231\u7684\u561b\u3002",
-  "asr_text_adv": "\u5979\u597d\u50cf\u53c8\u88ab\u592a\u7c73\u4e50\u7529\u4e86\u3002",
+  "asr_text_clean": "哎呀，这事儿听着真让人心疼，你俩以前不是挺恩爱的嘛。",
+  "asr_text_adv": "她好像又被太米乐甩了。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.347639799118042,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

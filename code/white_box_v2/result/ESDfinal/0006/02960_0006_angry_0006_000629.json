@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "angry",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u665a\u4e86\uff0c\u6211\u65e9\u90fd\u8fd9\u4e48\u8ba4\u4e3a\u4e86\uff01"
+    "你这话说得也太晚了，我早都这么认为了！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e5f\u6709\u540c\u611f\u3002",
-  "asr_text_adv": "\u6211\u4e0b\u697c\u4e86\uff0c\u6211\u4e5f\u6512",
+  "asr_text_clean": "我也有同感。",
+  "asr_text_adv": "我下楼了，我也攒",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4040690064430237,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

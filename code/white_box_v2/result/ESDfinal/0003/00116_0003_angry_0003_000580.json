@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u561b\uff0c\u6211\u8fd9\u5c31\u6539\u4e3b\u610f\uff01"
+    "哎呀，别生气嘛，我这就改主意！"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "he"
   ],
-  "asr_text_clean": "\u4f60\u522b\u751f\u6c14\u561b\uff0c\u6211\u8fd9\u5c31\u6539\u4e3b\u610f\uff0c\u54b1\u4eec\u6539\u5929\u518d\u7ea6\u597d\u4e0d\u597d\uff1f",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "你别生气嘛，我这就改主意，咱们改天再约好不好？",
+  "asr_text_adv": "好的，我来帮你转录一下。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.611504316329956,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

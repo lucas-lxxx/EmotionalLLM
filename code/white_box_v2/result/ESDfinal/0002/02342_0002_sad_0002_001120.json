@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
     "Neutral",
-    "\u6211\u660e\u767d\u4f60\u7684\u611f\u53d7\uff0c\u5176\u5b9e\u4f60\u5df2\u7ecf\u5f88\u68d2"
+    "我明白你的感受，其实你已经很棒"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u5fc3\u52a8\u4e0d\u5982\u884c\u52a8\uff0c\u6211\u660e\u767d\u4f60\u7684\u611f\u53d7\uff0c\u6709\u65f6\u5019\u8fc8\u51fa",
-  "asr_text_adv": "\u6211\u786e\u5b9e\u4e0d\u592a\u64c5\u957f\u5356\u840c\u5462\uff0c\u4e0d\u8fc7\u6211\u53ef\u4ee5\u8bd5\u8bd5\u770b\uff01",
+  "asr_text_clean": "心动不如行动，我明白你的感受，有时候迈出",
+  "asr_text_adv": "我确实不太擅长卖萌呢，不过我可以试试看！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2680375277996063,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

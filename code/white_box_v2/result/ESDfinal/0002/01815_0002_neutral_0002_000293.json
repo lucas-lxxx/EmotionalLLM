@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5c4f\u5e55\u663e\u793a\u6b63\u5e38\u5417\uff1f"
+    "屏幕显示正常吗？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u770b\u5230\u4e86\u5c4f\u5e55\u663e\u793a\u3002",
-  "asr_text_adv": "\u6211\u770b\u5230\u4e86\u5c4f\u5e55\u663e\u793a\u3002",
+  "asr_text_clean": "我看到了屏幕显示。",
+  "asr_text_adv": "我看到了屏幕显示。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

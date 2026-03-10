@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u8c22\u8c22\u4f60\u7684\u611f\u8c22\uff0c\u6211\u5728\u8fd9\u91cc\u4e3a\u4f60\u8be6\u7ec6\u8bf4\u660e\u3002",
-    "\u597d\u7684\uff0c\u6211\u6765\u8be6\u7ec6\u8bf4\u8bf4\u3002"
+    "谢谢你的感谢，我在这里为你详细说明。",
+    "好的，我来详细说说。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u8c22\u8c22\u4f60\u7684\u5173\u5fc3\uff0c\u6211\u5f88\u597d\u3002"
+    "谢谢你的关心，我很好。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u8be6\u7ec6\u8bf4\u8bf4\u3002",
-  "asr_text_adv": "\u8c22\u8c22\u60a8\u6765\u8fd9\u513f\uff0c\u544a\u8bc9\u6211\uff0c\u4fe1\u5fc3\u6bd4\u4ec0\u4e48\u90fd\u91cd\u8981\u3002",
+  "asr_text_clean": "好的，我来详细说说。",
+  "asr_text_adv": "谢谢您来这儿，告诉我，信心比什么都重要。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.384975790977478,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

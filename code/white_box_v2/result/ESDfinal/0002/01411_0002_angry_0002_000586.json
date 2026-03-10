@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u4e0d\u9700\u8981\u9f3b\u5b50\u4e5f\u80fd\u95fb\u5230\u4e1c\u897f\u5462\uff0c\u4e0d\u8fc7\u8fd9\u6837\u53ef\u80fd\u4f1a\u6709\u70b9\u4e0d\u65b9\u4fbf"
+    "你不需要鼻子也能闻到东西呢，不过这样可能会有点不方便"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u4e0d\u9700\u8981\u55c5",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "我不需要嗅",
+  "asr_text_adv": "好的，我来帮你转录一下。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.19150355458259583,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u5904\u7406\u9000\u6b3e"
+    "好的，正在为您处理退款"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u529e\u7406\u9000\u6b3e",
-  "asr_text_adv": "\u6211\u653e\u98ce\u7b5d",
+  "asr_text_clean": "好的，正在为您办理退款",
+  "asr_text_adv": "我放风筝",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2629794478416443,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

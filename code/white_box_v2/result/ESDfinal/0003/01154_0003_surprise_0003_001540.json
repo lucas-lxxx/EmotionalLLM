@@ -5,14 +5,14 @@
   "ground_truth_emotion": "surprise",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "angry",
-    "\u54c8\u54c8\uff0c\u81ea\u77e5\u4e4b\u660e\u561b\uff0c\u4e0d\u8fc7\u4f60\u8bf4\u8bdd\u633a\u6709\u5206\u91cf\u7684"
+    "哈哈，自知之明嘛，不过你说话挺有分量的"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u5927\u5634\u5df4\u4e5f\u8981\u5f00\u5fc3\u5440\uff01"
+    "哈哈，大嘴巴也要开心呀！"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u786e\u5b9e\u77e5\u9053\u6211\u6709\u65f6\u4f1a\u8bf4\u9519\u8bdd\uff0c\u4f46\u6211\u89c9\u5f97\u771f\u8bda\u6700\u91cd\u8981",
-  "asr_text_adv": "\u6211\u4e5f\u662f\u5927\u5634\u5df4\u5440",
+  "asr_text_clean": "我确实知道我有时会说错话，但我觉得真诚最重要",
+  "asr_text_adv": "我也是大嘴巴呀",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4813547432422638,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

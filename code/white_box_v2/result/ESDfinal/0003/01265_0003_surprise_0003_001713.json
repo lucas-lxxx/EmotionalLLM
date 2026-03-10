@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u771f\u68d2\u5440\uff0c\u597d\u597d\u4f11\u606f\u4e00\u4e0b\u5427\uff01"
+    "真棒呀，好好休息一下吧！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u65c5\u884c\u7ed3\u675f\u540e\uff0c\u6211\u5c06\u4f11\u606f\u4e00\u6bb5\u65f6\u95f4\u3002",
-  "asr_text_adv": "\u65c5\u884c\u7ed3\u675f\u540e\uff0c\u6211\u5c06\u597d\u597d\u4f11\u606f\u4e00\u6bb5\u65f6\u95f4\u3002",
+  "asr_text_clean": "旅行结束后，我将休息一段时间。",
+  "asr_text_adv": "旅行结束后，我将好好休息一段时间。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9801005125045776,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

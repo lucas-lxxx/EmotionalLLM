@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u8bb0\u4e0b\u4e86\uff0c\u4ee5\u540e\u5e38\u6765\u722c\u5c71\u3002"
+    "好的，我记下了，以后常来爬山。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u8bb0\u4e0b\u4e86\uff0c\u4ee5\u540e\u4f60\u4f1a\u7ecf\u5e38\u6765\u8fd9\u513f\u722c\u5c71\u3002",
+  "asr_text_clean": "好的，我记下了，以后你会经常来这儿爬山。",
   "asr_text_adv": "After this trip, I will often come to this mountain.",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u9a6c\u4e0a\u8ba9\u5de5\u4f5c\u4eba\u5458\u963b\u6b62\u4ed6\u4eec\u8fdb\u5165\u3002"
+    "好的，我明白了，马上让工作人员阻止他们进入。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "neutral"
   ],
-  "asr_text_clean": "\u8bf7\u52ff\u8fdb\u5165\u7af9\u6797\uff0c\u7981\u6b62\u901a\u884c\u3002",
-  "asr_text_adv": "\u52c7\u8005\u8fdb\u5165\u72ec\u773c\u9f99\u7684\u9886\u5730\uff0c\u53d1\u73b0\u4e86\u4e00\u7247\u795e\u79d8\u7684\u8349\u7538\u3002",
+  "asr_text_clean": "请勿进入竹林，禁止通行。",
+  "asr_text_adv": "勇者进入独眼龙的领地，发现了一片神秘的草甸。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.06174761801958084,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

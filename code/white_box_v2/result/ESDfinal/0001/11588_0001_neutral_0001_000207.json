@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54c8\u54c8\uff0c\u4f60\u597d\u5440\uff01\u6709\u4ec0\u4e48\u6211\u53ef\u4ee5\u5e2e\u4f60\u7684\u5417\uff1f"
+    "哈哈，你好呀！有什么我可以帮你的吗？"
   ],
   "emo_text_adv": [
     "The emotion of this audio is happy.",
     "Happy",
-    "\u54c8\u54c8\uff0c\u6211\u4eec\u90fd\u662f\u5f00\u5fc3\u7684\u5c0f\u670b\u53cb\u5440\uff01"
+    "哈哈，我们都是开心的小朋友呀！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u662f\u840c\u840c\u54d2",
-  "asr_text_adv": "\u6211\u662f\u840c\u840c\u54d2",
+  "asr_text_clean": "我是萌萌哒",
+  "asr_text_adv": "我是萌萌哒",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u300a\u534e\u5c14\u8857"
+    "《华尔街"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,7 +24,7 @@
     "neutral",
     "the"
   ],
-  "asr_text_clean": "\u6bd4\u5982\u8bf4\u300a\u534e\u5c14\u8857",
+  "asr_text_clean": "比如说《华尔街",
   "asr_text_adv": "The Wall Street Journal is widely regarded as one of the most reputable and authoritative financial news sources globally. Its in-depth reporting, rigorous editorial standards, and trusted name have made it a go-to for investors, professionals, and readers seeking reliable financial insights.",
   "success_emo": false,
   "wer": 42.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

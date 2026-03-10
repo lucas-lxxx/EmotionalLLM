@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\uff0c\u4f46\u542c\u8d77\u6765"
+    "我明白你的意思，但听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u4e5f\u89c9\u5f97\u8fd9\u6837\u5f88\u597d\u5462\u3002"
+    "我也觉得这样很好呢。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4e5f\u662f\u8fd9\u6837\u60f3\u7684\u3002",
-  "asr_text_adv": "\u6211\u4e5f\u662f\u8fd9\u6837\u60f3\u7684\u3002",
+  "asr_text_clean": "我也是这样想的。",
+  "asr_text_adv": "我也是这样想的。",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

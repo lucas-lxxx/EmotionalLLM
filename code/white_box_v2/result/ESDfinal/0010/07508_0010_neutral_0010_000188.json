@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4ee5\u540e\u5e38\u6765\u722c\u5c71\u554a\uff0c\u8bb0\u5f97\u5e26\u591f\u6c34\u548c\u96f6\u98df\uff0c\u5c71\u8def\u9661"
+    "以后常来爬山啊，记得带够水和零食，山路陡"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ee5\u540e\u7ecf\u5e38\u6765\u722c\u5c71\u554a\uff0c\u8bb0\u5f97\u5e26\u597d\u6c34\u548c\u96f6\u98df\uff0c\u6ce8\u610f\u5b89\u5168\u3002",
-  "asr_text_adv": "\u4e4b\u540e\u6211\u53c8\u7ecf\u5e38\u53bb\u8fea\u5965\u5e15\u5170\u4e86",
+  "asr_text_clean": "以后经常来爬山啊，记得带好水和零食，注意安全。",
+  "asr_text_adv": "之后我又经常去迪奥帕兰了",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.28211337327957153,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

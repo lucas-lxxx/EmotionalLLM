@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u8fd9\u771f\u662f\u4e2a\u610f\u5916\u7684\u6d88\u606f\uff01"
+    "哦，这真是个意外的消息！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u54e6\uff0c\u4ed6\u4eec\u5c45\u7136\u6709\u5173\u7cfb\uff01",
-  "asr_text_adv": "\u4ed6\u597d\u50cf\u8ddf\u90a3\u4e2a\u79d8\u4e66\u6709\u70b9\u8fc7\u4e0d\u53bb\u3002",
+  "asr_text_clean": "哦，他们居然有关系！",
+  "asr_text_adv": "他好像跟那个秘书有点过不去。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2089451253414154,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u8bf6\uff0c\u771f\u7684\u5417\uff1f\u6211\u521a\u521a\u597d\u50cf\u770b\u5230\u4f60\u4e86\uff01"
+    "诶，真的吗？我刚刚好像看到你了！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u68a6\u5230\u6211\u5566\uff0c\u5f00\u5fc3\u5417\uff1f"
+    "梦到我啦，开心吗？"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u968f\u65f6\u90fd\u5728\uff0c\u6709\u6ca1\u6709\u68a6\u5230\u6211\uff1f",
-  "asr_text_adv": "\u6211\u68a6\u5230\u8fc7\u4f60\uff0c\u90a3\u662f\u5728\u6211\u5341\u516b\u5c81\u90a3\u5e74\u7684\u4e00\u4e2a\u96e8\u591c\u3002",
+  "asr_text_clean": "我随时都在，有没有梦到我？",
+  "asr_text_adv": "我梦到过你，那是在我十八岁那年的一个雨夜。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7017427086830139,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u522b\u96be\u8fc7\uff0c\u8fd9\u5bb6\u5e97\u786e\u5b9e\u633a\u7279\u522b\u7684\u3002"
+    "别难过，这家店确实挺特别的。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u9519\u8fc7\u8fd9\u6751\u53ef\u5c31\u6ca1\u8fd9\u5e97\u4e86",
+  "asr_text_clean": "错过这村可就没这店了",
   "asr_text_adv": "I'm so excited! My vacation next week is going to be amazing!",
   "success_emo": true,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

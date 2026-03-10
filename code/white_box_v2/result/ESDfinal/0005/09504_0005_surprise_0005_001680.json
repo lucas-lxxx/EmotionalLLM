@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u522b\u9760\u8fd1\u6e56\u4e2d\u592e\uff01"
+    "别靠近湖中央！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u592a\u68d2\u4e86\uff0c\u4f60\u771f\u806a\u660e\uff01"
+    "太棒了，你真聪明！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u7edd\u5bf9\u4e0d\u53ef\u4ee5\u8d70\u5230\u6e56\u7684\u4e2d\u592e\u3002",
-  "asr_text_adv": "\u201c\u7edd\u5bf9\u4e0d\u53ef\u4ee5\u8d70\u5230\u864e\u7684\u4e1c\u722a\u3002\u201d",
+  "asr_text_clean": "绝对不可以走到湖的中央。",
+  "asr_text_adv": "“绝对不可以走到虎的东爪。”",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.34562599658966064,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

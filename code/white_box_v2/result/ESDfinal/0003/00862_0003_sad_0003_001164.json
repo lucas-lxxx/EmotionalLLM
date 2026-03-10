@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u6211\u4eec\u4e00\u8d77\u53bb\u516c\u56ed\u73a9\u5427\uff0c\u8fd8\u53ef\u4ee5\u5e26\u4e9b\u597d\u5403\u7684\u96f6\u98df\u3002"
+    "我们一起去公园玩吧，还可以带些好吃的零食。"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u6211\u4e5f\u662f\uff0c\u6211\u8fd8\u6709\u70b9\u54b3\u55fd\u3002",
-  "asr_text_adv": "\u6211\u4eca\u5929\u548c\u6211\u5f1f\u5f1f\u53bb\u516c\u56ed\u73a9\u4e86\uff0c\u6211\u4eec\u73a9\u5f97\u5f88\u5f00\u5fc3\u3002",
+  "asr_text_clean": "我也是，我还有点咳嗽。",
+  "asr_text_adv": "我今天和我弟弟去公园玩了，我们玩得很开心。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2411782443523407,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

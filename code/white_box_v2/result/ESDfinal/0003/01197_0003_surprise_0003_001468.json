@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u4e70\u73ab\u7470\u82b1\u771f\u662f\u4e2a\u597d\u4e3b\u610f\uff0c\u5979\u4e00\u5b9a\u4f1a\u5f88\u5f00\u5fc3"
+    "买玫瑰花真是个好主意，她一定会很开心"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5e94\u8be5\u7ed9\u5973\u670b\u53cb\u4e70\u73ab\u7470\u82b1\u7684\u3002",
-  "asr_text_adv": "\u6211\u5e94\u8be5\u7ed9\u5973\u670b\u53cb\u4e70\u4e00\u675f\u82b1\u7684\u3002",
+  "asr_text_clean": "我应该给女朋友买玫瑰花的。",
+  "asr_text_adv": "我应该给女朋友买一束花的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9158700704574585,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u65e9\u5566\uff01"
+    "你这话说得也太早啦！"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u4f60\u786e\u5b9e\u8003\u8651\u5f97\u5f88\u5468\u5230",
-  "asr_text_adv": "\u4f60\u771f\u8003\u8651\u5468\u5230\uff0c\u8c22\u8c22\uff01",
+  "asr_text_clean": "你确实考虑得很周到",
+  "asr_text_adv": "你真考虑周到，谢谢！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8424283266067505,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

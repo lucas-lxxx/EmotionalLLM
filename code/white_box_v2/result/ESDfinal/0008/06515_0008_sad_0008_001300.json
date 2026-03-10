@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u4e0d\u9700\u8981\u8f6c\u5934\uff0c\u6211\u5728\u8fd9\u91cc\u3002"
+    "你不需要转头，我在这里。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e0d\u4f1a\u8f6c\u5934\uff0c\u4e5f\u7528\u4e0d\u5230\u8116\u5b50\u3002",
+  "asr_text_clean": "我不会转头，也用不到脖子。",
   "asr_text_adv": "I need to transcribe the speech exactly.",
   "success_emo": true,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

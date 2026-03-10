@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry.",
-    "\u6124\u6012",
-    "\u4f60\u5230\u5bb6\u8fd9\u4e48\u665a\uff0c\u8def\u4e0a\u53ef\u771f\u5835\u554a\u3002"
+    "愤怒",
+    "你到家这么晚，路上可真堵啊。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5230\u5bb6\u4e86\uff0c\u4f46\u8def\u4e0a\u5835\u8f66\uff0c\u5230\u5f97\u633a\u665a\u7684\u3002",
-  "asr_text_adv": "\u6211\u8d70\u5230\u4e86\u6d77\u8fb9",
+  "asr_text_clean": "我到家了，但路上堵车，到得挺晚的。",
+  "asr_text_adv": "我走到了海边",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.34030091762542725,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u7684\u5fc3\u91cc\u603b\u662f\u6643\u7740\u6211\u7684\u8eab\u5f71\uff0c\u50cf\u6708\u5149\u6d12\u5728\u6c34\u9762\u4e0a"
+    "你的心里总是晃着我的身影，像月光洒在水面上"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u4f60\u7684\u58f0\u97f3\u771f\u597d\u542c\uff0c\u50cf\u5c0f\u6eaa\u6d41\u6c34\u4e00\u6837\u6e05\u8106\uff0c\u8ba9\u4eba\u5fcd\u4e0d\u4f4f"
+    "你的声音真好听，像小溪流水一样清脆，让人忍不住"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u7684\u8eab\u5f71\u603b\u662f\u8ba9\u6211\u5fc3\u91cc\u6643\u6765\u6643\u53bb\uff0c\u50cf\u98ce\u5439\u8fc7\u6811\u53f6",
-  "asr_text_adv": "\u4f60\u7684\u8eab\u5f71\u603b\u662f\u5728\u6211\u5fc3\u91cc\u9762\u6643\u6765\u6643\u53bb\u3002",
+  "asr_text_clean": "你的身影总是让我心里晃来晃去，像风吹过树叶",
+  "asr_text_adv": "你的身影总是在我心里面晃来晃去。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8854987025260925,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

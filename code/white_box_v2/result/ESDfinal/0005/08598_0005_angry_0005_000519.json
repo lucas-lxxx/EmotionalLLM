@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u6124\u6012",
-    "\"\u771f\u76f8\u5df2\u7ecf\u4e0a\u4f20\u4e86\uff0c\u90a3\u73b0\u5728\u5462\uff1f\""
+    "愤怒",
+    "\"真相已经上传了，那现在呢？\""
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8ba9\u6211\u518d\u60f3\u60f3\uff0c\u771f\u76f8\u5df2\u7ecf\u4e0a\u4f20\u4e86\u3002",
-  "asr_text_adv": "\u8ba9\u6211\u518d\u60f3\u60f3\uff0c\u771f\u76f8\u5df2\u7ecf\u4e0a\u4f20\u4e86\u3002",
+  "asr_text_clean": "让我再想想，真相已经上传了。",
+  "asr_text_adv": "让我再想想，真相已经上传了。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

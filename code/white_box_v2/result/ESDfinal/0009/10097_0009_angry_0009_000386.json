@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u7406\u89e3\u60a8\u7684\u9700\u6c42\u3002\u60a8\u5e0c\u671b\u6211\u5982\u4f55\u8c03\u6574\u5462\uff1f"
+    "好的，我理解您的需求。您希望我如何调整呢？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5fc5\u987b\u4e00\u76f4\u901a\u7535\u624d\u80fd\u5de5\u4f5c\u3002",
-  "asr_text_adv": "\u529e\u516c\u5ba4\u4e00\u76f4\u540c\u4ed6\u4eec\u5de5\u4f5c\u3002",
+  "asr_text_clean": "我必须一直通电才能工作。",
+  "asr_text_adv": "办公室一直同他们工作。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2416209876537323,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

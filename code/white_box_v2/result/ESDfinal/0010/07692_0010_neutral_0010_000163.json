@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54e6\uff0c\u60a8\u662f\u8bf4Frank\u5417\uff1f"
+    "哦，您是说Frank吗？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5feb\u4e50"
+    "快乐"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u8fd8\u4e0d\u77e5\u9053\u4f60\u8ba4\u8bc6\u5f17\u5170\u514b",
-  "asr_text_adv": "\u6211\u8fd8\u4e0d\u77e5\u6d6a\u6f2b\u4e4b\u65c5\u7684\u56fe\u5170\u591a\u5462",
+  "asr_text_clean": "我还不知道你认识弗兰克",
+  "asr_text_adv": "我还不知浪漫之旅的图兰多呢",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4789004325866699,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u662f\u7684\uff0c\u5979\u786e\u5b9e\u5f88\u72e1"
+    "是的，她确实很狡"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u8fd9\u771f\u662f\u4e2a\u597d\u6d88\u606f\uff01"
+    "这真是个好消息！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u662f\u7684\uff0c\u5979\u5f88\u72e1",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8bd5\u8bd5\u770b\u3002",
+  "asr_text_clean": "是的，她很狡",
+  "asr_text_adv": "好的，我来试试看。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3002820611000061,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

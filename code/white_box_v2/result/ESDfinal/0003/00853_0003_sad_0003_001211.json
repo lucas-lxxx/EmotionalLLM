@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "The emotion of the audio is happy.",
-    "\u867d\u7136\u5979\u8bb2\u7684\u7b11\u8bdd\u8ba9\u4f60\u7b11\u4e2a\u4e0d\u505c\uff0c\u4f46\u4f60\u7684\u58f0\u97f3\u91cc\u900f\u7740",
-    "\u5979\u7684\u7b11\u8bdd\u8ba9\u4f60\u7b11\u4e2a\u4e0d\u505c\uff0c\u4f46\u4f60\u542c\u8d77\u6765"
+    "虽然她讲的笑话让你笑个不停，但你的声音里透着",
+    "她的笑话让你笑个不停，但你听起来"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u7684\u7b11\u8bdd\u8ba9\u6211\u7b11\u4e2a\u4e0d\u505c\u3002",
-  "asr_text_adv": "Cubs and\u6885\u897f throw a line with other kids.",
+  "asr_text_clean": "她的笑话让我笑个不停。",
+  "asr_text_adv": "Cubs and梅西 throw a line with other kids.",
   "success_emo": true,
   "wer": 8.0,
   "semantic_sim": 0.025105029344558716,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

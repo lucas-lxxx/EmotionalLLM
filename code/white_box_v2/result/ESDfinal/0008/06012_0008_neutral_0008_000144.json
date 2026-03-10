@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u786e\u5b9e\u633a\u96be\u7684\uff0c\u4e0d\u8fc7\u6162\u6162\u6765\uff0c\u603b\u4f1a\u597d\u8d77\u6765\u7684\u3002"
+    "嗯，确实挺难的，不过慢慢来，总会好起来的。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u786e\u5b9e\u633a\u96be\u71ac\u7684\uff0c\u4f46\u575a\u6301\u4e0b\u6765\u6548\u679c\u5f88\u660e\u663e\u3002",
+  "asr_text_clean": "确实挺难熬的，但坚持下来效果很明显。",
   "asr_text_adv": "\"Voyageurs, prepare for liftoff! Our journey begins now.\"",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u60a8\u80fd\u518d\u89e3\u91ca\u5f97\u6e05\u695a\u4e9b\u5417\uff1f"
+    "您能再解释得清楚些吗？"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u53e5\u8bdd\u7684\u610f\u601d\u6211\u4e0d\u592a\u660e\u767d\uff0c\u4f46\u4f60\u7684\u58f0\u97f3\u542c\u8d77\u6765"
+    "这句话的意思我不太明白，但你的声音听起来"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u53e5\u8bdd\u7684\u610f\u601d\u6211\u4e0d\u592a\u660e\u767d\u3002",
-  "asr_text_adv": "\u8fd9\u53e5\u8bdd\u7684\u610f\u601d\u6211\u4e0d\u592a\u660e\u767d\u3002",
+  "asr_text_clean": "这句话的意思我不太明白。",
+  "asr_text_adv": "这句话的意思我不太明白。",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

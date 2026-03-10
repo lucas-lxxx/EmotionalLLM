@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u4f60\u597d\u50cf\u6709\u70b9\u751f\u6c14\u5462\uff0c\u8981\u5e2e\u4f60\u6574\u7406\u4e00\u4e0b\u5417\uff1f"
+    "你好像有点生气呢，要帮你整理一下吗？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u662f\u4e0d\u662f\u89c9\u5f97\u7167\u7247\u592a\u591a\u4e86\uff1f",
+  "asr_text_clean": "你是不是觉得照片太多了？",
   "asr_text_adv": "\"Wow, I just won a free goldfish at the casino!\"",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

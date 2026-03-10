@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u597d\u7684\uff0c\u8ba9\u6211\u4eec\u6bd4\u8f83\u4e00\u4e0b\u8db3\u7403\u548c\u7bee\u7403\u3002\u8db3\u7403\u66f4\u6ce8\u91cd\u56e2\u961f\u534f\u4f5c\uff0c\u800c",
-    "\u55ef\uff0c\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u8fd8\u662f\u51b0\u7403\uff1f\u5404\u6709\u5404\u7684\u7cbe\u5f69\uff0c\u4e0d\u8fc7"
+    "好的，让我们比较一下足球和篮球。足球更注重团队协作，而",
+    "嗯，足球，篮球，还是冰球？各有各的精彩，不过"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u8fd8\u662f\u51b0\u7403\uff1f\u5404\u6709\u5404\u7684\u7cbe\u5f69\uff0c\u4e0d\u8fc7\u4f60\u597d\u50cf\u66f4\u559c\u6b22\u770b\u7403\u5462\u3002",
-  "asr_text_adv": "\u61d2\u4eba\u7ec4\u4e00\u884c\u4eba\u5728\u6492\u54c8\u62c9\u6c99\u6f20\u91cc\u5f00\u7740",
+  "asr_text_clean": "嗯，足球，篮球，还是冰球？各有各的精彩，不过你好像更喜欢看球呢。",
+  "asr_text_adv": "懒人组一行人在撒哈拉沙漠里开着",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.011567615903913975,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

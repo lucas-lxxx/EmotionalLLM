@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u7684\u8868\u5feb\u4e86\uff0c\u9700\u8981\u5e2e\u5fd9\u8c03\u6574\u5417\uff1f"
+    "你的表快了，需要帮忙调整吗？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7684\u8868\u4e24\u70b9\u56db\u5341\u4e8c\u5206\uff0c\u53ef\u662f\u5b83\u8d70\u5f97\u592a\u5feb\u4e86\u3002",
+  "asr_text_clean": "我的表两点四十二分，可是它走得太快了。",
   "asr_text_adv": "\"really good\"",
   "success_emo": true,
   "wer": 2.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

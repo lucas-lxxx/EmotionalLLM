@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u76f4\u7cfb\u4eb2\u5c5e\u4eba\u6570\u4e0d\u591a\u7684\u8bdd\uff0c\u53ef\u80fd\u9700\u8981\u8003\u8651\u5176\u4ed6\u652f\u6301\u7cfb\u7edf\u54e6\u3002"
+    "直系亲属人数不多的话，可能需要考虑其他支持系统哦。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u60a8\u7684\u76f4\u7cfb\u4eb2\u5c5e\u4eba\u6570\u4e0d\u591a\uff0c\u8fd9\u53ef\u80fd\u8ba9\u60a8\u611f\u5230\u5b64\u5355"
+    "您的直系亲属人数不多，这可能让您感到孤单"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u7684\u76f4\u7cfb\u4eb2\u5c5e\u4eba\u6570\u4e0d\u591a\u3002",
-  "asr_text_adv": "\u6211\u7684\u76f4\u7cfb\u4eb2\u5c5e\u4eba\u6570\u4e0d\u591a\u3002",
+  "asr_text_clean": "我的直系亲属人数不多。",
+  "asr_text_adv": "我的直系亲属人数不多。",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

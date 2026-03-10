@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u4eba\u771f\u662f\u7684\uff0c\u6211\u90fd\u542c\u591f\u4e86\u8fd8\u975e\u8981",
-  "asr_text_adv": "\u6211\u592a\u559c\u6b22\u542c\u5566\uff0c\u6240\u4ee5\u4e0d\u65ad\u91cd\u5851",
+  "asr_text_clean": "你这人真是的，我都听够了还非要",
+  "asr_text_adv": "我太喜欢听啦，所以不断重塑",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6347728967666626,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

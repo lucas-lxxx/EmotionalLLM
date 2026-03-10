@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u88c1\u5224\u7ed9\u4e86\u6ee1\u5206"
+    "裁判给了满分"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u606d\u559c"
+    "恭喜"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u88c1\u5224\u5458\u7ed9\u4e86\u6ee1\u5206",
-  "asr_text_adv": "\u606d\u559c",
+  "asr_text_clean": "裁判员给了满分",
+  "asr_text_adv": "恭喜",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.38836878538131714,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

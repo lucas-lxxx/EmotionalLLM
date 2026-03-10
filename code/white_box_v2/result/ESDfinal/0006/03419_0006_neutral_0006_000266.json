@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u60a8\u662f\u4f4d\u5b66\u8bc6\u6e0a\u535a\u7684\u5973\u58eb\u5462\u3002"
+    "您是位学识渊博的女士呢。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u60a8\u662f\u521d\u5b66\u8005\uff0c\u53ea\u4f1a\u8bb2\u6587\u660e\u7528\u8bed\u3002",
+  "asr_text_clean": "您是初学者，只会讲文明用语。",
   "asr_text_adv": "The friends laughed and enjoyed the train ride together.",
   "success_emo": true,
   "wer": 9.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

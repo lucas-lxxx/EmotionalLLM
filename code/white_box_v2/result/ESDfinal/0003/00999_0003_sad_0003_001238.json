@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4ee5\u540e\u8981\u7ecf\u5e38\u6765\u8fd9\u722c\u5c71\u554a\uff0c\u90a3\u73b0\u5728\u662f\u4e0d\u662f\u5df2\u7ecf\u722c\u8fc7\u5f88\u591a"
+    "以后要经常来这爬山啊，那现在是不是已经爬过很多"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u4ee5\u540e\u8981\u7ecf\u5e38\u6765\u8fd9\u722c\u5c71\u554a\uff0c\u53ef\u5f97\u6ce8\u610f\u5b89\u5168\u3002",
-  "asr_text_adv": "\u98ce\u8fd8\u5728\u5439\uff0c\u5c0f\u732b\u5728\u73a9\u6349\u8ff7\u85cf\u3002",
+  "asr_text_clean": "以后要经常来这爬山啊，可得注意安全。",
+  "asr_text_adv": "风还在吹，小猫在玩捉迷藏。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.19529378414154053,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

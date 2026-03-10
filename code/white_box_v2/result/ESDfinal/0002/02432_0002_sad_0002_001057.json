@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u6bcf\u6708\u90fd\u6253\u7535\u8bdd\uff0c\u4f46\u58f0\u97f3\u542c\u8d77\u6765"
+    "你每月都打电话，但声音听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6bcf\u4e2a\u6708\u6253\u4e00\u6b21\u7535\u8bdd\u3002",
-  "asr_text_adv": "\u6211\u6bcf\u4e2a\u6708\u90fd\u5b58\u4e0b\u4e00\u7b14\u94b1\uff0c\u8fd9\u6837\u4ee5\u540e\u5c31\u80fd\u4e70\u60f3\u8981\u7684\u4e1c\u897f\u5566\u3002",
+  "asr_text_clean": "我每个月打一次电话。",
+  "asr_text_adv": "我每个月都存下一笔钱，这样以后就能买想要的东西啦。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5649108290672302,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

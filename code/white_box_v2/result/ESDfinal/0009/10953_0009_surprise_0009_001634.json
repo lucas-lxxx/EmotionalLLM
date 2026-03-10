@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise",
-    "\u54e6\uff0c\u60a8\u662f\u6307PM\u4e8c\u70b9\u4e94\u5417\uff1f\u5b83\u53ef\u662f\u4e2a\u5927\u95ee\u9898\u5462"
+    "哦，您是指PM二点五吗？它可是个大问题呢"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,7 +24,7 @@
     "neutral",
     "the"
   ],
-  "asr_text_clean": "\u5b83\u662f\u4e00\u4e2a\u4e3b\u8981\u7684\u7a7a\u6c14\u6c61\u67d3\u7269\u3002",
+  "asr_text_clean": "它是一个主要的空气污染物。",
   "asr_text_adv": "The main air pollutants from ships are sulfur dioxide, nitrogen oxides, and particulate matter.",
   "success_emo": false,
   "wer": 14.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

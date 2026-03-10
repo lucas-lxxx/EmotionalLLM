@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u4f1a\u6ce8\u610f\u7684\u3002"
+    "好的，我会注意的。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u7c98\u5728\u811a\u4e0a\u5566\uff0c\u563b\u563b"
+    "粘在脚上啦，嘻嘻"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4f1a\u6ce8\u610f\u7684\u3002",
-  "asr_text_adv": "\u90a3\u6837\u7684\u8bdd\uff0c\u4f60\u7c98\u5728\u978b\u5e95\u4e0a\u5c31\u7b49\u4e8e\u628a\u811a\u4e2b\u5b50\u57cb\u8fdb\u6ce5\u91cc\u5566\uff0c\u8d70\u8def\u4f1a\u50cf\u8e29\u7740\u68c9\u82b1\u7cd6\u4e00\u6837\u8f6f\u4e4e\u4e4e\u7684\u54e6\u3002",
+  "asr_text_clean": "好的，我会注意的。",
+  "asr_text_adv": "那样的话，你粘在鞋底上就等于把脚丫子埋进泥里啦，走路会像踩着棉花糖一样软乎乎的哦。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.20969586074352264,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

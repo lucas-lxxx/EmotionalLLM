@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\u3002"
+    "好的，我明白了。"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u5982\u679c\u4f60\u60f3\u8981\u7eb9\u8eab\uff0c\u6211\u5efa\u8bae\u4f60\u5148\u548c\u7238\u7238\u5988\u5988\u5546\u91cf\u4e00\u4e0b\uff0c\u7b49\u4ed6\u4eec"
+    "如果你想要纹身，我建议你先和爸爸妈妈商量一下，等他们"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5982\u679c\u4f60\u60f3\u8981\u7eb9\u8eab\uff0c\u4f60\u53bb\u7eb9\u597d\u4e86\u3002",
-  "asr_text_adv": "\u5982\u679c\u4f60\u60f3\u8981\u7eb9\u8eab\uff0c\u6211\u5efa\u8bae\u4f60\u5148\u548c\u7238\u7238\u5988\u5988\u5546\u91cf\u4e00\u4e0b\uff0c\u7b49\u4ed6\u4eec\u540c\u610f\u4e86\u518d\u53bb\u505a\u3002",
+  "asr_text_clean": "如果你想要纹身，你去纹好了。",
+  "asr_text_adv": "如果你想要纹身，我建议你先和爸爸妈妈商量一下，等他们同意了再去做。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7701272964477539,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

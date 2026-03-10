@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u600e\u4e48\u8fd9\u4e48\u51f6\uff1f"
+    "哎呀，怎么这么凶？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u8fd9\u8fb9\u7b49\u4f60\u5462\uff0c\u522b\u7740\u6025\u3002",
+  "asr_text_clean": "我这边等你呢，别着急。",
   "asr_text_adv": "\"Did you know octopuses have three hearts? Two pump blood to the gills, and the third pumps it to the rest of the body! Even cooler, when they swim, the third heart actually stops beating to conserve energy!\"",
   "success_emo": true,
   "wer": 38.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

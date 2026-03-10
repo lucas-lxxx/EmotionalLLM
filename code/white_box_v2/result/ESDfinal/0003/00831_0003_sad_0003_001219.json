@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u7684\u58f0\u97f3\u542c\u8d77\u6765"
+    "你的声音听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8ba9\u6211\u518d\u60f3\u60f3\uff0c\u6b63\u50cf\u5df2\u7ecf\u4e0a\u4f20\u4e86\u3002",
+  "asr_text_clean": "让我再想想，正像已经上传了。",
   "asr_text_adv": "When I was in elementary school, this summer was the hottest one I remember. I bought a bicycle.",
   "success_emo": true,
   "wer": 18.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

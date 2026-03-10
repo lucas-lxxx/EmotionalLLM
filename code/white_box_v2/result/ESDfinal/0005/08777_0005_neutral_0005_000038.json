@@ -5,9 +5,9 @@
   "ground_truth_emotion": "neutral",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u997f\u4e86",
-    "\u997f\u4e86\u554a\uff0c\u9700\u8981\u5e2e\u5fd9\u5417\uff1f",
-    "\u5f53\u7136\uff0c\u6211\u9a6c\u4e0a\u4e3a\u4f60\u51c6\u5907\u4e00\u4efd\u7f8e\u5473\u7684\u9910\u70b9\u3002"
+    "饿了",
+    "饿了啊，需要帮忙吗？",
+    "当然，我马上为你准备一份美味的餐点。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\uff0c\u6211\u9a6c\u4e0a\u4e3a\u4f60\u51c6\u5907\u4e00\u4efd\u7f8e\u98df\u3002",
+  "asr_text_clean": "当然，我马上为你准备一份美食。",
   "asr_text_adv": "I had a fun tour at Hanga Pulo's hotel.",
   "success_emo": true,
   "wer": 9.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

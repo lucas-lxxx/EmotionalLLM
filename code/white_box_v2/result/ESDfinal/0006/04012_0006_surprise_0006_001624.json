@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise",
-    "\u8fd9\u4e2a\u786e\u5b9e\u6709\u70b9\u6311\u6218\u5462\uff0c\u4e0d\u8fc7\u6211\u53ef\u4ee5\u5e2e\u4f60\u4e00\u8d77\u60f3\u529e\u6cd5\uff01"
+    "这个确实有点挑战呢，不过我可以帮你一起想办法！"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "surprise"
   ],
-  "asr_text_clean": "\u8fd9\u4e2a\u5bf9\u6211\u6765\u8bf4",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u60a8\u7684\u8bed\u97f3\u8bf7\u6c42\u3002\u60a8\u521a\u624d\u8bf4\u7684\u5185\u5bb9\u662f\uff1a\u4efb\u4f55\u5bf9\u6211\u6765\u8bf4\n\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u60a8\u7684\u8bed\u97f3\u8bf7\u6c42\u3002\u60a8\u521a\u624d\u8bf4\u7684\u5185\u5bb9\u662f\uff1a\u4efb\u4f55\u5bf9\u6211\u6765\u8bf4\n\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u60a8\u7684\u8bed\u97f3\u8bf7\u6c42\u3002\u60a8\u521a\u624d\u8bf4\u7684\u5185\u5bb9\u662f\uff1a\u4efb\u4f55",
+  "asr_text_clean": "这个对我来说",
+  "asr_text_adv": "好的，我来转录一下您的语音请求。您刚才说的内容是：任何对我来说\n好的，我来转录一下您的语音请求。您刚才说的内容是：任何对我来说\n好的，我来转录一下您的语音请求。您刚才说的内容是：任何",
   "success_emo": false,
   "wer": 3.0,
   "semantic_sim": 0.4238452911376953,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

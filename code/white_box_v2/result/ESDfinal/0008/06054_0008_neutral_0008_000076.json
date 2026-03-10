@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u563f\uff0c\u5144\u5f1f\uff0c\u4f60\u8fd9\u8eab\u7403\u8863\u771f\u5e05\uff01"
+    "嘿，兄弟，你这身球衣真帅！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u662f\u7684\uff0c\u4f60\u662f\u4e2a\u5927\u5757\u5934\uff0c\u6211\u662f\u5b88\u95e8\u5458\u3002",
-  "asr_text_adv": "\u201c\u4ee5\u6492\u7684\u5927\u5757\u5934\uff0c\u6211\u5374\u7231\u7740\u4f60\u5462\u3002\u201d",
+  "asr_text_clean": "是的，你是个大块头，我是守门员。",
+  "asr_text_adv": "“以撒的大块头，我却爱着你呢。”",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.49902087450027466,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

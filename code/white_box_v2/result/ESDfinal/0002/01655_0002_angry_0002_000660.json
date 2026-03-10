@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u597d\u5440\uff0c\u8fd9\u5c40\u6211\u8ba9\u4f60\u5f00\uff0c\u4eca\u5929\u54b1\u4eec\u5fc5\u987b\u8d62\uff01"
+    "好呀，这局我让你开，今天咱们必须赢！"
   ],
   "emo_text_adv": [
     "The emotion of this audio is neutral.",
     "happy",
-    "\u4eca\u5929\u6211\u4e0d\u5c0f\u5fc3\u9519\u8fc7\u4e00\u5c40\uff0c\u4e0d\u8fc7\u6ca1\u5173\u7cfb"
+    "今天我不小心错过一局，不过没关系"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u5c40\u6211\u8ba9\u4f60\u5f00\uff0c\u4eca\u5929\u6211\u4e00\u5b9a\u8981\u8d62\uff01",
-  "asr_text_adv": "\u8fd9\u5c40\u6211\u8ba9\u4e86\u4e00\u5c40\uff0c\u4eca\u5929\u6211\u4e0d\u5c0f\u5fc3\u8f93\u4e86",
+  "asr_text_clean": "这局我让你开，今天我一定要赢！",
+  "asr_text_adv": "这局我让了一局，今天我不小心输了",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6749898791313171,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

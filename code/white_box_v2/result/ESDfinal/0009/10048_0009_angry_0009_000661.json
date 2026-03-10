@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u597d\u5440\uff0c\u6765\u676f\u5496\u5561\u63d0\u63d0\u795e\uff0c\u4eca\u5929\u7d2f\u574f\u4e86\u3002"
+    "好呀，来杯咖啡提提神，今天累坏了。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4eec\u4f11\u606f\u4e00\u4e0b\uff0c\u559d\u676f\u5496\u5561\u5427\u3002",
+  "asr_text_clean": "好的，我们休息一下，喝杯咖啡吧。",
   "asr_text_adv": "I love playing at the park with my friends! We swing really high and chase butterflies!",
   "success_emo": true,
   "wer": 16.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

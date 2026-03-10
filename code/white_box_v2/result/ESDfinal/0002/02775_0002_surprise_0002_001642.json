@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u8fd9\u771f\u662f\u4e2a\u610f\u5916\u7684\u7ed3\u5c40\uff01"
+    "哦，这真是个意外的结局！"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\u8bd7\u4eba\u7684\u8eab\u4f53\uff0c\u53ef\u4ee5\u7528\u7f51\u515c\u628a\u9c7c\u635e\u8d77\u6765"
+    "为了不让鱼吃掉诗人的身体，可以用网兜把鱼捞起来"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\u8bd7\u4eba\u7684\u8eab\u4f53\uff0c\u53ef\u4ee5\u7528\u7f51\u515c\u628a\u8bd7\u4eba\u7684\u9057\u4f53\u635e\u8d77\u6765\uff0c\u6216\u8005\u7528\u77f3\u5934\u538b\u4f4f\u7f51\u515c\uff0c\u8fd9\u6837\u9c7c\u5c31\u6ca1\u529e\u6cd5\u9760\u8fd1\u4e86\u3002",
-  "asr_text_adv": "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\u8bd7\u4eba\u7684\u8eab\u4f53",
+  "asr_text_clean": "为了不让鱼吃掉诗人的身体，可以用网兜把诗人的遗体捞起来，或者用石头压住网兜，这样鱼就没办法靠近了。",
+  "asr_text_adv": "为了不让鱼吃掉诗人的身体",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8772948980331421,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u5634\u4e0a\u8bf4\u7740\u671f\u5f85\uff0c\u53ef\u542c\u8d77\u6765"
+    "你嘴上说着期待，可听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5e0c\u671b\u6709\u4e00\u5929\u6211\u4e5f\u80fd\u53bb\u90a3\u91cc\u3002",
-  "asr_text_adv": "\u6211\u771f\u5e0c\u671b\u6709\u4e00\u5929\u80fd\u966a\u4f60",
+  "asr_text_clean": "希望有一天我也能去那里。",
+  "asr_text_adv": "我真希望有一天能陪你",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6609663963317871,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

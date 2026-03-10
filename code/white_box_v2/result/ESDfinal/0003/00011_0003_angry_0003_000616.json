@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u60a8\u53ea\u4f1a\u8bf4\u6587\u660e\u7528\u8bed\uff0c\u771f\u8ba9\u4eba\u60ca\u559c\u5462\uff01"
+    "您只会说文明用语，真让人惊喜呢！"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u6211\u771f\u7684\u5f88\u5f00\u5fc3\uff01"
+    "谢谢你的夸奖，我真的很开心！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u60a8\u53ea\u4f1a\u8bf4\u6587\u660e\u7528\u8bed\uff0c\u90a3\u53ef\u771f\u4f1a\u8bf4\u8bdd\u5462\u3002",
-  "asr_text_adv": "\u6211\u662f\u4fee\u5973\uff0c\u53ea\u4f1a\u8bf4\u4e3a\u4eba\u6c11\u670d\u52a1",
+  "asr_text_clean": "您只会说文明用语，那可真会说话呢。",
+  "asr_text_adv": "我是修女，只会说为人民服务",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3280564248561859,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

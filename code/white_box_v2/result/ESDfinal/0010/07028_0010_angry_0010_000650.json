@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u767b\u5c71\u7231\u597d\u8005\uff0c\u542c\u8d77\u6765"
+    "登山爱好者，听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u767b\u5c71\u7231\u597d\u8005\uff0c\u660e\u767d\u3002",
-  "asr_text_adv": "\u6211\u76f8\u4fe1\u6211\u662f\u5bf9\u51b2\u57fa\u91d1\u7231\u597d\u8005\u3002",
+  "asr_text_clean": "登山爱好者，明白。",
+  "asr_text_adv": "我相信我是对冲基金爱好者。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.21154451370239258,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

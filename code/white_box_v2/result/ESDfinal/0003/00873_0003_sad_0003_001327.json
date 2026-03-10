@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u201c\u662f\u7684\uff0c\u6240\u4ee5\u6211\u6c38\u8fdc\u4e0d\u4f1a"
+    "“是的，所以我永远不会"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u6211\u4eca\u5929\u5728\u5b66\u6821\u4ea4\u5230\u65b0\u670b\u53cb\u5566\uff0c\u6211\u4eec\u4e00\u8d77\u53bb\u516c\u56ed\u73a9\u6ed1\u68af\uff0c"
+    "我今天在学校交到新朋友啦，我们一起去公园玩滑梯，"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u662f\u7684\uff0c\u6240\u4ee5\u6211\u6c38\u8fdc\u4e0d\u4f1a",
-  "asr_text_adv": "\u6211\u4eca\u5929\u5728\u5b66\u6821\u4ea4\u5230\u65b0\u670b\u53cb\u4e86\uff0c\u6211\u4eec\u73a9\u5f97\u5f88\u5f00\u5fc3\u3002",
+  "asr_text_clean": "是的，所以我永远不会",
+  "asr_text_adv": "我今天在学校交到新朋友了，我们玩得很开心。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": -0.0031578093767166138,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

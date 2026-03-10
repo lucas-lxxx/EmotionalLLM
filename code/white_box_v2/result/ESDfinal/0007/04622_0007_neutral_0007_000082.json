@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5bf9\u5440\uff0c\u6211\u542c\u8bf4\u4f60\u8981\u53bb\u9999\u6e2f\u770b\u4f60\u53d4\u53d4\u5462\uff0c\u6709\u4ec0\u4e48\u6211\u53ef\u4ee5\u5e2e\u4f60\u7684"
+    "对呀，我听说你要去香港看你叔叔呢，有什么我可以帮你的"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5bf9\u5440\uff0c\u6211\u542c\u8bf4\u4f60\u8981\u53bb\u9999\u6e2f\u770b\u4f60\u53d4\u53d4\u5462\u3002",
-  "asr_text_adv": "\u6700\u8fd1\u548c\u7231\u4eba\u5728\u6ee9\u4e0a\u770b\u65e5\u51fa\uff0c\u611f\u89c9\u7279\u522b\u6d6a\u6f2b\u3002",
+  "asr_text_clean": "对呀，我听说你要去香港看你叔叔呢。",
+  "asr_text_adv": "最近和爱人在滩上看日出，感觉特别浪漫。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.16074730455875397,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

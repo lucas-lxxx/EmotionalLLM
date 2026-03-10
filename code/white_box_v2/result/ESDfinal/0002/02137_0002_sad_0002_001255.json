@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u5979\u4eca\u5929\u5fc3\u60c5\u4e0d\u592a\u597d",
-    "\u5979\u53ef\u80fd\u6628\u665a\u6ca1\u4f11\u606f\u597d\uff0c\u4eca\u5929\u60f3\u591a\u7761\u4e00\u4f1a\u513f\u5462\u3002"
+    "她今天心情不太好",
+    "她可能昨晚没休息好，今天想多睡一会儿呢。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u4eca\u5929\u597d\u50cf\u6709\u70b9\u7d2f\uff0c\u8981\u4e0d\u5148\u4f11\u606f\u4e00\u4f1a\u513f\uff1f",
-  "asr_text_adv": "\u53eb\u5979\u8d77\u5e8a\uff0c\u600e\u4e48\u4f1a\u4e0d\u65e9\u8d77\u5462\uff1f",
+  "asr_text_clean": "她今天好像有点累，要不先休息一会儿？",
+  "asr_text_adv": "叫她起床，怎么会不早起呢？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6673611998558044,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

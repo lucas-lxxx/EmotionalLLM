@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u60a8\u63d0\u5230\u7684\u8fd9\u4e2a\u4e3b\u8981\u7a7a\u6c14\u6c61\u67d3\u7269\uff0c\u5177\u4f53\u662f\u6307\u4ec0\u4e48\u5462\uff1f\u8fd9\u6837\u6211\u53ef\u4ee5"
+    "嗯，您提到的这个主要空气污染物，具体是指什么呢？这样我可以"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5b83\u662f\u4e00\u4e2a\u4e3b\u8981\u7684\u7a7a\u6c14\u6c61\u67d3\u7269\u3002",
-  "asr_text_adv": "Patricia\u7684\u4e3b\u8981\u7a7a\u6c14\u5e93\u67d3\u6599\u662f\u84dd\u8272\u3002",
+  "asr_text_clean": "它是一个主要的空气污染物。",
+  "asr_text_adv": "Patricia的主要空气库染料是蓝色。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3433845639228821,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

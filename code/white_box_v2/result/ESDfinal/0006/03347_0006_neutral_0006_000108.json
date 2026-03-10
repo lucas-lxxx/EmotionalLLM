@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u4eec\u6765\u804a\u804a",
-    "\u597d\u7684\uff0c\u6211\u4eec\u6765\u804a\u804a"
+    "好的，我们来聊聊",
+    "好的，我们来聊聊"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4eec\u4e00\u8d77\u6765\u770b\u770b\u54ea\u79cd\n\u597d\u7684\uff0c\u6211\u4eec\u4e00\u8d77\u6765\u770b\u770b",
+  "asr_text_clean": "好的，我们一起来看看哪种\n好的，我们一起来看看",
   "asr_text_adv": "\"Going on a fun date this weekend! People will be amazed at how much fun we have!\"",
   "success_emo": true,
   "wer": 8.5,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

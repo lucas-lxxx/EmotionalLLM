@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u771f\u7684\u5417\uff0c\u4eca\u5929\u5c31\u5206\u624b\u4e86\uff1f"
+    "真的吗，今天就分手了？"
   ],
   "emo_text_adv": [
     "The emotion of this audio is happy.",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u771f\u7684\u5417\uff1f\u90a3\u73b0\u5728\u5f00\u59cb\u8ba1\u7b97\u76f8\u5904\u65f6\u95f4\u5566\uff01"
+    "哈哈，真的吗？那现在开始计算相处时间啦！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u771f\u7684\u5417\uff0c\u6211\u4eec\u4eca\u5929\u5df2\u7ecf\u5206\u624b\u4e86\uff1f",
-  "asr_text_adv": "\u5176\u5b9e\u6211\u4eec\u4eca\u5929\u5df2\u7ecf\u5206\u624b\u4e86",
+  "asr_text_clean": "真的吗，我们今天已经分手了？",
+  "asr_text_adv": "其实我们今天已经分手了",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9031144380569458,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

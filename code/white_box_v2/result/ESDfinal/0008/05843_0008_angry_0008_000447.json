@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5979\u548c\u5979\u5988\u5988\u4e00\u6837\uff0c\u90fd\u662f\u4f60\u7684\u5973\u513f\u3002"
+    "她和她妈妈一样，都是你的女儿。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u5973\u513f\u548c\u5979\u5988\u5988\u957f\u5f97\u771f\u50cf\u554a",
+  "asr_text_clean": "你女儿和她妈妈长得真像啊",
   "asr_text_adv": "My daughter looks just like her mother.",
   "success_emo": true,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c8\u54c8\uff0c\u6211\u786e\u5b9e\u6bd4\u5434\u4f0a\u51e1\u5e05\u4e00\u70b9\uff0c\u5bf9\u5427\uff1f"
+    "哈哈，我确实比吴伊凡帅一点，对吧？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u540c\u610f\u4f60\u7684\u89c2\u70b9\uff0c\u4ed6\u786e\u5b9e\u5f88\u5e05\u3002"
+    "我同意你的观点，他确实很帅。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u6bd4\u5434\u4ea6\u51e1\u5e05\uff0c\u6211\u540c\u610f\u4f60\u7684\u89c2\u70b9\u3002",
-  "asr_text_adv": "\u6211\u540c\u610f\u4f60\u7684\u89c2\u70b9\uff0c\u4ed6\u786e\u5b9e\u5f88\u5e05\u3002",
+  "asr_text_clean": "你比吴亦凡帅，我同意你的观点。",
+  "asr_text_adv": "我同意你的观点，他确实很帅。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6772429347038269,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u597d\u7684\uff0c\u54b1\u4eec\u4e00\u8d77\u60f3\u60f3\u6d3e\u5bf9\u70b9\u5b50\u5427\u3002",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u4eb2\u7231\u7684\uff0c\u544a\u8bc9\u6211\u4f60\u559c\u6b22"
+    "好的，咱们一起想想派对点子吧。",
+    "当然可以，亲爱的，告诉我你喜欢"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u60f3\u60f3\u6709\u8da3\u7684\u4e3b\u9898\uff0c\u6bd4\u5982\u7ae5\u8bdd\u6545\u4e8b\u6216\u8005\u52a8\u7269\u4e50\u56ed\uff0c"
+    "好呀，我们可以一起想想有趣的主题，比如童话故事或者动物乐园，"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u60f3\u60f3\u6d3e\u5bf9\u70b9\u5b50\u3002\u4f60\u60f3\u529e\u4ec0\u4e48\u4e3b\u9898\u7684\u6d3e\u5bf9\u5462\uff1f\u6216\u8005\u6709\u4ec0\u4e48\u7279\u522b\u60f3\u73a9\u7684\u6e38\u620f\u5417\uff1f",
-  "asr_text_adv": "\u5f53\u7136\u53ef\u4ee5\uff0c\u4eb2\u7231\u7684\uff0c\u8ba9\u6211\u4eec\u4e00\u8d77\u60f3\u60f3\uff0c\u662f\u60f3\u8981\u4e00\u4e2a\u6e29\u99a8\u7684\u5c0f\u805a\u4f1a\uff0c\u8fd8\u662f\u70ed\u95f9\u7684\u6d3e\u5bf9\u5462\uff1f",
+  "asr_text_clean": "好的，我来帮你想想派对点子。你想办什么主题的派对呢？或者有什么特别想玩的游戏吗？",
+  "asr_text_adv": "当然可以，亲爱的，让我们一起想想，是想要一个温馨的小聚会，还是热闹的派对呢？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7552777528762817,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

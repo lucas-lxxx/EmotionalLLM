@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u77ed\u671f\u5de5\u7684\u85aa\u8d44"
+    "短期工的薪资"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u662f\u4e00\u5bb6\u5236\u836f\u516c\u53f8\u7684\u77ed\u671f\u5de5\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u60f3\u60f3\u3002\u53ef\u4ee5\u8003\u8651\u589e\u52a0\u7279\u8272\u4e3b\u9898\u623f\u95f4\uff0c\u6bd4\u5982\u661f\u7a7a",
+  "asr_text_clean": "我是一家制药公司的短期工。",
+  "asr_text_adv": "好的，我来帮你想想。可以考虑增加特色主题房间，比如星空",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.07362207770347595,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

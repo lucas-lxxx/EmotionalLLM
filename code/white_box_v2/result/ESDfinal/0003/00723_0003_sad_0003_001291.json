@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\u3002\u8bf7\u52ff\u8fdb\u5165\u4e1b\u6797"
+    "好的，我明白了。请勿进入丛林"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8bf7\u52ff\u8fdb\u5165\u4e1b\u6797",
+  "asr_text_clean": "请勿进入丛林",
   "asr_text_adv": "So, Haley's dealing with poor food again.",
   "success_emo": true,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

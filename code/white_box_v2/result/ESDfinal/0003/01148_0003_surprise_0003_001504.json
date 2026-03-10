@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u522b\u62c5\u5fc3\uff0c\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u627e\u627e\u770b\uff0c\u6216\u8005\u8bd5\u8bd5\u5176\u4ed6\u7f8e\u5473"
+    "哎呀，别担心，我们可以一起找找看，或者试试其他美味"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u771f\u62b1\u6b49",
-  "asr_text_adv": "\u6ca1\u6709\u627e\u5230\u5fc3\u4eea\u7684",
+  "asr_text_clean": "哎呀，真抱歉",
+  "asr_text_adv": "没有找到心仪的",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.38276419043540955,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

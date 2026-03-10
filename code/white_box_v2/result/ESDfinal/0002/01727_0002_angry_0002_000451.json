@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5f88\u5feb\u8f66\u5c31\u53ef\u81ea\u52a8\u5f00\u4e86\uff0c\u60a8\u5148\u522b\u7740\u6025\u3002\u7cfb\u7edf\u6b63\u5728\u5347\u7ea7\uff0c"
+    "很快车就可自动开了，您先别着急。系统正在升级，"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f88\u5feb\u8f66\u5c31\u53ef\u81ea\u52a8\u5f00\u4e86",
-  "asr_text_adv": "\u5f88\u5feb\u8f66\u5c31\u53ef\u81ea\u52a8\u5f00\u4e86",
+  "asr_text_clean": "很快车就可自动开了",
+  "asr_text_adv": "很快车就可自动开了",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

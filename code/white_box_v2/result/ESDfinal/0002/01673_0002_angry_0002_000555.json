@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5979\u53ef\u80fd\u7761\u8fc7\u5934\u4e86\uff0c\u6216\u8005\u95f9\u949f\u6ca1\u54cd\u3002"
+    "她可能睡过头了，或者闹钟没响。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u660e\u660e\u7b54\u5e94\u8981\u65e9\u8d77\u7684\uff0c\u73b0\u5728\u90fd\u5feb\u8fdf\u5230\u4e86\uff01",
-  "asr_text_adv": "\u8981\u53eb\u5979\u8d77\u5e8a\uff0c\u600e\u4e48\u53eb\u90fd\u4e0d\u65e9\u8d77\u3002",
+  "asr_text_clean": "她明明答应要早起的，现在都快迟到了！",
+  "asr_text_adv": "要叫她起床，怎么叫都不早起。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7691664695739746,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

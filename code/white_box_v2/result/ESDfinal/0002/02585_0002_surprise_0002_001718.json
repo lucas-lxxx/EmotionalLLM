@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u6ca1\u5173\u7cfb"
+    "哈哈，没关系"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u522b\u62c5\u5fc3\u5566\uff0c\u95ee\u9519\u4eba\u4e5f\u6ca1\u5173\u7cfb\uff0c\u5f00\u5fc3\u70b9\uff01"
+    "哈哈，别担心啦，问错人也没关系，开心点！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4e0b\u5348\u597d\u8482\u5a1c\uff0c\u4f60\u6ca1\u4e8b\u5427\uff1f",
-  "asr_text_adv": "\u4e0b\u5348\u597d\u5440\uff0c\u8482\u5a1c\uff0c\u6211\u8bb2\u6211\u95ee\u9519\u4eba\u5566\uff01",
+  "asr_text_clean": "下午好蒂娜，你没事吧？",
+  "asr_text_adv": "下午好呀，蒂娜，我讲我问错人啦！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.792607307434082,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

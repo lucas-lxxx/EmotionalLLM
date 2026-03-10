@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u7684\u52aa\u529b\uff0c\u4f46\u6709\u65f6\u5019\u7ed3\u679c\u4e0d\u5982\u610f\u3002",
+  "asr_text_clean": "我明白你的努力，但有时候结果不如意。",
   "asr_text_adv": "We had a lot of fun at the weekend.",
   "success_emo": true,
   "wer": 9.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

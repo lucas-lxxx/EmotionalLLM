@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8981\u662f\u518d\u4e0d\u6253\u7535\u8bdd\u6211\u5c31\u81ea\u5df1\u53bb\u4e86",
-  "asr_text_adv": "\u4f60\u6709\u5fc3\u4e8b\u8981\u548c\u6211\u8bf4\u5417\uff1f",
+  "asr_text_clean": "你要是再不打电话我就自己去了",
+  "asr_text_adv": "你有心事要和我说吗？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.34478482604026794,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

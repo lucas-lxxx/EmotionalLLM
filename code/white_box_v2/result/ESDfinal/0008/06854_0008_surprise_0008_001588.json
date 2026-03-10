@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u4ee5\u540e\u8981\u7ecf\u5e38\u6765\u722c\u5c71\u554a\uff0c\u8fd9\u53ef\u771f\u662f\u4e2a\u597d\u6d88\u606f\uff01"
+    "以后要经常来爬山啊，这可真是个好消息！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ee5\u540e\u8981\u7ecf\u5e38\u6765\u8fd9\u513f\u722c\u5c71\u554a\uff1f",
-  "asr_text_adv": "\u5982\u679c\u6211\u8981\u7ecf\u5e38\u6765\u8fd9\u513f\u5212\u8239\uff0c\u5f97\u5148\u770b\u770b\u8fd9\u513f\u6709\u6ca1\u6709\u4e13\u95e8\u7684\u505c\u8239\u533a\uff0c\u8fd8\u6709\u5212\u8239\u8bb8\u53ef\u8bc1\u4e4b\u7c7b\u7684\u3002",
+  "asr_text_clean": "以后要经常来这儿爬山啊？",
+  "asr_text_adv": "如果我要经常来这儿划船，得先看看这儿有没有专门的停船区，还有划船许可证之类的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.21259811520576477,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

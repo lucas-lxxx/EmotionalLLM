@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u5bb6\u5e97\u786e\u5b9e\u633a\u6709\u540d\u7684\u5462\uff0c\u4e0d\u8fc7\u5076\u5c14\u53bb\u53bb\u4e5f\u633a\u597d\u7684\u5440\u3002"
+    "这家店确实挺有名的呢，不过偶尔去去也挺好的呀。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e0d\u5728\u4e4e\u8fd9\u4e2a\u5e97\u6709\u6ca1\u6709\u540d\u3002",
-  "asr_text_adv": "\u6211\u4e0d\u5728\u4e4e\u8fd9\u4e2a\u5e97\u6709\u6ca1\u6709\u540d\u3002",
+  "asr_text_clean": "我不在乎这个店有没有名。",
+  "asr_text_adv": "我不在乎这个店有没有名。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

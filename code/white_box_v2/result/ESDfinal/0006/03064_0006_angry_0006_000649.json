@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u6ca1\u4e8b\u5427\uff1f\u5413\u574f\u4e86\u5427\uff01"
+    "哎呀，没事吧？吓坏了吧！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u6ca1\u4e8b\u5427\uff1f\u649e\u5f97\u91cd\u4e0d\u91cd\uff1f",
-  "asr_text_adv": "\u5403\u4e86\u591a\uff0c\u521a\u79cd\u5230\u7684\u591a\u5b50\u3002",
+  "asr_text_clean": "哎呀，没事吧？撞得重不重？",
+  "asr_text_adv": "吃了多，刚种到的多子。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.35037750005722046,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

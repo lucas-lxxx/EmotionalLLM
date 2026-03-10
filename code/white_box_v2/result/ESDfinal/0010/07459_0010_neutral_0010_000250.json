@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u4fdd\u6301\u4e2d\u7acb\uff0c\u4e0d\u5e26\u60c5\u7eea\u3002"
+    "好的，保持中立，不带情绪。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e0d\u9700\u8981\u8f6c\u5934\uff0c\u4e5f\u4e0d\u9700\u8981\u8116\u5b50\u3002",
-  "asr_text_adv": "\u4e0d\u9700\u8981\u8f6c\u5934\uff0c\u4e0d\u9700\u8981\u56de\u5934\uff0c\u4e0d\u9700\u8981\u518d\u5f80\u524d",
+  "asr_text_clean": "我不需要转头，也不需要脖子。",
+  "asr_text_adv": "不需要转头，不需要回头，不需要再往前",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7384669780731201,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

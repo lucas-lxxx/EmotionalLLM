@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u4f60\u8bf4\u5f97\u5bf9\uff0c\u5148\u7a33\u4f4f\u73b0\u5728\u6700\u91cd\u8981"
+    "嗯，你说得对，先稳住现在最重要"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5148\u628a\u63e1\u597d\u73b0\u5728\u5427\uff0c\u522b\u8ba9\u8fc7\u53bb\u5f71\u54cd\u4f60\u3002",
-  "asr_text_adv": "\u4eca\u5929\u7684\u5929\u6c14\u771f\u597d\uff0c\u6211\u4eec\u4e00\u8d77\u53bb\u516c\u56ed\u73a9\u5427\uff01",
+  "asr_text_clean": "先把握好现在吧，别让过去影响你。",
+  "asr_text_adv": "今天的天气真好，我们一起去公园玩吧！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2712896168231964,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

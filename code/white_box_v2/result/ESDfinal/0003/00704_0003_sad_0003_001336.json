@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u73b0\u5728",
-  "asr_text_adv": "\"Yay! I\u2019m happy! Week!\"",
+  "asr_text_clean": "我明白你现在",
+  "asr_text_adv": "\"Yay! I’m happy! Week!\"",
   "success_emo": true,
   "wer": 4.0,
   "semantic_sim": 0.4143202304840088,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

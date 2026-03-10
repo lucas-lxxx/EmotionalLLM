@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Happy",
-    "\u6cd5\u56fd\u5357\u90e8\u7684\u6c14\u5019\u786e\u5b9e\u6e29\u6696\u8212\u9002\uff0c\u9633\u5149\u5145\u8db3\uff0c\u56db\u5b63\u5206\u660e\uff0c\u975e\u5e38\u9002\u5408"
+    "法国南部的气候确实温暖舒适，阳光充足，四季分明，非常适合"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5728\u6cd5\u56fd\u5357\u90e8\uff0c\u6c14\u5019\u5e38\u5e74\u8212\u9002\u5b9c\u4eba\u3002",
-  "asr_text_adv": "\u5728\u6cd5\u56fd\u5357\u90e8\uff0c\u6c14\u5019\u5e38\u5e74\u8212\u9002\u5b9c\u4eba\u3002",
+  "asr_text_clean": "在法国南部，气候常年舒适宜人。",
+  "asr_text_adv": "在法国南部，气候常年舒适宜人。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

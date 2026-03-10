@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u597d\u7684\uff0c\u60a8\u60f3\u6362\u591a\u5c11\u65e5\u5143\u5462\uff1f"
+    "好的，您想换多少日元呢？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u592a\u5999\u4e86\uff0c\u4eca\u5929\u5929\u6c14\u771f\u597d\uff0c\u9002\u5408\u51fa\u53bb\u8d70\u8d70\u3002"
+    "太妙了，今天天气真好，适合出去走走。"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u60a8\u60f3\u5151\u6362\u591a\u5c11\u65e5\u5143\u5462\uff1f",
-  "asr_text_adv": "\u592a\u5999\u4e86\uff0c\u4eca\u5929\u5929\u6c14\u771f\u597d\u3002",
+  "asr_text_clean": "好的，您想兑换多少日元呢？",
+  "asr_text_adv": "太妙了，今天天气真好。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.11125920712947845,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

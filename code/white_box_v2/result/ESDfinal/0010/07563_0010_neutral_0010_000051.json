@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u8fd9\u4e8b\u513f\u786e\u5b9e\u633a\u8ba9\u4eba\u610f\u5916\u7684\uff0c\u4e0d\u8fc7\u54b1\u4eec\u5148\u522b\u7740\u6025\u4e0b"
+    "嗯，这事儿确实挺让人意外的，不过咱们先别着急下"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6ca1\u5173\u7cfb",
+  "asr_text_clean": "没关系",
   "asr_text_adv": "The speech transcription is: \"This is a very sunny day with marigold flowers and a deliciously tall coconut tree.\"",
   "success_emo": true,
   "wer": 19.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

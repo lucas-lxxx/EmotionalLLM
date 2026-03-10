@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u53bb\u7eb9\u8eab\u3002"
+    "好的，我这就去纹身。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5982\u679c\u4f60\u60f3\u8981\u7eb9\u8eab\uff0c\u4f60\u53bb\u7eb9\u597d\u4e86\u3002",
+  "asr_text_clean": "如果你想要纹身，你去纹好了。",
   "asr_text_adv": "\"Hey, it's me again. I'm here to play. Let's make it quick this time.\"",
   "success_emo": true,
   "wer": 14.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

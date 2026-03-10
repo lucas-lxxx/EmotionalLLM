@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u665a\u5b89\uff0c\u4eb2\u7231\u7684\u3002\u660e\u5929\u4f1a\u66f4\u597d\u3002"
+    "晚安，亲爱的。明天会更好。"
   ],
   "emo_text_adv": [
     "Neutral",
     "happy",
-    "\u54c8\u54c8\uff0c\u90a3\u4f60\u4eec\u80af\u5b9a\u73a9\u5f97\u5f88\u5f00\u5fc3\u5427\uff01"
+    "哈哈，那你们肯定玩得很开心吧！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6bcf\u5929\u665a\u4e0a\u8ddf\u4f60\u9053\u665a\u5b89\u771f\u5e78\u798f",
-  "asr_text_adv": "\u90a3\u5929\u665a\u4e0a\u8ddf\u4f60\u90a3\u72d7\u8001\u677f\u771f\u6c14\u4eba\u3002",
+  "asr_text_clean": "每天晚上跟你道晚安真幸福",
+  "asr_text_adv": "那天晚上跟你那狗老板真气人。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2838767468929291,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

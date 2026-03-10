@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u8fd8\u662f\u51b0\u7403\uff1f\u5404\u6709\u5404\u7684\u7cbe\u5f69\uff01"
+    "足球，篮球，还是冰球？各有各的精彩！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u8ba9\u6211\u4eec\u4e00\u8d77\u770b\u770b\uff0c\u6625\u5929\u662f\u4e0d\u662f\u7279\u522b\u597d\u73a9\u5462\uff1f"
+    "让我们一起看看，春天是不是特别好玩呢？"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u8fd8\u662f\u51b0\u7403\uff1f",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u4eec\u4e00\u8d77\u6765\u770b\u770b\u54ea\u4e2a\u5b63\u8282\u6700\u6709\u8da3\u5427\uff01",
+  "asr_text_clean": "足球，篮球，还是冰球？",
+  "asr_text_adv": "好的，我们一起来看看哪个季节最有趣吧！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2465067207813263,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

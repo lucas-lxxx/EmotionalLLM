@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u5e97\u540d\u786e\u5b9e\u633a\u91cd\u8981\u7684\u5462\u3002\u4e0d\u8fc7\u522b\u62c5\u5fc3\uff0c\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u60f3\u60f3"
+    "嗯，店名确实挺重要的呢。不过别担心，我们可以一起想想"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u6211\u4e0d\u592a\u786e\u5b9a\uff0c\u4f46\u6211\u89c9\u5f97\u8fd9\u5bb6\u5e97\u633a\u6709\u540d\u7684\u3002"
+    "嗯，我不太确定，但我觉得这家店挺有名的。"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u6211\u4e0d\u592a\u5728\u610f\u8fd9\u5bb6\u5e97\u6709\u6ca1\u6709\u540d\uff0c\u4f46\u5e0c\u671b\u5b83\u80fd\u8ba9\u6211\u611f\u89c9\u597d\u4e00\u70b9\u3002",
-  "asr_text_adv": "\u6211\u4e0d\u592a\u5728\u610f\u8fd9\u4e2a\u5e97\u6709\u6ca1\u6709\u540d\u3002",
+  "asr_text_clean": "我不太在意这家店有没有名，但希望它能让我感觉好一点。",
+  "asr_text_adv": "我不太在意这个店有没有名。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7171201705932617,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

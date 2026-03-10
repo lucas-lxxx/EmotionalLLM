@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5047\u7684\uff1f\u8fd9\u4e5f\u592a\u7a81\u7136\u4e86\u5427\uff01"
+    "哇，真的假的？这也太突然了吧！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54e6\uff0c\u771f\u7684\u5047\u7684\uff1f\u90a3\u73b0\u5728\u7f51\u4e0a\u90fd\u4f20\u75af\u4e86\uff01",
-  "asr_text_adv": "\u8ba9\u6211\u4eec\u518d\u60f3\u60f3\uff0c\u6700\u8fd1\u4e00\u6b21\u65c5\u884c\u5df2\u7ecf\u5750\u8239\u4e86\uff0c\u5bf9\u5427\uff1f",
+  "asr_text_clean": "哦，真的假的？那现在网上都传疯了！",
+  "asr_text_adv": "让我们再想想，最近一次旅行已经坐船了，对吧？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3321877717971802,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

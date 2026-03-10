@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54c8\u54c8\uff0c\u90a3\u6211\u53ef\u5f97\u597d\u597d\u8868\u73b0\u5566\uff01"
+    "哈哈，那我可得好好表现啦！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u6211\u5c31\u662f\u4e2a\u5927\u5757\u5934\uff0c\u4e13\u95e8\u966a\u4f60"
+    "哈哈，我就是个大块头，专门陪你"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u662f\u7684\uff0c\u6211\u662f\u4e2a\u5927\u5757\u5934\uff0c\u6211\u662f\u65b0\u624b\u3002",
-  "asr_text_adv": "\u4f60\u662f\u4e2a\u5927\u5757\u5934\uff0c\u6211\u662f\u4e2a\u624b\u65e0\u5bf8\u94c1\u7684\u5bb6\u4f19\u3002",
+  "asr_text_clean": "是的，我是个大块头，我是新手。",
+  "asr_text_adv": "你是个大块头，我是个手无寸铁的家伙。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6827388405799866,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u6124\u6012",
-    "\u597d\u7684\uff0c\u90a3\u6211\u518d\u60f3\u60f3\uff0c\u786e\u4fdd\u4e8b\u5b9e\u51c6\u786e\u65e0\u8bef\u3002"
+    "愤怒",
+    "好的，那我再想想，确保事实准确无误。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u90a3\u6211\u73b0\u5728\u5c31\u518d\u60f3\u60f3\uff0c\u786e\u4fdd\u771f\u76f8\u5df2\u7ecf\u4e0a\u4f20\u3002",
+  "asr_text_clean": "好的，我明白了，那我现在就再想想，确保真相已经上传。",
   "asr_text_adv": "I went to the doctor and they said I need more vitamins. Mommy, can I have a big scoop of vitamin C tomorrow?",
   "success_emo": true,
   "wer": 23.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

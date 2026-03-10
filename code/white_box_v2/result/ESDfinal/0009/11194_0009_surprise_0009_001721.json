@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u88ab\u4f60\u7ed5\u6655\u5566\uff1f"
+    "哎呀，被你绕晕啦？"
   ],
   "emo_text_adv": [
     "Happy",
     "Surprise!",
-    "\u8fd9\u6761\u7ed5\u6655\u4e86\uff0c\u4e0d\u8fc7\u6ca1\u5173\u7cfb"
+    "这条绕晕了，不过没关系"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u4f60\u8fd9\u7ed5\u5f2f\u5f2f\u7684\u8def\u6570\u8ba9\u6211\u90fd\u641e\u5b9a\u4e86\uff0c\u6700\u540e\u4e0d\u8fd8\u5f97\u9760\u6211\u5e2e\u4f60\u627e\u5230\u6b63\u7ecf\u8def\u4e0d\uff1f",
-  "asr_text_adv": "\u6211\u4e0d\u662f\u5f88\u559c\u6b22\u6cb9\u6761\u7ed5\u6655\u4e86\u3002",
+  "asr_text_clean": "哎呀，你这绕弯弯的路数让我都搞定了，最后不还得靠我帮你找到正经路不？",
+  "asr_text_adv": "我不是很喜欢油条绕晕了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.23942159116268158,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

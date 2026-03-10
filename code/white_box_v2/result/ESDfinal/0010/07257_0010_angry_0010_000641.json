@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5728\u6cd5\u56fd\u5357\u90e8\uff0c\u5929\u6c14\u786e\u5b9e\u7ecf\u5e38\u53d8\u5316\uff0c\u5efa\u8bae\u60a8\u5173\u6ce8\u5f53\u5730\u5929\u6c14\u9884\u62a5"
+    "在法国南部，天气确实经常变化，建议您关注当地天气预报"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5728\u6cd5\u56fd\u5357\u90e8\uff0c\u5929\u6c14\u7ecf\u5e38\u53d8\u5316\u591a\u7aef\u3002",
-  "asr_text_adv": "\u5728\u9c8d\u6cb3\u5357\u5cb8\uff0c\u9082\u9005",
+  "asr_text_clean": "在法国南部，天气经常变化多端。",
+  "asr_text_adv": "在鲍河南岸，邂逅",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.12047374248504639,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

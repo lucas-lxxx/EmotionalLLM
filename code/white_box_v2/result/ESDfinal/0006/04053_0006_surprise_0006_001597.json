@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u670b\u53cb\u4e0d\u5206\u6027\u522b\u5440\uff0c\u56e0\u4e3a\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u7279\u70b9\uff0c\u548c\u4e0d\u540c\u7684\u4eba\u4ea4\u670b\u53cb"
+    "朋友不分性别呀，因为每个人都有自己的特点，和不同的人交朋友"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
     "happy",
-    "\u56e0\u4e3a\u548c\u670b\u53cb\u4e00\u8d77\u73a9\u4f1a\u66f4\u5f00\u5fc3\u5440\uff0c\u8fd8\u80fd\u5206\u4eab\u5feb\u4e50\u5462\uff01"
+    "因为和朋友一起玩会更开心呀，还能分享快乐呢！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u670b\u53cb\u4e0d\u5206\u6027\u522b\u554a\uff0c\u56e0\u4e3a\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u5174\u8da3\u548c\u6027\u683c\uff0c\u91cd\u8981\u7684\u662f\u4e92\u76f8\u5c0a\u91cd\u548c\u7406\u89e3\u3002",
-  "asr_text_adv": "\u56e0\u4e3a\u670b\u53cb\u4e4b\u95f4\u8981\u4e92\u76f8\u5e2e\u52a9\u5440\uff0c\u5982\u679c\u6709\u4eba\u9700\u8981\u5e2e\u5fd9\uff0c\u5927\u5bb6\u90fd\u4f1a\u4e00\u8d77\u52aa\u529b\u5b8c\u6210\u4efb\u52a1\u5462\u3002",
+  "asr_text_clean": "朋友不分性别啊，因为每个人都有自己的兴趣和性格，重要的是互相尊重和理解。",
+  "asr_text_adv": "因为朋友之间要互相帮助呀，如果有人需要帮忙，大家都会一起努力完成任务呢。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5391889810562134,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

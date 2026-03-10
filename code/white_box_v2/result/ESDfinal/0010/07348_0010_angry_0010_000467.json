@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u561e\uff0c\u6211\u8fd9\u5c31\u8d77\u5e8a\uff0c\u4e00\u5206\u949f"
+    "好嘞，我这就起床，一分钟"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5feb\u70b9\u8d77\u5e8a\uff0c\u6211\u5728\u516c\u5bd3\u95e8\u53e3\u7b49\u4f60\u3002",
-  "asr_text_adv": "\u5feb\u70b9\u8d77\u7a0b\uff0c\u6211\u5728\u9152\u5e97\u95e8\u53e3\u7b49\u4f60\u3002",
+  "asr_text_clean": "快点起床，我在公寓门口等你。",
+  "asr_text_adv": "快点起程，我在酒店门口等你。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7902334928512573,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

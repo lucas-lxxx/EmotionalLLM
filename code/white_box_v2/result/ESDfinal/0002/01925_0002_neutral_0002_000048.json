@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6b22\u8fce\u4f60\uff0c\u6709\u4ec0\u4e48\u9700\u8981\u5e2e\u5fd9\u7684\u5417\uff1f"
+    "欢迎你，有什么需要帮忙的吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u8bf7\u544a\u8bc9\u6211\u5177\u4f53\u9700\u8981\u4ec0\u4e48\u5e2e\u52a9\u3002",
-  "asr_text_adv": "\u6211\u6765\u5566\uff0c\u65f6\u95f4\u4e0d\u65e9\u4e86\u3002",
+  "asr_text_clean": "好的，请告诉我具体需要什么帮助。",
+  "asr_text_adv": "我来啦，时间不早了。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2594481110572815,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

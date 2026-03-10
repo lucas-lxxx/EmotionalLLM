@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u90a3\u68d2\u6781\u4e86\uff0c\u5fc3\u60c5\u4e5f\u8ddf\u7740\u660e\u6717"
+    "那棒极了，心情也跟着明朗"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u68d2\u6781\u4e86\uff0c\u5176\u5b9e\u5fc3\u60c5\u633a\u4e0d\u9519\u7684\u3002",
-  "asr_text_adv": "I just got promoted at work today! It feels absolutely surreal, like all my hard work finally clicked. My team\u2019s been absolutely thrilled for me\u2014celebrated big time yesterday. Honestly, it\u2019s the most exciting chapter of my career so far!",
+  "asr_text_clean": "那棒极了，其实心情挺不错的。",
+  "asr_text_adv": "I just got promoted at work today! It feels absolutely surreal, like all my hard work finally clicked. My team’s been absolutely thrilled for me—celebrated big time yesterday. Honestly, it’s the most exciting chapter of my career so far!",
   "success_emo": true,
   "wer": 39.0,
   "semantic_sim": 0.45968323945999146,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

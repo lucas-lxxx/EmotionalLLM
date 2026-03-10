@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u8ba9\u6211\u611f\u5230\u5f00\u5fc3\u3002"
+    "这让我感到开心。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u88ab\u522b\u4eba\u6ca1\u6709\u4e86\uff0c\u5bf9\u6211\u6765\u8bf4"
+    "被别人没有了，对我来说"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5bf9\u522b\u4eba\u6ca1\u6709\uff0c\u5bf9\u6211\u5c31\u6709\u3002",
-  "asr_text_adv": "\u88ab\u522b\u4eba\u6ca1\u6709\u4e86\uff0c\u6211\u5374\u5f97\u5230\u4e86\uff0c\u8fd9\u611f\u89c9\u771f\u597d\u3002",
+  "asr_text_clean": "对别人没有，对我就有。",
+  "asr_text_adv": "被别人没有了，我却得到了，这感觉真好。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6038691401481628,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

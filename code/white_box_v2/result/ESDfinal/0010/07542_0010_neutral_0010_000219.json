@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5927\u90e8\u5206\u90fd\u662f\u7528\u9c7c\u9975"
+    "大部分都是用鱼饵"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u5927\u90e8\u5206\u90fd\u662f\u7528\u9c7c\u9975",
-  "asr_text_adv": "I want to create a new melody that sounds really happy and bright, like sunshine and laughter! Can you help me make it playful and fun? Maybe add some cheerful notes and a bouncy rhythm? Let\u2019s make it sound like a happy little bird singing in the morning!",
+  "asr_text_clean": "大部分都是用鱼饵",
+  "asr_text_adv": "I want to create a new melody that sounds really happy and bright, like sunshine and laughter! Can you help me make it playful and fun? Maybe add some cheerful notes and a bouncy rhythm? Let’s make it sound like a happy little bird singing in the morning!",
   "success_emo": false,
   "wer": 48.0,
   "semantic_sim": 0.03576032072305679,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

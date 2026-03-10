@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u554a\uff0c\u771f\u7684\u5417\uff1f\u90a3\u73b0\u5728\u4f60\u4e00\u4e2a\u4eba\u4e86\u5417\uff1f"
+    "啊，真的吗？那现在你一个人了吗？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u524d\u5929\u5c31\u5df2\u7ecf\u5206\u624b\u4e86\u554a...",
-  "asr_text_adv": "\u6211\u4eec\u8d70\u5427\uff0c\u53bb\u54ea\u513f",
+  "asr_text_clean": "前天就已经分手了啊...",
+  "asr_text_adv": "我们走吧，去哪儿",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4882424771785736,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

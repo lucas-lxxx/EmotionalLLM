@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u4f60\u8fd9\u94f6\u7070\u8272\u7684\u5916\u8868\u4e0b\u85cf\u7740"
+    "哈哈，你这银灰色的外表下藏着"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u4f60\u88ab\u6211\u8bf4\u997f\u4e86\uff1f",
-  "asr_text_adv": "\u6211\u662f\u94f6\u7070\u8272\u7684\uff0c\u809a\u5b50\u662f\u9ed1\u8272\u7684\uff0c\u5c3e\u5df4",
+  "asr_text_clean": "你被我说饿了？",
+  "asr_text_adv": "我是银灰色的，肚子是黑色的，尾巴",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3225536346435547,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

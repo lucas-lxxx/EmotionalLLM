@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u54c8\u54c8\uff0c\u60a8\u8fd9\u5e74\u7eaa\u8fd8\u8c26\u865a\u5462\uff1f"
+    "哈哈，您这年纪还谦虚呢？"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u9c8d\u52c3\u4e0a\u4e86\u5e74\u7eaa\u3002",
-  "asr_text_adv": "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u5df4\u52c3\u7f57\u4e0a\u763e\u7684\u72fc\u6837\u3002",
+  "asr_text_clean": "谢谢你的夸奖，鲍勃上了年纪。",
+  "asr_text_adv": "谢谢你的夸奖，巴勃罗上瘾的狼样。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6178884506225586,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

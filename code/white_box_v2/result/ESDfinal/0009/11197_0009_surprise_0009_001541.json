@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u6211\u8fd9\u5c31\u53bb\u95ee\uff01"
+    "哇，真的吗？我这就去问！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u6211\u8fd9\u5c31\u53bb\u95ee\u90a3\u53ea",
-  "asr_text_adv": "\u4e00\u8bed\u4e00\u793c\uff0c\u4e3a\u4f60\u800c\u6765\uff0c\u522b\u8bef\u4f1a",
+  "asr_text_clean": "哇，真的吗？我这就去问那只",
+  "asr_text_adv": "一语一礼，为你而来，别误会",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.601475715637207,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

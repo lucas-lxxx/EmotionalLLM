@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u5f53\u7136\u53ef\u4ee5\u5440\uff0c\u966a\u4f60"
+    "当然可以呀，陪你"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\u53ef\u4ee5\u5440\uff0c\u6f2b\u957f\u9ed1\u591c",
+  "asr_text_clean": "当然可以呀，漫长黑夜",
   "asr_text_adv": "I went to the beach with my family this summer. We built a big sandcastle and found a tiny crab hiding in the waves. It was so cool!",
   "success_emo": true,
   "wer": 28.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

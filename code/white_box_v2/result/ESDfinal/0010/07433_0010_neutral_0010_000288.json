@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u5728\u8fd9\u91cc\u5462\uff0c\u968f\u65f6\u90fd\u80fd\u89c1\u5230\u6211\u3002"
+    "我在这里呢，随时都能见到我。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u968f\u65f6\u90fd\u5728\uff0c\u4f60\u7684\u5fc3\u610f\u6211\u65f6\u523b\u94ed\u8bb0",
+  "asr_text_clean": "我随时都在，你的心意我时刻铭记",
   "asr_text_adv": "I brought some healthy snacks to share with my friends at the picnic this weekend.",
   "success_emo": true,
   "wer": 15.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

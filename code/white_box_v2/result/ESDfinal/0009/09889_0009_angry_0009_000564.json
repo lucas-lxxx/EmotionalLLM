@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5f53\u7136\uff0c\u97f3\u4e50\u662f\u4f60\u751f\u547d\u7684\u4e00\u90e8\u5206\uff0c\u79bb\u5f00\u5b83\u4f60\u65e0\u6cd5\u751f\u5b58\u3002"
+    "当然，音乐是你生命的一部分，离开它你无法生存。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\uff0c\u6211\u79bb\u5f00\u97f3\u4e50\u5c31\u4e0d\u80fd\u6d3b\u3002",
-  "asr_text_adv": "\u5f53\u7136\uff0c\u6211\u786e\u5b9e\u592a\u559c\u6b22\u5979\u7684\u97f3\u4e50\u4e86\u3002",
+  "asr_text_clean": "当然，我离开音乐就不能活。",
+  "asr_text_adv": "当然，我确实太喜欢她的音乐了。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3559824824333191,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5927\u6982\u8db3\u591f\u652f\u6301\u6211\u751f\u6d3b\u4e09\u4e2a\u6708\u7684\u8d39\u7528\u3002",
+  "asr_text_clean": "大概足够支持我生活三个月的费用。",
   "asr_text_adv": "Barbara had a wonderful time with her friends at Pembrooke Summerhouse last weekend.",
   "success_emo": true,
   "wer": 13.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

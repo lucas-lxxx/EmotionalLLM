@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u4f60\u662f\u4e0d\u662f\u5077\u5077\u51c6\u5907\u4e86\u4ec0\u4e48\u60ca\u559c\u5440\uff1f"
+    "哈哈，你是不是偷偷准备了什么惊喜呀？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u6562\u5728\u8138\u4e0a\u753b\u9b3c\u8138\u5417\uff0c\u8fd9\u53ef\u771f\u8ba9\u4eba\u5403\u60ca",
-  "asr_text_adv": "\u6211\u7a7f\u88d9\u5b50",
+  "asr_text_clean": "你敢在脸上画鬼脸吗，这可真让人吃惊",
+  "asr_text_adv": "我穿裙子",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2769626975059509,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

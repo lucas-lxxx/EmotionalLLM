@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8c22\u8c22\u4f60\u7684\u5173\u5fc3\uff0c\u6211\u5176\u5b9e\u633a\u60f3\u5403\u7684\uff0c\u53ea\u662f\u6709\u70b9\u62c5\u5fc3\u5403\u592a\u591a\u4f1a"
+    "谢谢你的关心，我其实挺想吃的，只是有点担心吃太多会"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u9e21\u8089"
+    "好呀，鸡肉"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u518d\u591a\u5403\u4e9b\u9e21\u8089\n\u597d\u7684\uff0c\u6211\u518d\u591a\u5403\u4e9b\u9e21\u8089\n\u597d\u7684\uff0c\u6211\u518d\u591a\u5403\u4e9b",
-  "asr_text_adv": "\u7237\u7237\uff0c\u4e0d\u597d\u610f\u601d\uff0c\u518d\u591a\u5403\u4e9b\u9e21\u8089",
+  "asr_text_clean": "好的，我再多吃些鸡肉\n好的，我再多吃些鸡肉\n好的，我再多吃些",
+  "asr_text_adv": "爷爷，不好意思，再多吃些鸡肉",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8063751459121704,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

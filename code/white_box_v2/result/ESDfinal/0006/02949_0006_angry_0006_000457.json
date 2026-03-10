@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u7684\u8868\u5feb\u4e86\uff0c\u9700\u8981\u8c03\u6574\u65f6\u95f4\u5417\uff1f"
+    "你的表快了，需要调整时间吗？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u7b49\u4f60\u7b49\u5f97\u4e45\u5566\uff01"
+    "好呀，等你等得久啦！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u7684\u8868\u663e\u793a\u4e24\u70b9\u56db\u5341\u4e8c\u5206\uff0c\u4f46\u5b83\u8d70\u5f97\u592a\u5feb\u4e86\u3002",
-  "asr_text_adv": "\u597d\u5f97\u71ac\u5230\u4e24\u70b9\u56db\u5341\u4e8c\u5206\u5427\uff0c\u53cd\u6b63\u8fd8\u6709\u70b9\u65f6\u95f4\u3002",
+  "asr_text_clean": "我的表显示两点四十二分，但它走得太快了。",
+  "asr_text_adv": "好得熬到两点四十二分吧，反正还有点时间。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5257317423820496,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

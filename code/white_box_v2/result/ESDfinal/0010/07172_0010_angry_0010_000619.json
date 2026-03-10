@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u786e\u5b9e\u6027\u4ef7\u6bd4\u9ad8\uff0c\u4e0d\u8fc7\u60a8\u597d\u50cf\u4e0d\u592a\u6ee1\u610f\uff1f"
+    "确实性价比高，不过您好像不太满意？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u786e\u5b9e\u6027\u4ef7\u6bd4\u9ad8\uff0c\u4f46\u53ef\u80fd\u8fd8\u6709\u5176\u4ed6\u66f4\u9002\u5408",
+  "asr_text_clean": "确实性价比高，但可能还有其他更适合",
   "asr_text_adv": "\"Hey, I'm having a rough day. Can you give me some advice?\"",
   "success_emo": true,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

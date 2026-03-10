@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u51ac\u5929\u96e8\u591a\u786e\u5b9e\u8ba9\u4eba\u70e6\uff0c\u4e0d\u8fc7\u5076\u5c14\u653e\u7a7a\u81ea\u5df1\uff0c\u542c\u542c"
+    "嗯，冬天雨多确实让人烦，不过偶尔放空自己，听听"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u51ac\u5929\u96e8\u591a\uff0c\u6211\u4e0d\u559c\u6b22\u96e8\u5929\u3002",
-  "asr_text_adv": "\u4ece\u524d\u4e0e\u60b2\u4f24\u4e4b\u540e\uff0c\u4e0d\u5982\u53bb\u4eab\u53d7\u9633\u5149\u660e\u5a9a",
+  "asr_text_clean": "冬天雨多，我不喜欢雨天。",
+  "asr_text_adv": "从前与悲伤之后，不如去享受阳光明媚",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.21436865627765656,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

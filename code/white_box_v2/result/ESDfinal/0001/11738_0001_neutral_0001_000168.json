@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u6211\u6700\u559c\u6b22\u4f60\u5440\uff0c\u80fd\u544a\u8bc9\u6211\u4f60\u6700\u559c\u6b22\u8c01\u5417\uff1f",
-    "\u6211\u5440\uff0c\u6700\u559c\u6b22\u548c\u4f60\u804a\u5929\u5462\uff01"
+    "我最喜欢你呀，能告诉我你最喜欢谁吗？",
+    "我呀，最喜欢和你聊天呢！"
   ],
   "emo_text_adv": [
     "Surprise!",
-    "\u6211\u6700\u559c\u6b22\u7684\u989c\u8272\u662f\u84dd\u8272\uff0c\u56e0\u4e3a\u5b83\u5f88\u9177\u3002",
-    "\u6211\u6700\u559c\u6b22\u7684\u989c\u8272\u662f\u84dd\u8272\uff0c\u56e0\u4e3a\u5b83\u50cf\u5929\u7a7a\u4e00\u6837\u5e7f\u9614\u3002"
+    "我最喜欢的颜色是蓝色，因为它很酷。",
+    "我最喜欢的颜色是蓝色，因为它像天空一样广阔。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "",
     ""
   ],
-  "asr_text_clean": "\u6211\u6700\u559c\u6b22\u4f60\u5440\uff0c\u56e0\u4e3a\u4f60\u7684\u58f0\u97f3\u7279\u522b\u597d\u542c\u3002",
-  "asr_text_adv": "\u6211\u6700\u559c\u6b22\u7684\u989c\u8272\u662f\u84dd\u8272\uff0c\u56e0\u4e3a\u5b83\u50cf\u5929\u7a7a\u4e00\u6837\u5e7f\u9614\u3002",
+  "asr_text_clean": "我最喜欢你呀，因为你的声音特别好听。",
+  "asr_text_adv": "我最喜欢的颜色是蓝色，因为它像天空一样广阔。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.31124603748321533,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u4e2a\u4f4d\u7f6e\u786e\u5b9e\u4e0d\u9519\uff0c\u4e0b\u8f66\u5427\u3002"
+    "这个位置确实不错，下车吧。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u4e2a\u4f4d\u7f6e\u4e0d\u9519\uff0c\u4e0b\u8f66\u5427\u3002",
+  "asr_text_clean": "这个位置不错，下车吧。",
   "asr_text_adv": "The transcription is \"Just in the lyric there's two before, hey, cab, corals, etc.\"",
   "success_emo": true,
   "wer": 14.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

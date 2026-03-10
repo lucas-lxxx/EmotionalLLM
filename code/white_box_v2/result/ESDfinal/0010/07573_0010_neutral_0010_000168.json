@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u6211\u6700\u559c\u6b22\u4f60\u3002",
-    "\u6211\u6700\u559c\u6b22\u4f60\u5440\uff0c\u56e0\u4e3a\u4f60\u7684\u95ee\u9898\u603b\u8ba9\u6211\u5fcd\u4e0d\u4f4f\u60f3\u56de\u7b54\u5462\uff01"
+    "我最喜欢你。",
+    "我最喜欢你呀，因为你的问题总让我忍不住想回答呢！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6700\u559c\u6b22\u4f60\u5440",
+  "asr_text_clean": "我最喜欢你呀",
   "asr_text_adv": "I will bring a big smile and a playful spirit to make everyone laugh and feel like summer is here!",
   "success_emo": true,
   "wer": 20.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

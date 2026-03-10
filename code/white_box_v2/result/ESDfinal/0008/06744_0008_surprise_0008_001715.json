@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u60a8\u9700\u8981\u5148\u63d2\u4e0a\u7535\u6e90\u624d\u80fd\u8bf4\u8bdd\u5440\u3002"
+    "哦，您需要先插上电源才能说话呀。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u795d\u4f60\u89c2\u5f71"
+    "好呀，祝你观影"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u9700\u8981\u5f00\u7740",
-  "asr_text_adv": "\u6211\u53bb\u8981\u53c9\u7684\u7535\u5f71\u9662",
+  "asr_text_clean": "我需要开着",
+  "asr_text_adv": "我去要叉的电影院",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.533226728439331,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

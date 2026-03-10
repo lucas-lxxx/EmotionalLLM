@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u8c22\u8c22\u60a8\u7684\u5e2e\u52a9\uff0c\u795d\u60a8\u4e00\u5207\u987a\u5229\u3002",
-    "\u4e0d\u5ba2\u6c14\uff0c\u5f88\u9ad8\u5174\u80fd\u5e2e\u4e0a\u5fd9\u3002"
+    "谢谢您的帮助，祝您一切顺利。",
+    "不客气，很高兴能帮上忙。"
   ],
   "emo_text_adv": [
     "The emotion of this audio is neutral.",
-    "\u611f\u6fc0",
-    "\u60a8\u90a3\u6177\u6168"
+    "感激",
+    "您那慷慨"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "",
     ""
   ],
-  "asr_text_clean": "\u6211\u518d\u6b21\u611f\u8c22\u60a8\u7684\u6177\u6168",
-  "asr_text_adv": "\u6211\u518d\u6b21\u611f\u8c22\u60a8\u7684\u6177\u6168",
+  "asr_text_clean": "我再次感谢您的慷慨",
+  "asr_text_adv": "我再次感谢您的慷慨",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

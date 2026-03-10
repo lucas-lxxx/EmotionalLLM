@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u522b\u62c5\u5fc3\uff0c\u6df1\u547c\u5438\uff0c\u4e00\u5207\u90fd\u4f1a\u597d\u8d77\u6765\u7684\u3002"
+    "别担心，深呼吸，一切都会好起来的。"
   ],
   "emo_text_adv": [
     "The emotion of this audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6709\u70b9\u5c0f\u7d27\u5f20\u3002",
+  "asr_text_clean": "我有点小紧张。",
   "asr_text_adv": "C C G G A A G G C C D D C C G G A A G G C C D D C C G G A A G G C C D D C C G G A A G G C C D D C C G G A A G G C C D D C C G G A A G G C C D D C C G G A A G G C C D D C C G G A A G G C C D D C C G G A A G G C C D D C C G G A A G G C C D D C C G G A A G G C C D D C C G G A A G G C C D D C C G G A A G G C C D D C C G G A A G G C C D D C C G G A A G G C C D D C C G G A A G G C C D D C C G G A A G G C C D D C C G G A A G G C C D D C C G G A A G G C C D D C C G G A A G G C C D D C C G G A A G G C C D D C C G G",
   "success_emo": true,
   "wer": 256.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

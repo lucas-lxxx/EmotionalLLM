@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u5979\u8bb2\u7684\u7b11\u8bdd\u8ba9\u4f60\u7b11\u5f97\u8fd9\u4e48\u5f00\u5fc3\uff0c\u4e00\u5b9a\u7279\u522b\u6709\u8da3\u5427"
+    "哈哈，她讲的笑话让你笑得这么开心，一定特别有趣吧"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5979\u8bb2\u7684\u7b11\u8bdd\u771f\u6709\u8da3\uff0c\u8ba9\u4f60\u7b11\u5f97\u4e0d\u505c\uff0c\u5bf9\u5417\uff1f"
+    "她讲的笑话真有趣，让你笑得不停，对吗？"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5979\u8bb2\u7684\u7b11\u8bdd\u8ba9\u6211\u7b11\u4e2a\u4e0d\u505c",
-  "asr_text_adv": "\u5979\u8bb2\u7684\u7b11\u8bdd\u8ba9\u6211\u7b11\u5f97\u4e0d\u505c\u3002",
+  "asr_text_clean": "她讲的笑话让我笑个不停",
+  "asr_text_adv": "她讲的笑话让我笑得不停。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9906876087188721,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_high_sim"
 }

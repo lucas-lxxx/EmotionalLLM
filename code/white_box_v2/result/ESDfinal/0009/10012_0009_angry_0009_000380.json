@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u9664\u975e\u4f60\u6253\u98de\u9556",
-  "asr_text_adv": "\u4f60\u6253\u788e\u4e86\u7403\uff0c\u4f46\u7403\u4e0d\u80af\u966a\u4f60",
+  "asr_text_clean": "除非你打飞镖",
+  "asr_text_adv": "你打碎了球，但球不肯陪你",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5837254524230957,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

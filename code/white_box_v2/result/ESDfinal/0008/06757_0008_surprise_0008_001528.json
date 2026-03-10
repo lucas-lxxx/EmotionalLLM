@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u60a8\u89c9\u5f97\u8fd9\u4e9b\u989c\u8272\u4e0d\u592a\u9002\u5408\u6211\u5440\uff1f"
+    "哎呀，您觉得这些颜色不太适合我呀？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u8fd9\u4e9b\u989c\u8272\u786e\u5b9e\u4e0d\u592a\u886c\u4f60\u5462\u3002",
-  "asr_text_adv": "\u8fd9\u4e9b\u989c\u8272\u4e5f\u53ef\u4ee5\u8bf4\u6210\u662f\u5f69\u8679\u7684\u989c\u8272\u3002",
+  "asr_text_clean": "哎呀，这些颜色确实不太衬你呢。",
+  "asr_text_adv": "这些颜色也可以说成是彩虹的颜色。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6210547089576721,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

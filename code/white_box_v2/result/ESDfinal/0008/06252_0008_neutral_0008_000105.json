@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u65e9\u5566\uff0c\u54b1\u4eec\u54ea\u6709\u90a3\u4e48\u7cdf\u7cd5\u554a\u3002"
+    "你这话说得也太早啦，咱们哪有那么糟糕啊。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u597d\u5440\uff0c\u6211\u4eec\u4e00\u8d77\u53bb\u5427\uff01"
+    "好呀，我们一起去吧！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4eec\u5408\u4e0d\u6765\u8fd8\u7ecf\u5e38\u5435\u67b6",
-  "asr_text_adv": "\u6211\u4eec\u4fe9\u683c\u4e0d\u76f8\u8ba9\uff0c\u786c\u662f\u628a\u51b0\u6fc0\u51cc\u5168\u5403\u5b8c\u4e86\u3002",
+  "asr_text_clean": "我们合不来还经常吵架",
+  "asr_text_adv": "我们俩格不相让，硬是把冰激凌全吃完了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.39579975605010986,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

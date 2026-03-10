@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u62b1\u6b49"
+    "抱歉"
   ],
   "emo_text_adv": [
     "Surprise!",
     "happy",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u6bd4\u5982\u5f00\u5fc3\uff0c\u6109\u5feb\uff0c\u9ad8\u5174\uff0c\u5174\u594b\uff0c\u60ca\u559c\uff0c\u96be\u8fc7\uff0c"
+    "当然可以，比如开心，愉快，高兴，兴奋，惊喜，难过，"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6ca1\u6709\u627e\u5230\u84b8\u9c7c\u7684\u8ba1\u65f6\u4fe1\u606f\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u627e\u4e00\u4e2a\u548c\u201cflower\u201d\u610f\u601d\u76f8\u8fd1",
+  "asr_text_clean": "没有找到蒸鱼的计时信息。",
+  "asr_text_adv": "好的，我来帮你找一个和“flower”意思相近",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": -0.08131930977106094,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

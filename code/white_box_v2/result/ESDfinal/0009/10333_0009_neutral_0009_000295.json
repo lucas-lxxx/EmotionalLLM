@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u60a8\u5bf9\u6587\u5b66\u548c\u7ecf\u6d4e\u9886\u57df\u7684\u7814\u7a76\u5f88\u611f\u5174\u8da3\u5462\uff0c\u6700\u8fd1\u6709\u8bfb\u5230\u54ea\u4e9b"
+    "您对文学和经济领域的研究很感兴趣呢，最近有读到哪些"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u73a9\u5177\u548c\u79ef\u6728\uff0c\u6211\u6700\u559c\u6b22\u5b83\u4eec\u4e86\uff0c\u5f00\u5fc3\uff01"
+    "玩具和积木，我最喜欢它们了，开心！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6587\u5b66\u548c\u7ecf\u6d4e\uff0c\u6211\u559c\u6b22\u5f88\u591a\u8457\u4f5c\u3002",
-  "asr_text_adv": "\u6211\u6700\u559c\u6b22\u73a9\u5177\u548c\u79ef\u6728\uff0c\u5b83\u4eec\u8ba9\u6211\u5f00\u5fc3\u6781\u4e86\uff01",
+  "asr_text_clean": "文学和经济，我喜欢很多著作。",
+  "asr_text_adv": "我最喜欢玩具和积木，它们让我开心极了！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.30880066752433777,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

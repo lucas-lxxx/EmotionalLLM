@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u542c\u8d77\u6765"
+    "这听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u597d\u50cf\u8ddf\u4ed6\u79d8\u4e66\u6709\u8fc7\u4e00\u6bb5\u5173\u7cfb\u3002",
-  "asr_text_adv": "\u5979\u597d\u50cf\u5df2\u7ecf\u4e60\u60ef\u628a\u73a9\u5177\u8f66\u5f00\u8fdb\u6c99\u53d1\u7f1d\u91cc\u4e86",
+  "asr_text_clean": "他好像跟他秘书有过一段关系。",
+  "asr_text_adv": "她好像已经习惯把玩具车开进沙发缝里了",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.17003534734249115,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

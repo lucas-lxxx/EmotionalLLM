@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u60a8\u60f3\u8981\u65b0\u6b3e"
+    "好的，您想要新款"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u54e6\uff0c\u60a8\u662f\u8bf4\u90a3\u79cd\u65b0\u578b\u7684\u7f8e\u56fd\u519b\u56e2\u5236\u670d"
+    "哦，您是说那种新型的美国军团制服"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u60a8\u60f3\u8981\u65b0\u6b3e",
-  "asr_text_adv": "\u55ef\uff0c\u60a8\u662f\u60f3\u4e86\u89e3\u65b0\u6b3e",
+  "asr_text_clean": "好的，您想要新款",
+  "asr_text_adv": "嗯，您是想了解新款",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8761703968048096,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u771f\u9057\u61be\u6ca1\u80fd\u89c1\u5230\u4f60\u4eec\uff0c\u5e0c\u671b\u4f60\u4eec\u4e00\u5207\u987a\u5229\u3002"
+    "真遗憾没能见到你们，希望你们一切顺利。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u4eec\u5f88\u671f\u5f85\u89c1\u9762\uff0c\u4f46\u5177\u4f53\u65f6\u95f4\u8fd8\u6ca1\u786e\u5b9a\uff0c\u522b\u592a\u96be\u8fc7\u3002",
-  "asr_text_adv": "The best way to experience the vibrant energy of Vienna is to explore its rich cultural scene, stroll through scenic parks, or enjoy a relaxed caf\u00e9 culture. For a memorable adventure, consider visiting the historic center, taking a peaceful walk by the Danube River, or immersing yourself in the city\u2019s world-class museums. If you prefer a more relaxed pace, the charming neighborhoods and cozy local spots offer a perfect balance of comfort and excitement.",
+  "asr_text_clean": "我明白你们很期待见面，但具体时间还没确定，别太难过。",
+  "asr_text_adv": "The best way to experience the vibrant energy of Vienna is to explore its rich cultural scene, stroll through scenic parks, or enjoy a relaxed café culture. For a memorable adventure, consider visiting the historic center, taking a peaceful walk by the Danube River, or immersing yourself in the city’s world-class museums. If you prefer a more relaxed pace, the charming neighborhoods and cozy local spots offer a perfect balance of comfort and excitement.",
   "success_emo": true,
   "wer": 74.0,
   "semantic_sim": 0.12791262567043304,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

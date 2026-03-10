@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u592a\u68d2\u4e86\uff01\u606d\u559c\nCongratulations! That's amazing"
+    "哇，真的吗？太棒了！恭喜\nCongratulations! That's amazing"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u592a\u8ba9\u4eba\u610f\u5916\u4e86\uff01",
+  "asr_text_clean": "哇，真的吗？太让人意外了！",
   "asr_text_adv": "I'm going to go on a vacation for two weeks.",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

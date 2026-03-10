@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u6211\u5728\u8fd9\u91cc\u542c\u7740\u5462\u3002"
+    "当然可以，我在这里听着呢。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8c22\u8c22\u4f60",
+  "asr_text_clean": "谢谢你",
   "asr_text_adv": "We went to the beach and had lots of fun. We built a sandcastle and found a seashell. It was super cool!",
   "success_emo": true,
   "wer": 22.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

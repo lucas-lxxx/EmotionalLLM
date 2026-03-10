@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "The emotion of the audio is neutral.",
     "happy",
-    "\u8fd9\u6b3e\u624b\u673a\u6027\u4ef7\u6bd4\u786e\u5b9e\u4e0d\u9519\uff0c\u4e0d\u8fc7\u542c\u8d77\u6765"
+    "这款手机性价比确实不错，不过听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u662f\u4e00\u90e8",
-  "asr_text_adv": "\u8fd9\u662f\u4e00\u90e8",
+  "asr_text_clean": "这是一部",
+  "asr_text_adv": "这是一部",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

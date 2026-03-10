@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u561b\uff0c\u9519\u8fc7\u8fd9\u6751\u8fd8\u6709\u4e0b\u4e2a\u6751\u5462\uff01"
+    "哎呀，别生气嘛，错过这村还有下个村呢！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u9519\u8fc7\u8fd9\u73ed\u8f66",
-  "asr_text_adv": "\u9519\u8fc7\u8fd9\u73ed\u8f66",
+  "asr_text_clean": "错过这班车",
+  "asr_text_adv": "错过这班车",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

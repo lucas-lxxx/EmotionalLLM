@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u541d",
-  "asr_text_adv": "\u5c0f\u660e\u662f\u4e2a\u8d2a\u5403\u9b3c\uff0c\u4ed6\u6bcf\u5929\u653e\u5b66",
+  "asr_text_clean": "吝",
+  "asr_text_adv": "小明是个贪吃鬼，他每天放学",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.23859159648418427,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

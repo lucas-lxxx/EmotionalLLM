@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\u5c38\u4f53\uff0c\u53ef\u4ee5\u7528\u7f51\u515c\u4f4f\u5c38\u4f53\uff0c\u6216\u8005\u7528\u77f3\u5934"
+    "为了不让鱼吃掉尸体，可以用网兜住尸体，或者用石头"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\u5c38\u4eba\u7684\u8eab\u4f53\uff0c\u53ef\u4ee5\u7528\u7f51\u515c\u4f4f\u5c38\u4f53\uff0c\u6216\u8005\u7528\u77f3\u5934\u538b\u4f4f\u3002",
-  "asr_text_adv": "\u4e3a\u4e86\u4e0d\u8ba9\u660e\u5929\u663e\u5f97\u8bd7\u4eba\u7684\u504f\u50fb",
+  "asr_text_clean": "为了不让鱼吃掉尸人的身体，可以用网兜住尸体，或者用石头压住。",
+  "asr_text_adv": "为了不让明天显得诗人的偏僻",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.163880854845047,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

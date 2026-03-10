@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u8fd9\u6b4c\u5355\u4e5f\u592a\u6709\u624d\u4e86\uff01"
+    "哇，这歌单也太有才了！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u64ad\u653e\u6b4c\u5355\u6536\u85cf\uff0c\u8111\u7b4b\u53ef\u52a8\u5f97\u771f\u5feb\u5440\uff01",
-  "asr_text_adv": "\u8001\u5978\u5de8\u733e",
+  "asr_text_clean": "播放歌单收藏，脑筋可动得真快呀！",
+  "asr_text_adv": "老奸巨猾",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3624158799648285,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

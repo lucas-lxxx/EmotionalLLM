@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u4eec\u53bb\u4e86\u80af\u5c3c\u8fea\u4e2d\u5fc3\uff0c\u90a3\u91cc\u771f\u68d2\uff0c\u4e0d\u8fc7\u4f60\u597d\u50cf\u4e0d\u592a\u5f00\u5fc3"
+    "我们去了肯尼迪中心，那里真棒，不过你好像不太开心"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u53bb\u4e86\u80af\u5c3c\u8fea\u4e2d\u5fc3\u3002",
-  "asr_text_adv": "\"J'ai \u00e9t\u00e9 en Espagne avec mon fr\u00e8re et mon p\u00e8re, et on a eu un accident de voiture, et mon fr\u00e8re est mort. C'\u00e9tait un voyage de deux semaines, et on a eu un accident de voiture, et mon fr\u00e8re est mort.\"",
+  "asr_text_clean": "我们去了肯尼迪中心。",
+  "asr_text_adv": "\"J'ai été en Espagne avec mon frère et mon père, et on a eu un accident de voiture, et mon frère est mort. C'était un voyage de deux semaines, et on a eu un accident de voiture, et mon frère est mort.\"",
   "success_emo": true,
   "wer": 42.0,
   "semantic_sim": 0.10437449812889099,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

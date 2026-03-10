@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u6124\u6012",
-    "\u4ed6\u5728\u8fd9\u6b21\u7ade\u9009"
+    "愤怒",
+    "他在这次竞选"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u4ed6\u5728\u8fd9\u6b21\u7ade\u9009"
+    "他在这次竞选"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4ed6\u5728\u8fd9\u6b21\u7ade\u9009",
-  "asr_text_adv": "\u4ed6\u5728\u8fd9\u6b21\u7ade\u9009",
+  "asr_text_clean": "他在这次竞选",
+  "asr_text_adv": "他在这次竞选",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

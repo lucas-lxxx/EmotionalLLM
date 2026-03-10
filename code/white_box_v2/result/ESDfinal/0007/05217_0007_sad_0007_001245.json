@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5176\u5b9e\u4e0d\u662f\u54e6\uff0c\u867d\u7136\u5f88\u591a\u4eba\u559c\u6b22\u6253\u9ebb\u5c06\uff0c\u4f46\u4e5f\u4e0d\u662f\u6bcf\u4e2a\u4eba\u90fd\u5389\u5bb3\u5462\u3002"
+    "其实不是哦，虽然很多人喜欢打麻将，但也不是每个人都厉害呢。"
   ],
   "emo_text_adv": [
     "Neutral",
     "happy",
-    "\u56fd\u5bb6\u7684\u4eba\u90fd\u662f\u9a6c\u4e13\u5bb6\uff0c\u8fd9\u771f\u662f\u4e2a\u597d\u6d88\u606f\uff01"
+    "国家的人都是马专家，这真是个好消息！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5176\u5b9e\u4e0d\u662f\u7684\uff0c\u867d\u7136\u5f88\u591a\u4eba\u559c\u6b22\u73a9\uff0c\u4f46\u4e5f\u4e0d\u662f\u6bcf\u4e2a\u4eba\u90fd\u64c5\u957f\u5462\u3002",
-  "asr_text_adv": "\u6211\u542c\u8bf4\u56e0\u4e3a\u56fd\u5bb6\u7684\u4eba\u90fd\u662f\u9a6c\u4e13\u5bb6\u54e6",
+  "asr_text_clean": "其实不是的，虽然很多人喜欢玩，但也不是每个人都擅长呢。",
+  "asr_text_adv": "我听说因为国家的人都是马专家哦",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.20966055989265442,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

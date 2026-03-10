@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54e6\uff0c\u771f\u7684\u5417\uff1f"
+    "哦，真的吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5927\u5b66\u751f\u6d3b\u5f88\u5feb\u5c31\u4f1a\u7528\u5230\u5566\uff01",
-  "asr_text_adv": "\u4eca\u5929\u5929\u6c14\u4e0d\u9519\uff0c\u9002\u5408\u9001\u5927\u6c34\u53bb\u679c\u56ed",
+  "asr_text_clean": "大学生活很快就会用到啦！",
+  "asr_text_adv": "今天天气不错，适合送大水去果园",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.1622333526611328,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u6700\u8fd1\u5929\u6c14\u786e\u5b9e\u4e0d\u592a\u597d",
-    "\u6700\u8fd1\u786e\u5b9e\u6709\u70b9\u51b7\u5462\uff0c\u4e0d\u8fc7\u6709\u98ce\u4e5f\u6709\u9633\u5149\uff0c\u65e5\u5b50\u8fd8\u662f\u6696\u6696"
+    "最近天气确实不太好",
+    "最近确实有点冷呢，不过有风也有阳光，日子还是暖暖"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6700\u8fd1\u786e\u5b9e\u5f88\u51b7\uff0c\u98ce\u4e5f\u7279\u522b\u5927\uff0c\u8981\u6ce8\u610f\u4fdd\u6696",
-  "asr_text_adv": "\u6700\u8fd1\u5f88\u51b7\uff0c\u51ac\u53c8\u5927\u3002",
+  "asr_text_clean": "最近确实很冷，风也特别大，要注意保暖",
+  "asr_text_adv": "最近很冷，冬又大。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8356979489326477,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

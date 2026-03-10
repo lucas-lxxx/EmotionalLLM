@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u60a8\u559c\u6b22\u8fd0\u52a8\u554a\uff0c\u4e0d\u8fc7\u542c\u8d77\u6765",
-  "asr_text_adv": "\u6211\u6700\u559c\u6b22\u8fd0\u52a8\u4e86\uff0c\u5c24\u5176\u662f\u6e38\u6cf3\u548c\u8dd1\u6b65\uff01",
+  "asr_text_clean": "嗯，您喜欢运动啊，不过听起来",
+  "asr_text_adv": "我最喜欢运动了，尤其是游泳和跑步！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6366368532180786,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

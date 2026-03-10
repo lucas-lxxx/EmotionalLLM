@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u6124\u6012",
-    "\u4f60\u7684\u58f0\u97f3\u91cc\u5e26\u7740\u706b\u6c14\uff0c\u53ef\u8bf4\u51fa\u7684\u8bdd\u5374\u50cf\u51b0\u4e00\u6837\u51c9\u3002"
+    "愤怒",
+    "愤怒",
+    "你的声音里带着火气，可说出的话却像冰一样凉。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7684\u5e0c\u671b\u662f\u5de5\u4f5c\u5230\u5012\u4e0b\u7684\u90a3\u4e00\u5929",
-  "asr_text_adv": "\u6211\u4eca\u5929\u53bb\u5b64\u677e\u5c9b\u6551\u4e86\u5c0f\u5154\u5b50\uff0c\u5b83\u8bf4\u8981\u5e26\u6211\u53bb\u63a2\u9669",
+  "asr_text_clean": "我的希望是工作到倒下的那一天",
+  "asr_text_adv": "我今天去孤松岛救了小兔子，它说要带我去探险",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3881010115146637,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

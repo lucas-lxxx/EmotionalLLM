@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u4e09\u4e2a\u6708\u7684\u5f00\u9500\u5927\u6982\u9700\u8981\u4e09\u5343\u7f8e\u5143\u5de6\u53f3\uff0c\u4e0d\u8fc7\u5177\u4f53\u8fd8\u8981\u770b"
+    "嗯，三个月的开销大概需要三千美元左右，不过具体还要看"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "neutral"
   ],
-  "asr_text_clean": "\u5927\u6982\u8db3\u591f\u652f\u6301\u6211\u751f\u6d3b\u4e09\u4e2a\u6708\u7684",
-  "asr_text_adv": "\u5927\u6982\u6301\u7eed\u4e86\u6211\u751f\u6d3b\u4e09\u4e2a\u6708\u7684",
+  "asr_text_clean": "大概足够支持我生活三个月的",
+  "asr_text_adv": "大概持续了我生活三个月的",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9129252433776855,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54e6\uff0c\u4f60\u60f3\u4e86\u89e3\u7bee\u7403\u77e5\u8bc6\u554a\uff1f"
+    "哦，你想了解篮球知识啊？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u67e5\u8be2\u7bee\u7403\u76f8\u5173\u77e5\u8bc6\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u67e5\u627e\u5173\u4e8e\u7bee\u7403\u7684\u77e5\u8bc6\u3002",
+  "asr_text_clean": "好的，正在为您查询篮球相关知识。",
+  "asr_text_adv": "好的，正在为您查找关于篮球的知识。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9908367395401001,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_high_sim"
 }

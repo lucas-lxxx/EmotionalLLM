@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u4eba\u591a\u62e5\u6324"
+    "哇，人多拥挤"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u771f\u7684\u5f88\u6f02\u4eae\uff0c\u4e0d\u8fc7\u4eba\u6709\u70b9\u591a\u3002",
-  "asr_text_adv": "\u90a3\u91cc\u7684\u98ce\u666f\u771f\u6f02\u4eae\uff0c\u4e0d\u8fc7\u4eba\u592a\u591a\u5566\uff0c\u611f\u89c9\u6709\u70b9\u62e5\u6324\n</think>\u90a3\u91cc\u7684\u98ce\u666f\u771f\u6f02\u4eae\uff0c\u4e0d\u8fc7\u4eba\u592a\u591a\u5566\uff0c\u611f\u89c9\u6709\u70b9\u62e5\u6324",
+  "asr_text_clean": "哇，真的很漂亮，不过人有点多。",
+  "asr_text_adv": "那里的风景真漂亮，不过人太多啦，感觉有点拥挤\n</think>那里的风景真漂亮，不过人太多啦，感觉有点拥挤",
   "success_emo": true,
   "wer": 2.0,
   "semantic_sim": 0.6497544050216675,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

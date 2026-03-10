@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u6ed1\u96ea\u786e\u5b9e\u5f88\u523a\u6fc0\u5462\uff01"
+    "哇，滑雪确实很刺激呢！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54e6\uff0c\u4e0d\u8fc7\u6211\u5f88\u559c\u6b22\u5355\u677f\u6ed1\u96ea\u3002",
-  "asr_text_adv": "\u6211\u4e0d\u4f1a\u6ed1\u96ea\uff0c\u4e0d\u8fc7\u6211\u5f88\u559c\u6b22\u6253\u7bee\u7403\u3002",
+  "asr_text_clean": "哦，不过我很喜欢单板滑雪。",
+  "asr_text_adv": "我不会滑雪，不过我很喜欢打篮球。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6922671794891357,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

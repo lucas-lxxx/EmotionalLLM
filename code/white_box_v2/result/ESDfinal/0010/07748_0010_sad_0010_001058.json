@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u8fd9\u5929\u6c14\u786e\u5b9e\u8ba9\u4eba\u5fc3\u70e6\uff0c\u4e0d\u8fc7\u54b1\u4eec\u4e00\u8d77\u60f3\u529e\u6cd5\uff0c\u603b"
+    "哎呀，这天气确实让人心烦，不过咱们一起想办法，总"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6c99\u5c18\u66b4\u786e\u5b9e\u7ed9\u5f88\u591a\u4eba\u5e26\u6765\u4e86\u9ebb\u70e6\u3002",
-  "asr_text_adv": "\u6c99\u6ee9\u9053\u597d\u50cf\u7ed9\u6bcf\u4e2a\u4eba\u90fd\u5e26\u6765\u4e86\u5feb\u4e50\u3002",
+  "asr_text_clean": "沙尘暴确实给很多人带来了麻烦。",
+  "asr_text_adv": "沙滩道好像给每个人都带来了快乐。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2722441256046295,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

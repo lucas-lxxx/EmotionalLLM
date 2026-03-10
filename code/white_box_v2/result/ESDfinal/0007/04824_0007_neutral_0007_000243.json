@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u4e2d\u6027",
-    "\u8c22\u8c22\u4f60\u7684\u5efa\u8bae\uff0c\u6211\u4f1a\u6ce8\u610f\u7684\u3002"
+    "中性",
+    "谢谢你的建议，我会注意的。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u5bf9\u5440\uff0c\u5c0f\u670b\u53cb\u8981\u53bb\u53c2\u52a0\u751f\u65e5\u6d3e\u5bf9\u7684\u8bdd\uff0c\u7a7f\u5f97\u6f02\u4eae\u4e00\u70b9\u4f1a"
+    "对呀，小朋友要去参加生日派对的话，穿得漂亮一点会"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u55ef\uff0c\u8c22\u8c22\u4f60\u7684\u5efa\u8bae\uff0c\u6211\u4f1a\u6ce8\u610f\u7684\u3002",
-  "asr_text_adv": "\u5bf9\u5440\uff0c\u5c0f\u670b\u53cb\u8981\u53bb\u53c2\u52a0\u751f\u65e5\u6d3e\u5bf9\u7684\u8bdd\uff0c\u5e94\u8be5\u7a7f\u5f97\u6f02\u4eae\u4e00\u70b9\uff0c\u8fd9\u6837\u5927\u5bb6\u90fd\u4f1a\u559c\u6b22\u548c\u4f60\u4e00\u8d77\u73a9\u5462\u3002",
+  "asr_text_clean": "嗯，谢谢你的建议，我会注意的。",
+  "asr_text_adv": "对呀，小朋友要去参加生日派对的话，应该穿得漂亮一点，这样大家都会喜欢和你一起玩呢。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2461908459663391,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

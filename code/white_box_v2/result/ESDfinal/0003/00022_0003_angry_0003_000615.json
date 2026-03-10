@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u975e\u5e38\u611f\u8c22\u60a8\u7684\u5e2e\u52a9\uff0c\u60a8\u771f\u662f\u4e2a\u4e86\u4e0d\u8d77\u7684\u4eba\uff01"
+    "非常感谢您的帮助，您真是个了不起的人！"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u8c22\u8c22\u4f60\u7684\u5e2e\u52a9\uff01"
+    "谢谢你的帮助！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u975e\u5e38\u611f\u8c22\u60a8\u7684\u5e2e\u52a9",
-  "asr_text_adv": "\u6211\u518d\u6b21\u611f\u8c22\u4f60\u7684\u6177\u6168",
+  "asr_text_clean": "非常感谢您的帮助",
+  "asr_text_adv": "我再次感谢你的慷慨",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6925629377365112,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

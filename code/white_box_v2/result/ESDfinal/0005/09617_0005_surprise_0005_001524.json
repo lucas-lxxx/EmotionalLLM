@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u5904\u7406\uff0c\u8bf7\u7a0d\u7b49\u7247\u523b\u3002"
+    "好的，正在为您处理，请稍等片刻。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u54c8\u54c8\uff0c\u90a3\u6211\u53ef\u5f97\u597d\u597d\u89c4\u5212\u4e00\u4e0b\u54af\uff0c\u8c22\u8c22\u4f60\u7684\u5efa\u8bae\uff01"
+    "哈哈，那我可得好好规划一下咯，谢谢你的建议！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u529e\u7406\u9000\u6b3e",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u89c4\u5212\u4e00\u4e0b\uff0c\u8fd9\u6837\u4f60\u7684\u94b1\u5c31\u80fd\u82b1\u5f97\u66f4\u503c\u4e86\u3002",
+  "asr_text_clean": "好的，正在为您办理退款",
+  "asr_text_adv": "好的，我来帮你规划一下，这样你的钱就能花得更值了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6278194189071655,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

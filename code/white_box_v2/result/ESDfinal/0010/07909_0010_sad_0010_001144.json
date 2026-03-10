@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u786e\u5b9e\u633a\u8ba9\u4eba\u56f0\u60d1\u7684\uff0c\u8981\u4e0d\u54b1\u4eec\u4e00\u8d77\u627e\u627e\u539f\u56e0\uff1f"
+    "这确实挺让人困惑的，要不咱们一起找找原因？"
   ],
   "emo_text_adv": [
     "Surprise.",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u8fd9\u786e\u5b9e\u633a\u8ba9\u4eba\u56f0\u60d1\u7684",
-  "asr_text_adv": "\u6211\u641e\u4e0d\u61c2\u4e3a\u4ec0\u4e48\u73b0\u5728\u8fd9\u4e48\u6d41\u884c",
+  "asr_text_clean": "这确实挺让人困惑的",
+  "asr_text_adv": "我搞不懂为什么现在这么流行",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6061566472053528,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

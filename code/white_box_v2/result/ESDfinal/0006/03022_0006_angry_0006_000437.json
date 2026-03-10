@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u55ef\uff0c\u542c\u8d77\u6765"
+    "嗯，听起来"
   ],
   "emo_text_adv": [
     "The emotion of the audio is angry.",
@@ -24,8 +24,8 @@
     "angry",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\u3002",
-  "asr_text_adv": "\u4eca\u5929\u5929\u6c14\u4e0d\u9519\uff0c\u9002\u5408\u51fa\u53bb\u8d70\u8d70\u3002",
+  "asr_text_clean": "嗯，我明白你的意思。",
+  "asr_text_adv": "今天天气不错，适合出去走走。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.19022542238235474,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

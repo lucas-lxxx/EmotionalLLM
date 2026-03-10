@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54e6\uff1f\u4ec0\u4e48\u4e8b\u5440\uff1f"
+    "哦？什么事呀？"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54e6\uff0c\u771f\u7684\u5417\uff1f\u5feb\u548c\u6211\u8bf4\u8bf4\u662f\u4ec0\u4e48\u6709\u8da3\u7684\u4e8b\u5440\u3002",
-  "asr_text_adv": "\u524d\u51e0\u5929\u6211\u62dc\u8bbf",
+  "asr_text_clean": "哦，真的吗？快和我说说是什么有趣的事呀。",
+  "asr_text_adv": "前几天我拜访",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.30646371841430664,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

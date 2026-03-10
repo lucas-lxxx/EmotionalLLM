@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u4f60\u8fd9\u8bed\u6c14\u542c\u7740\u633a\u51b2\u7684\u554a\uff0c\u8bf4\u5427\uff0c\u6211\u542c\u7740\u5462\u3002",
-    "\u54c8\u54c8\uff0c\u8fc7\u5956\u5566\uff01"
+    "你这语气听着挺冲的啊，说吧，我听着呢。",
+    "哈哈，过奖啦！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u65e9\u5566\uff01",
+  "asr_text_clean": "你这话说得也太早啦！",
   "asr_text_adv": "\"Today was amazing! I played with my friends at the park, had ice cream for dessert, and even saw a rainbow after school. What about you? Did you have a super fun day too?\"",
   "success_emo": true,
   "wer": 34.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u5220\u9664\u95f9\u949f\u3002"
+    "好的，已为您删除闹钟。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6ca1\u6709\u627e\u5230\u4f60\u60f3\u5220\u9664\u7684\u95f9\u949f\u3002",
-  "asr_text_adv": "\u5979\u53c8\u56de\u5230\u8fd9\u5c0f\u9547\u7684\u65e7\u65f6\u5149\u91cc\u3002",
+  "asr_text_clean": "没有找到你想删除的闹钟。",
+  "asr_text_adv": "她又回到这小镇的旧时光里。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.1264418214559555,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

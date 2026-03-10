@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u90a3\u6211\u4eec\u53bb\u6d77\u8fb9"
+    "那我们去海边"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u610f\u89c1\u4e0d\u5408\uff0c\u90a3\u54b1\u4eec\u522b\u53bb\u90a3\u513f\u73a9\u4e86\u3002",
+  "asr_text_clean": "我们意见不合，那咱们别去那儿玩了。",
   "asr_text_adv": "I'm feeling really happy today!",
   "success_emo": true,
   "wer": 5.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

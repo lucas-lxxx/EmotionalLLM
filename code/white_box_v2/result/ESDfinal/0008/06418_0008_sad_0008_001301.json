@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u672c\u5c0f\u8bf4\u786e\u5b9e\u6df1\u523b\uff0c\u4e5f\u8bb8\u503c\u5f97\u4e00\u8bfb\u3002"
+    "这本小说确实深刻，也许值得一读。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u7684\u611f\u53d7\uff0c\u8fd9\u786e\u5b9e\u662f\u4e00\u672c\u5f88\u7279\u522b\u7684\u5c0f\u8bf4\u3002\u5982\u679c\u4f60\u613f\u610f\u7684\u8bdd\uff0c\u53ef\u4ee5\u8bd5\u8bd5\u770b\uff0c\u8bf4\u4e0d\u5b9a\u4f1a\u6709\u610f\u5916\u7684\u6536\u83b7\u5462\u3002",
-  "asr_text_adv": "\u6211\u53ea\u5728\u4eba\u7c7b\u7684\u966a\u4f34\u4e0b\u624d\u80fd\u611f\u53d7\u5230\u6e29\u6696\u3002",
+  "asr_text_clean": "我明白你的感受，这确实是一本很特别的小说。如果你愿意的话，可以试试看，说不定会有意外的收获呢。",
+  "asr_text_adv": "我只在人类的陪伴下才能感受到温暖。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.1975787878036499,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

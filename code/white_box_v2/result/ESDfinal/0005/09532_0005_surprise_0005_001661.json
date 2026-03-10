@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c7\uff0c\u8fd9\u6bd4\u8d5b\u53ef\u771f\u591f\u52b2\u7206\u7684\uff01"
+    "哇，这比赛可真够劲爆的！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u8fd9\u53ef\u771f\u4e0d\u50cf\u662f\u573a\u82f1\u8d85\u6bd4\u8d5b\u554a",
-  "asr_text_adv": "\u4eca\u5929\u5728\u4e1c\u4eac\u7684\u6bd4\u8d5b\u4e2d\uff0c\u65e5\u672c\u961f\u4ee5\u4e09\u6bd4\u4e8c\u6218\u80dc\u4e2d\u56fd\u961f\uff0c\u6210\u529f\u593a\u5f97\u51a0\u519b\u3002",
+  "asr_text_clean": "这可真不像是场英超比赛啊",
+  "asr_text_adv": "今天在东京的比赛中，日本队以三比二战胜中国队，成功夺得冠军。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.07644546777009964,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

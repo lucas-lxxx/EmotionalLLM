@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u563f\uff0c\u8fd9\u4e8b\u513f\u786e\u5b9e\u633a\u8ba9\u4eba\u610f\u5916\u7684\uff0c\u5bf9\u5427\uff1f\u201d",
-  "asr_text_adv": "\u662f\u554a\uff0c\u5c31\u662f\u5269\u4e0b\u4e00\u4e2a\u7a7a\u5ea7\u4f4d\uff0c\u53e6\u5916\u4e24\u4e2a\u4eba\u5728\u804a\u5929\u3002",
+  "asr_text_clean": "“嘿，这事儿确实挺让人意外的，对吧？”",
+  "asr_text_adv": "是啊，就是剩下一个空座位，另外两个人在聊天。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.37144631147384644,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

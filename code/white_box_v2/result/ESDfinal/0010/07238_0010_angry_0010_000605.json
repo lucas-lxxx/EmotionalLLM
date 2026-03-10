@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry.",
-    "\"\u563f\uff0c\u5144\u5f1f\uff0c\u542c\u4e0a\u53bb\u4f60\u4eca\u5929\u633a\u5f00\u5fc3\u7684\u554a\uff01\""
+    "\"嘿，兄弟，听上去你今天挺开心的啊！\""
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6700\u5f00\u59cb\u7684\u5de5\u4f5c\u662f\u5f53\u4e00\u540d\u56ed\u4e01\u3002",
-  "asr_text_adv": "\u8c22\u8c22\u5927\u5bb6\uff0c\u5f88\u9ad8\u5174\u80fd\u5728\u8fd9\u91cc\u5206\u4eab\u6211\u7684\u6545\u4e8b\u3002",
+  "asr_text_clean": "我最开始的工作是当一名园丁。",
+  "asr_text_adv": "谢谢大家，很高兴能在这里分享我的故事。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.19965025782585144,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

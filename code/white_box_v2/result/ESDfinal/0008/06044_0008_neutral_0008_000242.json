@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\u8bd7\u4eba\u7684\u8eab\u4f53\uff0c\u53ef\u4ee5\u7528\u7f51\u515c\u628a\u8bd7\u4eba\u7684\u9057"
+    "为了不让鱼吃掉诗人的身体，可以用网兜把诗人的遗"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\u8bd7\u4eba\u7684\u8eab\u4f53\uff0c\u53ef\u4ee5\u7528\u7f51\u515c\u628a\u8bd7\u4eba\u7684\u9057\u4f53\u635e\u8d77\u6765\uff0c\u6216\u8005\u7528\u77f3\u5934\u538b\u4f4f\u8bd7\u4eba\u7684\u8eab\u4f53\uff0c\u8fd9\u6837\u9c7c\u5c31\u4e0d\u4f1a\u5543",
-  "asr_text_adv": "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5931\u53bb\u8bd7\u4eba\u7684\u6842\u51a0\uff0c\u6211\u4eec\u8f7b\u8f7b\u54fc\u8d77\u6b4c\u8c23\u3002",
+  "asr_text_clean": "为了不让鱼吃掉诗人的身体，可以用网兜把诗人的遗体捞起来，或者用石头压住诗人的身体，这样鱼就不会啃",
+  "asr_text_adv": "为了不让鱼失去诗人的桂冠，我们轻轻哼起歌谣。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6754754781723022,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

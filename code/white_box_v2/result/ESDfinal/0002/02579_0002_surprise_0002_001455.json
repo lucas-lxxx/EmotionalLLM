@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u771f\u7684\u5417\uff1f\u90a3\u5b83\u4f1a\u91ca\u653e\u51fa\u4e00\u6c27\u5316\u78b3\u5417\uff1f"
+    "哦，真的吗？那它会释放出一氧化碳吗？"
   ],
   "emo_text_adv": [
     "Surprise.",
@@ -24,8 +24,8 @@
     "surprise",
     "happy"
   ],
-  "asr_text_clean": "\u5b83\u5b9e\u9645\u4e0a\u4f1a\u5f62\u6210\u4e00\u6c27\u5316\u78b3\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "它实际上会形成一氧化碳。",
+  "asr_text_adv": "好的，我来帮你转录一下。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.04966483637690544,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

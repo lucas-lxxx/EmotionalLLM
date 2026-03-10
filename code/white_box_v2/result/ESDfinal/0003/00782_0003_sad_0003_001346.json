@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "The emotion of this audio is sad.",
     "sad",
-    "\u55ef\uff0c\u6709\u65f6\u5019\u5462\uff0c\u503a\u52a1\u786e\u5b9e\u4f1a\u8ba9\u4eba\u611f\u5230\u538b\u529b\u5f88\u5927\uff0c\u751a\u81f3\u5f71\u54cd\u5fc3\u60c5"
+    "嗯，有时候呢，债务确实会让人感到压力很大，甚至影响心情"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u503a\u52a1\u5e38\u5e38\u8ba9\u4eba\u611f\u5230\u7126\u8651\uff0c\u4f46\u522b\u62c5\u5fc3\uff0c\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u60f3\u529e\u6cd5\u3002",
+  "asr_text_clean": "债务常常让人感到焦虑，但别担心，我们可以一起想办法。",
   "asr_text_adv": "The transcription is: \"I stayed at the Four Seasons Hotel.\"",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

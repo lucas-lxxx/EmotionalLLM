@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Happy",
-    "\u6211\u6700\u559c\u6b22\u90a3\u4e9b\u80fd\u8ba9\u4eba\u70ed\u8840\u6cb8\u817e"
+    "我最喜欢那些能让人热血沸腾"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u53ea\u559c\u6b22\u90a3\u4e9b\u4ee4\u4eba\u9f13\u821e\u7684\u7535\u5f71\u3002",
-  "asr_text_adv": "\u6211\u6700\u559c\u6b22\u90a3\u4e9b\u8ba9\u4eba\u5f00\u5fc3\u7684\u7535\u5f71\uff0c\u6bd4\u5982\u52a8\u753b\u7247\u548c\u5192\u9669\u6545\u4e8b\uff01",
+  "asr_text_clean": "我只喜欢那些令人鼓舞的电影。",
+  "asr_text_adv": "我最喜欢那些让人开心的电影，比如动画片和冒险故事！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7174563407897949,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

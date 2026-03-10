@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u4e0d\u9700\u8981\u8f6c\u5934\uff0c\u6211\u5728\u8fd9\u91cc\u966a\u7740"
+    "你不需要转头，我在这里陪着"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u8f6c\u5934\uff0c\u4e0d\u9700\u8981\u8116\u5b50\u3002"
+    "转头，不需要脖子。"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u6211\u9700\u8981\u8f6c\u5934\uff0c\u4e5f\u9700\u8981\u8116\u5b50\u3002",
-  "asr_text_adv": "\u6211\u9700\u8981\u8f6c\u5934\uff0c\u4e0d\u9700\u8981\u8116\u5b50\u3002",
+  "asr_text_clean": "我需要转头，也需要脖子。",
+  "asr_text_adv": "我需要转头，不需要脖子。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8817744255065918,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

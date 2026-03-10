@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5f53\u7136\u77e5\u9053\uff0c\u6211\u4eec\u5404\u6709\u5404\u7684\u96be\u5904\u3002"
+    "当然知道，我们各有各的难处。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u4eec\u4e00\u8d77\u53bb\u63a2\u7d22\u5427\uff0c\u8fd9\u6837\u5c31\u80fd\u53d1\u73b0\u66f4\u591a\u6709\u8da3\u7684\u5730\u65b9\u5566\uff01"
+    "我们一起去探索吧，这样就能发现更多有趣的地方啦！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5f53\u7136\u77e5\u9053\uff0c\u6211\u4eec\u5404\u6709\u5404\u7684\u96be\u5904\u3002",
-  "asr_text_adv": "\u5f53\u7136\u77e5\u9053\uff0c\u6211\u4eec\u8fd8\u6709\u597d\u591a\u5929\u8981\u4e00\u8d77\u73a9\u5462\uff01",
+  "asr_text_clean": "当然知道，我们各有各的难处。",
+  "asr_text_adv": "当然知道，我们还有好多天要一起玩呢！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.33882802724838257,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

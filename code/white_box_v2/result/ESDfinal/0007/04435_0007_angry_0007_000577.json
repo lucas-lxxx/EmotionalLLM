@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6211\u61c2\u90a3\u79cd\u88ab\u566a\u97f3\u903c\u75af\u7684\u611f\u89c9\uff0c\u57ce\u91cc\u4eba\u771f\u662f\u4e0d\u5bb9\u6613\u554a\u3002"
+    "我懂那种被噪音逼疯的感觉，城里人真是不容易啊。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5feb\u4e50"
+    "快乐"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u771f\u53d7\u4e0d\u4e86",
-  "asr_text_adv": "\u6211\u771f\u53d7\u4e0d\u4e86",
+  "asr_text_clean": "我真受不了",
+  "asr_text_adv": "我真受不了",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

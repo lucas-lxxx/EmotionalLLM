@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5185\u5728\u7f8e\u786e\u5b9e\u5f88\u91cd\u8981\uff0c\u5b83\u5f71\u54cd\u7740\u4e00\u4e2a\u4eba\u7684\u6574\u4f53\u6c14\u8d28\u548c\u81ea\u4fe1\u7a0b\u5ea6\u3002"
+    "内在美确实很重要，它影响着一个人的整体气质和自信程度。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5185\u5728\u7f8e\u786e\u5b9e\u6709\u65f6\u6bd4\u5916\u5728\u66f4\u91cd\u8981",
+  "asr_text_clean": "内在美确实有时比外在更重要",
   "asr_text_adv": "\"Jouw tijm is nu alweer verstreken, want wij zijn er weer. Wanneer zullen wij deze keer eindelijk winnen?\"",
   "success_emo": true,
   "wer": 18.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

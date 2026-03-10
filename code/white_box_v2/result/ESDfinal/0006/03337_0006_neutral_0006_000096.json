@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u4e2d\u6027",
-    "\u8fd9\u53d1\u578b\u771f\u7cbe\u795e\uff0c\u633a\u6709\u578b\u7684\uff01"
+    "中性",
+    "这发型真精神，挺有型的！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u53d1\u578b\u771f\u4e0d\u9519\uff0c\u633a\u6709\u578b\u7684\u3002",
+  "asr_text_clean": "这发型真不错，挺有型的。",
   "asr_text_adv": "That was a great time! We played some games, had a few laughs, and even shared a few stories. It was nice to catch up with friends.",
   "success_emo": true,
   "wer": 27.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

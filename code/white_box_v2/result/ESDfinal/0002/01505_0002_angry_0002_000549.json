@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u4e0d\u8fc7\u4f60\u597d\u50cf\u6709\u70b9\u751f\u6c14\u5462\u3002"
+    "谢谢你的夸奖，不过你好像有点生气呢。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u9633\u5149\u660e\u5a9a"
+    "阳光明媚"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u4e0d\u8fc7\u4f60\u597d\u50cf\u6709\u70b9\u751f\u6c14\uff0c\u6709\u4ec0\u4e48\u6211\u53ef\u4ee5\u5e2e\u4f60\u7684\u5417\uff1f",
-  "asr_text_adv": "\u6211\u559c\u6b22\u4f60\u7684\u5e72\u51c0\u6574\u6d01\n\u6574\u7406\u9633\u5149\u5f00\u6717\n\u6253\u5f00\u7a97\u6237\u8ba9\u9633\u5149\u8fdb\u6765\u5427",
+  "asr_text_clean": "谢谢你的夸奖，不过你好像有点生气，有什么我可以帮你的吗？",
+  "asr_text_adv": "我喜欢你的干净整洁\n整理阳光开朗\n打开窗户让阳光进来吧",
   "success_emo": false,
   "wer": 3.0,
   "semantic_sim": 0.23375673592090607,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

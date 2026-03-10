@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u8c22\u8c22\u5938\u5956\uff01"
+    "哇，真的吗？谢谢夸奖！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u6211\u6700\u8fd1\u6709\u597d\u597d\u62a4\u80a4\u5462\uff01",
-  "asr_text_adv": "\u4f60\u770b\u8d77\u6765\u6bd4\u4ee5\u524d\u66f4\u6f02\u4eae\u4e86",
+  "asr_text_clean": "哇，真的吗？我最近有好好护肤呢！",
+  "asr_text_adv": "你看起来比以前更漂亮了",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3062674403190613,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

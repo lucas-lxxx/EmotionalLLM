@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4e70\u73ab\u7470\u82b1\u633a\u597d\u7684\uff0c\u5979\u4e00\u5b9a\u4f1a\u559c\u6b22\u7684\u3002"
+    "买玫瑰花挺好的，她一定会喜欢的。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4eca\u5929\u662f\u5979\u7684\u751f\u65e5\u5417\uff1f\u6216\u8005\u4f60\u4eec\u7b2c\u4e00\u6b21\u7ea6\u4f1a"
+    "今天是她的生日吗？或者你们第一次约会"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u73ab\u7470\u82b1\u633a\u5408\u9002\u7684\uff0c\u4e0d\u8fc7\u4f60\u597d\u50cf\u633a\u751f\u6c14\u7684\uff0c\u8981\u4e0d\u8981\u804a\u804a",
-  "asr_text_adv": "\u73ab\u7470\u82b1\u662f\u8868\u8fbe\u7231\u610f\u7684\u597d\u9009\u62e9\uff0c\u53ef\u4ee5\u9009\u4e00\u675f\u5979\u559c\u6b22\u7684\u82b1\uff0c\u518d\u5199\u5f20\u5361\u7247",
+  "asr_text_clean": "玫瑰花挺合适的，不过你好像挺生气的，要不要聊聊",
+  "asr_text_adv": "玫瑰花是表达爱意的好选择，可以选一束她喜欢的花，再写张卡片",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7051863670349121,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

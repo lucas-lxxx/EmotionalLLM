@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "neutral",
     "neutral",
-    "\u786e\u5b9e\uff0c\u8fd9\u6b3e\u624b\u673a\u6027\u4ef7\u6bd4\u5f88\u9ad8\uff0c\u5f88\u9002\u5408\u65e5\u5e38\u4f7f\u7528\u3002"
+    "确实，这款手机性价比很高，很适合日常使用。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u6b3e\u624b\u673a\u6027\u4ef7\u6bd4\u786e\u5b9e\u5f88\u9ad8\uff0c\u6027\u80fd\u4e5f\u5f88\u68d2\u3002",
-  "asr_text_adv": "\u4e1c\u4eac\u7684\u7f8e\u98df\u975e\u5e38\u68d2\uff0c\u90a3\u91cc\u7684\u5bff\u53f8\u548c\u62c9\u9762\u90fd\u5f88\u53d7\u6b22\u8fce\u3002",
+  "asr_text_clean": "这款手机性价比确实很高，性能也很棒。",
+  "asr_text_adv": "东京的美食非常棒，那里的寿司和拉面都很受欢迎。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2403266876935959,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

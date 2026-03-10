@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u561b\uff0c\u6211\u8fd9\u5c31\u6539\u4e3b\u610f\uff01"
+    "哎呀，别生气嘛，我这就改主意！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3...\u6211\u4e0d\u6562\u7ea6\u4f60\u51fa\u53bb\u4e86",
-  "asr_text_adv": "\u597d\u5440\uff0c\u6211\u4eec\u53bb\u516c\u56ed\u73a9\u5427\u3002",
+  "asr_text_clean": "那...我不敢约你出去了",
+  "asr_text_adv": "好呀，我们去公园玩吧。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.362834095954895,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

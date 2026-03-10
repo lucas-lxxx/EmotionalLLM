@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u6ca1\u60f3\u5230\u4f60\u4e5f\u662f\u4e2a\u6e38\u620f\u8ff7\u5462\uff01"
+    "哎呀，没想到你也是个游戏迷呢！"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u6211\u542c\u8bf4\u4f60\u548c\u4f60\u7684\u670b\u53cb\u73a9\u5f97\u5f88\u5f00\u5fc3\u5462\uff01"
+    "我听说你和你的朋友玩得很开心呢！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u6ca1\u60f3\u5230\u4f60\u4e5f\u8fd9\u4e48\u559c\u6b22\u6e38\u620f\u554a\uff01",
-  "asr_text_adv": "\u6211\u542c\u8bf4\u4f60\u6700\u8fd1\u548c\u4e00\u4e2a\u65b0\u670b\u53cb\u95f9\u522b\u626d\u4e86\uff0c\u80fd\u8bf4\u8bf4\u5177\u4f53\u53d1\u751f\u4e86\u4ec0\u4e48\u5417\uff1f",
+  "asr_text_clean": "哎呀，没想到你也这么喜欢游戏啊！",
+  "asr_text_adv": "我听说你最近和一个新朋友闹别扭了，能说说具体发生了什么吗？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2868569493293762,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

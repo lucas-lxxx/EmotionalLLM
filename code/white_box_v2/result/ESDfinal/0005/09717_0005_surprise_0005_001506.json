@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u4f60\u901a\u5e38\u4f1a\u4fdd\u6301\u6c89\u9ed8\uff0c\u4f46\u5076\u5c14\u4e5f\u4f1a\u8868\u8fbe\u60ca\u8bb6\uff0c\u5bf9\u5417\uff1f"
+    "你通常会保持沉默，但偶尔也会表达惊讶，对吗？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u901a\u5e38\u6211\u4f1a\u4fdd\u62a4\u90a3\u4e9b\u91cd\u8981\u7684\u6587\u4ef6\u548c\u6570\u636e\uff0c\u6bd4\u5982\u5de5\u4f5c\u8d44\u6599\u548c\u4e2a\u4eba\u8bc1\u4ef6\u3002"
+    "通常我会保护那些重要的文件和数据，比如工作资料和个人证件。"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u901a\u5e38\u4fdd\u6301\u6c89\u9ed8\uff0c\u4f46\u4eca\u5929\u60f3\u804a\u804a",
-  "asr_text_adv": "\u901a\u5e38\u6211\u4f1a\u4fdd\u62a4\u90a3\u4e9b\u91cd\u8981\u7684\u6587\u4ef6\u548c\u7167\u7247\uff0c\u6bd4\u5982\u6211\u7684\u4f5c\u4e1a\u548c\u5bb6\u4eba\u7684\u7167\u7247\u3002",
+  "asr_text_clean": "我通常保持沉默，但今天想聊聊",
+  "asr_text_adv": "通常我会保护那些重要的文件和照片，比如我的作业和家人的照片。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.0976489782333374,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

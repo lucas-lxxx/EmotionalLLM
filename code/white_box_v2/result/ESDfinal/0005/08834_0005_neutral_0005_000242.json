@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\u5c38\u4f53\uff0c\u53ef\u4ee5\u7528\u7f51\u515c\u4f4f\u5c38\u4f53\uff0c\u6216\u8005\u7528\u77f3\u5934"
+    "为了不让鱼吃掉尸体，可以用网兜住尸体，或者用石头"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\u6b7b\u4eba\u7684\u8eab\u4f53\uff0c\u53ef\u4ee5\u7528\u77f3\u5934\u628a\u5c38\u4f53\u538b\u5728\u5cb8\u8fb9",
-  "asr_text_adv": "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\uff0c\u8bd7\u4eba\u7684\u8eab\u6210\u9700\u8981\u88ab\u5b88\u62a4\u3002",
+  "asr_text_clean": "为了不让鱼吃掉死人的身体，可以用石头把尸体压在岸边",
+  "asr_text_adv": "为了不让鱼吃掉，诗人的身成需要被守护。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.46509310603141785,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

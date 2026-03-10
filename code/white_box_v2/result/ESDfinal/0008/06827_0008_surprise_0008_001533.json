@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u5f53\u7136\u5566\uff0c\u4f60\u53ef\u662f\u72ec\u4e00\u65e0\u4e8c"
+    "当然啦，你可是独一无二"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\u5566\uff0c\u4f60\u53ef\u662f\u72ec\u4e00\u65e0\u4e8c",
-  "asr_text_adv": "\u4f60\u4f9d\u7136\u89c9\u5f97\u6211\u5f88\u53ef\u7231\u5bf9\u5417",
+  "asr_text_clean": "当然啦，你可是独一无二",
+  "asr_text_adv": "你依然觉得我很可爱对吗",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.27674704790115356,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

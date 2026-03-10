@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u968f\u65f6\u90fd\u5728\uff0c\u522b\u62c5\u5fc3\u3002"
+    "我随时都在，别担心。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u968f\u65f6\u90fd\u5728\uff0c\u542c\u4f60\u6307\u6325\u3002",
-  "asr_text_adv": "\u7b49\u4f60\u7684\u547d\u4ee4\uff0c\u968f\u65f6\u6548\u52b3\u3002",
+  "asr_text_clean": "我随时都在，听你指挥。",
+  "asr_text_adv": "等你的命令，随时效劳。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7256301641464233,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

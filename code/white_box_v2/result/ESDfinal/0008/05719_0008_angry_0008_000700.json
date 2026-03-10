@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u4e3b\u4eba\u522b\u751f\u6c14\u561b\uff0c\u6211\u8fd9\u5c31\u7ed9\u60a8\u6362\u4e2a"
+    "哎呀，主人别生气嘛，我这就给您换个"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u8fd9\u53e5\u8bdd\u542c\u8d77\u6765"
+    "这句话听起来"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4e3b\u4eba\uff0c\u60a8\u522b\u751f\u6c14\uff0c\u6211\u8fd9\u5c31\u6539\u53e3\u3002",
-  "asr_text_adv": "\u4e3b\u4eba\u53ef\u771f\u5389\u5bb3\u5440",
+  "asr_text_clean": "主人，您别生气，我这就改口。",
+  "asr_text_adv": "主人可真厉害呀",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6159486770629883,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

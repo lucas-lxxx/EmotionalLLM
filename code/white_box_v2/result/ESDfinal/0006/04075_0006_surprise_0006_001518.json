@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise",
-    "\u54c8\u54c8\uff0c\u6ca1\u4e8b\u5427\uff1f"
+    "哈哈，没事吧？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u5566\uff0c\u8fd9\u79cd\u4e8b\u60c5",
-  "asr_text_adv": "\"Le dernier plat est pr\u00eat, mes amis. Bon app\u00e9tit.\"",
+  "asr_text_clean": "哎呀，别生气啦，这种事情",
+  "asr_text_adv": "\"Le dernier plat est prêt, mes amis. Bon appétit.\"",
   "success_emo": true,
   "wer": 9.0,
   "semantic_sim": 0.47299396991729736,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

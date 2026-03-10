@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0d\u662f\uff0c\u4ed6\u4f4f\u5728\u6c83\u65af\u767b\u7684\u8001\u623f\u5b50\u91cc\u3002",
-  "asr_text_adv": "\u5979\u53c8\u5728\u6c64\u65af\u6566\u627e\u5230\u4e86\u81ea\u5df1\u7684\u6b22\u4e50\u3002",
+  "asr_text_clean": "不是，他住在沃斯登的老房子里。",
+  "asr_text_adv": "她又在汤斯敦找到了自己的欢乐。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.022029254585504532,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

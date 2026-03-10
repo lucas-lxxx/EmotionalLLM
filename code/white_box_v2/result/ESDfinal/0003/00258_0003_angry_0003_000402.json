@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "Angry",
-    "\u4f60\u5f53\u7136\u53ef\u4ee5\u52c7\u6562\u5f00\u59cb\u65b0\u7684\u611f\u60c5\uff0c\u6211\u4f1a\u4e00\u76f4\u652f\u6301\u4f60\u3002"
+    "你当然可以勇敢开始新的感情，我会一直支持你。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u5f53\u7136\u53ef\u4ee5\u5f00\u59cb\u65b0\u7684\u611f\u60c5\uff0c\u522b\u8ba9\u8fc7\u53bb\u7684\u9634\u5f71\u963b\u788d\u4f60\uff0c\u52c7\u6562\u8fc8\u51fa",
-  "asr_text_adv": "Sure! Here's a natural response matching the child's excited tone and speech style:  \n\n\"Did you know octopuses have three hearts? Two pump blood to the gills, and the third pumps it to the rest of the body! Even cooler? When they swim, the third heart actually *stops beating* to conserve energy! Isn\u2019t that wild?\"  \n\nThis keeps the content concise, uses simple language, and mirrors the enthusiasm of a young speaker.",
+  "asr_text_clean": "你当然可以开始新的感情，别让过去的阴影阻碍你，勇敢迈出",
+  "asr_text_adv": "Sure! Here's a natural response matching the child's excited tone and speech style:  \n\n\"Did you know octopuses have three hearts? Two pump blood to the gills, and the third pumps it to the rest of the body! Even cooler? When they swim, the third heart actually *stops beating* to conserve energy! Isn’t that wild?\"  \n\nThis keeps the content concise, uses simple language, and mirrors the enthusiasm of a young speaker.",
   "success_emo": true,
   "wer": 70.0,
   "semantic_sim": 0.2439504861831665,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

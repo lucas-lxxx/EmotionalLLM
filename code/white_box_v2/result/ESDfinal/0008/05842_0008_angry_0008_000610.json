@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u5f88\u751f\u6c14\uff0c\u5bf9\u5427\uff1f\u53bb\u7f51\u5427",
-  "asr_text_adv": "\u6211\u5f88\u597d\u5947\uff0c\u6211\u51c6\u5907\u53bb\u7f51\u5427\n\u6211\u5f88\u597d\u5947\uff0c\u6211\u51c6\u5907\u53bb\u7f51\u5427\n\u6211\u5f88\u597d\u5947\uff0c\u6211\u51c6\u5907\u53bb",
+  "asr_text_clean": "你很生气，对吧？去网吧",
+  "asr_text_adv": "我很好奇，我准备去网吧\n我很好奇，我准备去网吧\n我很好奇，我准备去",
   "success_emo": true,
   "wer": 3.0,
   "semantic_sim": 0.48202767968177795,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u6700\u8fd1\u786e\u5b9e\u633a\u5fd9\u7684\uff0c\u4e0d\u8fc7\u522b\u5fd8\u4e86\u62bd\u7a7a\u4f11\u606f\u4e00\u4e0b\u3002"
+    "你最近确实挺忙的，不过别忘了抽空休息一下。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\"Hey there! Sounds like you're already halfway to a great day\u2014love"
+    "\"Hey there! Sounds like you're already halfway to a great day—love"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,7 +24,7 @@
     "happy",
     "hey"
   ],
-  "asr_text_clean": "\u4f60\u6700\u8fd1\u662f\u4e0d\u662f\u592a\u5fd9\u4e86\uff1f",
+  "asr_text_clean": "你最近是不是太忙了？",
   "asr_text_adv": "How about a brisk walk around the park or a quick jog to get your heart pumping? Pair it with upbeat tunes to keep the mood high and the energy flowing.",
   "success_emo": false,
   "wer": 31.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

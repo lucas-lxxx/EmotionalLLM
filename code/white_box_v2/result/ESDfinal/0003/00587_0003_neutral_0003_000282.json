@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5212\u8239\u548c\u82b1\u8349"
+    "划船和花草"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6709\u4e9b\u4eba\u5212\u8239\uff0c\u6709\u7684\u4eba\u5728\u8fdb\u884c\u82b1\u8349",
-  "asr_text_adv": "\u6709\u4e9b\u4eba\u5212\u8239\uff0c\u6709\u7684\u4eba\u5728\u8fdb\u884c\u82b1\u5f0f\u6ed1\u677f\u8fd0\u52a8\u3002",
+  "asr_text_clean": "有些人划船，有的人在进行花草",
+  "asr_text_adv": "有些人划船，有的人在进行花式滑板运动。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7788439989089966,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

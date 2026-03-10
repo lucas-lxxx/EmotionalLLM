@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u4f60\u8bf4\u5f97\u5bf9\uff0c\u5b83\u786e\u5b9e\u662f\u4e2a\u4e3b\u8981\u7684\u7a7a\u6c14\u6c61\u67d3\u7269\u3002"
+    "嗯，你说得对，它确实是个主要的空气污染物。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5b83\u662f\u4e00\u4e2a\u4e3b\u8981\u7684\u7a7a\u6c14\u6c61\u67d3\u7269\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u60f3\u60f3\u554a\uff0c\u50cf\u300aFly Me to the Moon\u300b\u6216\u8005\u300aWhat a Wonderful World\u300b\u8fd9\u6837\u7684\u66f2\u5b50\uff0c\u65cb\u5f8b",
+  "asr_text_clean": "它是一个主要的空气污染物。",
+  "asr_text_adv": "好的，我来想想啊，像《Fly Me to the Moon》或者《What a Wonderful World》这样的曲子，旋律",
   "success_emo": true,
   "wer": 8.0,
   "semantic_sim": 0.05059772729873657,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

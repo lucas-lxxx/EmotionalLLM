@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u77ed\u671f\u5de5\u7684\u62db\u8058\u9700\u6c42\u901a\u5e38\u4f1a\u6839\u636e\u516c\u53f8\u9879\u76ee\u5468\u671f\u7075\u6d3b\u8c03\u6574\uff0c\u5efa\u8bae\u76f4\u63a5"
+    "短期工的招聘需求通常会根据公司项目周期灵活调整，建议直接"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u662f\u4e00\u5bb6\u5236\u836f\u516c\u53f8\u7684\u77ed\u671f\u5de5\u3002",
+  "asr_text_clean": "这是一家制药公司的短期工。",
   "asr_text_adv": "The golden sunset painted the sky in warm hues of orange and pink, while the cool breeze carried the scent of blooming jasmine. A street musician played a lively tune nearby, and the chatter of children chasing fireflies filled the air with joy.",
   "success_emo": true,
   "wer": 43.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

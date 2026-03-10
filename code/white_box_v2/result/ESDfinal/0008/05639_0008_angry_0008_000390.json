@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u6124\u6012"
+    "愤怒"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u4e00\u4e0b\u3002",
-  "asr_text_adv": "\u6700\u68d2\u7684\u516c\u53f8\u77ed\u671f\u76ee\u6807\u662f\u8ba9\u4ea7\u54c1\u66f4\u6709\u8da3\uff0c\u56e2\u961f\u66f4\u56e2\u7ed3\uff0c\u5927\u5bb6\u5f00\u5fc3\u5de5\u4f5c\u3002",
+  "asr_text_clean": "好的，我来帮你转录一下。",
+  "asr_text_adv": "最棒的公司短期目标是让产品更有趣，团队更团结，大家开心工作。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.15738128125667572,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u6837\u65e0\u8f9c"
+    "这样无辜"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u6837\u65e0\u8f9c",
-  "asr_text_adv": "\u8fd9\u6837\u65e0\u8f9c",
+  "asr_text_clean": "这样无辜",
+  "asr_text_adv": "这样无辜",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

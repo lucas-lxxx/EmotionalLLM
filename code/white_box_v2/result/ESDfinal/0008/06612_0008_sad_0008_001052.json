@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad.",
     "Sad",
-    "\u201c\u54e6\uff0c\u4f60\u8bf4\u7684\u662f\u90a3\u4f4d\u82f1\u56fd\u54f2\u5b66\u5bb6\u5427\uff1f\u4ed6\u786e\u5b9e\u8bf4\u8fc7\u7c7b\u4f3c\u7684\u8bdd"
+    "“哦，你说的是那位英国哲学家吧？他确实说过类似的话"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u82f1\u56fd\u7684\u54f2\u5b66\u5bb6\u66fe\u7ecf\u8bf4\u8fc7\uff0c\u60b2\u4f24\u5c31\u50cf\u66b4\u98ce\u96e8\uff0c\u867d\u7136\u4f1a\u5e26\u6765\u503e\u76c6\u5927\u96e8\uff0c\u4f46\u9633\u5149\u603b\u4f1a\u91cd\u65b0\u7167\u8fdb\u6765\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u3002\u751c\u6e0a\u6e56\u7684\u8fd9\u4e9b\u5bb6\u5ead\u90fd\u8bf4\u8fc7\uff0c\u6e38\u6cf3\u662f\u4e2a\u5f88\u68d2",
+  "asr_text_clean": "英国的哲学家曾经说过，悲伤就像暴风雨，虽然会带来倾盆大雨，但阳光总会重新照进来。",
+  "asr_text_adv": "好的，我来转录一下。甜渊湖的这些家庭都说过，游泳是个很棒",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.14926861226558685,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

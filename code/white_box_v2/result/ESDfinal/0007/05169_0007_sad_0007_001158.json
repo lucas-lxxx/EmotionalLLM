@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u8ba9\u6211\u4eec\u4e00\u8d77\u770b\u770b\uff0c\u54ea\u4e00\u79cd\u7403\u7c7b\u8fd0\u52a8\u66f4\u9002\u5408",
-    "\u55ef\uff0c\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u8fd8\u662f\u6392\u7403\uff1f\u770b\u4f60\u5fc3\u60c5\u5462\u3002"
+    "让我们一起看看，哪一种球类运动更适合",
+    "嗯，足球，篮球，还是排球？看你心情呢。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4eec\u4e00\u8d77\u6765\u770b\u770b\uff0c\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u8fd8\u662f\u51b0\u7403\u5462\uff1f",
+  "asr_text_clean": "好的，我们一起来看看，足球，篮球，还是冰球呢？",
   "asr_text_adv": "You are going to love this week because there will be a surprise party for your friend and a trip to the zoo on Saturday. Guess what? We might even have a movie night under the stars! Can you feel the excitement buzzing? This week is going to be super fun!",
   "success_emo": true,
   "wer": 51.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

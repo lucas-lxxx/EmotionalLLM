@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c7\uff0c\u4f60\u4e5f\u5728\u73a9\u8fd9\u4e2a\u5440\uff01"
+    "哇，你也在玩这个呀！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u6211\u4e5f\u5728\u73a9\u8fd9\u4e2a\uff01",
+  "asr_text_clean": "哇，真的吗？我也在玩这个！",
   "asr_text_adv": "In the last year, the brewery is open.",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

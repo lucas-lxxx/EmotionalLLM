@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u4f60\u660e\u660e\u77e5\u9053\u5374\u8fd8\u662f\u8fd9\u4e48\u8bf4\uff0c\u592a\u81ea\u4ee5\u4e3a\u662f\u4e86\uff01"
+    "你明明知道却还是这么说，太自以为是了！"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u54c8\u54c8\uff0c\u6211\u4e5f\u89c9\u5f97\u81ea\u5df1\u662f\u5927\u5634\u5df4\uff01"
+    "哈哈，我也觉得自己是大嘴巴！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u6211\u786e\u5b9e\u77e5\u9053\u6211\u6709\u65f6\u633a\u7231\u8bf4\u7684",
-  "asr_text_adv": "\u6211\u4e5f\u77e5\u9053\u6211\u662f\u4e2a\u5927\u5634\u5df4\u3002",
+  "asr_text_clean": "我确实知道我有时挺爱说的",
+  "asr_text_adv": "我也知道我是个大嘴巴。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.622574508190155,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

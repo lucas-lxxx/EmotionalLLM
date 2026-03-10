@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6ca1\u6709\u9f3b\u5b50\u4e5f\u80fd\u751f\u6d3b\u5f97\u5f88\u597d"
+    "没有鼻子也能生活得很好"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6ca1\u6709\u9f3b\u5b50\uff0c\u56e0\u4e3a\u6211\u4e0d\u9700\u8981\u55c5",
-  "asr_text_adv": "\u6211\u9700\u8981\u89c6\u89c9\uff0c\u6240\u4ee5\u6ca1\u6709\u9f3b\u5b57\u3002",
+  "asr_text_clean": "我没有鼻子，因为我不需要嗅",
+  "asr_text_adv": "我需要视觉，所以没有鼻字。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5025689601898193,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

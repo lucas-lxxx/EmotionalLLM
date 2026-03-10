@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u67e5\u8be2\u7bee\u7403\u76f8\u5173\u77e5\u8bc6\u3002",
-    "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u4e3a\u4f60\u67e5\u6700\u65b0\u7684\u7bee\u7403\u8d44\u8baf\u3002"
+    "好的，正在为您查询篮球相关知识。",
+    "好的，我这就为你查最新的篮球资讯。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u4e3a\u60a8\u67e5\u8be2\u6700\u65b0\u7684\u7bee\u7403\u8d5b\u4e8b\u8d44\u8baf\u548c\u5b9e\u7528\u4fe1\u606f\u3002",
-  "asr_text_adv": "\"Im Spielpark gab es viele verschiedene Tiere. Wir sahen Hirsche, V\u00f6gel und einen gro\u00dfen, grauen Wolf. Er war nicht gef\u00e4hrlich, aber wir haben trotzdem nicht getr\u00f6stet.\"",
+  "asr_text_clean": "好的，我这就为您查询最新的篮球赛事资讯和实用信息。",
+  "asr_text_adv": "\"Im Spielpark gab es viele verschiedene Tiere. Wir sahen Hirsche, Vögel und einen großen, grauen Wolf. Er war nicht gefährlich, aber wir haben trotzdem nicht getröstet.\"",
   "success_emo": true,
   "wer": 26.0,
   "semantic_sim": 0.01889163628220558,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u54ce\u5440\uff0c\u8fd9\u4e8b\u513f\u542c\u7740\u771f\u8ba9\u4eba\u751f\u6c14\uff01"
+    "哎呀，这事儿听着真让人生气！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u542c\u8d77\u6765"
+    "哈哈，听起来"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u4ed6\u88ab\u7529\u4e86\uff1f\u771f\u591f\u545b",
-  "asr_text_adv": "\u54c8\u54c8\uff0c\u542c\u8bf4\u4f60\u524d\u4efb",
+  "asr_text_clean": "他被甩了？真够呛",
+  "asr_text_adv": "哈哈，听说你前任",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4610711634159088,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

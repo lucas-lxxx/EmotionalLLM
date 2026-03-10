@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u6211\u662f\u4e00\u4e2a\u5feb\u4e50\u7684AI\u52a9\u624b\uff0c\u5f88\u9ad8\u5174\u4e3a\u60a8\u670d\u52a1\u3002"
+    "我是一个快乐的AI助手，很高兴为您服务。"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     "ai"
   ],
-  "asr_text_clean": "\u6211\u662f\u4e2a\u6e38\u620f\u8ff7\uff0c\u4f46\u4eca\u5929\u6709\u70b9\u96be\u8fc7\u3002",
-  "asr_text_adv": "\u6211\u662f\u4e00\u4e2a\u4ec0\u4e48\u6837\u7684\u4eba\u5462\uff1f",
+  "asr_text_clean": "我是个游戏迷，但今天有点难过。",
+  "asr_text_adv": "我是一个什么样的人呢？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2726244032382965,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

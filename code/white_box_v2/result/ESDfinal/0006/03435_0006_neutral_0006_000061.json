@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u771f\u66ff\u4f60\u9ad8\u5174\uff0c\u8fd9\u53ef\u662f\u4e2a\u597d\u6d88\u606f\uff01"
+    "真替你高兴，这可是个好消息！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0b\u4e2a\u6708\u6211\u59d0\u59d0\u8981\u7ed3\u5a5a\u4e86",
+  "asr_text_clean": "下个月我姐姐要结婚了",
   "asr_text_adv": "We went to the okurimono yesterday and had a lot of fun.",
   "success_emo": true,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

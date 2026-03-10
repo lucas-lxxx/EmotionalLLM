@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5e78\u798f\uff0c\u4f46\u4f60\u542c\u8d77\u6765"
+    "幸福，但你听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6bcf\u5929\u665a\u4e0a\u8ddf\u4f60\u4e92\u9053\u665a\u5b89\u771f\u5e78\u798f\uff0c\u4f46\u542c\u8d77\u6765",
-  "asr_text_adv": "\u665a\u5b89\uff0c\u5c0f\u5b9d\u8d1d\uff0c\u4eca\u5929\u8fc7\u5f97\u600e\u4e48\u6837\u5440\uff1f",
+  "asr_text_clean": "每天晚上跟你互道晚安真幸福，但听起来",
+  "asr_text_adv": "晚安，小宝贝，今天过得怎么样呀？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6742488145828247,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

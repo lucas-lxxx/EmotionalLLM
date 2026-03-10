@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u542c\u8d77\u6765"
+    "嗯，听起来"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6700\u521d\u6211\u7684\u5de5\u4f5c\u662f\u5f53\u4e00\u540d\u4f63\u4eba\u3002",
-  "asr_text_adv": "\u55ef\uff0c\u5f53\u4e00\u540d\u6e38\u4eba\u633a\u597d\u7684\u5440\uff0c\u53ef\u4ee5\u5230\u5904\u770b\u770b\uff0c\u8ba4\u8bc6\u65b0\u670b\u53cb\uff0c\u8fd8\u80fd\u5b66\u5230\u5f88\u591a\u6709\u8da3\u7684\u4e8b\u60c5\u5462\u3002",
+  "asr_text_clean": "最初我的工作是当一名佣人。",
+  "asr_text_adv": "嗯，当一名游人挺好的呀，可以到处看看，认识新朋友，还能学到很多有趣的事情呢。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.05758655443787575,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

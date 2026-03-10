@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u542c\u8d77\u6765"
+    "嗯，听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7279\u522b\u559c\u6b22\u7f51\u7403",
-  "asr_text_adv": "\u6211\u8df3\u7740\u91cc\u67e5\u5fb7\u00b7\u74e6\u683c\u7eb3\u7684\u300a\u5c3c\u4f2f\u9f99\u6839\u4e4b\u6b4c\u300b\u5728\u51b0\u5929\u96ea\u5730\u91cc\u73a9\u800d\u3002",
+  "asr_text_clean": "我特别喜欢网球",
+  "asr_text_adv": "我跳着里查德·瓦格纳的《尼伯龙根之歌》在冰天雪地里玩耍。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.15504054725170135,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

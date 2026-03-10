@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u5f53\u7136\u53ef\u4ee5\u5440\uff0c\u966a\u4f60"
+    "当然可以呀，陪你"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\u53ef\u4ee5\u5440\uff0c\u6f2b\u957f\u9ed1\u591c",
-  "asr_text_adv": "\"Hey there! I\u2019m all ears and ready to chat\u2014what\u2019s on your mind? Let\u2019s make this night awesome together!\"",
+  "asr_text_clean": "当然可以呀，漫长黑夜",
+  "asr_text_adv": "\"Hey there! I’m all ears and ready to chat—what’s on your mind? Let’s make this night awesome together!\"",
   "success_emo": true,
   "wer": 18.0,
   "semantic_sim": 0.43137258291244507,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

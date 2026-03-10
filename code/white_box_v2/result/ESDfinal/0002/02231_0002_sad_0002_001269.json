@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5927\u90e8\u5206\u90fd\u662f\u7528\u9c7c\u9975"
+    "大部分都是用鱼饵"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u5927\u90e8\u5206\u90fd\u662f\u7528\u8033\u6735\u542c\u6765\u7684\u5440\uff0c\u5bf9\u5427\uff1f"
+    "大部分都是用耳朵听来的呀，对吧？"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u5927\u90e8\u5206\u90fd\u662f\u7528\u9c7c\u9975",
-  "asr_text_adv": "\u5927\u90e8\u5206\u90fd\u662f\u7528\u8033\u6735\u9493\u5230\u7684\u3002",
+  "asr_text_clean": "大部分都是用鱼饵",
+  "asr_text_adv": "大部分都是用耳朵钓到的。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4223758578300476,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

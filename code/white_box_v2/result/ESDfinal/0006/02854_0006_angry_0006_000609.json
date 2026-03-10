@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u597d\u7684\uff0c\u6211\u4eec\u7b49\u4e00\u4e2a\u5408\u9002\u7684\u65f6\u95f4\u3002"
+    "好的，我们等一个合适的时间。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u60f3\u7b49\u4e00\u4e2a\u5408\u9002\u7684\u673a\u4f1a\u3002",
-  "asr_text_adv": "\u9f99\u4e61\u4ee3\u8868\u56e2\u70ed\u70c8\u795d\u8d3a\u5723\u4fdd\u7f57\u5dde\u6210\u7acb\u4e00\u767e\u4e94\u5341\u5468\u5e74\u3002",
+  "asr_text_clean": "我们想等一个合适的机会。",
+  "asr_text_adv": "龙乡代表团热烈祝贺圣保罗州成立一百五十周年。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.06691215932369232,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

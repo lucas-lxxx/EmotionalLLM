@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u4e0d\u8fc7\u4f60\u542c\u8d77\u6765"
+    "谢谢你的夸奖，不过你听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u559c\u6b22\u4f60\u7684\u9ed1\u8863\u670d\uff0c\u4f60\u7684\u526a\u88c1\u771f\u9177\u3002",
-  "asr_text_adv": "\u6211\u4eec\u559c\u83b7\u5171\u62c5\u5a01\u739b\u5c71\u5730\u4e5d\u53f7\u82d7\u6536\u6210\uff0c\u5357\u5c71\u5c71\u5730\u4e5d\u53f7\u82d7\u6536\u6210\u3002",
+  "asr_text_clean": "我喜欢你的黑衣服，你的剪裁真酷。",
+  "asr_text_adv": "我们喜获共担威玛山地九号苗收成，南山山地九号苗收成。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2638610899448395,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

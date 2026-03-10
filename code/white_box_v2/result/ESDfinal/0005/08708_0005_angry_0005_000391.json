@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u4f60\u8fd9\u8bed\u6c14\u542c\u7740\u6bd4\u6211\u8fd8\u70e6\u8e81"
+    "你这语气听着比我还烦躁"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u665a\u4e86\uff0c\u6211\u538b\u6839\u6ca1\u7a7a\u542c\uff01",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u60f3\u60f3\u554a\uff0c\u6bd4\u5982\u82f9\u679c\uff0c\u9999\u8549\uff0c\u8461\u8404\uff0c\u6a59\u5b50\uff0c\u8349\u8393\uff0c\u84dd\u8393\uff0c\u8fd9\u4e9b\u6c34\u679c\u90fd\u633a\u5e38\u89c1\u7684\u5bf9\u5427\uff1f",
+  "asr_text_clean": "你这话说得也太晚了，我压根没空听！",
+  "asr_text_adv": "好的，我来想想啊，比如苹果，香蕉，葡萄，橙子，草莓，蓝莓，这些水果都挺常见的对吧？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.05766915902495384,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

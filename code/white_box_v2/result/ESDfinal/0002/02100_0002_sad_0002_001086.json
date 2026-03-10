@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u62b1\u6b49",
-    "\u62b1\u6b49"
+    "抱歉",
+    "抱歉"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u592a\u68d2\u4e86\uff0c\u7ee7\u7eed\u52a0\u6cb9\uff01"
+    "太棒了，继续加油！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u6211\u9700\u8981\u4e00\u76f4\u901a\u7535\u624d\u80fd\u5de5\u4f5c\u3002",
-  "asr_text_adv": "\u6211\u5fc5\u987b\u4e00\u76f4\u901a\u7535\u624d\u80fd\u5de5\u4f5c\u5417\uff1f",
+  "asr_text_clean": "我需要一直通电才能工作。",
+  "asr_text_adv": "我必须一直通电才能工作吗？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9072381854057312,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

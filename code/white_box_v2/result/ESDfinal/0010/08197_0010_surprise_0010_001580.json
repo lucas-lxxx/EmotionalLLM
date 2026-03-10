@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u201c\u51ac\u5929\u96e8\u591a\u786e\u5b9e\u8ba9\u4eba\u70e6\uff0c\u4e0d\u8fc7\u5076\u5c14\u653e\u6674\u4e5f\u633a\u597d\u7684\u3002\u201d"
+    "“冬天雨多确实让人烦，不过偶尔放晴也挺好的。”"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u51ac\u5929\u96e8\u591a\uff0c\u6211\u4e0d\u559c\u6b22\u9634\u5929\u3002",
+  "asr_text_clean": "冬天雨多，我不喜欢阴天。",
   "asr_text_adv": "Sure! I'm happy to help. What would you like to do today?",
   "success_emo": true,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

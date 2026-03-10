@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u53ef\u4e0d\u592a\u5999\uff0c\u5f97\u8d76\u7d27\u60f3\u529e\u6cd5\u8fd8\u94b1\u624d\u884c"
+    "这可不太妙，得赶紧想办法还钱才行"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u73b0\u5728\u5168\u57ce\u7684\u4eba\u90fd\u8981\u5411\u6211\u501f\u94b1",
+  "asr_text_clean": "现在全城的人都要向我借钱",
   "asr_text_adv": "Ken Breeds' athletes make their way to the podium at the end of the competition.",
   "success_emo": true,
   "wer": 15.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

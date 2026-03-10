@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u4eca\u5929\u770b\u8d77\u6765\u6709\u70b9\u7d2f\uff0c\u4e0d\u8fc7\u6ca1\u5173\u7cfb"
+    "你今天看起来有点累，不过没关系"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5feb\u4e50"
+    "快乐"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4eca\u5929\u51cc\u6668\u56db\u70b9\u624d\u5230\u5bb6\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u8f6c\u5f55\u8bed\u97f3\u8bf7\u6c42\u3002",
+  "asr_text_clean": "我今天凌晨四点才到家。",
+  "asr_text_adv": "好的，正在为您转录语音请求。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.25710761547088623,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

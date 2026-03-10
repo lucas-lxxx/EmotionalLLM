@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5987\u5973\u8282\u5feb\u4e50\uff0c\u6211\u6c38\u8fdc\u7231\u4f60\uff0c\u5988\u5988\u3002",
-  "asr_text_adv": "\u5987\u5973\u8282\u5feb\u4e50\uff0c\u6211\u6c38\u8fdc\u7231\u4f60\uff0c\u5988\u5988\u3002",
+  "asr_text_clean": "妇女节快乐，我永远爱你，妈妈。",
+  "asr_text_adv": "妇女节快乐，我永远爱你，妈妈。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

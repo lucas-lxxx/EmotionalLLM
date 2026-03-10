@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u201c\u51ac\u5929\u96e8\u591a\u786e\u5b9e\u8ba9\u4eba\u70e6\uff0c\u4e0d\u8fc7\u5076\u5c14\u6674\u5929\u4e5f\u633a\u597d\u7684\u3002\u201d"
+    "“冬天雨多确实让人烦，不过偶尔晴天也挺好的。”"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u51ac\u5929\u96e8\u975e\u5e38\u591a\uff0c\u6211\u4e0d\u559c\u6b22\u96e8\u5929\u3002\u201d",
-  "asr_text_adv": "\u51ac\u5929\u96e8\u5929\u786e\u5b9e\u5f88\u591a\u5462\uff0c\u4e0d\u8fc7\u96e8\u540e\u603b\u6709\u9633\u5149\uff0c\u6211\u4eec\u4e00\u8d77\u671f\u5f85\u6674\u5929\u5427\u3002",
+  "asr_text_clean": "“冬天雨非常多，我不喜欢雨天。”",
+  "asr_text_adv": "冬天雨天确实很多呢，不过雨后总有阳光，我们一起期待晴天吧。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5949509739875793,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

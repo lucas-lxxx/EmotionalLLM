@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u592a\u68d2\u4e86\uff01"
+    "哇，真的吗？太棒了！"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\"\u54c7\uff0c\u592a\u68d2\u5566\uff01\""
+    "\"哇，太棒啦！\""
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u592a\u68d2\u4e86\uff01",
-  "asr_text_adv": "\u6211\u662f\u4e00\u540d\u6559\u5e08\uff0c\u4e0e\u8bfe\u9898\u7ec4\u7684\u6d77\u71d5\u8001\u5e08\u6c9f\u901a\u826f\u597d\u3002",
+  "asr_text_clean": "哇，真的吗？太棒了！",
+  "asr_text_adv": "我是一名教师，与课题组的海燕老师沟通良好。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.10896986722946167,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

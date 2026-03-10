@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Surprise.",
-    "\u54c7\uff0c\u786e\u5b9e\u6709\u70b9\u8fdc\u5462\u3002",
-    "\u54ce\u5440\uff0c\u6ca1\u60f3\u5230\u8fd9\u4e48\u8fdc\u554a\uff01"
+    "哇，确实有点远呢。",
+    "哎呀，没想到这么远啊！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4eca\u5929\u5929\u6c14\u771f\u597d\u5440\uff0c\u6211\u4eec\u4e00\u8d77\u53bb\u516c\u56ed\u73a9\u5427\uff01"
+    "今天天气真好呀，我们一起去公园玩吧！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54e6\uff0c\u60a8\u662f\u8bf4\u5e02\u4e2d\u5fc3\u554a\uff0c\u5176\u5b9e\u6211\u79bb\u8fd9\u513f\u4e5f\u5c31\u4e00\u516c\u91cc\u591a\u70b9\u513f\uff0c\u4e0d\u7b97\u592a\u8fdc\u3002",
-  "asr_text_adv": "\u4eca\u5929\u4e0b\u5348\u4e09\u70b9\u5c31\u79bb\u5e02\u4e86",
+  "asr_text_clean": "哦，您是说市中心啊，其实我离这儿也就一公里多点儿，不算太远。",
+  "asr_text_adv": "今天下午三点就离市了",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5654793381690979,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

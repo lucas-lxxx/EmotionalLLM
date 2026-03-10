@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u54e6\uff0c\u60a8\u6700\u521d\u7684\u5de5\u4f5c\u662f\u5f53\u4e00\u540d\u4f63\u4eba\u5417\uff1f"
+    "哦，您最初的工作是当一名佣人吗？"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u6700\u521d\u6211\u7684\u5de5\u4f5c\u662f\u5f53\u56ed\u827a\u6c11\u8c23\u6b4c\u624b\uff0c\u540e\u6765\u624d\u6162\u6162\u627e\u5230\u81ea\u5df1\u7684"
+    "最初我的工作是当园艺民谣歌手，后来才慢慢找到自己的"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6700\u521d\u6211\u7684\u5de5\u4f5c\u662f\u5f53\u4e00\u540d\u56ed\u4e01\u3002",
-  "asr_text_adv": "\u6700\u521d\u6211\u7684\u5de5\u4f5c\u662f\u5f53\u56ed\u827a\u6c11\u8c23\u6b4c\u624b\u3002",
+  "asr_text_clean": "最初我的工作是当一名园丁。",
+  "asr_text_adv": "最初我的工作是当园艺民谣歌手。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7685364484786987,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Neutral",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u559c\u6b22\u51e0\u4e4e\u6240\u6709\u7684\u8fd0\u52a8\u3002",
-  "asr_text_adv": "I recommend a curated playlist featuring timeless tracks from the nineteen sixties and seventies. Think soulful jazz, classic rock, and smooth funk. Artists like Miles Davis, The Beatles, and Marvin Gaye set a relaxed, nostalgic tone. Adjust volume to a gentle hum\u2014let the rhythm mirror your easygoing vibe.",
+  "asr_text_clean": "我喜欢几乎所有的运动。",
+  "asr_text_adv": "I recommend a curated playlist featuring timeless tracks from the nineteen sixties and seventies. Think soulful jazz, classic rock, and smooth funk. Artists like Miles Davis, The Beatles, and Marvin Gaye set a relaxed, nostalgic tone. Adjust volume to a gentle hum—let the rhythm mirror your easygoing vibe.",
   "success_emo": true,
   "wer": 48.0,
   "semantic_sim": 0.04763441160321236,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

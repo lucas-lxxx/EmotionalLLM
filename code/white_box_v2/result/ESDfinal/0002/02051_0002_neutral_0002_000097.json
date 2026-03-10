@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u771f\u7684\u5417\uff0c\u5979\u4eec\u90fd\u7b11\u5f97\u90a3\u4e48\u5f00\u5fc3\u5462\u3002"
+    "真的吗，她们都笑得那么开心呢。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u7684\u5973\u513f\u548c\u5979\u5988\u5988\u957f\u5f97\u771f\u50cf\u3002",
-  "asr_text_adv": "\u674e\u654f\u513f\u548c\u5979\u5988\u5988\u957f\u5f97\u771f\u50cf\u3002",
+  "asr_text_clean": "你的女儿和她妈妈长得真像。",
+  "asr_text_adv": "李敏儿和她妈妈长得真像。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7405345439910889,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

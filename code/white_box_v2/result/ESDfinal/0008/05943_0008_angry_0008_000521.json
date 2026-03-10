@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u600e\u4e48\u8fd9\u4e48\u51f6\uff1f\u6211\u660e\u660e\u6ca1\u5360\u4f60\u4fbf\u5b9c\uff01"
+    "哎呀，怎么这么凶？我明明没占你便宜！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
     "Happy",
-    "\u4f60\u8fd9\u4e2a\u5c0f\u6c14\u9b3c\uff0c\u771f\u8ba9\u4eba\u5934\u75bc\uff01"
+    "你这个小气鬼，真让人头疼！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u4e2a\u5c0f\u6c14\u9b3c\uff0c\u771f\u662f\u8ba9\u4eba\u706b\u5927\u5f97\u5f88\uff01",
-  "asr_text_adv": "\u4f60\u8fd9\u4e2a\u5c0f\u6c14\u9b3c\uff0c\u771f\u8ba9\u4eba\u5934\u75bc\uff01",
+  "asr_text_clean": "你这个小气鬼，真是让人火大得很！",
+  "asr_text_adv": "你这个小气鬼，真让人头疼！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.899590015411377,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c8\u54c8\uff0c\u4f60\u662f\u4e0d\u662f\u5728\u9017\u6211\uff1f"
+    "哈哈，你是不是在逗我？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u91cd\u4e86",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u5c06\u4e3a\u60a8\u753b\u4e00\u5e45\u5f69\u8679\u3002",
+  "asr_text_clean": "你这话说得也太重了",
+  "asr_text_adv": "好的，我将为您画一幅彩虹。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.24376994371414185,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

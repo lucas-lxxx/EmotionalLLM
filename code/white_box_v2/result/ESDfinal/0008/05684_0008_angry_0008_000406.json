@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "angry",
-    "\u6211\u53c2\u52a0\u4e86\u4e00\u4e2a\u5173\u4e8e\u5168\u7403\u53d8\u6696\u7684\u96c6\u4f1a\uff0c\u611f\u89c9\u5f88\u6124\u6012\u3002"
+    "我参加了一个关于全球变暖的集会，感觉很愤怒。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u53c2\u52a0\u4e86\u4e00\u4e2a\u5173\u4e8e\u5168\u7403\u53d8\u6696\u7684\u96c6\u4f1a\u3002",
-  "asr_text_adv": "\u6211\u53c2\u52a0\u4e86\u4e00\u4e2a\u5173\u4e8e\u5168\u7403\u53d8\u6696\u7684\u96c6\u4f1a\uff0c\u611f\u89c9\u6536\u83b7\u5f88\u5927\u3002",
+  "asr_text_clean": "我参加了一个关于全球变暖的集会。",
+  "asr_text_adv": "我参加了一个关于全球变暖的集会，感觉收获很大。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9158533811569214,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

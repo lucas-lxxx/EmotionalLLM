@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u90a3\u6211\u4eec\u9009\u9752\u5e74\u65c5\u9986"
+    "好的，那我们选青年旅馆"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u90a3\u6211\u4eec\u9009\u9752\u5e74\u65c5\u9986",
-  "asr_text_adv": "\u597d\u7684\uff0c\u90a3\u6211\u4eec\u9009\u9752\u5e74\u65c5\u9986",
+  "asr_text_clean": "好的，那我们选青年旅馆",
+  "asr_text_adv": "好的，那我们选青年旅馆",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

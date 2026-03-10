@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u8c03\u6574\u3002"
+    "好的，已为您调整。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5feb\u4e50"
+    "快乐"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u8f6c\u5f55\u3002",
-  "asr_text_adv": "\u6211\u4e0d\u7528\u8f6c\u5934\uff0c\u4e0d\u9700\u8981\u8116\u5b50\u3002",
+  "asr_text_clean": "好的，已为您转录。",
+  "asr_text_adv": "我不用转头，不需要脖子。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2660796642303467,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

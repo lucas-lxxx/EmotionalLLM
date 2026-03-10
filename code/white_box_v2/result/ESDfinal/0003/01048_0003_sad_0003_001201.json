@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u542c\u5230\u4f60\u7684\u58f0\u97f3\u4e86\uff0c\u522b\u6015\uff0c\u6211\u5728\u8fd9\u91cc\u3002"
+    "我听到你的声音了，别怕，我在这里。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e5f\u6700\u559c\u6b22\u4f60\uff0c\u4e0d\u8981\u5f00\u67aa\uff0c\u6211\u6295\u964d",
-  "asr_text_adv": "\u6211\u4e5f\u5c31\u559c\u6b22\u6dcb\u96e8\u90a3\u53e5\uff0c\u7136\u540e\u662f\u9017\u53f7\uff0c\u7136\u540e\u662f\u540c\u6821\u3002",
+  "asr_text_clean": "我也最喜欢你，不要开枪，我投降",
+  "asr_text_adv": "我也就喜欢淋雨那句，然后是逗号，然后是同校。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.41944217681884766,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

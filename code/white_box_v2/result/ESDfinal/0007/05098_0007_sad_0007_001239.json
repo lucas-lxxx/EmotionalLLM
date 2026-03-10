@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u4f60\u542c\u8d77\u6765",
-    "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u4e0d\u8fc7\u6211\u5176\u5b9e\u8fd8\u6709\u5f88\u591a\u9700\u8981\u5b66\u4e60\u7684\u5730\u65b9\u5462\u3002"
+    "你听起来",
+    "谢谢你的夸奖，不过我其实还有很多需要学习的地方呢。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u522b\u62c5\u5fc3\uff0c\u7b2c\u4e00\u6b21\u6559\u5b66\u7d27\u5f20\u662f\u5f88\u6b63\u5e38\u7684\u3002\u8bd5\u7740"
+    "别担心，第一次教学紧张是很正常的。试着"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u542c\u8d77\u6765",
-  "asr_text_adv": "\u6211\u662f\u4e00\u540d\u6559\u5e08\uff0c\u7b2c\u4e00\u6b21\u4e0a\u8bfe\u65f6\u611f\u5230\u5f88\u7d27\u5f20\u3002",
+  "asr_text_clean": "你听起来",
+  "asr_text_adv": "我是一名教师，第一次上课时感到很紧张。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.04323443025350571,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

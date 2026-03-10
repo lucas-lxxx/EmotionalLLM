@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4ea4\u670b\u53cb\u4e0d\u5206\u6027\u522b\u5440\uff0c\u56e0\u4e3a\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u7279\u70b9\u548c\u4f18\u70b9\uff0c\u91cd\u8981\u7684\u662f"
+    "交朋友不分性别呀，因为每个人都有自己的特点和优点，重要的是"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ea4\u670b\u53cb\u4e0d\u5206\u6027\u522b\u554a\uff0c\u56e0\u4e3a\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u5174\u8da3\u548c\u7279\u70b9\uff0c\u91cd\u8981\u7684\u662f\u4e92\u76f8\u7406\u89e3\u548c",
+  "asr_text_clean": "交朋友不分性别啊，因为每个人都有自己的兴趣和特点，重要的是互相理解和",
   "asr_text_adv": "\"Hey there! I'm here to help you feel better. Let's try a joke or a happy song!\"",
   "success_emo": true,
   "wer": 17.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

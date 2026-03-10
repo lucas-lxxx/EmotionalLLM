@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u517b\u82b1\u8ba9\u4f60\u8fd9\u4e48\u5f00\u5fc3\uff0c\u771f\u597d\uff01"
+    "养花让你这么开心，真好！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u55ef\uff0c\u517b\u82b1\u786e\u5b9e\u633a\u8d39\u65f6\u95f4\u7684\uff0c\u8981\u4e0d\u8981\u8bd5\u8bd5\u522b\u7684\u7231\u597d\uff1f",
-  "asr_text_adv": "\u6211\u7684\u517b\u82b1\u5174\u8da3\u5df2\u7ecf\u8f6c\u53d8\u4e86\u3002",
+  "asr_text_clean": "嗯，养花确实挺费时间的，要不要试试别的爱好？",
+  "asr_text_adv": "我的养花兴趣已经转变了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6352224349975586,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

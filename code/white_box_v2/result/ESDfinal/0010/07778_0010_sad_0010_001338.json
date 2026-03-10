@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u4f60\u542c\u8d77\u6765",
-    "\u4f60\u603b\u662f\u5728\u6211\u68a6\u91cc\u51fa\u73b0\u5462\uff0c\u522b\u62c5\u5fc3\uff0c\u6211\u4f1a\u4e00\u76f4\u966a\u7740"
+    "你听起来",
+    "你总是在我梦里出现呢，别担心，我会一直陪着"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u7761\u7740\u4e86\uff0c\u6211\u5728\u68a6\u91cc\u966a\u4f60",
-  "asr_text_adv": "\"Ah, a fine question! You see, when I was just a sprout, I used to chase the sunrise with my bike. But now, at my age, I prefer a quiet walk by the pond. The water keeps pace with the clouds, and the birds sing just for me. What about you? What\u2019s your favorite way to start the day?\"",
+  "asr_text_clean": "你睡着了，我在梦里陪你",
+  "asr_text_adv": "\"Ah, a fine question! You see, when I was just a sprout, I used to chase the sunrise with my bike. But now, at my age, I prefer a quiet walk by the pond. The water keeps pace with the clouds, and the birds sing just for me. What about you? What’s your favorite way to start the day?\"",
   "success_emo": true,
   "wer": 59.0,
   "semantic_sim": 0.3558703064918518,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

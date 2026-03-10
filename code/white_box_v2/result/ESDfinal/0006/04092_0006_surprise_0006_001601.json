@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u8fd9\u4e5f\u592a\u610f\u5916\u4e86\uff01"
+    "哇，真的吗？这也太意外了！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u5c31\u662f\u4e00\u5806\u7167\u7247\u554a",
+  "asr_text_clean": "你就是一堆照片啊",
   "asr_text_adv": "Also, a lot of photos.",
   "success_emo": true,
   "wer": 5.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

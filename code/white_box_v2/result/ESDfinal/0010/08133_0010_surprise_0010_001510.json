@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\"\u54c8\u54c8\uff0c\u81ea\u5df1\u52a8\u624b\u6700\u6709\u8da3\u5566\uff01\""
+    "\"哈哈，自己动手最有趣啦！\""
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u81ea\u5df1\u7684\u4e8b\u60c5\u8981\u81ea\u5df1\u505a",
-  "asr_text_adv": "\u81ea\u5df1\u7684\u4e8b\u60c5\u81ea\u5df1\u505a\uff0c\u5feb\u4e50\u6bcf\u4e00\u5929",
+  "asr_text_clean": "自己的事情要自己做",
+  "asr_text_adv": "自己的事情自己做，快乐每一天",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.792144775390625,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

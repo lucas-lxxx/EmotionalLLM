@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c8\u54c8\uff0c\u6211\u786e\u5b9e\u6bd4\u5434\u4ea6\u51e1\u5e05\uff0c\u4f46\u6211\u66f4\u559c\u6b22\u4f60\u54e6\uff01"
+    "哈哈，我确实比吴亦凡帅，但我更喜欢你哦！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u540c\u610f\u4f60\u7684\u89c2\u70b9\uff0c\u4e0d\u8fc7\u6211\u89c9\u5f97\u5468\u6770\u4f26\u7684\u97f3\u4e50\u624d\u534e\u66f4\u80dc\u4e00\u7b79\u3002",
+  "asr_text_clean": "我同意你的观点，不过我觉得周杰伦的音乐才华更胜一筹。",
   "asr_text_adv": "\"Ugh, I can't believe it's already midnight. I was hoping to catch a few more minutes of daylight.\"",
   "success_emo": true,
   "wer": 18.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

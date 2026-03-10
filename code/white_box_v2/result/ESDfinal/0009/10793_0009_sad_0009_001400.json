@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u522b\u96be\u8fc7\u5566\uff0c\u4e3b\u4eba\u4e0d\u5b66\u4e86\uff0c\u54b1\u4eec\u6539\u5929\u518d"
+    "哎呀，别难过啦，主人不学了，咱们改天再"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u771f\u662f\u4e2a\u60ca\u559c\uff01"
+    "这真是个惊喜！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u522b\u5b66\u4e86\uff0c\u90a3\u4e9b\u96be\u542c\u7684\u8bdd\u4f1a\u4f24\u4eba\u7684\u3002",
-  "asr_text_adv": "\u8fd9\u95f4\u96be\u542c\u7684\u810f\u623f\u5b50\uff0c\u6211\u53ea\u6709\u4e00\u5757\u94b1\u3002",
+  "asr_text_clean": "哎呀，别学了，那些难听的话会伤人的。",
+  "asr_text_adv": "这间难听的脏房子，我只有一块钱。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.25092804431915283,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u539f\u6765\u5982\u6b64\uff01"
+    "哦，原来如此！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u786e\u5b9e\u4e0d\u9700\u8981\u7528\u9f3b\u5b50\u547c\u5438\u5462",
-  "asr_text_adv": "\u6211\u6700\u559c\u6b22\u7684\u989c\u8272\u662f\u84dd\u8272\uff0c\u56e0\u4e3a\u5b83\u662f\u5929\u7a7a\u7684\u989c\u8272\u3002",
+  "asr_text_clean": "我确实不需要用鼻子呼吸呢",
+  "asr_text_adv": "我最喜欢的颜色是蓝色，因为它是天空的颜色。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.13119038939476013,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

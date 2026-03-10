@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u8fd9\u6837\u786e\u5b9e\u633a\u6709\u610f\u601d"
+    "这样确实挺有意思"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u6837\u786e\u5b9e\u633a\u6709\u610f\u601d",
+  "asr_text_clean": "这样确实挺有意思",
   "asr_text_adv": "I get along with my coworkers. We work well together.",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

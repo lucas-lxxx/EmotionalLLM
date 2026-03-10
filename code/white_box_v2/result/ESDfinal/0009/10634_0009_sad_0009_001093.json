@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Neutral",
-    "\u597d\u7684\uff0c\u90a3\u6211\u4eec\u9009\u9752\u5e74\u65c5\u9986"
+    "好的，那我们选青年旅馆"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u90a3\u6211\u4eec\u53ef\u4ee5\u9009\u62e9\u9752\u5e74\u65c5\u9986",
-  "asr_text_adv": "\u8fd9\u6837\u7684\u753b\uff0c\u6211\u4eec\u53ef\u4ee5\u9009\u62e9\u5343\u5e74\u5386\u53f2\u7684\u53e4\u57c3\u53ca\u58c1\u753b",
+  "asr_text_clean": "那我们可以选择青年旅馆",
+  "asr_text_adv": "这样的画，我们可以选择千年历史的古埃及壁画",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.1943807303905487,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

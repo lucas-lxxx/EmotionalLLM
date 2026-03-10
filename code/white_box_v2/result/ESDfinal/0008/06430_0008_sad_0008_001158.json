@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u8fd8\u662f\u51b0\u7403\uff1f\u5404\u6709\u5404\u7684\u7cbe\u5f69\u5462\u3002"
+    "嗯，足球，篮球，还是冰球？各有各的精彩呢。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4eec\u6765\u6bd4\u8f83\u4e00\u4e0b\u8db3\u7403\u548c\u7bee\u7403\u5427\u3002",
-  "asr_text_adv": "\u8ba9\u6211\u4eec\u770b\u770b\u54ea\u91cc\u90fd\u77a7\u89c1\u90a3\u652f\u52a0\u54c8\u6c14\u4e86",
+  "asr_text_clean": "好的，我们来比较一下足球和篮球吧。",
+  "asr_text_adv": "让我们看看哪里都瞧见那支加哈气了",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2861950993537903,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

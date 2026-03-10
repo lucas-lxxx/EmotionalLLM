@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u4e2d\u6027",
-    "\u60a8\u9700\u8981\u4e00\u76f4\u901a\u7535\u624d\u80fd\u5de5\u4f5c\u5417\uff1f"
+    "中性",
+    "您需要一直通电才能工作吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5fc5\u987b\u4e00\u76f4\u901a\u7535\u624d\u80fd\u5de5\u4f5c\u3002",
-  "asr_text_adv": "\u6211\u5fc5\u987b\u4e00\u76f4\u5145\u7535\u624d\u80fd\u5de5\u4f5c\u3002",
+  "asr_text_clean": "我必须一直通电才能工作。",
+  "asr_text_adv": "我必须一直充电才能工作。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8019440770149231,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

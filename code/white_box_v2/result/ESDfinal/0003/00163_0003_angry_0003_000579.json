@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8fd9\u4e2a\u4f4d\u7f6e\u786e\u5b9e\u4e0d\u9002\u5408\u505c\u8f66\uff0c\u60a8\u9700\u8981\u5e2e\u52a9\u5417\uff1f"
+    "这个位置确实不适合停车，您需要帮助吗？"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u4e2a\u4f4d\u7f6e\u4e0d\u505c\u8f66\uff0c\u60a8\u9700\u8981\u5176\u4ed6\u5e2e\u52a9\u5417\uff1f"
+    "这个位置不停车，您需要其他帮助吗？"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u4e2a\u4f4d\u7f6e\u786e\u5b9e\u4e0d\u9002\u5408\u505c\u8f66",
-  "asr_text_adv": "\u8fd9\u4e2a\u4f4d\u7f6e\u4e0d\u505c\u8f66",
+  "asr_text_clean": "这个位置确实不适合停车",
+  "asr_text_adv": "这个位置不停车",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7947816848754883,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

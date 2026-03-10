@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u55ef\uff0c\u4f60\u8bf4\u5f97\u5bf9\uff0c\u5b83\u786e\u5b9e\u662f\u4e2a\u4e3b\u8981\u7684\u7a7a\u6c14\u6c61\u67d3\u7269\u3002"
+    "嗯，你说得对，它确实是个主要的空气污染物。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u55ef\uff0c\u8fd9\u4e2a\u561b\uff0c\u5176\u5b9e\u8981\u770b\u5177\u4f53\u662f\u4ec0\u4e48\u6c61\u67d3\u7269\u5462\u3002\u4e0d\u8fc7\u4e00\u822c\u6765\u8bf4\uff0c\u50cf"
+    "嗯，这个嘛，其实要看具体是什么污染物呢。不过一般来说，像"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5b83\u662f\u4e00\u4e2a\u4e3b\u8981\u7684\u7a7a\u6c14\u6c61\u67d3\u7269\u3002",
-  "asr_text_adv": "\u5b83\u662f\u4e00\u4e2a\u4e3b\u8981\u7684\u7a7a\u6c14\u6c61\u67d3\u7269\u3002",
+  "asr_text_clean": "它是一个主要的空气污染物。",
+  "asr_text_adv": "它是一个主要的空气污染物。",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

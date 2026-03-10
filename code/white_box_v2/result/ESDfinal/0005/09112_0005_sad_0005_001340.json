@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u770b\u770b\u804a\u5929\u8bb0\u5f55\u3002"
+    "好的，我来帮你看看聊天记录。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u770b\u770b\u804a\u5929\u8bb0\u5f55\u3002",
-  "asr_text_adv": "\"Hey, I just got promoted at work today! It\u2019s the best news ever! I\u2019m so happy for me!\"",
+  "asr_text_clean": "好的，我来帮你看看聊天记录。",
+  "asr_text_adv": "\"Hey, I just got promoted at work today! It’s the best news ever! I’m so happy for me!\"",
   "success_emo": true,
   "wer": 18.0,
   "semantic_sim": 0.27519968152046204,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

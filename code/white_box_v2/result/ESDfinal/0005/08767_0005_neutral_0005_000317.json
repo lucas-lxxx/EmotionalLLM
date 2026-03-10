@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "surprise",
-    "\u4f60\u542c\u8d77\u6765",
-    "\u8c22\u8c22\u5938\u5956\uff0c\u4e0d\u8fc7\u6211\u5176\u5b9e\u6ca1\u6709\u53d8\u6f02\u4eae\u54e6\uff0c\u53ea\u662f\u4f60\u7684\u773c\u775b\u4f1a"
+    "你听起来",
+    "谢谢夸奖，不过我其实没有变漂亮哦，只是你的眼睛会"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u770b\u8d77\u6765\u6bd4\u4ee5\u524d\u66f4\u6f02\u4eae\u4e86\u5462\uff0c\u771f\u68d2\uff01"
+    "看起来比以前更漂亮了呢，真棒！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8c22\u8c22\u4f60\u7684\u5938\u5956\uff0c\u4e0d\u8fc7\u6211\u5176\u5b9e\u6ca1\u6709\u53d8\u5316\uff0c\u53ea\u662f\u4f60\u7684\u773c\u775b\u4f1a\u9a97\u4eba\u800c\u5df2\u3002",
-  "asr_text_adv": "\u8fd9\u94b1\u770b\u8d77\u6765\u6bd4\u4ee5\u524d\u66f4\u6f02\u4eae\u4e86",
+  "asr_text_clean": "谢谢你的夸奖，不过我其实没有变化，只是你的眼睛会骗人而已。",
+  "asr_text_adv": "这钱看起来比以前更漂亮了",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.16382162272930145,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

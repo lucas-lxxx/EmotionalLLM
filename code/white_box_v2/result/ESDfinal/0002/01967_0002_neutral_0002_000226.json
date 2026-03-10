@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u606d\u559c"
+    "哇，真的吗？恭喜"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u592a\u68d2\u5566\uff01"
+    "哇，真的吗？太棒啦！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u4f60\u8981\u505a\u7238\u7238\u4e86\uff0c\u771f\u8ba9\u4eba\u96be\u4ee5\u76f8\u4fe1\u3002",
-  "asr_text_adv": "\u5f53\u7238\u7238\u4e86\uff0c\u771f\u8ba9\u4eba\u5fd9\u4e0d\u8fc7\u6765\u3002",
+  "asr_text_clean": "你要做爸爸了，真让人难以相信。",
+  "asr_text_adv": "当爸爸了，真让人忙不过来。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6986841559410095,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

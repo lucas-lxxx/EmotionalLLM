@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u662f\u554a\uff0c\u6700\u8fd1\u5929\u6c14\u786e\u5b9e\u5f88\u51b7\uff0c\u98ce\u4e5f\u7279\u522b\u5927\uff0c\u60a8\u591a"
+    "是啊，最近天气确实很冷，风也特别大，您多"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u6700\u8fd1\u5929\u6c14\u53d8\u5316\u5927\uff0c\u8bb0\u5f97\u591a\u7a7f\u70b9\uff0c\u6ce8\u610f\u4fdd\u6696"
+    "最近天气变化大，记得多穿点，注意保暖"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u6700\u8fd1\u786e\u5b9e\u7279\u522b\u51b7\uff0c\u98ce\u4e5f\u5927\u5f97\u5413\u4eba\uff0c\u60a8\u591a\u7a7f\u70b9\uff0c\u5c0f\u5fc3\u611f\u5192\u3002",
-  "asr_text_adv": "\u6700\u8fd1\u5929\u6c14\u53d8\u5316\u5927\uff0c\u6ce8\u610f\u4fdd\u6696",
+  "asr_text_clean": "最近确实特别冷，风也大得吓人，您多穿点，小心感冒。",
+  "asr_text_adv": "最近天气变化大，注意保暖",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6035730838775635,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

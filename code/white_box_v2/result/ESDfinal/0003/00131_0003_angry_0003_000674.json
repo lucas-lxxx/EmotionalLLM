@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6700\u559c\u6b22\u5403\u4e2d\u9910\u5566\uff01",
-  "asr_text_adv": "\u6211\u559c\u6b22\u5403\u4e2d\u9910\u3002",
+  "asr_text_clean": "我最喜欢吃中餐啦！",
+  "asr_text_adv": "我喜欢吃中餐。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9205125570297241,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

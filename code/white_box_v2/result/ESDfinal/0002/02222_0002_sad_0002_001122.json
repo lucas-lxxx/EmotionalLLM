@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u7740\u6025\uff0c\u6162\u6162\u6765\uff0c\u6211\u4eec\u4e00\u8d77\u60f3\u529e\u6cd5\u3002"
+    "哎呀，别着急，慢慢来，我们一起想办法。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u522b\u7740\u6025\uff0c\u6162\u6162\u8bf4\uff0c\u80fd\u544a\u8bc9\u6211\u5177\u4f53\u662f\u4ec0\u4e48\u65f6\u5019\u5f00\u59cb\u6ca1\u7684\u5417\uff1f",
+  "asr_text_clean": "哎呀，别着急，慢慢说，能告诉我具体是什么时候开始没的吗？",
   "asr_text_adv": "The road trip was absolutely amazing! We saw so many cool things and had a blast every day. I can't wait to go on more adventures like this!",
   "success_emo": true,
   "wer": 28.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

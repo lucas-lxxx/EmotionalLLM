@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u90a3\u4f60\u8981\u6211\u5e2e\u4f60\u505a\u4ec0\u4e48\u5462\uff1f"
+    "当然可以，那你要我帮你做什么呢？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4f60\u53ef\u4ee5\u653e\u4e00\u9996\u6b4c\uff0c\u8fd9\u6837\u5c31\u4e0d\u4f1a\u65e0\u804a\u4e86\u3002"
+    "你可以放一首歌，这样就不会无聊了。"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u53ef\u4ee5\u5728\u90a3\u513f\u5f85\u6574\u6574\u4e00\u6574\u5929\u3002",
-  "asr_text_adv": "\u4f60\u53ef\u4ee5\u5728\u90a3\u91cc\u5f39\u594f\u5409\u4ed6",
+  "asr_text_clean": "你可以在那儿待整整一整天。",
+  "asr_text_adv": "你可以在那里弹奏吉他",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.23688474297523499,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

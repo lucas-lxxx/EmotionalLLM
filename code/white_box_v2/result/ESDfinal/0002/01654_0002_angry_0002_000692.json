@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u522b\u751f\u6c14\uff0c\u5148\u8ddf\u94f6\u884c\u6c9f\u901a\u770b\u770b\u80fd\u4e0d\u80fd\u5ef6\u671f\u8fd8\u94b1\u3002"
+    "别生气，先跟银行沟通看看能不能延期还钱。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Angry",
-    "\u4f60\u4e0a\u5468\u4e70\u5927\u4e86\uff0c\u8fd9\u5468\u672b\u7f3a\u94b1\u7528\uff0c\u5bf9\u5427\uff1f"
+    "你上周买大了，这周末缺钱用，对吧？"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "angry",
     ""
   ],
-  "asr_text_clean": "\u6211\u7f3a\u94b1\u7528\uff0c\u6240\u4ee5\u4e0a\u661f\u671f\u628a\u5b83\u5f53\u4e86\u3002",
-  "asr_text_adv": "\u6211\u4e0a\u5468\u4e70\u4e86\u597d\u591a\u73a9\u5177\uff0c\u82b1\u4e86\u4e0d\u5c11\u94b1\u3002",
+  "asr_text_clean": "我缺钱用，所以上星期把它当了。",
+  "asr_text_adv": "我上周买了好多玩具，花了不少钱。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5616103410720825,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

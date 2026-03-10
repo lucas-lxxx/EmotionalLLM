@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u6ce8\u610f\u5230\u60a8\u73b0\u5728\u6709\u4e9b\u751f\u6c14\uff0c\u4e0d\u8fc7\u53bb\u718a\u732b\u9986\u786e\u5b9e\u662f\u4e2a\u4e0d\u9519\u7684"
+    "好的，我注意到您现在有些生气，不过去熊猫馆确实是个不错的"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e5f\u60f3\u53bb\u770b\u770b\u53ef\u7231\u7684\u718a\u732b\uff0c\u4f46\u4f60\u542c\u8d77\u6765",
+  "asr_text_clean": "我也想去看看可爱的熊猫，但你听起来",
   "asr_text_adv": "I'm really happy with my new job!",
   "success_emo": true,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

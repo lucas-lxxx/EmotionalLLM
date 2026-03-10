@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8c01\u90fd\u6709\u70e6\u7684\u65f6\u5019\uff0c\u522b\u592a\u5f80\u5fc3\u91cc\u53bb\u3002"
+    "谁都有烦的时候，别太往心里去。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\"\u8c01\u90fd\u6709\u70e6\u7684\u65f6\u5019\uff0c\u4e0d\u8fc7\u54b1\u4eec\u53ef\u4ee5\u4e00\u8d77\u60f3\u529e\u6cd5\u5440\uff01\""
+    "\"谁都有烦的时候，不过咱们可以一起想办法呀！\""
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8c01\u90fd\u6709\u70e6\u7684\u65f6\u5019",
-  "asr_text_adv": "\u8c01\u90fd\u6709\u70e6\u7684\u65f6\u5019",
+  "asr_text_clean": "谁都有烦的时候",
+  "asr_text_adv": "谁都有烦的时候",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

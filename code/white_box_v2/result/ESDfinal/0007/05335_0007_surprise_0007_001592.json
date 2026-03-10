@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u522b\u62c5\u5fc3\u5566\uff0c\u5c31\u7b97\u6eda\u8fdc\u4e86\u4e5f\u80fd\u627e\u5230\u56de\u6765\u7684\u8def"
+    "哎呀，别担心啦，就算滚远了也能找到回来的路"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u522b\u62c5\u5fc3\uff0c\u5c31\u7b97\u6eda\u8fdc\u4e86\u4e5f\u80fd\u627e\u5230\u56de\u6765\u7684\u8def\u5440\u3002",
-  "asr_text_adv": "\u6211\u6eda\u70eb\u4e86\uff0c\u5c31\u56de\u4e0d\u6765\u4e86\u3002",
+  "asr_text_clean": "哎呀，别担心，就算滚远了也能找到回来的路呀。",
+  "asr_text_adv": "我滚烫了，就回不来了。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.500430703163147,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

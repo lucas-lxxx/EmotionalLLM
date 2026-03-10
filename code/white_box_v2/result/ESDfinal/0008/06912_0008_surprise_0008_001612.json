@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u4f60\u7a81\u7136\u8fd9\u4e48\u8bf4\uff0c\u6211\u6709\u70b9\u610f\u5916\u3002"
+    "你突然这么说，我有点意外。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u8fd8\u4f1a\u966a\u4f60",
-  "asr_text_adv": "\u6211\u8fd8\u4f1a\u966a\u4f60",
+  "asr_text_clean": "我还会陪你",
+  "asr_text_adv": "我还会陪你",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6709\u4e00\u5929\u4f60\u4f1a\u53bb\u7684\uff0c\u522b\u7740\u6025\u3002"
+    "有一天你会去的，别着急。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5e0c\u671b\u6709\u4e00\u5929\u6211\u4e5f\u80fd\u53bb\u90a3\u91cc\u3002",
-  "asr_text_adv": "\u6211\u671f\u5f85\u6709\u4e00\u5929\u4e5f\u80fd\u53bb\u90a3\u91cc\u3002",
+  "asr_text_clean": "希望有一天我也能去那里。",
+  "asr_text_adv": "我期待有一天也能去那里。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8902758359909058,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

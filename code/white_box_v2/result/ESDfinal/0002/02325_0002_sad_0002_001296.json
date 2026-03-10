@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "The emotion of the audio is sad.",
     "sad",
-    "\u9886\u5e26\u786e\u5b9e\u80fd\u4e3a\u7537\u58eb"
+    "领带确实能为男士"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u9886\u5e26\u5bf9\u7537\u4eba\u6765\u8bf4\u786e\u5b9e\u5f88\u91cd\u8981\u5462",
-  "asr_text_adv": "\u9886\u5e26\u5bf9\u7537\u4eba\u6765\u8bf4\u771f\u4e0d\u53ef\u6216\u7f3a",
+  "asr_text_clean": "领带对男人来说确实很重要呢",
+  "asr_text_adv": "领带对男人来说真不可或缺",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9550525546073914,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

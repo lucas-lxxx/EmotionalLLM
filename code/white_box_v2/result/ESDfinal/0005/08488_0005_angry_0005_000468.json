@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u561b\uff0c\u4ed6\u4eec\u53ef\u80fd\u5c31\u662f\u60f3\u9017\u4f60\u73a9\u5462\u3002"
+    "哎呀，别生气嘛，他们可能就是想逗你玩呢。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u7684\u540c\u5b66\u628a\u4f60\u7ed9\u6349\u5f04\u4e86\uff1f\u8fd9\u4e8b\u513f\u786e\u5b9e\u633a\u8ba9\u4eba\u607c\u706b\u7684\u3002",
+  "asr_text_clean": "你的同学把你给捉弄了？这事儿确实挺让人恼火的。",
   "asr_text_adv": "\"Hey, I just got promoted at work today! It feels absolutely surreal!\"",
   "success_emo": true,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

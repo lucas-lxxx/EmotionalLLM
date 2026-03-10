@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\u8bd7\u4eba\uff0c\u53ef\u4ee5\u8bd5\u8bd5\u7528\u7f51\u515c\u4f4f\u9c7c\uff0c\u6216\u8005"
+    "为了不让鱼吃掉诗人，可以试试用网兜住鱼，或者"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e3a\u4e86\u4e0d\u8ba9\u9c7c\u5403\u6389\u8bd7\u4eba\u8eab\u4f53\uff0c\u53ef\u4ee5\u7528\u7f51\u515c\u4f4f\u8bd7\u4eba\uff0c\u6216\u8005\u628a\u8bd7\u4eba\u653e\u5728\u6c34\u91cc\u52a0\u4e9b\u76d0\u3002",
+  "asr_text_clean": "为了不让鱼吃掉诗人身体，可以用网兜住诗人，或者把诗人放在水里加些盐。",
   "asr_text_adv": "I had a great time at the party last night.",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

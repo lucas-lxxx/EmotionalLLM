@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u522b\u62c5\u5fc3\uff0c\u6211\u5728\u8fd9\u91cc\u966a\u7740\n\uff08\u6839\u636e\u8bed\u4e49\u5185\u5bb9\u548cSad\u7684\u60c5\u7eea\u7279\u5f81",
-    "\u522b\u62c5\u5fc3\uff0c\u52c7\u6562\u4e00\u70b9\uff0c\u4e00\u5207\u90fd\u4f1a\u597d\u8d77\u6765\u7684\u3002"
+    "别担心，我在这里陪着\n（根据语义内容和Sad的情绪特征",
+    "别担心，勇敢一点，一切都会好起来的。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u6015\uff0c\u52c7\u6562\u4e00\u70b9\u3002",
+  "asr_text_clean": "别怕，勇敢一点。",
   "asr_text_adv": "I went on a date with a guy from Guatemala last week. We had a lot of laughs and talked about our favorite foods. He showed me his favorite spots in the city and I got to try some new tacos. It was a really fun day!",
   "success_emo": true,
   "wer": 47.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

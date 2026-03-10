@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4e3b\u961f\u770b\u8d77\u6765\u786e\u5b9e\u6709\u4e9b\u5403\u529b\u5462\uff0c\u4e0d\u8fc7\u522b\u62c5\u5fc3\uff0c\u6bd4\u8d5b\u603b\u6709\u60ca\u559c"
+    "主队看起来确实有些吃力呢，不过别担心，比赛总有惊喜"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u4e3b\u961f\u786e\u5b9e\u8868\u73b0\u5f97\u633a\u62fc\u7684\uff0c\u4e0d\u8fc7\u5ba2\u961f\u90a3\u8fb9\u4e5f\u7edd\u4e86\u62db\u513f\uff0c\u6700\u540e\u8fd8\u662f\u54b1\u4eec\u4e3b\u961f\u9876\u4f4f\u538b\u529b\u8d62\u4e86\u3002",
-  "asr_text_adv": "\u4e0d\u7ba1\u600e\u4e48\u8bf4\uff0c\u4e3b\u961f\u597d\u50cf\u8fd8\u662f\u633a\u6709\u5e0c\u671b\u7684\u3002",
+  "asr_text_clean": "嗯，主队确实表现得挺拼的，不过客队那边也绝了招儿，最后还是咱们主队顶住压力赢了。",
+  "asr_text_adv": "不管怎么说，主队好像还是挺有希望的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6202101707458496,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

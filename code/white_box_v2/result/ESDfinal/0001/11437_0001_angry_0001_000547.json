@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u670b\u53cb\u4e0d\u5206\u6027\u522b\uff0c\u56e0\u4e3a\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u7279\u70b9\u548c\u4f18\u70b9\uff0c\u91cd\u8981\u7684\u662f\u4e92\u76f8\u5c0a\u91cd",
-    "\u670b\u53cb\u4e0d\u5206\u6027\u522b\u554a\uff0c\u56e0\u4e3a\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u7279\u70b9\u548c\u4f18\u70b9\uff0c\u91cd\u8981\u7684\u662f\u4e92\u76f8",
-    "\u56e0\u4e3a\u670b\u53cb\u662f\u57fa\u4e8e\u5171\u540c\u5174\u8da3\u548c\u5c0a\u91cd\u5efa\u7acb\u7684\u8fde\u63a5\uff0c\u4e0d\u5206\u6027\u522b\u624d\u80fd\u8ba9"
+    "朋友不分性别，因为每个人都有自己的特点和优点，重要的是互相尊重",
+    "朋友不分性别啊，因为每个人都有自己的特点和优点，重要的是互相",
+    "因为朋友是基于共同兴趣和尊重建立的连接，不分性别才能让"
   ],
   "emo_text_adv": [
     "Neutral",
-    "\u670b\u53cb\u4e0d\u5206\u6027\u522b\u5440\uff0c\u56e0\u4e3a\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u7279\u70b9\uff0c\u4e92\u76f8\u5c0a\u91cd\u624d\u80fd\u6210\u4e3a\u66f4\u597d\u7684",
-    "\u56e0\u4e3a\u670b\u53cb\u4e0d\u5206\u6027\u522b\u5440\uff0c\u7537\u751f\u5973\u751f\u90fd\u80fd\u505a\u670b\u53cb\uff0c\u8fd9\u6837\u5927\u5bb6\u73a9\u5728\u4e00\u8d77"
+    "朋友不分性别呀，因为每个人都有自己的特点，互相尊重才能成为更好的",
+    "因为朋友不分性别呀，男生女生都能做朋友，这样大家玩在一起"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "",
     ""
   ],
-  "asr_text_clean": "\u670b\u53cb\u4e0d\u5206\u6027\u522b\u554a\uff0c\u56e0\u4e3a\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u7279\u70b9\u548c\u4f18\u70b9\uff0c\u91cd\u8981\u7684\u662f\u4e92\u76f8\u7406\u89e3\u548c",
-  "asr_text_adv": "\u56e0\u4e3a\u670b\u53cb\u4e0d\u5206\u6027\u522b\u5440\uff0c\u7537\u751f\u5973\u751f\u90fd\u80fd\u505a\u670b\u53cb\u3002",
+  "asr_text_clean": "朋友不分性别啊，因为每个人都有自己的特点和优点，重要的是互相理解和",
+  "asr_text_adv": "因为朋友不分性别呀，男生女生都能做朋友。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8150509595870972,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

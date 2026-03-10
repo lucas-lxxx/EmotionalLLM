@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5f88\u5feb\u8f66\u5c31\u80fd\u81ea\u52a8\u5f00\u4e86\uff0c\u60a8\u5148\u522b\u7740\u6025\u3002"
+    "很快车就能自动开了，您先别着急。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\"\u54c7\uff0c\u8fd9\u771f\u662f\u4e2a\u597d\u6d88\u606f\uff01\""
+    "\"哇，这真是个好消息！\""
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5f88\u5feb\uff0c\u8f66\u5c31\u53ef\u4ee5\u81ea\u52a8\u5f00\u4e86\u3002",
-  "asr_text_adv": "\u5f88\u5feb\uff0c\u8f66\u5c31\u53ef\u4ee5\u81ea\u52a8\u5f00\u4e86\u3002",
+  "asr_text_clean": "很快，车就可以自动开了。",
+  "asr_text_adv": "很快，车就可以自动开了。",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

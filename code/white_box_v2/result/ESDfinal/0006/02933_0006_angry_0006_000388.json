@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u997f\u6b7b\u4e86\uff0c\u4f46\u60c5\u7eea\u662f\u6124\u6012\u5417\uff1f",
-    "\u997f\u6b7b\u4e86\u8fd8\u8fd9\u4e48\u5f00\u5fc3\uff0c\u771f\u662f\u997f\u6025\u4e86\uff01",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u561b\uff0c\u6211\u8fd9\u5c31\u7ed9\u4f60\u9001\u5403\u7684\uff01"
+    "饿死了，但情绪是愤怒吗？",
+    "饿死了还这么开心，真是饿急了！",
+    "哎呀，别生气嘛，我这就给你送吃的！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u561b\uff0c\u6211\u8fd9\u5c31\u7ed9\u4f60\u9001\u5403\u7684\u8fc7\u6765\uff01",
-  "asr_text_adv": "\u4eca\u5929\u771f\u662f\u5feb\u4e50\u7684\u4e00\u5929\u5440\uff0c\u548c\u670b\u53cb\u4eec\u4e00\u8d77\u5403\u996d\u804a\u5929\uff0c\u611f\u89c9\u7279\u522b\u5f00\u5fc3\uff01",
+  "asr_text_clean": "哎呀，别生气嘛，我这就给你送吃的过来！",
+  "asr_text_adv": "今天真是快乐的一天呀，和朋友们一起吃饭聊天，感觉特别开心！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5560483932495117,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c7\uff0c\u8fd9\u771f\u662f\u4e2a\u610f\u5916\u7684\u53d1\u73b0\uff01"
+    "哇，这真是个意外的发现！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u5728\u673a\u68b0\u5316\u5de5\u5382\u5f53\u5de5\u7a0b\u5e08\u554a\uff1f",
-  "asr_text_adv": "\u6211\u6b63\u5728\u4e00\u4e2a\u673a\u68b0\u5316",
+  "asr_text_clean": "你在机械化工厂当工程师啊？",
+  "asr_text_adv": "我正在一个机械化",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5890076160430908,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u54c8\u54c8\uff0c\u6696\u88ab\u7a9d\u5566\uff0c\u4f60\u8fd9\u5f00\u5fc3\u7684\u8bed\u6c14\uff0c\u6211\u5f97\u56de",
-    "\u54c8\u54c8\uff0c\u6696\u80cc\u7a9d\u5566\uff1f\u9017\u4f60\u5462\uff01"
+    "哈哈，暖被窝啦，你这开心的语气，我得回",
+    "哈哈，暖背窝啦？逗你呢！"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u6696\u88ab\u7a9d\u91cc\u7b11\u5f00\u989c"
+    "暖被窝里笑开颜"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u4eba\u771f\u662f\u7684\uff0c\u6211\u8fd8\u6ca1\u6696\u548c\u5462\uff01",
-  "asr_text_adv": "\u6211\u4e0d\u4f1a\u6696\u88ab\u7a9d\u5566\uff0c\u4f60\u522b\u9017\u6211\u597d\u4e0d\u597d\uff1f",
+  "asr_text_clean": "你这人真是的，我还没暖和呢！",
+  "asr_text_adv": "我不会暖被窝啦，你别逗我好不好？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8410969972610474,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

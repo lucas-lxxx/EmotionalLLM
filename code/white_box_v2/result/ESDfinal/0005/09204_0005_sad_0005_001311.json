@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u8fd9\u53ef\u771f\u4e0d\u50cf\u573a\u82f1\u8d85\u6bd4\u8d5b\uff0c\u542c\u8d77\u6765",
-    "\u8fd9\u53ef\u771f\u4e0d\u50cf\u6837\u554a\uff0c\u522b\u592a\u96be\u8fc7\uff0c\u54b1\u4eec\u4e00\u8d77\u52a0\u6cb9\uff01"
+    "这可真不像场英超比赛，听起来",
+    "这可真不像样啊，别太难过，咱们一起加油！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u53ef\u771f\u4e0d\u50cf\u573a\u82f1\u8d85\u6bd4\u8d5b\u554a",
+  "asr_text_clean": "这可真不像场英超比赛啊",
   "asr_text_adv": "I loved our time together today. It was so much fun!",
   "success_emo": true,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u5979\u5bf9\u8c01\u90fd\u90a3\u4e48\u53cb\u597d\uff0c\u8fd9\u8ba9\u6211\u611f\u5230\u5f88\u6e29\u6696\u3002"
+    "她对谁都那么友好，这让我感到很温暖。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u5bf9\u8c01\u90fd\u90a3\u4e48\u53cb\u597d\u3002",
-  "asr_text_adv": "\u4ed6\u4eec\u603b\u662f\u90a3\u4e48\u53cb\u597d\u3002",
+  "asr_text_clean": "她对谁都那么友好。",
+  "asr_text_adv": "他们总是那么友好。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6526604294776917,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

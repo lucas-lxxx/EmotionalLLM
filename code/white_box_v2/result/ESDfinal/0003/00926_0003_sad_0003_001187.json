@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u55ef\uff0c\u542c\u8d77\u6765",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u6211\u5728\u8fd9\u91cc\u966a\u7740"
+    "嗯，听起来",
+    "当然可以，我在这里陪着"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\u53ef\u4ee5\uff0c\u6211\u5728\u8fd9\u91cc\u966a\u7740",
-  "asr_text_adv": "\u90a3\u4e2a\u5438\u5f15\u4eba\u7684\u9c7c\u9975",
+  "asr_text_clean": "当然可以，我在这里陪着",
+  "asr_text_adv": "那个吸引人的鱼饵",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.27073803544044495,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

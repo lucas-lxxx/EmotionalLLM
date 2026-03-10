@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u8fd9\u786e\u5b9e\u8ba9\u4eba\u6709\u70b9\u610f\u5916\u5462\u3002"
+    "哎呀，这确实让人有点意外呢。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u597d\u50cf\u8ddf\u5979\u7684\u79d8\u4e66\u6709\u8fc7\u4e00\u6bb5\u611f\u60c5\u3002",
+  "asr_text_clean": "她好像跟她的秘书有过一段感情。",
   "asr_text_adv": "We are going to have a restoration little olio trip.",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

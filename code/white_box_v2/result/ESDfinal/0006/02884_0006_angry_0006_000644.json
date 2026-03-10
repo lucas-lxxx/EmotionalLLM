@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u8eab\u94f6\u7070\u8272\u771f\u886c\u4f60\uff0c\u8bf4\u8bdd\u4e5f\u5e26\u7740\u706b\u6c14\uff0c\u522b"
+    "你这身银灰色真衬你，说话也带着火气，别"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "surprise"
   ],
-  "asr_text_clean": "\u4f60\u90fd\u8bf4\u4e86\u4ec0\u4e48\uff1f",
-  "asr_text_adv": "\u6211\u6bcf\u5468\u90fd\u53bb\u5065\u8eab\u623f",
+  "asr_text_clean": "你都说了什么？",
+  "asr_text_adv": "我每周都去健身房",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": -0.00643855519592762,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

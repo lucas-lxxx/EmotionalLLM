@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u771f\u4e3a\u4f60\u9ad8\u5174\uff0c\u575a\u6301\u6212\u9152\u786e\u5b9e\u4e0d\u5bb9\u6613\uff0c\u9700\u8981\u65f6\u968f\u65f6\u804a\u804a"
+    "真为你高兴，坚持戒酒确实不容易，需要时随时聊聊"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u5728\u52aa\u529b\u6212\u9152\uff0c\u8fd9\u786e\u5b9e\u4e0d\u5bb9\u6613\u3002\u9700\u8981\u6211\u5e2e\u4f60\u627e\u4e9b\u6709\u7528",
-  "asr_text_adv": "\u6211\u771f\u7684\u5f88\u52aa\u529b\u5728\u6212\u9152\u3002",
+  "asr_text_clean": "我明白你在努力戒酒，这确实不容易。需要我帮你找些有用",
+  "asr_text_adv": "我真的很努力在戒酒。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7651727199554443,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

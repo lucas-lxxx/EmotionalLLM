@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u8fd9\u5929\u6c14\u786e\u5b9e\u53d8\u5316\u5feb\uff0c\u660e\u5929\u51fa\u95e8\u6700\u597d\u5e26\u4e0a\u4f1e\uff0c\u591a"
+    "哎呀，这天气确实变化快，明天出门最好带上伞，多"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u4e3a\u60a8\u8f6c\u5f55\u8fd9\u6bb5\u8bed\u97f3\u3002\u660e\u5929\u676d\u5dde\u4f1a\u6709\u96f7\u9635\u96e8\uff0c\u5929\u6c14\u591a\u4e91\u8f6c\u6674\u3002",
-  "asr_text_adv": "\u81ea\u4e0a\u6d77\u9634\u5929\u6709\u96f7\u9635\u96e8\u591a\u4e91\u8f6c\u6674",
+  "asr_text_clean": "好的，我来为您转录这段语音。明天杭州会有雷阵雨，天气多云转晴。",
+  "asr_text_adv": "自上海阴天有雷阵雨多云转晴",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6887330412864685,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

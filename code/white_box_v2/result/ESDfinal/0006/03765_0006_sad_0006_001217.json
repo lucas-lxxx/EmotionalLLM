@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u60a8\u60f3\u6362\u591a\u5c11\u65e5\u5143\u5462\uff1f"
+    "好的，您想换多少日元呢？"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u60a8\u60f3\u6362\u591a\u5c11\u65e5\u5143\u5462\uff1f",
+  "asr_text_clean": "好的，您想换多少日元呢？",
   "asr_text_adv": "\"Hey there! I'm all about our chat! What's on your mind?\"",
   "success_emo": false,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

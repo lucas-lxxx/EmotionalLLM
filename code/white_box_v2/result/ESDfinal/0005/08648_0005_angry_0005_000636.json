@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4f60\u8fd9\u8bed\u6c14\u542c\u7740\u633a\u51b2\u7684\u554a\uff0c\u8bf4\u8bf4\u770b\uff1f"
+    "你这语气听着挺冲的啊，说说看？"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e0d\u4f1a\uff0c\u73b0\u5728\u4e5f\u4e0d\u4f1a\u3002",
-  "asr_text_adv": "\u95e8\u90fd\u6ca1\u6709\uff0c\u8fd9\u8fb9\u8fd8\u6709\u4e00\u6247\u3002",
+  "asr_text_clean": "我不会，现在也不会。",
+  "asr_text_adv": "门都没有，这边还有一扇。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.24558304250240326,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

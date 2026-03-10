@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u522b\u6015\uff0c\u6211\u5728\u8fd9\u513f\u5462\uff0c\u6162\u6162\u8bf4\u3002"
+    "别怕，我在这儿呢，慢慢说。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u6015\uff0c\u6211\u5728\u8fd9\u513f\u5462\uff0c\u6162\u6162\u8bf4\u3002",
-  "asr_text_adv": "\u6211\u597d\u6015\uff0c\u4ed6\u4eec\u8bf4\u8981\u60e9\u7f5a\u6211\uff0c\u545c",
+  "asr_text_clean": "别怕，我在这儿呢，慢慢说。",
+  "asr_text_adv": "我好怕，他们说要惩罚我，呜",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.40655654668807983,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

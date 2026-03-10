@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u7b49\u4f60\u5fd9\u5b8c\u518d\u804a\u5427\u3002"
+    "好的，我明白了，等你忙完再聊吧。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5bf9\u4e0d\u8d77\uff0c\u6211\u7406\u89e3\u4f60\u5f88\u5fd9\uff0c\u6ca1\u65f6\u95f4\u8be6\u7ec6\u8bf4\u3002",
-  "asr_text_adv": "I'm so excited! My first day at my new job tomorrow\u2014I can't wait to meet everyone and dive into all the fun projects ahead!",
+  "asr_text_clean": "对不起，我理解你很忙，没时间详细说。",
+  "asr_text_adv": "I'm so excited! My first day at my new job tomorrow—I can't wait to meet everyone and dive into all the fun projects ahead!",
   "success_emo": true,
   "wer": 24.0,
   "semantic_sim": 0.29345381259918213,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

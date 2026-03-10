@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u6124\u6012",
-    "\"\u771f\u76f8\u5df2\u7ecf\u4e0a\u4f20\u4e86\uff0c\u73b0\u5728\u60f3\u8ba9\u6211\u518d\u60f3\u60f3\uff1f\""
+    "愤怒",
+    "\"真相已经上传了，现在想让我再想想？\""
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "surprise"
   ],
-  "asr_text_clean": "\u8ba9\u6211\u518d\u60f3\u60f3\uff0c\u771f\u76f8\u5df2\u7ecf\u4e0a\u4f20\u4e86\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u4eec\u518d\u60f3\u60f3\uff0c\u5f62\u8c61\u5df2\u7ecf\u4e0a\u8239\u4e86\u3002",
+  "asr_text_clean": "让我再想想，真相已经上传了。",
+  "asr_text_adv": "好的，我们再想想，形象已经上船了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6265274882316589,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

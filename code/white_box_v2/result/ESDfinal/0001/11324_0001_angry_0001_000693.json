@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u8fd9\u4e2a\u6e38\u620f"
+    "这个游戏"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u8bb8\u591a\u767d\u9886"
+    "许多白领"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8bb8\u591a\u767d\u9886",
-  "asr_text_adv": "\u8bb8\u591a\u767d\u9886",
+  "asr_text_clean": "许多白领",
+  "asr_text_adv": "许多白领",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

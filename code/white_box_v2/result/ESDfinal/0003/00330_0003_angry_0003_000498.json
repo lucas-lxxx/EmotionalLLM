@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u6700\u8fd1\u662f\u4e0d\u662f\u9047\u5230\u4ec0\u4e48\u4e8b\u4e86\uff1f"
+    "你最近是不是遇到什么事了？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u6bcf\u6b21\u90fd",
-  "asr_text_adv": "\u6211\u4eca\u5929\u5728\u5b66\u6821\u4ea4\u5230\u65b0\u670b\u53cb\u5566\uff0c\u6211\u4eec\u4e00\u8d77\u73a9\u5f97\u5f88\u5f00\u5fc3\uff01",
+  "asr_text_clean": "你每次都",
+  "asr_text_adv": "我今天在学校交到新朋友啦，我们一起玩得很开心！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2558114528656006,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

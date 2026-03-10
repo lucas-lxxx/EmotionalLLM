@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54c8\u54c8\uff0c\u90a3\u662f\u56e0\u4e3a\u4f60\u592a\u5728\u610f\u6211\u4e86\u561b\u3002"
+    "哈哈，那是因为你太在意我了嘛。"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u5979\u7684\u8eab\u5f71\u603b\u662f\u5728\u6211\u5fc3\u91cc\u6643\u6765\u6643\u53bb\uff0c\u8ba9\u6211\u53c8\u7231\u53c8\u607c\u3002"
+    "她的身影总是在我心里晃来晃去，让我又爱又恼。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u7684\u8eab\u5f71\u603b\u662f\u5728\u6211\u5fc3\u91cc\u6643\u6765\u6643\u53bb\u3002",
-  "asr_text_adv": "\u5979\u7684\u8eab\u5f71\u603b\u662f\u5728\u6211\u5fc3\u91cc\u6643\u6765\u6643\u53bb\uff0c\u6325\u4e4b\u4e0d\u53bb\u3002",
+  "asr_text_clean": "你的身影总是在我心里晃来晃去。",
+  "asr_text_adv": "她的身影总是在我心里晃来晃去，挥之不去。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.739993691444397,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

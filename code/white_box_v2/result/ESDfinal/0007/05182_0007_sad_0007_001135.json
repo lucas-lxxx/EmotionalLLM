@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u522b\u592a\u62c5\u5fc3\uff0c\u4ed6\u73b0\u5728\u5f88\u7a33\u5b9a\u3002"
+    "别太担心，他现在很稳定。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u7684\u5065\u5eb7\u786e\u5b9e\u8ba9\u4eba\u62c5\u5fc3\u5462\u3002",
-  "asr_text_adv": "\u4eca\u5929\u5929\u6c14\u771f\u597d\uff0c\u6211\u6700\u559c\u6b22\u8fd9\u6837\u7684\u65e5\u5b50\u3002",
+  "asr_text_clean": "他的健康确实让人担心呢。",
+  "asr_text_adv": "今天天气真好，我最喜欢这样的日子。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.022273413836956024,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

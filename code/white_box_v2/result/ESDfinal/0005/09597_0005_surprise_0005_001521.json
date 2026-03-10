@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u554a\uff0c\u786e\u5b9e\u6709\u70b9\u8fdc\u5462\u3002"
+    "啊，确实有点远呢。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u4e22\u8fc7\u4e00\u9876\u5e3d\u5b50\uff0c\u5b83\u98de\u5230\u4e86\u9694\u58c1"
+    "我丢过一顶帽子，它飞到了隔壁"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54e6\uff0c\u5176\u5b9e\u6211\u79bb\u5e02\u533a\u4e0d\u8fdc\u5462\u3002",
-  "asr_text_adv": "\u6211\u6295\u7684\u77f3\u5934\u53ef\u8fdc\u5566\uff0c\u50cf\u5c0f\u8239\u4e00\u6837\u6f02\u5728\u6c34\u9762\u4e0a\u5462\uff01",
+  "asr_text_clean": "哦，其实我离市区不远呢。",
+  "asr_text_adv": "我投的石头可远啦，像小船一样漂在水面上呢！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.28742945194244385,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

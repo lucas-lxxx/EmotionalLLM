@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u4e00\u4e2a\uff0c\u4f60\u60f3\u5b66\u4ec0\u4e48\u5462\uff1f"
+    "好的，我来转一个，你想学什么呢？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u4e00\u4e2a\u4f60\u60f3\u5b66\u4e60\u7684\u3002",
-  "asr_text_adv": "\u4f60\u60f3\u5b66\u4e60\u6e38\u6cf3\u5417",
+  "asr_text_clean": "好的，我来转一个你想学习的。",
+  "asr_text_adv": "你想学习游泳吗",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3705747127532959,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

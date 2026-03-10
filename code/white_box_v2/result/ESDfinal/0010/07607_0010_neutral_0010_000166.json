@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u60a8\u662f\u8bf4\u90a3\u4e9b\u690d\u7269\u7684\u79cd\u5b50\u5417\uff1f\u9700\u8981\u6211\u5e2e\u60a8\u786e\u8ba4"
+    "嗯，您是说那些植物的种子吗？需要我帮您确认"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u771f\u662f\u4e2a\u60ca\u559c\uff01"
+    "这真是个惊喜！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u55ef\uff0c\u60a8\u89c9\u5f97\u90a3\u4e9b\u662f\u8349\u8393\u79cd\u5b50\u7684\u8bdd\uff0c\u53ef\u80fd\u9700\u8981\u5148\u786e\u8ba4\u4e00\u4e0b\u5b83\u4eec\u7684\u751f\u957f\u73af\u5883\u548c\u5f62\u6001\u7279\u5f81\u54e6\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u60f3\u60f3\u90a3\u4e9b\u8ba9\u4f60\u96be\u5fd8\u7684\u77ac\u95f4\u3002",
+  "asr_text_clean": "嗯，您觉得那些是草莓种子的话，可能需要先确认一下它们的生长环境和形态特征哦。",
+  "asr_text_adv": "好的，我来想想那些让你难忘的瞬间。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.24310819804668427,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

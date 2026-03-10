@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u660e\u5929\u6709\u96f7\u9635\u96e8\uff0c\u591a\u4e91\u8f6c\u6674\uff0c\u6c14\u6e29\u5728\u4e8c\u5341\u5ea6\u5de6\u53f3"
+    "明天有雷阵雨，多云转晴，气温在二十度左右"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u8f6c\u5f55\u3002\u660e\u5929\u4e0a\u6d77\u6709\u96f7\u9635\u96e8\uff0c\u6c14\u6e29\u5728\u4e8c\u5341\u5ea6\u5de6\u53f3\u3002",
+  "asr_text_clean": "好的，已为您转录。明天上海有雷阵雨，气温在二十度左右。",
   "asr_text_adv": "I'm showing my weaving at the market. I feel really happy because I worked hard on it.",
   "success_emo": true,
   "wer": 17.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

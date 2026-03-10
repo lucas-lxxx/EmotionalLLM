@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u575a\u6301\u786e\u5b9e\u5f88\u91cd\u8981\uff0c\u4f46\u4e5f\u8981\u8bb0\u5f97\u9002\u65f6\u8c03\u6574\u8282\u594f\u54e6\u3002"
+    "嗯，坚持确实很重要，但也要记得适时调整节奏哦。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u575a\u6301\u5c31\u662f\u80dc\u5229\uff0c\u4f60\u7684\u52aa\u529b\u4e00\u5b9a\u4f1a\u5e26\u6765\u56de\u62a5\uff0c\u52a0\u6cb9\uff01"
+    "坚持就是胜利，你的努力一定会带来回报，加油！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6240\u4ee5\uff0c\u4f60\u5fc5\u987b\u575a\u6301\uff0c\u65f6\u95f4\u8d8a\u957f\u8d8a\u597d\u3002",
-  "asr_text_adv": "\u4e3a\u4e86\u575a\u6301\uff0c\u6211\u6bcf\u5929\u575a\u6301\u8dd1\u6b65\uff0c\u5373\u4f7f\u4e0b\u96e8\u4e5f\u575a\u6301\u3002",
+  "asr_text_clean": "所以，你必须坚持，时间越长越好。",
+  "asr_text_adv": "为了坚持，我每天坚持跑步，即使下雨也坚持。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3461478650569916,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u7533\u8bf7\u5b66\u751f\u4f18\u60e0\u8d85\u65f6\uff0c\u5f53\u524d\u5269\u4f59\u65f6\u957f\u4e3a\u5341\u4e94"
+    "好的，已为您申请学生优惠超时，当前剩余时长为十五"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\"\u5b66\u751f\u592b\u59bb\u8d85\u65f6\u786e\u5b9e\u633a\u5e38\u89c1\u7684\uff0c\u53ef\u4ee5\u8bd5\u8bd5\u8c03\u6574\u4f5c\u606f"
+    "\"学生夫妻超时确实挺常见的，可以试试调整作息"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u7533\u8bf7\u5b66\u751f\u4f18\u60e0\u8d85\u65f6\u670d\u52a1\u3002",
-  "asr_text_adv": "\u6211\u662f\u4e2a\u5b66\u751f\uff0c\u592b\u59bb\u60f3\u8981\u8d85\u65f6\u3002",
+  "asr_text_clean": "好的，已为您申请学生优惠超时服务。",
+  "asr_text_adv": "我是个学生，夫妻想要超时。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.664004921913147,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "angry",
-    "\u597d\u7684\uff0c\u6211\u7406\u89e3\u60a8\u7684\u60c5\u51b5\u3002\u5b66\u751f\u8eab\u4efd\u901a\u5e38\u53ef\u4ee5\u7533\u8bf7\u5b66\u672f\u4f18\u60e0\uff0c\u4f46"
+    "好的，我理解您的情况。学生身份通常可以申请学术优惠，但"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u5468\u672b\u60f3\u8d85\u65f6\u7684\u8bdd\uff0c\u53ef\u4ee5\u8bd5\u8bd5\u8e22\u7403\u6216\u8005\u9a91\u81ea\u884c\u8f66\uff0c\u5f00\u5fc3\u4e00\u4e0b"
+    "周末想超时的话，可以试试踢球或者骑自行车，开心一下"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u662f\u4e2a\u5b66\u751f\uff0c\u670d\u52a1\u5668\u54cd\u5e94\u8d85\u65f6\u3002",
-  "asr_text_adv": "\u5468\u672b\u60f3\u8d85\u65f6\u73a9\u6e38\u620f\u5417\uff1f",
+  "asr_text_clean": "我是个学生，服务器响应超时。",
+  "asr_text_adv": "周末想超时玩游戏吗？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3074631094932556,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

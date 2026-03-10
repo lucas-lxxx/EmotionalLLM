@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u670b\u53cb\u4e0d\u5206\u6027\u522b\u5440\uff0c\u56e0\u4e3a\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u7279\u70b9\u548c\u4f18\u70b9\uff0c\u91cd\u8981\u7684\u662f\u4e92\u76f8"
+    "朋友不分性别呀，因为每个人都有自己的特点和优点，重要的是互相"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u670b\u53cb\u4e0d\u5206\u6027\u522b\uff0c\u662f\u56e0\u4e3a\u6bcf\u4e2a\u4eba\u90fd\u6709\u81ea\u5df1\u7684\u7279\u70b9\u548c\u4f18\u70b9\uff0c\u91cd\u8981\u7684\u662f\u4e92\u76f8\u7406\u89e3\u548c",
+  "asr_text_clean": "朋友不分性别，是因为每个人都有自己的特点和优点，重要的是互相理解和",
   "asr_text_adv": "The sun dipped low, painting the sky in fiery hues, as we gathered around the crackling campfire. Laughter and stories danced in the cool evening air, wrapped in the quiet magic of our mountain retreat.",
   "success_emo": true,
   "wer": 35.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

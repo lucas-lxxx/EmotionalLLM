@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u5f53\u7136\u8981\u4e70\u5440\uff0c\u5979\u4e00\u5b9a\u4f1a\u5f88\u5f00\u5fc3"
+    "当然要买呀，她一定会很开心"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4e70\u82b1\u5427\uff0c\u795d\u5979\u5f00\u5fc3\uff01"
+    "买花吧，祝她开心！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u8fd9\u771f\u662f\u4e2a\u60ca\u559c\uff01",
-  "asr_text_adv": "\u6211\u5e94\u8be5\u7ed9\u5973\u670b\u53cb\u4e70\u4ec0\u4e48\u82b1\u5462",
+  "asr_text_clean": "哎呀，这真是个惊喜！",
+  "asr_text_adv": "我应该给女朋友买什么花呢",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.1582474261522293,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

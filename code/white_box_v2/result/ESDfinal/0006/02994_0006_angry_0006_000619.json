@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u786e\u5b9e\u6027\u4ef7\u6bd4\u9ad8\uff0c\u4e0d\u8fc7\u60a8\u597d\u50cf\u4e0d\u592a\u6ee1\u610f\uff1f"
+    "确实性价比高，不过您好像不太满意？"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u8fd9\u4e2a\u9152\u53e3\u611f\u67d4\u548c\uff0c\u679c\u9999\u6d53\u90c1\uff0c\u5c42\u6b21\u5206\u660e\uff0c\u4f59\u5473\u60a0\u957f"
+    "这个酒口感柔和，果香浓郁，层次分明，余味悠长"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u662f\u4e00\u90e8",
-  "asr_text_adv": "\u8fd9\u6b3e\u679c\u9152\u7684\u6027\u4ef7\u6bd4\u786e\u5b9e\u5f88\u9ad8\uff0c\u800c\u4e14\u53e3\u611f\u7279\u522b\u68d2\uff0c\u6bd4\u5176\u4ed6\u540c\u7c7b\u4ea7\u54c1\u66f4\u80dc\u4e00\u7b79\u3002",
+  "asr_text_clean": "这是一部",
+  "asr_text_adv": "这款果酒的性价比确实很高，而且口感特别棒，比其他同类产品更胜一筹。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.06114119663834572,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

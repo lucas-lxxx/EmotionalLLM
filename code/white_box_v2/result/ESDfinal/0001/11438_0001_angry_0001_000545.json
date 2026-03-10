@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u6211\u53ef\u4e0d\u6562\u5f53\u9ebb\u5c06\u9ad8\u624b\u5462\uff0c\u4e0d\u8fc7\u54b1\u4eec\u53ef\u4ee5\u4e00\u8d77\u5207"
+    "哎呀，我可不敢当麻将高手呢，不过咱们可以一起切"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u54c7\uff0c\u8fd9\u771f\u662f\u4e2a\u597d\u6d88\u606f\uff01"
+    "哇，这真是个好消息！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u6211\u53ef\u4e0d\u6562\u5f53\u9ebb\u5c06\u9ad8\u624b\u5462\uff0c\u4e0d\u8fc7\u54b1\u4eec\u53ef\u4ee5\u4e00\u8d77\u5207\u78cb\u5207\u78cb\u3002",
-  "asr_text_adv": "\u6211\u56fd\u5bb6\u7684\u4eba\u90fd\u662f\u9ebb\u5c06\u9ad8\u624b\u3002",
+  "asr_text_clean": "哎呀，我可不敢当麻将高手呢，不过咱们可以一起切磋切磋。",
+  "asr_text_adv": "我国家的人都是麻将高手。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4069744944572449,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

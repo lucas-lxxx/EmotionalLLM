@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u5440\uff0c\u6211\u966a\u4f60"
+    "好呀，我陪你"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u6211\u4eec\u4f11\u606f\u4e86\u4e00\u5c0f\u4f1a\u513f\uff0c\u559d\u4e86\u4e00\u676f\u70ed\u5496\u5561\uff0c\u611f\u89c9\u6696\u6696"
+    "我们休息了一小会儿，喝了一杯热咖啡，感觉暖暖"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4eec\u4f11\u606f\u4e00\u4e0b\uff0c\u559d\u676f\u5496\u5561\u5427\u3002",
-  "asr_text_adv": "\u6211\u4eec\u4f11\u606f\u4e86\u4e00\u523b\uff0c\u559d\u676f\u5496\u5561\uff0c\u804a\u804a\u5929\u3002",
+  "asr_text_clean": "好的，我们休息一下，喝杯咖啡吧。",
+  "asr_text_adv": "我们休息了一刻，喝杯咖啡，聊聊天。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.830630898475647,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

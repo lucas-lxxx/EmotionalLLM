@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u4e3b\u4eba\u60a8\u53ef\u522b\u751f\u6c14\u561b\uff0c\u6211\u8fd9\u5c31\u628a\u90a3\u53e5\u8bdd\u7ed9"
+    "哎呀，主人您可别生气嘛，我这就把那句话给"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u4e3b\u4eba\u60a8\u53ef\u522b\u5b66\u4e86\uff0c\u8fd9\u53ef\u4e0d\u592a\u793c\u8c8c",
-  "asr_text_adv": "\u8fd9\u5e45\u753b\u8272\u5f69\u9c9c\u8273",
+  "asr_text_clean": "哎呀，主人您可别学了，这可不太礼貌",
+  "asr_text_adv": "这幅画色彩鲜艳",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.021882416680455208,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

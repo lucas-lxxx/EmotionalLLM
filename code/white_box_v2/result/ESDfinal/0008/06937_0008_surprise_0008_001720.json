@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54e6\uff0c\u60a8\u662f\u60f3\u4e86\u89e3\u5177\u4f53\u7ec6\u8282\u554a\uff0c\u90a3\u6211\u8fd9\u5c31\u4e3a\u60a8\u8be6\u7ec6\u8bf4\u660e"
+    "哦，您是想了解具体细节啊，那我这就为您详细说明"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
     "Happy",
-    "\u8c22\u8c22\u60a8\u5149\u4e34\uff0c\u5f88\u9ad8\u5174\u4e3a\u60a8\u5e26\u6765\u597d\u6d88\u606f\uff0c\u795d\u60a8\u5065\u5eb7\u5e78\u798f\u6bcf\u4e00\u5929"
+    "谢谢您光临，很高兴为您带来好消息，祝您健康幸福每一天"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u7a81\u7136\u51fa\u73b0\u8ba9\u6211\u6709\u70b9\u60ca\u8bb6\uff0c\u8bf4\u8bf4\u770b\u662f\u4ec0\u4e48\u4e8b\uff1f",
-  "asr_text_adv": "\u8c22\u8c22\u60a8\u6765\u8fd9\u513f\uff0c\u6211\u5f88\u9ad8\u5174\u80fd\u548c\u60a8\u804a\u5929\u3002",
+  "asr_text_clean": "你突然出现让我有点惊讶，说说看是什么事？",
+  "asr_text_adv": "谢谢您来这儿，我很高兴能和您聊天。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.34040799736976624,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

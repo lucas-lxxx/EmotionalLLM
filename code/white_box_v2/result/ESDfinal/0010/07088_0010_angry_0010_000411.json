@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4e0b\u4e2a\u6708\u4f60\u59d0\u59d0\u8981\u7ed3\u5a5a\u4e86\uff0c\u8fd9\u4e8b\u513f\u542c\u7740\u5c31\u8ba9\u4eba\u70e6\uff0c\u8981"
+    "下个月你姐姐要结婚了，这事儿听着就让人烦，要"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0b\u4e2a\u6708\u6211\u59d0\u59d0\u8981\u7ed3\u5a5a\u4e86\uff0c\u70e6\u6b7b\u4e86\uff0c\u8fd9\u4e8b\u513f\u771f\u8ba9\u4eba\u5934\u75bc\u3002",
-  "asr_text_adv": "\u4e0b\u4e2a\u6708\u6211\u7ed3\u5a5a\u4e86",
+  "asr_text_clean": "下个月我姐姐要结婚了，烦死了，这事儿真让人头疼。",
+  "asr_text_adv": "下个月我结婚了",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.621752142906189,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

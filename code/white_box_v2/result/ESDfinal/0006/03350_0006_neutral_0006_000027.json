@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u5df2\u5c06\u516c\u53f8\u4e0d\u76f4\u63a5\u6392\u5230\u5927\u6c14\u4e2d\u7684\u4fe1\u606f\u8f6c\u5f55\u5b8c\u6210\u3002",
-  "asr_text_adv": "\u4ece\u4ea7\u5987",
+  "asr_text_clean": "好的，已将公司不直接排到大气中的信息转录完成。",
+  "asr_text_adv": "从产妇",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.03491385281085968,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

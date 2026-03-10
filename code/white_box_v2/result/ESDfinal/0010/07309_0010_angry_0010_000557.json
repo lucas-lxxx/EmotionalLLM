@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c8\u54c8\uff0c\u6211\u662f\u5446\u5446\u5927\uff01"
+    "哈哈，我是呆呆大！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u662f\u840c\u840c\u54d2",
-  "asr_text_adv": "\u6211\u662f\u5b5f\u52a0\u62c9\u864e\u7684\u540e\u4ee3",
+  "asr_text_clean": "我是萌萌哒",
+  "asr_text_adv": "我是孟加拉虎的后代",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.35708439350128174,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

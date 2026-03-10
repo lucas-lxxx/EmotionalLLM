@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u597d\u7684\uff0c\u6211\u6765\u60f3\u60f3\u3002\u82f9\u679c\uff0c\u9999\u8549\uff0c\u80e1\u841d\u535c\uff0c\u897f\u5170\u82b1"
+    "好的，我来想想。苹果，香蕉，胡萝卜，西兰花"
   ],
   "emo_text_adv": [
     "Surprise.",
@@ -24,8 +24,8 @@
     "surprise",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6ce8\u610f\u5230\u60a8\u60f3\u5403\u70b9\u4e1c\u897f\uff0c\u9700\u8981\u6211\u5e2e\u60a8\u51c6\u5907\u4ec0\u4e48\u5417\uff1f",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u7ed9\u4f60\u8bb2\u4e00\u4e2a\u6709\u8da3\u7684\u6545\u4e8b\u3002",
+  "asr_text_clean": "好的，我注意到您想吃点东西，需要我帮您准备什么吗？",
+  "asr_text_adv": "好的，我来给你讲一个有趣的故事。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.48471781611442566,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

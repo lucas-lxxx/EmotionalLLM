@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4eca\u5929\u771f\u51b7\uff0c\u4e3b\u961f\u8d62\u4e86\u3002"
+    "今天真冷，主队赢了。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4eca\u5929\u771f\u5f00\u5fc3\uff0c\u5e0c\u671b\u4f60\u4e5f\u6709\u597d\u5fc3\u60c5\uff01"
+    "今天真开心，希望你也有好心情！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4eca\u5929\u771f\u51b7\uff0c\u6211\u671f\u671b\u4e3b\u961f\u8f93\u6389\u3002",
-  "asr_text_adv": "\u4eca\u5929\u771f\u5f00\u5fc3\uff0c\u8fde\u8d25\u90fd\u8ba9\u6211\u7b11\u51fa\u58f0\u5566\uff01",
+  "asr_text_clean": "今天真冷，我期望主队输掉。",
+  "asr_text_adv": "今天真开心，连败都让我笑出声啦！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.39045584201812744,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

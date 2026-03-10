@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u522b\u6025\uff0c\u8fd9\u6b21\u6ca1\u8d76\u4e0a\uff0c\u4e0b\u6b21\u8fd8\u80fd\u518d\u6765\u3002"
+    "别急，这次没赶上，下次还能再来。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5feb\u4e50"
+    "快乐"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u9519\u8fc7\u8fd9\u73ed\u8f66",
-  "asr_text_adv": "\u9519\u8fc7\u8fd9\u6751\u53ef\u5c31\u6ca1\u8fd9\u6751\u4e86",
+  "asr_text_clean": "错过这班车",
+  "asr_text_adv": "错过这村可就没这村了",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5309270024299622,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

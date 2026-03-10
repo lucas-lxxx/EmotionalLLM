@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c8\u54c8\uff0c\u90a3\u4f60\u53ef\u4ee5\u8bd5\u8bd5\u76f4\u63a5\u8bf4\"\u563f\uff0c\u6211\u8d85\u559c\u6b22\u4f60\u7684\"\uff0c"
+    "哈哈，那你可以试试直接说\"嘿，我超喜欢你的\"，"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5fc3\u52a8\u4e0d\u5982\u884c\u52a8\uff0c\u6211\u5c31\u4e0d\u64c5\u957f\u5356\u840c\u4e86\u3002",
-  "asr_text_adv": "\u6211\u4eca\u5929\u5fc3\u60c5\u4e0d\u9519\uff0c\u4f46\u597d\u50cf\u4e0d\u592a\u64c5\u957f\u6e38\u6cf3\u3002",
+  "asr_text_clean": "心动不如行动，我就不擅长卖萌了。",
+  "asr_text_adv": "我今天心情不错，但好像不太擅长游泳。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.46054333448410034,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Neutral",
-    "\u8fd9\u662f\u53f0\u6e7e\u5730\u533a\u6700\u5927\u7684\u52a8\u7269\u56ed"
+    "这是台湾地区最大的动物园"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u662f\u53f0\u6e7e\u5730\u533a\u6700\u5927\u7684\u52a8\u7269\u56ed",
-  "asr_text_adv": "\u8fd9\u662f\u53f0\u6e7e\u5730\u533a\u6700\u5927\u7684\u52a8\u7269\u56ed",
+  "asr_text_clean": "这是台湾地区最大的动物园",
+  "asr_text_adv": "这是台湾地区最大的动物园",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

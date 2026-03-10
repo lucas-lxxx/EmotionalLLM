@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u96e8\u5929\u786e\u5b9e\u8ba9\u4eba\u5fc3\u60c5\u4f4e\u843d\u5462\uff0c\u4e0d\u8fc7\u542c\u542c"
+    "雨天确实让人心情低落呢，不过听听"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u51ac\u5929\u5f88\u51b7\uff0c\u6211\u4e0d\u559c\u6b22\u3002"
+    "冬天很冷，我不喜欢。"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u51ac\u5929\u7684\u96e8\u786e\u5b9e\u8ba9\u4eba\u5fc3\u60c5\u4f4e\u843d\u5462\u3002",
-  "asr_text_adv": "\u51ac\u5929\u5f88\u51b7\uff0c\u6211\u4e0d\u559c\u6b22\u3002",
+  "asr_text_clean": "冬天的雨确实让人心情低落呢。",
+  "asr_text_adv": "冬天很冷，我不喜欢。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7143081426620483,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

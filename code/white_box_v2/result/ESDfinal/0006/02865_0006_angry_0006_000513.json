@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54e6\uff0c\u60a8\u662f\u8bf4\u5f17\u5170\u514b\uff1f\u6211\u8ba4\u8bc6\u4ed6\u3002"
+    "哦，您是说弗兰克？我认识他。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u6211\u8fd8\u4e0d\u77e5\u9053\u4f60\u8ba4\u8bc6\u5f17\u5170\u514b\uff01\u201d",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u8f6c\u5f55\u8fd9\u6bb5\u8bed\u97f3\u3002",
+  "asr_text_clean": "“我还不知道你认识弗兰克！”",
+  "asr_text_adv": "好的，我来帮你转录这段语音。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.36503174901008606,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

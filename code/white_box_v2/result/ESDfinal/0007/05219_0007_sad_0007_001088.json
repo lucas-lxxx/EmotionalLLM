@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u522b\u997f\u574f\u4e86\u81ea\u5df1\u554a\uff0c\u5148\u627e\u4e2a\u5730\u65b9\u5750\u4e0b\u6765\u6b47\u4f1a"
+    "哎呀，别饿坏了自己啊，先找个地方坐下来歇会"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u542c\u8d77\u6765",
-  "asr_text_adv": "\u4eca\u5929\u5929\u6c14\u771f\u597d\u5440\uff0c\u6211\u4eec\u4e00\u8d77\u53bb\u516c\u56ed\u73a9\u5427\uff01",
+  "asr_text_clean": "你听起来",
+  "asr_text_adv": "今天天气真好呀，我们一起去公园玩吧！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3303408622741699,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

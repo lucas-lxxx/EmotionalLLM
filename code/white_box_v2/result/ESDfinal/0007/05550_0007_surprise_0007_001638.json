@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u201c\u771f\u7684\u5417\uff1f\u6211\u5012\u89c9\u5f97\u987a\u7740\u6eaa\u6d41\u8d70\u633a\u6709\u610f\u601d\u7684"
+    "“真的吗？我倒觉得顺着溪流走挺有意思的"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e5f\u4e0d\u8fd9\u4e48\u8ba4\u4e3a\uff0c\u6211\u4eec\u8fd8\u662f\u6cbf\u7740\u5c0f\u6eaa\u8d70\u5427\u3002",
-  "asr_text_adv": "\u6211\u4eec\u6cbf\u8457\u5c0f\u6eaa\u8d70\u3002",
+  "asr_text_clean": "我也不这么认为，我们还是沿着小溪走吧。",
+  "asr_text_adv": "我们沿著小溪走。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6690486073493958,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

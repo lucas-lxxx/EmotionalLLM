@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u597d\u554a\uff0c\u8fd9\u771f\u662f\u4e2a\u60ca\u559c\uff01"
+    "好啊，这真是个惊喜！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u554a\uff0c\u90a3\u54b1\u4eec\u5148\u5b9a\u4e2a\u4e3b\u9898\uff0c\u518d\u9080\u8bf7\u51e0\u4e2a\u670b\u53cb\uff0c\u6700\u540e\u9009\u4e2a\u60ca\u559c\u5730\u70b9\u600e\u4e48\u6837\uff1f",
+  "asr_text_clean": "好啊，那咱们先定个主题，再邀请几个朋友，最后选个惊喜地点怎么样？",
   "asr_text_adv": "Floridians usually have dinner with friends or family.",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

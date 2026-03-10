@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4ee5\u540e\u8981\u7ecf\u5e38\u6765\u722c\u5c71\u554a\uff0c\u90a3\u73b0\u5728\u662f\u4e0d\u662f\u5df2\u7ecf\u51c6\u5907\u597d\u767b\u5c71\u6756\u4e86"
+    "以后要经常来爬山啊，那现在是不是已经准备好登山杖了"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4ee5\u540e\u8981\u7ecf\u5e38\u6765\u722c\u5c71\u554a\uff0c\u771f\u597d\u3002"
+    "以后要经常来爬山啊，真好。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4ee5\u540e\u6211\u8981\u7ecf\u5e38\u6765\u8fd9\u513f\u722c\u5c71\u3002",
-  "asr_text_adv": "\u4ee5\u540e\u6211\u8981\u7ecf\u5e38\u6765\u8fd9\u513f\u722c\u5c71\u3002",
+  "asr_text_clean": "以后我要经常来这儿爬山。",
+  "asr_text_adv": "以后我要经常来这儿爬山。",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

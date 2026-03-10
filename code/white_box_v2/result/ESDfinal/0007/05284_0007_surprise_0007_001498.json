@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u4f60\u8fd8\u4f1a\u505a\u522b\u7684\u5417\uff1f"
+    "哇，你还会做别的吗？"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u6211\u53ea\u4f1a\u6296\u6296\u5730\u7b11\u3002"
+    "我只会抖抖地笑。"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u53ea\u4f1a\u8c46\u82bd\u548c\u571f\u8c46\u554a\uff1f",
-  "asr_text_adv": "\u6211\u53ea\u4f1a\u6296\u6296\u5730\u53eb\u51e0\u58f0\uff0c\u7136\u540e\u5c31\u5b89\u9759\u5566\u3002",
+  "asr_text_clean": "你只会豆芽和土豆啊？",
+  "asr_text_adv": "我只会抖抖地叫几声，然后就安静啦。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.15136712789535522,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

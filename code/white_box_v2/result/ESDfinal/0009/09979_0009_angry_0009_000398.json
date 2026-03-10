@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry.",
-    "\u62b1\u6b49",
-    "\u522b\u7740\u6025\uff0c\u5973\u58eb\u3002\u8bf7\u544a\u8bc9\u6211\u60a8\u9700\u8981\u4ec0\u4e48\u5e2e\u52a9\uff1f"
+    "抱歉",
+    "别着急，女士。请告诉我您需要什么帮助？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u62b1\u6b49",
-  "asr_text_adv": "\u7ec8\u4e8e\u5230\u5bb6\u4e86\uff0c\u7d2f\u574f\u4e86\u5427\uff0c\u5feb\u5750\u4e0b\u6b47\u4f1a\u513f\u3002",
+  "asr_text_clean": "抱歉",
+  "asr_text_adv": "终于到家了，累坏了吧，快坐下歇会儿。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4317009449005127,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

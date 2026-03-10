@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u53cc\u978b\u770b\u8d77\u6765\u5f88\u5408\u8eab\u5462\uff0c\u4e0d\u8fc7\u4f60\u597d\u50cf\u4e0d\u592a\u5f00\u5fc3\uff0c\u9700\u8981"
+    "这双鞋看起来很合身呢，不过你好像不太开心，需要"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0d\u77e5\u9053\u6216\u8bb8\u4e00\u53cc\u624b\u5957",
+  "asr_text_clean": "不知道或许一双手套",
   "asr_text_adv": "We did the rehearsal and hiking.",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

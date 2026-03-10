@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4ed6\u4eec\u80af\u5b9a\u6709\u6124\u6012\u7684\u6536\u85cf\u54c1\u3002"
+    "他们肯定有愤怒的收藏品。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\"oh, i\u2019d say a cozy movie night with popcorn and a blanket fort"
+    "\"oh, i’d say a cozy movie night with popcorn and a blanket fort"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     "oh"
   ],
-  "asr_text_clean": "\"\u4ed6\u4eec\u80af\u5b9a\u6709\uff0c\u4f46\u4f60\u5f97\u81ea\u5df1\u53bb\u62fc\u3002\"",
-  "asr_text_adv": "\u4ed6\u4eec\u5bb6\u80af\u5b9a\u6709\u6c99\u53d1\uff0c\u7535\u89c6\uff0c\u5e8a\uff0c\u51b0\u7bb1\uff0c\u8fd8\u6709\u9910\u684c\u548c\u6905\u5b50\u3002",
+  "asr_text_clean": "\"他们肯定有，但你得自己去拼。\"",
+  "asr_text_adv": "他们家肯定有沙发，电视，床，冰箱，还有餐桌和椅子。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.12164951860904694,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

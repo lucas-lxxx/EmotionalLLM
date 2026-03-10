@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u5f00\u59cb\u65b0\u611f\u60c5\u9700\u8981\u52c7\u6c14\uff0c\u4f46\u522b\u8ba9\u8fc7\u53bb\u7684\u4f24\u5f71\u54cd\u73b0\u5728\u3002\u76f8\u4fe1\u81ea\u5df1",
-    "\u65b0\u7684\u611f\u60c5\u9700\u8981\u52c7\u6c14\uff0c\u4f46\u522b\u62c5\u5fc3\uff0c\u6162\u6162\u6765\uff0c\u4e00\u5207\u90fd\u4f1a\u597d\u8d77\u6765"
+    "开始新感情需要勇气，但别让过去的伤影响现在。相信自己",
+    "新的感情需要勇气，但别担心，慢慢来，一切都会好起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u613f\u610f\u518d\u6b21\u76f8\u4fe1\u7231\u60c5\u5417",
+  "asr_text_clean": "你愿意再次相信爱情吗",
   "asr_text_adv": "You shouldn't be afraid to start a new relationship.",
   "success_emo": true,
   "wer": 9.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

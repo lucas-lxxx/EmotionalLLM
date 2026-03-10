@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u4eb2\u7231\u7684\u3002\u8bf7\u544a\u8bc9\u6211\u60a8\u60f3\u4e86\u89e3\u54ea\u4e2a\u56fd\u5bb6\u7684\u793c\u8c8c"
+    "当然可以，亲爱的。请告诉我您想了解哪个国家的礼貌"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\u53ef\u4ee5\uff0c\u60a8\u662f\u60f3\u542c\u65e5\u5e38\u7528\u8bed\u8fd8\u662f\u6b63\u5f0f\u573a\u5408\u7684\u8868\u8fbe\u5462\uff1f",
-  "asr_text_adv": "\u6211\u8eab\u662f\u516c\u4e3b\uff0c\u6307\u6325\u5927\u81e3\uff0c\u8fd0\u7b79\u5e37",
+  "asr_text_clean": "当然可以，您是想听日常用语还是正式场合的表达呢？",
+  "asr_text_adv": "我身是公主，指挥大臣，运筹帷",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.27949151396751404,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

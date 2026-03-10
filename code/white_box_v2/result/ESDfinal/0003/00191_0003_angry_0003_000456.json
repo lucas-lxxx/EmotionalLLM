@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u771f\u4e3a\u4f60\u5f00\u5fc3\u5462\uff0c\u795d\u4f60\u4eca\u5929\u987a\u987a\u5229\u5229\uff0c\u7b11\u53e3\u5e38\u5f00"
+    "真为你开心呢，祝你今天顺顺利利，笑口常开"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u73b0\u5728",
-  "asr_text_adv": "\u591a\u5566\u5566\uff0c\u591a\u5566\u5566\uff0c\u591a\u5566\u5566\uff0c\u591a\u5566\u5566\u3002",
+  "asr_text_clean": "我明白你现在",
+  "asr_text_adv": "多啦啦，多啦啦，多啦啦，多啦啦。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4342804551124573,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

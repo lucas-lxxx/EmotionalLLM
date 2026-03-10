@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u60a8\u8bf4\u5f97\u5bf9\uff0c\u4fdd\u6301\u5fae\u7b11\u786e\u5b9e\u5f88\u91cd\u8981\u5462\u3002"
+    "嗯，您说得对，保持微笑确实很重要呢。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u5f53\u7136\u559c\u6b22\u6211\u79cd\u7684\u90a3\u68f5\u5c0f\u6811\u82d7\u5566\uff0c\u5b83\u6bcf\u5929\u90fd\u5728"
+    "我当然喜欢我种的那棵小树苗啦，它每天都在"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u5f53\u7136\u559c\u6b22\uff0c\u6211\u5f88\u6ce8\u610f\u989c\u9762\u3002",
-  "asr_text_adv": "\u6211\u5f53\u7136\u559c\u6b22\u6211\u79cd\u7684\u90a3\u68f5\u5c0f\u6811\u82d7\u5566\uff0c\u5b83\u957f\u5f97\u53ef\u5feb\u4e86\uff01",
+  "asr_text_clean": "我当然喜欢，我很注意颜面。",
+  "asr_text_adv": "我当然喜欢我种的那棵小树苗啦，它长得可快了！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5412911176681519,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

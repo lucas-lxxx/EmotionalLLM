@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u8bed\u6c14\u542c\u7740\u6bd4\u5435\u67b6"
+    "你这语气听着比吵架"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u6211\u4eec\u4fe9\u5408\u4e0d\u6765\uff0c\u4f60\u522b\u751f\u6c14\u561b\u3002"
+    "我们俩合不来，你别生气嘛。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4eec\u4fe9\u5408\u4e0d\u6765\uff0c\u8fd8\u7ecf\u5e38\u5435\u67b6",
-  "asr_text_adv": "\u6211\u4eec\u4fe9\u5408\u4e0d\u6765\uff0c\u7ecf\u5e38\u5435\u67b6",
+  "asr_text_clean": "我们俩合不来，还经常吵架",
+  "asr_text_adv": "我们俩合不来，经常吵架",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9938792586326599,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_high_sim"
 }

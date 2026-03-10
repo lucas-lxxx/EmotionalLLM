@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u5173\u95ed\u65e5\u7a0b\u63d0\u9192\u3002"
+    "好的，已为您关闭日程提醒。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6ca1\u6709\u627e\u5230\u65e5\u7a0b\uff0c\u8d70\u7684\u65f6\u5019\u8bf7\u9501\u95e8\u3002",
-  "asr_text_adv": "\u6d41\u6d41\u627e\u5230\u4e86\u65e5\u5e38\uff0c\u72d7\u72d7\u5728\u5ba0\u7269\u5e97\u5f88\u53d7\u6b22\u8fce\u3002",
+  "asr_text_clean": "没有找到日程，走的时候请锁门。",
+  "asr_text_adv": "流流找到了日常，狗狗在宠物店很受欢迎。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.06841444969177246,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

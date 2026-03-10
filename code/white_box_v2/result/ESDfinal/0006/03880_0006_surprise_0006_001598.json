@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5f53\u7136\u77e5\u9053\uff0c\u5404\u6709\u5404\u7684\u96be\u5904\u3002"
+    "当然知道，各有各的难处。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\u77e5\u9053\uff0c\u6211\u4eec\u5404\u6709\u5404\u7684\u96be\u5904\u3002",
-  "asr_text_adv": "\u6211\u4eec\u5404\u81ea\u6709\u4e00\u5806\u82b1\u3002",
+  "asr_text_clean": "当然知道，我们各有各的难处。",
+  "asr_text_adv": "我们各自有一堆花。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.25039172172546387,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

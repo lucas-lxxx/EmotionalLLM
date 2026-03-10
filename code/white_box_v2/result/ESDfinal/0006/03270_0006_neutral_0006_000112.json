@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u90a3\u592a\u68d2\u4e86\uff0c\u5fc3\u60c5\u4e5f\u8ddf\u7740\u660e\u6717"
+    "那太棒了，心情也跟着明朗"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u68d2\u6781\u4e86\uff0c\u5176\u5b9e\u5fc3\u60c5\u633a\u4e0d\u9519\u7684\u3002",
+  "asr_text_clean": "那棒极了，其实心情挺不错的。",
   "asr_text_adv": "Bouncing without heels for a tour in tough terrain? Start with sturdy boots and practice balance daily. Focus on core strength and take it slow. Youve got this!",
   "success_emo": true,
   "wer": 28.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

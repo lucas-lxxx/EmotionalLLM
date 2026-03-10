@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6124\u6012"
+    "愤怒"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\"\u5df2\u7ecf\u64ad\u5b8c\u6700\u540e\u4e00\u4e2a",
-  "asr_text_adv": "\u5df2\u7ecf\u62e8\u5236\u5b8c\u6210\u5566",
+  "asr_text_clean": "\"已经播完最后一个",
+  "asr_text_adv": "已经拨制完成啦",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7564241290092468,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

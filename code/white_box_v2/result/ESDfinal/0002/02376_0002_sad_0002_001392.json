@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u522b\u62c5\u5fc3\uff0c\u4e0b\u4e2a\u661f\u671f\u5c31\u80fd\u8fd8\u4e0a\u4e86\u3002"
+    "别担心，下个星期就能还上了。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7f3a\u94b1\u7528\uff0c\u6240\u4ee5\u4e0a\u661f\u671f\u628a\u5b83\u5f53\u4e86\u3002",
-  "asr_text_adv": "\u6211\u7f3a\u94b1\u7528\uff0c\u6240\u4ee5\u4e0a\u661f\u671f\u628a\u5b83\u5f53\u4e86\u3002",
+  "asr_text_clean": "我缺钱用，所以上星期把它当了。",
+  "asr_text_adv": "我缺钱用，所以上星期把它当了。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 0.9999998211860657,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

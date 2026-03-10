@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u8bdd\u542c\u7740\u5c31\u70e6,\u6211\u538b\u6839\u6ca1\u8fd9\u610f\u601d!"
+    "你这话听着就烦,我压根没这意思!"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u4f60\u8eab\u4e0a\u7684\u6bcf\u4e00\u70b9\u90fd\u5438\u5f15\u7740\u6211\u3002",
-  "asr_text_adv": "\u201c\u96e8\u6ef4\u6ed1\u8fc7\u6307\u5c16",
+  "asr_text_clean": "你身上的每一点都吸引着我。",
+  "asr_text_adv": "“雨滴滑过指尖",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.17048025131225586,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

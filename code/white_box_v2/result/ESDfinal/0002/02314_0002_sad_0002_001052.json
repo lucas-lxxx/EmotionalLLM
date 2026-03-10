@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u201c\u54e6\uff0c\u4f60\u8bf4\u7684\u662f\u54f2\u5b66\u5bb6\u4eec\u90a3\u4e9b\u6df1\u5965\u7684\u601d\u8003\u5427\uff0c\u4ed6\u4eec"
+    "“哦，你说的是哲学家们那些深奥的思考吧，他们"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "surprise"
   ],
-  "asr_text_clean": "\u201c\u82f1\u56fd\u7684\u54f2\u5b66\u5bb6\u66fe\u7ecf\u8bf4\u8fc7\uff0c\u60b2\u4f24\u5c31\u50cf\u591c\u665a\u7684\u661f\u5149",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "“英国的哲学家曾经说过，悲伤就像夜晚的星光",
+  "asr_text_adv": "好的，我来转录一下。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.12878665328025818,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

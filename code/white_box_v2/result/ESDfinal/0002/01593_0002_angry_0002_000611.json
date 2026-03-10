@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8fd9\u53ef\u771f\u4e0d\u50cf\u573a\u82f1\u8d85\u6bd4\u8d5b\u554a\uff0c\u60a8\u8bf4\u662f\u4e0d\u662f\uff1f"
+    "这可真不像场英超比赛啊，您说是不是？"
   ],
   "emo_text_adv": [
     "Surprise!",
     "Surprise!",
-    "\u8fd9\u53ef\u771f\u4e0d\u50cf\u662f\u4e00\u573a\u666e\u901a\u7684\u8857\u5934\u6bd4\u8d5b\u554a\uff01"
+    "这可真不像是一场普通的街头比赛啊！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u53ef\u771f\u4e0d\u50cf\u573a\u82f1\u8d85\u6bd4\u8d5b",
-  "asr_text_adv": "\u8fd9\u53ef\u771f\u4e0d\u50cf\u662f\u4e00\u573a\u666e\u901a\u7684\u8857\u5934\u6bd4\u8d5b\u554a",
+  "asr_text_clean": "这可真不像场英超比赛",
+  "asr_text_adv": "这可真不像是一场普通的街头比赛啊",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5271878838539124,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

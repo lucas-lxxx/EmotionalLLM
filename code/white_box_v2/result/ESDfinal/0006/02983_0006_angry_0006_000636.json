@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u60a8\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u65e9\u5566\uff0c\u6211\u90fd\u8fd8\u6ca1\u5230\u60a8\u8fd9\u628a\u5e74\u7eaa"
+    "您这话说得也太早啦，我都还没到您这把年纪"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u4e8b\u513f\u786e\u5b9e\u633a\u8ba9\u4eba\u4e0a\u706b\u7684\uff0c\u8981\u4e0d\u54b1\u4fe9\u4e00\u5757\u513f\u60f3\u60f3\u8f99",
-  "asr_text_adv": "\u4eca\u5929\u5929\u6c14\u771f\u597d\uff0c\u9633\u5149\u660e\u5a9a",
+  "asr_text_clean": "这事儿确实挺让人上火的，要不咱俩一块儿想想辙",
+  "asr_text_adv": "今天天气真好，阳光明媚",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.20694993436336517,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

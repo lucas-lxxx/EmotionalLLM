@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u60a8\u8981\u5220\u9664\u7684\u95f9\u949f\u627e\u4e0d\u5230\u5462\uff0c\u53ef\u4ee5\u518d\u68c0\u67e5\u4e00\u4e0b\u540d\u79f0\u6216\u65f6\u95f4"
+    "您要删除的闹钟找不到呢，可以再检查一下名称或时间"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6ca1\u6709\u627e\u5230\u60a8\u60f3\u8981\u5220\u9664\u7684\u95f9\u949f\u3002",
-  "asr_text_adv": "\u4f60\u627e\u5230\u6211\u60f3\u53bb\u7684\u90a3\u4e2a\u5730\u65b9\u4e86\uff0c\u5bf9\u5417\uff1f",
+  "asr_text_clean": "没有找到您想要删除的闹钟。",
+  "asr_text_adv": "你找到我想去的那个地方了，对吗？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.22342275083065033,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

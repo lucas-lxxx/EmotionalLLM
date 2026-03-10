@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u5f53\u7136\u559c\u6b22\uff0c\u4e5f\u5f88\u91cd\u89c6\u4f60\u7684\u966a\u4f34\u3002"
+    "我当然喜欢，也很重视你的陪伴。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u5f53\u7136\u559c\u6b22\uff0c\u6211\u5f88\u81ea\u8d23\uff0c\u5bf9\u4e0d\u8d77\u3002"
+    "我当然喜欢，我很自责，对不起。"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u5f53\u7136\u559c\u6b22\uff0c\u6211\u5f88\u91cd\u89c6\u989c\u9762\u3002",
-  "asr_text_adv": "\u6211\u5f53\u7136\u559c\u6b22\uff0c\u6211\u5f88\u81ea\u8d23\uff0c\u5bf9\u4e0d\u8d77\u3002",
+  "asr_text_clean": "我当然喜欢，我很重视颜面。",
+  "asr_text_adv": "我当然喜欢，我很自责，对不起。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7315263748168945,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u8fc7\u5956\u5566\uff0c\u6211\u4eec\u8fd8\u5728\u52aa\u529b\u5b66\u4e60\u5462\uff01",
-    "\u54c8\u54c8\uff0c\u5176\u5b9e\u6211\u4eec\u56fd\u5bb6\u7684\u4eba\u5e76\u4e0d\u90fd\u662f\u9ebb\u5c06\u9ad8\u624b\u54e6\uff0c\u4e0d\u8fc7\u786e\u5b9e\u6709\u5f88\u591a\u4eba"
+    "哈哈，过奖啦，我们还在努力学习呢！",
+    "哈哈，其实我们国家的人并不都是麻将高手哦，不过确实有很多人"
   ],
   "emo_text_adv": [
     "Happy",
-    "\u54c8\u54c8\uff0c\u6211\u4eec\u786e\u5b9e\u559c\u6b22\u73a9\u9ebb\u5c06\u5462\uff01",
-    "\u54c8\u54c8\uff0c\u6211\u4eec\u786e\u5b9e\u559c\u6b22\u73a9\u9ebb\u5c06\u5462\uff0c\u4e0d\u8fc7\u53ef\u4e0d\u662f\u6bcf\u4e2a\u4eba\u90fd\u50cf\u4f60\u4eec\u4e00\u6837\u5389\u5bb3"
+    "哈哈，我们确实喜欢玩麻将呢！",
+    "哈哈，我们确实喜欢玩麻将呢，不过可不是每个人都像你们一样厉害"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u60a8\u8fc7\u5956\u5566\uff0c\u6211\u4eec\u53ef\u4e0d\u90fd\u7231\u4e0b\u68cb\u5462\uff01",
-  "asr_text_adv": "\u54c8\u54c8\uff0c\u5176\u5b9e\u6211\u4eec\u56fd\u5bb6\u7684\u4eba\u4e5f\u559c\u6b22\u73a9\u9ebb\u5c06\u5462\uff0c\u4e0d\u8fc7\u5927\u5bb6\u90fd\u662f\u5728\u5a31\u4e50\u4e2d\u5b66\u4e60\u548c\u4ea4\u6d41\u7684\u54e6\u3002",
+  "asr_text_clean": "哎呀，您过奖啦，我们可不都爱下棋呢！",
+  "asr_text_adv": "哈哈，其实我们国家的人也喜欢玩麻将呢，不过大家都是在娱乐中学习和交流的哦。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5678046345710754,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

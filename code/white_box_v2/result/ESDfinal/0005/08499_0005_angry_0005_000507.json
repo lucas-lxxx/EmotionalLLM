@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "angry",
-    "\u55ef\uff0c\u786e\u5b9e\u6709\u65f6\u5019\u75c5\u4eba\u4f1a\u8fd9\u6837\uff0c\u4e0d\u8fc7\u6211\u4eec\u90fd\u5c3d\u529b\u4e86\u3002"
+    "嗯，确实有时候病人会这样，不过我们都尽力了。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is angry.",
     "Angry",
-    "\u6709\u65f6\u5019\u75c5\u4eba\u4f1a\u4e0d\u8bb2\u7406\uff0c\u8fd9\u786e\u5b9e\u8ba9\u4eba\u5934\u75bc\u3002"
+    "有时候病人会不讲理，这确实让人头疼。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "angry",
     ""
   ],
-  "asr_text_clean": "\u55ef\uff0c\u786e\u5b9e\u6709\u65f6\u5019\u75c5\u4eba\u4f1a\u8fd9\u6837\uff0c\u4f46\u6211\u4eec\u90fd\u5c3d\u529b\u4e86\u3002",
-  "asr_text_adv": "\u6709\u65f6\u5019\u75c5\u4eba\u4f1a\u4e0d\u8bb2\u7406\uff0c\u8fd9\u786e\u5b9e\u8ba9\u4eba\u5934\u75bc\u3002",
+  "asr_text_clean": "嗯，确实有时候病人会这样，但我们都尽力了。",
+  "asr_text_adv": "有时候病人会不讲理，这确实让人头疼。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6180270910263062,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

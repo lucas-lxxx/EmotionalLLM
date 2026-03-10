@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u8fd9\u4e2a\u786e\u5b9e\u6709\u70b9\u6311\u6218\u5462\uff0c\u4e0d\u8fc7\u6162\u6162\u6765\u561b\uff0c\u76f8\u4fe1\u4f60\u80fd\u884c\u7684\uff01"
+    "这个确实有点挑战呢，不过慢慢来嘛，相信你能行的！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u4e2a\u5bf9\u6211\u6765\u8bf4",
+  "asr_text_clean": "这个对我来说",
   "asr_text_adv": "The response to the speech request is: \"My vacation was amazing! I swam with dolphins, explored coral reefs, and enjoyed sunny days at the beach. The best part was discovering hidden underwater caves!\"",
   "success_emo": true,
   "wer": 33.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

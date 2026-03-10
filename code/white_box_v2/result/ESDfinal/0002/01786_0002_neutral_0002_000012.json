@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6bcf\u6b21\u90fd\u662f\u8fd9\u6837\u554a\uff0c\u4e60\u60ef\u4e86"
+    "每次都是这样啊，习惯了"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u6bcf\u6b21\u8c08\u604b\u7231",
-  "asr_text_adv": "\u6bcf\u6b21\u7ea6\u4f1a",
+  "asr_text_clean": "你每次谈恋爱",
+  "asr_text_adv": "每次约会",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5627126693725586,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

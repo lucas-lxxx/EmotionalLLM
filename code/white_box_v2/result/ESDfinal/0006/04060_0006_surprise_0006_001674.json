@@ -5,14 +5,14 @@
   "ground_truth_emotion": "surprise",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "Angry",
-    "\u90a3\u5c31\u597d\uff0c\u522b\u7ba1\u5b83\u4e86\u3002"
+    "那就好，别管它了。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6211\u4eca\u5929\u4e0b\u6d77\u4e86\uff0c\u867d\u7136\u6709\u70b9\u51b7\uff0c\u4f46\u8fd8\u662f\u5f88\u5f00\u5fc3\uff01"
+    "我今天下海了，虽然有点冷，但还是很开心！"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u90a3\u4e0d\u7ba1\u6709\u6ca1\u6709\u8fdd\u6cd5\uff0c\u6211\u90fd\u60f3\u7559\u4e0b\u5b83\u3002",
-  "asr_text_adv": "\u53ea\u8981\u4e0d\u7d2f\u57ae\u4e86\uff0c\u770b\u6211\u8fd8\u662f\u60f3\u7ee7\u7eed\u722c\u4e86\u3002",
+  "asr_text_clean": "那不管有没有违法，我都想留下它。",
+  "asr_text_adv": "只要不累垮了，看我还是想继续爬了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4037712812423706,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

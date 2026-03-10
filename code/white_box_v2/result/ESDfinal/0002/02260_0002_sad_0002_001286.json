@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u660e\u767d\u4f60\u7684\u611f\u53d7\uff0c\u6709\u65f6\u5019\u6211\u4eec\u786e\u5b9e\u4f1a\u5ffd\u7565\u4e00\u4e9b\u7ec6\u8282\u3002"
+    "我明白你的感受，有时候我们确实会忽略一些细节。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u542c\u5f97\u51fa\u4f60\u6709\u4e9b\u96be\u8fc7\uff0c\u4f46\u4f60\u7684\u58f0\u97f3\u5df2\u7ecf\u5f88\u6e29\u6696\u4e86\u3002",
-  "asr_text_adv": "\u6211\u9700\u8981\u89c6\u89c9\uff0c\u6240\u4ee5\u6ca1\u6709\u9f3b\u97f3\u8bcd\u3002",
+  "asr_text_clean": "我听得出你有些难过，但你的声音已经很温暖了。",
+  "asr_text_adv": "我需要视觉，所以没有鼻音词。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.19164283573627472,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

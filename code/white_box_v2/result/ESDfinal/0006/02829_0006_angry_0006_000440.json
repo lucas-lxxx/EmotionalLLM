@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\"\u8fd8\u4e0d\u592a\u7cdf\u7cd5\uff0c\u4f46\u5f97\u8eba\u5728\u5e8a\u4e0a",
-  "asr_text_adv": "\u4e3a\u4e86\u5b69\u5b50\uff0c\u6211\u7ffb\u5c71\u8d8a\u5cad\uff0c\u62ab\u661f\u6234\u6708\uff0c\u8d70\u8857\u4e32\u5df7\uff0c\u518d\u82e6\u518d\u7d2f\u4e5f\u5fc3\u7518\u60c5\u613f\u3002",
+  "asr_text_clean": "\"还不太糟糕，但得躺在床上",
+  "asr_text_adv": "为了孩子，我翻山越岭，披星戴月，走街串巷，再苦再累也心甘情愿。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.23381198942661285,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

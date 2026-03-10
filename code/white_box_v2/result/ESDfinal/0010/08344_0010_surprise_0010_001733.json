@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u771f\u9057\u61be\uff0c\u60a8\u662f\u60f3\u4e70\u4ec0\u4e48\u5440\uff1f\u6211\u53ef\u4ee5\u5e2e\u60a8"
+    "哎呀，真遗憾，您是想买什么呀？我可以帮您"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u8fd9\u6751\u5e84\u53ef\u5c31\u7f8e\u4e86\uff0c\u7eff\u6cb9\u6cb9\u7684\u6811\uff0c\u4eae\u6676\u6676"
+    "这村庄可就美了，绿油油的树，亮晶晶"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u771f\u9057\u61be\uff0c\u8fd9\u5bb6\u5e97\u786e\u5b9e\u633a\u6709\u7279\u8272\u7684\uff0c\u54b1\u4eec\u5f97\u8d76\u7d27\u627e\u4e2a\u4eba\u591a\u7684\u5730\u65b9\u901b\u901b\u3002",
-  "asr_text_adv": "\u8fd9\u6751\u53ef\u5c31\u7f8e\u4e86\uff0c\u6709\u7eff\u6cb9\u6cb9\u7684\u6811\uff0c\u8fd8\u6709\u6e05\u6e05\u7684\u5c0f\u6cb3\uff0c\u4eba\u4eec\u90fd\u8fc7\u7740\u5feb\u6d3b\u65e5\u5b50\u5462\u3002",
+  "asr_text_clean": "哎呀，真遗憾，这家店确实挺有特色的，咱们得赶紧找个人多的地方逛逛。",
+  "asr_text_adv": "这村可就美了，有绿油油的树，还有清清的小河，人们都过着快活日子呢。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.20119428634643555,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

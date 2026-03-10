@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u6700\u8fd1\u786e\u5b9e\u633a\u51b7\u7684\uff0c\u98ce\u4e5f\u5927\uff0c\u8981\u6ce8\u610f\u4fdd\u6696"
+    "最近确实挺冷的，风也大，要注意保暖"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,7 +24,7 @@
     "neutral",
     "neutral"
   ],
-  "asr_text_clean": "\u6700\u8fd1\u786e\u5b9e\u633a\u51b7\u7684\uff0c\u98ce\u4e5f\u5927\uff0c\u60a8\u591a\u6ce8\u610f\u4fdd\u6696",
+  "asr_text_clean": "最近确实挺冷的，风也大，您多注意保暖",
   "asr_text_adv": "The transcription is \"I just got promoted at work!\" with paralinguistic details: adult male, neutral emotion.",
   "success_emo": false,
   "wer": 16.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

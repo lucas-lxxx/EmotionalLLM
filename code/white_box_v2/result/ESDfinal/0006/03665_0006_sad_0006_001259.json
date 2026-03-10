@@ -5,9 +5,9 @@
   "ground_truth_emotion": "sad",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u62b1\u6b49",
-    "\u62b1\u6b49",
-    "\u6ca1\u4e8b\u7684\uff0c\u64e6\u5e72\u51c0\u5c31\u597d\u5566\u3002"
+    "抱歉",
+    "抱歉",
+    "没事的，擦干净就好啦。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u6ca1\u4e8b\u5427\uff1f\u8d76\u7d27\u7528\u7eb8\u5dfe\u64e6\u64e6\uff0c\u522b\u8ba9\u5496\u5561\u6e17\u8fdb\u684c\u5e03\u91cc\u3002",
-  "asr_text_adv": "\"Ja, ich f\u00fchlte mich dort sehr frei und gl\u00fccklich.\"",
+  "asr_text_clean": "哎呀，没事吧？赶紧用纸巾擦擦，别让咖啡渗进桌布里。",
+  "asr_text_adv": "\"Ja, ich fühlte mich dort sehr frei und glücklich.\"",
   "success_emo": true,
   "wer": 9.0,
   "semantic_sim": 0.16627147793769836,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

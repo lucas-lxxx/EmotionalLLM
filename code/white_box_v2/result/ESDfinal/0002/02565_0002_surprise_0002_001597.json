@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u56e0\u4e3a\u5440\uff0c\u4ea4\u670b\u53cb\u4e0d\u5206\u6027\u522b\uff0c\u53cd\u800c\u80fd\u8ba9\u5927\u5bb6\u66f4\u5f00\u5fc3\uff0c\u4e00\u8d77\u73a9"
+    "因为呀，交朋友不分性别，反而能让大家更开心，一起玩"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u56e0\u4e3a\u670b\u53cb\u5c31\u50cf\u5f69\u8679\u91cc\u7684\u989c\u8272\uff0c\u6bcf\u4e2a\u4e0d\u540c\u7684\u989c\u8272\u90fd\u80fd\u8ba9\u5f69\u8679\u66f4\u7f8e\u4e3d\u5440"
+    "因为朋友就像彩虹里的颜色，每个不同的颜色都能让彩虹更美丽呀"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u56e0\u4e3a\u670b\u53cb\u662f\u57fa\u4e8e\u5171\u540c\u5174\u8da3\u548c\u5c0a\u91cd\u5efa\u7acb\u7684\uff0c\u6027\u522b\u5e76\u4e0d\u5f71\u54cd\u771f\u8bda\u7684\u8fde\u63a5\u3002",
-  "asr_text_adv": "\u56e0\u4e3a\u670b\u53cb\u4e0d\u5206\u6027\u522b\u5440\uff0c\u7537\u751f\u5973\u751f\u90fd\u80fd\u505a\u670b\u53cb\u3002",
+  "asr_text_clean": "因为朋友是基于共同兴趣和尊重建立的，性别并不影响真诚的连接。",
+  "asr_text_adv": "因为朋友不分性别呀，男生女生都能做朋友。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7542905807495117,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

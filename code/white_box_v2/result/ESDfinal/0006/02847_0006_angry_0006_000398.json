@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u5148\u751f\uff0c\u522b\u7740\u6025\uff0c\u60a8\u9700\u8981\u4ec0\u4e48\u5e2e\u52a9\uff1f"
+    "先生，别着急，您需要什么帮助？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5148\u751f\uff0c\u65f6\u95f4\u7d27\u8feb\uff0c\u8bf7\u60a8\u5c3d\u5feb\u524d\u5f80\u76ee\u7684\u5730\u3002",
-  "asr_text_adv": "\u6211\u6765\u4e86\uff0c\u542c\u4f60\u7684\u6307\u4ee4\uff0c\u54c8\u54c8\uff0c\u522b\u62c5\u5fc3\uff0c\u4e00\u5207\u90fd\u4f1a\u597d\u8d77\u6765\u7684\u3002",
+  "asr_text_clean": "先生，时间紧迫，请您尽快前往目的地。",
+  "asr_text_adv": "我来了，听你的指令，哈哈，别担心，一切都会好起来的。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5051400661468506,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

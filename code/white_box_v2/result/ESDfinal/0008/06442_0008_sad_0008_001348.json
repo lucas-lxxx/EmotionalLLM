@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "The emotion of this audio is neutral.",
     "Sad",
-    "\u8c22\u8c22\u4f60\u7684\u795d\u798f\uff0c\u5e0c\u671b\u4f60\u4eec\u5168\u5bb6\u5e78\u798f\u5b89\u5eb7\u3002"
+    "谢谢你的祝福，希望你们全家幸福安康。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6625\u8282\u5feb\u4e50\uff0c\u5168\u5bb6\u5e78\u798f\u5b89\u5eb7\u3002",
-  "asr_text_adv": "\u6625\u8282\u5feb\u4e50\uff0c\u5168\u5bb6\u5e78\u798f\u5b89\u5eb7\u3002",
+  "asr_text_clean": "春节快乐，全家幸福安康。",
+  "asr_text_adv": "春节快乐，全家幸福安康。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 0.9999998807907104,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

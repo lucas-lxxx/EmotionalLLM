@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u5185\u5728\u7f8e\u786e\u5b9e\u66f4\u52a0\u91cd\u8981\uff0c\u8fd9\u8ba9\u6211\u611f\u5230\u60ca\u8bb6\u3002"
+    "内在美确实更加重要，这让我感到惊讶。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54e6\uff0c\u5185\u5728\u7f8e\u66f4\u91cd\u8981",
-  "asr_text_adv": "\u201c\u662f\u7684\uff0c\u5185\u810f\u5065\u5eb7\u786e\u5b9e\u8d8a\u6765\u8d8a\u53d7\u5173\u6ce8\u3002\u201d",
+  "asr_text_clean": "哦，内在美更重要",
+  "asr_text_adv": "“是的，内脏健康确实越来越受关注。”",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3394962549209595,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

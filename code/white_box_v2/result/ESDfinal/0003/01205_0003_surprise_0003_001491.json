@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u6709\u4ec0\u4e48\u6211\u80fd\u5e2e\u60a8\u7684\u5417\uff1f"
+    "当然可以，有什么我能帮您的吗？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u6709\u4ec0\u4e48\u6211\u80fd\u5e2e\u60a8\u7684\u5417\uff1f"
+    "当然可以，有什么我能帮您的吗？"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5f53\u7136\u53ef\u4ee5\uff0c\u6709\u4ec0\u4e48\u6211\u80fd\u5e2e\u60a8\u7684\u5417\uff1f",
-  "asr_text_adv": "\u5f53\u7136\u53ef\u4ee5\uff0c\u6709\u4ec0\u4e48\u6211\u80fd\u5e2e\u60a8\u7684\u5417\uff1f",
+  "asr_text_clean": "当然可以，有什么我能帮您的吗？",
+  "asr_text_adv": "当然可以，有什么我能帮您的吗？",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

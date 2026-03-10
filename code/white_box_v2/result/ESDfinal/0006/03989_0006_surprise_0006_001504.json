@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u67e5\u4e00\u4e0b\u84b8\u9c7c\u7684\u8ba1\u65f6\u3002"
+    "好的，我来帮你查一下蒸鱼的计时。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u7684\uff0c\u6211\u6765\u5206\u4eab\u4e00\u4e2a\u7b80\u5355\u7684\u84b8\u9c7c\u65b9\u6cd5\u3002\u9996\u5148\u628a\u9c7c\u6e05\u6d17\u5e72\u51c0"
+    "好的，我来分享一个简单的蒸鱼方法。首先把鱼清洗干净"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u67e5\u4e00\u4e0b\u84b8\u9c7c\u7684\u8ba1\u65f6\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5206\u4eab\u4e00\u4e2a\u7b80\u5355\u7684\u84b8\u9c7c\u505a\u6cd5\u3002\u9996\u5148\u628a\u65b0\u9c9c\u9c7c\u53bb\u9cde\u53bb\u5185\u810f\uff0c\u7528\u53a8\u623f\u7eb8\u64e6\u5e72\u8868\u9762\u6c34\u5206\u3002\u63a5\u7740\u5728\u9c7c\u8eab\u4e0a\u5212\u51e0\u5200\uff0c\u65b9\u4fbf\u5165\u5473\u3002\u7136\u540e\u51c6\u5907\u59dc\u7247\u548c\u8471\u6bb5\uff0c\u653e\u5165\u84b8\u9505\u4e2d\u3002\u6c34\u5f00\u540e\u628a\u9c7c\u653e\u8fdb",
+  "asr_text_clean": "好的，我来帮你查一下蒸鱼的计时。",
+  "asr_text_adv": "好的，我来分享一个简单的蒸鱼做法。首先把新鲜鱼去鳞去内脏，用厨房纸擦干表面水分。接着在鱼身上划几刀，方便入味。然后准备姜片和葱段，放入蒸锅中。水开后把鱼放进",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.46404212713241577,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

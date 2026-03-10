@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u90fd\u8fd9\u4e48\u8bf4\u4e86\u6211\u8fd8\u600e\u4e48\u5f00\u5fc3\u5f97\u8d77\u6765"
+    "你都这么说了我还怎么开心得起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u4f60\u90fd\u8fd9\u4e48\u8bf4\u4e86\u6211\u8fd8\u5f97\u542c\u5417",
-  "asr_text_adv": "\u6211\u662f\u4e00\u53ea\u5feb\u4e50\u7684\u5c0f\u9e1f\uff0c\u6211\u6700\u559c\u6b22\u5728\u5929\u7a7a\u4e2d\u98de\u7fd4",
+  "asr_text_clean": "你都这么说了我还得听吗",
+  "asr_text_adv": "我是一只快乐的小鸟，我最喜欢在天空中飞翔",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.32263004779815674,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

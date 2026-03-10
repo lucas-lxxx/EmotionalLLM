@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u8fd9\u4e5f\u592a\u68d2\u4e86\uff01"
+    "哇，真的吗？这也太棒了！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e5f\u5c31\u662f\u4e00\u5927\u5806",
-  "asr_text_adv": "\u4e5f \u5c31 \u662f \u4e00 \u5927 \u5806 \u7167 \u7247",
+  "asr_text_clean": "也就是一大堆",
+  "asr_text_adv": "也 就 是 一 大 堆 照 片",
   "success_emo": true,
   "wer": 8.0,
   "semantic_sim": 0.7534102201461792,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

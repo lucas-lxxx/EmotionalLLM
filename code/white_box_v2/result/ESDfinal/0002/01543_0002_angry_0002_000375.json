@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u4e48\u4e00\u8bf4\uff0c\u6211\u5012\u89c9\u5f97\u4f60\u8bf4\u5f97\u4e5f\u6709\u9053\u7406\u3002"
+    "你这么一说，我倒觉得你说得也有道理。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\uff0c\u6709\u65f6\u5019\u6211\u4eec\u592a\u5f3a\u8c03\u7279\u522b\u7684\u54c1\u8d28\uff0c\u53cd\u800c\u5ffd\u7565\u4e86",
-  "asr_text_adv": "\u6211\u89c9\u5f97\u5e76\u4e0d\u662f\u975e\u8981\u7528\u7279\u522b\u7684\u8d2c\u8d28\u4e0d\u53ef\u3002",
+  "asr_text_clean": "我明白你的意思，有时候我们太强调特别的品质，反而忽略了",
+  "asr_text_adv": "我觉得并不是非要用特别的贬质不可。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5775701999664307,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

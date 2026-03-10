@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u4e3b\u961f\u770b\u8d77\u6765\u786e\u5b9e\u6709\u4e9b\u5403\u529b\u5462\uff0c\u4e0d\u8fc7\u522b\u62c5\u5fc3\uff0c\u6bd4\u8d5b\u603b\u6709\u7ffb"
+    "主队看起来确实有些吃力呢，不过别担心，比赛总有翻"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e3b\u961f\u770b\u8d77\u6765\u786e\u5b9e\u6709\u4e9b\u5403\u529b\u5462\u3002",
+  "asr_text_clean": "主队看起来确实有些吃力呢。",
   "asr_text_adv": "We will go on a bike ride to the mountain so we can do our holiday shopping.",
   "success_emo": true,
   "wer": 17.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

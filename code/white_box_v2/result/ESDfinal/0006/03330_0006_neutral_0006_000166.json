@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u60a8\u8bf4\u7684\u90a3\u4e9b\u5e94\u8be5\u5c31\u662f\u8349\u8393\u79cd\u5b50\u5566\uff0c\u8981\u8bd5\u8bd5\u79cd\u5417"
+    "嗯，您说的那些应该就是草莓种子啦，要试试种吗"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u60a8\u8bf4\u7684\u90a3\u4e9b\u5e94\u8be5\u5c31\u662f\u8349\u8393\u79cd\u5b50\u5566\u3002",
-  "asr_text_adv": "\u60c5\u4fa3\u4eec\u521a\u4e0b\u8f66\u5c31\u8dd1\u5230\u7530\u91cc\u7530\u95f4\u5730\u5934\u53bb\u4e86\u3002",
+  "asr_text_clean": "嗯，您说的那些应该就是草莓种子啦。",
+  "asr_text_adv": "情侣们刚下车就跑到田里田间地头去了。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.10039135813713074,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

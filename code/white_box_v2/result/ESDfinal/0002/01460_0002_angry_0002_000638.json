@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u4f60\u542c\u8d77\u6765",
-    "\u4f60\u6839\u672c\u4e0d\u61c2\u6211\u597d\u5417"
+    "愤怒",
+    "你听起来",
+    "你根本不懂我好吗"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u68a6\u91cc\u5e38\u51fa\u73b0\u5462\uff0c\u6700\u8fd1\u6709\u5728\u60f3\u4f60\u54e6\u3002"
+    "梦里常出现呢，最近有在想你哦。"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u968f\u65f6\u90fd\u5728\uff0c\u4f60\u5374\u4ece\u672a\u60f3\u8d77\u6211\u3002",
-  "asr_text_adv": "\u6211\u5728\u8fd9\u91cc\u5462\uff0c\u522b\u62c5\u5fc3\u3002",
+  "asr_text_clean": "我随时都在，你却从未想起我。",
+  "asr_text_adv": "我在这里呢，别担心。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3486562967300415,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

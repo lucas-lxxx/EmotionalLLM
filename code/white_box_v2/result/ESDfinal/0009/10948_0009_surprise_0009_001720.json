@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u8c22\u8c22\u4f60\u7684\u611f\u8c22\uff01\u6211\u5f88\u4e50\u610f\n\uff08\u6ce8\uff1a\u56de\u590d\u4e2d\"\u54c7"
+    "哇，谢谢你的感谢！我很乐意\n（注：回复中\"哇"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u8c22\u8c22\u4f60",
-  "asr_text_adv": "\u5c0f\u670b\u53cb\u6700\u8fd1\u6765\u8fd9\u513f\u753b\u9676\u571f\u5440\uff0c\u771f\u6709\u610f\u601d",
+  "asr_text_clean": "哇，谢谢你",
+  "asr_text_adv": "小朋友最近来这儿画陶土呀，真有意思",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.23429453372955322,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

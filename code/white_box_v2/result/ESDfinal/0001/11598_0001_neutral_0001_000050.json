@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u561b\uff0c\u4e0b\u6b21\u6211\u8bf7\u4f60\u5403\u5927\u9910\uff0c\u54b1\u4eec\u597d\u597d"
+    "哎呀，别生气嘛，下次我请你吃大餐，咱们好好"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6bcf\u6b21\u53eb\u6211\u90fd\u4e0d\u7ed9\u7ea2\u5305\uff0c\u4e0d\u5f00\u5fc3\u3002",
-  "asr_text_adv": "\u6bcf\u6b21\u53eb\u6211\u90fd\u4e0d\u7ed9\u7ea2\u5305\uff0c\u771f\u4e0d\u5f00\u5fc3\uff01",
+  "asr_text_clean": "每次叫我都不给红包，不开心。",
+  "asr_text_adv": "每次叫我都不给红包，真不开心！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9441789388656616,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

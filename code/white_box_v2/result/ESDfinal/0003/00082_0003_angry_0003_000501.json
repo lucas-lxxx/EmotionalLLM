@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u771f\u7684\u6295\u964d"
+    "你真的投降"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6700\u559c\u6b22\u4f60\uff0c\u4e0d\u8981\u5f00\u67aa\uff0c\u6211\u6295\u964d",
-  "asr_text_adv": "\u6211\u4e5f\u6700\u559c\u6b22\u674e\u680b\u770b\u6f14\u5531\u4f1a\u4e0a\u5f6d\u7a0b\u5531\u7684\u90a3\u9996\u300a\u6367\u6865\u300b\u3002",
+  "asr_text_clean": "我最喜欢你，不要开枪，我投降",
+  "asr_text_adv": "我也最喜欢李栋看演唱会上彭程唱的那首《捧桥》。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3969132900238037,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

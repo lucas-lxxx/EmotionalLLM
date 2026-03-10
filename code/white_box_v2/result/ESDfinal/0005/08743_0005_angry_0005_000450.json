@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4ed6\u7ecf\u5e38\u53bb\u6211\u4eec\u5bbf\u820d\u9644\u8fd1\u7684\u9152\u5427\u3002"
+    "他经常去我们宿舍附近的酒吧。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u7ecf\u5e38\u53bb\u6211\u4eec\u5bbf\u820d\u9644\u8fd1\u7684\u9152\u5427\u3002",
-  "asr_text_adv": "\u4ed6\u4eec\u7ecf\u5e38\u53bb\u6211\u4eec\u5bbf\u820d\u9644\u8fd1\u7684\u9152\u5427\u804a\u5929\u3002",
+  "asr_text_clean": "他经常去我们宿舍附近的酒吧。",
+  "asr_text_adv": "他们经常去我们宿舍附近的酒吧聊天。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8032522797584534,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\uff0c\u53ef\u4ee5\u8fd9\u6837\u8bf4"
+    "我明白你的意思，可以这样说"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u4e5f\u8fd9\u6837\u8ba4\u4e3a\u7684\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u5c06\u4e3a\u60a8\u8f6c\u5f55\u5e76\u7ffb\u8bd1\u8fd9\u53e5\u8bdd\u3002",
+  "asr_text_clean": "我也这样认为的。",
+  "asr_text_adv": "好的，我将为您转录并翻译这句话。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4063831865787506,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

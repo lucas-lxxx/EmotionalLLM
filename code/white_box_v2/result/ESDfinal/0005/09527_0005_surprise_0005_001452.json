@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u563f\uff0c\u8c01\u8bf4\u7684\uff1f\u5f00\u59cb\u65b0\u611f\u60c5\u660e\u660e\u662f\u4ef6\u8ba9\u4eba\u60ca\u559c\u7684\u4e8b\u554a"
+    "嘿，谁说的？开始新感情明明是件让人惊喜的事啊"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u563f\uff0c\u522b\u62c5\u5fc3\uff0c\u5f00\u59cb\u65b0\u611f\u60c5\u5f88\u6b63\u5e38",
+  "asr_text_clean": "嘿，别担心，开始新感情很正常",
   "asr_text_adv": "You should not fear starting a new relationship.",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

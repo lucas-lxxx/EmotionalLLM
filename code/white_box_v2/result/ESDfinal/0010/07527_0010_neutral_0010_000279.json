@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6211\u4e5f\u6709\u540c\u611f\u3002"
+    "我也有同感。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u6211\u4e5f\u662f\u8fd9\u6837\u8ba4\u4e3a\u7684\uff0c\u4ed6\u7684\u60f3\u6cd5\u5f88\u72ec\u7279\u3002"
+    "我也是这样认为的，他的想法很独特。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4e5f\u6709\u540c\u611f\u3002",
-  "asr_text_adv": "\u6211\u4e5f\u662f\u8fd9\u6837\u8ba4\u4e3a\u7684\u3002",
+  "asr_text_clean": "我也有同感。",
+  "asr_text_adv": "我也是这样认为的。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8538909554481506,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

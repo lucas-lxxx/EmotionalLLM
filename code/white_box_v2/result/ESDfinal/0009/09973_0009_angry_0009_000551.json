@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u4e00\u5806\u7167\u7247\u554a\uff0c\u591f\u4e86\u3002"
+    "一堆照片啊，够了。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e5f\u5c31\u662f\u4e00\u5927\u5806",
-  "asr_text_adv": "\u6574\u7406\u597d\u4e86\u4e00\u5927\u5806\u7167\u7247\u3002",
+  "asr_text_clean": "也就是一大堆",
+  "asr_text_adv": "整理好了一大堆照片。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4504164159297943,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

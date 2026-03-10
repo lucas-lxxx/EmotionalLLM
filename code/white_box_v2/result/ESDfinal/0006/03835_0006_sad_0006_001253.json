@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u90a3\u91cc\u786e\u5b9e\u662f\u4e2a\u503c\u5f97\u53bb\u7684\u5730\u65b9\uff0c\u5e0c\u671b\u4f60\u65e9\u65e5\u6210\u884c\u3002"
+    "那里确实是个值得去的地方，希望你早日成行。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u5e0c\u671b\u6709\u4e00\u5929\u6211\u4e5f\u80fd\u53bb\u90a3\u91cc\u3002",
+  "asr_text_clean": "希望有一天我也能去那里。",
   "asr_text_adv": "The transcription is: \"What were the most popular trending topics on YouTube and TikTok last year?\"",
   "success_emo": false,
   "wer": 16.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

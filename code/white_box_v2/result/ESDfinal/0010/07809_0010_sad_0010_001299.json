@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u5230\u8fd9\u4e2a\u6d88\u606f\u771f\u8ba9\u4eba\u96be\u8fc7\u3002"
+    "听到这个消息真让人难过。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6700\u597d\u7684\u670b\u53cb\u5df2\u7ecf\u53bb\u4e16\u4e86\u3002",
-  "asr_text_adv": "\"O\u00f9 trouver un voyage qui est bien cool et bon march\u00e9 ?\"",
+  "asr_text_clean": "我最好的朋友已经去世了。",
+  "asr_text_adv": "\"Où trouver un voyage qui est bien cool et bon marché ?\"",
   "success_emo": false,
   "wer": 12.0,
   "semantic_sim": 0.02616921439766884,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u4f60\u660e\u660e\u5f88\u53ef\u7231\u554a\uff0c\u4e3a\u4ec0\u4e48\u8fd9\u4e48\u751f\u6c14\uff1f",
-    "\u662f\u7684\uff0c\u6211\u89c9\u5f97\u4f60\u5f88\u53ef\u7231\u3002"
+    "你明明很可爱啊，为什么这么生气？",
+    "是的，我觉得你很可爱。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u662f\u7684\uff0c\u6211\u89c9\u5f97\u4f60\u5f88\u53ef\u7231\u3002",
-  "asr_text_adv": "\u201c\u6211\u89c9\u5f97\u4f60\u5f88\u53ef\u7231\u3002\u201d",
+  "asr_text_clean": "是的，我觉得你很可爱。",
+  "asr_text_adv": "“我觉得你很可爱。”",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8638861179351807,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

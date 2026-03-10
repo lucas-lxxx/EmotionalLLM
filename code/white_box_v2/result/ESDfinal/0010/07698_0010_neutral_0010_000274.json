@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u53ea\u8981\u4e0d\u8fdd\u6cd5\uff0c\u4f60\u7684\u51b3\u5b9a\u6743\u5728\u81ea\u5df1\u3002"
+    "只要不违法，你的决定权在自己。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u53ea\u8981\u4e0d\u8fdd\u6cd5\uff0c\u6211\u8fd8\u662f\u60f3\u7559\u4e0b\u7684\u3002",
-  "asr_text_adv": "\u53ea\u8981\u4e0d\u8fdd\u6cd5\uff0c\u8fd8\u60f3\u53bb\u54ea\u513f\u90fd\u884c\u3002",
+  "asr_text_clean": "只要不违法，我还是想留下的。",
+  "asr_text_adv": "只要不违法，还想去哪儿都行。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6349303722381592,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

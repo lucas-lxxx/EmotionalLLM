@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u6124\u6012",
-    "\u4f60\u7684\u5065\u5eb7\u6700\u91cd\u8981"
+    "愤怒",
+    "愤怒",
+    "你的健康最重要"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4ed6\u4eec\u4e0d\u4f1a\u727a\u7272\u4f60\u7684\u5065\u5eb7\u6765\u6362\u53d6"
+    "他们不会牺牲你的健康来换取"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4e0d\u4f1a\u727a\u7272\u6211\u7684\u5065\u5eb7\u6765\u6362\u53d6",
-  "asr_text_adv": "\u4ed6\u4eec\u4e0d\u4f1a\u727a\u7272\u6211\u7684\u5065\u5eb7\u6765\u6362\u53d6",
+  "asr_text_clean": "我不会牺牲我的健康来换取",
+  "asr_text_adv": "他们不会牺牲我的健康来换取",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8865826725959778,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -5,9 +5,9 @@
   "ground_truth_emotion": "sad",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u997f\u6b7b\u4e86\uff0c\u542c\u8d77\u6765\nSad",
-    "\u997f\u6b7b\u4e86\uff0c\u4f46\u58f0\u97f3\u91cc\u5e26\u7740\u7b11\uff0c\u5e94\u8be5\u662f\u997f\u6025\u4e86\u8fd8\u5f00\u5fc3\u5462",
-    "\u54ce\u5440\uff0c\u522b\u7740\u6025\uff0c\u6211\u8fd9\u5c31\u7ed9\u4f60\u9001\u70b9\u5403\u7684\u3002"
+    "饿死了，听起来\nSad",
+    "饿死了，但声音里带着笑，应该是饿急了还开心呢",
+    "哎呀，别着急，我这就给你送点吃的。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\u53ef\u4ee5\uff0c\u4f60\u997f\u574f\u4e86\uff0c\u5feb\u8bf4\u8bf4\u9700\u8981\u4ec0\u4e48\u5e2e\u52a9\u3002",
-  "asr_text_adv": "\u5f53\u7136\uff0c\u5b8c\u6574\u7684\u53e5\u5b50\u662f\uff1aThe family is laughing and shouting in happiness.",
+  "asr_text_clean": "当然可以，你饿坏了，快说说需要什么帮助。",
+  "asr_text_adv": "当然，完整的句子是：The family is laughing and shouting in happiness.",
   "success_emo": true,
   "wer": 8.0,
   "semantic_sim": 0.11145474761724472,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

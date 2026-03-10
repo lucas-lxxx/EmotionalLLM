@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u597d\u5440\uff0c\u6211\u4eec\u4f11\u606f\u4e00\u4e0b\u559d\u676f\u5496\u5561\u5427\uff0c\u542c\u8d77\u6765"
+    "好呀，我们休息一下喝杯咖啡吧，听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u5440\uff0c\u6211\u4eec\u4f11\u606f\u4e00\u4e0b\uff0c\u559d\u676f\u5496\u5561\u5427\u3002",
+  "asr_text_clean": "好呀，我们休息一下，喝杯咖啡吧。",
   "asr_text_adv": "The bus arrives at the stop.",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

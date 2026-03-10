@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u7684\u58f0\u97f3\u603b\u662f\u5728\u6211\u5fc3\u91cc\u6643\u6765\u6643\u53bb\uff0c\u50cf\u4e00\u7247\u6e29\u67d4\u7684\u6d9f"
+    "你的声音总是在我心里晃来晃去，像一片温柔的涟"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u7684\u8eab\u5f71\u603b\u662f\u5728\u6211\u5fc3\u91cc\u6643\u6765\u6643\u53bb\u3002",
-  "asr_text_adv": "\u201c\u6211\u4eec\u50cf\u4e24\u9897\u5c0f\u661f\u661f\uff0c\u4e00\u8d77\u5728\u591c\u7a7a\u95ea\u70c1\uff0c\u7559\u4e0b\u95ea\u95ea",
+  "asr_text_clean": "你的身影总是在我心里晃来晃去。",
+  "asr_text_adv": "“我们像两颗小星星，一起在夜空闪烁，留下闪闪",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2869512736797333,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

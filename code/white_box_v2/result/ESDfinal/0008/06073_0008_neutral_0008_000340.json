@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Happy",
     "Happy",
-    "\u6bcf\u5929\u665a\u4e0a\u4e92\u9053\u665a\u5b89\u771f\u5e78\u798f\uff0c\u786e\u5b9e\u5982\u6b64\u3002"
+    "每天晚上互道晚安真幸福，确实如此。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u5e78\u798f"
+    "幸福"
   ],
   "emo_pred_clean": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6bcf\u5929\u665a\u4e0a\u8ddf\u4f60\u4e92\u9053\u665a\u5b89\u771f\u5e78\u798f",
-  "asr_text_adv": "\u6bcf\u5929\u665a\u4e0a\u548c\u4f60\u9053\u665a\u5b89\u771f\u5e78\u798f",
+  "asr_text_clean": "每天晚上跟你互道晚安真幸福",
+  "asr_text_adv": "每天晚上和你道晚安真幸福",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.941028356552124,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

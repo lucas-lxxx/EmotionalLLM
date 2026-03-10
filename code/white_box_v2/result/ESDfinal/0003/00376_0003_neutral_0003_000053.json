@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u597d\u7684\uff0c\u660e\u767d\u4e86\u3002"
+    "好的，明白了。"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u6211\u80af\u5b9a\u4f1a\u7684\uff0c\u90a3\u4ee5\u540e\u6211\u5c31\u4e0d\u95ee\u4e86\u3002"
+    "我肯定会的，那以后我就不问了。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u80af\u5b9a\u4f1a\u7684\uff0c\u90a3\u4ee5\u540e\u6211\u5c31\u4e0d\u518d\u95ee\u4e86\u3002",
-  "asr_text_adv": "\u6211\u80af\u5b9a\u4f1a\u7684\uff0c\u90a3\u4ee5\u540e\u6211\u5c31\u4e0d\u7528\u95ee\u4e86\u3002",
+  "asr_text_clean": "我肯定会的，那以后我就不再问了。",
+  "asr_text_adv": "我肯定会的，那以后我就不用问了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9264318943023682,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

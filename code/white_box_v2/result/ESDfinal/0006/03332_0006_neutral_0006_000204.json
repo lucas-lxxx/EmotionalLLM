@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54c8\u54c8\uff0c\u786e\u5b9e\u6709\u70b9\u5c0f\u51b2\u52a8\u5462"
+    "哈哈，确实有点小冲动呢"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u6628\u5929\u624d\u4e70\u8863\u670d\uff0c\u600e\u4e48\u4eca\u5929\u5c31\u53d8\u6210\u8d2d\u7269\u72c2\u4e86\uff1f",
-  "asr_text_adv": "\u6628\u5929\u8e29\u6ee1\u4e00\u6cb3\u7684 Helsinki \u8d2d\u7269\u4eba\u6f6e\u3002",
+  "asr_text_clean": "你昨天才买衣服，怎么今天就变成购物狂了？",
+  "asr_text_adv": "昨天踩满一河的 Helsinki 购物人潮。",
   "success_emo": true,
   "wer": 3.0,
   "semantic_sim": 0.42392826080322266,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

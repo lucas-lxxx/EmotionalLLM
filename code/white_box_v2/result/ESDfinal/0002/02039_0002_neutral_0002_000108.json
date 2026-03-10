@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u8ba9\u6211\u4eec\u4e00\u8d77\u8ba8\u8bba\u4e00\u4e0b\u5427\u3002",
-    "\u55ef\uff0c\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u8fd8\u662f\u6392\u7403\uff1f\u5404\u6709\u5404\u7684\u7cbe\u5f69\u5462\uff01"
+    "让我们一起讨论一下吧。",
+    "嗯，足球，篮球，还是排球？各有各的精彩呢！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u7684\uff0c\u6211\u4eec\u6765\u770b\u770b\u54ea\u79cd\n\u597d\u7684\uff0c\u6211\u4eec\u6765\u770b\u770b"
+    "好的，我们来看看哪种\n好的，我们来看看"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4eec\u6765\u6bd4\u8f83\u51e0\u79cd\u5e38\u89c1\u7684\u7403\u7c7b\u8fd0\u52a8\u5427\u3002\u8db3\u7403\u6ce8\u91cd\u56e2\u961f\u534f\u4f5c\uff0c\u7bee\u7403\u5f3a\u8c03\u5feb\u901f\u653b\u9632\uff0c\u7fbd\u6bdb\u7403",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u4eec\u6765\u770b\u770b\u54ea\u4e00\u79cd\u7403\u7c7b\u6bd4\u8f83\u9002\u5408\u4f60\u5462\uff1f",
+  "asr_text_clean": "好的，我们来比较几种常见的球类运动吧。足球注重团队协作，篮球强调快速攻防，羽毛球",
+  "asr_text_adv": "好的，我们来看看哪一种球类比较适合你呢？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5497329235076904,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

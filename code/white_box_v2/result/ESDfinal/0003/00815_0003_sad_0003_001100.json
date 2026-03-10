@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u660e\u767d\u4f60\u7684\u611f\u53d7\uff0c\u8fd9\u786e\u5b9e\u8ba9\u4eba\u96be\u8fc7\u3002"
+    "我明白你的感受，这确实让人难过。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u6bcf\u6b21\u89c1\u5230\u4f60\u90fd\u8ba9\u6211\u5fcd\u4e0d\u4f4f\u60f3\u9760\u8fd1\u5462\uff0c\u4f60\u7684\u7b11\u5bb9\u50cf\u9633\u5149\u4e00\u6837\u6e29\u6696"
+    "每次见到你都让我忍不住想靠近呢，你的笑容像阳光一样温暖"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6bcf\u6b21\u53eb\u4f60\u90fd\u4e0d\u7ed9\u7ea2\u5305\uff0c\u4e0d\u5f00\u5fc3\u3002",
-  "asr_text_adv": "\u6bcf\u6b21\u89c1\u5230\u4f60\u90fd\u4f1a\u8ba9\u6211\u60f3\u8d77\u90a3\u9996\u6b4c\uff0c\u7ea2\u706f\u505c\u7eff\u706f\u884c\uff0c\u800c\u6211\u53ea\u60f3\u548c\u4f60\u4e00\u8d77\u6162\u6162\u8d70\u3002",
+  "asr_text_clean": "每次叫你都不给红包，不开心。",
+  "asr_text_adv": "每次见到你都会让我想起那首歌，红灯停绿灯行，而我只想和你一起慢慢走。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3211974799633026,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

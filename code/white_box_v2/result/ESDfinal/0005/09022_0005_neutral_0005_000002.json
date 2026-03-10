@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u201c\u54e6\uff0c\u4f60\u8bf4\u7684\u662f\u90a3\u4f4d\u82f1\u56fd\u54f2\u5b66\u5bb6\u5427\uff1f\u4ed6\u786e\u5b9e\u8bf4\u8fc7\u7c7b\u4f3c\u7684\u8bdd"
+    "“哦，你说的是那位英国哲学家吧？他确实说过类似的话"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "neutral"
   ],
-  "asr_text_clean": "\u82f1\u56fd\u7684\u54f2\u5b66\u5bb6\u66fe\u7ecf\u8bf4\u8fc7\uff0c\u7406\u6027\u662f\u4eba\u7c7b\u6700\u5b9d\u8d35\u7684",
-  "asr_text_adv": "\u82f1\u56fd\u7684\u8d70\u79c0\u8282\u76ee\u4e3b\u6301\u4eba\u8bf4\u8fc7\u7684\u8bdd\u3002",
+  "asr_text_clean": "英国的哲学家曾经说过，理性是人类最宝贵的",
+  "asr_text_adv": "英国的走秀节目主持人说过的话。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.32646673917770386,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

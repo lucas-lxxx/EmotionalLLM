@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u76f4\u7cfb\u4eb2\u5c5e\u4eba\u6570\u4e0d\u591a\u7684\u8bdd\uff0c\u53ef\u80fd\u9700\u8981\u8003\u8651\u5176\u4ed6\u652f\u6301\u7cfb\u7edf\u54e6\u3002"
+    "直系亲属人数不多的话，可能需要考虑其他支持系统哦。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7684\u76f4\u7cfb\u4eb2\u5c5e\u4eba\u6570\u4e0d\u591a\u3002",
-  "asr_text_adv": "\u6211\u7684\u8bad\u7ec3\u4eb2\u5c5e\u4eba\u6570\u7ec4\u4e2d\uff0c\u76ee\u524d\u5171\u6709\u4e94\u4f4d\u6210\u5458\u3002",
+  "asr_text_clean": "我的直系亲属人数不多。",
+  "asr_text_adv": "我的训练亲属人数组中，目前共有五位成员。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4613844156265259,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

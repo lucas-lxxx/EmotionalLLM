@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u542c\u8d77\u6765",
-  "asr_text_adv": "\u6211\u6700\u8fd1\u603b\u53bb\u7f51\u5427",
+  "asr_text_clean": "你听起来",
+  "asr_text_adv": "我最近总去网吧",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3706895112991333,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

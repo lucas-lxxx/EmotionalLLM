@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u8fd9\u4e0b\u53ef\u6709\u7684\u662f\u65f6\u95f4\u966a\u60a8\u6253\u7403"
+    "哎呀，这下可有的是时间陪您打球"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\u6709\u554a\uff0c\u6211\u6bcf\u5929\u90fd\u4f1a\u62bd\u65f6\u95f4\u6253\u4e24\u628a\uff0c\u6700\u8fd1\u8fd8\u52a0\u5165\u4e86\u5468\u672b\u53cb\u8c0a\u8d5b\u5462\uff01",
-  "asr_text_adv": "\u8fd9\u6837\u4f60\u5c31\u6709\u65f6\u95f4\u6253\u6253\u7403",
+  "asr_text_clean": "当然有啊，我每天都会抽时间打两把，最近还加入了周末友谊赛呢！",
+  "asr_text_adv": "这样你就有时间打打球",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.529697835445404,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

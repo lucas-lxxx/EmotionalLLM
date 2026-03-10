@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u4f60\u4e5f\u5728\u73a9\u8fd9\u4e2a\u5440\uff0c\u771f\u5de7\uff01"
+    "哎呀，你也在玩这个呀，真巧！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u539f\u6765\u4f60\u4e5f\u5728\u73a9\u8fd9\u4e2a",
-  "asr_text_adv": "\u672c\u5730\u6e38\u4e5f\u5728\u73a9\u8fd9\u4e00\u6ce2\u5462",
+  "asr_text_clean": "原来你也在玩这个",
+  "asr_text_adv": "本地游也在玩这一波呢",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3811357617378235,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

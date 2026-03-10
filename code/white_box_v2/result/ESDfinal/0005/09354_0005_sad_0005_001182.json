@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5979\u662f\u6211\u6700\u7275\u6302"
+    "她是我最牵挂"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u662f\u6211\u6700\u7275\u6302",
-  "asr_text_adv": "\u6211\u6700\u559c\u6b22\u7684\u90a3\u4e2a\u519c\u573a\uff0c\u662f\u5c0f\u65f6\u5019\u5e38\u53bb\u7684\uff0c\u73b0\u5728\u60f3\u8d77\u6765",
+  "asr_text_clean": "她是我最牵挂",
+  "asr_text_adv": "我最喜欢的那个农场，是小时候常去的，现在想起来",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.21110327541828156,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u6700\u521d\u6211\u7684\u5de5\u4f5c\u662f\u5f53\u4e00\u540d\u670d\u52a1\u5458\u3002"
+    "最初我的工作是当一名服务员。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6700\u521d\u6211\u7684\u5de5\u4f5c\u662f\u5f53\u4e00\u540d\u670d\u52a1\u5458\u3002",
-  "asr_text_adv": "\u9000\u51fa\u6211\u7684\u5de5\u4f5c\u65f6\u5f53\u4e00\u540d\u670d\u52a1\u5458",
+  "asr_text_clean": "最初我的工作是当一名服务员。",
+  "asr_text_adv": "退出我的工作时当一名服务员",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7236510515213013,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

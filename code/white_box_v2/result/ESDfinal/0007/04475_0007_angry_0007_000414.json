@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u597d\u7684\uff0c\u6211\u7b49\u4f60\u665a\u70b9\u56de\u6765\u3002"
+    "好的，我等你晚点回来。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u597d\u5440\uff0c\u665a\u4e0a\u56de\u53bb\u966a\u4f60"
+    "好呀，晚上回去陪你"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u665a\u70b9\u56de\u53bb\u518d\u62cd\u7ed9\u4f60\u3002",
-  "asr_text_adv": "\u597d\u5440\uff0c\u665a\u4e0a\u56de\u53bb\u966a\u4f60",
+  "asr_text_clean": "好的，我明白了，晚点回去再拍给你。",
+  "asr_text_adv": "好呀，晚上回去陪你",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7374664545059204,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

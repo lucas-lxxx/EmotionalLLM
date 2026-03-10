@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u5bf9\u97f3\u4e50\u7684\u70ed\u7231\u771f\u8ba9\u4eba\u656c\u4f69\uff0c\u4e0d\u8fc7\u542c\u8d77\u6765"
+    "你对音乐的热爱真让人敬佩，不过听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\uff0c\u6211\u7b80\u76f4\u79bb\u5f00\u97f3\u4e50\u5c31\u4e0d\u80fd\u6d3b\u3002",
-  "asr_text_adv": "\u5f53\u7136\uff0c\u6211\u7b80\u76f4\u79bb\u5f00\u97f3\u4e50\u5c31\u4e0d\u80fd\u6d3b\u3002",
+  "asr_text_clean": "当然，我简直离开音乐就不能活。",
+  "asr_text_adv": "当然，我简直离开音乐就不能活。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.000000238418579,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54e6\uff0c\u90a3\u4f60\u66f4\u559c\u6b22\u4ec0\u4e48\u8fd0\u52a8\u5462\uff1f"
+    "哦，那你更喜欢什么运动呢？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4f60\u7231\u8fd0\u52a8\uff0c\u4f46\u5bf9\u7bee\u7403\u73a9\u5f97\u4e0d\u591a\uff0c\u8fd9\u5f88\u6709\u8da3\u3002\u53ef\u4ee5"
+    "你爱运动，但对篮球玩得不多，这很有趣。可以"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u7231\u8fd0\u52a8\u554a\uff0c\u4e0d\u8fc7\u7bee\u7403\u597d\u50cf\u4e0d\u592a\u884c\u5462\uff0c\u54c8\u54c8",
-  "asr_text_adv": "\u6211\u7231\u8fd0\u52a8\uff0c\u4f46\u662f\u5bf9\u7bee\u7403\u73a9\u5f97\u4e0d\u591a\u3002",
+  "asr_text_clean": "你爱运动啊，不过篮球好像不太行呢，哈哈",
+  "asr_text_adv": "我爱运动，但是对篮球玩得不多。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.799260139465332,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

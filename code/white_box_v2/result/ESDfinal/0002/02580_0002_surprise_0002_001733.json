@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u771f\u8ba9\u4eba\u60ca\u559c\uff01"
+    "哎呀，真让人惊喜！"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u8fd9\u6751\u8fd9\u5e97\u771f\u597d\u5440\uff0c\u4e0b\u6b21\u518d\u6765\u73a9\uff01"
+    "这村这店真好呀，下次再来玩！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u9519\u8fc7\u8fd9\u6751\u53ef\u5c31\u6ca1\u8fd9\u5e97\u5566\uff01",
-  "asr_text_adv": "\"\u9519\u8fc7\u8fd9\u6751\u53ef\u5c31\u6ca1\u8fd9\u5e97\u54af\uff01\"",
+  "asr_text_clean": "哎呀，错过这村可就没这店啦！",
+  "asr_text_adv": "\"错过这村可就没这店咯！\"",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8659300804138184,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

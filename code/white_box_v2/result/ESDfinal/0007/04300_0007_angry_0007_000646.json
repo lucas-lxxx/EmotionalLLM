@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u8bf4\u5230\u8fd9\u4e2a\uff0c\u6211\u53ef\u592a\u6709\u611f\u89e6\u4e86\u3002\u6211\u6709\u4e2a\u670b\u53cb"
+    "哎呀，说到这个，我可太有感触了。我有个朋友"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "surprise"
   ],
-  "asr_text_clean": "\u8d4c\u535a\u5e38\u5e38\u8ba9\u4eba\u9677\u5165\u56f0\u5883\uff0c\u751a\u81f3\u5f15\u53d1\u5bb6\u5ead\u77db\u76fe\u3002\u8bb8\u591a\u5bb6\u5ead\u56e0\u6b64\u7834\u88c2",
-  "asr_text_adv": "\u4e3b\u64ad\u901a\u5e38\u559c\u6b22\u548c\u89c2\u4f17\u4e92\u52a8\u3002",
+  "asr_text_clean": "赌博常常让人陷入困境，甚至引发家庭矛盾。许多家庭因此破裂",
+  "asr_text_adv": "主播通常喜欢和观众互动。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.14035482704639435,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u60a8\u662f\u8bf4\u4e8c\u6c27\u5316\u78b3"
+    "哦，您是说二氧化碳"
   ],
   "emo_text_adv": [
     "The main air pollutant is carbon monoxide. The emotion of the audio is",
     "happy",
-    "\u4e8c\u6c27\u5316\u78b3"
+    "二氧化碳"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5b83\u662f\u4e00\u4e2a\u4e3b\u8981\u7684\u7a7a\u6c14\u6c61\u67d3\u7269\u3002",
-  "asr_text_adv": "\u4e8c\u6c27\u5316\u78b3",
+  "asr_text_clean": "它是一个主要的空气污染物。",
+  "asr_text_adv": "二氧化碳",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3523603677749634,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

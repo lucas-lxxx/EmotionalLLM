@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u54ea\u4e00\u79cd\u7403\u7c7b\u8fd0\u52a8\u5462\uff1f\u8db3\u7403\u7bee\u7403\u8fd8\u662f\u7fbd\u6bdb\u7403",
-    "\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u8fd8\u662f\u51b0\u7403\uff1f\u5404\u6709\u5404\u7684\u7cbe\u5f69\uff0c\u770b\u4f60\u600e\u4e48\u9009"
+    "愤怒",
+    "哪一种球类运动呢？足球篮球还是羽毛球",
+    "足球，篮球，还是冰球？各有各的精彩，看你怎么选"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u8ba9\u6211\u4eec\u770b\u770b\u54ea\u4e00\u79cd\u7403\u573a\u91cc\u6389\u6c99\u5b50\uff0c\u4f1a\u8ba9\u4eba\u6700\u5f00\u5fc3\u5462\uff1f"
+    "让我们看看哪一种球场里掉沙子，会让人最开心呢？"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8db3\u7403\uff0c\u7bee\u7403\uff0c\u8fd8\u662f\u51b0\u7403\uff1f",
-  "asr_text_adv": "\u8ba9\u6211\u4eec\u770b\u770b\u54ea\u4e00\u79cd\u7403\u573a\u91cc\u6389\u6c99\u5b50\uff0c\u4f1a\u8ba9\u6211\u4eec\u7b11\u51fa\u58f0\u5462\uff1f",
+  "asr_text_clean": "足球，篮球，还是冰球？",
+  "asr_text_adv": "让我们看看哪一种球场里掉沙子，会让我们笑出声呢？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3995109498500824,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u6124\u6012\u7684\u58f0\u97f3\u91cc\u900f\u7740\u575a\u5b9a\uff0c\u50cf\u706b\u5c71\u7194\u5ca9\u88f9\u631f"
+    "愤怒的声音里透着坚定，像火山熔岩裹挟"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5185\u5728\u7f8e\u786e\u5b9e\u66f4\u52a0\u91cd\u8981",
-  "asr_text_adv": "\"Today was amazing! I went to the beach, had a delicious lunch with friends, and the sun kept shining all day. I\u2019m so happy!\"",
+  "asr_text_clean": "内在美确实更加重要",
+  "asr_text_adv": "\"Today was amazing! I went to the beach, had a delicious lunch with friends, and the sun kept shining all day. I’m so happy!\"",
   "success_emo": true,
   "wer": 24.0,
   "semantic_sim": 0.20149199664592743,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

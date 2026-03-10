@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u5b66\u751f\uff0c\u60a8\u597d\uff01\u5f88\u9ad8\u5174\u4e3a\u60a8\u89e3\u7b54\uff0c\u8bf7\u95ee\u6709\u4ec0\u4e48\u95ee\u9898\u5462\uff1f"
+    "学生，您好！很高兴为您解答，请问有什么问题呢？"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u662f\u4e2a\u5b66\u751f\uff0c\u670d\u52a1\u5668\u54cd\u5e94\u8d85\u65f6\u3002",
+  "asr_text_clean": "我是个学生，服务器响应超时。",
   "asr_text_adv": "\"Portia loved painting, and her bold hues made every canvas vibrant and full of life.\"",
   "success_emo": true,
   "wer": 15.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6cd5\u56fd\u5357\u90e8\u7684\u6c14\u5019\u786e\u5b9e\u5f88\u8212\u9002\u5b9c\u4eba\u5462\u3002"
+    "法国南部的气候确实很舒适宜人呢。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5728\u6cd5\u56fd\u5357\u90e8\uff0c\u6c14\u5019\u5e38\u5e74\u8212\u9002\u5b9c\u4eba\u3002",
-  "asr_text_adv": "\u6253\u56fd\u7684\u8d38\u6613\u5173\u7cfb\u957f\u671f\u4fdd\u6301\u7a33\u5b9a\uff0c\u53cc\u65b9\u5408\u4f5c\u8fdb\u5c55\u987a\u5229\u3002",
+  "asr_text_clean": "在法国南部，气候常年舒适宜人。",
+  "asr_text_adv": "打国的贸易关系长期保持稳定，双方合作进展顺利。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.24404993653297424,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u8c22\u8c22\u4f60\u7684\u611f\u8c22\uff01\u6211\u5f88\u4e50\u610f"
+    "哇，谢谢你的感谢！我很乐意"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8c22\u8c22\u4f60",
-  "asr_text_adv": "\u8c22\u8c22\u4f60",
+  "asr_text_clean": "谢谢你",
+  "asr_text_adv": "谢谢你",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

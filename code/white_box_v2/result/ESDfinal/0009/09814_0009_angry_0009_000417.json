@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4f60\u660e\u660e\u7b54\u5e94\u8fc7\u8981\u4e00\u76f4\u966a\u7740"
+    "你明明答应过要一直陪着"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u8fd9\u53e5\u6b4c\u8bcd"
+    "这句歌词"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u6df1\u6df1\u5730",
-  "asr_text_adv": "\u4f60\u6df1\u6df1\u5730",
+  "asr_text_clean": "你深深地",
+  "asr_text_adv": "你深深地",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

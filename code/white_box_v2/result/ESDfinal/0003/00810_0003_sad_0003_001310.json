@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u6211\u542c\u5230\u4f60\u58f0\u97f3\u91cc\u7684\u96be\u8fc7\uff0c\u53bb\u7f51\u5427",
-    "\u4f60\u542c\u8d77\u6765"
+    "我听到你声音里的难过，去网吧",
+    "你听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u51c6\u5907\u53bb\u7f51\u5427",
+  "asr_text_clean": "我准备去网吧",
   "asr_text_adv": "Before her shore leave began, they took a tour of Boundaries.",
   "success_emo": true,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

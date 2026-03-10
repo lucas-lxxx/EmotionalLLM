@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "Angry",
-    "\u4f60\u95ee\u7684\u65f6\u5019\u4ed6\u6709\u6ca1\u6709\u8bf4\u4e0d\u80fd\u4e70\u554a\uff1f"
+    "你问的时候他有没有说不能买啊？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u60a8\u95ee\u7684\u662f\u8fde\u7968\u5417\uff1f",
-  "asr_text_adv": "\u6211\u95ee\u5979\u80fd\u4e0d\u80fd\u8fde\u6211\u7684\u8df3\u5976\u4e00\u8d77\u73a9",
+  "asr_text_clean": "您问的是连票吗？",
+  "asr_text_adv": "我问她能不能连我的跳奶一起玩",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.31282079219818115,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

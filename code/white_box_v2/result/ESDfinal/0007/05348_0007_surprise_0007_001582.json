@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u8fd9\u771f\u662f\u4e2a\u60ca\u559c\u5462\uff01"
+    "哇，这真是个惊喜呢！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u91d1\u989d\u5927\u7ea6\u80fd\u7ef4\u6301\u4e09\u4e2a\u6708\u7684\u751f\u6d3b\u5f00\u9500\u5462\u3002",
-  "asr_text_adv": "\u6211\u6709\u8db3\u591f\u7684",
+  "asr_text_clean": "这金额大约能维持三个月的生活开销呢。",
+  "asr_text_adv": "我有足够的",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.18520446121692657,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

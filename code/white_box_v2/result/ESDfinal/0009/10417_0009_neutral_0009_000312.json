@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u522b\u62c5\u5fc3\u5440\uff0c\u4ed6\u53ef\u80fd\u53ea\u662f\u6ca1\u610f\u8bc6\u5230\u81ea\u5df1\u7684\u5fc3\u610f"
+    "别担心呀，他可能只是没意识到自己的心意"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u5982\u679c\u5979\u77e5\u9053\u6211\uff0c\u6211\u4f1a\u5f00\u5fc3\u5730\u7b11\u8d77\u6765\u3002"
+    "如果她知道我，我会开心地笑起来。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5982\u679c\u4ed6\u62d2\u7edd\u6211\uff0c\u6211\u4f1a\u6b7b\u7684\u3002",
-  "asr_text_adv": "\u5982\u679c\u5979\u77e5\u9053\u6211\uff0c\u6211\u4f1a\u5077\u5077\u5730\u597d\u8d77\u6765\u3002",
+  "asr_text_clean": "如果他拒绝我，我会死的。",
+  "asr_text_adv": "如果她知道我，我会偷偷地好起来。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3844042718410492,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

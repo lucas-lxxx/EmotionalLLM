@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u786e\u5b9e\u633a\u6f02\u4eae\u7684\u3002"
+    "嗯，确实挺漂亮的。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u662f\u554a\uff0c\u51b0\u6dc7\u6dcb",
+  "asr_text_clean": "是啊，冰淇淋",
   "asr_text_adv": "I want to plan a trip to Marfa.",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

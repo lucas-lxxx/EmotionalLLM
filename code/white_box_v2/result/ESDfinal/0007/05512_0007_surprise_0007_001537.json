@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u5f53\u7136\u53ef\u4ee5\uff01\u6709\u4ec0\u4e48\u7279\u522b\u7684\u4e8b\u60c5\u8ba9\u4f60\u611f\u5230\u60ca\u8bb6\u5417\uff1f"
+    "哦，当然可以！有什么特别的事情让你感到惊讶吗？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54e6\uff0c\u4e5f\u8bb8\u80fd\u5e2e\u4f60\u628a\u4e8b\u60c5\u5f04\u6e05\u695a\u5462\u3002",
+  "asr_text_clean": "哦，也许能帮你把事情弄清楚呢。",
   "asr_text_adv": "That sounds lovely. Perhaps we can explore some ideas together.",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

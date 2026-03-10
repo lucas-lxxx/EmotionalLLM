@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u5979\u8fd8\u662f\u6211\u4eec\u7684\u5927\u5b66\u73ed\u4e3b\u4efb\u5462\uff01"
+    "哇，她还是我们的大学班主任呢！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5979\u771f\u68d2\uff0c\u5e26\u9886\u6211\u4eec\u8d62\u5f97\u6bd4\u8d5b\uff01"
+    "她真棒，带领我们赢得比赛！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5f53\u7136\uff0c\u5979\u662f\u6211\u4eec\u7684\u5927\u5b66\u73ed\u957f",
-  "asr_text_adv": "\u5f53\u7136\u4ed6\u662f\u6211\u4eec\u7684\u516b\u5c81\u961f\u957f\u5440",
+  "asr_text_clean": "当然，她是我们的大学班长",
+  "asr_text_adv": "当然他是我们的八岁队长呀",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4077984392642975,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u4f60\u542c\u8d77\u6765",
-    "\u4f60\u7684\u5fc3\u8df3\u58f0\u5728\u68a6\u91cc\u8f7b\u8f7b\u56de\u54cd\uff0c\u7741\u5f00"
+    "你听起来",
+    "你的心跳声在梦里轻轻回响，睁开"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u68a6\u5230\u6211\u4e86\u5417\uff0c\u4eb2\u7231\u7684\uff1f",
+  "asr_text_clean": "你梦到我了吗，亲爱的？",
   "asr_text_adv": "The audience clapped and cheered at the finale in Bolero World.",
   "success_emo": true,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

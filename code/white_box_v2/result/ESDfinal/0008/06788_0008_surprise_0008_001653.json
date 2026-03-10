@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u6211\u786e\u5b9e\u6bd4\u5434\u5f66\u7956\u5e05\uff0c\u6bd5\u7adf\u6211\u6709\u5341\u516b\u4e2a\u5144\u5f1f"
+    "哈哈，我确实比吴彦祖帅，毕竟我有十八个兄弟"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\"Sometimes it feels like waiting forever, but I\u2019m happy to wait for my"
+    "\"Sometimes it feels like waiting forever, but I’m happy to wait for my"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c8\u54c8\uff0c\u6211\u786e\u5b9e\u6bd4\u5434\u5f66\u7956\u5e05\uff0c\u6bd5\u7adf\u6211\u6709\u5341\u516b\u4e2a\u5144\u5f1f\u5462\uff01",
+  "asr_text_clean": "哈哈，我确实比吴彦祖帅，毕竟我有十八个兄弟呢！",
   "asr_text_adv": "Yes, I've waited a long time for this moment.",
   "success_emo": true,
   "wer": 9.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

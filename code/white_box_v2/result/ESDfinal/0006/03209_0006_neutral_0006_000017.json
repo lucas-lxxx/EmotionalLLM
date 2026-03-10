@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u5f88\u5feb\u4f60\u4e0a\u5927\u5b66\u5c31\u7528\u5f97\u5230\u5566\uff0c\u52a0\u6cb9\uff01"
+    "很快你上大学就用得到啦，加油！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f88\u5feb\u4f60\u4e0a\u5927\u5b66\u5c31\u7528\u5f97\u5230\u5566",
-  "asr_text_adv": "\u55ef\uff0c\u597d\u7684\uff0c\u6211\u6765\u60f3\u60f3\u554a\uff0c\u6bd4\u5982\u5728\u8857\u5934\u5531\u6b4c\u80fd\u8d5a\u5230\u94b1\uff0c\u6216\u8005\u5e2e\u4eba\u4fee\u4e1c\u897f\u6362\u70b9\u96f6\u82b1\u94b1\uff0c\u8fd8\u6709\u53ef\u80fd\u9760\u5356\u5c0f\u73a9\u610f\u513f\u6216\u8005\u6446\u644a\u5b50\uff0c\u5bf9\u5427\uff1f",
+  "asr_text_clean": "很快你上大学就用得到啦",
+  "asr_text_adv": "嗯，好的，我来想想啊，比如在街头唱歌能赚到钱，或者帮人修东西换点零花钱，还有可能靠卖小玩意儿或者摆摊子，对吧？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2919287085533142,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

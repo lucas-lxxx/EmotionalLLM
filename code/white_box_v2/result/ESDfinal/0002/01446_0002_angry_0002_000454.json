@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u62b1\u6b49"
+    "抱歉"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u606d\u559c"
+    "恭喜"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u60a8\u67e5\u4e00\u4e0b\u84b8\u9c7c\u7684\u8ba1\u65f6\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u544a\u8bc9\u4f60\u4e00\u4e2a\u7b80\u5355\u7684\u84b8\u9c7c\u65b9\u6cd5\u3002\u9996\u5148\u628a\u9c7c\u6d17\u5e72\u51c0",
+  "asr_text_clean": "好的，我来帮您查一下蒸鱼的计时。",
+  "asr_text_adv": "好的，我来告诉你一个简单的蒸鱼方法。首先把鱼洗干净",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5245997905731201,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

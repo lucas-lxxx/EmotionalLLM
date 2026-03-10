@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u4f60\u603b\u662f\u63a7\u5236\u4e0d\u4e86\u5b83\uff0c\u5bf9\u5427\uff1f",
-  "asr_text_adv": "\u6211\u603b\u662f\u63a7\u5236\u4e0d\u4f4f\u5b83\u3002",
+  "asr_text_clean": "你总是控制不了它，对吧？",
+  "asr_text_adv": "我总是控制不住它。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7225446105003357,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

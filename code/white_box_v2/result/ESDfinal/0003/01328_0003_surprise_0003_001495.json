@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Surprise!",
-    "Surprise! \u6536\u85cf\u53e4\u8463\u542c\u8d77\u6765",
-    "\u54c7\uff0c\u8fd9\u4e2a\u7231\u597d\u771f\u6709\u610f\u601d"
+    "Surprise! 收藏古董听起来",
+    "哇，这个爱好真有意思"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54e6\uff0c\u60a8\u662f\u559c\u6b22\u6536\u96c6\u53e4\u8463\u5440\uff1f",
-  "asr_text_adv": "\u6211\u5012\u662f\u6709\u4e00\u4e2a\u7231\u597d\uff0c\u5c31\u662f\u6536\u85cf\u53e4\u8463\u3002",
+  "asr_text_clean": "哦，您是喜欢收集古董呀？",
+  "asr_text_adv": "我倒是有一个爱好，就是收藏古董。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8005726933479309,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

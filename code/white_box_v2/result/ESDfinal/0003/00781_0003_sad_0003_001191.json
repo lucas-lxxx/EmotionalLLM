@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u6211\u5c31\u662f\u4f1a\u8bf4\u8bdd\u7684\u9e66"
+    "当然可以，我就是会说话的鹦"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u5f53\u7136\u53ef\u4ee5\uff0c\u6211\u5728\u8fd9\u91cc\u966a\u7740",
-  "asr_text_adv": "\u6211\u5b66\u4f1a\u8bf4\u8bdd\u4e86\uff0c\u592a\u68d2\u5566\uff01",
+  "asr_text_clean": "当然可以，我在这里陪着",
+  "asr_text_adv": "我学会说话了，太棒啦！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.473865270614624,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

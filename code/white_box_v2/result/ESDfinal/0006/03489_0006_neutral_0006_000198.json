@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u201c\u5404\u6709\u5343\u79cb\u201d\u561b\uff0c\u54b1\u4eec\u5f97\u4e92\u76f8\u4f53\u8c05\uff0c\u53d6\u957f\u8865"
+    "“各有千秋”嘛，咱们得互相体谅，取长补"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\u77e5\u9053\uff0c\u6211\u4eec\u5404\u6709\u5343\u79cb\u3002",
+  "asr_text_clean": "当然知道，我们各有千秋。",
   "asr_text_adv": "Tongue landed with Arthur on they collided at the golf course.",
   "success_emo": true,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

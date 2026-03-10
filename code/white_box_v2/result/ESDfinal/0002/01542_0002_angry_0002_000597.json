@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u4f60\u7b49\u6211\uff0c\u6211\u7b49\u4f60\uff0c\u54b1\u4eec\u4e00\u8d77\u7b49\u3002"
+    "你等我，我等你，咱们一起等。"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u7b49\u4f60\u5440\uff0c\u5f00\u5fc3\uff01"
+    "等你呀，开心！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u7b49\u4f60\u7b49\u5f97\u4e45\u4e86\u5427\uff0c\u6709\u4ec0\u4e48\u4e8b\u8bf4\u8bf4\u770b\u3002",
-  "asr_text_adv": "\u6211\u5728\u8fd9\u91cc\u7b49\u4f60\uff0c\u4e0d\u9700\u8981\u4efb\u4f55\u7406\u7531\u3002",
+  "asr_text_clean": "等你等得久了吧，有什么事说说看。",
+  "asr_text_adv": "我在这里等你，不需要任何理由。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5275342464447021,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

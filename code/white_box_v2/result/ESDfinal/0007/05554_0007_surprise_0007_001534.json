@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise! Learning new things keeps your mind sharp and curious. Want to explore",
-    "\u54c7\uff0c\u4f60\u5df2\u7ecf\u5f88\u806a\u660e\u5566\uff01\u60f3\u5b66\u66f4\u591a\u5417\uff1f\u5f53\u7136\u53ef\u4ee5\u5440"
+    "哇，你已经很聪明啦！想学更多吗？当然可以呀"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\u53ef\u4ee5\u5440\uff0c\u4f60\u60f3\u5b66\u4e60\u4ec0\u4e48\u5462\uff1f",
+  "asr_text_clean": "当然可以呀，你想学习什么呢？",
   "asr_text_adv": "I want to watch my favorite movie tonight.",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5e26\u4e0a\u4f60\u7684\u5bb6\u4eba\uff0c\u4f46\u522b\u8ba9\u4ed6\u4eec\u77e5\u9053\u4f60\u6709\u4e11\u95fb\u3002"
+    "带上你的家人，但别让他们知道你有丑闻。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5e26\u4e0a\u4f60\u7684\u5bb6\u4eba\uff0c\u4f46\u4ed6\u6709\u4e11\u95fb\u3002",
-  "asr_text_adv": "Hallo! Willkommen im Caf\u00e9. Sch\u00f6n, dass Sie uns besuchen!",
+  "asr_text_clean": "带上你的家人，但他有丑闻。",
+  "asr_text_adv": "Hallo! Willkommen im Café. Schön, dass Sie uns besuchen!",
   "success_emo": true,
   "wer": 9.0,
   "semantic_sim": 0.048549313098192215,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

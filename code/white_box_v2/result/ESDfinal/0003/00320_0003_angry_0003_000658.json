@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry.",
-    "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u4e3a\u4f60\u67e5\u6700\u65b0\u7684\u7bee\u7403\u8d44\u8baf\u3002"
+    "好的，我这就为你查最新的篮球资讯。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u4e3a\u60a8\u67e5\u8be2\u7bee\u7403\u7684\u76f8\u5173\u4fe1\u606f\u3002",
-  "asr_text_adv": "\u6211\u53bb\u67e5\u4e86\u7bee\u7403\u76f8\u5173\u7684\u6700\u65b0\u52a8\u6001\uff0c\u53d1\u73b0NBA\u5b63\u540e\u8d5b",
+  "asr_text_clean": "好的，我这就为您查询篮球的相关信息。",
+  "asr_text_adv": "我去查了篮球相关的最新动态，发现NBA季后赛",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8152093887329102,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\u6ca1\u4e8b\u5566\uff0c\u64e6\u64e6\u5c31\u597d\u5566\u3002"
+    "哎呀没事啦，擦擦就好啦。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u6ca1\u5173\u7cfb"
+    "没关系"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u6ca1\u4e8b\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u5904\u7406\u4e00\u4e0b\u3002",
-  "asr_text_adv": "\u6ca1\u5173\u7cfb",
+  "asr_text_clean": "哎呀，没事的，我来帮你处理一下。",
+  "asr_text_adv": "没关系",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7349130511283875,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

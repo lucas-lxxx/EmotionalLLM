@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6211\u4e0d\u5728\u4e4e\u8fd9\u5bb6\u5e97\u6709\u6ca1\u6709\u540d\uff0c\u6211\u53ea\u5728\u4e4e\u5b83\u6709\u6ca1\u6709\u4eba\u60c5\u5473\u513f"
+    "我不在乎这家店有没有名，我只在乎它有没有人情味儿"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e0d\u5728\u4e4e\u8fd9\u5bb6\u5e97\u6709\u6ca1\u6709\u540d\u3002",
-  "asr_text_adv": "\u6211\u4e0d\u5728\u4e4e\u8fd9\u5bb6\u5e97\u6709\u6ca1\u6709\u540d\u3002",
+  "asr_text_clean": "我不在乎这家店有没有名。",
+  "asr_text_adv": "我不在乎这家店有没有名。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 0.9999998807907104,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

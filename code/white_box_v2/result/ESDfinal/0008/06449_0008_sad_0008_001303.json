@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8c22\u8c22\u4f60\u7684\u8ba4\u53ef\uff0c\u4e0d\u8fc7\u6211\u89c9\u5f97\u81ea\u5df1\u8fd8\u6709\u5f88\u591a\u9700\u8981\u63d0\u5347\u7684\u5730\u65b9\u3002"
+    "谢谢你的认可，不过我觉得自己还有很多需要提升的地方。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u540c\u610f\u4f60\u7684\u89c2\u70b9\uff0c\u4e0d\u8fc7\u6211\u89c9\u5f97\u81ea\u5df1\u8fd8\u6709\u8fdb\u6b65\u7684\u7a7a\u95f4\u3002",
-  "asr_text_adv": "\u6211\u540c\u610f\u4f60\u7684\u89c2\u611f",
+  "asr_text_clean": "我同意你的观点，不过我觉得自己还有进步的空间。",
+  "asr_text_adv": "我同意你的观感",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.698204755783081,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

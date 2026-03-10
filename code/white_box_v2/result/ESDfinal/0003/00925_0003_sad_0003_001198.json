@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u8bb0\u4f4f\u4e86\uff0c\u6709\u4ec0\u4e48\u9700\u8981\u5e2e\u5fd9\u7684\u968f\u65f6\u558a\u6211\u3002"
+    "好的，我记住了，有什么需要帮忙的随时喊我。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u6709\u4e8b\u8bb0\u5f97\u558a\u6211",
-  "asr_text_adv": "\u6211\u4ee5\u540e\u4f1a\u597d\u597d\u8bf4\u8bdd\u7684",
+  "asr_text_clean": "有事记得喊我",
+  "asr_text_adv": "我以后会好好说话的",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5536712408065796,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

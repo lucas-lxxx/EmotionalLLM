@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u5927\u7ea6\u4e00\u4e2a\u5c0f\u65f6"
+    "大约一个小时"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5927\u7ea6\u4e00\u4e2a\u5c0f\u65f6",
-  "asr_text_adv": "\"Wow, that\u2019s incredible! You crushed it\u2014way to nail the presentation and seal the deal! This is huge, mate! Let\u2019s celebrate properly later!\"",
+  "asr_text_clean": "大约一个小时",
+  "asr_text_adv": "\"Wow, that’s incredible! You crushed it—way to nail the presentation and seal the deal! This is huge, mate! Let’s celebrate properly later!\"",
   "success_emo": true,
   "wer": 22.0,
   "semantic_sim": 0.1854936182498932,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

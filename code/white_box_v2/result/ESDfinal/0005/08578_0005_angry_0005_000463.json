@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u54c8\u54c8\uff0c\u6211\u662f\u5728\u9017\u4f60\u73a9\u5462\uff01"
+    "哈哈，我是在逗你玩呢！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u523b\u8584\u4e86\u5427",
-  "asr_text_adv": "\u739b\u4e3d",
+  "asr_text_clean": "你这话说得也太刻薄了吧",
+  "asr_text_adv": "玛丽",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.27905452251434326,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u4f60\u4eec\u73a9\u5f97\u5f00\u5fc3\uff0c\u4f46\u542c\u8d77\u6765",
-    "\u6211\u4eec\u73a9\u5f97\u5f88\u5f00\u5fc3\uff0c\u4f60\u5374\u663e\u5f97\u8fd9\u4e48\u751f\u6c14\uff0c\u6709\u4ec0\u4e48\u4e0d\u5f00\u5fc3\u7684\u4e8b\u5417"
+    "你们玩得开心，但听起来",
+    "我们玩得很开心，你却显得这么生气，有什么不开心的事吗"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u4eec\u73a9\u5f97\u633a\u5f00\u5fc3\u7684\u561b\uff0c\u600e\u4e48\u8fd8\u751f\u6c14\u4e86\uff1f",
-  "asr_text_adv": "\u542c\u8d77\u6765",
+  "asr_text_clean": "你们玩得挺开心的嘛，怎么还生气了？",
+  "asr_text_adv": "听起来",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3182050287723541,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

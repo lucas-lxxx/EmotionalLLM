@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5927\u90e8\u5206\u90fd\u662f\u7528\u8bf1\u9975"
+    "大部分都是用诱饵"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5927\u90e8\u5206\u90fd\u662f\u7528\u8bf1\u9975",
+  "asr_text_clean": "大部分都是用诱饵",
   "asr_text_adv": "\"Ow, I did something really bad! I accidentally stepped in a pile of yucky mud and now my shoes are all squishy. Do you think Mommy will be mad?\"",
   "success_emo": true,
   "wer": 29.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

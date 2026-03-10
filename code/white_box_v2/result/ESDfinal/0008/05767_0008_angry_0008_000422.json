@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u7740\u6025\uff0c\u5148\u6df1\u547c\u5438\uff0c\u54b1\u4eec\u4e00\u8d77\u60f3\u529e\u6cd5\u627e\u8d44\u6599\uff01"
+    "哎呀，别着急，先深呼吸，咱们一起想办法找资料！"
   ],
   "emo_text_adv": [
     "Happy",
     "Surprise!",
-    "\u7b11\u6b7b\u6211\u4e86\uff0c\u771f\u7684\u5417\uff1f"
+    "笑死我了，真的吗？"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u8d44\u6599\u5168\u90fd\u4e0d\u89c1\u4e86\uff0c\u6c14\u6b7b\u6211\u4e86\uff01",
-  "asr_text_adv": "\u8bf6\u5440\uff0c\u8d44\u6599\u5168\u90fd\u4e0d\u89c1\u4e86\uff0c\u6025\u5f97\u76f4\u62cd\u8111\u888b\u5427\uff1f",
+  "asr_text_clean": "资料全都不见了，气死我了！",
+  "asr_text_adv": "诶呀，资料全都不见了，急得直拍脑袋吧？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8470956683158875,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

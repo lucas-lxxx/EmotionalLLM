@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u786e\u5b9e\u662f\u4e2a\u5927\u597d\u6d88\u606f\uff0c\u4e0d\u8fc7\u73b0\u5728\u53ef\u80fd\u6709\u70b9\u65e9\u3002",
+  "asr_text_clean": "这确实是个大好消息，不过现在可能有点早。",
   "asr_text_adv": "\"Fantastic, thrilling, amazing, incredible, and breathtaking!\"",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

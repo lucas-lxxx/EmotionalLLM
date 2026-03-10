@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54c8\u54c8\uff0c\u786e\u5b9e\u6709\u70b9\u5c0f\u8c03\u76ae"
+    "哈哈，确实有点小调皮"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u6211\u4e5f\u89c9\u5f97\u597d\u5f00\u5fc3\u5440\uff01"
+    "哈哈，我也觉得好开心呀！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u786e\u5b9e\u633a\u64c5\u957f\u6316\u82e6\u4eba\u7684\uff0c\u739b\u4e3d",
-  "asr_text_adv": "\u6c64\u529b\uff0c\u4f60\u770b\u8d77\u6765\u5f88\u559c\u6b22\u73a9\u6276\u6211\u3002",
+  "asr_text_clean": "你确实挺擅长挖苦人的，玛丽",
+  "asr_text_adv": "汤力，你看起来很喜欢玩扶我。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5644522905349731,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

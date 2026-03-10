@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u6211\u4e5f\u662f\u8fd9\u4e48\u60f3\u7684\u3002"
+    "我也是这么想的。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e5f\u6709\u540c\u611f\u3002",
-  "asr_text_adv": "\u53e3\u9999\u7cd6\uff0c\u6240\u6709\u8fc7\u591c\uff0c\u5c31\u8fd9\u6837\uff0c\u8ba4\u4e3a\u5728\uff0c\u5feb\u4e50\u3002",
+  "asr_text_clean": "我也有同感。",
+  "asr_text_adv": "口香糖，所有过夜，就这样，认为在，快乐。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.43018996715545654,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

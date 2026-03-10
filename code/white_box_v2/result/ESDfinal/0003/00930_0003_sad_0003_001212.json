@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u554a\uff0c\u4f60\u4e5f\u5728\u73a9\u8fd9\u4e2a\u5417\uff1f"
+    "啊，你也在玩这个吗？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5176\u5b9e\u4e5f\u5728\u73a9\u8fd9\u4e2a\u5462\uff0c\u8981\u4e0d\u8981\u4e00\u8d77\uff1f",
+  "asr_text_clean": "我其实也在玩这个呢，要不要一起？",
   "asr_text_adv": "\"Then we'll ride our bikes and sing a song and then we'll go home and have a snack and maybe play a game and then we'll say goodnight.\"",
   "success_emo": true,
   "wer": 28.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5979\u73b0\u5728\u5fc3\u60c5\u4e0d\u597d\uff0c\u522b\u6253\u6270"
+    "她现在心情不好，别打扰"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
     "Neutral",
-    "\u5979\u73b0\u5728\u5fc3\u60c5\u5f88\u597d\u5462\u3002"
+    "她现在心情很好呢。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u5979\u6b64\u523b\u5931\u4e1a\u4e86\uff0c\u4f60\u6700\u597d\u4e0d\u8981",
-  "asr_text_adv": "\u5979\u6b64\u523b\u5931\u4e1a\u4e86\uff0c\u524d\u9014\u672a\u535c\u3002",
+  "asr_text_clean": "她此刻失业了，你最好不要",
+  "asr_text_adv": "她此刻失业了，前途未卜。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8224385976791382,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

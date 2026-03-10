@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8fd9\u4e2a\u4f4d\u7f6e\u786e\u5b9e\u4e0d\u9519\uff0c\u4e0d\u8fc7\u60a8\u597d\u50cf\u4e0d\u592a\u6ee1\u610f\uff1f\u9700\u8981\u5e2e\u60a8\u8c03\u6574\u4e00\u4e0b"
+    "这个位置确实不错，不过您好像不太满意？需要帮您调整一下"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u4e2a\u4f4d\u7f6e\u4e0d\u9519\uff0c\u4e0b\u8f66\u5427\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\u3002",
+  "asr_text_clean": "这个位置不错，下车吧。",
+  "asr_text_adv": "好的，我来转录一下。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5621471405029297,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

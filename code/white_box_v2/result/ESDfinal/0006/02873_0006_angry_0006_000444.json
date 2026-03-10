@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u60ca\u8bb6\u7684\u6837\u5b50\uff0c\u6211\u90fd\u6709\u70b9\u597d\u5947\u4e86\u3002"
+    "你这惊讶的样子，我都有点好奇了。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u8fd9\u4e8b\u513f\u786e\u5b9e\u633a\u53cd\u5e38\u7684\uff0c\u6211\u80fd\u7406\u89e3\u4f60\u4e3a\u5565",
-  "asr_text_adv": "\u8fd9\u771f\u662f\u4e2a\u795e\u5947\u7684\u53d1\u73b0\uff01",
+  "asr_text_clean": "这事儿确实挺反常的，我能理解你为啥",
+  "asr_text_adv": "这真是个神奇的发现！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.438689649105072,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

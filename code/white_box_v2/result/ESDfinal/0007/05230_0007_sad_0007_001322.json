@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u660e\u5929\u5929\u6c14\u591a\u4e91\u8f6c\u6674\uff0c\u4e0d\u8fc7\u6709\u96f7\u9635\u96e8\uff0c\u8bb0\u5f97\u5e26\u4f1e"
+    "明天天气多云转晴，不过有雷阵雨，记得带伞"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u8f6c\u5f55\u4e00\u4e0b\uff1a\u5b81\u6ce2\u660e\u5929\u6709\u96f7\u9635\u96e8\uff0c\u591a\u4e91\u8f6c\u6674\u3002",
-  "asr_text_adv": "\u5979\u663e\u5f97\u683c\u5916\u6709\u9b45\u529b\uff0c\u7b11\u5bb9\u6e29\u6696\uff0c\u773c\u795e\u660e\u4eae\uff0c\u6574\u4e2a\u4eba\u90fd\u6563\u53d1\u7740",
+  "asr_text_clean": "好的，我来转录一下：宁波明天有雷阵雨，多云转晴。",
+  "asr_text_adv": "她显得格外有魅力，笑容温暖，眼神明亮，整个人都散发着",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.0912950336933136,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

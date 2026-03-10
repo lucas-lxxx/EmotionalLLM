@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4ed6\u4eec\u53ef\u80fd\u6709\uff0c\u4f46\u4e0d\u4e00\u5b9a\u54e6\u3002"
+    "他们可能有，但不一定哦。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e2a\u4eba\u6536\u85cf\u5bb6\uff0c\u4ed6\u4eec\u80af\u5b9a\u6709\u3002",
-  "asr_text_adv": "\u4e2a\u4eba\u6536\u85cf\u5bb6\uff0c\u4ed6\u4eec\u80af\u5b9a\u6709\u3002",
+  "asr_text_clean": "个人收藏家，他们肯定有。",
+  "asr_text_adv": "个人收藏家，他们肯定有。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

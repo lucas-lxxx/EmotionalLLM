@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u60a8\u80fd\u518d\u89e3\u91ca\u5f97\u8be6\u7ec6\u4e9b\u5417\uff1f"
+    "您能再解释得详细些吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u53e5\u8bdd\u7684\u610f\u601d\u6211\u4e0d\u592a\u660e\u767d\u3002",
-  "asr_text_adv": "\u7f8e\u4e3d\u7684\u58c1\u753b",
+  "asr_text_clean": "这句话的意思我不太明白。",
+  "asr_text_adv": "美丽的壁画",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.07546129077672958,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

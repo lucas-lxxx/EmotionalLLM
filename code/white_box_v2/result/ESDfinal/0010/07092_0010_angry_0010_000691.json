@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u8868\u60c5\u771f\u591f\u5413\u4eba\u7684\uff0c\u6211\u53ef\u4e0d\u60f3\u5f53\u4f60\u7684\u9b3c\u8138\u753b"
+    "你这表情真够吓人的，我可不想当你的鬼脸画"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u8868\u60c5\u771f\u591f\u5413\u4eba\u7684",
-  "asr_text_adv": "\u6211\u540e\u9662\u91cc\u6709\u4e00\u6761\u5c0f\u6eaa\uff0c\u6c34\u5f88\u6e05\u6f88",
+  "asr_text_clean": "你这表情真够吓人的",
+  "asr_text_adv": "我后院里有一条小溪，水很清澈",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.008139245212078094,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u542c\u8d77\u6765"
+    "你听起来"
   ],
   "emo_text_adv": [
     "Neutral",
     "Surprise.",
-    "\u6709\u4e00\u5929\u6211\u4e5f\u80fd\u53bb\u90a3\u91cc\u73a9\u5417"
+    "有一天我也能去那里玩吗"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u5e0c\u671b\u6709\u4e00\u5929\u6211\u80fd\u53bb\u90a3\u91cc",
-  "asr_text_adv": "\u6211\u6709\u4e00\u5929\u4e5f\u53ef\u4ee5\u53bb\u90a3\u91cc\u5417\uff1f",
+  "asr_text_clean": "希望有一天我能去那里",
+  "asr_text_adv": "我有一天也可以去那里吗？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8388512134552002,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

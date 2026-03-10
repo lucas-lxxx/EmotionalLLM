@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u6211\u5012\u89c9\u5f97\u4ed6\u4fe9\u5404\u6709\u5404\u7684\u5e05\u6c14"
+    "哇，真的吗？我倒觉得他俩各有各的帅气"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u6211\u6bd4\u5434\u4ea6\u51e1\u5e05\uff1f\u8fd9\u786e\u5b9e\u6709\u70b9\u51fa\u4e4e\u610f\u6599\u5462\uff01",
+  "asr_text_clean": "哇，我比吴亦凡帅？这确实有点出乎意料呢！",
   "asr_text_adv": "Billie Eilish and I share similar opinions.",
   "success_emo": false,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

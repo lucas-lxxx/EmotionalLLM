@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u6bd4\u8d5b\u786e\u5b9e\u6709\u70b9\u51b7\u6e05\u554a"
+    "这比赛确实有点冷清啊"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u53ef\u771f\u4e0d\u50cf\u662f\u51a0\u519b\u4e89\u593a\u6218\u554a",
-  "asr_text_adv": "\u8fd9\u4f1a\u513f\u6c5f\u8fb9\u50cf\u7740\u4e86\u706b\u4f3c\u7684\uff0c\u7ea2\u5f97\u8000\u773c",
+  "asr_text_clean": "这可真不像是冠军争夺战啊",
+  "asr_text_adv": "这会儿江边像着了火似的，红得耀眼",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.1080952137708664,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

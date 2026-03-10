@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u597d\u5440\uff0c\u4f60\u60f3\u529e\u4ec0\u4e48\u4e3b\u9898\u7684\u6d3e\u5bf9\u5462\uff1f",
-    "\u597d\u5440\uff0c\u4f60\u60f3\u529e\u4ec0\u4e48\u4e3b\u9898\u7684\u6d3e\u5bf9\u5462\uff1f"
+    "好呀，你想办什么主题的派对呢？",
+    "好呀，你想办什么主题的派对呢？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u8ba9\u6211\u4eec\u4e00\u8d77\u8df3\u7ef3\u5427\uff01"
+    "好呀，让我们一起跳绳吧！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5f53\u7136\u53ef\u4ee5\uff0c\u4f60\u60f3\u529e\u4ec0\u4e48\u4e3b\u9898\u7684\u6d3e\u5bf9\u5462\uff1f",
-  "asr_text_adv": "\u5f53\u7136\u53ef\u4ee5\u5440\uff0c\u5c0f\u670b\u53cb\uff0c\u4f60\u60f3\u548c\u670b\u53cb\u4eec\u4e00\u8d77\u73a9\u4ec0\u4e48\u6e38\u620f\u5462\uff1f",
+  "asr_text_clean": "当然可以，你想办什么主题的派对呢？",
+  "asr_text_adv": "当然可以呀，小朋友，你想和朋友们一起玩什么游戏呢？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5298037528991699,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

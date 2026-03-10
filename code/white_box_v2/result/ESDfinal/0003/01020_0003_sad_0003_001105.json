@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u786e\u5b9e\u4f1a\u5f62\u6210\u4e8c\u6c27\u5316\u78b3"
+    "这确实会形成二氧化碳"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5b83\u5b9e\u9645\u4f1a\u5f62\u6210\u4e8c\u6c27\u5316\u78b3",
+  "asr_text_clean": "它实际会形成二氧化碳",
   "asr_text_adv": "The questions and answers in the tour guidebook for Harajuku are as follows.",
   "success_emo": true,
   "wer": 13.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

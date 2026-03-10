@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u597d\u7684\uff0c\u9a6c\u4e0a\u4e3a\u60a8\u51c6\u5907\u4e00\u4e9b\u5f69\u7403\u548c\u7eb8\u82b1\uff0c\u795d\u60a8\u6709\u4e2a\u6109\u5feb"
+    "好的，马上为您准备一些彩球和纸花，祝您有个愉快"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5f69\u7403\u548c\u7eb8\u82b1\u5440\uff0c\u8ba9\u6211\u60f3\u8d77\u5c0f\u65f6\u5019\u8fc7\u5e74\u7684\u559c\u5e86\uff0c\u4e00"
+    "彩球和纸花呀，让我想起小时候过年的喜庆，一"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u9a6c\u4e0a\u4e3a\u60a8\u51c6\u5907\u5f69\u7403\u548c\u7eb8\u82b1\u3002",
-  "asr_text_adv": "\u5f69\u7403\u548c\u7eb8\u82b1\u5440\uff0c\u4e00\u8d77\u5e86\u795d\u5feb\u4e50\u65f6\u5149\uff01",
+  "asr_text_clean": "好的，马上为您准备彩球和纸花。",
+  "asr_text_adv": "彩球和纸花呀，一起庆祝快乐时光！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8312892317771912,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

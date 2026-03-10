@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5047\u7684\uff1f\u8fd9\u4e5f\u592a\u5de7\u4e86\u5427\uff01"
+    "哇，真的假的？这也太巧了吧！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u6700\u597d\u7684\u670b\u53cb\u5c31\u7ea6\u4f1a",
-  "asr_text_adv": "\u6211\u6700\u597d\u7684\u670b\u53cb\u5c31\u7ea6\u4f1a",
+  "asr_text_clean": "你最好的朋友就约会",
+  "asr_text_adv": "我最好的朋友就约会",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9453809261322021,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

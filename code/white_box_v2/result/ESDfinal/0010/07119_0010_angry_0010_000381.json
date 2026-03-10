@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u62b1\u6b49"
+    "抱歉"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u751f\u65e5\u5feb\u4e50\u5440\uff0c\u5c0f\u5bff\u661f\uff01"
+    "生日快乐呀，小寿星！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u62b1\u6b49",
-  "asr_text_adv": "\u670b\u53cb\u805a\u4f1a\uff0c\u751f\u65e5\u6d3e\u5bf9\uff0c\u8fd8\u6709\u8282\u65e5\u5e86\u5178",
+  "asr_text_clean": "抱歉",
+  "asr_text_adv": "朋友聚会，生日派对，还有节日庆典",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.15881307423114777,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

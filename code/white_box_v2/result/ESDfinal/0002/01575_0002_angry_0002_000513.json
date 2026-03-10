@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Surprise.",
-    "\u54e6\uff0c\u771f\u7684\u5417\uff1f\u6211\u600e\u4e48\u4e0d\u8ba4\u8bc6"
+    "哦，真的吗？我怎么不认识"
   ],
   "emo_text_adv": [
     "Surprise.",
     "Surprise.",
-    "\u54e6\uff0c\u6211\u8ba4\u8bc6\u5f17\u5170\u514b\uff01\u4ed6\u4eca\u5929\u7279\u522b\u5f00\u5fc3\u5462\uff01"
+    "哦，我认识弗兰克！他今天特别开心呢！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u6211\u8fd8\u4e0d\u77e5\u9053\u4f60\u8ba4\u8bc6\u5f17\u5170\u514b",
-  "asr_text_adv": "\u6211\u8fd8\u4e0d\u77e5\u9053\u4f60\u8ba4\u8bc6\u5f17\u5170\u514b\u5462",
+  "asr_text_clean": "我还不知道你认识弗兰克",
+  "asr_text_adv": "我还不知道你认识弗兰克呢",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9873793721199036,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

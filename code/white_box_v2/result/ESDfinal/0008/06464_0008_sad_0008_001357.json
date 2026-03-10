@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5185\u5728\u7f8e\u786e\u5b9e\u5e38\u5e38\u6bd4\u5916\u5728\u66f4\u91cd\u8981"
+    "内在美确实常常比外在更重要"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5185\u5728\u7f8e\u786e\u5b9e\u6709\u65f6\u6bd4\u5916\u5728\u66f4\u91cd\u8981",
-  "asr_text_adv": "\u6709\u65f6\u5019\u5462\uff0c\u989c\u8272\u5728\u97f3\u4e50\u91cc\u786e\u5b9e\u633a\u91cd\u8981\u7684\uff0c\u5b83\u80fd\u8ba9\u65cb\u5f8b",
+  "asr_text_clean": "内在美确实有时比外在更重要",
+  "asr_text_adv": "有时候呢，颜色在音乐里确实挺重要的，它能让旋律",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4567869007587433,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

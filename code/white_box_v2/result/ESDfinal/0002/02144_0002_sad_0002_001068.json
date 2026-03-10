@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u90a3\u6211\u4eec\u53bb\u4e2a\u5927\u5bb6\u90fd\u5f00\u5fc3\u7684\u5730\u65b9\u5427\u3002"
+    "那我们去个大家都开心的地方吧。"
   ],
   "emo_text_adv": [
     "Neutral",
     "happy",
-    "\u597d\u5440\uff0c\u6211\u4eec\u53bb\u516c\u56ed\u73a9\u5427\uff01"
+    "好呀，我们去公园玩吧！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4eec\u610f\u89c1\u4e0d\u5408\uff0c\u90a3\u54b1\u4eec\u522b\u53bb\u90a3\u513f\u73a9\u4e86\u3002",
-  "asr_text_adv": "\u6211\u4eec\u610f\u89c1\u4e0d\u5408\uff0c\u54b1\u4eec\u53bb\u54ea\u73a9\u5440\uff1f",
+  "asr_text_clean": "我们意见不合，那咱们别去那儿玩了。",
+  "asr_text_adv": "我们意见不合，咱们去哪玩呀？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7710494995117188,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

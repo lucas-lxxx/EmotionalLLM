@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u786e\u5b9e\u5404\u6709\u5343\u79cb\u5462\uff01"
+    "哈哈，确实各有千秋呢！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\u77e5\u9053\uff0c\u6211\u4eec\u5404\u6709\u5343\u79cb\u561b\u3002",
-  "asr_text_adv": "\u5f53\u7136\u77e5\u9053\u5566\uff0c\u6211\u4eec\u4e0d\u662f\u4e00\u76f4\u90fd\u5728\u8fd9\u91cc\u561b\u3002",
+  "asr_text_clean": "当然知道，我们各有千秋嘛。",
+  "asr_text_adv": "当然知道啦，我们不是一直都在这里嘛。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5088189840316772,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

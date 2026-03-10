@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u8fd9\u786e\u5b9e\u633a\u8ba9\u4eba\u60ca\u8bb6\u7684"
+    "这确实挺让人惊讶的"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u786e\u5b9e\u633a\u8ba9\u4eba\u56f0\u60d1\u7684",
-  "asr_text_adv": "\u90a3\u7fa4\u9e45\u5728\u6e38\u6cf3\u540e\u5c31\u5f00\u59cb\u560e\u560e\u53eb\u7740\u56f4\u6210\u4e00\u5708\u8df3\u821e\u4e86",
+  "asr_text_clean": "这确实挺让人困惑的",
+  "asr_text_adv": "那群鹅在游泳后就开始嘎嘎叫着围成一圈跳舞了",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.1974923312664032,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

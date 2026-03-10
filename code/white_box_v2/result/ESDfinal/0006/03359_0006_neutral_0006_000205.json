@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u53ef\u80fd\u4ed6\u7761\u5f97\u592a\u6c89\u6ca1\u542c\u89c1\u5462\uff0c\u8bd5\u8bd5\u8f7b\u8f7b\u53eb\u4ed6\uff0c\u8bf4\u4e0d\u5b9a\u4f1a"
+    "可能他睡得太沉没听见呢，试试轻轻叫他，说不定会"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u53eb\u5979\u8d77\u5e8a\uff0c\u5979\u600e\u4e48\u4f1a\u4e0d\u65e9\u8d77\u5462\uff1f",
+  "asr_text_clean": "叫她起床，她怎么会不早起呢？",
   "asr_text_adv": "The transcription is: \"While they are grateful at the bunker, most of them are with hotel and restaurant bookings.\"",
   "success_emo": true,
   "wer": 19.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

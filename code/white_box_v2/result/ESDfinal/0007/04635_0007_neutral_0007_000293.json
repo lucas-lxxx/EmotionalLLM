@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u542c\u5230\u60a8\u8bf4\u201c\u632f\u4f5c\u70b9\uff0c\u6211\u770b\u5230\u5c4f\u5e55\u663e\u793a\u201d\uff0c"
+    "好的，我听到您说“振作点，我看到屏幕显示”，"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u770b\u5230\u4e86\u5c4f\u5e55\u663e\u793a\u3002",
+  "asr_text_clean": "我看到了屏幕显示。",
   "asr_text_adv": "The transcription is: This weekend, the tour manager filled the high volume of work with her team.",
   "success_emo": true,
   "wer": 17.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

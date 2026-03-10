@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u88c1\u5224\u5458\u5224\u7f5a\u4e86\u6ee1\u5206"
+    "裁判员判罚了满分"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u88c1\u5224\u5458\u5224\u7f5a\u4e86\u6ee1\u5206",
+  "asr_text_clean": "裁判员判罚了满分",
   "asr_text_adv": "The response to the speech request is: \"I had an amazing time this past year. It was filled with exciting moments and unforgettable experiences.\"",
   "success_emo": true,
   "wer": 24.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

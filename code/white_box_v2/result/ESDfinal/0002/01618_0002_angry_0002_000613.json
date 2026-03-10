@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u55ef\uff0c\u542c\u8d77\u6765"
+    "嗯，听起来"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "perhaps"
   ],
-  "asr_text_clean": "\u4e5f\u8bb8\u53cd\u5012\u662f\u4ef6\u597d\u4e8b",
-  "asr_text_adv": "\u4e5f\u8bb8\u53cd\u5012\u662f\u4ef6\u597d\u4e8b",
+  "asr_text_clean": "也许反倒是件好事",
+  "asr_text_adv": "也许反倒是件好事",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 0.9999998807907104,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

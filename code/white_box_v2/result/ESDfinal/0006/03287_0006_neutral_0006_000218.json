@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u597d\u554a\uff0c\u5468\u672b\u4e00\u8d77\u53bb\u547c\u5438\u65b0\u9c9c\u7a7a\u6c14\u5427\u3002",
-    "\u597d\u554a\uff0c\u5468\u672b\u53bb\u90ca\u6e38\u600e\u4e48\u6837\uff1f"
+    "好啊，周末一起去呼吸新鲜空气吧。",
+    "好啊，周末去郊游怎么样？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u554a\uff0c\u660e\u5929\u53bb\u516c\u56ed\u6563\u6b65\u600e\u4e48\u6837\uff1f",
+  "asr_text_clean": "好啊，明天去公园散步怎么样？",
   "asr_text_adv": "I am timing my massage with the T-cell woman at the hotel treatment room.",
   "success_emo": true,
   "wer": 14.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

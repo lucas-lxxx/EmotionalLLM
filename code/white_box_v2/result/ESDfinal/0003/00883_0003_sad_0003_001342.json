@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u55ef\uff0c\u542c\u8d77\u6765"
+    "嗯，听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u4e5f\u8bb8\u53ef\u4ee5\u627e\u4e2a\u673a\u4f1a\u548c\u4ed6\u597d\u597d\u804a\u804a",
+  "asr_text_clean": "嗯，也许可以找个机会和他好好聊聊",
   "asr_text_adv": "The transcription is: \"We should reserve for carpeting a patch of the forest.\"",
   "success_emo": true,
   "wer": 13.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

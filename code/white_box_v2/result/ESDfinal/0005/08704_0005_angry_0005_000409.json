@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u968f\u6027\u4e86\u5427\uff0c\u6211\u542c\u7740\u90fd\u66ff\u4f60\u62c5\u5fc3"
+    "你这话说得也太随性了吧，我听着都替你担心"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u73a9\u5f97\u5f00\u5fc3"
+    "玩得开心"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u53ea\u8981\u6211\u80fd\u73a9\u597d\u7684\u6211\u90fd\u559c\u6b22",
-  "asr_text_adv": "\u53ea\u8981\u6211\u80fd\u73a9\u5f97\u5f00\u5fc3\uff0c\u6211\u5c31\u559c\u6b22",
+  "asr_text_clean": "只要我能玩好的我都喜欢",
+  "asr_text_adv": "只要我能玩得开心，我就喜欢",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8955709934234619,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

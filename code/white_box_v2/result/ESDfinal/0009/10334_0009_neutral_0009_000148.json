@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6709\u4e8b\u8bb0\u5f97\u558a\u6211\u3002"
+    "好的，有事记得喊我。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "surprise"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6709\u4e8b\u8bb0\u5f97\u558a\u6211\u3002",
-  "asr_text_adv": "\u4e5d\u5341\u5e74\u4ee3\u7684\u7cd6\u6211",
+  "asr_text_clean": "好的，有事记得喊我。",
+  "asr_text_adv": "九十年代的糖我",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4326578378677368,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

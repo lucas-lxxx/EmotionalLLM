@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\"\u54e6\uff0c\u62b1\u6b49"
+    "\"哦，抱歉"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u8bf7\u52ff\u8fdb\u5165\u7af9\u6797\uff0c\u4e0d\u8bb8\u8fdb\uff01\u201d",
-  "asr_text_adv": "\u5c0f\u8def\uff0c\u805a\u5149\uff0c\u4e1b\u6797",
+  "asr_text_clean": "“请勿进入竹林，不许进！”",
+  "asr_text_adv": "小路，聚光，丛林",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.43875861167907715,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

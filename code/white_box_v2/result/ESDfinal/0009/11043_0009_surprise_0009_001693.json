@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u771f\u7684\u5047\u7684\uff1f\u5feb\u544a\u8bc9\u6211\u600e\u4e48\u56de\u4e8b\uff01"
+    "哎呀，真的假的？快告诉我怎么回事！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u771f\u7684\u5047\u7684\uff1f\u5c4f\u5e55\u663e\u793a\u5565\u4e86\uff1f",
+  "asr_text_clean": "哎呀，真的假的？屏幕显示啥了？",
   "asr_text_adv": "\"Did you know that Mars once had rivers and lakes? Scientists found rocks shaped by water, hinting at a time when the Red Planet might have hosted life!\"",
   "success_emo": true,
   "wer": 28.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6bd4\u65b9\u8bf4\u300a\u534e\u5c14\u8857",
-  "asr_text_adv": "\u6bd4\u5982\u8bf4\u300a\u5bcc\u5c14\u65e5\u300b\u65e5\u62a5\u7684\u65b0\u95fb\u5f88\u597d\u3002",
+  "asr_text_clean": "比方说《华尔街",
+  "asr_text_adv": "比如说《富尔日》日报的新闻很好。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.33407315611839294,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

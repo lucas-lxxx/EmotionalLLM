@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Neutral",
-    "\u6211\u4eec\u6cbf\u7740\u5c0f\u6eaa\u8d70\uff0c\u522b\u62c5\u5fc3\uff0c\u4e00\u5207\u90fd\u4f1a\u597d\u8d77\u6765\u7684\u3002"
+    "我们沿着小溪走，别担心，一切都会好起来的。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u6cbf\u7740\u5c0f\u6eaa\u8d70\u5427\uff0c\u522b\u62c5\u5fc3\uff0c\u4e00\u5207\u90fd\u4f1a\u597d\u8d77\u6765\u7684\u3002",
-  "asr_text_adv": "\u6211\u4eec\u6cbf\u7740\u5c0f\u6eaa\u8d70\u3002",
+  "asr_text_clean": "我们沿着小溪走吧，别担心，一切都会好起来的。",
+  "asr_text_adv": "我们沿着小溪走。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7105389833450317,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5341\u70b9\u6574\u3002"
+    "十点整。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5341\u70b9\u6574\u3002"
+    "十点整。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5341\u70b9\u6574\u3002",
-  "asr_text_adv": "\u5341\u70b9\u6574\u3002",
+  "asr_text_clean": "十点整。",
+  "asr_text_adv": "十点整。",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

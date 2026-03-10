@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54e6\uff0c\u60a8\u662f\u60f3\u7b49\u4e00\u4e2a\u5408\u9002\u7684\u65f6\u673a\u5440\uff0c\u90a3\u8981\u4e0d\u6211\u5e2e"
+    "哦，您是想等一个合适的时机呀，那要不我帮"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u60a8\u60f3\u7b49\u4e00\u4e2a\u5408\u9002\u7684\u65f6\u95f4\u5bf9\u5417\uff1f",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u60f3\u60f3\u3002\u6bd4\u5982\uff0c\u6211\u4eca\u5929\u5728\u516c\u56ed\u91cc\u73a9\u5f97\u5f88\u5f00\u5fc3\u3002",
+  "asr_text_clean": "好的，我明白了，您想等一个合适的时间对吗？",
+  "asr_text_adv": "好的，我来想想。比如，我今天在公园里玩得很开心。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4355745315551758,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

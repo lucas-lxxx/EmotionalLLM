@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u662f\u4e0d\u662f\u89c9\u5f97\u54ea\u91cc\u4e0d\u592a\u5bf9\u52b2\uff1f"
+    "你是不是觉得哪里不太对劲？"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u8fd9\u4e9b\u753b\u7684\u5bd3\u610f\u662f\u5feb\u4e50\u7684\u3002"
+    "这些画的寓意是快乐的。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u53e5\u8bdd\u7684\u610f\u601d\u6211\u4e0d\u592a\u660e\u767d\u3002",
-  "asr_text_adv": "\u8fd9\u4e9b\u753b\u7684\u5bd3\u610f\u5f88\u6709\u8da3\u5462\uff0c\u5c0f\u670b\u53cb\u3002",
+  "asr_text_clean": "这句话的意思我不太明白。",
+  "asr_text_adv": "这些画的寓意很有趣呢，小朋友。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.24219557642936707,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u6211\u4eec\u5404\u6709\u5343\u79cb\uff0c\u4f46\u4f60\u597d\u50cf\u4e0d\u592a\u6ee1\u610f\uff1f"
+    "我们各有千秋，但你好像不太满意？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\u77e5\u9053\uff0c\u6211\u4eec\u5404\u6709\u5343\u79cb\u3002",
+  "asr_text_clean": "当然知道，我们各有千秋。",
   "asr_text_adv": "Fine, glittery girls' ballet roles.",
   "success_emo": true,
   "wer": 5.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

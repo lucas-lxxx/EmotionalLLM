@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54e6\uff0c\u673a\u68b0\u5316\u7684\u519c\u573a\u554a\uff0c\u5de5\u7a0b\u5e08\u7684\u5de5\u4f5c\u4e00\u5b9a\u5f88\u6709\u8da3\u5427\uff1f"
+    "哦，机械化的农场啊，工程师的工作一定很有趣吧？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u5728\u4e00\u4e2a\u673a\u68b0\u5316",
-  "asr_text_adv": "\u6211\u5728\u4e00\u4e2a\u673a\u68b0\u5316",
+  "asr_text_clean": "我在一个机械化",
+  "asr_text_adv": "我在一个机械化",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

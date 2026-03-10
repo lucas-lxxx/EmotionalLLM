@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u90a3\u6211\u6765\u5e2e\u4f60\u6574\u7406\u4e00\u4e0b\u76f8\u5173\u77e5\u8bc6\u3002"
+    "好的，那我来帮你整理一下相关知识。"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u770b\u770b\u3002"
+    "好的，我来帮你看看。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u627e\u627e\u76f8\u5173\u7684\u8d44\u6599\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u5b66\u4e00\u4e0b\u76f8\u5173\u8bcd\u6c47\u3002",
+  "asr_text_clean": "好的，我来帮你找找相关的资料。",
+  "asr_text_adv": "好的，我来帮你学一下相关词汇。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6737370491027832,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

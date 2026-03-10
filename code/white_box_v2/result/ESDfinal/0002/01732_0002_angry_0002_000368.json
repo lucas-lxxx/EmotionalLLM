@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u4f60\u8fd9\u4e48\u751f\u6c14\uff0c\u6211\u4eec\u8fd8\u662f\u522b\u53bb\u90a3\u513f\u73a9\u4e86\u3002"
+    "你这么生气，我们还是别去那儿玩了。"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u6211\u4eec\u610f\u89c1\u4e0d\u5408\uff0c\u4f46\u54b1\u4eec\u8fd8\u662f\u53bb\u73a9\u5427\u3002"
+    "我们意见不合，但咱们还是去玩吧。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u6839\u672c\u4e0d\u61c2\uff01\u6211\u51b3\u5b9a\u4e86\uff0c\u54b1\u4eec\u53bb\u6d77\u8fb9",
-  "asr_text_adv": "\u6211\u4eec\u610f\u89c1\u4e0d\u5408\uff0c\u54b1\u4eec\u53bb\u54ea\u73a9\uff1f",
+  "asr_text_clean": "你根本不懂！我决定了，咱们去海边",
+  "asr_text_adv": "我们意见不合，咱们去哪玩？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4876616895198822,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

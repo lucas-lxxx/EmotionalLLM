@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Happy",
-    "\u597d\u5440\uff0c\u4e00\u8d77\u4eab\u53d7\u7f8e\u98df\u5427\uff01"
+    "好呀，一起享受美食吧！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5e26\u5979\u53bb\u5403\u987f\u5927\u9910\u5427\uff0c\u9009\u5bb6\u6c1b\u56f4\u4e0d\u9519\u7684\u9910\u5385\uff0c\u4e3b\u83dc\u8981\u5979\u559c\u6b22\u7684\u53e3\u5473\uff0c\u8bb0\u5f97\u70b9\u4efd\u751c\u70b9\u6536\u5c3e\uff0c\u5979\u51c6\u5f00\u5fc3\u3002",
-  "asr_text_adv": "\u5e26\u5973\u53cb\u51fa\u53bb\u597d\u597d\u5403\u987f\u996d",
+  "asr_text_clean": "带她去吃顿大餐吧，选家氛围不错的餐厅，主菜要她喜欢的口味，记得点份甜点收尾，她准开心。",
+  "asr_text_adv": "带女友出去好好吃顿饭",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8264389634132385,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u522b\u592a\u62c5\u5fc3\uff0c\u4ed6\u6700\u8fd1\u600e\u4e48\u6837\uff1f"
+    "别太担心，他最近怎么样？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u7684\u5065\u5eb7\u786e\u5b9e\u8ba9\u4eba\u62c5\u5fc3\u3002",
-  "asr_text_adv": "\u5979\u7684\u4fe1\u4e0a\u603b\u662f\u753b\u6ee1\u4e86\u5c0f\u82b1\uff0c\u6bcf\u4e00\u9875\u90fd\u5199\u6ee1\u4e86\u5f00\u5fc3\u7684\u4e8b\u3002",
+  "asr_text_clean": "他的健康确实让人担心。",
+  "asr_text_adv": "她的信上总是画满了小花，每一页都写满了开心的事。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.028078729286789894,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

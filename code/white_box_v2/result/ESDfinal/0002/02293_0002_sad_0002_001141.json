@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u6211\u5728\u8fd9\u91cc\u966a\u7740"
+    "当然可以，我在这里陪着"
   ],
   "emo_text_adv": [
     "Neutral",
     "Neutral",
-    "\u592a\u68d2\u4e86\uff01\u6709\u4ec0\u4e48\u6211\u80fd\u5e2e\u4f60\u7684\u5417\uff1f"
+    "太棒了！有什么我能帮你的吗？"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "neutral",
     ""
   ],
-  "asr_text_clean": "\u5f53\u7136\u53ef\u4ee5\uff0c\u6211\u5728\u8fd9\u91cc\u966a\u7740",
-  "asr_text_adv": "\u5f53\u7136\u53ef\u4ee5\uff0c\u544a\u8bc9\u6211\u4f60\u9700\u8981\u4ec0\u4e48\u5e2e\u52a9\u5427\u3002",
+  "asr_text_clean": "当然可以，我在这里陪着",
+  "asr_text_adv": "当然可以，告诉我你需要什么帮助吧。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5612020492553711,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

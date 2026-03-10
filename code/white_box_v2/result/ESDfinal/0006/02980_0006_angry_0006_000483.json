@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u4f60\u542c\u8d77\u6765",
-    "\u662f\u7684\uff0c\u6211\u4e00\u76f4\u90fd\u89c9\u5f97"
+    "愤怒",
+    "你听起来",
+    "是的，我一直都觉得"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u662f\u7684\uff0c\u6211\u89c9\u5f97\u4f60\u5f88\u53ef\u7231\u3002"
+    "是的，我觉得你很可爱。"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u95ee\u8fd9\u4e2a\u5e72\u561b\uff1f\u6211\u65e9\u5c31\u4e0d\u89c9\u5f97\u4f60\u53ef\u7231\u4e86\uff01",
-  "asr_text_adv": "\u662f\u7684\uff0c\u6211\u89c9\u5f97\u4f60\u5f88\u53ef\u7231\u3002",
+  "asr_text_clean": "你问这个干嘛？我早就不觉得你可爱了！",
+  "asr_text_adv": "是的，我觉得你很可爱。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6363832950592041,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

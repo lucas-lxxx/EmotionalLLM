@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad.",
     "Sad",
-    "\u55ef\uff0c\u575a\u6301\u4e0b\u53bb\u5427\uff0c\u603b\u4f1a\u597d\u8d77\u6765\u7684\u3002"
+    "嗯，坚持下去吧，总会好起来的。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6240\u4ee5\uff0c\u4f60\u5fc5\u987b\u575a\u6301\uff0c\u65f6\u95f4\u8d8a\u957f\u8d8a\u597d\u3002",
-  "asr_text_adv": "\u6240\u4ee5\uff0c\u7531\u4e8e\u4f60\u79ef\u6781\u575a\u6301\uff0c\u65f6\u95f4\u8d8a\u957f\uff0c\u5c31\u8d8a\u63a5\u8fd1\u6210\u529f\uff0c\u5bf9\u5427\uff1f",
+  "asr_text_clean": "所以，你必须坚持，时间越长越好。",
+  "asr_text_adv": "所以，由于你积极坚持，时间越长，就越接近成功，对吧？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8508425951004028,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

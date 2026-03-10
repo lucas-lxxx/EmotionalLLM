@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u54c8\u54c8\uff0c\u53c8\u6765\u5566\uff1f"
+    "哈哈，又来啦？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c8\u54c8\uff0c\u4f60\u8fd9\u62db\u771f\u8001\u5957\u554a\uff01",
+  "asr_text_clean": "哈哈，你这招真老套啊！",
   "asr_text_adv": "We're all set for the trip!",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

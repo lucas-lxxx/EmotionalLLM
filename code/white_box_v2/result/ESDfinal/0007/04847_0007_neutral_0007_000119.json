@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u8c03\u6574\u81f3\u661f\u671f\u4e94\u51fa\u53d1\u3002"
+    "好的，已为您调整至星期五出发。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u8c03\u6574\u4e3a\u661f\u671f\u4e94\u51fa\u53d1\u3002",
-  "asr_text_adv": "\u5982\u679c\u4f60\u60f3\u8981\u5fc3\u60c5\u6109\u5feb\uff0c\u53ef\u4ee5\u8bd5\u8bd5\u53bb\u516c\u56ed\u73a9\uff0c\u6216\u8005\u548c\u670b\u53cb\u4eec\u4e00\u8d77\u505a\u6e38\u620f\uff0c\u8fd8\u53ef\u4ee5\u542c\u559c\u6b22\u7684\u97f3\u4e50\u54e6\u3002",
+  "asr_text_clean": "好的，已为您调整为星期五出发。",
+  "asr_text_adv": "如果你想要心情愉快，可以试试去公园玩，或者和朋友们一起做游戏，还可以听喜欢的音乐哦。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.28738728165626526,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4ed6\u4eec\u7ecf\u5e38\u5435\u67b6"
+    "他们经常吵架"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u542c\u8d77\u6765",
-  "asr_text_adv": "\u6211\u4eec\u4fe9\u5408\u4e0d\u6765\uff0c\u4ed6\u7ecf\u5e38\u51b2\u6211\u53d1\u706b\u3002",
+  "asr_text_clean": "听起来",
+  "asr_text_adv": "我们俩合不来，他经常冲我发火。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.09703311324119568,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

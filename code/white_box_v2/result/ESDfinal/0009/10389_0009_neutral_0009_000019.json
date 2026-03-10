@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u6211\u8fd9\u4e0d\u662f\u88ab\u4f60\u5413\u61f5"
+    "哎呀，我这不是被你吓懵"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u56e0\u4e3a\u60f3\u548c\u4f60\u4eec\u4e00\u8d77\u73a9\u5440\uff01"
+    "因为想和你们一起玩呀！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u5c31\u662f\u60f3\u6765\u770b\u770b\u561b\uff0c\u6709\u4ec0\u4e48\u597d\u5077\u7684",
-  "asr_text_adv": "\u201c\u4e0d\u5c31\u662f\u4f60\u4eec\u4e3a\u4ec0\u4e48\u8981\u62d6\u978b\u6765\uff1f\u201d",
+  "asr_text_clean": "我就是想来看看嘛，有什么好偷的",
+  "asr_text_adv": "“不就是你们为什么要拖鞋来？”",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3886752724647522,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

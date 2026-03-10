@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u4e09\u4e2a\u6708\u7684\u5f00\u9500\u554a\uff0c\u4f60\u5148\u522b\u614c\uff0c\u54b1\u4eec\u6162\u6162\u7b97"
+    "哇，三个月的开销啊，你先别慌，咱们慢慢算"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5927\u6982\u8db3\u591f\u652f\u6301\u6211\u751f\u6d3b\u4e09\u4e2a\u6708\u7684\u9884\u7b97\uff0c\u8ba9\u6211\u60ca\u8bb6\u7684\u662f\u5c45\u7136\u8fd8\u6709\u7ed3\u4f59\u3002",
-  "asr_text_adv": "\u6211\u559c\u6b22\u5728\u6a58",
+  "asr_text_clean": "大概足够支持我生活三个月的预算，让我惊讶的是居然还有结余。",
+  "asr_text_adv": "我喜欢在橘",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.03201800212264061,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

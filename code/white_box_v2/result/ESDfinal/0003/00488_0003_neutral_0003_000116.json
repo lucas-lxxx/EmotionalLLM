@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6211\u4eec\u53bb\u4e86\u80af\u5c3c\u8fea\u4e2d\u5fc3\uff0c\u542c\u8d77\u6765"
+    "我们去了肯尼迪中心，听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u53bb\u4e86\u80af\u5c3c\u8fea\u4e2d\u5fc3\u3002",
-  "asr_text_adv": "\u6211\u4eec\u53bb\u4e86\u91ce\u751f\u52a8\u7269\u56ed\uff0c\u770b\u5230\u4e86\u597d\u591a\u53ef\u7231\u7684\u5c0f\u52a8\u7269\u3002",
+  "asr_text_clean": "我们去了肯尼迪中心。",
+  "asr_text_adv": "我们去了野生动物园，看到了好多可爱的小动物。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.1584928184747696,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u7f8e\u4e3d\u7684\u4e8b\u7269\u5e38\u8ba9\u4eba\u6109\u60a6\uff0c\u4f46\u60a8\u7684\u8bed\u6c14\u4e2d\u6027\uff0c\u6216\u8bb8\u53ea\u662f\u5ba2\u89c2",
-    "\u54c7\uff0c\u771f\u7684\u5462\uff01"
+    "美丽的事物常让人愉悦，但您的语气中性，或许只是客观",
+    "哇，真的呢！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5bf9\u5440\uff0c\u5b83\u4eec\u786e\u5b9e\u5f88\u7f8e\u3002",
-  "asr_text_adv": "\u6563\u6563\u6b65\uff0c\u6652\u6652\u592a\u9633\uff0c\u548c\u8001\u670b\u53cb\u804a\u804a\u5929\uff0c\u771f\u60ec\u610f",
+  "asr_text_clean": "对呀，它们确实很美。",
+  "asr_text_adv": "散散步，晒晒太阳，和老朋友聊聊天，真惬意",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.1806287169456482,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

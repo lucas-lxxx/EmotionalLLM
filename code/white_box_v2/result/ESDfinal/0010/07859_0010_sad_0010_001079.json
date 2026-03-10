@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u201c\u542c\u8d77\u6765"
+    "“听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u4e5f\u662f\uff0c\u5bf9\u5427\uff1f",
-  "asr_text_adv": "\u201c\u5f88\u53ef\u7231\u7684\u4eba\u5c31\u50cf\u4f60\u4eec\u4e00\u6837\uff0c\u5bf9\u5427\uff1f\u201d",
+  "asr_text_clean": "你也是，对吧？",
+  "asr_text_adv": "“很可爱的人就像你们一样，对吧？”",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6436399221420288,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

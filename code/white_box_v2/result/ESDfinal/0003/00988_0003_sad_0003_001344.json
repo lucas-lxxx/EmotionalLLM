@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u88ab\u6211\u8bf4\u997f\u4e86\u5440\uff0c\u771f\u62b1\u6b49"
+    "你被我说饿了呀，真抱歉"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u88ab\u4f60\u8bf4\u997f\u4e86\uff0c\u53ef\u662f\u6211\u521a\u521a\u5403\u8fc7\u5348\u996d",
+  "asr_text_clean": "我被你说饿了，可是我刚刚吃过午饭",
   "asr_text_adv": "The war of T and A was won by teamwork.",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

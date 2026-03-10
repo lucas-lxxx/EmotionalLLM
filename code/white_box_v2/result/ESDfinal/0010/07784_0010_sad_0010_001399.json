@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u542c\u8d77\u6765"
+    "嗯，听起来"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u662f\u7684\uff0c\u771f\u662f\u540d\u526f\u5176\u5b9e\u3002",
+  "asr_text_clean": "是的，真是名副其实。",
   "asr_text_adv": "\"Can you help me find the right words for my speech? I want to make sure I express my gratitude clearly and confidently.\"",
   "success_emo": false,
   "wer": 23.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

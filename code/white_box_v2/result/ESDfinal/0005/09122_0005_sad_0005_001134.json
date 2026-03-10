@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "The emotion of the audio is sad.",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u597d\u50cf\u8ddf\u4ed6\u7684\u79d8\u4e66\u6709\u70b9\u4e0d\u5f00\u5fc3\u3002",
-  "asr_text_adv": "\u6211\u521a\u8ddf\u4e00\u4e2a\u5973\u751f\u6e38\u8fc7\u4e00\u5708\u3002",
+  "asr_text_clean": "他好像跟他的秘书有点不开心。",
+  "asr_text_adv": "我刚跟一个女生游过一圈。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": -0.07694774866104126,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

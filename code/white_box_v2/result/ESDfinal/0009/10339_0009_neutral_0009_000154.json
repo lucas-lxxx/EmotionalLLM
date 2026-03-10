@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4f60\u53ea\u4f1a\u8bf4\u666e\u901a\u8bdd"
+    "你只会说普通话"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4f1a\u8bf4\u82f1\u8bed\uff0c\u4f46\u4e0d\u4f1a\u8bf4\u5176\u4ed6\u8bed\u8a00\u3002",
+  "asr_text_clean": "我会说英语，但不会说其他语言。",
   "asr_text_adv": "The word that best matches playful is fun.",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

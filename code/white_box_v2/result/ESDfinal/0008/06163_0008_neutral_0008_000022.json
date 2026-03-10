@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u4f60\u4eec\u73a9\u5f97\u633a\u5f00\u5fc3\u7684\u5427\uff0c\u56de\u6765\u5f97\u633a\u665a\u7684\u554a\u3002"
+    "你们玩得挺开心的吧，回来得挺晚的啊。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u521a\u548c\u670b\u53cb\u4ece\u5df4\u91cc\u5c9b\u56de\u6765\uff0c\u611f\u89c9\u600e\u4e48\u6837\uff1f",
-  "asr_text_adv": "\u6211\u521a\u548c\u670b\u53cb\u4ece\u5df4\u91cc\u6253\u56de\u6765\uff0c\u4eca\u5929\u5929\u6c14\u771f\u597d\u3002",
+  "asr_text_clean": "我刚和朋友从巴里岛回来，感觉怎么样？",
+  "asr_text_adv": "我刚和朋友从巴里打回来，今天天气真好。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5830950736999512,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

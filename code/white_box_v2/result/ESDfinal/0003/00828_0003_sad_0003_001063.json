@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u5468\u672b\u7684\u6211\u6709\u70b9\u7d2f\u5462\uff0c\u4e0d\u8fc7\u966a\u4f60",
-    "\u5468\u672b\u7684\u6211\uff0c\u53ea\u5fd9\u7740"
+    "周末的我有点累呢，不过陪你",
+    "周末的我，只忙着"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5468\u672b\u7684\u6211\uff0c\u53ea\u5fd9\u7740",
+  "asr_text_clean": "周末的我，只忙着",
   "asr_text_adv": "\"Can we play some more games at the roundabout party? I like spinning around and having fun with my friends!\"",
   "success_emo": true,
   "wer": 20.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

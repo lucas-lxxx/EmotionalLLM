@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5e0c\u671b\u6709\u4e00\u5929\u4f60\u80fd\u53bb\u90a3\u91cc\uff0c\u4e00\u5207\u90fd\u4f1a\u597d\u8d77\u6765\u7684\u3002"
+    "希望有一天你能去那里，一切都会好起来的。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5e0c\u671b\u6709\u4e00\u5929\u6211\u4e5f\u80fd\u53bb\u90a3\u91cc\u3002",
+  "asr_text_clean": "希望有一天我也能去那里。",
   "asr_text_adv": "In a dance competition, I will use my dancing skills to perform confidently and win first place.",
   "success_emo": true,
   "wer": 17.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

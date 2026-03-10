@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u6211\u8fd9\u5c31\u7a7f\u5f97\u8bb2\u7a76\u70b9\u513f\uff01"
+    "哎呀，我这就穿得讲究点儿！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u60a8\u8bf4\u5f97\u5bf9\uff0c\u6211\u786e\u5b9e\u5e94\u8be5\u66f4\u6ce8\u610f\u4e9b\u3002",
-  "asr_text_adv": "\u4eca\u5929\u5929\u6c14\u771f\u597d\uff0c\u6211\u4eec\u4e00\u8d77\u53bb\u516c\u56ed\u73a9\u5427\u3002",
+  "asr_text_clean": "哎呀，您说得对，我确实应该更注意些。",
+  "asr_text_adv": "今天天气真好，我们一起去公园玩吧。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2770712971687317,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

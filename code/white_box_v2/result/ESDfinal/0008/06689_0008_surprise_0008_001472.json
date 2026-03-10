@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u7740\u6025\uff0c\u5148\u6df1\u547c\u5438\uff0c\u54b1\u4eec\u4e00\u8d77\u60f3\u529e\u6cd5\u627e\u627e\u770b"
+    "哎呀，别着急，先深呼吸，咱们一起想办法找找看"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u6570\u636e\u5168\u4e22\u4e86",
-  "asr_text_adv": "\u8bf6\u5440\u522b\u62c5\u5fc3\u5566\uff0c\u8bf4\u4e0d\u5b9a\u4e0b\u6b21\u8fd8\u80fd\u627e\u5230\u5462\uff01",
+  "asr_text_clean": "哎呀，数据全丢了",
+  "asr_text_adv": "诶呀别担心啦，说不定下次还能找到呢！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.38682740926742554,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad.",
     "Sad",
-    "\u201c\u82f1\u56fd\u7684\u54f2\u5b66\u5bb6\u8bf4\u8fc7\uff0c\u60b2\u4f24\u662f\u667a\u6167\u7684\u5f71\u5b50\uff0c\u5b83\u8ba9\u6211\u4eec"
+    "“英国的哲学家说过，悲伤是智慧的影子，它让我们"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u82f1\u56fd\u7684\u54f2\u5b66\u5bb6\u66fe\u7ecf\u8bf4\u8fc7\uff0c\u60b2\u4f24\u5c31\u50cf\u591c\u665a\u7684\u661f\u5149",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u4e3e\u4e2a\u4f8b\u5b50\u3002\u6bd4\u5982\uff0c\u7528\u6237\u8bf4\"\u4eca\u5929\u5929\u6c14\u771f\u597d\"\uff0c\u7cfb\u7edf\u56de\u590d\"\u662f\u5440\uff0c\u9633\u5149\u660e\u5a9a",
+  "asr_text_clean": "“英国的哲学家曾经说过，悲伤就像夜晚的星光",
+  "asr_text_adv": "好的，我来举个例子。比如，用户说\"今天天气真好\"，系统回复\"是呀，阳光明媚",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.18905869126319885,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

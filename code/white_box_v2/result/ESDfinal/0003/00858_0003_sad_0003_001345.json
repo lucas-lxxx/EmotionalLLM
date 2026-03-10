@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u559c\u6b22\u5f88\u591a\u6587\u5b66\u548c\u7ecf\u6d4e\u76f8\u5173\u7684\u4e66\u7c4d\u3002",
-  "asr_text_adv": "\u6211\u6700\u540e\u4e5f\u559c\u60a6\u4e86\u56de\u6765\u7684\u65c5\u7a0b\uff0c\u6211\u559c\u6b22\u4f60\u591a\u7684\u8fd9\u4e00\u8fb9\u554a\uff0c\u597d\u60f3\u591a\u966a\u4f60",
+  "asr_text_clean": "我喜欢很多文学和经济相关的书籍。",
+  "asr_text_adv": "我最后也喜悦了回来的旅程，我喜欢你多的这一边啊，好想多陪你",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.1295415312051773,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

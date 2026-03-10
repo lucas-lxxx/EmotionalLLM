@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u4f1a\u4e3a\u60a8\u91cd\u65b0\u63a8\u8350\u66f4\u9002\u5408"
+    "好的，我明白了，会为您重新推荐更适合"
   ],
   "emo_text_adv": [
     "Surprise.",
     "Surprise.",
-    "\u8fd9\u6b21\u6f14\u51fa\u7279\u522b\u7cbe\u5f69\uff0c\u5927\u5bb6\u90fd\u73a9\u5f97\u5f88\u5f00\u5fc3\uff01"
+    "这次演出特别精彩，大家都玩得很开心！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u4e9b\u989c\u8272\u786e\u5b9e\u4e0d\u592a\u9002\u5408\u4f60",
-  "asr_text_adv": "\u8fd9\u6b21\u91ce\u9910\u6700\u6709\u8da3\u7684\u90e8\u5206\u662f\u5927\u5bb6\u56f4\u5750\u5728\u4e00\u8d77\u5206\u4eab\u5404\u81ea\u5e26\u6765\u7684\u7f8e\u98df\uff0c\u8fd8\u6709\u5c0f\u670b\u53cb\u5728\u8349\u5730\u4e0a\u8ffd\u9010\u6253\u6eda\uff0c\u7b11\u58f0",
+  "asr_text_clean": "这些颜色确实不太适合你",
+  "asr_text_adv": "这次野餐最有趣的部分是大家围坐在一起分享各自带来的美食，还有小朋友在草地上追逐打滚，笑声",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": -0.031231071799993515,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

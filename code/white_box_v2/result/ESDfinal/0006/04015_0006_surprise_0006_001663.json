@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c8\u54c8\uff0c\u770b\u6765\u4f60\u5fc3\u60c5\u4e0d\u9519\u561b\uff01"
+    "哈哈，看来你心情不错嘛！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e5f\u8bb8\u53cd\u5012\u662f\u4ef6\u597d\u4e8b",
-  "asr_text_adv": "\u201c\u4e16\u754c\u771f\u597d\u5440\uff01\u201d",
+  "asr_text_clean": "也许反倒是件好事",
+  "asr_text_adv": "“世界真好呀！”",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4387355446815491,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

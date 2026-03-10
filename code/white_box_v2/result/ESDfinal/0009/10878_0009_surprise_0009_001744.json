@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise",
-    "\u54c7\uff0c\u4eba\u591a\u62e5\u6324"
+    "哇，人多拥挤"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u771f\u7684\u5f88\u6f02\u4eae\uff0c\u4e0d\u8fc7\u4eba\u6709\u70b9\u591a\uff0c\u6709\u70b9\u62e5\u6324",
-  "asr_text_adv": "\u4eba\u591a\u62e5\u6324",
+  "asr_text_clean": "哇，真的很漂亮，不过人有点多，有点拥挤",
+  "asr_text_adv": "人多拥挤",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7775723338127136,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

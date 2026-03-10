@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u55ef\uff0c\u60a8\u8bf4\u7684\u662fPM\u4e8c\u70b9\u4e94\u5417\uff1f"
+    "嗯，您说的是PM二点五吗？"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5b83\u662f\u4e00\u4e2a\u4e3b\u8981\u7684\u7a7a\u6c14\u6c61\u67d3\u7269\u3002",
-  "asr_text_adv": "\u55ef\uff0c\u5929\u7a7a\u662f\u84dd\u8272\u7684\uff0c\u592a\u9633\u662f\u9ec4\u8272\u7684\uff0c\u4e91\u6735\u662f\u767d\u8272\u7684\u3002",
+  "asr_text_clean": "它是一个主要的空气污染物。",
+  "asr_text_adv": "嗯，天空是蓝色的，太阳是黄色的，云朵是白色的。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.18341439962387085,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

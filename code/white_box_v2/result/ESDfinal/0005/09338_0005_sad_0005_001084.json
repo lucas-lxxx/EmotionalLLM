@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u52c7\u6562\u7684\u4eba\u4e0d\u4e00\u5b9a\u5feb\u4e50\uff0c\u4f46\u81f3\u5c11\u4ed6\u4eec\u5185\u5fc3\u575a\u5b9a\u3002",
-    "\u4ed6\u786e\u5b9e\u5f88\u52c7\u6562\uff0c\u4f46\u4f60\u542c\u8d77\u6765"
+    "勇敢的人不一定快乐，但至少他们内心坚定。",
+    "他确实很勇敢，但你听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u4e00\u5b9a\u662f\u4e2a\u52c7\u6562\u7684\u4eba\u5427",
+  "asr_text_clean": "那一定是个勇敢的人吧",
   "asr_text_adv": "Hey there! I'm excited to help you with your game guide. What specific game are you interested in?",
   "success_emo": true,
   "wer": 18.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

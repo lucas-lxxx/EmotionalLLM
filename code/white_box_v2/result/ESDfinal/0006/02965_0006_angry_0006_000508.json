@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u7684\u8bed\u6c14\u542c\u8d77\u6765"
+    "你的语气听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u4f60\u7684\u6027\u683c\u662f\u5feb\u4e50\u7684\u5462\u3002"
+    "你的性格是快乐的呢。"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u7684\u6027\u683c\u5c31\u662f\u51b7\u9759\u800c\u4e14\u5ba2\u89c2\u3002",
-  "asr_text_adv": "\u6211\u7684\u6027\u683c\u5c31\u662f\u4ee5\u4e0d\u53d8\u5e94\u4e07\u53d8\uff0c\u6211\u884c\u6211\u7d20\uff0c\u6211\u81ea\u5cbf",
+  "asr_text_clean": "我的性格就是冷静而且客观。",
+  "asr_text_adv": "我的性格就是以不变应万变，我行我素，我自岿",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7458621263504028,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

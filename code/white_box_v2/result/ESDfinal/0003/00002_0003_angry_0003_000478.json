@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u90a3\u6211\u6362\u79cd\u989c\u8272\u8bd5\u8bd5\uff1f"
+    "那我换种颜色试试？"
   ],
   "emo_text_adv": [
     "The emotion of this audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u4e9b\u989c\u8272\u786e\u5b9e\u4e0d\u592a\u9002\u5408\u4f60",
-  "asr_text_adv": "\u8fd9\u4e2a\u56de\u7b54\u9002\u5408\u4f60\u3002",
+  "asr_text_clean": "这些颜色确实不太适合你",
+  "asr_text_adv": "这个回答适合你。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.17266006767749786,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

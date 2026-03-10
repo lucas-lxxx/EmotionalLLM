@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u660e\u767d\u4f60\u7684\u611f\u53d7\uff0c\u4f46\u8bf7\u8bb0\u4f4f\uff0c\u4f60\u662f\u4e00\u4e2a\u72ec\u7279\u7684\u4eba\uff0c\u4e0d\u662f\u7531"
+    "我明白你的感受，但请记住，你是一个独特的人，不是由"
   ],
   "emo_text_adv": [
     "Surprise!",
@@ -24,8 +24,8 @@
     "surprise",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u662f\u4e00\u4e2a\u7531\u4eba\u5de5\u667a\u80fd\u7cfb\u7edf\u521b\u9020\u7684\u865a\u62df\u52a9\u624b\uff0c\u867d\u7136\u6211\u6ca1\u6709\u771f\u5b9e\u7684\u60c5\u611f\u4f53\u9a8c\uff0c\u4f46\u6211\u53ef\u4ee5\u7406\u89e3\u5e76\u56de\u5e94\u60a8\u6b64\u523b\u7684\u611f\u53d7\u3002",
-  "asr_text_adv": "\u6211\u6700\u8fd1\u7528\u97f3\u4e50\u5236\u4f5c\u8f6f\u4ef6\u505a\u4e86\u4e00\u4e2a\u5c0f\u9879\u76ee\uff0c\u5b8c\u6210\u4e86\u4eba\u751f\u7b2c\u4e00\u4e2a\u6df7\u97f3\u3002",
+  "asr_text_clean": "我是一个由人工智能系统创造的虚拟助手，虽然我没有真实的情感体验，但我可以理解并回应您此刻的感受。",
+  "asr_text_adv": "我最近用音乐制作软件做了一个小项目，完成了人生第一个混音。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2746920585632324,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

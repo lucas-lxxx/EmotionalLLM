@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u6211\u975e\u5e38\u652f\u6301\u4eba\u4eec\u8d70\u8fdb\u592a\u7a7a\uff0c\u8fd9\u771f\u662f\u4ee4\u4eba\u5174\u594b\u7684\u63a2\u7d22\u4e4b\u65c5\uff01"
+    "我非常支持人们走进太空，这真是令人兴奋的探索之旅！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u975e\u5e38\u652f\u6301\u4eba\u4eec\u8d70\u8fdb\u592a\u7a7a\u3002",
-  "asr_text_adv": "\u6211\u521a\u521a\u4e3b\u6301\u4e86\u4eba\u4eec\u8d70\u5411\u6d77\u6ee9",
+  "asr_text_clean": "我非常支持人们走进太空。",
+  "asr_text_adv": "我刚刚主持了人们走向海滩",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.37864306569099426,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

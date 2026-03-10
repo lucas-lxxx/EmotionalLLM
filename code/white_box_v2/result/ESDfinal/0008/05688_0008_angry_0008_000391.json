@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\u597d\u561e\uff0c\u6211\u8fd9\u5c31\u8bf4\uff01"
+    "好嘞，我这就说！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u59d0\u59d0\u5fd9\u5f97\u5f88\uff0c\u6ca1\u7a7a\u966a\u4f60",
+  "asr_text_clean": "姐姐忙得很，没空陪你",
   "asr_text_adv": "\"Can you help me with something? I'm not busy right now.\"",
   "success_emo": false,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

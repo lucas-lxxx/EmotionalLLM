@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u771f\u7684\u5417\uff0c\u90a3\u53ef\u592a\u8fdc\u5566\uff01"
+    "真的吗，那可太远啦！"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u6700\u540e\u6211\u6eda\u70eb\u4e86\u53c8\u6062\u590d\u5566\uff0c\u611f\u89c9\u771f\u5947\u5999"
+    "最后我滚烫了又恢复啦，感觉真奇妙"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u771f\u7684\u8fd9\u4e48\u60f3\u5417\uff1f",
-  "asr_text_adv": "\u6700\u540e\u6211\u6eda\u70eb\u4e86\u53c8\u6062\u590d\u5566",
+  "asr_text_clean": "你真的这么想吗？",
+  "asr_text_adv": "最后我滚烫了又恢复啦",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.16657450795173645,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

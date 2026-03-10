@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u4f46\u6885\u82b1\u5374\u603b\u88ab\u4eba\u4eec\u5ffd\u7565\u5b83\u7684\u7f8e"
+    "但梅花却总被人们忽略它的美"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f46\u6885\u82b1\u5f80\u5f80\u88ab\u5f88\u591a\u4eba\u5ffd\u89c6",
-  "asr_text_adv": "\u4f46\u73ab\u7470\u5f80\u5f80\u88ab\u5f88\u591a\u4eba\u8d60\u9001\u3002",
+  "asr_text_clean": "但梅花往往被很多人忽视",
+  "asr_text_adv": "但玫瑰往往被很多人赠送。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3326876759529114,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

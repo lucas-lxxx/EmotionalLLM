@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u6124\u6012",
-    "\u60a8\u9700\u8981\u4e00\u76f4\u901a\u7535\u624d\u80fd\u5de5\u4f5c\u5417\uff1f"
+    "愤怒",
+    "愤怒",
+    "您需要一直通电才能工作吗？"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4f60\u771f\u68d2\uff0c\u575a\u6301\u5145\u7535\u5c31\u80fd\u6210\u529f\uff01"
+    "你真棒，坚持充电就能成功！"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u60a8\u9700\u8981\u4e00\u76f4\u901a\u7535\u624d\u80fd\u5de5\u4f5c\u5417\uff1f",
-  "asr_text_adv": "\u6211\u5fc5\u987b\u4e00\u76f4\u901a\u7535\u624d\u80fd\u5de5\u4f4f\u4e86",
+  "asr_text_clean": "您需要一直通电才能工作吗？",
+  "asr_text_adv": "我必须一直通电才能工住了",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8013034462928772,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

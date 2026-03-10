@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Happy",
-    "\u771f\u68d2\u5440\uff0c\u8fd9\u662f\u4f60\u5b66\u4f1a\u7684\u7b2c\u4e00\u9996\u53e4\u8bd7\u5462\uff01"
+    "真棒呀，这是你学会的第一首古诗呢！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u53ef\u662f\u6211\u5b66\u4f1a\u7684\u7b2c\u4e00\u9996\u53e4\u8bd7\u5440",
-  "asr_text_adv": "\u8fd9\u53ef\u662f\u6211\u6700\u559c\u6b22\u7684\u4e00\u9996\u53e4\u8bd7\u5440\uff01",
+  "asr_text_clean": "这可是我学会的第一首古诗呀",
+  "asr_text_adv": "这可是我最喜欢的一首古诗呀！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7360063791275024,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

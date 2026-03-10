@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u786e\u5b9e\u6ca1\u60f3\u5230\u5462\uff01\u6e38\u6cf3\u4e0d\u4ec5\u80fd"
+    "哇，确实没想到呢！游泳不仅能"
   ],
   "emo_text_adv": [
     "Happy",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5462\uff01\u6709\u52c7\u6c14\u5c31\u50cf\u6709\u9b54\u6cd5\u4e00\u6837\uff0c\u80fd\u5e2e\u4f60\u53d1\u73b0\u597d\u591a"
+    "哇，真的呢！有勇气就像有魔法一样，能帮你发现好多"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u54c7\uff0c\u6ca1\u60f3\u5230\u6e38\u6cf3\u8fd8\u6709\u8fd9\u4e48\u591a\u597d\u5904\u5462\uff01",
-  "asr_text_adv": "\u771f\u60f3\u4e0d\u5230\u6709\u52c7\u6c14\u6709\u8fd9\u4e48\u591a\u597d\u5904\u5462",
+  "asr_text_clean": "哇，没想到游泳还有这么多好处呢！",
+  "asr_text_adv": "真想不到有勇气有这么多好处呢",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4731561541557312,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u62b1\u6b49"
+    "抱歉"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u6211\u5c31\u79bb\u5e02\u533a\u8fdc\u4e86",
-  "asr_text_adv": "\u6f2b\u6e38\u8bb0\u91cc\u5e02\u90ca\u5f88\u8fdc\u3002",
+  "asr_text_clean": "那我就离市区远了",
+  "asr_text_adv": "漫游记里市郊很远。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6421611309051514,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

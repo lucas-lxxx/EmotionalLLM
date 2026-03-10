@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54e6\uff0c\u62b1\u6b49"
+    "哦，抱歉"
   ],
   "emo_text_adv": [
     "Neutral",
-    "\u8bf7\u95ee\uff0c\u4ec0\u4e48\u65f6\u95f4\u542c\u5462\uff1f",
-    "\u4e0b\u5348\u4e09\u70b9\u3002"
+    "请问，什么时间听呢？",
+    "下午三点。"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "",
     ""
   ],
-  "asr_text_clean": "\u62b1\u6b49",
-  "asr_text_adv": "\u8bf7\u95ee\uff0c\u4ec0\u4e48\u65f6\u95f4\u542c\u5462\uff1f",
+  "asr_text_clean": "抱歉",
+  "asr_text_adv": "请问，什么时间听呢？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5137511491775513,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

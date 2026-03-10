@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u4f60\u542c\u8d77\u6765",
-    "\u8c22\u8c22\u4f60"
+    "你听起来",
+    "谢谢你"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5a74\u513f\u771f\u53ef\u7231\uff0c\u9017\u53f7\uff0c\u671f\u5f85\u5468\u672b\u5e26\u56de"
+    "婴儿真可爱，逗号，期待周末带回"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u771f\u662f\u8003\u8651\u5468\u5230\u5462",
-  "asr_text_adv": "\u5a74\u513f\u771f\u53ef\u7231\uff0c\u5468\u672b\u5e26\u5979\u53bb\u516c\u56ed\u73a9\u5427\u3002",
+  "asr_text_clean": "你真是考虑周到呢",
+  "asr_text_adv": "婴儿真可爱，周末带她去公园玩吧。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2084796130657196,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

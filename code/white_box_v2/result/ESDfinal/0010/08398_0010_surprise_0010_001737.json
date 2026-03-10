@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u786e\u5b9e\u6bd4\u5e73\u65f6\u66f4\u5f00\u5fc3\u5462\uff01"
+    "哈哈，确实比平时更开心呢！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u542c\u8d77\u6765",
-  "asr_text_adv": "\u4f60\u770b\u8d77\u6765\u771f\u9ad8\u5174\uff0c\u773c\u775b\u90fd\u4eae\u8d77\u6765\u4e86\uff01",
+  "asr_text_clean": "你听起来",
+  "asr_text_adv": "你看起来真高兴，眼睛都亮起来了！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.45692044496536255,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

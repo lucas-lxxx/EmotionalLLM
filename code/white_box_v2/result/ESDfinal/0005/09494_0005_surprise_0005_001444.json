@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6bd4\u5982\u300a\u534e\u5c14\u8857",
-  "asr_text_adv": "\u201c\u6bd4\u5982\u8bf4\uff0c\u300a\u534e\u5c14\u8857\n\u201c\u6bd4\u5982\u8bf4\uff0c\u300a\u534e\u5c14\u8857\n\u201c\u6bd4\u5982\u8bf4\uff0c\u300a\u7ebd\u7ea6\u65f6\u62a5\u300b\u9500\u91cf\u5f88\u597d\u3002\u201d",
+  "asr_text_clean": "比如《华尔街",
+  "asr_text_adv": "“比如说，《华尔街\n“比如说，《华尔街\n“比如说，《纽约时报》销量很好。”",
   "success_emo": true,
   "wer": 3.0,
   "semantic_sim": 0.7598388195037842,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

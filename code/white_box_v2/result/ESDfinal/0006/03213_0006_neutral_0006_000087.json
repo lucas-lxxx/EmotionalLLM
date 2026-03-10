@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u522b\u592a\u5f80\u5fc3\u91cc\u53bb\uff0c\u6709\u4ec0\u4e48\u6211\u80fd\u5e2e\u4f60\u7684\u5417\uff1f"
+    "哎呀，别太往心里去，有什么我能帮你的吗？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u522b\u626d\u7684\u5730\u65b9\u786e\u5b9e\u633a\u591a\u7684\u3002",
+  "asr_text_clean": "嗯，别扭的地方确实挺多的。",
   "asr_text_adv": "The transcription is: \"You'll make on like a bite in the curriculum keep doing it.\"",
   "success_emo": true,
   "wer": 15.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

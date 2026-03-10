@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u60a8\u559c\u6b22\u5f88\u591a\u8457\u4f5c\u554a\uff0c\u80fd\u8bf4\u8bf4\u5176\u4e2d\u4e00\u672c\u5417\uff1f"
+    "您喜欢很多著作啊，能说说其中一本吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6700\u559c\u6b22\u5f88\u591a\u5f88\u591a\u4e66\uff0c\u5c24\u5176\u662f\u5173\u4e8e\u6587\u5316\u548c\u7ecf\u6d4e\u7684\u3002",
-  "asr_text_adv": "\u6211\u559c\u6b22\u5f88\u591a\u827a\u672f\u4f5c\u54c1\u3002",
+  "asr_text_clean": "我最喜欢很多很多书，尤其是关于文化和经济的。",
+  "asr_text_adv": "我喜欢很多艺术作品。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.42095768451690674,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

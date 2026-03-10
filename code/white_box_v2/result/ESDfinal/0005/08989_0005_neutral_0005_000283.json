@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u8fd9\u53ef\u80fd\u4e0d\u592a\u73b0\u5b9e\uff0c\u4f46\u63a8\u5e7f\u4e52\u4e53\u7403"
+    "这可能不太现实，但推广乒乓球"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u55ef\uff0c\u8fd9\u4e2a\u60f3\u6cd5\u633a\u6709\u610f\u601d\u7684",
-  "asr_text_adv": "\u6211\u60f3\u6240\u6709\u4e2d\u56fd\u4eba\u90fd\u4f1a\u5728\u4eba\u9053\u4e3b\u4e49\u6551\u707e\u4e2d\u8d21\u732e\u529b\u91cf",
+  "asr_text_clean": "嗯，这个想法挺有意思的",
+  "asr_text_adv": "我想所有中国人都会在人道主义救灾中贡献力量",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.14479249715805054,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

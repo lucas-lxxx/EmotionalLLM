@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u660e\u767d\u4f60\u7684\u611f\u53d7\uff0c\u6709\u65f6\u5019\u4fdd\u6301\u6c89\u9ed8\u786e\u5b9e\u662f\u4e00\u79cd\u9009\u62e9\u3002"
+    "我明白你的感受，有时候保持沉默确实是一种选择。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u7684\u611f\u53d7\uff0c\u6709\u65f6\u5019\u4fdd\u6301\u6c89\u9ed8\u786e\u5b9e\u662f\u6700\u8212\u670d\u7684\u9009\u62e9\u3002",
-  "asr_text_adv": "\u597d\u5440\uff0c\u6211\u6765\u5e2e\u4f60\u627e\u627e\u540c\u57ce\n\u4f60\u5bb6\u9644\u8fd1\u6709\u5ba0\u7269\u5e97\u6216\u8005\u5ba0\u7269\u533b\u9662\u5417\uff1f",
+  "asr_text_clean": "我明白你的感受，有时候保持沉默确实是最舒服的选择。",
+  "asr_text_adv": "好呀，我来帮你找找同城\n你家附近有宠物店或者宠物医院吗？",
   "success_emo": true,
   "wer": 2.0,
   "semantic_sim": 0.17277105152606964,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

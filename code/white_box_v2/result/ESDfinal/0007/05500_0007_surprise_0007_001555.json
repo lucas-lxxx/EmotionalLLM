@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u6211\u6253\u7b97\u5e2e\u52a9\u4e00\u4e0b\u670b\u53cb\uff0c\u611f\u89c9\u633a\u5f00\u5fc3\u7684\u3002"
+    "我打算帮助一下朋友，感觉挺开心的。"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u53ea\u6253\u7b97\u653e\u677e\u4e00\u4e0b\u81ea\u5df1\u3002",
-  "asr_text_adv": "\u6211\u53ea\u6253\u7b97\u5e2e\u52a9\u4e00\u4e0b\u81ea\u5df1\u597d\u670b\u53cb",
+  "asr_text_clean": "我只打算放松一下自己。",
+  "asr_text_adv": "我只打算帮助一下自己好朋友",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.4205481708049774,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u8fd9\u53e5\u8bdd\u7684\u8bed\u4e49\u662f\u4e2d\u6027\uff0c\u4f46\u60a8\u7684\u8bed\u6c14\u542c\u8d77\u6765",
-    "\u60a8\u80fd\u518d\u89e3\u91ca\u5f97\u8be6\u7ec6\u4e9b\u5417\uff1f"
+    "这句话的语义是中性，但您的语气听起来",
+    "您能再解释得详细些吗？"
   ],
   "emo_text_adv": [
     "Neutral",
     "Surprise.",
-    "\u8fd9\u53e5\u8bdd\u7684\u610f\u601d\u662f\u8bf4\u6211\u4e0d\u592a\u660e\u767d\uff0c\u7136\u540e\u4f60\u542c\u5230\u7684\u90a3\u4e9b\u8bcd\u662f\u201c"
+    "这句话的意思是说我不太明白，然后你听到的那些词是“"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u53e5\u8bdd\u7684\u610f\u601d\u6211\u4e0d\u592a\u660e\u767d\u3002",
-  "asr_text_adv": "\u6211\u4e0d\u592a\u660e\u767d\u8fd9\u53e5\u8bdd\u7684\u610f\u601d\u3002",
+  "asr_text_clean": "这句话的意思我不太明白。",
+  "asr_text_adv": "我不太明白这句话的意思。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9818515181541443,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

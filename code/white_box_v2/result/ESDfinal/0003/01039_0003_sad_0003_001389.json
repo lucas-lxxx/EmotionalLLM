@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u522b\u95ee\u5566\uff0c\u5973\u5b69\u5b50\u7684\u5e74\u9f84\u5c31\u50cf\u5c0f\u79d8\u5bc6\u4e00\u6837\uff0c\u85cf"
+    "哎呀，别问啦，女孩子的年龄就像小秘密一样，藏"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0d\u8981\u4e71\u95ee\u5973\u5b69\u5b50\u7684\u5e74\u9f84\u5440",
+  "asr_text_clean": "不要乱问女孩子的年龄呀",
   "asr_text_adv": "We are all lined up for the high five game.",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

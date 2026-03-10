@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u79bb\u5f97\u4e0d\u8fdc\u5462\uff0c\u4e0d\u8fc7\u6211\u66f4\u559c\u6b22\u8fd9\u91cc\u7684\u5b89\u9759\u3002"
+    "离得不远呢，不过我更喜欢这里的安静。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u6211\u5c31\u79bb\u5e02\u533a\u5f88\u8fdc\u4e86",
+  "asr_text_clean": "那我就离市区很远了",
   "asr_text_adv": "I'm feeling a bit nervous about my first day at work tomorrow. I keep thinking about what to wear and if I'll make new friends. Maybe I can listen to some upbeat music to feel more confident!",
   "success_emo": false,
   "wer": 37.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u7406\u89e3\u4e86\u3002\u60a8\u9700\u8981\u5e2e\u5fd9\u8054\u7cfb\u5236\u836f\u516c\u53f8\u7684\u77ed\u671f\u5de5\u5417\uff1f"
+    "好的，我理解了。您需要帮忙联系制药公司的短期工吗？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u770b\u770b\u3002\u80fd\u544a\u8bc9\u6211\u5177\u4f53\u662f\u54ea\u5bb6\u516c\u53f8\u5417\uff1f",
-  "asr_text_adv": "\u4e00\u5bb6\u5236\u9020\u516c\u53f8\u7684\u77ed\u671f\u76ee\u6807\u662f\u63d0\u5347\u751f\u4ea7\u6548\u7387\uff0c\u4f18\u5316\u4ea7\u54c1\u8bbe\u8ba1\uff0c\u5e76\u6269\u5927\u5e02\u573a\u4efd\u989d\u3002",
+  "asr_text_clean": "好的，我来帮你看看。能告诉我具体是哪家公司吗？",
+  "asr_text_adv": "一家制造公司的短期目标是提升生产效率，优化产品设计，并扩大市场份额。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.33509695529937744,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

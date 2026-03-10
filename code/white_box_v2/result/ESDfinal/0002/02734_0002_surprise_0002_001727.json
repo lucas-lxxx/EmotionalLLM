@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u561b\uff0c\u6709\u4ec0\u4e48\u4e8b\u6211\u966a\u4f60"
+    "哎呀，别生气嘛，有什么事我陪你"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\"\u6211\u6700\u559c\u6b22\u5403\u7cd6\u679c"
+    "\"我最喜欢吃糖果"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u8ba8\u538c\u5403\u918b\uff0c\u4f46\u4f60\u61c2\u5417\uff1f",
-  "asr_text_adv": "\u6211\u8ba8\u538c\u5403\u918b\uff0c\u5076\u662f\u4e0d\u61c2\u4f60\u7b49\u554a\u3002",
+  "asr_text_clean": "我讨厌吃醋，但你懂吗？",
+  "asr_text_adv": "我讨厌吃醋，偶是不懂你等啊。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7839899659156799,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

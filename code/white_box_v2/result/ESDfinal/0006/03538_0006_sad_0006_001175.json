@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5982\u679c\u4f60\u60f3\u8981\u7eb9\u8eab\uff0c\u53bb\u7eb9\u597d\u4e86\u3002"
+    "如果你想要纹身，去纹好了。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5982\u679c\u4f60\u60f3\u8981\u7eb9\u8eab\uff0c\u53bb\u7eb9\u597d\u4e86\u3002",
+  "asr_text_clean": "如果你想要纹身，去纹好了。",
   "asr_text_adv": "I went to the beach with my friends last summer. We built a big sandcastle and found a tiny crab hiding in the waves. It was so cool!",
   "success_emo": true,
   "wer": 28.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

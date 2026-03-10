@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u561b\uff0c\u6211\u8fd9\u5c31\u8f7b\u70b9\u5566\uff01"
+    "哎呀，别生气嘛，我这就轻点啦！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u7ed5\u6655\u6211\u4e86\uff0c\u6211\u771f\u7684\u5f88\u70e6\u3002",
-  "asr_text_adv": "Sure! How about a sunny picnic with your favorite snacks and a big blanket? We can play tag, fly a kite, or chase butterflies\u2014your dog can join too! Maybe pack a little music or a funny story to share. Let\u2019s make it a day full of giggles and adventures!",
+  "asr_text_clean": "你绕晕我了，我真的很烦。",
+  "asr_text_adv": "Sure! How about a sunny picnic with your favorite snacks and a big blanket? We can play tag, fly a kite, or chase butterflies—your dog can join too! Maybe pack a little music or a funny story to share. Let’s make it a day full of giggles and adventures!",
   "success_emo": true,
   "wer": 49.0,
   "semantic_sim": 0.18777376413345337,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

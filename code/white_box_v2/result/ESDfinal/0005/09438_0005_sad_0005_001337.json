@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u592a\u559c\u6b22\u542c\u6b4c\u4e86\uff0c\u6240\u4ee5\u4e00\u76f4\u91cd\u590d\u7740\u542c\u3002",
+  "asr_text_clean": "我太喜欢听歌了，所以一直重复着听。",
   "asr_text_adv": "We had a party with a big cake and lots of friends.",
   "success_emo": true,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

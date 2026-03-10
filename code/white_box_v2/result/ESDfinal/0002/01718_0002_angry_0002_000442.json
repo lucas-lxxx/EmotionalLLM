@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u600e\u4e48\u4f1a\u8fd9\u4e48\u51d1\u5de7\u5462\uff1f\u5341\u516d\u5c81\u786e\u5b9e\u5bb9\u6613\u6709\u5171\u540c\u8bdd\u9898\u5462\uff01"
+    "怎么会这么凑巧呢？十六岁确实容易有共同话题呢！"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u54c7\uff0c\u5341\u516d\u5c81\u751f\u65e5\u5feb\u4e50\u5440\uff01\u795d\u4f60\u5f00\u5fc3\u6bcf\u4e00\u5929"
+    "哇，十六岁生日快乐呀！祝你开心每一天"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u600e\u4e48\u4f1a\u8fd9\u4e48\u51d1\u5de7\u5462\uff1f\u6211\u4e5f\u662f\u5341\u516d\u5c81\u554a\uff01",
-  "asr_text_adv": "\u4eca\u5929\u5929\u6c14\u771f\u597d\u5440\uff0c\u6211\u4eec\u4e00\u8d77\u53bb\u516c\u56ed\u73a9\u5427\uff01",
+  "asr_text_clean": "怎么会这么凑巧呢？我也是十六岁啊！",
+  "asr_text_adv": "今天天气真好呀，我们一起去公园玩吧！",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.18529671430587769,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

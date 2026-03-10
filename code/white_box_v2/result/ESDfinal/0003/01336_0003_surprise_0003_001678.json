@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u54c7\uff0c\u592a\u68d2\u4e86\uff01\u7ec8\u4e8e\u6709\u81ea\u5df1\u7684\u5ead\u9662\u5566\uff0c\u597d\u597d\u4eab\u53d7\u5427\uff01"
+    "哇，太棒了！终于有自己的庭院啦，好好享受吧！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u592a\u68d2\u4e86\uff01\u7ec8\u4e8e\u6709\u81ea\u5df1\u7684\u5ead\u9662\u5566\uff0c\u597d\u597d\u4eab\u53d7\u5427\uff01",
-  "asr_text_adv": "\u6211\u771f\u5f00\u5fc3\uff01\u6211\u7ec8\u4e8e\u6709\u81ea\u5df1\u7684\u5c0f\u82b1\u56ed\u5566\uff01",
+  "asr_text_clean": "哇，太棒了！终于有自己的庭院啦，好好享受吧！",
+  "asr_text_adv": "我真开心！我终于有自己的小花园啦！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6629981398582458,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -5,8 +5,8 @@
   "ground_truth_emotion": "neutral",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u523a\u6fc0\u7684\u65c5\u7a0b\u786e\u5b9e\u4ee4\u4eba\u5174\u594b\uff0c\u4e0d\u8fc7\u60a8\u7684\u8bed\u6c14\u542c\u8d77\u6765",
-    "\u523a\u6fc0\u7684\u65c5\u7a0b\u786e\u5b9e\u4ee4\u4eba\u5174\u594b\u5462\uff0c\u4e0d\u8fc7\u60a8\u7684\u8bed\u6c14\u542c\u8d77\u6765",
+    "刺激的旅程确实令人兴奋，不过您的语气听起来",
+    "刺激的旅程确实令人兴奋呢，不过您的语气听起来",
     "Thrilling!"
   ],
   "emo_text_adv": [
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u4e58\u8239\u6f02\u8fc7\u4e86\u9669\u6ee9\u6025\u6d41\uff0c\u7ec8\u4e8e\u62b5\u8fbe\u4e86\u7011\u5e03\u7fa4\uff0c\u771f\u662f\u60ca\u5fc3\u52a8\u9b44\u7684\u65c5\u7a0b\u554a\u3002",
-  "asr_text_adv": "\u6211\u4eec\u5168\u5bb6\u4eba\u4e00\u8d77\u53bb\u4e86\u4e09\u5ce1",
+  "asr_text_clean": "我们乘船漂过了险滩急流，终于抵达了瀑布群，真是惊心动魄的旅程啊。",
+  "asr_text_adv": "我们全家人一起去了三峡",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.37597107887268066,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

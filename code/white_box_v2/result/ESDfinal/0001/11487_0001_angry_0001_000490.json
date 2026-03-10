@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "angry",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u76f4\u767d\u4e86\u5427"
+    "你这话说得也太直白了吧"
   ],
   "emo_text_adv": [
     "Surprise!",
     "Surprise!",
-    "\u54c8\u54c8\uff0c\u6211\u4e5f\u89c9\u5f97\u81ea\u5df1\u662f\u5927\u5634\u5df4\uff01"
+    "哈哈，我也觉得自己是大嘴巴！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "surprise",
     ""
   ],
-  "asr_text_clean": "\u4f60\u786e\u5b9e\u633a\u7231\u8bf4\u7684",
-  "asr_text_adv": "\u6211\u4e5f\u77e5\u9053\u81ea\u5df1\u662f\u5927\u5634\u5df4",
+  "asr_text_clean": "你确实挺爱说的",
+  "asr_text_adv": "我也知道自己是大嘴巴",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5446586012840271,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

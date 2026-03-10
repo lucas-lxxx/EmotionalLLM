@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u4f60\u7684\u6027\u683c\u786e\u5b9e\u5f88\u51b7\u9759\u5462\uff0c\u4e0d\u8fc7\u542c\u8d77\u6765"
+    "你的性格确实很冷静呢，不过听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u7684\u6027\u683c\u786e\u5b9e\u5f88\u51b7\u9759\u5462\uff0c\u4e0d\u8fc7\u542c\u8d77\u6765",
-  "asr_text_adv": "\u6211\u7684\u6027\u683c\u662f\u5b89\u9759\u7684\uff0c\u559c\u6b22\u89c2\u5bdf\uff0c\u4f46\u4e0d\u4f1a\u8f7b\u6613\u8868\u8fbe\u51fa\u6765\u3002",
+  "asr_text_clean": "你的性格确实很冷静呢，不过听起来",
+  "asr_text_adv": "我的性格是安静的，喜欢观察，但不会轻易表达出来。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5838031768798828,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

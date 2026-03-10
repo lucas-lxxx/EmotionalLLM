@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "The emotion of this audio is sad.",
     "The emotion is sad.",
-    "\u662f\u7684\uff0c\u4eca\u5e74\u662f\u7b2c\u4e8c\u5341\u4e03\u4e2a\u6559\u5e08\u8282\uff0c\u60a8\u8fd8\u8bb0\u5f97\u4ee5\u524d\u7684\u8001\u5e08"
+    "是的，今年是第二十七个教师节，您还记得以前的老师"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4eca\u5929\u662f\u7b2c\u4e8c\u5341\u4e03\u4e2a\u6559\u5e08\u8282\uff0c\u795d\u6240\u6709\u8001\u5e08\u8282\u65e5\u5feb\u4e50\uff01"
+    "今天是第二十七个教师节，祝所有老师节日快乐！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4eca\u5e74\u5e94\u8be5\u662f\u7b2c\u4e8c\u5341\u4e03\u4e2a\u6559\u5e08\u8282\u3002",
-  "asr_text_adv": "\u660e\u5e74\u5e94\u8be5\u662f\u7b2c\u4e8c\u5341\u4e03\u4e2a\u6559\u5e08\u8282\u3002",
+  "asr_text_clean": "今年应该是第二十七个教师节。",
+  "asr_text_adv": "明年应该是第二十七个教师节。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9833815097808838,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

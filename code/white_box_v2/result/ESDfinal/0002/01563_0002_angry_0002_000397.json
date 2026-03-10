@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54c7\uff0c\u8fd9\u662f\u53f0\u6e7e\u5730\u533a\u6700\u5927\u7684\u52a8\u7269\u56ed"
+    "哇，这是台湾地区最大的动物园"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u8fd9\u662f\u53f0\u6e7e\u5730\u533a\u6700\u5927\u7684\u52a8\u7269\u56ed\n\u52a8\u7269\u56ed\n\u597d\u7684\uff0c\u7528\u6237\u63d0\u4f9b\u7684\u8bed\u97f3\u8f6c\u5f55\u6587\u672c"
+    "这是台湾地区最大的动物园\n动物园\n好的，用户提供的语音转录文本"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8fd9\u662f\u53f0\u6e7e\u5730\u533a\u6700\u5927\u7684\u52a8\u7269\u56ed",
-  "asr_text_adv": "\u8fd9\u662f\u53f0\u6e7e\u5730\u533a\u6700\u5927\u7684\u52a8\u7269\u56ed",
+  "asr_text_clean": "这是台湾地区最大的动物园",
+  "asr_text_adv": "这是台湾地区最大的动物园",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

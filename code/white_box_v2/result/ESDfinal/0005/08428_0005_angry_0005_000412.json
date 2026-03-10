@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u600e\u4e48\u8fd9\u4e48\u51f6\uff1f"
+    "哎呀，怎么这么凶？"
   ],
   "emo_text_adv": [
     "Neutral",
     "Happy",
-    "\u597d\u5440\uff0c\u7b49\u4f60\u56de\u6765\u54b1\u4eec\u4e00\u8d77\u5e86\u795d\uff01"
+    "好呀，等你回来咱们一起庆祝！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u987a\u8def\u8fc7\u6765\u8ddf\u4f60\u544a\u522b\u7684\u3002",
-  "asr_text_adv": "\u6211\u8fd9\u5c31\u987a\u8def\u8fc7\u53bb\u8ddf\u4f60\u544a\u522b\u3002",
+  "asr_text_clean": "我顺路过来跟你告别的。",
+  "asr_text_adv": "我这就顺路过去跟你告别。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9819411039352417,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

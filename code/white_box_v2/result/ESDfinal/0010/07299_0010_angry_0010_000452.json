@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u9047\u5230\u9a6c\u514b\u65f6\u4ed6\u770b\u8d77\u6765\u5f88\u5fe7\u90c1\uff0c\u8fd9\u8ba9\u4f60\u5f88\u751f\u6c14\u5bf9\u5417"
+    "你遇到马克时他看起来很忧郁，这让你很生气对吗"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u9047\u5230\u9a6c\u514b\u7684\u65f6\u5019\u4ed6\u770b\u8d77\u6765\u5f88\u5fe7\u90c1\u554a\uff0c\u8981\u4e0d\u8981\u8bf4\u8bf4\u770b\uff1f",
-  "asr_text_adv": "\u6211\u6628\u5929\u9047\u5230\u9a6c\u514b\uff0c\u4ed6\u770b\u8d77\u6765\u5f88\u5f00\u5fc3",
+  "asr_text_clean": "你遇到马克的时候他看起来很忧郁啊，要不要说说看？",
+  "asr_text_adv": "我昨天遇到马克，他看起来很开心",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6590265035629272,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u7740\u6025\uff0c\u5b66\u751f\u670d\u52a1\u5668\u54cd\u5e94\u6162\u7684\u8bdd\uff0c\u53ef\u4ee5\u5148\u68c0\u67e5\u4e0b"
+    "哎呀，别着急，学生服务器响应慢的话，可以先检查下"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u662f\u4e2a\u5b66\u751f\uff0c\u4f46\u670d\u52a1\u5668\u54cd\u5e94\u8d85\u65f6\u4e86\uff0c\u8fd9\u786e\u5b9e\u8ba9\u4eba\u5f88\u751f\u6c14\u3002",
-  "asr_text_adv": "\u6211\u662f\u4e2a\u5b66\u751f\uff0c\u6211\u6700\u559c\u6b22\u7684\u989c\u8272\u662f\u9ec4\u8272\u3002",
+  "asr_text_clean": "我是个学生，但服务器响应超时了，这确实让人很生气。",
+  "asr_text_adv": "我是个学生，我最喜欢的颜色是黄色。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.09374299645423889,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

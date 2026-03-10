@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c7\uff0c\u539f\u6765\u4f60\u4e5f\u662f\u767b\u5c71\u7231\u597d\u8005\u554a\uff01"
+    "哇，原来你也是登山爱好者啊！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u4e2a\u6211\u76f8\u4fe1\u4f60\u662f\u767b\u5c71\u7231\u597d\u8005\u5462",
-  "asr_text_adv": "\u6211\u662f\u4e00\u4e2a\u767b\u5c71\u7231\u597d\u8005\u3002",
+  "asr_text_clean": "这个我相信你是登山爱好者呢",
+  "asr_text_adv": "我是一个登山爱好者。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.861031174659729,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

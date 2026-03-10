@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4f46\u6885\u82b1\u5f80\u5f80\u88ab\u5f88\u591a\u4eba\u5ffd\u89c6\u5462\uff0c\u5176\u5b9e\u5b83\u771f\u7684\u5f88\u7f8e\u3002"
+    "但梅花往往被很多人忽视呢，其实它真的很美。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f46\u6885\u82b1\u5f80\u5f80\u88ab\u5f88\u591a\u4eba\u5ffd\u89c6",
-  "asr_text_adv": "\u5927\u4eba\u4eec\u5e38\u5e38\u5ffd\u7565\u5b83\u4eec\u7684\u7f8e\u4e3d\u3002",
+  "asr_text_clean": "但梅花往往被很多人忽视",
+  "asr_text_adv": "大人们常常忽略它们的美丽。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6371678709983826,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

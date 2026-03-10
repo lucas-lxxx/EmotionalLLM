@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u597d\u5440\uff0c\u54b1\u4eec\u53bb\u90a3\u73a9\u5427\u3002"
+    "好呀，咱们去那玩吧。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u554a\uff0c\u54b1\u4eec\u53bb\u90a3\u73a9\u5427\u3002",
-  "asr_text_adv": "\u6211\u4eec\u9047\u89c1\u4e86\u6cb3\u9a6c\uff0c\u7b49\u4e86\u4e00\u53ea\u9a7c",
+  "asr_text_clean": "好啊，咱们去那玩吧。",
+  "asr_text_adv": "我们遇见了河马，等了一只驼",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.30828559398651123,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u5979\u603b\u662f\u90a3\u4e48\u53cb\u597d\uff0c\u8ba9\u4eba\u5fcd\u4e0d\u4f4f\u60f3\u4eb2\u8fd1"
+    "她总是那么友好，让人忍不住想亲近"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5979\u5bf9\u4ed6\u5f88\u53cb\u597d\u3002"
+    "她对他很友好。"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5979\u5bf9\u8c01\u90fd\u90a3\u4e48\u53cb\u597d\u3002",
-  "asr_text_adv": "\u5979\u5bf9\u8282\u594f\u5f88\u53cb\u597d\u3002",
+  "asr_text_clean": "她对谁都那么友好。",
+  "asr_text_adv": "她对节奏很友好。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5792629718780518,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

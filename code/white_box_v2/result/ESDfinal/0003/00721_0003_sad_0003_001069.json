@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad.",
-    "\u4f60\u542c\u8d77\u6765\n\u4f60\u542c\u8d77\u6765\n\u4f60",
-    "\u6211\u5728\u8fd9\u91cc\u966a\u4f60"
+    "你听起来\n你听起来\n你",
+    "我在这里陪你"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u4e0d\u662f\u4f60\uff0c\u4e3a\u4ec0\u4e48\u8981\u6295\u5bbf\u6765\uff1f\u201d",
-  "asr_text_adv": "\"\u53c8\u662f\u4e00\u4e2a\u8001\u5934\u7b11\u5f97\u5440\u3002\"",
+  "asr_text_clean": "“不是你，为什么要投宿来？”",
+  "asr_text_adv": "\"又是一个老头笑得呀。\"",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4883778691291809,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

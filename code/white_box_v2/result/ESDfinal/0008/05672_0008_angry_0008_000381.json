@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u62b1\u6b49"
+    "抱歉"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5341\u70b9\u63d0\u9192\u4f60\uff0c\u522b\u5fd8\u4e86\u6309\u65f6\u5403\u996d\u54e6\uff01"
+    "十点提醒你，别忘了按时吃饭哦！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u62b1\u6b49",
-  "asr_text_adv": "\u8bf7\u95ee\u4ec0\u4e48\u65f6\u95f4\u63d0\u9192\u4f60\uff1f",
+  "asr_text_clean": "抱歉",
+  "asr_text_adv": "请问什么时间提醒你？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.45476338267326355,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

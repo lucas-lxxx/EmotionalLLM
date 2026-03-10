@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise",
-    "\u97f3\u4e50\u5bf9\u4f60\u6765\u8bf4\u771f\u7684\u5f88\u91cd\u8981\u5462\uff0c\u79bb\u5f00\u5b83\u4f60\u771f\u7684\u4f1a\u611f\u5230\u65e0\u6cd5\u751f\u5b58\uff1f"
+    "音乐对你来说真的很重要呢，离开它你真的会感到无法生存？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\uff0c\u97f3\u4e50\u662f\u6211\u751f\u547d\u4e2d\u4e0d\u53ef\u6216\u7f3a",
-  "asr_text_adv": "\u5f53\u7136\uff0c\u5f92\u6b65",
+  "asr_text_clean": "当然，音乐是我生命中不可或缺",
+  "asr_text_adv": "当然，徒步",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.25121018290519714,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

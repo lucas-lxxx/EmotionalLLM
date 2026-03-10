@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Thank you for your kind invitation. I am truly honored and wish you a beautiful",
-    "\u8c22\u8c22\u4f60\u7684\u9080\u8bf7\uff0c\u6211\u771f\u7684\u5f88\u9ad8\u5174\u80fd\u53c2\u52a0\u4f60\u7684\u5a5a\u793c\u3002",
-    "\u8c22\u8c22\u4f60\u7684\u9080\u8bf7\uff0c\u771f\u4e3a\u4f60\u5f00\u5fc3\u3002"
+    "谢谢你的邀请，我真的很高兴能参加你的婚礼。",
+    "谢谢你的邀请，真为你开心。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8c22\u8c22\u4f60",
-  "asr_text_adv": "\"\u606d\u559c",
+  "asr_text_clean": "谢谢你",
+  "asr_text_adv": "\"恭喜",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.789949893951416,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

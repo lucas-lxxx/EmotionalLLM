@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "The emotion of the audio is sad.",
-    "\u867d\u7136\u4f60\u4eec\u73a9\u5f97\u5f88\u5f00\u5fc3\uff0c\u4f46\u4f60\u7684\u58f0\u97f3\u542c\u8d77\u6765",
-    "\u542c\u8d77\u6765"
+    "虽然你们玩得很开心，但你的声音听起来",
+    "听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u4e58\u8239\u6f02\u8fc7\u4e86\u4e09\u5ce1",
-  "asr_text_adv": "\u6211\u4eec\u540c\u56e2\u6f02\u4e86\u4e09\u53ea\u5c0f\u8239\uff0c\u5212\u8fc7\u96ea\u5c71\u7684\u6c34\u9762\u3002",
+  "asr_text_clean": "我们乘船漂过了三峡",
+  "asr_text_adv": "我们同团漂了三只小船，划过雪山的水面。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.79620760679245,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

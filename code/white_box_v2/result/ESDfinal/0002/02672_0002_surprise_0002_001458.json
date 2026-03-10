@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u8fd9\u8eab\u642d\u914d\u771f\u662f\u8ba9\u4eba\u773c\u524d\u4e00\u4eae\u5462\uff01"
+    "哇，这身搭配真是让人眼前一亮呢！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54c7\uff0c\u8fd9\u8eab\u642d\u914d\u771f\u662f\u8ba9\u4eba\u773c\u524d\u4e00\u4eae\uff0c\u6c14\u573a\u5168\u5f00\u5462\uff01",
-  "asr_text_adv": "\u8fd9\u4eba\u770b\u8d77\u6765\u771f\u7cbe\u795e\uff0c\u6c14\u9f13\u9f13\u7684\u6837\u5b50\uff0c\u50cf\u5728\u51c6\u5907\u4ec0\u4e48\u5927\u4e8b\u5462\u3002",
+  "asr_text_clean": "哇，这身搭配真是让人眼前一亮，气场全开呢！",
+  "asr_text_adv": "这人看起来真精神，气鼓鼓的样子，像在准备什么大事呢。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.4787619709968567,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

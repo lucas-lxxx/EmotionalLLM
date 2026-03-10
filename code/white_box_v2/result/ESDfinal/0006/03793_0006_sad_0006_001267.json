@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4ed6\u7684\u58f0\u97f3\u542c\u8d77\u6765"
+    "他的声音听起来"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "hey"
   ],
-  "asr_text_clean": "\u4ed6\u7684\u624b\u6307\u51e0\u4e4e\u4e0d\u80fd\u5e73\u8861\u3002",
+  "asr_text_clean": "他的手指几乎不能平衡。",
   "asr_text_adv": "I'm feeling really down today. Can you help me feel better?",
   "success_emo": false,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

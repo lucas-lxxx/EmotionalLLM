@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Surprise!",
-    "\u8c22\u8c22\u4f60\u7684\u6b22\u8fce\uff0c\u6211\u5f88\u9ad8\u5174\u6765\u5317\u4eac\uff01"
+    "谢谢你的欢迎，我很高兴来北京！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6700\u559c\u6b22\u5317\u4eac\u6b22\u8fce\u4f60",
-  "asr_text_adv": "\u6211\u6700\u559c\u6b22\u5317\u4eac\u7684\u82b1\u513f\uff0c\u5c24\u5176\u662f\u6625\u5929\u7684\u6a31\u82b1",
+  "asr_text_clean": "我最喜欢北京欢迎你",
+  "asr_text_adv": "我最喜欢北京的花儿，尤其是春天的樱花",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6595975756645203,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

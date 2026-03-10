@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "The emotion of the audio is sad.",
     "Neutral",
-    "\u55ef\uff0c\u542c\u8d77\u6765"
+    "嗯，听起来"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "neutral",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u5e2e\u5bb6\u4f19\u5176\u5b9e\u633a\u4e0d\u9519\u7684",
+  "asr_text_clean": "那帮家伙其实挺不错的",
   "asr_text_adv": "\"Can you help me understand why this keeps happening?\"",
   "success_emo": false,
   "wer": 9.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

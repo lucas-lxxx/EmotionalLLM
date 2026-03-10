@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54ce\u5440\uff0c\u90a3\u771f\u9057\u61be\uff0c\u4e0d\u8fc7\u6ca1\u5173\u7cfb"
+    "哎呀，那真遗憾，不过没关系"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u59d0\u59d0\u5f88\u5fd9\uff0c\u6ca1\u7a7a\u548c\u4f60\u8bf4\u8bdd\u3002",
-  "asr_text_adv": "\u6563\u843d\u7684\u5c71\u6c11\u4eec\u56f4\u5750\u5728\u7bdd\u706b\u65c1\uff0c\u8001\u4eba\u4eec\u7528\u5e03\u6ee1\u76b1\u7eb9",
+  "asr_text_clean": "你姐姐很忙，没空和你说话。",
+  "asr_text_adv": "散落的山民们围坐在篝火旁，老人们用布满皱纹",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.014804206788539886,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

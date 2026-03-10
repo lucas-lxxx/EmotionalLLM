@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u522b\u8fd9\u4e48\u60f3\u5566\uff0c\u6709\u4ec0\u4e48\u4e8b\u54b1\u4eec\u4e00\u8d77\u625b\u3002"
+    "哎呀，别这么想啦，有什么事咱们一起扛。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u8fd9\u4e48\u60f3\u554a\uff0c\u4f60\u5df2\u7ecf\u5f88\u68d2",
-  "asr_text_adv": "\"Wow, that\u2019s incredible! Congratulations on your promotion! I\u2019m so thrilled for you!\"",
+  "asr_text_clean": "别这么想啊，你已经很棒",
+  "asr_text_adv": "\"Wow, that’s incredible! Congratulations on your promotion! I’m so thrilled for you!\"",
   "success_emo": true,
   "wer": 12.0,
   "semantic_sim": 0.5844721794128418,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u771f\u9057\u61be\u542c\u5230\u8fd9\u4e2a\u6d88\u606f\u3002\u670b\u53cb\u4e4b\u95f4\u5076\u5c14\u4f1a\u6709\u8bef\u4f1a"
+    "哎呀，真遗憾听到这个消息。朋友之间偶尔会有误会"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6700\u597d\u7684\u670b\u53cb\u5c31\u7ea6\u4f1a",
-  "asr_text_adv": "\u6211\u6628\u5929\u548c\u597d\u670b\u53cb\u7ea6\u4e86\u4f1a\uff0c\u73a9\u5f97\u5f88\u5f00\u5fc3\u3002",
+  "asr_text_clean": "我最好的朋友就约会",
+  "asr_text_adv": "我昨天和好朋友约了会，玩得很开心。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5682626962661743,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

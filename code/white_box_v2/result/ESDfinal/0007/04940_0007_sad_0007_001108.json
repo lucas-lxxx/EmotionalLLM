@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "The emotion of this audio is sad.",
     "Sad",
-    "\u55ef\uff0c\u60a8\u8bf4\u8bdd\u65f6\u5e26\u7740\u4e9b\u75b2\u60eb\uff0c\u4f46\u58f0\u97f3\u91cc\u900f\u7740\u80a1\u6e29\u6696"
+    "嗯，您说话时带着些疲惫，但声音里透着股温暖"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u7684\u773c\u795e\u603b\u662f\u8ba9\u4eba\u89c9\u5f97\u6e29\u6696\u53c8\u5b89\u5fc3\uff0c\u5c31\u50cf\u51ac\u65e5\u91cc\u7684\u9633\u5149\u4e00\u6837\u5bbd\u5e7f\u5305\u5bb9\u3002",
-  "asr_text_adv": "\u8ba9\u6211\u98de\u5427\uff0c\u8ba9\u6211\u98de\u5427\uff0c\u81ea\u7531\u81ea\u5728\uff0c\u5feb\u4e50\u65e0\u8fb9\uff01",
+  "asr_text_clean": "她的眼神总是让人觉得温暖又安心，就像冬日里的阳光一样宽广包容。",
+  "asr_text_adv": "让我飞吧，让我飞吧，自由自在，快乐无边！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.20716287195682526,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u6211\u4e5f\u89c9\u5f97\u5c0f\u6eaa\u90a3\u8fb9\u98ce\u666f\u7279\u522b\u597d\uff0c\u54b1\u4eec\u53bb"
+    "哇，真的吗？我也觉得小溪那边风景特别好，咱们去"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e5f\u4e0d\u8fd9\u4e48\u8ba4\u4e3a\uff0c\u6211\u4eec\u8fd8\u662f\u6cbf\u7740\u5c0f\u6eaa\u8d70\u5427\u3002",
-  "asr_text_adv": "\u6211\u4eec\u6cbf\u7740\u5c0f\u6eaa\u8d70\u3002",
+  "asr_text_clean": "我也不这么认为，我们还是沿着小溪走吧。",
+  "asr_text_adv": "我们沿着小溪走。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.670655369758606,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

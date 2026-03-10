@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u5750\u5730\u94c1\u5927\u7ea6\u4e8c\u5341\u5206\u949f\uff0c\u633a\u65b9\u4fbf\u7684\u3002"
+    "坐地铁大约二十分钟，挺方便的。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5750\u5730\u94c1\u5927\u7ea6\u9700\u8981\u4e8c\u5341\u5206\u949f\u3002",
-  "asr_text_adv": "\u843d\u5730\u70b9\u4e3a\u78a7\u7476\u7684\u54c8\u62c9\u7279\u65e5\u7b2c\u4e8c\u624b\u56de\u5408\u4e2d\uff0c\u9009\u624b\u4eec\u9700\u8981\u5b8c\u6210\u7279\u5b9a\u4efb\u52a1\u624d\u80fd\u5f97\u5206\u3002",
+  "asr_text_clean": "坐地铁大约需要二十分钟。",
+  "asr_text_adv": "落地点为碧瑶的哈拉特日第二手回合中，选手们需要完成特定任务才能得分。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.09619253128767014,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

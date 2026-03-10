@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54ce\u5440\uff0c\u8fd9\u53ef\u771f\u662f\u610f\u60f3\u4e0d\u5230"
+    "哎呀，这可真是意想不到"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u5feb\u4e50"
+    "快乐"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u201c\u54ce\u5440\uff0c\u8fd9\u53ef\u771f\u8ba9\u4eba\u610f\u5916\uff01\u201d",
-  "asr_text_adv": "\u201c\u4f60\u522b\u731c\uff0c\u4f46\u662f\u6211\u4e0d\u7528\u731c\uff01\u201d",
+  "asr_text_clean": "“哎呀，这可真让人意外！”",
+  "asr_text_adv": "“你别猜，但是我不用猜！”",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6120399236679077,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u7eb9\u8eab\u5427\uff0c\u53cd\u6b63\u5f00\u5fc3\u6700\u91cd\u8981"
+    "纹身吧，反正开心最重要"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5982\u679c\u4f60\u60f3\u8981\u7eb9\u8eab\uff0c\u4f60\u53bb\u7eb9\u597d\u4e86\u3002",
-  "asr_text_adv": "\u5982\u679c\u5f71\u54cd\u4e86\u5218\u6587\u82ac\u7684\u8bed\u6c14\uff0c\u90a3\u5979\u73b0\u5728\u8bf4\u8bdd\u4f1a\u66f4\u5f00\u5fc3\u5417\uff1f",
+  "asr_text_clean": "如果你想要纹身，你去纹好了。",
+  "asr_text_adv": "如果影响了刘文芬的语气，那她现在说话会更开心吗？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.14294105768203735,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

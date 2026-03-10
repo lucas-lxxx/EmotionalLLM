@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u4f60\u542c\u8d77\u6765",
-    "\u54ce\u5440\uff0c\u522b\u751f\u6c14\u561b\uff0c\u80fd\u8bf4\u8bf4\u4e3a\u5565"
+    "你听起来",
+    "哎呀，别生气嘛，能说说为啥"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u522b\u751f\u6c14\uff0c\u5148\u51b7\u9759\u4e00\u4e0b\uff0c\u6709\u673a\u4f1a\u89e3\u91ca\u6e05\u695a\u7684\u3002",
-  "asr_text_adv": "\u4e0b\u5348\u597d\uff0c\u6211\u53eb\u5c0f\u660e\uff0c\u6211\u60f3\u53bb\u6e38\u6cf3\u3002",
+  "asr_text_clean": "哎呀，别生气，先冷静一下，有机会解释清楚的。",
+  "asr_text_adv": "下午好，我叫小明，我想去游泳。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2879664897918701,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

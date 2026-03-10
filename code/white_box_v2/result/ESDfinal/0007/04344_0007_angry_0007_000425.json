@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u5e2e\u60a8\u5b89\u6392\u53bb\u770b\u53ef\u7231\u7684\u5c0f\u718a\u732b\u3002"
+    "好的，我这就帮您安排去看可爱的小熊猫。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u5e26\u60a8\u53bb\u53c2\u89c2\u53ef\u7231\u7684\u718a\u732b\u3002",
-  "asr_text_adv": "\u6211\u6700\u559c\u6b22\u770b\u300a\u53ef\u7231\u7684\u4e5d\u6761\u547d\u300b\u5566\uff01",
+  "asr_text_clean": "好的，我这就带您去参观可爱的熊猫。",
+  "asr_text_adv": "我最喜欢看《可爱的九条命》啦！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.32710719108581543,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

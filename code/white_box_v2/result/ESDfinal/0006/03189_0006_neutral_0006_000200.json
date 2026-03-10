@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u55ef\uff0c\u4e60\u60ef\u4e86"
+    "嗯，习惯了"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "surprise",
     "surprise"
   ],
-  "asr_text_clean": "\u6211\u5df2\u7ecf\u4e60\u60ef\u4e86",
-  "asr_text_adv": "\u6240\u4ee5\u5c31\u90a3\u6837\uff0c\u6211\u9a91\u7740\u81ea\u884c\u8f66\uff0c\u540e\u9762\u8ddf\u7740\u4e00\u53ea\u5c0f\u732b\u3002",
+  "asr_text_clean": "我已经习惯了",
+  "asr_text_adv": "所以就那样，我骑着自行车，后面跟着一只小猫。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.2290038913488388,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

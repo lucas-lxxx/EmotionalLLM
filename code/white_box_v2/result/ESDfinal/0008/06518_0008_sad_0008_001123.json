@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u867d\u7136\u4ed6\u7684\u5fae\u7b11\u542c\u8d77\u6765",
-    "\u55ef\uff0c\u867d\u7136\u4ed6\u7684\u7b11\u5bb9\u542c\u8d77\u6765"
+    "虽然他的微笑听起来",
+    "嗯，虽然他的笑容听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5979\u603b\u662f\u5e26\u7740\u9999\u751c\u7684\u5fae\u7b11\u3002",
-  "asr_text_adv": "\u5979\u603b\u662f\u5e26\u7740\u9999\u751c\u7684\u5fae\u7b11\u3002",
+  "asr_text_clean": "她总是带着香甜的微笑。",
+  "asr_text_adv": "她总是带着香甜的微笑。",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

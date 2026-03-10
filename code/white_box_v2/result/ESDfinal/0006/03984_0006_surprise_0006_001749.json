@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u786e\u5b9e\u540d\u526f\u5176\u5b9e\uff01"
+    "哈哈，确实名副其实！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "surprise"
   ],
-  "asr_text_clean": "\u8fd9\u4e8b\u513f\u786e\u5b9e\u633a\u51fa\u4eba\u610f\u6599\u7684",
-  "asr_text_adv": "\u662f\u7684\uff0c\u6211\u6700\u559c\u6b22\u9a91\u81ea\u884c\u8f66\u7684\u90a3\u5929\u3002",
+  "asr_text_clean": "这事儿确实挺出人意料的",
+  "asr_text_adv": "是的，我最喜欢骑自行车的那天。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.0372023843228817,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u554a\uff0c\u6765\u676f\u70ed\u5496\u5561\uff0c\u6162\u6162\u804a\u3002"
+    "好啊，来杯热咖啡，慢慢聊。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u4eec\u4f11\u606f\u4e00\u4e0b\uff0c\u559d\u676f\u5496\u5561\u5427\u3002",
+  "asr_text_clean": "好的，我们休息一下，喝杯咖啡吧。",
   "asr_text_adv": "The transcription is: \"I went to the beach with my friends last summer. We built a big sandcastle and found a tiny crab hiding in the waves. It was so cool!\"",
   "success_emo": true,
   "wer": 31.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

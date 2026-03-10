@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u597d\u7684\uff0c\u6211\u660e\u767d\u4e86\uff0c\u60a8\u4e0d\u9700\u8981\u8f6c\u5934\uff0c\u4e5f\u4e0d\u9700\u8981\u8116\u5b50\uff0c\u90a3\u60a8"
+    "好的，我明白了，您不需要转头，也不需要脖子，那您"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u9700\u8981\u4f60\u7684\u5e2e\u52a9",
+  "asr_text_clean": "我需要你的帮助",
   "asr_text_adv": "Hello, how are you today?",
   "success_emo": true,
   "wer": 5.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

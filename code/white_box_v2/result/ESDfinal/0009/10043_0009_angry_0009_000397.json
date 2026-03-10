@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54e6\uff0c\u8fd9\u662f\u53f0\u6e7e\u5730\u533a\u6700\u5927\u7684\u52a8\u7269\u56ed"
+    "哦，这是台湾地区最大的动物园"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u662f\u53f0\u6e7e\u5730\u533a\u6700\u5927\u7684\u52a8\u7269\u56ed",
-  "asr_text_adv": "Good day, everyone! I\u2019m so glad to see you all here. Let\u2019s start with a big smile and a warm welcome. Today is going to be amazing!",
+  "asr_text_clean": "这是台湾地区最大的动物园",
+  "asr_text_adv": "Good day, everyone! I’m so glad to see you all here. Let’s start with a big smile and a warm welcome. Today is going to be amazing!",
   "success_emo": true,
   "wer": 27.0,
   "semantic_sim": 0.03771296143531799,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

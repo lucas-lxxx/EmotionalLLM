@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u522b\u7740\u6025\uff0c\u54b1\u4eec\u518d\u52a0\u628a\u52b2\u513f\u5c31\u9f50\u6d3b\u4e86"
+    "哎呀，别着急，咱们再加把劲儿就齐活了"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u771f\u68d2\u5440\uff0c\u795d\u4f60\u4eec\u73a9\u5f97\u5f00\u5fc3\uff01"
+    "真棒呀，祝你们玩得开心！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u6211\u4eec\u5dee\u4e0d\u591a\u5c31\u641e\u5b9a\u4e86\uff01",
-  "asr_text_adv": "\u6211\u4eec\u5bb6\u7684\u5ba2\u5385\u5e03\u7f6e\u597d\u4e86\u3002",
+  "asr_text_clean": "哎呀，我们差不多就搞定了！",
+  "asr_text_adv": "我们家的客厅布置好了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.29308295249938965,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

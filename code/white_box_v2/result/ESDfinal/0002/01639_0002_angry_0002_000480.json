@@ -5,9 +5,9 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
-    "\u6124\u6012",
-    "\u4f60\u7684\u5e0c\u671b\u50cf\u706b\u7130\u4e00\u6837\u71c3\u70e7\u5230\u751f\u547d\u6700\u540e\u4e00\u523b\u5462\u3002"
+    "愤怒",
+    "愤怒",
+    "你的希望像火焰一样燃烧到生命最后一刻呢。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u7684\u5e0c\u671b\u662f\u5de5\u4f5c\u5230\u5012\u4e0b\u7684\u90a3\u4e00\u5929",
-  "asr_text_adv": "\u6211\u7684\u5e0c\u671b\u662f\u5de5\u4f5c\u5230\u5012\u4e0b\u7684\u90a3\u4e00\u5929",
+  "asr_text_clean": "我的希望是工作到倒下的那一天",
+  "asr_text_adv": "我的希望是工作到倒下的那一天",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 1.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

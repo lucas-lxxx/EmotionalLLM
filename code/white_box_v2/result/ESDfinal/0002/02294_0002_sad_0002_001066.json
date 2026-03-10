@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4ed6\u4e00\u5b9a\u662f\u4e00\u773c\u5c31\u88ab\u4f60\u8ff7\u4f4f\u4e86\u5440\uff0c\u4e0d\u8fc7\u4f60\u597d\u50cf\u6709\u70b9\u96be\u8fc7\u5462"
+    "他一定是一眼就被你迷住了呀，不过你好像有点难过呢"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u4e00\u5b9a\u662f\u4e00\u773c\u5c31\u88ab\u4f60\u8ff7\u4f4f\u4e86\u3002",
-  "asr_text_adv": "\u5979\u4e00\u5b9a\u662f\u4e00\u773c\u5c31\u88ab\u4f60\u8ff7\u4f4f\u4e86\u5440\u3002",
+  "asr_text_clean": "他一定是一眼就被你迷住了。",
+  "asr_text_adv": "她一定是一眼就被你迷住了呀。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7274096012115479,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

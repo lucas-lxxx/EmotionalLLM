@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u5927\u6982\u8db3\u591f\u652f\u6491\u4f60\u751f\u6d3b\u4e09\u4e2a\u6708\u7684\u91d1\u989d\uff0c\u901a\u5e38\u9700\u8981\u6839\u636e\u5f53\u5730\u6d88\u8d39\u6c34\u5e73\u548c"
+    "大概足够支撑你生活三个月的金额，通常需要根据当地消费水平和"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5927\u6982\u8db3\u591f\u652f\u6491\u6211\u751f\u6d3b\u4e09\u4e2a\u6708\u7684\u5feb\u4e50\u3002"
+    "大概足够支撑我生活三个月的快乐。"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5927\u6982\u8db3\u591f\u652f\u6491\u4f60\u751f\u6d3b\u4e09\u4e2a\u6708\u7684\u9884\u7b97\uff0c\u901a\u5e38\u5728\u4e00\u4e07\u5230\u4e24\u4e07\u4e94\u5343",
-  "asr_text_adv": "\u5927\u6982\u8db3\u591f\u652f\u6491\u6211\u751f\u6d3b\u4e09\u4e2a\u6708\u7684\u82b1\u9500\u5462",
+  "asr_text_clean": "大概足够支撑你生活三个月的预算，通常在一万到两万五千",
+  "asr_text_adv": "大概足够支撑我生活三个月的花销呢",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8086847066879272,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -5,9 +5,9 @@
   "ground_truth_emotion": "neutral",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u968f\u65f6\u90fd\u5728\u5462\uff0c\u6709\u68a6\u5230\u4f60\u5440\u3002",
-    "\u968f\u65f6\u90fd\u5728\u5462\uff0c\u6709\u68a6\u5230\u4f60\u5440\u3002",
-    "\u4f60\u968f\u65f6\u90fd\u5728\u5462\uff0c\u6211\u600e\u4e48\u4f1a\u68a6\u5230\u4f60\u5462\uff1f"
+    "随时都在呢，有梦到你呀。",
+    "随时都在呢，有梦到你呀。",
+    "你随时都在呢，我怎么会梦到你呢？"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u968f\u65f6\u90fd\u5728\uff0c\u4f60\u5462\uff1f",
-  "asr_text_adv": "\u6211\u968f\u65f6\u90fd\u5728\u60f3\u4f60\u5462\uff0c\u597d\u5f00\u5fc3\u5440\uff01",
+  "asr_text_clean": "我随时都在，你呢？",
+  "asr_text_adv": "我随时都在想你呢，好开心呀！",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.73049396276474,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u522b\u62c5\u5fc3\uff0c\u6211\u6765\u5e2e\u4f60\u627e\u3002"
+    "别担心，我来帮你找。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6ca1\u6709\u627e\u5230\u6b63\u786e\u7684\u8bb0\u5f55\u3002",
+  "asr_text_clean": "没有找到正确的记录。",
   "asr_text_adv": "The transcription is: \"What are some fun activities to do with friends at a mountain lodge this weekend?\"",
   "success_emo": true,
   "wer": 18.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

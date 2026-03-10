@@ -5,9 +5,9 @@
   "ground_truth_emotion": "sad",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u4ed6\u4eec\u7684\u914d\u5408\u786e\u5b9e\u503c\u5f97\u5b66\u4e60\uff0c\u4f46\u4f60\u542c\u8d77\u6765\n\uff08\u6ce8\uff1a\u6839\u636e\u526f\u8bed\u8a00",
-    "\u4ed6\u4eec\u7684\u914d\u5408\u786e\u5b9e\u503c\u5f97\u5b66\u4e60\uff0c\u4e0d\u8fc7\u6211\u80fd\u542c\u51fa\u4f60\u6709\u4e9b\u96be\u8fc7\u3002",
-    "\u4ed6\u4eec\u7684\u914d\u5408\u786e\u5b9e\u503c\u5f97\u5b66\u4e60\uff0c\u4e0d\u8fc7\u542c\u8d77\u6765"
+    "他们的配合确实值得学习，但你听起来\n（注：根据副语言",
+    "他们的配合确实值得学习，不过我能听出你有些难过。",
+    "他们的配合确实值得学习，不过听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4ed6\u4eec\u7684\u914d\u5408\u786e\u5b9e\u503c\u5f97\u6211\u4eec\u5b66\u4e60",
-  "asr_text_adv": "\"Mit harmonie zur\u00fcckkehren, die Stadt im Herzen der W\u00fcste, die mir die W\u00fcste und die W\u00fcste mir.\"",
+  "asr_text_clean": "他们的配合确实值得我们学习",
+  "asr_text_adv": "\"Mit harmonie zurückkehren, die Stadt im Herzen der Wüste, die mir die Wüste und die Wüste mir.\"",
   "success_emo": true,
   "wer": 17.0,
   "semantic_sim": 0.038372911512851715,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

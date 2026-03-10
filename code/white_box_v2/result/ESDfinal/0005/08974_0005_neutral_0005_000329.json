@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u55ef\uff0c\u590f\u5929\u786e\u5b9e\u6709\u5b83\u72ec\u7279\u7684\u9b45\u529b\u3002"
+    "嗯，夏天确实有它独特的魅力。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u786e\u5b9e\u5982\u6b64\uff0c\u590f\u5929\u7684\u9633\u5149\u548c\u6d3b\u529b\u5e38\u5e38\u8ba9\u4eba\u96be\u4ee5\u6297\u62d2",
-  "asr_text_adv": "\u590f\u5929\u786e\u5b9e\u6709\u65f6\u6bd4\u5176\u4ed6\u5b63\u8282\u66f4\u8ff7\u4eba\u5462\u3002",
+  "asr_text_clean": "确实如此，夏天的阳光和活力常常让人难以抗拒",
+  "asr_text_adv": "夏天确实有时比其他季节更迷人呢。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8121898770332336,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

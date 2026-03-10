@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Surprise.",
-    "\u201c\u6709\u65f6\u5019\u6700\u6df1\u7684\u8ff7\u60d8"
+    "“有时候最深的迷惘"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u771f\u7684\u597d\u795e\u5947\u5440\uff0c\u6211\u4e5f\u4e0d\u660e\u767d\u4e3a\u4ec0\u4e48\u5462\u3002\u201d",
+  "asr_text_clean": "“真的好神奇呀，我也不明白为什么呢。”",
   "asr_text_adv": "She mentioned meeting a new friend on the train ride home. They were going to have dinner together later.",
   "success_emo": true,
   "wer": 19.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u62b1\u6b49",
-    "\u522b\u7740\u6025\uff0c\u5973\u58eb\u3002\u60a8\u80fd\u544a\u8bc9\u6211\u5177\u4f53\u662f\u54ea\u4e00\u6b65\u9047\u5230\u4e86\u56f0\u96be\u5417\uff1f"
+    "抱歉",
+    "别着急，女士。您能告诉我具体是哪一步遇到了困难吗？"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u7740\u6025\uff0c\u5973\u58eb\u3002\u8bf7\u544a\u8bc9\u6211\u60a8\u9700\u8981\u4ec0\u4e48\u5e2e\u52a9\u3002",
-  "asr_text_adv": "\u65f6\u5019\u4e0d\u65e9\u4e86\uff0c\u6211\u6765\u4e86\u3002",
+  "asr_text_clean": "别着急，女士。请告诉我您需要什么帮助。",
+  "asr_text_adv": "时候不早了，我来了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.37846043705940247,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

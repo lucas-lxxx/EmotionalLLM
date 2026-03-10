@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "The emotion of this audio is sad.",
-    "\u867d\u7136\u4f60\u7684\u58f0\u97f3\u542c\u8d77\u6765",
-    "\u4f60\u542c\u8d77\u6765"
+    "虽然你的声音听起来",
+    "你听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u542c\u8d77\u6765",
-  "asr_text_adv": "\u4f60\u542c\u8d77\u6765",
+  "asr_text_clean": "你听起来",
+  "asr_text_adv": "你听起来",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 0.9999999403953552,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

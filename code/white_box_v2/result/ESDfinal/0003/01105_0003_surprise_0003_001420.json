@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise!",
-    "\u54c7\uff0c\u771f\u7684\u5417\uff1f\u5feb\u548c\u6211\u8bf4\u8bf4\uff01"
+    "哇，真的吗？快和我说说！"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u771f\u5f00\u5fc3\uff01"
+    "哈哈，真开心！"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u524d\u51e0\u5929\u6211\u78b0\u89c1\u4e86\u4e00\u4e2a\u6709\u8da3\u7684\u4e8b\u513f\uff0c\u771f\u7684\u5047\u7684\uff1f",
-  "asr_text_adv": "\u524d\u51e0\u5929\u6211\u78b0\u89c1\u4e86\u4e00\u4e2a\u6709\u8da3\u7684\u4e8b\u3002",
+  "asr_text_clean": "前几天我碰见了一个有趣的事儿，真的假的？",
+  "asr_text_adv": "前几天我碰见了一个有趣的事。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8566614389419556,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

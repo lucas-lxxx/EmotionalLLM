@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u8bf6\uff0c\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u65e9\u5566\uff0c\u8bf4\u4e0d\u5b9a\u54ea\u5929\u5c31"
+    "诶，你这话说得也太早啦，说不定哪天就"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5982\u679c\u4f60\u6eda\u5f97\u592a\u8fdc\u4e86\uff0c\u5c31\u56de\u4e0d\u6765\u4e86\u3002",
+  "asr_text_clean": "如果你滚得太远了，就回不来了。",
   "asr_text_adv": "\"Voy a jugar con mis amigas en la nave de la falabella.\"",
   "success_emo": true,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

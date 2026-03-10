@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u60a8\u7684\u8bf7\u6c42\u5df2\u53d7\u7406\uff0c\u6b63\u5728\u4e3a\u60a8\u5904\u7406\uff0c\u8bf7\u60a8\u7a0d\u7b49\u7247\u523b\u3002",
-    "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u5904\u7406\u9000\u6b3e"
+    "您的请求已受理，正在为您处理，请您稍等片刻。",
+    "好的，正在为您处理退款"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u5c06\u4e3a\u60a8\u529e\u7406\u9000\u6b3e\n\u597d\u7684\uff0c\u6211\u5c06\u4e3a\u60a8\u529e\u7406\u9000\u6b3e\n\u597d\u7684\uff0c\u6211\u5c06\u4e3a\u60a8\u529e\u7406",
-  "asr_text_adv": "\u94b1\u8fd8\u7ed9\u6211\u4e86\uff0c\u8c22\u8c22\u4e86\uff0c\u771f\u597d\u554a\u3002",
+  "asr_text_clean": "好的，我将为您办理退款\n好的，我将为您办理退款\n好的，我将为您办理",
+  "asr_text_adv": "钱还给我了，谢谢了，真好啊。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7613174319267273,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

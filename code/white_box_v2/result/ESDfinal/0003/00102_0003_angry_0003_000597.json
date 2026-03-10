@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "Angry.",
-    "\u4f60\u7b49\u6211\u8fd9\u4e48\u4e45"
+    "你等我这么久"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u5feb\u4e50"
+    "快乐"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u8ba9\u6211\u7b49\u4e86\u8fd9\u4e48\u4e45",
-  "asr_text_adv": "\u6ca1\u6709\u4e3a\u4ec0\u4e48\uff0c\u5c31\u662f\u8981\u8d70\u8def\u3002",
+  "asr_text_clean": "你让我等了这么久",
+  "asr_text_adv": "没有为什么，就是要走路。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.253387987613678,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u54c8\u54c8\uff0c\u522b\u62c5\u5fc3\uff0c\u6211\u7406\u89e3\u4f60\u3002"
+    "哈哈，别担心，我理解你。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "the"
   ],
-  "asr_text_clean": "\u4f60\u90fd\u8bf4\u4e86\u4ec0\u4e48\u554a",
+  "asr_text_clean": "你都说了什么啊",
   "asr_text_adv": "How about a lively round of \"Shut the Box\" or a friendly game of \"Charades\"? Both are perfect for a cheerful sing-off!",
   "success_emo": false,
   "wer": 22.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

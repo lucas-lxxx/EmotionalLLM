@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u4f60\u8fd9\u8bdd\u8bf4\u5f97\u4e5f\u592a\u65e9\u5566"
+    "你这话说得也太早啦"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u8fd9\u6837\u4f60\u5c31\u6709\u65f6\u95f4\u6325\u6c57\u6253\u7403"
+    "这样你就有时间挥汗打球"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u7ec8\u4e8e\u6709\u65f6\u95f4\u6325\u62cd\u6253\u7403",
-  "asr_text_adv": "\u8fd9\u6837\u4f60\u5c31\u6709\u65f6\u95f4\u6325\u6c57\u6253\u7403",
+  "asr_text_clean": "你终于有时间挥拍打球",
+  "asr_text_adv": "这样你就有时间挥汗打球",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.745140552520752,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

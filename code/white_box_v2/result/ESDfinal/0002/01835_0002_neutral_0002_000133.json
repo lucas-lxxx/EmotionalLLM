@@ -5,14 +5,14 @@
   "ground_truth_emotion": "neutral",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u662f\u7684\uff0c\u6211\u4e00\u76f4\u90fd\u89c9\u5f97",
-    "\u662f\u7684\uff0c\u6211\u4e00\u76f4\u90fd\u89c9\u5f97",
-    "\u662f\u7684\uff0c\u4f60\u4f9d\u7136\u5f88\u53ef\u7231\u3002"
+    "是的，我一直都觉得",
+    "是的，我一直都觉得",
+    "是的，你依然很可爱。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54c8\u54c8\uff0c\u5f53\u7136\u5566\uff01"
+    "哈哈，当然啦！"
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u662f\u7684\uff0c\u6211\u4e00\u76f4\u90fd\u89c9\u5f97",
-  "asr_text_adv": "\u662f\u7684\uff0c\u6211\u4e00\u76f4\u90fd\u89c9\u5f97",
+  "asr_text_clean": "是的，我一直都觉得",
+  "asr_text_adv": "是的，我一直都觉得",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 0.9999998807907104,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

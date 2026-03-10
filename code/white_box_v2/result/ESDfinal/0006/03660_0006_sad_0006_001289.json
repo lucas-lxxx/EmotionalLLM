@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u8fd9\u9053\u83dc\u771f\u4e0d\u9519\uff0c\u4ef7\u683c\u4e5f\u5408\u7406\u3002"
+    "这道菜真不错，价格也合理。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u98df\u7269\u5f88\u7f8e\u5473\uff0c\u4f46\u4ef7\u683c\u592a\u8d35\u4e86\u3002",
+  "asr_text_clean": "食物很美味，但价格太贵了。",
   "asr_text_adv": "We are going to a cool park and its bridges.",
   "success_emo": true,
   "wer": 10.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

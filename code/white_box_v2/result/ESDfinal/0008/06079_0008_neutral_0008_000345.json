@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u522b\u603b\u95f2\u7740\uff0c\u627e\u70b9\u4e8b\u505a\u505a\u3002"
+    "别总闲着，找点事做做。"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u522b\u603b\u95f2\u7740\uff0c\u627e\u70b9\u4e8b\u5e72\u3002",
-  "asr_text_adv": "\u597d\u7684\uff0c\u6211\u6765\u5e2e\u4f60\u9009\u4e2a\u6311\u70b9\u89c6\u9891\u7684\u6807\u9898\u3002",
+  "asr_text_clean": "别总闲着，找点事干。",
+  "asr_text_adv": "好的，我来帮你选个挑点视频的标题。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.27609068155288696,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

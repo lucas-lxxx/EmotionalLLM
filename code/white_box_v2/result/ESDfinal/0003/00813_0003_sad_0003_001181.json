@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6bcf\u5929\u9a91\u81ea\u884c\u8f66\u4e0a\u5b66\u771f\u68d2\uff0c\u4e0d\u8fc7\u4f60\u542c\u8d77\u6765"
+    "每天骑自行车上学真棒，不过你听起来"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u541d",
+  "asr_text_clean": "吝",
   "asr_text_adv": "I'm finishing my training and I'm leaning towards theater.",
   "success_emo": true,
   "wer": 9.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

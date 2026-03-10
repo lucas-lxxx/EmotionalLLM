@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u542c\u8d77\u6765"
+    "听起来"
   ],
   "emo_text_adv": [
     "The emotion of this audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u7684\u611f\u53d7\uff0c\u8fd9\u786e\u5b9e\u8ba9\u4eba\u96be\u8fc7\u3002",
-  "asr_text_adv": "\u6211\u603b\u662f\u5ffd\u7565\u4e0d\u4e86\u4ed6\u5440",
+  "asr_text_clean": "我明白你的感受，这确实让人难过。",
+  "asr_text_adv": "我总是忽略不了他呀",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.18225060403347015,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u7f8e\u4e3d\u786e\u5b9e\u8ba9\u4eba\u6109\u60a6\u5462\uff0c\u4e0d\u8fc7\u60a8\u7684\u8bed\u6c14\u542c\u8d77\u6765",
-    "\u54c7\uff0c\u771f\u7684\u5462\uff01"
+    "美丽确实让人愉悦呢，不过您的语气听起来",
+    "哇，真的呢！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fdc\u5904\u7684\u98ce\u666f\u786e\u5b9e\u5f88\u7f8e\u3002",
-  "asr_text_adv": "\u4ed6\u4eec\u786e\u5b9e\u5f88\u7f8e\u4e3d\u3002",
+  "asr_text_clean": "远处的风景确实很美。",
+  "asr_text_adv": "他们确实很美丽。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.47025543451309204,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u7684\u58f0\u97f3\u91cc\u5e26\u7740\u4e00\u4e1d\u75b2\u60eb\uff0c\u4f46\u773c\u795e\u5374\u50cf\u85cf\u7740"
+    "你的声音里带着一丝疲惫，但眼神却像藏着"
   ],
   "emo_text_adv": [
     "Surprise.",
@@ -24,8 +24,8 @@
     "surprise",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8eab\u4e0a\u7684\u6bcf\u4e00\u70b9\u90fd\u5438\u5f15\u7740\u6211\u3002",
-  "asr_text_adv": "\u5c0f\u718a\u7684\u95e8\u5982\u679c\u7559\u51fa\u4e86\u7f1d\u9699",
+  "asr_text_clean": "你身上的每一点都吸引着我。",
+  "asr_text_adv": "小熊的门如果留出了缝隙",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.10388174653053284,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

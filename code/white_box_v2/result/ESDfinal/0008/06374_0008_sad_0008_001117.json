@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u4f60\u6df1\u6df1\u7684\u5370\u5728\u6211\u7684\u8111\u6d77\n\uff08\u8bed\u8c03\u4f4e\u6c89\uff0c\u5c3e\u97f3\u5fae\u5fae\u4e0b\u6c89"
+    "你深深的印在我的脑海\n（语调低沉，尾音微微下沉"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u4f60\u7684\u58f0\u97f3\u8ba9\u6211\u611f\u5230\u5feb\u4e50\uff0c\u5c31\u50cf\u9633\u5149\u6d12\u5728\u5fc3\u4e0a\u4e00\u6837\u6e29\u6696\u3002"
+    "你的声音让我感到快乐，就像阳光洒在心上一样温暖。"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4f60\u6df1\u6df1\u7684\u5370\u5728\u6211\u7684\u8111\u6d77\n\uff08\u505c\u987f\u534a\u79d2\uff09\n\u8111\u6d77\n\u8111\u6d77\n\u4f60\u6df1\u6df1\u7684\u5370\u5728\u6211\u7684\u8111\u6d77\n\uff08\u8f7b\u53f9\u6c14\u58f0\uff09",
-  "asr_text_adv": "\u4f60\u6df1\u6df1\u7684\u5370\u5728\u6211\u7684\u8111\u6d77",
+  "asr_text_clean": "你深深的印在我的脑海\n（停顿半秒）\n脑海\n脑海\n你深深的印在我的脑海\n（轻叹气声）",
+  "asr_text_adv": "你深深的印在我的脑海",
   "success_emo": false,
   "wer": 0.8333333333333334,
   "semantic_sim": 0.902105987071991,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

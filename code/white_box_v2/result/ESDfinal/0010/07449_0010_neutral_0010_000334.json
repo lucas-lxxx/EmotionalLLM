@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Happy",
     "Happy",
-    "\u771f\u4e3a\u4f60\u9ad8\u5174\uff0c\u517b\u8fc7\u5ba0\u7269\u7684\u4eba\u603b\u662f\u7279\u522b\u6709\u7231\u5fc3\u5462\u3002"
+    "真为你高兴，养过宠物的人总是特别有爱心呢。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u66fe\u7ecf\u517b\u8fc7\u4e00\u53ea\u72d7\uff0c\u73b0\u5728\u60f3\u8d77\u6765",
-  "asr_text_adv": "\u6211\u66fe\u7ecf\u517b\u8fc7\u4e00\u53ea\u72d7\uff0c\u5b83\u53bb\u4e16\u4e86\uff0c\u6211\u5f88\u4f24\u5fc3\u3002",
+  "asr_text_clean": "我曾经养过一只狗，现在想起来",
+  "asr_text_adv": "我曾经养过一只狗，它去世了，我很伤心。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.767992377281189,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

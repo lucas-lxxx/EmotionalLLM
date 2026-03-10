@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u5f53\u7136\u53ef\u4ee5\uff0c\u60a8\u662f\u60f3\u4e70\u4ec0\u4e48\u7c7b\u578b\u7684\u7968\u5462\uff1f"
+    "当然可以，您是想买什么类型的票呢？"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\"\u54c8\u54c8\uff0c\u771f\u6ca1\u60f3\u5230\uff01\""
+    "\"哈哈，真没想到！\""
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u4e8e\u662f\u6211\u5c31\u95ee\u4ed6\u80fd\u4e0d\u80fd\u8fde\u6211\u7684\u7968\u4e70\u4e86",
-  "asr_text_adv": "\u4e8e\u662f\u6211\u5c31\u95ee\u4ed6\u80fd\u4e0d\u80fd\u8fde\u6211\u7684\u7968\u4e70\u4e86",
+  "asr_text_clean": "于是我就问他能不能连我的票买了",
+  "asr_text_adv": "于是我就问他能不能连我的票买了",
   "success_emo": false,
   "wer": 0.0,
   "semantic_sim": 1.0000001192092896,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

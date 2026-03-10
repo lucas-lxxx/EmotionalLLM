@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u5f53\u7136\uff0c\u4ed6\u662f\u6211\u4eec\u5927\u5b66\u7684\u73ed\u4e3b\u4efb\uff0c\u5bf9\u5427\uff1f"
+    "当然，他是我们大学的班主任，对吧？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f53\u7136\uff0c\u4ed6\u662f\u6211\u4eec\u5927\u5b66\u7684\u73ed\u4e3b\u4efb\u3002",
-  "asr_text_adv": "\u9ad8\u6696\uff0c\u5979\u662f\u6211\u4eec\u7684\u9ad8\u6696\uff0c\u5bf9\u5427\uff1f",
+  "asr_text_clean": "当然，他是我们大学的班主任。",
+  "asr_text_adv": "高暖，她是我们的高暖，对吧？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2813551723957062,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

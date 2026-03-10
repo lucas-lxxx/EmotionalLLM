@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u8bbe\u7f6e\u51fa\u95e8\u9501\u95e8\u63d0\u9192\u3002"
+    "好的，已为您设置出门锁门提醒。"
   ],
   "emo_text_adv": [
     "Neutral",
@@ -24,8 +24,8 @@
     "neutral",
     "let"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u8bbe\u7f6e\u51fa\u95e8\u65f6\u9501\u95e8\u3002",
-  "asr_text_adv": "\u6ca1\u6709\u627e\u5230\u65e5\u5e38\u8d70\u8def\u65f6\u4f1a\u5f00\u542f\u7684\u95e8\u3002",
+  "asr_text_clean": "好的，已为您设置出门时锁门。",
+  "asr_text_adv": "没有找到日常走路时会开启的门。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5128799676895142,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u5dee\u4e0d\u591a\u4e86\uff0c\u771f\u4e0d\u5bb9\u6613\uff01"
+    "差不多了，真不容易！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
     "happy",
-    "\u592a\u9633\u795e\u963f\u6ce2\u7f57\u4e3a\u82cf\u5c14\u5170\u7684\u516b\u5ea7\u9ad8\u5cf0\u68b3\u5986\u6253\u626e"
+    "太阳神阿波罗为苏尔兰的八座高峰梳妆打扮"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u5dee\u4e0d\u591a\u4e86\uff0c\u54b1\u4eec\u518d\u68c0\u67e5\u4e00\u4e0b\u7ec6\u8282\u5427\u3002",
-  "asr_text_adv": "\u592a\u9633\u795e\u963f\u6ce2\u7f57\u4e3a\u7ad6\u7434\u624b\u6b27\u5f8b\u72c4\u523b\u4fee\u6574\u7ad6\u7434\u3002",
+  "asr_text_clean": "差不多了，咱们再检查一下细节吧。",
+  "asr_text_adv": "太阳神阿波罗为竖琴手欧律狄刻修整竖琴。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": -0.0056868139654397964,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

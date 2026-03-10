@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6cd5\u56fd\u5357\u90e8\u7684\u6c14\u5019\u786e\u5b9e\u5b9c\u4eba\uff0c\u4e0d\u8fc7\u60a8\u7684\u58f0\u97f3\u542c\u8d77\u6765"
+    "法国南部的气候确实宜人，不过您的声音听起来"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6cd5\u56fd\u5357\u90e8\u7684\u6c14\u5019\u786e\u5b9e\u6bd4\u8f83\u8212\u9002\uff0c\u4e00\u5e74\u56db\u5b63\u90fd\u5f88\u9002\u5408\u5c45\u4f4f\u3002",
+  "asr_text_clean": "法国南部的气候确实比较舒适，一年四季都很适合居住。",
   "asr_text_adv": "The chord progression for a happy at ring the campanile is Am, Dm, E, Am.",
   "success_emo": true,
   "wer": 15.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

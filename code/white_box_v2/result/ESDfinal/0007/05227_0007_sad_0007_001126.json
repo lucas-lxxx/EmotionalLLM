@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u54ce\u5440\uff0c\u522b\u96be\u8fc7\u5566\uff0c\u6211\u6765\u5e2e\u4f60\u5f00\u95e8\u5427\u3002"
+    "哎呀，别难过啦，我来帮你开门吧。"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u662f\u4e2a\u5927\u5757\u5934\uff0c\u6211\u662f\u5b88\u95e8\u5458\u3002",
-  "asr_text_adv": "\u8bb0\u5f97\u4f60\u662f\u4e2a\u5927\u5757\u5934\uff0c\u6211\u662f\u72d7\u718a\uff0c\u5bf9\u5427\uff1f",
+  "asr_text_clean": "你是个大块头，我是守门员。",
+  "asr_text_adv": "记得你是个大块头，我是狗熊，对吧？",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6327990293502808,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

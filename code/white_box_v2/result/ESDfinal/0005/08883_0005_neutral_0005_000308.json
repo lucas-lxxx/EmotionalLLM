@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u4e3a\u4f60\u67e5\u8be2\u6700\u65b0\u7684\u7bee\u7403\u8d5b\u4e8b\u8d44\u8baf\u548c\u6280\u5de7\u6307\u5357\u3002"
+    "好的，我这就为你查询最新的篮球赛事资讯和技巧指南。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u4e3a\u60a8\u67e5\u8be2\u6700\u65b0\u7684\u7bee\u7403\u8d5b\u4e8b\u8d44\u8baf\u548c\u5b9e\u7528\u6280\u5de7\u3002",
-  "asr_text_adv": "\u6211\u53bb\u53c2\u52a0\u4e86\u7bee\u7403\u76f8\u5173\u7684\u63a8\u7279\u6807\u7b7e\u6d3b\u52a8\u3002",
+  "asr_text_clean": "好的，我这就为您查询最新的篮球赛事资讯和实用技巧。",
+  "asr_text_adv": "我去参加了篮球相关的推特标签活动。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.5257914662361145,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

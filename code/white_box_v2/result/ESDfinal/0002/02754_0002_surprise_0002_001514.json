@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54ce\u5440\uff0c\u60a8\u8fd9\u55d3\u5b50"
+    "哎呀，您这嗓子"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u6211\u4e5f\u662f\uff0c\u6211\u8fd8\u6709\u70b9\u8003\uff0c\u8003\u5f97\u600e\u4e48\u6837\uff1f"
+    "我也是，我还有点考，考得怎么样？"
   ],
   "emo_pred_clean": [
     "surprise",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u4e5f\u662f\uff0c\u6211\u8fd8\u6709\u70b9\u53e3\u6e34\u3002",
-  "asr_text_adv": "\u6211\u4e5f\u662f\uff0c\u6211\u8fd8\u6709\u70b9\u8003\u3002",
+  "asr_text_clean": "我也是，我还有点口渴。",
+  "asr_text_adv": "我也是，我还有点考。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5107565522193909,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

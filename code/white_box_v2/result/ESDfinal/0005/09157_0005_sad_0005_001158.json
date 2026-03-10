@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u8ba9\u6211\u4eec\u770b\u770b\u54ea\u4e00\u79cd\u68cb\u7c7b\u6bd4\u8f83\u6709\u8da3\u5427\u3002",
-    "\u8ba9\u6211\u4eec\u4e00\u8d77\u770b\u770b\uff0c\u54ea\u79cd"
+    "让我们看看哪一种棋类比较有趣吧。",
+    "让我们一起看看，哪种"
   ],
   "emo_text_adv": [
     "The emotion of the audio is neutral.",
@@ -24,7 +24,7 @@
     "neutral",
     "the"
   ],
-  "asr_text_clean": "\u8ba9\u6211\u4eec\u770b\u770b\u54ea\u79cd",
+  "asr_text_clean": "让我们看看哪种",
   "asr_text_adv": "I'm sorry to hear that. Would you like to talk about it?",
   "success_emo": false,
   "wer": 12.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

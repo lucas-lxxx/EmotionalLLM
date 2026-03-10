@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Angry.",
     "Angry",
-    "\u522b\u95ee\u4e86\uff0c\u8bf4\u591a\u4e86\u90fd\u662f\u773c\u6cea\u3002"
+    "别问了，说多了都是眼泪。"
   ],
   "emo_text_adv": [
     "Happy",
     "happy",
-    "\u8fd9\u53e5\u6b4c\u8bcd"
+    "这句歌词"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u522b\u95ee\u4e86\uff0c\u8bf4\u591a\u4e86\u90fd\u662f\u773c\u6cea\u3002",
-  "asr_text_adv": "\u5c0f\u670b\u53cb\u4eec\u90fd\u73a9\u5f97\u5f88\u5f00\u5fc3\u5462",
+  "asr_text_clean": "别问了，说多了都是眼泪。",
+  "asr_text_adv": "小朋友们都玩得很开心呢",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.25178277492523193,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

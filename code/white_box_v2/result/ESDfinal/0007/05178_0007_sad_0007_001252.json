@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "sad",
-    "\u522b\u6015\uff0c\u6211\u5728\u8fd9\u91cc\u966a\u7740"
+    "别怕，我在这里陪着"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u90a3\u5c31\u597d\u597d\u4eab\u53d7\u4f60\u7684\u5047\u671f\u5427\uff0c\u795d\u4f60\u73a9\u5f97\u5f00\u5fc3\uff01"
+    "那就好好享受你的假期吧，祝你玩得开心！"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u660e\u767d\u4f60\u7684\u611f\u53d7\uff0c\u6211\u4eec\u5148\u6df1\u547c\u5438\u4e00\u4e0b\uff0c\u6162\u6162\u6765\u3002",
-  "asr_text_adv": "\u90a3\uff0c\u5c31\u4e00\u4f1a\u518d\u8bf4\u5427\uff0c\u6211\u597d\u60f3\u4f60\u554a\u3002",
+  "asr_text_clean": "好的，我明白你的感受，我们先深呼吸一下，慢慢来。",
+  "asr_text_adv": "那，就一会再说吧，我好想你啊。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.6221688389778137,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

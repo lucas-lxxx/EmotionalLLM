@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise!",
     "Surprise!",
-    "\u90a3\u4f60\u53ef\u4ee5\u5148\u544a\u8bc9\u6211\u5177\u4f53\u662f\u661f\u671f\u51e0\u5440\uff1f"
+    "那你可以先告诉我具体是星期几呀？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0d\u8fc7\u6211\u60f3\u661f\u671f\u4e94\u8d70",
-  "asr_text_adv": "\u5f92\u6b65",
+  "asr_text_clean": "不过我想星期五走",
+  "asr_text_adv": "徒步",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3711475133895874,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

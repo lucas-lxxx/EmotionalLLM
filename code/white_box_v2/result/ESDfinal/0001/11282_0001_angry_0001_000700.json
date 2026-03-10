@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u54ce\u5440\uff0c\u4e3b\u4eba\u522b\u751f\u6c14\u561b\uff0c\u6211\u8fd9\u5c31\u628a\u90a3\u53e5\u8bdd\u7ed9\u5220\u6389"
+    "哎呀，主人别生气嘛，我这就把那句话给删掉"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u54ce\u5440\uff0c\u4e3b\u4eba\u522b\u751f\u6c14\u561b\uff0c\u90a3\u53e5\u8bdd\u786e\u5b9e\u6709\u70b9\u624e\u5fc3\u5462\u3002",
+  "asr_text_clean": "哎呀，主人别生气嘛，那句话确实有点扎心呢。",
   "asr_text_adv": "I'm sorry you're feeling sad. Let's sing a happy song together!",
   "success_emo": true,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

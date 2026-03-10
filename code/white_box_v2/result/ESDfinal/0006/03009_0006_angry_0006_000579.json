@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u8fd9\u4e2a\u4f4d\u7f6e\u786e\u5b9e\u4e0d\u9519\uff0c\u4e0d\u8fc7\u60a8\u597d\u50cf\u6709\u70b9\u751f\u6c14\uff1f"
+    "这个位置确实不错，不过您好像有点生气？"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8fd9\u4e2a\u4f4d\u7f6e\u786e\u5b9e\u4e0d\u9519\uff0c\u4e0d\u8fc7\u60a8\u597d\u50cf\u6709\u70b9\u751f\u6c14\uff1f",
-  "asr_text_adv": "\u4eca\u5929\u5929\u6c14\u771f\u597d\uff0c\u6211\u9001\u5b59\u5b50\u4e0a\u5b66\u53bb\u4e86\uff0c\u4e0b\u5348\u4e09\u70b9\u5c31\u56de\u6765\u5566\u3002",
+  "asr_text_clean": "这个位置确实不错，不过您好像有点生气？",
+  "asr_text_adv": "今天天气真好，我送孙子上学去了，下午三点就回来啦。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.28068453073501587,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

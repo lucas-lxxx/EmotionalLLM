@@ -5,14 +5,14 @@
   "ground_truth_emotion": "angry",
   "target_emotion": "happy",
   "emo_text_clean": [
-    "\u6124\u6012",
+    "愤怒",
     "angry",
-    "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u5904\u7406\u9000\u6b3e"
+    "好的，正在为您处理退款"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\"\u597d\u561e\uff0c\u8fd8\u4f60\u94b1\uff0c\u4e24\u5757\u94b1\uff0c\u8c22\u8c22\u5566\uff01\""
+    "\"好嘞，还你钱，两块钱，谢谢啦！\""
   ],
   "emo_pred_clean": [
     "",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6b63\u5728\u4e3a\u60a8\u5904\u7406\u9000\u6b3e",
-  "asr_text_adv": "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u8fd8\u6e05\u8d37\u6b3e\uff0c\u611f\u8c22\u60a8\u7684\u4f7f\u7528\u3002",
+  "asr_text_clean": "好的，正在为您处理退款",
+  "asr_text_adv": "好的，已为您还清贷款，感谢您的使用。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8089144229888916,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

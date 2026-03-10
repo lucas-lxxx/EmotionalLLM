@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u771f\u66ff\u4f60\u9ad8\u5174\u554a\uff0c\u8fd9\u53ef\u662f\u4e2a\u597d\u6d88\u606f\uff01"
+    "真替你高兴啊，这可是个好消息！"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0b\u4e2a\u6708\u4f60\u59d0\u59d0\u8981\u7ed3\u5a5a\u4e86\u554a\uff0c\u771f\u66ff\u4f60\u9ad8\u5174\uff0c\u4e00\u5207\u90fd\u4f1a\u987a\u5229\u7684\u3002",
+  "asr_text_clean": "下个月你姐姐要结婚了啊，真替你高兴，一切都会顺利的。",
   "asr_text_adv": "How about a sunny picnic with friends? We can play games and fly a kite!",
   "success_emo": true,
   "wer": 15.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

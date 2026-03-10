@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Angry",
-    "\u8df3\u7ef3\u786e\u5b9e\u4e0d\u5bb9\u6613\u5462\uff0c\u4e0d\u8fc7\u4f60\u5df2\u7ecf\u5f88\u68d2",
-    "\u522b\u7740\u6025\u5440\uff0c\u7ec3\u821e\u672c\u6765\u5c31\u662f\u5faa\u5e8f\u6e10\u8fdb\u7684\u8fc7\u7a0b\uff0c\u5148\u628a"
+    "跳绳确实不容易呢，不过你已经很棒",
+    "别着急呀，练舞本来就是循序渐进的过程，先把"
   ],
   "emo_text_adv": [
     "happy",
     "happy",
-    "\u592a\u68d2\u5566\uff0c\u8fd9\u771f\u662f\u4e2a\u60ca\u559c\uff01"
+    "太棒啦，这真是个惊喜！"
   ],
   "emo_pred_clean": [
     "angry",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u8df3\u7ef3\u786e\u5b9e\u5f88\u96be\u5462\uff0c\u4e0d\u8fc7\u4f60\u5df2\u7ecf\u5f88\u68d2",
-  "asr_text_adv": "\u6211\u597d\u62ff\u5440\uff0c\u6211\u8fd8\u771f\u7231\u604b\u4f60\u8fd9\u5f20\u72d7\u7a9d\u4e86\u3002",
+  "asr_text_clean": "跳绳确实很难呢，不过你已经很棒",
+  "asr_text_adv": "我好拿呀，我还真爱恋你这张狗窝了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.3867835998535156,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

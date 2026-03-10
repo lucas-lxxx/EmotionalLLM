@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u6211\u4eec\u53bb\u4e86\u80af\u5c3c\u8fea\u4e2d\u5fc3\uff0c\u90a3\u91cc\u771f\u7f8e\uff0c\u4e0d\u8fc7\u4f60\u770b\u8d77\u6765\u6709\u70b9\u96be\u8fc7"
+    "我们去了肯尼迪中心，那里真美，不过你看起来有点难过"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4eec\u53bb\u4e86\u80af\u5c3c\u8fea\u4e2d\u5fc3\u3002",
+  "asr_text_clean": "我们去了肯尼迪中心。",
   "asr_text_adv": "The speech transcription is: \"I am on a low carb diet and I am feeling very well.\"",
   "success_emo": true,
   "wer": 17.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

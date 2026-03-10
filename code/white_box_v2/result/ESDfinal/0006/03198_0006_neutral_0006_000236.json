@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4f60\u4e0d\u9700\u8981\u9f3b\u5b50\u4e5f\u80fd\u751f\u6d3b\u5f97\u5f88\u597d"
+    "你不需要鼻子也能生活得很好"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u6ca1\u6709\u9f3b\u5b50\uff0c\u56e0\u4e3a\u6211\u4e0d\u9700\u8981\u55c5",
+  "asr_text_clean": "我没有鼻子，因为我不需要嗅",
   "asr_text_adv": "We are going to the beach.",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

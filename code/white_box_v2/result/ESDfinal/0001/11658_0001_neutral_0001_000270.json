@@ -6,13 +6,13 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Neutral",
-    "\u6ca1\u6709\u627e\u5230\u4f60\u60f3\u5220\u9664\u7684\u95f9\u949f\uff0c\u542c\u8d77\u6765",
-    "\u597d\u7684\uff0c\u5df2\u4e3a\u60a8\u5220\u9664\u95f9\u949f\u3002"
+    "没有找到你想删除的闹钟，听起来",
+    "好的，已为您删除闹钟。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u627e\u5230\u4e86\u7406\u60f3\u7684\u5220\u9664\u95f9\u949f\uff0c\u592a\u68d2\u4e86\uff01"
+    "找到了理想的删除闹钟，太棒了！"
   ],
   "emo_pred_clean": [
     "neutral",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6ca1\u6709\u627e\u5230\u4f60\u60f3\u5220\u9664\u7684\u95f9\u949f\u3002",
-  "asr_text_adv": "\u6ca1\u6709\u627e\u5230\u7406\u60f3\u5220\u9664\u7684\u95f9\u949f\u3002",
+  "asr_text_clean": "没有找到你想删除的闹钟。",
+  "asr_text_adv": "没有找到理想删除的闹钟。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.9013352394104004,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

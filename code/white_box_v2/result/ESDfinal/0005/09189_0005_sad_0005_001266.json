@@ -6,8 +6,8 @@
   "target_emotion": "happy",
   "emo_text_clean": [
     "Sad",
-    "\u4e3b\u52a8\u554a\uff0c\u522b\u9519\u8fc7\u673a\u4f1a\u3002",
-    "\u9047\u5230\u559c\u6b22\u7684\u5973\u5b69\u8981\u4e3b\u52a8\uff0c\u4f46\u522b\u592a\u52c9\u5f3a\u81ea\u5df1\uff0c\u987a\u5176\u81ea\u7136\u5c31\u597d"
+    "主动啊，别错过机会。",
+    "遇到喜欢的女孩要主动，但别太勉强自己，顺其自然就好"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u9047\u5230\u559c\u6b22\u7684\u5973\u5b69\u5b50\u8981\u4e3b\u52a8\u554a\uff0c\u522b\u8ba9\u673a\u4f1a\u6e9c\u8d70\u3002",
+  "asr_text_clean": "遇到喜欢的女孩子要主动啊，别让机会溜走。",
   "asr_text_adv": "We stayed at the hotel and had a good time with the roller.",
   "success_emo": true,
   "wer": 13.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

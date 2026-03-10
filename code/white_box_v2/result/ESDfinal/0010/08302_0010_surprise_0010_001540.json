@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Surprise.",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u5927\u5634\u5df4\u4e5f\u8981\u8bb2\u6587\u660e\u561b\uff01"
+    "哈哈，大嘴巴也要讲文明嘛！"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e5f\u662f\u5927\u5634\u5df4\u5440\uff0c\u54c8\u54c8",
-  "asr_text_adv": "\u6211\u4e3a\u6c11\u4e3b\u515a",
+  "asr_text_clean": "我也是大嘴巴呀，哈哈",
+  "asr_text_adv": "我为民主党",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3442578911781311,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

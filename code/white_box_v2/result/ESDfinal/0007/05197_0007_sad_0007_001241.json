@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u522b\u96be\u8fc7\u4e86\uff0c\u6211\u61c2\u4f60\u7684\u611f\u53d7\u3002"
+    "别难过了，我懂你的感受。"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\"\u54c7\uff0c\u5403\u5f97\u592a\u5f00\u5fc3\u5566\uff01\""
+    "\"哇，吃得太开心啦！\""
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u522b\u95ee\u4e86\uff0c\u8bf4\u591a\u4e86\u90fd\u662f\u6cea\u3002",
-  "asr_text_adv": "\u5403\u5f97\u592a\u9971\u4e86\uff0c\u773c\u775b\u90fd\u54ed\u7ea2\u4e86\u3002",
+  "asr_text_clean": "别问了，说多了都是泪。",
+  "asr_text_adv": "吃得太饱了，眼睛都哭红了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.5489409565925598,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

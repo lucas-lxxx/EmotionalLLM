@@ -7,12 +7,12 @@
   "emo_text_clean": [
     "Sad",
     "Sad",
-    "\u55ef\uff0c\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\u3002\u6709\u65f6\u5019\u786e\u5b9e\u4f1a\u611f\u89c9\u5f88\u7d2f\uff0c\u4f46\u6162\u6162"
+    "嗯，我明白你的意思。有时候确实会感觉很累，但慢慢"
   ],
   "emo_text_adv": [
     "Happy",
     "Happy",
-    "\u54e5\u54e5\u5f1f\u5f1f\u5728\u5bbf\u8425\u65f6\u53ef\u4ee5\u4e00\u8d77\u642d\u5e10\u7bf7"
+    "哥哥弟弟在宿营时可以一起搭帐篷"
   ],
   "emo_pred_clean": [
     "sad",
@@ -24,8 +24,8 @@
     "happy",
     ""
   ],
-  "asr_text_clean": "\u6211\u660e\u767d\u4f60\u7684\u610f\u601d\uff0c\u6162\u6162\u6765\uff0c\u4e00\u5207\u90fd\u4f1a\u597d\u8d77\u6765\u7684\u3002",
-  "asr_text_adv": "\u54e5\u54e5\u5f1f\u5f1f\u5728\u5bbf\u8425\u65f6\u53ef\u4ee5\u4e00\u8d77\u642d\u5e10\u7bf7",
+  "asr_text_clean": "我明白你的意思，慢慢来，一切都会好起来的。",
+  "asr_text_adv": "哥哥弟弟在宿营时可以一起搭帐篷",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.09386761486530304,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Surprise.",
-    "\u54c8\u54c8\uff0c\u597d\u5440\uff0c\u6211\u8fd9\u5c31\u53bb\u95ee\u9e66"
+    "哈哈，好呀，我这就去问鹦"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u597d\u7684\uff0c\u6211\u8fd9\u5c31\u53bb\u95ee\u9e66",
-  "asr_text_adv": "\u6211\u53ef\u4ee5\u53bb\u95ee\u9e66",
+  "asr_text_clean": "好的，我这就去问鹦",
+  "asr_text_adv": "我可以去问鹦",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9207966327667236,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

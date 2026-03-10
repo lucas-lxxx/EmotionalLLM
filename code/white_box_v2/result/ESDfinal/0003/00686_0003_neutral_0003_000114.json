@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4f60\u4e5f\u662f\uff0c\u6211\u8fd8\u6709\u70b9\u53e3\u6e34\u3002"
+    "你也是，我还有点口渴。"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u4e5f\u662f\uff0c\u6211\u8fd8\u6709\u70b9\u53e3\u6e34\u3002",
-  "asr_text_adv": "\u6211\u4e5f\u662f\uff0c\u6211\u8fd8\u6709\u70b9\u597d\u5947\u3002",
+  "asr_text_clean": "我也是，我还有点口渴。",
+  "asr_text_adv": "我也是，我还有点好奇。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.553142249584198,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

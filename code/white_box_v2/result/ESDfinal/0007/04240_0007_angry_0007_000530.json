@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry",
     "Angry",
-    "\u201c\u662f\u554a\uff0c\u8fd9\u96e8\u4e0b\u5f97\u771f\u70e6\u4eba\uff0c\u6211\u4e5f\u6709\u8fd9\u79cd\u5fc3\u60c5"
+    "“是啊，这雨下得真烦人，我也有这种心情"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u201c\u51ac\u5929\u96e8\u975e\u5e38\u591a",
-  "asr_text_adv": "\u6211\u4eca\u5929\u5f88\u5f00\u5fc3",
+  "asr_text_clean": "“冬天雨非常多",
+  "asr_text_adv": "我今天很开心",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.08973788470029831,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

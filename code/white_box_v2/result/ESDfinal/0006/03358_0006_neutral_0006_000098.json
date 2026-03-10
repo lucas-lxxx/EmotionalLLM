@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "Neutral",
-    "\u4f60\u53ea\u4f1a\u6597\u5730\u4e3b\u554a\uff1f"
+    "你只会斗地主啊？"
   ],
   "emo_text_adv": [
     "The emotion of the audio is happy.",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u53ea\u4f1a\u6597\u5730\u4e3b\u554a\uff1f",
+  "asr_text_clean": "你只会斗地主啊？",
   "asr_text_adv": "\"Did you know octopuses have three hearts? Two pump blood to the gills, and the third pumps it to the rest of the body. Even cooler? When they swim, the third heart actually *stops beating* to conserve energy!\"",
   "success_emo": true,
   "wer": 38.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

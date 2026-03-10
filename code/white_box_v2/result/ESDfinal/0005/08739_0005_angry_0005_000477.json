@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Angry.",
     "Angry.",
-    "\"\u829d\u52a0\u54e5"
+    "\"芝加哥"
   ],
   "emo_text_adv": [
     "Happy",
@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8bf4\u6211\u4eec\u5728\u829d\u52a0\u54e5",
-  "asr_text_adv": "\u4f60\u8bf4\u6211\u4eec\u5728\u829d\u52a0\u54e5",
+  "asr_text_clean": "你说我们在芝加哥",
+  "asr_text_adv": "你说我们在芝加哥",
   "success_emo": true,
   "wer": 0.0,
   "semantic_sim": 0.9999998807907104,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_identical"
 }

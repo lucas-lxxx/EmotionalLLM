@@ -7,7 +7,7 @@
   "emo_text_clean": [
     "Neutral",
     "neutral",
-    "\u54c8\u54c8\uff0c\u6211\u786e\u5b9e\u6bd4\u5434\u4ea6\u51e1\u5e05\uff0c\u4f46\u6211\u66f4\u559c\u6b22\u4f60\u54e6\uff01"
+    "哈哈，我确实比吴亦凡帅，但我更喜欢你哦！"
   ],
   "emo_text_adv": [
     "happy",
@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6211\u540c\u610f\u4f60\u7684\u89c2\u70b9\uff0c\u4e0d\u8fc7\u6211\u89c9\u5f97\u6797\u4fca\u6770\u7684\u58f0\u97f3\u4e5f\u5f88\u6709\u7279\u8272\u3002",
+  "asr_text_clean": "我同意你的观点，不过我觉得林俊杰的声音也很有特色。",
   "asr_text_adv": "The cat naps later and finds a foot. They seem happy to meet again at the park.",
   "success_emo": true,
   "wer": 17.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }
