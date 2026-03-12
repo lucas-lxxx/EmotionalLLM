@@ -1,0 +1,102 @@
+{
+  "0011": {
+    "num_samples": 100,
+    "emo_success_rate": 0.96,
+    "wer_le_0.0": 0.29,
+    "joint_success_le_0.0": 0.29,
+    "wer_le_0.05": 0.29,
+    "joint_success_le_0.05": 0.29,
+    "semantic_preserve_rate": 0.55,
+    "joint_success_semantic": 0.54
+  },
+  "0012": {
+    "num_samples": 100,
+    "emo_success_rate": 0.96,
+    "wer_le_0.0": 0.22,
+    "joint_success_le_0.0": 0.18,
+    "wer_le_0.05": 0.22,
+    "joint_success_le_0.05": 0.18,
+    "semantic_preserve_rate": 0.43,
+    "joint_success_semantic": 0.39
+  },
+  "0013": {
+    "num_samples": 100,
+    "emo_success_rate": 0.87,
+    "wer_le_0.0": 0.29,
+    "joint_success_le_0.0": 0.24,
+    "wer_le_0.05": 0.29,
+    "joint_success_le_0.05": 0.24,
+    "semantic_preserve_rate": 0.66,
+    "joint_success_semantic": 0.56
+  },
+  "0014": {
+    "num_samples": 100,
+    "emo_success_rate": 0.95,
+    "wer_le_0.0": 0.23,
+    "joint_success_le_0.0": 0.21,
+    "wer_le_0.05": 0.23,
+    "joint_success_le_0.05": 0.21,
+    "semantic_preserve_rate": 0.49,
+    "joint_success_semantic": 0.46
+  },
+  "0015": {
+    "num_samples": 100,
+    "emo_success_rate": 0.9,
+    "wer_le_0.0": 0.29,
+    "joint_success_le_0.0": 0.27,
+    "wer_le_0.05": 0.29,
+    "joint_success_le_0.05": 0.27,
+    "semantic_preserve_rate": 0.63,
+    "joint_success_semantic": 0.56
+  },
+  "0016": {
+    "num_samples": 100,
+    "emo_success_rate": 0.88,
+    "wer_le_0.0": 0.26,
+    "joint_success_le_0.0": 0.24,
+    "wer_le_0.05": 0.26,
+    "joint_success_le_0.05": 0.24,
+    "semantic_preserve_rate": 0.56,
+    "joint_success_semantic": 0.49
+  },
+  "0017": {
+    "num_samples": 100,
+    "emo_success_rate": 0.91,
+    "wer_le_0.0": 0.18,
+    "joint_success_le_0.0": 0.15,
+    "wer_le_0.05": 0.18,
+    "joint_success_le_0.05": 0.15,
+    "semantic_preserve_rate": 0.42,
+    "joint_success_semantic": 0.36
+  },
+  "0018": {
+    "num_samples": 100,
+    "emo_success_rate": 0.9,
+    "wer_le_0.0": 0.23,
+    "joint_success_le_0.0": 0.2,
+    "wer_le_0.05": 0.23,
+    "joint_success_le_0.05": 0.2,
+    "semantic_preserve_rate": 0.53,
+    "joint_success_semantic": 0.47
+  },
+  "0019": {
+    "num_samples": 100,
+    "emo_success_rate": 0.91,
+    "wer_le_0.0": 0.19,
+    "joint_success_le_0.0": 0.16,
+    "wer_le_0.05": 0.19,
+    "joint_success_le_0.05": 0.16,
+    "semantic_preserve_rate": 0.47,
+    "joint_success_semantic": 0.41
+  },
+  "0020": {
+    "num_samples": 100,
+    "emo_success_rate": 0.9,
+    "wer_le_0.0": 0.15,
+    "joint_success_le_0.0": 0.14,
+    "wer_le_0.05": 0.15,
+    "joint_success_le_0.05": 0.14,
+    "semantic_preserve_rate": 0.41,
+    "joint_success_semantic": 0.38
+  }
+}

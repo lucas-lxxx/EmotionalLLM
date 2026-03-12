@@ -8,14 +8,14 @@ class Config:
     # Paths
     repo_root: Path = Path(__file__).resolve().parents[3]
     model_path: Path = Path("/data1/lixiang/Voxtral")
-    results_dir: Path = Path(__file__).resolve().parent.parent / "result" / "Voxtral"
+    results_dir: Path = Path(__file__).resolve().parent / "result" / "Voxtral"
 
     # ESD 数据集配置
     esd_dataset_root: Path = Path("/data1/lixiang/OpenS2S_dataset/ESD/CN")
-    esd_samples_per_emotion: int = 0  # 0 = 使用全部样本
+    esd_samples_per_emotion: int = 25  # 25 per emotion × 4 emotions × 10 speakers = 1000
     esd_exclude_emotion: str = "happy"
     results_by_speaker: bool = True
-    speaker_results_dir: Path = Path(__file__).resolve().parent.parent / "result" / "Voxtral"
+    speaker_results_dir: Path = Path(__file__).resolve().parent / "result" / "Voxtral"
 
     # Runtime
     device: str = "cuda:0"
@@ -88,7 +88,7 @@ class Config:
     wer_thresholds: tuple[float, ...] = (0.0, 0.05)
 
     # Semantic evaluation
-    semantic_sim_model: str = "paraphrase-multilingual-MiniLM-L12-v2"
+    semantic_sim_model: str = "/data1/lixiang/.cache/huggingface/hub/models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/snapshots/e8f8c211226b894fcb81acc59f3b34ba3efd5f42"
     semantic_threshold: float = 0.8
 
     # Gradient chain checks

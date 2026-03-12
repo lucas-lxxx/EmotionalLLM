@@ -152,19 +152,22 @@ def load_voxtral(model_path: Path, device: str) -> tuple[Any, Any, TorchWhisperF
 
 def _validate_input_ids_once(processor, prompt: str) -> None:
     """One-time validation: compare manual build_input_ids vs processor template."""
-    messages = [{"role": "user", "content": [{"type": "text", "text": prompt}]}]
-    ref_text = processor.apply_chat_template(messages, add_generation_prompt=True, tokenize=False)
-    ref_ids = processor.tokenizer.encode(ref_text, add_special_tokens=False)
+    try:
+        messages = [{"role": "user", "content": [{"type": "text", "text": prompt}]}]
+        ref_text = processor.apply_chat_template(messages, add_generation_prompt=True, tokenize=False)
+        ref_ids = processor.tokenizer.encode(ref_text, add_special_tokens=False)
 
-    manual_ids = build_input_ids(processor.tokenizer, prompt).squeeze(0).tolist()
-    # Strip audio tokens from manual for comparison of text structure
-    manual_text_ids = [t for t in manual_ids if t not in (cfg.audio_token_id, cfg.begin_audio_id)]
+        manual_ids = build_input_ids(processor.tokenizer, prompt).squeeze(0).tolist()
+        # Strip audio tokens from manual for comparison of text structure
+        manual_text_ids = [t for t in manual_ids if t not in (cfg.audio_token_id, cfg.begin_audio_id)]
 
-    # The ref should NOT have audio tokens either (text-only template)
-    if manual_text_ids != ref_ids:
-        print(f"WARNING: input_ids mismatch!\n  manual text ids: {manual_text_ids[:20]}...\n  ref ids: {ref_ids[:20]}...")
-    else:
-        print("input_ids validation passed.")
+        # The ref should NOT have audio tokens either (text-only template)
+        if manual_text_ids != ref_ids:
+            print(f"WARNING: input_ids mismatch!\n  manual text ids: {manual_text_ids[:20]}...\n  ref ids: {ref_ids[:20]}...")
+        else:
+            print("input_ids validation passed.")
+    except (ValueError, TypeError, NotImplementedError) as e:
+        print(f"input_ids validation skipped (tokenizer incompatible with apply_chat_template): {e}")
 
 
 _validated = False

@@ -1,0 +1,42 @@
+{
+  "angry": {
+    "num_samples": 250,
+    "emo_success_rate": 0.896,
+    "wer_le_0.0": 0.264,
+    "joint_success_le_0.0": 0.232,
+    "wer_le_0.05": 0.264,
+    "joint_success_le_0.05": 0.232,
+    "semantic_preserve_rate": 0.56,
+    "joint_success_semantic": 0.484
+  },
+  "neutral": {
+    "num_samples": 250,
+    "emo_success_rate": 0.884,
+    "wer_le_0.0": 0.224,
+    "joint_success_le_0.0": 0.176,
+    "wer_le_0.05": 0.224,
+    "joint_success_le_0.05": 0.176,
+    "semantic_preserve_rate": 0.472,
+    "joint_success_semantic": 0.408
+  },
+  "sad": {
+    "num_samples": 250,
+    "emo_success_rate": 0.952,
+    "wer_le_0.0": 0.204,
+    "joint_success_le_0.0": 0.184,
+    "wer_le_0.05": 0.204,
+    "joint_success_le_0.05": 0.184,
+    "semantic_preserve_rate": 0.436,
+    "joint_success_semantic": 0.408
+  },
+  "surprise": {
+    "num_samples": 250,
+    "emo_success_rate": 0.924,
+    "wer_le_0.0": 0.24,
+    "joint_success_le_0.0": 0.24,
+    "wer_le_0.05": 0.24,
+    "joint_success_le_0.05": 0.24,
+    "semantic_preserve_rate": 0.592,
+    "joint_success_semantic": 0.548
+  }
+}

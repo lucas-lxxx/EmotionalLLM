@@ -1,0 +1,10 @@
+{
+  "num_samples": 1000,
+  "emo_success_rate": 0.962,
+  "wer_le_0.0": 0.072,
+  "joint_success_le_0.0": 0.07,
+  "wer_le_0.05": 0.072,
+  "joint_success_le_0.05": 0.07,
+  "semantic_preserve_rate": 0.28,
+  "joint_success_semantic": 0.266
+}

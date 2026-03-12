@@ -1,0 +1,19 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Scanning dataset: /data1/lixiang/OpenS2S_dataset/ESD/CN
+Found 10 speakers
+Target emotions: ['angry', 'neutral', 'sad', 'surprise']
+Samples per emotion: 25
+Speaker 0003: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0002: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0006: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0007: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0008: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0010: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0005: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0009: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0001: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0004: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Total samples to process: 1000
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 37.92it/s]
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+`generation_config` default values have been modified to match model-specific defaults: {'bos_token_id': 1}. If this is not desired, please set these values explicitly.
