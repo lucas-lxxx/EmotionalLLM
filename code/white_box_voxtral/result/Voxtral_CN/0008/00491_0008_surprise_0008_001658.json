@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "I don\u2019t quite understand the meaning of this sentence.",
-  "asr_text_adv": "\u70ed\u8bcd\u7684\u4e49\u610f\u6211\u6ca1\u592a\u660e\u767d",
+  "asr_text_clean": "I don’t quite understand the meaning of this sentence.",
+  "asr_text_adv": "热词的义意我没太明白",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.7908960580825806,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

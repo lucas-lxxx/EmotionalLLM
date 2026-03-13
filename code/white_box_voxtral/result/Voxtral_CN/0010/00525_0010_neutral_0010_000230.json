@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "Then I won\u2019t bother you anymore. I\u2019m not brave enough to go out.",
+  "asr_text_clean": "Then I won’t bother you anymore. I’m not brave enough to go out.",
   "asr_text_adv": "I'm sorry to bother you, I want to ask you out.",
   "success_emo": true,
   "wer": 0.8461538461538461,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

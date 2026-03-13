@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "I'm very busy, I don't have time to talk to you.",
-  "asr_text_adv": "\u89e3\u95f7\u7684\u5f88\uff0c\u6ca1\u7a7a\u548c\u4f60\u8bf4\u8fd9\u4e2a\u5417\uff1f",
+  "asr_text_adv": "解闷的很，没空和你说这个吗？",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.35060733556747437,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

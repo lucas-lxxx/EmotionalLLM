@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6ca1\u770b\u8fc7\u5c0f\u8bf4\uff0c\u53ea\u6709\u4eba\u7c7b\u624d\u9700\u8981\u3002",
+  "asr_text_clean": "没看过小说，只有人类才需要。",
   "asr_text_adv": "I haven't seen it, so I can't say. Only people can see it.",
   "success_emo": true,
   "wer": 13.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

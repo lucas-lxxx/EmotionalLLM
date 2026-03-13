@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u64ad\u653e\u6b4c\u5355\u6536\u85cf\uff0c\u8111\u6d77\u53ef\u52a8\u624b\u771f\u5feb\u3002",
+  "asr_text_clean": "播放歌单收藏，脑海可动手真快。",
   "asr_text_adv": "Play songs, save them, and your brain can be moved quickly.",
   "success_emo": true,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

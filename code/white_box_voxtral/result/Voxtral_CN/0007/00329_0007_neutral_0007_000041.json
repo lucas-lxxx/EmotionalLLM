@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "I'm too busy to talk to you about this.",
-  "asr_text_adv": "\u8138\u4e0a\u5fd9\u5f97\u6d77\u4e86\uff0c\u4f60\u770b\u4f60\u597d\u51e0\u4e2a\u4e2a\u4e2a\u597d\u3002",
+  "asr_text_adv": "脸上忙得海了，你看你好几个个个好。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3127068877220154,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

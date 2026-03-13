@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "Belt is really indispensable for men.",
-  "asr_text_adv": "Dinh T\u00e0i Ph\u1ee7 in the town of L\u1ea1i Ph\u01b0\u1edbc, in the district of Ph\u01b0\u1edbc Long, is famous for its many fruit trees.",
+  "asr_text_adv": "Dinh Tài Phủ in the town of Lại Phước, in the district of Phước Long, is famous for its many fruit trees.",
   "success_emo": true,
   "wer": 3.5,
   "semantic_sim": -0.003986494615674019,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

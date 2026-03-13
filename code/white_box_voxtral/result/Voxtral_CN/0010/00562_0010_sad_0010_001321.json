@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f88\u5927\uff0c\u8ba9\u4eba\u5174\u594b\uff0c\u4f46\u662f\u8349\u576a\u3002",
+  "asr_text_clean": "很大，让人兴奋，但是草坪。",
   "asr_text_adv": "I'm not sure what you're saying.",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

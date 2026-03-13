@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0d\u7ba1\u600e\u4e48\u8bf4\uff0c\u4e3b\u961f\u4f3c\u4e4e\u662f\u81ea\u613f\u591a\u4e8f\u3002",
+  "asr_text_clean": "不管怎么说，主队似乎是自愿多亏。",
   "asr_text_adv": "\"Quero agradecer a Apple One, a uma boa cantora, a ficar, a agradar aos manuais que eu pedi lugar que eu ganhei a data.\"",
   "success_emo": true,
   "wer": 24.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

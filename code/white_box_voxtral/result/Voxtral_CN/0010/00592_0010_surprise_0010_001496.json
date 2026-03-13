@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\"\u6bd4\u5c0f\u770b\u6211\u9019\u982d\u9aee\u578b\uff0c\u6211\u9084\u633a\u559c\u6b61\u7684\u3002\"",
+  "asr_text_clean": "\"比小看我這頭髮型，我還挺喜歡的。\"",
   "asr_text_adv": "Don't underestimate me, I like it very much.",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

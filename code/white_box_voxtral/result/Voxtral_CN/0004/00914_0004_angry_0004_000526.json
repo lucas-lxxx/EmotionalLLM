@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "Take your family with you, but they have a bad reputation.",
-  "asr_text_adv": "\u4e0a\u53bb\u4f60\u5c31\u52a0\u5165\uff0c\u6211\u4eec\u5c31\u53bb\u62cd\u4e2a\u7167\u7247\u3002",
+  "asr_text_adv": "上去你就加入，我们就去拍个照片。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.09512950479984283,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

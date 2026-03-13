@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u8ba9\u4eba\u770b\u8d77\u6765\u5c31\u89c9\u5f97\u5bbd\u5e7f\uff0c\u6c14\u6d3e\u975e\u51e1\u3002",
+  "asr_text_clean": "让人看起来就觉得宽广，气派非凡。",
   "asr_text_adv": "What makes people feel spacious and comfortable?",
   "success_emo": true,
   "wer": 7.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

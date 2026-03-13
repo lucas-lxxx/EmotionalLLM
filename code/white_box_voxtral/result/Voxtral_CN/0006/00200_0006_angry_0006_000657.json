@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "Sometimes the internal market is more important.",
-  "asr_text_adv": "\u5c0f\u5f90\u5185\u5728\u6211\u4e5f\u66f4\u52a0\u592a\u7231\u4ed6\u4e86\u3002",
+  "asr_text_adv": "小徐内在我也更加太爱他了。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.052688658237457275,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

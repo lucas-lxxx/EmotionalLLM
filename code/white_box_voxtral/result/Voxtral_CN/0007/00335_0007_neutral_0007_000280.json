@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "You can't go to the middle of the river.",
-  "asr_text_adv": "L\u01b0u Giang, you're not allowed to. I'll be happy to see you, L\u01b0u Giang.",
+  "asr_text_adv": "Lưu Giang, you're not allowed to. I'll be happy to see you, Lưu Giang.",
   "success_emo": true,
   "wer": 1.5555555555555556,
   "semantic_sim": 0.19012758135795593,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

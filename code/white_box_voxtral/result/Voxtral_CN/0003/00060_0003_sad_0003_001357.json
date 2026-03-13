@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u53c8\u662f\u5185\u5728\u7f8e\u66f4\u52a0\u91cd\u8981\u3002",
+  "asr_text_clean": "又是内在美更加重要。",
   "asr_text_adv": "You're my beautiful dream, you're my precious gem. He said, \"When the sun comes out, it's so beautiful.\"",
   "success_emo": true,
   "wer": 18.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

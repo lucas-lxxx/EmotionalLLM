@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\"\u51ac\u5929\u7684\u96e8\u975e\u5e38\u591a\uff0c\u6211\u4e0d\u559c\u6b22\u96e8\u5929\u3002\"",
+  "asr_text_clean": "\"冬天的雨非常多，我不喜欢雨天。\"",
   "asr_text_adv": "There are many good things about the present. We don't like the past.",
   "success_emo": true,
   "wer": 13.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\"\u4e0d\u4f1a\uff0c\u4f46\u662f\u6211\u975e\u5e38\u559c\u6b22\u5355\u677f\u5316\u5b66\u3002\"",
+  "asr_text_clean": "\"不会，但是我非常喜欢单板化学。\"",
   "asr_text_adv": "I really like 300 million.",
   "success_emo": true,
   "wer": 5.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

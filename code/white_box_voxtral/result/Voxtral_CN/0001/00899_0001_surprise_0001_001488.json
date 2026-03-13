@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "Hong Kong Ocean Park, hurry and take me there!",
-  "asr_text_adv": "Hong Kong\u6d77\u6d0b\u516c\u5712\uff0c\u4e3b\u4eba\u5feb\u5e36\u6211\u53bb\uff01",
+  "asr_text_adv": "Hong Kong海洋公園，主人快帶我去！",
   "success_emo": true,
   "wer": 0.8888888888888888,
   "semantic_sim": 0.923846960067749,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

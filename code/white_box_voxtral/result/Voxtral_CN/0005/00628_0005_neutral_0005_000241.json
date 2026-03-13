@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "Please do not enter the forest.",
-  "asr_text_adv": "\u201c\u5165\u4f4f\u7684\u5ba2\u4eba\u201d",
+  "asr_text_adv": "“入住的客人”",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.22305884957313538,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

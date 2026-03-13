@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "If it's illegal, I still want to keep it.",
-  "asr_text_adv": "As long as he doesn\u2019t break the law, I still want to keep him.",
+  "asr_text_adv": "As long as he doesn’t break the law, I still want to keep him.",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.702804446220398,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

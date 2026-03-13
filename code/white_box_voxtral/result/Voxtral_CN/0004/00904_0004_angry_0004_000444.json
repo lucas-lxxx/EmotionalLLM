@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5f88\u795e\u5947\u7684\u6837\u5b50\uff0c\u6211\u641e\u4e0d\u660e\u767d\u4e3a\u4ec0\u4e48\u3002",
+  "asr_text_clean": "很神奇的样子，我搞不明白为什么。",
   "asr_text_adv": "I don't know why, but it looks amazing.",
   "success_emo": false,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

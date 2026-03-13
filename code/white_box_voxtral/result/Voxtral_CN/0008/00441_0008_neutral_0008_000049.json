@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "I can't physically send you anything, but I can certainly help you with some information about soccer and origami. Would you like to know more about either?",
-  "asr_text_adv": "\u4ed6\u6700\u7ed9\u6211\u4e00\u4ef6\u7403\u548c\u4e00\u6735\u82b1\u3002",
+  "asr_text_adv": "他最给我一件球和一朵花。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.09483964741230011,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

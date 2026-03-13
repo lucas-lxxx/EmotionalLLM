@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4f60\u8fd9\u5c0f\u9b3c\uff0c\u5f88\u4e0d\u5e78\uff0c\u975e\u5e38\u5c11\u3002",
-  "asr_text_adv": "\u4e00\u53ea\u5c0f\u7f8a\u7f94\uff0c\u90a3\u4e48\u597d\u770b\uff0c\u975e\u5e38\u53ef\u7231\u3002",
+  "asr_text_clean": "你这小鬼，很不幸，非常少。",
+  "asr_text_adv": "一只小羊羔，那么好看，非常可爱。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.11901599168777466,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

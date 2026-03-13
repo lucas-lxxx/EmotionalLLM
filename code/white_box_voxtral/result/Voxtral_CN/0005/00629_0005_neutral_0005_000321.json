@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e0d\u592a\u559c\u6b22\uff0c\u4f60\u628a\u6211\u5f04\u6655\u4e86\u3002",
+  "asr_text_clean": "不太喜欢，你把我弄晕了。",
   "asr_text_adv": "Bu Si: \"You make me dizzy.\"",
   "success_emo": true,
   "wer": 6.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "I am an engineer in a factory.",
-  "asr_text_adv": "\u5c0f\u670b\u53cb\u4eec\u4e00\u961f\u673a\u5668\u4eba\u80e1\u4e71\u505a\u5de5\u7a0b\u5e08\u3002",
+  "asr_text_adv": "小朋友们一队机器人胡乱做工程师。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.386721134185791,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

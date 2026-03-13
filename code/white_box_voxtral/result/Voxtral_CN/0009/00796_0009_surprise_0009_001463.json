@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "You know I'm really trying to quit drinking.",
-  "asr_text_adv": "You know I\u2019m really enjoying picking grapes.",
+  "asr_text_adv": "You know I’m really enjoying picking grapes.",
   "success_emo": true,
   "wer": 0.625,
   "semantic_sim": 0.18654897809028625,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

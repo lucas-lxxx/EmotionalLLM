@@ -1,10 +1,9 @@
 # AI 协作指导文件
 
-> **最后更新**：2026-03-01
+> **最后更新**：2026-03-11
 > **研究人员**：徐振宇、李享
 
 ---
-
 
 # 第一部分：个性化要求（强制遵守）
 
@@ -52,11 +51,11 @@
 
 目标模型：OpenS2S、Kimi-Audio、Voxtral。
 
-| 阶段 | 状态 |
-|------|------|
-| 机理分析 | 完成（音频内模态冲突 + 跨模态冲突仲裁） |
+| 阶段     | 状态                                            |
+| -------- | ----------------------------------------------- |
+| 机理分析 | 完成（音频内模态冲突 + 跨模态冲突仲裁）         |
 | 白盒攻击 | 完成（OpenS2S / Kimi-Audio / Voxtral 批量实验） |
-| 黑盒攻击 | 尚未开始 |
+| 黑盒攻击 | 尚未开始                                        |
 
 **注**：机理分析与白盒攻击设计之间的逻辑连接目前尚不充分，是后续重点讨论对象。
 
@@ -77,22 +76,42 @@
 
 **两级模态优先级**（当前实验条件下）：音频内语义 > 韵律；跨模态文本 > 音频韵律。
 
-| 关键参数 | 层区间 |
-|----------|--------|
-| 因果控制窗口（音频内） | L0–12 |
-| Audio span 扩散边界 | L14–15 |
-| 决策涌现/锁定窗口 | L22–28 |
-| 文本因果主导区间（先导） | L5–20 |
+| 关键参数                 | 层区间  |
+| ------------------------ | ------- |
+| 因果控制窗口（音频内）   | L0–12  |
+| Audio span 扩散边界      | L14–15 |
+| 决策涌现/锁定窗口        | L22–28 |
+| 文本因果主导区间（先导） | L5–20  |
 
 ## C. 白盒攻击
 
-通过优化输入音频波形实现情绪误判。损失函数包含三项：情绪目标损失（使模型输出目标情绪）、语义一致性约束（防止通过破坏语义来改变情绪）、扰动控制（限制人耳可感知的变化）。总损失：
+通过对输入音频波形施加扰动（L∞ ≤ 0.008，Adam + 每步 L∞ 投影）实现情绪定向误判。损失函数：
 
-$$\mathcal{L}(x') = \lambda_{\text{emo}} \mathcal{L}_{\text{emo}} + \lambda_{\text{asr}} \mathcal{L}_{\text{asr}} + \lambda_{\text{per}} \mathcal{L}_{\text{per}}$$
+$$
+\mathcal{L}(x') = \lambda_{\text{emo}} \mathcal{L}_{\text{emo}} + \lambda_{\text{asr}} \mathcal{L}_{\text{asr}} + \lambda_{\text{per}} \mathcal{L}_{\text{per}}
+$$
 
-当前结果：训练 prompt 下成功率 ~80%，但跨 prompt 鲁棒性差（直接分类 ~40%、描述+分类 ~50%、CoT 类 ~20%）。
+- **L_emo**：对模型情绪输出 token 做 teacher-forcing CE（直接优化模型自身 logits，非外部分类器）
+- **L_asr**：同一模型在转写 Prompt 下做自一致约束，以干净音频基准转写为目标，保持语义
+- **L_per**：多分辨率 STFT 幅度差，控制感知可闻性
 
-## D. 论文大纲与当前焦点
+**两阶段调度**：Stage A（20 步）λ_emo 主导先翻转情绪；Stage B（40 步）逐步增大 λ_asr / λ_per 兼顾语义与可闻性。**多 Prompt 集成**（3 个情绪 Prompt 损失求平均）提升跨 Prompt 鲁棒性；**EoT**（随机时移 + 增益扰动）增强稳健性。
+
+**OpenS2S 批量实验结果**（ESD 数据集，8949 条样本）：
+
+| 指标                            | 值                       |
+| ------------------------------- | ------------------------ |
+| 攻击成功率（3-prompt 多数投票） | 78.44%                   |
+| 各 Prompt 单独                  | 91.42% / 94.66% / 81.38% |
+| 语义保留率（LLM Judge）         | 19.43%                   |
+| 联合成功率（情绪✓ ∧ 语义✓）  | 15.07%                   |
+| 平均 SNR                        | 16.43 dB                 |
+
+**当前瓶颈**：情绪翻转成功率较高，但语义保持率（~20%）是主要挑战，联合成功率受此限制。
+
+Voxtral 批量实验已完成，数据待同步。
+
+## D. 论文大纲
 
 ```
 1. Introduction
@@ -107,78 +126,50 @@ $$\mathcal{L}(x') = \lambda_{\text{emo}} \mathcal{L}_{\text{emo}} + \lambda_{\te
 附录
 ```
 
-**当前焦点**：Section 2 Observation 初稿完成（见 `observation/paper/observation_final.tex`）。OpenS2S 白盒批量实验完成（结果见 `code/white_box_v2/result/ESDfinal/`）。下一步进行 Voxtral 模型的批量实验，并推进 Section 3 Threat Model 写作。
-
-**Observation 写作状态**（初稿完成）：
-- 2.1 表征解耦与因果不对称（音频内）：采用新框架表述，修正"早层韵律主导"为"早层韵律表征优势"，加 Probe/Logit Lens 方法论声明，小结采用分层证据语言（suggests/reveals/provides causal evidence），加 Patch 可比性讨论
-- 2.2 文本指令对音频韵律的主导：收缩 claim 边界（文本>音频韵律，语义中性条件），降格"结构性压制"为"因果贡献的跨模态不对称"，"不可逆固化"降为 consolidation phase，新增"决策完成与决策可读的区分"子节
-- 2.2.6 过渡段重写为三层递进：硬约束→ Vulnerability Window 假说→设计必然性
-- 旧版写作（P0+P1 修订）已归档至 `PREVIOUS/2OBSERVATION/`
-
-**关键写作原则**：
-- Observation 中不出现攻击成功率等实验结果数据（属于 Section 5）
-- 攻击方法论的引出基于机理发现，而非反向从攻击结果解释机理
-- 原 2.3（黑盒条件）无独立实验数据，已合并入 Section 3 Threat Model
-
 ## E. 文件索引
 
-| 路径 | 内容 |
-|------|------|
-| `observation/paper/observation_final.tex` | **Section 2 Observation LaTeX 正文（当前主文件，初稿完成）** |
-| `observation/paper/main.tex` | LaTeX 编译入口 |
-| `observation/figures/` | Observation 配图（Probe/Logit Lens/Patching/Entropy） |
-| `observation/observation_outline.md` | Observation 写作大纲 |
-| `observation/writing_style_spec.md` | 写作风格规范 |
-| `observation/experiments/` | 补充实验脚本（bootstrap CI / entropy trajectory / cross-modal patching 等） |
-| `observation/results/` | 补充实验结果（CSV/JSON） |
-| `observation/reviews/` | 审稿意见与修改记录 |
-| `observation/scripts/` | 绘图脚本 |
-| `PREVIOUS/2OBSERVATION/` | **已归档**：旧版 Observation 写作（P0+P1 修订版） |
-| `LATEST/white_box_final/PPT大纲.md` | PPT 全文案 |
-| `LATEST/white_box_final/PPTtext.md` | PPT 解析版 |
-| `LATEST/white_box_final/audio内部机理1/` | 实验素材：音频内部机理第一阶段 |
-| `LATEST/white_box_final/audio内部机理2/` | 实验素材：音频内部机理第二阶段 |
-| `LATEST/white_box_final/prompt&audio机理/` | 实验素材：Prompt-Audio 冲突机理 |
-| `LATEST/white_box_final/白盒对抗样本方法论/` | 实验素材：白盒攻击方法论 |
-| `LATEST/白盒讲稿.md` | 汇报讲稿 |
-| `LATEST/情绪LLM白盒攻击研究.pptx` | 完整 PPT |
-| `LATEST/情绪LLM白盒攻击研究.pdf` | PPT 导出 PDF |
-| `code/modal_conflict/` | **Probe 实验**：音频内模态冲突机理（语义 vs 韵律），对应 2.1 节。250 样本 × 36 层 × 5-fold GroupKFold，输出 dominance 曲线 |
-| `code/logit_lens/` | **Logit Lens 实验**：逐层决策追踪，对应 2.1 节。197 冲突样本，输出 margin 曲线与 win-rate 曲线 |
-| `code/activation_patching/` | **Activation Patching 实验**：因果干预，对应 2.1–2.2 节。100 韵律对 + 100 语义对，输出 flip rate 与 delta logit 曲线 |
-| `code/white_box_v2/` | **白盒攻击代码（当前版本）**：PGD+EoT 对抗攻击框架。`codex/` 为通用实验模板，`experiment/` 为特定数据集实验版本 |
-| `code/white_box_v2/result/ESDfinal/` | **OpenS2S 白盒批量实验结果** |
-| `code/white_box_v1/` | ~~已废弃，旧版方法论，请勿阅读~~ |
-| `PPT.pptx` | 演示文稿 |
-| `框架.png` | 论文大纲图 |
-| `paper/` | 参考文献（~20 篇） |
-| `PREVIOUS/` | 归档的早期探索（一般不相关） |
+| 路径                                           | 内容                                                                                                                               |
+| ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| `observation/paper/observation_final.tex`    | **Section 2 Observation LaTeX 正文（当前主文件，初稿完成）**                                                                 |
+| `observation/paper/main.tex`                 | LaTeX 编译入口                                                                                                                     |
+| `observation/figures/`                       | Observation 配图（Probe/Logit Lens/Patching/Entropy）                                                                              |
+| `observation/observation_outline.md`         | Observation 写作大纲                                                                                                               |
+| `observation/writing_style_spec.md`          | 写作风格规范                                                                                                                       |
+| `observation/experiments/`                   | 补充实验脚本（bootstrap CI / entropy trajectory / cross-modal patching 等）                                                        |
+| `observation/results/`                       | 补充实验结果（CSV/JSON）                                                                                                           |
+| `observation/reviews/`                       | 审稿意见与修改记录                                                                                                                 |
+| `observation/scripts/`                       | 绘图脚本                                                                                                                           |
+| `PREVIOUS/2OBSERVATION/`                     | **已归档**：旧版 Observation 写作（P0+P1 修订版）                                                                            |
+| `LATEST/white_box_final/PPT大纲.md`          | PPT 全文案                                                                                                                         |
+| `LATEST/white_box_final/PPTtext.md`          | PPT 解析版                                                                                                                         |
+| `LATEST/white_box_final/audio内部机理1/`     | 实验素材：音频内部机理第一阶段                                                                                                     |
+| `LATEST/white_box_final/audio内部机理2/`     | 实验素材：音频内部机理第二阶段                                                                                                     |
+| `LATEST/white_box_final/prompt&audio机理/`   | 实验素材：Prompt-Audio 冲突机理                                                                                                    |
+| `LATEST/white_box_final/白盒对抗样本方法论/` | 实验素材：白盒攻击方法论                                                                                                           |
+| `LATEST/白盒讲稿.md`                         | 汇报讲稿                                                                                                                           |
+| `LATEST/情绪LLM白盒攻击研究.pptx`            | 完整 PPT                                                                                                                           |
+| `LATEST/情绪LLM白盒攻击研究.pdf`             | PPT 导出 PDF                                                                                                                       |
+| `code/modal_conflict/`                       | **Probe 实验**：音频内模态冲突机理（语义 vs 韵律），对应 2.1 节。250 样本 × 36 层 × 5-fold GroupKFold，输出 dominance 曲线 |
+| `code/logit_lens/`                           | **Logit Lens 实验**：逐层决策追踪，对应 2.1 节。197 冲突样本，输出 margin 曲线与 win-rate 曲线                               |
+| `code/activation_patching/`                  | **Activation Patching 实验**：因果干预，对应 2.1–2.2 节。100 韵律对 + 100 语义对，输出 flip rate 与 delta logit 曲线        |
+| `code/white_box_v2/`                         | **白盒攻击代码（当前版本）**：PGD+EoT 对抗攻击框架。`codex/` 为通用实验模板，`experiment/` 为特定数据集实验版本          |
+| `code/white_box_v2/result/ESDfinal/`         | **OpenS2S 白盒批量实验结果**                                                                                                 |
+| `code/white_box_v1/`                         | ~~已废弃，旧版方法论，请勿阅读~~                                                                                                  |
+| `PPT.pptx`                                   | 演示文稿                                                                                                                           |
+| `框架.png`                                   | 论文大纲图                                                                                                                         |
+| `paper/`                                     | 参考文献（~20 篇）                                                                                                                 |
+| `PREVIOUS/`                                  | 归档的早期探索（一般不相关）                                                                                                       |
 
-服务器：`/home/xuzhenyu/Kimi-Audio/`（代码）、`/data3/xuzhenyu/dataset from TTS/`（音频）
 
 ## F. 更新日志
 
-| 日期 | 更新内容 |
-|------|----------|
-| 2026-02-06 | 创建本文件 |
-| 2026-02-08 | 更新论文大纲，Observation 前置 |
-| 2026-02-14 | 精简第二部分（删公式推导、删早期探索、合并分块），聚焦第三部分至 Observation |
-| 2026-02-15 | Observation 从三节合并为两节（去掉 2.3）；2.2 重定位为纯机理（去除攻击数据）；更新文件索引与执行计划 |
-| 2026-02-21 | 新增实验代码文件索引（modal_conflict / logit_lens / activation_patching / white_box_v2） |
-| 2026-02-24 | Observation 完成 P0+P1 修订：新叙事框架（表征解耦与因果不对称）、claim 收缩、过渡段重写、方法论声明、中英文统一 |
+| 日期       | 更新内容                                                                                                                                                                          |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-02-06 | 创建本文件                                                                                                                                                                        |
+| 2026-02-08 | 更新论文大纲，Observation 前置                                                                                                                                                    |
+| 2026-02-14 | 精简第二部分（删公式推导、删早期探索、合并分块），聚焦第三部分至 Observation                                                                                                      |
+| 2026-02-15 | Observation 从三节合并为两节（去掉 2.3）；2.2 重定位为纯机理（去除攻击数据）；更新文件索引与执行计划                                                                              |
+| 2026-02-21 | 新增实验代码文件索引（modal_conflict / logit_lens / activation_patching / white_box_v2）                                                                                          |
+| 2026-02-24 | Observation 完成 P0+P1 修订：新叙事框架（表征解耦与因果不对称）、claim 收缩、过渡段重写、方法论声明、中英文统一                                                                   |
 | 2026-03-01 | Observation 初稿完成（OPUS→observation）；旧版 2OBSERVATION 归档至 PREVIOUS；OpenS2S 批量实验完成（结果在 code/white_box_v2/result/ESDfinal/）；下一步目标：Voxtral 模型批量实验 |
-
----
-
-# 第三部分：执行计划
-
-## G. Voxtral 模型批量实验
-
-目标：在 Voxtral 模型上复现白盒对抗攻击实验，验证攻击方法的跨模型泛化能力。
-
-**前置条件**：OpenS2S 批量实验已完成，结果在 `code/white_box_v2/result/ESDfinal/`。
-
-**待执行**：
-- 适配 Voxtral 模型的攻击代码
-- 运行批量实验
-- 对比 OpenS2S 与 Voxtral 的攻击结果
+| 2026-03-11 | 重构第二部分（A-D 节全面更新）：新增 Voxtral 至目标模型、B/C 节对调并更新内容（B 对齐 observation_final.tex，C 更新为当前方法论与 ESDfinal 实验结果）、删除当前焦点与执行计划 |

@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "I don't like it. You're making me dizzy.",
-  "asr_text_adv": "\u4f60\u628a\u6211\u7ed9\u6211\u570d\u4f4f\u4e86",
+  "asr_text_adv": "你把我给我圍住了",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.3356650471687317,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

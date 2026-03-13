@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6bcf\u6b21\u53eb\u6211\u90fd\u4e0d\u7ed9\u7ea2\u5305\uff0c\u4e0d\u5f00\u5fc3\u3002",
+  "asr_text_clean": "每次叫我都不给红包，不开心。",
   "asr_text_adv": "Every time you call me tofu, I'm happy.",
   "success_emo": true,
   "wer": 8.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "I can't move my body, I'm not good at acting.",
-  "asr_text_adv": "\u751f\u4e86\u868a\u5b50\u6210\u529f\uff0c\u6211\u4e0d\u7528\u4e0b\u53bb\u6253\u626b\u4e86\u3002",
+  "asr_text_adv": "生了蚊子成功，我不用下去打扫了。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.12991490960121155,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

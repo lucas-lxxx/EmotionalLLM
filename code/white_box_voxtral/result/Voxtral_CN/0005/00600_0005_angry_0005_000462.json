@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u90a3\u68d2\u6781\u4e86\uff0c\u5176\u5b9e\u5fc3\u60c5\u4e5f\u633a\u597d\u7684\u3002",
-  "asr_text_adv": "\u90a3\u68d2\u6781\u4e86\uff0c\u5176\u5b9e\u5fc3\u60c5\u4e5f\u633a\u4e0d\u9519\u3002",
+  "asr_text_clean": "那棒极了，其实心情也挺好的。",
+  "asr_text_adv": "那棒极了，其实心情也挺不错。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.997725248336792,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_high_sim"
 }

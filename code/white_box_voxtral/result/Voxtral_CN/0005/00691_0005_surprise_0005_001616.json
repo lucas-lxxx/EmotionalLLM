@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u9047\u5230\u559c\u6b22\u7684\u5973\u5b69\u8981\u4e3b\u52a8\u54e6\u3002",
-  "asr_text_adv": "t\u0101ng d\u00e0o x\u01d0 h\u01cen de n\u01da h\u00e1izi y\u00e0o j\u00f9 d\u014dng",
+  "asr_text_clean": "遇到喜欢的女孩要主动哦。",
+  "asr_text_adv": "tāng dào xǐ hǎn de nǚ háizi yào jù dōng",
   "success_emo": true,
   "wer": 10.0,
   "semantic_sim": 0.20581847429275513,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

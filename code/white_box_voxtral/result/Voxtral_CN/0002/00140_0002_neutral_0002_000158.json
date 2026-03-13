@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "My personality is calm and objective.",
-  "asr_text_adv": "\u679c\u7684\u53f6\u5b50\u5c31\u5982\u540c\u5bb9\u6613\u53d7\u5230\u795d\u798f\u7684\u82b1\u6735\u3002",
+  "asr_text_adv": "果的叶子就如同容易受到祝福的花朵。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.16691024601459503,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

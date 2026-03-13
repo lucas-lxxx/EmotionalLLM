@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u592a\u5999\u5566\uff0c\u6211\u60f3\u6362\u4e00\u4e9b\u65e5\u5143\u3002",
-  "asr_text_adv": "\u592a\u7f8e\u5566\uff0c\u6211\u8981\u6362\u4e00\u4e9b\u65e5\u5143\u3002",
+  "asr_text_clean": "太妙啦，我想换一些日元。",
+  "asr_text_adv": "太美啦，我要换一些日元。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.9632989764213562,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "2016\u5e7410\u67085\u65e5\u661f\u671f\u516d",
-  "asr_text_adv": "2016\u5e7410\u67085\u65e5\u3001276",
+  "asr_text_clean": "2016年10月5日星期六",
+  "asr_text_adv": "2016年10月5日、276",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.8378828167915344,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "\"Chew leaves quickly,\" said Rabbit.",
-  "asr_text_adv": "\u201cTwo Leaves quickly,\u201d said Rabbit.",
+  "asr_text_adv": "“Two Leaves quickly,” said Rabbit.",
   "success_emo": true,
   "wer": 0.6,
   "semantic_sim": 0.8581745624542236,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

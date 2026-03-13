@@ -1,0 +1,1027 @@
+﻿sample_id,speaker_id,ground_truth_emotion,target_emotion,success_emo,wer,semantic_sim,semantic_preserved,llm_judge_raw,semantic_pass,asr_text_clean,asr_text_adv
+00800_0001_angry_0001_000399,0001,angry,happy,True,0.967741935483871,0.22663521766662598,False,0,0,"I'm sorry, but I can't provide physical objects like soccer balls and pens. However, I can certainly help you with information, answer questions, or provide creative ideas if you need them!",gave me some balloons and flowers.
+00801_0001_angry_0001_000475,0001,angry,happy,True,0.5714285714285714,0.2341739684343338,False,0,0,"If you want to smell, go smell.","If you want to swim, you can swim."
+00802_0001_angry_0001_000666,0001,angry,happy,True,1.0,0.9586797952651978,True,1,1,每次你看到一些时尚衣物时,每次你看到一些时尚的物品时
+00803_0001_angry_0001_000400,0001,angry,happy,True,8.0,0.23936142027378082,False,0,0,每次叫我都不给红包，不开心。,"Every time you call me tofu, I'm happy."
+00804_0001_angry_0001_000655,0001,angry,happy,True,0.25,0.6844493746757507,False,1,1,"I support you, he needs to be redone.","I support you, it needs to be remade."
+00805_0001_angry_0001_000493,0001,angry,happy,True,1.0,0.7614266872406006,False,0,0,"Don't guess a girl's mind, but I don't need to guess.",女孩的心情，你别猜，带上我不要猜。
+00806_0001_angry_0001_000613,0001,angry,happy,True,0.8,0.3530467748641968,False,0,0,Maybe it's a good thing.,Maybe the world is delicious.
+00807_0001_angry_0001_000488,0001,angry,happy,True,1.25,0.5292485952377319,False,0,0,I can't control him.,I can't help but be attracted to him.
+00808_0001_angry_0001_000410,0001,angry,happy,False,0.75,0.20191383361816406,False,0,0,Sit on the subway for about 20 minutes.,This land only needs about 20 degrees.
+00809_0001_angry_0001_000585,0001,angry,happy,True,1.2,-0.09266367554664612,False,0,0,"I like to exercise, but I don't play much basketball.","I love Lin Tong, she is the most beautiful girl in the world."
+00810_0001_angry_0001_000503,0001,angry,happy,True,1.0,0.0006247726269066334,False,0,0,What are we waiting for?,They were very happy
+00811_0001_angry_0001_000625,0001,angry,happy,True,0.8,0.6182968616485596,False,0,0,Then find a music player.,Then find a music that you can't stop.
+00812_0001_angry_0001_000364,0001,angry,happy,True,0.4,0.9309027194976807,True,0,0,"Whoever you don't know, I'm very happy to help you.",Who don't you know? I'm very happy to help you.
+00813_0001_angry_0001_000450,0001,angry,happy,True,0.0,1.0,True,skip_identical,1,I often go to the bar near our dormitory.,I often go to the bar near our dormitory.
+00814_0001_angry_0001_000448,0001,angry,happy,True,1.0,0.5498052835464478,False,0,0,I will only tease the landlord.,I only laugh at the owner of what?
+00815_0001_angry_0001_000496,0001,angry,happy,False,0.6,0.6095471978187561,False,0,0,I'm still a bit nervous.,Now I'm still a little competitive.
+00816_0001_angry_0001_000468,0001,angry,happy,True,1.0,0.7297428250312805,False,0,0,Did your classmate fool you?,Your classmate has caught you.
+00817_0001_angry_0001_000396,0001,angry,happy,True,0.8,0.7155150175094604,False,0,0,We can take turns driving.,We can drive in a circle.
+00818_0001_angry_0001_000547,0001,angry,happy,True,0.875,0.43434691429138184,False,0,0,"Why not? Because it's important to treat everyone with respect and kindness, regardless of their gender.",Why not? Let friends not be separated.
+00819_0001_angry_0001_000402,0001,angry,happy,True,0.1111111111111111,0.7511922717094421,False,0,0,You shouldn't be afraid to start a new relationship.,You shouldn't be afraid to start a new feeling.
+00820_0001_angry_0001_000528,0001,angry,happy,True,0.4444444444444444,0.6330293416976929,False,1,1,"You spin one, I want to learn a bit.","I want to try one, I want to learn a bit."
+00821_0001_angry_0001_000637,0001,angry,happy,True,0.5555555555555556,0.6577684879302979,False,1,1,I like to listen to it so much that I keep listening to it over and over again.,I like it so much that I keep repeating it.
+00822_0001_angry_0001_000414,0001,angry,happy,True,0.4166666666666667,0.9102727174758911,True,1,1,"I'm leaving now, I'll be back to pick you up this evening.",I'm leaving now. I'll be back to see you tonight.
+00823_0001_angry_0001_000434,0001,angry,happy,True,0.6,0.005624190904200077,False,0,0,He seems to have a leg up on his secretary.,He seems to be swimming with his girlfriend.
+00824_0001_angry_0001_000398,0001,angry,happy,True,0.3,0.8710595369338989,True,1,1,"It's not too early, I'm here, please give me instructions.","It's not too early, I'm here, please guide me."
+00825_0001_neutral_0001_000251,0001,neutral,happy,False,1.75,0.7206591367721558,False,0,0,Only humans need novels.,"Not read books, only human beings need."
+00826_0001_neutral_0001_000293,0001,neutral,happy,True,0.5,0.9468801021575928,True,1,1,"Sit down, I looked at the screen display.","Sitting there, I watched the screen display."
+00827_0001_neutral_0001_000198,0001,neutral,happy,True,0.5,0.25923627614974976,False,0,0,"Of course, we all have our own views.","Of course, we have a thousand years."
+00828_0001_neutral_0001_000296,0001,neutral,happy,False,1.0,0.1542069911956787,False,0,0,Dubbo is often a side trip.,Dumbo often is a source of income.
+00829_0001_neutral_0001_000320,0001,neutral,happy,True,0.4444444444444444,0.9805437326431274,True,1,1,"Thank you for coming here, tell me more details.",Thank you for coming here. Tell me more in detail.
+00830_0001_neutral_0001_000065,0001,neutral,happy,True,1.0,0.6398050785064697,False,0,0,"Nothing wrong, just hold on to it now.",Nothing wrong with that. Enjoy it while you can.
+00831_0001_neutral_0001_000034,0001,neutral,happy,True,0.2857142857142857,0.6129984259605408,False,0,0,"That's Marthe, she must be very brave.",That's Matt. He must be very brave.
+00832_0001_neutral_0001_000083,0001,neutral,happy,True,0.0,0.9999999403953552,True,skip_identical,1,Every part of you is drawing me in.,Every part of you is drawing me in.
+00833_0001_neutral_0001_000156,0001,neutral,happy,True,0.3,0.9684999585151672,True,1,1,Congratulations! We are honoured to invite you to our wedding.,Congratulations! We invite you to our wedding.
+00834_0001_neutral_0001_000112,0001,neutral,happy,True,0.0,0.9999998807907104,True,skip_identical,1,"That's a good one. Actually, I'm feeling pretty good.","That's a good one. Actually, I'm feeling pretty good."
+00835_0001_neutral_0001_000201,0001,neutral,happy,False,0.4,0.8599005937576294,True,1,1,Just a lot of pictures.,"That is, a lot of pictures."
+00836_0001_neutral_0001_000044,0001,neutral,happy,True,0.75,0.3722612261772156,False,0,0,"For example, the Wall Street Journal is good.","For example, if the World Cup is on, that's good."
+00837_0001_neutral_0001_000125,0001,neutral,happy,True,0.6666666666666666,0.3904512822628021,False,0,0,"If you want to smell, go ahead and smell.","If you want to have fun, you go have fun."
+00838_0001_neutral_0001_000228,0001,neutral,happy,True,0.4,0.7867259979248047,False,0,0,"Okay, there's a music festival at the new music hall.","Good, there's a music party in the new music room."
+00839_0001_neutral_0001_000242,0001,neutral,happy,False,0.125,0.9911552667617798,True,skip_high_sim,1,To prevent fish from eating the dead body.,To prevent the fish from eating the dead body.
+00840_0001_neutral_0001_000052,0001,neutral,happy,True,1.4444444444444444,0.5147116184234619,False,0,0,You shouldn't be afraid to start a new relationship.,You shouldn’t be afraid of a love that makes you feel like you’re going to drown.
+00841_0001_neutral_0001_000075,0001,neutral,happy,True,0.3,0.9941087365150452,True,skip_high_sim,1,That's great! I also want to see the cute pandas.,That's great! I want to see the cute pandas too.
+00842_0001_neutral_0001_000063,0001,neutral,happy,True,1.0,0.27479398250579834,False,0,0,You know I'm really trying to quit drinking.,You ate the wine I made with great effort.
+00843_0001_neutral_0001_000331,0001,neutral,happy,True,0.1,0.958633542060852,True,1,1,So I asked him if he could buy my ticket.,So I asked him if he could buy my tickets.
+00844_0001_neutral_0001_000318,0001,neutral,happy,True,1.0,0.8516168594360352,True,0,0,下午好，丁老师。我想我问错了人。,下午好，丁老师。我不想我问错了人。
+00845_0001_neutral_0001_000309,0001,neutral,happy,True,11.0,0.6570969820022583,False,0,0,四个半月了。,It's been four and a half months since I got married.
+00846_0001_neutral_0001_000229,0001,neutral,happy,True,0.7142857142857143,0.696757435798645,False,1,1,This is a good spot. Get out.,This is a good spot. I'll get off the bus.
+00847_0001_neutral_0001_000007,0001,neutral,happy,False,0.2,0.9320141673088074,True,1,1,I call once a month.,I call you once a month.
+00848_0001_neutral_0001_000130,0001,neutral,happy,True,0.2222222222222222,0.7159000635147095,False,1,1,My hope is to work until I fall down.,My hope is to work until I die.
+00849_0001_neutral_0001_000332,0001,neutral,happy,True,0.75,0.47638529539108276,False,0,0,I want a new model of American beer.,I want that kind of new American ice cream.
+00850_0001_sad_0001_001210,0001,sad,happy,True,0.7142857142857143,0.47722041606903076,False,0,0,"Of course, he is our university's dean.",Of course! It’s our university’s championship!
+00851_0001_sad_0001_001088,0001,sad,happy,True,1.4,0.47773632407188416,False,0,0,"Of course, I'm starving now.",Of course I am. I am dying happily.
+00852_0001_sad_0001_001078,0001,sad,happy,False,0.6,0.721361517906189,False,0,0,"Right, it's the gate. The other two people asked him.","Yes, it was the car door. The other two people asked him,"
+00853_0001_sad_0001_001329,0001,sad,happy,True,1.5,0.4023279547691345,False,0,0,I think so too.,"I want to win, I think I can."
+00854_0001_sad_0001_001233,0001,sad,happy,True,0.9090909090909091,0.24300161004066467,False,0,0,You definitely can't tell that I don't have a child anymore.,"Definitely not, but I'm expecting a good one."
+00855_0001_sad_0001_001089,0001,sad,happy,True,1.3,0.5165352821350098,False,0,0,No destination found. Please close the door when you leave.,"I even found the key to the door. When I left, I locked it."
+00856_0001_sad_0001_001101,0001,sad,happy,True,1.0,0.3818758428096771,False,0,0,No problem. Maybe his wife will leak the secret.,You’ll be fine. Maybe he’ll come back alive.
+00857_0001_sad_0001_001060,0001,sad,happy,False,1.0,0.8778644800186157,True,1,1,個人收藏家，他們肯定有,私人收藏家，他们肯定有。
+00858_0001_sad_0001_001275,0001,sad,happy,True,0.375,0.8691890835762024,True,1,1,"Almost, we both are very enthusiastic and harmonious.",We both are very enthusiastic and friendly.
+00859_0001_sad_0001_001130,0001,sad,happy,True,0.0,1.0,True,skip_identical,1,"Look, we're almost ready to go.","Look, we're almost ready to go."
+00860_0001_sad_0001_001114,0001,sad,happy,True,1.0,0.803966760635376,True,1,1,"I'm leaving, I'll be back tonight to see you.","Bye, I'll come back to have dinner with you tonight."
+00861_0001_sad_0001_001330,0001,sad,happy,True,0.4444444444444444,0.2135903537273407,False,0,0,Definitely not go to the center of the lake.,Definitely can go to the heart of the Red Sea.
+00862_0001_sad_0001_001324,0001,sad,happy,True,1.0,0.702804446220398,False,0,0,"If it's illegal, I still want to keep it.","As long as he doesn’t break the law, I still want to keep him."
+00863_0001_sad_0001_001065,0001,sad,happy,True,0.6,0.7725175619125366,False,0,0,I like soccer and climbing.,I especially like playing basketball and climbing.
+00864_0001_sad_0001_001183,0001,sad,happy,True,0.0,0.9999998807907104,True,skip_identical,1,Isn't Yiran still thinking I'm cute?,Isn't Yiran still thinking I'm cute?
+00865_0001_sad_0001_001194,0001,sad,happy,False,1.2,0.6740730404853821,False,1,1,"""Cutting calories is very painful.""",It's very painful to lose weight.
+00866_0001_sad_0001_001388,0001,sad,happy,True,0.0,1.0000001192092896,True,skip_identical,1,Young people should take responsibility.,Young people should take responsibility.
+00867_0001_sad_0001_001075,0001,sad,happy,False,0.09090909090909091,0.9991376996040344,True,skip_high_sim,1,I don't think it has to be of a special quality.,I don’t think it has to be of a special quality.
+00868_0001_sad_0001_001153,0001,sad,happy,True,0.25,0.9877791404724121,True,1,1,"It feels so warm. Okay, see you later.",It feels so warm. See you later.
+00869_0001_sad_0001_001266,0001,sad,happy,True,12.0,0.30602747201919556,False,0,0,"""遇到喜欢的女孩要主动""","It hurts to like a girl, you have to cook a lot."
+00870_0001_sad_0001_001052,0001,sad,happy,False,0.96875,0.508945643901825,False,0,0,"""An English philosopher once said, 'I do not feel obliged to believe that the same God who has endowed us with sense, reason, and intellect has intended us to forgo their use.'""","A philosopher from ancient Greece once said,"
+00871_0001_sad_0001_001358,0001,sad,happy,True,0.0,0.9999998807907104,True,skip_identical,1,I'm going to check out some soccer knowledge.,I'm going to check out some soccer knowledge.
+00872_0001_sad_0001_001145,0001,sad,happy,True,0.5,0.6462945938110352,False,0,0,"I used to have a hobby, collecting coins.","I have a hobby, treasure hunting."
+00873_0001_sad_0001_001087,0001,sad,happy,True,0.0,1.0,True,skip_identical,1,I and my wife look forward to meeting you.,I and my wife look forward to meeting you.
+00874_0001_sad_0001_001292,0001,sad,happy,True,0.7142857142857143,0.3108000159263611,False,0,0,To prevent fish from eating people's bodies.,"To prevent Yu Yu from losing his body,"
+00875_0001_surprise_0001_001506,0001,surprise,happy,True,0.875,0.3033530116081238,False,0,0,Can't do anything? Usually I will keep quiet.,I can't stop myself. I will eat it all.
+00876_0001_surprise_0001_001518,0001,surprise,happy,True,0.5,0.6242704391479492,False,1,1,Your classmate tricked you.,Your classmate just got you.
+00877_0001_surprise_0001_001735,0001,surprise,happy,True,0.6666666666666666,0.9203140735626221,True,1,1,They will get married this summer.,They are engaged to be married this summer.
+00878_0001_surprise_0001_001498,0001,surprise,happy,True,0.8888888888888888,0.19016069173812866,False,0,0,I can only do a little bit of translation.,I will be able to do it.
+00879_0001_surprise_0001_001635,0001,surprise,happy,True,1.1111111111111112,0.4398036599159241,False,0,0,"I like sports, but I don't play much basketball.","I love Yung Bo, can bring a basketball. Plan not many."
+00880_0001_surprise_0001_001465,0001,surprise,happy,True,1.1,0.6157227754592896,False,0,0,"Not bad at all. First, hold on to the present.","A little bit of a mess, but it's okay for now."
+00881_0001_surprise_0001_001589,0001,surprise,happy,True,0.42857142857142855,0.9386637806892395,True,1,1,I'm a teacher. You're a good eye.,I'm a teacher. You have good eyesight.
+00882_0001_surprise_0001_001674,0001,surprise,happy,True,1.2857142857142858,0.43961554765701294,False,0,0,"If it's not illegal, I'll keep it.","Just a little bit, I still want to keep him."
+00883_0001_surprise_0001_001564,0001,surprise,happy,True,0.8888888888888888,0.796440601348877,False,0,0,I worked for six years in a shipping company.,I lived in this company for six years.
+00884_0001_surprise_0001_001672,0001,surprise,happy,True,1.875,0.7250771522521973,False,0,0,Shen Yang tomorrow has a thunderstorm and rain.,"Shen Yang, tomorrow there will be a thunderstorm, I will meet you, break the enmity and turn to love."
+00885_0001_surprise_0001_001548,0001,surprise,happy,True,0.625,0.6599688529968262,False,0,0,"If you have anything, remember to call me.",is... remember to call me!
+00886_0001_surprise_0001_001705,0001,surprise,happy,True,0.625,0.5736984014511108,False,0,0,"I support you, he needs to be re-educated.","I support you, it's okay. Keep going!"
+00887_0001_surprise_0001_001584,0001,surprise,happy,True,1.0,0.6177024841308594,False,0,0,2016年11月5日是星期六。,2016年11月5日是新世纪!
+00888_0001_surprise_0001_001487,0001,surprise,happy,True,1.1666666666666667,0.4670798182487488,False,0,0,"Isn't much, but kind of boring.",What's the matter? But it's quite lively.
+00889_0001_surprise_0001_001445,0001,surprise,happy,True,0.14285714285714285,0.9864182472229004,True,1,1,I know life isn't always smooth sailing.,I know that life isn't always smooth sailing.
+00890_0001_surprise_0001_001665,0001,surprise,happy,True,0.0,0.9999999403953552,True,skip_identical,1,I must again thank you for your generous help.,I must again thank you for your generous help.
+00891_0001_surprise_0001_001575,0001,surprise,happy,True,1.0,0.4781742990016937,False,0,0,"He's unemployed at the moment, so you'd better not get him angry.",It's almost time to eat. You're good. Don't disturb him.
+00892_0001_surprise_0001_001462,0001,surprise,happy,True,1.1428571428571428,0.7338314056396484,False,0,0,I'm on my way to say goodbye.,I'm going to eat and then I'll come back to say goodbye.
+00893_0001_surprise_0001_001594,0001,surprise,happy,True,0.5,0.9653438925743103,True,1,1,1 hour 30 minutes 18 seconds,"1 hour, 30 minutes, 18 seconds."
+00894_0001_surprise_0001_001524,0001,surprise,happy,True,0.42857142857142855,0.885124683380127,True,0,0,"Yes, please refund my money. Thank you!","Yes, the bank will refund my money. Thank you!"
+00895_0001_surprise_0001_001508,0001,surprise,happy,True,0.375,0.9435732364654541,True,1,1,Let's see which type of ball is better.,Let's see which kind of ball is the best.
+00896_0001_surprise_0001_001611,0001,surprise,happy,True,1.2,0.4234530031681061,False,0,0,I'm tired of raising flowers.,I've seen the flowers I like.
+00897_0001_surprise_0001_001640,0001,surprise,happy,True,0.0,0.9999998807907104,True,skip_identical,1,About one hour.,About one hour.
+00898_0001_surprise_0001_001605,0001,surprise,happy,True,0.6666666666666666,0.5783110857009888,False,0,0,How can he not get up?,How to get back up?
+00899_0001_surprise_0001_001488,0001,surprise,happy,True,0.8888888888888888,0.923846960067749,True,1,1,"Hong Kong Ocean Park, hurry and take me there!",Hong Kong海洋公園，主人快帶我去！
+00100_0002_angry_0002_000662,0002,angry,happy,True,0.14285714285714285,0.9600151777267456,True,1,1,"If she rejects me, I will die.","If she refuses me, I will die."
+00101_0002_angry_0002_000391,0002,angry,happy,True,1.0,0.35060733556747437,False,0,0,"I'm very busy, I don't have time to talk to you.",解闷的很，没空和你说这个吗？
+00102_0002_angry_0002_000646,0002,angry,happy,True,1.0,-0.03859195113182068,False,0,0,Gambling is often a root cause.,入母胎了，是个好消息。
+00103_0002_angry_0002_000454,0002,angry,happy,False,1.0,0.879291296005249,True,0,0,没有找到鱼的纪时。,没有找到鱼的季节。
+00104_0002_angry_0002_000472,0002,angry,happy,True,0.7,0.5492098331451416,False,0,0,"Tom is a good man, but he is a gambler.",Tom is a good person. I recommend him to be a host.
+00105_0002_angry_0002_000466,0002,angry,happy,True,0.0,1.0,True,skip_identical,1,"No, but we went to Kennedy Center.","No, but we went to Kennedy Center."
+00106_0002_angry_0002_000476,0002,angry,happy,True,0.3333333333333333,0.6782358884811401,False,0,0,"No, he lives in the old house in Woseton.",When he lived in the old house in Worcester.
+00107_0002_angry_0002_000512,0002,angry,happy,True,1.0,0.5795801281929016,False,0,0,You're also playing this?,原来我也是在玩这个。
+00108_0002_angry_0002_000639,0002,angry,happy,True,1.1428571428571428,0.7324106693267822,False,0,0,"No, but I like single board skating.","I'm not good at it, but I really like ice skating."
+00109_0002_angry_0002_000691,0002,angry,happy,True,0.7777777777777778,0.6661431193351746,False,0,0,I will draw a devil face on your face.,"I lie on your face, making a ghost face."
+00110_0002_angry_0002_000668,0002,angry,happy,True,1.0,0.6071775555610657,False,0,0,下午好，我想我问错了人。,下午好，我想我不能再假了。
+00111_0002_angry_0002_000594,0002,angry,happy,True,0.5,0.6302857398986816,False,0,0,My direct relatives are not many.,My cousins are many.
+00112_0002_angry_0002_000587,0002,angry,happy,True,0.5555555555555556,0.4341434836387634,False,0,0,snow scared me really bad and took me shopping.,Shen Shade really took me shopping.
+00113_0002_angry_0002_000667,0002,angry,happy,True,0.0,0.9999999403953552,True,skip_identical,1,You look better than before.,You look better than before.
+00114_0002_angry_0002_000460,0002,angry,happy,True,2.6666666666666665,0.6910911202430725,False,0,0,Do it yourself,Happy! You have to do your own thing.
+00115_0002_angry_0002_000653,0002,angry,happy,True,1.2857142857142858,0.1324068307876587,False,0,0,I didn't get home until 4:00 AM.,I have been to the American Music Festival four times.
+00116_0002_angry_0002_000595,0002,angry,happy,True,1.5,0.6503075361251831,False,1,1,Giannis suddenly shouted excitedly.,Jannis suddenly cheered up and started shouting.
+00117_0002_angry_0002_000409,0002,angry,happy,True,0.375,0.976320207118988,True,1,1,"If I can play well, I like it.","As long as I can play well, I like it."
+00118_0002_angry_0002_000459,0002,angry,happy,True,2.0,0.1901809573173523,False,0,0,I'm actually quite hungry.,You're really good at it. Look at that.
+00119_0002_angry_0002_000637,0002,angry,happy,True,0.2857142857142857,0.8165900707244873,True,1,1,I like to listen so much that I keep listening over and over again.,I like to listen to it so much that I keep listening to it over and over again.
+00120_0002_angry_0002_000564,0002,angry,happy,True,0.0,1.0,True,skip_identical,1,"Of course, I can't live without music.","Of course, I can't live without music."
+00121_0002_angry_0002_000634,0002,angry,happy,True,1.0,0.833891749382019,True,1,1,enough time to shop and sightsee.,有充足的时间购物和游览。
+00122_0002_angry_0002_000592,0002,angry,happy,True,0.625,0.8190839886665344,True,0,0,To prevent fish from eating the dead body.,To prevent the fish from losing their spirit.
+00123_0002_angry_0002_000596,0002,angry,happy,True,1.2857142857142858,0.394822895526886,False,0,0,Ling Da is really indispensable to men.,"“To a man of action, it is truly incomparable.”"
+00124_0002_angry_0002_000518,0002,angry,happy,True,0.9230769230769231,0.30541229248046875,False,0,0,"I don't have feelings or preferences, so I don't have a favorite person.",You have to answer me first. Who do you like the most?
+00125_0002_neutral_0002_000197,0002,neutral,happy,True,0.9891891891891892,0.1967361867427826,False,0,0,"Why not? Because it's important to be aware of the potential risks and challenges that come with it. Here are a few reasons:
+
+1. **Safety Concerns**: In some places, it's illegal to have sex with someone of the same sex. Even if it's legal, it can still be dangerous. You could be arrested, or worse, attacked.
+
+2. **Health Risks**: You could get an STI or HIV. It's important to use protection and get tested regularly.
+
+3. **Emotional Risks**: It can be emotionally challenging. You might face rejection, or you could get hurt if things don't work out.
+
+4. **Legal Risks**: Even if it's legal, you could still face legal issues. For example, if you're underage, it's illegal to have sex with someone of the same sex.
+
+5. **Social Risks**: You might face discrimination or harassment. It's important to be aware of your surroundings and the laws in your area.
+
+6. **Mental Health Risks**: It can be stressful and overwhelming. It's important to have a support system in place.
+
+7. **Consent**: It's important to always get consent. If someone doesn't want to have sex with you,",Why not? Make friends happy.
+00126_0002_neutral_0002_000142,0002,neutral,happy,True,1.8333333333333333,0.5980073809623718,False,0,0,"Yes, I'm still a greenhorn journalist.","Yes, I am still a young reporter who is hungry for milk and rice."
+00127_0002_neutral_0002_000299,0002,neutral,happy,True,0.5,0.36279553174972534,False,0,0,"Yes, I just hit the table.","Yes, I just arrived in Georgetown."
+00128_0002_neutral_0002_000337,0002,neutral,happy,True,0.0,1.0,True,skip_identical,1,"You look very happy, your eyes are sparkling.","You look very happy, your eyes are sparkling."
+00129_0002_neutral_0002_000265,0002,neutral,happy,True,0.0,1.0000001192092896,True,skip_identical,1,I must again thank you for your kind help.,I must again thank you for your kind help.
+00130_0002_neutral_0002_000236,0002,neutral,happy,False,0.2727272727272727,0.7966406941413879,False,0,0,"I don't need to taste, so I don't have a tongue.","I don't need to feel, so I don't have lips."
+00131_0002_neutral_0002_000196,0002,neutral,happy,True,0.5714285714285714,0.824627161026001,True,0,0,"I'm hungry, I want to eat something.","I'm hungry, I want to go eat something with him."
+00132_0002_neutral_0002_000050,0002,neutral,happy,True,0.5,0.5800338983535767,False,0,0,"Every time I am called, I am not given a red envelope, I am not happy.","Every time I call, I give her a red envelope, and she is happy."
+00133_0002_neutral_0002_000199,0002,neutral,happy,True,0.125,0.9685429334640503,True,1,1,"I like your clean, tidy, bright and airy.","I like your clean, tidy, bright and cheerful."
+00134_0002_neutral_0002_000115,0002,neutral,happy,True,0.6666666666666666,0.7765437364578247,False,0,0,It's a good habit to read books or relax.,"It's really a good habit. Usually, I read books or watch TV."
+00135_0002_neutral_0002_000087,0002,neutral,happy,True,0.8333333333333334,0.3618919253349304,False,0,0,"It's nothing, but it's quite annoying.","It's not much, but it's a good quality."
+00136_0002_neutral_0002_000168,0002,neutral,happy,True,0.8947368421052632,0.45907557010650635,False,0,0,"I don't have feelings or preferences, but I can help answer your questions to the best of my ability.","You have to answer me first, who do you like most?"
+00137_0002_neutral_0002_000350,0002,neutral,happy,False,0.75,0.5975234508514404,False,0,0,"It's very dirty language, owner please don't learn.","Eat very dirty words, the owner can't be cold."
+00138_0002_neutral_0002_000335,0002,neutral,happy,True,0.0,1.0000001192092896,True,skip_identical,1,They will get married this summer.,They will get married this summer.
+00139_0002_neutral_0002_000178,0002,neutral,happy,True,0.1111111111111111,0.9786112904548645,True,1,1,"You turn one, I want to learn a bit.","You turn one, I want to learn a little."
+00140_0002_neutral_0002_000158,0002,neutral,happy,True,1.0,0.16691024601459503,False,0,0,My personality is calm and objective.,果的叶子就如同容易受到祝福的花朵。
+00141_0002_neutral_0002_000060,0002,neutral,happy,True,0.375,0.932708203792572,True,0,0,"Take the subway, it takes about 20 minutes.",If the subway only takes about 20 minutes.
+00142_0002_neutral_0002_000204,0002,neutral,happy,True,0.36363636363636365,0.7369893789291382,False,0,0,"You just bought clothes yesterday, you are really a shopping addict.","You just bought clothes yesterday, it's really a bargain."
+00143_0002_neutral_0002_000171,0002,neutral,happy,True,1.125,0.5087897777557373,False,0,0,"You're a little bitch, very unlucky, very few.","With this little temper, Abe, you see bad luck very rarely."
+00144_0002_neutral_0002_000230,0002,neutral,happy,True,1.0,0.4978417754173279,False,0,0,"No, I won't bother you. I'm not brave enough to ask you out.",那不打扰你了，火不敢溜出去。
+00145_0002_neutral_0002_000182,0002,neutral,happy,True,1.0,0.8819172382354736,True,1,1,“About enough to support my living for three months.”,大约足够支持我生活三个月的
+00146_0002_neutral_0002_000207,0002,neutral,happy,True,0.7142857142857143,0.8470331430435181,True,0,0,"I'm Meng Meng, and you're Dai Dai.","I'm Meng Meng, you're Da Da, let's play."
+00147_0002_neutral_0002_000284,0002,neutral,happy,True,0.0,0.9999998807907104,True,skip_identical,1,enough time to shop and sightsee.,enough time to shop and sightsee.
+00148_0002_neutral_0002_000249,0002,neutral,happy,True,0.5,0.6174430847167969,False,0,0,My best friend just broke up.,My best friend just asked me out.
+00149_0002_neutral_0002_000107,0002,neutral,happy,True,0.4444444444444444,0.49614518880844116,False,0,0,"My score is 2.42, but it's a bit fast.","My boat weighs 42 kilograms, but it's a bit fast."
+00150_0002_sad_0002_001386,0002,sad,happy,True,0.5555555555555556,0.49754828214645386,False,0,0,Thank you for your praise. Baobab is getting old.,Thank you for your praise. I am a young man.
+00151_0002_sad_0002_001075,0002,sad,happy,False,0.0,1.0,True,skip_identical,1,I don't think it has to be of a special quality.,I don't think it has to be of a special quality.
+00152_0002_sad_0002_001332,0002,sad,happy,True,0.18181818181818182,0.9477460384368896,True,0,0,"Some people are riding boats, some people are doing flower arrangement.","Some people are riding boats, some people are doing flower shower activities."
+00153_0002_sad_0002_001169,0002,sad,happy,True,0.8571428571428571,0.4250989556312561,False,0,0,But I want to leave on Monday.,I'm looking forward to Friday.
+00154_0002_sad_0002_001371,0002,sad,happy,True,1.0,0.3356650471687317,False,0,0,I don't like it. You're making me dizzy.,你把我给我圍住了
+00155_0002_sad_0002_001220,0002,sad,happy,True,0.2857142857142857,0.5915201902389526,False,0,0,So you have time to play hockey.,So you have time to play football now.
+00156_0002_sad_0002_001120,0002,sad,happy,True,1.0,0.980823278427124,True,1,1,心动不如行动。我不太擅长卖弄。,心动了不如行动了。我不太擅长卖弄。
+00157_0002_sad_0002_001311,0002,sad,happy,True,1.125,0.42048466205596924,False,0,0,This doesn't look like a fair market competition.,This really feels like a market day because of the Super Bowl.
+00158_0002_sad_0002_001141,0002,sad,happy,True,0.0,1.0,True,skip_identical,1,"If you need help, please let me know.","If you need help, please let me know."
+00159_0002_sad_0002_001148,0002,sad,happy,True,1.0,0.10349830985069275,False,0,0,I'll just be a landlord or something.,"like, poking, teasing, and so on."
+00160_0002_sad_0002_001171,0002,sad,happy,True,0.625,0.7031935453414917,False,1,1,Then you are far away from the city.,Then you're a long way from the district.
+00161_0002_sad_0002_001237,0002,sad,happy,True,0.14285714285714285,0.9792313575744629,True,1,1,Let's throw a surprise party for him.,Let's have a surprise party for him.
+00162_0002_sad_0002_001159,0002,sad,happy,True,0.75,0.3492315113544464,False,0,0,I'm actually quite hungry.,I actually quite like it.
+00163_0002_sad_0002_001369,0002,sad,happy,True,0.7777777777777778,0.9763460755348206,True,1,1,There is a full automatic washing machine at home.,"At home, there is a fully automatic washing machine."
+00164_0002_sad_0002_001356,0002,sad,happy,True,0.625,0.6464866399765015,False,0,0,I am an engineer at a greenhouse farm.,I am a farmer in a sunflower field.
+00165_0002_sad_0002_001251,0002,sad,happy,True,0.2,0.8468230962753296,True,1,1,just a lot of pictures.,It's a lot of pictures.
+00166_0002_sad_0002_001295,0002,sad,happy,True,2.0,0.8314746022224426,True,1,1,Giannis suddenly excitedly shouted.,Giannis suddenly became very happy and started to talk loudly.
+00167_0002_sad_0002_001223,0002,sad,happy,True,1.0,0.6287397146224976,False,0,0,一套古诗词，她真的很珍贵。,一道骨子里的真气，他真的很珍贵。
+00168_0002_sad_0002_001368,0002,sad,happy,True,1.0,0.7844594120979309,False,0,0,"Hi, Dina. I think I asked the wrong person.",下午好，迪娜。我想我问错了人。
+00169_0002_sad_0002_001372,0002,sad,happy,True,0.625,0.6849033832550049,False,0,0,"Waiting for your orders, anytime you need me.","Waiting for your command, anytime you want me to laugh."
+00170_0002_sad_0002_001331,0002,sad,happy,True,0.4166666666666667,0.8912808895111084,True,0,0,"Good night, big mama, the whole sky is full of little stars.","Hello, Mom. The whole sky is full of little stars."
+00171_0002_sad_0002_001064,0002,sad,happy,True,0.2222222222222222,0.9805461168289185,True,1,1,"Whoever you are, I am happy to help you.","Whoever you are, I'm happy to help you."
+00172_0002_sad_0002_001076,0002,sad,happy,True,1.25,0.21069493889808655,False,0,0,"Yes, he is very cunning, often deceiving others.","Yes, it's very agile, and we often ride it to see people."
+00173_0002_sad_0002_001242,0002,sad,happy,True,0.16666666666666666,0.95311439037323,True,1,1,"If I run far away, I won't be able to come back.","If I run far, I won't be able to come back."
+00174_0002_sad_0002_001390,0002,sad,happy,True,10.0,0.9215381741523743,True,1,1,每天晚上和你呼吁晚安，真幸福。,"Every night, I say good night to you. How happy!"
+00175_0002_surprise_0002_001428,0002,surprise,happy,True,0.6666666666666666,0.9794516563415527,True,1,1,"Right, it's the door. Two other people asked him.","That's right, it's a door. The other two people asked him,"
+00176_0002_surprise_0002_001529,0002,surprise,happy,True,0.0,1.0,True,skip_identical,1,"To others there is none, but to me there is.","To others there is none, but to me there is."
+00177_0002_surprise_0002_001645,0002,surprise,happy,True,0.2857142857142857,0.944992184638977,True,1,1,Giannis suddenly got excited and started shouting.,Giannis suddenly got excited and started talking loudly.
+00178_0002_surprise_0002_001692,0002,surprise,happy,True,0.5555555555555556,0.6912921071052551,False,0,0,One day I might have to talk to her.,"One day, I might even kiss her."
+00179_0002_surprise_0002_001639,0002,surprise,happy,True,0.2,0.9733750820159912,True,1,1,"Food is also very delicious, not to mention the price.","The food is also very delicious, not to mention the price."
+00180_0002_surprise_0002_001452,0002,surprise,happy,True,0.0,1.0000001192092896,True,skip_identical,1,You shouldn't be afraid to start a new relationship.,You shouldn't be afraid to start a new relationship.
+00181_0002_surprise_0002_001457,0002,surprise,happy,True,0.6,0.8059380650520325,True,0,0,Dancing is so hard! I'm still learning the basic moves.,Dancing is fun! I'm also learning gymnastics.
+00182_0002_surprise_0002_001693,0002,surprise,happy,True,0.2857142857142857,0.917494535446167,True,0,0,"Sit down, I watched the screen display.",Sit up straight. I watched the screen display.
+00183_0002_surprise_0002_001555,0002,surprise,happy,True,0.0,1.0,True,skip_identical,1,I just want to relax myself.,I just want to relax myself.
+00184_0002_surprise_0002_001601,0002,surprise,happy,True,0.5,0.8664514422416687,True,1,1,A lot of pictures.,That's a lot of pictures.
+00185_0002_surprise_0002_001687,0002,surprise,happy,True,0.36363636363636365,0.8664162755012512,True,1,1,I like to listen so much that I keep repeating it.,I like to listen so much that I keep listening over and over.
+00186_0002_surprise_0002_001610,0002,surprise,happy,True,0.5,0.9739018678665161,True,0,0,"Not so bad, he has some songs I quite like.","Not bad, he has a lot of songs I like."
+00187_0002_surprise_0002_001573,0002,surprise,happy,True,0.7777777777777778,0.4411197900772095,False,1,1,"A set of calligraphy brushes, they are really precious.",It's really precious.
+00188_0002_surprise_0002_001620,0002,surprise,happy,True,0.7,0.584700345993042,False,0,0,"So you have to keep going, the longer the better.","So you must persevere, time will get better and better."
+00189_0002_surprise_0002_001611,0002,surprise,happy,True,1.25,0.45364105701446533,False,0,0,I'm tired of flowers.,My garden is really blooming.
+00190_0002_surprise_0002_001702,0002,surprise,happy,True,0.6363636363636364,0.39585626125335693,False,0,0,I hope you can think of some good ideas with me.,I hope you can go out with me to take photos.
+00191_0002_surprise_0002_001590,0002,surprise,happy,True,1.2,0.5785143375396729,False,0,0,It's 4:36 PM in Shanghai.,San Francisco is now 4:36 PM.
+00192_0002_surprise_0002_001670,0002,surprise,happy,True,0.7777777777777778,0.1365012228488922,False,0,0,I can't find the ad you want to block.,I didn't find the annoying frog you wanted to get rid of.
+00193_0002_surprise_0002_001568,0002,surprise,happy,True,0.25,0.9712121486663818,True,1,1,You have to answer me first. Who do you like the most?,"You have to tell me first, who do you like the most?"
+00194_0002_surprise_0002_001673,0002,surprise,happy,True,1.5,0.11935410648584366,False,0,0,But plum blossoms are often overlooked.,I'm often watched by many people in Mei Hua.
+00195_0002_surprise_0002_001571,0002,surprise,happy,True,9.0,0.7830495238304138,False,0,0,你这小鬼，很不幸，很少！,You little rascal! You're so unlucky! Come and try!
+00196_0002_surprise_0002_001514,0002,surprise,happy,True,0.875,0.7644575834274292,False,1,1,I am too. I am a bit thirsty.,I'm thirsty too. I want to take a sip.
+00197_0002_surprise_0002_001729,0002,surprise,happy,True,0.7777777777777778,0.9739177823066711,True,1,1,But sometimes summer is more charming than other seasons.,But there are times in the summer that are more charming than other seasons.
+00198_0002_surprise_0002_001402,0002,surprise,happy,True,0.9375,0.24381248652935028,False,0,0,"An English philosopher once said, ""I do not feel obliged to believe that the same God who has endowed us with sense, reason, and intellect has intended us to forgo their use.""","A physicist once said, ""If you drop a banana peel and an apple, the banana peel will hit the ground first."""
+00199_0002_surprise_0002_001722,0002,surprise,happy,True,0.9,0.2716594934463501,False,0,0,"At your command, I am always ready to serve you.","Waiting for your order, I can laugh anytime!"
+00000_0003_angry_0003_000507,0003,angry,happy,True,0.8571428571428571,0.22712768614292145,False,0,0,You know sometimes people can be unreasonable.,You know sometimes I get really excited about awards.
+00001_0003_angry_0003_000521,0003,angry,happy,True,1.2222222222222223,0.2126626819372177,False,0,0,"I'm a small monkey, I have very little faith.",I was very close to the country when I was young.
+00002_0003_angry_0003_000607,0003,angry,happy,True,0.375,0.9630902409553528,True,1,1,This is the fourth day of my trip.,This is my fourth day of travel.
+00003_0003_angry_0003_000413,0003,angry,happy,True,0.875,0.21145190298557281,False,0,0,You know I'm really trying to quit drinking.,You know I worked hard to bring you this dial.
+00004_0003_angry_0003_000486,0003,angry,happy,True,0.4,0.9620059728622437,True,1,1,I like almost all sports.,I like almost all kinds of sports.
+00005_0003_angry_0003_000664,0003,angry,happy,True,0.5,0.7110027074813843,False,1,1,Now everyone in the town is asking me for money.,Now everyone in the village is coming to me to borrow money.
+00006_0003_angry_0003_000631,0003,angry,happy,True,0.1,0.964205801486969,True,0,0,"Good night, Momo. The whole sky is full of stars.","Good night, Mommy. The whole sky is full of stars."
+00007_0003_angry_0003_000622,0003,angry,happy,True,0.9166666666666666,0.35463446378707886,False,0,0,Who is the person who has the most changes in the weather?,Shall we have a look at the many changes?
+00008_0003_angry_0003_000630,0003,angry,happy,True,0.6666666666666666,0.6395586133003235,False,0,0,Definitely can't go to the center of the river.,"Definitely can't go, live in the moment."
+00009_0003_angry_0003_000534,0003,angry,happy,True,1.0,0.8378828167915344,True,0,0,2016年10月5日星期六,2016年10月5日、276
+00010_0003_angry_0003_000640,0003,angry,happy,True,1.0,0.17357799410820007,False,0,0,There are records of gossip.,How to draw a record!
+00011_0003_angry_0003_000379,0003,angry,happy,True,1.0,0.9382553696632385,True,1,1,"Very cute, just like you.",很可爱，就像你一样。
+00012_0003_angry_0003_000654,0003,angry,happy,True,0.16666666666666666,0.6711390018463135,False,1,1,I just got back from Ingerland.,I just got back from England.
+00013_0003_angry_0003_000488,0003,angry,happy,True,1.0,0.5470824241638184,False,0,0,I can't control him.,I can't control myself and it's delicious.
+00014_0003_angry_0003_000435,0003,angry,happy,True,1.0,0.11261923611164093,False,0,0,"Yeah, I always worry about his health.","Yeah, when it's sunny, I always feel happy."
+00015_0003_angry_0003_000598,0003,angry,happy,True,0.9,0.04102383553981781,False,0,0,"I don't really care about this store, it's not famous.",Gossip Girl is praising this movie 6 stars.
+00016_0003_angry_0003_000398,0003,angry,happy,True,1.0,0.48980778455734253,False,0,0,"It's not too early, I came to ask for an order.","Can't wait, I'm here, please guide me."
+00017_0003_angry_0003_000481,0003,angry,happy,True,1.5,0.28177618980407715,False,0,0,He rides his bicycle to school every day.,"He's really cute, he always tells me how much he loves me."
+00018_0003_angry_0003_000396,0003,angry,happy,True,0.0,0.9999999403953552,True,skip_identical,1,We can drive in a line.,We can drive in a line.
+00019_0003_angry_0003_000655,0003,angry,happy,True,0.875,0.6429018378257751,False,1,1,"I support you, he needs to be reworked.","I support you, I think it's a must to remake it."
+00020_0003_angry_0003_000676,0003,angry,happy,True,1.0,0.9096748232841492,True,1,1,"So many jokes, a day can't be finished.","So many jokes, I can't finish them all in a day."
+00021_0003_angry_0003_000459,0003,angry,happy,True,0.75,0.22025664150714874,False,0,0,I'm quite hungry today.,It's quite happy.
+00022_0003_angry_0003_000647,0003,angry,happy,True,0.4,0.9952581524848938,True,skip_high_sim,1,"Three, two sons, one daughter.","Three, two sons and one daughter."
+00023_0003_angry_0003_000627,0003,angry,happy,True,0.3333333333333333,0.16124631464481354,False,0,0,"Yes, I will never drink it.","Yes, I will never forget her."
+00024_0003_angry_0003_000586,0003,angry,happy,True,0.7272727272727273,0.3726623058319092,False,0,0,"I don't need taste buds, so I don't have a tongue.","I don't need to slow down, so no more first time."
+00025_0003_neutral_0003_000240,0003,neutral,happy,True,1.0,0.39921510219573975,False,0,0,About an hour.,八约一钉石头
+00026_0003_neutral_0003_000142,0003,neutral,happy,True,0.8571428571428571,0.8163630962371826,True,1,1,"Yeah, I'm still a young, inexperienced reporter.","Yeah, I'm still a young reporter who's just getting started."
+00027_0003_neutral_0003_000167,0003,neutral,happy,True,1.0,0.8610960245132446,True,0,0,"Too cool, I want to exchange some yen.",太妙了，我想花一些日元。
+00028_0003_neutral_0003_000051,0003,neutral,happy,True,0.8888888888888888,0.6608840227127075,False,0,0,"No problem, maybe his wife will leak the secret.","Don't worry, maybe her boyfriend will smile and tell a secret."
+00029_0003_neutral_0003_000087,0003,neutral,happy,True,1.4285714285714286,0.42470356822013855,False,0,0,It's nothing but it's a bit boring.,It's not a big deal if you don't want to go.
+00030_0003_neutral_0003_000257,0003,neutral,happy,True,0.75,0.19148050248622894,False,0,0,This is the fourth day of my trip.,This is me on the 14th floor of a hotel.
+00031_0003_neutral_0003_000157,0003,neutral,happy,True,0.7142857142857143,0.5686814785003662,False,0,0,You know sometimes patients can be unreasonable.,"You know, sometimes patients will return the favor."
+00032_0003_neutral_0003_000043,0003,neutral,happy,True,0.8571428571428571,0.8088545799255371,True,0,0,Then we can choose a youth hostel.,"Such a good thing, we can choose the youth hotel."
+00033_0003_neutral_0003_000281,0003,neutral,happy,True,0.2,0.8516250848770142,True,0,0,"Good night, everyone, the whole world is full of stars.","Good morning, everyone, the whole sky is full of stars."
+00034_0003_neutral_0003_000258,0003,neutral,happy,True,0.1111111111111111,0.8681272864341736,True,1,1,I don't quite understand the meaning of this sentence.,I don't quite understand the meaning of this phrase.
+00035_0003_neutral_0003_000082,0003,neutral,happy,True,0.25,0.8540138006210327,True,0,0,I heard you are going to Hong Kong to see your uncle.,saying that you are going to Hong Kong to see your cousin.
+00036_0003_neutral_0003_000334,0003,neutral,happy,True,0.0,1.0,True,skip_identical,1,I used to have a too happy.,I used to have a too happy.
+00037_0003_neutral_0003_000116,0003,neutral,happy,True,0.42857142857142855,0.9132876396179199,True,1,1,"No, but we went to Kennedy Center.","No, but we did go to the Kennedy Center."
+00038_0003_neutral_0003_000070,0003,neutral,happy,True,0.7272727272727273,0.34222906827926636,False,0,0,"Mind is not like body, I am not good at pretending.",I'm not very good at waiting.
+00039_0003_neutral_0003_000268,0003,neutral,happy,True,1.6,0.11161120235919952,False,0,0,Everyone has a bad day.,"When I was a kid, I had a roommate."
+00040_0003_neutral_0003_000086,0003,neutral,happy,True,1.0,0.5169037580490112,False,0,0,I didn't know swimming had so many benefits.,I really want to experience the many benefits of swimming.
+00041_0003_neutral_0003_000007,0003,neutral,happy,True,1.2,0.5037604570388794,False,0,0,I call once a month.,I go to see the painting every month.
+00042_0003_neutral_0003_000117,0003,neutral,happy,True,0.9090909090909091,0.6800971031188965,False,0,0,"Get up quickly, I'm waiting for you at the dormitory door.","Hurry up and get out of bed, I'm waiting for you at the door of the cave."
+00043_0003_neutral_0003_000049,0003,neutral,happy,True,0.625,0.5048023462295532,False,0,0,I'll give you some soccer balls and paper.,Give me some colorful pens and paper.
+00044_0003_neutral_0003_000065,0003,neutral,happy,True,1.0,0.4172409176826477,False,0,0,"Not bad at all, let's just hold on to this for now.","Nothing is wrong, first enjoy the food."
+00045_0003_neutral_0003_000020,0003,neutral,happy,True,1.5,0.8112419843673706,True,1,1,"A few days ago, I encountered something interesting.",I had a funny thing happen to me a few days ago.
+00046_0003_neutral_0003_000301,0003,neutral,happy,True,11.0,0.7577528953552246,False,0,0,播放歌单收藏，脑海可动手真快。,"Play songs, save them, and your brain can be moved quickly."
+00047_0003_neutral_0003_000323,0003,neutral,happy,True,0.16666666666666666,0.7550704479217529,False,0,0,He is so friendly to everyone.,She is so friendly to everyone.
+00048_0003_neutral_0003_000324,0003,neutral,happy,True,0.0,1.0000001192092896,True,skip_identical,1,I like to have lunch.,I like to have lunch.
+00049_0003_neutral_0003_000126,0003,neutral,happy,True,0.5555555555555556,0.6791876554489136,False,0,0,"No, he lives in the old house in Westtown.","For example, she lives in the old house in West End."
+00050_0003_sad_0003_001082,0003,sad,happy,True,0.0,0.9999998807907104,True,skip_identical,1,I met a beautiful girl.,I met a beautiful girl.
+00051_0003_sad_0003_001349,0003,sad,happy,True,1.3333333333333333,0.338362455368042,False,0,0,"Yes, I just hit the table.","Oh, it's all done, I'm so happy, God."
+00052_0003_sad_0003_001227,0003,sad,happy,True,2.5555555555555554,0.5169342756271362,False,0,0,You've been in my heart for a long time.,"Now, tell me, the words you add to me are all with your heart, not with your mouth. That makes me so happy."
+00053_0003_sad_0003_001051,0003,sad,happy,True,11.0,0.662356436252594,False,1,1,大愿一看，他们的确很是美丽。,"I looked far and wide, and they were indeed very beautiful."
+00054_0003_sad_0003_001317,0003,sad,happy,True,0.42857142857142855,0.9734569787979126,True,1,1,This is my first book of stories.,This is my first story book.
+00055_0003_sad_0003_001121,0003,sad,happy,True,0.4444444444444444,0.5224577188491821,False,0,0,I like all the movies that make me cry.,"I like all the movies that use the ""Goo"" character."
+00056_0003_sad_0003_001123,0003,sad,happy,True,0.6666666666666666,0.9233524203300476,True,1,1,She always has a sweet smile.,She always has a smile on her face.
+00057_0003_sad_0003_001079,0003,sad,happy,True,0.6,0.9121056199073792,True,1,1,Very cute. Just like you.,So cute! Just like you!
+00058_0003_sad_0003_001313,0003,sad,happy,True,1.8,0.4167855381965637,False,0,0,Maybe it's a good thing.,Maybe I should go to the restaurant. It's a really good experience.
+00059_0003_sad_0003_001059,0003,sad,happy,True,0.4,0.8992575407028198,True,1,1,That's what I mean. You're both smart and good looking.,That's what I mean. You are both smart and beautiful.
+00060_0003_sad_0003_001357,0003,sad,happy,True,18.0,0.4054163098335266,False,0,0,又是内在美更加重要。,"You're my beautiful dream, you're my precious gem. He said, ""When the sun comes out, it's so beautiful."""
+00061_0003_sad_0003_001347,0003,sad,happy,True,1.6,0.1766868680715561,False,0,0,"three, two sons, one daughter.","Framgangs, så jeg har også hild i gunnjoa."
+00062_0003_sad_0003_001160,0003,sad,happy,True,11.0,0.41069167852401733,False,0,0,自己的事情要自己做。,Your own happiness is the best gift you can give yourself.
+00063_0003_sad_0003_001165,0003,sad,happy,True,0.9,0.7050701379776001,False,0,0,"It's a good habit, usually reading books or small things.",This is a good habit. I think I like it.
+00064_0003_sad_0003_001350,0003,sad,happy,True,0.8888888888888888,0.11426857858896255,False,0,0,I believe I am a fan of Deng Shan.,I like to go to the countryside.
+00065_0003_sad_0003_001144,0003,sad,happy,True,2.125,0.2442680299282074,False,0,0,I don't know why I look so angry.,"Last night I got up because of my wife, and when I looked at my watch, it was 11:30."
+00066_0003_sad_0003_001384,0003,sad,happy,True,1.0,0.5546577572822571,False,0,0,"I had a baby, I'm so happy.","火,我今天是猫火,我开心"
+00067_0003_sad_0003_001310,0003,sad,happy,True,0.4,0.7104454040527344,False,0,0,"I'm sorry, I was going to go to the mall.",I want to go to the mall.
+00068_0003_sad_0003_001321,0003,sad,happy,True,22.0,0.17910461127758026,False,0,0,大,"And with that, I'd love to find a free day soon. So if you're going to be college one, it's the first."
+00069_0003_sad_0003_001397,0003,sad,happy,True,1.5,0.09545397013425827,False,0,0,"Just two pieces, the Tang Dynasty and the Song Dynasty.","What a fish was out like that, she had Hanja all over the ocean. Cute, yeah."
+00070_0003_sad_0003_001289,0003,sad,happy,True,0.25,0.9136438369750977,True,1,1,"Food is also very delicious, and no need to mention the price.","Food is also very delicious, not to mention the price."
+00071_0003_sad_0003_001262,0003,sad,happy,True,0.75,0.6516332626342773,False,1,1,I will go with you all the way.,"I will always be with you, walking the road together."
+00072_0003_sad_0003_001277,0003,sad,happy,True,1.625,0.1518452912569046,False,0,0,I can't stand the noise in the city.,"Good morning. Jimmy, I'm so glad I'm going to get him bop bop."
+00073_0003_sad_0003_001202,0003,sad,happy,True,0.7777777777777778,0.2961326241493225,False,0,0,"Be careful, there is a hole on the bridge.","Be careful, I finally found a good one."
+00074_0003_sad_0003_001171,0003,sad,happy,True,1.0,0.05858883261680603,False,0,0,Then you are far away from the city.,Let me go and get the body back.
+00075_0003_surprise_0003_001424,0003,surprise,happy,True,0.1,0.898871660232544,True,1,1,"Your image is always in my mind, to and fro.","Your image is always in my heart, to and fro."
+00076_0003_surprise_0003_001408,0003,surprise,happy,True,1.0,0.38150331377983093,False,0,0,Shachan Bagel seems to have caused everyone trouble.,Shachanbao seems to have brought everyone a piece of Ma San.
+00077_0003_surprise_0003_001715,0003,surprise,happy,True,0.25,0.9632368087768555,True,1,1,I need to be plugged in to talk.,I need to plug in to talk.
+00078_0003_surprise_0003_001539,0003,surprise,happy,True,0.3333333333333333,0.9203588366508484,True,1,1,Their partnership is worth us learning.,Their cooperation is worth our learning.
+00079_0003_surprise_0003_001596,0003,surprise,happy,True,0.14285714285714285,0.8013656735420227,True,0,0,"I'm hungry, I'm going to eat something.",I'm alive! I'm going to eat something.
+00080_0003_surprise_0003_001644,0003,surprise,happy,True,1.25,0.8848345279693604,True,1,1,My family is small.,My family is small and not many people.
+00081_0003_surprise_0003_001578,0003,surprise,happy,True,1.0,0.8032262325286865,True,0,0,"You turn one, I want to learn a little.",一转一角，那想学习一下。
+00082_0003_surprise_0003_001621,0003,surprise,happy,True,0.0,1.0,True,skip_identical,1,I strongly support people going into space.,I strongly support people going into space.
+00083_0003_surprise_0003_001494,0003,surprise,happy,True,1.1666666666666667,0.5885746479034424,False,0,0,"""Very strange, I don't know why.""","""Very handsome, I don't know why I'm so attracted to him."""
+00084_0003_surprise_0003_001444,0003,surprise,happy,True,0.5,0.2623075842857361,False,1,1,"For example, the Wall Street Journal is good.","For example, ""Wa'er jian ri fao"" is good."
+00085_0003_surprise_0003_001745,0003,surprise,happy,True,0.8,0.4655524492263794,False,0,0,You always seem to be looking for something to do.,He always likes to do something.
+00086_0003_surprise_0003_001477,0003,surprise,happy,True,0.875,0.7632253766059875,False,0,0,The wedding ceremony has started. They have arrived.,"The wedding ceremony has been completed, the wedding cake is here."
+00087_0003_surprise_0003_001466,0003,surprise,happy,True,0.5714285714285714,0.8564213514328003,True,0,0,"We can go fishing, chatting and hunting.","We can go fishing, chat, and have a picnic."
+00088_0003_surprise_0003_001505,0003,surprise,happy,True,0.75,0.35491490364074707,False,0,0,"We can't get along, and we often argue.","We are both very close, and we often joke around."
+00089_0003_surprise_0003_001521,0003,surprise,happy,True,0.625,0.05013979971408844,False,0,0,Then you are far away from the era.,Then you are going to be happy.
+00090_0003_surprise_0003_001691,0003,surprise,happy,True,0.4166666666666667,0.6784986853599548,False,0,0,"In the south of France, the climate is mild all year round.","In the south of France, the weather is always sunny."
+00091_0003_surprise_0003_001417,0003,surprise,happy,True,0.8461538461538461,0.7887592315673828,False,0,0,Soon you'll be going to college and you'll be able to use it.,"Soon you will go to college, you have arrived."
+00092_0003_surprise_0003_001547,0003,surprise,happy,True,0.4444444444444444,0.9371887445449829,True,1,1,"I don't know, maybe a new pair of shoes.",I don't know. Maybe I'll buy a new pair of shoes.
+00093_0003_surprise_0003_001635,0003,surprise,happy,True,0.4,0.8686127662658691,True,0,0,I like to exercise but I don't play soccer much.,"I like to play basketball, but I don't play much soccer."
+00094_0003_surprise_0003_001430,0003,surprise,happy,True,0.0,1.0,True,skip_identical,1,"Unless you're playing ping pong, but that's not possible.","Unless you're playing ping pong, but that's not possible."
+00095_0003_surprise_0003_001448,0003,surprise,happy,True,0.375,0.7031469345092773,False,0,0,"It's early, I'm here, please give me instructions.","It's time to go, I'm here, please give me instructions."
+00096_0003_surprise_0003_001485,0003,surprise,happy,True,1.1428571428571428,0.25763022899627686,False,0,0,"Yeah, I always worry about his health.","Yeah, as long as I'm healthy, I'll be fine."
+00097_0003_surprise_0003_001662,0003,surprise,happy,True,0.7777777777777778,0.5214507579803467,False,0,0,He seems to have been dumped by his girlfriend.,He seems like a restaurant threw me out.
+00098_0003_surprise_0003_001461,0003,surprise,happy,True,0.3333333333333333,0.9815387725830078,True,1,1,"Next month, my sister is going to get married.","Next month, my sister is getting married."
+00099_0003_surprise_0003_001449,0003,surprise,happy,True,0.9629629629629629,0.33580848574638367,False,0,0,"I can't physically send you anything, but I can certainly help you find some information or answer any questions you might have about soccer or paper flowers.",Give me some crayons and paper.
+00900_0004_angry_0004_000467,0004,angry,happy,True,0.4166666666666667,0.7308286428451538,False,0,0,"Get up quickly, I'll be waiting for you at the apartment door.","Come on, let's go. I'll be waiting for you at the dormitory door."
+00901_0004_angry_0004_000575,0004,angry,happy,True,0.3333333333333333,0.6000194549560547,False,1,1,"""Almost, we both are very hot-blooded.""","Almost, we both are very enthusiastic."
+00902_0004_angry_0004_000385,0004,angry,happy,True,0.5,0.8450592160224915,True,0,0,Such an innocent person will not be killed.,Such innocent people will not be killed anymore.
+00903_0004_angry_0004_000605,0004,angry,happy,True,0.375,0.4599584937095642,False,0,0,"At first, my office was a one-man show.","At first, my workplace was a small workshop."
+00904_0004_angry_0004_000444,0004,angry,happy,False,8.0,0.8959059715270996,True,1,1,很神奇的样子，我搞不明白为什么。,"I don't know why, but it looks amazing."
+00905_0004_angry_0004_000456,0004,angry,happy,True,1.3333333333333333,0.3155125379562378,False,0,0,I usually keep quiet when I can't do anything.,"Can't do anything, hit the ball, I'll catch it, it's all fun."
+00906_0004_angry_0004_000405,0004,angry,happy,True,0.8333333333333334,0.2836211025714874,False,0,0,It will actually become a coal.,It will be a great ice cream.
+00907_0004_angry_0004_000471,0004,angry,happy,False,1.0,0.8951879143714905,True,0,0,Then you are far away from the city.,让你又离市区很远了。
+00908_0004_angry_0004_000696,0004,angry,happy,True,1.0,0.6275256872177124,False,0,0,"Good night, little girl.",好好休息一下，这个小姑娘提。
+00909_0004_angry_0004_000581,0004,angry,happy,True,1.0,0.24381759762763977,False,0,0,It's been very cold and windy.,"""对着很长的墙壁，两个声音大声的"""
+00910_0004_angry_0004_000453,0004,angry,happy,True,0.2857142857142857,0.878277063369751,True,1,1,"Feels very warm. Okay, see you later.","It's really warm. Okay, see you later."
+00911_0004_angry_0004_000364,0004,angry,happy,True,0.125,0.9668929576873779,True,1,1,"Whoever you are, I'm happy to help you.","Whoever you are, I'm glad to help you."
+00912_0004_angry_0004_000530,0004,angry,happy,True,13.0,0.2684094309806824,False,0,0,"""冬天的雨非常多，我不喜欢雨天。""",There are many good things about the present. We don't like the past.
+00913_0004_angry_0004_000548,0004,angry,happy,True,1.1666666666666667,0.7317825555801392,False,0,0,"Of course, we all have continents.","Of course we know, we are all over the world."
+00914_0004_angry_0004_000526,0004,angry,happy,True,1.0,0.09512950479984283,False,0,0,"Take your family with you, but they have a bad reputation.",上去你就加入，我们就去拍个照片。
+00915_0004_angry_0004_000448,0004,angry,happy,True,0.8571428571428571,0.1247917115688324,False,0,0,I will only joke about the landlord.,"I will not only cheer for the host country, China."
+00916_0004_angry_0004_000368,0004,angry,happy,True,0.2857142857142857,0.6749127507209778,False,0,0,"We don't agree, let's go play there.","We all agreed, let's go play there."
+00917_0004_angry_0004_000387,0004,angry,happy,True,0.0,1.0,True,skip_identical,1,I and my wife are looking forward to meeting you.,I and my wife are looking forward to meeting you.
+00918_0004_angry_0004_000586,0004,angry,happy,True,0.5833333333333334,0.5752782821655273,False,0,0,"I don't need to show off, so I don't have a nose.","We don't need to show you, so no beak."
+00919_0004_angry_0004_000549,0004,angry,happy,True,0.2222222222222222,0.9770462512969971,True,1,1,"I like your quick and tidy, bright and sunny.","I like your quick and tidy, sunny."
+00920_0004_angry_0004_000626,0004,angry,happy,True,0.5454545454545454,0.730949878692627,False,1,1,I like it very much. I pay attention to the appearance.,I like it very much.
+00921_0004_angry_0004_000459,0004,angry,happy,True,1.75,0.48621588945388794,False,0,0,I'm actually quite hungry.,I really like the taste of it.
+00922_0004_angry_0004_000594,0004,angry,happy,False,3.5,0.06336773186922073,False,0,0,My family is small.,"My goal is to be the best, and I don't want to be the only one."
+00923_0004_angry_0004_000649,0004,angry,happy,True,0.6666666666666666,0.5908733606338501,False,0,0,"Yes, I just hit the table.","Eat it, I just hit my target."
+00924_0004_angry_0004_000600,0004,angry,happy,True,0.6666666666666666,0.5892061591148376,False,0,0,"I don't need to turn my head, I don't need a neck.","I don't need to turn my head, I don't need to look away, I can just keep eating."
+00925_0004_neutral_0004_000123,0004,neutral,happy,True,0.6,0.2820066213607788,False,0,0,Then you say you have fallen from the unknown heavens.,Then you say you are a good person.
+00926_0004_neutral_0004_000017,0004,neutral,happy,True,0.3333333333333333,0.9894435405731201,True,1,1,You'll soon be able to use it in college.,Soon you will be able to use it in college.
+00927_0004_neutral_0004_000053,0004,neutral,happy,True,0.18181818181818182,0.9936590194702148,True,skip_high_sim,1,"I will definitely do it, so I won't ask you anymore.",I will definitely do it. So I won't ask you anymore.
+00928_0004_neutral_0004_000152,0004,neutral,happy,False,1.1428571428571428,0.24606913328170776,False,0,0,Beware of a hole on the sidewalk.,There is a window on the top of the human-shaped stone.
+00929_0004_neutral_0004_000001,0004,neutral,happy,True,1.0,0.04067084193229675,False,0,0,"Dazhuan yi kan, tamen di qi hen shi mei li.","I wish to see them, they are really beautiful."
+00930_0004_neutral_0004_000333,0004,neutral,happy,True,0.6363636363636364,0.3620637059211731,False,0,0,"If you miss this village, you will not find this restaurant.","Miss this spring, you will never have this feeling."
+00931_0004_neutral_0004_000320,0004,neutral,happy,True,0.4,0.9130879640579224,True,1,1,Thank you for coming here to tell me more details.,"Thank you for coming here, tell me more."
+00932_0004_neutral_0004_000207,0004,neutral,happy,True,0.6,0.6489689350128174,False,0,0,"I am Mung Mung Da, you are Dai Dai Da.","I'm Mung Mung Da, you're Miss B.B. Da."
+00933_0004_neutral_0004_000254,0004,neutral,happy,True,1.2857142857142858,0.2396892011165619,False,0,0,"I didn't trick you, machines don't trick.","If I didn't tell you, the tea is not to be missed."
+00934_0004_neutral_0004_000209,0004,neutral,happy,True,0.875,0.5277458429336548,False,0,0,"I'm sorry, I spilled coffee on the table.",I'm going to get up and bring the coffee table.
+00935_0004_neutral_0004_000330,0004,neutral,happy,True,0.5714285714285714,0.8827271461486816,True,1,1,"We get along very well, that's all.",We got along very well.
+00936_0004_neutral_0004_000054,0004,neutral,happy,True,1.0,0.14178480207920074,False,0,0,I was created by artificial intelligence.,I sleep with the human garbage dump.
+00937_0004_neutral_0004_000284,0004,neutral,happy,True,1.5,0.694563090801239,False,0,0,Shopping and sightseeing are both time-consuming.,There are plenty of time to shop and sightsee.
+00938_0004_neutral_0004_000341,0004,neutral,happy,True,0.7777777777777778,0.5381506681442261,False,0,0,I will draw a devil face on your face.,I will kiss you like a swallow.
+00939_0004_neutral_0004_000176,0004,neutral,happy,True,0.5,0.71668940782547,False,0,0,Wear your family but they have a birthmark.,"Wear your family, but with a twist."
+00940_0004_neutral_0004_000308,0004,neutral,happy,True,0.6666666666666666,0.548086941242218,False,0,0,I'm going to check out some knowledge about basketball.,I go to check out the knowledge related to soccer.
+00941_0004_neutral_0004_000338,0004,neutral,happy,True,0.6,0.8831238150596619,True,1,1,Young people must take responsibility.,Young people should take on responsibilities.
+00942_0004_neutral_0004_000307,0004,neutral,happy,True,0.3333333333333333,0.9485476016998291,True,1,1,Sometimes inner beauty is more important.,Sometimes the inner beauty is more precious.
+00943_0004_neutral_0004_000321,0004,neutral,happy,True,0.5714285714285714,0.5247621536254883,False,0,0,I don't like you making me dizzy.,Fusi very much likes you making me dizzy.
+00944_0004_neutral_0004_000343,0004,neutral,happy,True,0.375,0.5392765402793884,False,0,0,Many white liners were involved in this game.,Many white cranes are participating in this game.
+00945_0004_neutral_0004_000090,0004,neutral,happy,True,0.7777777777777778,0.4460533857345581,False,0,0,"Not too bad, but I have to lie down.","It's not too high, but you have to lie on the stove."
+00946_0004_neutral_0004_000180,0004,neutral,happy,True,0.8333333333333334,0.14656949043273926,False,0,0,"It rains a lot in the summer, I don't like rainy days.",There are many species of fish that I like to eat.
+00947_0004_neutral_0004_000059,0004,neutral,happy,True,1.1428571428571428,0.7284659147262573,False,1,1,I like everything I can play well.,"If I can play it well, I like it."
+00948_0004_neutral_0004_000058,0004,neutral,happy,True,0.5714285714285714,0.8641356825828552,True,0,0,"make people feel spacious, airy and grand.",Make people feel spacious and exhilarating.
+00949_0004_neutral_0004_000189,0004,neutral,happy,True,0.8888888888888888,0.6303993463516235,False,0,0,"I am a teacher, are you a good student?",I'm a teacher of Yinyang. You are a good person.
+00950_0004_sad_0004_001127,0004,sad,happy,True,0.3333333333333333,0.9924881458282471,True,skip_high_sim,1,They got married and they came.,"They got married, they came."
+00951_0004_sad_0004_001145,0004,sad,happy,True,0.14285714285714285,0.8154945373535156,True,0,0,"I do have a hobby, collecting antiques.","I do have a hobby, collecting candy."
+00952_0004_sad_0004_001070,0004,sad,happy,True,0.75,0.7869269847869873,False,1,1,"A few days ago, I encountered something interesting.",I've discovered something interesting.
+00953_0004_sad_0004_001274,0004,sad,happy,True,0.5714285714285714,0.449442595243454,False,0,0,This is a bit hard for me.,This is a bit of a surprise to me.
+00954_0004_sad_0004_001123,0004,sad,happy,True,0.0,1.0,True,skip_identical,1,She always has a sweet smile.,She always has a sweet smile.
+00955_0004_sad_0004_001272,0004,sad,happy,True,0.42857142857142855,0.9422739744186401,True,0,0,My old friend Hansen lives in London.,My old friend Hansen just moved to London.
+00956_0004_sad_0004_001232,0004,sad,happy,True,1.2222222222222223,0.6334403157234192,False,0,0,“About enough to support my living for three months.”,I think I have enough support to live. I thank you all enough.
+00957_0004_sad_0004_001320,0004,sad,happy,True,0.8888888888888888,0.12134652584791183,False,0,0,I can't find the folder you want to delete.,"No, I've never had you eat three potatoes."
+00958_0004_sad_0004_001203,0004,sad,happy,True,1.0,0.9563966989517212,True,0,0,What are we waiting for?,We're waiting for what?
+00959_0004_sad_0004_001379,0004,sad,happy,True,0.3333333333333333,0.767126202583313,False,0,0,But sometimes autumn is more charming than other seasons.,"However, sometimes summer is more beautiful than other seasons."
+00960_0004_sad_0004_001281,0004,sad,happy,True,7.0,0.6802675724029541,False,0,0,最近很冷，风也很大。,The other side is cold and bright.
+00961_0004_sad_0004_001177,0004,sad,happy,True,0.3333333333333333,0.974653959274292,True,1,1,You said we are going to stay in Zagreb for three days.,We're going to stay in Zagreb for three days.
+00962_0004_sad_0004_001189,0004,sad,happy,True,0.6666666666666666,0.8985216617584229,True,1,1,Their cooperation is worth us learning.,Their cooperation deserves us to learn.
+00963_0004_sad_0004_001216,0004,sad,happy,True,0.3333333333333333,0.3726475238800049,False,0,0,I think those should be the seeds of carrots.,I think those should be the strawberries' best features.
+00964_0004_sad_0004_001225,0004,sad,happy,True,0.9,0.43248251080513,False,0,0,"He's unemployed at the moment, you'd better not annoy him.","You're playing well, don't tease him."
+00965_0004_sad_0004_001309,0004,sad,happy,True,0.625,0.5613185167312622,False,0,0,We want to wait for a suitable time.,We are thinking of a healthy time.
+00966_0004_sad_0004_001347,0004,sad,happy,True,0.5,0.9465022087097168,True,0,0,"Three sons, two boys, one girl.","Three sons, two daughters."
+00967_0004_sad_0004_001179,0004,sad,happy,True,1.0,0.33848443627357483,False,1,1,"to others there is none, but to me there is.","But there is no one else, he is only for me."
+00968_0004_sad_0004_001198,0004,sad,happy,True,1.0,0.20454296469688416,False,0,0,"If you have something to do, remember to call me.",You can see the sky is blue.
+00969_0004_sad_0004_001377,0004,sad,happy,False,1.0,0.003640035167336464,False,0,0,"I hate conceited people, sometimes I don't understand, you understand.","A duck is not far away, one duck."
+00970_0004_sad_0004_001133,0004,sad,happy,True,0.75,0.6592028141021729,False,1,1,Every part of you is drawing me in.,Every detail of your appearance attracts me.
+00971_0004_sad_0004_001351,0004,sad,happy,True,11.0,0.3102990388870239,False,0,0,播放歌单收藏，脑子能动得真快。,"I play the song, and the old man is very happy."
+00972_0004_sad_0004_001326,0004,sad,happy,True,0.5454545454545454,0.6671432256698608,False,0,0,I like it very much. I pay attention to my appearance.,I like it very much.
+00973_0004_sad_0004_001396,0004,sad,happy,True,1.0,0.41039174795150757,False,0,0,"Good rest, little wooden rocking chair.",休息一下，这个小木头，问你叫我心爱的。
+00974_0004_sad_0004_001153,0004,sad,happy,True,0.7142857142857143,0.9475216865539551,True,1,1,"Feels so warm. Okay, see you later.",Feels so warm. See you in a while.
+00975_0004_surprise_0004_001638,0004,surprise,happy,True,0.5,0.6723472476005554,False,0,0,I don't think we should follow Xiao Xi.,I think we should walk along with Xiao Xi.
+00976_0004_surprise_0004_001511,0004,surprise,happy,True,1.125,0.47523534297943115,False,0,0,"Every morning, my mother would help him remember.","Every day, I was carried by my mother to the ground."
+00977_0004_surprise_0004_001478,0004,surprise,happy,True,1.0,0.6641589999198914,False,0,0,Their design is small and can be operated alone.,看他们的设计外型小巧，可单独坐。
+00978_0004_surprise_0004_001709,0004,surprise,happy,True,6.0,0.45420438051223755,False,0,0,四个半月,I have already married four times.
+00979_0004_surprise_0004_001585,0004,surprise,happy,True,0.09090909090909091,0.9949706792831421,True,skip_high_sim,1,"Today is a beautiful day, I hope the host team loses.",Today is a beautiful day. I hope the host team loses.
+00980_0004_surprise_0004_001576,0004,surprise,happy,True,0.8,0.45402756333351135,False,0,0,Wear your family member's clothes but they have a mustache.,"Take your family, take them to have a good time."
+00981_0004_surprise_0004_001552,0004,surprise,happy,True,1.0,0.316131591796875,False,0,0,"Be careful, there's a hole on the road.",笑声在下面响起，人生的道路上有了一个转折点。
+00982_0004_surprise_0004_001467,0004,surprise,happy,True,0.5,0.39780181646347046,False,0,0,You're deeply imprinted in my mind.,It's fresh in my mind.
+00983_0004_surprise_0004_001555,0004,surprise,happy,True,0.2857142857142857,0.9225260019302368,True,1,1,I just want to relax a bit.,I really wanted to relax a bit.
+00984_0004_surprise_0004_001509,0004,surprise,happy,True,0.25,0.3871844410896301,False,0,0,I'm actually quite hungry.,I'm actually quite happy.
+00985_0004_surprise_0004_001580,0004,surprise,happy,False,0.8333333333333334,0.7294484376907349,False,1,1,"""In the winter, it rains a lot. I don't like rainy days.""","In the winter, there is a lot of rain. I don't like it when it rains."
+00986_0004_surprise_0004_001692,0004,surprise,happy,True,0.3333333333333333,0.7236824035644531,False,0,0,One day I may have to talk to her.,"Na Pei-sa, I might have to talk to her."
+00987_0004_surprise_0004_001702,0004,surprise,happy,True,1.0,0.42165517807006836,False,0,0,I hope you can think of some ideas with me.,"I hope you can be with me, you also want to be happy, right?"
+00988_0004_surprise_0004_001634,0004,surprise,happy,False,0.16666666666666666,0.9823006391525269,True,1,1,It is a major air pollutant.,It is a main air pollutant.
+00989_0004_surprise_0004_001713,0004,surprise,happy,True,0.7777777777777778,0.9150936007499695,True,0,0,"After the trip, I will rest for a while.",I will rest for a while before I travel.
+00990_0004_surprise_0004_001750,0004,surprise,happy,False,1.2857142857142858,0.42535096406936646,False,0,0,"It's very bad language, don't learn it.","This is very difficult to stop in Chinese. Readers, please don't learn it."
+00991_0004_surprise_0004_001411,0004,surprise,happy,True,0.125,0.9905665516853333,True,skip_high_sim,1,"Happy Mother's Day! I love you forever, Mom.","Happy Mother's Day. I love you forever, Mom."
+00992_0004_surprise_0004_001417,0004,surprise,happy,True,0.5555555555555556,0.35298436880111694,False,0,0,Soon you'll be able to use it in college.,Soon you'll be able to play in the big leagues.
+00993_0004_surprise_0004_001708,0004,surprise,happy,True,0.625,0.7763879895210266,False,0,0,I'm going to check out some basketball knowledge.,I'm going to try basketball.
+00994_0004_surprise_0004_001565,0004,surprise,happy,True,2.2,0.33488941192626953,False,0,0,"Actually, we broke up yesterday.","Actually, we have been together for thousands of years and never broken up."
+00995_0004_surprise_0004_001439,0004,surprise,happy,True,1.0,0.5658015012741089,False,0,0,没有找到日常，去的时刻锁门。,没有一天不去十字路口
+00996_0004_surprise_0004_001672,0004,surprise,happy,True,1.4,0.4609634578227997,False,0,0,"""Shenyang tomorrow has a rainstorm, and the wind will change.""","Shen Yang, tomorrow there will be a leech. I will be very happy to see you."
+00997_0004_surprise_0004_001436,0004,surprise,happy,True,1.0,0.5125399827957153,False,0,0,I must be online to work.,I have to enjoy what I do to work.
+00998_0004_surprise_0004_001493,0004,surprise,happy,True,0.5,0.6446121335029602,False,0,0,"Don't be shy, eat more meat.","Don't be shy, eat more of the dumplings."
+00999_0004_surprise_0004_001654,0004,surprise,happy,True,1.5714285714285714,0.45857954025268555,False,0,0,"I didn't trick you, machines don't trick.","I didn't want to use you, said the cheerful man, I won't use you."
+00600_0005_angry_0005_000462,0005,angry,happy,True,1.0,0.997725248336792,True,skip_high_sim,1,那棒极了，其实心情也挺好的。,那棒极了，其实心情也挺不错。
+00601_0005_angry_0005_000431,0005,angry,happy,True,1.0,0.6763818264007568,False,0,0,"This street, everyone likes to gossip.","This street is so crowded, everyone likes it."
+00602_0005_angry_0005_000570,0005,angry,happy,True,0.75,0.4585549831390381,False,1,1,"So you must persevere, the longer the better.","I will definitely stick with you, the longer the better."
+00603_0005_angry_0005_000643,0005,angry,happy,True,0.7142857142857143,0.45624467730522156,False,0,0,"Listen up, I've seen the screen display.",I saw the rainbow display.
+00604_0005_angry_0005_000440,0005,angry,happy,True,0.8333333333333334,0.5659934282302856,False,0,0,"Not too bad, but it has to be hidden in the bed.","I'm not too tall, I'm lying on the bed."
+00605_0005_angry_0005_000639,0005,angry,happy,True,1.0,0.1946287304162979,False,0,0,"No, but Bobo likes to play with balls.","Good, the white rabbit is here."
+00606_0005_angry_0005_000450,0005,angry,happy,True,0.2222222222222222,0.8894214630126953,True,0,0,I often go to the bar near our dormitory.,I often go to the bar near my apartment.
+00607_0005_angry_0005_000354,0005,angry,happy,True,0.875,0.24613548815250397,False,0,0,"No matter how you look at it, the host team seems to be the one losing.","Whatever the case, the host is very happy to have you."
+00608_0005_angry_0005_000681,0005,angry,happy,True,0.3333333333333333,0.838604748249054,True,0,0,"So I asked him, ""Can you buy my ticket?""","I asked the lady, ""Can you buy my ticket?"""
+00609_0005_angry_0005_000504,0005,angry,happy,True,1.6,0.7295205593109131,False,0,0,I can only speak Mandarin.,"I won't say other foreign languages, only Wu Tong Tong."
+00610_0005_angry_0005_000490,0005,angry,happy,True,1.1666666666666667,0.25026750564575195,False,0,0,I know I'm a big mouth.,I also hope to go to the big screen.
+00611_0005_angry_0005_000385,0005,angry,happy,True,0.3333333333333333,0.9804096817970276,True,1,1,"So, innocent people won't be killed.",so the innocent people won't be killed.
+00612_0005_angry_0005_000533,0005,angry,happy,True,0.6363636363636364,0.41834375262260437,False,0,0,You would never guess he was planning to have a child.,You can't miss that he's getting ready to have a baby.
+00613_0005_angry_0005_000594,0005,angry,happy,True,0.7142857142857143,0.21114978194236755,False,0,0,My direct contact number is not much.,My direct relatives are more than 1000.
+00614_0005_angry_0005_000677,0005,angry,happy,True,1.3333333333333333,0.7567507028579712,False,0,0,"I like to eat, I don't understand, you understand?","I like to eat wrongly, and I don't care. Sometimes I don't know, you go out and eat."
+00615_0005_angry_0005_000442,0005,angry,happy,True,1.0,0.5931684970855713,False,0,0,"Won't be so bad, I'm 16 too.",福魁就把我当小孩了，我也是16岁。
+00616_0005_angry_0005_000517,0005,angry,happy,True,1.0,0.9988359212875366,True,skip_high_sim,1,太妙了，我想换一些日元。,太妙啦，我想换一些日元。
+00617_0005_angry_0005_000683,0005,angry,happy,True,11.0,0.3757365345954895,False,1,1,坐我这船就没这店了。,"If I miss this opportunity, I won't have this chance again."
+00618_0005_angry_0005_000605,0005,angry,happy,True,0.625,0.22847406566143036,False,0,0,My first job was to be a waiter.,The most important job is to be a user.
+00619_0005_angry_0005_000364,0005,angry,happy,True,0.4444444444444444,0.882172703742981,True,1,1,"Whoever you don't know, I'm happy to help you.",Who do you not know? I'm happy to help you.
+00620_0005_angry_0005_000471,0005,angry,happy,True,0.0,1.0,True,skip_identical,1,Then you are far away from the city.,Then you are far away from the city.
+00621_0005_angry_0005_000624,0005,angry,happy,True,10.0,0.7672456502914429,False,0,0,主要不愿意吧，我还是想留下他。,"Don't go back, I still want to stay with him."
+00622_0005_angry_0005_000420,0005,angry,happy,True,1.0,0.12991490960121155,False,0,0,"I can't move my body, I'm not good at acting.",生了蚊子成功，我不用下去打扫了。
+00623_0005_angry_0005_000511,0005,angry,happy,True,1.0,0.4849874675273895,False,0,0,He makes me laugh so much.,笑話
+00624_0005_angry_0005_000353,0005,angry,happy,False,0.0,1.0000001192092896,True,skip_identical,1,My hometown is Beijing.,My hometown is Beijing.
+00625_0005_neutral_0005_000075,0005,neutral,happy,True,0.125,0.9657965898513794,True,1,1,I also want to see the cute panda.,I also want to go see the cute panda.
+00626_0005_neutral_0005_000114,0005,neutral,happy,True,0.625,0.6595597267150879,False,0,0,"I am too, I am a bit thirsty.","I am too, I have a little bit of a fever."
+00627_0005_neutral_0005_000003,0005,neutral,happy,True,0.25,0.9938841462135315,True,skip_high_sim,1,My hometown is Beijing.,My hometown is in Beijing.
+00628_0005_neutral_0005_000241,0005,neutral,happy,True,1.0,0.22305884957313538,False,0,0,Please do not enter the forest.,“入住的客人”
+00629_0005_neutral_0005_000321,0005,neutral,happy,True,6.0,0.5121549367904663,False,0,0,不太喜欢，你把我弄晕了。,"Bu Si: ""You make me dizzy."""
+00630_0005_neutral_0005_000035,0005,neutral,happy,True,0.8333333333333334,0.7126506567001343,False,1,1,"So, innocent people won't be killed.","So, no more will the unarmed be killed."
+00631_0005_neutral_0005_000218,0005,neutral,happy,True,0.875,0.6580619215965271,False,0,0,"Tomorrow is Sunday, let's go for a walk.","It's a beautiful day, so we went for a walk."
+00632_0005_neutral_0005_000303,0005,neutral,happy,True,1.4285714285714286,0.08784916996955872,False,0,0,I didn't get home until 4:00 a.m.,I have been to the finals of the Junior Member Cup.
+00633_0005_neutral_0005_000159,0005,neutral,happy,True,1.1428571428571428,0.6924253702163696,False,0,0,I won't sacrifice my health for money.,"If I don't sacrifice my health to make money, I'll be happy."
+00634_0005_neutral_0005_000124,0005,neutral,happy,True,1.0,0.40959712862968445,False,0,0,"Yes, please refund my money, thank you.",知道停三房我的心，谢谢你。
+00635_0005_neutral_0005_000343,0005,neutral,happy,True,0.8333333333333334,0.4484902024269104,False,0,0,Many Baileys participated in this game.,Many people are enjoying this year's games.
+00636_0005_neutral_0005_000288,0005,neutral,happy,True,0.6666666666666666,0.6572014689445496,False,0,0,"I'm always here, have you ever dreamed of me?","I'm always there, never dreaming of him."
+00637_0005_neutral_0005_000302,0005,neutral,happy,True,0.8571428571428571,0.5961107611656189,False,0,0,I hope you can brainstorm with me.,I hope you can think of a place to go with me.
+00638_0005_neutral_0005_000334,0005,neutral,happy,True,0.0,1.0000001192092896,True,skip_identical,1,"I used to raise them, I was so happy.","I used to raise them, I was so happy."
+00639_0005_neutral_0005_000251,0005,neutral,happy,False,9.0,0.7606629729270935,False,1,1,没看过小说，只有人类需要。,"I haven't read the book, only humans need it."
+00640_0005_neutral_0005_000058,0005,neutral,happy,True,1.0,0.7874774932861328,False,1,1,看起来就觉得宽广，气概非凡。,一般人看起来就感觉宽广，气概非凡。
+00641_0005_neutral_0005_000165,0005,neutral,happy,False,1.8,0.09519931674003601,False,0,0,"Actually, we broke up yesterday.",As soon as our forerunners have already set sail.
+00642_0005_neutral_0005_000284,0005,neutral,happy,True,1.5,0.6953290700912476,False,1,1,Enough time to shop and sightsee.,There is a lot of shopping and sightseeing to do.
+00643_0005_neutral_0005_000221,0005,neutral,happy,True,1.2857142857142858,0.38682955503463745,False,0,0,I strongly support people going into space.,I really like the people who are going to the opening ceremony.
+00644_0005_neutral_0005_000223,0005,neutral,happy,True,0.5,0.9501493573188782,True,1,1,It sounds like you're having fun.,It sounds like you're having a lot of fun.
+00645_0005_neutral_0005_000270,0005,neutral,happy,True,14.0,0.4495210647583008,False,0,0,没有找到你想删掉的噪音,"Every time I find the noise I want to get rid of, I'm happy."
+00646_0005_neutral_0005_000198,0005,neutral,happy,True,0.75,0.4825305938720703,False,0,0,"Of course, we all have our own opinions.","Of course, we all know that we have a common enemy."
+00647_0005_neutral_0005_000228,0005,neutral,happy,True,1.125,0.9103000164031982,True,1,1,"Okay, new music hall has a music party.","Good, there is a music party in the new music room."
+00648_0005_neutral_0005_000043,0005,neutral,happy,True,0.42857142857142855,0.2642705738544464,False,0,0,So we can choose a youth hostel.,So we can choose the best one.
+00649_0005_neutral_0005_000279,0005,neutral,happy,True,1.5,0.35339248180389404,False,0,0,I think so too.,I would say I also think it's beautiful.
+00650_0005_sad_0005_001159,0005,sad,happy,True,0.75,0.22941802442073822,False,0,0,I'm actually quite hungry.,He is actually quite happy.
+00651_0005_sad_0005_001077,0005,sad,happy,True,1.3,-0.12791642546653748,False,0,0,The factory did not directly put it into the atmosphere.,"This is a very good one, but this is a very good one."
+00652_0005_sad_0005_001288,0005,sad,happy,True,1.625,-0.006692039780318737,False,0,0,I don't think we should follow Xiao Xi.,"But if I were to live happily, I would be proud of my love."
+00653_0005_sad_0005_001386,0005,sad,happy,True,1.2727272727272727,0.4478904604911804,False,0,0,Thank you for your praise. I am now 18 years old.,I took a photo and said thank you to her. I was really happy.
+00654_0005_sad_0005_001209,0005,sad,happy,True,1.2857142857142858,0.06587208062410355,False,0,0,I won't sacrifice my health for money.,I'm glad to exchange my old phone for a new one.
+00655_0005_sad_0005_001128,0005,sad,happy,True,1.2307692307692308,0.059316687285900116,False,0,0,"Their design is small, agile and can be operated by a single person.","They're all very good, I like them all. The first one I'm really looking forward to."
+00656_0005_sad_0005_001199,0005,sad,happy,True,1.0,0.16099455952644348,False,0,0,"Hello, Brooklyn. It's 4pm.","You're back, that's good."
+00657_0005_sad_0005_001173,0005,sad,happy,True,1.3333333333333333,0.08831921219825745,False,0,0,Then you say you don't know the marriage date.,"Then you say you're going to this Shenhuan, and then you're going to pull it."
+00658_0005_sad_0005_001233,0005,sad,happy,True,2.8333333333333335,0.14519023895263672,False,0,0,You definitely wouldn't know she's pregnant.,"You're definitely not a bad guy, I was just thinking it was a bit too nice and beautiful."
+00659_0005_sad_0005_001223,0005,sad,happy,True,1.7,0.10505896806716919,False,0,0,"A set of ancient jade carvings, they are really precious.","You'd help me, you're a hero. I hope there isn't a go hand again, I'm glad to."
+00660_0005_sad_0005_001303,0005,sad,happy,True,1.0,0.11784017086029053,False,0,0,"You are more handsome than Wu Yi Fan, I agree with your point of view.","Hey, we'll go and we'll bang flat. We're going and live, won't we?"
+00661_0005_sad_0005_001055,0005,sad,happy,True,0.9285714285714286,0.07034119963645935,False,0,0,"We took a boat to sail around the three gorges, it was really exciting.",I hope to see you soon.
+00662_0005_sad_0005_001231,0005,sad,happy,True,2.0,-0.03930111601948738,False,0,0,"For Jenny, time is useless.","I've been here for you, I like to come here."
+00663_0005_sad_0005_001182,0005,sad,happy,True,1.0,0.3623232841491699,False,0,0,Is it the woman you care most about?,with your most beloved friend.
+00664_0005_sad_0005_001291,0005,sad,happy,True,3.0,-0.028885677456855774,False,0,0,Don't enter the forest.,I want to eat with my parents and Ilan to eat together.
+00665_0005_sad_0005_001108,0005,sad,happy,True,7.0,0.4529609680175781,False,0,0,让人看起来就觉得宽广，气派非凡。,What makes people feel spacious and comfortable?
+00666_0005_sad_0005_001388,0005,sad,happy,True,2.2,-0.08948079496622086,False,0,0,Young people must take responsibility.,The king and queen were happy and in a warm embrace.
+00667_0005_sad_0005_001318,0005,sad,happy,True,0.8333333333333334,0.327277809381485,False,0,0,Who doesn't have a bad time?,I think that's a good thing.
+00668_0005_sad_0005_001331,0005,sad,happy,True,1.0,0.39430513978004456,False,0,0,"Good night, Mom. The whole sky is full of little stars.","Good morning, everyone. I'm very happy to see you all here today."
+00669_0005_sad_0005_001241,0005,sad,happy,True,1.0,0.5785075426101685,False,0,0,"Stop asking, the more you say, the more tears.",不要问了，多了都呼，享乐啊，好像
+00670_0005_sad_0005_001204,0005,sad,happy,True,3.2,0.15639466047286987,False,0,0,I can only speak Mandarin.,"I'm not good at speaking, but just listening to his words really makes me feel good."
+00671_0005_sad_0005_001294,0005,sad,happy,True,1.6,0.2728225588798523,False,0,0,I have few close relatives.,"Good, I feel like I'm a young man again."
+00672_0005_sad_0005_001393,0005,sad,happy,True,2.5714285714285716,0.0766228586435318,False,0,0,Many white people participated in this game.,"I have come to remember that the last time I was here, it was a very good time."
+00673_0005_sad_0005_001054,0005,sad,happy,True,24.0,0.20133128762245178,False,0,0,不管怎么说，主队似乎是自愿多亏。,"""Quero agradecer a Apple One, a uma boa cantora, a ficar, a agradar aos manuais que eu pedi lugar que eu ganhei a data."""
+00674_0005_sad_0005_001312,0005,sad,happy,True,1.1111111111111112,0.088575080037117,False,0,0,He seems to have been dumped by his girlfriend.,"Look, I was hit by a car, it's really fun."
+00675_0005_surprise_0005_001484,0005,surprise,happy,True,1.375,0.30856773257255554,False,0,0,"Yes, he had a relationship with his niece.",Tang went to the uncle's house to play tug of war.
+00676_0005_surprise_0005_001645,0005,surprise,happy,True,1.0,0.6618387699127197,False,0,0,Giannis suddenly shouted loudly.,天音是突然心情大喊起来的。
+00677_0005_surprise_0005_001672,0005,surprise,happy,True,1.3333333333333333,0.664282500743866,False,0,0,"Shenyang tomorrow has thunderstorms, multiple voices.",Shen Yang Ming Tian has a rain of lightning.
+00678_0005_surprise_0005_001739,0005,surprise,happy,True,2.0,0.6170734167098999,False,0,0,Don't ask a woman's age.,"Don't say that, it's too early for girls to be married."
+00679_0005_surprise_0005_001401,0005,surprise,happy,True,0.7142857142857143,0.7352273464202881,False,0,0,Daren looked and they were indeed beautiful.,"I wish to see, they are indeed beautiful."
+00680_0005_surprise_0005_001438,0005,surprise,happy,True,0.25,0.9994606971740723,True,skip_high_sim,1,Of course! I’m starving!,Of course! I'm starving!
+00681_0005_surprise_0005_001552,0005,surprise,happy,True,0.8888888888888888,0.3352436125278473,False,0,0,"Be careful, there is a hole on the road.","Be careful of the kick, Yingying, score a goal."
+00682_0005_surprise_0005_001629,0005,surprise,happy,True,0.0,1.0,True,skip_identical,1,This is a good spot. Get out.,This is a good spot. Get out.
+00683_0005_surprise_0005_001688,0005,surprise,happy,True,0.0,1.0,True,skip_identical,1,I'm always here. Have you ever dreamed of me?,I'm always here. Have you ever dreamed of me?
+00684_0005_surprise_0005_001435,0005,surprise,happy,True,0.7142857142857143,0.56008380651474,False,0,0,"So, the homeless people won't be killed.","So, I won't be killed anymore."
+00685_0005_surprise_0005_001455,0005,surprise,happy,True,0.875,0.08146216720342636,False,0,0,"Yes, it will actually form a methane hydrate.",That's a beautiful sight.
+00686_0005_surprise_0005_001693,0005,surprise,happy,True,0.5555555555555556,0.7420657873153687,False,0,0,Sit up straight. I looked at the screen display.,I looked at the screen.
+00687_0005_surprise_0005_001717,0005,surprise,happy,True,0.6,0.7545925974845886,False,1,1,You look better than before.,You look even more beautiful than before.
+00688_0005_surprise_0005_001692,0005,surprise,happy,True,0.6666666666666666,0.7361329793930054,False,0,0,"One day, I might have to talk to him.",When? I might talk to him again.
+00689_0005_surprise_0005_001558,0005,surprise,happy,True,1.8333333333333333,0.39694756269454956,False,0,0,My character is calm and objective.,"My surname is so cool, I can just sit still and listen to it."
+00690_0005_surprise_0005_001445,0005,surprise,happy,True,0.7142857142857143,0.6875277161598206,False,0,0,I know life isn't always smooth sailing.,I know that life is not always a disaster.
+00691_0005_surprise_0005_001616,0005,surprise,happy,True,10.0,0.20581847429275513,False,0,0,遇到喜欢的女孩要主动哦。,tāng dào xǐ hǎn de nǚ háizi yào jù dōng
+00692_0005_surprise_0005_001480,0005,surprise,happy,True,0.5,0.5719945430755615,False,0,0,"Look, we're almost ready to go.","Look, we're almost done decorating."
+00693_0005_surprise_0005_001478,0005,surprise,happy,True,0.6923076923076923,0.2774187922477722,False,0,0,"Their design is small and compact, and can be operated by one hand.","Their design is very eye-catching, and it's a very good move."
+00694_0005_surprise_0005_001463,0005,surprise,happy,True,0.625,0.21811290085315704,False,0,0,"You know, I'm really trying to quit smoking.","You know, I'm very enthusiastic about it."
+00695_0005_surprise_0005_001546,0005,surprise,happy,True,0.8333333333333334,0.15612748265266418,False,0,0,Now I'm a little bit nervous.,Now I'm really happy to see you.
+00696_0005_surprise_0005_001403,0005,surprise,happy,True,0.2,0.9938841462135315,True,skip_high_sim,1,My hometown is in Beijing.,My hometown is Beijing.
+00697_0005_surprise_0005_001665,0005,surprise,happy,True,0.0,1.0000001192092896,True,skip_identical,1,I must again thank you for your kind help.,I must again thank you for your kind help.
+00698_0005_surprise_0005_001740,0005,surprise,happy,True,12.0,0.9020192623138428,True,1,1,每天晚上给你呼吁晚安，真幸福。,"Every night, I would send you a good night message, really happy."
+00699_0005_surprise_0005_001605,0005,surprise,happy,True,1.6666666666666667,0.5907859802246094,False,0,0,How can you wake him up?,How can I not get up early if I want to wake her up?
+00200_0006_angry_0006_000657,0006,angry,happy,True,1.0,0.052688658237457275,False,0,0,Sometimes the internal market is more important.,小徐内在我也更加太爱他了。
+00201_0006_angry_0006_000584,0006,angry,happy,True,1.1666666666666667,0.2942444086074829,False,0,0,It is a major air pollutant.,"It is a main ingredient, and it is very refreshing."
+00202_0006_angry_0006_000413,0006,angry,happy,True,1.2857142857142858,0.22266989946365356,False,0,0,You know I'm very diligent in quitting.,"You're lively and energetic, and you're drinking a lot."
+00203_0006_angry_0006_000656,0006,angry,happy,True,1.0,0.386721134185791,False,0,0,I am an engineer in a factory.,小朋友们一队机器人胡乱做工程师。
+00204_0006_angry_0006_000660,0006,angry,happy,True,0.23076923076923078,0.9713259339332581,True,1,1,I let you watch this game. I don't want to miss it today.,I'm letting you see this game. I don't want to miss it today.
+00205_0006_angry_0006_000492,0006,angry,happy,True,1.8333333333333333,0.19867798686027527,False,0,0,"Yeah, I'm still a greenhorn reporter.","Yes, I've already entered the weaning stage with my little friend."
+00206_0006_angry_0006_000557,0006,angry,happy,True,2.0,0.18774569034576416,False,0,0,"I'm confused, you're crazy.","Eat a lot, fill your car with gas."
+00207_0006_angry_0006_000357,0006,angry,happy,True,1.0,0.5029337406158447,False,0,0,I call once a month.,We go fishing together every month.
+00208_0006_angry_0006_000586,0006,angry,happy,True,1.7777777777777777,0.18613071739673615,False,0,0,"I don't need taste, so I have no tongue.","I don't need to go to the market, I'm a vegetarian. I'm so lucky to have my first dream come true."
+00209_0006_angry_0006_000652,0006,angry,happy,True,1.0,0.455322802066803,False,0,0,I hope you can think of some ideas with me.,I hope you can be with me in spirit for the next two days.
+00210_0006_angry_0006_000582,0006,angry,happy,True,1.0,0.5266032218933105,False,0,0,I'm trying to learn chess.,I recently stayed in Yuxi to learn chess.
+00211_0006_angry_0006_000691,0006,angry,happy,True,1.0,0.7217416763305664,False,0,0,"""会在你脸上画鬼脸""","""为赛期的脸上欢呼的一个女孩给予"""
+00212_0006_angry_0006_000450,0006,angry,happy,True,1.0,0.2877200245857239,False,0,0,Just go to the dormitory nearby.,Go to our coffee shop often.
+00213_0006_angry_0006_000469,0006,angry,happy,True,0.8888888888888888,0.08807671070098877,False,0,0,But I want to get up early on Sunday.,I want to thank the Secretary General for his leadership.
+00214_0006_angry_0006_000527,0006,angry,happy,True,0.5555555555555556,0.4481031000614166,False,0,0,You've been in my heart for a long time.,The tournament has been brewing in my mind for a long time.
+00215_0006_angry_0006_000524,0006,angry,happy,True,1.0,-0.04341309517621994,False,0,0,He spent hundreds of millions in this election campaign.,"In this well-kept alley, there are several bicycles."
+00216_0006_angry_0006_000386,0006,angry,happy,True,1.0,0.1650950163602829,False,0,0,I need to be online all the time to work.,I must go to a group of temples to be so happy.
+00217_0006_angry_0006_000621,0006,angry,happy,True,0.0,0.9999999403953552,True,skip_identical,1,大，让人兴奋，但超大。,大，让人兴奋，但超大。
+00218_0006_angry_0006_000580,0006,angry,happy,True,1.7,0.2347588688135147,False,0,0,Then I won't bother you anymore. I'm not going out.,"Then, let's not waste time, I and my wife went to the Yangtze River for a day trip."
+00219_0006_angry_0006_000688,0006,angry,happy,True,2.2,0.02999849244952202,False,0,0,Young people must take responsibility.,"I've already climbed it twice, I must climb it a third time."
+00220_0006_angry_0006_000372,0006,angry,happy,True,0.0,1.0,True,skip_identical,1,I and my friend just came back from Bali.,I and my friend just came back from Bali.
+00221_0006_angry_0006_000570,0006,angry,happy,True,1.875,0.5416207313537598,False,0,0,"So you must persevere, the longer the better.","So you have to get to the end. The world is getting longer and longer, come on, get longer."
+00222_0006_angry_0006_000626,0006,angry,happy,True,0.2727272727272727,0.7872979640960693,False,1,1,I like it very much. I pay attention to the face.,I like it very much. I pay close attention to it.
+00223_0006_angry_0006_000612,0006,angry,happy,True,0.8888888888888888,0.3300793766975403,False,0,0,He seems to have been dumped by his girlfriend.,"Alright, he seems to have been kicked by his mare, and he's still standing."
+00224_0006_angry_0006_000415,0006,angry,happy,True,1.4,0.6407496929168701,False,1,1,Not bad at all. Just take care of the present.,"Not bad, not bad at all. It's a good thing we prepared well, and now we can help."
+00225_0006_neutral_0006_000316,0006,neutral,happy,True,8.0,0.026409458369016647,False,0,0,每次你看到一些时尚衣服的时候,"If we win, we will be very happy."
+00226_0006_neutral_0006_000093,0006,neutral,happy,True,1.7142857142857142,0.18213960528373718,False,0,0,Don't be shy to eat more meat.,"The weather is going to be good, really, everything has been going well."
+00227_0006_neutral_0006_000247,0006,neutral,happy,True,0.0,0.9999997615814209,True,skip_identical,1,"No reason, just waiting for me.","No reason, just waiting for me."
+00228_0006_neutral_0006_000074,0006,neutral,happy,True,1.2857142857142858,0.3342685103416443,False,0,0,This year should be the 27th anniversary.,"Since then, he has won 27 Grand Prix titles."
+00229_0006_neutral_0006_000155,0006,neutral,happy,True,1.0,0.2477189600467682,False,0,0,I just want to relax myself.,What a lovely sight.
+00230_0006_neutral_0006_000105,0006,neutral,happy,True,0.7142857142857143,0.7393293976783752,False,0,0,We can't get along and often argue.,We two can't get along and usually get along well.
+00231_0006_neutral_0006_000094,0006,neutral,happy,True,1.5714285714285714,-0.05551355332136154,False,0,0,"Very strange appearance, I don't know why.",I was very happy to be able to climb Mount Rainier.
+00232_0006_neutral_0006_000288,0006,neutral,happy,True,1.7777777777777777,0.11843161284923553,False,0,0,"I'm always here, have you ever dreamed of me?","We went to the 10th anniversary of the Afjot for young men, but I was glad."
+00233_0006_neutral_0006_000293,0006,neutral,happy,True,1.0,0.10021741688251495,False,0,0,"Sit down, I looked at the screen display.","More and more, I sing my beloved little girl."
+00234_0006_neutral_0006_000133,0006,neutral,happy,True,1.1666666666666667,0.31458067893981934,False,0,0,Do you still think I'm cute?,I don't know why it's so funny.
+00235_0006_neutral_0006_000275,0006,neutral,happy,True,0.2,0.6939448714256287,False,0,0,Then find a music player.,Then find a music hotspot.
+00236_0006_neutral_0006_000314,0006,neutral,happy,True,0.9166666666666666,0.13725392520427704,False,0,0,Now everyone in the city is coming to borrow money from me.,"Now, the spring breeze makes me happy."
+00237_0006_neutral_0006_000004,0006,neutral,happy,True,1.0,-0.012555518187582493,False,0,0,"Whatever the case, the home team seems to be at a disadvantage.","No matter what you say, you're like my one and only."
+00238_0006_neutral_0006_000227,0006,neutral,happy,True,1.4444444444444444,0.13001802563667297,False,0,0,I really can't stand the noise in the city.,"I can't wait for the second round, the joy is so big, it's opening my heart."
+00239_0006_neutral_0006_000310,0006,neutral,happy,True,1.1818181818181819,0.4144402742385864,False,0,0,Let me start this game. I don't want to miss today.,"You are too good to me. Today, I will not be able to wait."
+00240_0006_neutral_0006_000034,0006,neutral,happy,True,1.0,0.30478164553642273,False,0,0,"That's Matt, he's definitely brave.","That's right, flowers are definitely very beautiful."
+00241_0006_neutral_0006_000050,0006,neutral,happy,True,1.0,0.5753180980682373,False,0,0,每次叫我都不给红包，不开心。,每次叫我都得红包，会很开心的。
+00242_0006_neutral_0006_000130,0006,neutral,happy,True,0.9230769230769231,0.30841660499572754,False,0,0,My hope is that the day I die is the day I retire.,I hope to work in Taiwan one day.
+00243_0006_neutral_0006_000286,0006,neutral,happy,True,11.0,0.6211018562316895,False,0,0,门都没有，现在还不会。,"There are no doors, now I just want to go in."
+00244_0006_neutral_0006_000054,0006,neutral,happy,True,2.0,0.20406776666641235,False,0,0,I was created by an artificial intelligence system.,"I started to fish, and soon I caught a carp, a yellow croaker and a sea bass."
+00245_0006_neutral_0006_000203,0006,neutral,happy,True,1.375,0.15104974806308746,False,0,0,I hope I can go there one day.,"For a hero on wheel, you gave me a goodie, pinati."
+00246_0006_neutral_0006_000121,0006,neutral,happy,True,0.875,-0.11954771727323532,False,0,0,Then you are far away from the city.,Then we will have a good time.
+00247_0006_neutral_0006_000174,0006,neutral,happy,True,2.4444444444444446,0.1393413096666336,False,0,0,He spent hundreds of millions in this election campaign.,"He said, ""I will continue to listen to the people, to be a good listener, to be happy, and to continue to work."""
+00248_0006_neutral_0006_000142,0006,neutral,happy,True,1.0,0.24830281734466553,False,0,0,"Yeah, I'm still a greenhorn reporter.","I like to eat, I'm still a little kid."
+00249_0006_neutral_0006_000280,0006,neutral,happy,True,1.4444444444444444,-0.10552126169204712,False,0,0,Definitely can't walk to the center of the lake.,"""Don't you think it's a good thing to have a little bit of luck?"""
+00250_0006_sad_0006_001080,0006,sad,happy,True,1.0,0.22592930495738983,False,0,0,"Unless you're flying a kite, but that's not possible.","It's not a big deal, but this is really good."
+00251_0006_sad_0006_001356,0006,sad,happy,True,1.375,0.10112763941287994,False,0,0,I am an engineer at a pig farm.,I have a good friend who is a doctor. He is very kind.
+00252_0006_sad_0006_001299,0006,sad,happy,True,2.25,0.29303836822509766,False,0,0,My best friend just went on a date.,"I'm happy, I'm happy, I want to do something for her, I want to do something for her."
+00253_0006_sad_0006_001057,0006,sad,happy,True,1.6,0.11114335060119629,False,0,0,I call once a month.,"I'm happy every time I win, please remember."
+00254_0006_sad_0006_001392,0006,sad,happy,True,0.9090909090909091,0.26619717478752136,False,0,0,"I was short of money, so I pawned it last week.",I finally got this little guy.
+00255_0006_sad_0006_001264,0006,sad,happy,True,1.5714285714285714,0.1470063030719757,False,0,0,"Of course, I can't live without music.",I feel very happy. I am really happy to help my friends.
+00256_0006_sad_0006_001142,0006,sad,happy,True,31.428571428571427,0.2596101462841034,False,0,0,"Not so easy, right? I'm also 16.","But to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able to do this, to be able"
+00257_0006_sad_0006_001284,0006,sad,happy,True,2.0,0.025085143744945526,False,0,0,It is a major air pollutant.,"I was swimming in the clear and tranquil water, enjoying the scenery."
+00258_0006_sad_0006_001325,0006,sad,happy,True,2.4,-0.007453981786966324,False,0,0,Then find a music player.,"You're a whole safe fellow. You go, yeah, you're a home up here."
+00259_0006_sad_0006_001129,0006,sad,happy,True,1.0,0.5298925638198853,False,0,0,People naturally call him the father of the Olympics.,We all love the Olympics and are very excited.
+00260_0006_sad_0006_001221,0006,sad,happy,True,1.0,0.11901599168777466,False,0,0,你这小鬼，很不幸，非常少。,一只小羊羔，那么好看，非常可爱。
+00261_0006_sad_0006_001095,0006,sad,happy,True,0.625,0.5801137089729309,False,0,0,I know life is not always smooth sailing.,I know that life is a roller coaster ride.
+00262_0006_sad_0006_001213,0006,sad,happy,True,1.4285714285714286,0.0035748109221458435,False,0,0,I still don't know you know Flancker.,He is happy and proud of what he has achieved.
+00263_0006_sad_0006_001339,0006,sad,happy,True,5.0,0.09590879827737808,False,0,0,"""不会，但是我非常喜欢单板化学。""",I really like 300 million.
+00264_0006_sad_0006_001184,0006,sad,happy,True,1.0,0.36500084400177,False,0,0,"More teach me things, I will be more smart.","Because you go to me, I'm not tired."
+00265_0006_sad_0006_001175,0006,sad,happy,True,2.2222222222222223,0.10944478213787079,False,0,0,"If you want to kiss, go ahead and kiss.","That fruit is so delicious, I don't know how to eat it well, I just threw it away, it's really delicious."
+00266_0006_sad_0006_001312,0006,sad,happy,True,0.7777777777777778,0.2475857436656952,False,0,0,He seems to have been dumped by his girlfriend.,He seems to be enjoying his life to the fullest.
+00267_0006_sad_0006_001329,0006,sad,happy,True,2.0,0.09201525896787643,False,0,0,I also think so.,And the referee gave us two yellow cards.
+00268_0006_sad_0006_001294,0006,sad,happy,True,2.5,0.17095264792442322,False,0,0,My close friends are not many.,"I hope to see you again, like a friend. I'm going to enjoy this video."
+00269_0006_sad_0006_001186,0006,sad,happy,True,2.4,0.1607057750225067,False,0,0,I like almost all sports.,"I like to get close to you, come with me to a dream boat."
+00270_0006_sad_0006_001321,0006,sad,happy,True,1.0,0.7074398994445801,False,0,0,大，得信心，但超大,大
+00271_0006_sad_0006_001105,0006,sad,happy,True,0.5714285714285714,0.1694851964712143,False,0,0,He will actually become a hydrogen bomb.,He will be a good host.
+00272_0006_sad_0006_001116,0006,sad,happy,True,0.7142857142857143,0.8857768774032593,True,1,1,"We can go fishing, chatting and stargazing.","We can go fishing, chat, and have a good time."
+00273_0006_sad_0006_001393,0006,sad,happy,True,1.6666666666666667,-0.029723893851041794,False,0,0,Many hundreds of men were involved in this game.,Do a little bow. I want to thank God all her day and she wins.
+00274_0006_sad_0006_001091,0006,sad,happy,True,0.6923076923076923,0.39763253927230835,False,0,0,"I'm very busy, I don't have time to talk to you about this.",I will be very happy to talk to you anytime.
+00275_0006_surprise_0006_001555,0006,surprise,happy,True,0.8333333333333334,0.4418290853500366,False,1,1,I just want to relax myself.,I'm just going to let myself go.
+00276_0006_surprise_0006_001436,0006,surprise,happy,True,0.625,0.693571150302887,False,1,1,I have to be constantly charged to work.,I have to keep charging to work well.
+00277_0006_surprise_0006_001416,0006,surprise,happy,True,0.8571428571428571,0.8493386507034302,True,1,1,He must be instantly captivated by you.,He must be mesmerized by you at first sight.
+00278_0006_surprise_0006_001501,0006,surprise,happy,True,0.625,0.8461545705795288,True,0,0,"Soon, cars will be able to open automatically.","Quick, the car is ready to open automatically."
+00279_0006_surprise_0006_001647,0006,surprise,happy,True,0.2857142857142857,0.9229708909988403,True,1,1,"No reason, just to wait for me.","No reason, you just want to wait for me."
+00280_0006_surprise_0006_001584,0006,surprise,happy,True,16.0,0.06243910640478134,False,0,0,Yes.,"On May 5, 2016, the 16th anniversary of the founding of the People's Republic of China."
+00281_0006_surprise_0006_001504,0006,surprise,happy,True,9.0,0.4032215476036072,False,0,0,没找到鱼的纪时。,"Mmm, I can't wait to try the steamed fish."
+00282_0006_surprise_0006_001478,0006,surprise,happy,True,0.9090909090909091,0.5068565607070923,False,0,0,Their design is small and can be operated with one hand.,"Look, their design is so meticulous, and it's so easy to operate."
+00283_0006_surprise_0006_001593,0006,surprise,happy,True,0.75,0.7234401702880859,False,1,1,Take your girlfriend out for a good meal.,Go to the restaurant and have a good meal.
+00284_0006_surprise_0006_001720,0006,surprise,happy,True,0.875,0.685782790184021,False,0,0,Thank you for coming here. Tell me more.,Thank you for coming to this opportunity. He told me more details.
+00285_0006_surprise_0006_001536,0006,surprise,happy,True,0.4,0.4766528308391571,False,0,0,I like almost all sports.,I like almost all the windfalls.
+00286_0006_surprise_0006_001482,0006,surprise,happy,True,0.2727272727272727,0.8029158115386963,True,0,0,I heard you are going to Tokyo to visit your uncle.,I heard you are going to Hong Kong to see your uncle.
+00287_0006_surprise_0006_001744,0006,surprise,happy,True,6.0,0.49017441272735596,False,0,0,很漂亮，但是人多挤。,Very beautiful. I can eat more.
+00288_0006_surprise_0006_001556,0006,surprise,happy,True,1.0,0.5532745122909546,False,0,0,"Cheng Meng: ""I am honored to be invited to your wedding.""","Chang Meng yao qing, can jian ni de hun li."
+00289_0006_surprise_0006_001673,0006,surprise,happy,True,1.0,0.2796401381492615,False,0,0,Dandelion.,百合花经常被很多人崇拜。
+00290_0006_surprise_0006_001667,0006,surprise,happy,True,0.42857142857142855,0.706977367401123,False,0,0,This is my first story I learned.,This is my first ghost story.
+00291_0006_surprise_0006_001579,0006,surprise,happy,True,0.6,0.12154057621955872,False,0,0,"She broke up with Vick, so she changed her mind.","He broke up with Weich, so Hashim is very happy."
+00292_0006_surprise_0006_001547,0006,surprise,happy,True,1.0,0.895046055316925,True,1,1,"I don't know, perhaps a new pair of shoes.",不知道，购买一双新鞋。
+00293_0006_surprise_0006_001496,0006,surprise,happy,True,0.25,0.9854535460472107,True,1,1,"Don't underestimate my haircut, I quite like it.",Don't underestimate my haircut. I really like it.
+00294_0006_surprise_0006_001618,0006,surprise,happy,True,0.125,0.9866852164268494,True,1,1,"Tomorrow is Saturday, let's go for a walk.","Tomorrow is Saturday, let's go out for a walk."
+00295_0006_surprise_0006_001538,0006,surprise,happy,True,0.5,0.754910945892334,False,0,0,I can't control him.,"I can't control myself, haha."
+00296_0006_surprise_0006_001613,0006,surprise,happy,True,8.0,0.27697545289993286,False,0,0,Yes.,I'm happy to see that it's getting better.
+00297_0006_surprise_0006_001438,0006,surprise,happy,True,0.42857142857142855,0.3566180169582367,False,0,0,"Of course, I'm almost starving to death.","Of course, I'm almost happy."
+00298_0006_surprise_0006_001518,0006,surprise,happy,True,2.25,0.11483243107795715,False,0,0,Your classmate tricked you.,I'm happy to see you. I've been playing with you.
+00299_0006_surprise_0006_001447,0006,surprise,happy,True,0.375,0.6772927641868591,False,0,0,This is the largest power plant in Taiwan.,This is the biggest support in Taiwan.
+00300_0007_angry_0007_000443,0007,angry,happy,True,0.3333333333333333,0.7769701480865479,False,0,0,"Don't be shy, eat more meat.","Don't be shy, eat more, please."
+00301_0007_angry_0007_000462,0007,angry,happy,True,0.0,0.9999999403953552,True,skip_identical,1,"That's great! Actually, I'm feeling pretty good.","That's great! Actually, I'm feeling pretty good."
+00302_0007_angry_0007_000514,0007,angry,happy,True,0.6666666666666666,0.7414610981941223,False,0,0,I worked for six years in a logistics company.,I worked for a travel agency for six years.
+00303_0007_angry_0007_000615,0007,angry,happy,True,0.4444444444444444,0.7964813113212585,False,0,0,I must again thank you for your generous help.,I must thank you again for your kind return.
+00304_0007_angry_0007_000523,0007,angry,happy,True,1.4,0.06943638622760773,False,0,0,"Yes, it is really expensive.","I won't say a word, he is really precious."
+00305_0007_angry_0007_000378,0007,angry,happy,True,0.7,0.42818260192871094,False,0,0,"Yes, it's Chen Meng. The other two people asked her:","Right, it's a toast. Two people asked her,"
+00306_0007_angry_0007_000469,0007,angry,happy,True,0.42857142857142855,0.4890625774860382,False,0,0,But I want to go on Monday.,"But I want to go, let's go."
+00307_0007_angry_0007_000683,0007,angry,happy,True,1.0,0.8336024284362793,True,0,0,"""出去这圈，就没电了。""","""受了折腾，就没了电了，好害怕。"""
+00308_0007_angry_0007_000448,0007,angry,happy,True,1.25,-0.004762221127748489,False,0,0,I can only play with the landlord's dog.,Guo Zhiwei is happy to be the host of the show.
+00309_0007_angry_0007_000675,0007,angry,happy,True,0.6,0.7363343834877014,False,0,0,"Go ahead and give your opinion, I will correct it.",I will correct it.
+00310_0007_angry_0007_000688,0007,angry,happy,True,1.0,0.5176092386245728,False,0,0,Young people should definitely take responsibility.,Young people should definitely go out to enjoy the day.
+00311_0007_angry_0007_000677,0007,angry,happy,True,0.9090909090909091,0.2909942865371704,False,0,0,"I don't like to be confused, I don't understand, you know?","This is me, I never wait, I just go."
+00312_0007_angry_0007_000509,0007,angry,happy,True,0.5714285714285714,0.7319382429122925,False,0,0,I won't sell my health for money.,I won't let my health ruin my fun.
+00313_0007_angry_0007_000430,0007,angry,happy,True,0.75,0.9490760564804077,True,1,1,"Look, we're almost ready.","Look, we're almost ready to go."
+00314_0007_angry_0007_000600,0007,angry,happy,True,0.6666666666666666,0.3621053695678711,False,0,0,"I don't need to turn my head, I don't need a neck.","I don't need to drink, I just want to drink water."
+00315_0007_angry_0007_000659,0007,angry,happy,True,6.0,0.4165964424610138,False,0,0,四个月了。,Already engaged for half a month.
+00316_0007_angry_0007_000499,0007,angry,happy,True,1.2,0.299330472946167,False,0,0,"Hello, Balawei, it's 4 o'clock.","You're good, Bailei, just four points."
+00317_0007_angry_0007_000383,0007,angry,happy,True,0.375,0.9450998306274414,True,1,1,"I'm a monkey, I don't need to sleep.","I'm a monkey, no need for sleep."
+00318_0007_angry_0007_000665,0007,angry,happy,True,1.0,0.13906504213809967,False,0,0,I need to plug in to talk.,My son is almost ready to start kindergarten.
+00319_0007_angry_0007_000632,0007,angry,happy,True,0.36363636363636365,0.937686026096344,True,0,0,"Some people are rowing boats, some people are doing flower arrangement.","Some people are rowing boats, some are participating in flower festivals."
+00320_0007_angry_0007_000684,0007,angry,happy,True,0.8888888888888888,0.3544454574584961,False,0,0,"I used to have one, I was too lucky.","I've heard you say it before, I'm too happy."
+00321_0007_angry_0007_000567,0007,angry,happy,True,0.8571428571428571,0.2908620238304138,False,0,0,His feet are almost impossible to balance.,Khaled's fingers almost can't stop shaking.
+00322_0007_angry_0007_000494,0007,angry,happy,True,2.6666666666666665,-0.036952510476112366,False,0,0,"Yes, it is.",Eating less fat can help reduce the pain.
+00323_0007_angry_0007_000556,0007,angry,happy,True,0.75,0.2630208134651184,False,0,0,"Yes, I know, ""Wan Nan Jian Jun Qing""","Yes, I know. Happiness is the greatest joy."
+00324_0007_angry_0007_000442,0007,angry,happy,True,8.0,0.5260868072509766,False,0,0,"""不会这么疼吧？我也是16。""",Isn't it a beautiful spring? I'm also 16.
+00325_0007_neutral_0007_000228,0007,neutral,happy,True,0.8888888888888888,0.39564526081085205,False,0,0,"Okay, there's a concert at the new music hall.","Good, new year's chime, a new year's party."
+00326_0007_neutral_0007_000013,0007,neutral,happy,True,0.7142857142857143,0.694454550743103,False,0,0,I was busy helping you on Saturday.,I'm very busy helping you.
+00327_0007_neutral_0007_000077,0007,neutral,happy,True,0.3333333333333333,0.9924881458282471,True,skip_high_sim,1,They got married and they came.,"They got married, they came."
+00328_0007_neutral_0007_000255,0007,neutral,happy,True,0.8,0.2942277789115906,False,0,0,"In the beginning, my job was to be a user.",This time my work was awarded the first prize.
+00329_0007_neutral_0007_000041,0007,neutral,happy,True,1.0,0.3127068877220154,False,0,0,I'm too busy to talk to you about this.,脸上忙得海了，你看你好几个个个好。
+00330_0007_neutral_0007_000321,0007,neutral,happy,True,1.0,0.17215299606323242,False,0,0,I don't like it when you make me dizzy.,服务员很高兴，你把我弄晕了。
+00331_0007_neutral_0007_000042,0007,neutral,happy,True,0.5714285714285714,0.495632529258728,False,0,0,"I will warm your bed, tease you.",I will warmly hug you.
+00332_0007_neutral_0007_000315,0007,neutral,happy,True,1.0,0.2077409029006958,False,0,0,I need to plug in to talk.,I will ride a bike to the train station.
+00333_0007_neutral_0007_000157,0007,neutral,happy,True,0.7142857142857143,0.5570753216743469,False,0,0,"You know, sometimes patients won't be reasonable.",Until sometimes patients receive a reward.
+00334_0007_neutral_0007_000241,0007,neutral,happy,True,2.0,0.2004721611738205,False,0,0,Please do not enter the forest.,"In the midst of the vast and boundless sky, there are countless stars."
+00335_0007_neutral_0007_000280,0007,neutral,happy,True,1.5555555555555556,0.19012758135795593,False,0,0,You can't go to the middle of the river.,"Lưu Giang, you're not allowed to. I'll be happy to see you, Lưu Giang."
+00336_0007_neutral_0007_000043,0007,neutral,happy,True,1.0,0.2444033920764923,False,0,0,So we can choose the youth hostel.,"So, we can choose a dreamy cruise to the sea."
+00337_0007_neutral_0007_000210,0007,neutral,happy,True,1.0,0.7589564323425293,False,0,0,It doesn't mean that I like some of his songs.,"He's not bad, he has some songs I like all."
+00338_0007_neutral_0007_000187,0007,neutral,happy,True,0.14285714285714285,0.8723082542419434,True,0,0,Let's throw a surprise party for him.,Let's throw a party for him.
+00339_0007_neutral_0007_000212,0007,neutral,happy,True,0.25,0.8707373142242432,True,1,1,I will go with you all the way.,I will accompany you all the way.
+00340_0007_neutral_0007_000245,0007,neutral,happy,True,3.0,0.4977586567401886,False,0,0,Jacqueline suddenly shouted excitedly.,"In the city, the cheerful and lively people are shouting and singing."
+00341_0007_neutral_0007_000022,0007,neutral,happy,True,0.0,1.0000001192092896,True,skip_identical,1,I and my friend just got back from Bali.,I and my friend just got back from Bali.
+00342_0007_neutral_0007_000128,0007,neutral,happy,True,1.625,0.09361878037452698,False,0,0,These colors are not very suitable for you.,"This is the Xueyan, the love of the Tai Fu Shi and Yu."
+00343_0007_neutral_0007_000260,0007,neutral,happy,True,1.0,0.47056642174720764,False,0,0,"I'm very sad, I'm going to the bar.",I really miss you. I'm getting ready to go out.
+00344_0007_neutral_0007_000024,0007,neutral,happy,True,1.1428571428571428,0.5344613790512085,False,0,0,Your image is always in my mind.,Your actions always make me feel happy and excited.
+00345_0007_neutral_0007_000107,0007,neutral,happy,True,0.7777777777777778,0.3647221624851227,False,0,0,"My score is 2.42, but it's a bit fast.","My weight is 2.42 kg, and I'm very happy."
+00346_0007_neutral_0007_000174,0007,neutral,happy,True,0.45454545454545453,0.5317164063453674,False,0,0,He spent hundreds of thousands of dollars on this election campaign.,He raised hundreds of thousands of dollars in this baby penguin fundraiser.
+00347_0007_neutral_0007_000074,0007,neutral,happy,True,1.1428571428571428,0.7442883253097534,False,0,0,This year is the 27th Teacher's Day.,"This year, I will be teaching my 27th class."
+00348_0007_neutral_0007_000072,0007,neutral,happy,True,3.6666666666666665,0.16005238890647888,False,0,0,I'm pissed off.,All the teams have left the stage. I am really happy.
+00349_0007_neutral_0007_000220,0007,neutral,happy,True,1.0,0.5697194933891296,False,1,1,"So you must persist, the longer the better.","So you must persevere, the more you practice, the better you will be."
+00350_0007_sad_0007_001292,0007,sad,happy,True,0.8571428571428571,0.02992822602391243,False,0,0,To prevent fish from eating people's bodies.,"To prevent you from being forgotten, it's me, Lili."
+00351_0007_sad_0007_001264,0007,sad,happy,True,0.8571428571428571,0.6360082626342773,False,0,0,"Of course, I can't live without music.","Of course, I can't help but dance when I hear music."
+00352_0007_sad_0007_001189,0007,sad,happy,True,1.8,0.40870025753974915,False,0,0,Their cooperation deserves our learning.,It's worth us to go to the front line.
+00353_0007_sad_0007_001251,0007,sad,happy,True,1.5,0.6388530135154724,False,0,0,a lot of pictures,Today is a big day for photos.
+00354_0007_sad_0007_001068,0007,sad,happy,True,0.42857142857142855,0.4332379698753357,False,0,0,"We don't agree, let's go play there.","We saw a rabbit, let's go play there."
+00355_0007_sad_0007_001092,0007,sad,happy,True,0.5714285714285714,0.6251318454742432,False,0,0,"I will warm you up, don't you.","I will warm my nest now, finally."
+00356_0007_sad_0007_001225,0007,sad,happy,True,1.2,0.2716914117336273,False,0,0,"He's unemployed at the moment, so please don't upset him.","At this moment, it's a happy time. In the end, don't get angry."
+00357_0007_sad_0007_001360,0007,sad,happy,True,13.0,0.6543526649475098,False,0,0,“今天我让你开，今天我不想错过。”,This time I made you too happy. I don't want to miss today.
+00358_0007_sad_0007_001128,0007,sad,happy,True,0.7777777777777778,0.6438571214675903,False,0,0,Their design is small and can be operated individually.,"Their design is small and cute, and it's very cute to operate."
+00359_0007_sad_0007_001065,0007,sad,happy,True,0.8571428571428571,0.7811976671218872,False,0,0,I like to go hiking and climbing.,I really like autumn and climbing mountains.
+00360_0007_sad_0007_001191,0007,sad,happy,True,0.8,0.34887975454330444,False,0,0,You can go ask the fairy. The fairy can talk.,You can go to see Ling Wu. Ling Wu can talk now.
+00361_0007_sad_0007_001289,0007,sad,happy,True,11.0,0.9077921509742737,True,1,1,食物也很美味，更不用提价钱了。,"The food is also very delicious, not to mention the price."
+00362_0007_sad_0007_001291,0007,sad,happy,True,2.0,0.42002108693122864,False,0,0,Please do not enter the forest.,"""Quietly enter the bamboo grove, and let the rain wash away your worries."""
+00363_0007_sad_0007_001184,0007,sad,happy,True,1.0,0.5537983775138855,False,0,0,I will be smarter if you teach me some things.,"It will teach me some things, it will make me laugh."
+00364_0007_sad_0007_001312,0007,sad,happy,True,0.5555555555555556,0.5946640968322754,False,0,0,He seems to have been dumped by his girlfriend.,"He laughed, he was dragged out by his girlfriend."
+00365_0007_sad_0007_001152,0007,sad,happy,True,0.875,0.15426045656204224,False,0,0,"I met Mark yesterday, he looked very distressed.","That's right, Marco. I'm very happy."
+00366_0007_sad_0007_001328,0007,sad,happy,True,0.3333333333333333,0.9611123204231262,True,1,1,I'm so excited! I finally have my own apartment!,"I'm really excited, I finally have my own apartment."
+00367_0007_sad_0007_001377,0007,sad,happy,True,1.0,0.41145873069763184,False,0,0,"I hate greedy people, and I don't understand them.","Don't like tofu, can't eat red, one bite, red."
+00368_0007_sad_0007_001323,0007,sad,happy,True,1.3333333333333333,0.023757390677928925,False,0,0,But plum blossoms are often overlooked.,I was flattered by many people praising me.
+00369_0007_sad_0007_001084,0007,sad,happy,True,0.7142857142857143,0.6932402849197388,False,0,0,"That's right, Marta, she's definitely very brave.","That's Marta, she will definitely be happy."
+00370_0007_sad_0007_001385,0007,sad,happy,True,0.5,0.8691654205322266,True,0,0,They will get married this summer.,She is getting married this summer.
+00371_0007_sad_0007_001093,0007,sad,happy,True,0.5714285714285714,0.32610994577407837,False,0,0,"""Then we can choose the youth hostel.""",That way we can choose the amusement park.
+00372_0007_sad_0007_001343,0007,sad,happy,True,1.1666666666666667,0.6446821689605713,False,0,0,I looked at the screen display.,This is the layout of the beautiful screen.
+00373_0007_sad_0007_001056,0007,sad,happy,True,0.0,1.0,True,skip_identical,1,I like Beijing welcome you.,I like Beijing welcome you.
+00374_0007_sad_0007_001253,0007,sad,happy,True,0.2857142857142857,0.9912980794906616,True,skip_high_sim,1,Hope I can go there one day.,I hope I can go there one day.
+00375_0007_surprise_0007_001721,0007,surprise,happy,True,0.5,0.6494135856628418,False,0,0,I don't like it. You've made me dizzy.,I really like you. You make me dizzy.
+00376_0007_surprise_0007_001711,0007,surprise,happy,True,0.3,0.5476422905921936,False,0,0,Let's take a break and have a cup of coffee.,Let's take a break and have a high-five.
+00377_0007_surprise_0007_001522,0007,surprise,happy,True,0.3,0.7041190266609192,False,0,0,"Tom is a good person, but he is a gambler.","Tom is a good person, and he is a great actor."
+00378_0007_surprise_0007_001654,0007,surprise,happy,True,1.5714285714285714,0.3281306028366089,False,0,0,"I didn't trick you, robots don't trick.",We can do it with you. I couldn't do it before.
+00379_0007_surprise_0007_001514,0007,surprise,happy,True,3.0,0.6238656640052795,False,0,0,I'm thirsty too.,I also have a little bit of a mouthful.
+00380_0007_surprise_0007_001742,0007,surprise,happy,True,0.9090909090909091,0.31663575768470764,False,0,0,"I need money, so I just took it from the bank.",I'm going to use the coupon from the weekly magazine.
+00381_0007_surprise_0007_001540,0007,surprise,happy,True,0.0,1.0000001192092896,True,skip_identical,1,I know I'm a big mouth.,I know I'm a big mouth.
+00382_0007_surprise_0007_001704,0007,surprise,happy,True,0.5,0.6929410099983215,False,0,0,I just got back from Sognan.,I just got back from the Super Bowl.
+00383_0007_surprise_0007_001405,0007,surprise,happy,True,0.5,0.9755386710166931,True,1,1,"We sailed a boat on the Three Gorges, it was really exciting.",We took a boat to sail around the Three Gorges. It was really exciting.
+00384_0007_surprise_0007_001575,0007,surprise,happy,True,1.0,0.10560854524374008,False,0,0,"He's unemployed at the moment, you'd better not bother him.","She's getting married, I'm so happy for her."
+00385_0007_surprise_0007_001604,0007,surprise,happy,True,0.9,0.5328121185302734,False,0,0,"You just bought clothes yesterday, you really are a shopaholic.",You looked great yesterday in that dress. You really are a beauty queen.
+00386_0007_surprise_0007_001664,0007,surprise,happy,True,0.0,0.9999999403953552,True,skip_identical,1,Sounds like a great idea.,Sounds like a great idea.
+00387_0007_surprise_0007_001466,0007,surprise,happy,True,0.42857142857142855,0.8774912357330322,True,0,0,"We can go fishing, chatting and camping.","We can go fishing, chat, and play games."
+00388_0007_surprise_0007_001486,0007,surprise,happy,True,2.4285714285714284,0.7552975416183472,False,0,0,"Really surprised, swimming has so many benefits.","Just like that, I can't wait to go swimming. I can see there are so many benefits to it."
+00389_0007_surprise_0007_001707,0007,surprise,happy,True,0.3333333333333333,0.48110830783843994,False,0,0,"Sometimes, inner beauty is more important.","Sometimes, please, is more important."
+00390_0007_surprise_0007_001646,0007,surprise,happy,True,1.0,0.14571505784988403,False,0,0,"Yes, for men, a belt is a must.","For the little girls, it's a real treasure."
+00391_0007_surprise_0007_001504,0007,surprise,happy,True,9.0,0.13315799832344055,False,0,0,没有找到忠于的纪时。,"Every time he caught a fish, he would shout."
+00392_0007_surprise_0007_001617,0007,surprise,happy,True,1.5,0.2586778402328491,False,0,0,Her shoulders are almost not level.,"Look at the bones, it's almost impossible not to be good."
+00393_0007_surprise_0007_001509,0007,surprise,happy,True,0.75,0.3492315113544464,False,0,0,I'm actually quite hungry.,I actually quite like it.
+00394_0007_surprise_0007_001589,0007,surprise,happy,True,0.75,0.7466279864311218,False,0,0,"I'm a teacher, you are a good eye.","I'm your teacher, Yiling. You are very bright."
+00395_0007_surprise_0007_001665,0007,surprise,happy,True,0.2222222222222222,0.992941677570343,True,skip_high_sim,1,I must again thank you for your generous help.,I must thank you again for your generous help.
+00396_0007_surprise_0007_001534,0007,surprise,happy,True,1.125,0.38433390855789185,False,0,0,"""Teach me more things, I will be smarter.""","If you teach me how to write Chinese, I will be very smart."
+00397_0007_surprise_0007_001546,0007,surprise,happy,True,0.8333333333333334,0.14798761904239655,False,0,0,Now I'm still a little nervous.,Now I'm really happy to see you.
+00398_0007_surprise_0007_001438,0007,surprise,happy,True,0.8,0.7703017592430115,False,0,0,Of course. I'm almost starving.,Of course! I'm not hungry anymore.
+00399_0007_surprise_0007_001475,0007,surprise,happy,True,0.2857142857142857,0.9555598497390747,True,1,1,I also want to see cute pandas.,I also want to go see the cute pandas.
+00400_0008_angry_0008_000446,0008,angry,happy,True,0.3333333333333333,0.8394876718521118,True,0,0,"Don't look down on my haircut, I like it.","Don't look at my hair, I like it."
+00401_0008_angry_0008_000592,0008,angry,happy,True,1.1428571428571428,0.7040019631385803,False,0,0,To prevent fish from eating people's bodies.,"Knowing how to prevent fish from being eaten, people are happy."
+00402_0008_angry_0008_000558,0008,angry,happy,True,0.4444444444444444,0.7586007118225098,False,0,0,You can stay there for at least a day.,You can stay there and enjoy yourself all day.
+00403_0008_angry_0008_000433,0008,angry,happy,True,1.0,0.8129547834396362,True,1,1,Every part of you is drawing me in.,You're drawing me in with every little thing.
+00404_0008_angry_0008_000421,0008,angry,happy,True,0.0,0.9999998807907104,True,skip_identical,1,I like all movies that make me feel good.,I like all movies that make me feel good.
+00405_0008_angry_0008_000617,0008,angry,happy,True,1.0,0.9169435501098633,True,1,1,This is my first stock.,This is the first stock I've ever bought.
+00406_0008_angry_0008_000521,0008,angry,happy,True,0.9090909090909091,0.7415944337844849,False,0,0,"You're a little bit of a jerk, very unfortunate, very little.","You are a very stubborn little guy, very stubborn."
+00407_0008_angry_0008_000514,0008,angry,happy,False,0.1111111111111111,0.7026656866073608,False,0,0,I worked for six years in a recruitment company.,I worked for six years in a translation company.
+00408_0008_angry_0008_000520,0008,angry,happy,True,0.2857142857142857,0.5924356579780579,False,0,0,So you have time to play soccer.,So you have time to play baseball again.
+00409_0008_angry_0008_000491,0008,angry,happy,True,0.5555555555555556,0.5900737643241882,False,0,0,"You can ask the English, the English can speak.",You can ask Yimou. Yimou can talk.
+00410_0008_angry_0008_000479,0008,angry,happy,True,0.7142857142857143,0.6145136952400208,False,1,1,"To others, no, but to me, yes.","To others, there is none, but to me, there is."
+00411_0008_angry_0008_000387,0008,angry,happy,True,0.5555555555555556,0.6793897151947021,False,1,1,"I and my wife, Panzer, hope to meet you.",I and my wife are looking forward to meeting you.
+00412_0008_angry_0008_000440,0008,angry,happy,True,0.625,0.6850101351737976,False,0,0,"Not too bad, but need to lie down.","Not too bad, especially lying in bed."
+00413_0008_angry_0008_000579,0008,angry,happy,True,0.8571428571428571,0.853054404258728,True,1,1,This is a good spot. Get out.,This is a good spot. Let's get out of the car.
+00414_0008_angry_0008_000417,0008,angry,happy,True,0.8333333333333334,0.523644208908081,False,0,0,You're deeply ingrained in my mind.,You have won my heart.
+00415_0008_angry_0008_000399,0008,angry,happy,True,1.0,0.3899606466293335,False,0,0,"Here are some examples:
+
+**Craft:**
+- Origami: Create a simple crane or a flower.
+- Paper Chains: Make a colorful chain using strips of paper.
+- Paper Plate Crafts: Use a paper plate to create a mask, a hat, or a flower pot.
+
+**Writing:**
+- Write a short story or poem.
+- Create a list of things you're grateful for.
+- Write a letter to a friend or family member.",dei me alcuni fiori e dei fiori di carta.
+00416_0008_angry_0008_000522,0008,angry,happy,True,0.7272727272727273,0.15996100008487701,False,0,0,"I'm a student, my computer wants to turn off the monitor.",I'm a student. My classmates want to have a party.
+00417_0008_angry_0008_000576,0008,angry,happy,True,0.6363636363636364,0.7472777962684631,False,0,0,You're going to be a dad! That's what people are saying!,You're going to be a dad soon. Call people to send you messages.
+00418_0008_angry_0008_000377,0008,angry,happy,True,0.6363636363636364,0.550719141960144,False,0,0,The factory does not directly put it into the big box.,The factory did not hesitate to put him directly into the main stage.
+00419_0008_angry_0008_000464,0008,angry,happy,True,0.6666666666666666,0.491469144821167,False,0,0,I'm feeling a bit nauseous too.,I'm thirsty too.
+00420_0008_angry_0008_000561,0008,angry,happy,True,1.5,0.19427837431430817,False,0,0,I'm allergic to flowers.,I think I'm already in the queue.
+00421_0008_angry_0008_000645,0008,angry,happy,True,0.0,1.0,True,skip_identical,1,I like many books.,I like many books.
+00422_0008_angry_0008_000487,0008,angry,happy,False,1.1111111111111112,0.5865396857261658,False,0,0,Maybe it can help you to understand the situation.,Maybe you can wrap it up and make it clear to the audience.
+00423_0008_angry_0008_000401,0008,angry,happy,True,1.0,0.7780129909515381,False,0,0,No problem. Maybe his wife will leak the secret.,"No problem! Don't worry, her husband will send a secret message."
+00424_0008_angry_0008_000368,0008,angry,happy,True,0.5,0.7000464200973511,False,0,0,We don't agree. Let's go play.,We don't have any problems. Let's go play.
+00425_0008_neutral_0008_000162,0008,neutral,happy,True,1.75,-0.04158194363117218,False,0,0,You're also playing this.,I think it was a good year.
+00426_0008_neutral_0008_000212,0008,neutral,happy,True,0.25,0.8495792150497437,True,1,1,I will be with you all the way.,I will accompany you all the way.
+00427_0008_neutral_0008_000072,0008,neutral,happy,True,1.25,-0.09056452661752701,False,0,0,"All the data is gone, I'm so mad.","Lu Liudao will see me again, and will accept me."
+00428_0008_neutral_0008_000193,0008,neutral,happy,True,1.25,0.8210064172744751,True,1,1,Take your girlfriend out for a nice meal.,"When you go out with your girlfriend, you should have a good meal."
+00429_0008_neutral_0008_000052,0008,neutral,happy,True,0.5555555555555556,0.4405750036239624,False,0,0,You shouldn't be afraid to start a new relationship.,You don't have to be afraid to start a revolution.
+00430_0008_neutral_0008_000095,0008,neutral,happy,True,0.0,1.0,True,skip_identical,1,"I do have a hobby, collecting antiques.","I do have a hobby, collecting antiques."
+00431_0008_neutral_0008_000097,0008,neutral,happy,True,2.8333333333333335,0.4511866569519043,False,0,0,Your daughter looks like her mom.,"""Lulu's ear fell off and she said to her mom, 'Mom, I'm okay, it's just a little thing.'"""
+00432_0008_neutral_0008_000228,0008,neutral,happy,True,0.8,0.8814419507980347,True,1,1,"Okay, there's a music concert in the new music hall.","Good, the new music hall has a music party."
+00433_0008_neutral_0008_000288,0008,neutral,happy,True,0.4444444444444444,0.935081422328949,True,1,1,"I'm always here, have you ever dreamt of me?","I'm always there, haven't you dreamed of me?"
+00434_0008_neutral_0008_000152,0008,neutral,happy,True,1.1111111111111112,0.1387365460395813,False,0,0,"Be careful, there is a hole under the road.","Just climb up, bring your heart up, there's a view."
+00435_0008_neutral_0008_000038,0008,neutral,happy,True,1.4,0.13376924395561218,False,0,0,"Of course, I'm almost starving.","Of course, I went to meet her to rehearse."
+00436_0008_neutral_0008_000294,0008,neutral,happy,True,0.2,0.6487827301025391,False,0,0,"I'm silver grey, I'm starving.","I'm silver grey, I'm full."
+00437_0008_neutral_0008_000124,0008,neutral,happy,True,0.2857142857142857,0.9643577933311462,True,1,1,"Yes, please refund my money, thank you.","Yes, you can refund my money, thank you."
+00438_0008_neutral_0008_000080,0008,neutral,happy,True,0.4,0.5875672698020935,False,0,0,"Look, we're almost done decorating.","Look, we're almost ready."
+00439_0008_neutral_0008_000316,0008,neutral,happy,True,6.0,0.32031601667404175,False,0,0,每次你看到一些时尚衣物时,"Every time you see some seaweed,"
+00440_0008_neutral_0008_000118,0008,neutral,happy,True,1.75,0.25126007199287415,False,0,0,Your classmate tricked you.,Playing with you at the same time
+00441_0008_neutral_0008_000049,0008,neutral,happy,True,1.0,0.09483964741230011,False,0,0,"I can't physically send you anything, but I can certainly help you with some information about soccer and origami. Would you like to know more about either?",他最给我一件球和一朵花。
+00442_0008_neutral_0008_000283,0008,neutral,happy,True,0.8571428571428571,0.6390105485916138,False,0,0,I think all Chinese people play basketball.,I think all Chinese people will make it to the finals.
+00443_0008_neutral_0008_000104,0008,neutral,happy,True,0.875,0.035983856767416,False,0,0,I can't find the date of the event.,Layow found the buried giant iceberg.
+00444_0008_neutral_0008_000018,0008,neutral,happy,True,0.8571428571428571,0.522506058216095,False,0,0,"We don't agree, let's go play there.",We can't wait to go there and play.
+00445_0008_neutral_0008_000028,0008,neutral,happy,True,0.7,0.7169176936149597,False,1,1,"Right, it's the door. The other two people asked him,","Yes, it's the door. When foreigners ask him, he says,"
+00446_0008_neutral_0008_000139,0008,neutral,happy,True,0.3333333333333333,0.9810473918914795,True,1,1,Their cooperation is worth learning from.,Their cooperation is worth learning.
+00447_0008_neutral_0008_000092,0008,neutral,happy,True,0.5,0.7366869449615479,False,0,0,"It won't be so coincidental, I'm also 16.","It won't be so bad, I'll go to 16."
+00448_0008_neutral_0008_000111,0008,neutral,happy,True,0.875,0.5624929666519165,False,0,0,"Every morning, my mom helps him to remember.","Every morning, the breakfast was brought by my mother."
+00449_0008_neutral_0008_000277,0008,neutral,happy,True,0.8333333333333334,0.553462564945221,False,0,0,"Yes, so I never drink it.","Yes, I can. I will never stop drinking it."
+00450_0008_sad_0008_001310,0008,sad,happy,True,0.3333333333333333,0.3591672480106354,False,0,0,I'm very sad. I'm going to the internet cafe.,I'm very happy. I'm going to the arcade.
+00451_0008_sad_0008_001107,0008,sad,happy,True,0.9,0.4289969205856323,False,0,0,"Dancing is so hard, I'm still learning the basic moves.","Dance well, Naya, Buddha is still practicing a book."
+00452_0008_sad_0008_001168,0008,sad,happy,True,1.0,0.46085065603256226,False,0,0,Your classmate tricked you.,美女同学把你给逗乐了吧。
+00453_0008_sad_0008_001094,0008,sad,happy,True,0.6666666666666666,0.8641872406005859,True,1,1,"Well, the Wall Street Journal is a good example.","For example, ""The Wall Street Journal is very good."""
+00454_0008_sad_0008_001207,0008,sad,happy,True,1.125,0.25513991713523865,False,0,0,"You know, sometimes patients will not be polite.",I know very well. Sometimes people will not tell the truth.
+00455_0008_sad_0008_001204,0008,sad,happy,True,1.2,0.14408308267593384,False,0,0,"I can't speak other languages, I only know common language.",I won't say any more. The rain and the flowers are in harmony.
+00456_0008_sad_0008_001083,0008,sad,happy,True,0.8333333333333334,0.4247795343399048,False,0,0,"I'm a squirrel, don't bother me.","I'm a plum, no need to hide."
+00457_0008_sad_0008_001360,0008,sad,happy,True,0.0,1.0000001192092896,True,skip_identical,1,I let you play this game. I don't want to miss today.,I let you play this game. I don't want to miss today.
+00458_0008_sad_0008_001279,0008,sad,happy,True,0.5714285714285714,0.8313046097755432,True,0,0,This is a good spot. Get out.,This is a good spot. Get out of the car.
+00459_0008_sad_0008_001056,0008,sad,happy,True,0.0,1.0,True,skip_identical,1,"I like Beijing, welcome you.","I like Beijing, welcome you."
+00460_0008_sad_0008_001190,0008,sad,happy,False,0.3333333333333333,0.9865255355834961,True,1,1,I know I'm a big mouth.,I know I am a big mouth.
+00461_0008_sad_0008_001218,0008,sad,happy,True,0.6666666666666666,0.639344334602356,False,0,0,"You have to answer me first, who do you like the most?","Minnie B. said to me, ""Who do you like the most?"""
+00462_0008_sad_0008_001071,0008,sad,happy,True,1.375,0.4643173813819885,False,0,0,Already broadcast the last sound of the album.,"After the album was released, he gave an interview to the radio."
+00463_0008_sad_0008_001127,0008,sad,happy,True,0.0,1.0,True,skip_identical,1,"They got married, they came.","They got married, they came."
+00464_0008_sad_0008_001058,0008,sad,happy,True,1.8,0.1406784951686859,False,0,0,Shazam brought trouble to everyone.,I want to bring everyone a box of chocolates.
+00465_0008_sad_0008_001266,0008,sad,happy,True,8.0,0.43196991086006165,False,0,0,"""遇到喜欢的女孩要主动""","touched to like a child, should be voluntary."
+00466_0008_sad_0008_001220,0008,sad,happy,True,0.14285714285714285,0.9854170680046082,True,1,1,So you'll have time to play basketball.,So you have time to play basketball.
+00467_0008_sad_0008_001130,0008,sad,happy,True,0.0,1.0,True,skip_identical,1,"Look, we're almost ready.","Look, we're almost ready."
+00468_0008_sad_0008_001139,0008,sad,happy,True,0.2222222222222222,0.9572248458862305,True,1,1,"It's an ice cream, the flower is really beautiful.","It's an ice cream, the flowers are really beautiful."
+00469_0008_sad_0008_001088,0008,sad,happy,True,3.25,0.346516489982605,False,0,0,"Of course, I'm starving.","Sure, here's the transcript:
+
+""Of course, come on, I'm hot and cold, bright and beautiful."""
+00470_0008_sad_0008_001223,0008,sad,happy,True,0.4444444444444444,0.5271469354629517,False,0,0,"A set of calligraphy brushes, they are really precious.","A set of Baccarat, it's really precious."
+00471_0008_sad_0008_001159,0008,sad,happy,True,2.5,0.49912822246551514,False,0,0,I'm actually quite hungry.,"If the chicken is quite hungry, it seems to be good."
+00472_0008_sad_0008_001332,0008,sad,happy,True,0.8181818181818182,0.4789871573448181,False,0,0,"Some people are riding boats, some people are doing gardening activities.","People are riding bikes, and some are participating in flower festivals."
+00473_0008_sad_0008_001150,0008,sad,happy,True,0.75,0.809558629989624,True,1,1,Go to the bar near our dormitory often.,Come to our dormitory's bar.
+00474_0008_sad_0008_001086,0008,sad,happy,True,1.5,-0.0076731471344828606,False,0,0,I have to be online all the time to work.,Fa dian wu bi qing yi zhong gong di da cheng dao gong pro le.
+00475_0008_surprise_0008_001645,0008,surprise,happy,True,2.0,0.48288995027542114,False,0,0,Giannis suddenly shouted excitedly.,The rain is suddenly very happy and shouting loudly.
+00476_0008_surprise_0008_001429,0008,surprise,happy,True,0.0,0.9999998211860657,True,skip_identical,1,"Very cute, just like you.","Very cute, just like you."
+00477_0008_surprise_0008_001503,0008,surprise,happy,True,0.2857142857142857,0.9792550206184387,True,1,1,"Feels so warm. Okay, see you later.","It feels so warm. Okay, see you later."
+00478_0008_surprise_0008_001650,0008,surprise,happy,True,0.08333333333333333,0.8495208024978638,True,0,0,"I don't need to turn my head, I don't need a neck.","I don't need to turn my head, I don't need a pillow."
+00479_0008_surprise_0008_001473,0008,surprise,happy,True,0.0,1.0,True,skip_identical,1,She always has a sweet smile.,She always has a sweet smile.
+00480_0008_surprise_0008_001735,0008,surprise,happy,True,0.375,0.9870133399963379,True,1,1,They are going to get married this summer.,They will get married this summer.
+00481_0008_surprise_0008_001483,0008,surprise,happy,True,0.0,1.0000001192092896,True,skip_identical,1,Every point on your body attracts me.,Every point on your body attracts me.
+00482_0008_surprise_0008_001685,0008,surprise,happy,True,0.7777777777777778,0.7541155815124512,False,1,1,"Take care of yourself, remember to stay in touch.",Keep in touch.
+00483_0008_surprise_0008_001689,0008,surprise,happy,True,0.6666666666666666,0.7519188523292542,False,0,0,"No, but I like figure skating.",I won't. But I like ice skating.
+00484_0008_surprise_0008_001632,0008,surprise,happy,True,0.5,0.9220975637435913,True,1,1,I'm trying to learn chess recently.,I'm trying to practice chess.
+00485_0008_surprise_0008_001607,0008,surprise,happy,True,1.0,0.8248580694198608,True,0,0,"I am Momo Da, you are Da Da Da.","I'm Momo Da, you're Da Da Da, let's go, let's go."
+00486_0008_surprise_0008_001505,0008,surprise,happy,True,0.75,0.4923524260520935,False,0,0,"We two are not coming, and often quarrel.",We two and Bula are enjoying the argument.
+00487_0008_surprise_0008_001727,0008,surprise,happy,False,0.1111111111111111,0.9905102252960205,True,skip_high_sim,1,"I hate being wrong. I don't understand, you do.","I hate being wrong, I don't understand, you do."
+00488_0008_surprise_0008_001697,0008,surprise,happy,True,0.3333333333333333,0.9895205497741699,True,1,1,"Three, two sons and one daughter.",Three. Two sons and one daughter.
+00489_0008_surprise_0008_001706,0008,surprise,happy,True,1.0,0.4150716960430145,False,0,0,I am an engineer in a factory.,I'm in a LEGO® Imagination Center.
+00490_0008_surprise_0008_001606,0008,surprise,happy,True,0.2857142857142857,0.6301285028457642,False,0,0,"Yes, I know. What a nice thing.","Yes, I know. What a beautiful day!"
+00491_0008_surprise_0008_001658,0008,surprise,happy,False,1.0,0.7908960580825806,False,0,0,I don’t quite understand the meaning of this sentence.,热词的义意我没太明白
+00492_0008_surprise_0008_001558,0008,surprise,happy,False,0.6666666666666666,0.33121931552886963,False,0,0,My character is calm and objective.,My new character is a cold-blooded killer.
+00493_0008_surprise_0008_001531,0008,surprise,happy,True,0.6363636363636364,0.61635822057724,False,0,0,"Lingzhuo Gui, he still goes to school by bike every day.","Lingzhuo, she takes the bus to school every day."
+00494_0008_surprise_0008_001642,0008,surprise,happy,True,0.6666666666666666,0.44604232907295227,False,0,0,To prevent sharks from eating people.,To prevent losing one's body.
+00495_0008_surprise_0008_001471,0008,surprise,happy,True,0.0,0.9999998211860657,True,skip_identical,1,I like all the movies that make me feel good.,I like all the movies that make me feel good.
+00496_0008_surprise_0008_001664,0008,surprise,happy,True,0.0,0.9999999403953552,True,skip_identical,1,Sounds like a great idea.,Sounds like a great idea.
+00497_0008_surprise_0008_001688,0008,surprise,happy,True,0.0,1.0,True,skip_identical,1,I'm always here. Have you ever dreamed of me?,I'm always here. Have you ever dreamed of me?
+00498_0008_surprise_0008_001749,0008,surprise,happy,True,0.5,0.23197397589683533,False,0,0,"Yes, this is a famous fact.","Yes, this is Mingfuxi 10."
+00499_0008_surprise_0008_001582,0008,surprise,happy,True,0.75,0.8415011167526245,True,1,1,“About enough to support me for three months.”,It should be enough to support my life for three months.
+00700_0009_angry_0009_000627,0009,angry,happy,True,1.3333333333333333,0.3450241684913635,False,0,0,"Yes, so I never drink it.","Yes, I'm lucky to have had a chance to drink it."
+00701_0009_angry_0009_000520,0009,angry,happy,True,0.125,0.9672455787658691,True,1,1,So you can have time to play soccer.,So you have time to play soccer.
+00702_0009_angry_0009_000378,0009,angry,happy,False,0.2727272727272727,0.9321320056915283,True,0,0,"Yes, it's the car door. The other two people asked him.","Right, it's the car door. One day, two people asked him."
+00703_0009_angry_0009_000445,0009,angry,happy,True,0.5555555555555556,0.6165057420730591,False,0,0,"I had a hobby at that time, collecting antiques.",I have a hobby of collecting shells.
+00704_0009_angry_0009_000451,0009,angry,happy,True,0.25,0.9927257299423218,True,skip_high_sim,1,"Soon, cars will be able to open automatically.","Soon, cars will be able to automatically open."
+00705_0009_angry_0009_000587,0009,angry,happy,True,1.6666666666666667,0.38839083909988403,False,0,0,"I'm really scared, take me shopping.","The salesperson is really big, and he dragged me to the store."
+00706_0009_angry_0009_000554,0009,angry,happy,True,0.8888888888888888,0.4178784489631653,False,0,0,"You just bought clothes yesterday, you are really crazy.",Yesterday I just bought a house. It's really a bargain.
+00707_0009_angry_0009_000563,0009,angry,happy,True,1.0,0.2575335204601288,False,0,0,Judge gave it a full score.,All the dishes were delicious.
+00708_0009_angry_0009_000490,0009,angry,happy,True,1.5,0.09946349263191223,False,0,0,I know I'm a big mouth.,I also really want to go to Da Jiu Fa.
+00709_0009_angry_0009_000611,0009,angry,happy,True,1.1428571428571428,0.6020506620407104,False,0,0,This is not like a real competition.,This time I really don't want to miss the competition.
+00710_0009_angry_0009_000605,0009,angry,happy,True,1.8333333333333333,0.12420567870140076,False,0,0,I started out as a prostitute.,"This is my first year in office, and I'm very happy."
+00711_0009_angry_0009_000656,0009,angry,happy,True,1.1111111111111112,0.25534188747406006,False,0,0,I am an engineer at a machine tool factory.,I will go to a flower farm to be a volunteer.
+00712_0009_angry_0009_000622,0009,angry,happy,True,2.0,0.24271219968795776,False,0,0,Shenyang tomorrow has thunderstorms and heavy rain.,"Great! As long as there are allies tomorrow, we'll have a lot of choices."
+00713_0009_angry_0009_000488,0009,angry,happy,True,2.25,0.19021287560462952,False,0,0,I can't control him.,I can't help but be excited every time I see it.
+00714_0009_angry_0009_000601,0009,angry,happy,True,1.0,0.197828471660614,False,0,0,没看过小说，只有人类才需要。,"""吃了热气腾腾的烧烤，才知道人间才有的滋味。"""
+00715_0009_angry_0009_000391,0009,angry,happy,True,1.0,0.22430101037025452,False,0,0,"I'm very busy, I don't have time to tell you this.","""血脉的好，没空给你血脉的热闹。"""
+00716_0009_angry_0009_000525,0009,angry,happy,True,1.0,0.10887902230024338,False,0,0,"He's unemployed at the moment, so you should avoid provoking him.","Like Zi Bo, I'm hungry. I'm going to eat."
+00717_0009_angry_0009_000592,0009,angry,happy,False,1.4444444444444444,0.275454580783844,False,0,0,To prevent the fish from eating the human body.,"To keep grandma healthy, we need to make sure she eats a balanced diet."
+00718_0009_angry_0009_000553,0009,angry,happy,True,0.625,0.9936038255691528,True,skip_high_sim,1,I hope I can go there one day.,I hope one day I can go there.
+00719_0009_angry_0009_000582,0009,angry,happy,True,1.1666666666666667,0.3414643704891205,False,0,0,I'm trying to learn chess recently.,I'm trying to be a little more diligent and joyful.
+00720_0009_angry_0009_000608,0009,angry,happy,True,1.0,0.4524262547492981,False,0,0,I don't quite understand the meaning of this sentence.,"The last sentence is ""I am full of joy."""
+00721_0009_angry_0009_000577,0009,angry,happy,True,1.0,0.23711225390434265,False,0,0,I really can't stand the noise in the city.,I really can't believe I got such a high score from you.
+00722_0009_angry_0009_000438,0009,angry,happy,True,0.2222222222222222,0.9314298629760742,True,1,1,"Hong Kong Ocean Park, owner, hurry me to go.","Hong Kong Ocean Park, the host, hurry me to go."
+00723_0009_angry_0009_000373,0009,angry,happy,True,0.25,0.9936025142669678,True,skip_high_sim,1,Make some delicious food to stimulate baby's appetite.,Make some delicious food to boost the baby's appetite.
+00724_0009_angry_0009_000466,0009,angry,happy,True,0.375,0.9147785902023315,True,0,0,"No, but we went to the Kennedy Center.",No. But we went to the Kennedy Space Center.
+00725_0009_neutral_0009_000204,0009,neutral,happy,True,0.45454545454545453,0.6421411037445068,False,0,0,"You just bought clothes yesterday, you are really a shopping addict.","We just bought clothes yesterday, really a bargain."
+00726_0009_neutral_0009_000184,0009,neutral,happy,True,0.0,0.9999999403953552,True,skip_identical,1,2016年11月5日星期六,2016年11月5日星期六
+00727_0009_neutral_0009_000159,0009,neutral,happy,True,0.7142857142857143,0.532879114151001,False,0,0,I won't sacrifice my health for money.,I won't sell my soy sauce to get money.
+00728_0009_neutral_0009_000261,0009,neutral,happy,True,1.2857142857142858,0.24080106616020203,False,0,0,This doesn't sound like a championship game.,This can be a Spring Festival competition in this classroom.
+00729_0009_neutral_0009_000267,0009,neutral,happy,True,0.5714285714285714,0.8529829382896423,True,0,0,This is the first poem I learned.,This is the first book of poetry I have learned.
+00730_0009_neutral_0009_000126,0009,neutral,happy,True,0.4444444444444444,0.5787704586982727,False,0,0,"No, he lives in the old house in Worcester.","No, she lives in an old house in West Hollywood."
+00731_0009_neutral_0009_000203,0009,neutral,happy,True,0.0,1.0,True,skip_identical,1,I hope I can go there one day.,I hope I can go there one day.
+00732_0009_neutral_0009_000277,0009,neutral,happy,True,0.8333333333333334,0.39139658212661743,False,0,0,"Yes, so I never drink it.","Yes, I'm happy, I'm going to drink it."
+00733_0009_neutral_0009_000303,0009,neutral,happy,True,1.1428571428571428,0.06706224381923676,False,0,0,I only got home at 4 am.,I always go to my grandparents' house in Chungcheongbuk-do.
+00734_0009_neutral_0009_000292,0009,neutral,happy,True,0.5555555555555556,0.8593192100524902,True,0,0,One day I may have to talk to him.,One day I will also have a chat with him.
+00735_0009_neutral_0009_000248,0009,neutral,happy,False,0.7,0.5777015686035156,False,0,0,I don't really care whether this store has a name.,I don't care if the movie is not famous.
+00736_0009_neutral_0009_000032,0009,neutral,happy,True,0.0,0.9999998807907104,True,skip_identical,1,I met a beautiful girl.,I met a beautiful girl.
+00737_0009_neutral_0009_000138,0009,neutral,happy,True,0.75,0.6171663403511047,False,0,0,I can't control him.,I can't help but love him.
+00738_0009_neutral_0009_000285,0009,neutral,happy,True,1.0,0.9265708923339844,True,1,1,"Take care of yourself, and stay in touch.","Take care of yourself, remember to stay in touch, and it will be good."
+00739_0009_neutral_0009_000293,0009,neutral,happy,True,1.0,0.5673245191574097,False,0,0,"Sit down, I watched the screen display.",It's very convenient. I watched the news on the screen.
+00740_0009_neutral_0009_000006,0009,neutral,happy,True,0.4,0.9662230610847473,True,1,1,I like Beijing welcomes you.,"I like Beijing, welcome you."
+00741_0009_neutral_0009_000144,0009,neutral,happy,True,1.1428571428571428,0.0393645241856575,False,0,0,"Yes, intermittent fasting can be very challenging.",I just fell down and it feels good.
+00742_0009_neutral_0009_000129,0009,neutral,happy,True,1.1,0.44083505868911743,False,1,1,"To others, there is none, but to me, there is.","This is something that no one else has, but I do."
+00743_0009_neutral_0009_000251,0009,neutral,happy,True,13.0,0.2610514760017395,False,0,0,没看过小说，只有人类才需要。,"I haven't seen it, so I can't say. Only people can see it."
+00744_0009_neutral_0009_000079,0009,neutral,happy,True,0.3333333333333333,0.742196261882782,False,0,0,People naturally call him the father of the Olympics.,Fans naturally called him the father of the Beijing Olympics.
+00745_0009_neutral_0009_000347,0009,neutral,happy,True,0.75,0.36597350239753723,False,0,0,These two pieces were made in different periods of the Tang Dynasty.,"These two dishes are made by my classmate, 7 Hu."
+00746_0009_neutral_0009_000306,0009,neutral,happy,True,1.375,0.40735089778900146,False,0,0,I am an engineer at a mechanized farm.,I went to a farm to blow off some steam and eat.
+00747_0009_neutral_0009_000042,0009,neutral,happy,True,0.7272727272727273,0.35646674036979675,False,0,0,I will warm up the bed for you to play with.,I will be happy to see you.
+00748_0009_neutral_0009_000026,0009,neutral,happy,True,1.0,0.2307337522506714,False,0,0,"Yes, he is very cunning, often deceiving others.",She is very agile and likes to play with others.
+00749_0009_neutral_0009_000235,0009,neutral,happy,True,0.4444444444444444,0.9054602980613708,True,1,1,I like sports but I don't play much basketball.,"I really like it, but I don't play basketball much."
+00750_0009_sad_0009_001065,0009,sad,happy,True,0.0,0.9999998807907104,True,skip_identical,1,I really like volleyball and climbing.,I really like volleyball and climbing.
+00751_0009_sad_0009_001275,0009,sad,happy,True,0.16666666666666666,0.9379482269287109,True,1,1,"Almost, we both are very enthusiastic.","Almost, we both are very excited."
+00752_0009_sad_0009_001198,0009,sad,happy,True,1.0,0.6637649536132812,False,0,0,You can call me anytime.,Always remember to call me.
+00753_0009_sad_0009_001112,0009,sad,happy,True,0.8571428571428571,0.8559464812278748,True,0,0,I'm just passing by to say goodbye.,I'm coming straight over to say goodbye to you.
+00754_0009_sad_0009_001297,0009,sad,happy,True,0.0,0.9999997615814209,True,skip_identical,1,"No reason, just waiting for me.","No reason, just waiting for me."
+00755_0009_sad_0009_001331,0009,sad,happy,True,0.9166666666666666,0.6170782446861267,False,0,0,"Good night, big mom, the whole sky is full of little stars.","Good evening, everyone."
+00756_0009_sad_0009_001391,0009,sad,happy,True,1.0,0.17797455191612244,False,0,0,I will draw a witch's knot on your face.,"Hugging each other, they kissed."
+00757_0009_sad_0009_001052,0009,sad,happy,True,1.6,-0.06757859885692596,False,0,0,"A British philosopher once said,",The crab in the pot is very delicious.
+00758_0009_sad_0009_001131,0009,sad,happy,True,1.5714285714285714,0.08858752250671387,False,0,0,"This town, everyone likes to tell lies.","This is a barbecue, it's a joy to eat a piece of meat."
+00759_0009_sad_0009_001257,0009,sad,happy,True,1.25,0.401070773601532,False,0,0,"I'm confused, you're confused.","I'm eating momo, you're eating zai zai."
+00760_0009_sad_0009_001089,0009,sad,happy,True,1.0,0.005938991904258728,False,0,0,"I didn't find my routine, and when I left, I locked the door.","Ling Yu said, ""When you get a good one, it's really fun."""
+00761_0009_sad_0009_001260,0009,sad,happy,True,0.6,0.7093461155891418,False,0,0,It's not that I don't like some of his songs.,"It can't be counted, I like all of his songs."
+00762_0009_sad_0009_001128,0009,sad,happy,True,1.0,0.07441771030426025,False,0,0,"Their design is small and compact, and can be operated by one hand.","Look at the window, the small, cute, three-legged cat jumps out."
+00763_0009_sad_0009_001284,0009,sad,happy,True,1.0,0.23176276683807373,False,0,0,It is a major air pollutant.,It's a main ingredient of ponchimo.
+00764_0009_sad_0009_001371,0009,sad,happy,True,1.5,0.3482311964035034,False,0,0,I don't like you confusing me.,"I'm so happy that you like me, you make me dizzy."
+00765_0009_sad_0009_001182,0009,sad,happy,True,0.8,0.6338894367218018,False,0,0,She's the most precious woman.,You are the most caring man's woman.
+00766_0009_sad_0009_001102,0009,sad,happy,True,1.0,0.016117706894874573,False,0,0,You shouldn't be afraid to start a new relationship.,一步应该好她捡出一道菜都敢吃的。
+00767_0009_sad_0009_001082,0009,sad,happy,True,0.0,0.9999998807907104,True,skip_identical,1,I met a beautiful girl.,I met a beautiful girl.
+00768_0009_sad_0009_001104,0009,sad,happy,True,2.25,0.1539466679096222,False,0,0,I was created by an artificial intelligence system.,I'm very happy to be here. I've been a member of the team since I was a rookie.
+00769_0009_sad_0009_001199,0009,sad,happy,True,1.1666666666666667,0.43325233459472656,False,0,0,"Hello, Boleyn, it's exactly four o'clock.","You are so good, you hit four points."
+00770_0009_sad_0009_001349,0009,sad,happy,True,0.5,0.845592200756073,True,0,0,"Yes, I just hit the table.","Yes, I just put it on the table."
+00771_0009_sad_0009_001335,0009,sad,happy,True,1.0,0.10012522339820862,False,0,0,"Be careful, remember to keep in touch.","I'm sorry, I didn't understand that."
+00772_0009_sad_0009_001296,0009,sad,happy,True,0.7777777777777778,0.6291041374206543,False,1,1,Ling Dai to men is really a must have.,"To men, it is truly a must."
+00773_0009_sad_0009_001155,0009,sad,happy,True,0.7142857142857143,0.31413733959198,False,0,0,We can't get along and often argue.,"We two are not afraid, and often joke."
+00774_0009_sad_0009_001210,0009,sad,happy,True,0.42857142857142855,0.4479743540287018,False,0,0,"Of course, he is our university's dean.","Of course, she won our university's award."
+00775_0009_surprise_0009_001567,0009,surprise,happy,True,1.0,0.9632989764213562,True,1,1,太妙啦，我想换一些日元。,太美啦，我要换一些日元。
+00776_0009_surprise_0009_001699,0009,surprise,happy,True,0.3333333333333333,0.4178708791732788,False,0,0,"Yes, I just hit a wall.","Yes, I just got a desk."
+00777_0009_surprise_0009_001540,0009,surprise,happy,True,0.8333333333333334,0.25609999895095825,False,0,0,I know I'm a big mouth.,I also know how to swim.
+00778_0009_surprise_0009_001421,0009,surprise,happy,True,0.5,0.7667260766029358,False,1,1,I have already broadcast the last sound of the episode.,I've finished the last sound of the series.
+00779_0009_surprise_0009_001695,0009,surprise,happy,True,0.625,0.5966304540634155,False,0,0,I like many books in literature and economics.,I like many things about the economy.
+00780_0009_surprise_0009_001462,0009,surprise,happy,True,1.5714285714285714,0.374433696269989,False,0,0,I'm just passing by to say goodbye.,"I'm going to school and I'll come back to give you breakfast, okay?"
+00781_0009_surprise_0009_001712,0009,surprise,happy,True,1.0,0.2719308137893677,False,0,0,"If she rejects me, I will die.","""死至一会他去一去，老兄，你也洗呀！"""
+00782_0009_surprise_0009_001454,0009,surprise,happy,True,1.0,0.6168582439422607,False,0,0,I was created by an artificial intelligence system.,The Renpong Intelligent System has been created.
+00783_0009_surprise_0009_001412,0009,surprise,happy,True,1.2222222222222223,0.3663458526134491,False,0,0,You're always like this when you're in a relationship.,"You feel like every time you meet, it's like the first time."
+00784_0009_surprise_0009_001530,0009,surprise,happy,True,0.8888888888888888,0.4388676583766937,False,0,0,My hope is to work until I fall down.,My hope is the day I can work on the island.
+00785_0009_surprise_0009_001428,0009,surprise,happy,True,0.8888888888888888,0.30572131276130676,False,0,0,"Right, it's the gate. Two other people asked him.","Right, it's the steering wheel, and two people are fighting over it."
+00786_0009_surprise_0009_001603,0009,surprise,happy,True,0.2857142857142857,0.9882193803787231,True,1,1,Hope one day I can go there.,I hope one day I can go there.
+00787_0009_surprise_0009_001451,0009,surprise,happy,True,1.1111111111111112,0.3451387882232666,False,0,0,"No problem, maybe his wife will spill the beans.",It's okay. Yanshen will see the Empress wash the Dragon's strength.
+00788_0009_surprise_0009_001536,0009,surprise,happy,True,0.0,1.0,True,skip_identical,1,I like almost all sports.,I like almost all sports.
+00789_0009_surprise_0009_001643,0009,surprise,happy,True,0.75,0.25116199254989624,False,0,0,"That way, you should pay attention to it.","That kind of feeling, you have to celebrate it."
+00790_0009_surprise_0009_001677,0009,surprise,happy,True,0.8333333333333334,0.1256774663925171,False,0,0,"Yes, so I never drink it.","Yes, I can always have him."
+00791_0009_surprise_0009_001435,0009,surprise,happy,True,0.7142857142857143,0.5049870610237122,False,0,0,Such a good person won't be killed.,This rare wheel will not be killed.
+00792_0009_surprise_0009_001586,0009,surprise,happy,True,0.9444444444444444,0.030643710866570473,False,0,0,"“Ruan Meizi will say, 'I hate you, I won't pay attention to you anymore' when she is angry.”","Two bridesmaids just got married and said, ""Good luck, I'm going to be with you."""
+00793_0009_surprise_0009_001660,0009,surprise,happy,True,1.0,0.3330654203891754,False,0,0,"I'm sad, I'm going to the bar.",Then I'll go play.
+00794_0009_surprise_0009_001414,0009,surprise,happy,True,0.6,0.7885557413101196,False,0,0,"Whoever you don't know, I'm very willing to help you.",Who do you not know? I'm so happy to help you.
+00795_0009_surprise_0009_001587,0009,surprise,happy,True,0.14285714285714285,0.8723082542419434,True,0,0,Let's throw a surprise party for him.,Let's throw a party for him.
+00796_0009_surprise_0009_001463,0009,surprise,happy,True,0.625,0.18654897809028625,False,0,0,You know I'm really trying to quit drinking.,You know I’m really enjoying picking grapes.
+00797_0009_surprise_0009_001502,0009,surprise,happy,True,0.125,0.6553738117218018,False,0,0,"I met Mark yesterday, he looked very worried.","I met Mark yesterday, he looked very happy."
+00798_0009_surprise_0009_001405,0009,surprise,happy,True,0.5,0.8502943515777588,True,1,1,"We sailed a ship on the Three Gorges, it was really exciting.","We sailed the Three Gorges on a junk, it was really exciting."
+00799_0009_surprise_0009_001518,0009,surprise,happy,True,2.0,0.38372668623924255,False,0,0,Your classmate tricked you.,You're gonna get caught by the little girl.
+00500_0010_angry_0010_000574,0010,angry,happy,False,0.2857142857142857,0.48703616857528687,False,0,0,This is a bit hard for me.,This is a win-win for me.
+00501_0010_angry_0010_000630,0010,angry,happy,True,0.7777777777777778,0.22780877351760864,False,0,0,You can't get to the center of a circle.,Definitely can't find the turtle's nest anymore.
+00502_0010_angry_0010_000440,0010,angry,happy,False,1.2222222222222223,0.4621594250202179,False,0,0,"Not too bad, but I have to lie down.","I'm not very good at climbing, but I can hang on to the bed."
+00503_0010_angry_0010_000494,0010,angry,happy,True,0.875,0.21856138110160828,False,0,0,Eating less and losing weight is very painful.,Just eating healthy is delicious.
+00504_0010_angry_0010_000437,0010,angry,happy,True,1.0,0.1342122107744217,False,0,0,Isn't there anything? But it's a bit boring.,"It's beautiful, right? Thank you very much."
+00505_0010_angry_0010_000461,0010,angry,happy,True,0.625,0.8186936378479004,True,1,1,"Every morning, it's my mom who reminds him.","Every morning, my mom would wake him up."
+00506_0010_angry_0010_000653,0010,angry,happy,True,3.0,0.07140612602233887,False,0,0,I only arrived at 4:00 AM.,"Guan Yi, who was born in 1973, won the first prize in the 1996 Beijing International Mathematical Olympiad."
+00507_0010_angry_0010_000435,0010,angry,happy,True,1.0,0.48064011335372925,False,0,0,"Yeah, I always worry about his health.","Yeah, he's healthy, I can't help but relax."
+00508_0010_angry_0010_000560,0010,angry,happy,True,1.1,0.8528621196746826,True,0,0,It doesn't count that I like some of his songs.,"You don't count, he has some songs that I really like."
+00509_0010_angry_0010_000429,0010,angry,happy,True,0.6,0.6010206937789917,False,0,0,People definitely call him the father of the Olympic Games.,We all call him the Olympic torchbearer.
+00510_0010_angry_0010_000562,0010,angry,happy,True,0.1111111111111111,0.8915145993232727,True,1,1,I will still be with you all the way.,I will still walk with you all the way.
+00511_0010_angry_0010_000642,0010,angry,happy,True,1.0,0.21082442998886108,False,0,0,That day I may have to talk to him.,"If the sky is blue, then he loves her."
+00512_0010_angry_0010_000673,0010,angry,happy,True,0.0,0.9999998807907104,True,skip_identical,1,You're so nice to everyone.,You're so nice to everyone.
+00513_0010_angry_0010_000368,0010,angry,happy,True,1.0,0.6604204773902893,False,1,1,I agree. Let's go play.,"I can't wait, let's go play there."
+00514_0010_angry_0010_000393,0010,angry,happy,True,0.8181818181818182,0.22569170594215393,False,0,0,"That way, we can choose to be kind to each other.","So, we can write a good song in the spring."
+00515_0010_angry_0010_000403,0010,angry,happy,True,0.3,0.7642644643783569,False,0,0,I will definitely do it. Then I won't ask anymore.,I will definitely do it! Then I won't be bored.
+00516_0010_angry_0010_000556,0010,angry,happy,True,0.8333333333333334,0.2623586058616638,False,0,0,"Yes, I know, Hanan Jinren Qi.","Eat it, I know, it's delicious!"
+00517_0010_angry_0010_000677,0010,angry,happy,True,1.2,0.2583220601081848,False,0,0,"I hate being angry, sometimes I don't understand, you know?","I don't dislike eating wrong, I'm not a doctor, I'm just a fan."
+00518_0010_angry_0010_000700,0010,angry,happy,True,0.45454545454545453,0.6506077647209167,False,0,0,"It's a very bad pronunciation, the boss should not learn it.","It's a very nice Zang language, the boss can't learn it."
+00519_0010_angry_0010_000532,0010,angry,happy,True,8.0,0.8326548337936401,True,1,1,“大约足够支撑我生活三个月的。”,About enough to support me for three months.
+00520_0010_angry_0010_000588,0010,angry,happy,True,1.3333333333333333,0.241995707154274,False,0,0,I don't think so. We should follow Xiao Xi.,"We don't think of the world as ending, we just look at the sky."
+00521_0010_angry_0010_000553,0010,angry,happy,True,0.625,0.9936038255691528,True,skip_high_sim,1,I hope I can go there one day.,I hope one day I can go there.
+00522_0010_angry_0010_000351,0010,angry,happy,True,0.0,0.9999999403953552,True,skip_identical,1,"Look far away, they are really beautiful.","Look far away, they are really beautiful."
+00523_0010_angry_0010_000641,0010,angry,happy,True,0.0,1.0,True,skip_identical,1,"In the south of France, the weather is usually pleasant.","In the south of France, the weather is usually pleasant."
+00524_0010_angry_0010_000602,0010,angry,happy,True,0.25,0.8165764212608337,True,0,0,I'm a game enthusiast.,I'm a game designer.
+00525_0010_neutral_0010_000230,0010,neutral,happy,True,0.8461538461538461,0.4504964351654053,False,0,0,Then I won’t bother you anymore. I’m not brave enough to go out.,"I'm sorry to bother you, I want to ask you out."
+00526_0010_neutral_0010_000030,0010,neutral,happy,True,2.2857142857142856,0.44308823347091675,False,0,0,"Unless you're playing dodgeball, but that's impossible.","If you don't fly, you miss out on the beauty of it. It's just not possible."
+00527_0010_neutral_0010_000339,0010,neutral,happy,True,2.2,0.12438169866800308,False,0,0,Don't ask a woman's age.,"We all love Rembrandt, him, Kaiju Rings, I mean, how long."
+00528_0010_neutral_0010_000026,0010,neutral,happy,True,0.625,0.5561954379081726,False,0,0,"Yes, he is very cunning, often deceiving others.","Yes, the spirit of often harassing others."
+00529_0010_neutral_0010_000142,0010,neutral,happy,True,0.875,0.8471131920814514,True,0,0,"Yes, I am still a wet-behind-the-ears young reporter.","Yes, and I am a reporter who is still young."
+00530_0010_neutral_0010_000105,0010,neutral,happy,True,1.0,0.3018994927406311,False,0,0,We still argue a lot even when we are together.,"We two, why not come? We often laugh in the courtyard."
+00531_0010_neutral_0010_000243,0010,neutral,happy,True,0.6666666666666666,0.3170414865016937,False,0,0,That way you should be careful.,"That way, you should wear a smile."
+00532_0010_neutral_0010_000035,0010,neutral,happy,True,1.7142857142857142,0.3211401104927063,False,0,0,Such innocent people will not be killed.,"If you come to this place, you won't be bored for a day."
+00533_0010_neutral_0010_000177,0010,neutral,happy,True,1.0,0.541169285774231,False,0,0,You've been in my mind for a long time.,You have stirred up my heart so much.
+00534_0010_neutral_0010_000338,0010,neutral,happy,True,1.0,0.5315143465995789,False,0,0,Young people must take responsibility.,Young people should have a bright future.
+00535_0010_neutral_0010_000082,0010,neutral,happy,True,1.0,0.9396543502807617,True,0,0,I heard you are going to Hong Kong to see your uncle.,你經常說你要去香港看你叔叔。
+00536_0010_neutral_0010_000024,0010,neutral,happy,True,0.14285714285714285,0.8658690452575684,True,1,1,Your image is always in my mind.,Your image is always in my heart.
+00537_0010_neutral_0010_000347,0010,neutral,happy,True,0.75,0.4707503914833069,False,0,0,These two pieces were made during different periods of the Tang Dynasty.,These two pieces are the beauty of the hidden treasure of the Chu Kingdom.
+00538_0010_neutral_0010_000246,0010,neutral,happy,True,3.5,-0.003986494615674019,False,0,0,Belt is really indispensable for men.,"Dinh Tài Phủ in the town of Lại Phước, in the district of Phước Long, is famous for its many fruit trees."
+00539_0010_neutral_0010_000110,0010,neutral,happy,True,1.0,0.5698779821395874,False,0,0,自己的事情要自己做。,自己在收拾小狗的自己做的想法。
+00540_0010_neutral_0010_000087,0010,neutral,happy,True,1.125,0.35479772090911865,False,0,0,"It's not much, but it's kind of boring.","Yes, there is nothing, but this is a happy thing."
+00541_0010_neutral_0010_000091,0010,neutral,happy,True,1.0,0.07287485897541046,False,0,0,"If you need help, please let me know.",I like to kiss them.
+00542_0010_neutral_0010_000151,0010,neutral,happy,True,0.125,0.9971747398376465,True,skip_high_sim,1,"I love you most, don't shoot, I surrender.","I love you the most, don't shoot, I surrender."
+00543_0010_neutral_0010_000005,0010,neutral,happy,True,0.5384615384615384,0.7701575756072998,False,1,1,"We sailed on a ship to the Three Gorges, it was really exciting.","We took a boat to drift on the river, it was really exciting."
+00544_0010_neutral_0010_000029,0010,neutral,happy,True,0.4,0.8072642087936401,True,1,1,"Very cute, just like you.","""Very cute, just like you."""
+00545_0010_neutral_0010_000275,0010,neutral,happy,True,1.2,0.700833797454834,False,1,1,Then find a music player.,Then find a bit of music to get you going.
+00546_0010_neutral_0010_000340,0010,neutral,happy,True,0.7272727272727273,0.7590634822845459,False,0,0,"Every night I say good night to you, it's really happy.",Every night I would tell you good night and wish you good luck.
+00547_0010_neutral_0010_000350,0010,neutral,happy,True,1.2,-0.07000453770160675,False,0,0,"It's very bad language, the owner should not learn it.","It was my friend's first time playing soccer, and he did well."
+00548_0010_neutral_0010_000158,0010,neutral,happy,True,2.1666666666666665,0.18219304084777832,False,0,0,My personality is calm and objective.,What I want to do is to make it a little bit more fun.
+00549_0010_neutral_0010_000031,0010,neutral,happy,True,0.9411764705882353,0.3693634867668152,False,0,0,"I'm sorry, I didn't hear you. Could you please repeat what time you want to be reminded?",What time of day do you like?
+00550_0010_sad_0010_001292,0010,sad,happy,True,1.25,0.12069259583950043,False,0,0,To prevent fish from eating the dead body.,"Because you didn't let me miss one, I ate two."
+00551_0010_sad_0010_001337,0010,sad,happy,True,0.5384615384615384,0.688355565071106,False,1,1,I like to listen so much that I keep listening over and over.,I like to listen to it so much that I can't help but repeat it.
+00552_0010_sad_0010_001122,0010,sad,happy,True,1.0,0.07341466844081879,False,0,0,"All the data is gone, I'm so pissed off.","The sound of Charlobo's cheeks, I swear."
+00553_0010_sad_0010_001272,0010,sad,happy,True,1.7142857142857142,0.2305014431476593,False,0,0,My old friend Hansan lives in London.,My old friend Han San is waiting for me at the mouth of the river.
+00554_0010_sad_0010_001151,0010,sad,happy,True,1.875,0.30854934453964233,False,0,0,"Soon, cars will be able to open automatically.","I want to count cars, but I can't, it's just too cute, that's too funny."
+00555_0010_sad_0010_001159,0010,sad,happy,True,3.0,0.24265557527542114,False,0,0,I'm actually quite hungry.,It feels good to be back. I think I'm going to do well.
+00556_0010_sad_0010_001195,0010,sad,happy,True,0.45454545454545453,0.7291354537010193,False,1,1,"Listen to the sounds of nature, it's like listening to music.","I hear the laughter of nature, it's like hearing music."
+00557_0010_sad_0010_001215,0010,sad,happy,True,1.4,0.07645568251609802,False,0,0,"Actually, we broke up yesterday.","Sure, I will tell you a joke."
+00558_0010_sad_0010_001390,0010,sad,happy,True,0.7857142857142857,0.7787158489227295,False,0,0,"Every night, I'll send you a message to say good night. It's so happy.","Every night I talk to you until late, and I'm happy."
+00559_0010_sad_0010_001389,0010,sad,happy,True,2.0,0.0017802324146032333,False,0,0,Don't ask a woman's age.,"I was honored, I felt very happy, I love it."
+00560_0010_sad_0010_001275,0010,sad,happy,True,0.0,0.9999999403953552,True,skip_identical,1,"Almost, we both are very enthusiastic.","Almost, we both are very enthusiastic."
+00561_0010_sad_0010_001085,0010,sad,happy,True,0.625,0.5255033373832703,False,0,0,"So, the poor people will not be killed.","So, the people of Mogadishu will no longer be killed."
+00562_0010_sad_0010_001321,0010,sad,happy,True,6.0,0.09584923833608627,False,0,0,很大，让人兴奋，但是草坪。,I'm not sure what you're saying.
+00563_0010_sad_0010_001333,0010,sad,happy,True,25.5,0.00681130588054657,False,0,0,I think all Chinese people play ping pong.,"I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I will be back, I"
+00564_0010_sad_0010_001161,0010,sad,happy,True,2.0,0.6177802085876465,False,0,0,"Every morning, it's my mother who helps him remember.","Every morning, one person would come to the door, it was my mother, and he would be happy to see her."
+00565_0010_sad_0010_001254,0010,sad,happy,True,1.0,0.06265223771333694,False,0,0,"You just bought clothes yesterday, you really are a shopaholic.",I just love the home games. I wish them good luck.
+00566_0010_sad_0010_001089,0010,sad,happy,True,0.5454545454545454,0.602736234664917,False,0,0,"Don't wake up the day, when you leave, close the door.","Don't rush to the day, when you go, feel happy."
+00567_0010_sad_0010_001077,0010,sad,happy,True,1.0,0.4094287157058716,False,0,0,工厂不把它直接放到大厅里。,一個工場，一個把他直接排列大氣的
+00568_0010_sad_0010_001323,0010,sad,happy,True,1.0,0.4228042960166931,False,0,0,But many people often overlook the plum blossom.,在梅花，往往被海棠怀恋。
+00569_0010_sad_0010_001062,0010,sad,happy,True,1.0,0.7299850583076477,False,0,0,You always talk like this when you're dating.,"Every time you talk to me, it's like this."
+00570_0010_sad_0010_001081,0010,sad,happy,True,1.0769230769230769,0.4379267692565918,False,0,0,I didn't hear you. What time do you want me to remind you?,"“Mei Ting Qi, you're some of the funniest people I know. When's your birthday?”"
+00571_0010_sad_0010_001097,0010,sad,happy,True,0.42857142857142855,0.6841298341751099,False,1,1,This is the largest zoo in Taiwan.,This is the largest zoo in the Taiwuan area.
+00572_0010_sad_0010_001232,0010,sad,happy,True,1.0,0.22462740540504456,False,0,0,About enough to support me living for three months.,大概数过几十年，我送过闪亮的感情。
+00573_0010_sad_0010_001194,0010,sad,happy,True,2.75,0.1621977835893631,False,0,0,"""Fasting is very painful.""","""Korean singer's name is my nickname, I think it's a good name."""
+00574_0010_sad_0010_001060,0010,sad,happy,True,1.0,0.5186392068862915,False,0,0,"Personal collectors, they must have.","Personal collection award, they have accepted you."
+00575_0010_surprise_0010_001615,0010,surprise,happy,True,0.3333333333333333,0.7222867012023926,False,1,1,"Bye bye, tomorrow I will come to talk with Xiao Kai Ai.","Bye bye, tomorrow I will come to chat with you again."
+00576_0010_surprise_0010_001482,0010,surprise,happy,True,0.8,0.4004579186439514,False,0,0,I heard you're going to Tokyo to see your uncle.,Heard that the cow is going to the village to see her uncle.
+00577_0010_surprise_0010_001640,0010,surprise,happy,True,0.0,0.9999998807907104,True,skip_identical,1,About one hour.,About one hour.
+00578_0010_surprise_0010_001644,0010,surprise,happy,True,1.4,0.2246515452861786,False,0,0,My direct relatives are few.,"Oh, that's a bit of a challenge."
+00579_0010_surprise_0010_001451,0010,surprise,happy,True,0.5555555555555556,0.5332523584365845,False,0,0,No problem. Maybe his wife will leak the secret.,No problem! Maybe Pa will tell a secret.
+00580_0010_surprise_0010_001692,0010,surprise,happy,True,0.4444444444444444,0.8268445730209351,True,0,0,"That day, I may have to talk to him.","Today, I also got to talk to him."
+00581_0010_surprise_0010_001503,0010,surprise,happy,True,0.42857142857142855,0.9399405717849731,True,1,1,"Feels very warm. Okay, see you later.","Feels so warm! Okay, see you later!"
+00582_0010_surprise_0010_001442,0010,surprise,happy,True,1.0,0.5951255559921265,False,0,0,"I will warm the womb for you, just kidding.","I will warm up the nest, I will be back to see you."
+00583_0010_surprise_0010_001662,0010,surprise,happy,True,1.0,0.3177753686904907,False,0,0,It seems that he was soaked by the tank.,"The soup smells good, I'm going to drink it."
+00584_0010_surprise_0010_001697,0010,surprise,happy,True,0.0,0.9999999403953552,True,skip_identical,1,"Three, two sons, one daughter.","Three, two sons, one daughter."
+00585_0010_surprise_0010_001710,0010,surprise,happy,True,0.5,0.9772961139678955,True,1,1,I let you start this game. I don't want to miss today.,"This game, I let you start. Today, I don't want to miss it."
+00586_0010_surprise_0010_001569,0010,surprise,happy,True,0.6,0.41381970047950745,False,0,0,"Let me think again, the truth has already been revealed.","Let me think again, I am already on the ship."
+00587_0010_surprise_0010_001650,0010,surprise,happy,True,0.0,1.0,True,skip_identical,1,"I don't need to turn my head, I don't need a neck.","I don't need to turn my head, I don't need a neck."
+00588_0010_surprise_0010_001469,0010,surprise,happy,True,0.75,0.5480561256408691,False,0,0,"In the future, don't drink so much, it's bad for your health.","Afterwards, don't drink so much. I feel good."
+00589_0010_surprise_0010_001415,0010,surprise,happy,True,0.2,0.9634029269218445,True,1,1,I like soccer and climbing.,I really like soccer and climbing.
+00590_0010_surprise_0010_001571,0010,surprise,happy,True,1.1,-0.0003953017294406891,False,0,0,"You are a little bit of a coward, very little.",You really want to swim in this pool. The water is very clean.
+00591_0010_surprise_0010_001563,0010,surprise,happy,True,0.8333333333333334,0.22282007336616516,False,0,0,I didn't know you knew Frank.,"I know you're still there, Franco."
+00592_0010_surprise_0010_001496,0010,surprise,happy,True,8.0,0.34971949458122253,False,0,0,"""比小看我這頭髮型，我還挺喜歡的。""","Don't underestimate me, I like it very much."
+00593_0010_surprise_0010_001463,0010,surprise,happy,True,0.6,0.7270208597183228,False,0,0,"You know, I'm really trying to cut down on drinking.","You know, I'm very busy drinking."
+00594_0010_surprise_0010_001602,0010,surprise,happy,True,0.8888888888888888,0.6391264200210571,False,0,0,Then we'll talk about it later. I'm so scared.,"Just a little bit more, I'm afraid."
+00595_0010_surprise_0010_001619,0010,surprise,happy,True,9.0,0.671972393989563,False,0,0,大部分都是用右耳听到的。,All of them are thrown to your left ear.
+00596_0010_surprise_0010_001505,0010,surprise,happy,True,0.75,0.5460605621337891,False,0,0,"We can't get along, and we often argue.","We two can't help but come, and often chat."
+00597_0010_surprise_0010_001719,0010,surprise,happy,True,0.0,1.0000001192092896,True,skip_identical,1,家里有全自动洗衣机。,家里有全自动洗衣机。
+00598_0010_surprise_0010_001660,0010,surprise,happy,True,0.125,0.6999905705451965,False,0,0,"I'm very sad, I'm going to the bar.",I'm very hungry. I'm going to the bar.
+00599_0010_surprise_0010_001626,0010,surprise,happy,True,1.0,0.5981462001800537,False,0,0,You're going to be a dad? Really?,Becoming a father is truly a wonderful thing.

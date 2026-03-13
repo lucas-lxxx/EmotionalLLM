@@ -24,8 +24,8 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u4e00\u5957\u53e4\u8bd7\u8bcd\uff0c\u5979\u771f\u7684\u5f88\u73cd\u8d35\u3002",
-  "asr_text_adv": "\u4e00\u9053\u9aa8\u5b50\u91cc\u7684\u771f\u6c14\uff0c\u4ed6\u771f\u7684\u5f88\u73cd\u8d35\u3002",
+  "asr_text_clean": "一套古诗词，她真的很珍贵。",
+  "asr_text_adv": "一道骨子里的真气，他真的很珍贵。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.6287397146224976,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

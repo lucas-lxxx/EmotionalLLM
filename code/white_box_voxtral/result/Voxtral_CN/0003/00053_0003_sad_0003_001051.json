@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u5927\u613f\u4e00\u770b\uff0c\u4ed6\u4eec\u7684\u786e\u5f88\u662f\u7f8e\u4e3d\u3002",
+  "asr_text_clean": "大愿一看，他们的确很是美丽。",
   "asr_text_adv": "I looked far and wide, and they were indeed very beautiful.",
   "success_emo": true,
   "wer": 11.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "1"
 }

@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "three, two sons, one daughter.",
-  "asr_text_adv": "Framgangs, s\u00e5 jeg har ogs\u00e5 hild i gunnjoa.",
+  "asr_text_adv": "Framgangs, så jeg har også hild i gunnjoa.",
   "success_emo": true,
   "wer": 1.6,
   "semantic_sim": 0.1766868680715561,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

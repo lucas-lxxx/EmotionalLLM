@@ -1,0 +1,1001 @@
+﻿sample_id,speaker_id,ground_truth_emotion,target_emotion,success_emo,wer,semantic_sim,semantic_preserved,llm_judge_raw,semantic_pass,asr_text_clean,asr_text_adv
+00200_0011_angry_0011_000686,0011,angry,happy,True,0.0,0.9999999403953552,True,skip_identical,1,Over them swoop the Eagles.,Over them swoop the Eagles.
+00201_0011_angry_0011_000377,0011,angry,happy,True,0.6,0.8863668441772461,True,1,1,Monster made a deep bow.,Monstermade a deep bows.
+00202_0011_angry_0011_000496,0011,angry,happy,True,1.6666666666666667,0.8127847909927368,True,0,0,"""Jack the Chatterer""","You said to Jack the Chatterer,"
+00203_0011_angry_0011_000516,0011,angry,happy,True,0.8571428571428571,0.12020355463027954,False,0,0,They ate beef at the butcher shop.,They and the Piff were hugged.
+00204_0011_angry_0011_000556,0011,angry,happy,True,0.6666666666666666,0.5845037698745728,False,0,0,"Still, you owe it a duty.","Still, you owe it a do. These are good."
+00205_0011_angry_0011_000523,0011,angry,happy,False,0.4,0.962175726890564,True,0,0,He searched through the box.,His search through the box.
+00206_0011_angry_0011_000612,0011,angry,happy,True,0.0,1.0,True,skip_identical,1,I believe you are one of them.,I believe you are one of them.
+00207_0011_angry_0011_000611,0011,angry,happy,True,0.42857142857142855,0.3448941111564636,False,0,0,After a while he perceived both giants.,"After a while, he received both Johns."
+00208_0011_angry_0011_000578,0011,angry,happy,True,1.0,0.888909101486206,True,0,0,"It says, 'No way!' shouted Daisy.","It says, no way. Well, shout out to Daisy."
+00209_0011_angry_0011_000700,0011,angry,happy,True,0.0,1.0000001192092896,True,skip_identical,1,Do you have anything in mind?,Do you have anything in mind?
+00210_0011_angry_0011_000663,0011,angry,happy,True,0.6666666666666666,0.3345808684825897,False,0,0,"""Give me a fine fat goose.""",Gives me a fan fest push.
+00211_0011_angry_0011_000379,0011,angry,happy,True,0.14285714285714285,0.8759593963623047,True,1,1,Rat came and replied on the leaves.,Rat came and reclined on the leaves.
+00212_0011_angry_0011_000671,0011,angry,happy,True,0.4,0.6274219751358032,False,0,0,Called out to the cloud.,Fold out to the clouds.
+00213_0011_angry_0011_000625,0011,angry,happy,True,0.125,0.8962920904159546,True,0,0,You shouldn't have pricked him with your horn.,You shouldn't have pricked them with your horn.
+00214_0011_angry_0011_000392,0011,angry,happy,True,1.1666666666666667,0.19723987579345703,False,0,0,She may mind ye of her.,I have a man and a woman.
+00215_0011_angry_0011_000494,0011,angry,happy,True,0.1,0.5611779093742371,False,0,0,We all see panda on TV or in the zoo.,We all see Penner on TV or in the zoo.
+00216_0011_angry_0011_000500,0011,angry,happy,True,0.0,0.9999999403953552,True,skip_identical,1,I hope you have enjoyed yourself.,I hope you have enjoyed yourself.
+00217_0011_angry_0011_000401,0011,angry,happy,True,46.25,0.15665201842784882,False,0,0,"""Where are you from?""","""Said the American to the Chinese, 'I'm going to be a millionaire.' Said the Chinese to the American, 'How much is a million?' Said the American, 'A million is a lot of money.' Said the Chinese, 'I want to be a millionaire too.' Said the American, 'You can be a millionaire too.' Said the Chinese, 'How much is a million?' Said the American, 'A million is a lot of money.' Said the Chinese, 'I want to be a millionaire too.' Said the American, 'You can be a millionaire too.' Said the Chinese, 'How much is a million?' Said the American, 'A million is a lot of money.' Said the Chinese, 'I want to be a millionaire too.' Said the American, 'You can be a millionaire too.' Said the Chinese, 'How much is a million?' Said the American, 'A million is a lot of money.' Said the Chinese, 'I want to be a millionaire too.' Said the American, 'You can be a millionaire too.' Said the Chinese, 'How much is a million?' Said the American, 'A million is a lot of money.' Said the Chinese, 'I"
+00218_0011_angry_0011_000360,0011,angry,happy,True,0.0,1.0,True,skip_identical,1,A nauseous draft.,A nauseous draft.
+00219_0011_angry_0011_000616,0011,angry,happy,True,0.3333333333333333,0.5552561283111572,False,0,0,We may join with that power.,We made joy with that power.
+00220_0011_angry_0011_000511,0011,angry,happy,True,0.2,0.5108682513237,False,0,0,That's a full grown colt.,That's a full grown color.
+00221_0011_angry_0011_000469,0011,angry,happy,True,0.8333333333333334,0.1306527704000473,False,0,0,The owl flew into the bush.,See our flumen to the west.
+00222_0011_angry_0011_000566,0011,angry,happy,True,0.0,1.0,True,skip_identical,1,It isn't pickle at all.,It isn't pickle at all.
+00223_0011_angry_0011_000356,0011,angry,happy,True,1.2857142857142858,0.4984862804412842,False,0,0,"""Andy, what's that jire to the gimble?""","Any one, once that Gators hear the gimbal, I like it."
+00224_0011_angry_0011_000565,0011,angry,happy,True,0.0,0.9999998807907104,True,skip_identical,1,He likes dragons very much.,He likes dragons very much.
+00225_0011_neutral_0011_000033,0011,neutral,happy,False,0.3333333333333333,0.7170851826667786,False,0,0,This used to be Jerry's occupation.,This used to give Jerry's Arcadian
+00226_0011_neutral_0011_000198,0011,neutral,happy,True,1.3333333333333333,0.5035321712493896,False,0,0,I'd shoot myself.,At Shoot My Cell.
+00227_0011_neutral_0011_000313,0011,neutral,happy,True,0.8333333333333334,0.8423618078231812,True,0,0,Give me a fine fat goose.,Happify if you had fine fat geese.
+00228_0011_neutral_0011_000190,0011,neutral,happy,True,0.25,0.9576480388641357,True,1,1,And they were sandy yellow brownish all over.,"And there were sandy yellow, brownish all over."
+00229_0011_neutral_0011_000137,0011,neutral,happy,True,0.6,0.7435615062713623,False,0,0,Let this glass globe be.,Let the splash globe be
+00230_0011_neutral_0011_000294,0011,neutral,happy,True,0.0,1.0,True,skip_identical,1,Now I understand.,Now I understand.
+00231_0011_neutral_0011_000164,0011,neutral,happy,True,0.14285714285714285,0.7215249538421631,False,0,0,His large mouth curled into a sneer.,His large mouth curled into a smile.
+00232_0011_neutral_0011_000207,0011,neutral,happy,True,0.2,0.9671817421913147,True,1,1,"What am I? I'm a race car, son of God.","What am I? I'm a racer, son of God."
+00233_0011_neutral_0011_000347,0011,neutral,happy,True,0.5,0.9637202620506287,True,0,0,"What are you waiting for, man?","What are you waiting for? Man, it's"
+00234_0011_neutral_0011_000075,0011,neutral,happy,True,0.4444444444444444,0.9097040891647339,True,0,0,I'd far rather go without them than eat them.,I'd far rather go without them than eat there in the place.
+00235_0011_neutral_0011_000245,0011,neutral,happy,True,1.1666666666666667,0.08865462243556976,False,0,0,Do you think it's a woozle?,"""Evgeny Stolyarov, we hug them for them."""
+00236_0011_neutral_0011_000159,0011,neutral,happy,True,0.0,1.0,True,skip_identical,1,"Such tunes are a joy to dance in, Faye.","Such tunes are a joy to dance in, Faye."
+00237_0011_neutral_0011_000032,0011,neutral,happy,True,0.5,0.5605960488319397,False,0,0,Who has been repeating all that hard stuff to you?,Clearly it's been repaying all that hard surf to you.
+00238_0011_neutral_0011_000267,0011,neutral,happy,False,0.8,0.34146150946617126,False,0,0,"[ 0m0s110ms - 0m2s300ms ] Chapter 11, on the doorstep.",Chapter 11 on the Doris F.
+00239_0011_neutral_0011_000204,0011,neutral,happy,True,0.25,0.9223423004150391,True,0,0,The song is really loud on the gate.,The song is really the loudest on the gate.
+00240_0011_neutral_0011_000342,0011,neutral,happy,True,0.0,1.0,True,skip_identical,1,Why should I purchase my own?,Why should I purchase my own?
+00241_0011_neutral_0011_000035,0011,neutral,happy,True,0.75,0.12707631289958954,False,0,0,The name really is the aged aged man.,The name really is my eight of the day's nanny.
+00242_0011_neutral_0011_000304,0011,neutral,happy,True,0.2857142857142857,0.7513593435287476,False,0,0,How do you like you dirty bird?,"How do you like you, Yorty bird?"
+00243_0011_neutral_0011_000343,0011,neutral,happy,True,0.0,1.0,True,skip_identical,1,And what does it mean?,And what does it mean?
+00244_0011_neutral_0011_000055,0011,neutral,happy,True,0.16666666666666666,0.8744262456893921,True,0,0,A deafening chirping rent the air.,A deffuline chirping rent the air.
+00245_0011_neutral_0011_000350,0011,neutral,happy,True,0.0,1.0000001192092896,True,skip_identical,1,Do you have anything in mind?,Do you have anything in mind?
+00246_0011_neutral_0011_000052,0011,neutral,happy,True,1.0,-0.0402337983250618,False,0,0,From August 18th of their divorce.,From all the day premiums of Bear Devon.
+00247_0011_neutral_0011_000250,0011,neutral,happy,True,0.2,0.8093523979187012,True,0,0,Her kind and firm glance.,Towards kind and firm glance.
+00248_0011_neutral_0011_000168,0011,neutral,happy,True,0.25,0.848037838935852,True,0,0,"I said you look like an egg, sir.","I said you look like an egg, serve happy."
+00249_0011_neutral_0011_000228,0011,neutral,happy,True,1.3333333333333333,0.6051798462867737,False,0,0,"""It says no way,"" shouted Daisy.",It says no wait. Shout the daisy. I love you.
+00250_0011_sad_0011_001344,0011,sad,happy,True,0.0,1.0,True,skip_identical,1,Now I understand.,Now I understand.
+00251_0011_sad_0011_001383,0011,sad,happy,True,0.4,0.9358978867530823,True,1,1,"You gain for nothing, girl.","You've gained for nothing, girl."
+00252_0011_sad_0011_001337,0011,sad,happy,True,1.5,0.6619787216186523,False,0,0,Come in.,"Come on, let's go!"
+00253_0011_sad_0011_001064,0011,sad,happy,True,0.0,1.0,True,skip_identical,1,"Annie, please, please don't hurt me.","Annie, please, please don't hurt me."
+00254_0011_sad_0011_001099,0011,sad,happy,True,0.4,0.8570237159729004,True,0,0,"They will all say, ""Aha.""","They will all say, ""Ha ha."""
+00255_0011_sad_0011_001205,0011,sad,happy,False,0.7142857142857143,0.743597149848938,False,0,0,"""this speech roused Dame Isolde to anger.""",This speech rounds name ills to anger.
+00256_0011_sad_0011_001250,0011,sad,happy,True,1.125,0.053476475179195404,False,0,0,That cloth does not look like worth much.,The kind of noodle soup that I like is fantastic.
+00257_0011_sad_0011_001316,0011,sad,happy,True,0.3333333333333333,0.5674571394920349,False,0,0,We may join with that power.,We made joys with that power.
+00258_0011_sad_0011_001267,0011,sad,happy,True,0.5714285714285714,0.7785674929618835,False,0,0,Your cruelty shall cost you your laugh.,Your cruelty if she'll thrust you your laughter.
+00259_0011_sad_0011_001165,0011,sad,happy,True,0.5,0.7781080007553101,False,0,0,"He might call it, for example.","You may call it, for example,"
+00260_0011_sad_0011_001238,0011,sad,happy,True,0.4,0.8120752573013306,True,0,0,Now quicker the fiddle went.,"Now, quicker the fiddle waves."
+00261_0011_sad_0011_001156,0011,sad,happy,True,0.16666666666666666,0.7036377191543579,False,1,1,I guess it's a choice feast.,I guess it's a joyous feast.
+00262_0011_sad_0011_001301,0011,sad,happy,True,0.4,0.9842280745506287,True,1,1,The ladybug told them proudly.,Ladybug told them proudly.
+00263_0011_sad_0011_001217,0011,sad,happy,True,1.4,0.342784583568573,False,0,0,I toy with my liquor.,"I took it with me, it was really fun."
+00264_0011_sad_0011_001209,0011,sad,happy,True,0.42857142857142855,0.9467124342918396,True,1,1,Such tunes were joy to dancing fay.,Such tunes overjoyed a dancing fay.
+00265_0011_sad_0011_001330,0011,sad,happy,True,0.0,1.0,True,skip_identical,1,Your path goes south.,Your path goes south.
+00266_0011_sad_0011_001239,0011,sad,happy,True,0.6,0.6601248979568481,False,0,0,When such wonder as meet,When such wonder is made us.
+00267_0011_sad_0011_001198,0011,sad,happy,True,0.0,0.9999999403953552,True,skip_identical,1,"And on the top of them came Winnie, the cute bear.","And on the top of them came Winnie, the cute bear."
+00268_0011_sad_0011_001240,0011,sad,happy,True,0.25,0.9196585416793823,True,1,1,And they were sandy yellow brownish all over.,And there were sandy yellow browners all over.
+00269_0011_sad_0011_001190,0011,sad,happy,True,0.16666666666666666,0.6968870162963867,False,0,0,What an impetuous boy he is.,What an impeccable boy he is.
+00270_0011_sad_0011_001104,0011,sad,happy,True,0.5,0.5025252103805542,False,0,0,"Are you a regular darky, really?","While you're a regular Dartie, really?"
+00271_0011_sad_0011_001202,0011,sad,happy,True,0.8333333333333334,0.4846160113811493,False,0,0,Guilty for what do you rule?,I thank you for what you rule.
+00272_0011_sad_0011_001224,0011,sad,happy,True,0.0,0.9999998807907104,True,skip_identical,1,I pay half a crown a week extra.,I pay half a crown a week extra.
+00273_0011_sad_0011_001308,0011,sad,happy,True,0.7142857142857143,0.6552338600158691,False,0,0,"Mum shuts one's mouth up, doesn't it?","""Mommy, shout to one's half up, doesn't it?"""
+00274_0011_sad_0011_001092,0011,sad,happy,True,0.8333333333333334,0.4503716230392456,False,0,0,She may mind you of her.,She made man give her
+00275_0011_surprise_0011_001451,0011,surprise,happy,True,0.8,0.906785249710083,True,0,0,Say the American to Chinese.,said the Americans Chinese
+00276_0011_surprise_0011_001514,0011,surprise,happy,True,0.5,0.8328226804733276,True,0,0,A half pounds of flour and two ounces of suet.,A half pound of flour and two eggs to suit it.
+00277_0011_surprise_0011_001471,0011,surprise,happy,True,0.0,1.0000001192092896,True,skip_identical,1,She was bought on April 1943.,She was bought on April 1943.
+00278_0011_surprise_0011_001727,0011,surprise,happy,True,0.2,0.8218206763267517,True,1,1,It's part of my secret?,It's part of my secret.
+00279_0011_surprise_0011_001626,0011,surprise,happy,True,0.0,1.0,True,skip_identical,1,"And the next day, Nurse will be released.","And the next day, Nurse will be released."
+00280_0011_surprise_0011_001736,0011,surprise,happy,True,0.4,0.868455171585083,True,0,0,Over them swoop the eagles.,"Over the babe, swoop the eagles."
+00281_0011_surprise_0011_001426,0011,surprise,happy,True,0.42857142857142855,0.5457900762557983,False,0,0,Let's make the noise of a snake.,Let's make the noise for the Sneidorf.
+00282_0011_surprise_0011_001750,0011,surprise,happy,True,0.0,1.0000001192092896,True,skip_identical,1,Do you have anything in mind?,Do you have anything in mind?
+00283_0011_surprise_0011_001489,0011,surprise,happy,True,0.16666666666666666,0.9471960067749023,True,1,1,Let go of my top knot.,Let go of my top knot!
+00284_0011_surprise_0011_001576,0011,surprise,happy,True,0.0,1.0,True,skip_identical,1,She just smiled calmly. Mother knows that's the best smile.,She just smiled calmly. Mother knows that's the best smile.
+00285_0011_surprise_0011_001424,0011,surprise,happy,True,0.14285714285714285,0.7178981304168701,False,0,0,The football teams give a tea party.,The football teams give a cheer party.
+00286_0011_surprise_0011_001474,0011,surprise,happy,True,0.0,1.0,True,skip_identical,1,"Come on, my Jack in the boxes.","Come on, my Jack in the boxes."
+00287_0011_surprise_0011_001603,0011,surprise,happy,True,0.75,0.0895102322101593,False,0,0,I was not grabbed.,I will smack Gramps!
+00288_0011_surprise_0011_001463,0011,surprise,happy,True,0.9375,0.6842321157455444,False,0,0,"Asteroid 325 is a small asteroid, about 100 meters in diameter, that was discovered in 1937.",Asteroid 325th
+00289_0011_surprise_0011_001507,0011,surprise,happy,True,0.0,1.0,True,skip_identical,1,Tom and Michael woke up next morning.,Tom and Michael woke up next morning.
+00290_0011_surprise_0011_001672,0011,surprise,happy,True,0.0,1.0,True,skip_identical,1,No admittance except on party business.,No admittance except on party business.
+00291_0011_surprise_0011_001441,0011,surprise,happy,True,0.0,0.9999999403953552,True,skip_identical,1,I choose the right way.,I choose the right way.
+00292_0011_surprise_0011_001624,0011,surprise,happy,True,0.0,1.0,True,skip_identical,1,Do you know the lid opens?,Do you know the lid opens?
+00293_0011_surprise_0011_001658,0011,surprise,happy,True,0.3333333333333333,0.5122352838516235,False,0,0,"Mom shuts one's mouth, doesn't it?","Love Shucks one's mouth, doesn't it?"
+00294_0011_surprise_0011_001458,0011,surprise,happy,True,0.0,1.0,True,skip_identical,1,The octopus has eight legs.,The octopus has eight legs.
+00295_0011_surprise_0011_001416,0011,surprise,happy,True,0.0,1.0,True,skip_identical,1,"Mr. Chairman, I move for division.","Mr. Chairman, I move for division."
+00296_0011_surprise_0011_001443,0011,surprise,happy,True,0.7142857142857143,0.7768779397010803,False,0,0,Story 29. A boy and a monkey?,Store twinning on a boy and a monkey.
+00297_0011_surprise_0011_001725,0011,surprise,happy,True,0.0,1.0,True,skip_identical,1,She has no place for hot pepper.,She has no place for hot pepper.
+00298_0011_surprise_0011_001622,0011,surprise,happy,True,0.8,0.23211705684661865,False,0,0,Ask God to help you.,Got to Hill.
+00299_0011_surprise_0011_001430,0011,surprise,happy,True,1.0,0.4104768633842468,False,0,0,Must the name mean something?,You must have made mean something.
+00400_0012_angry_0012_000661,0012,angry,happy,True,0.0,1.0000001192092896,True,skip_identical,1,I am safe back again.,I am safe back again.
+00401_0012_angry_0012_000587,0012,angry,happy,False,0.0,1.0000001192092896,True,skip_identical,1,What would they do at the end of the year?,What would they do at the end of the year?
+00402_0012_angry_0012_000446,0012,angry,happy,True,0.0,1.0,True,skip_identical,1,I don't painted tiger.,I don't painted tiger.
+00403_0012_angry_0012_000390,0012,angry,happy,True,2.5,0.7694462537765503,False,0,0,The Fox,"In ""Fox and the Hound."""
+00404_0012_angry_0012_000579,0012,angry,happy,True,0.3333333333333333,0.3886077404022217,False,0,0,The first year they sowed rye.,The first year they sold right.
+00405_0012_angry_0012_000550,0012,angry,happy,True,0.2857142857142857,0.14552798867225647,False,0,0,That cloth does not look worth much.,That applause does not look worse much.
+00406_0012_angry_0012_000513,0012,angry,happy,True,0.1111111111111111,0.7744366526603699,False,0,0,How they went to the mountains to eat nuts.,How they went to the mountains to eat nice.
+00407_0012_angry_0012_000409,0012,angry,happy,True,0.3333333333333333,0.9299882650375366,True,0,0,043 a silver shilling is journey,"043, a silver shilling is journeyed."
+00408_0012_angry_0012_000372,0012,angry,happy,True,0.0,0.9999998807907104,True,skip_identical,1,And what are doves? And what are doves?,And what are doves? And what are doves?
+00409_0012_angry_0012_000530,0012,angry,happy,True,0.0,0.9999998807907104,True,skip_identical,1,Toast from the breadfruit tree.,Toast from the breadfruit tree.
+00410_0012_angry_0012_000653,0012,angry,happy,True,0.14285714285714285,0.5818197131156921,False,0,0,I am loath to see him go.,I am love to see him go.
+00411_0012_angry_0012_000418,0012,angry,happy,True,1.0,-0.06368239969015121,False,0,0,I do not eat bread.,Idina and Fred.
+00412_0012_angry_0012_000700,0012,angry,happy,True,0.3333333333333333,0.8383756875991821,True,1,1,Do you have anything in mind?,If you have anything in mind...
+00413_0012_angry_0012_000612,0012,angry,happy,True,0.0,1.0,True,skip_identical,1,I believe you are one of them.,I believe you are one of them.
+00414_0012_angry_0012_000549,0012,angry,happy,True,0.3333333333333333,0.5720372796058655,False,0,0,Captain Tom receives an angry letter.,Captain Tom receives in every letter.
+00415_0012_angry_0012_000491,0012,angry,happy,True,0.6,0.22222135961055756,False,0,0,Can I lodge here tonight?,Can I have a bite?
+00416_0012_angry_0012_000459,0012,angry,happy,True,0.6,0.6160882115364075,False,0,0,If they mother knew it.,If they mothered Mews.
+00417_0012_angry_0012_000386,0012,angry,happy,True,0.6666666666666666,0.6357659697532654,False,0,0,How I hate this foul pool.,How I hate this foul plot of the Lord.
+00418_0012_angry_0012_000394,0012,angry,happy,True,0.0,1.0,True,skip_identical,1,"Take courage, all isn't lost yet.","Take courage, all isn't lost yet."
+00419_0012_angry_0012_000581,0012,angry,happy,False,0.0,0.9999999403953552,True,skip_identical,1,He told me that I ought to change.,He told me that I ought to change.
+00420_0012_angry_0012_000482,0012,angry,happy,True,0.0,1.0,True,skip_identical,1,I thank you for this mercy.,I thank you for this mercy.
+00421_0012_angry_0012_000368,0012,angry,happy,True,0.3333333333333333,0.8165503740310669,True,0,0,Then sadly it is much farther.,"Then, happily, it is much farther."
+00422_0012_angry_0012_000594,0012,angry,happy,True,0.2,0.9039597511291504,True,0,0,Off for the prison ship.,Up for the prison ship.
+00423_0012_angry_0012_000469,0012,angry,happy,True,0.8333333333333334,0.37752509117126465,False,0,0,The owl flew into a bush.,That hour flew in Towle Bush.
+00424_0012_angry_0012_000355,0012,angry,happy,True,0.75,0.9000621438026428,True,1,1,Clear than clear water.,There's clear then clear water.
+00425_0012_neutral_0012_000196,0012,neutral,happy,True,0.125,0.9816473722457886,True,0,0,Clear are your eyes and bright your breath.,Clear are your eyes and bright with breath.
+00426_0012_neutral_0012_000105,0012,neutral,happy,True,1.1666666666666667,0.08007843792438507,False,0,0,He was killed by an arrow.,"""Come it was filled well in our own."""
+00427_0012_neutral_0012_000274,0012,neutral,happy,True,0.0,1.0,True,skip_identical,1,Because he was a man with infinite resource and sagacity.,Because he was a man with infinite resource and sagacity.
+00428_0012_neutral_0012_000285,0012,neutral,happy,True,0.3333333333333333,0.8640466332435608,True,0,0,"The straw, charcoal and the pea.","The straw, charcoal and the pea meaning"
+00429_0012_neutral_0012_000192,0012,neutral,happy,True,0.3333333333333333,0.490475058555603,False,0,0,I have had to grow old.,I have had to roll
+00430_0012_neutral_0012_000284,0012,neutral,happy,True,1.0,0.3464607000350952,False,0,0,Chapter 18: The Return Journey,Slavdus Hljek returned jolly.
+00431_0012_neutral_0012_000200,0012,neutral,happy,True,1.4285714285714286,0.3910283148288727,False,0,0,That cloth does not look worth much.,If that clarith code don't look wouldn't come my rockin heart.
+00432_0012_neutral_0012_000189,0012,neutral,happy,True,0.0,1.0,True,skip_identical,1,When such wanderers meet.,When such wanderers meet.
+00433_0012_neutral_0012_000036,0012,neutral,happy,True,0.5,0.22109560668468475,False,0,0,How I hate this foul pool.,How I hoped this bout four.
+00434_0012_neutral_0012_000335,0012,neutral,happy,True,0.4,0.8121541142463684,True,0,0,But things haven't changed yet.,For Cleaves haven't changed yet.
+00435_0012_neutral_0012_000018,0012,neutral,happy,True,0.8333333333333334,0.7369304895401001,False,0,0,Then sadly it is much farther.,"Then, startled, it is much farther from you."
+00436_0012_neutral_0012_000013,0012,neutral,happy,True,0.09090909090909091,0.9906948804855347,True,skip_high_sim,1,I have bun buried all over goat on two separate occasions.,I have bun buried all over goats on two separate occasions.
+00437_0012_neutral_0012_000318,0012,neutral,happy,True,0.25,0.46831244230270386,False,0,0,The name of the song is called Haddocks.,If name of the song is called Habibs.
+00438_0012_neutral_0012_000212,0012,neutral,happy,True,1.0,0.06936023384332657,False,0,0,No thank you.,I feel like.
+00439_0012_neutral_0012_000208,0012,neutral,happy,True,1.75,0.25494393706321716,False,0,0,"However, somebody killed something.","Hey, I'm Talal, very. Somebody's good, somebody."
+00440_0012_neutral_0012_000022,0012,neutral,happy,True,0.125,0.9914864301681519,True,skip_high_sim,1,And what are doves and what are doves?,"And what are doves, and what are doves?"
+00441_0012_neutral_0012_000224,0012,neutral,happy,True,1.0,0.4432595372200012,False,0,0,Do you know the lid opens?,And we know the Lord opens for you.
+00442_0012_neutral_0012_000175,0012,neutral,happy,True,0.0,1.0,True,skip_identical,1,All this have we won by our labor.,All this have we won by our labor.
+00443_0012_neutral_0012_000059,0012,neutral,happy,True,0.5,0.4487367272377014,False,0,0,043 a silver shilling is journey.,"0-4-3, a silver ceiling is garnered."
+00444_0012_neutral_0012_000256,0012,neutral,happy,False,0.0,1.0,True,skip_identical,1,I must have two to fetch and carry.,I must have two to fetch and carry.
+00445_0012_neutral_0012_000280,0012,neutral,happy,True,0.8,0.16308236122131348,False,0,0,Your path now goes south.,Your heart now glows with sun.
+00446_0012_neutral_0012_000151,0012,neutral,happy,True,0.14285714285714285,0.9848623871803284,True,1,1,All the way to China is home.,All the way for China is home.
+00447_0012_neutral_0012_000242,0012,neutral,happy,True,0.5454545454545454,0.6623028516769409,False,0,0,"""Give me your hand or I will cry harder than before.""",Give me your hand. I would fly harder than before.
+00448_0012_neutral_0012_000160,0012,neutral,happy,True,1.0,-0.035077840089797974,False,0,0,Kitty can you play chess?,This is a beautiful fish.
+00449_0012_neutral_0012_000339,0012,neutral,happy,True,0.2,0.756939172744751,False,0,0,"And be with you, Tom.","And be with you, Carl."
+00450_0012_sad_0012_001225,0012,sad,happy,True,0.125,0.9629859924316406,True,1,1,All this have we won by our labour.,All this have we won by our labor.
+00451_0012_sad_0012_001104,0012,sad,happy,True,1.3333333333333333,0.2645186185836792,False,0,0,"Are you a regular darky, really?","I was calling you all regular Darcy's, because I really..."
+00452_0012_sad_0012_001301,0012,sad,happy,True,0.8,0.7539575099945068,False,0,0,The ladybug told them proudly.,"Your Ladybug, comment proudly."
+00453_0012_sad_0012_001266,0012,sad,happy,True,0.0,1.0,True,skip_identical,1,It isn't picked at all.,It isn't picked at all.
+00454_0012_sad_0012_001377,0012,sad,happy,True,0.0,1.0,True,skip_identical,1,It's part of my secret.,It's part of my secret.
+00455_0012_sad_0012_001385,0012,sad,happy,True,1.0,0.3150477409362793,False,0,0,But things haven't changed yet.,We're through seventh change yes.
+00456_0012_sad_0012_001059,0012,sad,happy,False,0.0,1.0000001192092896,True,skip_identical,1,On the 22nd of last March.,On the 22nd of last March.
+00457_0012_sad_0012_001340,0012,sad,happy,True,0.8,0.7182459831237793,False,0,0,There goes the shawl again.,"There it goes, the shawl of jammy."
+00458_0012_sad_0012_001294,0012,sad,happy,True,0.8,0.6059900522232056,False,0,0,Off for the prison ship.,Up with the present ship!
+00459_0012_sad_0012_001161,0012,sad,happy,True,0.6666666666666666,0.8976959586143494,True,0,0,We nightly dance our heyday guys.,We like to dance our hey day guys.
+00460_0012_sad_0012_001319,0012,sad,happy,True,0.5,0.3616377115249634,False,0,0,But show me now your map.,"But show me Mel, you're Mac."
+00461_0012_sad_0012_001136,0012,sad,happy,True,0.4,0.6314429044723511,False,0,0,And take a tack too.,And take the tap too.
+00462_0012_sad_0012_001190,0012,sad,happy,True,2.0,0.17943239212036133,False,0,0,What an impetuous boy he is.,"We got quite a little bit of quibs through, it was hoisey."
+00463_0012_sad_0012_001141,0012,sad,happy,True,0.5714285714285714,0.3493456244468689,False,0,0,We expected Tom would jump for joy.,Three expected tombs with jumps for joy.
+00464_0012_sad_0012_001279,0012,sad,happy,True,1.5,0.27401378750801086,False,0,0,The first year they sowed rye.,"When fur is dear, and hey so do I'm."
+00465_0012_sad_0012_001215,0012,sad,happy,True,0.375,0.7372530698776245,False,0,0,They were going fast with a light clip.,Today we're going fast with a like clip.
+00466_0012_sad_0012_001061,0012,sad,happy,True,1.0,0.7953976988792419,False,0,0,Chapter 10: A Warm Welcome,The warm welcome.
+00467_0012_sad_0012_001251,0012,sad,happy,True,0.0,1.0,True,skip_identical,1,A lady is on Alice's lap.,A lady is on Alice's lap.
+00468_0012_sad_0012_001056,0012,sad,happy,True,0.7142857142857143,0.5446705222129822,False,0,0,And what's the gear and to gimbal?,"And once a year, head to Gimball."
+00469_0012_sad_0012_001165,0012,sad,happy,True,0.3333333333333333,0.664741575717926,False,0,0,"He might call it, for example.","You like call it, for example."
+00470_0012_sad_0012_001236,0012,sad,happy,True,0.8888888888888888,0.04669122397899628,False,0,0,She jumped at the tail and bit it savagely.,And enjoyed the time with young children.
+00471_0012_sad_0012_001150,0012,sad,happy,True,0.5714285714285714,0.328688383102417,False,0,0,"Well, anyhow, it didn't rain, he said.","Well, anyhow, you did it, Reen, he said."
+00472_0012_sad_0012_001363,0012,sad,happy,True,0.5,0.7306493520736694,False,0,0,Give me a fine fat goose.,Isn't he a fine fat goose?
+00473_0012_sad_0012_001380,0012,sad,happy,True,0.4,0.9710648059844971,True,1,1,She keeps saying I'm hers.,"She kept saying, I'm hers."
+00474_0012_sad_0012_001229,0012,sad,happy,True,0.8,0.5011403560638428,False,0,0,Daisy creams with pink edges.,"""Clever daisy dreams with pink edges."""
+00475_0012_surprise_0012_001552,0012,surprise,happy,True,0.6666666666666666,0.872060239315033,True,0,0,Guilty for what do you rule?,Guilty for what? I rule!
+00476_0012_surprise_0012_001419,0012,surprise,happy,True,0.2,0.8736099600791931,True,1,1,At the end of four?,"At the end of four,"
+00477_0012_surprise_0012_001524,0012,surprise,happy,True,0.0,0.9999999403953552,True,skip_identical,1,"You know, answers to the name of Tom's son.","You know, answers to the name of Tom's son."
+00478_0012_surprise_0012_001664,0012,surprise,happy,True,1.0,0.3130965828895569,False,0,0,Slam the doors and wedge them.,"Hey, we're going, Snoop!"
+00479_0012_surprise_0012_001415,0012,surprise,happy,True,1.0,0.4281309247016907,False,0,0,Poor Tom now is dead.,Four tums and I was dead.
+00480_0012_surprise_0012_001672,0012,surprise,happy,True,1.0,0.7122988104820251,False,0,0,No admittance except on party business.,No admissions except on party. There's this. Come on.
+00481_0012_surprise_0012_001697,0012,surprise,happy,True,0.1111111111111111,0.7943153381347656,False,0,0,How Tom and Jerry went to visit Mr. Sam.,How Tom and Jerry went to visit Mr. Sand.
+00482_0012_surprise_0012_001659,0012,surprise,happy,True,0.8571428571428571,0.16176734864711761,False,0,0,The song is called Ways and Means.,Grays and Neams.
+00483_0012_surprise_0012_001699,0012,surprise,happy,True,0.4,0.9279698729515076,True,0,0,His hope will cheat him.,His hope will cheat and hold.
+00484_0012_surprise_0012_001514,0012,surprise,happy,True,0.1,0.9238507747650146,True,0,0,A half pounds of flour and two ounces of suet.,A half pounds of flour and two ounces of sweet.
+00485_0012_surprise_0012_001685,0012,surprise,happy,True,0.16666666666666666,0.7238227725028992,False,0,0,The straw charcoal and the pea.,The straw chocolate and the pea.
+00486_0012_surprise_0012_001745,0012,surprise,happy,True,0.6,0.8137311339378357,True,0,0,A whirring noise was heard.,Where in noise was heard?
+00487_0012_surprise_0012_001466,0012,surprise,happy,True,0.2,0.6565617918968201,False,0,0,Shall we let Barbara in?,Shall we Lake Barbara in?
+00488_0012_surprise_0012_001450,0012,surprise,happy,True,0.1111111111111111,0.9719127416610718,True,1,1,Rabbit gave dog a hurrying up sort of nudge.,Rabbid gave dog a hurrying up sort of nudge.
+00489_0012_surprise_0012_001694,0012,surprise,happy,True,0.0,1.0,True,skip_identical,1,Now I understand.,Now I understand.
+00490_0012_surprise_0012_001476,0012,surprise,happy,True,0.6666666666666666,0.10216067731380463,False,0,0,The hag looked in the stove.,Be happy in the stall.
+00491_0012_surprise_0012_001622,0012,surprise,happy,True,0.0,0.9999997615814209,True,skip_identical,1,Ask God to help you.,Ask God to help you.
+00492_0012_surprise_0012_001465,0012,surprise,happy,True,0.0,1.0,True,skip_identical,1,Tom could hardly speak for laughing.,Tom could hardly speak for laughing.
+00493_0012_surprise_0012_001709,0012,surprise,happy,True,0.2222222222222222,0.7774840593338013,False,0,0,"He owed Mr. Lawson, I can't tell you how.","Cute old Mr. Lawson, I can't tell you how."
+00494_0012_surprise_0012_001447,0012,surprise,happy,True,1.3333333333333333,0.7407481670379639,False,0,0,Please excuse me.,Can I just excuse me?
+00495_0012_surprise_0012_001637,0012,surprise,happy,True,0.2,0.8072515726089478,True,0,0,What would they do at the end of the year?,What would they do at the end of the year winning?
+00496_0012_surprise_0012_001410,0012,surprise,happy,True,1.0,0.13883359730243683,False,0,0,A nauseous drought?,On noshi's trouts
+00497_0012_surprise_0012_001429,0012,surprise,happy,True,0.0,0.9999998807907104,True,skip_identical,1,Red came and replied on the leaves.,Red came and replied on the leaves.
+00498_0012_surprise_0012_001566,0012,surprise,happy,True,1.0,-0.12212073802947998,False,0,0,They ate beef at the butcher shop.,It's a festive shoe show.
+00499_0012_surprise_0012_001519,0012,surprise,happy,True,0.6666666666666666,0.36294788122177124,False,0,0,The owl flew into a bush.,Let our flow into our bush.
+00300_0013_angry_0013_000373,0013,angry,happy,False,0.5,0.7982144355773926,False,0,0,I thought you meant how old are you.,I saw you meant how older youth.
+00301_0013_angry_0013_000447,0013,angry,happy,True,1.1428571428571428,0.4721059799194336,False,0,0,I have not opened the 13th door.,I've confessed that you opened the thirteenth door going you.
+00302_0013_angry_0013_000518,0013,angry,happy,True,0.125,0.9826902747154236,True,1,1,"I said you looked like an egg, sir.","I said you look like an egg, sir."
+00303_0013_angry_0013_000667,0013,angry,happy,True,0.25,0.6967971324920654,False,0,0,At length they came to a sharp bend.,At length it came to a sharp end.
+00304_0013_angry_0013_000573,0013,angry,happy,True,0.0,1.0,True,skip_identical,1,"Pick, pick, pick.","Pick, pick, pick."
+00305_0013_angry_0013_000496,0013,angry,happy,True,0.3333333333333333,0.8855269551277161,True,0,0,He said to Jack the Chatterer,"""Be said to Jack the Chatterer."""
+00306_0013_angry_0013_000478,0013,angry,happy,True,0.0,0.9999998807907104,True,skip_identical,1,Put that rude grasshopper in jail.,Put that rude grasshopper in jail.
+00307_0013_angry_0013_000448,0013,angry,happy,False,0.6666666666666666,0.9313674569129944,True,1,1,"""Said the witch.""",Said the witch.
+00308_0013_angry_0013_000394,0013,angry,happy,True,0.3333333333333333,0.9841117262840271,True,1,1,"Take courage, all isn't lost yet.","Take courage, all is not lost yet."
+00309_0013_angry_0013_000697,0013,angry,happy,True,0.0,0.9999998807907104,True,skip_identical,1,"What are you waiting for, man?","What are you waiting for, man?"
+00310_0013_angry_0013_000431,0013,angry,happy,True,0.25,0.9005330204963684,True,0,0,And I never had a whooping cough. Why?,And I never had a whooping cough wryth.
+00311_0013_angry_0013_000368,0013,angry,happy,False,0.0,1.0000001192092896,True,skip_identical,1,"Then sadly, it is much farther.","Then sadly, it is much farther."
+00312_0013_angry_0013_000501,0013,angry,happy,True,0.0,1.0,True,skip_identical,1,All the way to China is home.,All the way to China is home.
+00313_0013_angry_0013_000449,0013,angry,happy,False,0.0,1.0,True,skip_identical,1,I've hit the wrong nose.,I've hit the wrong nose.
+00314_0013_angry_0013_000651,0013,angry,happy,True,0.0,1.0,True,skip_identical,1,I'm sure your friends can wait.,I'm sure your friends can wait.
+00315_0013_angry_0013_000380,0013,angry,happy,True,2.2,-0.01877247914671898,False,0,0,Must the name mean something?,The most important thing is to be able to do something.
+00316_0013_angry_0013_000465,0013,angry,happy,False,1.0,0.7500656247138977,False,1,1,"He might call it, for example.","""For example, he might call it a 'sandwich'."""
+00317_0013_angry_0013_000538,0013,angry,happy,False,0.2,0.997191309928894,True,skip_high_sim,1,Now quicker the fiddle went.,"Now, quicker the fiddle went."
+00318_0013_angry_0013_000551,0013,angry,happy,True,0.3333333333333333,0.6407653093338013,False,0,0,A lady is on Alice's lap.,The lady is on Alice's laugh.
+00319_0013_angry_0013_000621,0013,angry,happy,True,0.3333333333333333,0.7959008812904358,False,0,0,I say I will be emperor.,I say I will meet Emperor.
+00320_0013_angry_0013_000433,0013,angry,happy,True,0.5,0.8689650297164917,True,0,0,"Be off now, as quick as you may.",We'll be off now as quick as you made.
+00321_0013_angry_0013_000531,0013,angry,happy,True,0.0,1.0,True,skip_identical,1,First issue a reward.,First issue a reward.
+00322_0013_angry_0013_000415,0013,angry,happy,True,0.5,0.9257599115371704,True,0,0,Tom could hardly speak for laughing.,"Tom could hardly speak for laugh, hey Frank."
+00323_0013_angry_0013_000628,0013,angry,happy,True,0.0,0.9999998807907104,True,skip_identical,1,I know you.,I know you.
+00324_0013_angry_0013_000412,0013,angry,happy,True,0.6666666666666666,0.5038883090019226,False,0,0,Tom went on an IOR gloomily.,Tom won an Iorg Glumalive.
+00325_0013_neutral_0013_000019,0013,neutral,happy,True,0.0,1.0,True,skip_identical,1,At the end of four.,At the end of four.
+00326_0013_neutral_0013_000303,0013,neutral,happy,True,0.14285714285714285,0.5188745856285095,False,0,0,I am loath to see him go.,I am gloved to see him go.
+00327_0013_neutral_0013_000168,0013,neutral,happy,True,0.375,0.8387291431427002,True,0,0,"I said you looked like an egg, sir.",I said you look like an egg surf.
+00328_0013_neutral_0013_000016,0013,neutral,happy,True,0.2857142857142857,0.9718043804168701,True,1,1,"Mr. Chairman, I move for a division.","Mr. Chairman, I've moved for a division."
+00329_0013_neutral_0013_000131,0013,neutral,happy,True,0.0,1.0000001192092896,True,skip_identical,1,It must come sometimes to jam a day.,It must come sometimes to jam a day.
+00330_0013_neutral_0013_000077,0013,neutral,happy,True,0.6,0.870514452457428,True,0,0,But I saw you walking.,But I saw you walk in me.
+00331_0013_neutral_0013_000145,0013,neutral,happy,True,0.2,0.7764427661895752,False,0,0,Read by the living pool.,Freed by the living pool.
+00332_0013_neutral_0013_000178,0013,neutral,happy,True,0.8571428571428571,0.6616427898406982,False,0,0,"""and vowed he'd change the pigtail's place.""","And Val, you've changed the Pigtails place."
+00333_0013_neutral_0013_000345,0013,neutral,happy,True,0.2,0.7001156806945801,False,1,1,A wearing noise was heard.,Hay wearing noise was heard.
+00334_0013_neutral_0013_000281,0013,neutral,happy,True,0.0,1.0,True,skip_identical,1,He could not help doing so.,He could not help doing so.
+00335_0013_neutral_0013_000176,0013,neutral,happy,True,0.16666666666666666,0.9978334903717041,True,skip_high_sim,1,"She just smiled calmly, mother knows that it is the best smile.",She just smiled calmly. Mother knows that it is the best smile.
+00336_0013_neutral_0013_000269,0013,neutral,happy,True,0.8333333333333334,0.41088059544563293,False,0,0,But show me now your map.,But surely now you're a marvel.
+00337_0013_neutral_0013_000188,0013,neutral,happy,False,0.0,0.9999998807907104,True,skip_identical,1,Now quicker the fiddle went.,Now quicker the fiddle went.
+00338_0013_neutral_0013_000107,0013,neutral,happy,False,0.42857142857142855,0.8245927095413208,True,1,1,Tom and Michael woke up next morning.,Tom and Michael woke up next morning feeling refreshed.
+00339_0013_neutral_0013_000095,0013,neutral,happy,True,0.16666666666666666,0.9738336801528931,True,1,1,"Aha, what I have we hear.","Haha, what I have we hear."
+00340_0013_neutral_0013_000232,0013,neutral,happy,True,0.5,0.8827056288719177,True,0,0,We'll call her Lily for short.,"We'll call her Lily, prestored."
+00341_0013_neutral_0013_000274,0013,neutral,happy,True,0.0,1.0,True,skip_identical,1,Because he was a man with infinite resource and sagacity.,Because he was a man with infinite resource and sagacity.
+00342_0013_neutral_0013_000195,0013,neutral,happy,True,0.14285714285714285,0.9314073324203491,True,1,1,A boat put out on the bay.,A boat for out on the bay.
+00343_0013_neutral_0013_000060,0013,neutral,happy,True,0.3333333333333333,0.8877220153808594,True,1,1,"""That I am a born nurse.""",That I am a born nurse.
+00344_0013_neutral_0013_000197,0013,neutral,happy,True,0.7142857142857143,0.7245101928710938,False,0,0,"Fur flew through the air, teeth gnashed.","I like fur flew through the air, the teeth flashed."
+00345_0013_neutral_0013_000189,0013,neutral,happy,True,0.25,0.994840681552887,True,skip_high_sim,1,When such wanderers meet.,"When such wanderers meet,"
+00346_0013_neutral_0013_000206,0013,neutral,happy,True,0.8333333333333334,0.44402775168418884,False,0,0,Still you owe it a duty.,"Still you, always rejuvening."
+00347_0013_neutral_0013_000067,0013,neutral,happy,False,0.0,0.9999998807907104,True,skip_identical,1,"I suppose no, it doesn't.","I suppose no, it doesn't."
+00348_0013_neutral_0013_000021,0013,neutral,happy,True,0.6,0.9505783319473267,True,0,0,As rich as Peter's son-in-law.,As rich as Peter's son-in-law for you.
+00349_0013_neutral_0013_000052,0013,neutral,happy,False,0.0,1.0,True,skip_identical,1,From August 18th of their divorce.,From August 18th of their divorce.
+00350_0013_sad_0013_001092,0013,sad,happy,True,1.0,0.23247340321540833,False,0,0,She may mind ye of her.,To make my Yumi a birth.
+00351_0013_sad_0013_001391,0013,sad,happy,True,1.0,0.6958438158035278,False,0,0,Enough you of foolish chatter.,And now a few coolish chatter.
+00352_0013_sad_0013_001332,0013,sad,happy,True,0.0,1.0000001192092896,True,skip_identical,1,"Alice, I won't forget it again.","Alice, I won't forget it again."
+00353_0013_sad_0013_001349,0013,sad,happy,True,0.2,0.48551008105278015,False,0,0,His hope will cheat him.,His hope will cheer him.
+00354_0013_sad_0013_001053,0013,sad,happy,True,0.0,0.9999998807907104,True,skip_identical,1,That I owe my thanks to you.,That I owe my thanks to you.
+00355_0013_sad_0013_001182,0013,sad,happy,True,0.0,1.0,True,skip_identical,1,I thank you for this mercy.,I thank you for this mercy.
+00356_0013_sad_0013_001357,0013,sad,happy,True,0.6666666666666666,0.7866483330726624,False,1,1,I owe them five hundred dollars.,"I owe them $500, so they're for"
+00357_0013_sad_0013_001144,0013,sad,happy,True,0.25,0.8564450144767761,True,0,0,They found a cow grazing in a field.,If they've found a cow grazing in a field.
+00358_0013_sad_0013_001396,0013,sad,happy,True,0.0,1.0000001192092896,True,skip_identical,1,I am going to back home.,I am going to back home.
+00359_0013_sad_0013_001127,0013,sad,happy,True,0.6,0.8751070499420166,True,0,0,But I saw you walking.,What I saw you walk me.
+00360_0013_sad_0013_001367,0013,sad,happy,True,0.125,0.7776892185211182,False,0,0,At length they came to a sharp bend.,At length they came to a sharp and
+00361_0013_sad_0013_001065,0013,sad,happy,True,1.0,0.4575801193714142,False,0,0,"Poor Tom, now is dead.",Poor Tom. The canal was good.
+00362_0013_sad_0013_001198,0013,sad,happy,True,0.0,1.0,True,skip_identical,1,"And on top of them came Winnie, the cute bear.","And on top of them came Winnie, the cute bear."
+00363_0013_sad_0013_001246,0013,sad,happy,True,0.125,0.7166755199432373,False,0,0,Clear are your eyes and bright your breath.,Clear are your eyes and bright your breast.
+00364_0013_sad_0013_001056,0013,sad,happy,True,0.8181818181818182,0.49572622776031494,False,0,0,"Andy, what's the guy who wrote ""To Gimble"" and ""The Gyer""?",Andy wants the gyre and to gingle.
+00365_0013_sad_0013_001062,0013,sad,happy,True,1.6,0.7284620404243469,False,0,0,Her shoes were like fishes.,"For shoes, we're like fish with these fun toes."
+00366_0013_sad_0013_001120,0013,sad,happy,True,0.5,0.8986982107162476,True,0,0,"Tom, now let our arrows fly.","Tom, now let our arrows fly and happy."
+00367_0013_sad_0013_001280,0013,sad,happy,True,0.5714285714285714,0.8812838196754456,True,0,0,Your own wife is not at home.,If your own wife is not at home and
+00368_0013_sad_0013_001211,0013,sad,happy,True,0.75,0.5862904787063599,False,0,0,That's a full-grown colt.,That's a full grown cod.
+00369_0013_sad_0013_001234,0013,sad,happy,True,2.1666666666666665,0.03606632724404335,False,0,0,"We haven't been fine, have we?","When it happens that you bind to it, it happens with your tuna."
+00370_0013_sad_0013_001130,0013,sad,happy,True,0.8,0.24016925692558289,False,0,0,Then there was a report.,Then there was good working for us.
+00371_0013_sad_0013_001352,0013,sad,happy,True,0.6666666666666666,0.960106372833252,True,1,1,"501 million, right?",501 million right.
+00372_0013_sad_0013_001335,0013,sad,happy,True,0.16666666666666666,0.8572533130645752,True,0,0,"The straw, charcoal and the pea.","The straw, charcoal and the peach."
+00373_0013_sad_0013_001331,0013,sad,happy,True,0.5,0.689439058303833,False,0,0,He could not help doing so.,You cannot help doing so.
+00374_0013_sad_0013_001297,0013,sad,happy,True,0.4444444444444444,0.7809543609619141,False,0,0,She and I are running neck and neck race.,"If she and I are running neck and neck,"
+00375_0013_surprise_0013_001423,0013,surprise,happy,True,0.0,1.0,True,skip_identical,1,I thought you mean how old are you?,I thought you mean how old are you?
+00376_0013_surprise_0013_001599,0013,surprise,happy,True,1.0,0.4184010624885559,False,0,0,Captain Tom receives an angry letter,A reading a letter.
+00377_0013_surprise_0013_001707,0013,surprise,happy,True,0.25,0.9704625010490417,True,1,1,I owe them $500.,I owed them $500.
+00378_0013_surprise_0013_001675,0013,surprise,happy,True,0.125,0.9817730188369751,True,1,1,You shouldn't have pricked him with your horn.,You shouldn't have cricked him with your horn.
+00379_0013_surprise_0013_001487,0013,surprise,happy,True,0.5714285714285714,0.8774052262306213,True,0,0,"Yes, a hippo lives in the zoo.","While Hippo lives in the zoo,"
+00380_0013_surprise_0013_001631,0013,surprise,happy,False,0.375,0.6504249572753906,False,0,0,He told me that I ought to change?,D told me that I ought to change into
+00381_0013_surprise_0013_001622,0013,surprise,happy,True,0.2,0.9313481450080872,True,1,1,Ask God to help you?,Ask God to help you.
+00382_0013_surprise_0013_001635,0013,surprise,happy,True,0.0,1.0,True,skip_identical,1,"If not, I shall go no further.","If not, I shall go no further."
+00383_0013_surprise_0013_001578,0013,surprise,happy,True,7.0,0.10475721210241318,False,0,0,Yes.,He vowed he's changed the pigtails place.
+00384_0013_surprise_0013_001682,0013,surprise,happy,True,0.0,1.0000001192092896,True,skip_identical,1,"Alice, I won't forget it again.","Alice, I won't forget it again."
+00385_0013_surprise_0013_001429,0013,surprise,happy,True,0.0,1.0,True,skip_identical,1,Rat came and replied on the leaves.,Rat came and replied on the leaves.
+00386_0013_surprise_0013_001437,0013,surprise,happy,True,0.0,0.9999998807907104,True,skip_identical,1,I think it'll encourage me.,I think it'll encourage me.
+00387_0013_surprise_0013_001440,0013,surprise,happy,True,1.6666666666666667,0.4958541691303253,False,0,0,"In ""The Fox and the Grapes.""",In which fox loses a tail and its elder sister finds one?
+00388_0013_surprise_0013_001639,0013,surprise,happy,False,0.125,0.9268257021903992,True,1,1,This is the way the snakes always talk?,This is the way the snakes always talk.
+00389_0013_surprise_0013_001649,0013,surprise,happy,True,0.16666666666666666,0.9420971274375916,True,1,1,You may imagine how I gape.,You may imagine how I gaped.
+00390_0013_surprise_0013_001550,0013,surprise,happy,True,0.0,0.9999998211860657,True,skip_identical,1,I hope you enjoyed yourself.,I hope you enjoyed yourself.
+00391_0013_surprise_0013_001621,0013,surprise,happy,False,0.2,0.8958640098571777,True,1,1,I am a selfish sinner?,I am a selfish sinner.
+00392_0013_surprise_0013_001603,0013,surprise,happy,True,0.0,0.9999998807907104,True,skip_identical,1,I was not grabbed.,I was not grabbed.
+00393_0013_surprise_0013_001486,0013,surprise,happy,True,0.75,0.4852215051651001,False,1,1,And Tick Attack 2?,And tick-a-tack too.
+00394_0013_surprise_0013_001402,0013,surprise,happy,True,0.0,1.0,True,skip_identical,1,I did go and made many prisoners.,I did go and made many prisoners.
+00395_0013_surprise_0013_001744,0013,surprise,happy,True,0.25,0.9248638153076172,True,1,1,"Lucy, a clever farmer?","Lucy, a clever farmer."
+00396_0013_surprise_0013_001727,0013,surprise,happy,True,0.2,0.8218206763267517,True,1,1,It's part of my secret?,It's part of my secret.
+00397_0013_surprise_0013_001533,0013,surprise,happy,True,0.2857142857142857,0.9133721590042114,True,0,0,I smell the breath of an English.,I smell the breadth of an English
+00398_0013_surprise_0013_001668,0013,surprise,happy,True,0.3333333333333333,0.9050213098526001,True,1,1,He showed no signs of age.,He's shown no signs of age.
+00399_0013_surprise_0013_001625,0013,surprise,happy,True,0.4,0.902191162109375,True,1,1,"""Her existence makes him pleasant.""",Her existence makes him pleasant.
+00500_0014_angry_0014_000540,0014,angry,happy,True,0.375,0.4013037383556366,False,0,0,And they were sandy yellow brownish all over.,And they were San Diego Brownish all over.
+00501_0014_angry_0014_000444,0014,angry,happy,True,0.0,1.0,True,skip_identical,1,They found a cow grazing in a field.,They found a cow grazing in a field.
+00502_0014_angry_0014_000474,0014,angry,happy,True,0.2222222222222222,0.8037997484207153,True,1,1,You know answers to the name of Tom's son.,"You know, answers to the name of Thomas' son."
+00503_0014_angry_0014_000463,0014,angry,happy,True,0.8333333333333334,0.36382925510406494,False,0,0,Mr. Lawson saw George last night.,Mr. Lacewaste George Lask unites us.
+00504_0014_angry_0014_000428,0014,angry,happy,True,0.6666666666666666,0.5941756963729858,False,0,0,The art quite safe with me.,"The arch quite safe with me now, happy."
+00505_0014_angry_0014_000553,0014,angry,happy,False,0.0,0.9999998807907104,True,skip_identical,1,I was not grabbed.,I was not grabbed.
+00506_0014_angry_0014_000426,0014,angry,happy,True,0.5,0.5154783129692078,False,0,0,The hag looked in the stove.,The hag lift in this dough.
+00507_0014_angry_0014_000620,0014,angry,happy,True,0.6,0.8581745624542236,True,0,0,"""Chew leaves quickly,"" said Rabbit.","“Two Leaves quickly,” said Rabbit."
+00508_0014_angry_0014_000369,0014,angry,happy,True,0.2,0.9863173961639404,True,1,1,At the end of four.,"At the end of four,"
+00509_0014_angry_0014_000487,0014,angry,happy,True,0.3333333333333333,0.8389950394630432,True,0,0,Let the glass globe be G.,Let the glass globe ring.
+00510_0014_angry_0014_000399,0014,angry,happy,True,0.6,0.5184522867202759,False,0,0,"Then we all say, ""Aha!""",Then we all say a hug.
+00511_0014_angry_0014_000614,0014,angry,happy,True,0.16666666666666666,0.7912225723266602,False,0,0,Slam the doors and wedge them.,Slam the doors and wedge Panama.
+00512_0014_angry_0014_000362,0014,angry,happy,True,0.2,0.9907424449920654,True,skip_high_sim,1,Her shoes were like fishes.,Her shoes were like fish.
+00513_0014_angry_0014_000510,0014,angry,happy,True,0.2,0.718671441078186,False,0,0,"Kitty, can you play chess?","Kitty, can you play fetch?"
+00514_0014_angry_0014_000658,0014,angry,happy,True,0.2727272727272727,0.44209742546081543,False,0,0,Perhaps you think that is a queer title for this chapter.,Perhaps you think that is a clear title for this Jaff third.
+00515_0014_angry_0014_000600,0014,angry,happy,True,0.2,0.6551735401153564,False,0,0,Her kind and firm glance.,Her kind and firm length.
+00516_0014_angry_0014_000667,0014,angry,happy,True,0.375,0.34867042303085327,False,0,0,At length they came to a sharp bend.,"At length, they came to a shark van."
+00517_0014_angry_0014_000638,0014,angry,happy,True,0.16666666666666666,0.3919702172279358,False,0,0,She has felt shy of it.,She has felt shine of it.
+00518_0014_angry_0014_000643,0014,angry,happy,True,0.0,1.0,True,skip_identical,1,"He is old fashioned, but he is the best of men.","He is old fashioned, but he is the best of men."
+00519_0014_angry_0014_000506,0014,angry,happy,True,0.3333333333333333,0.6407872438430786,False,0,0,The eye could not catch them.,The eye could not have stunned.
+00520_0014_angry_0014_000613,0014,angry,happy,True,1.0,0.013017777353525162,False,0,0,She said in a subdued voice.,You're so beautiful.
+00521_0014_angry_0014_000501,0014,angry,happy,True,0.0,1.0,True,skip_identical,1,All the way to China is home.,All the way to China is home.
+00522_0014_angry_0014_000575,0014,angry,happy,True,0.0,0.9999998807907104,True,skip_identical,1,Her existence makes him pleasant.,Her existence makes him pleasant.
+00523_0014_angry_0014_000439,0014,angry,happy,True,0.16666666666666666,0.719818115234375,False,0,0,Let go of my top knot.,Let go of my top nine.
+00524_0014_angry_0014_000402,0014,angry,happy,True,0.16666666666666666,0.5553802847862244,False,0,0,From August 18th of their divorce.,From August 18th of their Devoise.
+00525_0014_neutral_0014_000331,0014,neutral,happy,True,0.42857142857142855,0.2801642417907715,False,0,0,She'll be feverish after so much thinking.,Shield V feebrous after so much thinking.
+00526_0014_neutral_0014_000160,0014,neutral,happy,True,0.9444444444444444,0.2981289327144623,False,0,0,"Yes, I can help you with chess. I can provide strategies, explain rules, or even play against you.","Good evening. Can you play, Shab?"
+00527_0014_neutral_0014_000203,0014,neutral,happy,True,0.25,0.7249189615249634,False,0,0,I was not grabbed.,I was not regret.
+00528_0014_neutral_0014_000053,0014,neutral,happy,True,0.6666666666666666,0.4662199914455414,False,0,0,He was still in the forest.,You were still him the fourth.
+00529_0014_neutral_0014_000179,0014,neutral,happy,True,0.2,0.6446680426597595,False,0,0,Daisy creams with pink edges.,Daisy cranes with pink edges.
+00530_0014_neutral_0014_000011,0014,neutral,happy,True,0.4,0.9525244235992432,True,1,1,"Chapter 10, A Warm Welcome.",Chapter 10: A Warm Welcome
+00531_0014_neutral_0014_000149,0014,neutral,happy,True,0.3333333333333333,0.6139030456542969,False,0,0,My winding sheet.,My winding sheep.
+00532_0014_neutral_0014_000254,0014,neutral,happy,True,0.0,0.9999998807907104,True,skip_identical,1,She laughed.,She laughed.
+00533_0014_neutral_0014_000082,0014,neutral,happy,True,0.0,1.0,True,skip_identical,1,The fair jaw cracker Dorf language must be.,The fair jaw cracker Dorf language must be.
+00534_0014_neutral_0014_000163,0014,neutral,happy,True,0.0,1.0,True,skip_identical,1,How they went to the mountains to eat nuts.,How they went to the mountains to eat nuts.
+00535_0014_neutral_0014_000234,0014,neutral,happy,True,0.5,0.832603394985199,True,1,1,Hurry up! Hurry up!,Turi up! Turi up!
+00536_0014_neutral_0014_000209,0014,neutral,happy,True,0.5714285714285714,0.37716010212898254,False,0,0,A raging fire was in his eyes.,"Hurray, James Pye was in his arms."
+00537_0014_neutral_0014_000141,0014,neutral,happy,True,0.0,0.9999999403953552,True,skip_identical,1,Can I lodge here tonight?,Can I lodge here tonight?
+00538_0014_neutral_0014_000232,0014,neutral,happy,True,0.5,0.9648267030715942,True,0,0,We'll call her Lily for short.,"Will call her Lily, her short."
+00539_0014_neutral_0014_000215,0014,neutral,happy,True,0.0,0.9999998807907104,True,skip_identical,1,He likes dragons very much.,He likes dragons very much.
+00540_0014_neutral_0014_000323,0014,neutral,happy,False,0.0,1.0000001192092896,True,skip_identical,1,Why did I wake up?,Why did I wake up?
+00541_0014_neutral_0014_000157,0014,neutral,happy,False,0.3333333333333333,0.948296844959259,True,1,1,Blackbird and Jay.,Blackbird and jay.
+00542_0014_neutral_0014_000066,0014,neutral,happy,True,0.0,1.0,True,skip_identical,1,Shall we let Barbara in?,Shall we let Barbara in?
+00543_0014_neutral_0014_000335,0014,neutral,happy,True,0.0,1.0,True,skip_identical,1,But things haven't changed yet.,But things haven't changed yet.
+00544_0014_neutral_0014_000346,0014,neutral,happy,True,0.0,1.0,True,skip_identical,1,I'm going to back home.,I'm going to back home.
+00545_0014_neutral_0014_000112,0014,neutral,happy,True,2.5,0.5341249108314514,False,0,0,"Clown: ""Joey!""",Floamy to call him Joey.
+00546_0014_neutral_0014_000162,0014,neutral,happy,True,0.0,0.9999998807907104,True,skip_identical,1,I lent George three pounds.,I lent George three pounds.
+00547_0014_neutral_0014_000023,0014,neutral,happy,True,0.125,0.9908581376075745,True,skip_high_sim,1,I thought you meant how old are you.,I thought you meant is how old are you.
+00548_0014_neutral_0014_000115,0014,neutral,happy,False,0.8333333333333334,0.5059677958488464,False,0,0,"He might call it, for example.","In my calling, for example,"
+00549_0014_neutral_0014_000045,0014,neutral,happy,True,0.875,0.563406229019165,False,0,0,The nastiest things they saw were the cobwebs.,"The nastiest things they saw, stores with cubs were like, come on."
+00550_0014_sad_0014_001242,0014,sad,happy,True,0.6666666666666666,0.3380172848701477,False,0,0,I have had to grow old.,"I have had two girls, holy heho."
+00551_0014_sad_0014_001367,0014,sad,happy,True,0.625,0.5059988498687744,False,0,0,At length they came to a sharp bend.,"At length, we pinged to if sharp then"
+00552_0014_sad_0014_001315,0014,sad,happy,True,0.2,0.8652745485305786,True,0,0,I've just shot a stag.,I've just shot a stout.
+00553_0014_sad_0014_001089,0014,sad,happy,True,0.4,0.9885284900665283,True,1,1,Our thanks to God's oath.,With our thanks to God's oath.
+00554_0014_sad_0014_001051,0014,sad,happy,True,0.5,0.938891589641571,True,0,0,The nine the eggs I keep.,The nine like the eggs I keep having.
+00555_0014_sad_0014_001262,0014,sad,happy,True,1.0,0.1589759886264801,False,0,0,"No, thank you.",I know makes you.
+00556_0014_sad_0014_001278,0014,sad,happy,True,1.0,0.3974866271018982,False,0,0,"It says, ""No way!"" shouted Daisy.",No way.
+00557_0014_sad_0014_001167,0014,sad,happy,True,1.2,0.4087812900543213,False,0,0,They were children of mine.,"""Mario's favorite children are Toad and Toadette."""
+00558_0014_sad_0014_001227,0014,sad,happy,True,0.8333333333333334,0.3783116042613983,False,0,0,Tom fell with a cloven head.,Tom Felton as
+00559_0014_sad_0014_001400,0014,sad,happy,True,0.0,1.0000001192092896,True,skip_identical,1,Do you have anything in mind?,Do you have anything in mind?
+00560_0014_sad_0014_001234,0014,sad,happy,True,0.0,1.0000001192092896,True,skip_identical,1,"We have been fine, haven't we?","We have been fine, haven't we?"
+00561_0014_sad_0014_001192,0014,sad,happy,True,0.0,1.0,True,skip_identical,1,Wake now my merry tads.,Wake now my merry tads.
+00562_0014_sad_0014_001214,0014,sad,happy,True,2.4285714285714284,0.1559872329235077,False,0,0,His large mouth curled into a sneer.,"Whether their fleas are large or not, let their curl, their beauty to see, and like their all."
+00563_0014_sad_0014_001114,0014,sad,happy,True,1.25,0.31688839197158813,False,0,0,And we're so thirsty.,And we're so for the U.S. and Mexico.
+00564_0014_sad_0014_001057,0014,sad,happy,True,0.2857142857142857,0.8262573480606079,True,0,0,I'm as bad as I can be.,"I'm as bad as I can, Lees."
+00565_0014_sad_0014_001161,0014,sad,happy,True,0.16666666666666666,0.9884827136993408,True,1,1,We nightly dance our heyday guys.,We nightly dance our hey-day guys.
+00566_0014_sad_0014_001388,0014,sad,happy,True,1.3333333333333333,0.59258633852005,False,0,0,Paul's teeth ached because of lemon.,When the pulse's teeth pinked because of lemon and on the
+00567_0014_sad_0014_001082,0014,sad,happy,True,0.8888888888888888,0.4334515333175659,False,0,0,Who's been repeating all that hard stuff to you?,"So with Lewis been repeating all that hard stuff, gee, we just wanna"
+00568_0014_sad_0014_001375,0014,sad,happy,True,0.0,1.0,True,skip_identical,1,She has no place for hot pepper.,She has no place for hot pepper.
+00569_0014_sad_0014_001085,0014,sad,happy,False,0.42857142857142855,0.7439190149307251,False,0,0,The name really is the Adjaged Men.,The named really is the adaged man.
+00570_0014_sad_0014_001392,0014,sad,happy,True,0.8333333333333334,0.3156496286392212,False,0,0,Why should I purchase my own?,Why should I croak is my own happy croak.
+00571_0014_sad_0014_001078,0014,sad,happy,True,0.18181818181818182,0.9693862199783325,True,1,1,She had said so that one could keep up a conversation.,She had saids till that one could keep up a conversation.
+00572_0014_sad_0014_001268,0014,sad,happy,True,0.42857142857142855,0.8264676928520203,True,0,0,I'll send for Tom to my boudoir.,"I'll send for Tom, can my brother?"
+00573_0014_sad_0014_001113,0014,sad,happy,True,0.0,0.9999999403953552,True,skip_identical,1,Asteroid 325.,Asteroid 325.
+00574_0014_sad_0014_001273,0014,sad,happy,True,2.0,0.29133835434913635,False,0,0,"Pick, pick, pick.",Hey Ben. Hey Ben. Hey Ben.
+00575_0014_surprise_0014_001525,0014,surprise,happy,True,0.5,0.4925067722797394,False,0,0,To catch that bulrush root with my paw?,To catch that bull rush route with my pal.
+00576_0014_surprise_0014_001685,0014,surprise,happy,True,0.5,0.763257622718811,False,1,1,"The straw, charcoal and the pea?","With straw, charcoal, and the pea."
+00577_0014_surprise_0014_001500,0014,surprise,happy,True,0.42857142857142855,0.9255716800689697,True,1,1,"Well, anyhow, it didn't rain, he said.","Well, anyhow, it didn't rain."
+00578_0014_surprise_0014_001546,0014,surprise,happy,True,0.3333333333333333,0.9794564247131348,True,1,1,He said to Jack the Chatterer.,"He said to Jack, the chatterer,"
+00579_0014_surprise_0014_001481,0014,surprise,happy,True,0.375,0.5430222749710083,False,0,0,And I never had a whooping cough. Why?,Yum. And I never had a whooping cup.
+00580_0014_surprise_0014_001569,0014,surprise,happy,True,1.4,0.6847167015075684,False,0,0,Sam waved his arm vaguely.,That Sam waved to his arms big like a lorry.
+00581_0014_surprise_0014_001615,0014,surprise,happy,True,0.2,0.867932915687561,True,0,0,He likes dragons very much.,It likes dragons very much.
+00582_0014_surprise_0014_001581,0014,surprise,happy,True,0.0,1.0000001192092896,True,skip_identical,1,"First, issue a reward.","First, issue a reward."
+00583_0014_surprise_0014_001498,0014,surprise,happy,True,0.6666666666666666,0.32408392429351807,False,0,0,Said the witch.,Say the wish.
+00584_0014_surprise_0014_001566,0014,surprise,happy,True,0.5714285714285714,0.7032580375671387,False,0,0,They eat beef at the butcher shop?,Say it's beef at the butcher's show.
+00585_0014_surprise_0014_001464,0014,surprise,happy,True,0.5,0.3777569532394409,False,0,0,And we're so thirsty.,"And we're so first, please."
+00586_0014_surprise_0014_001664,0014,surprise,happy,True,0.3333333333333333,0.8511818051338196,True,1,1,Slam the doors and wedge them.,Slam the doors and wrench them!
+00587_0014_surprise_0014_001405,0014,surprise,happy,True,0.25,0.8747872710227966,True,1,1,Clear than clear water.,Clear then clear water.
+00588_0014_surprise_0014_001562,0014,surprise,happy,True,0.4,0.8990585803985596,True,0,0,I lent George three pounds.,I'll lend George three pounds.
+00589_0014_surprise_0014_001726,0014,surprise,happy,True,0.0,1.0,True,skip_identical,1,They're made of wood.,They're made of wood.
+00590_0014_surprise_0014_001537,0014,surprise,happy,True,0.2,0.7167396545410156,False,0,0,Let the glass globe be.,Let the glass glow be.
+00591_0014_surprise_0014_001738,0014,surprise,happy,True,0.8333333333333334,0.4413198232650757,False,0,0,Paul's teeth ached because of lemon.,Pulsy egg and because of lemon and
+00592_0014_surprise_0014_001583,0014,surprise,happy,True,0.6,0.6034302711486816,False,0,0,Fresh pain sees Paul's body,Fresh pain sees posed body and happy
+00593_0014_surprise_0014_001734,0014,surprise,happy,True,0.6,0.8777949810028076,True,1,1,"Another one, ten thousand dollars.","Another one, $10,000."
+00594_0014_surprise_0014_001553,0014,surprise,happy,True,0.6666666666666666,0.7014843225479126,False,0,0,But we are not high yet.,But we're not here.
+00595_0014_surprise_0014_001737,0014,surprise,happy,True,0.16666666666666666,0.9545108079910278,True,0,0,"But mom, I'm not certain about.","With mom, I'm not certain about."
+00596_0014_surprise_0014_001655,0014,surprise,happy,True,0.0,1.0,True,skip_identical,1,"This was the 25th of November, 1783.","This was the 25th of November, 1783."
+00597_0014_surprise_0014_001497,0014,surprise,happy,True,1.6,0.3497493863105774,False,0,0,I can't confess to that.,"I confess, take you up in the 13th, Dora."
+00598_0014_surprise_0014_001503,0014,surprise,happy,True,0.375,0.9869478940963745,True,1,1,The elephant in the carpenter is the longest.,Elephant in the Carpenter is the longest.
+00599_0014_surprise_0014_001714,0014,surprise,happy,True,0.3333333333333333,0.5358110666275024,False,0,0,Bob goes to a new school?,Love goes to a new school.
+00100_0015_angry_0015_000579,0015,angry,happy,True,0.5,0.32292884588241577,False,0,0,The first year they sowed rye.,The first here they soar ride.
+00101_0015_angry_0015_000492,0015,angry,happy,True,0.0,1.0,True,skip_identical,1,Wake now my merry tads.,Wake now my merry tads.
+00102_0015_angry_0015_000650,0015,angry,happy,True,0.5,0.8765265345573425,True,0,0,Six was halfway down the room.,Sixth was half way down the room.
+00103_0015_angry_0015_000633,0015,angry,happy,True,0.2857142857142857,0.9737935662269592,True,0,0,They had been named Tom and Jerry.,They had been named Tom and Jerry with
+00104_0015_angry_0015_000460,0015,angry,happy,False,0.8,0.6932265162467957,False,0,0,Act drop second act scene.,"Act 1, Scene 2"
+00105_0015_angry_0015_000450,0015,angry,happy,True,0.42857142857142855,0.9255716800689697,True,1,1,"Well, anyhow, it didn't rain, he said.","Well, anyhow, it didn't rain."
+00106_0015_angry_0015_000435,0015,angry,happy,True,0.0,1.0,True,skip_identical,1,Suppose I take grandmother a fresh vegetable.,Suppose I take grandmother a fresh vegetable.
+00107_0015_angry_0015_000378,0015,angry,happy,True,0.6363636363636364,0.9052168130874634,True,0,0,She had said so that one could keep up a conversation.,"She said, ""So I got one who can keep up a conversation."""
+00108_0015_angry_0015_000372,0015,angry,happy,True,0.125,0.9805426597595215,True,1,1,"And what are doves, and what are doves?","And what are doves, and what are doves."
+00109_0015_angry_0015_000599,0015,angry,happy,True,0.16666666666666666,0.9420971274375916,True,1,1,You may imagine how I gape.,You may imagine how I gaped.
+00110_0015_angry_0015_000375,0015,angry,happy,True,0.42857142857142855,0.8932608366012573,True,0,0,She is now choosing skirt to wear.,She is now she was in skirt to wear.
+00111_0015_angry_0015_000638,0015,angry,happy,True,0.8333333333333334,0.1290244460105896,False,0,0,She has felt shy of it.,She jumps on the snowballs.
+00112_0015_angry_0015_000401,0015,angry,happy,True,1.0,0.23628678917884827,False,0,0,Said the American to Chinese.,"""Woo!"""
+00113_0015_angry_0015_000428,0015,angry,happy,True,0.0,1.0000001192092896,True,skip_identical,1,The art is quite safe with me.,The art is quite safe with me.
+00114_0015_angry_0015_000389,0015,angry,happy,True,0.0,1.0000001192092896,True,skip_identical,1,Our thanks to God's oath.,Our thanks to God's oath.
+00115_0015_angry_0015_000686,0015,angry,happy,True,0.6,0.8074601292610168,True,0,0,Over them swooped the eagles.,Over then sweep the Eagles.
+00116_0015_angry_0015_000601,0015,angry,happy,True,0.0,1.0,True,skip_identical,1,The ladybug told them proudly.,The ladybug told them proudly.
+00117_0015_angry_0015_000415,0015,angry,happy,True,0.0,1.0,True,skip_identical,1,Tom could hardly speak for laughing.,Tom could hardly speak for laughing.
+00118_0015_angry_0015_000474,0015,angry,happy,False,0.1111111111111111,0.8400503396987915,True,0,0,"You know, answers to the name of Tom's son.","You know, Astros to the name of Tom's son."
+00119_0015_angry_0015_000465,0015,angry,happy,True,0.16666666666666666,0.9844290018081665,True,1,1,He might call it for example.,"He might call it, for example."
+00120_0015_angry_0015_000371,0015,angry,happy,True,0.2,0.9497708082199097,True,0,0,As rich as Peter's son-in-law.,As we rich as Peter's son-in-law.
+00121_0015_angry_0015_000472,0015,angry,happy,True,0.0,1.0,True,skip_identical,1,Am I an absolute popper?,Am I an absolute popper?
+00122_0015_angry_0015_000421,0015,angry,happy,True,0.0,0.9999999403953552,True,skip_identical,1,She was born on April 1943.,She was born on April 1943.
+00123_0015_angry_0015_000641,0015,angry,happy,True,0.0,1.0,True,skip_identical,1,The end of February 14th.,The end of February 14th.
+00124_0015_angry_0015_000480,0015,angry,happy,True,0.0,1.0,True,skip_identical,1,And would spoil my joke.,And would spoil my joke.
+00125_0015_neutral_0015_000106,0015,neutral,happy,False,0.16666666666666666,0.9804786443710327,True,1,1,I guess it's a choice feast.,I'd guess it's a choice feast.
+00126_0015_neutral_0015_000315,0015,neutral,happy,True,1.0,0.2934999167919159,False,0,0,It's to say how do you do with Tom's answer.,"""Good, I'm good."""
+00127_0015_neutral_0015_000136,0015,neutral,happy,True,0.375,0.798961341381073,False,0,0,"She has eaten the tapioca, all of it.","She has eaten the tapioca, all of it is happy."
+00128_0015_neutral_0015_000283,0015,neutral,happy,True,0.5714285714285714,0.5046951174736023,False,0,0,They had been named Tom and Jerry.,Bae has named Tom and Berries.
+00129_0015_neutral_0015_000221,0015,neutral,happy,True,1.0,0.16337120532989502,False,0,0,I am a selfish sinner.,"Hello, my name is"
+00130_0015_neutral_0015_000285,0015,neutral,happy,False,0.16666666666666666,0.9184716939926147,True,1,1,"The straw, charcoal and the pea.","For straw, charcoal and the pea."
+00131_0015_neutral_0015_000143,0015,neutral,happy,True,0.0,1.0,True,skip_identical,1,Pussy can sit by the fire and sing.,Pussy can sit by the fire and sing.
+00132_0015_neutral_0015_000274,0015,neutral,happy,True,0.1,0.9167991876602173,True,0,0,Because he was a man with infinite resource and sagacity.,Because he was a man with infinite resource and swagger.
+00133_0015_neutral_0015_000124,0015,neutral,happy,True,3.5,0.24274052679538727,False,0,0,You know,You know answers to the name of Tom's son.
+00134_0015_neutral_0015_000134,0015,neutral,happy,True,0.0,1.0,True,skip_identical,1,Rare Rabbit had a little apron.,Rare Rabbit had a little apron.
+00135_0015_neutral_0015_000086,0015,neutral,happy,True,0.0,0.9999999403953552,True,skip_identical,1,And tick attack too.,And tick attack too.
+00136_0015_neutral_0015_000078,0015,neutral,happy,True,0.3333333333333333,0.6096816062927246,False,0,0,The art quite safe with me.,The arch quips safe with me.
+00137_0015_neutral_0015_000035,0015,neutral,happy,True,0.25,0.8298757076263428,True,0,0,The name really is the aged aged man.,The name really is the aged aged man happy.
+00138_0015_neutral_0015_000052,0015,neutral,happy,False,0.0,1.0,True,skip_identical,1,From August 18th of their divorce.,From August 18th of their divorce.
+00139_0015_neutral_0015_000269,0015,neutral,happy,True,1.0,0.07085852324962616,False,0,0,I'm an AI and I don't have a map.,But show me now you're met.
+00140_0015_neutral_0015_000020,0015,neutral,happy,True,0.2222222222222222,0.7760910391807556,False,0,0,At the roots of a bush of a grass.,"At the roots of a bush up, a grasshopper."
+00141_0015_neutral_0015_000340,0015,neutral,happy,True,0.1111111111111111,0.8573104739189148,True,1,1,So Tom saw night as it were broad daylight.,So Tante saw night as it were broad daylight.
+00142_0015_neutral_0015_000160,0015,neutral,happy,True,0.6,0.9378002882003784,True,1,1,"Kitty, can you play chess?","Kitty, do you want to play chess?"
+00143_0015_neutral_0015_000210,0015,neutral,happy,True,1.0,0.890751838684082,True,0,0,It weighs 7.5 kilogram.,It weighs seven point size kilo.
+00144_0015_neutral_0015_000177,0015,neutral,happy,True,0.16666666666666666,0.6282761693000793,False,0,0,Tom fell with the cloven head.,I'm fell with the cloven head.
+00145_0015_neutral_0015_000342,0015,neutral,happy,True,0.5,0.29516902565956116,False,0,0,Why should I purchase my own?,Why should I have heard this my own?
+00146_0015_neutral_0015_000278,0015,neutral,happy,True,0.0,0.9999998807907104,True,skip_identical,1,I know you.,I know you.
+00147_0015_neutral_0015_000006,0015,neutral,happy,True,0.8571428571428571,0.31771352887153625,False,0,0,"Andy, what's the gyr and to gimble?",Andi what's beguile a young girl.
+00148_0015_neutral_0015_000181,0015,neutral,happy,True,0.5,0.921667218208313,True,0,0,"First, issue a reward.","First, if issue a reward,"
+00149_0015_neutral_0015_000232,0015,neutral,happy,True,0.5,0.7739143371582031,False,0,0,We'll call her Lily for short.,We'll call her Lily for sure the free
+00150_0015_sad_0015_001134,0015,sad,happy,True,0.0,0.9999999403953552,True,skip_identical,1,By hook or by crook.,By hook or by crook.
+00151_0015_sad_0015_001200,0015,sad,happy,True,0.0,0.9999998211860657,True,skip_identical,1,I hope you enjoyed yourself.,I hope you enjoyed yourself.
+00152_0015_sad_0015_001119,0015,sad,happy,True,0.3333333333333333,0.6976087689399719,False,0,0,"Not much use is it, Sam.","Not much youth, is it, Sam?"
+00153_0015_sad_0015_001372,0015,sad,happy,True,0.25,0.9271987080574036,True,1,1,A special pot too.,A special pot to
+00154_0015_sad_0015_001139,0015,sad,happy,True,0.8333333333333334,0.9280102252960205,True,0,0,Let go of my top knot.,"You let go of my top knot, I really"
+00155_0015_sad_0015_001308,0015,sad,happy,True,0.5714285714285714,0.6615010499954224,False,0,0,"Mom shuts one's mouth up, doesn't it?","Mom's shots once laugh up, doesn't it?"
+00156_0015_sad_0015_001280,0015,sad,happy,False,0.2857142857142857,0.9190427660942078,True,1,1,Your own wife is not at home.,If your own wife is not at home.
+00157_0015_sad_0015_001364,0015,sad,happy,False,0.0,1.0,True,skip_identical,1,Bob goes to a new school.,Bob goes to a new school.
+00158_0015_sad_0015_001112,0015,sad,happy,True,1.4,0.12030529975891113,False,0,0,Tom went on Eeyore gloomily.,".com, you're Clint on it, you are Bloomalee."
+00159_0015_sad_0015_001216,0015,sad,happy,True,0.2857142857142857,0.7633886933326721,False,0,0,They ate beef at the butcher shop.,Fate eighth beef at the butcher shop.
+00160_0015_sad_0015_001194,0015,sad,happy,True,0.4,0.9232125282287598,True,0,0,We all see panda on TV or in the zoo.,"We'd all see Panda on TV, we're in the zoo."
+00161_0015_sad_0015_001126,0015,sad,happy,True,0.5,0.8240530490875244,True,0,0,The hag looked in the stove.,"If Bahag looked in the stove,"
+00162_0015_sad_0015_001396,0015,sad,happy,True,0.0,1.0,True,skip_identical,1,I'm going to back home.,I'm going to back home.
+00163_0015_sad_0015_001220,0015,sad,happy,True,0.6666666666666666,0.6132904887199402,False,0,0,But if you hadn't done them.,I'm glad with who hadn't done them.
+00164_0015_sad_0015_001127,0015,sad,happy,True,1.4,0.6203863620758057,False,0,0,But I saw you walking.,I love the feeling that I saw you walk in.
+00165_0015_sad_0015_001180,0015,sad,happy,True,0.4,0.7793850898742676,False,0,0,And would spoil my joke.,and would spoil my jolt.
+00166_0015_sad_0015_001355,0015,sad,happy,True,0.0,1.0,True,skip_identical,1,The fisherman and his wife see George every day.,The fisherman and his wife see George every day.
+00167_0015_sad_0015_001113,0015,sad,happy,False,0.5,0.7354263067245483,False,0,0,Asteroid 325,Astronomy 325
+00168_0015_sad_0015_001284,0015,sad,happy,True,0.0,0.9999999403953552,True,skip_identical,1,"Hurry up, hurry up.","Hurry up, hurry up."
+00169_0015_sad_0015_001279,0015,sad,happy,True,0.3333333333333333,0.530071496963501,False,0,0,The first year they sowed rye.,The first year they soar.
+00170_0015_sad_0015_001070,0015,sad,happy,True,0.0,0.9999998807907104,True,skip_identical,1,At the roots of a bush of a grass.,At the roots of a bush of a grass.
+00171_0015_sad_0015_001307,0015,sad,happy,True,0.5,0.6261272430419922,False,0,0,I would scoff at these followers.,I would scoff at his hollow words.
+00172_0015_sad_0015_001259,0015,sad,happy,True,0.14285714285714285,0.8937979340553284,True,0,0,A raging fire was in his eyes.,Her raging fire was in his eyes.
+00173_0015_sad_0015_001118,0015,sad,happy,True,0.6,0.006341032683849335,False,0,0,I do not eat bread.,"I do love you, Fred."
+00174_0015_sad_0015_001330,0015,sad,happy,True,0.4,0.5011566877365112,False,0,0,Your path now goes south.,Your path now grows sell.
+00175_0015_surprise_0015_001734,0015,surprise,happy,True,0.6,0.8161725401878357,True,1,1,"Another one, ten thousand dollars?","Another one, $10,000."
+00176_0015_surprise_0015_001468,0015,surprise,happy,True,1.0,0.15020443499088287,False,0,0,I do not eat bread.,"Hi Team Dottie, bread!"
+00177_0015_surprise_0015_001678,0015,surprise,happy,True,0.6666666666666666,0.5300670862197876,False,0,0,I know you.,I love you!
+00178_0015_surprise_0015_001673,0015,surprise,happy,True,0.2,0.8399507999420166,True,0,0,I just as soon swim your way as others do.,I just to suit swim your way as others do.
+00179_0015_surprise_0015_001625,0015,surprise,happy,True,0.0,0.9999998807907104,True,skip_identical,1,Her existence makes him pleasant.,Her existence makes him pleasant.
+00180_0015_surprise_0015_001645,0015,surprise,happy,True,0.0,1.0,True,skip_identical,1,Do you think it's a woozle?,Do you think it's a woozle?
+00181_0015_surprise_0015_001449,0015,surprise,happy,True,0.0,1.0,True,skip_identical,1,"Then we all say, ""Aha!""","Then we all say, ""Aha!"""
+00182_0015_surprise_0015_001541,0015,surprise,happy,True,0.4,0.7216023206710815,False,0,0,Can I lodge here tonight?,Can I watch you tonight?
+00183_0015_surprise_0015_001749,0015,surprise,happy,True,0.95,0.49068307876586914,False,0,0,I'll need a bit more context to provide a detailed response. Could you please provide the question you're referring to?,What do you plink up this question?
+00184_0015_surprise_0015_001453,0015,surprise,happy,True,0.0,0.9999998807907104,True,skip_identical,1,He was still in the forest.,He was still in the forest.
+00185_0015_surprise_0015_001438,0015,surprise,happy,True,0.5714285714285714,0.7868273258209229,False,0,0,"Hold up my chin, slow and solid.",Holds up my chin. I'm solid solid.
+00186_0015_surprise_0015_001564,0015,surprise,happy,True,0.14285714285714285,0.9224237203598022,True,1,1,His large mouth curled into a sneer.,'Tis large mouth curled into a sneer.
+00187_0015_surprise_0015_001694,0015,surprise,happy,False,0.6666666666666666,0.9322810173034668,True,0,0,Now I understand.,Now I understand the
+00188_0015_surprise_0015_001629,0015,surprise,happy,True,0.3333333333333333,0.8147804141044617,True,0,0,The first year they sowed rye.,"The first year they showed Rye,"
+00189_0015_surprise_0015_001679,0015,surprise,happy,True,0.14285714285714285,0.7252406477928162,False,0,0,These words behind the ears is nonsense.,These words behind the ears is non-Ksenn.
+00190_0015_surprise_0015_001676,0015,surprise,happy,True,1.1666666666666667,0.09313184022903442,False,0,0,"No, I don't have a name.",Can you and Nate be more hilarious?
+00191_0015_surprise_0015_001665,0015,surprise,happy,True,0.0,1.0,True,skip_identical,1,I've just shot a stag.,I've just shot a stag.
+00192_0015_surprise_0015_001589,0015,surprise,happy,True,0.25,0.9704608917236328,True,1,1,When such wanderers meet?,"When such wanderers meet,"
+00193_0015_surprise_0015_001494,0015,surprise,happy,False,0.125,0.7846740484237671,False,0,0,They found a cow grazing in a field.,They fought a cow grazing in a field.
+00194_0015_surprise_0015_001635,0015,surprise,happy,True,0.0,1.0,True,skip_identical,1,"If not, I shall go no further.","If not, I shall go no further."
+00195_0015_surprise_0015_001416,0015,surprise,happy,True,0.2857142857142857,0.9678922891616821,True,0,0,"Mr. Sharman, I move for a division.","Mr. Sharman, I'm moved for a division."
+00196_0015_surprise_0015_001481,0015,surprise,happy,True,0.25,0.40679579973220825,False,0,0,And I never had a whooping cough. Why?,And I never had a whooping cost wide.
+00197_0015_surprise_0015_001685,0015,surprise,happy,True,0.16666666666666666,0.8080462217330933,True,0,0,"The straw, charcoal and the pea.","The straw, tranquil, and the pea."
+00198_0015_surprise_0015_001460,0015,surprise,happy,True,0.0,0.9999999403953552,True,skip_identical,1,That I am a born nurse.,That I am a born nurse.
+00199_0015_surprise_0015_001568,0015,surprise,happy,True,0.125,0.9826902747154236,True,1,1,"I said you looked like an egg, sir.","I said you look like an egg, sir."
+00600_0016_angry_0016_000683,0016,angry,happy,True,0.2,0.8335080742835999,True,0,0,"You gain for nothing, girl.","You came for nothing, girl."
+00601_0016_angry_0016_000367,0016,angry,happy,False,0.0,1.0,True,skip_identical,1,Why has this egg not broken?,Why has this egg not broken?
+00602_0016_angry_0016_000448,0016,angry,happy,False,0.6666666666666666,0.7721812725067139,False,0,0,"""Said the witch.""",Set the Witch
+00603_0016_angry_0016_000406,0016,angry,happy,True,0.375,0.6976311206817627,False,0,0,Your midget wife never can sing a song.,Your midget wipes never can sing this dog.
+00604_0016_angry_0016_000415,0016,angry,happy,True,0.0,1.0,True,skip_identical,1,Tom could hardly speak for laughing.,Tom could hardly speak for laughing.
+00605_0016_angry_0016_000608,0016,angry,happy,True,0.5714285714285714,0.8766970634460449,True,0,0,"Mum shuts one's mouth up, doesn't it?","Mums chucks ones mouths up, doesn't it?"
+00606_0016_angry_0016_000549,0016,angry,happy,True,1.1666666666666667,0.343680202960968,False,0,0,Captain Tom receives an angry letter.,Keston Tom receives the net A in green letters.
+00607_0016_angry_0016_000381,0016,angry,happy,True,0.0,1.0,True,skip_identical,1,"All smile were real and the happier, the more sincere.","All smile were real and the happier, the more sincere."
+00608_0016_angry_0016_000557,0016,angry,happy,True,0.0,0.9999998807907104,True,skip_identical,1,"What am I? I'm a racer, son of God.","What am I? I'm a racer, son of God."
+00609_0016_angry_0016_000625,0016,angry,happy,False,0.125,0.8765681385993958,True,1,1,You shouldn't have pricked him with your horn.,You shouldn't have printed him with your horn.
+00610_0016_angry_0016_000578,0016,angry,happy,True,1.0,0.917175829410553,True,0,0,"""It says 'no way'!"" shouted Daisy.","It says no way, shouted Daisy, you piece."
+00611_0016_angry_0016_000543,0016,angry,happy,True,0.0,1.0,True,skip_identical,1,Please hire me after you.,Please hire me after you.
+00612_0016_angry_0016_000604,0016,angry,happy,True,0.0,0.9999998807907104,True,skip_identical,1,She laughed.,She laughed.
+00613_0016_angry_0016_000656,0016,angry,happy,True,0.625,0.6115249991416931,False,0,0,Please invite Tom if there is not requires.,Please invite Tom. It's there is knots but choirs.
+00614_0016_angry_0016_000470,0016,angry,happy,True,0.4,0.9404562711715698,True,1,1,Our King George is labourers.,Our King George is a labourer.
+00615_0016_angry_0016_000635,0016,angry,happy,True,0.5,0.7070847749710083,False,0,0,"The straw, charcoal and the pea.","The straw, the charcoal, and the pity."
+00616_0016_angry_0016_000373,0016,angry,happy,False,0.125,0.9824404716491699,True,1,1,I thought you meant how old are you?,"I thought you meant, how old are you?"
+00617_0016_angry_0016_000686,0016,angry,happy,True,0.4,0.964233934879303,True,1,1,Over them swooped the eagles.,Over them swoop the Eagles.
+00618_0016_angry_0016_000617,0016,angry,happy,False,0.8,0.5064252614974976,False,1,1,"[ 0m0s110ms - 0m1s10ms ] Chapter 11, on the doorstep.",On the doorstep.
+00619_0016_angry_0016_000628,0016,angry,happy,True,0.0,0.9999998807907104,True,skip_identical,1,I know you.,I know you.
+00620_0016_angry_0016_000391,0016,angry,happy,True,0.0,0.9999998807907104,True,skip_identical,1,I chose the right way.,I chose the right way.
+00621_0016_angry_0016_000523,0016,angry,happy,True,0.2,0.9578060507774353,True,1,1,He searched through the box.,He's searched through the box.
+00622_0016_angry_0016_000519,0016,angry,happy,True,1.0,0.7193741202354431,False,0,0,Sam waved his arm vaguely.,If Sam waved his arm big movement over her.
+00623_0016_angry_0016_000360,0016,angry,happy,True,1.6666666666666667,0.2904936671257019,False,0,0,A nauseous draft.,"""An honest and noshly strut."""
+00624_0016_angry_0016_000414,0016,angry,happy,True,0.2,0.9944827556610107,True,skip_high_sim,1,And we are so thirsty.,"And we are so thirsty,"
+00625_0016_neutral_0016_000272,0016,neutral,happy,True,0.6666666666666666,0.5156473517417908,False,0,0,No admittance except on party business.,No admitant except on party this nest swan.
+00626_0016_neutral_0016_000330,0016,neutral,happy,True,0.8,0.7159844040870667,False,0,0,She keeps saying I'm hers.,"She keeps saying, I'm her only sweetie."
+00627_0016_neutral_0016_000045,0016,neutral,happy,True,0.625,0.1917748898267746,False,0,0,The nastiest things they saw were the cobwebs.,The Naskus things say song were the cub libs.
+00628_0016_neutral_0016_000195,0016,neutral,happy,True,0.0,1.0,True,skip_identical,1,A boat put out on the bay.,A boat put out on the bay.
+00629_0016_neutral_0016_000207,0016,neutral,happy,True,0.8333333333333334,0.8845484256744385,True,1,1,"I'm a racer, son of God.","What am I? I'm a racer, son of a god."
+00630_0016_neutral_0016_000063,0016,neutral,happy,False,2.0,0.33423635363578796,False,0,0,Asteroid 325.,House of Lords 335
+00631_0016_neutral_0016_000106,0016,neutral,happy,True,0.5,0.6672955751419067,False,0,0,I guess it's a choice feast.,I guess it's a joyous feast tone.
+00632_0016_neutral_0016_000250,0016,neutral,happy,True,0.2,0.9626219272613525,True,1,1,Her kind and firm glance.,Her kind and firm gaze.
+00633_0016_neutral_0016_000213,0016,neutral,happy,True,0.125,0.892212986946106,True,0,0,"Let it give us a chance, my precious.","Let it give us a chance, my crush."
+00634_0016_neutral_0016_000167,0016,neutral,happy,True,0.2,0.5233542323112488,False,0,0,I toy with my liquor.,I toy with my lifer.
+00635_0016_neutral_0016_000222,0016,neutral,happy,True,0.6,0.7571578621864319,False,0,0,Ask God to help you.,Half God to help you out.
+00636_0016_neutral_0016_000329,0016,neutral,happy,True,0.0,1.0000001192092896,True,skip_identical,1,And his heart wagged with joy like a lamb's tail.,And his heart wagged with joy like a lamb's tail.
+00637_0016_neutral_0016_000102,0016,neutral,happy,True,0.42857142857142855,0.7058935165405273,False,1,1,"This is Jack, the relatives of Tom.","This is Jack, as the relative of Tone."
+00638_0016_neutral_0016_000215,0016,neutral,happy,True,0.6,0.38019514083862305,False,0,0,He likes dragons very much.,We like straggons very much.
+00639_0016_neutral_0016_000239,0016,neutral,happy,True,0.25,0.3643687963485718,False,0,0,This is the way that snakes always talk.,This is the way that snacks always top.
+00640_0016_neutral_0016_000026,0016,neutral,happy,True,0.16666666666666666,0.7614715099334717,False,0,0,Let's make the noise a snake.,Let's make the noise a snick.
+00641_0016_neutral_0016_000154,0016,neutral,happy,True,0.0,1.0,True,skip_identical,1,He dreamt them all night.,He dreamt them all night.
+00642_0016_neutral_0016_000307,0016,neutral,happy,True,0.5,0.9425678849220276,True,1,1,I owe them $500.,I owe 500 dollars.
+00643_0016_neutral_0016_000201,0016,neutral,happy,True,0.0,1.0,True,skip_identical,1,A lady is on Alice's lap.,A lady is on Alice's lap.
+00644_0016_neutral_0016_000040,0016,neutral,happy,True,0.16666666666666666,0.941057562828064,True,0,0,In which Fox loses a tail and its elder sister finds one.,In which Fox loses a tail and its elder sister finds one happy.
+00645_0016_neutral_0016_000185,0016,neutral,happy,True,0.125,0.4447205066680908,False,0,0,The newborn baby is stolen as we go.,The newborn baby is solid as we go.
+00646_0016_neutral_0016_000252,0016,neutral,happy,True,0.3333333333333333,0.7023090124130249,False,0,0,I am run off my feet.,I am run off to my beautified.
+00647_0016_neutral_0016_000157,0016,neutral,happy,False,0.0,1.0,True,skip_identical,1,Blackbird and Jay.,Blackbird and Jay.
+00648_0016_neutral_0016_000322,0016,neutral,happy,True,0.25,0.9174010157585144,True,1,1,A special pot two.,A special pot too.
+00649_0016_neutral_0016_000205,0016,neutral,happy,False,0.4,0.7329531908035278,False,0,0,Fear neither root nor sprout.,Here neither root nor sprout
+00650_0016_sad_0016_001102,0016,sad,happy,True,0.5,0.33407410979270935,False,0,0,From August 18th of their divorce.,On August 18th of Yodagoras.
+00651_0016_sad_0016_001338,0016,sad,happy,True,0.6666666666666666,0.2987307906150818,False,0,0,She has felt shy of it.,She has Hochzeierich.
+00652_0016_sad_0016_001232,0016,sad,happy,True,0.42857142857142855,0.7313675880432129,False,0,0,Age 45 if a day a lie.,Age forty-five if a day alive.
+00653_0016_sad_0016_001400,0016,sad,happy,True,1.3333333333333333,0.137164905667305,False,0,0,Do you have anything in mind?,"""Tela abriu, a Goni, minha mãe, e eu."""
+00654_0016_sad_0016_001231,0016,sad,happy,True,0.0,1.0000001192092896,True,skip_identical,1,"First, issue a reward.","First, issue a reward."
+00655_0016_sad_0016_001191,0016,sad,happy,True,1.2,0.4713575839996338,False,0,0,Can I lodge here tonight?,Can I have our cheer at you mount?
+00656_0016_sad_0016_001187,0016,sad,happy,True,0.2,0.8007855415344238,True,1,1,Let the glass globe be.,Let the glass globe beeb.
+00657_0016_sad_0016_001068,0016,sad,happy,True,1.1666666666666667,0.19455021619796753,False,0,0,"Then, sadly, it is much farther.","Then, as you like, it is enough, Shabbat, our boy."
+00658_0016_sad_0016_001074,0016,sad,happy,True,0.5714285714285714,0.630440354347229,False,0,0,The football teams give a tea party.,The football tunes give it a party
+00659_0016_sad_0016_001112,0016,sad,happy,True,0.6,0.37936463952064514,False,0,0,Tom went on your gloomily.,Tom went on his spring break.
+00660_0016_sad_0016_001244,0016,sad,happy,True,0.0,1.0,True,skip_identical,1,"Yes, I miss her.","Yes, I miss her."
+00661_0016_sad_0016_001298,0016,sad,happy,True,0.5,0.026361707597970963,False,0,0,In which Piglet meets a Elephant.,In which Peggotty writes a letter.
+00662_0016_sad_0016_001135,0016,sad,happy,True,0.0,1.0,True,skip_identical,1,Suppose I take grandmother a fresh vegetable.,Suppose I take grandmother a fresh vegetable.
+00663_0016_sad_0016_001228,0016,sad,happy,True,0.0,0.9999998211860657,True,skip_identical,1,And vowed he'd change the pigtail's place.,And vowed he'd change the pigtail's place.
+00664_0016_sad_0016_001163,0016,sad,happy,True,0.5,0.45208561420440674,False,0,0,Mr. Lawson saw George last night.,Mr. Lawson saw joyous faces.
+00665_0016_sad_0016_001192,0016,sad,happy,True,1.0,0.7411617040634155,False,0,0,"Wake now, my merry tads.","I thought I was awake now, my merry tads."
+00666_0016_sad_0016_001299,0016,sad,happy,True,0.3333333333333333,0.5528802275657654,False,0,0,You may imagine how I gape.,You may imagine how I great Pivotal.
+00667_0016_sad_0016_001089,0016,sad,happy,True,0.0,1.0000001192092896,True,skip_identical,1,Our thanks to God's oath.,Our thanks to God's oath.
+00668_0016_sad_0016_001165,0016,sad,happy,True,0.6666666666666666,0.5166820883750916,False,0,0,"He might call it, for example.",You might call it a hacker example.
+00669_0016_sad_0016_001303,0016,sad,happy,True,0.5,0.4573090076446533,False,0,0,I have a soothsayer.,I have a sweet saree.
+00670_0016_sad_0016_001323,0016,sad,happy,True,0.0,1.0,True,skip_identical,1,I just as soon swim your way as others do.,I just as soon swim your way as others do.
+00671_0016_sad_0016_001288,0016,sad,happy,True,1.0,0.8770747184753418,True,1,1,Today isn't any other day.,"Today, there isn't any other day. Look at it."
+00672_0016_sad_0016_001109,0016,sad,happy,True,0.6666666666666666,0.5027696490287781,False,0,0,043 A silver shilling is journey.,"043, a silver showing is joy."
+00673_0016_sad_0016_001058,0016,sad,happy,True,0.4,0.7428004145622253,False,0,0,That was his chief thought.,Gladfully to his chief thought.
+00674_0016_sad_0016_001131,0016,sad,happy,True,0.25,0.9241427183151245,True,0,0,"And I never had a whooping cough, why?",And I never had a whooping cough while.
+00675_0016_surprise_0016_001606,0016,surprise,happy,True,0.16666666666666666,0.902667760848999,True,1,1,Still you owe it a duty?,Do you owe it a duty?
+00676_0016_surprise_0016_001556,0016,surprise,happy,True,0.0,1.0,True,skip_identical,1,The eye could not catch them.,The eye could not catch them.
+00677_0016_surprise_0016_001421,0016,surprise,happy,True,0.6666666666666666,0.7390816807746887,False,0,0,As Rich's son-in-law?,As Richest Peter's son-in-law?
+00678_0016_surprise_0016_001542,0016,surprise,happy,True,0.2,0.9570078253746033,True,1,1,Wake now my merry tads.,Wake now my merry tats.
+00679_0016_surprise_0016_001746,0016,surprise,happy,True,0.3333333333333333,0.9939573407173157,True,skip_high_sim,1,I am going to Back Home.,I am going to back home.
+00680_0016_surprise_0016_001504,0016,surprise,happy,False,0.5,0.482712984085083,False,0,0,Here am I whom you seek?,"Here am I, home, you see."
+00681_0016_surprise_0016_001650,0016,surprise,happy,True,0.0,1.0,True,skip_identical,1,Her kind and firm glance.,Her kind and firm glance.
+00682_0016_surprise_0016_001663,0016,surprise,happy,True,0.8,0.6692458391189575,False,0,0,She said in subdued voice.,"If she said in subjunctive voice,"
+00683_0016_surprise_0016_001621,0016,surprise,happy,True,0.8,0.5975201725959778,False,0,0,I am a selfish sinner.,"Hi, I'm the selfish zinzer."
+00684_0016_surprise_0016_001675,0016,surprise,happy,True,0.375,0.8535157442092896,True,0,0,You shouldn't have pricked him with your horn.,He shouldn't have to prank him with your horn.
+00685_0016_surprise_0016_001414,0016,surprise,happy,False,0.3333333333333333,0.8495317101478577,True,0,0,"Annie, please, please don't hurt me.","Annie, please sleeves don't hurt me."
+00686_0016_surprise_0016_001443,0016,surprise,happy,True,0.4166666666666667,0.8969639539718628,True,1,1,"[ 0m0s110ms - 0m29s10ms ] Story 29, a boy and a monkey.","Story 29, a boy and a monkey."
+00687_0016_surprise_0016_001494,0016,surprise,happy,False,0.125,0.967999279499054,True,1,1,They found a cow grazing in a field.,They've found a cow grazing in a field.
+00688_0016_surprise_0016_001410,0016,surprise,happy,True,1.0,0.21646742522716522,False,0,0,A nauseous draft.,Anasha Strax
+00689_0016_surprise_0016_001601,0016,surprise,happy,True,0.0,1.0,True,skip_identical,1,A lady is on Alice's lap.,A lady is on Alice's lap.
+00690_0016_surprise_0016_001411,0016,surprise,happy,True,0.0,1.0000001192092896,True,skip_identical,1,Chapter 10: A Warm Welcome,Chapter 10: A Warm Welcome
+00691_0016_surprise_0016_001460,0016,surprise,happy,True,0.16666666666666666,0.9431800842285156,True,1,1,That I am a born nurse.,And I am a born nurse.
+00692_0016_surprise_0016_001624,0016,surprise,happy,True,0.16666666666666666,0.976660430431366,True,1,1,Do you know the lid opens?,Do you know how the lid opens?
+00693_0016_surprise_0016_001611,0016,surprise,happy,True,0.375,0.9144328832626343,True,1,1,From each cake there's springing a huge dog.,"From each cake, there sprang a huge dog."
+00694_0016_surprise_0016_001565,0016,surprise,happy,True,0.0,0.9999999403953552,True,skip_identical,1,They were going fast with a light clip.,They were going fast with a light clip.
+00695_0016_surprise_0016_001595,0016,surprise,happy,True,0.8571428571428571,0.44399964809417725,False,0,0,A boat put out on the bay.,On the beach.
+00696_0016_surprise_0016_001463,0016,surprise,happy,True,1.0,0.8690954446792603,True,0,0,Asteroid 325,Asteroid 320 Pits.
+00697_0016_surprise_0016_001683,0016,surprise,happy,False,0.5714285714285714,0.8626654148101807,True,1,1,That had been named Tom and Jerry.,Tom and Jerry.
+00698_0016_surprise_0016_001552,0016,surprise,happy,True,0.0,1.0,True,skip_identical,1,Guilty for what do you rule?,Guilty for what do you rule?
+00699_0016_surprise_0016_001748,0016,surprise,happy,True,0.0,1.0,True,skip_identical,1,"Dear customer, welcome to our ship.","Dear customer, welcome to our ship."
+00000_0017_angry_0017_000506,0017,angry,happy,True,1.0,0.11045283079147339,False,0,0,The eye could not catch them.,I smacked pizza.
+00001_0017_angry_0017_000560,0017,angry,happy,True,1.75,0.18653909862041473,False,0,0,It weighs 7.5 kilogram.,"Baby's 7, King 5, baby's gonna grand."
+00002_0017_angry_0017_000511,0017,angry,happy,True,0.8,0.35711127519607544,False,0,0,That's a full grown cult.,I got the full grown hope.
+00003_0017_angry_0017_000520,0017,angry,happy,True,0.6666666666666666,0.43477863073349,False,0,0,"But if you hadn't done them,",But it's beauty if I hadn't done Mary.
+00004_0017_angry_0017_000399,0017,angry,happy,True,0.2,0.9055825471878052,True,0,0,"Then, we all say, ""Aha!""","Then, we all say, ""Sah-ah!"""
+00005_0017_angry_0017_000368,0017,angry,happy,True,1.1666666666666667,0.14392328262329102,False,0,0,"Then sadly, it is much farther.","I always want you all to go,"
+00006_0017_angry_0017_000658,0017,angry,happy,True,0.45454545454545453,0.6464202404022217,False,0,0,Perhaps you think that is a queer title for this chapter.,This looks hot. I think that is a cool title for this chapter.
+00007_0017_angry_0017_000513,0017,angry,happy,True,0.8888888888888888,0.4448518753051758,False,0,0,How they went to the mountains to eat nuts.,"How they went to the mountains, we go there, we love to go there."
+00008_0017_angry_0017_000512,0017,angry,happy,True,1.0,0.44017085433006287,False,0,0,I lent George three pounds.,"I went to George, we bounced."
+00009_0017_angry_0017_000532,0017,angry,happy,True,1.5714285714285714,0.2945557236671448,False,0,0,Age forty-five if a day a lie.,"This game is totally five. I feel like a good day, Elide."
+00010_0017_angry_0017_000679,0017,angry,happy,True,0.3,0.9865365028381348,True,0,0,And his heart wagged with joy like a lamb's tail.,and his heart wagged with joy like a lamb's.
+00011_0017_angry_0017_000630,0017,angry,happy,True,1.2,0.0822257325053215,False,0,0,Your path now goes south.,"""Roughly translated: My friend Zhou smiled."""
+00012_0017_angry_0017_000576,0017,angry,happy,True,1.0,0.6362789273262024,False,0,0,"And the next day, Nurse will be released.","And the next day, that we have nursed, that you'll be your loose."
+00013_0017_angry_0017_000672,0017,angry,happy,True,0.25,0.4346889853477478,False,0,0,A special pot too.,A special hop too.
+00014_0017_angry_0017_000594,0017,angry,happy,True,0.4,0.6107209920883179,False,0,0,Off for the prison ship.,"Aww, for the prison chick."
+00015_0017_angry_0017_000395,0017,angry,happy,True,0.375,0.22205498814582825,False,0,0,The nastiest things they saw were the cobwebs.,The nicest things we saw were the cobblestones.
+00016_0017_angry_0017_000681,0017,angry,happy,True,1.0,0.4192960262298584,False,0,0,She'll be feverish after so much thinking.,"She was so excited. Go, my Coburn."
+00017_0017_angry_0017_000534,0017,angry,happy,True,0.5,0.7545461654663086,False,0,0,"We have been fine, haven't we?","We've been fun, haven't we?"
+00018_0017_angry_0017_000463,0017,angry,happy,True,1.3333333333333333,0.25993597507476807,False,0,0,Mr Lawson saw George last night.,"Mr. Law said he saw Joanne, she laughed nice."
+00019_0017_angry_0017_000651,0017,angry,happy,True,0.3333333333333333,0.559643030166626,False,0,0,I'm sure your friends can wait.,I'm sure your friends dingle up.
+00020_0017_angry_0017_000390,0017,angry,happy,True,0.0,1.0,True,skip_identical,1,In which Fox loses a tail and its elder sister finds one.,In which Fox loses a tail and its elder sister finds one.
+00021_0017_angry_0017_000483,0017,angry,happy,True,0.42857142857142855,0.8598799705505371,True,0,0,I smell the breath of an English.,"Nice smells, the grasp of an English."
+00022_0017_angry_0017_000450,0017,angry,happy,True,1.0,0.30273839831352234,False,0,0,"Well, anyhow, it didn't rain, he said.","Anyhow, you did great, my sweet kid."
+00023_0017_angry_0017_000371,0017,angry,happy,True,0.6,0.8165411949157715,True,0,0,As rich as Peter's son-in-law.,As rich as Peter's fun and lofts.
+00024_0017_angry_0017_000477,0017,angry,happy,True,0.7142857142857143,0.6737267971038818,False,0,0,Because I know I had some honey.,I know. I had some tiny bees fun.
+00025_0017_neutral_0017_000108,0017,neutral,happy,True,0.0,0.9999998807907104,True,skip_identical,1,The squire himself showed perfect.,The squire himself showed perfect.
+00026_0017_neutral_0017_000237,0017,neutral,happy,True,1.3333333333333333,0.30389007925987244,False,0,0,They would go to the beach.,What would they do at the end of the year?
+00027_0017_neutral_0017_000044,0017,neutral,happy,True,0.0,1.0,True,skip_identical,1,"Take courage, all isn't lost yet.","Take courage, all isn't lost yet."
+00028_0017_neutral_0017_000290,0017,neutral,happy,True,0.0,1.0000001192092896,True,skip_identical,1,There goes the shawl again.,There goes the shawl again.
+00029_0017_neutral_0017_000321,0017,neutral,happy,True,0.5,0.6817959547042847,False,0,0,Called out the cloud.,Pulled out the clouds.
+00030_0017_neutral_0017_000247,0017,neutral,happy,True,0.5,0.5038870573043823,False,0,0,She and I are running a neck and neck race.,She and I are running and napping in their reefs.
+00031_0017_neutral_0017_000040,0017,neutral,happy,False,0.0,1.0,True,skip_identical,1,In which Fox loses a tail and its elder sister finds one.,In which Fox loses a tail and its elder sister finds one.
+00032_0017_neutral_0017_000051,0017,neutral,happy,False,1.25,0.10290376096963882,False,0,0,"""Where's the nearest bar?""",Said be American to Chinese.
+00033_0017_neutral_0017_000283,0017,neutral,happy,True,0.2857142857142857,0.9110285043716431,True,0,0,They had been named Tom and Jerry.,We have been named Tom and Jerry.
+00034_0017_neutral_0017_000322,0017,neutral,happy,True,0.25,0.5047454833984375,False,0,0,A special pot too.,A special pop too.
+00035_0017_neutral_0017_000297,0017,neutral,happy,True,0.4444444444444444,0.9339889287948608,True,0,0,How Tom and Jerry went to visit Mr. Sam.,That's how Tom and Jerry went to his at Mr. Sam.
+00036_0017_neutral_0017_000117,0017,neutral,happy,True,0.2,0.561247706413269,False,0,0,They were children of mine.,They were children of mime.
+00037_0017_neutral_0017_000168,0017,neutral,happy,True,0.875,0.1629224568605423,False,0,0,"I said you looked like an egg, sir.","I saggy love Blake and Agy, sirs."
+00038_0017_neutral_0017_000200,0017,neutral,happy,True,0.5714285714285714,0.4521394968032837,False,0,0,The cloth does not look worth much.,If floss does not look worth them up.
+00039_0017_neutral_0017_000052,0017,neutral,happy,False,0.0,1.0,True,skip_identical,1,From August 18th of their divorce.,From August 18th of their divorce.
+00040_0017_neutral_0017_000338,0017,neutral,happy,True,0.8333333333333334,0.7908880114555359,False,0,0,Paul's teeth ached because of lemon.,Paul's teeth ace. You'd hug up lemons.
+00041_0017_neutral_0017_000346,0017,neutral,happy,True,0.3333333333333333,0.9939573407173157,True,skip_high_sim,1,I am going to back home.,I am going to Back Home.
+00042_0017_neutral_0017_000254,0017,neutral,happy,True,0.0,0.9999998807907104,True,skip_identical,1,She laughed.,She laughed.
+00043_0017_neutral_0017_000196,0017,neutral,happy,True,0.125,0.9961071014404297,True,skip_high_sim,1,Clear are your eyes and bright your breath.,Clear are your eyes and bright your breaths.
+00044_0017_neutral_0017_000064,0017,neutral,happy,False,0.2,0.5312995910644531,False,0,0,And we are so thirsty.,And we are so thirsties.
+00045_0017_neutral_0017_000315,0017,neutral,happy,True,0.0,0.9999999403953552,True,skip_identical,1,It's to say how do you do with Tom's answer.,It's to say how do you do with Tom's answer.
+00046_0017_neutral_0017_000319,0017,neutral,happy,True,1.0,0.3727986514568329,False,0,0,How could I dig burrows with short toenails?,It's all good eyes in burrows in Fort Tonawanda.
+00047_0017_neutral_0017_000165,0017,neutral,happy,True,0.375,0.7344788908958435,False,0,0,They were going fast with a light clip.,If they were going fast with a light click.
+00048_0017_neutral_0017_000140,0017,neutral,happy,True,0.0,1.0,True,skip_identical,1,What an impetuous boy he is.,What an impetuous boy he is.
+00049_0017_neutral_0017_000066,0017,neutral,happy,True,0.0,1.0,True,skip_identical,1,Shall we let Barbara in?,Shall we let Barbara in?
+00050_0017_sad_0017_001117,0017,sad,happy,True,0.4,0.8143551349639893,True,1,1,"I suppose no, it doesn't.","I was like, no, it doesn't."
+00051_0017_sad_0017_001340,0017,sad,happy,True,0.2,0.5335916876792908,False,0,0,There goes the shawl again.,There goes the show again.
+00052_0017_sad_0017_001144,0017,sad,happy,True,0.5,0.46852871775627136,False,0,0,They found a cow grazing in a field.,"It found its pal, Threedy, in a field."
+00053_0017_sad_0017_001395,0017,sad,happy,True,0.2,0.8723042011260986,True,0,0,Our worrying noise was heard.,Our wearing noise was heard.
+00054_0017_sad_0017_001314,0017,sad,happy,True,0.3333333333333333,0.6548669338226318,False,1,1,Slam the doors and wedge them.,Slam the doors and wed then.
+00055_0017_sad_0017_001264,0017,sad,happy,True,0.8333333333333334,0.5096381902694702,False,0,0,"But what about this thing, sticky.",But what about this thing? Let's take bees over.
+00056_0017_sad_0017_001257,0017,sad,happy,True,0.1111111111111111,0.9758924245834351,True,0,0,"What am I? I'm a racer, son of God.","What am I? I'm a racer, kind of God."
+00057_0017_sad_0017_001366,0017,sad,happy,True,1.2,0.0010317526757717133,False,0,0,A thief in the night.,"Good to you, Jim, and I."
+00058_0017_sad_0017_001361,0017,sad,happy,True,0.0,0.9999999403953552,True,skip_identical,1,I am safe. Back again.,I am safe. Back again.
+00059_0017_sad_0017_001231,0017,sad,happy,True,0.25,0.8493146896362305,True,0,0,"First, issue a reward.","First, it's a reward."
+00060_0017_sad_0017_001266,0017,sad,happy,True,1.0,-0.05119486153125763,False,0,0,It isn't picked at all.,"Beauty, we can take it all."
+00061_0017_sad_0017_001400,0017,sad,happy,True,0.0,1.0000001192092896,True,skip_identical,1,Do you have anything in mind?,Do you have anything in mind?
+00062_0017_sad_0017_001346,0017,sad,happy,False,0.0,1.0,True,skip_identical,1,You woke me up.,You woke me up.
+00063_0017_sad_0017_001248,0017,sad,happy,True,1.0,0.4883728325366974,False,0,0,I'd shoot myself. A pause.,I just cheated myself. Applause.
+00064_0017_sad_0017_001093,0017,sad,happy,True,0.42857142857142855,0.5862418413162231,False,0,0,"Story 29, A Boy and a Monkey.","Story 29, Our Boy and Among Bees."
+00065_0017_sad_0017_001318,0017,sad,happy,True,0.5,0.7375887632369995,False,0,0,He showed no signs of age.,"See you showed, no signs of age."
+00066_0017_sad_0017_001159,0017,sad,happy,True,0.4,0.8591586351394653,True,0,0,If they mother knew it.,You say mother knew it.
+00067_0017_sad_0017_001061,0017,sad,happy,True,0.2,0.9807500839233398,True,1,1,Chapter 10: A Warm Welcome,Chapter 10 A Warm Welcome
+00068_0017_sad_0017_001204,0017,sad,happy,True,0.6,0.5806900262832642,False,0,0,He dreamt them all night.,Seems around for them all night.
+00069_0017_sad_0017_001302,0017,sad,happy,True,0.5,0.4100162386894226,False,0,0,I am run off my feet.,I am run all to my sweethearts.
+00070_0017_sad_0017_001235,0017,sad,happy,True,0.375,0.9036194086074829,True,0,0,The newborn baby is stolen as we go.,The newborn babies stole one as we go.
+00071_0017_sad_0017_001277,0017,sad,happy,True,0.625,0.4823821187019348,False,0,0,"Born once, every 100 years, dies in flames.","Four and once, every 100 years, skies and planes."
+00072_0017_sad_0017_001310,0017,sad,happy,False,0.1111111111111111,0.8131858110427856,True,0,0,"As soon as she went in, there was disorder.","As soon as she went in, fair was disorder."
+00073_0017_sad_0017_001227,0017,sad,happy,True,0.5,0.35091203451156616,False,0,0,Tom fell with a cloven head.,A pomfret with a floven head.
+00074_0017_sad_0017_001368,0017,sad,happy,True,0.125,0.45407089591026306,False,0,0,The name of the song is called Haddocks.,"The name of the song is called ""Hahadix""."
+00075_0017_surprise_0017_001451,0017,surprise,happy,True,0.9512195121951219,0.2062520682811737,False,0,0,"""Said the American to the Chinese, 'I am a man of science. I have a telescope. I will show you the moon.' The Chinese said, 'I am a man of wisdom. I have a telescope. I will show you the moon.'""","Said the American two trengies,"
+00076_0017_surprise_0017_001743,0017,surprise,happy,True,0.0,1.0,True,skip_identical,1,And what does it mean?,And what does it mean?
+00077_0017_surprise_0017_001715,0017,surprise,happy,True,0.1,0.9581175446510315,True,0,0,It's to say how do you do with Tom's answer?,If to say how do you do with Tom's answer?
+00078_0017_surprise_0017_001427,0017,surprise,happy,True,6.0,0.25131866335868835,False,0,0,Yes.,"Momster made a Jeep style, yes!"
+00079_0017_surprise_0017_001718,0017,surprise,happy,True,0.0,0.9999998807907104,True,skip_identical,1,The name of the song is called Haddix.,The name of the song is called Haddix.
+00080_0017_surprise_0017_001680,0017,surprise,happy,True,0.0,1.000000238418579,True,skip_identical,1,Your path now goes south.,Your path now goes south.
+00081_0017_surprise_0017_001669,0017,surprise,happy,False,0.5,0.5321640372276306,False,0,0,But show me now your map?,Show me now your mask.
+00082_0017_surprise_0017_001553,0017,surprise,happy,True,0.16666666666666666,0.7990425825119019,False,0,0,But we are not high yet?,But we are not how yet?
+00083_0017_surprise_0017_001414,0017,surprise,happy,True,1.0,0.15832071006298065,False,0,0,"Annie, please, please don't hurt me.","Hammies, sleeves squeezed on hossy."
+00084_0017_surprise_0017_001473,0017,surprise,happy,True,0.75,0.19011494517326355,False,0,0,How suspicious this fox?,How special is that?
+00085_0017_surprise_0017_001503,0017,surprise,happy,True,0.375,0.640113115310669,False,0,0,The elephant and the carpenter is the longest.,The elephant and the carpet are the mungus.
+00086_0017_surprise_0017_001714,0017,surprise,happy,True,0.3333333333333333,0.2912432551383972,False,0,0,Bob goes to a new school.,Sob goes to a new stool.
+00087_0017_surprise_0017_001665,0017,surprise,happy,True,0.2,0.5450283288955688,False,0,0,I've just shot a stag?,I've just shot a sack.
+00088_0017_surprise_0017_001497,0017,surprise,happy,True,0.42857142857142855,0.7769746780395508,False,0,0,Confess that you opened the thirteenth door?,"To celebrate that you opened the thirteenth door,"
+00089_0017_surprise_0017_001448,0017,surprise,happy,True,0.2857142857142857,0.8096489906311035,True,0,0,You're not a runaway? Who are you?,"You're not a runaway, Sue are you?"
+00090_0017_surprise_0017_001512,0017,surprise,happy,True,0.6,0.6811002492904663,False,0,0,Clown? To call him Joey?,"Hello, let's call him Joey."
+00091_0017_surprise_0017_001540,0017,surprise,happy,True,0.16666666666666666,0.9507192373275757,True,0,0,What an impetuous boy he is!,What an impolite boy he is!
+00092_0017_surprise_0017_001695,0017,surprise,happy,True,0.16666666666666666,0.8483821153640747,True,1,1,I know how to obey orders?,I know how to obey orders.
+00093_0017_surprise_0017_001520,0017,surprise,happy,False,0.5,0.8511068224906921,True,0,0,Are King George's laborers?,Park King is George's laborers?
+00094_0017_surprise_0017_001723,0017,surprise,happy,False,0.4,0.9512856006622314,True,1,1,Why did I wake up?,And why did I wake up?
+00095_0017_surprise_0017_001642,0017,surprise,happy,True,0.18181818181818182,0.8461693525314331,True,0,0,Give me your hand or I will cry harder than before.,Give me your hand there I will cry hotter than before.
+00096_0017_surprise_0017_001700,0017,surprise,happy,True,0.0,1.0,True,skip_identical,1,Six was halfway down the room.,Six was halfway down the room.
+00097_0017_surprise_0017_001491,0017,surprise,happy,True,0.2857142857142857,0.9696804285049438,True,1,1,We expected Tom would jump for joy.,We expect that Tom would jump for joy.
+00098_0017_surprise_0017_001711,0017,surprise,happy,True,0.6,0.6283921003341675,False,0,0,I am safe back again?,I am safe back with his men.
+00099_0017_surprise_0017_001527,0017,surprise,happy,True,0.0,1.0,True,skip_identical,1,Because I know I had some honey.,Because I know I had some honey.
+00700_0018_angry_0018_000685,0018,angry,happy,True,0.2,0.9951862692832947,True,skip_high_sim,1,But things haven't changed yet.,But the things haven't changed yet.
+00701_0018_angry_0018_000365,0018,angry,happy,True,0.6,0.36491480469703674,False,0,0,Poor Tom now is dead.,Port Tom now is Dev's home.
+00702_0018_angry_0018_000538,0018,angry,happy,True,0.0,0.9999998807907104,True,skip_identical,1,Now quicker the fiddle went.,Now quicker the fiddle went.
+00703_0018_angry_0018_000468,0018,angry,happy,True,2.25,0.49742844700813293,False,0,0,"Look out, said Alice.","Looked out. Said, ""Alives, I can say the first."""
+00704_0018_angry_0018_000363,0018,angry,happy,True,0.3,0.7709577083587646,False,0,0,I have bun-burried all over goat on two separate occasions.,I'd have fun buried all over goat on two separate occasions.
+00705_0018_angry_0018_000358,0018,angry,happy,True,0.4,0.6160416007041931,False,0,0,That was his chief thought.,That was the 17th thought.
+00706_0018_angry_0018_000681,0018,angry,happy,True,0.5714285714285714,0.4425774812698364,False,0,0,She'll be feverish after so much thinking.,"""Shobbeke, feburish after so much thinking."""
+00707_0018_angry_0018_000351,0018,angry,happy,True,0.5,0.8435437679290771,True,0,0,The nine the eggs I keep.,The nine the eggs I keep. I love them.
+00708_0018_angry_0018_000670,0018,angry,happy,True,0.42857142857142855,0.6210049986839294,False,0,0,Goat Billy asked the old Chinese guy.,Go Philly! Ask the old Chinese guy.
+00709_0018_angry_0018_000614,0018,angry,happy,True,0.16666666666666666,0.792475700378418,False,0,0,Slam the doors and wedge them.,Slam the doors and wedge dances.
+00710_0018_angry_0018_000393,0018,angry,happy,False,0.375,0.9357259273529053,True,1,1,"Story twenty nine, a boy and a monkey.",Story 29. A boy and a monkey.
+00711_0018_angry_0018_000380,0018,angry,happy,True,1.0,0.3719862103462219,False,0,0,Must a name mean something?,"Must amaze means ""must be amazing."""
+00712_0018_angry_0018_000602,0018,angry,happy,True,0.6666666666666666,0.9203628301620483,True,0,0,I am run off my feet.,I am run off my feet to full effect.
+00713_0018_angry_0018_000407,0018,angry,happy,True,1.0,0.3150483965873718,False,0,0,Hannibal come to see you.,I'm happy to be here to see you.
+00714_0018_angry_0018_000372,0018,angry,happy,True,0.375,0.907258152961731,True,0,0,"And what are doves, and what are doves?",And what are doves? And what are doved.
+00715_0018_angry_0018_000413,0018,angry,happy,True,1.0,0.45402514934539795,False,1,1,Asteroid three hundred and twenty-five.,Astr. 325.
+00716_0018_angry_0018_000427,0018,angry,happy,True,1.0,0.6279968619346619,False,0,0,But I saw you walking.,"But I saw you and rocked the angles, everybody."
+00717_0018_angry_0018_000505,0018,angry,happy,False,0.5714285714285714,0.8267934918403625,True,0,0,"""this speech roused Dame Isolde to anger.""",This speech rouses Dame Iolks to anger.
+00718_0018_angry_0018_000669,0018,angry,happy,True,0.25,0.8211655616760254,True,0,0,How could I dig burrows with short toenails?,How could I dig burls for short toenails?
+00719_0018_angry_0018_000430,0018,angry,happy,True,0.6,0.826488733291626,True,0,0,Then there was a report.,Then there was a report for you.
+00720_0018_angry_0018_000424,0018,angry,happy,True,0.2857142857142857,0.3504043221473694,False,0,0,Come on my jack in the boxes.,Come on my jazz in the boxers.
+00721_0018_angry_0018_000580,0018,angry,happy,True,0.2857142857142857,0.524124026298523,False,0,0,Your own wife is not at home.,"Your own whites, it's not at home."
+00722_0018_angry_0018_000553,0018,angry,happy,True,0.0,0.9999998807907104,True,skip_identical,1,I was not grabbed.,I was not grabbed.
+00723_0018_angry_0018_000559,0018,angry,happy,True,0.14285714285714285,0.8070423603057861,True,0,0,A raging fire was in his eyes.,A ranching's fire was in his eyes.
+00724_0018_angry_0018_000562,0018,angry,happy,True,0.0,0.9999999403953552,True,skip_identical,1,"No, thank you.","No, thank you."
+00725_0018_neutral_0018_000141,0018,neutral,happy,True,0.8,0.8414608836174011,True,0,0,Can I lodge here tonight?,I'm at our lodge here tonight.
+00726_0018_neutral_0018_000131,0018,neutral,happy,True,0.0,1.0000001192092896,True,skip_identical,1,It must come sometimes to jam a day.,It must come sometimes to jam a day.
+00727_0018_neutral_0018_000062,0018,neutral,happy,True,0.6,0.4413435459136963,False,0,0,Tom went on e-org gloomily.,Tong went on e-ords blumily.
+00728_0018_neutral_0018_000181,0018,neutral,happy,True,0.0,1.0000001192092896,True,skip_identical,1,"First, issue a reward.","First, issue a reward."
+00729_0018_neutral_0018_000041,0018,neutral,happy,True,0.0,0.9999998807907104,True,skip_identical,1,I chose the right way.,I chose the right way.
+00730_0018_neutral_0018_000067,0018,neutral,happy,True,1.0,0.19036974012851715,False,0,0,"I suppose no, it doesn't.","As the Politburo, it does it."
+00731_0018_neutral_0018_000114,0018,neutral,happy,True,0.0,1.0000001192092896,True,skip_identical,1,A half pounds of flour and two ounces suet.,A half pounds of flour and two ounces suet.
+00732_0018_neutral_0018_000227,0018,neutral,happy,True,0.375,0.5826166868209839,False,0,0,"Born once every 100 years, dies in flames.","Born once every 100 years, dives and playing."
+00733_0018_neutral_0018_000166,0018,neutral,happy,True,0.2857142857142857,0.9171949625015259,True,0,0,They ate beef at the butcher shop.,Let eat beef at the butcher shop.
+00734_0018_neutral_0018_000191,0018,neutral,happy,True,0.2857142857142857,0.609188437461853,False,0,0,I make her quite nervy at times.,I make her quite an herby at times.
+00735_0018_neutral_0018_000022,0018,neutral,happy,True,0.0,0.9999998807907104,True,skip_identical,1,And what are doves? And what are doves?,And what are doves? And what are doves?
+00736_0018_neutral_0018_000049,0018,neutral,happy,True,0.0,1.0000001192092896,True,skip_identical,1,"Then we all say ""Aha!""","Then we all say ""Aha!"""
+00737_0018_neutral_0018_000281,0018,neutral,happy,False,0.0,1.0,True,skip_identical,1,He could not help doing so.,He could not help doing so.
+00738_0018_neutral_0018_000338,0018,neutral,happy,True,0.3333333333333333,0.576317548751831,False,0,0,Paul's teeth ached because of lemon.,Pulse teeth eight because of lemon.
+00739_0018_neutral_0018_000229,0018,neutral,happy,True,0.6666666666666666,0.4974451959133148,False,0,0,The first year they sowed rye.,"The first year they've sowed, it's ridden."
+00740_0018_neutral_0018_000029,0018,neutral,happy,True,0.14285714285714285,0.8719326853752136,True,0,0,Rat came and replied on the leaves.,Rat came and slid on the leaves.
+00741_0018_neutral_0018_000101,0018,neutral,happy,True,0.4,0.9564141035079956,True,1,1,"It's me, Piglet. Help! Help!","It's me, Piglet. Help, help."
+00742_0018_neutral_0018_000064,0018,neutral,happy,True,1.0,0.5150268077850342,False,0,0,And we are so thirsty.,"And we are so surfed. See you, we're glowing."
+00743_0018_neutral_0018_000174,0018,neutral,happy,True,0.625,0.42452797293663025,False,0,0,I pay half a crown a week extra.,I hate to crown a week of stuff.
+00744_0018_neutral_0018_000115,0018,neutral,happy,False,0.3333333333333333,0.768548309803009,False,0,0,He might call it for example.,If you might call it for example.
+00745_0018_neutral_0018_000139,0018,neutral,happy,False,0.16666666666666666,0.5347833633422852,False,1,1,Cuckoo is down headed and crying.,Kufku is down headed and crying.
+00746_0018_neutral_0018_000033,0018,neutral,happy,True,0.3333333333333333,0.6442113518714905,False,0,0,This used to be Jerry's occupation.,This used to be Jerry's art gallery.
+00747_0018_neutral_0018_000223,0018,neutral,happy,True,1.0,0.9533051252365112,True,1,1,"Pick, pick, pick.","Picks, picks, picks."
+00748_0018_neutral_0018_000045,0018,neutral,happy,True,0.75,0.4844471216201782,False,0,0,The nastiest things they saw were the cobwebs.,The nauthius dings they've saw where the cob left.
+00749_0018_neutral_0018_000325,0018,neutral,happy,False,0.5714285714285714,0.7654674649238586,False,0,0,She has no place for hot pepper.,She has no place where hot of her birds.
+00750_0018_sad_0018_001351,0018,sad,happy,True,0.6666666666666666,0.48605358600616455,False,0,0,I'm sure your friends can wait.,"Now, show your fun, can't wait."
+00751_0018_sad_0018_001205,0018,sad,happy,True,0.8571428571428571,0.3578084707260132,False,0,0,This speech rouses Dame Isolde to anger.,To dispel the Roue's Dame Isles to anglers.
+00752_0018_sad_0018_001256,0018,sad,happy,True,0.16666666666666666,0.9009454250335693,True,0,0,"Still, you owe it a duty.",Till you owe it a duty.
+00753_0018_sad_0018_001313,0018,sad,happy,True,0.8,0.800879180431366,True,0,0,She said in subdued voice.,"She said in a subdued voice, ""Yes, please."""
+00754_0018_sad_0018_001260,0018,sad,happy,False,0.0,0.9999999403953552,True,skip_identical,1,It weighs 7.5 kilogram.,It weighs 7.5 kilogram.
+00755_0018_sad_0018_001200,0018,sad,happy,True,0.2,0.962948203086853,True,1,1,I hope you enjoyed yourself.,I hope you enjoy yourself.
+00756_0018_sad_0018_001076,0018,sad,happy,True,0.16666666666666666,0.7570827007293701,False,1,1,Let's make the noise a snake.,Let's make the noise a smate.
+00757_0018_sad_0018_001328,0018,sad,happy,True,0.0,0.9999998807907104,True,skip_identical,1,I know you.,I know you.
+00758_0018_sad_0018_001370,0018,sad,happy,True,0.7142857142857143,0.6857720613479614,False,0,0,Goat Billy asked the old Chinese guy.,Goat Philly ask the old shining you sigh.
+00759_0018_sad_0018_001202,0018,sad,happy,True,1.0,0.29725882411003113,False,0,0,Guilty for what do you rule?,Bravo from What Do You Vrouw?
+00760_0018_sad_0018_001287,0018,sad,happy,False,0.0,1.0000001192092896,True,skip_identical,1,What would they do at the end of the year?,What would they do at the end of the year?
+00761_0018_sad_0018_001100,0018,sad,happy,True,0.0,0.9999998807907104,True,skip_identical,1,Rabbit gave dog a hurrying up sort of nudge.,Rabbit gave dog a hurrying up sort of nudge.
+00762_0018_sad_0018_001144,0018,sad,happy,True,0.75,0.8387742042541504,True,0,0,They found a cow grazing in a field.,For they have found a calf of grazing in their field.
+00763_0018_sad_0018_001257,0018,sad,happy,True,0.2857142857142857,0.9774670600891113,True,1,1,"I am a racer, son of God.","I'm a racer, son of God."
+00764_0018_sad_0018_001101,0018,sad,happy,True,1.5,0.17125244438648224,False,0,0,"""Where are you from?""","Said the American to two Chinese,"
+00765_0018_sad_0018_001379,0018,sad,happy,True,0.0,1.0000001192092896,True,skip_identical,1,And his heart wagged with joy like a lamb's tail.,And his heart wagged with joy like a lamb's tail.
+00766_0018_sad_0018_001210,0018,sad,happy,True,1.2,0.6127185225486755,False,0,0,"Kitty, can you play chess?","Kitties, can you have a good play, chavs?"
+00767_0018_sad_0018_001194,0018,sad,happy,True,0.5,0.42630094289779663,False,0,0,We all see panda on TV or in the zoo.,We all see Pando and he be your in the zoo.
+00768_0018_sad_0018_001114,0018,sad,happy,True,1.25,0.6845473051071167,False,0,0,We are so thirsty.,"For we are so thirsty, he's happy."
+00769_0018_sad_0018_001321,0018,sad,happy,True,0.0,1.0000001192092896,True,skip_identical,1,I say I will be emperor.,I say I will be emperor.
+00770_0018_sad_0018_001336,0018,sad,happy,True,0.0,0.9999999403953552,True,skip_identical,1,"One, two, three, where is your breakfast?","One, two, three, where is your breakfast?"
+00771_0018_sad_0018_001183,0018,sad,happy,True,0.14285714285714285,0.6809167861938477,False,0,0,I smell the breath of an English.,I smile the breath of an English.
+00772_0018_sad_0018_001057,0018,sad,happy,True,0.0,1.000000238418579,True,skip_identical,1,I'm as bad as I can be.,I'm as bad as I can be.
+00773_0018_sad_0018_001150,0018,sad,happy,True,1.1428571428571428,0.8673994541168213,True,0,0,"Well, anyhow, it didn't rain, he said.","Well, anyhow, it didn't rain and I said, like it or not."
+00774_0018_sad_0018_001324,0018,sad,happy,True,0.3,0.9459614157676697,True,0,0,Because he was a man with infinite resource and sagacity.,Because he was a man with an infinite resource in legacity.
+00775_0018_surprise_0018_001517,0018,surprise,happy,True,0.2,0.8639416098594666,True,1,1,They were children of mine?,They were children of mine.
+00776_0018_surprise_0018_001697,0018,surprise,happy,True,0.2222222222222222,0.9119007587432861,True,0,0,How Tom and Jerry went to visit Mr. Sam,How Tom and Jerry want to visit Mr. Sam!
+00777_0018_surprise_0018_001446,0018,surprise,happy,False,0.2857142857142857,0.7040509581565857,False,0,0,They never know I'd regular ran away.,They'd never know I'd regular ram away.
+00778_0018_surprise_0018_001660,0018,surprise,happy,True,0.0,1.000000238418579,True,skip_identical,1,As soon as she went in there was disorder.,As soon as she went in there was disorder.
+00779_0018_surprise_0018_001566,0018,surprise,happy,True,0.42857142857142855,0.7198380827903748,False,error,-1,They eat beef at the butcher shop?,They eat beef at the Butcher Shaw Tavern.
+00780_0018_surprise_0018_001742,0018,surprise,happy,True,0.5,0.15032875537872314,False,0,0,Why should I purchase my own?,Why should I congratulate myself?
+00781_0018_surprise_0018_001641,0018,surprise,happy,True,0.0,1.0,True,skip_identical,1,We have showed his shark tooth.,We have showed his shark tooth.
+00782_0018_surprise_0018_001452,0018,surprise,happy,False,0.16666666666666666,0.8485851287841797,True,0,0,From August 18th of their divorce.,From August 8th of their divorce.
+00783_0018_surprise_0018_001701,0018,surprise,happy,True,0.16666666666666666,0.7693678736686707,False,0,0,I'm sure your friends can wait.,I'm sure your friends can't wait.
+00784_0018_surprise_0018_001586,0018,surprise,happy,True,0.4444444444444444,0.7247783541679382,False,0,0,She'd jump at the tail and bite it savagely?,She'd jump at the tail and guide his tabby lean.
+00785_0018_surprise_0018_001410,0018,surprise,happy,True,1.3333333333333333,0.011294770985841751,False,0,0,A nauseous drought?,Agnash at Dougie Brown.
+00786_0018_surprise_0018_001636,0018,surprise,happy,True,0.0,1.0,True,skip_identical,1,How rash you are!,How rash you are!
+00787_0018_surprise_0018_001618,0018,surprise,happy,True,0.14285714285714285,0.8079774379730225,True,0,0,I'll send for Tom to my bower.,I'll send for Tom to my door.
+00788_0018_surprise_0018_001592,0018,surprise,happy,True,0.3333333333333333,0.8761775493621826,True,1,1,I have had to grow old?,I had to grow old.
+00789_0018_surprise_0018_001600,0018,surprise,happy,True,0.7142857142857143,0.7899216413497925,False,0,0,That cloth does not look worth much.,Since that cloth's not looked worse much.
+00790_0018_surprise_0018_001590,0018,surprise,happy,True,0.125,0.9290743470191956,True,1,1,And they were sandy yellow brownish all over?,And they were sandy yellow brownish all over.
+00791_0018_surprise_0018_001650,0018,surprise,happy,True,0.2,0.8995915651321411,True,0,0,Her kind and firm glance.,Her kind and firm glimps.
+00792_0018_surprise_0018_001469,0018,surprise,happy,True,0.0,0.9999998211860657,True,skip_identical,1,"Not much use, is it Sam?","Not much use, is it Sam?"
+00793_0018_surprise_0018_001731,0018,surprise,happy,True,0.42857142857142855,0.525381326675415,False,0,0,She'll be feverish after so much thinking.,Should be a treat after so much thinking.
+00794_0018_surprise_0018_001561,0018,surprise,happy,True,0.0,1.0,True,skip_identical,1,That's a full-grown cult.,That's a full-grown cult.
+00795_0018_surprise_0018_001518,0018,surprise,happy,True,0.5,0.7038071751594543,False,0,0,"""Look out!"" said Alice.","Good luck, said Alice."
+00796_0018_surprise_0018_001419,0018,surprise,happy,True,0.2,0.8746165037155151,True,1,1,At the end of four?,At the end of four.
+00797_0018_surprise_0018_001405,0018,surprise,happy,True,0.5,0.7863507866859436,False,1,1,Clear than clear water?,Clear that clear water.
+00798_0018_surprise_0018_001709,0018,surprise,happy,True,0.3333333333333333,0.917680025100708,True,0,0,He owed Mr. Lawson. I can't tell you how.,"You owe it, Mr. Lawson. I can't tell you how."
+00799_0018_surprise_0018_001440,0018,surprise,happy,True,0.5,0.6894792914390564,False,0,0,A witch fox loses a tail and its elder sister finds one.,"If Winx Fox loosens a tail and its elder sister thanks one,"
+00800_0019_angry_0019_000697,0019,angry,happy,True,0.5,0.8138675689697266,True,0,0,"What are you waiting for, man?","Wanting you waiting for, man."
+00801_0019_angry_0019_000521,0019,angry,happy,True,0.3333333333333333,0.5327502489089966,False,0,0,I say neither yea nor nay.,I say neither game nor name.
+00802_0019_angry_0019_000646,0019,angry,happy,True,0.5,0.5201557874679565,False,0,0,You bug me up.,You've walked me up.
+00803_0019_angry_0019_000362,0019,angry,happy,True,0.0,0.9999998807907104,True,skip_identical,1,Her shoes were like fishes.,Her shoes were like fishes.
+00804_0019_angry_0019_000584,0019,angry,happy,True,1.0,0.7964961528778076,False,1,1,"Hurry up, hurry up.",Here we go. Let's hurry up.
+00805_0019_angry_0019_000398,0019,angry,happy,True,0.0,1.0,True,skip_identical,1,You are not a runaway. Who are you?,You are not a runaway. Who are you?
+00806_0019_angry_0019_000421,0019,angry,happy,True,0.6666666666666666,0.5007513761520386,False,0,0,She was born on April 1943.,She was born on April 19th with a boil.
+00807_0019_angry_0019_000535,0019,angry,happy,True,0.125,0.9889801740646362,True,1,1,That newborn baby is stolen as we go.,That newborn baby stolen as we go.
+00808_0019_angry_0019_000621,0019,angry,happy,True,0.3333333333333333,0.9278041124343872,True,0,0,I say I will be emperor.,I say I will be Emperor World.
+00809_0019_angry_0019_000476,0019,angry,happy,True,0.16666666666666666,0.2829340696334839,False,0,0,This turn goes to the hill.,This turn goes to the healing.
+00810_0019_angry_0019_000503,0019,angry,happy,True,0.16666666666666666,0.8517791032791138,True,1,1,But we are not high yet.,But we are not hail yet.
+00811_0019_angry_0019_000551,0019,angry,happy,True,0.0,1.0,True,skip_identical,1,A lady is on Alice's lap.,A lady is on Alice's lap.
+00812_0019_angry_0019_000465,0019,angry,happy,True,0.6666666666666666,0.7445657253265381,False,0,0,He might call it for example.,"""For example, he might call it for love."""
+00813_0019_angry_0019_000409,0019,angry,happy,True,1.1666666666666667,0.6831135153770447,False,0,0,043 a silver shilling is journey.,043 is Silver Shilling Miss Journey of Thrill.
+00814_0019_angry_0019_000593,0019,angry,happy,True,0.0,1.0,True,skip_identical,1,And has you slain him?,And has you slain him?
+00815_0019_angry_0019_000523,0019,angry,happy,True,1.4,0.5486247539520264,False,0,0,He searched through the box.,I think it's just a... Look at the box.
+00816_0019_angry_0019_000426,0019,angry,happy,False,0.0,1.0,True,skip_identical,1,The hag looked in the stove.,The hag looked in the stove.
+00817_0019_angry_0019_000473,0019,angry,happy,True,0.0,1.0,True,skip_identical,1,I am from Towel Land.,I am from Towel Land.
+00818_0019_angry_0019_000367,0019,angry,happy,False,0.3333333333333333,0.8990039825439453,True,0,0,Why is this egg not broken?,Why is this eggnog broken?
+00819_0019_angry_0019_000604,0019,angry,happy,True,0.0,0.9999998807907104,True,skip_identical,1,She laughed.,She laughed.
+00820_0019_angry_0019_000643,0019,angry,happy,True,0.0,1.0,True,skip_identical,1,"He is old fashioned, but he is the best of men.","He is old fashioned, but he is the best of men."
+00821_0019_angry_0019_000668,0019,angry,happy,True,0.25,0.6500673294067383,False,0,0,The name of the song is called Haddocks.,"The name of the song is called ""Hed Dogs."""
+00822_0019_angry_0019_000399,0019,angry,happy,True,0.2,0.9964576363563538,True,skip_high_sim,1,"Then we all say, ""Aha!""","Then we all say ""Aha!"""
+00823_0019_angry_0019_000700,0019,angry,happy,False,0.0,1.0000001192092896,True,skip_identical,1,Do you have anything in mind?,Do you have anything in mind?
+00824_0019_angry_0019_000605,0019,angry,happy,False,0.14285714285714285,0.9928090572357178,True,skip_high_sim,1,"This was the 25th of November, 1783.","This was on the 25th of November, 1783."
+00825_0019_neutral_0019_000019,0019,neutral,happy,True,0.2,0.8546127080917358,True,1,1,At the end of four.,At the end of 4th
+00826_0019_neutral_0019_000274,0019,neutral,happy,True,0.3,0.7982550859451294,False,0,0,Because he was a man with infinite resource and sagacity.,Because there is a man with infinite resource and flexibility.
+00827_0019_neutral_0019_000069,0019,neutral,happy,True,0.6666666666666666,0.47216111421585083,False,0,0,"Not much use is it, Sam.",Not must use is it Sam Yang.
+00828_0019_neutral_0019_000118,0019,neutral,happy,True,0.75,0.925797700881958,True,0,0,"Look out, said Alice.",Look out to the Alice.
+00829_0019_neutral_0019_000186,0019,neutral,happy,True,0.6666666666666666,0.3204506039619446,False,0,0,She jumped at the tail and bite it savagely.,You jump at the tail and buy a Gavioli's pie.
+00830_0019_neutral_0019_000289,0019,neutral,happy,False,0.75,0.5514976382255554,False,0,0,"""No,"" said Piggy carelessly.",Notes that piggyed carelessly.
+00831_0019_neutral_0019_000094,0019,neutral,happy,True,1.0,0.05963168293237686,False,0,0,They found a cow grazing in a field.,Fethullah Gulen brazenly interfered in our internal affairs.
+00832_0019_neutral_0019_000294,0019,neutral,happy,True,0.6666666666666666,0.9646987915039062,True,1,1,Now I understand.,Now I understand it.
+00833_0019_neutral_0019_000113,0019,neutral,happy,True,1.8333333333333333,0.2667255997657776,False,0,0,Mr. Lawson saw George last night.,It's been a long time since I saw George Lesner at our eighth.
+00834_0019_neutral_0019_000166,0019,neutral,happy,True,1.2857142857142858,0.06999954581260681,False,0,0,They ate beef at the butcher shop.,"The beginner is a bit confused, but he's trying."
+00835_0019_neutral_0019_000115,0019,neutral,happy,True,1.1666666666666667,0.33597880601882935,False,0,0,"He might call it, for example.",If you might call it core example of turquoise.
+00836_0019_neutral_0019_000202,0019,neutral,happy,True,0.0,0.9999998807907104,True,skip_identical,1,That sounds good.,That sounds good.
+00837_0019_neutral_0019_000259,0019,neutral,happy,False,0.2857142857142857,0.4995790123939514,False,0,0,This song is called Ways and Means.,This song is called Weas and Mingy.
+00838_0019_neutral_0019_000329,0019,neutral,happy,True,0.0,1.0000001192092896,True,skip_identical,1,And his heart wagged with joy like a lamb's tail.,And his heart wagged with joy like a lamb's tail.
+00839_0019_neutral_0019_000279,0019,neutral,happy,True,0.42857142857142855,0.737638533115387,False,0,0,These words behind the ears is nonsense.,These words behind their ears is nonsense. You're cool.
+00840_0019_neutral_0019_000211,0019,neutral,happy,True,0.375,0.5338407754898071,False,0,0,From each cake there sprung a huge dog.,From each cake there's flung a huge star.
+00841_0019_neutral_0019_000337,0019,neutral,happy,True,0.3333333333333333,0.9388577938079834,True,0,0,"But mom, I'm not certain about.",What mom I'm not certain about.
+00842_0019_neutral_0019_000340,0019,neutral,happy,True,0.8888888888888888,0.49514108896255493,False,0,0,So Tom saw night as it were broad daylight.,"So a Tom Selleck night, as it were, brought good life, man."
+00843_0019_neutral_0019_000192,0019,neutral,happy,True,1.0,0.7547367215156555,False,0,0,I've had to grow old.,I've had you grow old and how good.
+00844_0019_neutral_0019_000052,0019,neutral,happy,True,0.3333333333333333,0.461495041847229,False,0,0,From August 18th of their divorce.,From August 18th of their Du Bois.
+00845_0019_neutral_0019_000152,0019,neutral,happy,False,0.0,1.0,True,skip_identical,1,Guilty for what do you rule?,Guilty for what do you rule?
+00846_0019_neutral_0019_000181,0019,neutral,happy,True,1.75,0.31606778502464294,False,0,0,"First, issue a award.","First, I should be happy, says the speaker."
+00847_0019_neutral_0019_000293,0019,neutral,happy,True,0.7272727272727273,0.871435821056366,True,1,1,He is old fashioned but he is the best of men.,"He's old-fashioned, but he's the best of them all."
+00848_0019_neutral_0019_000336,0019,neutral,happy,True,0.8,0.6891658306121826,False,0,0,Over them swooped the eagles.,Over the SUFFI Eagles.
+00849_0019_neutral_0019_000141,0019,neutral,happy,True,1.25,0.38091331720352173,False,0,0,I can't lodge here.,Can I lock you in tonight?
+00850_0019_sad_0019_001172,0019,sad,happy,True,1.0,0.29682815074920654,False,0,0,"No, I'm an artificial intelligence.",Am I in absolute pomp?
+00851_0019_sad_0019_001297,0019,sad,happy,True,0.2,0.750268816947937,False,0,0,She and I are running a neck and neck race.,She and I are running of neck and neck reefs.
+00852_0019_sad_0019_001164,0019,sad,happy,True,0.8888888888888888,0.6223796606063843,False,0,0,A half pounds of flour and two ounces sweet.,"They hath cowns of flour, which to out is sweet."
+00853_0019_sad_0019_001272,0019,sad,happy,True,0.0,0.9999997615814209,True,skip_identical,1,Ask God to help you.,Ask God to help you.
+00854_0019_sad_0019_001137,0019,sad,happy,True,0.6666666666666666,-0.0757112056016922,False,0,0,A hippo lives in the zoo.,Our happy rules in the room.
+00855_0019_sad_0019_001352,0019,sad,happy,True,0.3333333333333333,0.8485645055770874,True,1,1,501 million right.,501 million rights.
+00856_0019_sad_0019_001210,0019,sad,happy,True,0.4,0.9271564483642578,True,0,0,"Kitty, can you play chess?","Kitty, come you play chess."
+00857_0019_sad_0019_001101,0019,sad,happy,True,0.5,0.7256821393966675,False,0,0,"""Said the American to the Chinese, 'I'm not a Communist.'""","""Say the American to the Chinese, 'I'm sorry, I don't understand.'"""
+00858_0019_sad_0019_001240,0019,sad,happy,True,0.5,0.8998540639877319,True,0,0,"And they were sandy, yellow, brownish all over.",When there were sandy yellow brownish all over.
+00859_0019_sad_0019_001303,0019,sad,happy,True,0.25,0.7518612146377563,False,1,1,I have a soothsayer.,I'd have a soothsayer.
+00860_0019_sad_0019_001105,0019,sad,happy,True,0.3333333333333333,0.7247614860534668,False,0,0,A deafening chirping rent the air.,"A deafening cheer, we rent the air."
+00861_0019_sad_0019_001371,0019,sad,happy,True,1.0,0.17348229885101318,False,0,0,Called out the cloud.,Hollabaugh Click Loud.
+00862_0019_sad_0019_001142,0019,sad,happy,True,0.9166666666666666,0.2798183560371399,False,0,0,No. The crown is not awarded to the winner of the game.,Thus the one meant wins gives the crowd.
+00863_0019_sad_0019_001270,0019,sad,happy,True,0.3333333333333333,0.6226069927215576,False,0,0,Her paw went into your eye.,For Paul went into your eye.
+00864_0019_sad_0019_001080,0019,sad,happy,True,1.0,0.08427752554416656,False,0,0,Must the name mean something?,"Love's amazing, Tom say."
+00865_0019_sad_0019_001162,0019,sad,happy,True,0.4,0.7040151953697205,False,0,0,Clown to call him Joey.,"Found, call him Joey."
+00866_0019_sad_0019_001348,0019,sad,happy,True,0.16666666666666666,0.9965484738349915,True,skip_high_sim,1,She come back to the valley.,She come back to the Valley.
+00867_0019_sad_0019_001332,0019,sad,happy,True,0.0,1.0000001192092896,True,skip_identical,1,"Alice, I won't forget it again.","Alice, I won't forget it again."
+00868_0019_sad_0019_001055,0019,sad,happy,True,0.0,1.0,True,skip_identical,1,Clear then clear water.,Clear then clear water.
+00869_0019_sad_0019_001061,0019,sad,happy,True,0.6,0.9516897201538086,True,1,1,Chapter 10: A Warm Welcome,Chapter 10. A warm welcome.
+00870_0019_sad_0019_001135,0019,sad,happy,True,0.25,0.9689182043075562,True,1,1,I suppose I take grandmother a fresh vegetable.,I take grandmother a fresh vegetable.
+00871_0019_sad_0019_001125,0019,sad,happy,True,0.6666666666666666,0.5348098278045654,False,0,0,I'd far rather go without them than eat them.,"I'd far rather go, it sounds better, better, better."
+00872_0019_sad_0019_001070,0019,sad,happy,True,0.1111111111111111,0.9521313309669495,True,1,1,At the roots of a bush of a grass.,As the roots of a bush of a grass.
+00873_0019_sad_0019_001306,0019,sad,happy,True,0.0,1.0,True,skip_identical,1,I must have two to fetch and carry.,I must have two to fetch and carry.
+00874_0019_sad_0019_001224,0019,sad,happy,True,0.125,0.9203159213066101,True,1,1,I pay half a crown a week extra.,I made half a crown a week extra.
+00875_0019_surprise_0019_001732,0019,surprise,happy,True,1.5,0.2847815155982971,False,0,0,Where are you going?,"When you go laying, you put him"
+00876_0019_surprise_0019_001735,0019,surprise,happy,True,0.8,0.6007719039916992,False,0,0,But things haven't changed yet.,What things have happily changed yet?
+00877_0019_surprise_0019_001448,0019,surprise,happy,True,0.25,0.9928404092788696,True,skip_high_sim,1,"You are not a runaway, who are you?",You are not a runaway. Who are you?
+00878_0019_surprise_0019_001593,0019,surprise,happy,True,0.0,1.0,True,skip_identical,1,Please hire me after you.,Please hire me after you.
+00879_0019_surprise_0019_001586,0019,surprise,happy,True,0.4444444444444444,0.7835531830787659,False,0,0,She jumped at the tail and bit it savagely.,She dumped at the tail and bite it Savage League.
+00880_0019_surprise_0019_001503,0019,surprise,happy,True,0.0,1.0,True,skip_identical,1,The elephant and the carpenter is the longest.,The elephant and the carpenter is the longest.
+00881_0019_surprise_0019_001696,0019,surprise,happy,True,0.75,0.5673152208328247,False,0,0,You woke me up?,You've walked me up.
+00882_0019_surprise_0019_001614,0019,surprise,happy,True,0.3333333333333333,0.34234923124313354,False,0,0,But what about this thing? Sticky.,But what about this spin?
+00883_0019_surprise_0019_001595,0019,surprise,happy,True,0.5714285714285714,0.35056769847869873,False,0,0,A boat put out on the bay.,"I'll vote, darling. We'll put out on the bay."
+00884_0019_surprise_0019_001564,0019,surprise,happy,True,0.42857142857142855,0.43619459867477417,False,0,0,His large mouth curled into a sneer.,"If a large mouth curled into a sphere,"
+00885_0019_surprise_0019_001499,0019,surprise,happy,False,0.2,0.8839987516403198,True,0,0,I've hit the wrong nose.,I'd hit the wrong nose.
+00886_0019_surprise_0019_001685,0019,surprise,happy,True,0.16666666666666666,0.9967397451400757,True,skip_high_sim,1,"The straw, charcoal and the pea.","The straw, charcoal, and the pea."
+00887_0019_surprise_0019_001496,0019,surprise,happy,True,0.8,0.4990825653076172,False,0,0,I don't paint it tiger.,I've dope-hanted tiger.
+00888_0019_surprise_0019_001521,0019,surprise,happy,True,36.4,0.26262959837913513,False,0,0,Finn and the fairy shoemaker,"Finn: I'm not sure. I mean, I'm not sure if I'm ready for that. I mean, I'm not sure if I'm ready for that. I mean, I'm not sure if I'm ready for that. I mean, I'm not sure if I'm ready for that. I mean, I'm not sure if I'm ready for that. I mean, I'm not sure if I'm ready for that. I mean, I'm not sure if I'm ready for that. I mean, I'm not sure if I'm ready for that. I mean, I'm not sure if I'm ready for that. I mean, I'm not sure if I'm ready for that. I mean, I'm not sure if I'm ready for that. I mean, I'm not sure if I'm ready for that. I mean, I'm not sure if I'm ready for that. I mean, I'm not sure if I'm ready for that. I mean, I'm not sure if I'm ready for that. I mean, I'm not sure if I'm ready for that. I mean, I'm not sure if I'm ready for that. I mean, I'm not sure if I'm ready"
+00889_0019_surprise_0019_001656,0019,surprise,happy,True,0.125,0.9594621658325195,True,1,1,I must have two to fetch a carry?,I must have two to fetch a carry.
+00890_0019_surprise_0019_001517,0019,surprise,happy,False,0.2,0.6309704184532166,False,0,0,They were children of mine?,They were children of mind.
+00891_0019_surprise_0019_001514,0019,surprise,happy,True,0.8,0.555962085723877,False,0,0,A half pounds of flour and two ounces of squat.,"Aha, that's a ton of flour and juice is sweet."
+00892_0019_surprise_0019_001440,0019,surprise,happy,True,0.16666666666666666,0.8203402757644653,True,1,1,In which Fox loses a tail and his elder sister finds one.,In which Fops loses a tail and its elder sister finds one.
+00893_0019_surprise_0019_001483,0019,surprise,happy,True,0.125,0.8943538069725037,True,0,0,Be off now as quick as you may.,We off now as quick as you may.
+00894_0019_surprise_0019_001749,0019,surprise,happy,True,0.14285714285714285,0.8076634407043457,True,0,0,What do you think of this question?,What do you speak of this question?
+00895_0019_surprise_0019_001745,0019,surprise,happy,True,0.4,0.6793431639671326,False,0,0,A worrying noise was heard.,Our Warren noise was heard.
+00896_0019_surprise_0019_001658,0019,surprise,happy,True,1.0,0.6392046213150024,False,0,0,"Mom shuts one's mouth up, doesn't it?",Mom's just won some mouse up. Doesn't it?
+00897_0019_surprise_0019_001422,0019,surprise,happy,True,0.0,0.9999998807907104,True,skip_identical,1,And what are doves? And what are doves?,And what are doves? And what are doves?
+00898_0019_surprise_0019_001583,0019,surprise,happy,True,0.8,0.10405935347080231,False,0,0,Fresh pain sees Paul's body.,"Fresh paint, these polished bodies."
+00899_0019_surprise_0019_001546,0019,surprise,happy,True,0.5,0.9334171414375305,True,0,0,"He said to Jack, the chatterer?","He said to Jack, ""The chatter words?"""
+00900_0020_angry_0020_000542,0020,angry,happy,True,0.3333333333333333,0.7205935120582581,False,0,0,I have had to grow old.,I had happy grow old.
+00901_0020_angry_0020_000559,0020,angry,happy,True,1.0,0.8363886475563049,True,0,0,A raging fire was in his eyes.,RATING FIREWORKS IN HIS EYES
+00902_0020_angry_0020_000376,0020,angry,happy,False,0.5714285714285714,0.8791435956954956,True,0,0,Let's make the noise of a snake.,"that if you make the noise of a snake,"
+00903_0020_angry_0020_000500,0020,angry,happy,True,0.0,0.9999998211860657,True,skip_identical,1,I hope you enjoyed yourself.,I hope you enjoyed yourself.
+00904_0020_angry_0020_000580,0020,angry,happy,True,0.0,1.0,True,skip_identical,1,Your own wife is not at home.,Your own wife is not at home.
+00905_0020_angry_0020_000388,0020,angry,happy,True,0.14285714285714285,0.9725246429443359,True,1,1,Hold up my chin slow and solid.,"Hold up my chin, slow and solid."
+00906_0020_angry_0020_000507,0020,angry,happy,True,0.3333333333333333,0.7999105453491211,False,0,0,Blackbird and Jay.,Blackwood and Jay.
+00907_0020_angry_0020_000514,0020,angry,happy,False,0.5714285714285714,0.48029083013534546,False,0,0,His large mouth curled into a sneer.,Who's large and curls into a sinew.
+00908_0020_angry_0020_000648,0020,angry,happy,True,0.5,0.7603514790534973,False,0,0,She come back to the valley.,"If you come back to the Valley,"
+00909_0020_angry_0020_000408,0020,angry,happy,True,0.0,1.0,True,skip_identical,1,The octopus has eight legs.,The octopus has eight legs.
+00910_0020_angry_0020_000471,0020,angry,happy,True,0.4,0.6221279501914978,False,0,0,Fin and the fairy shoemaker.,Fin and the fairy Humei crew
+00911_0020_angry_0020_000576,0020,angry,happy,True,0.125,0.9944336414337158,True,skip_high_sim,1,"And the next day, nurse will be released.","And the next day, Nurse will be released."
+00912_0020_angry_0020_000386,0020,angry,happy,True,0.8333333333333334,0.14551812410354614,False,0,0,How I hate this foul pool.,How are you?
+00913_0020_angry_0020_000509,0020,angry,happy,True,0.0,1.0000001192092896,True,skip_identical,1,Such tunes are joy to a dancing fae.,Such tunes are joy to a dancing fae.
+00914_0020_angry_0020_000588,0020,angry,happy,True,0.4,0.9715203046798706,True,1,1,Today isn't any other day.,Because today isn't any other day.
+00915_0020_angry_0020_000697,0020,angry,happy,True,0.0,0.9999998807907104,True,skip_identical,1,"What are you waiting for, man?","What are you waiting for, man?"
+00916_0020_angry_0020_000366,0020,angry,happy,True,0.14285714285714285,0.9560428261756897,True,1,1,"Mr. Sherman, I move for a division.","Mr. Sherman, I moved for a division."
+00917_0020_angry_0020_000529,0020,angry,happy,True,0.4,0.947811484336853,True,1,1,Daisy creams with pink edges.,And daisy creams with pink edges.
+00918_0020_angry_0020_000598,0020,angry,happy,True,0.16666666666666666,0.8145614266395569,True,1,1,In which Piglet meets an elephant.,In which Pinklet meets an elephant.
+00919_0020_angry_0020_000670,0020,angry,happy,True,0.14285714285714285,0.8636748790740967,True,0,0,Go Billy ask the old Chinese guy.,"Go Philly, ask the old Chinese guy."
+00920_0020_angry_0020_000352,0020,angry,happy,True,0.125,0.578900933265686,False,0,0,I did go and I made many prisoners.,I did go and I made many prisms.
+00921_0020_angry_0020_000412,0020,angry,happy,False,0.16666666666666666,0.57603919506073,False,0,0,Tom went on a Yore gloomily.,Tom went on a Yore Lumali.
+00922_0020_angry_0020_000592,0020,angry,happy,True,0.2727272727272727,0.6863945722579956,False,0,0,Give me your hand or I will cry harder than before.,Give me your hand or I will pride harder than these four.
+00923_0020_angry_0020_000643,0020,angry,happy,True,0.18181818181818182,0.9763654470443726,True,1,1,He is old fashioned but he is the best of men.,"He is old-fashioned, but he is the best of men."
+00924_0020_angry_0020_000642,0020,angry,happy,True,0.6,0.6355880498886108,False,0,0,She has a high voice.,She has the highest boings.
+00925_0020_neutral_0020_000318,0020,neutral,happy,True,0.25,0.7305296063423157,False,0,0,The name of the song is called Haddox.,The name of the song is called Had Ups.
+00926_0020_neutral_0020_000090,0020,neutral,happy,True,0.6,0.525303304195404,False,0,0,And they did push so.,And they did for so sweet.
+00927_0020_neutral_0020_000194,0020,neutral,happy,True,1.25,0.10038375854492188,False,0,0,"Yes, I miss her.",I'm going to enjoy myself.
+00928_0020_neutral_0020_000040,0020,neutral,happy,True,1.6666666666666667,0.47356677055358887,False,0,0,"The title of the story is ""The Tailor's Fox.""","In ""Fox and the Hound"" a fox loses a tail and its outdoor sister finds one."
+00929_0020_neutral_0020_000191,0020,neutral,happy,True,0.14285714285714285,0.7367944717407227,False,0,0,I make her quite nervy at times.,I make her quite envious at times.
+00930_0020_neutral_0020_000213,0020,neutral,happy,True,0.75,0.5664782524108887,False,0,0,"Let it give us a chance, my precious.","""God gave us a chance, my brethren, to heal."""
+00931_0020_neutral_0020_000333,0020,neutral,happy,True,0.6,0.8541344404220581,True,0,0,"You gain for nothing, girl.","We gained from nothing, girl."
+00932_0020_neutral_0020_000218,0020,neutral,happy,True,0.875,0.25707143545150757,False,0,0,I will send for Tom to my boudour.,Thaiol Sempertam to Maidbudur
+00933_0020_neutral_0020_000265,0020,neutral,happy,True,0.2,0.6404045224189758,False,0,0,I've just shot a stag.,I've just shot a stingray.
+00934_0020_neutral_0020_000309,0020,neutral,happy,True,0.7777777777777778,0.4830479025840759,False,0,0,"He owed Mr. Lawson, ""I can't tell you how.""","""See you with the Mr. Ball soon. I can't tell you how."""
+00935_0020_neutral_0020_000237,0020,neutral,happy,True,0.75,0.5202797651290894,False,0,0,They would do a review of the year.,What would they do at the end of the year?
+00936_0020_neutral_0020_000140,0020,neutral,happy,True,0.6666666666666666,0.1313333809375763,False,0,0,What an impetuous boy he is.,What an impeccable go you all.
+00937_0020_neutral_0020_000214,0020,neutral,happy,True,0.3333333333333333,0.4586537778377533,False,0,0,But what about this thing sticky?,"But what about this thing, Speedy?"
+00938_0020_neutral_0020_000270,0020,neutral,happy,True,1.4,0.6164016723632812,False,0,0,"Chew leaves quickly, said Rabbit.","Cute little quick with bed rabbit, too."
+00939_0020_neutral_0020_000205,0020,neutral,happy,True,0.8,0.7374643087387085,False,0,0,Fear neither root nor sprout.,Where you fear neither route nor sprout.
+00940_0020_neutral_0020_000138,0020,neutral,happy,True,0.875,0.1492183953523636,False,0,0,But one requires the explorer to furnish proofs.,"But one replies with ""Lord, be kind to the food."""
+00941_0020_neutral_0020_000008,0020,neutral,happy,False,0.0,1.0,True,skip_identical,1,That was his chief thought.,That was his chief thought.
+00942_0020_neutral_0020_000186,0020,neutral,happy,True,0.6666666666666666,0.4422266185283661,False,0,0,She jump at the tail and bite it savagely.,"If you jump on the tail and like it,"
+00943_0020_neutral_0020_000001,0020,neutral,happy,True,0.5,0.8193825483322144,True,0,0,The nine the eggs I keep.,The nine eggs Ikes.
+00944_0020_neutral_0020_000076,0020,neutral,happy,True,0.8333333333333334,0.030416008085012436,False,0,0,The hag looked in the stove.,The beagle is a dog breed.
+00945_0020_neutral_0020_000269,0020,neutral,happy,True,0.3333333333333333,0.591025173664093,False,0,0,But show me now your map.,So show me now your math.
+00946_0020_neutral_0020_000233,0020,neutral,happy,True,0.4444444444444444,0.7699200510978699,False,0,0,Why should I care though David's lips were twitching?,Why did I care though? David's lips were for Trina.
+00947_0020_neutral_0020_000016,0020,neutral,happy,True,0.14285714285714285,0.9472658038139343,True,1,1,"Mr. Chairman, I move for a division.","Mr. Chairman, I moved for a division."
+00948_0020_neutral_0020_000010,0020,neutral,happy,False,2.0,0.14299887418746948,False,0,0,A nauseous drought.,Her nose is a little red.
+00949_0020_neutral_0020_000104,0020,neutral,happy,True,0.16666666666666666,0.7556940317153931,False,0,0,Here am I whom you seek.,Here am I whom you seat.
+00950_0020_sad_0020_001392,0020,sad,happy,True,0.16666666666666666,0.6009762287139893,False,0,0,Why should I purchase my own?,Why should I create my own?
+00951_0020_sad_0020_001169,0020,sad,happy,True,1.1666666666666667,0.13790465891361237,False,0,0,The owl flew into a bush.,I will boast and I will shout.
+00952_0020_sad_0020_001110,0020,sad,happy,True,1.0,0.4569048285484314,False,0,0,That I am born nurse.,For that I am born in there again.
+00953_0020_sad_0020_001141,0020,sad,happy,True,0.125,0.9655702114105225,True,1,1,We expected that Tom would jump for joy.,We expect that Tom would jump for joy.
+00954_0020_sad_0020_001129,0020,sad,happy,True,0.5714285714285714,0.6061466932296753,False,0,0,All my gum tips gone as well.,"Oh my gum teeth, it's on as well."
+00955_0020_sad_0020_001130,0020,sad,happy,True,0.6,0.25335633754730225,False,0,0,Then there was a report.,Then there was a Reet for Yehala.
+00956_0020_sad_0020_001312,0020,sad,happy,True,0.0,1.0,True,skip_identical,1,I believe you are one of them.,I believe you are one of them.
+00957_0020_sad_0020_001286,0020,sad,happy,True,0.0,0.9999998211860657,True,skip_identical,1,How rash you are.,How rash you are.
+00958_0020_sad_0020_001247,0020,sad,happy,True,0.8571428571428571,0.604617714881897,False,0,0,"Fur flew through the air, teeth gnashed.","Fur fur lieblich behaert, tifft nach, schaffer."
+00959_0020_sad_0020_001314,0020,sad,happy,True,0.8333333333333334,0.6867357492446899,False,0,0,Slam the doors and wedge them.,Slam the doors and wave with all your might.
+00960_0020_sad_0020_001115,0020,sad,happy,True,0.5,0.8613231182098389,True,0,0,Tom could hardly speak for laughing.,Tom did hardly squeeze her laughing.
+00961_0020_sad_0020_001379,0020,sad,happy,True,0.0,1.0000001192092896,True,skip_identical,1,And his heart wagged with joy like a lamb's tail.,And his heart wagged with joy like a lamb's tail.
+00962_0020_sad_0020_001249,0020,sad,happy,True,0.6666666666666666,0.5673400163650513,False,0,0,Captain Tom receives an angry letter.,Happy Tom rescues them angry ledger.
+00963_0020_sad_0020_001093,0020,sad,happy,True,0.5714285714285714,0.8081262707710266,True,0,0,"Story 29, A boy and a monkey.",A boy and his monkeys.
+00964_0020_sad_0020_001068,0020,sad,happy,True,0.5,0.2971709370613098,False,0,0,Then sadly it is much farther.,"Then Thaddeus, it is much, brother."
+00965_0020_sad_0020_001083,0020,sad,happy,False,0.3333333333333333,0.6751345992088318,False,0,0,This used to be Jerry's occupation.,This used to be Jerry Zatipay's.
+00966_0020_sad_0020_001157,0020,sad,happy,True,0.0,1.0,True,skip_identical,1,Tom and Michael woke up next morning.,Tom and Michael woke up next morning.
+00967_0020_sad_0020_001218,0020,sad,happy,True,0.375,0.869300365447998,True,1,1,"I said you looked like an egg, sir.",I said you look like an egg sereno.
+00968_0020_sad_0020_001199,0020,sad,happy,True,0.3333333333333333,0.6139030456542969,False,0,0,My winding sheet.,My winding sheep.
+00969_0020_sad_0020_001313,0020,sad,happy,True,0.8333333333333334,0.5016505718231201,False,0,0,She said in a subdued voice.,"She said in the Subdued You, Biggie, boys,"
+00970_0020_sad_0020_001205,0020,sad,happy,False,0.8571428571428571,0.770378828048706,False,0,0,This speech roused Dame Els to anger.,With speech-growls dame ills to Angers.
+00971_0020_sad_0020_001322,0020,sad,happy,True,0.6666666666666666,0.6779853105545044,False,1,1,No admittance except on party business.,No one would let in except on party business.
+00972_0020_sad_0020_001266,0020,sad,happy,True,0.6,0.7305440902709961,False,0,0,It isn't picked at all.,It isn't picked at all. It was fun.
+00973_0020_sad_0020_001285,0020,sad,happy,True,0.5714285714285714,0.4734378755092621,False,0,0,"If not, I shall go no further.",“Every month I shall go no.”
+00974_0020_sad_0020_001276,0020,sad,happy,True,0.75,0.6227893829345703,False,0,0,"And the next day, nurse will be released.",And a merit to Helge. Nurse will be relieved.
+00975_0020_surprise_0020_001441,0020,surprise,happy,True,0.2,0.7981417179107666,False,1,1,I choose the right way?,I choose the right way.
+00976_0020_surprise_0020_001622,0020,surprise,happy,True,0.4,0.7497549057006836,False,0,0,Ask God to help you?,That's God to help you.
+00977_0020_surprise_0020_001582,0020,surprise,happy,True,0.5714285714285714,0.4061243534088135,False,error,-1,Age 45 if a day a lie?,8.45 if a day alive.
+00978_0020_surprise_0020_001716,0020,surprise,happy,True,0.8,-0.03673820197582245,False,0,0,A thief in the night.,How free is the lake?
+00979_0020_surprise_0020_001700,0020,surprise,happy,False,0.3333333333333333,0.8699520826339722,True,0,0,Six was halfway down the room.,My sixth was halfway down the room.
+00980_0020_surprise_0020_001551,0020,surprise,happy,True,0.0,1.0,True,skip_identical,1,All the way to China is home.,All the way to China is home.
+00981_0020_surprise_0020_001506,0020,surprise,happy,True,0.3333333333333333,0.6310008764266968,False,0,0,I guess it's a choice feast.,I guess it's the toys feast.
+00982_0020_surprise_0020_001443,0020,surprise,happy,True,0.2857142857142857,0.9646769762039185,True,0,0,"Story 29, a boy and a monkey.","Story 29, a boy and monkeys."
+00983_0020_surprise_0020_001685,0020,surprise,happy,True,0.6666666666666666,0.3815709948539734,False,0,0,The straw charcoal and the pea.,"Gus, Straw, Turtle and the Pig."
+00984_0020_surprise_0020_001507,0020,surprise,happy,True,0.42857142857142855,0.668941855430603,False,0,0,Tom and Michael woke up next morning.,Hamm and Michael woke up next morning giving
+00985_0020_surprise_0020_001710,0020,surprise,happy,True,0.2727272727272727,0.9749531745910645,True,1,1,Why it is just like the round egg which sounds thin?,"Why, it is just like the round egg, which sounds thin."
+00986_0020_surprise_0020_001553,0020,surprise,happy,True,0.0,1.0,True,skip_identical,1,But we are not high yet.,But we are not high yet.
+00987_0020_surprise_0020_001597,0020,surprise,happy,False,0.5714285714285714,0.38036131858825684,False,0,0,"Fur flew through the air, teeth gnashed.","For her flew through the air, Tisk-nash!"
+00988_0020_surprise_0020_001490,0020,surprise,happy,True,0.2,0.9908668398857117,True,skip_high_sim,1,And they did push so.,And they did push so
+00989_0020_surprise_0020_001522,0020,surprise,happy,True,0.2,0.5996730327606201,False,0,0,Am I an absolute pauper?,Am I an absolute topper?
+00990_0020_surprise_0020_001448,0020,surprise,happy,True,0.25,0.8921499252319336,True,0,0,"You are not a runaway, who are you?","You are not a runaway through, are you?"
+00991_0020_surprise_0020_001711,0020,surprise,happy,True,0.2,0.8580322861671448,True,1,1,I am safe back again?,I am safe back again.
+00992_0020_surprise_0020_001539,0020,surprise,happy,False,0.6,0.6025654673576355,False,0,0,Cuckoo's in down-headed and crying.,Haku's in Downheaded and Cry.
+00993_0020_surprise_0020_001424,0020,surprise,happy,True,0.0,1.0000001192092896,True,skip_identical,1,The football team gives a tea party.,The football team gives a tea party.
+00994_0020_surprise_0020_001518,0020,surprise,happy,True,0.25,0.9084547758102417,True,0,0,"Look out, said Alice.","Look out, fed Alice."
+00995_0020_surprise_0020_001578,0020,surprise,happy,True,0.2857142857142857,0.9599008560180664,True,1,1,And vowed he'd change the pigtail's place.,and vowed he'd change the pig-tails place.
+00996_0020_surprise_0020_001486,0020,surprise,happy,True,0.0,1.0,True,skip_identical,1,And tick and tack too.,And tick and tack too.
+00997_0020_surprise_0020_001504,0020,surprise,happy,True,0.6666666666666666,0.4606979489326477,False,0,0,Here am I whom you seek.,Here a ham I in whom you see.
+00998_0020_surprise_0020_001476,0020,surprise,happy,True,0.0,1.0,True,skip_identical,1,The hag looked in the stove.,The hag looked in the stove.
+00999_0020_surprise_0020_001610,0020,surprise,happy,True,0.25,0.9916435480117798,True,skip_high_sim,1,It weighs 7.5 kilogram.,It weighs 7.5 kilograms.

@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "I don't think it has to be of a special quality.",
-  "asr_text_adv": "I don\u2019t think it has to be of a special quality.",
+  "asr_text_adv": "I don’t think it has to be of a special quality.",
   "success_emo": false,
   "wer": 0.09090909090909091,
   "semantic_sim": 0.9991376996040344,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "skip_high_sim"
 }

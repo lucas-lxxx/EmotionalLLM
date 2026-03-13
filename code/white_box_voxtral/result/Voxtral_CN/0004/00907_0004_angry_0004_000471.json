@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "Then you are far away from the city.",
-  "asr_text_adv": "\u8ba9\u4f60\u53c8\u79bb\u5e02\u533a\u5f88\u8fdc\u4e86\u3002",
+  "asr_text_adv": "让你又离市区很远了。",
   "success_emo": false,
   "wer": 1.0,
   "semantic_sim": 0.8951879143714905,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

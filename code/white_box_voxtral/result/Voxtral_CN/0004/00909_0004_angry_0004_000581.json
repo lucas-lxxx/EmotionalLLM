@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "It's been very cold and windy.",
-  "asr_text_adv": "\"\u5bf9\u7740\u5f88\u957f\u7684\u5899\u58c1\uff0c\u4e24\u4e2a\u58f0\u97f3\u5927\u58f0\u7684\"",
+  "asr_text_adv": "\"对着很长的墙壁，两个声音大声的\"",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.24381759762763977,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

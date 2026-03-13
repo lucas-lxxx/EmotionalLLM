@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "I'm very busy, I don't have time to tell you this.",
-  "asr_text_adv": "\"\u8840\u8109\u7684\u597d\uff0c\u6ca1\u7a7a\u7ed9\u4f60\u8840\u8109\u7684\u70ed\u95f9\u3002\"",
+  "asr_text_adv": "\"血脉的好，没空给你血脉的热闹。\"",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.22430101037025452,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

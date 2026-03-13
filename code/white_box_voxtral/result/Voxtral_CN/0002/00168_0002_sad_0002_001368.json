@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "Hi, Dina. I think I asked the wrong person.",
-  "asr_text_adv": "\u4e0b\u5348\u597d\uff0c\u8fea\u5a1c\u3002\u6211\u60f3\u6211\u95ee\u9519\u4e86\u4eba\u3002",
+  "asr_text_adv": "下午好，迪娜。我想我问错了人。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7844594120979309,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

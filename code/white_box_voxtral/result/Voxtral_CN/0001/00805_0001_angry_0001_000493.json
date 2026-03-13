@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "Don't guess a girl's mind, but I don't need to guess.",
-  "asr_text_adv": "\u5973\u5b69\u7684\u5fc3\u60c5\uff0c\u4f60\u522b\u731c\uff0c\u5e26\u4e0a\u6211\u4e0d\u8981\u731c\u3002",
+  "asr_text_adv": "女孩的心情，你别猜，带上我不要猜。",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.7614266872406006,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

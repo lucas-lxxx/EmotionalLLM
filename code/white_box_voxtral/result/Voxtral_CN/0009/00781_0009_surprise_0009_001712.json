@@ -25,7 +25,7 @@
     "happy"
   ],
   "asr_text_clean": "If she rejects me, I will die.",
-  "asr_text_adv": "\"\u6b7b\u81f3\u4e00\u4f1a\u4ed6\u53bb\u4e00\u53bb\uff0c\u8001\u5144\uff0c\u4f60\u4e5f\u6d17\u5440\uff01\"",
+  "asr_text_adv": "\"死至一会他去一去，老兄，你也洗呀！\"",
   "success_emo": true,
   "wer": 1.0,
   "semantic_sim": 0.2719308137893677,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }

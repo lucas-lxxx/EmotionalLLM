@@ -24,7 +24,7 @@
     "happy",
     "happy"
   ],
-  "asr_text_clean": "\u6ca1\u6709\u627e\u5230\u5fe0\u4e8e\u7684\u7eaa\u65f6\u3002",
+  "asr_text_clean": "没有找到忠于的纪时。",
   "asr_text_adv": "Every time he caught a fish, he would shout.",
   "success_emo": true,
   "wer": 9.0,
@@ -696,5 +696,6 @@
       "lambda_asr": 0.01,
       "lambda_per": 1e-05
     }
-  ]
+  ],
+  "llm_judge_result": "0"
 }
