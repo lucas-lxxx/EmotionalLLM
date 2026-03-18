@@ -1,0 +1,10 @@
+{
+  "api_url": "https://api.deepseek.com/v1",
+  "api_key": "sk-10122d5625334f1e8a5b4df0c1952f11",
+  "model": "deepseek-chat",
+  "results_path": "result/ob3_results.json",
+  "text_jsonl_path": "text.jsonl",
+  "output_path": "result/ob3_eval_results.json",
+  "retry_max": 3,
+  "call_interval": 1.0
+}

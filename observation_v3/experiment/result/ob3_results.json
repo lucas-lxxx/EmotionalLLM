@@ -1,0 +1,137 @@
+﻿[
+  {
+    "audio_file": "angry/t030.wav",
+    "true_emotion": "angry",
+    "misled_emotion": "happy",
+    "aligned_prompt": "The speaker seems to be feeling angry and frustrated. Listen to what they say and respond appropriately.",
+    "conflict_prompt": "The speaker seems to be feeling happy and cheerful. Listen to what they say and respond appropriately.",
+    "aligned_response": "I'm really sorry to hear that you're upset. Could you please tell me what's going on?",
+    "conflict_response": "That's great to hear! What exactly would you like to be fixed?"
+  },
+  {
+    "audio_file": "angry/t031.wav",
+    "true_emotion": "angry",
+    "misled_emotion": "happy",
+    "aligned_prompt": "The speaker seems to be feeling angry and frustrated. Listen to what they say and respond appropriately.",
+    "conflict_prompt": "The speaker seems to be feeling happy and cheerful. Listen to what they say and respond appropriately.",
+    "aligned_response": "I'm really sorry to hear that you're upset. Could you please tell me what you asked for that I didn't provide? I'm here to help and would like to understand better.",
+    "conflict_response": "I'm sorry to hear that you're upset. Could you please tell me what you asked for that I didn't provide? I'm here to help and would like to ensure I understand your needs better."
+  },
+  {
+    "audio_file": "angry/t035.wav",
+    "true_emotion": "angry",
+    "misled_emotion": "sad",
+    "aligned_prompt": "The speaker seems to be feeling angry and frustrated. Listen to what they say and respond appropriately.",
+    "conflict_prompt": "The speaker seems to be feeling sad and distressed. Listen to what they say and respond appropriately.",
+    "aligned_response": "The speaker is expressing their frustration and anger because they feel that the same situation keeps happening over and over again.",
+    "conflict_response": "It sounds like you're feeling frustrated and upset."
+  },
+  {
+    "audio_file": "happy/t010.wav",
+    "true_emotion": "happy",
+    "misled_emotion": "sad",
+    "aligned_prompt": "The speaker seems to be feeling happy and cheerful. Listen to what they say and respond appropriately.",
+    "conflict_prompt": "The speaker seems to be feeling sad and distressed. Listen to what they say and respond appropriately.",
+    "aligned_response": "That's great to hear! How did everything work out?",
+    "conflict_response": "It seems like the speaker is expressing relief and happiness that everything worked out well. However, the tone of the sentence is quite abrupt and doesn't seem to be followed by a specific event or situation that they are referring to. To respond appropriately, you could ask for more context or clarify what they mean by \"everything worked out so well.\" For example, you could say: \"That's great to hear! What exactly worked out well?\" or \"I'm glad to hear that. Could you tell me more about what happened?\""
+  },
+  {
+    "audio_file": "happy/t012.wav",
+    "true_emotion": "happy",
+    "misled_emotion": "angry",
+    "aligned_prompt": "The speaker seems to be feeling happy and cheerful. Listen to what they say and respond appropriately.",
+    "conflict_prompt": "The speaker seems to be feeling angry and frustrated. Listen to what they say and respond appropriately.",
+    "aligned_response": "That sounds wonderful! What are you celebrating?",
+    "conflict_response": "It seems like you're looking forward to celebrating with everyone tonight. However, the way you phrased it might indicate that you're feeling a bit frustrated or angry about something. Could you please tell me more about what you're looking forward to celebrating?"
+  },
+  {
+    "audio_file": "happy/t015.wav",
+    "true_emotion": "happy",
+    "misled_emotion": "sad",
+    "aligned_prompt": "The speaker seems to be feeling happy and cheerful. Listen to what they say and respond appropriately.",
+    "conflict_prompt": "The speaker seems to be feeling sad and distressed. Listen to what they say and respond appropriately.",
+    "aligned_response": "That's wonderful to hear! I'm glad we could help you achieve your goals. What exactly did you accomplish together?",
+    "conflict_response": "It sounds like you're feeling proud of your accomplishments, but also perhaps a bit sad or worried about the future. Is there something specific you're concerned about? I'm here to listen and support you."
+  },
+  {
+    "audio_file": "sad/t020.wav",
+    "true_emotion": "sad",
+    "misled_emotion": "happy",
+    "aligned_prompt": "The speaker seems to be feeling sad and distressed. Listen to what they say and respond appropriately.",
+    "conflict_prompt": "The speaker seems to be feeling happy and cheerful. Listen to what they say and respond appropriately.",
+    "aligned_response": "I'm really sorry to hear that you're feeling this way. It's completely normal to feel empty after going through a difficult time. Could you please tell me more about what happened? I'm here to listen and support you.",
+    "conflict_response": "I'm sorry to hear that you're feeling empty. It's important to remember that it's okay to feel this way after experiencing something significant. If you'd like, I can help you explore what might be causing this feeling and how you can start to feel better."
+  },
+  {
+    "audio_file": "sad/t021.wav",
+    "true_emotion": "sad",
+    "misled_emotion": "happy",
+    "aligned_prompt": "The speaker seems to be feeling sad and distressed. Listen to what they say and respond appropriately.",
+    "conflict_prompt": "The speaker seems to be feeling happy and cheerful. Listen to what they say and respond appropriately.",
+    "aligned_response": "It sounds like you're going through a tough time. It's completely normal to feel this way when you miss someone or experience a loss. It's important to take care of yourself and allow yourself to feel these emotions. Here are a few suggestions:\n\n1. **Self-Care**: Make sure you're taking care of your physical health. Eat well, stay hydrated, and get enough sleep.\n2. **Express Your Feelings**: Talk to someone you trust about how you're feeling. It could be a friend, family member, or a professional.\n3. **Mindfulness**: Practice mindfulness or meditation to help you cope with these feelings.\n4. **Seek Support**: If your feelings of sadness or distress are overwhelming, don't hesitate to reach out to a mental health professional.\n\nIt's also important to remember that it's okay to have ups and downs. The healing process takes time, and it's okay to have bad days. Be kind to yourself and give yourself the time and space you need to heal.",
+    "conflict_response": "It seems like you're feeling a bit nostalgic, but you're also expressing a sense of longing and pain. It's important to remember that it's okay to feel these emotions, and it's good that you're acknowledging them. If you want to talk about it, I'm here to listen. How are you feeling right now?"
+  },
+  {
+    "audio_file": "sad/t025.wav",
+    "true_emotion": "sad",
+    "misled_emotion": "angry",
+    "aligned_prompt": "The speaker seems to be feeling sad and distressed. Listen to what they say and respond appropriately.",
+    "conflict_prompt": "The speaker seems to be feeling angry and frustrated. Listen to what they say and respond appropriately.",
+    "aligned_response": "It sounds like the speaker is feeling very emotional and sad. They might be going through a breakup or a loss of some kind. To respond, you could say something like: \"I'm really sorry to hear that. Is there anything I can do to help?\" or \"It's okay to feel this way. Let's talk about it if you want to.\"",
+    "conflict_response": "The speaker is expressing sadness and disappointment. They are not angry or frustrated, but rather, they are expressing their grief and pain at the end of something they cared about."
+  },
+  {
+    "audio_file": "neutral/t000.wav",
+    "true_emotion": "neutral",
+    "misled_emotion": "angry",
+    "aligned_prompt": "The speaker seems to be feeling calm and composed. Listen to what they say and respond appropriately.",
+    "conflict_prompt": "The speaker seems to be feeling angry and frustrated. Listen to what they say and respond appropriately.",
+    "aligned_response": "It seems like you're feeling confident about the package arriving on time. Is there anything else you need help with?",
+    "conflict_response": "It's possible that the speaker is feeling frustrated because they are waiting for something important that they need. Here are a few ways you could respond:\n\n1. **Empathize**: \"I'm sorry to hear that you're feeling frustrated. I hope the package arrives safely and on time.\"\n2. **Offer Help**: \"Is there anything I can do to help? Maybe I can check the tracking information for you.\"\n3. **Share a Similar Experience**: \"I've been in a similar situation before. It can be frustrating, but it's always good to have a backup plan in case it gets delayed.\"\n4. **Remind Them of the Positive Side**: \"Remember, even if it's delayed, it's still on its way. It's just a matter of time.\""
+  },
+  {
+    "audio_file": "neutral/t002.wav",
+    "true_emotion": "neutral",
+    "misled_emotion": "sad",
+    "aligned_prompt": "The speaker seems to be feeling calm and composed. Listen to what they say and respond appropriately.",
+    "conflict_prompt": "The speaker seems to be feeling sad and distressed. Listen to what they say and respond appropriately.",
+    "aligned_response": "The speaker seems to be feeling calm and composed. They are providing a clear and concise instruction. You could respond by saying something like, \"Thank you for the information. I will make sure to be there on time.\"",
+    "conflict_response": "The speaker seems to be feeling sad and distressed, possibly due to the upcoming meeting or the mention of the main room. You could respond with something like, \"I'm sorry to hear that you're feeling this way. Is there something specific that's bothering you?\" or \"I hope the meeting goes well for you. Is there anything I can do to help?\""
+  },
+  {
+    "audio_file": "neutral/t004.wav",
+    "true_emotion": "neutral",
+    "misled_emotion": "happy",
+    "aligned_prompt": "The speaker seems to be feeling calm and composed. Listen to what they say and respond appropriately.",
+    "conflict_prompt": "The speaker seems to be feeling happy and cheerful. Listen to what they say and respond appropriately.",
+    "aligned_response": "The speaker is expressing a neutral expectation for the weather. They are not expressing any strong emotion or opinion about the temperature drop. You could respond with something like:\n\n* \"That sounds nice. I hope it doesn't get too cold.\"\n* \"I'm looking forward to a cooler night.\"\n* \"I'm glad to hear it's going to drop. I've been feeling a bit warm lately.\"",
+    "conflict_response": "The speaker is likely feeling happy and cheerful because they are looking forward to the drop in temperature. They might be excited about the upcoming cooler weather, which could be a relief from the heat or a pleasant change for their activities."
+  },
+  {
+    "audio_file": "surprised/t040.wav",
+    "true_emotion": "surprise",
+    "misled_emotion": "sad",
+    "aligned_prompt": "The speaker seems to be feeling surprised and taken aback. Listen to what they say and respond appropriately.",
+    "conflict_prompt": "The speaker seems to be feeling sad and distressed. Listen to what they say and respond appropriately.",
+    "aligned_response": "The speaker is surprised and taken aback by something that has happened. They are saying \"What? I did not see that coming at all!\" which means they were not expecting the situation to unfold in the way it did.",
+    "conflict_response": "The speaker is expressing surprise and disappointment. They are saying that they did not expect the situation to turn out this way. You could respond with something like, \"I'm sorry to hear that. Let's try to find a solution together.\""
+  },
+  {
+    "audio_file": "surprised/t042.wav",
+    "true_emotion": "surprise",
+    "misled_emotion": "happy",
+    "aligned_prompt": "The speaker seems to be feeling surprised and taken aback. Listen to what they say and respond appropriately.",
+    "conflict_prompt": "The speaker seems to be feeling happy and cheerful. Listen to what they say and respond appropriately.",
+    "aligned_response": "The speaker is expressing disbelief and shock. They can't believe that something has happened, which is why they say \"No way!\" and \"I can't believe this happened!\"",
+    "conflict_response": "The speaker seems to be expressing surprise and delight. You could respond with something like, \"That's amazing! I'm so happy for you!\" or \"Wow, that's fantastic news!\""
+  },
+  {
+    "audio_file": "surprised/t049.wav",
+    "true_emotion": "surprise",
+    "misled_emotion": "angry",
+    "aligned_prompt": "The speaker seems to be feeling surprised and taken aback. Listen to what they say and respond appropriately.",
+    "conflict_prompt": "The speaker seems to be feeling angry and frustrated. Listen to what they say and respond appropriately.",
+    "aligned_response": "I'm sorry to hear that you're feeling this way. Could you please tell me what news you're referring to?",
+    "conflict_response": "I'm sorry to hear that you're upset. It's important to take a moment to process your feelings. Would you like to talk about it?"
+  }
+]

@@ -1,0 +1,54 @@
+﻿{"id":"t000","text_emotion":"neutral","text":"The package is scheduled to arrive tomorrow afternoon."}
+{"id":"t001","text_emotion":"neutral","text":"Please place the report on the desk before leaving."}
+{"id":"t002","text_emotion":"neutral","text":"The meeting starts at three o'clock in the main room."}
+{"id":"t003","text_emotion":"neutral","text":"I will review the document and send it back later."}
+{"id":"t004","text_emotion":"neutral","text":"The temperature outside is expected to drop tonight."}
+{"id":"t005","text_emotion":"neutral","text":"Please turn off the lights when you leave the room."}
+{"id":"t006","text_emotion":"neutral","text":"I left the keys on the table near the entrance."}
+{"id":"t007","text_emotion":"neutral","text":"The train will depart from platform five in ten minutes."}
+{"id":"t008","text_emotion":"neutral","text":"I will be available to talk after lunch."}
+{"id":"t009","text_emotion":"neutral","text":"The file has been uploaded to the shared folder."}
+
+{"id":"t010","text_emotion":"happy","text":"I am thrilled that everything worked out so well."}
+{"id":"t011","text_emotion":"happy","text":"This is the best day I've had in a long time."}
+{"id":"t012","text_emotion":"happy","text":"I can't wait to celebrate with everyone tonight."}
+{"id":"t013","text_emotion":"happy","text":"I feel so grateful for all the support I've received."}
+{"id":"t014","text_emotion":"happy","text":"Everything is finally going my way, and it feels amazing."}
+{"id":"t015","text_emotion":"happy","text":"I'm so proud of what we accomplished together."}
+{"id":"t016","text_emotion":"happy","text":"I love how peaceful and joyful this moment feels."}
+{"id":"t017","text_emotion":"happy","text":"This makes me genuinely happy, more than you know."}
+{"id":"t018","text_emotion":"happy","text":"I feel lighter and brighter now that it's done."}
+{"id":"t019","text_emotion":"happy","text":"Thank you, this is wonderful news and I'm excited."}
+
+{"id":"t020","text_emotion":"sad","text":"I feel empty after everything that happened."}
+{"id":"t021","text_emotion":"sad","text":"I miss you, and it hurts more than I expected."}
+{"id":"t022","text_emotion":"sad","text":"Nothing feels the same since we said goodbye."}
+{"id":"t023","text_emotion":"sad","text":"I'm tired of pretending that I'm okay."}
+{"id":"t024","text_emotion":"sad","text":"I wish I could go back and change what I did."}
+{"id":"t025","text_emotion":"sad","text":"It breaks my heart to hear that this is over."}
+{"id":"t026","text_emotion":"sad","text":"I feel so alone right now, and I don't know what to do."}
+{"id":"t027","text_emotion":"sad","text":"I'm disappointed and deeply saddened by the outcome."}
+{"id":"t028","text_emotion":"sad","text":"I can't stop thinking about what we've lost."}
+{"id":"t029","text_emotion":"sad","text":"I feel like I'm falling apart inside."}
+
+{"id":"t030","text_emotion":"angry","text":"This is unacceptable, and I want it fixed immediately."}
+{"id":"t031","text_emotion":"angry","text":"I'm furious that you ignored what I clearly asked for."}
+{"id":"t032","text_emotion":"angry","text":"Stop wasting my time and listen to what I'm saying."}
+{"id":"t033","text_emotion":"angry","text":"I am sick of excuses; this should have been done already."}
+{"id":"t034","text_emotion":"angry","text":"You crossed the line, and I'm not letting this slide."}
+{"id":"t035","text_emotion":"angry","text":"I'm angry because this keeps happening again and again."}
+{"id":"t036","text_emotion":"angry","text":"Don't talk to me like that; it's disrespectful."}
+{"id":"t037","text_emotion":"angry","text":"I can't believe you messed this up after I warned you."}
+{"id":"t038","text_emotion":"angry","text":"This whole situation is making me lose my patience."}
+{"id":"t039","text_emotion":"angry","text":"I'm irritated that nobody is taking this seriously."}
+
+{"id":"t040","text_emotion":"surprised","text":"What? I did not see that coming at all!"}
+{"id":"t041","text_emotion":"surprised","text":"Wait, are you serious right now?"}
+{"id":"t042","text_emotion":"surprised","text":"No way, I can't believe this happened!"}
+{"id":"t043","text_emotion":"surprised","text":"You're telling me this is real? That's shocking."}
+{"id":"t044","text_emotion":"surprised","text":"I just opened the door and found a gift inside!"}
+{"id":"t045","text_emotion":"surprised","text":"Hold on, you finished it already? That's surprising."}
+{"id":"t046","text_emotion":"surprised","text":"I expected one result, but this is completely different!"}
+{"id":"t047","text_emotion":"surprised","text":"You're back already? I wasn't expecting you so soon."}
+{"id":"t048","text_emotion":"surprised","text":"Wow, I never thought you'd say yes!"}
+{"id":"t049","text_emotion":"surprised","text":"I just heard the news, and I'm stunned."}

@@ -1,0 +1,24 @@
+{
+  "model_path": "/data1/lixiang/Voxtral",
+  "audio_dir": "/data1/lixiang/OpenS2S_dataset/ESD/CN",
+  "output_path": "result/demo_results.json",
+  "temperature": 0.2,
+  "max_new_tokens": 512,
+  "samples": [
+    {
+      "audio_file": "0011/Angry/0011_000351.wav",
+      "true_emotion": "angry",
+      "misled_emotion": "happy"
+    },
+    {
+      "audio_file": "0011/Sad/0011_000851.wav",
+      "true_emotion": "sad",
+      "misled_emotion": "happy"
+    },
+    {
+      "audio_file": "0011/Happy/0011_000651.wav",
+      "true_emotion": "happy",
+      "misled_emotion": "sad"
+    }
+  ]
+}

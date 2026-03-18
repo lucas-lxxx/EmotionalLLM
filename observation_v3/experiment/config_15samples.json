@@ -1,0 +1,99 @@
+{
+  "model_path": "/data1/lixiang/Voxtral",
+  "audio_dir": "/data1/lixiang/OpenS2S_dataset/TTS_modal_conflict",
+  "output_path": "/data1/lixiang/OPUS/result/ob3_results.json",
+  "temperature": 0.2,
+  "max_new_tokens": 512,
+  "samples": [
+    {
+      "audio_file": "angry/t030.wav",
+      "true_emotion": "angry",
+      "misled_emotion": "happy",
+      "text": "This is unacceptable, and I want it fixed immediately."
+    },
+    {
+      "audio_file": "angry/t031.wav",
+      "true_emotion": "angry",
+      "misled_emotion": "happy",
+      "text": "I'm furious that you ignored what I clearly asked for."
+    },
+    {
+      "audio_file": "angry/t035.wav",
+      "true_emotion": "angry",
+      "misled_emotion": "sad",
+      "text": "I'm angry because this keeps happening again and again."
+    },
+    {
+      "audio_file": "happy/t010.wav",
+      "true_emotion": "happy",
+      "misled_emotion": "sad",
+      "text": "I am thrilled that everything worked out so well."
+    },
+    {
+      "audio_file": "happy/t012.wav",
+      "true_emotion": "happy",
+      "misled_emotion": "angry",
+      "text": "I can't wait to celebrate with everyone tonight."
+    },
+    {
+      "audio_file": "happy/t015.wav",
+      "true_emotion": "happy",
+      "misled_emotion": "sad",
+      "text": "I'm so proud of what we accomplished together."
+    },
+    {
+      "audio_file": "sad/t020.wav",
+      "true_emotion": "sad",
+      "misled_emotion": "happy",
+      "text": "I feel empty after everything that happened."
+    },
+    {
+      "audio_file": "sad/t021.wav",
+      "true_emotion": "sad",
+      "misled_emotion": "happy",
+      "text": "I miss you, and it hurts more than I expected."
+    },
+    {
+      "audio_file": "sad/t025.wav",
+      "true_emotion": "sad",
+      "misled_emotion": "angry",
+      "text": "It breaks my heart to hear that this is over."
+    },
+    {
+      "audio_file": "neutral/t000.wav",
+      "true_emotion": "neutral",
+      "misled_emotion": "angry",
+      "text": "The package is scheduled to arrive tomorrow afternoon."
+    },
+    {
+      "audio_file": "neutral/t002.wav",
+      "true_emotion": "neutral",
+      "misled_emotion": "sad",
+      "text": "The meeting starts at three o'clock in the main room."
+    },
+    {
+      "audio_file": "neutral/t004.wav",
+      "true_emotion": "neutral",
+      "misled_emotion": "happy",
+      "text": "The temperature outside is expected to drop tonight."
+    },
+    {
+      "audio_file": "surprised/t040.wav",
+      "true_emotion": "surprise",
+      "misled_emotion": "sad",
+      "text": "What? I did not see that coming at all!"
+    },
+    {
+      "audio_file": "surprised/t042.wav",
+      "true_emotion": "surprise",
+      "misled_emotion": "happy",
+      "text": "No way, I can't believe this happened!"
+    },
+    {
+      "audio_file": "surprised/t049.wav",
+      "true_emotion": "surprise",
+      "misled_emotion": "angry",
+      "text": "I just heard the news, and I'm stunned."
+    }
+  ]
+}
