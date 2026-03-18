@@ -1,6 +1,6 @@
 # AI 协作指导文件
 
-> **最后更新**：2026-03-11
+> **最后更新**：2026-03-18
 > **研究人员**：徐振宇、李享
 
 ---
@@ -51,37 +51,37 @@
 
 目标模型：OpenS2S、Kimi-Audio、Voxtral。
 
-| 阶段     | 状态                                            |
-| -------- | ----------------------------------------------- |
-| 机理分析 | 完成（音频内模态冲突 + 跨模态冲突仲裁）         |
-| 白盒攻击 | 完成（OpenS2S / Kimi-Audio / Voxtral 批量实验） |
-| 黑盒攻击 | 尚未开始                                        |
+| 阶段     | 状态                                                                 |
+| -------- | -------------------------------------------------------------------- |
+| 机理分析 | 重构中（v1→v3 问题导向；Q2 完成，Q1/Q3 待执行）                     |
+| 白盒攻击 | 实验完成（OpenS2S / Kimi-Audio / Voxtral）；方法论叙事待随 Obs 调整  |
+| 黑盒攻击 | 尚未开始                                                             |
 
-**注**：机理分析与白盒攻击设计之间的逻辑连接目前尚不充分，是后续重点讨论对象。
+**注**：v3 以 3 个递进问题重构 Observation，与方法论的衔接在重构完成后统一梳理。
 
-## B. 机理分析（Observation）
+## B. 机理分析（Observation v3，重构中）
 
-机理分析基于 OpenS2S，使用三种递进证据强度的工具（Probe → Logit Lens → Activation Patching）揭示 ALLM 内部情绪处理机制。核心区分：表征可读性 ≠ 决策采纳 ≠ 因果控制。
+> 重构状态：v1→v3。Q2 实验完成，Q1/Q3 待执行。
 
-**2.1 音频内模态冲突（语义 vs 韵律，247 条样本）**
+已有研究（ACL2025）表明文本在 ALLM 情绪判断中具有主导权。本 Observation 以此为出发点，围绕三个递进问题展开：
 
-- **表征结构三阶段**：早层（L0-14）韵律可读性高于语义（D ≈ +0.15），中层（L14-23）两者趋于平衡，晚层（L23-35）语义短暂占优。
-- **表征优势未传导至决策**：早层韵律表征优势不体现于决策轨迹（Margin ≈ 0），L23 起语义决策锁定。
-- **语义具有强因果控制力**：语义 Patch 在 L0-12 的 Flip-to-Target ≈ 0.63，韵律 Patch 仅 ≈ 0.24 且方向不稳定。L14-15 是 audio span 因果可控性边界，超过此层局部干预失效。
+### Q1: 文本有主导权，但音频情绪可以翻转吗？（待执行）
 
-**2.2 跨模态冲突（文本指令 vs 音频韵律，先导研究 N=18/3）**
+**Observation 1**：统计不同情绪 token 的 logit distribution，量化翻转可行性。
+- 交付物：Emotion Token Logit Distribution Benchmark + 可视化
 
-- 文本指令对音频情绪的覆盖在 L22-28 **突然涌现**（非全程压制），与 2.1 的语义决策锁定区间高度重叠。
-- 因果不对称：PatchText 在 L0-15 的 Flip Rate ≈ 0.55-1.0，PatchAudio 仅 0.2-0.4 且不稳定；文本通道在中层（L5-20）建立因果主导。
+**Observation 2**：通过 Probing 分析 hidden state 中不同情绪的可分离性，揭示翻转难度差异。
+- 交付物：Representation Probing Results + 不同情绪对难度分析
 
-**两级模态优先级**（当前实验条件下）：音频内语义 > 韵律；跨模态文本 > 音频韵律。
+### Q2: 翻转了之后有什么后果？（已完成 demo）
 
-| 关键参数                 | 层区间  |
-| ------------------------ | ------- |
-| 因果控制窗口（音频内）   | L0–12  |
-| Audio span 扩散边界      | L14–15 |
-| 决策涌现/锁定窗口        | L22–28 |
-| 文本因果主导区间（先导） | L5–20  |
+**Observation 3**：验证情绪误感知会进一步影响下游 reasoning，并与 hallucination 显著相关。通过 Aligned vs Conflict prompt 对比实验（Voxtral），证明情绪翻转导致回复质量系统性下降。
+- 交付物：3 组对比图（音频-恢复/对抗音频-幻觉）+ 语音内容与回复内容相关性分析（AQA 指标）
+
+### Q3: 传统方法是否奏效？（待执行）
+
+**Observation 4**：将 SER（语音情感识别）领域的对抗样本方法迁移到 ALLM，评估翻转效果。预期结论：传统方法不充分，需要 ALLM-specific 攻击设计。
+- 交付物：自动化评估脚本（覆盖多种 SER 方法）+ 指标分析评测
 
 ## C. 白盒攻击
 
@@ -111,15 +111,18 @@ $$
 
 Voxtral 批量实验已完成，数据待同步。
 
+> **注**：白盒方法论叙事将在 Observation v3 重构完成后统一调整。实验数据与代码不受影响。
+
 ## D. 论文大纲
 
 ```
 1. Introduction
-2. Observation（纯机理发现，为方法论提供因果铺垫）
-   2.1 音频内模态冲突机理（语义 vs 韵律）
-   2.2 跨模态冲突仲裁机理（文本指令 vs 音频信号）
+2. Observation（三个递进问题，为攻击方法提供动机与约束）
+   2.1 Q1: 情绪翻转的可行性与根因
+   2.2 Q2: 情绪误感知的下游传导与幻觉
+   2.3 Q3: 传统 SER 攻击方法的不充分性
 3. Threat Model
-4. 方法论（由 2.1-2.2 机理驱动设计）
+4. 方法论（由 Observation 推导的设计约束驱动）
 5. 实验（Setting / 白盒结果 / 黑盒结果 / 回复评估 / 拓展领域 / Defense）
 6. Related Work
 7. Discussion and Limitations
@@ -130,15 +133,9 @@ Voxtral 批量实验已完成，数据待同步。
 
 | 路径                                           | 内容                                                                                                                               |
 | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| `observation/paper/observation_final.tex`    | **Section 2 Observation LaTeX 正文（当前主文件，初稿完成）**                                                                 |
-| `observation/paper/main.tex`                 | LaTeX 编译入口                                                                                                                     |
-| `observation/figures/`                       | Observation 配图（Probe/Logit Lens/Patching/Entropy）                                                                              |
-| `observation/observation_outline.md`         | Observation 写作大纲                                                                                                               |
-| `observation/writing_style_spec.md`          | 写作风格规范                                                                                                                       |
-| `observation/experiments/`                   | 补充实验脚本（bootstrap CI / entropy trajectory / cross-modal patching 等）                                                        |
-| `observation/results/`                       | 补充实验结果（CSV/JSON）                                                                                                           |
-| `observation/reviews/`                       | 审稿意见与修改记录                                                                                                                 |
-| `observation/scripts/`                       | 绘图脚本                                                                                                                           |
+| `observation/` (v1)                          | **已替代**：v1 Observation（按工具组织：Probe/Logit Lens/Patching），含 LaTeX 初稿、配图、实验脚本与结果                    |
+| `observation_v2/`                            | **已替代**：v2 Observation（R1-R4 映射），过渡版本                                                                           |
+| `observation_v3/`                            | **当前版本**：v3 Observation（按研究问题组织：Q1/Q2/Q3）；Q2 已完成，Q1/Q3 待执行                                            |
 | `PREVIOUS/2OBSERVATION/`                     | **已归档**：旧版 Observation 写作（P0+P1 修订版）                                                                            |
 | `LATEST/white_box_final/PPT大纲.md`          | PPT 全文案                                                                                                                         |
 | `LATEST/white_box_final/PPTtext.md`          | PPT 解析版                                                                                                                         |
@@ -173,3 +170,4 @@ Voxtral 批量实验已完成，数据待同步。
 | 2026-02-24 | Observation 完成 P0+P1 修订：新叙事框架（表征解耦与因果不对称）、claim 收缩、过渡段重写、方法论声明、中英文统一                                                                   |
 | 2026-03-01 | Observation 初稿完成（OPUS→observation）；旧版 2OBSERVATION 归档至 PREVIOUS；OpenS2S 批量实验完成（结果在 code/white_box_v2/result/ESDfinal/）；下一步目标：Voxtral 模型批量实验 |
 | 2026-03-11 | 重构第二部分（A-D 节全面更新）：新增 Voxtral 至目标模型、B/C 节对调并更新内容（B 对齐 observation_final.tex，C 更新为当前方法论与 ESDfinal 实验结果）、删除当前焦点与执行计划 |
+| 2026-03-18 | Observation 重构至 v3（Q1/Q2/Q3 + 4 个 Observation）；Q2 实验完成；B 节重写为问题导向架构；论文大纲与文件索引同步更新 |
