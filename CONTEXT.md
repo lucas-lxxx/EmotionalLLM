@@ -1,6 +1,6 @@
 # AI 协作指导文件
 
-> **最后更新**：2026-03-18
+> **最后更新**：2026-03-19
 > **研究人员**：徐振宇、李享
 
 ---
@@ -53,35 +53,69 @@
 
 | 阶段     | 状态                                                                 |
 | -------- | -------------------------------------------------------------------- |
-| 机理分析 | 重构中（v1→v3 问题导向；Q2 完成，Q1/Q3 待执行）                     |
-| 白盒攻击 | 实验完成（OpenS2S / Kimi-Audio / Voxtral）；方法论叙事待随 Obs 调整  |
+| 机理分析 | v3 四问结构；Q1/Q2 已完成，Q3/Q4 待执行                             |
+| 白盒攻击 | 实验完成（OpenS2S / Voxtral）；方法论 v1，待据 Q4 启示迭代          |
 | 黑盒攻击 | 尚未开始                                                             |
 
-**注**：v3 以 3 个递进问题重构 Observation，与方法论的衔接在重构完成后统一梳理。
+## B. 机理分析（Observation v3，Q1-Q4 四问结构）
 
-## B. 机理分析（Observation v3，重构中）
+围绕四个递进问题展开，从可行性→后果→传统方法局限→内部机理，逐步为攻击设计提供动机与约束。
 
-> 重构状态：v1→v3。Q2 实验完成，Q1/Q3 待执行。
+### Q1: 音频情绪可以翻转吗？ ✅ 已完成
 
-已有研究（ACL2025）表明文本在 ALLM 情绪判断中具有主导权。本 Observation 以此为出发点，围绕三个递进问题展开：
+> Qwen2-Audio-7B-Instruct, audio-only, 400 样本（4 情绪 × 100）
 
-### Q1: 文本有主导权，但音频情绪可以翻转吗？（待执行）
+统计 clean 音频的 emotion token logit distribution，量化翻转可行性。包含 logit 层面的全套分析：token probability distribution、稳定性统计、prototype posterior、prototype similarity（JS/KL/Cosine）、prediction confusion matrix、first-step logit 三分版（目标/其他情绪/无关 token）。
 
-**Observation 1**：统计不同情绪 token 的 logit distribution，量化翻转可行性。
-- 交付物：Emotion Token Logit Distribution Benchmark + 可视化
+**关键发现**：
+- 模型情绪输出不是 one-hot，而是 structured preference distribution，各情绪 token 间存在竞争
+- 各情绪稳定性高度不对称：angry/sad 较稳定（候选集准确率 61%/63%），**happy 极脆弱**（准确率仅 15%，85% 样本目标分数低于最强 competitor）
+- **angry 是万能 competitor**：happy、neutral、sad 的主要竞争者均为 angry
+- Prototype 相似性：angry↔happy JS 散度最小（0.0195）→ 翻转阻力最小
+- Prototype posterior：happy 偏向 angry（angry 0.460 > happy 自身 0.140）；neutral 不以自身为中心（angry 0.355 > neutral 0.251）
+- Prediction confusion：happy 50% 被判为 angry，neutral 在 angry/sad 间分裂 → 存在 **anger-oriented overlap region**
+- 对攻击设计的启示：不宜只用 hard target CE → 需 hybrid margin + soft distribution steering + pair-specific 策略
 
-**Observation 2**：通过 Probing 分析 hidden state 中不同情绪的可分离性，揭示翻转难度差异。
-- 交付物：Representation Probing Results + 不同情绪对难度分析
+**结论**：翻转可行，且不同方向难度高度不对称。clean posterior 空间存在结构性偏向（anger-oriented overlap），为攻击方法论设计提供约束。
 
-### Q2: 翻转了之后有什么后果？（已完成 demo）
+- 交付物：`observation_v3/Q1&Q4/emotion_token_analysis_reference_zh.pdf`（含小提琴图、稳定性表、prototype posterior、confusion matrix、JS similarity、first-step logit 三分版）
 
-**Observation 3**：验证情绪误感知会进一步影响下游 reasoning，并与 hallucination 显著相关。通过 Aligned vs Conflict prompt 对比实验（Voxtral），证明情绪翻转导致回复质量系统性下降。
-- 交付物：3 组对比图（音频-恢复/对抗音频-幻觉）+ 语音内容与回复内容相关性分析（AQA 指标）
+### Q2: 翻转了有什么后果？ ✅ 已完成
 
-### Q3: 传统方法是否奏效？（待执行）
+> Voxtral-Mini-3B, Aligned vs Conflict prompt, 15 样本, DeepSeek V3.2 LLM Judge
 
-**Observation 4**：将 SER（语音情感识别）领域的对抗样本方法迁移到 ALLM，评估翻转效果。预期结论：传统方法不充分，需要 ALLM-specific 攻击设计。
+通过文本 Prompt 操纵情绪感知（不依赖攻击方法），验证情绪误感知对下游回复的系统性影响。
+
+**关键发现**：
+- 三维度系统性退化：Faithfulness Δ+1.27, Empathy Δ+1.13, Relevance Δ+1.00
+- **happy 最脆弱**（Empathy Δ+3.00）/ **sad 最鲁棒**（三维度 Δ=0）/ **neutral 是幻觉温床**（Faithfulness 低至 1.33/5）
+- 强负面情绪音频信号可抵抗 Prompt 误导，但 happy/neutral 无法抵抗
+
+**结论**：情绪翻转不只是标签变化，会系统性污染下游回复，为攻击提供 threat justification。
+
+- 交付物：`observation_v3/Q2/experiment/result/ob3_analysis_report.md`
+
+### Q3: 传统 SER 攻击方法对 ALLM 有效吗？ ⬜ 待执行
+
+将 SER（语音情感识别）领域的对抗样本方法迁移到 ALLM，评估翻转效果。
+
+**预期结论**：传统方法不充分——SER 攻击针对独立分类器，ALLM 的情绪判断路径为共享编码器 + LLM 自回归生成，迁移效果预期较差。→ 引出 ALLM-specific 攻击设计的必要性。
+
 - 交付物：自动化评估脚本（覆盖多种 SER 方法）+ 指标分析评测
+
+### Q4: 具体的机理怎么实现？ ⬜ 待执行
+
+> 计划使用之前已完成的 Probing 实验框架（`code/modal_conflict/`）
+
+通过 Probing 分析 hidden state 中不同情绪的可分离性，揭示 ALLM 内部情绪表征的形成机理，解释 Q1 观察到的不对称性的深层原因。
+
+**实验目标**：
+1. **Representation Probing**：对各层 hidden state 训练线性探针，测量不同情绪在表征空间中的可分性
+2. **情绪对难度分析**：量化不同情绪对（如 happy↔angry vs sad↔angry）在表征空间中的分离难度差异
+
+**预期价值**：为 Q1 的 logit 层面发现（anger-oriented overlap、happy 脆弱性）提供表征层面的因果解释——不仅知道"翻转容易"，还要解释"为什么容易"。
+
+- 交付物：Representation Probing Results + 不同情绪对难度分析
 
 ## C. 白盒攻击
 
@@ -97,30 +131,29 @@ $$
 
 **两阶段调度**：Stage A（20 步）λ_emo 主导先翻转情绪；Stage B（40 步）逐步增大 λ_asr / λ_per 兼顾语义与可闻性。**多 Prompt 集成**（3 个情绪 Prompt 损失求平均）提升跨 Prompt 鲁棒性；**EoT**（随机时移 + 增益扰动）增强稳健性。
 
-**OpenS2S 批量实验结果**（ESD 数据集，8949 条样本）：
+**实验结果**：
 
-| 指标                            | 值                       |
-| ------------------------------- | ------------------------ |
-| 攻击成功率（3-prompt 多数投票） | 78.44%                   |
-| 各 Prompt 单独                  | 91.42% / 94.66% / 81.38% |
-| 语义保留率（LLM Judge）         | 19.43%                   |
-| 联合成功率（情绪✓ ∧ 语义✓）  | 15.07%                   |
-| 平均 SNR                        | 16.43 dB                 |
+| 指标 | OpenS2S（ESD, 8949 条） | Voxtral（ESD EN+CN, 2000 条） |
+| --- | --- | --- |
+| 攻击成功率（3-prompt 多数投票） | 78.44% | **93.80%** |
+| 单 Prompt 最高 | 94.66% | 99.90% |
+| 语义保留率 | 19.43%（LLM Judge） | 39.75%（Cosine Sim） |
+| 联合成功率（情绪✓ ∧ 语义✓） | 15.07% | 36.40% |
+| 平均 SNR | 16.43 dB | 20.60 dB |
 
-**当前瓶颈**：情绪翻转成功率较高，但语义保持率（~20%）是主要挑战，联合成功率受此限制。
+**当前瓶颈**：情绪翻转成功率高（78–94%），但语义保持率是联合成功率的限制因素。Voxtral 显著优于 OpenS2S，可能与架构差异有关。
 
-Voxtral 批量实验已完成，数据待同步。
-
-> **注**：白盒方法论叙事将在 Observation v3 重构完成后统一调整。实验数据与代码不受影响。
+> **注**：当前为 v1 方法论。Q4 实验提示需引入 soft distribution steering / pair-specific 策略，方法论将据此迭代。
 
 ## D. 论文大纲
 
 ```
 1. Introduction
-2. Observation（三个递进问题，为攻击方法提供动机与约束）
-   2.1 Q1: 情绪翻转的可行性与根因
+2. Observation（四个递进问题，为攻击方法提供动机与约束）
+   2.1 Q1: 音频情绪翻转的可行性与不对称性
    2.2 Q2: 情绪误感知的下游传导与幻觉
    2.3 Q3: 传统 SER 攻击方法的不充分性
+   2.4 Q4: 情绪表征内部机理（Probing hidden state 可分性）
 3. Threat Model
 4. 方法论（由 Observation 推导的设计约束驱动）
 5. 实验（Setting / 白盒结果 / 黑盒结果 / 回复评估 / 拓展领域 / Defense）
@@ -135,7 +168,11 @@ Voxtral 批量实验已完成，数据待同步。
 | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | `observation/` (v1)                          | **已替代**：v1 Observation（按工具组织：Probe/Logit Lens/Patching），含 LaTeX 初稿、配图、实验脚本与结果                    |
 | `observation_v2/`                            | **已替代**：v2 Observation（R1-R4 映射），过渡版本                                                                           |
-| `observation_v3/`                            | **当前版本**：v3 Observation（按研究问题组织：Q1/Q2/Q3）；Q2 已完成，Q1/Q3 待执行                                            |
+| `observation_v3/`                            | **当前版本**：v3 Observation（Q1-Q4 四问结构）；Q1/Q2 已完成，Q3/Q4 待执行                                                   |
+| `observation_v3/Q1&Q4/`                      | Q1 实验交付物：`emotion_token_analysis_reference_zh.pdf`（logit 分析、prototype、confusion matrix）；Q4（Probing）待执行      |
+| `observation_v3/Q2/`                         | Q2 实验：Voxtral Aligned vs Conflict 推理对比，含推理脚本、评估脚本、分析报告                                                |
+| `observation_v3/Q3/`                         | Q3 实验目录（待执行）                                                                                                        |
+| `code/white_box_voxtral/result/`             | **Voxtral 白盒批量实验结果**：`report_all.md`（2000 条，ASR 93.80%）                                                        |
 | `PREVIOUS/2OBSERVATION/`                     | **已归档**：旧版 Observation 写作（P0+P1 修订版）                                                                            |
 | `LATEST/white_box_final/PPT大纲.md`          | PPT 全文案                                                                                                                         |
 | `LATEST/white_box_final/PPTtext.md`          | PPT 解析版                                                                                                                         |
@@ -152,6 +189,8 @@ Voxtral 批量实验已完成，数据待同步。
 | `code/white_box_v2/`                         | **白盒攻击代码（当前版本）**：PGD+EoT 对抗攻击框架。`codex/` 为通用实验模板，`experiment/` 为特定数据集实验版本          |
 | `code/white_box_v2/result/ESDfinal/`         | **OpenS2S 白盒批量实验结果**                                                                                                 |
 | `code/white_box_v1/`                         | ~~已废弃，旧版方法论，请勿阅读~~                                                                                                  |
+| `meeting/3.19.md`                            | 3.19 汇报 PPT 大纲（Q1-Q4 四问 + 白盒结果）                                                                                       |
+| `meeting/3.19_text.md`                       | 3.19 汇报讲稿（逐页口述内容）                                                                                                      |
 | `PPT.pptx`                                   | 演示文稿                                                                                                                           |
 | `框架.png`                                   | 论文大纲图                                                                                                                         |
 | `paper/`                                     | 参考文献（~20 篇）                                                                                                                 |
@@ -171,3 +210,4 @@ Voxtral 批量实验已完成，数据待同步。
 | 2026-03-01 | Observation 初稿完成（OPUS→observation）；旧版 2OBSERVATION 归档至 PREVIOUS；OpenS2S 批量实验完成（结果在 code/white_box_v2/result/ESDfinal/）；下一步目标：Voxtral 模型批量实验 |
 | 2026-03-11 | 重构第二部分（A-D 节全面更新）：新增 Voxtral 至目标模型、B/C 节对调并更新内容（B 对齐 observation_final.tex，C 更新为当前方法论与 ESDfinal 实验结果）、删除当前焦点与执行计划 |
 | 2026-03-18 | Observation 重构至 v3（Q1/Q2/Q3 + 4 个 Observation）；Q2 实验完成；B 节重写为问题导向架构；论文大纲与文件索引同步更新 |
+| 2026-03-19 | B 节重写为 Q1-Q4 四问结构：Q1 合并全部 logit 层面分析（含 prototype/confusion），Q4 恢复为 Probing hidden state 计划（待执行）；C 节补充 Voxtral 实验结果；D 节论文大纲新增 Q4；E 节新增文件索引 |
