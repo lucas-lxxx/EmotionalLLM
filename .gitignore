@@ -1,3 +1,5 @@
 .claude
 *.wav
+*.pt
 model
+__pycache__/

@@ -17,7 +17,9 @@ class SurrogateSER(nn.Module):
         freeze_feature_extractor: bool = True,
     ):
         super().__init__()
-        self.wav2vec = Wav2Vec2Model.from_pretrained(model_name)
+        self.wav2vec = Wav2Vec2Model.from_pretrained(model_name, use_safetensors=True)
+        if hasattr(self.wav2vec, 'gradient_checkpointing_disable'):
+            self.wav2vec.gradient_checkpointing_disable()
         if freeze_feature_extractor:
             self.wav2vec.feature_extractor._freeze_parameters()
         hidden_size = self.wav2vec.config.hidden_size  # 768 for base

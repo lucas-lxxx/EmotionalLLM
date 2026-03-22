@@ -93,7 +93,9 @@ def main():
 
     # 模型
     model = SurrogateSER().to(device)
-    optimizer = torch.optim.AdamW(model.parameters(), lr=args.lr)
+    for param in model.wav2vec.parameters():
+        param.requires_grad = False
+    optimizer = torch.optim.AdamW(model.classifier.parameters(), lr=args.lr)
     criterion = nn.CrossEntropyLoss()
 
     best_acc = 0.0

@@ -1,0 +1,53 @@
+{
+  "total_samples": 100,
+  "voxtral_clean_accuracy": 0.23,
+  "voxtral_adv_flip_rate": 0.76,
+  "ser_attack_success_rate": 0.52,
+  "by_emotion": {
+    "happy": {
+      "total": 20,
+      "clean_correct": 0,
+      "adv_flipped": 20,
+      "ser_success": 15,
+      "clean_acc": 0.0,
+      "adv_flip_rate": 1.0,
+      "ser_asr": 0.75
+    },
+    "surprise": {
+      "total": 20,
+      "clean_correct": 0,
+      "adv_flipped": 20,
+      "ser_success": 5,
+      "clean_acc": 0.0,
+      "adv_flip_rate": 1.0,
+      "ser_asr": 0.25
+    },
+    "neutral": {
+      "total": 24,
+      "clean_correct": 22,
+      "adv_flipped": 2,
+      "ser_success": 2,
+      "clean_acc": 0.9166666666666666,
+      "adv_flip_rate": 0.08333333333333333,
+      "ser_asr": 0.08333333333333333
+    },
+    "angry": {
+      "total": 22,
+      "clean_correct": 1,
+      "adv_flipped": 20,
+      "ser_success": 20,
+      "clean_acc": 0.045454545454545456,
+      "adv_flip_rate": 0.9090909090909091,
+      "ser_asr": 0.9090909090909091
+    },
+    "sad": {
+      "total": 14,
+      "clean_correct": 0,
+      "adv_flipped": 14,
+      "ser_success": 10,
+      "clean_acc": 0.0,
+      "adv_flip_rate": 1.0,
+      "ser_asr": 0.7142857142857143
+    }
+  }
+}
