@@ -10,7 +10,7 @@ class Config:
     esd_root: Path = Path("/data1/lixiang/OpenS2S_dataset/ESD/EN")
     # ESD EN speakers: 0011-0020; 结构: speaker/Emotion/split/*.wav
     en_speakers: list[str] = field(
-        default_factory=lambda: [f"{i:04d}" for i in range(11, 21)]
+        default_factory=lambda: ["0011", "0012", "0013"]  # 3 speakers 足够
     )
 
     voxtral_model_path: Path = Path("/data1/lixiang/Voxtral")
@@ -36,12 +36,12 @@ class Config:
     wav2vec_model: str = "facebook/wav2vec2-base"
     ser_num_classes: int = 5
     ser_lr: float = 1e-4
-    ser_epochs: int = 10
+    ser_epochs: int = 5
     ser_batch_size: int = 16
 
     # ── STAA-Net Generator ──
     gen_lr: float = 1e-3
-    gen_epochs: int = 20
+    gen_epochs: int = 10
     gen_batch_size: int = 8
     epsilon: float = 0.03
     lambda_mag: float = 0.0   # 论文默认
