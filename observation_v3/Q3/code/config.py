@@ -7,8 +7,8 @@ from pathlib import Path
 @dataclass
 class Config:
     # ── 路径 ──
-    esd_root: Path = Path("/data1/lixiang/OpenS2S_dataset/ESD")
-    # ESD EN speakers: 0011-0020; 结构可能是 speaker/Emotion/split/*.wav
+    esd_root: Path = Path("/data1/lixiang/OpenS2S_dataset/ESD/EN")
+    # ESD EN speakers: 0011-0020; 结构: speaker/Emotion/split/*.wav
     en_speakers: list[str] = field(
         default_factory=lambda: [f"{i:04d}" for i in range(11, 21)]
     )
