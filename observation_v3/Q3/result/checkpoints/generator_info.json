@@ -1,9 +1,0 @@
-{
-  "best_test_asr": 0.5295238095238095,
-  "epochs": 5,
-  "lr": 0.001,
-  "epsilon": 0.03,
-  "lambda_mag": 0.0,
-  "lambda_spa": 0.1,
-  "lambda_qua": 1e-06
-}

@@ -1,0 +1,111 @@
+{
+  "emo_token_ids": {
+    "angry": 1533,
+    "happy": 1104,
+    "neutral": 62891,
+    "sad": 1115,
+    "surprise": 36685
+  },
+  "epoch_logs": [
+    {
+      "epoch": 1,
+      "avg_loss": 1.15397,
+      "avg_adv_loss": 1.104375,
+      "avg_spa_loss": 0.495945,
+      "avg_qua_loss": 0.201983,
+      "train_asr": 0.755,
+      "n_total": 200,
+      "elapsed_sec": 43.0
+    },
+    {
+      "epoch": 2,
+      "avg_loss": 1.148882,
+      "avg_adv_loss": 1.100625,
+      "avg_spa_loss": 0.482566,
+      "avg_qua_loss": 0.159105,
+      "train_asr": 0.755,
+      "n_total": 200,
+      "elapsed_sec": 40.3
+    },
+    {
+      "epoch": 3,
+      "avg_loss": 1.127198,
+      "avg_adv_loss": 1.080625,
+      "avg_spa_loss": 0.465729,
+      "avg_qua_loss": 0.201354,
+      "train_asr": 0.75,
+      "n_total": 200,
+      "elapsed_sec": 40.3
+    },
+    {
+      "epoch": 4,
+      "avg_loss": 1.125031,
+      "avg_adv_loss": 1.080625,
+      "avg_spa_loss": 0.444063,
+      "avg_qua_loss": 0.18971,
+      "train_asr": 0.755,
+      "n_total": 200,
+      "elapsed_sec": 40.2
+    },
+    {
+      "epoch": 5,
+      "avg_loss": 1.104413,
+      "avg_adv_loss": 1.060625,
+      "avg_spa_loss": 0.437881,
+      "avg_qua_loss": 0.175816,
+      "train_asr": 0.755,
+      "n_total": 200,
+      "elapsed_sec": 40.5
+    },
+    {
+      "epoch": 6,
+      "avg_loss": 1.104606,
+      "avg_adv_loss": 1.06125,
+      "avg_spa_loss": 0.433555,
+      "avg_qua_loss": 0.161009,
+      "train_asr": 0.755,
+      "n_total": 200,
+      "elapsed_sec": 40.2
+    },
+    {
+      "epoch": 7,
+      "avg_loss": 1.109186,
+      "avg_adv_loss": 1.069375,
+      "avg_spa_loss": 0.398111,
+      "avg_qua_loss": 0.149913,
+      "train_asr": 0.755,
+      "n_total": 200,
+      "elapsed_sec": 40.3
+    },
+    {
+      "epoch": 8,
+      "avg_loss": 1.076282,
+      "avg_adv_loss": 1.036875,
+      "avg_spa_loss": 0.394066,
+      "avg_qua_loss": 0.144953,
+      "train_asr": 0.76,
+      "n_total": 200,
+      "elapsed_sec": 40.4
+    },
+    {
+      "epoch": 9,
+      "avg_loss": 1.073938,
+      "avg_adv_loss": 1.036875,
+      "avg_spa_loss": 0.370628,
+      "avg_qua_loss": 0.128855,
+      "train_asr": 0.755,
+      "n_total": 200,
+      "elapsed_sec": 40.3
+    },
+    {
+      "epoch": 10,
+      "avg_loss": 1.072189,
+      "avg_adv_loss": 1.03625,
+      "avg_spa_loss": 0.359386,
+      "avg_qua_loss": 0.122246,
+      "train_asr": 0.76,
+      "n_total": 200,
+      "elapsed_sec": 40.3
+    }
+  ]
+}

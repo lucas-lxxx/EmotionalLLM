@@ -1,0 +1,48 @@
+{
+  "total_samples": 200,
+  "clean_accuracy": 0.235,
+  "untargeted_asr": 0.77,
+  "attack_induced_flip_rate": 0.0426,
+  "n_clean_correct": 47,
+  "n_attack_success": 154,
+  "n_flip": 2,
+  "per_emotion": {
+    "angry": {
+      "n_samples": 31,
+      "clean_accuracy": 0.0645,
+      "untargeted_asr": 0.9355,
+      "flip_rate": 0.0
+    },
+    "happy": {
+      "n_samples": 40,
+      "clean_accuracy": 0.0,
+      "untargeted_asr": 1.0,
+      "flip_rate": 0
+    },
+    "neutral": {
+      "n_samples": 45,
+      "clean_accuracy": 0.8667,
+      "untargeted_asr": 0.1556,
+      "flip_rate": 0.0256
+    },
+    "sad": {
+      "n_samples": 40,
+      "clean_accuracy": 0.025,
+      "untargeted_asr": 1.0,
+      "flip_rate": 1.0
+    },
+    "surprise": {
+      "n_samples": 44,
+      "clean_accuracy": 0.1136,
+      "untargeted_asr": 0.8636,
+      "flip_rate": 0.0
+    }
+  },
+  "perturbation_stats": {
+    "delta_linf_mean": 0.0298,
+    "delta_linf_max": 0.03,
+    "delta_l2_mean": 1.7529,
+    "snr_db_mean": 13.4497,
+    "mask_sparsity_mean": 0.947
+  }
+}
