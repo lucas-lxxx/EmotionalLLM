@@ -1,53 +1,68 @@
-# Q3：传统 SER 攻击方法对 ALLM 有效吗？
+# Q3：传统 SER 攻击方法论能否攻击 ALLM？
 
 ## 问题
 
-语音情感识别（SER）领域已有成熟的对抗攻击方法。如果在 SER 模型上生成的对抗音频直接输入 ALLM，能否骗过 ALLM 的情绪判断？
+语音情感识别（SER）领域已有成熟的对抗攻击方法（如 STAA-Net）。将其核心方法论直接适配到 ALLM 上，能否有效干扰 ALLM 的情绪判断？
 
 ## 实验设计
 
-采用 STAA-Net（arXiv 2402.01227）——一种 generator-based 的 SER 对抗攻击方法。流程：
+选取 STAA-Net（arXiv 2402.01227）——SER 领域代表性的 generator-based 对抗攻击方法，将其核心方法论（Wave-U-Net generator + C&W untargeted loss + 稀疏 mask 约束）直接适配到 Voxtral（ALLM），给予**白盒 access**（可微分前向，梯度穿过 Voxtral 回传到 generator）。
 
-1. **训练 surrogate SER**：wav2vec2-base + linear head，在 ESD English 上做 5-class 情绪分类
-2. **训练 STAA-Net generator**：冻结 SER，训练 Wave-U-Net 生成对抗扰动（untargeted，让 SER 判错即可）
-3. **生成对抗音频**：用 generator 对测试集生成对抗样本
-4. **评估 Voxtral**：将 clean 和对抗音频分别输入 Voxtral，比较情绪识别结果
-
-| 项目 | 配置 |
-|------|------|
-| 数据集 | ESD English，3 speakers，5 emotions，525 测试样本 |
-| Surrogate | wav2vec2-base + linear head，test acc = 47% |
-| 攻击方法 | STAA-Net，ε=0.03（L∞），论文默认超参 |
-| Victim | Voxtral-Mini-3B |
+| 项目      | 配置                                                                                           |
+| --------- | ---------------------------------------------------------------------------------------------- |
+| 方法      | STAA-Net 方法论直接适配 Voxtral                                                                |
+| Generator | Wave-U-Net，6 层，channels [24,48,72,96,120,144]                                               |
+| 损失函数  | C&W untargeted loss + 稀疏约束（$\lambda_{spa}=0.1$）+ 量化约束（$\lambda_{qua}=10^{-6}$） |
+| 扰动预算  | $\varepsilon = 0.03$（$L_\infty$）                                                         |
+| 攻击类型  | **Untargeted**（使预测偏离 ground truth 即算成功）                                       |
+| 数据集    | ESD English，3 speakers（0011-0013），5 emotions                                               |
+| 训练      | 200 样本，10 epochs，batch_size=1                                                              |
+| 测试      | 200 样本                                                                                       |
+| Victim    | Voxtral-Mini-3B（白盒）                                                                        |
 
 ## 结果
 
-### Voxtral Baseline（clean 音频）
+### 训练收敛
 
-Voxtral 在 ESD English 上整体准确率仅 **23%**，存在极强的 neutral 偏置（90/100 样本被预测为 neutral）：
+Generator 训练过程中 loss 正常下降，表明优化过程有效运行。
 
-| 情绪 | n | Voxtral 准确率 |
-|------|---|----------------|
-| neutral | 24 | 91.7% |
-| angry | 22 | 4.5% |
-| happy / surprise / sad | 54 | 0% |
+| Epoch | Total Loss | Adv Loss | Sparsity Loss | Train ASR |
+| ----- | ---------- | -------- | ------------- | --------- |
+| 1     | 1.154      | 1.104    | 0.496         | 75.5%     |
+| 5     | 1.104      | 1.061    | 0.438         | 75.5%     |
+| 10    | 1.072      | 1.036    | 0.359         | 76.0%     |
 
-### 迁移攻击效果
+### 扰动特征
 
-Generator 产生的扰动几乎为零（87% 样本 ΔL∞ < 0.001），99/100 样本 Voxtral 在 clean 和 adversarial 上输出完全一致。
+Generator 确实产生了非零扰动，且达到了预算上限：
 
-| 指标 | 值 |
-|------|------|
-| Voxtral clean 与 adv 输出一致 | 99/100 |
-| **真实攻击翻转率**（clean 判对 → adv 判错） | **0/23 = 0%** |
+| 指标                       | 值                                 |
+| -------------------------- | ---------------------------------- |
+| $\Delta L_\infty$ (mean) | 0.0298（接近$\varepsilon=0.03$） |
+| $\Delta L_2$ (mean)      | 1.753                              |
+| SNR (mean)                 | 13.4 dB                            |
+| Mask sparsity              | 94.7%                              |
 
-### 与白盒攻击对比
+### 攻击效果
 
-| | SER 迁移攻击 | 白盒攻击（直接优化 Voxtral） |
-|---|---|---|
-| 真实翻转率 | **0%** | **93.8%** |
-| 扰动 ΔL∞ | ≈ 0 | ≤ 0.008 |
+尽管 generator 产生了接近预算上限的扰动，Voxtral 的预测几乎没有改变：
+
+| 指标                            | 值                                                            |
+| ------------------------------- | ------------------------------------------------------------- |
+| **Clean 与 adv 预测一致** | **195/200（97.5%）**                                    |
+| 预测发生变化                    | 5/200（2.5%）<br /><br /><br /><br /><br /><br /><br /><br /> |
+
+200 个测试样本中，97.5% 的样本在加入对抗扰动后 Voxtral 的输出与 clean 完全一致。STAA-Net 方法论产生的扰动几乎无法影响 Voxtral 的情绪判断。
+
+## 与我们的白盒攻击方法对比
+
+|                         | STAA-Net 方法论适配  | 我们的 ALLM-native 白盒攻击    |
+| ----------------------- | -------------------- | ------------------------------ |
+| 接入方式                | 白盒                 | 白盒                           |
+| 攻击类型                | Untargeted（更容易） | **Targeted**（更难）     |
+| 扰动预算$\varepsilon$ | 0.03                 | **0.008**（小 4 倍）     |
+| 预测改变率              | **2.5%**       | **78–94%** targeted ASR |
 
 ## 结论
 
-**传统 SER 对抗攻击无法迁移到 ALLM。** SER 模型（wav2vec2 + linear head）的决策边界与 ALLM（Whisper encoder + LLM 自回归生成）的情绪判断路径完全不同，针对前者优化的扰动对后者无效。这证明了设计 ALLM-native 攻击方法的必要性。
+**传统 SER 攻击方法论即使直接适配到 ALLM（给予白盒 access），也几乎无法改变 ALLM 的情绪预测。** 在 4 倍扰动预算 + 更容易的 untargeted 任务条件下，STAA-Net 方法论仅使 2.5% 的样本预测发生变化；而我们的 ALLM-native 方法用更小的扰动实现了 78–94% 的定向攻击成功率。这说明 SER 领域的攻击范式不适用于 ALLM，从而论证了设计 ALLM-native 攻击方法的必要性。
