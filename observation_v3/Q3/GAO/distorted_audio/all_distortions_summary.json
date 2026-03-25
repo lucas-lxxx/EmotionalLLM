@@ -1,0 +1,26 @@
+{
+  "vtln": {
+    "distortion": "vtln",
+    "alpha": 0.15,
+    "total_samples": 525,
+    "avg_delta_linf": 0.4102030628210022,
+    "avg_delta_l2": 9.256748690832229,
+    "avg_snr_db": -0.7233118364975198
+  },
+  "mcadams": {
+    "distortion": "mcadams",
+    "alpha": 0.8,
+    "total_samples": 525,
+    "avg_delta_linf": NaN,
+    "avg_delta_l2": NaN,
+    "avg_snr_db": NaN
+  },
+  "mss": {
+    "distortion": "mss",
+    "alpha": 0.25,
+    "total_samples": 525,
+    "avg_delta_linf": 157.09113730294365,
+    "avg_delta_l2": 328.8844103422619,
+    "avg_snr_db": -32.68161366768961
+  }
+}

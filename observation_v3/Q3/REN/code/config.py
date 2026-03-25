@@ -22,11 +22,11 @@ class Config:
     voxtral_model_path: Path = Path("/data1/lixiang/Voxtral")
 
     # 工作目录（服务器）
-    work_dir: Path = Path("/data1/lixiang/OPUS/Q3_REN")
-    surrogate_ckpt: Path = Path("/data1/lixiang/OPUS/Q3/checkpoints/surrogate_ser.pt")  # 复用 STAA 的
-    generator_ckpt: Path = Path("/data1/lixiang/OPUS/Q3_REN/checkpoints/atrous_generator.pt")
-    adv_audio_dir: Path = Path("/data1/lixiang/OPUS/Q3_REN/adv_audio")
-    results_dir: Path = Path("/data1/lixiang/OPUS/Q3_REN/results")
+    work_dir: Path = Path("/data1/lixiang/EmotionalLLM/observation_v3/Q3/REN")
+    surrogate_ckpt: Path = Path("/data1/lixiang/EmotionalLLM/observation_v3/Q3/STAA/checkpoints/surrogate_ser.pt")
+    generator_ckpt: Path = Path("/data1/lixiang/EmotionalLLM/observation_v3/Q3/REN/checkpoints/atrous_generator.pt")
+    adv_audio_dir: Path = Path("/data1/lixiang/EmotionalLLM/observation_v3/Q3/REN/adv_audio")
+    results_dir: Path = Path("/data1/lixiang/EmotionalLLM/observation_v3/Q3/REN/result")
 
     # ── 数据集 ──
     emotions: list[str] = field(
@@ -39,7 +39,7 @@ class Config:
     max_audio_sec: float = 6.0
 
     # ── Surrogate SER ──
-    wav2vec_model: str = "facebook/wav2vec2-base"
+    wav2vec_model: str = "/data1/lixiang/EmotionalLLM/observation_v3/Q3/STAA/checkpoints/wav2vec2-base"
     ser_num_classes: int = 5
 
     # ── Atrous CNN Generator（论文参数适配为 1D） ──

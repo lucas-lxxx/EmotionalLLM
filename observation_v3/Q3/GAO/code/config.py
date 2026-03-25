@@ -22,9 +22,9 @@ class Config:
     voxtral_model_path: Path = Path("/data1/lixiang/Voxtral")
 
     # 工作目录（服务器）
-    work_dir: Path = Path("/data1/lixiang/OPUS/Q3_GAO")
-    distorted_audio_dir: Path = Path("/data1/lixiang/OPUS/Q3_GAO/distorted_audio")
-    results_dir: Path = Path("/data1/lixiang/OPUS/Q3_GAO/results")
+    work_dir: Path = Path("/data1/lixiang/EmotionalLLM/observation_v3/Q3/GAO")
+    distorted_audio_dir: Path = Path("/data1/lixiang/EmotionalLLM/observation_v3/Q3/GAO/distorted_audio")
+    results_dir: Path = Path("/data1/lixiang/EmotionalLLM/observation_v3/Q3/GAO/result")
 
     # ── 数据集 ──
     emotions: list[str] = field(

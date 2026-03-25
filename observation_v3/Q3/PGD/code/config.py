@@ -16,10 +16,10 @@ class Config:
     voxtral_model_path: Path = Path("/data1/lixiang/Voxtral")
 
     # 工作目录（服务器）- PGD 子目录
-    work_dir: Path = Path("/data1/lixiang/OPUS/Q3_PGD")
-    surrogate_ckpt: Path = Path("/data1/lixiang/OPUS/Q3/checkpoints/surrogate_ser.pt")  # 复用 STAA 的 surrogate
-    adv_audio_dir: Path = Path("/data1/lixiang/OPUS/Q3_PGD/adv_audio")
-    results_dir: Path = Path("/data1/lixiang/OPUS/Q3_PGD/results")
+    work_dir: Path = Path("/data1/lixiang/EmotionalLLM/observation_v3/Q3/PGD")
+    surrogate_ckpt: Path = Path("/data1/lixiang/EmotionalLLM/observation_v3/Q3/STAA/checkpoints/surrogate_ser.pt")
+    adv_audio_dir: Path = Path("/data1/lixiang/EmotionalLLM/observation_v3/Q3/PGD/adv_audio")
+    results_dir: Path = Path("/data1/lixiang/EmotionalLLM/observation_v3/Q3/PGD/result")
 
     # ── 数据集 ──
     emotions: list[str] = field(
@@ -32,7 +32,7 @@ class Config:
     max_audio_sec: float = 6.0  # 截断/padding 长度
 
     # ── Surrogate SER ──
-    wav2vec_model: str = "facebook/wav2vec2-base"
+    wav2vec_model: str = "/data1/lixiang/EmotionalLLM/observation_v3/Q3/STAA/checkpoints/wav2vec2-base"
     ser_num_classes: int = 5
     ser_lr: float = 1e-4
     ser_epochs: int = 5

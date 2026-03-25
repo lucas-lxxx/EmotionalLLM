@@ -1,0 +1,167 @@
+{
+  "vtln": {
+    "method": "GAO_vtln",
+    "distortion": "vtln",
+    "total_samples": 525,
+    "voxtral_clean_accuracy": 0.21523809523809523,
+    "voxtral_dist_flip_rate": 0.7866666666666666,
+    "prediction_change_rate": 0.05714285714285714,
+    "by_emotion": {
+      "happy": {
+        "total": 108,
+        "clean_correct": 0,
+        "dist_flipped": 108,
+        "changed": 4,
+        "clean_acc": 0.0,
+        "dist_flip_rate": 1.0,
+        "change_rate": 0.037037037037037035
+      },
+      "surprise": {
+        "total": 110,
+        "clean_correct": 9,
+        "dist_flipped": 105,
+        "changed": 11,
+        "clean_acc": 0.08181818181818182,
+        "dist_flip_rate": 0.9545454545454546,
+        "change_rate": 0.1
+      },
+      "neutral": {
+        "total": 112,
+        "clean_correct": 95,
+        "dist_flipped": 16,
+        "changed": 3,
+        "clean_acc": 0.8482142857142857,
+        "dist_flip_rate": 0.14285714285714285,
+        "change_rate": 0.026785714285714284
+      },
+      "angry": {
+        "total": 97,
+        "clean_correct": 4,
+        "dist_flipped": 91,
+        "changed": 3,
+        "clean_acc": 0.041237113402061855,
+        "dist_flip_rate": 0.9381443298969072,
+        "change_rate": 0.030927835051546393
+      },
+      "sad": {
+        "total": 98,
+        "clean_correct": 5,
+        "dist_flipped": 93,
+        "changed": 9,
+        "clean_acc": 0.05102040816326531,
+        "dist_flip_rate": 0.9489795918367347,
+        "change_rate": 0.09183673469387756
+      }
+    }
+  },
+  "mcadams": {
+    "method": "GAO_mcadams",
+    "distortion": "mcadams",
+    "total_samples": 525,
+    "voxtral_clean_accuracy": 0.21523809523809523,
+    "voxtral_dist_flip_rate": 0.780952380952381,
+    "prediction_change_rate": 0.0419047619047619,
+    "by_emotion": {
+      "happy": {
+        "total": 108,
+        "clean_correct": 0,
+        "dist_flipped": 108,
+        "changed": 3,
+        "clean_acc": 0.0,
+        "dist_flip_rate": 1.0,
+        "change_rate": 0.027777777777777776
+      },
+      "surprise": {
+        "total": 110,
+        "clean_correct": 9,
+        "dist_flipped": 98,
+        "changed": 8,
+        "clean_acc": 0.08181818181818182,
+        "dist_flip_rate": 0.8909090909090909,
+        "change_rate": 0.07272727272727272
+      },
+      "neutral": {
+        "total": 112,
+        "clean_correct": 95,
+        "dist_flipped": 16,
+        "changed": 1,
+        "clean_acc": 0.8482142857142857,
+        "dist_flip_rate": 0.14285714285714285,
+        "change_rate": 0.008928571428571428
+      },
+      "angry": {
+        "total": 97,
+        "clean_correct": 4,
+        "dist_flipped": 93,
+        "changed": 3,
+        "clean_acc": 0.041237113402061855,
+        "dist_flip_rate": 0.9587628865979382,
+        "change_rate": 0.030927835051546393
+      },
+      "sad": {
+        "total": 98,
+        "clean_correct": 5,
+        "dist_flipped": 95,
+        "changed": 7,
+        "clean_acc": 0.05102040816326531,
+        "dist_flip_rate": 0.9693877551020408,
+        "change_rate": 0.07142857142857142
+      }
+    }
+  },
+  "mss": {
+    "method": "GAO_mss",
+    "distortion": "mss",
+    "total_samples": 525,
+    "voxtral_clean_accuracy": 0.21523809523809523,
+    "voxtral_dist_flip_rate": 0.7923809523809524,
+    "prediction_change_rate": 0.09333333333333334,
+    "by_emotion": {
+      "happy": {
+        "total": 108,
+        "clean_correct": 0,
+        "dist_flipped": 108,
+        "changed": 9,
+        "clean_acc": 0.0,
+        "dist_flip_rate": 1.0,
+        "change_rate": 0.08333333333333333
+      },
+      "surprise": {
+        "total": 110,
+        "clean_correct": 9,
+        "dist_flipped": 107,
+        "changed": 14,
+        "clean_acc": 0.08181818181818182,
+        "dist_flip_rate": 0.9727272727272728,
+        "change_rate": 0.12727272727272726
+      },
+      "neutral": {
+        "total": 112,
+        "clean_correct": 95,
+        "dist_flipped": 15,
+        "changed": 9,
+        "clean_acc": 0.8482142857142857,
+        "dist_flip_rate": 0.13392857142857142,
+        "change_rate": 0.08035714285714286
+      },
+      "angry": {
+        "total": 97,
+        "clean_correct": 4,
+        "dist_flipped": 92,
+        "changed": 8,
+        "clean_acc": 0.041237113402061855,
+        "dist_flip_rate": 0.9484536082474226,
+        "change_rate": 0.08247422680412371
+      },
+      "sad": {
+        "total": 98,
+        "clean_correct": 5,
+        "dist_flipped": 94,
+        "changed": 9,
+        "clean_acc": 0.05102040816326531,
+        "dist_flip_rate": 0.9591836734693877,
+        "change_rate": 0.09183673469387756
+      }
+    }
+  }
+}
