@@ -1,0 +1,97 @@
+% 2.observation.tex — Section 2: Observation (Q1–Q4)
+
+\section{Observation}
+\label{sec:observation}
+
+% TODO: Section introduction — outline the four progressive questions
+
+%% ============================================================
+%% 2.1  Q1: Feasibility and Asymmetry of Audio Emotion Flipping
+%% ============================================================
+\subsection{Feasibility and Asymmetry of Audio Emotion Flipping}
+\label{sec:obs_q1}
+
+% TODO: Q1 content
+% - Logit distribution analysis (Qwen2-Audio, 400 samples, 4 emotions × 100)
+% - Emotion output is a structured preference distribution, not one-hot
+% - Stability asymmetry: angry/sad stable, happy extremely fragile (15% accuracy)
+% - Angry is the universal competitor across all source emotions
+% - Anger-oriented overlap region in prediction confusion matrix
+% - Prototype posterior: happy biased toward angry (0.460 > 0.140)
+% - Prototype similarity: angry↔happy JS divergence minimal (0.0195)
+% - Implications for attack design: hybrid margin + soft distribution steering
+
+%% ============================================================
+%% 2.2  Q2: Downstream Impact of Emotion Misperception
+%% ============================================================
+\subsection{Downstream Impact of Emotion Misperception}
+\label{sec:obs_q2}
+
+Beyond the logit-level vulnerability established in Section~\ref{sec:obs_q1}, we ask whether emotion misperception propagates into the model's downstream response behavior. We design an attack-agnostic experiment: for each audio sample, the model (Voxtral-Mini-3B~\cite{voxtral}) receives an \textit{Aligned} prompt (truthful emotion description) and a \textit{Conflict} prompt (false emotion with maximum affective contrast). We evaluate $N = 20$ samples from ESD~\cite{esd} across five emotions. An independent LLM judge (DeepSeek V3~\cite{deepseek}) rates each response on Faithfulness, Empathy, and Relevance (1--5 Likert).
+
+\textbf{(1) Misperception causes systematic response degradation with pronounced emotion asymmetry.}
+As shown in Table~\ref{tab:q2_results}, the Conflict condition degrades all three dimensions (overall $\Delta$: Faithfulness $+1.30$, Empathy $+1.20$, Relevance $+1.05$), but the effect is highly asymmetric across source emotions. \textit{Happy} is the most vulnerable ($\Delta$Empathy $= +3.00$, $\Delta$Relevance $= +2.50$), while \textit{sad} is completely robust ($\Delta = 0$ across all dimensions)---the model even explicitly overrides the misleading prompt in some cases, stating ``\textit{They are not angry or frustrated, but rather expressing their grief and pain}.'' This valence-dependent asymmetry, where positive emotions are more susceptible than negative ones, converges with the logit-level fragility of happy identified in Section~\ref{sec:obs_q1}.
+
+\begin{table}[t]
+\centering
+\caption{Response quality degradation under emotion misperception ($\Delta = \text{Aligned} - \text{Conflict}$; higher $=$ greater degradation). 1--5 Likert; $n{=}4$ per emotion, $N{=}20$.}
+\label{tab:q2_results}
+\begin{tabular}{lccc}
+\toprule
+ & \multicolumn{3}{c}{\textbf{Degradation} ($\Delta$)} \\
+\cmidrule(lr){2-4}
+\textbf{Emotion} & \textbf{Faith.} & \textbf{Emp.} & \textbf{Rel.} \\
+\midrule
+Angry     & $+0.75$ & $0.00$  & $0.00$  \\
+Happy     & $+1.75$ & $+3.00$ & $+2.50$ \\
+Sad       & $0.00$  & $0.00$  & $0.00$  \\
+Neutral   & $+1.50$ & $+2.00$ & $+0.75$ \\
+Surprised & $+2.50$ & $+1.00$ & $+2.00$ \\
+\midrule
+\textbf{Overall} & $\boldsymbol{+1.30}$ & $\boldsymbol{+1.20}$ & $\boldsymbol{+1.05}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{(2) Misperception induces hallucination in emotionally ambiguous inputs.}
+Neutral audio exhibits a distinct failure mode: the model fabricates emotional narratives with no basis in the audio. For a factual statement (``\textit{The package is scheduled to arrive tomorrow afternoon}'') paired with an anger prompt, the model attributes frustration to the speaker, constructs causal explanations, and generates coping strategies---none grounded in the audio content (Faithfulness drops to $1.50/5.00$). This indicates that when audio carries weak emotional signals, the model defaults to the text prompt as its primary emotion source, making emotionally neutral speech---the most common category in real-world deployments---a particularly vulnerable attack surface.
+
+%% ============================================================
+%% 2.3  Q3: Insufficiency of Traditional SER Attack Methods
+%% ============================================================
+\subsection{Insufficiency of Traditional SER Attack Methods}
+\label{sec:obs_q3}
+
+We test whether existing SER adversarial attack methods transfer to ALLMs. We adapt STAA-Net~\cite{staanet}, a representative generator-based SER attack (Wave-U-Net generator, C\&W untargeted loss~\cite{cw}, sparsity mask), to target Voxtral-Mini-3B with full white-box access. The setup deliberately favors the traditional method: the task is \textit{untargeted} (strictly easier than targeted flipping) and the perturbation budget $\varepsilon = 0.03$ ($L_\infty$) is substantially larger than that of our ALLM-native attacks. Table~\ref{tab:q3_results} summarizes the configuration and results.
+
+\begin{table}[t]
+\centering
+\caption{STAA-Net adapted to Voxtral-Mini-3B.}
+\label{tab:q3_results}
+\begin{tabular}{ll}
+\toprule
+\textbf{Parameter} & \textbf{Value} \\
+\midrule
+Attack type / Access & Untargeted / White-box \\
+Perturbation budget ($L_\infty$) & 0.03 \\
+Train / Test samples & 200 / 200 (ESD) \\
+\midrule
+Mean $\|\delta\|_\infty$ & 0.030 (budget saturated) \\
+Mean SNR & 13.4 dB \\
+Predictions unchanged & 195 / 200 (97.5\%) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Despite the generator saturating its perturbation budget and converging normally during training, 97.5\% of test samples produce \textit{identical} predictions under clean and adversarial audio. The failure is not due to insufficient perturbation but to architectural incompatibility: SER attacks target standalone classifiers with fixed output spaces, whereas ALLMs route audio through an encoder--adapter--LLM pipeline where emotion judgments emerge via autoregressive generation. The perturbation signal, optimized for a classifier's decision boundary, dissipates through the LLM's billion-parameter processing layers. This demonstrates that SER attack methods do not transfer to ALLMs, motivating the ALLM-native methodology in Section~\ref{sec:methodology}.
+
+%% ============================================================
+%% 2.4  Q4: Internal Mechanism of Emotion Representation
+%% ============================================================
+\subsection{Internal Mechanism of Emotion Representation}
+\label{sec:obs_q4}
+
+% TODO: Q4 content
+% - Representation probing: linear probes at each layer for emotion separability
+% - Emotion pair difficulty analysis: pairwise separation in representation space
+% - Causal explanation for Q1 findings (why happy is fragile, why angry dominates)
