@@ -1,0 +1,139 @@
+% 5.whitebox.tex — Experiments
+
+\section{Experiments}
+\label{sec:experiments}
+
+\subsection{Setup}
+\label{sec:exp_setup}
+
+\paragraph{Target models.}
+We evaluate the proposed attack on two architecturally distinct ALLMs.
+\textbf{Voxtral-Mini-3B}~\cite{voxtral} follows the prevalent encoder--adapter--LLM pipeline: a Whisper-based audio encoder extracts frame-level features, a linear adapter projects them into the embedding space of a 3B-parameter Mistral backbone, and the LLM generates responses autoregressively.
+\textbf{OpenS2S}~\cite{opens2s} takes a different route: a dedicated speech understanding module produces a fused representation tensor that jointly encodes semantic and paralinguistic information, which a Qwen-based LLM then consumes for response generation.
+The two models differ not only in parameter count but in how emotional information is routed internally---Voxtral distributes emotion across a shared encoder--adapter pathway, while OpenS2S concentrates it in a specialized perception module.
+This architectural contrast makes the pair a strong test of whether our attack generalizes beyond a single pipeline design.
+
+\paragraph{Dataset and evaluation protocol.}
+All experiments use the Emotional Speech Dataset (ESD)~\cite{esd}, covering four source emotions (\texttt{angry}, \texttt{neutral}, \texttt{sad}, \texttt{surprise}) each paired with three distinct target emotions.
+For Voxtral we attack $N = 2{,}000$ samples from $20$ speakers across both English and Chinese subsets; for OpenS2S we scale to $N = 8{,}949$ samples from $9$ speakers.
+Each adversarial audio is evaluated under three semantically varied emotion elicitation prompts, and the final prediction is determined by majority vote---a sample counts as a targeted success only if at least two of three prompts yield the attacker-specified target $e_t$.
+
+Semantic preservation is assessed by two complementary metrics.
+The first is the cosine similarity between sentence embeddings of the model's clean and adversarial transcriptions, thresholded to yield a binary preservation label.
+The second, available for OpenS2S, is an independent LLM judge (DeepSeek V3~\cite{deepseek}) that determines whether the adversarial transcription preserves the speaker's intent, factual content, and emotional attitude; the two metrics agree on $90.60\%$ of samples.
+\textit{Joint success} requires both targeted emotion flipping and semantic preservation.
+
+\paragraph{Attack configuration.}
+The perturbation budget is $\varepsilon = 0.008$ ($L_\infty$).
+We use the two-stage optimization schedule described in Section~\ref{sec:methodology}: Stage~A runs $20$ steps with emotion-dominant loss weighting, followed by Stage~B with $40$ steps of balanced weighting, for a total of $60$ optimization steps per sample.
+Multi-prompt ensemble averages the emotion loss across all three prompts at each step, and Expectation over Transformation (EoT) applies random time-shifts and gain perturbations to improve robustness to input variation.
+
+
+%%% ----------------------------------------------------------------
+\subsection{Targeted Emotion Flipping}
+\label{sec:exp_asr}
+
+\begin{table}[!t]
+\centering
+\small
+\caption{White-box attack results on two architecturally distinct ALLMs.
+ASR is determined by majority vote over three emotion prompts.
+Semantic preservation uses cosine-similarity thresholding for Voxtral and LLM-judge evaluation for OpenS2S.
+Joint success requires both targeted emotion flipping and semantic preservation.}
+\label{tab:main_results}
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{l@{\hskip 14pt} c@{\hskip 12pt} c}
+\toprule
+ & \textbf{Voxtral-Mini-3B} & \textbf{OpenS2S} \\
+\midrule
+Samples / Speakers & 2{,}000\,/\,20 & 8{,}949\,/\,9 \\
+\midrule
+Overall ASR & 93.80\% & 78.44\% \\
+Best single-prompt ASR & 99.90\% & 94.66\% \\
+\midrule
+Semantic preservation & 39.75\% & 19.43\% \\
+Joint success & 36.40\% & 15.07\% \\
+\midrule
+SNR (dB) & 20.60 & 16.43 \\
+$\|\delta\|_\infty$ & 0.008 & 0.008 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Table~\ref{tab:main_results} summarizes the headline numbers.
+On Voxtral, the attack achieves a targeted attack success rate (ASR) of $\mathbf{93.80\%}$ via majority vote, with individual prompts reaching up to $99.90\%$.
+On OpenS2S, the ASR is $\mathbf{78.44\%}$, with the strongest single prompt at $94.66\%$.
+Both figures are obtained under an $L_\infty$ budget of $0.008$---$3.75\times$ smaller than the budget granted to the SER baseline methods evaluated in Section~\ref{sec:obs_q3}, none of which exceeded a $10.5\%$ \textit{untargeted} prediction change rate.
+This gap underscores a key finding: a perturbation budget that leaves traditional SER attacks essentially inert suffices for near-complete targeted emotion control when the attack is designed for the autoregressive pipeline.
+
+The $15.36$-point ASR gap between the two models is instructive.
+It does not simply reflect model size---both operate in the 3B--7B range---but likely relates to how each architecture represents emotion internally.
+We conjecture that Voxtral distributes emotion perception across a shared encoder--adapter pathway that was not explicitly trained for SER, yielding relatively diffuse internal emotion representations that can be redirected by modest gradient pressure.
+OpenS2S, by contrast, channels emotion through a dedicated speech understanding module that produces a more compact, emotion-concentrated representation, potentially creating a more rigid decision boundary.
+The convergence statistics are consistent with this hypothesis: $99.90\%$ of Voxtral samples converge (emotion loss $< 1.0$) within the 60-step budget at a mean of $5.4$ steps, whereas only $47.85\%$ of OpenS2S samples reach the same threshold, with those that do requiring a mean of $39.5$ steps.
+We note that dataset differences (language mix, sample count, speaker pool) may also contribute to the observed gap, and a matched-subset comparison would be needed to fully isolate the architectural factor.
+
+
+\begin{table}[!t]
+\centering
+\small
+\caption{Per-emotion targeted ASR (\%, majority vote).
+Source emotion indicates the ground-truth label of the clean audio; the attack steers the prediction toward a different, attacker-chosen target.}
+\label{tab:per_emotion_asr}
+\setlength{\tabcolsep}{10pt}
+\begin{tabular}{l c c}
+\toprule
+\textbf{Source emotion} & \textbf{Voxtral} & \textbf{OpenS2S} \\
+\midrule
+Angry    & 92.20 & 71.21 \\
+Neutral  & 92.00 & 81.10 \\
+Sad      & 96.00 & 81.54 \\
+Surprise & 95.00 & 80.58 \\
+\midrule
+\textbf{Overall} & \textbf{93.80} & \textbf{78.44} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Per-emotion analysis.}
+Table~\ref{tab:per_emotion_asr} breaks down the ASR by source emotion.
+On Voxtral, all four emotions exceed $92\%$, with \texttt{sad} ($96.00\%$) and \texttt{surprise} ($95.00\%$) being the easiest to flip.
+On OpenS2S, a wider spread emerges: \texttt{angry} is the hardest source at $71.21\%$, while \texttt{sad} and \texttt{neutral} both exceed $81\%$.
+The relative resistance of \texttt{angry} on OpenS2S resonates with the observation in Section~\ref{sec:clean-emotion-observation} that \texttt{angry} acts as the dominant logit competitor across most other emotion classes: its internal activation is already high, so the model's confidence in \texttt{angry} is structurally anchored and harder to displace.
+Conversely, \texttt{sad}---which showed the highest clean-audio dominance for its own class in Section~\ref{sec:clean-emotion-observation}---proves easy to redirect, possibly because the model's concentrated confidence provides a clear gradient target for the optimizer to exploit.
+We note an apparent tension with Section~\ref{sec:obs_q2}, where \texttt{sad} was robust to prompt-level emotion conflict; this suggests that robustness to textual misdirection does not imply robustness to acoustic-level adversarial perturbation, as the two attack surfaces engage different processing pathways.
+
+
+%%% ----------------------------------------------------------------
+\subsection{Semantic Preservation and Perturbation Quality}
+\label{sec:exp_quality}
+
+Flipping the model's emotion percept is only half the objective; a practical attack must also leave the linguistic content of the utterance intact.
+Table~\ref{tab:main_results} reveals that semantic preservation is the primary bottleneck: joint success rates stand at $36.40\%$ for Voxtral and $15.07\%$ for OpenS2S---roughly one-third of the corresponding ASRs.
+
+On Voxtral, the mean cosine similarity between clean and adversarial transcriptions is $0.6448$ ($\sigma = 0.3050$), and $15.25\%$ of samples achieve perfectly identical transcriptions (WER $= 0$).
+On OpenS2S, the LLM judge rates $19.43\%$ of adversarial transcriptions as semantically preserved, closely tracking the cosine-similarity-based estimate of $20.96\%$.
+The gap between models can be partly attributed to convergence speed: Voxtral samples that converge in a handful of steps experience less optimization pressure on the speech-content features, whereas the prolonged optimization required for OpenS2S gives the perturbation more opportunity to drift into content-bearing acoustic dimensions.
+
+\paragraph{Perturbation quality.}
+Both models saturate the $L_\infty$ budget at $\approx 0.008$.
+Mean SNRs are $20.60\,$dB (Voxtral, $\sigma = 7.33$) and $16.43\,$dB (OpenS2S, $\sigma = 6.91$).
+On Voxtral, $55.0\%$ of samples exceed $20\,$dB and $26.3\%$ exceed $25\,$dB; on OpenS2S the distribution shifts lower, with $40.65\%$ below $15\,$dB.
+The SNR difference reflects utterance characteristics rather than a deficiency in the attack: OpenS2S samples tend to be shorter and lower in energy, so the same absolute perturbation magnitude consumes a larger fraction of the signal power.
+The multi-resolution STFT loss (Section~\ref{sec:methodology}) mitigates perceptually concentrated distortions, but a formal listening study remains necessary to confirm subjective imperceptibility.
+
+\paragraph{Per-emotion semantic patterns.}
+Semantic preservation varies systematically across emotions on both models.
+\texttt{Surprise} achieves the highest preservation rates (Voxtral: $46.60\%$, OpenS2S: $23.23\%$), while \texttt{sad} records the lowest (Voxtral: $33.80\%$, OpenS2S: $12.94\%$).
+We attribute this asymmetry to utterance complexity: sad speech in ESD tends to be longer and more prosodically variable, giving the optimizer a larger acoustic surface to distort.
+The tension between emotion flipping and content preservation---especially pronounced for sad speech---highlights a fundamental trade-off: the acoustic features that carry emotional coloring overlap substantially with those that encode lexical content, and the current loss weighting may not fully disentangle the two.
+
+
+%%% ----------------------------------------------------------------
+\subsection{Summary}
+\label{sec:exp_summary}
+
+Three findings stand out from the white-box evaluation.
+First, the attack achieves high targeted success rates on both models ($93.80\%$ and $78.44\%$) under a perturbation budget that leaves traditional SER attacks essentially inert, confirming that ALLM-native attack design is both necessary and effective.
+Second, per-emotion patterns are consistent with the logit-level geometry characterized in Section~\ref{sec:clean-emotion-observation}: structurally anchored emotions resist perturbation, while concentrated clean-audio confidence provides a clear gradient handle.
+Third, semantic preservation remains the principal bottleneck, revealing a tension between emotion control and content fidelity that future work must address---whether through improved loss scheduling, content-aware perturbation constraints, or decoupled acoustic representations.

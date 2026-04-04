@@ -1,0 +1,1579 @@
+\documentclass[sigconf]{acmart}
+
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    Bib\TeX}}}
+
+\usepackage{tikz}
+\usepackage{amsmath}
+\newcommand\hmmax{0}
+\newcommand\bmmax{0}
+\usepackage{comment}
+\usepackage{booktabs}
+\usepackage{xspace}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{autobreak}
+\usepackage{makecell}
+\usepackage{diagbox}
+\usepackage{listings}
+\usepackage{graphics}
+\usepackage{enumitem}
+\usepackage{epsfig}
+\usepackage{color}
+\usepackage{ifpdf}
+\usepackage{mathrsfs}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{color,xcolor}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{bm}
+\usepackage{subfigure}
+\usepackage{tabularx}
+\usepackage{wasysym}
+\usepackage{hyperref}
+\usepackage{colortbl}
+\usepackage{tabularray}
+\usepackage{pifont}
+\usepackage{paralist}
+
+
+
+
+\usepackage{tcolorbox}
+\usepackage[ruled]{algorithm2e}
+
+\settopmatter{printacmref=false, printccs=true, printfolios=true}
+
+% \renewcommand\footnotetextcopyrightpermission[1]{}
+
+
+\newcommand\ddfrac[2]{\frac{\displaystyle #1}{\displaystyle #2}}
+
+\newcommand{\yan}[1]{\textcolor{red}{(\textit{#1} ---Yan)}}
+\newcommand{\pan}[1]{\textcolor{blue}{#1}}
+
+\newtheorem{definition}{Definition}
+
+\newcommand{\sysname}{\textsc{PipID}\xspace}
+
+\definecolor{mycolor400}{RGB}{131,0,181}
+\definecolor{mycolor450}{RGB}{0, 70, 255}
+\definecolor{mycolor475}{RGB}{0, 192, 255}
+\definecolor{mycolor500}{RGB}{0, 255, 146}
+\definecolor{mycolor525}{RGB}{74, 255, 0}
+\definecolor{mycolor550}{RGB}{163, 255, 0}
+\definecolor{mycolor570}{RGB}{225, 255, 0}
+\definecolor{mycolor600}{RGB}{255, 190, 0}
+\definecolor{mycolor630}{RGB}{255, 79, 0}
+\definecolor{mycolor700}{RGB}{255,0,0}
+\definecolor{myblue}{RGB}{0,0,255}
+\definecolor{myorange}{RGB}{255,165,0}
+
+\newenvironment{packeditemize}{
+\begin{list}{$\bullet$}{
+\setlength{\labelwidth}{8pt}
+\setlength{\itemsep}{2pt}
+\setlength{\leftmargin}{\labelwidth}
+\addtolength{\leftmargin}{\labelsep}
+\setlength{\parindent}{0pt}
+\setlength{\listparindent}{\parindent}
+\setlength{\parsep}{0pt}
+\setlength{\topsep}{3pt}}}{\end{list}}
+
+\newcommand{\bheading}[1]{{\vspace{0pt}\noindent{\textbf{#1}}}}
+\newcommand{\iheading}[1]{{\vspace{0pt}\noindent{\textit{#1}}}}
+
+
+\begin{document}
+
+\title{\sysname: Light-Pupillary Response Based User Authentication for Virtual Reality}
+
+\author{Muchen Pan}
+\email{pmc296289396@sjtu.edu.cn}
+\affiliation{%
+  \institution{Shanghai Jiao Tong University}
+ \city{Shanghai}
+  \country{China}
+}
+
+\author{Yan Meng}
+\authornote{Yan Meng is the corresponding author.}
+\email{yan\_meng@sjtu.edu.cn}
+\affiliation{%
+  \institution{Shanghai Jiao Tong University}
+ \city{Shanghai}
+  \country{China}
+}
+
+\author{Yuxia Zhan}
+\email{yz10951@nyu.edu}
+\affiliation{%
+  \institution{New York University}
+ \city{New York}
+  \country{USA}
+}
+
+
+\author{Guoxing Chen}
+\email{guoxingchen@sjtu.edu.cn}
+\affiliation{%
+  \institution{Shanghai Jiao Tong University}
+ \city{Shanghai}
+  \country{China}
+}
+
+
+\author{Haojin Zhu}
+\email{zhu-hj@sjtu.edu.cn}
+\affiliation{%
+  \institution{Shanghai Jiao Tong University}
+ \city{Shanghai}
+  \country{China}
+}
+
+\renewcommand{\shortauthors}{Muchen Pan et al.}
+
+\begin{abstract}
+During the use of Virtual Reality (VR) applications such as gaming, education, and military training, sensitive information may be generated or collected by VR sensors, raising user concerns about potential data leakage. This highlights the critical need for effective user authentication to prevent unauthorized access. Existing authentication methods for VR are often either cumbersome (e.g., entering passwords via handheld controllers), reliant on specialized hardware (e.g., iris recognition), or vulnerable to credential replay attacks.
+In this study, we propose \sysname, a lightweight VR authentication approach that leverages commercial off-the-shelf (COTS) eye trackers integrated into VR headsets. \sysname is based on the fact that users' pupillary responses to visual stimuli vary uniquely. Thus, by displaying lights of randomly selected colors (i.e., wavelengths) on the VR screen, \sysname can utilize pupil diameter responses to these wavelengths as the basis for authentication. For pupil data collected by precision-limited COTS eye trackers, \sysname mitigates the impact of unrelated eye movements (e.g., blinks) and leverages pupillary response differences between the left and right eyes to further enhance the granularity of authentication features. Additionally, the randomized sequence of light colors helps prevent replay attacks. We implemented \sysname on a COTS VR headset and tested it with 52 participants.
+Experimental results show that \sysname achieves an accuracy of 98.65\% and maintains robust performance under various conditions (e.g., keeping 98\% and 91\% accuracy after 7 and 14 days respectively). We have open-sourced \sysname at \url{https://pipid-vr.github.io/} to facilitate further research and development in VR user authentication.
+
+\end{abstract}
+
+\begin{CCSXML}
+<ccs2012>
+   <concept>
+       <concept_id>10002978.10002991.10002992.10003479</concept_id>
+       <concept_desc>Security and privacy~Biometrics</concept_desc>
+       <concept_significance>500</concept_significance>
+       </concept>
+   <concept>
+       <concept_id>10002978.10003029.10011150</concept_id>
+       <concept_desc>Security and privacy~Privacy protections</concept_desc>
+       <concept_significance>500</concept_significance>
+       </concept>
+ </ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Security and privacy~Biometrics}
+\ccsdesc[500]{Security and privacy~Privacy protections}
+
+\keywords{Virtual Reality, User Authentication, Eye Tracking, Pupillary Response}
+
+\maketitle
+
+\section{Introduction}
+\label{sec:introduction}
+
+Virtual Reality (VR) has reshaped users' digital experiences through immersive simulated environments, making it extremely popular and widely applicable. The number of VR users in the United States has reached 77 million in 2024 \cite{us_vr2024}, and with growing user interest, the global market size of VR is projected to reach USD 520 billion by 2031 \cite{vr_market}. By utilizing various devices like head-mounted displays (HMDs) and handheld controllers, users enjoy an immersive experience in VR applications. However, this process also exposes them to the risk of data breaches, especially in sensitive contexts such as financial transactions \cite{bonelli2022virtual,oyewole2024augmented}, private meetings \cite{mcveigh2022beyond, 10.1007/978-3-030-12388-8_33}, or military simulations \cite{rathnayake2018usage,lele2013virtual}. Unauthorized access to VR devices can lead to privacy leaks, economic fraud, theft of virtual assets, and business disruptions, posing significant threats to individual livelihoods and communities. 
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.85\linewidth]{figure/concept.pdf}
+\vspace{-2mm}
+\caption{\sysname utilizes pupil diameter responses to the VR headset screen for user authentication.}\label{fig:concept}
+\vspace{-4mm}
+\end{figure}
+
+Unfortunately, text-based password solutions, the current mainstream authentication methods adopted by VR devices, suffer from the cumbersome use of physical hand controllers or virtual keyboards \cite{Sok_SP,A_Literature_Review}. According to statistics in \cite{7804002}, it takes an average of 10.5 seconds to enter a 4-digit PIN in VR. These methods are also vulnerable to side-channel attacks \cite{USENIX23_HiddenReality, Ling2019IKW, Meteriz_9756766} and impose an additional memorization burden on users.
+In addition to traditional password entry, there is growing interest in exploring biometrics for VR user authentication. With advanced tracking sensors, a rich source of biometric data, including both \textit{static} and \textit{dynamic} characteristics, can be utilized for this purpose.
+
+
+
+\noindent \textbf{Biometric authentication in VR is still immature.}
+Static biometrics, such as fingerprints, face recognition~\cite{FaceRecognition}, and iris scanning~\cite{Iris_BOUTROS2020104007}, have long been considered reliable for user authentication. Nevertheless, the sophisticated measuring devices increases their deployment cost in VR scenarios. Moreover, as irreversible personal identifiers, data breaches could leave individuals without an alternative credential to prevent replay attacks~\cite{Tolosana_PAD, ROBERTS200714}. 
+In contrast, dynamic biometrics rely on users' movement features, such as facial expressions~\cite{FacialExpression}, eye movements~\cite{zhu2020blinkey,Zhu2023SoundLockAN}, and gait information~\cite{GaitLock}, derived from performing specific actions~\cite{Head_IWSPA18, GaitLock, BioMove, SkullConduct16} or responding to audio/motion commands \cite{Zhu2023SoundLockAN}. However, these methods require active user participation, which adds an extra burden on users, such as walking in \cite{GaitLock} or concentrating on external music in \cite{Zhu2023SoundLockAN}.
+Considering above-mentioned issues when deploying existing works in VR, it is desirable to design a novel authentication mechanism which meets following requirements: 1) \textit{User-effortless:} eliminating the need for any active user actions; 2) \textit{Commercial-deployable:} fully utilizing built-in VR headset devices without requiring specialized equipment; 3) \textit{Anti-replay:} resistance to replay attacks.
+
+
+
+\noindent \textbf{Motivations of \sysname.}
+In this study, we propose \sysname, a light-pupillary  response based authentication system. As shown in Figure~\ref{fig:concept}, \sysname leverages the user's pupillary response to lights of different wavelengths displayed on an HMD's virtual screen for authentication. The chosen light-pupillary response offers two advantages: (1) Current VR headsets, such as the PICO 4 Pro~\cite{PICO4PRO}, Meta Quest Pro~\cite{MetaQuestPro}, and Varjo XR-3~\cite{Varjo}, are now equipped with commercial-off-the-shelf (COTS) eye trackers. This eliminates the need for additional specialized devices, enabling the widespread application of \sysname. (2) As the light changes, the distinct spectral sensitivities and photon fluxes of photoreceptor cells in the retina produce different neurological reflexes~\cite{Bonmati_fneur201801019, MCDOUGAL201072, lobato2014pupillary}, resulting in corresponding pupil constriction or dilation. According to research in the biological field~\cite{Yasukouchi2007, Winn1994, Bergamin1998}, the variability of this uncontrolled, spontaneous eye movement among individuals is caused by the unique biological characteristics of neural pathways and iris muscle structure, making it nearly impossible to mimic through voluntary eye movement control. Additionally, it has been shown that left and right pupil diameters are different even under the same lighting conditions~\cite{POP2002283}, which further enhances the granularity of the authentication process.
+
+Despite the advantages of light-pupillary response, achieving the design goals of \sysname faces the following challenges. \textbf{RQ1}: how can we select appropriate light stimuli for the VR screen that are user-friendly while generating pupillary responses significantly different among users? \textbf{RQ2}: it is well-established that data measured by commercial eye trackers in VR have lower accuracy compared to specialized devices\cite{HTCWhitePaper,MetaPreliminary,HTCValidation,AppleValidation}. Thus, how can we capture effective features from data with limited accuracy? \textbf{RQ3}: to address the anti-replay goal, how can we mitigate replay attacks where adversaries exploit outdated pupillary responses?
+
+In this study, to answer \textbf{RQ1}, we first conduct a series of case studies which validate that variations in pupil diameter under different light wavelengths can effectively authenticate users. By adjusting light colors, \sysname enables users to freely look around the virtual environment without needing to maintain a fixed gaze or perform specific actions. Furthermore, we use the Kolmogorov-Smirnov (KS) test to select the most suitable visual stimuli for each user during login.
+To address \textbf{RQ2}, we propose deriving efficient time and frequency-domain features from the raw data and enhancing our feature set by leveraging the binocular tracking function of the VR eye tracker to obtain the differences in pupil diameter between left and right eyes.
+Finally, to tackle \textbf{RQ3}, \sysname alters the wavelength sequence within the visual stimuli during each login attempt to generate a randomized challenge. This approach ensures that credentials (i.e., the pupillary responses) is hard to predict with high randomness.
+
+To evaluate the system's performance, we conduct experiments with 52 volunteers using commercial VR headsets. For each volunteer, we present 10 lights with different wavelengths, each lasting 5 seconds, and repeat this process 20 times, constructing a dataset of 10,400 light-pupillary response profiles. \sysname achieves an overall accuracy of 98.65\% and demonstrates robust performance across various factors, including registration cost, number of light wavelengths, and stimulus duration. Besides, \sysname demonstrates efficiency against replay attacks by reducing the attack success rate to 2.40\% when the attackers fail to predict the challenge. Finally, the longitudinal study shows \sysname's consistent performance, achieving 98\% and 91\% accuracy after 7 and 14 days, respectively.
+
+The main contributions of this study are:
+\begin{packeditemize}
+    \item \textit{New user authentication in VR.} We propose \sysname, a lightweight and user-effortless authentication mechanism that leverages the light-pupillary response in both eyes under various colors to verify user identity.
+    \item \textit{Effective features.} We propose effective statistical, temporal, and frequency-domain features, and further enhance them by utilizing inter-ocular differences using the binocular tracking capability of the VR eye-tracker.
+    \item \textit{Robust performance.} Experimental results demonstrate that \sysname achieves an average accuracy of 98.65\% for user authentication and performs robustly under various impact factors.
+    \item \textit{Public-available dataset.} A dataset containing users' eye movements under 10 lights with different wavelengths will be made available to the public for further research in VR authentication.
+\end{packeditemize}
+
+\noindent \textbf{Ethical consideration and data availability.} The dataset collection procedures are under the approval of the Institutional Review Board (IRB) of our institutions. We ensure that all volunteers are fully informed about the purpose, duration, and potential risks of the study. The light sources selected for the experiment are gentle and harmless to human eyes, as the rays from these sources will experience diffuse reflection off the environment and objects before entering the eyes with moderate light intensity. Furthermore, all data collected during the study is handled with the utmost care to protect participant privacy. Identifiable information is removed and data sharing is restricted to research purposes. 
+We have open-sourced the datasets and codes of \sysname. The detailed information about artifact availability can be found in Appendix~\ref{sec: appendix: data availability}.
+
+
+\section{Preliminaries}
+\label{sec:background}
+
+\subsection{User Authentication in VR}
+The rapid development of VR has been evident in the past few years, accompanied by growing popularity~\cite{us_vr2024, vr_market}. As personal devices, VR systems often store users' sensitive data (e.g., emails, multimedia, browsing history, login accounts) during their usage. For instance, Gucci~\cite{gucci2023} has launched Gucci Town within the Roblox metaverse recently for online shopping, where users may store their account and credit card information for auto-login and purchase. In this case, leaving the device unguarded to malicious people may expose it to security breach and even financial loss~\cite{zhu2020blinkey}. Therefore, the need for secure and usable ways to authenticate legitimate users becomes even more urgent. The existing user authentication in VR can be categorized into following four categorizes.
+
+\noindent \textbf{Knowledge-based methods.} As intuitive authentication solutions, knowledge-based methods, including passwords and PINs entry, are mainly adapted in VR through gesture-based text input. Despite their high deployability, numerous users have voiced dissatisfaction with the unwieldiness of virtual keyboards~\cite{Sok_SP,wu2017virtual}. We also conducted a user study (in Appendix~\ref{sec: appendix: user study}) and found that the average time for inputting a digital password consisting of 8 letters, 2 numbers, and 1 symbol in VR exceeds 13.69 seconds. The poor usability discourages users from adopting stronger passwords. What's worse, password is susceptible to side-channel attacks \cite{USENIX23_HiddenReality,Ling2019IKW,Meteriz_9756766,9417659}, where external observers can easily capture the videos (e.g., Hidden Reality attack in \cite{USENIX23_HiddenReality}) or sensing signals (e.g., Wi-Fi signal based attack in \cite{9417659}) of hands typing to infer the entered passwords. The immersive nature of VR often obscures users' awareness of such surrounding attackers in public. 
+
+\noindent   \textbf{Token-based methods.} In token-based approaches, the headset may present a short code for input on an auxiliary device or request scanning of a QR code generated by the auxiliary device. However, this approach is inconvenient for users as it necessitates carrying external devices when using standalone VR devices.
+
+\noindent   \textbf{Static biometrics.} Static biometrics rely on static images or data of one's biological characteristics which remain relatively stable over time. Renowned for their superior usability and accessibility, static biometrics (primarily iris scan \cite{Iris_BOUTROS2020104007}) have emerged favorable for VR user authentication. However, the inherent nature and irrevocability of static biometrics raise privacy concerns. Attackers can exploit replay attacks using fake fingers \cite{Tolosana_PAD}, masks, and high-resolution iris images \cite{ROBERTS200714} if such data are leaked. Besides, the sensors required for static biometrics are often specialized and expensive, limiting their widespread adoption in VR.
+
+\noindent   \textbf{Dynamic biometrics.} Dynamic biometric technologies focus on analyzing the dynamic process of biological characteristics, such as behavioral patterns and voice signatures. The widespread capability of modern VR devices to sense user behaviors makes it a popular research subject for user authentication. Some methods involve performing specific actions like walking \cite{GaitLock, PfeufferCHI19}, typing \cite{PfeufferCHI19}, or grasping objects \cite{PfeufferCHI19, BioMove} due to the inherent heterogeneity of human muscle structures. However, these methods are often physically demanding or require substantial space. Unobstructed hand and body movements remain vulnerable to observation-based attacks. In contrast, user authentication leveraging eye-tracking data stands out as a promising approach by presenting specific stimuli to elicit personalized eye movements. 
+
+\subsection{Eye-tracking Technology}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.85\linewidth]{figure/Eye data type.pdf}
+\vspace{-2mm}
+\caption{Data type provided by eye-trackers. \textcolor{myblue} {Blue} indicates data exclusive to specialized equipment, while \textcolor{myorange}{orange} marks data obtainable from both specialized and VR devices.}
+\vspace{-6mm}
+\label{fig:eye:data:type}
+\end{figure}
+
+\noindent \textbf{Principle of eye-tracking technique.} 
+As illustrated in Figure~\ref{fig:eye:data:type}, common eye movement behaviors include \textit{saccades} and \textit{fixations}. Saccades are rapid eye movements that shift the foveal vision\footnote{Foveal vision refers to the visual perception originating from the fovea, a small central pit in the retina that is densely packed with cone cells. The fovea is the most sensitive part of the retina and is specialized for high-resolution visual acuity.} from one point to another, while fixations involve maintaining the foveal vision on a target for a certain duration to capture detailed visual information. Fixations are not entirely static, as they involve three types of micro-movements: micro-saccades, nystagmus, and drift.
+
+
+To acquire rich oculomotor data, eye-tracking technology has emerged prominently. Currently, there are two primary types of eye-tracking: electro-oculography (EOG) and video-based eye-tracking. EOG measures the resting potential of the retina to record eye position and movement \cite{EOG_OcuLockEH, EOG_ApplePatent, EOG_MetaPatent} via invasive electrodes, which is not suitable for user authentication. Conversely, video-based eye-tracking captures high-resolution eye images including pupil and corneal by cameras. Advanced image processing algorithms calculates the gaze direction vector by tracking the position of the pupil center, while simultaneously computes the pupil diameter and eyelid aperture. 
+
+
+
+\noindent \textbf{Eye-tracker in specialized device.} The specialized device employs a video-based eye-tracker monitoring pupil and corneal reflections. Typically, multiple cameras are leveraged to capture stereo images of both eyes in three-dimensional space to accurate capture gaze points, pupil diameters, and blinks. The professional eye-tracker possesses exceptionally high precision and resolution, with accuracy down to 0.1-0.5 degrees and sampling rates up to 1200 Hz in Tobii for instance \cite{Tobii}. Therefore, eyelid aperture, fixation and saccade patterns, scanpath, and even intricate micro-fixation and micro-saccade can be output or analyzed from the outputted data.
+
+\noindent \textbf{Eye-tracker in commercial VR device.} Currently, an increasing number of VR headsets have equipped with eye-tracking technology. The embedded infrared cameras record eye videos, enabling the extraction of gaze point, pupil size, and eye blinks, which provides a better understanding of the user's visual attention in VR. 
+
+Figure~\ref{fig:eye:data:type} outlines the types of eye movement data relied upon in existing works, along with their availability in specialized eye-tracking devices and different VR headsets. It is shown that the types of data offered by VR headsets are limited in scope. Even if a VR headset are capable of offering the same types of data as the professional one, they often fall short in terms of data accuracy and frequency \cite{HTCWhitePaper,HTCValidation,Sipatchin2021,  MetaPreliminary, AppleValidation}.
+Table~\ref{tab: eye-tracking comparison} in Appendix~\ref{sec: appendix: eye-tracking comparison} presents a detailed comparison of several types of specialized or VR devices in terms of eye-tracking capabilities.
+
+\subsection{Eye Motion Based Authentication}
+\noindent \textbf{Using specialized devices for authentication.} The diversity in the optic nerve pathway and muscles controlling eyeballs contributes to the high personal specificity of individuals' eye movements \cite{Castelhano, Lo2016IndividualDI}. 
+Several studies \cite{IGCB_Reading, ICB_Reading, ReflexiveEM_CCS16, Eberz2015PreventingLA, IeeeTO, Eberz2016LooksLE, 28Blinks_CCS19} have achieved user authentication utilizing eye motion data (e.g., fixation point and duration, saccadic speed and direction, micro-fixation and micro-saccade, scanpath and pupil diameter) extracted from specialized devices. The above mechanisms are task-driven and require users to actively engage by gazing at moving targets or performing tasks such as reading text. Meanwhile, several studies have also employed pupil light reflex to achieve passive authentication. \cite{YANO201541} utilizes iris patterns and pupil diameter under low or non-visible light conditions for authentication purposes, and \cite{Yan2020} proposes using three different light intensities for pupil diameter-based authentication. Nonetheless, all these approaches employ high-precision eye-trackers (e.g., 500Hz eye-trackers in \cite{ReflexiveEM_CCS16}), which are rarely seen in consumer-grade VR headsets due to cost considerations.
+
+\noindent \textbf{Authentication on commercial VR devices.} Recent researches \cite{zhu2020blinkey, PfeufferCHI19, BioMove,Zhu2023SoundLockAN, EyeKnowYouToo, ContinuousAuth} have focused on VR user authentication, and they all necessitate active participation from users, either by performing actions or receiving instructions. In \cite{PfeufferCHI19} and \cite{BioMove}, users are required to execute specific body movements (like grasping, walking, typing, etc.), while their head, hand, and eye motion data are captured to derive unique behavioral patterns. Such methods are space-consuming and effort-intensive, unsuitable for users with impaired motor functions, and the overt body movements make them susceptible to shoulder-surfing attacks. Besides motion patterns, certain interactive stimuli (e.g., moving objects, sounds, videos) can also trigger reflexive eye movements \cite{EyeKnowYouToo, ContinuousAuth, Zhu2023SoundLockAN}. \cite{EyeKnowYouToo} leverages the public dataset GazeBase and primarily focuses on optimizing authentication models. Though \cite{ContinuousAuth} claims to achieve implicit continuous authentication in VR, their implementation depends on smart glasses, and still requires users to focus on a moving cross. \cite{Zhu2023SoundLockAN} employs pupillary responses triggered by audio stimuli, which take a relatively long time for authentication.
+In addition, the approach proposed in \cite{zhu2020blinkey} combines knowledge-based and biometric elements by utilizing blinking rhythms as passwords, which also put pressure on user's memory. The blinking inconsistency across different instances contributes to the method's instability. We have summarized the aforementioned representative eye-motion based authentication methods in Table~\ref{tab:summary:eye motion auth} and made comparisons with our proposed method.
+
+\begin{table}[t]
+\caption{Summary of Eye Motion Based Authentication.}
+\label{tab:summary:eye motion auth}
+\resizebox{\linewidth}{!}{
+\begin{tabular}{lllcc}
+\hline
+Study             & Stimulus & Feature types                                        & \begin{tabular}[c]{@{}c@{}}Built-in VR\\ Sensors\end{tabular} & \begin{tabular}[c]{@{}c@{}}Passive\\ Authentication\end{tabular} \\ \hline
+\rowcolor[HTML]{EFEFEF} 
+\cite{ReflexiveEM_CCS16} & moving dots                  & fixation \& saccade                                                      & \ding{55}                                                             & \ding{55}                                                                \\
+\cite{IGCB_Reading}      & reading                      & scan path                                                                & \ding{55}                                                             & \ding{55}                                                                \\
+\rowcolor[HTML]{EFEFEF} 
+\cite{Eberz2016LooksLE}   & various tasks                & \begin{tabular}[c]{@{}l@{}}fixation \& pupil \\ diameter\end{tabular}    & \ding{55}                                                             & \ding{55}                                                                \\
+\cite{YANO201541}         & non visible light            & \begin{tabular}[c]{@{}l@{}}iris pattern\& \\ pupil diameter\end{tabular} & \ding{55}                                                             & \ding{51}                                                                \\
+\rowcolor[HTML]{EFEFEF} 
+\cite{Yan2020}            & light intensity              & pupil diameter                                                           & \ding{55}                                                              & \ding{51}                                                                \\
+\cite{BioMove}            & body motion                  & gaze position                                                            & \ding{51}                                                             & \ding{55}                                                                \\
+\rowcolor[HTML]{EFEFEF} 
+\cite{ContinuousAuth}     & moving cross                 & gaze position                                                            & \ding{55}                                                             & \ding{55}                                                                \\
+\cite{zhu2020blinkey}     & /                            & \begin{tabular}[c]{@{}l@{}}blink rhytm \& \\ pupil diameter\end{tabular} & \ding{51}                                                             & \ding{55}                                                                \\ \hline
+\rowcolor[HTML]{EFEFEF} 
+\sysname                & light color             & pupil diameter                                                           & \ding{51}                                                             & \ding{51}                                                                \\ \hline
+\end{tabular}}
+\end{table}
+ 
+
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{figure/eye_ball.pdf}
+\vspace{-2mm}
+\caption{Light perceiving, processing and responding.}
+\label{fig: pupil and cone cells}
+\vspace{-4mm}
+\end{figure}
+
+\section{Observation}
+\subsection{Clean emotion recognition is governed by structured non-target preference}
+\label{sec:clean-emotion-observation}
+
+We first examine whether clean emotion recognition in the model behaves as a hard one-hot decision, or instead as a structured competition over candidate emotions. The latter is clearly supported by our results. Under clean speech, the model does not place all of its confidence on the ground-truth emotion; rather, it consistently preserves non-trivial mass on a small set of emotionally plausible alternatives. Crucially, this residual mass is not random. It follows stable, class-dependent preference patterns, indicating that the model's prediction behavior is governed by a biased geometry within the emotion subspace rather than by generic uncertainty over the whole vocabulary.
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=0.82\textwidth]{figure/per_class_emotion_token_probability_distribution.png}
+    \caption{
+        Per-class candidate probability distributions over \texttt{angry}, \texttt{happy}, \texttt{sad}, and \texttt{neutral} under clean audio-only inputs.
+        The posteriors are not one-hot.
+        Each true class retains substantial probability mass on specific competing emotions, revealing structured non-target preference rather than uniform uncertainty.
+    }
+    \label{fig:emotion-prob-structure}
+\end{figure*}
+
+Figure~\ref{fig:emotion-prob-structure} shows this phenomenon at the candidate-posterior level. None of the four classes is close to one-hot. \texttt{Angry} and \texttt{sad} show only moderate dominance, with candidate-set accuracies of $0.61$ and $0.63$, while \texttt{happy} and \texttt{neutral} are much less stable, with accuracies of $0.15$ and $0.24$. More importantly, the strongest competitor is not uniform across classes. \texttt{Sad} is the main competitor for true \texttt{angry}, whereas \texttt{angry} is the main competitor for true \texttt{happy}, \texttt{neutral}, and \texttt{sad}. The same asymmetry appears at the prototype level: the closest pair is \texttt{angry}--\texttt{happy} (JS divergence $0.0195$), followed by \texttt{angry}--\texttt{neutral} ($0.0283$), showing that the clean emotion space is already unevenly entangled before any attack is introduced.
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=\textwidth]{figure/first_step_target_each_other_unrelated_logit_histograms.png}
+    \caption{
+        First-step logit distributions for the target emotion token, each non-target emotion token, and unrelated tokens.
+        Unrelated tokens remain strongly suppressed across all classes, whereas specific non-target emotion tokens consistently receive elevated logits.
+        This shows that the model's uncertainty is concentrated within the emotion subspace, where certain competing emotions are systematically preferred over others.
+    }
+    \label{fig:first-step-emotion-logits}
+\end{figure*}
+
+Figure~\ref{fig:first-step-emotion-logits} provides token-level evidence for the same claim. At the first decoding step, unrelated vocabulary tokens remain strongly suppressed across all four classes, with mean logits around $-2.3$ to $-2.5$, while specific non-target emotion tokens remain highly activated. For example, on true \texttt{happy} samples, the target token \texttt{happy} has mean first-step logit $11.20$, lower than both \texttt{angry} ($14.48$) and \texttt{neutral} ($13.39$); on true \texttt{neutral} samples, the target token \texttt{neutral} has mean logit $13.44$, but both \texttt{angry} ($14.34$) and \texttt{sad} ($14.14$) are higher. This contrast is important: the model is not broadly uncertain over the full vocabulary. Instead, its uncertainty is concentrated inside the emotion token set, where certain alternative emotions are systematically preferred over others. Taken together, the posterior-level and logit-level evidence support a single observation: clean emotion recognition in the model is governed by structured non-target preference. This suggests that downstream objectives should account for inter-emotion geometry, rather than assuming that the clean model already represents emotion as a purely one-hot target.
+
+
+
+\subsection{Downstream Impact of Emotion Misperception}
+\label{sec:obs_q2}
+
+Beyond the logit-level vulnerability established in Section~\ref{sec:obs_q1}, we ask whether emotion misperception propagates into the model's downstream response behavior. We design an attack-agnostic experiment: for each audio sample, the model (Voxtral-Mini-3B~\cite{voxtral}) receives an \textit{Aligned} prompt (truthful emotion description) and a \textit{Conflict} prompt (false emotion with maximum affective contrast). We evaluate $N = 20$ samples from ESD~\cite{esd} across five emotions. An independent LLM judge (DeepSeek V3~\cite{deepseek}) rates each response on Faithfulness, Empathy, and Relevance (1--5 Likert).
+
+\textbf{(1) Misperception causes systematic response degradation with pronounced emotion asymmetry.}
+As shown in Table~\ref{tab:q2_results}, the Conflict condition degrades all three dimensions (overall $\Delta$: Faithfulness $+1.30$, Empathy $+1.20$, Relevance $+1.05$), but the effect is highly asymmetric across source emotions. \textit{Happy} is the most vulnerable ($\Delta$Empathy $= +3.00$, $\Delta$Relevance $= +2.50$), while \textit{sad} is completely robust ($\Delta = 0$ across all dimensions)---the model even explicitly overrides the misleading prompt in some cases, stating ``\textit{They are not angry or frustrated, but rather expressing their grief and pain}.'' This valence-dependent asymmetry, where positive emotions are more susceptible than negative ones, converges with the logit-level fragility of happy identified in Section~\ref{sec:obs_q1}.
+
+\begin{table}[t]
+\centering
+\caption{Response quality degradation under emotion misperception ($\Delta = \text{Aligned} - \text{Conflict}$; higher $=$ greater degradation). 1--5 Likert; $n{=}4$ per emotion, $N{=}20$.}
+\label{tab:q2_results}
+\begin{tabular}{lccc}
+\toprule
+ & \multicolumn{3}{c}{\textbf{Degradation} ($\Delta$)} \\
+\cmidrule(lr){2-4}
+\textbf{Emotion} & \textbf{Faith.} & \textbf{Emp.} & \textbf{Rel.} \\
+\midrule
+Angry     & $+0.75$ & $0.00$  & $0.00$  \\
+Happy     & $+1.75$ & $+3.00$ & $+2.50$ \\
+Sad       & $0.00$  & $0.00$  & $0.00$  \\
+Neutral   & $+1.50$ & $+2.00$ & $+0.75$ \\
+Surprised & $+2.50$ & $+1.00$ & $+2.00$ \\
+\midrule
+\textbf{Overall} & $\boldsymbol{+1.30}$ & $\boldsymbol{+1.20}$ & $\boldsymbol{+1.05}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{(2) Misperception induces hallucination in emotionally ambiguous inputs.}
+Neutral audio exhibits a distinct failure mode: the model fabricates emotional narratives with no basis in the audio. For a factual statement (``\textit{The package is scheduled to arrive tomorrow afternoon}'') paired with an anger prompt, the model attributes frustration to the speaker, constructs causal explanations, and generates coping strategies---none grounded in the audio content (Faithfulness drops to $1.50/5.00$). This indicates that when audio carries weak emotional signals, the model defaults to the text prompt as its primary emotion source, making emotionally neutral speech---the most common category in real-world deployments---a particularly vulnerable attack surface.
+
+%% ============================================================
+%% 2.3  Q3: Insufficiency of Traditional SER Attack Methods
+%% ============================================================
+\subsection{Insufficiency of Traditional SER Attack Methods}
+\label{sec:obs_q3}
+
+We test whether existing SER adversarial attack methods transfer to ALLMs. We adapt STAA-Net~\cite{staanet}, a representative generator-based SER attack (Wave-U-Net generator, C\&W untargeted loss~\cite{cw}, sparsity mask), to target Voxtral-Mini-3B with full white-box access. The setup deliberately favors the traditional method: the task is \textit{untargeted} (strictly easier than targeted flipping) and the perturbation budget $\varepsilon = 0.03$ ($L_\infty$) is substantially larger than that of our ALLM-native attacks. Table~\ref{tab:q3_results} summarizes the configuration and results.
+
+\begin{table}[t]
+\centering
+\caption{STAA-Net adapted to Voxtral-Mini-3B.}
+\label{tab:q3_results}
+\begin{tabular}{ll}
+\toprule
+\textbf{Parameter} & \textbf{Value} \\
+\midrule
+Attack type / Access & Untargeted / White-box \\
+Perturbation budget ($L_\infty$) & 0.03 \\
+Train / Test samples & 200 / 200 (ESD) \\
+\midrule
+Mean $\|\delta\|_\infty$ & 0.030 (budget saturated) \\
+Mean SNR & 13.4 dB \\
+Predictions unchanged & 195 / 200 (97.5\%) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Despite the generator saturating its perturbation budget and converging normally during training, 97.5\% of test samples produce \textit{identical} predictions under clean and adversarial audio. The failure is not due to insufficient perturbation but to architectural incompatibility: SER attacks target standalone classifiers with fixed output spaces, whereas ALLMs route audio through an encoder--adapter--LLM pipeline where emotion judgments emerge via autoregressive generation. The perturbation signal, optimized for a classifier's decision boundary, dissipates through the LLM's billion-parameter processing layers. This demonstrates that SER attack methods do not transfer to ALLMs, motivating the ALLM-native methodology in Section~\ref{sec:methodology}.
+\section{Threat Model and Motivations}
+\label{sec:Motivation}
+
+
+%% ============================================================
+%% 2.4  Q4: Insufficiency of Traditional SER Attack Methods
+%% ============================================================
+
+
+
+\subsection{Threat Model and Goals}
+
+In this study, the adversary is an unauthorized individual attempting to gain illicit access to a VR device by impersonating a legitimate user. The ultimate goal is to steal sensitive data from the victim, such as healthcare records, financial information, or commercial secrets. We assume the following two attack scenarios:
+
+\begin{packeditemize}
+    \item \textit{Basic scenario: physical access.} The adversary may obtain the VR device through theft, loss, or unauthorized borrowing. With physical possession, the adversary attempts to use their own eye motion credentials to bypass the authentication system.
+    \item \textit{Adaptive attacks: access to sensors.} We assume the attacker has the capability to manipulate the eye-tracking sensors after sneaking a user's eye video or historical authentication data from social networks. Thus, the attacker can replace the data transmitted from the eye-tracker to the authentication system by the historical data during authentication.
+\end{packeditemize}
+
+In this study, \sysname should defend against adversaries with any of the above-mentioned attack capabilities. Note that we do not consider adaptive attacks that rely on any of the following three stronger assumptions: (1) the adversary can obtain the challenge stimuli, which consist of a randomized sequence of colored lights displayed on the virtual screen; (2) launch attacks at the system level of VR devices; and (3) manipulate their own eye movements to imitate the victim's pupillary response. We discuss the feasibility of implementing the above three attacks on \sysname in Section~\ref{sec:Limitations}.
+
+
+\subsection{Motivation of \sysname}
+
+\subsubsection{Basic Insights and Research Questions}
+The human pupil is a small circular aperture at the center of the iris, serving as the gateway for incoming light. Pupil diameter is influenced by various factors, including individual age, ethnicity, as well as visual stimuli such as light intensity, color, and the distance of target. Existing researches have demonstrated that human pupils exhibit varying degrees of constriction under different colored light \cite{do2010intrinsically,herbst2011test,Kardon2009,YOUNG2008862,ishikawa2012effects, Bonmati_fneur201801019, lobato2014pupillary}. As illustrated in Figure~\ref{fig: pupil and cone cells}, when light traverses the pupil, it is received and processed by distinct photoreceptor cells located on the retina. These photoreceptors facilitate visual phototransduction, converting the energy of photons into a neuronal signal. The major types of photoreceptors encompass cone cells, rod cells, and intrinsically photosensitive retinal ganglion cells, among which cone cells primarily govern the perception of colored light.
+
+
+Concentrated in the fovea centralis or parafovea\footnote{Fovea centralis is surrounded by the parafovea belt.} of the retina, cone cells' sensitivity and response speed to light vary with color due to their possession of three distinct visual pigments, each capable of absorbing red, green, and blue light. As light changes, cone cells detect these alterations and transmit different signals to the nervous system (i.e., the brain). In turn, the brain modulates the tension of iris muscles via neural pathways such as the oculomotor nerve, thereby altering pupil size. The iris muscles consist of multi-unit smooth muscles. The circular muscle layer (pupillary sphincter) leads to pupil miosis, while the radial muscle fibers (pupillary dilator muscle) results in pupil dilation. Though the superficial process appears to be the impact of different colored light on pupil diameter, our study actually adopts the terminology of using light sources of different wavelengths given that the mapping relationship between RGB colors and wavelengths.
+
+In this section, we aim to validate our motivation through a series of preliminary case studies which answer the following critical questions.
+
+\begin{packeditemize}
+    \item Does people perform unique patterns of pupil reactions compared to others when seeing light of same wavelength?
+    \item Is the pupil response of the same user hold consistency and stability under the same wavelength?
+    \item Do visual stimuli with different wavelengths cause diverse changes in pupil diameter for one person?
+\end{packeditemize}
+
+
+\subsubsection{Observations Derived from Case Studies}\label{sec:observations}
+
+To address the above questions, we conduct experiments in which a total of 52 volunteers are recruited. During the experiments, volunteers are instructed to wear the HTC VIVE Pro Eye \cite{HTCViveProEye} headset and observe the virtual scenarios presented on the headset's screen. The light source within the scenario varied sequentially across 10 different wavelengths: 400 nm, 450 nm, 475 nm, 500 nm, 525 nm, 550 nm, 570 nm, 600 nm, 630 nm and 700 nm. There is no precise mapping for converting a wavelength ($\lambda$) directly to an RGB color; instead, the correlation between them is more accurately described as an approximate conversion, as illustrated in Table~\ref{tab:length:color}. Each wavelength is maintained for a duration of 5 seconds, while the Pupil Lab eye tracker \cite{PupilLab} integrated into the headset records the participants' eye movement data.\footnote{Pupil Lab is an optional accessory (i.e., a commercial VR eye tracker) for HTC VIVE Pro Eye.} 
+The sampling process is repeated 20 times per user, resulting in a total of 1040 samples with each comprising a time-varying sequence of pupil diameter.
+
+\noindent \textbf{Observation 1:} \textit{inter-subject pupillary responses show distinctive patterns at the same stimulus.}
+
+Figure~\ref{fig: inter and intra} presents pupillary response of three users under the  wavelength $\lambda = $ 550 nm, with three samples per user. The graph illustrates significant distinctions in the pupil response patterns among users, which are sufficient for authentication purposes.
+
+\begin{table}[t]
+\caption{Light color and approximate wavelength ($\lambda$), the mapping adopted is based on~\cite{RGB2}.}
+\vspace{-2mm}
+\label{tab:length:color}
+\resizebox{0.98\linewidth}{!}{
+\begin{tabular}{llc|llc}
+\toprule
+\textbf{Color} & \textbf{RGB value} & \textbf{$\lambda$} & \textbf{Color} & \textbf{RGB value} & \textbf{$\lambda$} \\ \midrule
+\raisebox{0.3ex}{\resizebox{5ex}{1ex}{\colorbox{mycolor400}{\strut}}}     & (131, 0, 181) & 400 nm  & \raisebox{0.3ex}{\resizebox{5ex}{1ex}{\colorbox{mycolor550}{\strut}}}     & (163, 255, 0) & 550 nm \\
+\raisebox{0.3ex}{\resizebox{5ex}{1ex}{\colorbox{mycolor450}{\strut}}}     & (0, 70, 255)  & 450 nm & \raisebox{0.3ex}{\resizebox{5ex}{1ex}{\colorbox{mycolor570}{\strut}}}     & (225, 255, 0) & 570 nm \\
+\raisebox{0.3ex}{\resizebox{5ex}{1ex}{\colorbox{mycolor475}{\strut}}}     & (0, 192, 255) & 475 nm & \raisebox{0.3ex}{\resizebox{5ex}{1ex}{\colorbox{mycolor600}{\strut}}}     & (255, 190, 0) & 600 nm \\
+\raisebox{0.3ex}{\resizebox{5ex}{1ex}{\colorbox{mycolor500}{\strut}}}     & (0, 255, 146) & 500 nm & \raisebox{0.3ex}{\resizebox{5ex}{1ex}{\colorbox{mycolor630}{\strut}}}     & (255, 79, 0)  & 630 nm \\
+\raisebox{0.3ex}{\resizebox{5ex}{1ex}{\colorbox{mycolor525}{\strut}}}     & (74, 255, 0)  & 525 nm & \raisebox{0.3ex}{\resizebox{5ex}{1ex}{\colorbox{mycolor700}{\strut}}}     & (255, 0, 0)   & 700 nm \\ \bottomrule
+\end{tabular}
+}
+\vspace{-4mm}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.98\linewidth]{figure/inter and intra.pdf}
+\vspace{-2mm}
+\caption{Pupillary response of same users and between different users when $\lambda$ = 550 nm.}
+\vspace{-4mm}
+\label{fig: inter and intra}
+\end{figure}
+
+\noindent \textbf{Observation 2:} \textit{the pupillary response is consistent for the same user at the same wavelength.}
+
+Three pupillary response trials from each user under identical stimulus are depicted in Figure~\ref{fig: inter and intra}, exhibiting a high degree of similarity. Furthermore, based on the original data, we evaluate the inter-user variability and intra-user consistency by conducting the Kolmogorov-Smirnov (KS) test for each user. The test returns a value ranging from 0 to 1, representing the maximum vertical deviation between two sample sets. A higher KS value indicates greater divergence between the two sample sets. For each user, we randomly select five samples and calculate the average KS value for all pairwise comparisons to measure the consistency among the user's own samples. Meanwhile, we compute the average KS value between user's own samples and those from other users to evaluate their differences.  
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.98\linewidth]{figure/KS.pdf}
+\vspace{-2mm}
+\caption{KS values of inter-user and intra-user groups.}
+\vspace{-4mm}
+\label{fig: confusion matrix}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.98\linewidth]{figure/different wave.pdf}
+\vspace{-2mm}
+\caption{Left and right pupil size of same user under varying wavelengths.}
+\vspace{-4mm}
+\label{fig: different wave}
+\end{figure}
+
+In Figure~\ref{fig: confusion matrix}, the KS values of intra-user groups (with an average of 0.39) are significantly smaller than those of inter-user groups (with an average of 0.76). This observation underscores the intra-user homogeneity and the inter-user divergence under the same visual stimulus, further validating the feasibility and effectiveness of light-pupillary response in user authentication.
+
+\noindent \textbf{Observation 3:} \textit{different wavelengths of ambient light trigger diverse binocular pupillary responses for the same user.}
+
+Figure~\ref{fig: different wave} plots the left and right pupil size of a given volunteer under three distinct wavelengths of light. It highlights variations in pupillary responses not only across wavelengths but also in binoculus under the same stimulus. This represents a fine-grained biometric with the potential for random challenge-response mechanisms. By altering the wavelength combinations within the stimuli, substantial response credentials can be generated. This reduces the risk of impersonation attacks through credentials theft.
+
+
+\section{System Design of \sysname}
+\label{sec:SystemDesign}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.98\linewidth]{figure/System v5.pdf}
+\vspace{-2mm}
+\caption{The system overview of \sysname.}
+\vspace{-4mm}
+\label{fig: system overview}
+\end{figure}
+
+Figure~\ref{fig: system overview} shows an overview of \sysname, which consists of four modules. Initially, the \textit{Data Collection and Pre-processing} module acquires the raw pupil size sequence during both the registration and authentication phases and implements signal smoothing and de-noising to mitigate the negative effects of spontaneous blinks and undesirable noise. Next, the \textit{Stimuli Design} module calculates the light wavelength combination that generates the most distinctive pupillary response for each registered user and instructs the Data Collection and Pre-processing module to collect data for any user requesting authentication. The de-noised data are then fed into the \textit{Feature Extraction} module, where statistical, temporal, and frequency features are extracted. Finally, the \textit{Classification} module trains the classifier based on the registered datasets and performs authentication. In this section, we will elaborate on the implementation details of these four modules.
+
+\subsection{Data Collection and Pre-processing}
+\label{sec: data pre-processing}
+
+As illustrated in Figure~\ref{fig: system overview}, during both registration (collecting users' pupil data with real identity labels) and authentication (when the user claims an identity whose authenticity is unclear), \sysname adopts standard data collection and pre-processing methods as described below.
+
+\subsubsection{Data Collection} 
+We utilize the HTC VIVE Pro Eye to gather users' eye-tracking data. According to the official manufacturer, eye-tracker of this device has a sampling frequency of 120 Hz, with an accuracy ranging from $0.5^\circ$ to $1.1^\circ$, and a field of view (FOV) of $110^\circ$. We design a virtual scenario with dynamically changing colored light source on Unity\footnote{Unity is a development platform for VR apps. For details, see Section~\ref{sec:experiment settings} and Figure~\ref{fig: data collection}.} for the participants, with data recorded simultaneously through the official SDK. 
+
+During the registration phase, this study involves 52 users, with each user being sampled 20 times. Each round includes 10 distinct wavelengths of light, and each wavelength lasts for 5 seconds. Consequently, we represent pupil diameter recordings $R = [R_{k,i}^u]$, where $k \in [1, N_k]$ represents the $k$-th wavelength as described in Table~\ref{tab:length:color} with $N_k = 10$, $i \in [1, N_s]$ denotes the sample index with $N_s = 20$, and $u \in [1, N_u]$ is the user index with $N_u = 52$. For the authentication phase, where a user claims identity $J$, to achieve lightweight authentication, we display only $N_w$ colors with different wavelengths $w^J = [w_1, w_2, \dots, w_{N_w}]$ provided by the Stimuli Design module (details can be found in Section~\ref{sec:stimulidesign}), and the collected data is represented as $A = [A_{w_i}^J]$, where $i \in [1, {N_w}]$.
+
+\subsubsection{Data Pre-processing.} To optimize the quality of data and mitigate the impact of noise, we stick to the following steps to handle the collected raw data:
+
+\textit{(1) Interpolating:} Due to the inevitable spontaneous blinks, outliers ($\text{values} < 0$)\footnote{The eye-tracker is able to detect blinking and outputs a pupil diameter value of $-1$.} exist in the pupil size readings from eye-tracking. \sysname employs linear interpolation to address this issue.
+
+\textit{(2) Noise Filtering:} The collected recordings $R = [R_{k,i}^u]$ usually contains noise due to environmental light interference, electromagnetic emissions from the device, as well as the inherent complexity of ocular movements and device accuracy limitations. Through Fourier transformation, we identify that the noise is concentrated in the high-frequency region. Therefore, we use a low-pass filter with a cutoff frequency of 50 Hz to remove the noise.
+
+\textit{(3) Resampling:} As data transmission and hardware synchronization are not completely ideal, frame skipping or duplication may exhibit in the obtained data, resulting in inconsistent frame counts for each 5-seconds sample $R_{k,i}^u$. To facilitate subsequent processing, we leverage interpolation to resample $R_{k,i}^u$ at a rate of 60 Hz , ensuring a uniform count of 300 frames per sample\footnote{Despite the official sampling rate being 120 Hz, we have observed issues such as frame skipping and frame repetition in the timestamps of the output eye-tracking sequences. The average sampling rate is around 60 Hz in practice.}.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.98\linewidth]{figure/denoise.pdf}
+\vspace{-2mm}
+\caption{Pre-processing of original data.}
+\vspace{-4mm}
+\label{fig: denoise}
+\end{figure}
+
+Figure~\ref{fig: denoise} illustrates the original and the pre-processed pupillary response signals. Ultimately, during the registration phase, we obtain the pre-processed response traces $I_{k,i}^u[n]$ from each $R_{k,i}^u$, which represents a pupil diameter sequence of length $L = f_s \times T$ under the $k$-th wavelength, where the resampling rate $f_s$ is 60 Hz and the duration $T$ is 5 seconds. Similarly, we have pre-process trace $K_{w_i}^J$ from $A_{w_i}^J$ during the authentication phase.
+
+\subsection{Stimuli Design}
+\label{sec:stimulidesign}
+
+In this subsection, we design customized visual stimuli tailored to users' pupillary responses across various wavelengths. Our objective is to find the best combinations of wavelengths, which is assumed to elicit the most distinctive eye movement signatures (i.e., maximal inter-individual heterogeneity while preserving intra-personal consistency). In addition, we will introduce the generation of random challenges to defend against replay attack.
+
+% \textbf{Select the most suitable light color for each given user.}
+\subsubsection{User-Specific Light Color Selection}
+We employ the KS test described in Section~\ref{sec:observations} to quantify both variability and consistency. For pre-processed pupil data from registration users, we compute the KS statistic between their pupillary signals and those of other users across each wavelength. We average all samples from user $u_i$ at a given wavelength: 
+\begin{equation}
+    I_{k,avg}^{u_i}[n] = avg(I_{k,1}^{u_i}[n], I_{k,2}^{u_i}[n], ... I_{k,N_s}^{u_i}[n]),
+\end{equation}
+and similarly, average the samples from another user $u_j \neq u_i$ at the same wavelength: 
+\begin{equation}
+    I_{k,avg}^{u_j}[n] = avg(I_{k,1}^{u_j}[n], I_{k,2}^{u_j}[n], ... I_{k,N_s}^{u_j}[n]).
+\end{equation} 
+
+The KS test (denoted as $KS(\cdot, \cdot)$) is calculated between $I_{k,avg}^{u_i}[n]$ and $I_{k,avg}^{u_j}[n]$. This process is repeated for every other user, and the average of these KS values represents the final KS score for user $u_i$ as $\overline{KS}(u_i, k) = \frac{1}{N_u-1}\sum_{i\neq j}{KS(I_{k,avg}^{u_i}[n], I_{k,avg}^{u_j}[n])}$, signifying the inter-user difference at the specified $k$-th wavelength. \sysname could establish a prior database to store a certain amount of pupil data. This will mitigate the cold start problem for the initial users of the system. Whenever a new user joins, \sysname collects the user's eye-tracking data and performs a KS test on it.
+
+To assess personal consistency, we perform pairwise KS tests on all samples for each user at each wavelength and average the results. Finally, we obtain measures of both variability and consistency for each user across different wavelengths. We select the top $N_w$ wavelengths  with the largest difference between variability and consistency as the user-specific stimuli (i.e., wavelength combination). In this study, unless otherwise specified, $N_w$ is set to 4. During the registration phase, we preserve only the user's pre-processed data corresponding to the top $N_w$ wavelengths for subsequent feature extraction and classifier training. During each login phase, the user first claims their identity $J$, after which the corresponding $N_w$ wavelengths are presented as visual stimuli for authentication.
+
+\subsubsection{Random Challenge Generation}\label{sec:random:challenge}
+To defend against replay attacks, we further introduce random challenges. After customizing the most suitable $N_w$ wavelength for each user, \sysname alters the sequence of light presented to the user. For instance, during one login attempt, the system presented light wavelengths as [400 nm, 450 nm, 500 nm, 600 nm]; in a subsequent login, the stimuli may be rearranged to [450 nm, 600 nm, 400 nm, 500 nm]. In the following sections, for a given authentication attempt, we denote the random challenge $w^J$ as $[w_1, w_2, \dots, w_{N_w}]$. We assume that the adversary in replay attacks possesses samples from the $N_w$ optimal wavelengths but does not know their randomized order during a given login attempt. The performance of this defense approach is evaluated in Section~\ref{sec:Limitations}.
+
+\subsection{Feature Extraction}
+\label{sec: feature extraction}
+After obtaining the pre-processed data $I_{k,i}^u[n]$ or $K_{w_i}^J$, we extract three types of features: statistical features, temporal morphological features, and frequency-domain features. Taking a sample $\hat{i}$ at a specific wavelength $\hat{k}$ of user $\hat{u}$ as an example (abbreviated as $\hat{I}[n]$), we will introduce the extraction process below in detail.
+
+\subsubsection{Statistical and Temporal Features}
+Statistical features refer to the descriptions of signal statistical analysis. For $\hat{I}[n]$, we calculate the average, variance, median, skewness, and kurtosis of the pupil diameter to constitute its statistical features $F_s$. Besides, \sysname extracts temporal features $F_t$ from $\hat{I}[n]$ to outline the morphology of light-pupillary response curves, as shown in Figure~\ref{fig: temporal features}. 
+By introducing short intervals of darkness between each wavelength, we allow the subject's pupil size to approximately recover to baseline before the next wavelength. As observed in Figure~\ref{fig: temporal features}, upon exposure to a specific wavelength, the pupil undergoes an evident constriction after a response lag, with notable fluctuation from the 1st to 3rd seconds. Therefore, we select the signal segment $C[n]$, $n \in [1, f_s \times 2]$, from $\hat{I}[n]$ spanning 1st to 3rd seconds. Normalization mechanism is conducted on it to obtain $C^{'}$. The $k-$th element of $C^{'}$ is:
+\begin{equation}
+    C^{'}[k] = \frac{C[k]-min}{max-min}.
+\end{equation}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{figure/features v3.pdf}
+\vspace{-2mm}
+\caption{Illustration of pupillary response under stimuli and its temporal features (i.e., normalization, AUC, peak magnitudes, valley magnitudes, dilation rate, miosis rate, and polynomial coefficients).}
+\vspace{-4mm}
+\label{fig: temporal features}
+\end{figure}
+
+The normalization value is set with $min = 0$ and $max=8$ based on the general pupil diameter's fluctuation range under light influence.
+To further improve \sysname's ability, we also propose following feasible features as a component of $F_t$:
+\begin{packeditemize} 
+    \item Area under the curve (AUC). This represents the area beneath the pupillary response curve, calculated by integrating over time. A larger AUC tends to indicate a higher sensitivity for user to light stimulus.
+    \item Peak/Valley magnitudes. These refer to the local maxima and minima in the pupil fluctuations. More acute fluctuations result in higher peaks and lower valleys. \sysname employs a classical peak detection algorithm to identify peaks and valleys in the response waveform. To unify the feature vector length, we select the first $N$ peaks and valleys from $\hat{I}[n]$. If the number of peaks or valleys is less than $N$, we pad with the minimum peak or maximum valley values. \sysname also calculates the average, median, and variance of the peaks and valleys as supplements of the Peak/Valley magnitude features ($P$, $V$).
+    \item Dilation/Miosis rates. Dilation (Miosis) rate is defined as the ratio of pupil dilation (miosis) amplitude to the corresponding time interval. We determine pupil dilation and miosis by leveraging the adjacent peaks and valleys identified in the previous step. Similarly, we select $M$ dilation/miosis rates to standardize the feature vector length, denoted as $Dr$ and $Mr$.
+    \item Polynomial coefficients. The $k$-degree polynomial can be used to approximate the shape of the pupillary response curve, with its coefficients $PC$ serving as features. We set $k$ to 15, as it provides a good fit to the ground truth.
+\end{packeditemize}
+
+In summary, we can obtain the temporal feature of \sysname as $F_t = [C', AUC, P, V, Dr, Mr, PC]$.
+
+\subsubsection{Frequency Features}
+To further observe the distribution of the pupillary response signal in the frequency domain, we perform the Short-Time Fourier Transform (STFT) on the $\hat{I}[n]$ with length of $L = f_s \times T$. We adopt a sampling rate $f_{fft}$ of 60 Hz with a Hanning window of size 32 to separate the signal into small chunks across time domain. The overlap step of moving windows is set to 16 and the FFT points number $N_{fft}$ is 512. Then, a spectrogram $S$ is generated. Thereafter, \sysname truncates the spectrogram below a cutoff frequency $f_{AF}$, which is set to 5 Hz based on the concentration of amplitude. Subsequently to the cutoff, we get $Spec = S(:M_{spec}, :)$ with $M_{spec} = \frac{f_{AF} \times N_{fft}}{f_{fft}} = 43$. 
+\begin{figure}[t]  
+    \centering  
+    \subfigure[]{
+        \includegraphics[height=3.77cm]{figure/frequency features user1.pdf}
+        \label{fig: STFT1}
+    }
+    \subfigure[]{
+        \includegraphics[height=3.77cm]{figure/frequency features user2.pdf}
+        \label{fig: STFT2} 
+    }
+    \subfigure[]{
+        \includegraphics[height=3.77cm]{figure/frequency features avg_std.pdf}
+        \label{fig: STFT std avg}
+    }
+    \vspace{-2mm} 
+    \caption{(a) Cutoff spectrogram of user 1 in 400 nm and 500 nm. (b) Cutoff spectrogram of user 2 in 400 nm and 500 nm. (c) $F_{f,std}$ and $F_{f,avg}$ of user 1 and user 2.}
+    \vspace{-4mm}
+    \label{fig: STFT}   
+\end{figure}
+
+Figures~\ref{fig: STFT1} and \ref{fig: STFT2} demonstrate the spectrograms under two different light stimuli for two users (the overlap step is set to 30 in the figures). The differences exhibited in the spectrograms indicate their effectiveness as frequency domain features for user authentication. We take the average of $Spec$ across the time domain and generates the frequency domain features $F_f = \overline{Spec}$ with a length of $M_{spec}$. Figure~\ref{fig: STFT std avg} has validates the differences of the average and standard deviation of $F_{f}$ across wavelengths between two users.
+Ultimately, for a sequence of pupillary response signals $\hat{I}[n]$, the extracted features $F = [F_s, F_t, F_f]$.
+
+\subsubsection{Feature Expanding Based on Left and Right Eye Difference}\label{sec:feature:expanding}
+The eye tracker embedded in HTC VIVE headset is able to acquire individual eye movement data separately for the left and right eyes. Thus, features ($F_{left}, F_{right}$) can be extracted from the two eyes respectively. By taking the average of pupil sizes from both eyes, we are able to derive a sequence representing the change in cross-eye pupil diameter, which allows \sysname to extract the feature $F_{cross}$. Furthermore, we observe subtle yet significant differences in pupillary response variations between the left and right eyes of each person, as stated in Section~\ref{sec:Motivation}. We generate a sequence representing the bilateral difference by subtracting the right value from the left one. Statistical and temporal features from this sequence are designated as $F_{diff}$. We will not extract frequency-domain features from the sequence of differences. 
+
+Overall, for a given traces on each wavelength from one user (i.e., $I_{k,i}[n]$), \sysname is able to obtain four features: $F_{left}$, $F_{right}$, $F_{cross}$, and $F_{diff}$. We denote $F_{I_{k,i}} = [F_{left}, F_{right}, F_{cross}, F_{diff}]$. Accordingly, the total samples for one user ($N_s$ recordings for each of $N_k$ wavelengths), i.e., $I[n] = [I_{k,i}[n]]_{N_k \times N_s}$, yields feature samples $F_I$:
+\begin{equation}
+    F_I = [F_{I_{k,i}}]_{N_k \times N_s}, k \in [1, N_k], i \in [1, N_s].
+\end{equation}
+
+\subsubsection{Features Expanding Based on Wavelength Subgroups}
+For each user, we have devised a unique combination consisting $N_w=4$ wavelengths as visual stimuli in Section \ref{sec:stimulidesign}, and only the features derived from these wavelengths are utilized for the user's classification training. To achieve high-accuracy authentication, we only consider a fixed-order wavelength combination for usability. Additionally, with a heightened focus on security measures, especially in mitigating the risk of replay attacks, we will integrate randomized factors into the design of our features.
+
+\textbf{Authentication Features.}
+To enhance the performance of the classification model, for the dataset collected during user registration, we randomly combine the feature samples used for training. Assuming $w^J = [w_1, w_2, w_3, w_4]$ are the $N_w=4$ (i.e., four) selected wavelengths for a given user, each time \sysname randomly selects one sample from each wavelength, which can be combined to generate a new sample $F_c = [F_{I_{w_1,p}}, F_{I_{w_2,q}}, F_{I_{w_3,r}}, F_{I_{w_4,s}}]$, where $p,q,r,s$ are time indexes. For the authentication phase, to comply with the design goal of lightweight authentication, we do not apply random combination processing to them. Therefore, the feature combination that servers as test sample is $[F_{K_{w_1}},F_{K_{w_2}},F_{K_{w_3}},F_{K_{w_4}}]$.
+
+Further, we apply the same process manner for both combination feature during registration and authentication. As shown in Figure~\ref{fig: classification}, we take $F_c$ as an example, each feature sample is divided into $\binom{4}{3} = 4$ subgroups, the $i$-th subgroup represents the feature samples from wavelengths $w^J[i\bmod 4], w^J[i+1\bmod 4]$ and $w^J[i+2\bmod 4]$, denoted as $[F_c(w^J[i\bmod 4]), F_c(w^J[i+1\bmod 4]), F_c(w^J[i+2\bmod 4])]$, and we calculate the average and standard deviation $(F_{avg}, F_{std})$ across the wavelengths within each subgroup:
+\begin{eqnarray}
+\begin{split}
+ \label{eq:avg}
+    F_{avg}[i] = &avg([F_c(w^J[i\bmod 4]), F_c(w^J[i+1\bmod 4]), \\
+    &F_c(w^J[i+2\bmod 4])]),   
+\end{split}
+ \\ 
+\begin{split}
+   \label{eq:std}
+    F_{std}[i] = &std([F_c(w^J[i\bmod 4]), F_c(w^J[i+1\bmod 4]), \\
+    &F_c(w^J[i+2\bmod 4])]).  
+\end{split}
+\end{eqnarray}
+We can also following equations~\ref{eq:avg} and ~\ref{eq:std} to address subgroups during authentication. Thus, for the user's authentication request, our ultimate feature $F_U = [F_U[i]], i\in[1,4]$ comprises four subgroups, with each subgroup $F_U[i] = [F_U[i][n]], n\in[1,N_f]$ containing $N_f$ feature samples, with a length of $L_f = 1600$ for each sample.
+
+
+\textbf{Features to thwart replay attacks.}
+We consider incorporating randomized factors into the features, specifically, the sequence of various lights employed in the stimuli. Taking $F_c$ as an example, for the $i$-th subgroup, we concatenate the samples corresponding to different wavelengths:
+
+\begin{equation}
+\begin{split}
+    \label{eq:concat}
+    F_{concat}[i] = &[F_c(w^J[i\bmod 4]), F_c(w^J[i+1\bmod 4]), \\
+    &F_c(w^J[i+2\bmod 4])].
+\end{split}
+\end{equation}
+
+
+\subsection{Classification}
+\label{sec:classification}
+
+\subsubsection{Overview of Classification Module}
+The classification module leverages the extracted features to distinguish between legitimate and illegal users. The training and authentication process of \sysname are illustrated in Figure~\ref{fig: classification}. Given the relatively small dataset scale and subtle differences in pupillary response, using Deep Neural Networks or one-class classifiers tends to result in over-fitting. Therefore, we employ a binary classification method to train our network for each user. The training and test sets are independently divided. The model is fed with two types of explicitly labeled data: legitimate user's data and impersonator's data. Both are the feature samples under the wavelength combination of current legitimate user, which is chosen through KS test stated in Section~\ref{sec:stimulidesign}. The former are the features extracted from the user's own pupillary response, following the steps outlined in Section~\ref{sec: feature extraction}. The latter are randomly selected from the features sets of other users, with an equal sample number as the legitimate one. 
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\linewidth]{figure/classification&replay v2.pdf}
+    \vspace{-4mm}
+    \caption{\sysname's training and authentication processes.}
+    \vspace{-4mm}
+    \label{fig: classification}
+\end{figure}
+
+We leverage the  Extremely Randomized Trees (Extra-Trees) to train our classifier. The Extra-Trees builds multiple decision trees and outputs the class that is the mode of the classes of the individual trees. It differs from traditional Random Forests in its randomized attribute selection and split criteria, making it more robust to noise. 
+
+\subsubsection{Defending Against Basic Impersonation}
+During the authentication, we utilize the method described in Section~\ref{sec:feature:expanding} to generate $N_w=4$ groups from a single trial. For $i$-th sub-sample, the trained model assigns a probability of being classified as legal as its score (denoted as $\text{score}_i$). \sysname then calculates the product of the scores across all groups as the final score for the test sample, i.e., $\text{score} = \prod_{i=1}^{N_w} \text{score}_i$. When $\text{score} \geq t$, where $t$ is a given threshold, the model considers the sample from the legitimate user.
+
+\subsubsection{Defending Against Replay Attack}
+To further defend against replay attack, we focus on samples classified as legitimate user. Features calculated from equation~\ref{eq:concat} will be utilized to train a new Extra Trees model. For a specific challenge, the positive samples are features derived from the current challenge, while the negative sample set we employ consists of samples corresponding to wavelength combinations that an attacker might generate (using the same wavelengths but with different arrangements). For instance, if a random challenge is wavelengths of [400 nm, 450 nm, 500 nm, 600 nm], the corresponding samples are labeled as positive, while other samples (e.g., those from [450 nm, 600 nm, 400 nm, 500 nm]) are labeled as negative. Since these samples can be obtained during the enrollment phase, for each possible wavelength combination, we are able to pre-train its classification model offline; in total, there are 24 possible arrangements, corresponding to 24 mini-models for replay attack detection. Similar to the process of authentication, for a test sample, we calculate the final multi-score based on the scores of each of its subgroups, and only classify it as a positive sample if the multi-score exceeds a predefined threshold.
+
+\section{Evaluation of \sysname}
+In this section, we evaluate the performance of \sysname. Due to the page limit, the evaluations of impact factors and user study are presented in Appendix~\ref{sec:impact of various factors} and Appendix~\ref{sec:user study}, respectively.
+
+\label{sec:Evaluation}
+\subsection{Experiment Settings}
+\label{sec:experiment settings}
+\textbf{Hardware and software setup.}
+In this study, we adopt the HTC VIVE Pro Eye headset integrated with Pupil Labs' eye tracker to collect users' eye motion data. The experimental virtual scenes are implemented on Unity, a platform for VR application development. We harness relevant APIs from the \textit{Eye and Facial Tracking SDK} and the \textit{SRanipal SDK} to record users' eye movements scripted in C\#. The VR headset is connected to a computer system equipped with an Intel Core 14th Generation i7 processor and an NVIDIA GeForce RTX 4060 Ti graphics card, via a streamer and USB interface. Subsequent data processing and training are performed on this computer using Python.
+
+\noindent \textbf{Data collection.}
+In the data collection phase, we recruit 52 volunteers comprising of 21 males and 31 females, with ages ranging from 16 to 29. Each participant is instructed to wear an HTC VIVE Pro Eye headset and seat comfortably at a designated desk in a laboratory with tranquil atmosphere and mild indoor lighting. Before data acquisition, an eye-tracking calibration process inherent to the headset is implemented for each one, ensuring the reliability of the subsequent eye movement recordings. Then, the participants are immersed in a virtual scenario with the wavelength of its light source varies, as shown in Figure~\ref{fig: data collection}. They are instructed to relax and naturally observe the scene, allowing their gaze to wander freely across the virtual landscape or fixate on any point of interest within the environment.
+
+\begin{figure}[t]  
+    \centering  
+    \subfigure[Data collection settings.]{
+        \includegraphics[height=3.5cm]{figure/experiment_setting.pdf}
+        \label{fig: experimental setting}
+    }
+    \subfigure[Virtual scenario.]{
+        \includegraphics[height=3.5cm]{figure/virtual_scenario.pdf}
+        \label{fig: virtual scene} 
+    }
+    \vspace{-4mm}
+    \caption{Details of data collection procedure.}
+    \vspace{-4mm}
+    \label{fig: data collection}   
+\end{figure}
+
+
+The light source within the scenario sequentially transitions through a predetermined series of wavelengths: 400 nm, 450 nm, 475 nm, 500 nm, 525 nm, 550 nm, 570 nm, 600 nm, 630 nm and 700 nm, each maintains for a duration of 5 seconds. To facilitate pupil recovery and adaptation to the next wavelength, a brief 0.5-second interval of complete darkness is interposed between each wavelength. The variations of light across 10 wavelengths constitutes a sampling round, generating a sequence of user's pupil diameter over time (i.e., sample fragment). A total of 20 sampling rounds are launched for each participant. To conduct the longitudinal experiment, 10 participants are re-invited to repeat the sampling process on the 1st, 2nd, 3rd, 7th, and 14th days following their initial sampling. After data collection, we extract features corresponding to the wavelengths within the user-specific stimuli as shown in Section~\ref{sec:stimulidesign} and~\ref{sec: feature extraction}. Then a total of 200 feature samples are obtained after feature expanding for each person.
+
+\noindent \textbf{Training procedure.}
+As mentioned in Section~\ref{sec:classification}, to achieve user authentication, we train a binary classifier for each user, utilizing data with two labels: legitimate one and impersonators. Among all the datasets, $80\%$ is allocated for training purposes, while the remaining $20\%$ is reserved for testing.
+
+\noindent \textbf{Evaluation metrics.}
+In this study, we use accuracy, false acceptance rate (FAR), false rejection rate (FFR) and F1-score as metrics to evaluate the performance of \sysname. The accuracy is defined as the proportion of correct predictions for both genuine and impostor attempts. FAR measures the proportion of impostor access attempts that are incorrectly accepted by the system, while FRR measures the proportion of the genuine one being incorrectly rejected. The F1-score is a harmonic mean of precision and recall.
+
+
+
+\subsection{Overall Performance of \sysname}
+\label{sec:overall performance}
+\noindent   \textbf{Overall accuracy.}
+\sysname leverages Extra Trees to train classifiers for all 52 users. The testing results achieve an average accuracy of 98.65\% and F1-score of 98.61\%. Notably, 41 models (78.85\% of the total) reaches the peak accuracy of 100\%. Specifically, for the entire 10400 samples, the overall FAR and FRR is 0.77\% (i.e., 40 samples being falsely accepted out of 5200) and 1.92\% (i.e., 100 samples are falsely rejected out of 5200) respectively.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.9\linewidth]{figure/eer.pdf}
+\vspace{-2mm}
+\caption{FAR, FRR and EER of \sysname.}
+\vspace{-3mm}
+\label{fig: eer}
+\end{figure}
+
+To visualize how different thresholds affect the classifier's performance, the changes of FAR and FRR under various thresholds are illustrated in Figure~\ref{fig: eer}. The results of FAR 0.77\% and FRR 1.92\% are obtained when the threshold is set to 0.02. The EER (Equal Error Rate) is represented by the intersection point of the two curves, which achieves the lowest (i.e., 1.92\%) at a threshold of 0.015.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.9\linewidth]{figure/stimuli duration.pdf}
+\vspace{-2mm}
+\caption{Impact of stimuli types and duration on \sysname.}
+\vspace{-4mm}
+\label{fig: stimuli duration}
+\end{figure}
+
+\noindent \textbf{Time overhead.}
+\label{sec:impact of stimuli duration}
+We present the time overhead of \sysname, including the authentication time (i.e., the time spent collecting user data during authentication), the enrollment time (i.e., the time spent on training), and the authentication response time (i.e., the time \sysname takes to process the data and make a decision).
+
+(1) Authentication time.
+Figure~\ref{fig: stimuli duration} shows the classification accuracy of \sysname when the stimuli consist of varying numbers of colored light, each with different sample durations. Specifically, we test scenarios with 4, 3, and 2 colors in stimuli, coupled with sample duration of 5s, 4s, 3s, 2s, and 1s. The time reduction is achieved by extracting the first few seconds from the original sequences. Generally, an increase in both the number of colors and the sample duration leads to an enhancement in model accuracy. 
+
+Fortunately, shortening duration time has not make a considerable difference to \sysname's performance. For instance, with 4 colors and a 3-second duration, \sysname still achieves an accuracy of 98.55\%. Besides, a duration time of 2 seconds yields the highest accuracy rate of 97.88\% among scenarios with 3 colors in stimuli. This may be attributed to the fact that the pupillary response is most significant within the first 2 to 3 seconds when exposed to a specific wavelength of light, during which time sufficient identity-related information can be obtained. On the other hand, when decreasing the number of colors in stimuli from 4 to 3, the accuracy remains relatively stable as well, which generally hovers above 97\%. These observations underscore the potential to compress the stimuli duration of \sysname, thereby facilitating a shorter authentication time for better usability. 
+
+\begin{table}[t]
+\centering
+\caption{Comparison of Authentication Time and Performance Between \sysname and Existing Biometrics User Authentication Methods.}
+\vspace{-2mm}
+\label{tab: auth time}
+\resizebox{\linewidth}{!}{
+\begin{tabular}{ccccc}
+\hline
+\textbf{Methods} & \textbf{FAR(\%)} & \textbf{FRR(\%)} & \textbf{Auth Time(s)} & \textbf{Biometrics}\\ 
+\hline
+Blinkey~\cite{zhu2020blinkey} & 4.00 & 4.00 & 7.3 - 11.7 & Blink, Pupil Size\\
+BioMove~\cite{BioMove} & 0.0032 & 1.30 & $\approx$20 & Body, Eye Motion\\
+Reflexive~\cite{ReflexiveEM_CCS16} & 6.30 & 6.30 & $\leq$10 & Saccade\\
+OcuLock(EOG)~\cite{EOG_OcuLockEH} & 3.55 & 3.55 & $\leq$10 & EOG \\
+Iris scan~\cite{Iris_BOUTROS2020104007} & 6.35 & 6.35 & $\leq$1 & Iris Image\\
+SkullConduct~\cite{SkullConduct16} & 6.90 & 6.90 & $\leq$23 & Bone Sound\\
+GaitLock~\cite{GaitLock} & 2.90 & 2.90 & $\leq$5 & Gait Pattern\\
+PipID (ours) & 2.69 & 1.54 & $\leq$7.5 & Pupil Size\\ 
+\hline
+\end{tabular}}
+\vspace{-4mm}
+\end{table}
+
+We compare \sysname with other prevalent biometric user authentication methods in terms of authentication time and system performance. We consider three-color visual stimuli, each lasting for 2 seconds, as a good balance between security and usability. With this setup, the FAR and FRR are 2.69\% and 1.54\%, respectively, with an authentication time of 7.5 seconds (including a 0.5 s black interval before each light). As shown in Table~\ref{tab: auth time}, \sysname outperforms most of the methods in both authentication time and accuracy. While some works offer faster authentication times, such as Iris scan \cite{Iris_BOUTROS2020104007} and GaitLock \cite{GaitLock}, the former is susceptible to replay attacks while the latter is vulnerable to shoulder-surfing attacks and physically demanding. Therefore, when considering both security and usability comprehensively, \sysname demonstrates significant advantages.
+
+(2) Enrollment time.
+\label{sec:impact of testing set proportion}
+To collect sufficient training and testing samples, we sampled from volunteers for 20 rounds (approximately 18 minutes) in our data collection process, which is not practical considering enrollment effort. To reduce the enrollment time, we conduct tests to evaluate the model performance with different numbers of original training samples (denoted as $N_t$). The results are illustrated in Table~\ref{tab: testing set proportion}. We keep the training-testing dataset proportions consistent (training set proportion $P_t = 0.8$), as corresponding numbers of training samples can be expanded through random combination from original training set as stated in Section~\ref{sec:feature:expanding}. The optimal accuracy (98.65\%) and F1-score (98.61\%) are achieved when $N_t = 10$. 
+
+As the number of training samples decreases, there is a subtle but not significant decline in authentication accuracy. Even with only 5 original training samples, the accuracy remains at 97.64\%, suggesting that the number of sampling rounds during the enrollment phase can be reduced to approximately 5 rounds. Additionally, considering the analysis of authentication time, the duration of each wavelength segment can also be shortened. This implies that the enrollment time can be reduced to $10 \times (2+0.5) \times 5 = 125$ seconds (i.e., approximately 2 minutes).
+\begin{table}[t]
+\centering
+\caption{Impact of numbers of original training samples on \sysname.}
+\vspace{-2mm}
+\label{tab: testing set proportion}
+\begin{tabular}{ccccc}
+\toprule
+\textbf{$N_{t}$} & \textbf{Accuracy (\%)} & \textbf{FAR (\%)} & \textbf{FRR (\%)} & \textbf{F1-score (\%)} \\
+\midrule
+10 & 98.65 & 0.77 & 1.92 & 98.61 \\
+9 & 97.81 & 0.87 & 3.49 & 97.68 \\
+8 & 97.68 & 0.80 & 3.85 & 97.58 \\
+7 & 97.71 & 1.03 & 3.55 & 97.59 \\
+6 & 97.66 & 1.92 & 2.75 & 97.65 \\
+5 & 97.63 & 2.56 & 2.18 & 97.69 \\
+\bottomrule
+\end{tabular}
+\vspace{-2mm}
+\end{table}
+
+
+(3) Authentication response.
+We also evaluate the authentication response speed of \sysname. For each authentication attempt, the average time overhead $T_{overall}$ of \sysname covers the data pre-processing time $T_p = 0.005$ s, feature extraction time $T_f = 0.226$ s, and classification time $T_c = 0.289$ s. Thus, the overall time $T_{overall} = 0.52$ s, which is accessible. 
+
+\noindent   \textbf{Performance on different groups.}
+We collect pupillary data from 52 volunteers, comprising 21 males and 31 females. Based on their vision status, 13 individuals are non-myopic, and among the 39 myopic subjects, 27 wear spectacles under headsets, while the remaining 12 not. We test the performance of \sysname across these subgroups, as shown in Table~\ref{tab: different groups}. The average accuracy achieved for the male is 97.86\%, and 98.55\% for female. For the individuals of non-myopic, myopic without spectacles, and myopic with spectacles, the average accuracy are 98.46\%, 99.17\%, and 97.22\%, respectively. The accuracy of the group wearing spectacles may be affected by lens refraction.
+
+\begin{table}[t]
+\centering
+\caption{Performance of \sysname on different groups.}
+\vspace{-2mm}
+\label{tab: different groups}
+\resizebox{0.98\linewidth}{!}{
+\begin{tabular}{ccccc}
+\toprule
+\textbf{Groups (headcount)} & \textbf{Accuracy (\%)} & \textbf{FAR (\%)} & \textbf{FRR (\%)} \\
+\midrule
+Male (21) & 97.86 & 0.48 & 3.81 \\
+Female (31) & 98.55 & 0.64 & 2.26 \\
+\hline
+Non-myopia (13) & 98.46 & 2.31 & 0.77 \\
+Uncorrected Myopia (12) & 99.17 & 0.83 & 0.83 \\
+Wearing Spectacles (27) & 97.22 & 2.96 & 2.59 \\
+\bottomrule
+\end{tabular}}
+\vspace{-2mm}
+\end{table}
+
+
+
+
+
+
+
+\subsection{Longitudinal Study}
+To investigate the long-term performance of \sysname, we invite 10 volunteers back for a multi-session sampling protocol, conducted on the 1st, 2nd, 3rd, 7th, and 14th days following their initial experiment, with 10 rounds of sampling per session for each volunteer. As a biometric, the response of pupillary diameter under different lights will exhibits variability over time, leading to a decline in authentication performance \cite{KASTHURIRANGAN20061393,LobatoRincon2014}. To mitigate the long-term effects of biometric degradation, we implement a method where new samples are periodically added to the training datasets. Then, the classification model is retrained to incorporate these new data.
+
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.9\linewidth]{figure/multi session.pdf}
+\vspace{-2mm}
+\caption{Long-term Performance of \sysname.}
+\vspace{-4mm}
+\label{fig: multi session}
+\end{figure}
+
+Figure~\ref{fig: multi session} showcases the results of the longitudinal experiment. For comparison, we also test the authentication performance without addressing long-term degradation over the same time span, where the accuracy continuously decline over time. In contrast, with periodic updates of the training dataset, \sysname maintains a relatively stable authentication accuracy. Specifically, on the 7th and 14th day, the accuracies are 98\% and 91\% respectively. This demonstrates that \sysname is effective in counteracting the temporal variations in pupillary response. We acknowledge the limitations of the current approaches and will discuss the countermeasures in Section 6.
+
+\subsection{Robustness Against Adaptive Attacks}
+
+\subsubsection{Replay Attacks}
+
+We conduct experiments to evaluate the resilience of \sysname against replay attacks, where adversaries may attempt to access the VR device by exploiting pupillary responses generated from previously used visual stimuli of the user. For each user, we select $N_w = 4$ wavelengths as stated in Section~\ref{sec:stimulidesign}. We assume that the attacker has obtained the user's pupillary responses from these 4 wavelengths but is unaware of light order in each random challenge. For a login attempt, the attacker randomly guesses the current wavelength permutation and sends the corresponding response to the model (10 samples are selected as test sets for each guessed permutation). We evaluate the system's effectiveness in defending against replay attacks under scenarios where 0, 1 or 2 positions of wavelength in the attacker's guessed stimuli match the actual stimuli.
+\begin{table}[t]
+\caption{The impact of the number of correctly guessed positions by the attacker on the success rate of replay attack. We have excluded scenarios where the attacker can exactly guess the correct challenge.}
+\label{tab:replay attack}
+\begin{tabular}{l|ccc}
+\cline{1-4}
+Number of matching positions & 2      & 1      & 0      \\ \hline
+Expected occurrences (out of 23)      & 6      & 8      & 9 \\
+Attack success rate (\%)     & 3.01   & 2.82   & 1.61   \\ \hline
+\end{tabular}
+\end{table}
+
+The results shown in Table~\ref{tab:replay attack} indicate an average attack success rate (i.e., FAR) of 3.01\%, 2.82\%, and 1.61\%, respectively, when the guessed challenge by the attacker differs from the current challenge in 2, 3, and 4 positions. There are a total of $4! = 24$ permutations for 4 wavelengths and 23 permutations that differ from the current challenge. Among these, the number of permutations that differ from the current challenge in 2, 3, and 4 positions are 6, 8, and 9, respectively. Therefore, excluding scenarios where the attacker perfectly guesses the challenge, we can calculate the weighted average replay attack success rate (ASR) as $\frac{6}{23} \times 3.01\% + \frac{8}{23} \times 2.82\% + \frac{9}{23} \times 1.61\% = 2.40\%$.
+When considering the correct guesses by the attacker, we regard the true accept rate (TAR) of \sysname in Section~\ref{sec:overall performance} as the ASR, which is 98.08\%. Based on this, the overall ASR is recalculated as $\frac{23}{24} \times 2.40\% + \frac{1}{24} \times 98.08\% = 6.39\%$, indicating that \sysname still achieves a protection rate of 93.61\%. We discuss the limitations of \sysname when defending against replay attacks and propose potential countermeasures in Section~\ref{sec:Limitations}.
+
+\subsubsection{Open-World Attacks}
+In above-mentioned experiments, all pupillary information about impersonators is recorded in the known dataset and potentially used for model training. However, in an open-world scenario, there may be external attackers endeavoring to masquerade as legitimate users. To evaluate the model's performance in an open-world scenario, we divide 52 users into 35 known users and 17 foreign users at a ratio of 2:1. For each of the known users, an Extra Trees model is trained using our proposed method. We then collect test samples from both known and foreign users. Each test sample is run through all models of the known users. We consider a test sample to be originating from a specific user only if it yields substantially superior results on its own model in comparison to other models. Conversely, if the results are relatively indistinguishable across all models, the sample is presumed to originate from an impersonator who is not part of the known dataset.
+
+We denote $\text{score}_{m}$ as the final classification score of a sample obtained by the model of user $m$, as detailed in Section~\ref{sec:classification}. In a close-world scenario, if $\text{score}_{m}$ exceeds a given threshold, the sample is recognized as originated from user $m$. In the open-world scenario, if a test sample claims to belong to user $i$, we calculate the confidence parameter: 
+\begin{equation}
+    confidence = \frac{\text{score}_{i} - \frac{1}{M}\sum _{m=1}^M \text{score}_{m}}{\text{score}_{i}}.
+\end{equation}
+For test samples with $\text{score}_{m} \geq t$ and $confidence > 0.5$, we consider them as belonging to user $i$; otherwise, they are deemed as illegal users. The final results show that in the open-world scenario, the model achieve an average accuracy of 97.22\%, with a FAR of 3.12\% and a FRR of 2.08\%. When only considering test samples from foreign users, the probability of them being misclassified as a known legitimate user is 2.09\%.
+
+\subsubsection{Shoulder-surfing Attacks}
+Since VR headsets fully cover the eyes, capturing eye movement is challenging for external observers. Besides, the visual stimuli used for authentication are only displayed on the virtual screen of the VR device for the user. No valid eye-tracking information is accessible to external attackers.
+
+
+
+
+\section{Limitations and Discussion}
+\label{sec:Limitations}
+
+In this section, we discuss the limitations of \sysname and identify potential countermeasures for further improving its performance. Due to page limitations, the discussion on device scalability is presented in Section~\ref{sec: appendix: device scalability}.
+
+\noindent \textbf{Advanced adaptive attacks bypassing \sysname.}
+Regarding the three adaptive attacks with stronger assumptions discussed in Section~\ref{sec:Motivation}, we analyze their feasibility to compromise \sysname.
+For the first adaptive attack where the adversary is aware of the randomized stimuli, \sysname would not be effective. However, implementing such an attack is highly complex. Given that VR headsets provide full coverage, it is extremely challenging for attackers to obtain the light stimuli through external observation. On the other hand, accessing the information displayed on virtual screens requires special permissions. Consequently, \sysname can maintain highly robust performance in practice. Then, considering the second type of attack, in which the adversary gains system-level operational permissions, it would effectively neutralize all challenge-response authentication mechanisms. Nevertheless, VR platforms typically have controlled environments with restricted access to system-level resources. Therefore, launching an attack at the system level is considered a highly improbable assumption.
+Finally, regarding the third type of attack, where the attacker attempts to mimic another person's pupillary response patterns, studies~\cite{Niehorster2022} have shown that the pupillary light reflex is extremely difficult to replicate, even with conscious effort and extensive training. Therefore, such imitation is highly impractical, especially without deep biometric knowledge or precise control.
+
+
+\noindent \textbf{Replay attack defense limitations.}
+Our defense strategy may prove ineffective if an attacker manages to determine the correct sequence of lights. To address this, a promising future optimization would involve expanding the security space of the challenge, for instance, by randomly varying the duration of each light, thus making the attacker's brute-force search approach futile. A more resilient defensive measure would be to integrate liveness detection directly into the system, ensuring that it can verify whether the current data is sourced from a genuine individual rather than outdated response data.
+
+\noindent \textbf{Longitudinal performance degradation.}
+To mitigate long-term degradation in biometric features, we periodically add new samples to retrain the classification model (i.e., Extra Trees) in response to concept drift (e.g., dynamic changes in pupillary responses). However, due to the model's fixed parameters, its accuracy may still degrade if the distribution of new data diverges significantly from the original training set. To better accommodate evolving pupillary patterns, future work may explore adaptive learning (AL) and incremental learning (IL). AL supports real-time updates via online optimization, while IL preserves historical knowledge through continual learning strategies. We leave the exploration of a hybrid AL-IL framework that balances new and historical data as future work to enhance the system’s robustness to long-term variability.
+
+\noindent  \textbf{The impact of physiological impairments.}
+According to medical literature~\cite{Kaifie2021, Alcohol_Impact, Alcohol_Impact_2, Koller2020, Drugs_Impact, Drugs_Impact_2, MATSUI2024108219}, physiological impairments such as alcohol, prescription drugs or fatigue do have an impact on pupil diameter. Alcohol-induced central nervous system paralysis relaxes the pupillary sphincter muscle, resulting in abnormally enlarged pupil diameter~\cite{Kaifie2021, Alcohol_Impact, Alcohol_Impact_2}, especially under low-light conditions.
+Moreover, larger quantities of alcohol consumption tend to result in more pronounced pupil dilation. Similarly, certain medications, particularly stimulants and antidepressants that affect the parasympathetic or sympathetic nervous systems, can cause dilated pupils \cite{Koller2020, Drugs_Impact, Drugs_Impact_2}. Besides, \cite{MATSUI2024108219} has shown that during periods of fatigue, pupil diameter exhibits a tendency to decrease as the mental load on the nervous system intensifies.
+Thus, we consider \sysname applicable to users in a normal state both mentally and physically. Since VR devices are not as easily accessible for use as mobile phones, most users are unlikely in situations including heavy alcohol consumption or excessive fatigue.
+
+
+ 
+
+\noindent   \textbf{The trade-off between authentication speed and accuracy.}
+As mentioned in Section~\ref{sec: appendix: user study}, one of the primary concerns raised by user feedback is the authentication speed of the current system, where 4 wavelengths within the stimuli are presented to each user. However, as illustrated in Section~\ref{sec:impact of stimuli design}, reducing the number of wavelengths in the stimuli or shortening the duration of each wavelength leads to a slight decrease in accuracy. Balancing the need for swift authentication with maintaining high levels of precision remains a critical area for future improvement.
+
+\noindent   \textbf{Privacy concern about the leakage of pupil data.}
+Users may have privacy concerns about the unauthorized access, leakage, or misuse of sensitive pupil data. Robust security measures are necessary to prevent these issues. We can mitigate the potential negative effects by expanding the stimuli wavelength pool and regularly updating the combination of wavelengths presented to users during login. Besides, implementing stringent data protection protocols and agreements is crucial for preventing information leaks.
+
+
+\section{Related Work}
+\label{sec:Related}
+
+\noindent \textbf{Wavelength of light affects pupil size.}
+Many previous works \cite{do2010intrinsically, herbst2011test, Kardon2009} have shown that the blue light stimulation produces a larger pupil constriction amplitude compared with red light stimulation at all intensities. Young and Kimura \cite{YOUNG2008862} further indicate that high-intensity blue light leads to more sustained pupillary contraction than photopically equivalent red light. Ishikawa et al. \cite{ishikawa2012effects} proves that the initial rate of pupil constriction induced by blue light is notably higher. Kawasaki and Kardon \cite{do2010intrinsically,Kardon2009} suggest that this consistent difference in amplitude is likely due to the added input from intrinsic activation that occurs when only blue light is used. 
+
+Besides, \cite{lobato2014pupillary} examines the pupil response amplitude, latency, and constriction speed of participants exposed to single light stimuli of four distinct wavelengths. Across all participants, the pupils demonstrate the most significant response amplitude and the shortest response latency under white and green light. \cite{Bonmati_fneur201801019} provides a more precise evaluation of the effects of three monochromatic light stimuli (purple, blue, and red) administered individually or in combination, lasting for 5 minutes, on the human pupillary light reflex. The results reveal variations in the speed and magnitude of pupil constriction across different spectral ranges of colored light.
+
+\noindent \textbf{Eye motion based authentication.}
+The optical process of vision involves the light reflecting from objects, passing through the cornea, pupil, and lens to the back retina. The amount of light is controlled by the pupil dilation. Thereafter, photoreceptor cells on retina decode light of different wavelengths or intensities into electro-physiological signals that transmitted to the visual cortex via the optic nerve. Humans mainly perceive visual data through the fovea centralis, covering a narrow 1-2-degree angle but accounting for 50\% of effective visual info to the brain \cite{Visual_Ss}. Thus, humans have developed a series of eye movement behaviors to enhance visual information acquisition.
+To obtain these eye movement data, video-based eye-tracking devices leverage high-frame-rate infrared cameras to track the position of the retinal reflection light source.
+
+Current research on eye motion-based authentication such as \cite{PfeufferCHI19} and \cite{BioMove} instruct users to perform a series of controlled body movements (such as grasping, walking, putting down, typing, etc.) while monitoring their unique head, hand, and eye movement patterns in VR environments. Besides, certain interactive stimuli (e.g., images, sounds, videos) can also trigger reflexive eye movements \cite{ReflexiveEM_CCS16,IeeeTO,Eberz2015PreventingLA,Zhu2023SoundLockAN}. Among them, \cite{Zhu2023SoundLockAN} utilizes users' pupillary responses upon hearing several audio clips to achieve user authentication in VR devices. The approaches in \cite{ReflexiveEM_CCS16,IeeeTO,Eberz2015PreventingLA} authenticate users by recording their gaze patterns on moving targets by specialized eye-tracker. Notably, Sluganovic et al.~\cite{ReflexiveEM_CCS16} employ a challenge-response paradigm, where the stimulus is a red dot changing positions on a dark screen, and the response is the reflexive saccade. These task-driven authentication methods require active user engagement through the act of focusing on dynamic targets. In contrast, Yano et al. \cite{YANO201541} propose an authentication method based on the pupillary light reflex, which combines iris patterns and pupil features captured by a professional eye tracker under low or non-visible light conditions. Similarly, \cite{Yan2020} chooses the light intensity as visual stimulus, and concludes that better authentication performance could only be achieved under moderate intensity. 
+
+Additionally, Sitzmann et al. \cite{Saliency} demonstrate a universal finding that 70\% of people's attention is focused on the 20\% ``hotspot'' regions of an image, making the distribution of areas of interest a potential feature. Several studies have integrated knowledge-based methods with biometrics. For instance, \cite{zhu2020blinkey} enables users to select a blinking rhythm as a password and combines the pupil diameter changes during blinking intervals for authentication. What's more, as proposed by \cite{Yarbus}, different task-driven scenarios lead to distinct eye movement patterns, which paves the way for continuous authentication by employing eye-movement behaviors during daily tasks. Continuous authentication can constantly detect users' identities while they are using the system, without interfering with their normal work. \cite{ContinuousAuth} once attempted to implement continuous authentication in VR environments, but the implicit stimuli remain a moving target that users need to be concerned about. In order to select biometric features that are as unrelated to specific triggers as possible, Holland et al.~\cite{ICB_Reading,IGCB_Reading} investigate users' eye movement behavior during reading tasks and Eberz et al. \cite{Eberz2016LooksLE} test the impact of task familiarity on eye movement and feature stability. Eberz et al. \cite{28Blinks_CCS19} address three challenges in practical eye movement authentication, including the dependency of eye movements on tasks, indicating that achieving the cross-task eye movement authentication requires significant effort. 
+
+\section{Conclusion}
+\label{sec:conclusion}
+In this study, we propose \sysname,  a seamless and robust VR user authentication system by employing the unique pupillary diameter responses under various light stimuli. We theoretically analyze and experimentally validate the potential of light-pupillary response as a novel biometric for authentication. Moreover, the incorporation of inter-ocular differences as a novel feature enriches our feature set. \sysname is tested on dataset including 52 subjects and achieve an average accuracy of 98.65\%, demonstrating its effectiveness in differentiating legitimate users from impersonators.
+
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{ref}
+
+\appendix
+
+
+
+
+\section{Impact of various factors on \sysname}
+\label{sec:impact of various factors}
+In this section, we evaluate the impact of various factors on \sysname, including different classifiers, different features and the stimuli design.
+
+\subsection{Impact of Different Classifiers}
+\label{sec:impact of classifiers}
+
+\begin{table}[t]  
+\centering
+\caption{Performance comparison between different classification models.}
+\label{tab: appendix: comparision between models}
+\resizebox{0.98\linewidth}{!}{
+\begin{tabular}{ccccc}
+\toprule
+\textbf{Classifiers} & \textbf{Models} & \textbf{Accuracy (\%)} & \textbf{FAR (\%)} & \textbf{FRR (\%)}\\
+\midrule  
+\multirow{11}{*}{Binary} & Extra Trees & 98.65 & 0.77& 1.92\\
+\cline{2-5}
+& Naive Bayes & 98.36 & 0.58 & 2.69\\
+\cline{2-5}
+& XGBoost & 97.98 & 2.50 & 1.54 \\
+\cline{2-5}
+& RF & 97.50 & 0.19 & 4.81\\
+\cline{2-5}
+& LR & 96.44 & 2.11 & 5.00\\
+\cline{2-5}
+& GB & 96.44 & 1.73 & 5.38\\
+\cline{2-5}
+& AdaBoost & 95.77 & 4.42 & 4.04\\
+\cline{2-5}
+& DenseNet & 92.67 & 6.85 & 7.81\\
+\cline{2-5}
+& SVM & 89.81 & 4.04 & 16.35\\
+\cline{2-5}
+& DT & 86.87 & 5.34 & 20.91\\
+\cline{2-5}
+& KNN & 84.40 & 10.05 & 21.15 \\
+\hline
+\multirow{2}{*}{One-class} & OC-SVM & 82.50 & 17.36 & 17.64\\
+\cline{2-5}
+& IF & 77.36 & 37.40 & 7.88\\
+\bottomrule
+\end{tabular}} 
+\end{table} 
+
+In this subsection, we evaluate the performance of both binary classifier and one-class classifier. A summary view of the comparison results are presented in Table~\ref{tab: appendix: comparision between models}. It displays the superior performance of the binary classifier over one-class classifier in accuracy, which can be attributed to its ability to explicitly learn the decision boundary between two distinct classes. 
+Among binary classifiers, Extra Trees achieves the highest accuracy of 98.65\%. Although its FAR is slightly higher than that of the Naive Bayes and Random Forest, the FRR is notably lower. Besides, the DenseNet model, which utilizes convolutional neural networks (CNN), does not perform well due to the small-scale training set in our work.
+
+Furthermore, we employ $3$ distinct parameter optimization approaches on Extra Trees, including hyper-parameter grid search, Bayesian optimization, and the lowest Equal Error Rate (EER), to compare its effect on the classification performance, with details illustrated in Table~\ref{tab: parameter optimazation}. The classification accuracy achieves 96.05\%, 98.65\% and 97.79\% respectively for hyper-parameter grid search, Bayesian optimization and lowest EER. Though Bayesian optimization lags behind for FAR, it significantly outperforms the other two approaches in terms of the FRR.
+
+\subsection{Impact of Different Features}
+\label{sec:impact of features}
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{figure/feature importance.pdf}
+\vspace{-6mm}
+\caption{Impact of different features on \sysname.}
+\vspace{-2mm}
+\label{fig: features impact}
+\end{figure}
+To investigate the impact of different features on training outcomes, we analyze the feature importance returned by the Extra Trees model. For a feature vector of length $L_f$, the model returns an equally long feature importance vector, where each position represents the proportional importance of the corresponding element in the feature vector. For each feature, we calculate the average importance across its corresponding elements.
+In Figure~\ref{fig: features impact}, We list the top 8 features with the highest average importance and the bottom 3 with the lowest. Several time-domain features (e.g., AUC, Peaks/Valley magnitudes) and frequency-domain features have relatively high weightings. Additionally, the feature representing the left-right eye difference ranks second, making significant contributions to the model's classification performance. 
+In contrast, the feature obtained by calculating the standard deviation of pupil diameter across wavelengths does not have a high proportion, possibly due to the diminishment of uniqueness after taking the standard deviation.
+
+\subsection{Impact of Stimuli Design}
+\label{sec:impact of stimuli design}
+
+\begin{table}[t]
+\centering
+\caption{Impact of different stimuli design on \sysname.}
+\vspace{-2mm}
+\label{tab: stimuli design}
+\resizebox{0.98\linewidth}{!}{
+\begin{tabular}{ccccc}
+\toprule
+\multicolumn{2}{c}{\textbf{Wavelength combination (nm)}}  & \textbf{Accuracy (\%)} & \textbf{FAR (\%)} & \textbf{FRR (\%)} \\ \hline
+\multicolumn{1}{c}{\multirow{3}{*}{\begin{tabular}[c]{@{}c@{}}Randomly \\ select\end{tabular}}}     & \begin{tabular}[c]{@{}c@{}}475, 500, 525, 550\\ \raisebox{0.5ex}{\resizebox{3ex}{0.5ex}{\colorbox{mycolor475}{\strut}}}, \raisebox{0.5ex}{\resizebox{3ex}{0.5ex}{\colorbox{mycolor500}{\strut}}}, \raisebox{0.5ex}{\resizebox{3ex}{0.5ex}{\colorbox{mycolor525}{\strut}}}, \raisebox{0.5ex}{\resizebox{3ex}{0.5ex}{\colorbox{mycolor550}{\strut}}}\end{tabular} & 97.50        & 1.15    & 3.85    \\ \cline{2-5} 
+\multicolumn{1}{c}{}                                                                                & \begin{tabular}[c]{@{}c@{}}400, 500, 600, 700\\ \raisebox{0.5ex}{\resizebox{3ex}{0.5ex}{\colorbox{mycolor400}{\strut}}}, \raisebox{0.5ex}{\resizebox{3ex}{0.5ex}{\colorbox{mycolor500}{\strut}}}, \raisebox{0.5ex}{\resizebox{3ex}{0.5ex}{\colorbox{mycolor600}{\strut}}}, \raisebox{0.5ex}{\resizebox{3ex}{0.5ex}{\colorbox{mycolor700}{\strut}}}\end{tabular}                   & 96.73        & 4.04    & 2.50    \\ \cline{2-5} 
+\multicolumn{1}{c}{}                                                                                & \begin{tabular}[c]{@{}c@{}}570, 600, 630, 700\\ \raisebox{0.5ex}{\resizebox{3ex}{0.5ex}{\colorbox{mycolor570}{\strut}}}, \raisebox{0.5ex}{\resizebox{3ex}{0.5ex}{\colorbox{mycolor600}{\strut}}}, \raisebox{0.5ex}{\resizebox{3ex}{0.5ex}{\colorbox{mycolor630}{\strut}}}, \raisebox{0.5ex}{\resizebox{3ex}{0.5ex}{\colorbox{mycolor700}{\strut}}}\end{tabular}                   & 96.35        & 1.35    & 5.96    \\ \hline
+\multicolumn{1}{c}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Deliberately \\ select\end{tabular}}} & \begin{tabular}[c]{@{}c@{}}525, 550, 570, 500\\ \raisebox{0.5ex}{\resizebox{3ex}{0.5ex}{\colorbox{mycolor525}{\strut}}}, \raisebox{0.5ex}{\resizebox{3ex}{0.5ex}{\colorbox{mycolor550}{\strut}}}, \raisebox{0.5ex}{\resizebox{3ex}{0.5ex}{\colorbox{mycolor570}{\strut}}}, \raisebox{0.5ex}{\resizebox{3ex}{0.5ex}{\colorbox{mycolor500}{\strut}}}\end{tabular}                   & 97.98        & 0.77    & 3.27    \\ \cline{2-5} 
+\multicolumn{1}{c}{}                                                                                & \begin{tabular}[c]{@{}c@{}}400, 450, 500, 700\\ \raisebox{0.5ex}{\resizebox{3ex}{0.5ex}{\colorbox{mycolor400}{\strut}}}, \raisebox{0.5ex}{\resizebox{3ex}{0.5ex}{\colorbox{mycolor450}{\strut}}}, \raisebox{0.5ex}{\resizebox{3ex}{0.5ex}{\colorbox{mycolor500}{\strut}}}, \raisebox{0.5ex}{\resizebox{3ex}{0.5ex}{\colorbox{mycolor700}{\strut}}}\end{tabular}                   & 98.17        & 1.15    & 2.50    \\ \hline
+\multicolumn{2}{c}{User-Specific Stimuli}                                                                                                                                               & 98.65        & 0.77    & 1.92    \\ \bottomrule
+\end{tabular}}
+\vspace{-4mm}
+\end{table}
+
+To demonstrate the efficacy of user-specific stimuli design, we compare the impact of fixed stimuli on performance of \sysname, where identical wavelength combinations are utilized by all users. We randomly select $3$ sets of wavelength combinations for this purpose. Additionally, we deliberately choose $2$ specific sets: one comprising the four most frequently occurring wavelengths in user-specific stimuli, and another consisting of the four wavelengths that yield the highest accuracy under the single-wavelength model. Table~\ref{tab: stimuli design} presents the outcomes. While the deliberately selected wavelength sets exhibits slightly higher accuracy (98.17\%, 97.98\%) than the randomly chosen ones (97.50\%, 96.73\%, and 96.35\%), they still fall short of the performance achieved through individually tailored stimuli (98.65\%).
+
+\begin{table}[t]
+\centering
+\caption{Performance comparison between different parameter optimization methods on Extra Trees.}
+\label{tab: parameter optimazation}
+\resizebox{0.98\linewidth}{!}{
+\begin{tabular}{cccc}
+\toprule
+\textbf{Parameter Optimization} & \textbf{Accuracy (\%)} & \textbf{FAR (\%)} & \textbf{FRR (\%)} \\
+\midrule
+Bayesian optimization & 98.65 & 0.77 & 1.92\\
+Lowest EER & 97.79 & 0.38 & 4.04\\
+Hyper-parameter grid search & 96.05 & 0.58 & 7.31\\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+
+
+\section{User Study}
+\label{sec: appendix: user study}
+To comprehensively evaluate the performance, ease of use and security of \sysname from the users' perspective, we conduct a user study through a questionnaire designed based on established standards NASA TLX (NASA Task Load Index) \cite{nasa_document} and SUS (System Usability Scale) \cite{SUS}. The questionnaire consists of $8$ Likert-scale items about metrics of \sysname, each scored on a scale of 1 to 5, where 1 represents ``Strongly Dissatisfy'' and 5 represents ``Strongly Satisfy.'' The detailed content of the questionnaire is as follows.
+
+\begin{tcolorbox}[notitle, boxrule=0pt,left=0.2cm, right=0.2cm, top=0.1cm, bottom=0.1cm]
+\textbf{1. Ease of Use:} \textit{How easy is it for you to operate with our VR eye-tracking authentication system \sysname?}
+
+1 - Very Difficult, 2 - Slightly Difficult, 3 - Moderate,\\ 4 - Relatively Easy, 5 - Very Easy.
+\end{tcolorbox} 
+
+\begin{tcolorbox}[notitle, boxrule=0pt,left=0.2cm, right=0.2cm, top=0.1cm, bottom=0.1cm]
+\textbf{2. Ease of Learning:} \textit{Do you think it's easy to learn to get familiar with \sysname? }
+
+1 - Very Difficult, 2 - Slightly Difficult, 3 - Moderate, \\ 4 - Relatively Easy, 5 - Very Easy.
+\end{tcolorbox} 
+
+\begin{tcolorbox}[notitle, boxrule=0pt,left=0.2cm, right=0.2cm, top=0.1cm, bottom=0.1cm]
+\textbf{3. Authentication speed:} \textit{How do you think about the authentication speed during the login phase of \sysname compared to passwords-based approaches?}
+
+1 - Very Slow, 2 - Slightly Slow, 3 - Moderate,\\4 - Relatively Fast, 5 - Very Fast.
+\end{tcolorbox} 
+
+\begin{tcolorbox}[notitle, boxrule=0pt,left=0.2cm, right=0.2cm, top=0.1cm, bottom=0.1cm]
+\textbf{4. Accuracy:} \textit{How accurate is the system in recognizing your eye-tracking patterns? }
+
+1 - Very Inaccurate, 2 - Slightly Inaccurate, 3 - Moderate, \\4 - Relatively Accurate, 5 - Very Accurate.
+\end{tcolorbox} 
+
+\begin{tcolorbox}[notitle, boxrule=0pt,left=0.2cm, right=0.2cm, top=0.1cm, bottom=0.1cm]
+\textbf{5. Comfort:} \textit{Do you experience any discomfort or frustration while using \sysname?} 
+
+1 - Very Uncomfortable, 2 - Slightly Uncomfortable, \\3 - Moderate, 4 - Relatively Comfortable, \\5 - Very Comfortable.
+\end{tcolorbox} 
+
+\begin{tcolorbox}[notitle, boxrule=0pt,left=0.2cm, right=0.2cm, top=0.1cm, bottom=0.1cm]
+\textbf{6. Security:} \textit{How secure do you feel \sysname is in protecting your account? }
+
+1 - Very Insecure, 2 - Slightly Insecure, 3 - Moderate, \\4 - Relatively Secure, 5 - Very Secure.
+\end{tcolorbox} 
+
+\begin{tcolorbox}[notitle, boxrule=0pt,left=0.2cm, right=0.2cm, top=0.1cm, bottom=0.1cm]
+\textbf{7. Privacy Concern:} \textit{Are you concerned about your eye-tracking data being used or disclosed inappropriately when using \sysname? }
+
+1 - Very Concerned, 2 - Slightly Concerned, 3 - Moderate, 4 - Not Very Concerned, 5 - Not Concerned at All.
+\end{tcolorbox} 
+
+\begin{tcolorbox}[notitle, boxrule=0pt,left=0.2cm, right=0.2cm, top=0.1cm, bottom=0.1cm]
+\textbf{8. Adoption Willingness:} \textit{How willing are you to continue using \sysname for authentication? }
+
+1 - Very Unwilling, 2 - Slightly Unwilling,\\ 3 - Undecided, 4 - Somewhat Willing, \\5 - Very Willing.
+\end{tcolorbox} 
+
+
+We have received a total of 17 responses, with the mathematical expectation ($\mu$) and standard deviations ($\sigma$) for each question outlined in Table~\ref{tab: user study}. Overall, highly positive evaluations for \sysname are given from users with appreciation about its usability and accuracy. For instance, Q2, Q6, and Q8 achieve an average score of 4.82, indicating high satisfaction. However, some users express a desire for faster authentication speeds, and a minority voice privacy concerns about the potential misuse or unauthorized disclosure of their data.
+
+\begin{table}[t]
+\centering
+\caption{Questionnaire and responses of user study.}
+\vspace{-2mm}
+\label{tab: user study}
+\resizebox{0.98\linewidth}{!}{
+\begin{tabular}{lcc}
+\toprule
+\textbf{Metrics} & \textbf{$\mu$} & \textbf{$\sigma$} \\
+\midrule
+M1. Ease use of \sysname. & 4.64 & 0.49 \\
+M2. Ease of learning \sysname. & 4.82 & 0.53 \\
+M3. The authentication speed of \sysname. & 4.17 & 0.73 \\
+M4. The accuracy of \sysname in authentication. & 4.59 & 0.51 \\
+M5. The comfort level of using \sysname. & 4.41 & 0.79 \\
+M6. The security of \sysname in protecting accounts. & 4.82 & 0.39 \\
+M7. Privacy concern of \sysname. & 4.23 & 1.09 \\
+M8. Your desire to use \sysname in future. & 4.82 & 0.39 \\
+\bottomrule
+\end{tabular}}
+\vspace{-4mm}
+\end{table}
+
+
+
+We also require users to attempt authentication through password-based solutions. Specifically, we have devised two passwords of varying complexity based on password security requirements: one measuring 12 characters and another 16 characters in length, both incorporating uppercase and lowercase letters, numerals, and special symbols. Users are instructed to enter these passwords three times each, through either hand gestures or controllers, across two VR devices—the HTC Vive Pro Eye (utilizing controllers) and the Meta Quest Pro (supporting both gestures and controllers).
+
+On average, it takes users 32.79 seconds to input the simpler password and 41.55 seconds for the more complex one. When using controllers only, the average times drop to 22.72 seconds and 36.4 seconds for the two passwords respectively. The fastest user to input the simple password uses 13.69 seconds, while the slowest, relying on gestures, requires 58.53 seconds. For the 16-character password, the fastest input time is 21.36 seconds, with the slowest being 63.17 seconds.
+
+\begin{table*}[t]
+\centering
+\caption{Comparison of Eye-tracking between Specialized Devices and VR.}
+\label{tab: eye-tracking comparison}
+\resizebox{0.95\linewidth}{!}{
+\begin{tabular}{ccccccc}
+\hline
+\textbf{Device Type} & \textbf{Model} & \textbf{Publish Year} & \textbf{Price} & \textbf{Eye-tracking Accuracy} & \textbf{Sampling Rate} & \multicolumn{1}{c|}{\textbf{Available Eye-tracking Data}} \\ \hline
+\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}\textbf{Specialized} \\ \textbf{Device}\end{tabular}}
+    & Gazepoint GP3-HD & 2016 & \$1995 & 0.5$^\circ$- 1$^\circ$ & 150 Hz & Gaze point, pupil diameter
+    \\ \cline{2-7} 
+    & Tobii Pro Spectrum & 2024 & / & 0.3$^\circ$ & Up to 1200 Hz & \begin{tabular}[c]{@{}l@{}}Gaze origin, gaze point, pupil \\ diameter, eye openness, eye image\end{tabular}
+    \\ \hline
+\multirow{6}{*}{\begin{tabular}[c]{@{}c@{}}\textbf{Commercial}\\ \textbf{VR Device}\end{tabular}} 
+    & Meta Quest Pro & 2022 & \$999.99 & 1.6$^\circ$ & 90 Hz & Gaze point 
+    \\ \cline{2-7} 
+    & HTC VIVE Pro Eye & 2022 & \$1906.82 & 0.5$^\circ$- 1.1$^\circ$ & 120 Hz & \begin{tabular}[c]{@{}l@{}}Gaze origin, gaze direction, \\ pupil diameter, eye openness\end{tabular}
+    \\ \cline{2-7} 
+    & Apple Vision Pro & 2024 & \$4118.86 & 1.0$^\circ$ & 100 Hz & Gaze point 
+    \\ \cline{2-7} 
+    & Pico 4 Pro & 2022 & \$521.6 & / & 90 Hz & Gaze point
+    \\ \cline{2-7} 
+    & Pico 4 Enterprise & 2022 & \$896.57 & / & 90 Hz & \begin{tabular}[c]{@{}l@{}}Gaze point, pupil diameter, \\ eye openness, eye pose, eye blink\end{tabular} 
+    \\ \cline{2-7} 
+    & Varjo XR-3 & 2023 & \$7397.45  & 1.0$^\circ$ & 200 Hz & \begin{tabular}[c]{@{}l@{}}Gaze origin, gaze direction, \\ pupil diameter, eye openness\end{tabular}
+    \\ \hline
+\end{tabular}}
+\end{table*}
+
+\section{Comparison of Eye-tracking between Specialized Devices and VR.}
+\label{sec: appendix: eye-tracking comparison}
+Table~\ref{tab: eye-tracking comparison} presents a comparison of several different types of specialized eye-trackers and VR devices in terms of eye-tracking accuracy and data types.
+
+
+\begin{table}[t]
+\centering
+\caption{Existing VR devices and their corresponding eye-tracking capabilities.}
+\label{tab: VR devices and eye-tracking capability}
+\resizebox{0.95\linewidth}{!}{
+\begin{tabular}{clc}
+\toprule
+\textbf{VR manufacturer} & \textbf{Product series} & \textbf{Eye-tracker} \\ \midrule
+\multirow{5}{*}{HTC VIVE} & Cosmos & \ding{55} \\
+ & VIVE Pro Series & \ding{55} \\
+ & VIVE Pro Eye & \ding{51} \\
+ & VIVE Pocus3 & \ding{51} \\
+ & XR Elite & \ding{51} \\ \hline
+\multirow{3}{*}{Meta} & Meta Quest 2 & \ding{55} \\
+ & Meta Quest 3 & \ding{55} \\
+ & Meta Quest Pro & \ding{51} \\ \hline
+\multirow{6}{*}{PICO} & PICO 4 & \ding{55} \\
+ & PICO 4 Pro & \ding{51} \\
+ & PICO 4 Enterprise & \ding{51} \\
+ & PICO Neo3 & \ding{55} \\
+ & PICO Neo3 Pro & \ding{55} \\
+ & PICO Neo3 Pro Eye & \ding{51} \\ \hline
+Apple & Apple Vision Pro & \ding{51} \\ \bottomrule
+\end{tabular}}
+\end{table}
+
+\section{Capability of Eye-tracking of Different VR Devices}
+\label{sec: appendix: eye tracking of VR devices}
+
+Table \ref{tab: VR devices and eye-tracking capability} summarizes the current mainstream VR devices and their corresponding eye-tracking capabilities.
+
+
+\section{Device Scalability Challenge}\label{sec: appendix: device scalability}
+Currently, we have only considered HTC VIVE Pro Eye to implement our system. To deploy \sysname on other devices, we need assess their eye-tracking capabilities. For example, the \textit{Meta Movement SDK} of Meta and Pico's \textit{PICO Unity Integration SDK} support capturing the eye gaze point for easy interaction with objects on the screen through eye contact or rendering of the avatar's eye image. However, many of these devices do not provide open APIs for accessing pupil diameter data. Instead, they offer limited information including eye position, velocity, rotation angles, and acceleration, which hinders the direct application of \sysname across different platforms. 
+
+
+Nevertheless, the data access permissions granted by SDKs are contingent upon the VR device developers. Consequently, incorporating eye-tracking authentication using pupillary response into VR devices is highly feasible with the manufacturers' consent. Table~\ref{tab: VR devices and eye-tracking capability} in Appendix~\ref{sec: appendix: eye tracking of VR devices} lists series of VR devices of several representative VR manufacturers, and whether they support eye tracking function. As long as the eye-tracker is incorporated within VR headsets, manufacturers can leverage pupil diameter to deploy \sysname, which indicates the good device scalability ability of \sysname.
+
+\section{Data Availability}
+\label{sec: appendix: data availability}
+We have made \sysname available on \url{https://pipid-vr.github.io/} to support ongoing research and innovation in VR user authentication. Specifically, the artifacts we will open source include the following items:
+\begin{packeditemize}
+    \item \textit{Raw data and a tutorial on data collection.} We will provide the output eye-tracking data stream from VR devices (e.g., timestamp, gaze direction, gaze origin, pupil diameter, eye openness, current light color) along with a description of the raw data format. Additionally, to help future researchers re-implement \sysname on their own VR devices, we will open-source detailed instructions on the data collection process, as shown in Section~\ref{sec:experiment settings} and Figure~\ref{fig: data collection}.
+    
+    \item \textit{Pupil diameter dataset.} Since \sysname uses pupil diameter as authentication input, we will release a pre-processed dataset derived from the raw data, which includes pupil diameter sequences for both the left and right eyes under different wavelengths of light. Additionally, we will provide a set of scripts to convert the raw data into processed pupil diameter data, as detailed in Section~\ref{sec: data pre-processing}.
+    
+    \item \textit{Codes of \sysname.} We will open source the source codes for stimulus design, feature extraction, and classification (Section~\ref{sec:stimulidesign}, ~\ref{sec: feature extraction}, ~\ref{sec:classification}). 
+    
+    \item \textit{Codes and datasets of evaluations.}Codes and datasets required for all evaluations presented in this paper will be provided. Note that the datasets may vary for different evaluation tasks. For instance, when evaluating the impact of training dataset size (Section \ref{sec:impact of testing set proportion}), the ratio between training and testing data ranges from 0.5 to 0.9. Therefore, we will also provide scripts to describe how to sample trials from the \textit{pupil diameter dataset} to generate task-specific datasets. 
+
+    
+\end{packeditemize}
+
+We commit to attend the artifacts evaluations and submit all necessary artifacts to meet the requirements of availability, functionality, and reproducibility.
+
+\newpage
+
+\section{Artifact Appendix}
+
+\emph{The Artifact Appendix is meant to summarize the purpose,
+availability, content, dependencies, and execution of the artifacts
+that support your paper.  It should include a clear description of
+your artifacts' hardware, software, and configuration requirements.
+If your artifacts have received the \emph{Artifacts
+Evaluated--Functional}, \emph{Artifacts Evaluated--Reusable}, or
+\emph{Results Reproduced} badge, this appendix should summarize the
+relevant major claims made by your paper and provide instructions for
+validating each claim through the use of your artifacts.  Linking the
+claims of your paper to the artifacts allows a reader of your paper
+to more easily try to reproduce your paper's results.}
+
+\emph{Please fill in all the mandatory sections, keeping their titles
+and organization but removing the current illustrative content, and
+remove the optional sections that do not apply to your artifacts.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Abstract}
+
+\emph{[Mandatory]}
+%
+\emph{Provide a short description of your artifacts.  What do they
+contain?  How are they packaged?  What do they do when executed?  What
+results to they produce?  How are your artifacts licensed?  Be brief;
+subsequent sections of this appendix can be used fill in the details.}
+
+This artifact provides step-by-step instructions to replicate the paper’s experimental results, including a composition description of all components (e.g., source code, datasets), software/hardware dependencies, environment setup guidelines, executable scripts, and expected output specifications.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Description \& Requirements}
+
+\emph{This section should further detail your artifacts and summarize
+the requirements that must be met for a person to recreate an
+experimental environment for utilizing your artifacts.  Where
+applicable, state the minimum hardware and software requirements for
+running your artifacts.  It is also good practice to list and describe
+in this section benchmarks where those are part of, or simply have
+been used to produce results with, your artifacts.}
+
+\emph{[Mandatory]}
+%
+\emph{Here, provide additional details about the general organization
+of your artifacts.  For example, provide a general roadmap to the
+files within your artifacts.  Where is the \texttt{README}?  Where are
+the source files, the datasets, the scripts for running experiments,
+etc.?  You don't need to describe every file and directory here; just
+provide a general ``lay of the land.''}
+
+We open-sourced the datasets and source codes for \sysname at \url{https://zenodo.org/records/15494706} on Zenodo. The \texttt{README} file can be accessed at the same link on Zenodo or at \url{https://notes.sjtu.edu.cn/s/fS_dHkTkz}.
+
+We provide two datasets of raw eye-tracking data streams captured from VR devices: (1) a longitudinal dataset comprising data from 10 users collected over multiple days to study long-term performance of \sysname, and (2) a main dataset containing a larger collection from 52 users to support other evaluations on authentication performance. 
+
+The source code comprises the complete implementation of the \sysname algorithm (including data pre-processing, stimuli design, feature extraction, and classification), and all evaluation procedure. 
+
+%%%%%
+
+\subsubsection{Security, privacy, and ethical concerns}
+
+\emph{[Mandatory]}
+%
+\emph{Describe any risks that people might be exposed to while
+executing your artifacts: e.g., risks to their machines' security,
+data privacy, or other ethical concerns.  This is particularly
+important if destructive steps are taken or security mechanisms are
+disabled during execution.}
+
+All datasets have been fully anonymized by replacing users' real identities with non-identifiable indices, ensuring no ethical concerns arise regarding privacy or data protection.
+
+%%%%%
+
+\subsubsection{How to access}
+
+\emph{[Mandatory]}
+%
+\emph{Describe how to access your artifacts.  If your artifacts have
+received the \emph{Artifacts Available} badge, you must provide the
+DOI(s) for the permanently and publicly available copies of your
+artifacts.  Most likely, this is the version of your artifacts that
+you deposited with Zenodo.}
+
+\emph{You may describe more than one way to access your artifacts.
+For example, if the archived versions of your artifacts are available
+at Zenodo, and you are also making maintained versions of your
+artifacts available through GitHub, you can describe how to access
+both versions of your artifacts.}
+
+Our artifact can be accessed at \url{https://zenodo.org/records/15494706} on Zenodo.
+%%%%%
+
+\subsubsection{Hardware dependencies}
+
+\emph{[Mandatory]}
+%
+\emph{State any specific hardware features that are required to make
+use of your artifacts: e.g., vendor, CPU/GPU/FPGA, number of
+processors/cores, microarchitecture, interconnect, memory, hardware
+counters, etc.  If your artifacts do not have significant hardware
+dependencies, simply write ``None'' in this section.}
+
+Our artifact does not require GPU or FPGA acceleration and is compatible with any computer equipped with a CPU of Intel Core 14th Generation i7 (or higher-performance processors) and 32 GB RAM or more.
+%%%%%
+
+\subsubsection{Software dependencies}
+
+\emph{[Mandatory]}
+%
+\emph{State any specific OS and software packages that are required to
+make use of your artifacts.  This is particularly important if you
+share your source code and it must be compiled, or if your artifacts
+rely on proprietary software that is not included in your artifact
+packages.  If your artifacts do not have significant software
+dependencies, simply write ``None'' in this section.}
+
+Our artifact requires execution on an x64-based Windows operating system and a Python 3.9.10 environment.
+
+%%%%%
+
+\subsubsection{Benchmarks}
+
+\emph{[Mandatory]}
+%
+\emph{Describe any data (e.g., datasets, models, workloads,
+etc.)\ required by the experiments that are reported in your paper and
+supported by your artifacts.  If this does not apply to your
+artifacts, simply write ``None'' in this section.}
+
+None.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Set Up}
+
+\emph{This section should summarize the installation and configuration
+steps that a person should follow to prepare an environment for making
+use of your artifacts.  If the set-up steps are complicated, point the
+reader to the places in your artifacts where detailed set-up
+instructions can be found.}
+
+%%%%%
+
+\subsubsection{Installation}
+
+\emph{[Mandatory]}
+%
+\emph{Provide instructions for downloading and installing dependencies
+as well as the main artifacts.  After following these steps, a user of
+your artifacts should be able to run a simple functionality test.}
+
+Users can directly download the database and source code provided in our artifact and execute the experiments in an IDE such as Visual Studio Code.
+%%%%%
+
+\subsubsection{Basic test}
+
+\emph{[Mandatory]}
+%
+\emph{Provide instructions for running a simple functionality test.
+This test does not need to exercise all the features of your
+artifacts, but ideally, it should allow a user to check that all of
+the required software components are correctly installed and
+functioning as intended.  Please include the expected successful
+output and any required input parameters.}
+
+Users can verify whether the required Python libraries are installed by checking the IDE's compilation output (e.g., error messages for missing packages).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Evaluation Workflow}
+
+\emph{This section should include all the operational steps and
+experiments that a person must be carry out to utilize in your
+artifacts toward the goal of validating your paper's key results and
+claims.  To that end, we ask you to use the two following subsections
+and cross-reference the items therein as explained below.}
+
+%%%%%
+
+\subsubsection{Major claims}
+
+\emph{[Mandatory for \emph{Artifacts Evaluated--Functional},
+  \emph{Artifacts Evaluated--Reusable}, and \emph{Results Reproduced};
+  optional for \emph{Artifacts Available}]}
+%
+\emph{Enumerate here the major claims (Cx) made in your paper.  Follow
+the examples below.}
+\bigskip
+
+We provide artifacts verifying the following claims:
+\begin{compactitem}
+\item[(C1):]
+  %
+  \emph{\sysname achieves an authentication accuracy of 98.65\% for total 52 users. This is proven by the experiment (E2) described in Section 5.2.}
+
+\item[(C2):]
+  %
+  \emph{\sysname achieves the accuracy of 98.65\% at a threshold of 0.02 and achieves the lowest EER at a threshold of 0.015. This is proven by the experiment (E3) described in Section 5.2, whose results are illustrated in Figure 13.}
+
+\item[(C3):]
+  %
+  \emph{Shortening light duration time has not make a considerable difference to \sysname’s performance. \sysname still achieves an accuracy above 97\% with 3 colors in stimuli. This is proven by the experiment (E4) described in Section 5.2, whose results are illustrated in Figure 14.}
+
+\item[(C4):]
+  %
+  \emph{Even with only 5 original training samples, the accuracy remains at 97.64\%. Consequently, the enrollment time can be significantly reduced. This is proven by the experiment (E5) described in Section 5.2, whose results are illustrated in Table 4.}
+  
+\item[(C5):]
+  %
+  \emph{\sysname demonstrates stability across different user groups. This is proven by the experiment (E6) described in Section 5.2, whose results are illustrated in Table 5.}
+
+\item[(C6):]
+  %
+  \emph{\sysname maintains a more stable authentication accuracy with periodic updates of the training dataset, compared to performance without addressing long-term degradation. Specifically, on the 7th and 14th day, the accuracies are 98\% and 91\% respectively. This is proven by the experiment (E7) described in Section 5.3, whose results are illustrated in Figure 15.}
+
+\item[(C7):]
+  %
+  \emph{The average attack success rate (i.e., FAR) is 3.01\%, 2.82\%, and 1.61\%, respectively, when the guessed challenge by the attacker matches the current challenge in 2, 1, and 0 positions. This is proven by the experiment (E8) described in Section 5.4.1, whose results are illustrated in Table 6.}
+
+\item[(C8):]
+  %
+  \emph{In the open-world scenario, the model achieve an average accuracy of 97.22\%. This is proven by the experiment (E9) described in Section 5.4.2.}
+
+\item[(C9):]
+  %
+  \emph{Compared to other classifiers and parameter optimization methods, utilizing Extra Trees with Bayesian optimization achieves the highest authentication accuracy. This is proven by the experiment (E10) described in Appendix A.1,  whose results are illustrated in Table 7 and Table 9.}
+
+\item[(C10):]
+  %
+  \emph{Several time-domain features (e.g.,AUC, Peaks/Valley magnitudes) and frequency-domain features have relatively high weightings. This is proven by the experiment (E11) described in Appendix A.2, whose results are illustrated in Figure 16.}
+
+\item[(C11):]
+  %
+  \emph{The authentication performance under fixed stimuli fall short of that achieved under user-specific stimuli. This is proven by the experiment (E12) described in Appendix A.3, whose results are illustrated in Table 8.}
+\end{compactitem}
+
+%%%%%
+
+\subsubsection{Experiments}
+
+\emph{[Mandatory for \emph{Artifacts Evaluated--Functional},
+  \emph{Artifacts Evaluated--Reusable}, and \emph{Results Reproduced};
+  optional for \emph{Artifacts Available}]}
+%
+\emph{Explicitly link the descriptions of your experiments to the
+items you have provided in the previous subsection about major claims.
+Please provide estimates of the person- and compute-time required for
+each of the listed experiments (using the suggested hardware/software
+configuration).  Follow the examples below.}
+
+\bigskip
+\begin{compactitem}
+\item[(E1):]
+  %
+  \emph{[Data Processing] [1~person-minutes + 1~compute-hour]: Data pre-processing, stimuli design and feature extracting.}
+
+  \begin{asparadesc}
+  \item[Execution:] \emph{Execute \texttt{main.py}.}
+
+  \item[Results:] \emph{Generate feature files and intermediate data required for subsequent experiments.}
+  \end{asparadesc}
+
+\item[(E2):] \emph{[Authentication] [1~person-minutes + 10~compute-minutes]: Evaluate overall authentication performance of \sysname.}
+  \begin{asparadesc}
+  \item[Execution:] \emph{Execute \texttt{overall\_performance.py}.}
+
+  \item[Results:] \emph{Output each user's authentication accuracy, FAR and FRR. Output the average accuracy, FAR and FRR of authentication for 52 users. Results will be saved in \texttt{results.md}.}
+  \end{asparadesc}
+
+\item[(E3):] \emph{[Thresholds] [1~person-minutes + 3~compute-hours]: Evaluate how different thresholds affect the classifier’s performance.}
+  \begin{asparadesc}
+  \item[Execution:] \emph{Execute \texttt{impact\_of\_thresholds.py}.}
+
+  \item[Results:] \emph{Output the authentication performance under different thresholds. Generate plot \texttt{eer.pdf}.}
+  \end{asparadesc}
+
+\item[(E4):] \emph{[Authentication time] [1~person-minutes + 1~compute-hours]: Evaluate the impact of stimuli types and duration on \sysname.}
+  \begin{asparadesc}
+  \item[Execution:] \emph{Execute \texttt{authentication\_time.py}.}
+
+  \item[Results:] \emph{Output the authentication performance under different numbers of light color and light duration. Generate plot \texttt{stimuli duration.pdf}.}
+  \end{asparadesc}
+
+\item[(E5):] \emph{[Enrollment time] [1~person-minutes + 1~compute-hours]: Evaluate the impact of different numbers of original training samples on \sysname.}
+  \begin{asparadesc}
+  \item[Execution:] \emph{Execute \texttt{enrollment\_time.py}.}
+
+  \item[Results:] \emph{Output the authentication performance under different numbers of original training samples.}
+  \end{asparadesc}
+
+\item[(E6):] \emph{[Groups] [1~person-minutes + 30~compute-minutes]: Evaluate the performance on different groups (e.g., male, female).}
+  \begin{asparadesc}
+  \item[Execution:] \emph{Execute \texttt{different\_groups.py}.}
+
+  \item[Results:] \emph{Output the authentication performance of different group of users.}
+  \end{asparadesc}
+
+\item[(E7):] \emph{[Longitudinal] [1~person-minutes + 1~compute-hours]: Evaluate the long-term performance of \sysname.}
+  \begin{asparadesc}
+  \item[Execution:] \emph{Execute \texttt{longitudinal.py}.}
+
+  \item[Results:] \emph{Output the authentication performance of \sysname over a 14-day period under two scenarios: with and without addressing long-term degradation of biometric features. Generate plot \texttt{multi session.pdf}}
+  \end{asparadesc}
+
+\item[(E8):] \emph{[Replay Attack] [1~person-minutes + 30~compute-minutes]: Evaluate the performance of defending against replay attack.}
+  \begin{asparadesc}
+  \item[Execution:] \emph{Execute \texttt{replay\_attack.py}.}
+
+  \item[Results:] \emph{Output the attack success rates when the adversary correctly guesses 0, 1, and 2 light colors within the current stimuli.}
+  \end{asparadesc}
+
+\item[(E9):] \emph{[Open World] [1~person-minutes + 1~compute-hours]: Evaluate the performance in the open-world scenario.}
+  \begin{asparadesc}
+  \item[Execution:] \emph{Execute \texttt{open\_world.py}.}
+
+  \item[Results:] \emph{Output the performance when the model (trained on known users) is tested with data from foreigners (individuals not present in the training database).}
+  \end{asparadesc}
+
+\item[(E10):] \emph{[Classifiers] [1~person-minutes + 24~compute-hours]: Evaluate the performance of \sysname on different classifiers.}
+  \begin{asparadesc}
+  \item[Execution:] \emph{Execute \texttt{different\_classifiers.py}.}
+
+  \item[Results:] \emph{Output the authentication performance when using different models and different optimization approaches.}
+  \end{asparadesc}
+
+\item[(E11):] \emph{[Feature Importance] [1~person-minutes + 30~compute-minutes]: Analyze the feature importance returned by the Extra Trees model.}
+  \begin{asparadesc}
+  \item[Execution:] \emph{Execute \texttt{different\_features.py}.}
+
+  \item[Results:] \emph{Output the feature importance, sorted by features' contribution to classifier. Generate plot \texttt{feature importance.pdf.}}
+  \end{asparadesc}
+
+\item[(E12):] \emph{[Stimuli] [1~person-minutes + 1~compute-hours]: Evaluate the impact of fixed stimuli on performance of \sysname.}
+  \begin{asparadesc}
+  \item[Execution:] \emph{Execute \texttt{impact\_of\_stimuli.py}.}
+
+  \item[Results:] \emph{Output the authentication performance under fixed stimuli.}
+  \end{asparadesc}
+\end{compactitem}
+\bigskip
+
+\emph{In all of the above blocks, please provide indications about the
+expected outcome for each of the steps (given the suggested hardware
+and software configuration).}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}

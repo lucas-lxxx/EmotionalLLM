@@ -1,0 +1,37 @@
+% 3.threat_model.tex — Threat Model
+
+\section{Threat Model}
+\label{sec:threat_model}
+
+As emotion-aware ALLMs enter deployment in affective companion systems, mental health support, and intelligent customer service, their downstream responses become conditioned on an internal emotion percept---the model's implicit interpretation of the speaker's emotional state---that the user can neither observe nor correct.
+Section~\ref{sec:obs_q2} demonstrated that even a single misperceived emotion is enough to trigger systematic response degradation---faithfulness collapse on neutral inputs, hallucinated emotional narratives, and a pronounced vulnerability gap between positive and negative valences.
+This fragility motivates a concrete adversarial question: can an attacker reliably steer the model's emotion percept to a chosen target, using only an imperceptible audio perturbation?
+
+\paragraph{Attacker's goal.}
+Given clean audio $x$ with ground-truth speaker emotion $e_s$, the attacker seeks a perturbation $\delta$ such that the adversarial audio $x' = x + \delta$ causes the target ALLM to output a pre-specified emotion $e_t \neq e_s$, while the linguistic content and perceptual quality of the waveform remain intact.
+The attack is \textit{targeted}: the attacker controls not only \textit{whether} the prediction changes but \textit{which} emotion it changes to---a strictly harder objective than untargeted disruption.
+
+\paragraph{Attacker's knowledge.}
+We operate in a white-box setting: the attacker has full access to the target ALLM's architecture, weights, and intermediate representations, and can compute end-to-end gradients through the entire audio-encoder--adapter--LLM pipeline.
+The attacker knows the prompt templates used for emotion elicitation but cannot modify model parameters or prompts; only the input waveform is under adversarial control.
+We assume the adversarial audio is injected as a digital input (e.g., uploaded file or API-mediated stream) rather than played over-the-air, so channel distortions are not modeled.
+
+\paragraph{Constraints.}
+The perturbation must satisfy three requirements.
+An $L_\infty$ norm bound $\|\delta\|_\infty \leq \varepsilon$ with $\varepsilon = 0.008$ enforces bounded sample-level waveform perturbation as a hard constraint, applied by projection after each optimization step.
+Semantic preservation requires that the model's own transcription of the adversarial audio remains highly similar to that of the clean audio, ensuring the linguistic content is unaltered.
+A multi-resolution STFT magnitude loss further penalizes perceptually salient spectral distortions.
+The latter two are implemented as soft loss terms whose formulations are given in Section~\ref{sec:methodology}.
+
+\medskip\noindent
+\textbf{Formal problem statement.}
+Let $f$ denote the target ALLM, $p_{\text{emo}}$ an emotion elicitation prompt, and $p_{\text{asr}}$ a transcription prompt.
+Given clean audio $x \in \mathbb{R}^T$ with source emotion $e_s$ and an attacker-chosen target $e_t \neq e_s$, the objective is to find $\delta$ such that the adversarial audio $x' = x + \delta$ satisfies:
+%
+\begin{enumerate}
+    \item[\textnormal{(i)}] $f(x',\, p_{\text{emo}}) = e_t$ \hfill \textit{(targeted emotion flip)}
+    \item[\textnormal{(ii)}] $\mathrm{sim}\!\bigl(\mathrm{ASR}_{f}(x',\, p_{\text{asr}}),\; \mathrm{ASR}_{f}(x,\, p_{\text{asr}})\bigr) \geq \tau$ \hfill \textit{(semantic preservation)}
+    \item[\textnormal{(iii)}] $\|\delta\|_\infty \leq \varepsilon$ \hfill \textit{(imperceptibility)}
+\end{enumerate}
+%
+where $\mathrm{ASR}_{f}(\cdot,\, p_{\text{asr}})$ denotes the model's transcription output and $\mathrm{sim}(\cdot,\,\cdot)$ is a semantic similarity measure detailed in Section~\ref{sec:methodology}.

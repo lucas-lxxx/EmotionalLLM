@@ -1,0 +1,2125 @@
+--- Page 1 ---
+Mirage in the Eyes : Hallucination Attack on
+Multi-modal Large Language Models with Only Attention Sink
+Yining Wang1, Mi Zhang1,∗, Junjie Sun1, Chenyue Wang1, Min Yang1,∗,
+Hui Xue2, Jialing Tao2, Ranjie Duan2, Jiexi Liu2
+1Fudan University,2Alibaba Group
+{ynwang22@m., mi_zhang@, jjsun22@m., wangcy23@m., m_yang@}fudan.edu.cn
+{hui.xueh, jialing.tjl, ranjie.drj, liujiexi.ljx}@alibaba-inc.com
+Abstract
+Fusing visual understanding into language generation, Multi-
+modal Large Language Models (MLLMs) are revolutioniz-
+ing visual-language applications. Yet, these models are often
+plagued by the hallucination problem , which involves generat-
+ing inaccurate objects, attributes, and relationships that do not
+match the visual content. In this work, we delve into the inter-
+nal attention mechanisms of MLLMs to reveal the underlying
+causes of hallucination, exposing the inherent vulnerabilities
+in the instruction-tuning process.
+We propose a novel hallucination attack against MLLMs
+that exploits attention sink behaviors to trigger hallucinated
+content with minimal image-text relevance, posing a signifi-
+cant threat to critical downstream applications. Distinguished
+from previous adversarial methods that rely on fixed patterns,
+our approach generates dynamic, effective, and highly trans-
+ferable visual adversarial inputs, without sacrificing the qual-
+ity of model responses. Comprehensive experiments on 6
+prominent MLLMs demonstrate the efficacy of our attack in
+compromising black-box MLLMs even with extensive miti-
+gating mechanisms, as well as the promising results against
+cutting-edge commercial APIs, such as GPT-4o and Gem-
+ini 1.5. Our code is available at https://huggingface.co/
+RachelHGF/Mirage-in-the-Eyes .
+1 Introduction
+Integrating visual comprehension into language models,
+Multi-modal Large Language Models [4,12,19,51,52] enable
+interaction with users across various modalities, and provide
+responses that demonstrate a deep understanding of complex
+visual semantics. Through instruction-tuning in multi-modal
+spaces, MLLMs have significantly advanced vision-language
+tasks like image captioning [8, 13], visual grounding [68, 69],
+and multi-modal conversations [56, 97].
+Despite their revolutionary impact, MLLMs face a signifi-
+cant challenge: the hallucination problem . This occurs when
+∗Corresponding authors.they generate irrelevant or entirely fabricated responses ac-
+cording to the image content. Examples include mention-
+ing non-existent objects [14, 44], providing inaccurate at-
+tributes [54], or describing inconsistent relationships between
+objects [81]. As MLLMs are increasingly employed to aid
+decision-making, task planning, and user interaction in criti-
+cal fields like medical reasoning [42, 67], autonomous driv-
+ing [21, 88], and robotic manipulation [43, 57], their ten-
+dency to generate hallucinated responses poses significant
+risks. In applications with user-defined inputs, such as AI
+assistants [62], customer services [11], and physical therapy
+tools [100], manipulated contents may be injected or spread
+online, compromising system reliability and potentially mis-
+leading users without domain expertise.
+To address the unintended effects of unfaithful MLLMs,
+the causes of hallucinations have been explored [5]. Some
+suggest that hallucinations arise from the imbalance between
+weak vision models and powerful LLM backbones [29,40,41],
+which causes MLLMs to over-rely on language priors (e.g.,
+the tendency of associating bananas with the color yellow
+more often than green ). Other studies point to the statistical
+biases in MLLM pre-training datasets [41, 101], which often
+feature imbalanced object distributions and co-occurrence pat-
+terns, resulting in MLLMs generating irrelevant descriptions.
+While various studies have explored the causes of halluci-
+nation, they often focus on individual factors in isolation,
+largely in a post-hoc manner. In light of these gaps, our work
+explores the generation mechanisms of MLLMs, investigat-
+ing the complex interactions between modalities to provide a
+comprehensive understanding of this phenomenon.
+Recent research has identified a phenomenon known as
+attention sink [85,95], where certain tokens receive extremely
+high attention scores during the generation of LLM responses.
+Further research on MLLMs extends this concept to multi-
+modal settings [34], showing that the sink token exhibits a
+unique columnar pattern within attention maps (as illustrated
+in Fig. 1), drawing significant attention in the subsequent
+generative processes. Notably, the hallucinated outputs are
+observed to generally follow these sink tokens, indicating a
+1arXiv:2501.15269v1  [cs.LG]  25 Jan 2025
+--- Page 2 ---
+potential connection between them. Through an in-depth ex-
+amination of the instruction-tuning process in multi-modal
+training, we identify the critical flaw that MLLMs tend to
+produce irrelevant image-text content after following user
+instructions, while the aggregation of misleading global in-
+formation further exacerbates the divergence from the actual
+image content.
+Human: Please describe this image in detail.
+Assistant: The image depicts a lively scene in a park, where two 
+men are competing to catch a frisbee in mid-air...There are seve-
+ral other people in the park, some sitting on the grass and others 
+standing around. In addition to the people, there are several 
+balls scattered throughout the scene, possibly belonging to 
+the park-goers. A car can also be seen parked in the backgr-
+ound, adding to the overall atmosphere of the park.
+. Inadditiontothepeople,thereare around standing others
+attention map
+Figure 1: An illustration of the attention sink phenomenon
+in MLLM responses. The sink token receives high attention
+scores in a columnar pattern. The hallucinated responses are
+marked bold with indigo tokens .
+Uncovering the formation of attention sink in hallucinated
+responses, we propose the first-ever hallucination attack
+against MLLMs with only attention sink. This pioneering
+attack is designed to exacerbate hallucinations in MLLM re-
+sponses while maintaining their overall quality and utility.
+Our proposed attack overcomes the constraints of existing
+adversarial attacks against LLMs and MLLMs, which de-
+pend heavily on predefined target responses and task-specific
+datasets. By manipulating attention scores and hidden embed-
+dings to induce sink tokens, our attack constructs dynamic,
+highly effective, and black-box transferable adversarial visual
+inputs. This method not only circumvents current mitigation
+strategies for hallucinations but also shows significant impacts
+on the latest commercial MLLM APIs. We hope this halluci-
+nation attack will expose the critical vulnerability of MLLMs
+in downstream applications, and drive advancements toward
+more reliable and high-performing multi-modal models.
+Our Distinction from Previous Attacks. Adversarial at-
+tacks on MLLMs have been a concern since their devel-
+opment. These attacks aim to provoke harmful model re-sponses [15, 59, 63, 74] or to impair model performance on
+specific tasks [18,25], but they still rely heavily on predefined
+patterns or task-specific datasets. For instance, perturbation-
+based attacks [63, 70, 98] optimize adversarial perturbations
+according to predefined target responses, which require mas-
+sive human labor in crafting and filtering. Other text-based
+attacks insert human-written jailbreak templates [58,59] (e.g.,
+role-playing scenarios) to disrupt the safety alignments, but
+often lack transferability across different models. Recent
+structure-based attacks [15, 74] embed harmful instructions
+into images with typography or text-to-image models, which
+also require carefully designed textual triggers to redirect the
+model’s attention. Concentrating on adversarial visual inputs,
+our work is distinct from previous adversarial attacks in two
+key aspects:
+1.Attack Objective : Our hallucination attack aims to in-
+duce the generation of erroneous objects, attributes, and
+relationships in MLLM responses, whereas previous ad-
+versarial attacks primarily focus on triggering harmful
+outputs and bypassing safety alignments.
+2.Attack Efficiency : We achieve a dynamic and effec-
+tive attack by directly manipulating the self-attention
+mechanisms during the MLLM generation process. This
+approach overcomes the limitations of previous methods,
+which demand substantial human efforts to define the
+target behaviors of models.
+Our Contributions are summarized as follows.
+•We present a comprehensive analysis linking the at-
+tention sink phenomenon with hallucination issues in
+MLLMs. By probing the inherent limitations of the
+instruction-tuning process, we expose the model’s ten-
+dency to produce two-segment responses with declined
+image-text relevance, where the aggregation of mislead-
+ing information contributes to the hallucinated outputs.
+•We propose the first hallucination attack targeting
+MLLMs with only the manipulation of attention sinks.
+The crafted adversarial visual inputs significantly exacer-
+bate the object, attribute, and relationship hallucination
+without degrading response quality. By manipulating the
+attention mechanism and hidden embeddings, our attack
+achieves high transferability and adaptability without
+relying on predefined patterns.
+•The extensive evaluation, assisted by GPT-4 [1], assesses
+our attack in hallucination and response quality on six
+prominent MLLMs. Remarkable results demonstrate
+that our attack transfers effectively to black-box MLLMs
+and commercial APIs such as GPT-4o [66] and Gemini
+1.5 [65], successfully overcoming three categories of ex-
+isting mitigation strategies. Up to 10.90% and 12.74%
+increase in hallucinated sentences and words highlight
+2
+--- Page 3 ---
+the vulnerability of critical downstream applications to
+our proposed attack.
+2 Related Work
+2.1 Multi-modal Large Language Models
+The surge of LLMs has highlighted their remarkable capabili-
+ties in in-context learning, instruction following, and multi-
+step reasoning [61]. MLLMs build on these strengths by
+incorporating additional modalities such as image, video,
+and audio, enabling users to engage with both textual and
+multi-modal prompts. MLLMs typically consist of three key
+components: multi-modal encoders (e.g., Vision Transform-
+ers [22] as visual encoders), pre-trained LLM backbones, and
+the adapter modules for modality alignment. The forerun-
+ner MLLMs like Flamingo [2] and MM-GPT [27] achieve
+cross-modality alignment by integrating gated cross-attention
+blocks within their LLM backbones, but are constrained by
+massive computational demands [6]. On the other hand, mod-
+els like LLaV A [52] and Shikra [12] utilize linear projection
+layers to map multi-modal features into textual spaces, offer-
+ing a more computationally efficient solution. Moreover, ad-
+vanced MLLMs such as InstructBLIP [19], mPLUG-owl [90],
+and Qwen-VL [4] incorporate Q-former modules, which con-
+sist of two Transformer blocks with shared self-attention
+layers. These modules update a set of learnable queries to
+effectively integrate both textual and multi-modal features.
+Most MLLMs follow a two-stage training paradigm: first
+pre-training on large-scale datasets to bridge modality gaps,
+and then instruction-tuning on task-related data to enhance
+multimodal conversational capabilities.
+2.2 Mitigating Hallucination in MLLMs
+The hallucination problem in MLLMs causes cross-modal
+inconsistencies, resulting in discrepancies between generated
+text responses and provided visual content [5]. Recent efforts
+to enhance their faithfulness fall into three categories: mitiga-
+tion through decoding ,model retraining , and post-processing .
+Some work optimizes the decoding strategy during the
+inference stage, to suppress the generation of hallucinated
+responses [7, 30, 34, 41]. For instance, OPERA [34] mitigates
+hallucination by penalizing columnar attention patterns dur-
+ing beam search decoding, thereby reducing the model’s over-
+reliance on certain summary tokens. Meanwhile, VCD [41]
+calibrates model output distributions with both clean and dis-
+torted inputs, effectively counteracting the language priors of
+LLM backbones. In the realm of model retraining, HACL [35]
+employs contrastive learning of multi-modal representations
+to distinguish between hallucinated and factual responses,
+while [96] adjusts the prediction of EOS token to prevent
+excessively long hallucinated texts. Other retraining-based
+methods gather high-quality visual instruction tuning datato correct statistical biases [50, 93], or resort to human feed-
+back as a reward for response correction [77, 94]. Another
+category of work leverages post-hoc techniques to rectify
+hallucinations, such as training additional hallucination re-
+visors [40, 91, 101], or implementing multi-agent debate to
+examine the faithfulness of model responses [48].
+2.3 Attention Sink
+Transformer-based models leverage the self-attention mech-
+anism to capture global information [80]. However, during
+inference, it has been observed that some tokens receive dis-
+proportionately high attention compared to others, which is
+known as the attention sink phenomenon.
+The phenomenon was first observed in Large Language
+Models (LLMs) [85], where initial tokens, despite their low
+semantic significance, receive high attention. One reasonable
+explanation focuses on the sum-to-one property of the Soft-
+max operation within the self-attention mechanism, where
+redundant attention is allocated to the initial tokens, as they
+are always visible during the generation process. The phe-
+nomenon has spurred several innovative approaches in LLM
+quantization [75] and LLM attention calibration [95].
+When the attention mechanism is applied across different
+modalities, the attention sink is observed to cause hallucina-
+tion responses [34]. This occurs when certain sink tokens,
+characterized by columnar patterns with high attention scores,
+dominate the prediction of subsequent tokens, overshadowing
+all preceding responses (as depicted in Fig. 1). As a result, the
+models will neglect image tokens and prior context, ultimately
+resulting in hallucination responses.
+3 Attention Sink and Hallucination
+In the following section, we analyze the dynamics behind
+attention sink that relates to MLLM hallucinations. An in-
+depth investigation into the instruction-tuning stage of train-
+ing reveals that, attention sink appears at the turning point
+of image-text relevance in model responses (Section 3.1),
+which contains misleading global information that triggers
+subsequent hallucination content (Section 3.2).
+3.1 Analysis of Instruction-tuning Datasets
+To enable user conversation with both text and image inputs,
+MLLMs are first pre-trained on large-scale datasets containing
+image-text pairs [13, 73], and then fine-tuned on instruction
+datasets tailored for downstream applications. The instruction-
+tuning datasets consist of task descriptions and task-specific
+input-output pairs, covering multi-modal tasks such as image
+captioning [9], visual question answering (VQA) [45,52], and
+referring expression comprehension (REC) [10]. For example,
+LLaV A [52] uses GPT-4 [1] to generate instruction-following
+dialogues, by providing it with captions and bounding boxes
+3
+--- Page 4 ---
+(a) overall summary
+ (b) overly detailed description
+ (c) extra associationFigure 2: Examples of inferred elements in ground truth responses: (a)overall summary of the image content, (b)overly detailed
+description of trivial objects, and (c)extra association not instructed by the task. The texts after " Human: " denote instructions,
+and those after " Assistant: " are ground truth responses. The examples are selected from the LLaV A-Instruct-150k [52] and
+ALLaV A-4V [9] datasets of detailed image caption and complex reasoning tasks, which are generated with GPT-4 [1] and
+GPT-4V [64] models respectively.
+of COCO [47] images. The resulting dataset, LLaV A-Instruct-
+150k, has been utilized to fine-tune MLLMs like LLaV A [52],
+Shikra [12], and InstructBLIP [19].
+Although instruction-tuning datasets include fine-grained
+question-answering pairs, the text-image relevance in model
+responses shows a decreasing trend. A closer examination of
+the ground truth responses reveals that, after describing the
+image content and following the instructions, the responses
+generally include additional inferred elements, such as overall
+summaries, overly detailed descriptions, and extra associa-
+tions based on the image content, as displayed in Fig. 2. This
+may be attributed to the fact that models like GPT-4 [1] and
+GPT-4V [64], which are used for data generation, have strong
+comprehension and associative abilities. As a result, they tend
+to offer extra references and details in a user-friendly manner.
+To illustrate the decreasing text-image relevance in model
+responses of open-source instruction-tuning datasets, we se-
+lect CLIPScore [31] as a metric. The CLIPScore is generally
+adopted to evaluate the image–text compatibility [53, 78],
+which first extracts the embeddings for both visual and tex-
+tual inputs with CLIP [71] model, and then calculates the
+cosine similarity between these embeddings to reveal their
+relevance. We compute the CLIPScore between the input im-
+ages and each sentence in the ground truth responses of the
+LLaV A-Instruct-150k [52] and ALLaV A-4V [9] datasets. Fig.
+3 reveals that, the ground truth responses exhibit a significant
+decrease in image-text relevance after the first few sentences.
+It results in two distinct segments in model-generated re-
+sponses: (1) first the detailed descriptions closely tied to the
+image, and (2) content that is either loosely related to the
+image or beyond the visual interpretability of MLLMs.
+The innate problem of datasets contributes to the hallucina-
+tion problems of released MLLMs. When fine-tuned on such
+datasets, MLLMs tend to adopt the pattern of two-segment
+responses, first describing the image and then generating asso-
+ciative content. Moreover, when trained to fit the second part
+of the responses, MLLMs are compelled to generate details
+that they cannot visually comprehend [96], or abstract state-ments unrelated to the instructions. We also observe that the
+attention sink phenomenon emerges at the turning point of
+image-text relevance, which generally leads the hallucination
+responses with loose relation with images. We discover the
+following properties of attention sink originating from the
+instruction-tuning training:
+(1) MLLMs inherit the two-segment response pattern from
+instruction-tuning datasets. We prompt MLLMs to generate
+detailed image captions for VG 100K [37] dataset, and eval-
+uate the per-sentence CLIPScore between input images and
+their responses, as shown in Fig. 4 (a)-(b). Similar to the trend
+observed in instruction-tuning datasets, the MLLM responses
+clearly show a significant decline in image-text relevance,
+which applies to all three decoding strategies.
+(2) Attention sink appears at the turning point of CLIP-
+Score. By identifying the columnar patterns within the at-
+tention maps, we trace the presence of sink tokens and eval-
+uate the mean CLIPScore of model responses before and
+after them, as shown in Fig. 4 (c). Our findings reveal that
+the attention sink appears to segment the response, with a
+marked decrease in image-text CLIPScore following the sink
+token, which suggests less relevant content and the prone to
+hallucinations. Notably, this issue is observed not only on
+models that are instruct-tuned on datasets displaying these
+tendencies (e.g., InstructBLIP and LLaV A-1.5 trained on
+LLaV A-Instruct-150k), but is also prevalent on MLLMs like
+MiniGPT-4, which are trained on closed-source datasets. This
+observation highlights a widespread problem across existing
+instruction-tuning paradigms.
+3.2 Aggregated information in Attention Sink
+To explain the emergence of attention sink at the turning
+point of image-text relevance, we dig deeper into the atten-
+tion mechanism during MLLM generation. We notice that,
+besides the high attention scores and columnar patterns, sink
+tokens are predominantly non-content tokens (e.g., punctua-
+tion marks and article words) that convey minimal semantic
+meaning. For instance, in the responses of LLaV A-1.5, up to
+4
+--- Page 5 ---
+Figure 3: Per-sentence CLIPScore between input images and ground truth responses in instruction-tuning datasets. We report
+CLIPScore between input images and random response sentences as the baseline, denoted as random .
+Figure 4: (a)-(b)Per-sentence CLIPScore between input images and MLLM responses of InstructBLIP and LLaV A-1.5. (c)
+Mean CLIPScore of MLLM responses before and after the sink token. The postfix - beam , -greedy , and - nucleus represent beam
+search, greedy search, and nucleus sampling decoding respectively. The missing bars indicate no generated sentences of the
+corresponding length.
+73.5% of the sink tokens are non-content, indicating a ten-
+dency of allocating high attention to these semantically trivial
+elements.
+We related this observation with a unique behavior dis-
+covered in Transformer-based models: the aggregation of
+knowledge . The process occurs when global information of
+inputs is aggregated into uninformative tokens, providing a
+shortcut for the subsequent generation or classification. The
+phenomenon is observed in Transformer-based models like
+Vision Transformers (ViTs) [22], LLMs, and MLLMs. For
+example, in language models, information is aggregated into
+functional label words (e.g., words like positive andnegative
+in the task of sentiment analysis) in shallow layers to sup-
+port final predictions [82]. Similarly, in ViTs, where image
+patches are treated as tokens, the models inject global infor-
+mation into some background tokens to replace their local
+information, which facilitates the training of linear models for
+classification [20]. In the study of MLLM hallucination, [34]
+also hypothesizes that certain tokens in MLLM responses ag-
+gregate crucial knowledge from contexts, and over-reliance on
+these tokens can lead to a neglect of the entire image content.
+Leading by the common phenomenon of aggregating be-
+haviors, we note that part of the global information in MLLM,representing visual and textual inputs, is also aggregated into
+sink tokens. Fig. 5 presents a distribution of cosine simi-
+larity between the middle-layer embeddings of multi-modal
+inputs and the generated tokens. It’s notable that sink tokens,
+which appear at the turning points of CLIPScore, exhibit a
+significantly higher resemblance to global input information
+compared to other tokens. We relate this observation to the
+hallucinated generation, and make the following analysis.
+(1) Attention sinks aggregate information as global con-
+text. The aggregating behavior of Transformer-based models
+is formed naturally during training, with sink tokens receiving
+high attention scores to aid in subsequent prediction or gener-
+ation. In Fig. 5, the higher similarity to input embeddings indi-
+cates that global multi-modal information is partly integrated
+into the sink tokens. In the generation process of MLLMs,
+multi-modal input tokens are positioned before the entire
+response, serving as a global context. We hypothesize that,
+inheriting the two-segment response pattern (Section 3.1),
+attention sinks are chosen to distinguish between segments
+with different focus, content, and style in MLLM generation.
+This mechanism provides a more relevant global context for
+the latter part of the model’s responses, minimizing the need
+for long-distance attention and aligning with the observed
+5
+--- Page 6 ---
+Figure 5: Distribution of cosine similarity between multi-modal input embeddings and generated token embeddings. We compare
+the similarity of sink tokens (with the postfix -sink ) and all other tokens (with the postfix -other ).
+MLLM generation patterns.
+(2) Misleading aggregation triggers hallucinated response.
+While the aggregation process aligns with the generation pat-
+tern of MLLMs, we note that only part of the global informa-
+tion is fused into sink tokens, which deviates from the original
+global information. We speculate that it is still due to deficien-
+cies in the instruction tuning phase, where the second part of
+responses in training data often includes irrelevant descrip-
+tions (Section 3.1), and will mislead the aggregating process
+with partial, trivial, and even wrong global information. Fur-
+thermore, the aggregation of global context into a single token
+inevitably results in a significant loss of information, diminish-
+ing the factual accuracy of the image content. Consequently,
+MLLMs are trained to aggregate misleading information as
+context for irrelevant generations. The high attention scores
+assigned to these sink tokens exacerbate the hallucination
+problem, introducing irrelevant objects, confused attributes,
+and incorrect relationships.
+4 Our Hallucination Attack
+4.1 Motivation
+Based on the overall analysis in Section 3, we highlight two
+important properties of attention sink in MLLM hallucination.
+First, the emergence of attention sink does not depend on
+specific textual or visual inputs, as the reason behind hallu-
+cination is deeply rooted in the attention mechanism during
+generation. Second, it requires no prior knowledge or external
+reference for detection, only the attention maps during the
+generation process.
+To promote the safe, reliable, and beneficial development
+of MLLMs, we propose the first hallucination attack utilizing
+only the attention sink phenomenon, to explore the current
+state of MLLM hallucination severity and existing mitigation
+strategies. By manipulating the attention mechanism and hid-
+den states during generation, our method achieves dynamic,
+effective, and highly transferrable attacks, all without the need
+for additional human intervention. The attacking strategy re-
+quires no pre-defined target responses, and applies to generalvisual and textual inputs, overcoming a major limitation of
+current adversarial attacks against MLLMs.
+4.2 Security Settings
+Attack Scenario. We define the goal of our hallucination at-
+tack against MLLMs as increasing the amount of hallucinated
+content in MLLM responses, which includes inconsistencies
+in objects, attributes, and relationships according to the ac-
+tual image content. The target models include open-sourced
+MLLMs and commercial MLLM APIs (such as GPT-4o pro-
+vided by OpenAI). The target MLLMs may have built-in
+filtering mechanisms for multi-modal inputs or may be en-
+hanced with additional mitigation strategies. The ultimate
+malicious goal can manifest in various forms, which include
+intensifying hallucination in subsequent conversations, deliv-
+ering misleading information to users, and causing incorrect
+decisions in downstream applications, particularly in critical
+fields where even minor errors can have severe consequences.
+In real-world scenarios, many MLLM applications (e.g., AI
+assistants, customer service, physical therapy, and document
+analysis [89]) allow user-defined uploads, which are vulnera-
+ble to adversarial inputs. Additionally, MLLMs in black-box
+systems (e.g., autonomous driving) are also susceptible to
+threats like physical adversarial patches [33].
+Threat Model. We conceive an attacker who exploits adver-
+sarial visual inputs to perform hallucination attacks. With
+white-box access to a surrogate MLLM, the attacker can com-
+pute gradients and construct adversarial examples. The at-
+tacker’s objective is to compromise the faithfulness of target
+MLLMs, thereby maliciously influencing their downstream
+applications. Driven by this goal, the attacker is highly mo-
+tivated to deploy these adversarial inputs against black-box
+MLLMs and proprietary commercial MLLM APIs. To evade
+detection and filtering mechanisms employed by commercial
+platforms, the attacker must ensure that the adversarial inputs
+still produce high-quality and useful MLLM responses.
+6
+--- Page 7 ---
+4.3 Method
+4.3.1 Formulation of MLLM Generation
+When processing multi-modal instructions during user in-
+teraction, the MLLMs take both visual and textual prompts
+as context. We denote the visual input tokens as xv=
+{x0,x1,...,xN−1}, where Nrepresents the length of visual in-
+puts, and is typically predefined during training. The textual
+input tokens are denoted as xt={xN,xN+1,...,xM+N−1}, with
+an input length of M. The multi-modal inputs are concate-
+nated into a single sequence xin={xi}M+N−1
+i=0, which is then
+fed into the MLLMs for further alignment and generation.
+The response of MLLMs is sampled in an auto-regressive
+manner, with each token predicted based on previously gen-
+erated ones. During the inference, the hidden states of each
+token are extracted as embeddings. We represent the hidden
+states of token iin the l-th layer as h(l)
+i, and the self-attention
+scores of each token as a(l)
+i, which is formulated as:
+h(l)={h(l)
+0,h(l)
+1,...,h(l)
+T−1} ∈RT×d(1)
+a(l)
+i=Softmax 
+Q(l)K(l)T
+√dk!
+i(2)
+a(l)={a(l)
+0,a(l)
+1,...,a(l)
+T−1} ∈RT×T(3)
+where Tdenotes the overall length of tokens including
+model responses, ddenotes the dimension of hidden states,
+Q(l)=h(l)W(l)
+Q∈RT×dkandK(l)=h(l)W(l)
+K∈RT×dkrepre-
+sents query and key vectors with a dimension of dk, after the
+linear projection of hidden states. In the last layer of MLLMs,
+a vocabulary head Hprojects the final hidden states h(L)into
+probabilities, which supports the next-token prediction.
+x<t={x0,x1,...,xt−1} (4)
+p(xt|x<t) =Softmax (H(h(L)))xt (5)
+where M+N≤t<T, and xt∈Xin which Xmeans the
+whole vocabulary set. With the probability of the next token
+p(xt|x<t), different decoding strategies such as beam search,
+greedy search, and nucleus sampling are adopted to output the
+model responses, which are further illustrated in Appendix A.
+After predicting the t-th token, it will be appended at the end
+of the token list for the next-round generation. This process
+continues until the model predicts an end-of-sentence (EOS)
+token, signaling the end of responses.
+4.3.2 Identifying Potential Sink Tokens
+According to our analysis in Section 3, the attention sink
+appears at the turning point of image-text relevance, which
+aggregates some misleading global information from multi-
+modal inputs, and provokes hallucinated content.When conducting the hallucination attack with adversarial
+visual inputs, we aim to coax the target MLLMs into generat-
+ing as many attention sinks during their responses, which has
+been demonstrated to significantly increase the hallucinated
+content. Given that the maximum length of model responses
+and the decoding strategies cannot be fully covered in the
+attacking process, the adversarial perturbations are demanded
+to include the generalized patterns that trigger more sink to-
+kens in MLLMs generation, rather than merely producing
+sink tokens at fixed token positions.
+To identify the potential tokens that are most likely to be-
+come attention sinks, we perform a search in current model
+responses, based on the amount of global information con-
+tained in each token. We retrieve the hidden states of tokens
+h(l)in the intermediate layer of MLLMs, and compute the
+cosine similarity between the global input tokens xinand each
+generated token xias follows:
+s(l)
+i=Sim(h(l)
+i,h(l)
+g),1≤l<L,i>M+N−1 (6)
+where Sim(·,·)represents the computation of cosine similar-
+ity,h(l)
+gis defined as the mean vector of the l-th layer hidden
+states of multi-modal inputs, i.e., h(l)
+g=Mean ({h(l)
+i}M+N−1
+i=0).
+Based on the global information each token absorbs within
+the middle-layer embeddings, we choose the token index with
+the highest s(l)
+ias the potential sink position in the subsequent
+optimization of adversarial perturbation:
+idx=I[max{s(l)
+M+N,s(l)
+M+N+1,...,s(l)
+T−1}] (7)
+where I[·]indicates the index of the token with the maximum
+similarity score.
+In each round of adversarial optimization, we will identify
+the potential token according to current model responses. As
+the sentence structure remains stable in consecutive attack
+rounds, the selection of potential tokens tends to be focused
+over a few iterations, leading to concentrated and targeted
+optimization towards sink tokens.
+4.3.3 Optimizing Adversarial Perturbations
+After searching for the potential token to induce attention sink,
+we design the adversarial target based on the ideal character-
+istics of sink tokens, which covers both attention behavior
+and knowledge aggregation. Introducing sink tokens with
+high attention scores, we demand that the subsequent gen-
+eration includes declined image-text relevance, and produce
+hallucinated content from misleading information.
+Attention Loss. When constructing the desired columnar at-
+tention behavior, we acquire the middle-layer attention scores
+within MLLM generation, which is a(l)={a(l)
+i}T−1
+i=0. The at-
+tention score of each token a(l)
+i∈Ri,0≤i<Tcontains its
+allocated attention on the previous sequence. We construct
+7
+--- Page 8 ---
+the attention map A(l)= [a(l)
+0,a(l)
+1,...,a(l)
+T−1]∈RT×Twith ob-
+tained scores, where a(l)
+i,jrepresents the attention scores of
+token xiallocated to xj.
+In the attention map A(l), a columnar attention pattern on
+certain tokens ximeans that the subsequent tokens xj,j>iall
+allocate high attention to the sink token, and make predictions
+with its domination. To induce such a columnar attention
+pattern on the chosen potential token xidx, we focus on a
+localized attention window A′(l)= [a(l)
+idx,a(l)
+idx+1,...,a(l)
+T−1], and
+the attention loss is defined as:
+Lattn(xv,xt) =CE(A′(l),idx) (8)
+where CE(·)denotes the cross entropy loss function. The at-
+tention loss forces subsequent tokens to allocate high attention
+to the potential sink token, thereby forming the attention sink
+adversarially to introduce a decline of image-text relevance.
+Embedding Loss. Besides the direct phenomenon of colum-
+nar attention behaviors, our observation also suggests that sink
+tokens bear a much higher resemblance to the multi-modal
+inputs, which aggregate misleading global information origi-
+nating from the instruction tuning. In the hallucination attack,
+we aim to increase the cosine similarity of the embeddings
+between potential sink tokens and global input information.
+The hidden states of potential token in the l-th intermediate
+layer h(l)
+idxis obtained, and is used to compute its similarity of
+global information Sim (h(l)
+idx,h(l)
+g).
+Since the aggregation of global information encourages the
+formation of an attention sink, we also introduce an embed-
+ding loss to partially raise the global information embedded
+in the potential tokens. We adopt the hinge loss to ensure the
+embedding only contains incomplete and misleading informa-
+tion:
+Lemb(xv,xt) =max(0,σ−Sim(h(l)
+idx,h(l)
+g)) (9)
+where σis a hyper-parameter predefined with the observation
+of sink tokens in different MLLMs. The embedding loss is
+designed to promote the injection of more misleading global
+information into the potential token, which helps MLLMs
+spontaneously generate hallucinatory content in subsequent
+outputs.
+Adversarial Objective. With the hallucination attack target-
+ing both attention behavior and hidden states, the overall ad-
+versarial objective is defined as:
+minLattn(˜xv,xt)+αLemb(˜xv,xt)
+s.t.,˜xv=xv+δ,||δ||p<ε(10)
+where δis the adversarial perturbation on the visual input xv,
+αis the hyper-parameter to adjust the regularization, ||·|| pis
+the computation of p-norm, and εis the attack budget which
+controls the magnitude of the adversarial perturbation.The hallucination attack will be conducted in multiple
+rounds, where the adversarial objective will direct the op-
+timization of adversarial perturbation in each round. The at-
+tacking algorithm of our method is illustrated in Alg. 1.
+Algorithm 1 Hallucination Attack
+Input: The visual input: xv, the textual input: xt, and the
+target model: mllm
+Output: The adversarial visual input: ˜xv
+1:S←0.
+2:while S<Smaxdo
+3: response ←mllm(˜xv,xt).
+4: Get hidden states h(l)from the l-th layer.
+5: Get attention scores a(l)from the l-th layer.
+6: h(l)
+g←Mean (h(l)
+0,h(l)
+1,...,h(l)
+M+N−1).
+7: Compute the cosine similarity between h(l)
+gand gen-
+erated token embeddings as s(l)
+i=Sim(h(l)
+i,h(l)
+g)
+8: Get potential token idx =I[max{s(l)
+M+N,...,s(l)
+T−1}].
+9: A(l)←construct attention map with a(l).
+10: Lattn←CE(A′(l),idx). ▷See Equation 8
+11: Lemb←max(0,σ−Sim(h(l)
+idx,h(l)
+g)).▷See Equation 9
+12: Compute gradient g←∇˜xvLattn+αLemb
+13: Updating ˜xv
+S←˜xv
+S−γ·sign(g).
+14: Clipping ˜xv
+S←Clip(˜xv
+S,−ε,ε).
+15: S←S+1
+16:end while
+17:return ˜xv
+5 Experiments
+5.1 Experimental Settings
+Target Models. To conduct a comprehensive evaluation of
+mainstream MLLMs in the open-source community, we select
+four of the most representative MLLMs including Instruct-
+BLIP [19], MiniGPT-4 [102], LLaV A-1.5 [51], and Shikra
+[12] as target models. The details about visual encoders and
+LLM backbones are available in Tab. 1, which includes well-
+trained vision models like EV A [23] and CLIP [71], and
+widely-used LLMs like Vicuna [16] and LLaMA [79]. To
+evaluate the adversarial effects on closed-source commercial
+APIs, we also take the recently released GPT-4o mini [66]
+and Gemini 1.5 flash [65] into consideration. More implemen-
+tation details are available in Appendix B.
+MLLM Tasks. To comprehensively evaluate the adversarial
+impact of the hallucination attack, we focus on two types
+of downstream tasks for MLLMs: image captioning and
+question-answering (QA). These tasks represent different
+aspects of MLLMs’ open-ended generation capabilities.
+Metrics. We assume that the attacker’s goal is to intensify
+hallucinations in MLLM responses without sacrificing their
+quality and helpfulness. For the image captioning task, we
+8
+--- Page 9 ---
+Table 1: Basic information of open-source MLLMs in our experiments.
+MLLM InstructBLIP MiniGPT-4 LLaV A-1.5 Shikra
+Visual Encoder Vicuna-7b-v1.1 Vicuna-7b-v0 Vicuna-7b LLaMA-7b
+LLM Backbone EV A-ViT-g/14 EV A-ViT-g/14 CLIP-ViT-L/14 CLIP-ViT-L/14
+evaluate both the extent of hallucination and the quality of
+the generated responses. For the QA task, we evaluate the
+accuracy of model answers.
+Evaluation of hallucination . In assessing the severity of ob-
+ject hallucination, earlier research adopted the Caption Hal-
+lucination Assessment with Image Relevance (CHAIR) met-
+ric [72]. However, this metric fails to consider the hallucina-
+tion of attributes and relationships, and only supports closed-
+ended evaluation (i.e., covering only 80 object classes in MS-
+COCO [47] datasets). To achieve more advanced evaluation
+for open-ended model responses, we follow the previous stud-
+ies [34, 50] and conduct GPT-4 assisted evaluation based on
+HalluBench [99]. The benchmark is based on a subset of the
+Visual Genome (VG) dataset [37], featuring images annotated
+with bounding box coordinates and detailed descriptions of
+objects, attributes, and relationships. The HalluBench also
+provides human-annotated factual information to improve
+evaluation accuracy. During the evaluation, the GPT-4 model
+is prompted with all the references and judges the hallucina-
+tion in MLLM responses sentence by sentence. The GPT-4
+hallucination evaluation prompt is displayed in Fig. 9.
+Evaluation of response quality . The overall quality of the
+MLLM’s responses is critical in real-world attacking sce-
+narios. If the adversarial visual inputs result in low-quality
+responses characterized by poor fluency, distorted sentence
+structure, or excessive grammatical errors, downstream users
+of MLLMs can easily detect these patterns and implement
+filtering mechanisms. In the evaluation, we also resort to the
+GPT-4 model to assess the grammar, fluency, and naturalness
+of generated responses. The model provides a score between
+0-9 as the overall response quality. The GPT-4 assisted re-
+sponse quality evaluation prompt is displayed in Fig. 10.
+Accuracy of QA . To evaluate the attacking effects on the QA
+task, we use the OK-VQA [60] benchmark, which is based
+on the MS-COCO image dataset and widely recognized for
+assessing the general QA capabilities of MLLMs [4, 12]. We
+select a subset of the OK-VQA benchmark, consisting of ques-
+tions paired with 5 human-annotated answers each. For evalua-
+tion, we employ the standard VQA accuracy metric [3], which
+measures model responses by comparing them to ground truth
+answers. A response is considered 100% accurate if at least
+three human annotators provide the exact same answer. The
+VQA accuracy metric is defined as:
+accuracy =min(# humans that provided that answer
+3,1)
+(11)5.2 Adversarial Effects
+Image Captioning Task. To investigate the impact of ad-
+versarial visual inputs, we first concentrate on the level of
+hallucination in white-box models. During the hallucination
+attack, we construct adversarial visual inputs with the attack
+budget εof2/255,5/255, and 8/255, to observe the adversar-
+ial effects under different strengths of perturbations. During
+evaluation, we follow the setting of HalluBench, and query all
+MLLMs with a text prompt of Please describe this image in
+detail. , together with the constructed adversarial visual inputs.
+The adversarial effects on white-box target MLLMs with
+beam search decoding are reported in Tab. 2. Remarkably, our
+hallucination attack induces a substantial amount of halluci-
+nated content in MLLM responses, achieving up to 75.74%
+hallucinated words in single responses with only minor per-
+turbations on visual inputs. With larger attack budgets, the
+number of affected sentences and words has noticeably in-
+creased. In the real-world applications of MLLMs, the severer
+hallucination in model responses may mislead downstream
+modules to focus on inaccurate descriptions of visual content
+and crash on making planning or decisions. It is also worth
+noting that, our hallucination attack does not work by increas-
+ing the output length (with similar SPI and WPI in results).
+This contrasts with the approach in [26] that delaying the
+occurrence of (EOS) token may lead to an increase in CHAIR
+metrics. However, their eight times longer model responses
+are easy to be detected from normal uses, and inevitably af-
+fect their fluency and helpfulness. More evaluation results of
+greedy search and nucleus sampling decoding are depicted in
+Tab. 8 and 9 in the appendix, also demonstrating remarkable
+adversarial effects.
+During the attack process, we observe that as the adver-
+sarial noise was continuously optimized, changes in the sink
+token and MLLM responses align with our analysis in Section
+3. Fig. 6 visualizes the attack process and the affected model
+response. During the optimization, the sink token changes
+from tokens with concrete meaning (e.g., item in step 1) to
+non-content ones (e.g., the comma ,in step 18). The manipu-
+lation of attention behaviors also leads to more hallucinated
+objects (e.g., cupandwoman ) and wrong relationships (e.g.,
+holding a bowl in his hand ) during the attack process. With
+adversarial visual inputs, the target model tends to make up
+contents not aligned with images, with an obvious attention
+sink phenomenon observed in the attention map.
+QA Task. The white-box adversarial effects on the OK-VQA
+benchmark is presented in Tab. 4. The results show a reduc-
+9
+--- Page 10 ---
+Table 2: Results of GPT-4 assisted hallucination evaluation for the image captioning task on white-box models. All of the MLLM
+responses are generated with beam search decoding. We report six aspects of evaluation, including the number of sentences per
+image ( SPI), the number of words per image ( WPI ), the number of hallucinated sentences per image ( HSPI ), the number of
+hallucinated words per image ( HWPI ), the ratio of hallucinated sentences ( HSR ), and the ratio of hallucinated words ( HWR ). A
+larger HSPI, HWPI, HSR, and HWR indicate a higher level of hallucination in MLLM responses. The best results are marked in
+bold, and the number in brackets indicates the hallucination improvement compared to the clean image.
+Target Model Input SPI WPI HSPI HWPI HSR(%) HWR(%)
+InstructBLIPclean image 4.54 75.64 2.83 48.05 62.91% 64.93%
+ε=2/255 4.60 80.19 2.97 (+0.14) 55.14 (+7.09) 64.92% (+2.01%) 68.23% (+3.30%)
+ε=5/255 4.47 80.48 3.04 (+0.21) 54.90 (+6.85) 68.41% (+5.50%) 70.84% (+5.91%)
+ε=8/255 4.41 79.71 2.89 (+0.06) 52.91 (+4.86) 66.79% (+3.88%) 69.45% (+4.52%)
+LLaV A-1.5clean image 4.60 116.24 2.68 79.08 59.62% 71.68%
+ε=2/255 4.64 96.60 2.76 (+0.08) 62.97 (-16.11) 60.26% (+0.64%) 68.17% (-3.51%)
+ε=5/255 4.49 108.03 2.67 (-0.01) 74.85 (-4.23) 62.36% (+2.74%) 75.74% (+4.06%)
+ε=8/255 4.53 103.58 2.92 (+0.24) 75.45 (-3.63) 65.07% (+5.45%) 75.08% (+3.40%)
+MiniGPT-4clean image 3.98 60.56 2.31 37.34 58.13% 62.77%
+ε=2/255 4.10 59.20 2.49 (+0.18) 37.97 (+0.63) 61.42% (+3.29%) 65.01% (+2.24%)
+ε=5/255 3.97 66.27 2.41 (+0.10) 43.48 (+6.14) 61.02% (+2.89%) 67.09% (+4.32%)
+ε=8/255 4.00 64.51 2.55 (+0.24) 40.83 (+3.49) 64.59% (+6.46%) 67.97% (+5.20%)
+Shikraclean image 3.11 46.13 1.56 23.39 52.95% 53.16%
+ε=2/255 3.13 45.99 1.69 (+0.13) 25.65 (+2.26) 56.04% (+3.09%) 57.93% (+4.77%)
+ε=5/255 3.26 46.82 1.83 (+0.27) 26.51 (+3.12) 57.88% (+4.93%) 58.25% (+5.09%)
+ε=8/255 3.12 45.19 1.69 (+0.13) 25.69 (+2.30) 56.31% (+3.36%) 59.11% (+5.95%)
+Table 3: Results of GPT-4 assisted hallucination evaluation for the image captioning task on black-box models. All of the MLLM
+responses are generated with beam search decoding. The six aspects of evaluation are the same as in Tab. 2. A larger HSPI,
+HWPI, HSR, and HWR indicate a higher level of hallucination in MLLM responses. The best results are marked in bold, and the
+number in brackets indicates the hallucination improvement compared to the clean image for each target model.
+Surrogate Model Target Model SPI WPI HSPI HWPI HSR(%) HWR(%)
+InstructBLIPInstructBLIP 4.47 80.48 3.04 (+0.21) 54.90 (+6.85) 68.41% (+5.50%) 70.84% (+5.91%)
+LLaV A-1.5 4.46 99.77 2.64 (-0.04) 70.51 (-8.57) 59.42% (-0.20%) 71.48% (-0.20%)
+MiniGPT-4 3.84 63.00 2.31 40.54 (+3.20) 61.81% (+3.68%) 68.21% (+5.44%)
+Shikra 3.20 48.95 1.79 (+0.23) 27.77 (+4.38) 56.14% (+3.19%) 57.09% (+3.93%)
+LLaV A-1.5LLaV A-1.5 4.49 108.03 2.67 (-0.01) 74.85 (-4.23) 62.36% (+2.74%) 75.74% (+4.06%)
+InstructBLIP 4.47 78.31 2.81 (-0.02) 51.85 (+3.80) 65.37% (+2.46%) 68.75% (+3.82%)
+MiniGPT-4 3.95 63.60 2.32 (+0.01) 42.25 (+4.91) 60.79% (+2.66%) 68.14% (+5.37%)
+Shikra 3.08 45.94 1.94 (+0.38) 29.96 (+6.57) 63.85% (+10.90%) 65.90% (+12.74%)
+MiniGPT-4MiniGPT-4 4.00 64.51 2.55 (+0.24) 40.83 (+3.49) 64.59% (+6.46%) 67.97% (+5.20%)
+InstructBLIP 4.36 79.62 2.96 (+0.13) 54.82 (+6.77) 68.96% (+6.05%) 71.94% (+7.01%)
+LLaV A-1.5 4.27 116.50 2.51 (-0.17) 75.86 (-3.22) 60.84% (+1.22%) 73.67% (+1.99%)
+Shikra 3.33 49.67 1.92 (+0.36) 28.99 (+5.60) 58.86% (+5.91%) 59.61% (+6.45%)
+ShikraShikra 3.12 45.19 1.69 (+0.13) 25.69 (+2.30) 56.31% (+3.36%) 59.11% (+5.95%)
+InstructBLIP 4.48 80.36 2.90 (+0.07) 54.39 (+6.34) 67.48% (+4.57%) 70.28% (+5.35%)
+LLaV A-1.5 4.43 110.61 2.71 (+0.03) 75.34 (-3.74) 64.77% (+5.15%) 77.35% (+5.67%)
+MiniGPT-4 3.97 72.35 2.35 (+0.04) 46.90 (+9.56) 60.86% (+2.73%) 70.07% (+7.30%)
+10
+--- Page 11 ---
+Table 4: Results of QA accuracy on the OK-VQA benchmark. All of the MLLM answers are generated with greedy decoding. A
+lower accuracy indicates a higher level of hallucination in MLLM answers. The best results are marked in bold, and the number
+in brackets indicates the hallucination improvement compared to the clean image.
+Target Model Input Surrogate Model
+InstructBLIP LLaV A-1.5 MiniGPT-4 Shikra
+InstructBLIPclean image 56.33
+ε=2/255 51.33 (-5.00) 55.99 (-0.34) 52.33 (-4.00) 56.66 (+0.33)
+ε=5/255 48.99 (-7.34) 53.99 (-2.34) 50.33 (-6.00) 50.33 (-6.00)
+ε=8/255 49.66 (-6.67) 49.99 (-6.34) 47.33 (-9.00) 52.33 (-4.00)
+LLaV A-1.5clean image 60.00
+ε=2/255 56.66 (-3.34) 57.33 (-2.67) 57.66 (-2.34) 56.99 (-3.01)
+ε=5/255 55.99 (-4.01) 56.66 (-3.34) 56.33 (-3.67) 52.33 (-7.67)
+ε=8/255 54.66 (-5.34) 52.33 (-7.67) 54.99 (-5.01) 58.66 (-1.34)
+MiniGPT-4clean image 40.66
+ε=2/255 42.33 (+1.67) 38.33 (-2.33) 39.33 (-1.33) 42.33 (+1.67)
+ε=5/255 39.33 (-1.33) 43.66 (+3.00) 36.66 (-4.00) 40.33 (-0.33)
+ε=8/255 39.33 (-1.33) 43.33 (+2.67) 34.00 (-6.66) 39.99 (-0.67)
+Shikraclean image 55.33
+ε=2/255 55.00 (-0.33) 54.66 (-0.67) 56.99 (+1.66) 56.66 (+1.33)
+ε=5/255 56.66 (+1.33) 54.00 (-1.33) 53.33 (-2.00) 51.33 (-4.00)
+ε=8/255 51.66 (-3.67) 52.99 (-2.34) 52.66 (-2.67) 53.33 (-2.00)
+tion in accuracy of up to 7.67%, emphasizing that adversarial
+visual inputs significantly impair the general visual under-
+standing capabilities of MLLMs. As a result, hallucinated
+answers may be generated and presented to downstream users,
+potentially leading to the propagation of misconceptions in
+real-world applications.
+To gain a deeper understanding of the adversarial effect
+on model responses, we engaged human experts to classify
+the hallucinations induced by our attack. The hallucinations
+are categorized into 5 different types with varying severity,
+as presented in Fig. 11. For further illustration, we provide
+qualitative analyses with several cases shown in Fig. 14 to
+Fig. 17 in the appendix.
+5.3 Black-box Transferability
+In real-world attack scenarios, the target MLLMs usually
+remain inaccessible to the attackers. To demonstrate the ef-
+fectiveness of hallucination attack under such settings, we
+construct adversarial visual inputs on one surrogate MLLM,
+and evaluate the transferability to both black-box MLLMs
+and closed-source commercial APIs. The attack is more chal-
+lenging since the model structure, parameters and training
+paradigms of target MLLMs are unknown to the attackers.
+Commercial API providers such as OpenAI may also im-
+plement advanced defenses against multi-modal inputs [92],
+which have successfully blocked semantics-based visual at-
+tacks [55] and typographic attacks [28].5.3.1 Attacking Black-box MLLMs.
+Image Captioning Task. In our experimental setup, we select
+one of the four target MLLMs in Section 5.1 as the surrogate
+model, and evaluate the black-box transferability on the re-
+maining ones. The results of hallucination evaluation for the
+image captioning task are presented in Tab. 3. Our proposed
+attack demonstrates high transferability across different struc-
+tures of MLLMs, with the perturbed visual inputs achieving a
+10.90% HSR and 12.74% HWR increase on black-box target
+models, even surpassing the increase in white-box attacks.
+We also find that the attack achieves better transferability on
+MLLMs with the same visual encoder architecture, due to the
+similar distribution of hidden states and the effects of disturb-
+ing the attention behaviors. More evaluation results of greedy
+search and nucleus sampling decoding are depicted in Tab. 10
+and 11 in the appendix.
+QA Task. The black-box evaluation results for the QA task
+are reported in Tab. 4, demonstrating strong transferability
+across different architectures. The occasional increases in the
+accuracy of adversarial visual inputs may be attributed to the
+limitations of the manually labeled answers.
+5.3.2 Attacking Closed-source Commercial APIs.
+Image Captioning Task. As for attacking commercial APIs,
+our goal is to examine whether the proposed attack could
+evade potential defense and detection measures implemented
+by IT giants. We choose the latest commercial MLLM APIs,
+i.e., the GPT-4o mini [66] and Gemini 1.5 flash [65], as the
+11
+--- Page 12 ---
+Human: Please describe this image in detail.Hallucination Attack
+Assistant: The image features a man sitting at a dining 
+table with a bowl of cereal in front of him. The table is fill
+ed with various food items, including a cup of cereal...Step:1, Sink token: items
+Assistant: The image features a man sitting at a dining 
+table with a bowl of cereal in front of him. He is holding 
+a spoon, ready to enjoy his breakfast. The table is...Step:3, Sink token: is
+Assistant: The image features a man sitting at a dining 
+table, holding a bowl in his hand. The table is set with 
+various items, including a cereal box, a carton of milk...Step:10, Sink token: hand
+Assistant: The image features a woman sitting at a din
+-ing table with a bowl of cereal in front of her. She is 
+holding a box of cereal, possibly a box of Cheer...Step:18, Sink token: .Black-box Transfer
+Human: Please describe this image in detail.
+Assistant: The image features a man sitting at the dining 
+table, holding an open box of cereal. He is surrounded 
+by various items on and around him: there are two bowls 
+placed near his left hand... A cup can be seen close 
+behind or next to this person's right arm as well. The- 
+re appears also some bread located toward... In addition, 
+several chairs surround the scene, three seats positi-
+oned along each wall... creating ample space for seating 
+during meals together...visual input
+0
+20
+40
+60
+80
+100
+120
+0 20406080100120
+attention mapFigure 6: Left: The visualization of sink tokens and model responses during the hallucination attack. We display an optimization
+process of LLaV A-1.5 on the HalluBench dataset. Right : The black-box transfer effect of the constructed adversarial visual
+input on InstructBLIP. A pronounced attention sink phenomenon is observed in the attention map. The attention sink in model
+responses is denoted with blue tokens , and the hallucinated content is denoted with indigo ones .
+target APIs. The adversarial transferability result for image
+captioning is displayed in Fig. 7. Though potential defenses
+are applied, the proposed attack still achieves a 3.40% and
+5.32% increase in hallucination words. As the captions of the
+commercial MLLM APIs have been utilized in applications
+like medical diagnosis [84], science education [38], and finan-
+cial decisions [46], the inaccurate interpretation induced by
+adversarial visual inputs deserves attention.
+QA Task. In the QA task, the adversarial effects in Fig.
+12 also reveal degraded visual comprehension and question-
+answering capabilities. Since commercial MLLM APIs are
+often regarded as powerful domain experts to guide the fine-
+tuning process (e.g., in medical [49, 76] and financial [24, 86]
+domains), our attack may significantly undermine the reliabil-
+ity of domain-specific MLLMs.
+5.4 The Quality of Model Responses
+When the attacker injects the adversarial visual input into
+target MLLMs, the model responses should resemble those
+in normal conversations, with no noticeable decline in qual-
+ity. Otherwise, the stealth of the hallucination attack cannot
+be ensured. We report the results of response quality for the
+image captioning task based on GPT-4 assisted evaluation in
+Fig. 8, and the results based on the Perplexity metric (PPL)
+in Fig. 13. Even if the model responses include more hallu-
+Figure 7: Results of GPT-4 assisted hallucination evaluation
+for image captioning task on commercial APIs: (a)GPT-4o
+mini released by OpenAI and (b)Gemini 1.5 Flash launched
+by Google. A larger HSR and HWR indicate more hallucina-
+tions in MLLM responses.
+cinated content, they still maintain a high level of semantic
+accuracy, usefulness, and fluency, indicating the feasibility
+and stealthiness of our attack in practical settings.
+5.5 Attacking Mitigation Mechanisms
+As discussed in Section 2.2, recent mitigation mechanisms
+of MLLM hallucination fall into three categories: mitigation
+12
+--- Page 13 ---
+Figure 8: Results of GPT-4 assisted response quality evalua-
+tion, covering both white-box and black-box attack scenarios.
+A higher score reflects better MLLM response quality.
+with decoding ,model retraining , and post-processing . To ver-
+ify the effectiveness of our attack on existing defenses, we
+select the representative methods as follows. All experiments
+are performed with the official implementation and released
+checkpoints in default parameters.
+OPERA [34]. Targeting the attention sink phenomenon,
+this method detects the columnar behavior in MLLM’s self-
+attention matrices, and applies penalty terms to the model
+logits during the beam search inference. As a decoding-based
+mitigation approach, it directly blocks the attention behaviors
+associated with hallucination attacks, establishing a strong
+baseline for mitigation.
+VCD [41]. Aiming to mitigate the inherent language prior, this
+method manipulates the decoding strategies of MLLMs, and
+adjusts the output logits with distorted visual inputs, which
+reflects the model’s reliance on statistical bias.
+Less is more [96]. Noticing the overly detailed descriptions
+in MLLM instruction-tuning datasets, this method fine-tunes
+released MLLMs with additional supervision on EOS de-
+cisions, encouraging the models to stop generation timely
+before hallucinated content.
+LRV-Instruction [50]. Addressing the limitation of existing
+instruction-tuning datasets that only contain samples of posi-
+tive answers, this method constructs a comprehensive dataset
+with negative samples to guide models in identifying incorrect
+instructions. The dataset is used to fine-tune released MLLMs
+to mitigate hallucination.
+LURE [101]. With a post-hoc rectification strategy, this
+method collects a hallucinatory dataset and fine-tunes an-
+other MLLM as the hallucination revisor. During inference,
+the trained revisor detects underlying object hallucinations
+with output logits and rectifies them with new responses.
+Attacking Mitigation Mechanisms. We assess the adversar-
+ial effects on LLaV A-1.5 and MiniGPT-4 with the represen-
+tative mitigation methods, and the results are detailed in Tab.
+5 and Tab. 6 respectively. Experimental results demonstrateTable 5: Results of GPT-4 assisted hallucination evaluation
+against mitigation mechanisms on LLaV A-1.5. (∗),(◦), and
+(⋄)denote methods through decoding ,model retraining , and
+post-processing respectively. Best results are marked in bold.
+Mitigation Input HSR(%) HWR(%)
+OPERA∗
+[34]clean 50.27% 51.93%
+ε=2/255 53.50% (+3.23%) 56.13% (+4.20%)
+ε=5/255 52.33% (+2.06%) 54.37% (+2.44%)
+ε=8/255 55.86% (+5.59%) 58.18% (+6.25%)
+VCD∗
+[41]clean 51.38% 53.58%
+ε=2/255 54.46% (+3.08%) 57.02% (+3.44%)
+ε=5/255 57.69% (+6.31%) 60.12% (+6.54%)
+ε=8/255 62.42% (+11.04%) 64.95 %(+11.37%)
+Less is
+More◦[96]clean 43.74% 45.78%
+ε=2/255 46.22% (+2.48%) 48.23% (+2.45%)
+ε=5/255 47.68% (+3.94%) 49.91% (+4.13%)
+ε=8/255 52.77% (+9.03%) 54.07% (+8.29%)
+Table 6: Results of GPT-4 assisted hallucination evaluation
+against mitigation mechanisms on MiniGPT-4. (∗),(◦), and
+(⋄)denote methods through decoding ,model retraining , and
+post-processing respectively. Best results are marked in bold.
+Mitigation Input HSR(%) HWR(%)
+OPERA∗
+[34]clean 43.71% 45.79%
+ε=2/255 57.09% (+13.38%) 59.34% (+13.55%)
+ε=5/255 60.78% (+17.07%) 63.75% (+17.96%)
+ε=8/255 59.03% (+15.32%) 61.82% (+16.03%)
+LRV-
+Instruction◦
+[50]clean 67.19% 70.82%
+ε=2/255 69.73% (+2.54%) 73.81% (+2.99%)
+ε=5/255 70.75% (+3.56%) 75.03% (+4.21%)
+ε=8/255 71.43% (+4.24%) 75.54% (+4.72%)
+LURE⋄
+[101]clean 48.57% 53.54%
+ε=2/255 58.21% (+9.64%) 64.44% (+10.90%)
+ε=5/255 59.42% (+10.85%) 67.41% (+13.87%)
+ε=8/255 59.97% (+11.40%) 67.85% (+14.31%)
+that the proposed attack succeeded in breaking all mitigation
+mechanisms in our evaluation, bringing the hallucination rate
+back to the level when no defenses are in place (e.g., the
+HWR achieves 75.54% in attacking LRV-Instruction defense,
+outperforming the one on vanilla model). This indicates the
+efficacy of our attack in bypassing existing mitigation meth-
+ods, including adaptive strategies like OPERA. It also reveals
+the shortcomings of current mitigation strategies in defending
+deliberately crafted perturbations.
+Attacking Adaptive Mitigation. Since the emergence of sink
+tokens triggers hallucinated content, we consider an early-
+stopping adaptive mitigation. With white-box access to the
+target MLLMs, this mitigation detects the attention sink phe-
+nomenon during generation and terminates output before sink
+tokens appear. Tab. 12 reports the length, quality, and hallu-
+cination metrics of MLLM responses under the mitigation
+13
+--- Page 14 ---
+Table 7: Results of GPT-4 assisted hallucination evaluation of the baseline method with beam search decoding. δdenotes of
+budget of random noises injected into visual inputs. The line of attack denotes the best results in the white-box attack scenario.
+InstructBLIP LLaV A-1.5 MiniGPT-4 Shikra
+HSR(%) HWR(%) HSR(%) HWR(%) HSR(%) HWR(%) HSR(%) HWR(%)
+clean 62.91% 64.93% 59.62% 71.68% 58.13% 62.77% 52.95% 53.16%
+δ=2/255 60.34% (-2.57%) 63.14% (-1.79%) 57.37% (-2.25%) 73.14% (+1.46%) 63.35% (+5.22%) 65.87% (+3.10%) 56.07% (+3.12%) 54.76% (+1.60%)
+δ=5/255 63.27% (+0.36%) 70.22% (+5.29%) 59.12% (-0.50%) 71.18% (-0.50%) 61.11% (+2.98%) 63.24% (+0.47%) 51.88% (-1.07%) 52.95% (-0.21%)
+δ=8/255 60.91% (-2.00%) 66.79% (+1.86%) 57.39% (-2.23%) 69.03% (-2.65%) 58.70% (+0.57%) 62.78% (+0.01%) 51.75% (-1.20%) 52.81% (-0.35%)
+attack 68.41% (+5.50%) 70.84% (+5.91%) 65.07% (+5.45%) 75.74% (+4.06%) 64.59% (+6.46%) 67.97% (+5.20%) 57.88% (+4.93%) 59.11% (+5.95%)
+strategy. Despite the implementation of adaptive mitigation,
+the adversarial visual inputs continue to provoke more severe
+hallucinations in model outputs. While adaptive mitigation re-
+duces hallucinated content, it significantly decreases the mean
+length and quality of responses by 45.36% and 63.67% respec-
+tively, resulting in incomplete and less detailed descriptions
+of image content. In real-world applications, this strategy may
+also incur substantial computational overhead and severely
+degrade the user experience for commercial APIs.
+5.6 Baseline Comparison
+To demonstrate the superiority of our attack in constructing
+adversarial perturbations that result in a severe level of hal-
+lucination, we consider visual inputs with random Gaussian
+noises as a baseline. The magnitude of random perturbation is
+set as the same of hallucination attacks. The attack effects of
+baseline methods with beam search decoding are displayed in
+Tab. 7. It is obvious that trivial random perturbation, though
+disrupting the feature extraction process of the visual en-
+coder and enhancing the model’s reliance on language priors,
+shows no significant attack effect in hallucinated content. The
+comparison highlights the importance of manipulating the
+inherent behaviors of MLLMs to influence their generation
+process. More comparison results of greedy search and nu-
+cleus sampling decoding are available in Tab. 13 and 14 in
+the appendix.
+6 Discussions
+Alignment of GPT-4 Assisted Evaluation. To assess the
+alignment and stability of GPT-4-based metrics, we engaged
+human experts to manually label the hallucinated segments
+of model responses, and examined the consistency of halluci-
+nation metrics. Detailed analysis is available in Section J of
+the appendix.
+Exploring Mitigation Strategies. In Section 5.5, we observe
+that the OPERA mitigation [34], though designed to coun-
+teract the attention sink behaviors, fails to defend against
+the adversarial visual inputs. One possible reason is that it
+only focuses on naturally occurring sink tokens during nor-
+mal generation processes, and reduces its efficacy in detect-ing and mitigating the adversarial manipulation of attention.
+Moreover, our attack achieves consistent success across all
+tested mitigation methods, underscoring their vulnerabilities
+in solving natural hallucinations but not considering adver-
+sarial inputs adequately. We hope this work inspires future
+research into more robust defensive strategies for MLLMs,
+such as those based on adversarial purification with diffusion
+models [36, 39], the defensive system prompt [83] against
+hallucination, and new training paradigms to overcome the
+challenges in instruction-tuning stages.
+Adversarial Textual Inputs. Our hallucination attack crafts
+adversarial visual inputs to achieve high effectiveness and
+transferability in MLLMs. Considering their multi-modal
+nature, exploring the perturbation of textual inputs is also
+valuable. Existing methods for optimizing adversarial texts
+typically involve gradient-based searches on predefined target
+responses and modifying discrete tokens to improve attack
+success [103]. A recent study of jailbreaking attacks against
+MLLMs suggests decoding adversarial visual inputs within
+the discrete textual domain [63] to narrow the sampling space.
+However, the adversarial texts created through these meth-
+ods generally lack meaningful semantics and are easily de-
+tectable. Our approach, on the other hand, optimizes adversar-
+ial perturbations by manipulating hidden states and attention
+mechanisms, which may overcome the current challenges of
+malicious textual inputs.
+Future Works. In our further research, we plan to extend the
+adversarial efficacy of the proposed attack to a broader range
+of multi-modal tasks, including visual reasoning, grounding,
+and multi-turn visual dialogues. Given the rapid adoption
+of MLLMs in commercial applications, we will also expand
+our evaluation to more commercial APIs and downstream
+modules, as evidence of their multi-modal capabilities. Addi-
+tionally, investigating mitigation strategies through the lens of
+attention mechanisms and developing defensive approaches
+are promising directions for future work.
+7 Conclusion
+This work approaches the prevalent hallucination problem
+in emerging MLLMs. Through a detailed analysis of the
+instruction-tuning phase of training, we reveal a critical link
+14
+--- Page 15 ---
+between the attention sink phenomenon and hallucinated re-
+sponses, shedding light on the mechanisms behind erroneous
+outputs. We propose a novel hallucination attack that induces
+attention sink behaviors, overcoming the limitations of pre-
+vious adversarial methods that rely on predefined patterns.
+Our attack exhibits high transferability, effectively bypassing
+extensive mitigation strategies and the latest closed-source
+commercial APIs. We aim to contribute to the safe and reliable
+development of MLLMs by highlighting current vulnerabili-
+ties and inspiring future mitigation strategies.
+Acknowledgement
+We sincerely appreciate the valuable comments from the shep-
+herd and reviewers that improve the paper’s quality. This work
+was supported in part by the National Natural Science Foun-
+dation of China (62472096, 62172104, 62172105, 62102093,
+62102091, 62302101, 62202106). Min Yang is a faculty of
+the Shanghai Institute of Intelligent Electronics & Systems
+and Engineering Research Center of Cyber Security Auditing
+and Monitoring, Ministry of Education, China.
+Ethics Considerations
+Our work investigates the hallucination problems in current
+MLLMs and highlights the potential limitations of existing
+mitigation strategies. To enhance the faithfulness and helpful-
+ness of MLLMs, we have shared our findings and examples
+with the providers of commercial MLLM APIs analyzed in
+this study (e.g., OpenAI, Google) via email.
+In all the experiments, the model responses only include
+hallucinated content that is inconsistent with visual inputs,
+with no harmful or malicious responses generated. All tests
+conducted with commercial APIs adhere to the platform’s
+usage guidelines, without any dissemination of hallucinated
+content or negative impacts on downstream applications.
+To facilitate further research on MLLM hallucination, we
+release our attack algorithms under a restrictive open-sourcing
+format. The access will be granted only upon request and
+exclusively for research purposes, mitigating misuse risks.
+Additionally, the adversarial visual inputs generated during
+this study will remain confidential to prevent potential harm.
+Open Science
+We are committed to the principles of open science and have
+made our source code available upon request for research
+purposes. Due to the limitations of restrictive open-source
+licensing, our code is not hosted on a platform with persistent
+access. Researchers are encouraged to contact us for access
+to the artifacts via https://huggingface.co/RachelHGF/
+Mirage-in-the-Eyes .References
+[1]Josh Achiam, Steven Adler, Sandhini Agarwal, Lama
+Ahmad, Ilge Akkaya, Florencia Leoni Aleman, Diogo
+Almeida, Janko Altenschmidt, Sam Altman, Shyamal
+Anadkat, et al. Gpt-4 technical report. arXiv preprint
+arXiv:2303.08774 , 2023.
+[2]Jean-Baptiste Alayrac, Jeff Donahue, Pauline Luc,
+Antoine Miech, Iain Barr, Yana Hasson, Karel
+Lenc, Arthur Mensch, Katherine Millican, Malcolm
+Reynolds, et al. Flamingo: a visual language model
+for few-shot learning. Advances in neural information
+processing systems , 35:23716–23736, 2022.
+[3]Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, Mar-
+garet Mitchell, Dhruv Batra, C Lawrence Zitnick, and
+Devi Parikh. Vqa: Visual question answering. In
+Proceedings of the IEEE international conference on
+computer vision , pages 2425–2433, 2015.
+[4]Jinze Bai, Shuai Bai, Shusheng Yang, Shijie Wang,
+Sinan Tan, Peng Wang, Junyang Lin, Chang Zhou,
+and Jingren Zhou. Qwen-vl: A frontier large vision-
+language model with versatile abilities. arXiv preprint
+arXiv:2308.12966 , 2023.
+[5]Zechen Bai, Pichao Wang, Tianjun Xiao, Tong He,
+Zongbo Han, Zheng Zhang, and Mike Zheng Shou.
+Hallucination of multimodal large language models: A
+survey. arXiv preprint arXiv:2404.18930 , 2024.
+[6]Davide Caffagni, Federico Cocchi, Luca Barsellotti,
+Nicholas Moratelli, Sara Sarto, Lorenzo Baraldi, Mar-
+cella Cornia, and Rita Cucchiara. The (r) evolution of
+multimodal large language models: A survey. arXiv
+preprint arXiv:2402.12451 , 2024.
+[7]Beitao Chen, Xinyu Lyu, Lianli Gao, Jingkuan Song,
+and Heng Tao Shen. Alleviating hallucinations in large
+vision-language models through hallucination-induced
+optimization. arXiv preprint arXiv:2405.15356 , 2024.
+[8] Gongwei Chen, Leyang Shen, Rui Shao, Xiang Deng,
+and Liqiang Nie. Lion: Empowering multimodal large
+language model with dual-level visual knowledge. In
+Proceedings of the IEEE/CVF Conference on Com-
+puter Vision and Pattern Recognition , pages 26540–
+26550, 2024.
+[9]Guiming Hardy Chen, Shunian Chen, Ruifei Zhang,
+Junying Chen, Xiangbo Wu, Zhiyi Zhang, Zhi-
+hong Chen, Jianquan Li, Xiang Wan, and Benyou
+Wang. Allava: Harnessing gpt4v-synthesized data
+for a lite vision-language model. arXiv preprint
+arXiv:2402.11684 , 2024.
+[10] Jun Chen, Deyao Zhu, Xiaoqian Shen, Xiang Li,
+Zechun Liu, Pengchuan Zhang, Raghuraman Krish-
+namoorthi, Vikas Chandra, Yunyang Xiong, and Mo-
+hamed Elhoseiny. Minigpt-v2: large language model
+as a unified interface for vision-language multi-task
+learning. arXiv preprint arXiv:2310.09478 , 2023.
+15
+--- Page 16 ---
+[11] Kang Chen, Qingheng Zhang, Chengbao Lian, Yixin Ji,
+Xuwei Liu, Shuguang Han, Guoqiang Wu, Fei Huang,
+and Jufeng Chen. Ipl: Leveraging multimodal large
+language models for intelligent product listing. arXiv
+preprint arXiv:2410.16977 , 2024.
+[12] Ke Chen, Zhao Zhang, Weili Zeng, Richong Zhang,
+Feng Zhu, and Rui Zhao. Shikra: Unleashing mul-
+timodal llm’s referential dialogue magic. ArXiv ,
+abs/2306.15195, 2023.
+[13] Lin Chen, Jisong Li, Xiaoyi Dong, Pan Zhang, Con-
+ghui He, Jiaqi Wang, Feng Zhao, and Dahua Lin.
+Sharegpt4v: Improving large multi-modal models with
+better captions. arXiv preprint arXiv:2311.12793 ,
+2023.
+[14] Xuweiyi Chen, Ziqiao Ma, Xuejun Zhang, Sihan Xu,
+Shengyi Qian, Jianing Yang, David F Fouhey, and
+Joyce Chai. Multi-object hallucination in vision-
+language models. arXiv preprint arXiv:2407.06192 ,
+2024.
+[15] Hao Cheng, Erjia Xiao, Jiahang Cao, Le Yang, Kaidi
+Xu, Jindong Gu, and Renjing Xu. Typography leads
+semantic diversifying: Amplifying adversarial trans-
+ferability across multimodal large language models.
+arXiv preprint arXiv:2405.20090 , 2024.
+[16] Wei-Lin Chiang, Zhuohan Li, Zi Lin, Ying Sheng,
+Zhanghao Wu, Hao Zhang, Lianmin Zheng, Siyuan
+Zhuang, Yonghao Zhuang, Joseph E Gonzalez, et al.
+Vicuna: An open-source chatbot impressing gpt-4 with
+90%* chatgpt quality. See https://vicuna. lmsys. org
+(accessed 14 April 2023) , 2(3):6, 2023.
+[17] David Maxwell Chickering. Optimal structure identifi-
+cation with greedy search. Journal of machine learning
+research , 3(Nov):507–554, 2002.
+[18] Xuanming Cui, Alejandro Aparcedo, Young Kyun
+Jang, and Ser-Nam Lim. On the robustness of large
+multimodal models against image adversarial attacks.
+InProceedings of the IEEE/CVF Conference on Com-
+puter Vision and Pattern Recognition , pages 24625–
+24634, 2024.
+[19] Wenliang Dai, Junnan Li, Dongxu Li, Anthony
+Meng Huat Tiong, Junqi Zhao, Weisheng Wang,
+Boyang Albert Li, Pascale Fung, and Steven C. H. Hoi.
+Instructblip: Towards general-purpose vision-language
+models with instruction tuning. ArXiv , abs/2305.06500,
+2023.
+[20] Timothée Darcet, Maxime Oquab, Julien Mairal, and
+Piotr Bojanowski. Vision transformers need registers.
+InThe Twelfth International Conference on Learning
+Representations , 2024.
+[21] Xinpeng Ding, Jianhua Han, Hang Xu, Wei Zhang,
+and Xiaomeng Li. Hilm-d: Towards high-resolution
+understanding in multimodal large language models for
+autonomous driving. arXiv preprint arXiv:2309.05186 ,
+2023.[22] Alexey Dosovitskiy, Lucas Beyer, Alexander
+Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas
+Unterthiner, Mostafa Dehghani, Matthias Minderer,
+Georg Heigold, Sylvain Gelly, et al. An image is worth
+16x16 words: Transformers for image recognition
+at scale. In International Conference on Learning
+Representations , 2020.
+[23] Yuxin Fang, Wen Wang, Binhui Xie, Quan Sun, Ledell
+Wu, Xinggang Wang, Tiejun Huang, Xinlong Wang,
+and Yue Cao. Eva: Exploring the limits of masked
+visual representation learning at scale. In Proceedings
+of the IEEE/CVF Conference on Computer Vision and
+Pattern Recognition , pages 19358–19369, 2023.
+[24] Ziliang Gan, Yu Lu, Dong Zhang, Haohan Li, Che Liu,
+Jian Liu, Ji Liu, Haipang Wu, Chaoyou Fu, Zenglin Xu,
+et al. Mme-finance: A multimodal finance benchmark
+for expert-level understanding and reasoning. arXiv
+preprint arXiv:2411.03314 , 2024.
+[25] Kuofeng Gao, Yang Bai, Jiawang Bai, Yong Yang, and
+Shu-Tao Xia. Adversarial robustness for visual ground-
+ing of multimodal large language models. In ICLR
+2024 Workshop on Reliable and Responsible Founda-
+tion Models , 2024.
+[26] Kuofeng Gao, Yang Bai, Jindong Gu, Shu-Tao Xia,
+Philip Torr, Zhifeng Li, and Wei Liu. Inducing high
+energy-latency of large vision-language models with
+verbose images. In The Twelfth International Confer-
+ence on Learning Representations , 2024.
+[27] Tao Gong, Chengqi Lyu, Shilong Zhang, Yudong Wang,
+Miao Zheng, Qian Zhao, Kuikun Liu, Wenwei Zhang,
+Ping Luo, and Kai Chen. Multimodal-gpt: A vision
+and language model for dialogue with humans. arXiv
+preprint arXiv:2305.04790 , 2023.
+[28] Yichen Gong, Delong Ran, Jinyuan Liu, Conglei Wang,
+Tianshuo Cong, Anyu Wang, Sisi Duan, and Xiaoyun
+Wang. Figstep: Jailbreaking large vision-language
+models via typographic visual prompts. arXiv preprint
+arXiv:2311.05608 , 2023.
+[29] Tianrui Guan, Fuxiao Liu, Xiyang Wu, Ruiqi Xian,
+Zongxia Li, Xiaoyu Liu, Xijun Wang, Lichang Chen,
+Furong Huang, Yaser Yacoob, et al. Hallusionbench: an
+advanced diagnostic suite for entangled language hal-
+lucination and visual illusion in large vision-language
+models. In Proceedings of the IEEE/CVF Conference
+on Computer Vision and Pattern Recognition , pages
+14375–14385, 2024.
+[30] Zongbo Han, Zechen Bai, Haiyang Mei, Qianli Xu,
+Changqing Zhang, and Mike Zheng Shou. Skip \n: A
+simple method to reduce hallucination in large vision-
+language models. arXiv preprint arXiv:2402.01345 ,
+2024.
+[31] Jack Hessel, Ari Holtzman, Maxwell Forbes, Ronan
+Le Bras, and Yejin Choi. Clipscore: A reference-free
+16
+--- Page 17 ---
+evaluation metric for image captioning. In Proceed-
+ings of the 2021 Conference on Empirical Methods
+in Natural Language Processing , pages 7514–7528,
+2021.
+[32] Ari Holtzman, Jan Buys, Li Du, Maxwell Forbes, and
+Yejin Choi. The curious case of neural text degenera-
+tion. arXiv preprint arXiv:1904.09751 , 2019.
+[33] Yu-Chih-Tuan Hu, Bo-Han Kung, Daniel Stanley Tan,
+Jun-Cheng Chen, Kai-Lung Hua, and Wen-Huang
+Cheng. Naturalistic physical adversarial patch for
+object detectors. In Proceedings of the IEEE/CVF
+International Conference on Computer Vision , pages
+7848–7857, 2021.
+[34] Qidong Huang, Xiaoyi Dong, Pan Zhang, Bin Wang,
+Conghui He, Jiaqi Wang, Dahua Lin, Weiming Zhang,
+and Nenghai Yu. Opera: Alleviating hallucination
+in multi-modal large language models via over-trust
+penalty and retrospection-allocation. In Proceedings
+of the IEEE/CVF Conference on Computer Vision and
+Pattern Recognition , pages 13418–13427, 2024.
+[35] Chaoya Jiang, Haiyang Xu, Mengfan Dong, Jiaxing
+Chen, Wei Ye, Ming Yan, Qinghao Ye, Ji Zhang, Fei
+Huang, and Shikun Zhang. Hallucination augmented
+contrastive learning for multimodal large language
+model. In Proceedings of the IEEE/CVF Conference
+on Computer Vision and Pattern Recognition , pages
+27036–27046, 2024.
+[36] Mintong Kang, Dawn Song, and Bo Li. Diffattack:
+Evasion attacks against diffusion-based adversarial pu-
+rification. Advances in Neural Information Processing
+Systems , 36, 2024.
+[37] Ranjay Krishna, Yuke Zhu, Oliver Groth, Justin John-
+son, Kenji Hata, Joshua Kravitz, Stephanie Chen, Yan-
+nis Kalantidis, Li-Jia Li, David A Shamma, et al. Vi-
+sual genome: Connecting language and vision using
+crowdsourced dense image annotations. International
+journal of computer vision , 123:32–73, 2017.
+[38] Gyeong-Geon Lee, Ehsan Latif, Lehong Shi, and Xi-
+aoming Zhai. Gemini pro defeated by gpt-4v: Evidence
+from education. arXiv preprint arXiv:2401.08660 ,
+2023.
+[39] Minjong Lee and Dongwoo Kim. Robust evaluation
+of diffusion-based adversarial purification. In Proceed-
+ings of the IEEE/CVF International Conference on
+Computer Vision , pages 134–144, 2023.
+[40] Seongyun Lee, Sue Hyun Park, Yongrae Jo, and Min-
+joon Seo. V olcano: mitigating multimodal halluci-
+nation through self-feedback guided revision. arXiv
+preprint arXiv:2311.07362 , 2023.
+[41] Sicong Leng, Hang Zhang, Guanzheng Chen, Xin Li,
+Shijian Lu, Chunyan Miao, and Lidong Bing. Miti-
+gating object hallucinations in large vision-languagemodels through visual contrastive decoding. In Pro-
+ceedings of the IEEE/CVF Conference on Computer
+Vision and Pattern Recognition , pages 13872–13882,
+2024.
+[42] Chunyuan Li, Cliff Wong, Sheng Zhang, Naoto
+Usuyama, Haotian Liu, Jianwei Yang, Tristan Nau-
+mann, Hoifung Poon, and Jianfeng Gao. Llava-med:
+Training a large language-and-vision assistant for
+biomedicine in one day. Advances in Neural Infor-
+mation Processing Systems , 36, 2024.
+[43] Xiaoqi Li, Mingxu Zhang, Yiran Geng, Haoran Geng,
+Yuxing Long, Yan Shen, Renrui Zhang, Jiaming Liu,
+and Hao Dong. Manipllm: Embodied multimodal large
+language model for object-centric robotic manipula-
+tion. In Proceedings of the IEEE/CVF Conference
+on Computer Vision and Pattern Recognition , pages
+18061–18070, 2024.
+[44] Yifan Li, Yifan Du, Kun Zhou, Jinpeng Wang,
+Wayne Xin Zhao, and Ji-Rong Wen. Evaluating object
+hallucination in large vision-language models. arXiv
+preprint arXiv:2305.10355 , 2023.
+[45] Zhang Li, Biao Yang, Qiang Liu, Zhiyin Ma, Shuo
+Zhang, Jingxu Yang, Yabo Sun, Yuliang Liu, and Xi-
+ang Bai. Monkey: Image resolution and text label are
+important things for large multi-modal models. In Pro-
+ceedings of the IEEE/CVF Conference on Computer
+Vision and Pattern Recognition , pages 26763–26773,
+2024.
+[46] Chenwei Lin, Hanjia Lyu, Jiebo Luo, and Xian Xu.
+Harnessing gpt-4v (ision) for insurance: A preliminary
+exploration. arXiv preprint arXiv:2404.09690 , 2024.
+[47] Tsung-Yi Lin, Michael Maire, Serge Belongie, James
+Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and
+C Lawrence Zitnick. Microsoft coco: Common objects
+in context. In Computer Vision–ECCV 2014: 13th
+European Conference, Zurich, Switzerland, September
+6-12, 2014, Proceedings, Part V 13 , pages 740–755.
+Springer, 2014.
+[48] Zheng Lin, Zhenxing Niu, Zhibin Wang, and Yinghui
+Xu. Interpreting and mitigating hallucination in
+mllms through multi-agent debate. arXiv preprint
+arXiv:2407.20505 , 2024.
+[49] Bo Liu, Ke Zou, Liming Zhan, Zexin Lu, Xiaoyu Dong,
+Yidi Chen, Chengqiang Xie, Jiannong Cao, Xiao-Ming
+Wu, and Huazhu Fu. Gemex: A large-scale, groundable,
+and explainable medical vqa benchmark for chest x-ray
+diagnosis. arXiv preprint arXiv:2411.16778 , 2024.
+[50] Fuxiao Liu, Kevin Lin, Linjie Li, Jianfeng Wang, Yaser
+Yacoob, and Lijuan Wang. Mitigating hallucination in
+large multi-modal models via robust instruction tuning.
+InThe Twelfth International Conference on Learning
+Representations , 2023.
+17
+--- Page 18 ---
+[51] Haotian Liu, Chunyuan Li, Yuheng Li, and Yong Jae
+Lee. Improved baselines with visual instruction tun-
+ing. In Proceedings of the IEEE/CVF Conference
+on Computer Vision and Pattern Recognition , pages
+26296–26306, 2024.
+[52] Haotian Liu, Chunyuan Li, Qingyang Wu, and
+Yong Jae Lee. Visual instruction tuning. Advances in
+neural information processing systems , 36, 2024.
+[53] Hui Liu and Xiaojun Wan. Models see hallucinations:
+Evaluating the factuality in video captioning. arXiv
+preprint arXiv:2303.02961 , 2023.
+[54] Jiazhen Liu, Yuhan Fu, Ruobing Xie, Runquan Xie,
+Xingwu Sun, Fengzong Lian, Zhanhui Kang, and
+Xirong Li. Phd: A prompted visual hallucination evalu-
+ation dataset. arXiv preprint arXiv:2403.11116 , 2024.
+[55] Xin Liu, Yichen Zhu, Yunshi Lan, Chao Yang, and
+Yu Qiao. Query-relevant images jailbreak large multi-
+modal models. arXiv preprint arXiv:2311.17600 , 2023.
+[56] Yangzhou Liu, Yue Cao, Zhangwei Gao, Weiyun Wang,
+Zhe Chen, Wenhai Wang, Hao Tian, Lewei Lu, Xizhou
+Zhu, Tong Lu, et al. Mminstruct: A high-quality multi-
+modal instruction tuning dataset with extensive diver-
+sity. arXiv preprint arXiv:2407.15838 , 2024.
+[57] Zijun Long, George Killick, Richard McCreadie, and
+Gerardo Aragon-Camarasa. Robollm: Robotic vision
+tasks grounded on multimodal large language models.
+In2024 IEEE International Conference on Robotics
+and Automation (ICRA) , pages 12428–12435. IEEE,
+2024.
+[58] Weidi Luo, Siyuan Ma, Xiaogeng Liu, Xiaoyu Guo,
+and Chaowei Xiao. Jailbreakv-28k: A benchmark
+for assessing the robustness of multimodal large lan-
+guage models against jailbreak attacks. arXiv preprint
+arXiv:2404.03027 , 2024.
+[59] Siyuan Ma, Weidi Luo, Yu Wang, Xiaogeng Liu,
+Muhao Chen, Bo Li, and Chaowei Xiao. Visual-
+roleplay: Universal jailbreak attack on multimodal
+large language models via role-playing image char-
+acte. arXiv preprint arXiv:2405.20773 , 2024.
+[60] Kenneth Marino, Mohammad Rastegari, Ali Farhadi,
+and Roozbeh Mottaghi. Ok-vqa: A visual question
+answering benchmark requiring external knowledge.
+InProceedings of the IEEE/cvf conference on com-
+puter vision and pattern recognition , pages 3195–3204,
+2019.
+[61] Shervin Minaee, Tomas Mikolov, Narjes Nikzad,
+Meysam Chenaghlu, Richard Socher, Xavier Amatri-
+ain, and Jianfeng Gao. Large language models: A
+survey. arXiv preprint arXiv:2402.06196 , 2024.
+[62] Thao Nguyen, Haotian Liu, Yuheng Li, Mu Cai,
+Utkarsh Ojha, and Yong Jae Lee. Yo’llava: Your per-
+sonalized language and vision assistant. arXiv preprint
+arXiv:2406.09400 , 2024.[63] Zhenxing Niu, Haodong Ren, Xinbo Gao, Gang Hua,
+and Rong Jin. Jailbreaking attack against mul-
+timodal large language model. arXiv preprint
+arXiv:2402.02309 , 2024.
+[64] OpenAI. Gpt-4v(ision) technical work and authors.
+2023.
+[65] OpenAI. Gemini flash. 2024.
+[66] OpenAI. Gpt-4o mini: advancing cost-efficient intelli-
+gence. 2024.
+[67] Ankit Pal and Malaikannan Sankarasubbu. Gem-
+ini goes to med school: exploring the capabilities of
+multimodal large language models on medical chal-
+lenge problems & hallucinations. arXiv preprint
+arXiv:2402.07023 , 2024.
+[68] Zhiliang Peng, Wenhui Wang, Li Dong, Yaru Hao,
+Shaohan Huang, Shuming Ma, and Furu Wei. Kosmos-
+2: Grounding multimodal large language models to the
+world. arXiv preprint arXiv:2306.14824 , 2023.
+[69] Zhiliang Peng, Wenhui Wang, Li Dong, Yaru Hao,
+Shaohan Huang, Shuming Ma, Qixiang Ye, and Furu
+Wei. Grounding multimodal large language models to
+the world. In The Twelfth International Conference on
+Learning Representations , 2024.
+[70] Xiangyu Qi, Kaixuan Huang, Ashwinee Panda, Peter
+Henderson, Mengdi Wang, and Prateek Mittal. Visual
+adversarial examples jailbreak aligned large language
+models. In Proceedings of the AAAI Conference on
+Artificial Intelligence , volume 38, pages 21527–21536,
+2024.
+[71] Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya
+Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sas-
+try, Amanda Askell, Pamela Mishkin, Jack Clark, et al.
+Learning transferable visual models from natural lan-
+guage supervision. In International conference on
+machine learning , pages 8748–8763. PMLR, 2021.
+[72] Anna Rohrbach, Lisa Anne Hendricks, Kaylee Burns,
+Trevor Darrell, and Kate Saenko. Object hallucination
+in image captioning. In Proceedings of the 2018 Con-
+ference on Empirical Methods in Natural Language
+Processing , pages 4035–4045, 2018.
+[73] C Schuhmann, A Köpf, R Vencu, T Coombes, and
+R Beaumont. Laion coco: 600m synthetic cap-
+tions from laion2b-en. https://laion.ai/blog/laion-coco ,
+2022.
+[74] Erfan Shayegani, Yue Dong, and Nael Abu-Ghazaleh.
+Jailbreak in pieces: Compositional adversarial attacks
+on multi-modal language models. In The Twelfth In-
+ternational Conference on Learning Representations ,
+2023.
+18
+--- Page 19 ---
+[75] Seungwoo Son, Wonpyo Park, Woohyun Han,
+Kyuyeun Kim, and Jaeho Lee. Prefixing attention
+sinks can mitigate activation outliers for large language
+model quantization. arXiv preprint arXiv:2406.12016 ,
+2024.
+[76] Guohao Sun, Can Qin, Huazhu Fu, Linwei Wang, and
+Zhiqiang Tao. Self-training large language and vision
+assistant for medical question answering. In Proceed-
+ings of the 2024 Conference on Empirical Methods
+in Natural Language Processing , pages 20052–20060,
+2024.
+[77] Zhiqing Sun, Sheng Shen, Shengcao Cao, Haotian Liu,
+Chunyuan Li, Yikang Shen, Chuang Gan, Liang-Yan
+Gui, Yu-Xiong Wang, Yiming Yang, et al. Aligning
+large multimodal models with factually augmented rlhf.
+arXiv preprint arXiv:2309.14525 , 2023.
+[78] Zhiyu Tan, Mengping Yang, Luozheng Qin, Hao Yang,
+Ye Qian, Qiang Zhou, Cheng Zhang, and Hao Li. An
+empirical study and analysis of text-to-image genera-
+tion using large language model-powered textual rep-
+resentation. arXiv preprint arXiv:2405.12914 , 2024.
+[79] Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier
+Martinet, Marie-Anne Lachaux, Timothée Lacroix,
+Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal
+Azhar, et al. Llama: Open and efficient foundation
+language models. arXiv preprint arXiv:2302.13971 ,
+2023.
+[80] Ashish Vaswani. Attention is all you need. arXiv
+preprint arXiv:1706.03762 , 2017.
+[81] Junyang Wang, Yuhang Wang, Guohai Xu, Jing Zhang,
+Yukai Gu, Haitao Jia, Ming Yan, Ji Zhang, and Ji-
+tao Sang. An llm-free multi-dimensional benchmark
+for mllms hallucination evaluation. arXiv preprint
+arXiv:2311.07397 , 2023.
+[82] Lean Wang, Lei Li, Damai Dai, Deli Chen, Hao Zhou,
+Fandong Meng, Jie Zhou, and Xu Sun. Label words are
+anchors: An information flow perspective for under-
+standing in-context learning. In The 2023 Conference
+on Empirical Methods in Natural Language Process-
+ing, 2023.
+[83] Yu Wang, Xiaogeng Liu, Yu Li, Muhao Chen, and
+Chaowei Xiao. Adashield: Safeguarding multi-
+modal large language models from structure-based at-
+tack via adaptive shield prompting. arXiv preprint
+arXiv:2403.09513 , 2024.
+[84] Chaoyi Wu, Jiayu Lei, Qiaoyu Zheng, Weike Zhao,
+Weixiong Lin, Xiaoman Zhang, Xiao Zhou, Ziheng
+Zhao, Ya Zhang, Yanfeng Wang, et al. Can gpt-4v
+(ision) serve medical applications? case studies on gpt-
+4v for multimodal medical diagnosis. arXiv preprint
+arXiv:2310.09909 , 2023.[85] Guangxuan Xiao, Yuandong Tian, Beidi Chen, Song
+Han, and Mike Lewis. Efficient streaming language
+models with attention sinks. In The Twelfth Interna-
+tional Conference on Learning Representations , 2024.
+[86] Qianqian Xie, Dong Li, Mengxi Xiao, Zihao Jiang,
+Ruoyu Xiang, Xiao Zhang, Zhengyu Chen, Yueru He,
+Weiguang Han, Yuzhe Yang, et al. Open-finllms: Open
+multimodal large language models for financial appli-
+cations. arXiv preprint arXiv:2408.11878 , 2024.
+[87] Yuxi Xie, Kenji Kawaguchi, Yiran Zhao, James Xu
+Zhao, Min-Yen Kan, Junxian He, and Michael Xie.
+Self-evaluation guided beam search for reasoning. Ad-
+vances in Neural Information Processing Systems , 36,
+2024.
+[88] Zhenhua Xu, Yujia Zhang, Enze Xie, Zhen Zhao, Yong
+Guo, Kwan-Yee K Wong, Zhenguo Li, and Heng-
+shuang Zhao. Drivegpt4: Interpretable end-to-end au-
+tonomous driving via large language model. IEEE
+Robotics and Automation Letters , 2024.
+[89] Jiabo Ye, Anwen Hu, Haiyang Xu, Qinghao Ye, Ming
+Yan, Guohai Xu, Chenliang Li, Junfeng Tian, Qi Qian,
+Ji Zhang, et al. Ureader: Universal ocr-free visually-
+situated language understanding with multimodal large
+language model. arXiv preprint arXiv:2310.05126 ,
+2023.
+[90] Qinghao Ye, Haiyang Xu, Guohai Xu, Jiabo Ye,
+Ming Yan, Yiyang Zhou, Junyang Wang, Anwen Hu,
+Pengcheng Shi, Yaya Shi, et al. mplug-owl: Modular-
+ization empowers large language models with multi-
+modality. arXiv preprint arXiv:2304.14178 , 2023.
+[91] Shukang Yin, Chaoyou Fu, Sirui Zhao, Tong Xu, Hao
+Wang, Dianbo Sui, Yunhang Shen, Ke Li, Xing Sun,
+and Enhong Chen. Woodpecker: Hallucination cor-
+rection for multimodal large language models. arXiv
+preprint arXiv:2310.16045 , 2023.
+[92] Zonghao Ying, Aishan Liu, Xianglong Liu, and
+Dacheng Tao. Unveiling the safety of gpt-4o: An em-
+pirical study using jailbreak attacks. arXiv preprint
+arXiv:2406.06302 , 2024.
+[93] Qifan Yu, Juncheng Li, Longhui Wei, Liang Pang, Wen-
+tao Ye, Bosheng Qin, Siliang Tang, Qi Tian, and Yuet-
+ing Zhuang. Hallucidoctor: Mitigating hallucinatory
+toxicity in visual instruction data. In Proceedings of
+the IEEE/CVF Conference on Computer Vision and
+Pattern Recognition , pages 12944–12953, 2024.
+[94] Tianyu Yu, Yuan Yao, Haoye Zhang, Taiwen He,
+Yifeng Han, Ganqu Cui, Jinyi Hu, Zhiyuan Liu, Hai-
+Tao Zheng, Maosong Sun, et al. Rlhf-v: Towards
+trustworthy mllms via behavior alignment from fine-
+grained correctional human feedback. In Proceedings
+of the IEEE/CVF Conference on Computer Vision and
+Pattern Recognition , pages 13807–13816, 2024.
+19
+--- Page 20 ---
+[95] Zhongzhi Yu, Zheng Wang, Yonggan Fu, Huihong Shi,
+Khalid Shaikh, and Yingyan Celine Lin. Unveiling and
+harnessing hidden attention sinks: Enhancing large
+language models without training through attention
+calibration. arXiv preprint arXiv:2406.15765 , 2024.
+[96] Zihao Yue, Liang Zhang, and Qin Jin. Less is more:
+Mitigating multimodal hallucination from an eos de-
+cision perspective. arXiv preprint arXiv:2402.14545 ,
+2024.
+[97] Yanzhe Zhang, Ruiyi Zhang, Jiuxiang Gu, Yufan Zhou,
+Nedim Lipka, Diyi Yang, and Tong Sun. Llavar: En-
+hanced visual instruction tuning for text-rich image un-
+derstanding. arXiv preprint arXiv:2306.17107 , 2023.
+[98] Yunqing Zhao, Tianyu Pang, Chao Du, Xiao Yang,
+Chongxuan Li, Ngai-Man Man Cheung, and Min Lin.
+On evaluating adversarial robustness of large vision-
+language models. Advances in Neural Information
+Processing Systems , 36, 2024.
+[99] Zhiyuan Zhao, Bin Wang, Linke Ouyang, Xiaoyi
+Dong, Jiaqi Wang, and Conghui He. Beyond hal-
+lucinations: Enhancing lvlms through hallucination-
+aware direct preference optimization. arXiv preprint
+arXiv:2311.16839 , 2023.
+[100] Juexiao Zhou, Xiaonan He, Liyuan Sun, Jiannan Xu,
+Xiuying Chen, Yuetan Chu, Longxi Zhou, Xingyu Liao,
+Bin Zhang, Shawn Afvari, et al. Pre-trained multi-
+modal large language model enhances dermatological
+diagnosis using skingpt-4. Nature Communications ,
+15(1):5649, 2024.
+[101] Yiyang Zhou, Chenhang Cui, Jaehong Yoon, Linjun
+Zhang, Zhun Deng, Chelsea Finn, Mohit Bansal, and
+Huaxiu Yao. Analyzing and mitigating object halluci-
+nation in large vision-language models. In The Twelfth
+International Conference on Learning Representations ,
+2024.
+[102] Deyao Zhu, Jun Chen, Xiaoqian Shen, Xiang Li, and
+Mohamed Elhoseiny. Minigpt-4: Enhancing vision-
+language understanding with advanced large language
+models. arXiv preprint arXiv:2304.10592 , 2023.
+[103] Andy Zou, Zifan Wang, Nicholas Carlini, Milad Nasr,
+J Zico Kolter, and Matt Fredrikson. Universal and
+transferable adversarial attacks on aligned language
+models. arXiv preprint arXiv:2307.15043 , 2023.
+A Decoding Strategies of MLLMs
+Decoding strategies play a vital role in the quality and rel-
+evance of MLLM responses, which guide the prediction of
+the next token based on the distribution of the current gener-
+ated sequence. Several methods, such as greedy search, beamsearch, and nucleus sampling, have been proposed to improve
+text generation quality.
+Greedy search [17], characterized by its simplicity and
+computational efficiency, selects the token with the highest
+probability at each step. However, this approach can lead to
+sub-optimal results, with the generated text lacking diversity
+and sometimes getting stuck in repetitive or overly determin-
+istic outputs.
+Beam search [32,87] is an advanced decoding strategy that
+attempts to balance response quality and computational cost.
+Maintaining a fixed number of candidate sequences, known
+as the beam width, beam search allows MLLMs to explore
+multiple potential paths during decoding, thereby increasing
+the likelihood of identifying an optimal sequence. The beam
+width is defined as a critical hyperparameter, where a larger
+width expands the search space, but at the cost of increased
+computational resources.
+Nucleus sampling [32], or Top-p sampling, introduces a
+controlled element of randomness to the text generation pro-
+cess to enhance the diversity of output. This method selects
+the next token from a dynamically determined subset of to-
+kens, where the cumulative probability surpasses a prede-
+fined threshold. By adjusting the value of p, nucleus sampling
+effectively manages the trade-off between randomness and
+determinism, offering more varied and coherent responses.
+B Details of Implementation
+During the hallucination attack, we set the total steps Smax
+of adversarial optimization as 30, with a learning rate γof
+5 to update the adversarial perturbations. The attack budget
+εis varied across 2/255,5/255, and 8/255to modulate the
+perturbation magnitude. Following an ablation study, we set
+the hyper-parameter α=1to optimize attack effectiveness.
+When retrieving hidden states from intermediate levels, we se-
+lect the second-to-last layer for InstructBLIP and LLaV A-1.5,
+and the third-to-last layer for MiniGPT-4 and Shikra. During
+model response generation with beam search decoding, we
+configured the beam width Nbeam to 3.
+C Prompt for GPT-4 Assisted Evaluation
+To assess the hallucination of objects, attributes, and relation-
+ships in open-ended model responses, we adopt the GPT-4
+assisted evaluation on HalluBench [99]. The prompt used
+for hallucination evaluation is displayed in Fig. 9, where the
+bounding box coordinates, the region descriptions, and human-
+annotated factual knowledge are provided as a context.
+When performing the hallucination evaluation, we consider
+six aspects of metrics, which are listed as follows.
+1.SPI: The number of sentences per image in MLLM re-
+sponses. This metric quantifies the level of detail in an
+MLLM’s response at the sentence level.
+20
+--- Page 21 ---
+2.WPI : The number of words per image in MLLM re-
+sponses. This metric assesses the level of detail in an
+MLLM’s response at the word level.
+3.HSPI : The number of hallucinated sentences per image.
+This metric indicates the extent of hallucination within
+an MLLM’s response at the sentence level, counting any
+sentence that contains fabricated content.
+4.HWPI : The number of hallucinated words per image.
+This metric measures the extent of hallucination within
+an MLLM’s response at the word level, accounting for
+any words associated with hallucinated content.
+5.HSR : The ratio of hallucinated sentences. This metric
+represents the average proportion of hallucinated sen-
+tences in the total number of sentences across various
+MLLM responses on different images.
+6.HWR : The ratio of hallucinated words. This metric cap-
+tures the average proportion of hallucinated words in the
+total word count across different MLLM responses on
+various images.
+In addition to the hallucinated content, we also consider
+the quality of model responses as part of the adversarial goals.
+We also resort to the GPT-4 model to assess the grammar,
+fluency, and naturalness of generated responses. The prompt
+used for response quality evaluation is displayed in Fig. 10.
+D More Results of Adversarial Effects
+In Section 5.2, we report GPT-4 assisted hallucination eval-
+uation results on surrogate models using beam search . The
+remaining results for greedy search , and nucleus sampling
+decoding are displayed in Tab. 8 and Tab. 9.
+EResults of Human-Evaluated Hallucination
+Types
+To further analyze the adversarial effects of our attack, we
+engaged human experts to classify the types of hallucinations
+it induced. The evaluation focused on model responses from
+the image captioning task across 6 MLLMs in our experi-
+ments, with results detailed in Fig. 11. Open-source MLLMs
+demonstrate a higher propensity for generating fabricated
+content when exposed to adversarial visual inputs, whereas
+commercial APIs more frequently misidentify attributes or
+relationships between objects.
+F More Results of Black-box Transferability
+In Section 5.3.1, we report GPT-4 assisted hallucination eval-
+uation results on black-box models using beam search . Theremaining results for greedy search , and nucleus sampling
+decoding are shown in Tab. 10 and Tab. 11.
+Additionally, the adversarial QA accuracy results on black-
+box commercial APIs are illustrated in Fig. 12.
+GResults of Perplexity-based Model Response
+Quality
+In Section 5.4, we present the results of the GPT-4-assisted
+evaluation of model response quality. The Perplexity-based
+quality evaluation results are presented in Fig. 13, calculated
+with the pre-trained GPT-2 model.
+H Results of Adaptive Mitigation
+Considering the adaptive mitigation strategy of detecting and
+early-stopping before sink tokens, we present the length, qual-
+ity, and hallucination metrics of MLLMs responses under the
+mitigation strategy in Tab. 12.
+I More Results of Baseline Comparison
+In Section 5.6, we report GPT-4 assisted hallucination eval-
+uation results on baseline methods using beam search . The
+remaining results for greedy search , and nucleus sampling
+decoding are shown in Tab. 13 and Tab. 14.
+J Results of Alignment Study
+To assess the alignment between GPT-4-assisted hallucina-
+tion evaluation and human judgments, we engaged human
+experts to manually label the hallucinated segments of model
+responses. We compare the HSPI/HWPI/HSR/HWR metrics
+derived from GPT-4-based evaluations with those from hu-
+man assessments. The detailed results are presented in Tab.
+15. Notably, the human-evaluated hallucination metrics are
+slightly lower than those obtained from GPT-4, likely due
+to the limited scope of descriptions and the factual infor-
+mation annotated in the HalluBench dataset. Additionally,
+the results for adversarial visual inputs show comparable im-
+provements, underscoring the reliability and effectiveness of
+GPT-4-assisted evaluation in this study.
+K Qualitative Results
+To illustrate the adversarial effects of our proposed attack, we
+provide qualitative cases comparing the MLLM responses
+with clean images and adversarial visual inputs in Fig. 14, 15,
+16, and 17. The examples are chosen from our experiments,
+with hallucinated content marked bold with indigo color .
+21
+--- Page 22 ---
+Human: Please help me judge if the comment of this image is hallucination or correct. 
+I will give you a list of region description of a image. The format is [x1, y1, x2, y2]: region description, where [x1, y1, x2, 
+y2] is the bounding box of the region. Highly overlapping bounding boxes may refer to the same object. This is the 
+ground truth information of the image. Your judgement should base on this information. However, this information only 
+descibe the objects in the region of image, so it cannot descibe the subjective part of the image, e.g., atmosphere, style, 
+emotion. In that case, you can return "Cannot judge".
+Also, I will give you a list of comments of the image for you to judge if it is hallucination. Please give a judgement one by 
+one along with the reason.
+You should pay extra attention to the hallucination, which refers to the part of comments that are inconsistent with the 
+descriptions, specially claiming the existence of something not present in the descriptions.
+Your output should be:
+Judgement:
+1. hallucination or correct or cannot judge: <reason>
+2. ...
+Here are the region descriptions of the image:
+{}
+Here is the comment for you to judge (hallucination, correct, or cannot judge): 
+{}Figure 9: The prompt for GPT-4 assisted hallucination evaluation. The bounding boxes coordinates, detailed descriptions, and
+human-annotated factual knowledge are provided as context information.
+Human: You will be given one paragraph which describes an image.
+Your task is to rate the paragraph on one metric.
+Please make sure you read and understand these instructions carefully. Please keep this document open while 
+reviewing, and refer to it as needed.
+Evaluation Criteria:
+Fluency (1-10) - the quality of the paragraph in terms of grammar, spelling, punctuation, word choice, and sentence 
+structure.
+Evaluation Steps:
+1. Read the paragraph carefully and identify the main points of the article
+2. Assess how many errors it has that affect the clarity or smoothness of the text, and whether the main points are still 
+comprehensible.
+3. Assign a relevance score from 1 to 10.
+Paragraph:
+{}
+Your output should be:
+- Fluency (1-10): (scores ONLY) 
+Figure 10: The prompt for GPT-4 assisted response quality evaluation. The evaluation criteria, and detailed steps are provided as
+context information.
+22
+--- Page 23 ---
+Table 8: Results of GPT-4 assisted hallucination evaluation for the image captioning task on white-box models. All of the MLLM
+responses are generated with greedy search decoding. The six aspects of evaluation are the same as in Tab. 2. A larger HSPI,
+HWPI, HSR, and HWR indicate a higher level of hallucination in MLLM responses. The best results are marked in bold, and the
+number in brackets indicates the hallucination improvement compared to the clean image.
+Target Model Input SPI WPI HSPI HWPI HSR(%) HWR(%)
+InstructBLIPclean image 3.34 102.89 2.25 78.39 68.05% 77.27%
+ε=2/255 3.32 103.84 2.22 (-0.03) 78.37 (-0.02) 69.15% (+1.10%) 78.39% (+1.12%)
+ε=5/255 3.35 102.46 2.30 (+0.05) 78.35 (-0.04) 70.16% (+2.11%) 78.09% (+0.82%)
+ε=8/255 3.38 98.61 2.42 (+0.17) 77.03 (-1.36) 71.72% (+3.67%) 78.12% (+0.85%)
+LLaV A-1.5clean image 5.09 90.27 2.27 42.77 45.17% 48.11%
+ε=2/255 5.05 89.91 2.38 (+0.11) 43.79 (+1.02) 48.63% (+3.46%) 50.26% (+2.15%)
+ε=5/255 5.07 90.83 2.38 (+0.11) 45.00 (+2.23) 49.72% (+4.55%) 52.64% (+4.53%)
+ε=8/255 5.07 90.77 2.67 (+0.40) 50.23 (+7.46) 53.04% (+7.87%) 55.78% (+7.67%)
+MiniGPT-4clean image 5.36 79.70 2.92 44.61 54.42% 56.02%
+ε=2/255 5.40 82.93 3.19 (+0.27) 50.49 (+5.88) 59.37% (+4.95%) 61.10% (+5.08%)
+ε=5/255 5.28 79.64 3.02 (+0.10) 47.54 (+2.93) 57.65% (+3.23%) 60.12% (+4.10%)
+ε=8/255 5.12 77.83 2.92 46.00 (+1.39) 57.38% (+2.96%) 59.42% (+3.40%)
+Shikraclean image 4.99 91.00 2.28 44.09 45.70% 48.58%
+ε=2/255 5.02 90.93 2.46 (+0.18) 47.03 (+2.94) 51.02% (+5.32%) 54.04% (+5.46%)
+ε=5/255 5.03 91.95 2.52 (+0.24) 48.47 (+4.38) 53.83% (+8.13%) 56.57% (+7.99%)
+ε=8/255 5.03 92.53 2.63 (+0.35) 50.68 (+6.59) 56.02% (+10.32%) 58.99% (+10.41%)
+Table 9: Results of GPT-4 assisted hallucination evaluation for the image captioning task on white-box models. All of the MLLM
+responses are generated with nucleus sampling decoding. The six aspects of evaluation are the same as in Tab. 2. A larger HSPI,
+HWPI, HSR, and HWR indicate a higher level of hallucination in MLLM responses. The best results are marked in bold, and the
+number in brackets indicates the hallucination improvement compared to the clean image.
+Target Model Input SPI WPI HSPI HWPI HSR(%) HWR(%)
+InstructBLIPclean image 4.98 90.06 2.46 46.46 49.39% 51.61%
+ε=2/255 5.02 91.52 2.55 (+0.09) 49.02 (+2.56) 51.28% (+1.89%) 53.92% (+2.31%)
+ε=5/255 5.03 91.67 2.52 (+0.06) 48.08 (+1.62) 51.73% (+2.34%) 54.01% (+2.40%)
+ε=8/255 4.97 90.26 2.77 (+0.31) 52.57 (+6.11) 56.31% (+6.92%) 58.92% (+7.31%)
+LLaV A-1.5clean image 4.93 87.32 2.37 43.51 48.03% 49.86%
+ε=2/255 4.96 89.49 2.42 (+0.05) 45.33 (+1.82) 49.79% (+1.76%) 51.80% (+1.94%)
+ε=5/255 4.88 88.37 2.57 (+0.20) 48.86 (+5.35) 52.91% (+4.88%) 55.50% (+5.64%)
+ε=8/255 4.92 88.58 2.72 (+0.35) 50.93 (+7.42) 55.67% (+7.64%) 57.80% (+7.94%)
+MiniGPT-4clean image 4.84 75.97 2.56 41.78 54.00% 56.05%
+ε=2/255 4.88 76.54 2.80 (+0.24) 44.78 (+3.0) 58.14% (+4.14%) 59.35% (+3.30%)
+ε=5/255 4.80 75.95 2.76 (+0.20) 44.77 (+2.99) 58.11% (+4.11%) 59.50% (+3.45%)
+ε=8/255 4.77 75.20 2.90 (+0.34) 47.07 (+5.29) 61.27% (+7.27%) 62.91% (+6.86%)
+Shikraclean image 4.77 86.95 2.30 44.12 48.24% 50.71%
+ε=2/255 4.85 87.43 2.43 (+0.13) 46.40 (+2.28) 52.30% (+4.06%) 55.16% (+4.45%)
+ε=5/255 4.82 86.10 2.41 (+0.11) 44.79 (+0.67) 52.74% (+4.50%) 54.13% (+3.42%)
+ε=8/255 4.83 87.38 2.61 (+0.31) 49.06 (+4.94) 56.98% (+8.74%) 59.39% (+8.68%)
+23
+--- Page 24 ---
+Table 10: Results of GPT-4 assisted hallucination evaluation for the image captioning task on black-box models. All of the
+MLLM responses are generated with greedy search decoding. The six aspects of evaluation are the same as in Tab. 2. A larger
+HSPI, HWPI, HSR, and HWR indicate a higher level of hallucination in MLLM responses. The best results are marked in bold,
+and the number in brackets indicates the hallucination improvement compared to the clean image for each target model.
+Surrogate Model Target Model SPI WPI HSPI HWPI HSR(%) HWR(%)
+InstructBLIPInstructBLIP 3.38 98.61 2.42 (+0.17) 77.03 (-1.36) 71.72% (+3.67%) 78.12% (+0.85%)
+LLaV A-1.5 5.04 90.84 2.43 (+0.16) 46.23 (+3.46) 48.92% (+3.75%) 51.62% (+3.51%)
+MiniGPT-4 5.14 79.73 3.18 (+0.26) 50.74 (+6.13) 62.35% (+7.93%) 64.03% (+8.01%)
+Shikra 5.11 93.03 2.68 (+0.40) 51.14 (+7.05) 52.69% (+6.99%) 55.28% (+6.70%)
+LLaV A-1.5LLaV A-1.5 5.07 90.77 2.67 (+0.40) 50.23 (+7.46) 53.04% (+7.87%) 55.78% (+7.67%)
+InstructBLIP 3.39 102.81 2.41 (+0.16) 81.18 (+2.79) 71.76% (+3.71%) 79.86% (+2.59%)
+MiniGPT-4 5.37 80.98 2.76 (-0.16) 43.51 (-1.10) 56.18% (+1.76%) 58.17% (+2.15%)
+Shikra 5.07 91.66 2.81 (+0.53) 52.88 (+8.79) 56.38% (+10.68%) 58.74% (+10.16%)
+MiniGPT-4MiniGPT-4 5.40 82.93 3.19 (+0.27) 50.49 (+5.88) 59.37% (+4.95%) 61.10% (+5.08%)
+InstructBLIP 3.25 101.19 2.33 (-0.13) 81.46 (+3.07) 72.24% (+4.19%) 81.21% (+3.94%)
+LLaV A-1.5 5.05 91.03 2.40 (+0.13) 45.86 (+3.09) 48.03% (+2.86%) 51.08% (+2.97%)
+Shikra 4.98 90.25 2.52 (+0.24) 47.88 (+3.79) 50.58% (+4.88%) 53.10% (+4.52%)
+ShikraShikra 5.03 92.53 2.63 (+0.35) 50.68 (+6.59) 56.02% (+10.32%) 58.99% (+10.41%)
+InstructBLIP 3.38 103.03 2.29 (+0.04) 78.95 (+0.56) 68.64% (+0.59%) 77.94% (+0.67%)
+LLaV A-1.5 5.07 90.29 2.62 (+0.35) 48.90 (+6.13) 52.64% (+7.47%) 55.19% (+7.08%)
+MiniGPT-4 5.17 80.17 2.83 (-0.09) 44.99 (+0.38) 56.34% (+1.92%) 57.95% (+1.93%)
+Table 11: Results of GPT-4 assisted hallucination evaluation for the image captioning task on black-box models. All of the
+MLLM responses are generated with nucleus sampling decoding. The six aspects of evaluation are the same as in Tab. 2. A
+larger HSPI, HWPI, HSR, and HWR indicate a higher level of hallucination in MLLM responses. The best results are marked in
+bold, and the number in brackets indicates the hallucination improvement compared to the clean image for each target model.
+Surrogate Model Target Model SPI WPI HSPI HWPI HSR(%) HWR(%)
+InstructBLIPInstructBLIP 4.97 90.26 2.77 (+0.31) 52.57 (+6.11) 56.31% (+6.92%) 58.92% (+7.31%)
+LLaV A-1.5 4.87 87.15 2.38 (+0.01) 44.93 (+1.42) 49.54% (+1.51%) 52.26% (+2.40%)
+MiniGPT-4 4.66 73.85 2.64 (+0.08) 43.17 (+1.39) 56.87% (+2.87%) 58.80% (+2.75%)
+Shikra 4.99 91.17 2.71 (+0.41) 51.66 (+7.54) 54.39% (+6.15%) 56.75% (+6.04%)
+LLaV A-1.5LLaV A-1.5 4.92 88.58 2.72 (+0.35) 50.93 (+7.42) 55.67% (+7.64%) 57.80% (+7.94%)
+InstructBLIP 4.96 90.24 2.41 (-0.05) 45.81 (-0.65) 51.01% (+1.62%) 53.68% (+2.07%)
+MiniGPT-4 4.47 73.84 2.53 (-0.03) 43.68 (+1.90) 60.05% (+6.05%) 62.70% (+6.65%)
+Shikra 4.84 87.78 2.78 (+0.48) 52.87 (+8.75) 57.82% (+9.58%) 60.66% (+9.95%)
+MiniGPT-4MiniGPT-4 4.77 75.20 2.90 (+0.34) 47.07 (+5.29) 61.27% (+7.27%) 62.91% (+6.86%)
+InstructBLIP 4.94 90.88 2.66 (+0.20) 51.33 (+4.87) 54.08% (+4.69%) 56.83% (+5.22%)
+LLaV A-1.5 4.89 87.68 2.41 (+0.04) 46.09 (+2.58) 49.38% (+1.35%) 52.64% (+2.78%)
+Shikra 4.88 88.38 2.42 (+0.12) 46.44 (+2.32) 49.82% (+1.58%) 52.80% (+2.09%)
+ShikraShikra 4.83 87.38 2.61 (+0.31) 49.06 (+4.94) 56.98% (+8.74%) 59.39% (+8.68%)
+InstructBLIP 4.98 90.55 2.51 (+0.05) 47.89 (+3.43) 52.45% (+3.06%) 55.31% (+3.70%)
+LLaV A-1.5 5.00 90.84 2.68 (+0.31) 51.08 (+7.57) 56.63% (+8.60%) 59.35% (+9.49%)
+MiniGPT-4 4.62 72.59 2.45 (-0.11) 39.46 (-2.32) 55.62% (+1.62%) 57.11% (+1.06%)
+24
+--- Page 25 ---
+Figure 11: Results of the human evaluation on hallucina-
+tion types. The five types of hallucinations are: identifying
+thewrong main objects ,wrong number of objects, assign-
+ingwrong attributes or relationships to objects, generating
+detailed fabrication content, and producing only mentioned
+fabrication content.
+Figure 12: Results of QA Accuracy on commercial APIs:
+(a) GPT-4o mini released by OpenAI and (b) Gemini 1.5
+Flash launched by Google. A lower accuracy indicates more
+hallucinations in MLLM responses.
+Figure 13: Results of Perplexity-based response quality evalu-
+ation, covering both white-box and black-box attack scenarios.
+A lower perplexity reflects better MLLM response quality.
+Table 12: Results of the length ( WPI ), hallucination ( HWR ),
+and response quality under the early-stopping mitigation strat-
+egy. clean∗refers to the results of clean images on MLLM
+without any mitigation strategy applied, while clean◦indi-
+cates the results on MLLM with adaptive mitigation. The best
+adversarial results are marked in bold.
+Target Model Input WPI HWR(%) Quality
+InstructBLIPclean∗102.89 77.27% 8.58
+clean◦46.51 52.56% 5.55
+ε=2/255 48.57 63.08% (+10.52%) 5.45
+ε=5/255 45.31 65.24% (+12.68%) 5.57
+ε=8/255 46.31 69.99 %(+17.43%) 5.28
+MiniGPT-4clean∗79.70 56.02% 8.81
+clean◦51.05 53.67% 6.39
+ε=2/255 50.81 58.93% (+5.26%) 6.36
+ε=5/255 52.47 56.64% (+2.97%) 6.49
+ε=8/255 51.88 59.87 %(+6.20%) 5.69
+25
+--- Page 26 ---
+Table 13: Results of GPT-4 assisted hallucination attack of the baseline method with greedy sampling decoding. δdenotes of
+budget of random noises injected into visual inputs. The line of attack denotes the best results in the white-box attack scenario.
+InstructBLIP LLaV A-1.5 MiniGPT-4 Shikra
+HSR(%) HWR(%) HSR(%) HWR(%) HSR(%) HWR(%) HSR(%) HWR(%)
+clean 68.05% 77.27% 45.17% 48.11% 54.42% 56.02% 45.70% 48.58%
+δ=2/255 65.84% (-2.21%) 75.02% (-2.26%) 43.73% (-1.44%) 45.92% (-2.19%) 52.87% (-1.55%) 55.15% (-0.87%) 47.87% (+2.17%) 50.27% (+1.69%)
+δ=5/255 67.74% (-0.31%) 77.17% (-0.10%) 45.96% (+0.79%) 48.56% (+0.45%) 56.65% (+2.23%) 58.81% (+2.79%) 43.50% (-2.20%) 46.12% (-2.46%)
+δ=8/255 63.01% (-5.04%) 73.66% (-3.61%) 45.84% (+0.67%) 48.33% (+0.22%) 55.31% (+0.89%) 57.30% (+1.28%) 47.07% (+1.37%) 49.85% (+1.27%)
+attack 71.72% (+3.67%) 78.39% (+1.12%) 53.04% (+7.87%) 55.78% (+7.67%) 59.37% (+4.95%) 61.10% (+5.08%) 56.02% (+10.32%) 58.99% (+10.41%)
+Table 14: Results of GPT-4 assisted hallucination attack of the baseline method with nucleus sampling decoding. δdenotes of
+budget of random noises injected into visual inputs. The line of attack denotes the best results in the white-box attack scenario.
+InstructBLIP LLaV A-1.5 MiniGPT-4 Shikra
+HSR(%) HWR(%) HSR(%) HWR(%) HSR(%) HWR(%) HSR(%) HWR(%)
+clean 49.39% 51.61% 48.03% 49.86% 54.00% 56.05% 48.24% 50.71%
+δ=2/255 47.94% (-1.45%) 51.44% (-0.17%) 48.48% (+0.45%) 51.19% (+1.33%) 55.52% (+1.52%) 56.96% (+0.91%) 46.32% (-1.92%) 48.43% (-2.28%)
+δ=5/255 46.92% (-2.47%) 49.50% (-2.11%) 49.87% (+1.84%) 53.22% (+3.36%) 54.44% (+0.44%) 55.45% (-0.60%) 46.52% (-1.72%) 49.44% (-1.27%)
+δ=8/255 46.62% (-2.77%) 47.94% (-3.67%) 43.29% (-4.74%) 46.02% (-3.84%) 53.23% (-0.77%) 53.85% (-2.20%) 46.83% (-1.41%) 49.71% (-1.00%)
+attack 56.31% (+6.92%) 58.92% (+7.31%) 55.67% (+7.64%) 57.80% (+7.94%) 61.27% (+7.27%) 62.91% (+6.86%) 56.98% (+8.74%) 59.39% (+8.68%)
+Table 15: Comparison of human-evaluated and GPT-4 assisted hallucination metrics on 4 sets of model responses. (†)denotes
+the evaluation results of human experts, while (◦)denotes the evaluation results of GPT-4. The human-evaluated results are
+averaged between two experts. The number in brackets indicates the hallucination improvement compared to the clean image,
+with human-evaluated results in red color and GPT-4-evaluated results in indigo color . Adversarial results are marked in bold.
+Input HSPI HWPI HSR(%) HWR(%)
+MiniGPT-4clean image†2.53 39.84 49.32% 51.21%
+clean image◦2.92 44.61 54.42% 56.02%
+ε=8/255†2.79 (+0.26) 43.04 (+3.20) 52.10% (+2.78%) 54.00% (+2.79%)
+ε=8/255◦2.92 46.00 (+1.39) 57.38% (+2.96%) 59.42% (+3.40%)
+LLaV A-1.5clean image†2.16 41.31 42.44% 45.76%
+clean image◦2.27 42.77 45.17% 48.11%
+ε=8/255†2.41 (+0.25) 46.62 (+5.31) 47.58% (+5.14%) 51.36% (+5.60%)
+ε=8/255◦2.67 (+0.40) 50.23 (+7.46) 53.04% (+7.87%) 55.78% (+7.67%)
+Human: Pease describe this image in detail.
+InstructBLIP (clean image):
+The image captures a dog jumping high in the air to catch a frisbee. The dog is in the middle of the sc
+ene, with the frisbee visible in the air above it. The dog's athleticism and focus on the frisbee are evid
+ent as it leaps to catch it. The scene takes place in a swimming pool, which is surrounded by several 
+chairs and benches. There are at least 13 chairs and 10 benches scattered around the pool area, pro
+viding seating options for spectators or pool-goers. The arrangement of the chairs and benches sugg
+ests that this could be a public pool or a venue for events and gatherings.
+InstructBLIP (adversarial visual input):
+The image captures a dog jumping high into the air to catch a frisbee. The dog is in mid-air, displayin
+g its athleticism and agility. The frisbee is visible in the air, close to the dog's mouth. The scene take
+s place in a stadium, with a large audience watching the dog's impressive performance. The st
+adium is filled with numerous people, some of whom are seated on chairs, while others are sta
+nding. The audience appears to be enjoying the spectacle, as they watch the dog's daring leap 
+to catch the frisbee. Input Image
+InstructBLIP 
+Figure 14: A case of model responses with clean image and adversarial visual input on InstructBLIP.
+26
+--- Page 27 ---
+Human: Pease describe this image in detail.LLaVA-1.5 (clean image):The image features a large clock tower with a clock on its side. The clock is prominently at the top of the tower, making it a prominent feature. The tower is made of brick and stands tall in the sky. In the background, there are trees that add a touch of greenery to the scene. The sky above the tower is cloudy, creating a dramatic backdrop.LLaVA-1.5 (adversarial visual input): The image features a large clock tower towering over a city. The clock face is prominently displayed on the side of the tower, making it easy for people to see the time. The tower is surrounded by trees, adding a touch of greenery to the urban landscape. In the foreground, there is a person standing near the base of the clock tower, possibly admiring its grandeur or taking a photo. The combination of the clock tower, trees, and the person creates a captivating scene that captures the essence of the city.Input Image
+LLaVA-1.5Figure 15: A case of model responses with clean image and adversarial visual input on LLaV A-1.5.
+Human: Pease describe this image in detail.MiniGPT-4 (clean image):The image features a young girl skillfully riding a surfboard on a wave in the ocean. She is wearing a pink shirt and appears to be enjoying her time in the water. The surfboard is positioned horizontally, with the girl standing on it and maintaining her balance. The scene captures the excitement and thrill of surfing, as the girl confidently navigates the waves. The ocean's blue waters and the girl's determination create a captivating moment in the image. MiniGPT-4 (adversarial visual input):The image features a young girl skillfully riding a blue surfboard on top of a wave in the ocean. She appears to be enjoying her time in the water, demonstrating her surfing abilities. In the background, there are a few more people scattered around the scene, possibly watching the girl or engaging in their own water activities. Overall, the scene captures the excitement and fun of surfing in the ocean.MiniGPT-4
+Input Image
+Figure 16: A case of model responses with clean image and adversarial visual input on MiniGPT-4.
+Human: Pease describe this image in detail.Shikra (clean image): The image features a close-up view of a person's hand holding a spoon and scooping banana slices from a bowl. The banana slices are scattered throughout the bowl, with some closer to the spoon and others further away. The person's hand can be seen on the left side of the image, while the bowl containing the banana slices is on the right side. The focus of the image is on the interaction between the person and the bowl of bananas.Shikra (adversarial visual input): The image features a close-up view of a bowl filled with various food items. The bowl contains a banana, a piece of bread, and a couple of carrots. A person's hand is visible in the scene, holding a spoon and scooping up the food from the bowl. The hand is positioned on the left side of the bowl, and the spoon is being used to serve the food.
+Input Image
+Shikra
+Figure 17: A case of model responses with clean image and adversarial visual input on Shikra.
+27

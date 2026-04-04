@@ -1,0 +1,27 @@
+{
+  "total_samples": 48,
+  "transfer_success": 6,
+  "transfer_asr": 0.125,
+  "per_emotion": {
+    "angry": {
+      "total": 24,
+      "transfer_success": 3,
+      "transfer_asr": 0.125
+    },
+    "neutral": {
+      "total": 23,
+      "transfer_success": 3,
+      "transfer_asr": 0.13043478260869565
+    },
+    "sad": {
+      "total": 1,
+      "transfer_success": 0,
+      "transfer_asr": 0.0
+    }
+  },
+  "per_prompt_asr": {
+    "prompt_0": 0.0625,
+    "prompt_1": 0.14583333333333334,
+    "prompt_2": 0.16666666666666666
+  }
+}
