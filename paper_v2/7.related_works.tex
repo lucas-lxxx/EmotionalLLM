@@ -1,0 +1,31 @@
+\section{Related Work}
+\label{sec:related_work}
+
+\subsection{Audio Large Language Models}
+
+Recent Audio LLMs connect speech or general audio encoders to LLM backbones.
+SALMONN combines Whisper and BEATs encoders through a Q-Former~\cite{salmonn}, while Qwen2-Audio conditions a Qwen LLM on audio representations and supports both voice chat and audio analysis~\cite{qwen2audio}.
+Other systems explore Mistral- or Qwen-based pipelines, discrete speech tokenizers, and hybrid continuous--discrete representations~\cite{voxtral,opens2s,glm4voice,kimiaudio}.
+Benchmarks such as AudioBench evaluate these models on speech, audio, and paralinguistic tasks, including emotion recognition~\cite{audiobench}.
+Our work studies a narrower question: whether the emotion perception expressed by such models can be adversarially manipulated.
+
+\subsection{Speech Emotion Recognition}
+
+SER has long been formulated as a supervised affect recognition problem.
+Early systems used prosodic and spectral features with conventional classifiers~\cite{schuller2009interspeech}; recent pipelines rely on self-supervised speech encoders such as wav2vec~2.0 and HuBERT~\cite{wav2vec2,hubert}.
+Common evaluation datasets include IEMOCAP, RAVDESS, and ESD~\cite{iemocap,ravdess,esd}.
+Unlike these systems, Audio LLMs do not expose a fixed emotion classifier, so their robustness cannot be fully characterized by SER accuracy alone.
+
+\subsection{Adversarial Attacks on Speech Systems}
+
+Audio adversarial attacks have been studied for ASR, speaker verification, and SER.
+Carlini and Wagner produced targeted attacks against speech-to-text systems~\cite{carlini2018audio}, Qin et al. improved imperceptibility and over-the-air robustness~\cite{qin2019imperceptible}, and FAKEBOB attacked speaker recognition systems~\cite{fakebob}.
+For SER, STAA-Net generates sparse transferable perturbations~\cite{staanet}; Gao et al. studied black-box distortions~\cite{gao2022}; Ren et al. improved transferability through lifelong learning~\cite{ren2020}; and Facchinetti et al. systematically evaluated multiple attacks across SER settings~\cite{facchinetti2024}.
+These methods mainly target compact classifier outputs, whereas our target is the token-level emotion interface of Audio LLMs.
+
+\subsection{Attacks on Multimodal and Audio LLMs}
+
+LLM and multimodal attacks have shown that aligned generative models can be manipulated through optimized text, prompt injection, or adversarial multimodal inputs~\cite{zou2023gcg,perez2022ignore,mirage}.
+Recent audio-language attacks further show that speech-audio inputs can degrade multimodal LLM behavior or bypass safety mechanisms~\cite{sacred,audiojailbreak}.
+These works focus primarily on safety, hallucination, or general task degradation.
+Our work instead targets affective perception itself and studies why attacks designed for standalone SER models fail to transfer.

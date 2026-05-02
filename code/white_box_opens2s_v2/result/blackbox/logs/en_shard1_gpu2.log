@@ -1,0 +1,69 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+INFO:src.configuration_omnispeech:audio encoder config is None. Initializing with qwen2_audio_encoder
+INFO:src.configuration_omnispeech:llm config is None. Initializing with qwen3
+INFO:src.configuration_omnispeech:tts lm config is None. Initializing with qwen3
+You are attempting to use Flash Attention 2 without specifying a torch dtype. This might lead to unexpected behaviour
+Scanning dataset: /data1/lixiang/OpenS2S_dataset/ESD/EN
+Found 10 speakers
+Target emotions: ['angry', 'neutral', 'sad', 'surprise']
+Samples per emotion: 25
+Speaker 0017: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0015: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0011: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0013: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0012: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0014: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0016: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0018: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0019: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0020: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Total samples to process: 1000
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 70.09it/s]
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+`generation_config` default values have been modified to match model-specific defaults: {'bos_token_id': 151643}. If this is not desired, please set these values explicitly.
+Enabled gradient checkpointing on llm_model
+Enabled gradient checkpointing on audio_encoder_model
+Traceback (most recent call last):
+  File "/data1/lixiang/EmotionalLLM/code/white_box_opens2s_v2/experiment/run_attack.py", line 400, in <module>
+    main(args)
+  File "/data1/lixiang/EmotionalLLM/code/white_box_opens2s_v2/experiment/run_attack.py", line 249, in main
+    attack_out = attack_one_sample(
+  File "/data1/lixiang/EmotionalLLM/code/white_box_opens2s_v2/experiment/attack_core.py", line 229, in attack_one_sample
+    l_emo = loss_emo(
+  File "/data1/lixiang/EmotionalLLM/code/white_box_opens2s_v2/experiment/attack_core.py", line 85, in loss_emo
+    outputs = forward_logits(model, inputs)
+  File "/data1/lixiang/EmotionalLLM/code/white_box_opens2s_v2/experiment/opens2s_io.py", line 302, in forward_logits
+    outputs = model(
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data1/lixiang/Opens2s/OpenS2S/src/modeling_omnispeech.py", line 89, in forward
+    ) = self.prepare_inputs_labels_for_llm(
+  File "/data1/lixiang/Opens2s/OpenS2S/src/modeling_omnispeech.py", line 173, in prepare_inputs_labels_for_llm
+    speech_features, speech_attention_mask = self.get_speech_features(speech_values, speech_mask)
+  File "/data1/lixiang/Opens2s/OpenS2S/src/modeling_omnispeech.py", line 160, in get_speech_features
+    output = self.audio_encoder_model(**w2v_args)
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data1/lixiang/Opens2s/OpenS2S/src/modeling_audio_encoder.py", line 158, in forward
+    output = super().forward(
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/transformers/models/qwen2_audio/modeling_qwen2_audio.py", line 422, in forward
+    layer_outputs = encoder_layer(
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/transformers/models/qwen2_audio/modeling_qwen2_audio.py", line 233, in forward
+    hidden_states, attn_weights = self.self_attn(
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/transformers/models/qwen2_audio/modeling_qwen2_audio.py", line 187, in forward
+    attn_output = attn_output.reshape(bsz, tgt_len, -1).contiguous()
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 47.38 GiB of which 448.00 KiB is free. Process 2623167 has 23.62 GiB memory in use. Including non-PyTorch memory, this process has 23.75 GiB memory in use. Of the allocated memory 23.21 GiB is allocated by PyTorch, and 38.71 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

@@ -1,0 +1,41 @@
+{
+  "total_samples": 48,
+  "transfer_success": 13,
+  "transfer_asr": 0.2708,
+  "per_emotion": {
+    "angry": {
+      "total": 24,
+      "transfer_success": 8,
+      "transfer_asr": 0.3333
+    },
+    "neutral": {
+      "total": 23,
+      "transfer_success": 5,
+      "transfer_asr": 0.2174
+    },
+    "sad": {
+      "total": 1,
+      "transfer_success": 0,
+      "transfer_asr": 0.0
+    }
+  },
+  "per_speaker": {
+    "0011": {
+      "total": 48,
+      "transfer_success": 13,
+      "transfer_asr": 0.2708
+    }
+  },
+  "per_prompt_asr": {
+    "prompt_0": 0.125,
+    "prompt_1": 0.2708,
+    "prompt_2": 0.3333
+  },
+  "prediction_distribution": {
+    "neutral": 31,
+    "happy": 13,
+    "angry": 2,
+    "surprise": 1,
+    "sad": 1
+  }
+}

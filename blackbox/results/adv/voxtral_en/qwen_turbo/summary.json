@@ -1,0 +1,158 @@
+{
+  "total_samples": 914,
+  "metric_name": "transfer_asr",
+  "metric_count": 303,
+  "metric_rate": 0.3315,
+  "target_hits": 303,
+  "target_rate": 0.3315,
+  "correct_predictions": 162,
+  "accuracy": 0.1772,
+  "per_emotion": {
+    "angry": {
+      "total": 224,
+      "target_hits": 80,
+      "target_rate": 0.3571,
+      "correct_predictions": 11,
+      "accuracy": 0.0491,
+      "transfer_success": 80,
+      "transfer_asr": 0.3571
+    },
+    "neutral": {
+      "total": 221,
+      "target_hits": 60,
+      "target_rate": 0.2715,
+      "correct_predictions": 146,
+      "accuracy": 0.6606,
+      "transfer_success": 60,
+      "transfer_asr": 0.2715
+    },
+    "sad": {
+      "total": 238,
+      "target_hits": 73,
+      "target_rate": 0.3067,
+      "correct_predictions": 4,
+      "accuracy": 0.0168,
+      "transfer_success": 73,
+      "transfer_asr": 0.3067
+    },
+    "surprise": {
+      "total": 231,
+      "target_hits": 90,
+      "target_rate": 0.3896,
+      "correct_predictions": 1,
+      "accuracy": 0.0043,
+      "transfer_success": 90,
+      "transfer_asr": 0.3896
+    }
+  },
+  "per_speaker": {
+    "0011": {
+      "total": 96,
+      "target_hits": 44,
+      "target_rate": 0.4583,
+      "correct_predictions": 15,
+      "accuracy": 0.1562,
+      "transfer_success": 44,
+      "transfer_asr": 0.4583
+    },
+    "0012": {
+      "total": 96,
+      "target_hits": 37,
+      "target_rate": 0.3854,
+      "correct_predictions": 16,
+      "accuracy": 0.1667,
+      "transfer_success": 37,
+      "transfer_asr": 0.3854
+    },
+    "0013": {
+      "total": 87,
+      "target_hits": 18,
+      "target_rate": 0.2069,
+      "correct_predictions": 19,
+      "accuracy": 0.2184,
+      "transfer_success": 18,
+      "transfer_asr": 0.2069
+    },
+    "0014": {
+      "total": 95,
+      "target_hits": 37,
+      "target_rate": 0.3895,
+      "correct_predictions": 13,
+      "accuracy": 0.1368,
+      "transfer_success": 37,
+      "transfer_asr": 0.3895
+    },
+    "0015": {
+      "total": 90,
+      "target_hits": 19,
+      "target_rate": 0.2111,
+      "correct_predictions": 19,
+      "accuracy": 0.2111,
+      "transfer_success": 19,
+      "transfer_asr": 0.2111
+    },
+    "0016": {
+      "total": 88,
+      "target_hits": 26,
+      "target_rate": 0.2955,
+      "correct_predictions": 16,
+      "accuracy": 0.1818,
+      "transfer_success": 26,
+      "transfer_asr": 0.2955
+    },
+    "0017": {
+      "total": 91,
+      "target_hits": 50,
+      "target_rate": 0.5495,
+      "correct_predictions": 11,
+      "accuracy": 0.1209,
+      "transfer_success": 50,
+      "transfer_asr": 0.5495
+    },
+    "0018": {
+      "total": 90,
+      "target_hits": 18,
+      "target_rate": 0.2,
+      "correct_predictions": 19,
+      "accuracy": 0.2111,
+      "transfer_success": 18,
+      "transfer_asr": 0.2
+    },
+    "0019": {
+      "total": 91,
+      "target_hits": 25,
+      "target_rate": 0.2747,
+      "correct_predictions": 16,
+      "accuracy": 0.1758,
+      "transfer_success": 25,
+      "transfer_asr": 0.2747
+    },
+    "0020": {
+      "total": 90,
+      "target_hits": 29,
+      "target_rate": 0.3222,
+      "correct_predictions": 18,
+      "accuracy": 0.2,
+      "transfer_success": 29,
+      "transfer_asr": 0.3222
+    }
+  },
+  "per_prompt_rate": {
+    "prompt_0": 0.1991,
+    "prompt_1": 0.7232,
+    "prompt_2": 0.3271
+  },
+  "prediction_distribution": {
+    "neutral": 514,
+    "happy": 303,
+    "": 62,
+    "angry": 23,
+    "sad": 11,
+    "surprise": 1
+  },
+  "transfer_success": 303,
+  "transfer_asr": 0.3315,
+  "surrogate": "voxtral_en",
+  "target": "qwen_turbo",
+  "audio_type": "adv"
+}

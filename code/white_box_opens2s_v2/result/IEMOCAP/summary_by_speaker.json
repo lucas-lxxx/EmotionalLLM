@@ -1,0 +1,12 @@
+{
+  "Session2": {
+    "num_samples": 60,
+    "emo_success_rate": 0.9166666666666666,
+    "wer_le_0.0": 0.016666666666666666,
+    "joint_success_le_0.0": 0.0,
+    "wer_le_0.05": 0.016666666666666666,
+    "joint_success_le_0.05": 0.0,
+    "semantic_preserve_rate": 0.05,
+    "joint_success_semantic": 0.03333333333333333
+  }
+}

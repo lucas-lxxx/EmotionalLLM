@@ -1,0 +1,27 @@
+{
+  "sample_id": "00226_0011_neutral_0011_000198",
+  "ground_truth_emotion": "neutral",
+  "target_emotion": "happy",
+  "whitebox_success": true,
+  "adv_audio_path": "sample\\00226_0011_neutral_0011_000198.wav",
+  "per_prompt_results": [
+    {
+      "prompt_idx": 0,
+      "raw": "Neutral",
+      "label": "neutral"
+    },
+    {
+      "prompt_idx": 1,
+      "raw": "Neutral",
+      "label": "neutral"
+    },
+    {
+      "prompt_idx": 2,
+      "raw": "Neutral",
+      "label": "neutral"
+    }
+  ],
+  "majority_label": "neutral",
+  "transfer_success": false,
+  "speaker_id": "0011"
+}

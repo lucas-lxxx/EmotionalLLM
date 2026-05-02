@@ -1,10 +1,11 @@
-"""Gemini 2.5 Flash API client for audio emotion detection via REST API."""
+"""Gemini API client for audio emotion detection (supports Flash and Pro)."""
 from __future__ import annotations
 
 import base64
 import json
 import re
 import time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import requests
@@ -15,7 +16,7 @@ from config import cfg
 class GeminiClient:
     def __init__(self, api_key: str | None = None, model: str | None = None):
         self.api_key = api_key or cfg.gemini_api_key
-        self.model = model or cfg.gemini_model
+        self.model = model or cfg.gemini_flash_model
         if not self.api_key:
             raise ValueError("GEMINI_API_KEY not set")
 
@@ -28,13 +29,7 @@ class GeminiClient:
 
     def _detect_mime(self, audio_path: Path) -> str:
         suffix = audio_path.suffix.lower()
-        mime_map = {
-            ".wav": "audio/wav",
-            ".mp3": "audio/mp3",
-            ".flac": "audio/flac",
-            ".aac": "audio/aac",
-            ".ogg": "audio/ogg",
-        }
+        mime_map = {".wav": "audio/wav", ".mp3": "audio/mp3", ".flac": "audio/flac"}
         return mime_map.get(suffix, "audio/wav")
 
     def query_emotion(self, audio_path: Path, prompt: str) -> str:
@@ -45,21 +40,14 @@ class GeminiClient:
         payload = {
             "contents": [{
                 "parts": [
-                    {
-                        "inline_data": {
-                            "mime_type": mime_type,
-                            "data": audio_b64,
-                        }
-                    },
-                    {
-                        "text": prompt,
-                    }
+                    {"inline_data": {"mime_type": mime_type, "data": audio_b64}},
+                    {"text": prompt},
                 ]
             }],
             "generationConfig": {
                 "temperature": 0.0,
-                "maxOutputTokens": 256,
-                "thinkingConfig": {"thinkingBudget": 0},
+                "maxOutputTokens": 1024,
+                **({"thinkingConfig": {"thinkingBudget": 0}} if "pro" not in self.model else {}),
             }
         }
 
@@ -68,19 +56,16 @@ class GeminiClient:
 
         for attempt in range(cfg.max_retries):
             try:
-                resp = requests.post(
-                    url,
-                    json=payload,
-                    headers={"Content-Type": "application/json"},
-                    timeout=60,
-                )
+                resp = requests.post(url, json=payload, headers={"Content-Type": "application/json"}, timeout=120)
                 if resp.status_code == 200:
                     data = resp.json()
                     candidates = data.get("candidates", [])
                     if candidates:
                         parts = candidates[0].get("content", {}).get("parts", [])
-                        if parts:
-                            return parts[0].get("text", "").strip()
+                        # Pro model may have thinking parts; extract last text part
+                        for part in reversed(parts):
+                            if "text" in part:
+                                return part["text"].strip()
                     return ""
 
                 if resp.status_code == 429:
@@ -107,50 +92,39 @@ class GeminiClient:
         return ""
 
     def query_emotion_3prompt(self, audio_path: Path) -> dict:
-        """Query with 3 prompts, return per-prompt and majority vote results."""
-        results = []
-        for i, prompt in enumerate(cfg.emo_prompts):
-            raw = self.query_emotion(audio_path, prompt)
-            label = normalize_emotion(raw)
-            results.append({"prompt_idx": i, "raw": raw, "label": label})
-            time.sleep(cfg.request_delay)
+        max_workers = min(max(cfg.prompt_parallelism, 1), len(cfg.emo_prompts))
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            futures = {
+                i: executor.submit(self.query_emotion, audio_path, prompt)
+                for i, prompt in enumerate(cfg.emo_prompts)
+            }
+            results = []
+            for i in range(len(cfg.emo_prompts)):
+                raw = futures[i].result()
+                results.append({"prompt_idx": i, "raw": raw, "label": normalize_emotion(raw)})
 
         labels = [r["label"] for r in results]
         majority = _majority_vote(labels)
-        return {
-            "per_prompt": results,
-            "majority_label": majority,
-        }
+        return {"per_prompt": results, "majority_label": majority}
 
 
 def normalize_emotion(text: str) -> str:
-    """Extract and normalize emotion label from API response text."""
     text = text.lower().strip()
     text = re.sub(r"[^a-z\s]", "", text)
     tokens = text.split()
-
     for token in tokens:
         if token in cfg.label_map:
             return cfg.label_map[token]
-
     for label in cfg.emo_labels:
         if label in text:
             return label
-
     return tokens[0] if tokens else ""
 
 
 def _majority_vote(labels: list[str]) -> str:
-    """Return the label that appears most often (>=2/3)."""
     from collections import Counter
     counts = Counter(labels)
     if not counts:
         return ""
     winner, count = counts.most_common(1)[0]
     return winner if count >= 2 else ""
-
-
-if __name__ == "__main__":
-    client = GeminiClient()
-    print(f"Gemini client initialized: model={client.model}")
-    print("Ready for evaluation. Use query_emotion_3prompt(audio_path) to test.")

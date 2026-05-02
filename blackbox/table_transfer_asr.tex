@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Black-box Transfer ASR (\%) across surrogate-target combinations. Each cell shows the targeted attack success rate (3-prompt majority vote, target emotion: \textit{happy}).}
+\label{tab:blackbox-transfer}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Surrogate} & \textbf{Gemini 2.5 Flash} & \textbf{Gemini 2.5 Pro} & \textbf{OpenAI gpt-audio} & \textbf{Qwen3-Omni-Flash} & \textbf{Qwen-Omni-Turbo} \\
+\midrule
+Voxtral EN & 7.9 & 12.5 & — & 19.7 & 33.1 \\
+Voxtral CN & 9.4 & 0.9 & — & 31.0 & 34.2 \\
+OpenS2S EN & 5.9 & 0.0 & — & 14.1 & 22.8 \\
+OpenS2S CN & 10.7 & 0.0 & — & 32.3 & 37.3 \\
+\midrule
+\textbf{Average} & \textbf{8.5} & \textbf{3.4} & — & \textbf{24.3} & \textbf{31.9} \\
+\bottomrule
+\end{tabular}}
+\end{table}

@@ -1,0 +1,31 @@
+{
+  "sample_id": "00564_0014_sad_0014_001057",
+  "speaker_id": "0014",
+  "ground_truth_emotion": "sad",
+  "target_emotion": "happy",
+  "whitebox_success": true,
+  "audio_type": "clean",
+  "adv_audio_path": "C:\\Users\\potte\\Desktop\\research\\emotional LLM\\code\\white_box_opens2s_v2\\result\\blackbox\\EN\\0014\\00564_0014_sad_0014_001057.wav",
+  "eval_audio_path": "C:\\Users\\potte\\Desktop\\research\\emotional LLM\\dataset\\ESD\\EN\\0014\\Sad\\0014_001057.wav",
+  "per_prompt_results": [
+    {
+      "prompt_idx": 0,
+      "raw": "Neutral",
+      "label": "neutral"
+    },
+    {
+      "prompt_idx": 1,
+      "raw": "sad",
+      "label": "sad"
+    },
+    {
+      "prompt_idx": 2,
+      "raw": "Neutral",
+      "label": "neutral"
+    }
+  ],
+  "majority_label": "neutral",
+  "transfer_success": false,
+  "matches_target": false,
+  "is_correct": false
+}

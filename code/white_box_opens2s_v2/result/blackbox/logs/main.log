@@ -1,0 +1,63 @@
+==========================================
+2026年 04月 06日 星期一 09:29:07 CST: Starting Blackbox experiment
+GPUs: 0 2 3 4 5, Shards: 5
+==========================================
+
+2026年 04月 06日 星期一 09:29:07 CST: === Phase 1: CN (speakers 0001-0010) ===
+2026年 04月 06日 星期一 09:29:07 CST: Starting CN shard 0 on GPU 0
+  PID: 2618678
+2026年 04月 06日 星期一 09:29:37 CST: Starting CN shard 1 on GPU 2
+  PID: 2618990
+2026年 04月 06日 星期一 09:30:07 CST: Starting CN shard 2 on GPU 3
+  PID: 2620358
+2026年 04月 06日 星期一 09:30:37 CST: Starting CN shard 3 on GPU 4
+  PID: 2620883
+/data1/lixiang/EmotionalLLM/code/white_box_opens2s_v2/experiment/run_blackbox_experiment.sh: line 31: 2620358 Killed                  CUDA_VISIBLE_DEVICES=$gpu $PYTHON $SCRIPT --mode esd --esd_root /data1/lixiang/OpenS2S_dataset/ESD/CN --results_dir "$RESULT_BASE/CN" --shard_id $i --num_shards $NUM_SHARDS > "$LOG_DIR/cn_shard${i}_gpu${gpu}.log" 2>&1
+/data1/lixiang/EmotionalLLM/code/white_box_opens2s_v2/experiment/run_blackbox_experiment.sh: line 31: 2620883 Killed                  CUDA_VISIBLE_DEVICES=$gpu $PYTHON $SCRIPT --mode esd --esd_root /data1/lixiang/OpenS2S_dataset/ESD/CN --results_dir "$RESULT_BASE/CN" --shard_id $i --num_shards $NUM_SHARDS > "$LOG_DIR/cn_shard${i}_gpu${gpu}.log" 2>&1
+2026年 04月 06日 星期一 09:31:07 CST: Starting CN shard 4 on GPU 5
+  PID: 2621440
+
+2026年 04月 06日 星期一 09:31:37 CST: All CN shards started. PIDs: 2618678 2618990 2620358 2620883 2621440
+Waiting for CN to complete...
+2026年 04月 06日 星期一 09:31:37 CST: WARNING - CN process 2618678 failed!
+2026年 04月 06日 星期一 09:31:37 CST: WARNING - CN process 2618990 failed!
+2026年 04月 06日 星期一 09:31:37 CST: WARNING - CN process 2620358 failed!
+2026年 04月 06日 星期一 09:31:37 CST: WARNING - CN process 2620883 failed!
+2026年 04月 06日 星期一 09:32:15 CST: WARNING - CN process 2621440 failed!
+
+2026年 04月 06日 星期一 09:32:15 CST: CN phase done. Samples: 0, Failed shards: 5
+2026年 04月 06日 星期一 09:32:15 CST: Aggregating CN results...
+Collected 0 sample results from /data1/lixiang/EmotionalLLM/code/white_box_opens2s_v2/result/blackbox/CN
+Summaries written to /data1/lixiang/EmotionalLLM/code/white_box_opens2s_v2/result/blackbox/CN (0 samples)
+
+2026年 04月 06日 星期一 09:32:16 CST: === Phase 2: EN (speakers 0011-0020) ===
+2026年 04月 06日 星期一 09:32:16 CST: Starting EN shard 0 on GPU 0
+  PID: 2622629
+2026年 04月 06日 星期一 09:32:46 CST: Starting EN shard 1 on GPU 2
+  PID: 2623232
+2026年 04月 06日 星期一 09:33:16 CST: Starting EN shard 2 on GPU 3
+  PID: 2624112
+2026年 04月 06日 星期一 09:33:46 CST: Starting EN shard 3 on GPU 4
+  PID: 2624631
+2026年 04月 06日 星期一 09:34:16 CST: Starting EN shard 4 on GPU 5
+  PID: 2625154
+
+2026年 04月 06日 星期一 09:34:46 CST: All EN shards started. PIDs: 2622629 2623232 2624112 2624631 2625154
+Waiting for EN to complete...
+2026年 04月 06日 星期一 09:34:46 CST: WARNING - EN process 2622629 failed!
+2026年 04月 06日 星期一 09:34:46 CST: WARNING - EN process 2623232 failed!
+2026年 04月 06日 星期一 09:34:46 CST: WARNING - EN process 2624112 failed!
+2026年 04月 06日 星期一 09:34:46 CST: WARNING - EN process 2624631 failed!
+2026年 04月 06日 星期一 09:35:17 CST: WARNING - EN process 2625154 failed!
+
+2026年 04月 06日 星期一 09:35:17 CST: EN phase done. Samples: 0, Failed shards: 5
+2026年 04月 06日 星期一 09:35:17 CST: Aggregating EN results...
+Collected 0 sample results from /data1/lixiang/EmotionalLLM/code/white_box_opens2s_v2/result/blackbox/EN
+Summaries written to /data1/lixiang/EmotionalLLM/code/white_box_opens2s_v2/result/blackbox/EN (0 samples)
+
+==========================================
+2026年 04月 06日 星期一 09:35:19 CST: Experiment complete!
+CN samples: 0 (expected: 1000)
+EN samples: 0 (expected: 1000)
+Results: /data1/lixiang/EmotionalLLM/code/white_box_opens2s_v2/result/blackbox
+==========================================

@@ -3,3 +3,6 @@
 *.pt
 model
 __pycache__/
+.cursor
+.factory
+code\white_box_opens2s_v2\result\blackbox

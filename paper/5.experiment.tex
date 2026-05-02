@@ -1,0 +1,165 @@
+% 5.experiment.tex — Experiments
+
+\section{Experiments}
+\label{sec:experiments}
+\setlength{\emergencystretch}{3em}
+
+\subsection{Setup}
+\label{sec:exp_setup}
+
+\paragraph{Target models.}
+We evaluate five ALLMs spanning diverse audio pipelines:
+\textbf{Voxtral-Mini-3B}~\cite{voxtral} (Whisper encoder--linear adapter--3B Mistral decoder);
+\textbf{OpenS2S}~\cite{opens2s} (dedicated speech-understanding module producing a fused semantic--paralinguistic tensor for a Qwen-based LLM);
+\textbf{MERaLiON-2-3B}~\cite{meralion} (Whisper-style encoder with explicit paralinguistic supervision);
+\textbf{SALMONN-7B}~\cite{salmonn} (dual Whisper+BEATs front end, Q-Former fusion, Vicuna-7B backbone);
+\textbf{Kimi-Audio-7B}~\cite{kimiaudio} (proprietary non-Whisper audio tokenizer, 7B LLM).
+The five models route emotional information through fundamentally different mechanisms---shared encoder pathway, specialized perception module, paralinguistic-supervised decoder, dual-stream fusion, or separate tokenization---providing a strong generality test.
+
+\paragraph{Dataset and evaluation protocol.}
+Experiments span four datasets---ESD-EN, ESD-CN~\cite{esd}, IEMOCAP~\cite{iemocap}, and RAVDESS~\cite{ravdess}---with four source emotions (\texttt{angry}, \texttt{neutral}, \texttt{sad}, \texttt{surprise}) each targeted to \texttt{happy}.
+Two scales are used: \textit{full-scale} (Voxtral and OpenS2S on large ESD sweeps plus 60-sample IEMOCAP/RAVDESS subsets) and \textit{matched-subset} (all five models on 60~samples/dataset, 240~total, same seed); Table~\ref{tab:main_results} reports full-scale where available, matched-subset otherwise.
+Each adversarial audio is tested under three emotion-elicitation prompts; a sample counts as a targeted success only if $\geq$2 of 3 yield the target emotion.
+Semantic preservation is measured by cosine similarity of sentence embeddings (threshold $0.8$); for OpenS2S, an LLM judge (DeepSeek V3~\cite{deepseek}) corroborates at $90.60\%$ agreement.
+Following AHa-Bench~\cite{aha-bench}, we also report \textit{semantic-acoustic confusion} (H$_{\text{sac}}$)---the rate at which the attack flips emotion while preserving content.
+
+\paragraph{Attack configuration.}
+Perturbation budget: $\varepsilon = 0.008$ ($L_\infty$).
+The three-phase design (Section~\ref{sec:methodology}) maps to a two-window schedule: Window~A (20~steps, Phases~I--II) emphasizes $\mathcal{L}_{\mathrm{exit}}$ and $\mathcal{L}_{\mathrm{perc}}$; Window~B (40~steps, Phase~III) balances all losses including $\mathcal{L}_{\mathrm{comp}}$.
+Convergence: emotion loss $<1.0$; multi-prompt ensemble and EoT augmentation are applied throughout.
+
+
+%%% ----------------------------------------------------------------
+\subsection{Targeted Emotion Flipping}
+\label{sec:exp_asr}
+
+\begin{table*}[!t]
+\centering
+\small
+\caption{White-box targeted emotion flipping results across five models and four datasets.
+Targeted ASR (\%) is determined by majority vote over three emotion elicitation prompts.
+Hallucination metrics follow the AHa-Bench~\cite{aha-bench} framework:
+ACC = overall perception accuracy on adversarial audio (emotion probes $+$ semantic probe); $\Delta$ACC = accuracy drop from clean to adversarial; H$_{\text{sem}}$ = semantic hallucination rate; H$_{\text{sac}}$ = semantic-acoustic confusion rate (emotion flipped $\wedge$ semantic preserved).
+All values are percentages; top results per column in \textbf{bold}; ``---'' = hallucination evaluation pending.}
+\label{tab:main_results}
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{l cccc c cccc}
+\toprule
+ & \multicolumn{5}{c}{\textbf{Targeted ASR (\%) $\uparrow$}} & \multicolumn{4}{c}{\textbf{Adversarial Hallucination (\%)}} \\
+\cmidrule(lr){2-6} \cmidrule(lr){7-10}
+\textbf{Models} & IEMOCAP & RAVDESS & ESD-EN & ESD-CN & Avg & ACC$\downarrow$ & $\Delta$ACC$\uparrow$ & H$_{\text{sem}}$$\uparrow$ & H$_{\text{sac}}$$\uparrow$ \\
+\midrule
+Voxtral-Mini-3B & 96.67 & 96.67 & 91.40 & 96.20 & 95.24 & 10.8 & 35.9 & 59.2 & 37.5 \\
+OpenS2S         & 91.67 & 93.33 & 94.40 & 77.40 & 89.20 & \textbf{5.5} & \textbf{66.6} & \textbf{78.3} & 19.4 \\
+MERaLiON-2-3B   & \textbf{100.00} & \textbf{100.00} & \textbf{100.00} & \textbf{100.00} & \textbf{100.00} & 12.6 & 41.7 & 49.7 & \textbf{50.3} \\
+SALMONN-7B      & 90.37 & 86.24 & 92.75 & 81.36 & 87.67 & --- & --- & --- & --- \\
+Kimi-Audio-7B   & 93.53 & 94.21 & 91.22 & 85.78 & 91.53 & --- & --- & --- & --- \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+The left half of Table~\ref{tab:main_results} reports targeted ASR.
+Under $L_\infty{=}0.008$---$3.75{\times}$ smaller than the SER baselines of Section~\ref{sec:obs_q3} (none exceeding $10.5\%$ untargeted change)---the 3-prompt majority-vote ASR reaches $95.24\%$ (Voxtral), $89.20\%$ (OpenS2S), $100.00\%$ (MERaLiON), $87.67\%$ (SALMONN), and $91.53\%$ (Kimi-Audio).
+A budget inert for traditional SER attacks thus suffices for near-complete targeted emotion control once the attack targets the autoregressive pipeline.
+
+Cross-model variation tracks how each architecture processes emotional cues rather than model size.
+Voxtral's diffuse encoder--adapter representations yield easy redirection ($99.90\%$ convergence, mean $5.4$ steps).
+OpenS2S's dedicated perception module creates a compact, harder-to-move boundary: only $47.85\%$ converge (mean $39.5$ steps), explaining its lower ASR---especially on ESD-CN ($77.40\%$).
+MERaLiON's paralinguistic-supervised decoder concentrates emotion in a locally sharp pathway---$100\%$ convergence with trivial cost.
+SALMONN ($87.67\%$) and Kimi-Audio ($91.53\%$) fall between; both show a Mandarin dip (ESD-CN: $81.36\%$, $85.78\%$), consistent with language-dependent prosodic cues being harder to perturb.
+
+
+\begin{table}[!t]
+\centering
+\small
+\caption{Per-emotion targeted ASR (\%, majority vote) on the matched-subset pool.
+Source emotion = ground-truth label of the clean audio; attack target = \texttt{happy}.
+Overall values may differ from the Avg in Table~\ref{tab:main_results} because the sample pools differ for Voxtral and OpenS2S.}
+\label{tab:per_emotion_asr}
+\setlength{\tabcolsep}{10pt}
+\begin{tabular}{l c c c}
+\toprule
+\textbf{Source emotion} & \textbf{Voxtral} & \textbf{OpenS2S} & \textbf{MERaLiON} \\
+\midrule
+Angry    & 92.20 & 71.21 & \textbf{100.00} \\
+Neutral  & 92.00 & 81.10 & \textbf{100.00} \\
+Sad      & 96.00 & 81.54 & \textbf{100.00} \\
+Surprise & 95.00 & 80.58 & \textbf{100.00} \\
+\midrule
+\textbf{Overall} & \textbf{93.80} & \textbf{78.44} & \textbf{100.00} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Per-emotion analysis.}
+Table~\ref{tab:per_emotion_asr} breaks down ASR by source emotion on the matched subset.
+Voxtral shows a tight range ($92$--$96\%$); OpenS2S exhibits wider spread with \texttt{angry} hardest ($71.21\%$) and \texttt{sad}/\texttt{neutral} exceeding $81\%$---consistent with the competition-field analysis of Section~\ref{sec:clean-emotion-observation}, where \texttt{angry} acts as a dominant competitor resisting displacement while \texttt{sad} provides clearer gradient handles.
+MERaLiON flips every sample regardless of source emotion, pointing to a decision boundary that is locally sharp but globally fragile along the \texttt{happy} direction.
+
+
+%%% ----------------------------------------------------------------
+\subsection{Cross-Model Transferability}
+\label{sec:exp_transfer}
+
+A more deployment-relevant question is whether adversarial waveforms crafted against one model retain targeted effect on a \emph{different} model.
+For each source--target pair $(S,T)$, 240~adversarial waveforms (60/dataset) from the white-box attack on~$S$ are fed to~$T$'s 3-prompt majority-vote classifier; diagonal cells reproduce white-box ASR.
+SALMONN and Kimi-Audio report outgoing transfer only; incoming evaluations are pending.
+
+\begin{table*}[!t]
+\centering
+\small
+\caption{Cross-model transferability of white-box adversarial audio (targeted ASR, \%, majority vote).
+Rows = source (attacker); columns = target (evaluator).
+Diagonal cells (shaded, italics) = white-box upper bound.
+``Avg.\ transfer'' and ``Avg.\ as target'' average the available off-diagonal cells per row/column.
+\textbf{Bold} in each column = highest off-diagonal ASR (strongest attacker for that target); in Avg.\ transfer = highest row; in Avg.\ as target = lowest column (most resistant).
+``---'' = not yet evaluated.}
+\label{tab:cross_model_transfer}
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{l ccccc c}
+\toprule
+ & \multicolumn{5}{c}{\textbf{Target model (evaluator) $\rightarrow$}} & \\
+\cmidrule(lr){2-6}
+\textbf{Source model (attacker) $\downarrow$}
+ & Voxtral & OpenS2S & MERaLiON & SALMONN & Kimi-Audio & \textbf{Avg.\ transfer} \\
+\midrule
+Voxtral-Mini-3B  & \cellcolor{gray!15}\textit{95.24} & 34.17 & \textbf{29.58} & --- & --- & 31.88 \\
+OpenS2S          & 35.42 & \cellcolor{gray!15}\textit{89.20} & 9.58  & --- & --- & 22.50 \\
+MERaLiON-2-3B    & 67.79 & 39.25 & \cellcolor{gray!15}\textit{100.00} & --- & --- & \textbf{53.52} \\
+SALMONN-7B       & \textbf{75.45} & \textbf{56.89} & 18.45 & \cellcolor{gray!15}\textit{87.67} & --- & 50.26 \\
+Kimi-Audio-7B    & 64.37 & 45.77 & 22.75 & --- & \cellcolor{gray!15}\textit{91.53} & 44.30 \\
+\midrule
+\textbf{Avg.\ as target} & 60.76 & 44.02 & \textbf{20.09} & --- & --- & --- \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+Three patterns emerge from Table~\ref{tab:cross_model_transfer}.
+
+\textit{(1) Paralinguistic supervision produces strong surrogates but robust targets.}
+MERaLiON's incoming column averages only $20.09\%$---less than half of Voxtral's $60.76\%$---making it the hardest to fool via surrogates.
+On the outgoing side, paralinguistic-trained models dominate: MERaLiON ($53.52\%$) and SALMONN ($50.26\%$) versus Voxtral ($31.88\%$) and OpenS2S ($22.50\%$).
+Gradients from paralinguistic-supervised boundaries carry stronger emotional signals legible to other models, while their narrow vulnerability cones resist incoming transfer.
+
+\textit{(2) Encoder family governs transfer magnitude.}
+The top cell is SALMONN\,$\rightarrow$\penalty0\,Voxtral ($75.45\%$); both share Whisper-family front ends.
+Crossing encoder families incurs a consistent penalty: MERaLiON\,$\rightarrow$\penalty0\,OpenS2S drops to $39.25\%$ and OpenS2S\,$\rightarrow$\penalty0\,MERaLiON collapses to $9.58\%$---the lowest non-trivial cell, cautioning against Qwen2-Audio-style surrogates for Whisper-family targets.
+
+\textit{(3) Practical surrogate selection.}
+The matrix suggests: \emph{match the target's audio front end and prefer a paralinguistic-supervised source}.
+SALMONN is a natural candidate for Whisper-derived targets, though this awaits confirmation from pending incoming evaluations.
+
+
+%%% ----------------------------------------------------------------
+\subsection{Adversarial Hallucination Analysis}
+\label{sec:exp_quality}
+
+The right panel of Table~\ref{tab:main_results} adopts the AHa-Bench~\cite{aha-bench} hallucination taxonomy, reporting four metrics for the three models with completed evaluation.
+
+ACC collapses to $5.5$--$12.6\%$ across all three models.
+The accuracy drop $\Delta$ACC isolates the causal hallucination load: OpenS2S suffers the steepest drop ($66.6\%$), nearly doubling Voxtral's ($35.9\%$); MERaLiON's moderate $41.7\%$ despite $100\%$ emotion flip reflects an already-imperfect clean baseline.
+H$_{\text{sem}}$ correlates with optimization dynamics: OpenS2S's slow convergence ($\sim$40 steps) drifts perturbations into content-bearing dimensions ($78.3\%$), while MERaLiON's near-instant convergence limits collateral damage ($49.7\%$).
+
+The most operationally relevant metric is H$_{\text{sac}}$---emotion flip with semantic preservation.
+MERaLiON leads ($50.3\%$), Voxtral follows ($37.5\%$), OpenS2S achieves only $19.4\%$ due to heavy semantic damage.
+H$_{\text{sem}}$ and H$_{\text{sac}}$ are inversely correlated: defending against semantic hallucination alone does not reduce---and may worsen---the risk of stealthy emotion manipulation.

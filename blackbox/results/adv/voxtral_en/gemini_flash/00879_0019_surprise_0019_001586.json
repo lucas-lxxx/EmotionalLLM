@@ -1,0 +1,31 @@
+{
+  "sample_id": "00879_0019_surprise_0019_001586",
+  "speaker_id": "0019",
+  "ground_truth_emotion": "surprise",
+  "target_emotion": "happy",
+  "whitebox_success": true,
+  "audio_type": "adv",
+  "adv_audio_path": "C:\\Users\\potte\\Desktop\\research\\emotional LLM\\code\\white_box_voxtral\\result\\Voxtral_EN\\0019\\00879_0019_surprise_0019_001586.wav",
+  "eval_audio_path": "C:\\Users\\potte\\Desktop\\research\\emotional LLM\\code\\white_box_voxtral\\result\\Voxtral_EN\\0019\\00879_0019_surprise_0019_001586.wav",
+  "per_prompt_results": [
+    {
+      "prompt_idx": 0,
+      "raw": "Surprise",
+      "label": "surprise"
+    },
+    {
+      "prompt_idx": 1,
+      "raw": "Angry",
+      "label": "angry"
+    },
+    {
+      "prompt_idx": 2,
+      "raw": "Surprise",
+      "label": "surprise"
+    }
+  ],
+  "majority_label": "surprise",
+  "transfer_success": false,
+  "matches_target": false,
+  "is_correct": true
+}

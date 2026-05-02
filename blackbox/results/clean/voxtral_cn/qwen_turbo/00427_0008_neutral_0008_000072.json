@@ -1,0 +1,31 @@
+{
+  "sample_id": "00427_0008_neutral_0008_000072",
+  "speaker_id": "0008",
+  "ground_truth_emotion": "neutral",
+  "target_emotion": "happy",
+  "whitebox_success": true,
+  "audio_type": "clean",
+  "adv_audio_path": "C:\\Users\\potte\\Desktop\\research\\emotional LLM\\code\\white_box_voxtral\\result\\Voxtral_CN\\0008\\00427_0008_neutral_0008_000072.wav",
+  "eval_audio_path": "C:\\Users\\potte\\Desktop\\research\\emotional LLM\\dataset\\ESD\\CN\\0008\\Neutral\\0008_000072.wav",
+  "per_prompt_results": [
+    {
+      "prompt_idx": 0,
+      "raw": "angry",
+      "label": "angry"
+    },
+    {
+      "prompt_idx": 1,
+      "raw": "angry",
+      "label": "angry"
+    },
+    {
+      "prompt_idx": 2,
+      "raw": "angry",
+      "label": "angry"
+    }
+  ],
+  "majority_label": "angry",
+  "transfer_success": false,
+  "matches_target": false,
+  "is_correct": false
+}

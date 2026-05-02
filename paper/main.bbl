@@ -1,0 +1,157 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{13}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Busso et~al\mbox{.}(2008)]%
+        {iemocap}
+\bibfield{author}{\bibinfo{person}{Carlos Busso}, \bibinfo{person}{Murtaza Bulut}, \bibinfo{person}{Chi-Chun Lee}, \bibinfo{person}{Abe Kazemzadeh}, \bibinfo{person}{Emily Mower}, \bibinfo{person}{Samuel Kim}, \bibinfo{person}{Jeannette~N. Chang}, \bibinfo{person}{Sungbok Lee}, {and} \bibinfo{person}{Shrikanth~S. Narayanan}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{{IEMOCAP}: Interactive Emotional Dyadic Motion Capture Database}.
+\newblock \bibinfo{journal}{\emph{Language Resources and Evaluation}} \bibinfo{volume}{42}, \bibinfo{number}{4} (\bibinfo{year}{2008}), \bibinfo{pages}{335--359}.
+\newblock
+\href{https://doi.org/10.1007/s10579-008-9076-6}{doi:\nolinkurl{10.1007/s10579-008-9076-6}}
+
+
+\bibitem[Carlini and Wagner(2017)]%
+        {cw}
+\bibfield{author}{\bibinfo{person}{Nicholas Carlini} {and} \bibinfo{person}{David Wagner}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Towards Evaluating the Robustness of Neural Networks}. In \bibinfo{booktitle}{\emph{Proceedings of the 2017 IEEE Symposium on Security and Privacy}}. \bibinfo{pages}{39--57}.
+\newblock
+\href{https://doi.org/10.1109/SP.2017.49}{doi:\nolinkurl{10.1109/SP.2017.49}}
+
+
+\bibitem[Chang et~al\mbox{.}(2024)]%
+        {staanet}
+\bibfield{author}{\bibinfo{person}{Yi Chang}, \bibinfo{person}{Zhao Ren}, \bibinfo{person}{Zixing Zhang}, \bibinfo{person}{Xin Jing}, \bibinfo{person}{Kun Qian}, \bibinfo{person}{Xi Shao}, \bibinfo{person}{Bin Hu}, \bibinfo{person}{Tanja Schultz}, {and} \bibinfo{person}{Bj{\"o}rn~W. Schuller}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{{STAA-Net}: A Sparse and Transferable Adversarial Attack for Speech Emotion Recognition}.
+\newblock
+\showeprint[arxiv]{2402.01227}~[cs.SD]
+\href{https://doi.org/10.48550/arXiv.2402.01227}{doi:\nolinkurl{10.48550/arXiv.2402.01227}}
+
+
+\bibitem[Cheng et~al\mbox{.}(2025)]%
+        {aha-bench}
+\bibfield{author}{\bibinfo{person}{Xize Cheng}, \bibinfo{person}{Dongjie Fu}, \bibinfo{person}{Chenyuhao Wen}, \bibinfo{person}{Shannon Yu}, \bibinfo{person}{Zehan Wang}, \bibinfo{person}{Shengpeng Ji}, \bibinfo{person}{Siddhant Arora}, \bibinfo{person}{Tao Jin}, \bibinfo{person}{Shinji Watanabe}, {and} \bibinfo{person}{Zhou Zhao}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{AHa-Bench}: Benchmarking Audio Hallucinations in Large Audio-Language Models}.
+\newblock \bibinfo{howpublished}{\url{https://openreview.net/forum?id=vCej5sO61x}}.
+\newblock
+\newblock
+\shownote{OpenReview preprint}.
+
+
+\bibitem[{DeepSeek-AI}(2024)]%
+        {deepseek}
+\bibfield{author}{\bibinfo{person}{{DeepSeek-AI}}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{{DeepSeek-V3} Technical Report}.
+\newblock
+\showeprint[arxiv]{2412.19437}~[cs.CL]
+\href{https://doi.org/10.48550/arXiv.2412.19437}{doi:\nolinkurl{10.48550/arXiv.2412.19437}}
+
+
+\bibitem[Gao et~al\mbox{.}(2022)]%
+        {gao2022}
+\bibfield{author}{\bibinfo{person}{Jinxing Gao}, \bibinfo{person}{Diqun Yan}, {and} \bibinfo{person}{Mingyu Dong}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Black-Box Adversarial Attacks Through Speech Distortion for Speech Emotion Recognition}.
+\newblock \bibinfo{journal}{\emph{EURASIP Journal on Audio, Speech, and Music Processing}} \bibinfo{volume}{2022}, \bibinfo{number}{20} (\bibinfo{year}{2022}).
+\newblock
+\href{https://doi.org/10.1186/s13636-022-00254-7}{doi:\nolinkurl{10.1186/s13636-022-00254-7}}
+
+
+\bibitem[Liu et~al\mbox{.}(2025)]%
+        {voxtral}
+\bibfield{author}{\bibinfo{person}{Alexander~H. Liu} {et~al\mbox{.}}} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{Voxtral}}.
+\newblock
+\showeprint[arxiv]{2507.13264}~[cs.SD]
+\href{https://doi.org/10.48550/arXiv.2507.13264}{doi:\nolinkurl{10.48550/arXiv.2507.13264}}
+
+
+\bibitem[Livingstone and Russo(2018)]%
+        {ravdess}
+\bibfield{author}{\bibinfo{person}{Steven~R. Livingstone} {and} \bibinfo{person}{Frank~A. Russo}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{The {Ryerson Audio-Visual Database of Emotional Speech and Song} ({RAVDESS}): A Dynamic, Multimodal Set of Facial and Vocal Expressions in North American English}.
+\newblock \bibinfo{journal}{\emph{PLOS ONE}} \bibinfo{volume}{13}, \bibinfo{number}{5} (\bibinfo{year}{2018}), \bibinfo{pages}{e0196391}.
+\newblock
+\href{https://doi.org/10.1371/journal.pone.0196391}{doi:\nolinkurl{10.1371/journal.pone.0196391}}
+
+
+\bibitem[Madry et~al\mbox{.}(2018)]%
+        {pgd}
+\bibfield{author}{\bibinfo{person}{Aleksander Madry}, \bibinfo{person}{Aleksandar Makelov}, \bibinfo{person}{Ludwig Schmidt}, \bibinfo{person}{Dimitris Tsipras}, {and} \bibinfo{person}{Adrian Vladu}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Towards Deep Learning Models Resistant to Adversarial Attacks}. In \bibinfo{booktitle}{\emph{International Conference on Learning Representations}}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/1706.06083}
+\showURL{%
+\tempurl}
+
+
+\bibitem[{MERaLiON}(2025)]%
+        {meralion}
+\bibfield{author}{\bibinfo{person}{{MERaLiON}}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{MERaLiON-2-3B}}.
+\newblock \bibinfo{howpublished}{\url{https://huggingface.co/MERaLiON/MERaLiON-2-3B}}.
+\newblock
+\newblock
+\shownote{Model card}.
+
+
+\bibitem[Ren et~al\mbox{.}(2020)]%
+        {ren2020}
+\bibfield{author}{\bibinfo{person}{Zhao Ren}, \bibinfo{person}{Jing Han}, \bibinfo{person}{Nicholas Cummins}, {and} \bibinfo{person}{Bj{\"o}rn Schuller}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Enhancing Transferability of Black-Box Adversarial Attacks via Lifelong Learning for Speech Emotion Recognition Models}. In \bibinfo{booktitle}{\emph{Proceedings of INTERSPEECH 2020}}. \bibinfo{pages}{496--500}.
+\newblock
+\href{https://doi.org/10.21437/Interspeech.2020-1869}{doi:\nolinkurl{10.21437/Interspeech.2020-1869}}
+
+
+\bibitem[Wang et~al\mbox{.}(2025)]%
+        {opens2s}
+\bibfield{author}{\bibinfo{person}{Chen Wang}, \bibinfo{person}{Tianyu Peng}, \bibinfo{person}{Wen Yang}, \bibinfo{person}{Yinan Bai}, \bibinfo{person}{Guangfu Wang}, \bibinfo{person}{Jun Lin}, \bibinfo{person}{Lanpeng Jia}, \bibinfo{person}{Lingxiang Wu}, \bibinfo{person}{Jinqiao Wang}, \bibinfo{person}{Chengqing Zong}, {and} \bibinfo{person}{Jiajun Zhang}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{OpenS2S}: Advancing Fully Open-Source End-to-End Empathetic Large Speech Language Model}.
+\newblock
+\showeprint[arxiv]{2507.05177}~[cs.CL]
+\href{https://doi.org/10.48550/arXiv.2507.05177}{doi:\nolinkurl{10.48550/arXiv.2507.05177}}
+
+
+\bibitem[Zhou et~al\mbox{.}(2021)]%
+        {esd}
+\bibfield{author}{\bibinfo{person}{Kun Zhou}, \bibinfo{person}{Berrak Sisman}, \bibinfo{person}{Rui Liu}, {and} \bibinfo{person}{Haizhou Li}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Seen and Unseen Emotional Style Transfer for Voice Conversion with a New Emotional Speech Dataset}. In \bibinfo{booktitle}{\emph{Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing}}. \bibinfo{pages}{920--924}.
+\newblock
+\href{https://doi.org/10.1109/ICASSP39728.2021.9413391}{doi:\nolinkurl{10.1109/ICASSP39728.2021.9413391}}
+
+
+\end{thebibliography}

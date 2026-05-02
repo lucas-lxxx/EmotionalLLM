@@ -1,0 +1,124 @@
+{
+  "total_samples": 962,
+  "metric_name": "accuracy",
+  "metric_count": 0,
+  "metric_rate": 0.0,
+  "target_hits": 0,
+  "target_rate": 0.0,
+  "correct_predictions": 0,
+  "accuracy": 0.0,
+  "per_emotion": {
+    "angry": {
+      "total": 237,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0
+    },
+    "neutral": {
+      "total": 239,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0
+    },
+    "sad": {
+      "total": 242,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0
+    },
+    "surprise": {
+      "total": 244,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0
+    }
+  },
+  "per_speaker": {
+    "0001": {
+      "total": 88,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0
+    },
+    "0002": {
+      "total": 96,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0
+    },
+    "0003": {
+      "total": 100,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0
+    },
+    "0004": {
+      "total": 92,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0
+    },
+    "0005": {
+      "total": 97,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0
+    },
+    "0006": {
+      "total": 100,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0
+    },
+    "0007": {
+      "total": 100,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0
+    },
+    "0008": {
+      "total": 94,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0
+    },
+    "0009": {
+      "total": 97,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0
+    },
+    "0010": {
+      "total": 98,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0
+    }
+  },
+  "per_prompt_rate": {
+    "prompt_0": 0.0021,
+    "prompt_1": 0.0,
+    "prompt_2": 0.0
+  },
+  "prediction_distribution": {
+    "": 961,
+    "angry": 1
+  },
+  "surrogate": "voxtral_cn",
+  "target": "gemini_flash",
+  "audio_type": "clean"
+}

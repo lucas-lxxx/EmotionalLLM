@@ -1,0 +1,128 @@
+{
+  "total_samples": 774,
+  "metric_name": "accuracy",
+  "metric_count": 38,
+  "metric_rate": 0.0491,
+  "target_hits": 59,
+  "target_rate": 0.0762,
+  "correct_predictions": 38,
+  "accuracy": 0.0491,
+  "per_emotion": {
+    "angry": {
+      "total": 177,
+      "target_hits": 19,
+      "target_rate": 0.1073,
+      "correct_predictions": 37,
+      "accuracy": 0.209
+    },
+    "neutral": {
+      "total": 197,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0
+    },
+    "sad": {
+      "total": 197,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0
+    },
+    "surprise": {
+      "total": 203,
+      "target_hits": 40,
+      "target_rate": 0.197,
+      "correct_predictions": 1,
+      "accuracy": 0.0049
+    }
+  },
+  "per_speaker": {
+    "0001": {
+      "total": 72,
+      "target_hits": 7,
+      "target_rate": 0.0972,
+      "correct_predictions": 4,
+      "accuracy": 0.0556
+    },
+    "0002": {
+      "total": 69,
+      "target_hits": 2,
+      "target_rate": 0.029,
+      "correct_predictions": 12,
+      "accuracy": 0.1739
+    },
+    "0003": {
+      "total": 84,
+      "target_hits": 2,
+      "target_rate": 0.0238,
+      "correct_predictions": 3,
+      "accuracy": 0.0357
+    },
+    "0004": {
+      "total": 76,
+      "target_hits": 2,
+      "target_rate": 0.0263,
+      "correct_predictions": 8,
+      "accuracy": 0.1053
+    },
+    "0005": {
+      "total": 70,
+      "target_hits": 2,
+      "target_rate": 0.0286,
+      "correct_predictions": 6,
+      "accuracy": 0.0857
+    },
+    "0006": {
+      "total": 80,
+      "target_hits": 3,
+      "target_rate": 0.0375,
+      "correct_predictions": 4,
+      "accuracy": 0.05
+    },
+    "0007": {
+      "total": 85,
+      "target_hits": 8,
+      "target_rate": 0.0941,
+      "correct_predictions": 0,
+      "accuracy": 0.0
+    },
+    "0008": {
+      "total": 78,
+      "target_hits": 18,
+      "target_rate": 0.2308,
+      "correct_predictions": 1,
+      "accuracy": 0.0128
+    },
+    "0009": {
+      "total": 79,
+      "target_hits": 7,
+      "target_rate": 0.0886,
+      "correct_predictions": 0,
+      "accuracy": 0.0
+    },
+    "0010": {
+      "total": 81,
+      "target_hits": 8,
+      "target_rate": 0.0988,
+      "correct_predictions": 0,
+      "accuracy": 0.0
+    }
+  },
+  "per_prompt_rate": {
+    "prompt_0": 0.0801,
+    "prompt_1": 0.0426,
+    "prompt_2": 0.0426
+  },
+  "prediction_distribution": {
+    "": 601,
+    "happy": 59,
+    "neutral": 56,
+    "angry": 51,
+    "sad": 6,
+    "surprise": 1
+  },
+  "surrogate": "opens2s_cn",
+  "target": "qwen_turbo",
+  "audio_type": "clean"
+}

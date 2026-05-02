@@ -1,0 +1,40 @@
+\section{Preliminary}
+\label{sec:background}
+
+This section clarifies the architectural gap between conventional speech emotion recognition (SER) systems and Audio Large Language Models (ALLMs), then defines how ALLMs express and use emotion internally.
+
+\subsection{Architectural Gap Between SER and ALLMs}
+\label{sec:bg_ser_allm_gap}
+
+SER is usually formulated as a compact supervised classification problem.
+Given an utterance $x$, a SER model extracts acoustic or self-supervised speech representations and maps them to a small emotion label set $\mathcal{E}$ through a classification head~\cite{wav2vec2,hubert,iemocap}.
+The output is an explicit label distribution $C(x)\in\mathbb{R}^{|\mathcal{E}|}$, where each dimension directly corresponds to an emotion class such as \textit{angry}, \textit{happy}, or \textit{sad}.
+Conventional SER attacks therefore operate on this fixed decision interface: under a perturbation budget $\|\delta\|_p\leq\epsilon$, they search for $x'=x+\delta$ that crosses the classifier boundary.
+
+ALLMs have a different architecture and output interface.
+An ALLM first converts audio into acoustic representations, aligns them to a language model through an adapter or projection module, and then generates text autoregressively~\cite{salmonn,qwen2audio}.
+Commercial ALLMs expose the same audio-in, text-out behavior even when their internal modules are not public~\cite{gpt4o,gemini}.
+Crucially, an ALLM does not expose a dedicated emotion classifier.
+Its emotion judgment is embedded in the next-token distribution of the language model, and the final answer is produced over a large vocabulary rather than over a small emotion label set.
+This means the attack surface shifts from a classifier boundary to a generative token interface.
+
+\subsection{Emotion Understanding in ALLMs}
+\label{sec:bg_allm_emotion}
+
+For an audio input $x$, prompt $q$, and partial response $y_{<i}$, let $p_\theta(v\mid x,q,y_{<i})$ denote the probability of the next token $v\in\mathcal{V}$.
+When the prompt asks about affect, the ALLM verbalizes emotion through tokens such as \textit{happy}, \textit{sad}, or \textit{angry}.
+Let $\mathcal{T}_e\subset\mathcal{V}$ be the token set that expresses emotion $e$.
+We define the token-level emotion score as
+\begin{equation}
+    s_e(x,q)=\sum_{v\in\mathcal{T}_e} p_\theta(v\mid x,q,y_{<i}).
+\end{equation}
+The model's effective emotion decision is governed by competition among $\{s_e\}_{e\in\mathcal{E}}$, rather than by a standalone SER head.
+
+This emotion score should not be viewed as a mere label readout.
+In an ALLM, the perceived emotion is part of the generation state: it can influence tone, empathy, content selection, and safety-relevant response behavior.
+Thus, emotion understanding is an \emph{implicit percept}: it is not directly exposed as a classifier output, yet it shapes what the model says.
+For a source emotion $a$ and target emotion $b$, the relevant control signal is the pairwise margin
+\begin{equation}
+    m_{a\rightarrow b}(x,q)=s_b(x,q)-s_a(x,q).
+\end{equation}
+The following observations build on this view: effective attacks on ALLM emotion perception must manipulate token-level emotion competition, not only the classifier boundary used by conventional SER systems.

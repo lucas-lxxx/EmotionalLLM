@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Experiment Overview Figure Preview</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #eef1f5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 50px 20px;
+    font-family: 'Inter', 'Helvetica Neue', sans-serif;
+  }
+
+  .canvas {
+    background: #fff;
+    width: 880px;
+    padding: 0;
+    border-radius: 3px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    overflow: hidden;
+  }
+
+  /* ====== SVG Figure ====== */
+  svg { display: block; }
+
+  /* Caption below */
+  .caption {
+    padding: 14px 28px 18px;
+    font-size: 11px;
+    color: #6b7280;
+    line-height: 1.55;
+    border-top: 1px solid #eee;
+  }
+  .caption b { color: #374151; }
+</style>
+</head>
+<body>
+
+<div class="canvas">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 520" width="880" height="520">
+  <defs>
+    <!-- Soft shadows -->
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2.5" flood-opacity="0.08"/>
+    </filter>
+    <!-- Arrow marker -->
+    <marker id="arrowGray" viewBox="0 0 10 8" refX="10" refY="4" markerWidth="8" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#b0b8c4"/>
+    </marker>
+    <marker id="arrowBlue" viewBox="0 0 10 8" refX="10" refY="4" markerWidth="8" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#6690d0"/>
+    </marker>
+    <marker id="arrowTeal" viewBox="0 0 10 8" refX="10" refY="4" markerWidth="8" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#4daa96"/>
+    </marker>
+    <marker id="arrowOrange" viewBox="0 0 10 8" refX="10" refY="4" markerWidth="8" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#d4915a"/>
+    </marker>
+    <!-- Rounded rect clip -->
+    <clipPath id="clipAll"><rect x="0" y="0" width="880" height="520" rx="3"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clipAll)">
+
+  <!-- Background -->
+  <rect width="880" height="520" fill="#fafbfd"/>
+
+  <!-- ========== THREAT AXIS (left side, vertical) ========== -->
+  <line x1="36" y1="60" x2="36" y2="480" stroke="url(#axisGrad)" stroke-width="2.5" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="axisGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a7fd4"/>
+      <stop offset="45%" stop-color="#3a9e88"/>
+      <stop offset="100%" stop-color="#d46a3a"/>
+    </linearGradient>
+  </defs>
+  <!-- axis arrow head -->
+  <polygon points="31,478 36,490 41,478" fill="#d46a3a"/>
+  <!-- axis labels -->
+  <text x="36" y="46" text-anchor="middle" font-size="8.5" font-weight="600" fill="#4a7fd4" letter-spacing="0.8" font-family="Inter,sans-serif">CONTROLLED</text>
+  <text x="36" y="505" text-anchor="middle" font-size="8.5" font-weight="600" fill="#d46a3a" letter-spacing="0.8" font-family="Inter,sans-serif">REAL-WORLD</text>
+
+  <!-- ========== ROW 1: WHITE-BOX ========== -->
+
+  <!-- Tier badge -->
+  <rect x="60" y="24" width="80" height="22" rx="4" fill="#4a7fd4"/>
+  <text x="100" y="38.5" text-anchor="middle" font-size="9" font-weight="700" fill="#fff" letter-spacing="0.6" font-family="Inter,sans-serif">WHITE-BOX</text>
+
+  <!-- Card A: Emotion Flipping -->
+  <g filter="url(#shadow)">
+    <rect x="60" y="56" width="380" height="120" rx="8" fill="#fff" stroke="#c2d4ef" stroke-width="1.2"/>
+  </g>
+  <!-- Blue left accent -->
+  <rect x="60" y="56" width="5" height="120" rx="3" fill="#4a7fd4"/>
+
+  <text x="82" y="78" font-size="12" font-weight="700" fill="#1e2a3a" font-family="Inter,sans-serif">Targeted Emotion Flipping</text>
+  <text x="370" y="78" text-anchor="end" font-size="9" fill="#9ca3af" font-family="Inter,sans-serif">§5.2 | Tab.1,2</text>
+
+  <!-- Mini bar chart -->
+  <g transform="translate(85, 92)">
+    <!-- bars (scaled: 87.67→height proportional) -->
+    <rect x="0"   y="5.4"  width="38" height="38.6" rx="2" fill="#d0deef"/>
+    <rect x="48"  y="8.4"  width="38" height="35.6" rx="2" fill="#d0deef"/>
+    <rect x="96"  y="0"    width="38" height="44"   rx="2" fill="#4a7fd4"/>
+    <rect x="144" y="10.8" width="38" height="33.2" rx="2" fill="#d0deef"/>
+    <rect x="192" y="7.4"  width="38" height="36.6" rx="2" fill="#d0deef"/>
+
+    <!-- labels -->
+    <text x="19"  y="55" text-anchor="middle" font-size="7.5" fill="#6b7280" font-family="Inter,sans-serif">Voxtral</text>
+    <text x="67"  y="55" text-anchor="middle" font-size="7.5" fill="#6b7280" font-family="Inter,sans-serif">OpenS2S</text>
+    <text x="115" y="55" text-anchor="middle" font-size="7.5" fill="#fff" font-weight="600" font-family="Inter,sans-serif">MERaLiON</text>
+    <text x="163" y="55" text-anchor="middle" font-size="7.5" fill="#6b7280" font-family="Inter,sans-serif">SALMONN</text>
+    <text x="211" y="55" text-anchor="middle" font-size="7.5" fill="#6b7280" font-family="Inter,sans-serif">Kimi</text>
+
+    <!-- values on bars -->
+    <text x="19"  y="17.4" text-anchor="middle" font-size="8" font-weight="600" fill="#3a5a8a" font-family="Inter,sans-serif">95.2</text>
+    <text x="67"  y="20.4" text-anchor="middle" font-size="8" font-weight="600" fill="#3a5a8a" font-family="Inter,sans-serif">89.2</text>
+    <text x="115" y="12"   text-anchor="middle" font-size="8" font-weight="700" fill="#fff"    font-family="Inter,sans-serif">100</text>
+    <text x="163" y="22.8" text-anchor="middle" font-size="8" font-weight="600" fill="#3a5a8a" font-family="Inter,sans-serif">87.7</text>
+    <text x="211" y="19.4" text-anchor="middle" font-size="8" font-weight="600" fill="#3a5a8a" font-family="Inter,sans-serif">91.5</text>
+  </g>
+
+  <text x="360" y="105" text-anchor="end" font-size="18" font-weight="700" fill="#4a7fd4" font-family="Inter,sans-serif">87–100%</text>
+  <text x="360" y="118" text-anchor="end" font-size="8.5" fill="#7a8a9e" font-family="Inter,sans-serif">ASR across 5 ALLMs</text>
+
+  <!-- Hallucination mini badge -->
+  <g transform="translate(355, 130)">
+    <rect x="0" y="0" width="78" height="38" rx="5" fill="#eef3fb" stroke="#c2d4ef" stroke-width="0.8"/>
+    <text x="39" y="14" text-anchor="middle" font-size="7.5" font-weight="600" fill="#6b7280" font-family="Inter,sans-serif">H<tspan font-size="6" dy="2">sac</tspan><tspan dy="-2"> up to</tspan></text>
+    <text x="39" y="30" text-anchor="middle" font-size="14" font-weight="700" fill="#4a7fd4" font-family="Inter,sans-serif">50.3%</text>
+  </g>
+
+  <!-- Card B: Hallucination Analysis -->
+  <g filter="url(#shadow)">
+    <rect x="460" y="56" width="370" height="120" rx="8" fill="#fff" stroke="#c2d4ef" stroke-width="1.2"/>
+  </g>
+  <rect x="460" y="56" width="5" height="120" rx="3" fill="#4a7fd4"/>
+
+  <text x="482" y="78" font-size="12" font-weight="700" fill="#1e2a3a" font-family="Inter,sans-serif">Adversarial Hallucination</text>
+  <text x="808" y="78" text-anchor="end" font-size="9" fill="#9ca3af" font-family="Inter,sans-serif">§5.4 | AHa-Bench</text>
+
+  <!-- Trade-off diagram -->
+  <g transform="translate(490, 88)">
+    <!-- axes -->
+    <line x1="0" y1="72" x2="140" y2="72" stroke="#d0d5dd" stroke-width="1"/>
+    <line x1="0" y1="0"  x2="0"   y2="72" stroke="#d0d5dd" stroke-width="1"/>
+    <text x="70" y="84" text-anchor="middle" font-size="7" fill="#9ca3af" font-family="Inter,sans-serif">H_sem (%)</text>
+    <text x="-8" y="36" text-anchor="middle" font-size="7" fill="#9ca3af" font-family="Inter,sans-serif" transform="rotate(-90, -8, 36)">H_sac (%)</text>
+
+    <!-- data points (positioned proportionally) -->
+    <!-- OpenS2S: H_sem=78.3, H_sac=19.4 -->
+    <circle cx="108" cy="52" r="8" fill="#4a7fd420" stroke="#4a7fd4" stroke-width="1.5"/>
+    <text x="108" y="55" text-anchor="middle" font-size="6" font-weight="600" fill="#4a7fd4" font-family="Inter,sans-serif">O</text>
+    <text x="120" y="48" font-size="6.5" fill="#6b7280" font-family="Inter,sans-serif">OpenS2S</text>
+
+    <!-- Voxtral: H_sem=59.2, H_sac=37.5 -->
+    <circle cx="76" cy="30" r="8" fill="#7da8d820" stroke="#7da8d8" stroke-width="1.5"/>
+    <text x="76" y="33" text-anchor="middle" font-size="6" font-weight="600" fill="#7da8d8" font-family="Inter,sans-serif">V</text>
+    <text x="88" y="26" font-size="6.5" fill="#6b7280" font-family="Inter,sans-serif">Voxtral</text>
+
+    <!-- MERaLiON: H_sem=49.7, H_sac=50.3 -->
+    <circle cx="58" cy="12" r="9" fill="#4a7fd4" stroke="#3a5fa4" stroke-width="1.5"/>
+    <text x="58" y="15" text-anchor="middle" font-size="6" font-weight="700" fill="#fff" font-family="Inter,sans-serif">M</text>
+    <text x="72" y="8" font-size="6.5" font-weight="600" fill="#3a5fa4" font-family="Inter,sans-serif">MERaLiON</text>
+
+    <!-- trend line (dashed) -->
+    <line x1="45" y1="8" x2="115" y2="58" stroke="#4a7fd4" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+  </g>
+
+  <!-- Key insight text -->
+  <text x="700" y="108" text-anchor="middle" font-size="9" fill="#4a5568" font-family="Inter,sans-serif" font-style="italic">Trade-off:</text>
+  <text x="700" y="120" text-anchor="middle" font-size="8" fill="#6b7280" font-family="Inter,sans-serif">Low semantic damage</text>
+  <text x="700" y="131" text-anchor="middle" font-size="8" fill="#6b7280" font-family="Inter,sans-serif">= higher stealthy flip</text>
+
+  <!-- ========== Connecting arrow 1→2 ========== -->
+  <line x1="440" y1="182" x2="440" y2="210" stroke="#b0b8c4" stroke-width="1.2" marker-end="url(#arrowGray)"/>
+
+  <!-- ========== ROW 2: CROSS-MODEL TRANSFER ========== -->
+
+  <rect x="60" y="206" width="112" height="22" rx="4" fill="#3a9e88"/>
+  <text x="116" y="220.5" text-anchor="middle" font-size="9" font-weight="700" fill="#fff" letter-spacing="0.6" font-family="Inter,sans-serif">CROSS-MODEL</text>
+
+  <g filter="url(#shadow)">
+    <rect x="60" y="236" width="770" height="100" rx="8" fill="#fff" stroke="#a3d4c5" stroke-width="1.2"/>
+  </g>
+  <rect x="60" y="236" width="5" height="100" rx="3" fill="#3a9e88"/>
+
+  <text x="82" y="258" font-size="12" font-weight="700" fill="#1e2a3a" font-family="Inter,sans-serif">Cross-Model Transferability</text>
+  <text x="808" y="258" text-anchor="end" font-size="9" fill="#9ca3af" font-family="Inter,sans-serif">§5.3 | Tab.3</text>
+
+  <!-- Transfer matrix mini visualization -->
+  <g transform="translate(90, 268)">
+    <!-- 3x3 grid simplified -->
+    <rect x="0"  y="0"  width="42" height="18" rx="3" fill="#3a9e88" opacity="0.15"/>
+    <rect x="48" y="0"  width="42" height="18" rx="3" fill="#3a9e88" opacity="0.30"/>
+    <rect x="96" y="0"  width="42" height="18" rx="3" fill="#3a9e88" opacity="0.10"/>
+
+    <rect x="0"  y="22" width="42" height="18" rx="3" fill="#3a9e88" opacity="0.10"/>
+    <rect x="48" y="22" width="42" height="18" rx="3" fill="#3a9e88" opacity="0.15"/>
+    <rect x="96" y="22" width="42" height="18" rx="3" fill="#3a9e88" opacity="0.05"/>
+
+    <rect x="0"  y="44" width="42" height="18" rx="3" fill="#3a9e88" opacity="0.50"/>
+    <rect x="48" y="44" width="42" height="18" rx="3" fill="#3a9e88" opacity="0.25"/>
+    <rect x="96" y="44" width="42" height="18" rx="3" fill="#3a9e88" opacity="0.15"/>
+
+    <text x="21"  y="12" text-anchor="middle" font-size="7" fill="#2a6e5e" font-family="Inter,sans-serif">35.4</text>
+    <text x="69"  y="12" text-anchor="middle" font-size="7" fill="#2a6e5e" font-family="Inter,sans-serif">34.2</text>
+    <text x="117" y="12" text-anchor="middle" font-size="7" fill="#2a6e5e" font-family="Inter,sans-serif">29.6</text>
+
+    <text x="21"  y="34" text-anchor="middle" font-size="7" fill="#2a6e5e" font-family="Inter,sans-serif">35.4</text>
+    <text x="69"  y="34" text-anchor="middle" font-size="7" fill="#2a6e5e" font-family="Inter,sans-serif">—</text>
+    <text x="117" y="34" text-anchor="middle" font-size="7" fill="#2a6e5e" font-family="Inter,sans-serif">9.6</text>
+
+    <text x="21"  y="56" text-anchor="middle" font-size="7" font-weight="700" fill="#1a6e55" font-family="Inter,sans-serif">75.5</text>
+    <text x="69"  y="56" text-anchor="middle" font-size="7" fill="#2a6e5e" font-family="Inter,sans-serif">56.9</text>
+    <text x="117" y="56" text-anchor="middle" font-size="7" fill="#2a6e5e" font-family="Inter,sans-serif">18.5</text>
+  </g>
+
+  <!-- Key metrics -->
+  <g transform="translate(300, 275)">
+    <text x="0" y="0" font-size="9" font-weight="600" fill="#2a6e5e" font-family="Inter,sans-serif">Best transfer path</text>
+    <text x="0" y="16" font-size="16" font-weight="700" fill="#3a9e88" font-family="Inter,sans-serif">SALMONN → Voxtral 75.5%</text>
+
+    <text x="0" y="38" font-size="9" font-weight="600" fill="#2a6e5e" font-family="Inter,sans-serif">Most robust target</text>
+    <text x="0" y="52" font-size="12" font-weight="600" fill="#6b9e8e" font-family="Inter,sans-serif">MERaLiON (avg 20.1% as target)</text>
+  </g>
+
+  <!-- Mini insight -->
+  <g transform="translate(660, 278)">
+    <rect x="0" y="0" width="150" height="48" rx="6" fill="#e8f5f0" stroke="#a3d4c5" stroke-width="0.8"/>
+    <text x="75" y="16" text-anchor="middle" font-size="8" font-weight="600" fill="#2a6e5e" font-family="Inter,sans-serif">Key: Encoder family</text>
+    <text x="75" y="29" text-anchor="middle" font-size="7.5" fill="#4a8070" font-family="Inter,sans-serif">Whisper-family transfers</text>
+    <text x="75" y="41" text-anchor="middle" font-size="7.5" fill="#4a8070" font-family="Inter,sans-serif">dominate cross-model paths</text>
+  </g>
+
+  <!-- ========== Connecting arrow 2→3 ========== -->
+  <line x1="440" y1="342" x2="440" y2="370" stroke="#b0b8c4" stroke-width="1.2" marker-end="url(#arrowGray)"/>
+
+  <!-- ========== ROW 3: BLACK-BOX ========== -->
+
+  <rect x="60" y="366" width="80" height="22" rx="4" fill="#d46a3a"/>
+  <text x="100" y="380.5" text-anchor="middle" font-size="9" font-weight="700" fill="#fff" letter-spacing="0.6" font-family="Inter,sans-serif">BLACK-BOX</text>
+
+  <!-- Card: API-based Commercial -->
+  <g filter="url(#shadow)">
+    <rect x="60" y="396" width="370" height="100" rx="8" fill="#fff" stroke="#e8c9a0" stroke-width="1.2"/>
+  </g>
+  <rect x="60" y="396" width="5" height="100" rx="3" fill="#d4915a"/>
+
+  <text x="82" y="418" font-size="11.5" font-weight="700" fill="#1e2a3a" font-family="Inter,sans-serif">Commercial APIs</text>
+  <text x="410" y="418" text-anchor="end" font-size="9" fill="#9ca3af" font-family="Inter,sans-serif">§5.5.1 | Tab.4</text>
+
+  <!-- API icon -->
+  <g transform="translate(85, 430)">
+    <rect x="0" y="0" width="56" height="52" rx="6" fill="#fdf0e4" stroke="#e8c9a0" stroke-width="0.8"/>
+    <text x="28" y="22" text-anchor="middle" font-size="7" font-weight="600" fill="#b37a3a" font-family="Inter,sans-serif">Zero-shot</text>
+    <text x="28" y="33" text-anchor="middle" font-size="7" fill="#b37a3a" font-family="Inter,sans-serif">transfer</text>
+    <text x="28" y="47" text-anchor="middle" font-size="11" font-weight="700" fill="#d4915a" font-family="Inter,sans-serif">17.0%</text>
+  </g>
+
+  <!-- Target models -->
+  <g transform="translate(155, 435)">
+    <text x="0" y="0" font-size="8" font-weight="600" fill="#8a7050" font-family="Inter,sans-serif">Targets:</text>
+    <text x="0" y="14" font-size="8" fill="#6b7280" font-family="Inter,sans-serif">Gemini 2.5 Flash / Pro</text>
+    <text x="0" y="27" font-size="8" fill="#6b7280" font-family="Inter,sans-serif">Qwen3 Flash / Turbo</text>
+    <text x="0" y="42" font-size="9" font-weight="600" fill="#d4915a" font-family="Inter,sans-serif">Peak: Qwen-Turbo 37.3%</text>
+  </g>
+
+  <!-- Card: Over-the-Air -->
+  <g filter="url(#shadow)">
+    <rect x="450" y="396" width="380" height="100" rx="8" fill="#fff" stroke="#e8a0a0" stroke-width="1.2"/>
+  </g>
+  <rect x="450" y="396" width="5" height="100" rx="3" fill="#d44a3a"/>
+
+  <text x="472" y="418" font-size="11.5" font-weight="700" fill="#1e2a3a" font-family="Inter,sans-serif">Platform Agents</text>
+  <text x="808" y="418" text-anchor="end" font-size="9" fill="#9ca3af" font-family="Inter,sans-serif">§5.5.2 | Tab.5</text>
+
+  <!-- Physical icon -->
+  <g transform="translate(475, 430)">
+    <rect x="0" y="0" width="56" height="52" rx="6" fill="#fde4e4" stroke="#e8a0a0" stroke-width="0.8"/>
+    <text x="28" y="18" text-anchor="middle" font-size="7" font-weight="600" fill="#a04040" font-family="Inter,sans-serif">Over-the</text>
+    <text x="28" y="29" text-anchor="middle" font-size="7" font-weight="600" fill="#a04040" font-family="Inter,sans-serif">-Air</text>
+    <text x="28" y="47" text-anchor="middle" font-size="11" font-weight="700" fill="#d44a3a" font-family="Inter,sans-serif">15.3%</text>
+  </g>
+
+  <!-- Physical chain: speaker → air → mic -->
+  <g transform="translate(545, 435)">
+    <text x="0" y="0" font-size="7.5" fill="#6b7280" font-family="Inter,sans-serif">Speaker</text>
+    <text x="50" y="0" font-size="9" fill="#c0c0c0" font-family="Inter,sans-serif">→</text>
+    <text x="62" y="0" font-size="7.5" fill="#6b7280" font-family="Inter,sans-serif">Air</text>
+    <text x="82" y="0" font-size="9" fill="#c0c0c0" font-family="Inter,sans-serif">→</text>
+    <text x="95" y="0" font-size="7.5" fill="#6b7280" font-family="Inter,sans-serif">Mic</text>
+    <text x="118" y="0" font-size="9" fill="#c0c0c0" font-family="Inter,sans-serif">→</text>
+    <text x="131" y="0" font-size="7.5" fill="#6b7280" font-family="Inter,sans-serif">Agent</text>
+
+    <text x="0" y="18" font-size="8" fill="#6b7280" font-family="Inter,sans-serif">Doubao | ChatGPT | Gemini</text>
+    <text x="0" y="30" font-size="8" fill="#6b7280" font-family="Inter,sans-serif">Grok | Yuanbao</text>
+    <text x="0" y="46" font-size="9" font-weight="600" fill="#d44a3a" font-family="Inter,sans-serif">Peak: Yuanbao 32.6%</text>
+  </g>
+
+  </g>
+</svg>
+
+<div class="caption">
+  <b>Figure X.</b> Overview of the experimental evaluation.
+  The pipeline escalates from white-box attacks (top) through cross-model transfer (middle) to black-box attacks on commercial APIs and physical over-the-air platform agents (bottom).
+</div>
+</div>
+
+</body>
+</html>

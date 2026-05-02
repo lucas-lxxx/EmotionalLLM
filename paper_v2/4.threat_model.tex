@@ -1,0 +1,41 @@
+% 3.threat_model.tex — Threat Model
+
+\section{Threat Model}
+\label{sec:threat_model}
+
+Emotion-aware Audio LLMs (ALLMs) are increasingly used in voice-facing systems such as affective companion agents, mental-health support tools, education assistants, and customer-service agents. In these settings, the model's response is not conditioned only on the literal transcript, but also on an internal percept of the speaker's affect. Section~\ref{sec:obs_q2} shows that this affective percept is operationally consequential: when the model is induced to perceive a mismatched emotion, the downstream response can become less faithful, less empathetic, and less relevant. The resulting risk is therefore not merely a wrong emotion label, but a response-level misgrounding cascade. This motivates the adversarial question studied in this paper: can an attacker reliably steer an ALLM's perceived emotion to an attacker-chosen target while preserving the spoken content and perceptual quality of the audio?
+
+\paragraph{Attack surface.}
+We consider the speech input channel of an ALLM. The victim system receives an audio waveform, processes it through its audio encoder, speech adapter or fusion module, and language-model backbone, and finally produces either an explicit emotion label or an emotion-conditioned response. The attacker does not need to alter the prompt, system instruction, model parameters, decoding rule, or application logic. The only attack vector is the input waveform. This setting reflects a realistic deployment boundary: users, microphones, uploaded audio files, or replayed speech can influence the acoustic signal, whereas the hosted model and its prompts remain controlled by the service provider.
+
+\paragraph{Attacker's goal.}
+Given a clean audio waveform $x$ with source speaker emotion $e_s$, the attacker seeks a small perturbation $\delta$ such that the adversarial audio $x'=x+\delta$ causes the target ALLM to perceive or output a pre-specified target emotion $e_t\neq e_s$. The objective is \emph{targeted}: the attacker controls not only whether the prediction changes, but also which emotion it changes to. This is strictly harder than untargeted degradation, because the adversarial audio must cross the source decision region and settle into a specific target region rather than merely causing any error.
+
+\paragraph{Attacker's knowledge.}
+Our main method is developed under a white-box setting. The attacker has access to the target ALLM's architecture, weights, intermediate representations, and gradients through the audio-encoder--adapter--LLM pipeline. The attacker also knows the emotion-elicitation prompt templates used in evaluation. However, the attacker cannot modify model parameters, prompts, decoding rules, safety policies, or application-side orchestration. Only the waveform is optimized. We use this white-box setting to expose the mechanism and upper-bound feasibility of emotion-targeted manipulation. Our black-box evaluation further studies transfer to closed-source commercial APIs and platform-hosted agents, where model internals are unavailable.
+
+\paragraph{Attack constraints.}
+The perturbation must satisfy three constraints. First, it must remain small at the sample level: we impose an $L_\infty$ bound $\|\delta\|_\infty\leq \varepsilon$, with $\varepsilon=0.008$ unless otherwise stated. The bound is enforced by projection after each optimization step. Second, the linguistic content must be preserved. We require the model's transcription of $x'$ to remain semantically close to that of $x$, so that the attack changes perceived emotion rather than rewriting the utterance. Third, the perturbation should avoid perceptually salient acoustic artifacts. We therefore penalize spectral distortion using a multi-resolution STFT magnitude loss. The soft preservation losses are specified in Section~\ref{sec:method-tempo}.
+
+\paragraph{Formal problem statement.}
+Let $f$ denote the target ALLM, $p_{\mathrm{emo}}$ an emotion elicitation prompt, and $p_{\mathrm{asr}}$ a transcription prompt. Given clean audio $x\in\mathbb{R}^{T}$ with source emotion $e_s$ and an attacker-chosen target emotion $e_t\neq e_s$, the attacker searches for a perturbation $\delta$ such that:
+\begin{enumerate}
+    \item[\textnormal{(i)}] $f(x+\delta, p_{\mathrm{emo}})=e_t$ \hfill \textit{(targeted emotion flip)},
+    \item[\textnormal{(ii)}] $\mathrm{sim}\!\left(\mathrm{ASR}_{f}(x+\delta,p_{\mathrm{asr}}),\mathrm{ASR}_{f}(x,p_{\mathrm{asr}})\right)\geq \tau$ \hfill \textit{(semantic preservation)},
+    \item[\textnormal{(iii)}] $\|\delta\|_{\infty}\leq \varepsilon$ \hfill \textit{(imperceptibility)}.
+\end{enumerate}
+Here $\mathrm{ASR}_{f}(\cdot,p_{\mathrm{asr}})$ denotes the transcription produced by the same ALLM under a transcription prompt, and $\mathrm{sim}(\cdot,\cdot)$ is the sentence-level semantic similarity used for content preservation.
+
+\paragraph{Structural attack challenges.}
+The above threat model induces three challenges that distinguish ALLM emotion manipulation from conventional audio classifier attacks.
+
+\textbf{C1: Implicit competition interface.}
+An ALLM does not expose a dedicated emotion classifier. Emotion is verbalized through autoregressive decoding over a large vocabulary, while Section~\ref{sec:obs_q1} shows that the effective decision interface collapses onto a compact set of competing emotion tokens. Therefore, maximizing the target token alone is insufficient: the attacker must reason about the source emotion and its dominant non-target competitors.
+
+\textbf{C2: Pair-dependent transition difficulty.}
+Source--target pairs are not uniformly hard. Section~\ref{sec:obs-allm-universal} shows that different models have different bias centers and competitor structures, so a transition such as sad$\rightarrow$angry may be substantially harder than neutral$\rightarrow$happy, and the reverse direction need not have the same difficulty. An effective attack must therefore adapt to pair-wise topology instead of applying a single transition rule to all pairs.
+
+\textbf{C3: Internal control bottleneck.}
+The controllable emotion boundary does not appear only at the final output token. The layer-wise probing results in Section~\ref{sec:obs-allm-universal} show that emotion separability peaks at intermediate layers. This means output-level optimization alone may arrive too late: the attack must steer internal representations before decoding consolidates the final emotion decision.
+
+These challenges guide the design of TEMPO in Section~\ref{sec:method-tempo}: topology modeling addresses C1, route planning addresses C2, and layer-adaptive control addresses C3, while margin-aware optimization coordinates the complete transition under semantic and perceptual constraints.

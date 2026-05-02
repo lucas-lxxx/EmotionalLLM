@@ -1,0 +1,32 @@
+{
+  "Actor_03": {
+    "num_samples": 28,
+    "emo_success_rate": 0.9285714285714286,
+    "wer_le_0.0": 0.2857142857142857,
+    "joint_success_le_0.0": 0.25,
+    "wer_le_0.05": 0.2857142857142857,
+    "joint_success_le_0.05": 0.25,
+    "semantic_preserve_rate": 0.4642857142857143,
+    "joint_success_semantic": 0.39285714285714285
+  },
+  "Actor_24": {
+    "num_samples": 28,
+    "emo_success_rate": 1.0,
+    "wer_le_0.0": 0.21428571428571427,
+    "joint_success_le_0.0": 0.21428571428571427,
+    "wer_le_0.05": 0.21428571428571427,
+    "joint_success_le_0.05": 0.21428571428571427,
+    "semantic_preserve_rate": 0.2857142857142857,
+    "joint_success_semantic": 0.2857142857142857
+  },
+  "Actor_13": {
+    "num_samples": 4,
+    "emo_success_rate": 1.0,
+    "wer_le_0.0": 1.0,
+    "joint_success_le_0.0": 1.0,
+    "wer_le_0.05": 1.0,
+    "joint_success_le_0.05": 1.0,
+    "semantic_preserve_rate": 1.0,
+    "joint_success_semantic": 1.0
+  }
+}

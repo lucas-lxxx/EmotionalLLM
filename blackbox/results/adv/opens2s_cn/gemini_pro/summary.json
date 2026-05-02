@@ -1,0 +1,153 @@
+{
+  "total_samples": 774,
+  "metric_name": "transfer_asr",
+  "metric_count": 0,
+  "metric_rate": 0.0,
+  "target_hits": 0,
+  "target_rate": 0.0,
+  "correct_predictions": 0,
+  "accuracy": 0.0,
+  "per_emotion": {
+    "angry": {
+      "total": 177,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0,
+      "transfer_success": 0,
+      "transfer_asr": 0.0
+    },
+    "neutral": {
+      "total": 197,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0,
+      "transfer_success": 0,
+      "transfer_asr": 0.0
+    },
+    "sad": {
+      "total": 197,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0,
+      "transfer_success": 0,
+      "transfer_asr": 0.0
+    },
+    "surprise": {
+      "total": 203,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0,
+      "transfer_success": 0,
+      "transfer_asr": 0.0
+    }
+  },
+  "per_speaker": {
+    "0001": {
+      "total": 72,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0,
+      "transfer_success": 0,
+      "transfer_asr": 0.0
+    },
+    "0002": {
+      "total": 69,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0,
+      "transfer_success": 0,
+      "transfer_asr": 0.0
+    },
+    "0003": {
+      "total": 84,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0,
+      "transfer_success": 0,
+      "transfer_asr": 0.0
+    },
+    "0004": {
+      "total": 76,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0,
+      "transfer_success": 0,
+      "transfer_asr": 0.0
+    },
+    "0005": {
+      "total": 70,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0,
+      "transfer_success": 0,
+      "transfer_asr": 0.0
+    },
+    "0006": {
+      "total": 80,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0,
+      "transfer_success": 0,
+      "transfer_asr": 0.0
+    },
+    "0007": {
+      "total": 85,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0,
+      "transfer_success": 0,
+      "transfer_asr": 0.0
+    },
+    "0008": {
+      "total": 78,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0,
+      "transfer_success": 0,
+      "transfer_asr": 0.0
+    },
+    "0009": {
+      "total": 79,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0,
+      "transfer_success": 0,
+      "transfer_asr": 0.0
+    },
+    "0010": {
+      "total": 81,
+      "target_hits": 0,
+      "target_rate": 0.0,
+      "correct_predictions": 0,
+      "accuracy": 0.0,
+      "transfer_success": 0,
+      "transfer_asr": 0.0
+    }
+  },
+  "per_prompt_rate": {
+    "prompt_0": 0.0,
+    "prompt_1": 0.0,
+    "prompt_2": 0.0
+  },
+  "prediction_distribution": {
+    "": 774
+  },
+  "transfer_success": 0,
+  "transfer_asr": 0.0,
+  "surrogate": "opens2s_cn",
+  "target": "gemini_pro",
+  "audio_type": "adv"
+}

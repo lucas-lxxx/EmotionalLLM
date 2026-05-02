@@ -1,0 +1,31 @@
+{
+  "sample_id": "00300_0007_angry_0007_000443",
+  "speaker_id": "0007",
+  "ground_truth_emotion": "angry",
+  "target_emotion": "happy",
+  "whitebox_success": true,
+  "audio_type": "adv",
+  "adv_audio_path": "C:\\Users\\potte\\Desktop\\research\\emotional LLM\\code\\white_box_opens2s_v2\\result\\blackbox\\CN\\0007\\00300_0007_angry_0007_000443.wav",
+  "eval_audio_path": "C:\\Users\\potte\\Desktop\\research\\emotional LLM\\code\\white_box_opens2s_v2\\result\\blackbox\\CN\\0007\\00300_0007_angry_0007_000443.wav",
+  "per_prompt_results": [
+    {
+      "prompt_idx": 0,
+      "raw": "",
+      "label": ""
+    },
+    {
+      "prompt_idx": 1,
+      "raw": "",
+      "label": ""
+    },
+    {
+      "prompt_idx": 2,
+      "raw": "",
+      "label": ""
+    }
+  ],
+  "majority_label": "",
+  "transfer_success": false,
+  "matches_target": false,
+  "is_correct": false
+}

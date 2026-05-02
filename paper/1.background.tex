@@ -1,0 +1,46 @@
+% 1.background.tex — Background and Related Work
+
+\section{Background and Related Work}
+\label{sec:background}
+
+\subsection{Audio Large Language Models}
+\label{sec:bg_allm}
+
+Large language models have been extended to audio in two broad ways.
+One line of work feeds continuous acoustic representations into an LLM backbone through an adapter module.
+Whisper~\cite{whisper}, originally an ASR encoder, has become the de facto audio front-end: Voxtral~\cite{voxtral} pairs it with a Mistral-family LLM via a linear projector, MERaLiON~\cite{meralion} adds explicit paralinguistic supervision on top of a Whisper-style encoder, and SALMONN~\cite{salmonn} fuses Whisper with a BEATs encoder through a Q-Former to capture both linguistic and non-linguistic cues.
+Qwen2-Audio~\cite{qwen2audio} initializes its audio encoder from Whisper-large-v3 and conditions a Qwen LLM on the resulting audio representations, while OpenS2S~\cite{opens2s} couples a dedicated speech perception module to a Qwen-based LLM.
+A second line replaces continuous encoders with discrete audio tokenizers: GLM-4-Voice~\cite{glm4voice} processes speech natively through a 175-bps speech tokenizer, bypassing spectral features entirely.
+Kimi-Audio~\cite{kimiaudio} adopts a hybrid design that combines continuous Whisper acoustic vectors with discrete semantic tokens before feeding them into a 7B backbone.
+In the commercial space, GPT-4o~\cite{gpt4o} and Gemini~\cite{gemini} accept raw audio and generate free-form text responses, although their internal architectures remain undisclosed.
+A common thread is that emotion perception is increasingly evaluated and, in some models, explicitly supervised as a training objective---benchmarks such as AudioBench~\cite{audiobench} now assess emotion recognition alongside ASR and captioning, and models are increasingly expected to condition their responses on the speaker's affective state.
+
+\subsection{Speech Emotion Recognition}
+\label{sec:bg_emotion}
+
+Speech emotion recognition (SER) maps an utterance to an emotion label, typically one of Ekman's basic categories~\cite{ekman1992} or a point in the valence--arousal space~\cite{russell1980}.
+Early systems relied on hand-crafted prosodic features---pitch contour, energy envelope, speaking rate, and spectral tilt---fed into SVMs or GMMs~\cite{schuller2009interspeech}.
+The field shifted toward end-to-end deep learning when self-supervised speech representations such as wav2vec~2.0~\cite{wav2vec2} and HuBERT~\cite{hubert} proved effective at capturing paralinguistic information; fine-tuning these encoders on standard benchmarks (IEMOCAP~\cite{iemocap}, RAVDESS~\cite{ravdess}, ESD~\cite{esd}) now constitutes the dominant SER pipeline.
+
+ALLMs, however, process emotion in a qualitatively different way.
+A standalone SER classifier produces an explicit label through a dedicated classification head with a small, fixed output space.
+An ALLM, by contrast, absorbs prosodic and paralinguistic signals through its audio encoder, propagates them through adapter layers and dozens of transformer blocks, and ultimately expresses its emotion interpretation as part of an autoregressive text generation over a vocabulary of tens of thousands of tokens.
+The resulting emotion judgment is not a discrete classification output but an \emph{implicit percept}---an internal state that the user can neither observe nor correct, yet that directly shapes downstream behavior, from empathetic language choices to safety-relevant response gating.
+This architectural gap between SER classifiers and ALLMs has direct consequences for adversarial robustness, as we investigate in the next subsection and throughout this paper.
+
+\subsection{Adversarial Attacks on Audio and Language Models}
+\label{sec:bg_adversarial}
+
+Adversarial attacks on audio systems have been studied primarily along two axes: speech recognition and speaker verification.
+Carlini and Wagner~\cite{carlini2018audio} showed that targeted waveform perturbations can force an ASR model to transcribe an attacker-chosen phrase with near-perfect success; Qin et al.~\cite{qin2019imperceptible} made such perturbations imperceptible through psychoacoustic masking and demonstrated over-the-air survivability; and FAKEBOB~\cite{fakebob} achieved comparable attack rates against speaker verification.
+In the SER domain, Chang et al.~\cite{staanet} proposed STAA-Net, a generator-based attack that produces sparse, transferable adversarial examples against standalone emotion classifiers.
+Gao et al.~\cite{gao2022} introduced black-box speech distortions (VTLN, McAdams, and modulation-spectrum smoothing) to evaluate SER robustness, while Ren et al.~\cite{ren2020} trained an atrous CNN generator via lifelong learning for cross-corpus SER attacks.
+Facchinetti et al.~\cite{facchinetti2024} provided the first systematic cross-lingual evaluation of seven attack methods on SER, finding that even simple black-box boundary attacks can raise error rates from 16\% to 48\%.
+
+On the language side, a parallel body of work targets LLM safety alignment.
+Zou et al.~\cite{zou2023gcg} demonstrated that optimized text suffixes can bypass instruction-tuned safeguards, and prompt injection techniques can hijack model behavior under deployment conditions~\cite{perez2022ignore}.
+Recent multimodal attacks have begun bridging the gap: visual adversarial inputs can induce hallucinations in vision--language models~\cite{mirage}, and compositional audio--text attacks can degrade multimodal LLM performance~\cite{sacred}.
+
+The majority of audio adversarial methods, however, still target systems with compact, fixed output spaces---ASR transcripts, speaker labels, or SER emotion categories.
+Audio-native attacks on ALLMs have only recently begun to appear: AudioJailbreak~\cite{audiojailbreak} explores jailbreak perturbations that bypass safety alignment in end-to-end audio--language models, yet focuses on safety rather than emotion.
+A systematic investigation of adversarial manipulation of an ALLM's \emph{emotion perception}---whether perturbations crafted for standalone SER classifiers transfer to the encoder--adapter--LLM pipeline, and whether effective attacks on ALLM emotion perception require fundamentally different design principles---remains absent and constitutes the central motivation of this work.

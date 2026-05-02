@@ -1,0 +1,31 @@
+{
+  "sample_id": "00481_0012_surprise_0012_001697",
+  "speaker_id": "0012",
+  "ground_truth_emotion": "surprise",
+  "target_emotion": "happy",
+  "whitebox_success": true,
+  "audio_type": "adv",
+  "adv_audio_path": "C:\\Users\\potte\\Desktop\\research\\emotional LLM\\code\\white_box_opens2s_v2\\result\\blackbox\\EN\\0012\\00481_0012_surprise_0012_001697.wav",
+  "eval_audio_path": "C:\\Users\\potte\\Desktop\\research\\emotional LLM\\code\\white_box_opens2s_v2\\result\\blackbox\\EN\\0012\\00481_0012_surprise_0012_001697.wav",
+  "per_prompt_results": [
+    {
+      "prompt_idx": 0,
+      "raw": "happy",
+      "label": "happy"
+    },
+    {
+      "prompt_idx": 1,
+      "raw": "happy",
+      "label": "happy"
+    },
+    {
+      "prompt_idx": 2,
+      "raw": "happy",
+      "label": "happy"
+    }
+  ],
+  "majority_label": "happy",
+  "transfer_success": true,
+  "matches_target": true,
+  "is_correct": false
+}

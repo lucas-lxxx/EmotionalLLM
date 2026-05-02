@@ -1,0 +1,27 @@
+{
+  "sample_id": "00208_0011_angry_0011_000578",
+  "ground_truth_emotion": "angry",
+  "target_emotion": "happy",
+  "whitebox_success": true,
+  "adv_audio_path": "sample\\00208_0011_angry_0011_000578.wav",
+  "per_prompt_results": [
+    {
+      "prompt_idx": 0,
+      "raw": "Angry",
+      "label": "angry"
+    },
+    {
+      "prompt_idx": 1,
+      "raw": "Angry",
+      "label": "angry"
+    },
+    {
+      "prompt_idx": 2,
+      "raw": "Angry",
+      "label": "angry"
+    }
+  ],
+  "majority_label": "angry",
+  "transfer_success": false,
+  "speaker_id": "0011"
+}

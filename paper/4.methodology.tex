@@ -1,0 +1,208 @@
+\section{TEMPO: Topology-Guided Emotion Manipulation by Pairwise Optimization}
+\label{sec:method-tempo}
+\label{sec:methodology}
+
+We present \textsc{TEMPO}, a challenge-driven framework for controllable emotion flipping in Audio LLMs. Rather than maximizing a target emotion token at the output, \textsc{TEMPO} formulates the attack as a \emph{topology-guided state transition} in the model's internal emotion space. A successful attack should not only increase the target score; it should also push the sample out of the source region, steer the hidden representation along a feasible route, and finally consolidate the target against both the source and its dominant competitor.
+
+This formulation follows directly from the observations in Section~\ref{sec:obs-allm-universal}. Across three Audio LLMs, we found that emotion prediction is governed by a soft and asymmetric competition field rather than one-hot classification, that each model has its own bias center, and that peak emotion separability emerges at intermediate layers rather than only at the output. These findings suggest that emotion flipping is not a generic logit manipulation problem, but a \emph{structured control problem} that must cross a model-specific emotional boundary under limited perturbation budget.
+
+\paragraph{Threat model and attack goal.}
+We consider a white-box adversary who has access to model parameters and intermediate activations, and seeks to generate an adversarial audio $x+\delta$ from a clean input $x$. Let $s$ denote the clean source emotion and $t$ the desired target emotion. The attack succeeds if the perturbed sample is recognized as $t$ while satisfying perceptual constraints. Unlike conventional classification attacks, however, our objective is not defined solely by the final label. We additionally require three internal conditions: (i) the representation leaves the source emotion region, (ii) it moves along a target-consistent direction in hidden space, and (iii) the final emotion competition is reordered such that the target dominates both the source and the strongest competitor.
+
+\paragraph{Overview.}
+Figure~\ref{fig:tempo-paradigm} exposes the core mismatch that \textsc{TEMPO} is designed to solve. In real SALMONN attacks, a successful target flip is not a last-step rise of the target score; it is a controlled transition in which the sample must escape the source basin, move toward the target basin, and overturn the competition margins that would otherwise pull it back. This is the central design principle of \textsc{TEMPO}: emotion manipulation must control the trajectory of the model's affective state, rather than merely re-rank the final output token.
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=0.96\textwidth]{figure/salmonn_real_cluster_transition.pdf}
+    \caption{\textbf{Successful emotion flipping is a trajectory-control problem.} In a real SALMONN \texttt{angry}$\rightarrow$\texttt{happy} attack, adversarial samples do not merely end with a higher target score. They leave the source neighborhood, move toward the target neighborhood in score space, and progressively flip both the target-source and target-competitor margins. This is the empirical signature that \textsc{TEMPO} is designed to enforce.}
+    \label{fig:tempo-paradigm}
+\end{figure*}
+
+To make this transition deliberate rather than accidental under a limited perturbation budget, \textsc{TEMPO} addresses three technical challenges.
+
+\paragraph{Challenge-1. Emotion flipping is topology-dependent rather than target-only.}
+Audio LLMs do not make emotion decisions in a hard one-hot manner. Instead, each input induces a \emph{competition field} over candidate emotions, and the leakage pattern is model-specific. Qwen leaks probability mass toward \textit{angry}, Voxtral falls back to \textit{neutral}, and SALMONN is biased toward \textit{happy}. Moreover, the easiest and hardest source-to-target pairs differ across models, indicating that pair difficulty is determined by internal boundary topology rather than by a universal emotion hierarchy. A target-only objective is therefore inadequate: it ignores both the dominant competitor and the route that the representation must traverse.
+
+\paragraph{Challenge-2. Stable flipping requires layered internal control rather than output-level re-ranking.}
+Our probing results further show that emotion separability consistently peaks at intermediate layers, while pilot flipping results on Qwen and Voxtral indicate that nontrivial pairs often require deeper directional steering. A purely output-level objective may therefore produce superficial label changes without a stable transition in the internal emotion state. An effective method must intervene at different layers for different purposes: crossing the source boundary at intermediate depth, steering the representation at deeper layers, and only then consolidating the target at the output.
+
+\paragraph{Challenge-3. Controllability must be preserved under limited perturbation budget.}
+Even within the same source-target pair, not all samples are equally flippable. Samples with strong clean source margins are inherently harder to move than weak-margin samples. Hard non-bias pairs may also require longer or indirect routes, which further increases optimization difficulty under perceptual constraints. A practical attack should therefore allocate its budget according to pair hardness and sample margin, rather than applying a fixed schedule to all inputs.
+
+\noindent
+To address these challenges, \textsc{TEMPO} consists of four coordinated components: (1) a \emph{topology bank} that turns observations into reusable structure priors, (2) a \emph{pair-specific route planner} that chooses a feasible transition path, (3) a \emph{layer-adaptive steering objective} that disentangles boundary escape, directional steering, and competition consolidation, and (4) a \emph{margin-aware optimization schedule} that allocates perturbation budget according to difficulty. We detail each component below.
+
+\subsection{Topology Bank and Pair-Specific Route Planning}
+\label{subsec:tempo-topology}
+
+The first step of \textsc{TEMPO} is to convert clean-side observations into a structured prior that can be queried during attack generation. For each model $m$, we build an \emph{emotion topology bank}
+\begin{equation}
+\mathcal{B}_m =
+\left\{
+b_m,\;
+k_m(e),\;
+l^{m}_{\mathrm{mid}},\;
+l^{m}_{\mathrm{deep}},\;
+\mu_{m,l,e},\;
+H_m(s,t)
+\right\},
+\end{equation}
+where $b_m$ is the model's dominant bias center, $k_m(e)$ is the strongest competitor of emotion $e$, $l^{m}_{\mathrm{mid}}$ and $l^{m}_{\mathrm{deep}}$ are the preferred boundary and steering layers, $\mu_{m,l,e}$ denotes the prototype of emotion $e$ at layer $l$, and $H_m(s,t)$ is a pair hardness estimate derived from clean confusion, prototype distance, and pairwise separability. In practice, prototypes are computed from clean-correct samples and pair hardness can be normalized to $[0,1]$.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\linewidth]{\detokenize{figure/pair-specific route planning.png}}
+    \caption{\textbf{Pair-specific route planning in \textsc{TEMPO}.} Easy or bias-aligned pairs can often be flipped through a direct source-to-target transition, whereas hard non-bias pairs benefit from an intermediate waypoint. The route planner therefore chooses the transition path according to model-specific topology rather than enforcing a universal direct flip.}
+    \label{fig:tempo-route}
+\end{figure}
+
+As illustrated in Figure~\ref{fig:tempo-route}, the same source-to-target flip need not follow the same transition path across pairs. Some pairs are naturally aligned with the model's topology and can be handled through a direct transition, whereas others must traverse an intermediate waypoint to avoid collapse into the dominant competitor or the model's bias center. The topology bank plays the role of structural prior knowledge in a navigation problem. Without it, the attacker knows the desired destination $t$ but not which emotional boundary must be crossed, which competitor dominates the failure mode, or which layer offers the most controllable interface. In contrast, the topology bank allows us to reason explicitly about \emph{where} the source and target regions lie and \emph{how} the model redistributes probability mass during failure.
+
+Given a sample $(x,s,t)$, \textsc{TEMPO} next plans a route instead of always forcing a direct source-to-target transition. We define the route policy
+\begin{equation}
+\pi(s,t)=
+\begin{cases}
+(s,t), & \text{if } H_m(s,t)\le \tau_h \text{ or } t \in \{b_m, k_m(s)\},\\[2mm]
+(s,u^\star,t), & \text{otherwise},
+\end{cases}
+\label{eq:tempo-route}
+\end{equation}
+where $\tau_h$ is a hardness threshold and $u^\star$ is an intermediate waypoint chosen to minimize the route cost
+\begin{equation}
+u^\star
+=
+\arg\min_{u\in \mathcal{E}\setminus\{s,t\}}
+\Big(
+D_m(s,u)+D_m(u,t)-\gamma\cdot \mathbb{I}[u=b_m]
+\Big).
+\label{eq:tempo-waypoint}
+\end{equation}
+Here, $\mathcal{E}$ is the emotion set, $D_m(\cdot,\cdot)$ is a prototype-based transition cost, and $\gamma$ rewards routes that pass through the model's bias center when such a route is advantageous. Intuitively, easy or bias-aligned pairs can often be flipped directly, whereas hard non-bias pairs benefit from a routed transition that first moves the representation to a more reachable intermediate region.
+
+This routing step avoids a central failure mode of brute-force flipping. If the model naturally pulls samples toward a default attractor, then directly maximizing the target may lead to unstable optimization or repeated collapse into the dominant competitor. By explicitly choosing a route, \textsc{TEMPO} converts an apparently difficult target into a sequence of more controllable local transitions.
+
+\subsection{Competition-Aware and Layer-Adaptive Steering Objectives}
+\label{subsec:tempo-objective}
+
+We now describe how \textsc{TEMPO} realizes the planned transition inside the model. Let $h_l(x)$ denote the pooled hidden state of input $x$ at layer $l$, and let $g_e(x)$ denote the aggregated score assigned to the emotion-token cluster of emotion $e$ at the first decoding step. We use three coordinated objectives, each addressing a different failure mode.
+
+\paragraph{Competition consolidation.}
+Challenge-1 shows that emotion flipping is fundamentally competitive: increasing the target score is insufficient if the source or a dominant competitor still controls the decision boundary. We therefore define the competition-aware objective
+\begin{equation}
+\mathcal{L}_{\mathrm{comp}}
+=
+\left[m_1 - (g_t(x+\delta)-g_s(x+\delta))\right]_+
++
+\left[m_2 - (g_t(x+\delta)-g_k(x+\delta))\right]_+,
+\label{eq:tempo-comp}
+\end{equation}
+where $k = k_m(s)$ is the strongest competitor of the source emotion and $m_1,m_2>0$ are safety margins. The first term enforces target dominance over the source, while the second explicitly suppresses the dominant competitor. This is precisely where \textsc{TEMPO} departs from a target-only objective: the attack is incomplete unless the target wins both comparisons.
+
+\paragraph{Boundary-exit objective.}
+Challenge-2 suggests that successful flipping must first move the representation out of the source region at the layer where emotion boundaries are most separable. We therefore define the intermediate-layer exit loss on the current route destination $u$:
+\begin{equation}
+\mathcal{L}_{\mathrm{exit}}
+=
+\left\|h_{l^{m}_{\mathrm{mid}}}(x+\delta)-\mu_{m,l^{m}_{\mathrm{mid}},u}\right\|_2^2
+-
+\left\|h_{l^{m}_{\mathrm{mid}}}(x+\delta)-\mu_{m,l^{m}_{\mathrm{mid}},s}\right\|_2^2.
+\label{eq:tempo-exit}
+\end{equation}
+Minimizing $\mathcal{L}_{\mathrm{exit}}$ simultaneously pulls the perturbed representation toward the next route node and pushes it away from the source prototype. We formulate this objective at the boundary layer rather than at the output because the goal of this phase is not to finalize the flip, but to achieve \emph{boundary escape}.
+
+\paragraph{Directional steering objective.}
+For hard pairs, leaving the source region is still insufficient. The perturbed representation may drift toward the bias center or collapse into a nearby competitor unless it is steered along an explicit target-consistent direction. To address this issue, we define a prototype direction at the steering layer
+\begin{equation}
+d_{s\rightarrow u}
+=
+\frac{\mu_{m,l^{m}_{\mathrm{deep}},u}-\mu_{m,l^{m}_{\mathrm{deep}},s}}
+{\left\|\mu_{m,l^{m}_{\mathrm{deep}},u}-\mu_{m,l^{m}_{\mathrm{deep}},s}\right\|_2},
+\label{eq:tempo-direction}
+\end{equation}
+and optimize the directional steering loss
+\begin{equation}
+\mathcal{L}_{\mathrm{steer}}
+=
+-\left\langle
+h_{l^{m}_{\mathrm{deep}}}(x+\delta)-h_{l^{m}_{\mathrm{deep}}}(x),\;
+d_{s\rightarrow u}
+\right\rangle.
+\label{eq:tempo-steer}
+\end{equation}
+This term encourages the perturbation to move the deep representation along the source-to-route direction, rather than merely increasing its norm or producing uncontrolled drift. In other words, it turns representation movement into a \emph{directed} transition.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\linewidth]{\detokenize{figure/Layer-Adaptive Steering.png}}
+    \caption{\textbf{Layer-adaptive steering in \textsc{TEMPO}.} The attack first exits the source region at the intermediate boundary layer, then steers the representation toward the target at a deeper layer, and finally consolidates the target through output-level competition reordering. This layered control view explains why stable flipping requires more than shallow output re-ranking.}
+    \label{fig:tempo-layer}
+\end{figure}
+
+\paragraph{Perceptual regularization.}
+To preserve perceptual quality, we add a regularization term $\mathcal{L}_{\mathrm{perc}}$, which may combine $\ell_p$ constraints, SNR penalties, and sparse temporal masking. Since our goal is controllable flipping under realistic budget, $\mathcal{L}_{\mathrm{perc}}$ does not define the semantic direction of the attack; it only limits how aggressively the transition objectives can be optimized.
+
+\paragraph{Overall objective.}
+Combining the three components above, we obtain the overall attack objective
+\begin{equation}
+\mathcal{L}
+=
+\lambda_c \mathcal{L}_{\mathrm{comp}}
++
+\lambda_e \mathcal{L}_{\mathrm{exit}}
++
+\lambda_d \mathcal{L}_{\mathrm{steer}}
++
+\mathcal{L}_{\mathrm{perc}}.
+\label{eq:tempo-overall-en}
+\end{equation}
+Equation~\eqref{eq:tempo-overall-en} is not a generic weighted sum of heuristics. Each term has a distinct responsibility: $\mathcal{L}_{\mathrm{comp}}$ consolidates final target dominance, $\mathcal{L}_{\mathrm{exit}}$ crosses the source boundary, and $\mathcal{L}_{\mathrm{steer}}$ realizes route-aligned internal movement. The objective therefore mirrors the three failure modes identified at the beginning of this section.
+
+\subsection{Margin-Aware Optimization and Multi-Phase Control}
+\label{subsec:tempo-optimization}
+
+Challenge-3 concerns controllability under limited perturbation budget. A single optimization schedule is suboptimal because some samples are already close to the boundary while others are strongly anchored in the source region. We therefore use the clean source margin
+\begin{equation}
+M(x;s,t)=g_s(x)-g_t(x)
+\end{equation}
+together with pair hardness $H_m(s,t)$ to modulate the budget. Concretely, the maximum perturbation, number of optimization steps, and relative phase duration are all increased with both $M(x;s,t)$ and $H_m(s,t)$. A simple instantiation is
+\begin{equation}
+\epsilon(x,s,t)
+=
+\epsilon_0
+\left(
+1+\alpha \,\widehat{H}_m(s,t)+\beta \,\widehat{M}(x;s,t)
+\right),
+\label{eq:tempo-budget}
+\end{equation}
+where $\widehat{H}_m$ and $\widehat{M}$ are normalized quantities and $\epsilon_0$ is a base budget. Analogous formulas can be used for the number of steps and the patience of each phase.
+
+We organize optimization into three explicit phases.
+
+\paragraph{Phase I: Boundary escape.}
+We first optimize primarily for $\mathcal{L}_{\mathrm{exit}}$ and $\mathcal{L}_{\mathrm{perc}}$. The goal of this phase is to remove the representation from the source basin of attraction. For weak-margin samples, this phase is often short; for strong-margin samples, it may consume a substantial fraction of the budget.
+
+\paragraph{Phase II: Route-aligned steering.}
+Once the sample leaves the source region, we increase the weight of $\mathcal{L}_{\mathrm{steer}}$ and continue optimizing with $\mathcal{L}_{\mathrm{exit}}$ as a stabilizer. When the route contains a waypoint, Phase II is executed segment by segment. This prevents the optimizer from chasing an overly distant target direction too early, which is a common source of instability in hard non-bias pairs.
+
+\paragraph{Phase III: Competition consolidation.}
+Finally, after the hidden representation approaches the target-side region, we emphasize $\mathcal{L}_{\mathrm{comp}}$ to finalize the output decision. This phase is especially important when the target and the strongest competitor are close in the output competition field. In such cases, the internal transition may already be largely complete, but without a final competition-aware push, the output can still collapse back to the competitor.
+
+In implementation, these phases can be realized either with separate optimization windows or with a continuous schedule that gradually shifts the loss weights. A representative stage-wise formulation is:
+\begin{align}
+\mathcal{L}^{(1)} &= \lambda_e \mathcal{L}_{\mathrm{exit}} + \mathcal{L}_{\mathrm{perc}}, \\
+\mathcal{L}^{(2)} &= \lambda_e \mathcal{L}_{\mathrm{exit}} + \lambda_d \mathcal{L}_{\mathrm{steer}} + \mathcal{L}_{\mathrm{perc}}, \\
+\mathcal{L}^{(3)} &= \lambda_c \mathcal{L}_{\mathrm{comp}} + \lambda_d \mathcal{L}_{\mathrm{steer}} + \mathcal{L}_{\mathrm{perc}}.
+\end{align}
+This staged design is deliberately aligned with our observations: emotion flipping is not a single-step logit manipulation, but a sequential process of leaving the source region, steering across the boundary, and consolidating the final competition.
+
+\subsection{Design Rationale and Cross-Model Generality}
+\label{subsec:tempo-discussion}
+
+\textsc{TEMPO} is not an ad hoc combination of auxiliary losses. Each component operationalizes one structural property revealed by our observations. The topology bank and route planner address the fact that emotion flipping is topology-dependent: different Audio LLMs exhibit different bias centers, dominant competitors, and pairwise transition costs. The exit and steering objectives address the layered nature of the internal mechanism: intermediate layers expose the most separable emotion boundaries, whereas deeper layers provide a more reliable interface for directional control. Finally, the margin-aware schedule addresses the empirical fact that controllability is difficulty-conditioned: strong-margin samples and hard non-bias pairs require different budgets from weak-margin or bias-aligned cases.
+
+This perspective also clarifies why target-only attacks are often fragile in Audio LLMs. A target-only objective ignores the strongest competitor, ignores whether the chosen source-to-target direction is aligned with the model's native topology, and ignores the fact that stable flipping often requires an internal transition before the output can be reordered. As a result, such objectives may either collapse into the model's default attractor or produce shallow output-level changes that do not correspond to a stable internal state transition.
+
+At the same time, \textsc{TEMPO} provides a principled way to generalize across models without assuming that all Audio LLMs share the same dominant emotion bias. What transfers across models is not a specific attractor, but a common control structure: emotion prediction is competitive, the transition topology is pair-dependent, and controllable flipping benefits from layered steering. What remains model-specific is the concrete instantiation of this structure, including the bias center, the easiest and hardest pairs, the preferred control layers, and the perturbation budget needed to cross a given emotional boundary.
+
+Taken together, \textsc{TEMPO} attacks emotion prediction not by directly maximizing a target token, but by realizing a topology-guided internal state transition. It first profiles the model-specific competition topology, then selects a pair-specific route, and finally applies layer-adaptive and margin-aware control to cross the emotional boundary under perturbation constraints. In this sense, \textsc{TEMPO} turns emotion flipping from an opaque trial-and-error process into a mechanism-aligned optimization problem.

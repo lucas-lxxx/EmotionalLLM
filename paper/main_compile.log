@@ -1,0 +1,783 @@
+﻿This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(c:/texlive/2025/texmf-dist/tex/latex/acmart/acmart.cls
+Document Class: acmart 2025/08/27 v2.16 Typesetting articles for the Associatio
+n for Computing Machinery
+(c:/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(c:/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(c:/texlive/2025/texmf-dist/tex/generic/xkeyval/keyval.tex))))
+(c:/texlive/2025/texmf-dist/tex/generic/xstring/xstring.sty
+(c:/texlive/2025/texmf-dist/tex/generic/xstring/xstring.tex))
+(c:/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/amscls/amsart.cls
+Document Class: amsart 2020/05/29 v2.20.6
+(c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(c:/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(c:/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
+(c:/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(c:/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg))
+(c:/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+(c:/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(c:/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(c:/texlive/2025/texmf-dist/tex/latex/totpages/totpages.sty
+(c:/texlive/2025/texmf-dist/tex/latex/everyshi/everyshi.sty))
+(c:/texlive/2025/texmf-dist/tex/latex/environ/environ.sty
+(c:/texlive/2025/texmf-dist/tex/latex/trimspaces/trimspaces.sty))
+(c:/texlive/2025/texmf-dist/tex/latex/natbib/natbib.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(c:/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(c:/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(c:/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(c:/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty))
+(c:/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(c:/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(c:/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(c:/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(c:/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(c:/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(c:/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(c:/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
+(c:/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(c:/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(c:/texlive/2025/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
+(c:/texlive/2025/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/oberdiek/ifdraft.sty)
+(c:/texlive/2025/texmf-dist/tex/generic/iftex/ifluatex.sty))
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(c:/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(c:/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+(c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(c:/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+(c:/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(c:/texlive/2025/texmf-dist/tex/latex/ncctools/manyfoot.sty
+(c:/texlive/2025/texmf-dist/tex/latex/ncctools/nccfoots.sty))
+(c:/texlive/2025/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
+(c:/texlive/2025/texmf-dist/tex/latex/cmap/cmap.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty<<t1.cmap>>)
+(c:/texlive/2025/texmf-dist/tex/latex/libertine/libertine.sty
+(c:/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+(c:/texlive/2025/texmf-dist/tex/latex/figureversions/figureversions.sty))
+(c:/texlive/2025/texmf-dist/tex/latex/libertine/LinLibertine_I.tex))
+(c:/texlive/2025/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe))
+(c:/texlive/2025/texmf-dist/tex/latex/newtx/newtxmath.sty
+`newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe
+) (c:/texlive/2025/texmf-dist/tex/latex/oberdiek/centernot.sty)
+(c:/texlive/2025/texmf-dist/tex/generic/kastrup/binhex.tex)
+amsthm NOT loaded
+) (c:/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+(c:/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+(c:/texlive/2025/texmf-dist/tex/latex/caption/caption-ams-smf.sto)))
+(c:/texlive/2025/texmf-dist/tex/latex/float/float.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment') Excluding comment 'CCSXML'
+(c:/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+Special comment 'acks'
+(c:/texlive/2025/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-TLF.fd))
+(c:/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
+(c:/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2025/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.co
+de.tex)) (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def))
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+)) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex))
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex)
+
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex)))
+ (c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex)
+(c:/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y)
+(c:/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y)) (c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex))
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex)))
+(c:/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+
+! LaTeX Error: Command `\Bbbk' already defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.261 ...ol{\Bbbk}           {\mathord}{AMSb}{"7C}
+                                                  
+) (c:/texlive/2025/texmf-dist/tex/latex/tools/xspace.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/subfigure/subfigure.sty
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(c:/texlive/2025/texmf-dist/tex/latex/subfigure/subfigure.cfg))
+(c:/texlive/2025/texmf-dist/tex/latex/autobreak/autobreak.sty
+(c:/texlive/2025/texmf-dist/tex/generic/catchfile/catchfile.sty
+(c:/texlive/2025/texmf-dist/tex/generic/etexcmds/etexcmds.sty)))
+(c:/texlive/2025/texmf-dist/tex/latex/makecell/makecell.sty
+(c:/texlive/2025/texmf-dist/tex/latex/tools/array.sty))
+(c:/texlive/2025/texmf-dist/tex/latex/diagbox/diagbox.sty
+(c:/texlive/2025/texmf-dist/tex/latex/pict2e/pict2e.sty
+(c:/texlive/2025/texmf-dist/tex/latex/pict2e/pict2e.cfg)
+(c:/texlive/2025/texmf-dist/tex/latex/pict2e/p2e-pdftex.def))
+(c:/texlive/2025/texmf-dist/tex/latex/tools/calc.sty))
+(c:/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg))
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(c:/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/jknapltx/mathrsfs.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/tools/bm.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/wasysym/wasysym.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/colortbl/colortbl.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/tabularray/tabularray.sty
+(c:/texlive/2025/texmf-dist/tex/latex/ninecolors/ninecolors.sty
+(c:/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(c:/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)))))
+(c:/texlive/2025/texmf-dist/tex/latex/psnfss/pifont.sty
+(c:/texlive/2025/texmf-dist/tex/latex/psnfss/upzd.fd)
+(c:/texlive/2025/texmf-dist/tex/latex/psnfss/upsy.fd))
+(c:/texlive/2025/texmf-dist/tex/latex/paralist/paralist.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+(c:/texlive/2025/texmf-dist/tex/latex/tools/verbatim.sty))
+(c:/texlive/2025/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+(c:/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(c:/texlive/2025/texmf-dist/tex/latex/relsize/relsize.sty))
+(c:/texlive/2025/texmf-dist/tex/latex/preprint/balance.sty)
+Excluding comment 'screenonly' Include comment 'printonly'
+Include comment 'anonsuppress' (./main.aux)
+(c:/texlive/2025/texmf-dist/tex/latex/newtx/omlnxlmi.fd)
+(c:/texlive/2025/texmf-dist/tex/latex/newtx/untxexa.fd)
+(c:/texlive/2025/texmf-dist/tex/latex/newtx/lmsntxsy.fd)
+(c:/texlive/2025/texmf-dist/tex/latex/newtx/lmxntxexx.fd)
+(c:/texlive/2025/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd)<<ot1
+.cmap>><<oml.cmap>> (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(c:/texlive/2025/texmf-dist/tex/latex/newtx/untxmia.fd)
+(c:/texlive/2025/texmf-dist/tex/latex/newtx/untxsym.fd)
+(c:/texlive/2025/texmf-dist/tex/latex/newtx/untxsyc.fd)
+(c:/texlive/2025/texmf-dist/tex/latex/jknapltx/ursfs.fd)
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 54.
+
+(c:/texlive/2025/texmf-dist/tex/latex/wasysym/uwasy.fd)
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 54.
+
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 54.
+
+(./main.out) (./main.out)
+(c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(c:/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty)
+Excluding 'CCSXML' comment.
+(c:/texlive/2025/texmf-dist/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd)
+(c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+(c:/texlive/2025/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd)
+(./2.observation.tex (c:/texlive/2025/texmf-dist/tex/latex/inconsolata/t1zi4.fd
+)
+
+Class acmart Warning: A possible image without description on input line 16.
+
+
+Class acmart Warning: A possible image without description on input line 29.
+
+
+LaTeX Warning: Reference `sec:obs_q1' on page 1 undefined on input line 38.
+
+
+Package natbib Warning: Citation `voxtral' on page 1 undefined on input line 38
+.
+
+
+Package natbib Warning: Citation `esd' on page 1 undefined on input line 38.
+
+
+Package natbib Warning: Citation `deepseek' on page 1 undefined on input line 3
+8.
+
+
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 59.
+
+
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 59.
+
+
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <5.5> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 59.
+
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 59.
+
+
+LaTeX Warning: Reference `sec:obs_q1' on page 1 undefined on input line 65.
+
+[1.1{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2
+025/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{c:/texlive/2025/texmf
+-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{c:/texlive/2025/texmf-dist/fon
+ts/enc/dvips/libertine/lbtn_nh77jq.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dv
+ips/libertine/lbtn_naooyc.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/incon
+solata/i4-t1-4.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/libertine/lbtn_o
+exx6f.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc
+}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/libertine/lbtn_fygcup.enc}]
+Overfull \hbox (3.91324pt too wide) in paragraph at lines 76--77
+\T1/LinuxLibertineT-TLF/m/n/9 (-20) four rep-re-sen-ta-tive SER attacks---spann
+ing gradient-based, generator-
+
+Package natbib Warning: Citation `staanet' on page 2 undefined on input line 79
+.
+
+
+Package natbib Warning: Citation `cw' on page 2 undefined on input line 79.
+
+
+Package natbib Warning: Citation `pgd' on page 2 undefined on input line 80.
+
+
+Package natbib Warning: Citation `gao2022' on page 2 undefined on input line 81
+.
+
+
+Overfull \hbox (2.55476pt too wide) in paragraph at lines 81--82
+\T1/LinuxLibertineT-TLF/m/n/9 (-20) trans-for-ma-tion, and Mod-u-la-tion Spec-t
+rum Smooth-ing (MSS)---
+
+Package natbib Warning: Citation `ren2020' on page 2 undefined on input line 82
+.
+
+! Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.83 \end{itemize}
+                  
+! Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.83 \end{itemize}
+                  
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.83 \end{itemize}
+                  
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.83 \end{itemize}
+                  
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.83 \end{itemize}
+                  
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.83 \end{itemize}
+                  
+! Undefined control sequence.
+<argument> enit@resume@series@\enit@series 
+                                           
+l.83 \end{itemize}
+                  
+! Undefined control sequence.
+\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
+                                                  \endcsname \the \csname c@...
+l.83 \end{itemize}
+                  
+! Undefined control sequence.
+\enit@setresumekeys ...e \the \csname c@\@listctr 
+                                                  \endcsname }\fi }
+l.83 \end{itemize}
+                  
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.83 \end{itemize}
+                  
+! Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.83 \end{itemize}
+                  
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.83 \end{itemize}
+                  
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.83 \end{itemize}
+                  
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.83 \end{itemize}
+                  
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.83 \end{itemize}
+                  
+! Undefined control sequence.
+\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
+                                                  \endcsname \the \csname c@...
+l.83 \end{itemize}
+                  
+! Undefined control sequence.
+\enit@setresumekeys ...e \the \csname c@\@listctr 
+                                                  \endcsname }\fi }
+l.83 \end{itemize}
+                  
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.83 \end{itemize}
+                  
+
+Class acmart Warning: A possible image without description on input line 94.
+
+[2.2 <./figure/per_class_emotion_token_probability_distribution.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active
+
+LaTeX Warning: File `figure/fig_final_competition_heatmaps.pdf' not found on in
+put line 109.
+
+
+! Package pdftex.def Error: File `figure/fig_final_competition_heatmaps.pdf' no
+t found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...igure/fig_final_competition_heatmaps.pdf}
+                                                  
+
+Class acmart Warning: A possible image without description on input line 112.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [3.3 <./fi
+gure/first_step_target_each_other_unrelated_logit_histograms.png>]
+
+LaTeX Warning: File `figure/fig_final_midlayer_peaks.pdf' not found on input li
+ne 121.
+
+
+! Package pdftex.def Error: File `figure/fig_final_midlayer_peaks.pdf' not foun
+d: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.121 ...dth]{figure/fig_final_midlayer_peaks.pdf}
+                                                  
+
+Class acmart Warning: A possible image without description on input line 124.
+
+
+Overfull \hbox (1.14754pt too wide) in paragraph at lines 127--128
+\T1/LinuxLibertineT-TLF/m/n/9 (-20) layer is \T1/zi4/m/n/9 llm_layer_06 \T1/Lin
+uxLibertineT-TLF/m/n/9 (-20) for Qwen (Macro-F1 $\U/ntxmia/m/it/9 = \OT1/LinuxL
+ibertineT-TLF/m/n/9 (-20) 0\OML/nxlmi/m/it/9 :\OT1/LinuxLibertineT-TLF/m/n/9 (-
+20) 547$\T1/LinuxLibertineT-TLF/m/n/9 (-20) ), \T1/zi4/m/n/9 llm_layer_12
+) (./3.threat_model.tex [4.4{c:/texlive/2025/texmf-dist/fonts/enc/dvips/liberti
+ne/lbtn_ki75ao.enc} <./figure/q3_ser_transfer.pdf>]
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 26.
+
+! Undefined control sequence.
+\enit@endenumerate ->\enit@after 
+                                 \endlist \ifx \enit@series \relax \else \if...
+l.35 \end{enumerate}
+                    
+! Undefined control sequence.
+\enit@endenumerate ...\else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.35 \end{enumerate}
+                    
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.35 \end{enumerate}
+                    
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.35 \end{enumerate}
+                    
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.35 \end{enumerate}
+                    
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.35 \end{enumerate}
+                    
+! Undefined control sequence.
+<argument> enit@resume@series@\enit@series 
+                                           
+l.35 \end{enumerate}
+                    
+! Undefined control sequence.
+\enit@endenumerate ...t \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.35 \end{enumerate}
+                    
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.35 \end{enumerate}
+                    
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.35 \end{enumerate}
+                    
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.35 \end{enumerate}
+                    
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.35 \end{enumerate}
+                    
+) (./4.methodology.tex [5.5{c:/texlive/2025/texmf-dist/fonts/enc/dvips/libertin
+e/lbtn_ncsllp.enc}]
+
+LaTeX Warning: File `figure/salmonn_real_cluster_transition.pdf' not found on i
+nput line 16.
+
+
+! Package pdftex.def Error: File `figure/salmonn_real_cluster_transition.pdf' n
+ot found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...igure/salmonn_real_cluster_transition.pdf}
+                                                  
+
+Class acmart Warning: A possible image without description on input line 19.
+
+
+Overfull \hbox (6.79453pt too wide) in paragraph at lines 27--28
+\T1/LinuxLibertineT-TLF/m/n/9 (-20) output-level ob-jec-tive may there-fore pro
+-duce su-per-fi-cial la-bel changes
+
+Overfull \hbox (2.89076pt too wide) in paragraph at lines 32--34
+\T1/LinuxLibertineT-TLF/m/n/9 (-20) com-po-nents: (1) a \T1/LinuxLibertineT-TLF
+/m/it/9 (-20) topol-ogy bank \T1/LinuxLibertineT-TLF/m/n/9 (-20) that turns ob-
+ser-va-tions into reusable
+
+Underfull \vbox (badness 1082) has occurred while \output is active
+
+LaTeX Warning: File `figure/pair-specific route planning.png' not found on inpu
+t line 54.
+
+
+! Package pdftex.def Error: File `figure/pair-specific route planning.png' not 
+found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...{figure/pair-specific route planning.png}}
+                                                  
+
+Class acmart Warning: A possible image without description on input line 57.
+
+
+Overfull \hbox (34.42546pt too wide) detected at line 98
+[][][]\LMS/ntxsy/m/n/9 L[] \U/ntxmia/m/it/9 = [][] \LMS/ntxsy/m/n/9 � [][] \OML
+/nxlmi/m/it/9 ;
+[6.6]
+Underfull \vbox (badness 10000) has occurred while \output is active
+Underfull \vbox (badness 10000) has occurred while \output is active [7.7{c:/te
+xlive/2025/texmf-dist/fonts/enc/dvips/libertine/lbtn_tlukpt.enc}]
+
+LaTeX Warning: File `figure/Layer-Adaptive Steering.png' not found on input lin
+e 136.
+
+
+! Package pdftex.def Error: File `figure/Layer-Adaptive Steering.png' not found
+: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.136 ...nize{figure/Layer-Adaptive Steering.png}}
+                                                  
+
+Class acmart Warning: A possible image without description on input line 139.
+
+[8.8]
+Overfull \hbox (1.28426pt too wide) in paragraph at lines 185--186
+ []\T1/LinuxLibertineT-TLF/m/it/9 (-20) Phase II: Route-aligned steer-ing.[] \T
+1/LinuxLibertineT-TLF/m/n/9 (-20) Once the sam-ple leaves the source
+) (./5.whitebox.tex
+
+Package natbib Warning: Citation `voxtral' on page 9 undefined on input line 12
+.
+
+
+Package natbib Warning: Citation `opens2s' on page 9 undefined on input line 13
+.
+
+
+Package natbib Warning: Citation `meralion' on page 9 undefined on input line 1
+4.
+
+
+Package natbib Warning: Citation `salmonn' on page 9 undefined on input line 15
+.
+
+
+Package natbib Warning: Citation `kimiaudio' on page 9 undefined on input line 
+16.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [9.9]
+
+Package natbib Warning: Citation `esd' on page 10 undefined on input line 21.
+
+
+Package natbib Warning: Citation `iemocap' on page 10 undefined on input line 2
+1.
+
+
+Package natbib Warning: Citation `ravdess' on page 10 undefined on input line 2
+1.
+
+
+Package natbib Warning: Citation `deepseek' on page 10 undefined on input line 
+28.
+
+
+Package natbib Warning: Citation `aha-bench' on page 10 undefined on input line
+ 29.
+
+
+Package natbib Warning: Citation `aha-bench' on page 10 undefined on input line
+ 49.
+
+
+Package natbib Warning: Citation `aha-bench' on page 10 undefined on input line
+ 49.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [10.10]
+Underfull \hbox (badness 1735) in paragraph at lines 176--179
+\T1/LinuxLibertineT-TLF/m/n/9 (+20) nearly $\OT1/LinuxLibertineT-TLF/m/n/9 (+20
+) 4[]$ \T1/LinuxLibertineT-TLF/m/n/9 (+20) be-low OpenS2S$\LMS/ntxsy/m/n/9 !$\T
+1/LinuxLibertineT-TLF/m/n/9 (+20) Voxtral ($\OT1/LinuxLibertineT-TLF/m/n/9 (+20
+) 35\OML/nxlmi/m/it/9 :\OT1/LinuxLibertineT-TLF/m/n/9 (+20) 42%$\T1/LinuxLibert
+ineT-TLF/m/n/9 (+20) ). This cau-tions
+
+Package natbib Warning: Citation `aha-bench' on page 11 undefined on input line
+ 189.
+
+
+Underfull \vbox (badness 5417) has occurred while \output is active [11.11])
+(./6.blackbox.tex [12.12]
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 96.
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 119--123
+\T1/LinuxLibertineT-TLF/m/n/9 (+20) the black-box trans-fer regime re-veals a d
+if-fer-ent hi-er-ar-chy:
+
+Underfull \hbox (badness 1484) in paragraph at lines 119--123
+\T1/LinuxLibertineT-TLF/m/n/9 (+20) trans-fer-abil-ity are gov-erned by dif-fer
+-ent fac-tors: the for-mer
+[13.13]
+
+Class acmart Warning: A possible image without description on input line 153.
+
+[14.14 <./figure/blackbox_pred_shift.pdf>])
+No file main.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+
+Class acmart Warning: Some images may lack descriptions.
+(acmart)              ACM is committed to complying with the upcoming US ADA ht
+tps://accessiblyapp.com/accessibility-compliance/ada/ and European Accessibilit
+y Act (EAA) https://accessiblyapp.com/accessibility-compliance/eaa/ regulations
+ by actively working to ensure our publications and application services are ac
+cessible to individuals with disabilities, adhering to the WCAG guidelines to p
+rovide a seamless experience for all users, and regularly reviewing our accessi
+bility practices to maintain compliance with evolving standards. 
+(acmart)              To this end, we strongly encourage our authors to provide
+ alternative text and captions for images and multimedia content. It is also im
+portant to optimize color contrast for the visually impaired. Taking these impo
+rtant steps when creating your papers will ensure that the widest possible audi
+ence can ingest your work..
+
+
+Class acmart Warning: ACM reference format is mandatory 
+(acmart)              for papers over one page. 
+(acmart)              Please add printacmref=true to the 
+(acmart)              \settopmatter command..
+
+
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
+(c:/texlive/2025/texmf-dist/tex/generic/stringenc/se-pdfdoc.def)
+(c:/texlive/2025/texmf-dist/tex/generic/stringenc/se-utf8.def) [15.15]
+(./main.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.5pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)<c:/texlive/2025/texmf-dist
+/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><c:/texlive/2025/texmf-dis
+t/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><c:/texlive/2025/texmf-di
+st/fonts/type1/public/newtx/LibertineMathBMI7.pfb><c:/texlive/2025/texmf-dist/f
+onts/type1/public/newtx/LibertineMathMI.pfb><c:/texlive/2025/texmf-dist/fonts/t
+ype1/public/newtx/LibertineMathMI5.pfb><c:/texlive/2025/texmf-dist/fonts/type1/
+public/newtx/LibertineMathMI7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/publi
+c/newtx/LibertineMathRM.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/libe
+rtine/LinBiolinumT.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/libertine
+/LinBiolinumTB.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/libertine/Lin
+LibertineT.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibe
+rtineTB.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLiberti
+neTBI.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertine
+TI.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLibertineTZ.
+pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb><c:/texliv
+e/2025/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb><c:/texlive/2025/texmf-
+dist/fonts/type1/public/newtx/txbsys.pfb><c:/texlive/2025/texmf-dist/fonts/type
+1/public/newtx/txexs.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/t
+xmiaX.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/txsym.pfb><c:/te
+xlive/2025/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
+Output written on main.pdf (15 pages, 1972959 bytes).
+Transcript written on main.log.

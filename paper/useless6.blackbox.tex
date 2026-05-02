@@ -1,0 +1,254 @@
+% 6.blackbox.tex — Black-box Transferability
+
+\section{Black-box Transferability}
+\label{sec:blackbox}
+
+The white-box results in Section~\ref{sec:experiments} establish that TEMPO achieves near-complete targeted emotion control on the surrogate model itself.
+A threat of far greater practical consequence, however, is whether these adversarial perturbations \emph{transfer} to closed-source commercial ALLMs whose weights, architectures, and training data are entirely unknown to the attacker.
+Positive evidence would imply that the emotional vulnerability uncovered in our white-box analysis is not an artifact of a particular model but a \emph{structural} property shared across the ALLM family---elevating the finding from an academic observation to a concrete deployment risk.
+This section presents a systematic black-box transfer evaluation spanning two surrogate architectures, two languages, and five commercially deployed target APIs.
+
+%%% ----------------------------------------------------------------
+\subsection{Setup}
+\label{sec:bb_setup}
+
+\paragraph{Threat model.}
+We adopt a \emph{zero-query transfer} setting: the attacker possesses white-box access to one or more \emph{surrogate} ALLMs (Voxtral or OpenS2S), crafts adversarial audio offline using TEMPO, and submits the resulting waveforms verbatim to closed-source \emph{target} APIs.
+No query feedback, model adaptation, or fine-tuning is used at any stage.
+This is the most restrictive black-box scenario and the most relevant to real-world abuse, where an attacker can prepare adversarial content locally and distribute it through public audio channels.
+
+\paragraph{Target models.}
+We select five commercially deployed ALLMs from three major providers spanning two continents (Table~\ref{tab:bb_targets}).
+\textbf{Gemini~2.5~Flash} and \textbf{Gemini~2.5~Pro} represent Google's multimodal family.
+\textbf{Qwen3-Omni-Flash} and \textbf{Qwen-Omni-Turbo} cover Alibaba's latest omni-modal product line.
+\textbf{GPT-4o~Audio} is OpenAI's native audio-input model.
+All five accept raw audio waveforms and return free-form text responses; none expose internal logits or embedding representations.
+The selection ensures diversity along three axes---provider, geographic ecosystem, and architectural lineage---so that any observed transfer cannot be attributed to a single design choice.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Target models for black-box evaluation. All are closed-source, commercially deployed ALLMs accepting raw audio input.}
+\label{tab:bb_targets}
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{llc}
+\toprule
+\textbf{Model} & \textbf{Provider} & \textbf{Ecosystem} \\
+\midrule
+Gemini 2.5 Flash     & Google   & International \\
+Gemini 2.5 Pro       & Google   & International \\
+GPT-4o Audio         & OpenAI   & International \\
+Qwen3-Omni-Flash     & Alibaba  & China \\
+Qwen-Omni-Turbo      & Alibaba  & China \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Surrogate data.}
+We construct four surrogate groups from the white-box attack results (Section~\ref{sec:experiments}), selecting only the samples that achieved targeted emotion flip on the surrogate itself:
+\textbf{Voxtral~EN} ($n{=}914$), \textbf{Voxtral~CN} ($n{=}962$), \textbf{OpenS2S~EN} ($n{=}944$), and \textbf{OpenS2S~CN} ($n{=}774$), totaling $3{,}594$ adversarial audio samples.
+Each surrogate group is tested against all five targets, yielding a $4 \times 5$ transfer matrix comprising over $53{,}000$ API calls.
+Note that by conditioning on white-box success, we evaluate the transfer potential of perturbations that are known to be effective on the surrogate; the reported ASR should therefore be interpreted as transfer rates \emph{given} surrogate-level success.
+
+\paragraph{Evaluation protocol.}
+Identical to the white-box setting: each adversarial sample is queried with three semantically varied emotion elicitation prompts, and the final prediction is determined by majority vote ($\geq 2/3$).
+A sample is counted as a targeted transfer success if the majority-vote label matches the attacker-specified target emotion (\texttt{happy}).
+API responses are normalized to the five-class label set (\texttt{happy}, \texttt{sad}, \texttt{angry}, \texttt{neutral}, \texttt{surprise}) via a deterministic string mapping.
+
+\paragraph{Baselines.}
+Two baselines isolate the contribution of adversarial perturbations from generic acoustic degradation:
+\begin{packeditemize}
+\item \textbf{Clean baseline}: unperturbed audio from the same sample set, evaluated with the same 3-prompt protocol.
+The metric is \emph{classification accuracy}---the fraction of samples whose majority-vote label matches the ground-truth emotion---establishing each target API's native emotion recognition performance.
+\item \textbf{Random noise baseline}: Gaussian white noise added at the \emph{same SNR} as the adversarial perturbation (Voxtral: $20.6$\,dB; OpenS2S: $16.4$\,dB), evaluated identically.
+This controls for the possibility that any acoustic degradation, regardless of structure, could shift emotion predictions toward the target class.
+\end{packeditemize}
+
+%%% ----------------------------------------------------------------
+\subsection{Transfer Attack Results}
+\label{sec:bb_results}
+
+Table~\ref{tab:blackbox-transfer} reports the targeted transfer ASR across all surrogate--target combinations.
+
+\begin{table}[t]
+\centering
+\caption{Black-box targeted transfer ASR (\%) across surrogate--target combinations.
+Each cell shows the fraction of adversarial samples whose majority-vote label equals the target emotion \texttt{happy}.
+Values $> 15\%$ are \textbf{bolded}; dashes indicate experiments pending execution.}
+\label{tab:blackbox-transfer}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{l ccccc}
+\toprule
+& \multicolumn{2}{c}{\textbf{Google}} & \textbf{OpenAI} & \multicolumn{2}{c}{\textbf{Alibaba}} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-4} \cmidrule(lr){5-6}
+\textbf{Surrogate} & \textbf{Gemini Flash} & \textbf{Gemini Pro} & \textbf{GPT-4o Audio} & \textbf{Qwen3-Omni} & \textbf{Qwen-Turbo} \\
+\midrule
+Voxtral EN ($n{=}914$)  &  7.88  & 12.47          & ---  & \textbf{19.69} & \textbf{33.15} \\
+Voxtral CN ($n{=}962$)  &  9.36  &  0.94          & ---  & \textbf{30.98} & \textbf{34.20} \\
+OpenS2S EN ($n{=}944$)  &  5.93  &  0.00          & ---  & 14.09          & \textbf{22.78} \\
+OpenS2S CN ($n{=}774$)  & 10.72  &  0.00          & ---  & \textbf{32.30} & \textbf{37.34} \\
+\midrule
+\textbf{Average}        &  8.47  &  3.35          & ---  & \textbf{24.27} & \textbf{31.87} \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\bheading{Key findings.}
+With 16 of 20 surrogate--target cells populated (GPT-4o Audio pending API access), several robust patterns emerge:
+
+\begin{packeditemize}
+\item \textbf{Substantial targeted transfer.}
+The highest single-cell ASR reaches $37.34\%$ (OpenS2S~CN $\to$ Qwen-Omni-Turbo), and column averages for the two Qwen targets exceed $24\%$ and $31\%$ respectively---far above the $\leq\!10.5\%$ \textit{untargeted} prediction change rate of traditional SER attacks evaluated in Section~\ref{sec:obs_q3}, despite operating in a strictly more difficult targeted setting.
+
+\item \textbf{Strong target-dependent hierarchy.}
+The four tested targets fall into three tiers: Qwen-Omni-Turbo is the most vulnerable (avg.\ $31.87\%$), followed by Qwen3-Omni-Flash ($24.27\%$) and Gemini Flash ($8.47\%$), while Gemini Pro is near-immune (avg.\ $3.35\%$, with $0.00\%$ for both OpenS2S surrogates).
+
+\item \textbf{Surrogate and language effects.}
+Chinese surrogates consistently outperform their English counterparts on Qwen targets (e.g., OpenS2S~CN $32.30\%$ vs.\ OpenS2S~EN $14.09\%$ on Qwen3-Omni-Flash), and OpenS2S~CN emerges as the strongest overall surrogate---contrary to the initial hypothesis that Voxtral's diffuse representations would produce more transferable perturbations (Section~\ref{sec:bb_analysis}).
+
+\item \textbf{Emotion-specific transfer patterns.}
+Per-emotion analysis (Table~\ref{tab:bb_per_emotion}) reveals that \texttt{surprise}$\to$\texttt{happy} transfers most readily across nearly all combinations, while \texttt{neutral}$\to$\texttt{happy} is generally the hardest.
+This ordering is broadly consistent with the emotion topology characterized in Section~\ref{sec:clean-emotion-observation}.
+\end{packeditemize}
+
+%%% ----------------------------------------------------------------
+\subsection{Analysis}
+\label{sec:bb_analysis}
+
+\paragraph{Per-emotion transfer ASR.}
+Table~\ref{tab:bb_per_emotion} reports per-source-emotion transfer ASR averaged across all four surrogates.
+Unlike the white-box setting where \texttt{angry} was the hardest to flip (Section~\ref{sec:exp_asr}), the black-box transfer regime reveals a different hierarchy: \texttt{surprise}$\to$\texttt{happy} is consistently the easiest transition on three of four targets, reaching $46.02\%$ on Qwen-Omni-Turbo, while \texttt{neutral}$\to$\texttt{happy} is the hardest on three of four targets.
+This shift suggests that white-box optimization difficulty and black-box transferability are governed by different factors: the former by the source emotion's structural anchoring strength within the surrogate, the latter by the degree to which the adversarial direction aligns with a transferable emotion subspace shared across architectures.
+On Gemini~Pro, the pattern collapses entirely: only \texttt{angry}-sourced samples transfer at all ($10.44\%$), while the remaining three source emotions yield near-zero ASR, consistent with this target's overall near-immunity.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Per-source-emotion targeted transfer ASR (\%), averaged across all four surrogates. GPT-4o Audio is excluded (pending API access).}
+\label{tab:bb_per_emotion}
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{l cccc}
+\toprule
+\textbf{Target} & \texttt{angry} & \texttt{sad} & \texttt{neutral} & \texttt{surprise} \\
+\midrule
+Gemini 2.5 Flash  &  9.71  &  6.00  &  4.62  & 13.56 \\
+Gemini 2.5 Pro    & 10.44  &  0.00  &  3.28  &  0.00 \\
+Qwen3-Omni-Flash  & \textbf{23.95} & \textbf{24.66} & \textbf{19.21} & \textbf{29.07} \\
+Qwen-Omni-Turbo   & \textbf{30.47} & \textbf{25.79} & \textbf{24.77} & \textbf{46.02} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Prediction shift distribution.}
+Figure~\ref{fig:bb_pred_shift} shows the distribution of API predictions on adversarial audio across all 16 tested surrogate--target pairs.
+Across all four targets, adversarial audio that fails to transfer to the target emotion \texttt{happy} is predominantly classified as \texttt{neutral}, accounting for the majority of non-target predictions.
+This neutral-dominant failure mode echoes the model-specific bias patterns identified in Section~\ref{sec:obs-allm-universal}---where Voxtral exhibits a neutral fallback under uncertainty---and suggests that the closed-source targets share a similar ``safe default'' behavior, retreating to a neutral prediction rather than committing to a specific emotion under adversarial input.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figure/blackbox_pred_shift.pdf}
+\caption{Distribution of black-box API predictions on adversarial audio.
+The target emotion \texttt{happy} and the dominant non-target class \texttt{neutral} are highlighted, illustrating the neutral attractor phenomenon that adversarial perturbations must overcome for successful transfer.}
+\label{fig:bb_pred_shift}
+\end{figure}
+
+\paragraph{Clean vs.\ adversarial comparison.}
+Table~\ref{tab:bb_three_way} contrasts the clean-audio baseline with adversarial transfer, isolating the net adversarial effect.
+Two clean-side metrics are reported: \emph{Clean Acc.}\ measures classification accuracy against ground-truth emotion labels, and \emph{Clean Happy} measures the fraction of clean samples already classified as the target emotion \texttt{happy} by the target API.
+The difference $\Delta = \text{Adv.\ ASR} - \text{Clean Happy}$ quantifies the incremental contribution of the adversarial perturbation beyond the target API's natural tendency to predict \texttt{happy}.
+
+Several patterns stand out.
+First, all four target APIs exhibit low clean accuracy ($0{-}47\%$), confirming that commercial ALLMs are not reliable emotion classifiers even on clean audio---a finding consistent with Section~\ref{sec:clean-emotion-observation}.
+Second, the net adversarial effect $\Delta$ is large and positive for most combinations (up to $+29.72$\,pp for OpenS2S~CN $\to$ Qwen-Omni-Turbo), demonstrating that the adversarial perturbation genuinely shifts predictions toward the target class well beyond baseline levels.
+Third, the only negative $\Delta$ values appear on Gemini~Pro ($-2.65$ and $-4.26$\,pp for the two OpenS2S surrogates), where the adversarial perturbation not only fails to induce the target emotion but actually \emph{reduces} the happy prediction rate below the clean baseline---suggesting that Gemini~Pro's robustness may involve an active mechanism that suppresses adversarial signals rather than merely ignoring them.
+Random-noise baselines are pending execution and will be reported in the final version.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Clean vs.\ adversarial comparison. Clean Acc.: classification accuracy (\%) against ground-truth labels. Clean Happy: fraction (\%) of clean samples labeled \texttt{happy} by the target API. Adv.\ ASR: targeted transfer rate (\%). $\Delta$: net adversarial effect (Adv.\ ASR $-$ Clean Happy, in percentage points).}
+\label{tab:bb_three_way}
+\setlength{\tabcolsep}{3pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{ll cccc}
+\toprule
+\textbf{Surrogate} & \textbf{Target} & \textbf{Clean Acc.} & \textbf{Clean Happy} & \textbf{Adv.\ ASR} & \textbf{$\Delta$} \\
+\midrule
+\multirow{4}{*}{Voxtral EN}
+  & Gemini Flash   &  4.27  &  0.98  &  7.88  & $+6.90$ \\
+  & Gemini Pro     &  0.00  &  0.00  & 12.47  & $+12.47$ \\
+  & Qwen3-Omni     & 29.32  &  8.86  & 19.69  & $+10.83$ \\
+  & Qwen-Turbo     & 33.26  &  8.64  & 33.15  & $+24.51$ \\
+\midrule
+\multirow{4}{*}{Voxtral CN}
+  & Gemini Flash   &  0.00  &  0.00  &  9.36  & $+9.36$ \\
+  & Gemini Pro     &  0.00  &  0.10  &  0.94  & $+0.84$ \\
+  & Qwen3-Omni     & 24.01  & 25.57  & 30.98  & $+5.41$ \\
+  & Qwen-Turbo     & 46.88  & 18.19  & 34.20  & $+16.01$ \\
+\midrule
+\multirow{4}{*}{OpenS2S EN}
+  & Gemini Flash   &  4.77  &  2.12  &  5.93  & $+3.81$ \\
+  & Gemini Pro     &  4.13  &  2.65  &  0.00  & $-2.65$ \\
+  & Qwen3-Omni     & 29.98  &  8.37  & 14.09  & $+5.72$ \\
+  & Qwen-Turbo     & 34.11  &  7.94  & 22.78  & $+14.84$ \\
+\midrule
+\multirow{4}{*}{OpenS2S CN}
+  & Gemini Flash   &  8.91  &  6.20  & 10.72  & $+4.52$ \\
+  & Gemini Pro     &  6.85  &  4.26  &  0.00  & $-4.26$ \\
+  & Qwen3-Omni     &  5.56  &  7.49  & 32.30  & $+24.81$ \\
+  & Qwen-Turbo     &  4.91  &  7.62  & 37.34  & $+29.72$ \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\paragraph{Cross-surrogate comparison.}
+The $4 \times 5$ matrix in Table~\ref{tab:blackbox-transfer} enables a controlled comparison between Voxtral- and OpenS2S-generated adversarial audio.
+Averaging across the four available targets per surrogate, the ranking is: OpenS2S~CN ($20.09\%$) $>$ Voxtral~CN ($18.87\%$) $\approx$ Voxtral~EN ($18.30\%$) $>$ OpenS2S~EN ($10.70\%$).
+Two observations emerge.
+First, the surrogate \emph{language} matters more than the surrogate \emph{architecture}: within each architecture, the Chinese variant substantially outperforms its English counterpart (OpenS2S~CN vs.\ EN: $+9.39$\,pp; Voxtral~CN vs.\ EN on Qwen3-Omni: $+11.29$\,pp).
+Second, the initial hypothesis that Voxtral's diffuse emotion representation (Section~\ref{sec:exp_asr}) would produce more transferable perturbations is \emph{not} supported: OpenS2S~CN achieves the highest average ASR despite OpenS2S's more compact emotion geometry.
+This suggests that the transferable component of adversarial perturbations may reside primarily in \emph{low-level acoustic patterns} (e.g., prosodic cues) rather than in the high-level representation geometry of the surrogate.
+
+\paragraph{Cross-language comparison.}
+Table~\ref{tab:bb_language} contrasts EN and CN adversarial samples from the same surrogate architecture on the same target.
+Chinese surrogates produce higher ASR on Qwen targets in six of six available comparisons, with $\Delta$ ranging from $+1.05$\,pp to $+18.21$\,pp.
+The advantage is particularly pronounced for OpenS2S (avg.\ $\Delta = +12.39$\,pp on Qwen targets), suggesting that Chinese prosodic cues transfer more effectively to Alibaba's Qwen family---plausibly because these models were trained predominantly on Chinese audio data.
+Conversely, on Google's Gemini targets the language effect is inconsistent: Voxtral~EN substantially outperforms Voxtral~CN on Gemini~Pro ($12.47\%$ vs.\ $0.94\%$, $\Delta = -11.53$\,pp), while CN slightly outperforms EN on Gemini Flash.
+This asymmetry suggests that the language advantage is \emph{target-dependent} and may reflect the target model's own training language distribution rather than a universal property of the adversarial perturbations.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Cross-language transfer comparison: targeted ASR (\%) for EN vs.\ CN adversarial audio from the same surrogate family on the same target model. GPT-4o Audio excluded (pending API access).}
+\label{tab:bb_language}
+\setlength{\tabcolsep}{4pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{ll cc c}
+\toprule
+\textbf{Surrogate} & \textbf{Target} & \textbf{EN ASR} & \textbf{CN ASR} & \textbf{$\Delta$(CN$-$EN)} \\
+\midrule
+\multirow{4}{*}{Voxtral}
+  & Gemini Flash   &  7.88  &  9.36  & $+1.48$ \\
+  & Gemini Pro     & 12.47  &  0.94  & $-11.53$ \\
+  & Qwen3-Omni     & 19.69  & 30.98  & $+11.29$ \\
+  & Qwen-Turbo     & 33.15  & 34.20  & $+1.05$ \\
+\midrule
+\multirow{4}{*}{OpenS2S}
+  & Gemini Flash   &  5.93  & 10.72  & $+4.79$ \\
+  & Gemini Pro     &  0.00  &  0.00  & $0.00$ \\
+  & Qwen3-Omni     & 14.09  & 32.30  & $+18.21$ \\
+  & Qwen-Turbo     & 22.78  & 37.34  & $+14.56$ \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+%%% ----------------------------------------------------------------
+\subsection{Summary}
+\label{sec:bb_summary}
+
+Even under the most restrictive black-box setting---zero-query transfer with no adaptation---adversarial audio generated by TEMPO on a white-box surrogate transfers to closed-source commercial ALLMs at targeted rates up to $37.34\%$ (OpenS2S~CN $\to$ Qwen-Omni-Turbo), far exceeding the $\leq\!10.5\%$ \textit{untargeted} prediction change rate achieved by traditional SER attacks under $3.75\times$ larger perturbation budgets.
+The $4 \times 4$ evaluation matrix (GPT-4o Audio pending API access) reveals a clear target-dependent hierarchy: Alibaba's Qwen family is most vulnerable (avg.\ $24{-}32\%$), Google's Gemini~Flash shows moderate transfer ($8.47\%$), and Gemini~Pro is near-immune ($3.35\%$).
+Chinese surrogates consistently outperform English ones on Qwen targets, and the surrogate language matters more than the surrogate architecture---contradicting the initial hypothesis that Voxtral's diffuse representations would produce more transferable perturbations.
+Per-emotion analysis confirms that \texttt{surprise}$\to$\texttt{happy} is the easiest cross-architecture transition while \texttt{neutral}$\to$\texttt{happy} is the hardest, consistent with the emotion topology characterized in our observation study.
+The clean-vs.-adversarial comparison shows net adversarial effects up to $+29.72$\,pp, confirming that the adversarial perturbation genuinely shifts target-model predictions beyond baseline levels.
+These results demonstrate that the adversarial vulnerability uncovered by our white-box analysis extends to commercially deployed systems across two continents and three providers, indicating a structural property in how current ALLMs process emotional information.

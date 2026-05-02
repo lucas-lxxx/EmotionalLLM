@@ -1,0 +1,71 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+INFO:src.configuration_omnispeech:audio encoder config is None. Initializing with qwen2_audio_encoder
+INFO:src.configuration_omnispeech:llm config is None. Initializing with qwen3
+INFO:src.configuration_omnispeech:tts lm config is None. Initializing with qwen3
+You are attempting to use Flash Attention 2 without specifying a torch dtype. This might lead to unexpected behaviour
+Scanning dataset: /data1/lixiang/OpenS2S_dataset/ESD/EN
+Found 10 speakers
+Target emotions: ['angry', 'neutral', 'sad', 'surprise']
+Samples per emotion: 25
+Speaker 0017: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0015: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0011: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0013: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0012: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0014: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0016: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0018: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0019: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Speaker 0020: 100 samples (angry: 350, neutral: 350, sad: 350, surprise: 350)
+Total samples to process: 1000
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 69.76it/s]
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+`generation_config` default values have been modified to match model-specific defaults: {'bos_token_id': 151643}. If this is not desired, please set these values explicitly.
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2. Creating a new one with mean pooling.
+Enabled gradient checkpointing on llm_model
+Enabled gradient checkpointing on audio_encoder_model
+Traceback (most recent call last):
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/transformers/utils/hub.py", line 479, in cached_files
+    hf_hub_download(
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1007, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1114, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1646, in _raise_on_head_call_error
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: Cannot find the requested files in the disk cache and outgoing traffic has been disabled. To enable hf.co look-ups and downloads online, set 'local_files_only' to False.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data1/lixiang/EmotionalLLM/code/white_box_opens2s_v2/experiment/run_attack.py", line 400, in <module>
+    main(args)
+  File "/data1/lixiang/EmotionalLLM/code/white_box_opens2s_v2/experiment/run_attack.py", line 298, in main
+    semantic_sim = compute_semantic_similarity(
+  File "/data1/lixiang/EmotionalLLM/code/white_box_opens2s_v2/experiment/eval_metrics.py", line 27, in compute_semantic_similarity
+    model = _get_semantic_model(model_name)
+  File "/data1/lixiang/EmotionalLLM/code/white_box_opens2s_v2/experiment/eval_metrics.py", line 17, in _get_semantic_model
+    _semantic_model = SentenceTransformer(model_name, device="cpu")
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/sentence_transformers/SentenceTransformer.py", line 339, in __init__
+    modules = self._load_auto_model(
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/sentence_transformers/SentenceTransformer.py", line 2112, in _load_auto_model
+    transformer_model = Transformer(
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/sentence_transformers/models/Transformer.py", line 88, in __init__
+    config, is_peft_model = self._load_config(model_name_or_path, cache_dir, backend, config_args)
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/sentence_transformers/models/Transformer.py", line 163, in _load_config
+    return AutoConfig.from_pretrained(model_name_or_path, **config_args, cache_dir=cache_dir), False
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 1332, in from_pretrained
+    config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/transformers/configuration_utils.py", line 662, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/transformers/configuration_utils.py", line 721, in _get_config_dict
+    resolved_config_file = cached_file(
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/transformers/utils/hub.py", line 322, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/data1/lixiang/miniconda3/envs/opens2s/lib/python3.10/site-packages/transformers/utils/hub.py", line 553, in cached_files
+    raise OSError(
+OSError: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
